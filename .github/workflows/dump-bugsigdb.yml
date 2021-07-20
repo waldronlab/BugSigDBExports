@@ -1,0 +1,41 @@
+on:
+  schedule:
+    - cron: "0 5 * * 6"
+
+name: Dump BugSigDB
+
+env:
+  bioconductor_release: RELEASE_3_13
+  bugsigdb_version: 1.0.0
+
+jobs:
+  dump-bugsigdb:
+    runs-on: ubuntu-latest
+    container: bioconductor/bioconductor_docker:${{ env.bioconductor_release }}
+
+    steps:
+
+      - name: Setup git config
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "<>"
+
+      - name: Checkout repo
+        uses: actions/checkout@v2
+        with:
+          path: BugSigDBExports
+
+      - name: Checkout bugsigdbr 
+        uses: actions/checkout@v2
+        with:
+          repository: waldronlab/bugsigdbr
+          path: bugsigdbr
+
+      - name: Export BugSigDB
+        run: Rscript $version ${{ GITHUB_WORKSPACE }}/BugSigDBExports
+
+      - name: Commit Exports
+        run: |
+          git add ${{ GITHUB_WORKSPACE }}/BugSigDBExports/*
+          git commit -m "Update files"
+          git push origin main
