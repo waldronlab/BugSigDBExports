@@ -1,17 +1,20 @@
 on:
-  schedule:
-    - cron: "0 5 * * 6"
+  workflow:
+    inputs:
+      bugSigDBVersion:
+        description: "BugSigDB Export Version"
+        required: true
+      bioconductorRelease:
+        description: "Bioconductor Docker Release"
+        required: true
+        default: RELEASE_3_13
 
 name: Dump BugSigDB
-
-env:
-  bioconductor_release: RELEASE_3_13
-  bugsigdb_version: 1.0.0
 
 jobs:
   dump-bugsigdb:
     runs-on: ubuntu-latest
-    container: bioconductor/bioconductor_docker:${{ env.bioconductor_release }}
+    container: bioconductor/bioconductor_docker:${{ github.event.inputs.bioconductorRelease }}
 
     steps:
 
@@ -32,7 +35,7 @@ jobs:
           path: bugsigdbr
 
       - name: Export BugSigDB
-        run: Rscript $version ${{ GITHUB_WORKSPACE }}/BugSigDBExports
+        run: Rscript ${{ github.event.inputs.bugSigDBVersion }} ${{ GITHUB_WORKSPACE }}/BugSigDBExports
 
       - name: Commit Exports
         run: |
