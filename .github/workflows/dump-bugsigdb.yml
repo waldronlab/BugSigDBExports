@@ -1,5 +1,5 @@
 on:
-  workflow:
+  workflow_dispatch:
     inputs:
       bugSigDBVersion:
         description: "BugSigDB Export Version"
