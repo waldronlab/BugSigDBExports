@@ -18,11 +18,6 @@ jobs:
 
     steps:
 
-      - name: Setup git config
-        run: |
-          git config user.name "GitHub Actions Bot"
-          git config user.email "<>"
-
       - name: Checkout repo
         uses: actions/checkout@v2
         with:
@@ -34,11 +29,18 @@ jobs:
           repository: waldronlab/bugsigdbr
           path: bugsigdbr
 
+      - name: Setup git config
+        run: |
+          cd $GITHUB_WORKSPACE/BugSigDBExports # Because we need to be a repository
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
+
       - name: Export BugSigDB
-        run: Rscript -e ${{ github.event.inputs.bugSigDBVersion }} $GITHUB_WORKSPACE/BugSigDBExports
+        run: Rscript $GITHUB_WORKSPACE/bugsigdbr/inst/scripts/dump_release.R ${{ github.event.inputs.bugSigDBVersion }} $GITHUB_WORKSPACE/BugSigDBExports
 
       - name: Commit Exports
         run: |
+          git switch -c new-exports
           git add $GITHUB_WORKSPACE/BugSigDBExports/*
           git commit -m "Update files"
-          git push origin main
+          git push origin new-exports
