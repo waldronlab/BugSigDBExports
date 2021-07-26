@@ -9,10 +9,10 @@ on:
         required: true
         default: RELEASE_3_13
 
-name: Dump BugSigDB
+name: Export BugSigDB
 
 jobs:
-  dump-bugsigdb:
+  export-bugsigdb:
     runs-on: ubuntu-latest
     container: bioconductor/bioconductor_docker:${{ github.event.inputs.bioconductorRelease }}
 
@@ -35,10 +35,10 @@ jobs:
           path: bugsigdbr
 
       - name: Export BugSigDB
-        run: Rscript ${{ github.event.inputs.bugSigDBVersion }} ${{ GITHUB_WORKSPACE }}/BugSigDBExports
+        run: Rscript -e ${{ github.event.inputs.bugSigDBVersion }} $GITHUB_WORKSPACE/BugSigDBExports
 
       - name: Commit Exports
         run: |
-          git add ${{ GITHUB_WORKSPACE }}/BugSigDBExports/*
+          git add $GITHUB_WORKSPACE/BugSigDBExports/*
           git commit -m "Update files"
           git push origin main
