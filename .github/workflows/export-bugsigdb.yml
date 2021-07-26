@@ -45,7 +45,8 @@ jobs:
 
       - name: Commit Exports
         run: |
+          cd $GITHUB_WORKSPACE/BugSigDBExports
           git switch -c new-exports
-          git add $GITHUB_WORKSPACE/BugSigDBExports/*
+          git add .
           git commit -m "Update files"
           git push origin new-exports
