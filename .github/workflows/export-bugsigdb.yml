@@ -35,6 +35,11 @@ jobs:
           git config user.name "GitHub Actions Bot"
           git config user.email "actions@github.com"
 
+      - name: Install bugsigdbr 
+        run: |
+          cd $GITHUB_WORKSPACE/bugsigdbr
+          Rscript -e "devtools::install()"
+
       - name: Export BugSigDB
         run: Rscript $GITHUB_WORKSPACE/bugsigdbr/inst/scripts/dump_release.R ${{ github.event.inputs.bugSigDBVersion }} $GITHUB_WORKSPACE/BugSigDBExports
 
