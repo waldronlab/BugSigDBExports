@@ -3,7 +3,7 @@ on:
     inputs:
       bugSigDBVersion:
         description: "BugSigDB Export Version"
-        required: true
+        required: false
       bioconductorRelease:
         description: "Bioconductor Docker Release"
         required: true
