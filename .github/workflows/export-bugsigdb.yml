@@ -41,7 +41,17 @@ jobs:
           Rscript -e "devtools::install()"
 
       - name: Export BugSigDB
-        run: Rscript $GITHUB_WORKSPACE/bugsigdbr/inst/scripts/dump_release.R ${{ github.event.inputs.bugSigDBVersion }} $GITHUB_WORKSPACE/BugSigDBExports
+        run: |
+          if [[ -z "${VERSION}" ]]; then
+              # Get version and increment patch number to determine the new version
+              VERSION=$(head $GITHUB_WORKSPACE/BugSigDBExports/full_dump.tab | awk '/^[#]/ {print substr($3, 1, length($3)-1)}')
+              PATCH=${VERSION##*.}
+              NEW_PATCH=$((PATCH + 1))
+              VERSION=${VERSION%.*}.$NEW_PATCH
+          fi
+          Rscript $GITHUB_WORKSPACE/bugsigdbr/inst/scripts/dump_release.R $VERSION $GITHUB_WORKSPACE/BugSigDBExports
+        with:
+          VERSION: ${{ github.event.inputs.bugSigDBVersion }}
 
       - name: Commit Exports
         run: |
