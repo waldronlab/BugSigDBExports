@@ -42,6 +42,7 @@ jobs:
 
       - name: Export BugSigDB
         run: |
+          VERSION=${{ github.event.inputs.bugSigDBVersion }}
           if [[ -z "${VERSION}" ]]; then
               # Get version and increment patch number to determine the new version
               VERSION=$(head $GITHUB_WORKSPACE/BugSigDBExports/full_dump.tab | awk '/^[#]/ {print substr($3, 1, length($3)-1)}')
@@ -50,8 +51,6 @@ jobs:
               VERSION=${VERSION%.*}.$NEW_PATCH
           fi
           Rscript $GITHUB_WORKSPACE/bugsigdbr/inst/scripts/dump_release.R $VERSION $GITHUB_WORKSPACE/BugSigDBExports
-        with:
-          VERSION: ${{ github.event.inputs.bugSigDBVersion }}
 
       - name: Commit Exports
         run: |
