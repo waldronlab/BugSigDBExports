@@ -1,20 +1,13 @@
 on:
-  workflow_dispatch:
-    inputs:
-      bugSigDBVersion:
-        description: "BugSigDB Export Version"
-        required: false
-      bioconductorRelease:
-        description: "Bioconductor Docker Release"
-        required: true
-        default: RELEASE_3_13
+  schedule:
+    - cron: "0 22 * * 0" # UTC Time
 
 name: Export BugSigDB
 
 jobs:
   export-bugsigdb:
     runs-on: ubuntu-latest
-    container: bioconductor/bioconductor_docker:${{ github.event.inputs.bioconductorRelease }}
+    container: bioconductor/bioconductor_docker:RELEASE_3_13
 
     steps:
 
@@ -42,20 +35,12 @@ jobs:
 
       - name: Export BugSigDB
         run: |
-          VERSION=${{ github.event.inputs.bugSigDBVersion }}
-          if [ -z "${VERSION}" ]; then
-              # Get version and increment patch number to determine the new version
-              VERSION=$(head $GITHUB_WORKSPACE/BugSigDBExports/full_dump.tab | awk '/^[#]/ {print substr($3, 1, length($3)-1)}')
-              PATCH=${VERSION##*.}
-              NEW_PATCH=$((PATCH + 1))
-              VERSION=${VERSION%.*}.$NEW_PATCH
-          fi
-          Rscript $GITHUB_WORKSPACE/bugsigdbr/inst/scripts/dump_release.R $VERSION $GITHUB_WORKSPACE/BugSigDBExports
+          echo $(date)
+          Rscript $GITHUB_WORKSPACE/bugsigdbr/inst/scripts/dump_release.R $(date +'%F') $GITHUB_WORKSPACE/BugSigDBExports
 
       - name: Commit Exports
         run: |
           cd $GITHUB_WORKSPACE/BugSigDBExports
-          git switch -c new-exports
           git add .
-          git commit -m "Update files"
-          git push origin new-exports
+          git commit -m "Weekly export update"
+          git push origin main
