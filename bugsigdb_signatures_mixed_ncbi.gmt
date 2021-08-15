@@ -1,4 +1,4 @@
-# BugSigDB 2021-08-08, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2021-08-15, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_adenoma:conventional-adenoma-cases_vs_controls_UP	NA	91061	1236	1654	1716	1301	162289	189330	33024	40544	2037	2049	506	186826	1300	31977	91347	1653	57037	1386	186817
 bsdb:1/1/2_adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	100883	1117
 bsdb:1/2/1_hyperplastic-polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	207244	57037
@@ -96,10 +96,10 @@ bsdb:30/2/2_chronic-fatigue-syndrome:Norweigan-CFS/ME-patients_vs_Norweigan-cont
 bsdb:30/3/1_chronic-fatigue-syndrome:Belgian-CFS/ME-patients_vs_Belgian-controls_UP	NA	420345
 bsdb:30/3/2_chronic-fatigue-syndrome:Belgian-CFS/ME-patients_vs_Belgian-controls_DOWN	NA	553372
 bsdb:31/1/1_chronic-fatigue-syndrome:CFS/ME-patients_vs_controls_UP	NA	207244	105841	31979	1485	100883	333367	1017280	106588	29347	1512	33038	100884
-bsdb:31/1/2_chronic-fatigue-syndrome:CFS/ME-patients_vs_controls_DOWN	NA	28117	39488	33042	116085	189330	39486	88431	39496	216851	853	1378	724	729	186803	823	712	135625	841	360807	40520
+bsdb:31/1/2_chronic-fatigue-syndrome:CFS/ME-patients_vs_controls_DOWN	NA	28117	39488	40520	33042	116085	189330	39486	88431	39496	216851	853	1378	724	729	186803	823	712	135625	841	360807	1971605
 bsdb:31/2/1_chronic-fatigue-syndrome:CFS/ME-patients-with-IBS_vs_controls_UP	NA	105841	1485	31979	208479	207244
-bsdb:31/2/2_chronic-fatigue-syndrome:CFS/ME-patients-with-IBS_vs_controls_DOWN	NA	186803	116085	853	39486	841	39488	88431	189330	410072	33042	360807	216851
-bsdb:31/3/1_chronic-fatigue-syndrome:CFS/ME-patients-without-IBS_vs_controls_UP	NA	351	31979	1485	100883	88431	84111	84112	1017280	106588	72274	286	29347	1512	33038	100884
+bsdb:31/2/2_chronic-fatigue-syndrome:CFS/ME-patients-with-IBS_vs_controls_DOWN	NA	39488	33042	116085	410072	189330	39486	88431	216851	853	186803	841	360807	1971605	40520
+bsdb:31/3/1_chronic-fatigue-syndrome:CFS/ME-patients-without-IBS_vs_controls_UP	NA	351	31979	1485	100883	100884	88431	84111	84112	1017280	106588	72274	286	29347	1512	33038	1506
 bsdb:31/3/2_chronic-fatigue-syndrome:CFS/ME-patients-without-IBS_vs_controls_DOWN	NA	116085	823	39486	189330
 bsdb:32/1/1_anorexia-nervosa:Aonerxia-Nervosa-patients_vs_Controls_UP	NA	1224	543	2173
 bsdb:32/1/2_anorexia-nervosa:Aonerxia-Nervosa-patients_vs_Controls_DOWN	NA	1239	541000	1263	841	1485
@@ -295,7 +295,7 @@ bsdb:77/1/2_bipolar-disorder:atypical-antipsychotic-users_vs_non-users_DOWN	NA	2
 bsdb:78/1/1_stimulus-or-stress-design:limited-nesting-stress_vs_controls_UP	NA	1350	1301	2740	1375	227979	66831	1485	1716	872	117563	32207	583	31979	100883	1357	1300	81852	191303	2316
 bsdb:78/1/2_stimulus-or-stress-design:limited-nesting-stress_vs_controls_DOWN	NA	1263	841	33042	1263076	239935	248039	1573535	541000	2005519	1279	375288	186807	128827	186802	28050	244127	724	283168
 bsdb:79/1/1_obesity:Laparoscopic-sleeve-gastrectomy-baseline_vs_Laparoscopic-sleeve-gastrectomy-after-3-months-and-6-Months-combined_UP	NA	186801	186802	541000	33042	189330	1263	469593	411489	1263107	88431
-bsdb:79/2/1_obesity:Very-low-calorie-diet-baseline_vs_very-low-calorie-diet-after-3-months-and-6-months_DOWN	NA	32066	91061	186826	203491	81852	186804	541000	203492	1350	1578	265975	1263	100883	61170	1352	84030	556261	411486	1512	1736	53443
+bsdb:79/2/1_obesity:Very-low-calorie-diet-baseline_vs_very-low-calorie-diet-after-3-months-and-6-months_DOWN	NA	91061	53443	556261	411486	100883	81852	1350	1352	1736	32066	203492	203491	61170	84030	186826	1578	265975	541000	186804	1263	1512	100884
 bsdb:80/1/1_type-I-diabetes-mellitus:Type-I-diabetic-children-at-onset_vs_controls_UP	NA	816
 bsdb:80/1/2_type-I-diabetes-mellitus:Type-I-diabetic-children-at-onset_vs_controls_DOWN	NA	838	904	158846
 bsdb:81/1/1_obesity:3-Months-after-Roux-en-Y-gastric-bypass-surgery_vs_baseline_UP	NA	562	573	1304	39777	29466	1343	1318	39778	1313	1308	113107	239935	1502	68892	1302	1328	46228	328814	28118	1689	1351	187326	169435	32066	1224
@@ -318,7 +318,7 @@ bsdb:86/3/1_cesarean-section:c-section_vs_vaginal-delivery-at-day-28_DOWN	NA	976
 bsdb:86/4/1_cesarean-section:c-section_vs_vaginal-delivery-at-day-150_DOWN	NA	976	816
 bsdb:86/5/1_cesarean-section:c-section_vs_vaginal-delivery-at-day-365_DOWN	NA	976
 bsdb:86/6/1_premature-birth:late-preterm-34-36-weeks_vs_full-term-delivery->39-weeks-at-day-3_DOWN	NA	976
-bsdb:86/7/1_cesarean-section:overall-time-point-infants-samples-of-c-section_vs_vaginal-delivery_UP	NA	32207	547	1350	39948	1301	239934	1279	724	1485	1378	946234	207244	1743	1578
+bsdb:86/7/1_cesarean-section:overall-time-point-infants-samples-of-c-section_vs_vaginal-delivery_UP	NA	239934	207244	1485	39948	547	1350	946234	1378	724	1578	1743	32207	1279	1301	186803
 bsdb:86/7/2_cesarean-section:overall-time-point-infants-samples-of-c-section_vs_vaginal-delivery_DOWN	NA	375288	816	239759
 bsdb:87/1/1_type-I-diabetes-mellitus:Type-I-Diabetics_vs_maturity-onset-diabetes-of-the-young-2-(MODY2)-and-healthy-Controls_UP	NA	976	815	171550	543	572511	541000	31977	1300	816	29465	1263	1301	547	40544
 bsdb:87/1/2_type-I-diabetes-mellitus:Type-I-Diabetics_vs_maturity-onset-diabetes-of-the-young-2-(MODY2)-and-healthy-Controls_DOWN	NA	1239	201174
@@ -360,7 +360,7 @@ bsdb:97/4/1_obesity:obese-patients-3-moths-after-Roux-en-Y-gastric-bypass-RYGB3_
 bsdb:97/4/2_obesity:obese-patients-3-moths-after-Roux-en-Y-gastric-bypass-RYGB3_vs_patients-prior-to-Roux-en-Y-gastric-bypass-RYGB0_DOWN	NA	91061	186826	1300	1301	1308
 bsdb:98/1/1_chronic-kidney-disease:CKD_vs_controls_UP	NA	1224	91347	286	351	1236	563835	629	118969	504481	444	445	631	45401	1664383	186804	613	433	469	68	81	1386	543
 bsdb:98/1/2_chronic-kidney-disease:CKD_vs_controls_DOWN	NA	84994	84993	204432	1705353	911113	332160	1716	213121	186803	1937962	1210119	265	13687	40323	1506577	378494
-bsdb:99/1/1_obesity:obese_vs_controls_UP	NA	861	186803	856	39486	88431	74426	907	40520	410072
+bsdb:99/1/1_obesity:obese_vs_controls_UP	NA	40520	74426	410072	39486	88431	861	856	186803	907	33038	33039	39488
 bsdb:99/1/2_obesity:obese_vs_controls_DOWN	NA	28116	371601	820	818	329854	328814	239935	28117	28118	28111	573	571	729	853	816	239759
 bsdb:100/1/1_obesity:High-BMI_vs_low-BMI_UP	NA	613	838
 bsdb:100/2/1_obesity:Abdominal-obesity_vs_non-abdominal-obesity_UP	NA	613	838
@@ -371,13 +371,13 @@ bsdb:102/1/1_type-II-diabetes-mellitus:Women-with-gestational-DM_vs_normoglycemi
 bsdb:102/1/2_type-II-diabetes-mellitus:Women-with-gestational-DM_vs_normoglycemic-controls_DOWN	NA	1239	186801	186802	171550	572511	239759
 bsdb:103/1/1_unipolar-depression:depressed-female_vs_Healthy-Controls_UP	NA	572511	201174	1654	1678	553372	1380	84111	644652	133925	1730	207244	841	216851	872	84999	186803	31953	85004	135625	712	186806	84107
 bsdb:103/1/2_unipolar-depression:depressed-female_vs_Healthy-Controls_DOWN	NA	404402	40544	638847
-bsdb:103/2/1_unipolar-depression:depressed-male_vs_Healthy-Controls_UP	NA	200643	815	816	29465	1380
+bsdb:103/2/1_unipolar-depression:depressed-male_vs_Healthy-Controls_UP	NA	1380	815	816	200643	29465	128827
 bsdb:103/2/2_unipolar-depression:depressed-male_vs_Healthy-Controls_DOWN	NA	84107	186801	644652	109326	638847
 bsdb:104/1/1_unipolar-depression:major-depressive-disoreder-(visit-1)_vs_healthy-controls_UP	NA	1239	838	570	1301
 bsdb:104/1/2_unipolar-depression:major-depressive-disoreder-(visit-1)_vs_healthy-controls_DOWN	NA	976
 bsdb:104/2/1_unipolar-depression:major-depressive-disoreder-(visit-2)_vs_healthy-controls_UP	NA	1239	838	1301
 bsdb:104/2/2_unipolar-depression:major-depressive-disoreder-(visit-2)_vs_healthy-controls_DOWN	NA	976
-bsdb:104/3/1_unipolar-depression:major-depressive-disoreder-(visit-3)_vs_healthy-controls_UP	NA	1239
+bsdb:104/3/1_unipolar-depression:major-depressive-disoreder-(visit-3)_vs_healthy-controls_UP	NA	1239	186804
 bsdb:104/3/2_unipolar-depression:major-depressive-disoreder-(visit-3)_vs_healthy-controls_DOWN	NA	976
 bsdb:105/1/1_unipolar-depression:bipolar_vs_healthy-controls_DOWN	NA	216851
 bsdb:106/1/1_bipolar-disorder:bipolar_vs_healthy-controls_UP	NA	946234
@@ -417,9 +417,9 @@ bsdb:119/2/2_type-II-diabetes-mellitus:Metaformin-positive_vs_Metaformin-negativ
 bsdb:119/3/1_type-II-diabetes-mellitus:Opoid-positive_vs_opoid-negative-among-Metaformin-negative_UP	NA	1678
 bsdb:119/3/2_type-II-diabetes-mellitus:Opoid-positive_vs_opoid-negative-among-Metaformin-negative_DOWN	NA	838
 bsdb:120/1/1_physical-activity:Activity-Based-Anorexia-group_vs_exercise-group_UP	NA	1224	838	28890	1485	1350	816
-bsdb:120/1/2_physical-activity:Activity-Based-Anorexia-group_vs_exercise-group_DOWN	NA	1578	1678	201174	976	1239	816
+bsdb:120/1/2_physical-activity:Activity-Based-Anorexia-group_vs_exercise-group_DOWN	NA	201174	816	976	1678	1239	1578	39491
 bsdb:120/2/1_physical-activity:Ad-libitum-group_vs_exercise-group_UP	NA	816	838	1239	1350	1485
-bsdb:120/2/2_physical-activity:Ad-libitum-group_vs_exercise-group_DOWN	NA	1578	201174	1678
+bsdb:120/2/2_physical-activity:Ad-libitum-group_vs_exercise-group_DOWN	NA	201174	1678	1578	39491
 bsdb:121/1/1_gingivitis:gingivitis_vs_healthy-controls_UP	NA	976	203691	836	157	195950	837	28131	28124
 bsdb:121/1/2_gingivitis:gingivitis_vs_healthy-controls_DOWN	NA	1016
 bsdb:122/1/1_breast-carcinoma:tumor-tissue_vs_normal-tissue_UP	NA	31998	237	407
@@ -444,7 +444,7 @@ bsdb:127/1/1_alcohol-drinking:alcohol-overconsumers_vs_controls_UP	NA	1224	40544
 bsdb:127/1/2_alcohol-drinking:alcohol-overconsumers_vs_controls_DOWN	NA	216851
 bsdb:127/2/1_alcohol-drinking:alcohol-overconsumers_vs_controls_UP	NA	186803	1224	543	91347	561	570	1485	40544	506	213115	904	581	118747	32207	2383	61170	158846	1268	1737406	2037
 bsdb:127/2/2_alcohol-drinking:alcohol-overconsumers_vs_controls_DOWN	NA	283168	52225	265975	674963	447020	90964	1279	84107	838	102106	84999	84998	201174	171552	216851	186801
-bsdb:128/1/1_gastric-cancer:gastric-cancer_vs_intestinal-metaplasia_UP	NA	1257	848	543311	1578	1301	1283313	838	39948	84108	186806	2740	43996	437755
+bsdb:128/1/1_gastric-cancer:gastric-cancer_vs_intestinal-metaplasia_UP	NA	1283313	43996	39948	186806	848	1578	437755	543311	2740	1257	838	84108	1301
 bsdb:128/1/2_gastric-cancer:gastric-cancer_vs_intestinal-metaplasia_DOWN	NA	469	57739	378210	213465	235572
 bsdb:128/2/1_gastric-cancer:gastric-cancer_vs_atrophic-gastric_UP	NA	1301	1257	1378	848	543311	1578	1730	1283313	838	39948	84108	186806	2740	43996	437755
 bsdb:128/2/2_gastric-cancer:gastric-cancer_vs_atrophic-gastric_DOWN	NA	57739	235572
@@ -483,7 +483,7 @@ bsdb:135/2/2_diet:Low-fiber_vs_high-fiber_DOWN	NA	201174
 bsdb:136/1/1_diet:Low-vegetable,-fruit,-grains,_vs_high-vegetable,-fruit,-grain_UP	NA	815	171551	171552	171550	216572	909930	31977	995019	194924	33958
 bsdb:136/1/2_diet:Low-vegetable,-fruit,-grains,_vs_high-vegetable,-fruit,-grain_DOWN	NA	1485	1730	186803	459786	2159	31953	84107	90964	81852	1300	424536	31979	128827	1239	41297	543	203557
 bsdb:136/2/1_diet:two-weeks-after-a-dietry-intervention_vs_before-dietary-intervention_UP	NA	84112	404403	84111	1358	1679	1357	1301	203557	1350	1300	81852	203494	48461	88431	74201	28211	1730	91061	1680	74426	102106	1485	31979	186802	186801	1678	31953	572511
-bsdb:136/2/2_diet:two-weeks-after-a-dietry-intervention_vs_before-dietary-intervention_DOWN	NA	216851	28221	31977	213115	39485	39948	626940	33958	28111	310297	1263	301301	872	626929	46228	29465	572010	84108
+bsdb:136/2/2_diet:two-weeks-after-a-dietry-intervention_vs_before-dietary-intervention_DOWN	NA	626929	28111	28221	872	213115	39948	216851	39485	33958	626940	310297	301301	1263	84108	572010	29465	31977	46228	39492
 bsdb:137/1/1_colorectal-cancer:CRC_vs_controls_UP	NA	642	848
 bsdb:137/1/2_colorectal-cancer:CRC_vs_controls_DOWN	NA	816	35832	544	413496	189330	1730	841
 bsdb:138/1/1_lung-cancer:lung-cancer_vs_controls_UP	NA	81852	1350	1505663	69965	2037	1654	2049	1392389	160674	1380	1573535	90964
@@ -570,7 +570,7 @@ bsdb:158/2/1_lung-cancer:lung-cancer_vs_healthy-volunteers_UP	NA	976	200643	1715
 bsdb:158/2/2_lung-cancer:lung-cancer_vs_healthy-volunteers_DOWN	NA	186803	39948	547	216851	541000	186802	186801	1224	1239	1236	91347	543	561	620
 bsdb:159/1/1_gingival-disease:1-month-after-the-placement-of-the-brackets_vs_before_UP	NA	713	1016
 bsdb:159/2/1_gingival-disease:3-months-after-the-placement-of-the-brackets_vs_before_UP	NA	1016
-bsdb:159/2/2_gingival-disease:3-months-after-the-placement-of-the-brackets_vs_before_DOWN	NA	117563
+bsdb:159/2/2_gingival-disease:3-months-after-the-placement-of-the-brackets_vs_before_DOWN	NA	117563	1077464
 bsdb:160/1/1_head-and-neck-carcinoma:OCC-&-OPC_vs_High-risk-individuals_DOWN	NA	346096	1716	836	1654	713	1016	848	416916	47670
 bsdb:160/2/1_head-and-neck-carcinoma:OCC-&-OPC_vs_Normal-Healthy-Controls_UP	NA	265975
 bsdb:160/2/2_head-and-neck-carcinoma:OCC-&-OPC_vs_Normal-Healthy-Controls_DOWN	NA	32207	724	1716	346096	836	1016
@@ -600,7 +600,7 @@ bsdb:167/3/1_squamous-cell-carcinoma:Stage-2-&-3_vs_healthy-controls_UP	NA	860	3
 bsdb:167/3/2_squamous-cell-carcinoma:Stage-2-&-3_vs_healthy-controls_DOWN	NA	28132	1660	29466	1583331	729	28037
 bsdb:168/1/1_chronic-hepatitis-B-virus-infection:chronic-hepatitis-B-yellow-tongue-coating-patients_vs_healthy-controls_UP	NA	868	80864	119060	481	283	47670	482	1224
 bsdb:168/1/2_chronic-hepatitis-B-virus-infection:chronic-hepatitis-B-yellow-tongue-coating-patients_vs_healthy-controls_DOWN	NA	31953	72294	196081	1481960	1331051	194	543311
-bsdb:168/2/1_chronic-hepatitis-B-virus-infection:chronic-hepatitis-B-yellow-tongue-coating-patients_vs_chronic-hepatitis-B-white-tongue-coating-patients_UP	NA	481	2093	482	1224
+bsdb:168/2/1_chronic-hepatitis-B-virus-infection:chronic-hepatitis-B-yellow-tongue-coating-patients_vs_chronic-hepatitis-B-white-tongue-coating-patients_UP	NA	2093	482	481	1224	363464
 bsdb:168/2/2_chronic-hepatitis-B-virus-infection:chronic-hepatitis-B-yellow-tongue-coating-patients_vs_chronic-hepatitis-B-white-tongue-coating-patients_DOWN	NA	838	43996	976
 bsdb:168/3/1_chronic-hepatitis-B-virus-infection:chronic-hepatitis-B-white-tongue-coating-patients_vs_healthy-controls_UP	NA	171551	118747	82202	59735	836
 bsdb:168/3/2_chronic-hepatitis-B-virus-infection:chronic-hepatitis-B-white-tongue-coating-patients_vs_healthy-controls_DOWN	NA	868	2049	2092	113286	194195	196081	1654
@@ -685,8 +685,8 @@ bsdb:187/4/2_medroxyprogesterone-acetate:white-participants-after-using-depot-me
 bsdb:188/1/1_cervical-cerclage:Vaginal-microbiome-of-symptomatic-women-prior-ro-cerclage_vs_Vaginal-microbiome-of-asymptomatic-women-prior-to-cerclage_UP	NA	257758	28130	2702	2701
 bsdb:188/1/2_cervical-cerclage:Vaginal-microbiome-of-symptomatic-women-prior-ro-cerclage_vs_Vaginal-microbiome-of-asymptomatic-women-prior-to-cerclage_DOWN	NA	47770
 bsdb:189/1/1_chronic-hepatitis-B-virus-infection:chronic-hepatitis-B-patients_vs_healthy-controls_UP	NA	158846
-bsdb:189/1/2_chronic-hepatitis-B-virus-infection:chronic-hepatitis-B-patients_vs_healthy-controls_DOWN	NA	816	574697	375288	171551
-bsdb:190/1/1_breast-milk-measurement:one-month-age-infants-exposed-to-high-chemical-breast-milk_vs_one-month-age-infants-exposed-to-low-chemical-breast-milk_UP	NA	1485	1300	1350
+bsdb:189/1/2_chronic-hepatitis-B-virus-infection:chronic-hepatitis-B-patients_vs_healthy-controls_DOWN	NA	816	574697	375288	171551	186803	543
+bsdb:190/1/1_breast-milk-measurement:one-month-age-infants-exposed-to-high-chemical-breast-milk_vs_one-month-age-infants-exposed-to-low-chemical-breast-milk_UP	NA	1485	1350	1300	13623
 bsdb:190/1/2_breast-milk-measurement:one-month-age-infants-exposed-to-high-chemical-breast-milk_vs_one-month-age-infants-exposed-to-low-chemical-breast-milk_DOWN	NA	1578	29465
 bsdb:191/1/1_equol:equol-producers_vs_equol-non-producers_UP	NA	394340	572010
 bsdb:192/1/1_irritable-bowel-sydrome:diarrhea-predominant-irritable-bowel-syndrome_vs_healthy-controls_UP	NA	91347	543
@@ -702,8 +702,8 @@ bsdb:195/1/2_chronic-hepatitis-B-virus-infection:chronic-hepatitis-B_vs_healthy-
 bsdb:195/2/1_chronic-hepatitis-B-virus-infection:chronic-hepatitis-B_vs_liver-cirrhosis_UP	NA	44259	157	137	136	203691	203692
 bsdb:195/2/2_chronic-hepatitis-B-virus-infection:chronic-hepatitis-B_vs_liver-cirrhosis_DOWN	NA	28216	481	206351	482
 bsdb:196/1/1_Henoch-Schoenlein-purpura:Henoch-Schönlein-Purpura_vs_controls_UP	NA	29465	203490	32066	203491	1350	81852	31977	158846	171551	375288
-bsdb:196/1/2_Henoch-Schoenlein-purpura:Henoch-Schönlein-Purpura_vs_controls_DOWN	NA	1300	1301	1508657	570	39485	1263	724	712	135625	28050	577310	841	39948	506	80840	28216	990719	1239	186803	186802	186801
-bsdb:197/1/1_asthma:severe-asthma_vs_non-asthma_UP	NA	816	216851	841	1432051	1263	375288	1501226	239759	1730	946234	283168	459786	207244	1016	4753	5277	5533
+bsdb:196/1/2_Henoch-Schoenlein-purpura:Henoch-Schönlein-Purpura_vs_controls_DOWN	NA	506	28216	80840	990719	186801	39948	186802	1239	724	570	28050	39485	186803	577310	712	135625	841	1508657	1263	1300	1301	39491
+bsdb:197/1/1_asthma:severe-asthma_vs_non-asthma_UP	NA	239759	207244	816	1016	1432051	1730	216851	946234	5277	283168	459786	375288	4753	5533	1501226	841	1263
 bsdb:197/1/2_asthma:severe-asthma_vs_non-asthma_DOWN	NA	583	5615	5206	237557
 bsdb:198/1/1_Henoch-Schoenlein-purpura:Henoch-Schönlein-Purpura_vs_controls_UP	NA	206351	481	482	29465	909932	1843489	31977	838	171552	976	200643	171549
 bsdb:198/1/2_Henoch-Schoenlein-purpura:Henoch-Schönlein-Purpura_vs_controls_DOWN	NA	724	135625	712	28211	469	468	72274	1236	1224
@@ -732,7 +732,7 @@ bsdb:208/1/2_food-allergy:infants-with-food-allergies_vs_healthy-controls_DOWN	N
 bsdb:208/1/3_food-allergy:infants-with-food-allergies_vs_healthy-controls_UP	NA	1239	32066
 bsdb:208/1/4_food-allergy:infants-with-food-allergies_vs_healthy-controls_DOWN	NA	976	1224	201174	74201
 bsdb:208/1/5_food-allergy:infants-with-food-allergies_vs_healthy-controls_UP	NA	1485	1350	1578	1279	216851	207244	838	946234
-bsdb:208/1/6_food-allergy:infants-with-food-allergies_vs_healthy-controls_DOWN	NA	816	1301	29465	570	572511	186803	158846	906
+bsdb:208/1/6_food-allergy:infants-with-food-allergies_vs_healthy-controls_DOWN	NA	816	572511	570	186803	158846	906	1301	29465	186804
 bsdb:208/2/1_food-allergy:infants-with-food-allergies_vs_healthy-controls_UP	NA	31979	1485	2	580596	2037	1827	85025	89373
 bsdb:208/2/2_food-allergy:infants-with-food-allergies_vs_healthy-controls_DOWN	NA	906	541000	49546	69277	68287	222	506	200644	84111	237	32033	40323	86331	59732	543314	135614	76892	283
 bsdb:208/3/1_food-allergy:infants-IgE-mediated_vs_infants-non-IgE-mediated_UP	NA	31979	1485	186802	186801
@@ -741,17 +741,17 @@ bsdb:208/4/1_food-allergy:infants-IgE-mediated_vs_infants-non-IgE-mediated_UP	NA
 bsdb:208/4/2_food-allergy:infants-IgE-mediated_vs_infants-non-IgE-mediated_DOWN	NA	816
 bsdb:209/1/1_cesarean-section:c-section-delivery_vs_vaginal-delivery_UP	NA	29465	407	544	1279	1716	1301	12916	1743	117563	469	374	80865	1302778	1578	222	65551	28209	40323	114248	724	88	283	28067	504481	1357	547	150247	357
 bsdb:209/1/2_cesarean-section:c-section-delivery_vs_vaginal-delivery_DOWN	NA	561	816	1485	1678	1350	544	570	158851	620	1279	1716	1301
-bsdb:210/1/1_food-allergy:children-with-food-sensitization_vs_healthy-controls_UP	NA	13687	40544	1678	102106	1485	1350	1578	841	216851	1263	292632	239934
+bsdb:210/1/1_food-allergy:children-with-food-sensitization_vs_healthy-controls_UP	NA	239934	1678	1485	102106	1350	216851	1578	841	1263	13687	292632	40544	216572
 bsdb:210/1/2_food-allergy:children-with-food-sensitization_vs_healthy-controls_DOWN	NA	816	375288	838	239759	1301	29465
-bsdb:210/2/1_food-allergy:children-with-food-sensitization_vs_healthy-controls_UP	NA	1239	186801	28211	186802	292632
+bsdb:210/2/1_food-allergy:children-with-food-sensitization_vs_healthy-controls_UP	NA	28211	186801	186802	1239	292632	216572
 bsdb:210/2/2_food-allergy:children-with-food-sensitization_vs_healthy-controls_DOWN	NA	976	200643	171549	815	816	29465
 bsdb:211/1/1_diet:low-fiber-(Q1-and-Q2)_vs_high-fiber-(Q3-and-Q4)_UP	NA	1654
 bsdb:212/1/1_diet:low-fiber-(Q1-and-Q2)_vs_high-fiber-(Q3-and-Q4)_UP	NA	283168
 bsdb:212/1/2_diet:low-fiber-(Q1-and-Q2)_vs_high-fiber-(Q3-and-Q4)_DOWN	NA	NA
-bsdb:213/1/1_diet:low-fiber-(Q1-and-Q2)_vs_high-fiber-(Q3-and-Q4)_UP	NA	1654	283168	820
+bsdb:213/1/1_diet:low-fiber-(Q1-and-Q2)_vs_high-fiber-(Q3-and-Q4)_UP	NA	1654	820	283168	31971
 bsdb:213/1/2_diet:low-fiber-(Q1-and-Q2)_vs_high-fiber-(Q3-and-Q4)_DOWN	NA	NA
 bsdb:213/2/1_diet:low-fiber-from-FRUITS/VEGETABLES-(Q1-and-Q2)_vs_high-fiber-from-FRUITS/VEGETABLES-(Q3-and-Q4)_UP	NA	1654	283168	820
-bsdb:213/3/1_diet:low-fiber-from-BEANS-(Q1-and-Q2)_vs_high-fiber-from-BEANS-(Q3-and-Q4)_UP	NA	283168
+bsdb:213/3/1_diet:low-fiber-from-BEANS-(Q1-and-Q2)_vs_high-fiber-from-BEANS-(Q3-and-Q4)_UP	NA	283168	31971
 bsdb:213/3/2_diet:low-fiber-from-BEANS-(Q1-and-Q2)_vs_high-fiber-from-BEANS-(Q3-and-Q4)_DOWN	NA	216851	853
 bsdb:214/1/1_milk-allergic-reaction:children-with-milk-allergy-persistence_vs_milk-allergy-resolution_UP	NA	590	547	158851	200643	976	171549
 bsdb:214/1/2_milk-allergic-reaction:children-with-milk-allergy-persistence_vs_milk-allergy-resolution_DOWN	NA	186804	186801	1263	31979	1730	171552	572511	1239
@@ -766,9 +766,9 @@ bsdb:214/1/10_milk-allergic-reaction:children-with-milk-allergy-persistence_vs_m
 bsdb:214/1/11_milk-allergic-reaction:children-with-milk-allergy-persistence_vs_milk-allergy-resolution_UP	NA	590	547	158851	200643	976	171549
 bsdb:214/1/12_milk-allergic-reaction:children-with-milk-allergy-persistence_vs_milk-allergy-resolution_DOWN	NA	186804	31979	1730	572511	186802	186801	1239
 bsdb:215/1/1_eczema:infant-with-eczema_vs_healthy-control_UP	NA	239935	626929	213119	853	745368	186803	541000	186822	46503	310297	171551	28126	82115	203557	33038	239934	207244	2157	35832	33042	28141	872	547	216851	946234	204475	44249	375288	577309	33024	836	379	841	29465
-bsdb:215/1/2_eczema:infant-with-eczema_vs_healthy-control_DOWN	NA	909930	817	31953	1681	1679	85019	186828	31979	84107	1653	85020	128827	1735	33958	712	186804	171552	90964	1300	1304	31977	904	209879	156454	244127	1678	43668	1696	580596	1485	102106	1716	39948	189330	538	526524	117563	724	570	1578	906	459786	838	1263	1301	40544	191303
+bsdb:215/1/2_eczema:infant-with-eczema_vs_healthy-control_DOWN	NA	909930	904	209879	156454	244127	817	31953	1678	1681	1679	43668	85019	1696	580596	186828	31979	1485	102106	84107	1653	1716	85020	39948	189330	538	128827	526524	117563	724	1735	570	33958	1578	906	459786	712	186804	838	171552	1263	90964	1300	1301	1304	40544	191303	31977
 bsdb:216/1/1_cesarean-section:C-section_vs_vaginal-delivery_DOWN	NA	817	28116	821	47678	1679	1380	1686	1350	1502
-bsdb:217/1/1_eczema:child-with-eczema_vs_healthy-control_UP	NA	40518	46228	29361
+bsdb:217/1/1_eczema:child-with-eczema_vs_healthy-control_UP	NA	40518	29361	46228	1535	29343
 bsdb:217/1/2_eczema:child-with-eczema_vs_healthy-control_DOWN	NA	817	28116	310297	46506	820	821	76122	976
 bsdb:217/2/1_age:infant-at-18-months_vs_infant-at-6-months_UP	NA	NA
 bsdb:217/2/2_age:infant-at-18-months_vs_infant-at-6-months_DOWN	NA	201174	91061
@@ -785,7 +785,7 @@ bsdb:219/3/1_diet:lower-fiber-(cracker)_vs_higher-fiber-(almonds)_DOWN	NA	40544
 bsdb:220/1/1_age:older-age-European-women_vs_younger-age_UP	NA	1663	168808	468	72274	1716	28256	2745	135619	481	206351	28216	1224
 bsdb:220/1/2_age:older-age-European-women_vs_younger-age_DOWN	NA	31957	1743	85009
 bsdb:221/1/1_urinary-track-infection:urinary-track-infection_vs_healthy-controls_UP	NA	547	1468449	86664	333367	44009	536633
-bsdb:221/1/2_urinary-track-infection:urinary-track-infection_vs_healthy-controls_DOWN	NA	1260	150022	386414	724	729	135625	712	75682	149698	1559	39948	186804
+bsdb:221/1/2_urinary-track-infection:urinary-track-infection_vs_healthy-controls_DOWN	NA	1559	39948	150022	1260	724	729	149698	75682	712	135625	186804	386414	373040	1537
 bsdb:222/1/1_gastric-cancer:high-gastric-cancer-risk_vs_low-gastric-cancer-risk-patients_UP	NA	157687	1926307
 bsdb:222/1/2_gastric-cancer:high-gastric-cancer-risk_vs_low-gastric-cancer-risk-patients_DOWN	NA	29387	484	171551	239	1885016	28135	1017	29317	49546	84566	1303	1924944	192066
 bsdb:223/1/1_HIV-infection:HIV-infected-patients_vs_healthy-controls_UP	NA	1343	1578	33958	33038	1506553	1301	1300	1350	81852	186826	91061	1224	1236	543	91347
@@ -797,7 +797,7 @@ bsdb:223/4/1_HIV-infection:homosexual_vs_hetersexual_DOWN	NA	838	1506553	33024	3
 bsdb:223/5/1_HIV-infection:HAART_vs_healty-control_UP	NA	562	561	620	1300	1301	1506553	33038	817
 bsdb:223/5/2_HIV-infection:HAART_vs_healty-control_DOWN	NA	186801	186802	976	200643	171549	541000	815	816	909932	909929	171552	31977	838	158846	292632	216851	39948	909930	33024
 bsdb:223/6/1_HIV-infection:HAART-untreated_vs_healthy-control_UP	NA	91061	543	91347	186826	1236	1224	81852	1350	33958	1578
-bsdb:224/1/1_diet:barley-(WGB)_vs_baseline_UP	NA	301302	572511	166486	418240	1239
+bsdb:224/1/1_diet:barley-(WGB)_vs_baseline_UP	NA	572511	418240	1239	301302	166486	39491
 bsdb:224/1/2_diet:barley-(WGB)_vs_baseline_DOWN	NA	28118	976	171551	283168
 bsdb:224/2/1_diet:brown-rice-(BR)_vs_baseline_UP	NA	1239
 bsdb:224/2/2_diet:brown-rice-(BR)_vs_baseline_DOWN	NA	976
@@ -1649,7 +1649,7 @@ bsdb:421/1/1_HIV-infection:Vertically-HIV-infected-children_vs_uninfected-siblin
 bsdb:421/2/1_HIV-infection:Vertically-HIV-infected-children_vs_uninfected-siblings-or-children-born-to-HIV-infected-mothers_DOWN	NA	216851	186803	189330	1485	1357
 bsdb:422/1/1_HIV-infection:Perinatally-HIV-infected-children_vs_uninfected-age-matched-controls_UP	NA	976	203691	171552	838	906	91347	543	970	1485	1129771	32067	53335	84642	32066	203490	203491
 bsdb:422/1/2_HIV-infection:Perinatally-HIV-infected-children_vs_uninfected-age-matched-controls_DOWN	NA	1239	201174	1117	815	541000	186803	171550	816	216851	1263	724	31979	1313211	256845	278082	292625	48463	766	475961	51514	186802
-bsdb:423/1/1_NA:ALS-patients_vs_Healthy-controls_UP	NA	351	1385	91061	1396	2	171549
+bsdb:423/1/1_NA:ALS-patients_vs_Healthy-controls_UP	NA	171549	976	200643	171551
 bsdb:423/1/2_NA:ALS-patients_vs_Healthy-controls_DOWN	NA	158846	909932	909929	31977
 bsdb:424/1/1_pancreatic-carcinoma:PC_vs_Healthy-control_UP	NA	239934	171549	906	283168	31977
 bsdb:424/1/2_pancreatic-carcinoma:PC_vs_Healthy-control_DOWN	NA	207244	186802	216851	541000	292632
@@ -1719,7 +1719,8 @@ bsdb:435/2/2_human-papilloma-virus-infection:HPV+-transient_vs_HPV-_DOWN	NA	1868
 bsdb:436/1/1_cervical-glandular-intraepithelial-neoplasia:CIN2+/cervical-cancer_vs_healthy-control_UP	NA	82135	218538	1260	2702	28127	386414
 bsdb:437/1/1_human-papilloma-virus-infection:HPV-16+_vs_healthy-control_UP	NA	37327	28132	218538	363849	133926	28128	1276	851	114687	419005	102148	33033	28125	28130	131111	54005	266	309120	1393034	187328	813	316	884684	33036	502393	33031	2051	1261	2702
 bsdb:438/1/NA_NA:NA_vs_NA_NA	NA	NA
-bsdb:439/1/1_NA:Individuals-diagnosed-with-severe-alcoholic-hepatitis_vs_Healthy-controls_UP	NA	91061	186826	29465
+bsdb:439/1/1_type-II-diabetes-mellitus:Individuals-diagnosed-with-Type-2-Diabetes-Mellitus_vs_Healthy-controls_DOWN	NA	425254	31979	1492	29363	1239	186804
+bsdb:439/1/2_type-II-diabetes-mellitus:Individuals-diagnosed-with-Type-2-Diabetes-Mellitus_vs_Healthy-controls_UP	NA	976	901	28890	36841	46228	838
 bsdb:440/1/1_NA:Participants-with-papulopustular-rosacea-(PPR)_vs_Healthy-controls_UP	NA	76122	827	161879	66228	28131
 bsdb:440/1/2_NA:Participants-with-papulopustular-rosacea-(PPR)_vs_Healthy-controls_DOWN	NA	227476	281091	33011	156974	588	38313
 bsdb:440/2/1_NA:Participants-with-erythematotelangiectatic-rosacea_vs_Healthy-controls_DOWN	NA	281091	28124	588	207340	38313	33038
@@ -1745,8 +1746,8 @@ bsdb:445/1/NA_COVID-19:COVID-19-cases_vs_COVID-19-negative-patients_NA	NA	NA
 bsdb:446/1/1_COVID-19:COVID-19-cases_vs_COVID-19-negative-controls_DOWN	NA	38284
 bsdb:446/1/2_COVID-19:COVID-19-cases_vs_COVID-19-negative-controls_UP	NA	31957
 bsdb:447/1/1_gestational-diabetes:Individuals-with-gestational-diabetes_vs_Healthy-controls_UP	NA	1236	724	712	135625
-bsdb:447/1/2_gestational-diabetes:Individuals-with-gestational-diabetes_vs_Healthy-controls_DOWN	NA	171550	239759	33024
-bsdb:447/2/1_gestational-diabetes:Individuals-with-gestational-diabetes_vs_Healthy-controls_UP	NA	1678	970	31953	85004
+bsdb:447/1/2_gestational-diabetes:Individuals-with-gestational-diabetes_vs_Healthy-controls_DOWN	NA	239759	33024	171550
+bsdb:447/2/1_gestational-diabetes:Individuals-with-gestational-diabetes_vs_Healthy-controls_UP	NA	31953	85004	1678	970
 bsdb:447/2/2_gestational-diabetes:Individuals-with-gestational-diabetes_vs_Healthy-controls_DOWN	NA	32066	203492	203490	1164882	33958	32067	1129771	1243
 bsdb:448/1/1_NA:Pneumonia-patients-with-pH1N1-infection_vs_Pneumonia-patients-without-any-influenza-A-infection_UP	NA	1239	1224	186817	468	135621	469	286	1386
 bsdb:448/1/2_NA:Pneumonia-patients-with-pH1N1-infection_vs_Pneumonia-patients-without-any-influenza-A-infection_DOWN	NA	976	171552	31977	481	482	838	29465
@@ -1791,7 +1792,7 @@ bsdb:457/5/2_periodontitis:Individuals-diagnosed-with-both-Periodontitis-and-Typ
 bsdb:458/1/1_COVID-19:COVID-19-cases_vs_Non-intubated-controls-with-non-incubation-viral-pneumonia-or-non-incubation-non-infectious-diseases_UP	NA	469	570	1909303	48736	13687
 bsdb:458/1/2_COVID-19:COVID-19-cases_vs_Non-intubated-controls-with-non-incubation-viral-pneumonia-or-non-incubation-non-infectious-diseases_DOWN	NA	1654	724	482	838	1301	29465
 bsdb:458/2/NA_COVID-19:Intubated-COVID-19-cases_vs_Intubated-controls-with-viral-pneumonia-or-non-infectious-diseases_NA	NA	NA
-bsdb:459/1/1_COVID-19:COVID-19-positive-patients_vs_COVID-19-negative-controls_DOWN	NA	1283313	165779	91061	38501	580596	194	1016	59732	150022	237	1378	57493	1269	475	481	162289	836	838	32207	970	29465	662	976
+bsdb:459/1/1_COVID-19:COVID-19-positive-patients_vs_COVID-19-negative-controls_DOWN	NA	1283313	165779	976	38501	580596	194	1016	59732	150022	237	1378	57493	1269	475	162289	836	838	32207	970	29465	662	91061
 bsdb:459/1/2_COVID-19:COVID-19-positive-patients_vs_COVID-19-negative-controls_UP	NA	432330	397456
 bsdb:460/1/NA_COVID-19:COVID-19-positive-patients_vs_COVID-19-negative-patients_NA	NA	NA
 bsdb:462/1/1_type-I-diabetes-mellitus:Individuals-diagnosed-with-Type-1-Diabetes-Mellitus_vs_Healthy-controls_DOWN	NA	165440	4930
@@ -1829,13 +1830,13 @@ bsdb:467/9/1_body-mass-index:BMI≥25_vs_BMI<25_UP	NA	239934
 bsdb:467/10/1_NA:TBF>46%_vs_TBF≤46%_UP	NA	31979
 bsdb:467/10/2_NA:TBF>46%_vs_TBF≤46%_DOWN	NA	84107
 bsdb:467/11/NA_physical-activity:No-Physical-Activity_vs_Yes-Physical-Activity_NA	NA	NA
-bsdb:468/1/1_NA:Stage-3/4-endometriosis-patients_vs_Healthy-controls_DOWN	NA	1380	1378
-bsdb:468/2/1_NA:Stage-3/4-endometriosis-patients_vs_Healthy-controls_DOWN	NA	1380	168808
-bsdb:468/2/2_NA:Stage-3/4-endometriosis-patients_vs_Healthy-controls_UP	NA	1283313
-bsdb:468/3/1_NA:Stage-3/4-endometriosis-patients_vs_Healthy-controls_DOWN	NA	2701	168808	397864
-bsdb:468/4/1_NA:Stage-3/4-endometriosis-patients_vs_Healthy-controls_UP	NA	2701	1940338
-bsdb:468/5/1_NA:Stage-3/4-endometriosis-patients_vs_Healthy-controls_UP	NA	2701	1301	2129	1940338
-bsdb:468/5/2_NA:Stage-3/4-endometriosis-patients_vs_Healthy-controls_DOWN	NA	838	39948	906
+bsdb:468/1/1_endometriosis:Stage-3/4-endometriosis-patients_vs_Healthy-controls_DOWN	NA	1380	1378
+bsdb:468/2/1_endometriosis:Stage-3/4-endometriosis-patients_vs_Healthy-controls_DOWN	NA	1380	168808
+bsdb:468/2/2_endometriosis:Stage-3/4-endometriosis-patients_vs_Healthy-controls_UP	NA	1283313
+bsdb:468/3/1_endometriosis:Stage-3/4-endometriosis-patients_vs_Healthy-controls_DOWN	NA	2701	168808	397864
+bsdb:468/4/1_endometriosis:Stage-3/4-endometriosis-patients_vs_Healthy-controls_UP	NA	2701	1940338
+bsdb:468/5/1_endometriosis:Stage-3/4-endometriosis-patients_vs_Healthy-controls_UP	NA	2701	1301	2129	1940338
+bsdb:468/5/2_endometriosis:Stage-3/4-endometriosis-patients_vs_Healthy-controls_DOWN	NA	838	39948	906
 bsdb:469/1/1_COVID-19:COVID-19-patients_vs_Non-COVID-19-controls_DOWN	NA	1379	824	157688	29391	40324
 bsdb:470/1/1_colorectal-cancer:colorectal-cancer_vs_controls_UP	NA	165779	1287640	1872531	1898207	1955814	208479	1730	848	851	76859	155615	68766	1378	29391	1649459	154046	1506553	32067	543311	33033	1944660	1904861	1257	341694	836	28123	322095	281920	28131	28133	123375	102148	292632	2053618	1512	33039
 bsdb:470/1/2_colorectal-cancer:colorectal-cancer_vs_controls_UP	NA	165779	1730	848	1378	1649459	1506553	32067	543311	1257	836	123375	292632
@@ -1878,12 +1879,12 @@ bsdb:479/3/1_COVID-19:ICU-COVID-19-patients_vs_Mild-Moderate-COVID-19-patients_D
 bsdb:479/3/2_COVID-19:ICU-COVID-19-patients_vs_Mild-Moderate-COVID-19-patients_UP	NA	547	1903409	561	570	57493	1506553	1357	1847725	85023	1269	85025	948104	133925	44249	53335	1903410	1827	590	196081	613	40323	32033	1903411	1653	85007	543	31957	286
 bsdb:479/4/1_COVID-19:ICU-COVID-19-patients_vs_Patients-infected-with-other-human-coronaviruses_DOWN	NA	433	84642	506	85019	76892	1706371	563835	424536	84107	1042322	194924	85030	85021	119045	1903414	1762	85015	1853231	75682	186818	2070	82115	171550	84997	84566	41297	28211	80840	526525	526524	1737404	469	642	239759	207244	637	1663	59735	1678	38501	572511	1696	41275	32008	1715793	75	59732	1485	106589	189330	66831	44259	1573535	53457	149698	407	33882	1763	909928	1839	283168	375288	265	84567	335058	48736	841	42255	1508657	1263	1835	1193515	13687	1506577	29317	2037	186817	119060	31979	85020	128827	186806	49546	85023	1268	206351	85025	1570339	31989	338
 bsdb:479/4/2_COVID-19:ICU-COVID-19-patients_vs_Patients-infected-with-other-human-coronaviruses_UP	NA	1357	590	196081	613	213849	2137877	81852	135621
-bsdb:480/1/1_NA:Confirmed-endometriosis-patients_vs_Healthy-controls_UP	NA	1378	1301
-bsdb:480/1/2_NA:Confirmed-endometriosis-patients_vs_Healthy-controls_DOWN	NA	1375	1380
-bsdb:480/2/1_NA:Confirmed-endometriosis-patients_vs_Healthy-controls_UP	NA	1678
-bsdb:480/2/2_NA:Confirmed-endometriosis-patients_vs_Healthy-controls_DOWN	NA	59753	1380	194	42054	2050
-bsdb:480/3/1_NA:Confirmed-endometriosis-patients_vs_Healthy-controls_UP	NA	1375	1279	13687	111142	286	1350
-bsdb:480/3/2_NA:Confirmed-endometriosis-patients_vs_Healthy-controls_DOWN	NA	838	1380	1033	2050	194	66831
+bsdb:480/1/1_endometriosis:Confirmed-endometriosis-patients_vs_Controls-undergoing-laparoscopic-surgery-for-benign-conditions_UP	NA	1378	1301
+bsdb:480/1/2_endometriosis:Confirmed-endometriosis-patients_vs_Controls-undergoing-laparoscopic-surgery-for-benign-conditions_DOWN	NA	1375	1380
+bsdb:480/2/1_endometriosis:Confirmed-endometriosis-patients_vs_Controls-undergoing-laparoscopic-surgery-for-benign-conditions_UP	NA	1678
+bsdb:480/2/2_endometriosis:Confirmed-endometriosis-patients_vs_Controls-undergoing-laparoscopic-surgery-for-benign-conditions_DOWN	NA	59753	1380	194	42054	2050
+bsdb:480/3/1_endometriosis:Confirmed-endometriosis-patients_vs_Controls-undergoing-laparoscopic-surgery-for-benign-conditions_UP	NA	1375	1279	13687	111142	286	1350
+bsdb:480/3/2_endometriosis:Confirmed-endometriosis-patients_vs_Controls-undergoing-laparoscopic-surgery-for-benign-conditions_DOWN	NA	838	1380	1033	2050	194	66831
 bsdb:481/1/1_COVID-19:COVID-19-patients_vs_Healthy-controls_UP	NA	33038	84111	100883	1547	84112	658082	658655
 bsdb:481/1/2_COVID-19:COVID-19-patients_vs_Healthy-controls_DOWN	NA	1470347	166486	469610	39488	487175	626932	1099853	39485	2030927	291644	28118	328814	40518	204516
 bsdb:481/2/1_COVID-19:Antibiotic-treated-COVID-19-patients_vs_Antibiotic-naive-COVID-19-patients_UP	NA	29466	100883	1547
@@ -1893,9 +1894,10 @@ bsdb:481/3/2_COVID-19:Severe-COVID-19-patients_vs_Mild-COVID-19-patients_DOWN	NA
 bsdb:482/1/1_COVID-19:Severe-COVID-19-patients_vs_Mild-COVID-19-patients_DOWN	NA	29465	482	1301	838
 bsdb:482/1/2_COVID-19:Severe-COVID-19-patients_vs_Mild-COVID-19-patients_UP	NA	1279	561
 bsdb:482/2/1_COVID-19:Severe-COVID-19-patients_vs_Mild-COVID-19-patients_UP	NA	375288
-bsdb:483/1/1_COVID-19:Antibiotic-naive-COVID-19-patients_vs_Healthy-controls_UP	NA	1656	1263067	291645
-bsdb:483/2/1_COVID-19:Antibiotic-treated-COVID-19-patients_vs_Antibiotic-naive-COVID-19-patients_DOWN	NA	39486	572511	216851	853	186806	1730	1263079	216572	841	33042	1263107	658089	39496
-bsdb:483/3/1_COVID-19:Pneumonia-controls_vs_Healthy-controls_DOWN	NA	100883	1352	1547	658089
+bsdb:483/1/1_COVID-19:Antibiotic-naive-COVID-19-patients_vs_Healthy-controls,-pneumonia-patients,-antibiotics-treated-COVID-19-patients_UP	NA	1656	1263067	291645
+bsdb:483/1/2_COVID-19:Antibiotic-naive-COVID-19-patients_vs_Healthy-controls,-pneumonia-patients,-antibiotics-treated-COVID-19-patients_DOWN	NA	39496
+bsdb:483/2/1_COVID-19:Antibiotic-treated-COVID-19-patients_vs_Antibiotic-naive-COVID-19-patients,-pneumonia-patients,-healthy-controls_DOWN	NA	39486	572511	216851	853	186806	1730	1263079	216572	841	33042	1263107	658089	39496
+bsdb:483/3/1_COVID-19:Pneumonia-controls_vs_Healthy-controls,-COVID-19-patients_DOWN	NA	100883	1352	1547	658089	39496
 bsdb:484/1/1_COVID-19:COVID-19-positive-patients_vs_COVID-19-negative-controls-with-fever-and-cough_UP	NA	1759399	1311	1307	197	839	59823
 bsdb:484/2/NA_COVID-19:COVID-19-positive-patients_vs_Healthy-controls_NA	NA	NA
 bsdb:484/3/NA_COVID-19:COVID-19-negative-patients-with-fever-and-cough_vs_Healthy-controls_NA	NA	NA
@@ -1959,7 +1961,7 @@ bsdb:499/4/1_irritable-bowel-sydrome:IBS-(All-patients)_vs_Healthy-Control_DOWN	
 bsdb:499/4/2_irritable-bowel-sydrome:IBS-(All-patients)_vs_Healthy-Control_UP	NA	55079	1338	1535	292800	100175	39948	2740	109326	1496	572511	248744	29361	1512	33043	189330	28050	841	33038	46228
 bsdb:500/1/1_COVID-19:COVID-19-patients_vs_Non-COVID-19-pneumonia-patients_UP	NA	543	469	108981	28453	89152	43263
 bsdb:500/1/2_COVID-19:COVID-19-patients_vs_Non-COVID-19-pneumonia-patients_DOWN	NA	43996	265975	195950	437755	970	1380	729	29465	194	1378	425941	60133	906	838	43675	57037	32067	29466	171552	28132	1016	836	1654	482	117563	39778	727	1301
-bsdb:501/1/1_NA:One-(1)-Stage-III-Endometriosis-patient_vs_Women-scheduled-for-laparoscopic-surgery-for-benign-uterine/-ovarian-conditions-as-well-as-women-with-Stage-I-or-Stage-II-endometriosis_UP	NA	397864	816	1279	1743	375288	33042	580596	174708	195950	244127	35829	222	191303	1193324	1578	100883	1263	168808	946234
+bsdb:501/1/1_endometriosis:One-(1)-Stage-III-Endometriosis-patient_vs_Women-scheduled-for-laparoscopic-surgery-for-benign-uterine/-ovarian-conditions-as-well-as-women-with-Stage-I-or-Stage-II-endometriosis_UP	NA	35829	222	1193324	174708	244127	816	580596	100883	33042	946234	1578	375288	1743	168808	1279	191303
 bsdb:502/1/1_irritable-bowel-sydrome:IBS_vs_Healthy-Control_UP	NA	79880	1396	31953	1680	1685	216816	194	1496	543	1352	33958	1581	1624	186804	39491
 bsdb:502/1/2_irritable-bowel-sydrome:IBS_vs_Healthy-Control_DOWN	NA	1283313	816	29465
 bsdb:502/2/1_irritable-bowel-sydrome:IBS-C_vs_Healthy-Control_UP	NA	79880	31953
@@ -2010,9 +2012,44 @@ bsdb:512/3/1_COVID-19:COVID-19-positive-patients_vs_COVID-19-negative-healthcare
 bsdb:512/3/2_COVID-19:COVID-19-positive-patients_vs_COVID-19-negative-healthcare-workers-(controls)_DOWN	NA	292
 bsdb:513/1/1_COVID-19:COVID-19-positive-patients_vs_COVID-19-negative-controls_UP	NA	613	29465
 bsdb:513/2/1_COVID-19:COVID-19-positive-patients-with-breathing-assistance_vs_COVID-19-positive-patients-without-breathing-assistance_UP	NA	547	838	29465	1301	32207	613
-bsdb:514/1/1_NA:Stage-3/4-endometriosis-patients_vs_Healthy-controls_UP	NA	543	1301
-bsdb:515/1/1_NA:Endometriosis-patients-with-infertility_vs_Non-endometriosis-patients-with-infertility_NA	NA	1224	1239	201174	976	848	544448
-bsdb:516/1/1_NA:Mice-who-were-injected-with-endometrial-tissues_vs_Healthy-mice_UP	NA	1239	201174	28216	85004	80840	1678	577310	31953	506	39948
-bsdb:516/1/2_NA:Mice-who-were-injected-with-endometrial-tissues_vs_Healthy-mice_DOWN	NA	976	200643	171549
-bsdb:517/1/1_NA:Endometriosis-patients_vs_Fertile-women-being-operated-on-for-other-gynecological-issues_UP	NA	1300	468
-bsdb:517/2/1_NA:Endometriosis-patients-treated-with-GnRHa_vs_Endometriosis-patients-not-treated-with-GnRHa_UP	NA	1300	543
+bsdb:514/1/1_endometriosis:Stage-3/4-endometriosis-patients_vs_Women-scheduled-for-laparoscopic-surgery-for-benign-uterine/-ovarian-conditions_UP	NA	543	1301
+bsdb:515/1/1_endometriosis:Endometriosis-patients-with-infertility_vs_Non-endometriosis-patients-with-infertility_NA	NA	1224	1239	201174	976	848	544448
+bsdb:516/1/1_endometriosis:Mice-who-were-injected-with-endometrial-tissues_vs_Healthy-mice_UP	NA	1239	201174	28216	85004	80840	1678	577310	31953	506	39948
+bsdb:516/1/2_endometriosis:Mice-who-were-injected-with-endometrial-tissues_vs_Healthy-mice_DOWN	NA	976	200643	171549
+bsdb:517/1/1_endometriosis:Endometriosis-patients_vs_Fertile-women-being-operated-on-for-other-gynecological-issues_UP	NA	1300	468
+bsdb:517/2/1_endometriosis:Endometriosis-patients-treated-with-GnRHa_vs_Endometriosis-patients-not-treated-with-GnRHa_UP	NA	543	1300	90964
+bsdb:517/2/2_endometriosis:Endometriosis-patients-treated-with-GnRHa_vs_Endometriosis-patients-not-treated-with-GnRHa_DOWN	NA	33958
+bsdb:517/3/1_endometriosis:Patients-with-ovarian-endometrioma-cysts_vs_Patients-with-non-endometrioma-cysts_UP	NA	1300	90964
+bsdb:518/1/1_endometriosis:Stage-3/4-endometriosis-patients_vs_Healthy-controls_UP	NA	201174	1654	28211	39488	1678	572511	189330	84111	1350	32066	356	186826	1578	1357	2005473	75787	206389	1508657	1300	1301	35517	33038	1485	1716	91347	543	31979	91061	81852	33958
+bsdb:518/1/2_endometriosis:Stage-3/4-endometriosis-patients_vs_Healthy-controls_DOWN	NA	28050	39485	283168	577310	1508657	41978	28216	80840	506	40544	171551
+bsdb:519/1/1_endometriosis:Endo-mice_vs_Non-endo-mice_UP	NA	976	1239	816
+bsdb:519/2/NA_NA:Endo-mice_vs_Non-endo-mice_NA	NA	NA
+bsdb:520/1/1_endometriosis:Stage-3/4-Endometriosis-patients_vs_Stage-1/2-Endometriosis-patients_UP	NA	165779
+bsdb:521/1/1_endometriosis:Stage-3/4-endometriosis-patients_vs_Surgical-controls_DOWN	NA	201174	2037	31977	31957	2049	1743	32207	1654
+bsdb:521/1/2_endometriosis:Stage-3/4-endometriosis-patients_vs_Surgical-controls_UP	NA	72274	135621	469	286	1301	212791
+bsdb:522/1/1_endometriosis:Endometriosis-patients_vs_Controls-undergoing-laparoscopic-surgery-for-benign-tumors_UP	NA	NA
+bsdb:522/2/1_endometriosis:Endometriosis-patients_vs_Controls-undergoing-laparoscopic-surgery-for-benign-tumors_DOWN	NA	147802
+bsdb:522/2/2_endometriosis:Endometriosis-patients_vs_Controls-undergoing-laparoscopic-surgery-for-benign-tumors_UP	NA	NA
+bsdb:522/3/1_endometriosis:Endometriosis-patients_vs_Controls-undergoing-laparoscopic-surgery-for-benign-tumors_UP	NA	76892	80864	128827	147802	1129771	135621	33069
+bsdb:522/3/2_endometriosis:Endometriosis-patients_vs_Controls-undergoing-laparoscopic-surgery-for-benign-tumors_DOWN	NA	1268	33069
+bsdb:522/4/1_endometriosis:Endometriosis-patients_vs_Controls-undergoing-laparoscopic-surgery-for-benign-tumors_UP	NA	84107	37734	33986	356	1129771	69966	165179	33069	31989	33038	1485
+bsdb:522/4/2_endometriosis:Endometriosis-patients_vs_Controls-undergoing-laparoscopic-surgery-for-benign-tumors_DOWN	NA	128827	1737406	128780
+bsdb:522/5/1_endometriosis:Endometriosis-patients_vs_Controls-undergoing-laparoscopic-surgery-for-benign-tumors_UP	NA	106649	1485	543	1268	135621	33069	28454
+bsdb:522/5/2_endometriosis:Endometriosis-patients_vs_Controls-undergoing-laparoscopic-surgery-for-benign-tumors_DOWN	NA	296
+bsdb:523/1/1_endometriosis:Endo-mice_vs_Non-endo-mice_DOWN	NA	816	572511	1239	877420	1578	171552	841	1506577	1573534	1432051	644652	207244
+bsdb:523/1/2_endometriosis:Endo-mice_vs_Non-endo-mice_UP	NA	1224	74201	174708	239934	577310	28138	544	375288
+bsdb:524/1/1_non-alcoholic-fatty-liver-disease:Individuals-diagnosed-with--Nonalcoholic-steatohepatitis-(without-cirrhosis)_vs_Healthy-controls_UP	NA	1654	102106	84111	1407607	1649459	1506553	1898203	41295
+bsdb:524/1/2_non-alcoholic-fatty-liver-disease:Individuals-diagnosed-with--Nonalcoholic-steatohepatitis-(without-cirrhosis)_vs_Healthy-controls_DOWN	NA	239759	816	397864	1410626	283168	2485925	375288	577309	577310	1481960	171551	1505652	872
+bsdb:524/2/1_non-alcoholic-fatty-liver-disease:Individuals-diagnosed-with-Nonalcoholic-steatohepatitis-(NASH)-with-cirrhosis_vs_Healthy-controls_UP	NA	1654	102106	84111	1649459	1506553
+bsdb:524/2/2_non-alcoholic-fatty-liver-disease:Individuals-diagnosed-with-Nonalcoholic-steatohepatitis-(NASH)-with-cirrhosis_vs_Healthy-controls_DOWN	NA	239759	816	397864	283168	375288	1481960	1505652	171551	2053608
+bsdb:525/1/1_endometriosis:Women-with-EM-associated-CPPS_vs_Women-without-CPPS-presenting-for-routine-examinations_DOWN	NA	1598	1578
+bsdb:525/1/2_endometriosis:Women-with-EM-associated-CPPS_vs_Women-without-CPPS-presenting-for-routine-examinations_UP	NA	180282
+bsdb:525/2/1_endometriosis:Women-with-EM-associated-CPPS_vs_Women-without-CPPS-presenting-for-routine-examinations_UP	NA	419014	419015	40323	29465	187328
+bsdb:525/2/2_endometriosis:Women-with-EM-associated-CPPS_vs_Women-without-CPPS-presenting-for-routine-examinations_DOWN	NA	147802	906	187101	109790
+bsdb:526/1/1_endometriosis:Endometriosis/-adenomyosis-patients_vs_Endometriosis-patients_UP	NA	1380	194	1582879	216851	1940338	72294	84107
+bsdb:526/2/1_endometriosis:Endometriosis/-adenomyosis-patients_vs_Patients-without-endometriosis_UP	NA	1380	194	1582879	216851	1940338	72294	84107
+bsdb:527/1/1_endometriosis:Endometriosis-patients_vs_Healthy-controls-taken-from-a-larger-cohort-study_DOWN	NA	447020	171549	84107	28050	577309	191303
+bsdb:527/1/2_endometriosis:Endometriosis-patients_vs_Healthy-controls-taken-from-a-larger-cohort-study_UP	NA	816	33042	543	119852	375288
+bsdb:527/2/1_endometriosis:Endometriosis-patients_vs_Healthy-controls-taken-from-a-larger-cohort-study_DOWN	NA	171549
+bsdb:527/2/2_endometriosis:Endometriosis-patients_vs_Healthy-controls-taken-from-a-larger-cohort-study_UP	NA	28050	119852
+bsdb:528/1/NA_endometriosis:Endo-mice_vs_Non-endo-mice_NA	NA	NA
