@@ -24,11 +24,13 @@ jobs:
 
       - name: Setup git config
         run: |
-          cd $GITHUB_WORKSPACE/BugSigDBExports # Because we need to be a repository
+          cd $GITHUB_WORKSPACE/BugSigDBExports # Because we need to be in a repository
           git config user.name "GitHub Actions Bot"
           git config user.email "actions@github.com"
 
-      - name: Install bugsigdbr 
+      - name: Install dependencies
+        run: Rscript -e "install.packages('rvest')"
+
         run: |
           cd $GITHUB_WORKSPACE/bugsigdbr
           Rscript -e "devtools::install()"
