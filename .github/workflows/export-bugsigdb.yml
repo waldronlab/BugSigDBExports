@@ -1,9 +1,4 @@
 on:
-  workflow_dispatch: # Added for testing
-    inputs:
-      bugSigDBVersion:
-        description: "BugSigDB Export Version"
-        required: false
   schedule:
     - cron: "0 22 * * 0" # UTC Time
 
@@ -47,7 +42,6 @@ jobs:
       - name: Commit Exports
         run: |
           cd $GITHUB_WORKSPACE/BugSigDBExports
-          git switch -c exports
           git add .
           git commit -m "Weekly export update"
-          git push origin exports
+          git push origin main
