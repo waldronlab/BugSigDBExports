@@ -17,9 +17,23 @@ library(rvest)
 
 ## FUNCTIONS
 
-scrapeLinks <- function(url = "https://bugsigdb.org/Help:Export")
+scrapeLinks <- function(url = "https://bugsigdb.org/Help:Export",
+                        delay = 60)
 {
-    dat <- rvest::read_html(url)
+    destfile <- "bugsigdb_help_export.html"
+    tryCatch(
+        download.file(url, destfile = destfile),
+        error = function(e) {
+            print(e$message)
+            print(gettextf("Retrying in %s seconds", delay))
+            Sys.sleep(delay)
+            download.file(url, destfile = destfile)
+        }
+    )
+    stopifnot(file.exists(destfile))
+    dat <- rvest::read_html(destfile)
+    file.remove(destfile)
+    print(gettextf("Successfully read %s", url))
     elems <- rvest::html_elements(dat, ".smw-csv-furtherresults")
     elems <- rvest::html_elements(elems, "a")
     attr <- rvest::html_attr(elems, "href")
@@ -30,11 +44,29 @@ scrapeLinks <- function(url = "https://bugsigdb.org/Help:Export")
     return(attr)
 }
 
-readFiles <- function(links)
-{ 
-    sigs <- readr::read_csv(unname(links["sig"]))
-    exps <- readr::read_csv(unname(links["exp"]))
-    studs <- readr::read_csv(unname(links["stud"]))
+readFiles <- function(links, delay = 60)
+{
+    csvs <- list("sig", "exp", "stud")
+    for (csv in csvs) {
+        tryCatch({
+                destfile <- paste0(csv, ".csv")
+                download.file(unname(links[csv]), destfile = destfile)
+            },
+            error = function(e) {
+                print(e$message)
+                print(gettextf("Retrying in %s seconds", delay))
+                Sys.sleep(delay)
+                download.file(unname(links[csv]), destfile = destfile)
+            }
+        )
+    }
+    stopifnot(file.exists(c("sig.csv", "exp.csv", "stud.csv")))
+    sigs <- readr::read_csv("sig.csv")
+    exps <- readr::read_csv("exp.csv")
+    studs <- readr::read_csv("stud.csv")
+    file.remove(c("sig.csv", "exp.csv", "stud.csv"))
+    print(gettextf("Successfully read csv files"))
+
     ind <- setdiff(colnames(studs), c("Reviewer", "State"))
     studs <- studs[,ind]
     ind <- colnames(exps) == "Experiment page name"
