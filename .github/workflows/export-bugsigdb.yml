@@ -11,16 +11,21 @@ jobs:
 
     steps:
 
-      - name: Checkout repo
-        uses: actions/checkout@v2
-        with:
-          path: BugSigDBExports
-
-      - name: Checkout bugsigdbr 
+      - name: Checkout bugsigdbr
         uses: actions/checkout@v2
         with:
           repository: waldronlab/bugsigdbr
           path: bugsigdbr
+
+      - name: Install dependencies
+        run: |
+          cd $GITHUB_WORKSPACE/bugsigdbr
+          Rscript -e "devtools::install(); install.packages('rvest')"
+
+      - name: Checkout BugSigDBExports
+        uses: actions/checkout@v2
+        with:
+          path: BugSigDBExports
 
       - name: Setup git config
         run: |
@@ -28,17 +33,11 @@ jobs:
           git config user.name "GitHub Actions Bot"
           git config user.email "actions@github.com"
 
-      - name: Install dependencies
-        run: Rscript -e "install.packages('rvest')"
-
-        run: |
-          cd $GITHUB_WORKSPACE/bugsigdbr
-          Rscript -e "devtools::install()"
-
       - name: Export BugSigDB
         run: |
           echo $(date)
-          Rscript $GITHUB_WORKSPACE/bugsigdbr/inst/scripts/dump_release.R $(date +'%F') $GITHUB_WORKSPACE/BugSigDBExports
+          Rscript $GITHUB_WORKSPACE/BugSigDBExports/inst/scripts/dump_release.R $(date +'%F') $GITHUB_WORKSPACE/BugSigDBExports
+        timeout-minutes: 10
 
       - name: Commit Exports
         run: |
