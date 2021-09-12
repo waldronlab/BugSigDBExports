@@ -61,19 +61,38 @@ readFiles <- function(links, delay = 60)
         )
     }
     stopifnot(file.exists(c("sig.csv", "exp.csv", "stud.csv")))
-    sigs <- readr::read_csv("sig.csv")
-    exps <- readr::read_csv("exp.csv")
     studs <- readr::read_csv("stud.csv")
+    studs <- subset(studs, State == "Complete")
+    exps <- readr::read_csv("exp.csv")
+    exps <- subset(exps, State == "Complete")
+    sigs <- readr::read_csv("sig.csv")
+    sigs <- subset(sigs, State == "Complete")
     file.remove(c("sig.csv", "exp.csv", "stud.csv"))
     print(gettextf("Successfully read csv files"))
 
     ind <- setdiff(colnames(studs), c("Reviewer", "State"))
     studs <- studs[,ind]
-    ind <- colnames(exps) == "Experiment page name"
-    colnames(exps)[ind] <- "Experiment"
     ind <- colnames(studs) == "Study page name"
     colnames(studs)[ind] <- "Study"
+
+    ind <- setdiff(colnames(exps), c("Reviewer", "State"))
+    exps <- exps[,ind]
+    ind <- colnames(exps) == "Experiment page name"
+    colnames(exps)[ind] <- "Experiment"
+
+    # remove experiments without signatures, and signatures without experiments
+    ses <- paste(sigs$Study, sigs$Experiment, sep = "-")
+    es <- paste(exps$Study, exps$Experiment, sep = "-")
+    valid.entries <- unique(intersect(es, ses))
+    spl <- strsplit(valid.entries, "-")
+    valid.studs <- vapply(spl, `[`, character(1), x = 1)
+    valid.studs <- unique(valid.studs)    
+    studs <- subset(studs, Study %in% valid.studs)
+    exps <- exps[es %in% valid.entries,]
+    sigs <- sigs[ses %in% valid.entries,]
+
     sig.exp <- plyr::join(exps, sigs, by = c("Study", "Experiment"))
+    sig.exp <- subset(sig.exp, Study %in% studs$Study)
     bugsigdb <- plyr::join(studs, sig.exp, by = "Study")
     return(bugsigdb)
 }
@@ -99,12 +118,11 @@ bsdb <- readFiles(links)
 abstr.col <- "Abstract"
 bsdb <- bsdb[,colnames(bsdb) != abstr.col]
 
-#TODO: restrict to reviewed content
 
 # write full dump
-tab.file <- file.path(out.dir, "full_dump.tab")
-cat(header, file = tab.file)
-readr::write_tsv(bsdb, file = tab.file, append = TRUE, col_names = TRUE)
+csv.file <- file.path(out.dir, "full_dump.csv")
+cat(header, file = csv.file)
+readr::write_csv(bsdb, file = csv.file, append = TRUE, col_names = TRUE)
 
 # helper function to add a header line to an already written GMT file
 addHeader <- function(header, out.file)
