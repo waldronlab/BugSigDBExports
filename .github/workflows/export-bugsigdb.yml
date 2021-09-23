@@ -20,12 +20,17 @@ jobs:
       - name: Install dependencies
         run: |
           cd $GITHUB_WORKSPACE/bugsigdbr
-          Rscript -e "devtools::install(); install.packages('rvest')"
+          Rscript -e "devtools::install()"
 
       - name: Checkout BugSigDBExports
         uses: actions/checkout@v2
         with:
           path: BugSigDBExports
+
+      - name: Install BugSigDBExports dependencies
+        run: |
+          cd $GITHUB_WORKSPACE/BugSigDBExports
+          Rscript -e "install.packages(c('rvest', 'readr', 'plyr'))"
 
       - name: Setup git config
         run: |
