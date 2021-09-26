@@ -1,4 +1,4 @@
-# BugSigDB 1.0, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2021-09-26, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_adenoma:conventional-adenoma-cases_vs_controls_UP	NA	Bacillaceae
 bsdb:1/1/2_adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	Cyanobacteria
 bsdb:1/2/1_hyperplastic-polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	Lacticaseibacillus zeae
@@ -689,9 +689,9 @@ bsdb:189/1/2_chronic-hepatitis-B-virus-infection:chronic-hepatitis-B-patients_vs
 bsdb:190/1/1_breast-milk-measurement:one-month-age-infants-exposed-to-high-chemical-breast-milk_vs_one-month-age-infants-exposed-to-low-chemical-breast-milk_UP	NA	Oxychloe
 bsdb:190/1/2_breast-milk-measurement:one-month-age-infants-exposed-to-high-chemical-breast-milk_vs_one-month-age-infants-exposed-to-low-chemical-breast-milk_DOWN	NA	Veillonella
 bsdb:191/1/1_equol:equol-producers_vs_equol-non-producers_UP	NA	Slackia isoflavoniconvertens
-bsdb:192/1/1_irritable-bowel-sydrome:diarrhea-predominant-irritable-bowel-syndrome_vs_healthy-controls_UP	NA	Enterobacteriaceae
-bsdb:192/1/2_irritable-bowel-sydrome:diarrhea-predominant-irritable-bowel-syndrome_vs_healthy-controls_DOWN	NA	Faecalibacterium
-bsdb:192/2/1_irritable-bowel-sydrome:diarrhea-predominant-irritable-bowel-syndrome_vs_healthy-controls_UP	NA	Ethanoligenens
+bsdb:192/1/1_NA:diarrhea-predominant-irritable-bowel-syndrome_vs_healthy-controls_UP	NA	Enterobacteriaceae
+bsdb:192/1/2_NA:diarrhea-predominant-irritable-bowel-syndrome_vs_healthy-controls_DOWN	NA	Faecalibacterium
+bsdb:192/2/1_NA:diarrhea-predominant-irritable-bowel-syndrome_vs_healthy-controls_UP	NA	Ethanoligenens
 bsdb:193/1/1_gastric-cancer:gastric-cancer_vs_chronic-gastritis-and-intestinal-metaplasia_UP	NA	Streptococcaceae
 bsdb:193/1/2_gastric-cancer:gastric-cancer_vs_chronic-gastritis-and-intestinal-metaplasia_DOWN	NA	Helicobacteraceae
 bsdb:193/2/1_gastric-cancer:H.-pylori-postive_vs_H.-pylori-negative_DOWN	NA	Burkholderiaceae
@@ -784,8 +784,8 @@ bsdb:219/2/2_diet:week-8_vs_baseline_DOWN	NA	Muribaculaceae
 bsdb:219/3/1_diet:lower-fiber-(cracker)_vs_higher-fiber-(almonds)_DOWN	NA	Sutterella
 bsdb:220/1/1_age:older-age-European-women_vs_younger-age_UP	NA	Proteobacteria
 bsdb:220/1/2_age:older-age-European-women_vs_younger-age_DOWN	NA	Propionibacteriales
-bsdb:221/1/1_urinary-track-infection:urinary-track-infection_vs_healthy-controls_UP	NA	Blautia glucerasea
-bsdb:221/1/2_urinary-track-infection:urinary-track-infection_vs_healthy-controls_DOWN	NA	Romboutsia lituseburensis
+bsdb:221/1/1_NA:urinary-track-infection_vs_healthy-controls_UP	NA	Blautia glucerasea
+bsdb:221/1/2_NA:urinary-track-infection_vs_healthy-controls_DOWN	NA	Romboutsia lituseburensis
 bsdb:222/1/1_gastric-cancer:high-gastric-cancer-risk_vs_low-gastric-cancer-risk-patients_UP	NA	Veillonella sp.
 bsdb:222/1/2_gastric-cancer:high-gastric-cancer-risk_vs_low-gastric-cancer-risk-patients_DOWN	NA	uncultured Haematobacter sp.
 bsdb:223/1/1_HIV-infection:HIV-infected-patients_vs_healthy-controls_UP	NA	Enterobacterales
@@ -1671,6 +1671,14 @@ bsdb:426/1/1_NA:autoimmune-hepatits-cases_vs_healthy-controls_UP	NA	Veillonella
 bsdb:426/1/2_NA:autoimmune-hepatits-cases_vs_healthy-controls_DOWN	NA	Parabacteroides
 bsdb:427/1/1_diet:omnivores_vs_vegetarians_DOWN	NA	Prevotellaceae
 bsdb:427/2/1_diet:omnivores_vs_vegans_DOWN	NA	Prevotellaceae
+bsdb:428/1/1_COVID-19:COVID-19-cases_vs_Healthy-controls_UP	NA	Akkermansia muciniphila
+bsdb:428/1/2_COVID-19:COVID-19-cases_vs_Healthy-controls_DOWN	NA	Dorea formicigenerans
+bsdb:428/2/1_COVID-19:Recovered-COVID-19-cases_vs_Healthy-controls_UP	NA	[Clostridium] symbiosum
+bsdb:428/2/2_COVID-19:Recovered-COVID-19-cases_vs_Healthy-controls_DOWN	NA	Subdoligranulum
+bsdb:428/3/1_COVID-19:Recovered-COVID-19-cases_vs_Healthy-controls_UP	NA	Veillonella parvula
+bsdb:428/3/2_COVID-19:Recovered-COVID-19-cases_vs_Healthy-controls_DOWN	NA	Anaerobutyricum hallii
+bsdb:428/4/1_COVID-19:COVID-19-patients-treated-with-antibiotics_vs_Healthy-controls_DOWN	NA	Citrobacter sp.
+bsdb:428/4/2_COVID-19:COVID-19-patients-treated-with-antibiotics_vs_Healthy-controls_UP	NA	Parabacteroides sp.
 bsdb:430/1/1_COVID-19:High-SARS-CoV-2-infectivity_vs_Low-to-none-SARS-CoV-2-infectivity_UP	NA	Lachnospiraceae bacterium
 bsdb:430/1/2_COVID-19:High-SARS-CoV-2-infectivity_vs_Low-to-none-SARS-CoV-2-infectivity_DOWN	NA	Collinsella tanakaei
 bsdb:432/1/1_human-papilloma-virus-infection:HPV+_vs_HPV-_UP	NA	Mycoplasma
@@ -1707,14 +1715,14 @@ bsdb:441/3/2_COVID-19:COVID-19-cases_vs_H1N1-cases_DOWN	NA	Porphyromonas
 bsdb:441/4/1_COVID-19:COVID-19-cases_vs_Healthy-controls_UP	NA	Bacilli
 bsdb:442/1/1_type-II-diabetes-mellitus:Individuals-diagnosed-with-Type-2-Diabetes-Mellitus_vs_Healthy-controls_DOWN	NA	Cladosporium herbarum
 bsdb:442/1/2_type-II-diabetes-mellitus:Individuals-diagnosed-with-Type-2-Diabetes-Mellitus_vs_Healthy-controls_UP	NA	Trichophyton rubrum
-bsdb:443/1/1_irritable-bowel-sydrome:IBS_vs_Health-Control_UP	NA	Pseudomonas aeruginosa
-bsdb:443/1/2_irritable-bowel-sydrome:IBS_vs_Health-Control_DOWN	NA	Bifidobacterium
-bsdb:443/2/1_irritable-bowel-sydrome:IBS-C_vs_Health-Control_UP	NA	Veillonella
-bsdb:443/2/2_irritable-bowel-sydrome:IBS-C_vs_Health-Control_DOWN	NA	Bifidobacterium catenulatum
-bsdb:443/3/1_irritable-bowel-sydrome:IBS-D_vs_Health-Control_UP	NA	Pseudomonas aeruginosa
-bsdb:443/3/2_irritable-bowel-sydrome:IBS-D_vs_Health-Control_DOWN	NA	Bifidobacterium catenulatum
-bsdb:443/4/1_irritable-bowel-sydrome:IBS-U_vs_Health-Control_UP	NA	Pseudomonas aeruginosa
-bsdb:443/4/2_irritable-bowel-sydrome:IBS-U_vs_Health-Control_DOWN	NA	Veillonella
+bsdb:443/1/1_NA:IBS_vs_Health-Control_UP	NA	Pseudomonas aeruginosa
+bsdb:443/1/2_NA:IBS_vs_Health-Control_DOWN	NA	Bifidobacterium
+bsdb:443/2/1_NA:IBS-C_vs_Health-Control_UP	NA	Veillonella
+bsdb:443/2/2_NA:IBS-C_vs_Health-Control_DOWN	NA	Bifidobacterium catenulatum
+bsdb:443/3/1_NA:IBS-D_vs_Health-Control_UP	NA	Pseudomonas aeruginosa
+bsdb:443/3/2_NA:IBS-D_vs_Health-Control_DOWN	NA	Bifidobacterium catenulatum
+bsdb:443/4/1_NA:IBS-U_vs_Health-Control_UP	NA	Pseudomonas aeruginosa
+bsdb:443/4/2_NA:IBS-U_vs_Health-Control_DOWN	NA	Veillonella
 bsdb:446/1/1_COVID-19:COVID-19-cases_vs_COVID-19-negative-controls_DOWN	NA	Corynebacterium accolens
 bsdb:446/1/2_COVID-19:COVID-19-cases_vs_COVID-19-negative-controls_UP	NA	Propionibacteriaceae
 bsdb:447/1/1_gestational-diabetes:Individuals-with-gestational-diabetes_vs_Healthy-controls_UP	NA	Pasteurellales
@@ -1738,13 +1746,11 @@ bsdb:453/3/1_COVID-19:Recovered-COVID-19-patients_vs_Non-infected-patients-with-
 bsdb:453/3/2_COVID-19:Recovered-COVID-19-patients_vs_Non-infected-patients-with-unrelated-respiratory-medical-conditions_DOWN	NA	Ruminococcus
 bsdb:453/4/1_COVID-19:Positive-for-COVID-19-viral-RNA-in-feces_vs_Negative-for-COVID-19-viral-RNA-in-feces_UP	NA	Agathobacter
 bsdb:453/4/2_COVID-19:Positive-for-COVID-19-viral-RNA-in-feces_vs_Negative-for-COVID-19-viral-RNA-in-feces_DOWN	NA	Pseudoclavibacter
-bsdb:455/1/1_NA:pregnant-women_vs_non-pregnant-women_UP	NA	Treponema
-bsdb:455/1/2_NA:pregnant-women_vs_non-pregnant-women_DOWN	NA	Streptococcus
-bsdb:455/2/1_gingivitis:pregnant-women-with-gingivitis_vs_pregnant-women_UP	NA	Candidatus Saccharibacteria
-bsdb:455/2/2_gingivitis:pregnant-women-with-gingivitis_vs_pregnant-women_DOWN	NA	Granulicatella
-bsdb:455/2/3_gingivitis:pregnant-women-with-gingivitis_vs_pregnant-women_DOWN	NA	Campylobacter
-bsdb:455/3/1_gingivitis:pregnant-women-with-gingivitis_vs_pregnant-women_UP	NA	Fretibacterium sp.
-bsdb:455/3/2_gingivitis:pregnant-women-with-gingivitis_vs_pregnant-women_DOWN	NA	Lancefieldella parvula
+bsdb:455/1/1_NA:pregnant-women-without-gingivitis_vs_non-pregnant-women-without-gingivitis_UP	NA	Candidatus Saccharibacteria
+bsdb:455/1/2_NA:pregnant-women-without-gingivitis_vs_non-pregnant-women-without-gingivitis_DOWN	NA	Terrahaemophilus
+bsdb:455/2/1_gingivitis:pregnant-women-with-gingivitis_vs_pregnant-women-without-gingivitis_UP	NA	Treponema
+bsdb:455/3/1_gingivitis:pregnant-women-with-gingivitis_vs_pregnant-women-without-gingivitis_UP	NA	Fretibacterium sp.
+bsdb:455/3/2_gingivitis:pregnant-women-with-gingivitis_vs_pregnant-women-without-gingivitis_DOWN	NA	Lancefieldella parvula
 bsdb:455/4/1_NA:pregnant-women_vs_non-pregnant-women_UP	NA	[Eubacterium] saphenum
 bsdb:455/4/2_NA:pregnant-women_vs_non-pregnant-women_DOWN	NA	Terrahaemophilus aromaticivorans
 bsdb:456/1/1_type-II-diabetes-mellitus:Individuals-diagnosed-with-Type-2-Diabetes-Mellitus_vs_Healthy-controls_DOWN	NA	Sutterella
@@ -1864,17 +1870,17 @@ bsdb:487/2/1_COVID-19:Recovered-COVID-19-samples-(respiratory-negative)_vs_Healt
 bsdb:487/2/2_COVID-19:Recovered-COVID-19-samples-(respiratory-negative)_vs_Healthy-controls_UP	NA	Citrobacter
 bsdb:487/3/1_COVID-19:Infected-COVID-19-samples-(respiratory-positive)_vs_Healthy-controls_DOWN	NA	Barnesiella
 bsdb:487/3/2_COVID-19:Infected-COVID-19-samples-(respiratory-positive)_vs_Healthy-controls_UP	NA	Intestinibacter
-bsdb:488/1/1_irritable-bowel-sydrome:IBS-D_vs_Healthy-Control_UP	NA	Ruminococcus
-bsdb:488/1/2_irritable-bowel-sydrome:IBS-D_vs_Healthy-Control_DOWN	NA	Streptococcus
+bsdb:488/1/1_NA:IBS-D_vs_Healthy-Control_UP	NA	Ruminococcus
+bsdb:488/1/2_NA:IBS-D_vs_Healthy-Control_DOWN	NA	Streptococcus
 bsdb:489/1/1_COVID-19:COVID-positive-patients-admitted-to-ICU-(i-COVID-19)_vs_Pneumonia-controls-(COVID-negative)_UP	NA	Corynebacterium sp.
 bsdb:489/1/2_COVID-19:COVID-positive-patients-admitted-to-ICU-(i-COVID-19)_vs_Pneumonia-controls-(COVID-negative)_DOWN	NA	Klebsiella
 bsdb:489/2/1_COVID-19:COVID-positive-patients-admitted-to-ICU-(i-COVID-19)_vs_COVID-positive-patients-admitted-to-infectious-disease-ward-(w-COVID-19)_UP	NA	Staphylococcus epidermidis
 bsdb:489/2/2_COVID-19:COVID-positive-patients-admitted-to-ICU-(i-COVID-19)_vs_COVID-positive-patients-admitted-to-infectious-disease-ward-(w-COVID-19)_DOWN	NA	Enterobacter cloacae
 bsdb:489/3/1_COVID-19:COVID-positive-patients-admitted-to-infectious-disease-ward-(w-COVID-19)_vs_Pneumonia-controls-(COVID-negative)_UP	NA	Staphylococcus sp.
 bsdb:489/3/2_COVID-19:COVID-positive-patients-admitted-to-infectious-disease-ward-(w-COVID-19)_vs_Pneumonia-controls-(COVID-negative)_DOWN	NA	Bacteroides thetaiotaomicron
-bsdb:490/1/1_irritable-bowel-sydrome:IBS_vs_Healthy-Control_UP	NA	Veillonella
-bsdb:491/1/1_irritable-bowel-sydrome:IBS_vs_Healthy-Control_UP	NA	Syntrophobacteraceae
-bsdb:491/1/2_irritable-bowel-sydrome:IBS_vs_Healthy-Control_DOWN	NA	Streptococcaceae
+bsdb:490/1/1_NA:IBS_vs_Healthy-Control_UP	NA	Veillonella
+bsdb:491/1/1_NA:IBS_vs_Healthy-Control_UP	NA	Syntrophobacteraceae
+bsdb:491/1/2_NA:IBS_vs_Healthy-Control_DOWN	NA	Streptococcaceae
 bsdb:492/1/1_type-II-diabetes-mellitus:Individuals-having-Type-2-Diabetes-Mellitus-without-Diabetic-Retinopathy_vs_Healthy-controls_DOWN	NA	Turicibacter
 bsdb:492/1/2_type-II-diabetes-mellitus:Individuals-having-Type-2-Diabetes-Mellitus-without-Diabetic-Retinopathy_vs_Healthy-controls_UP	NA	Weissella
 bsdb:492/2/1_diabetic-retinopathy:Individuals-diagnosed-with-Type-2-Diabetes-and-clinically-manifest-Diabetic-Retinopathy-(DR)_vs_Healthy-controls_DOWN	NA	Candidatus Saccharibacteria
@@ -1895,24 +1901,24 @@ bsdb:498/1/1_COVID-19:COVID-19-patients_vs_Asymptomatic-uninfected-controls_UP	N
 bsdb:498/1/2_COVID-19:COVID-19-patients_vs_Asymptomatic-uninfected-controls_DOWN	NA	Prevotella disiens
 bsdb:498/2/1_COVID-19:COVID-19-patients-with-high-viral-load_vs_COVID-19-patients-with-low-viral-load_UP	NA	Prevotella copri
 bsdb:498/2/2_COVID-19:COVID-19-patients-with-high-viral-load_vs_COVID-19-patients-with-low-viral-load_DOWN	NA	Staphylococcus haemolyticus
-bsdb:499/1/1_irritable-bowel-sydrome:IBS-A_vs_Healthy-Control_DOWN	NA	Tannerella
-bsdb:499/1/2_irritable-bowel-sydrome:IBS-A_vs_Healthy-Control_UP	NA	uncultured Clostridia bacterium
-bsdb:499/2/1_irritable-bowel-sydrome:IBS-C_vs_Healthy-Control_DOWN	NA	uncultured Bacteroidetes bacterium
-bsdb:499/2/2_irritable-bowel-sydrome:IBS-C_vs_Healthy-Control_UP	NA	[Ruminococcus] gnavus
-bsdb:499/3/1_irritable-bowel-sydrome:IBS-D_vs_Healthy-Control_DOWN	NA	Tannerella
-bsdb:499/3/2_irritable-bowel-sydrome:IBS-D_vs_Healthy-Control_UP	NA	[Ruminococcus] lactaris
-bsdb:499/4/1_irritable-bowel-sydrome:IBS-(All-patients)_vs_Healthy-Control_DOWN	NA	uncultured Clostridia bacterium
-bsdb:499/4/2_irritable-bowel-sydrome:IBS-(All-patients)_vs_Healthy-Control_UP	NA	[Ruminococcus] lactaris
+bsdb:499/1/1_NA:IBS-A_vs_Healthy-Control_DOWN	NA	Tannerella
+bsdb:499/1/2_NA:IBS-A_vs_Healthy-Control_UP	NA	uncultured Clostridia bacterium
+bsdb:499/2/1_NA:IBS-C_vs_Healthy-Control_DOWN	NA	uncultured Bacteroidetes bacterium
+bsdb:499/2/2_NA:IBS-C_vs_Healthy-Control_UP	NA	[Ruminococcus] gnavus
+bsdb:499/3/1_NA:IBS-D_vs_Healthy-Control_DOWN	NA	Tannerella
+bsdb:499/3/2_NA:IBS-D_vs_Healthy-Control_UP	NA	[Ruminococcus] lactaris
+bsdb:499/4/1_NA:IBS-(All-patients)_vs_Healthy-Control_DOWN	NA	uncultured Clostridia bacterium
+bsdb:499/4/2_NA:IBS-(All-patients)_vs_Healthy-Control_UP	NA	[Ruminococcus] lactaris
 bsdb:500/1/1_COVID-19:COVID-19-patients_vs_Non-COVID-19-pneumonia-patients_UP	NA	Pseudomonas alcaligenes
 bsdb:500/1/2_COVID-19:COVID-19-patients_vs_Non-COVID-19-pneumonia-patients_DOWN	NA	Streptococcus
 bsdb:501/1/1_endometriosis:One-(1)-Stage-III-Endometriosis-patient_vs_Women-scheduled-for-laparoscopic-surgery-for-benign-uterine/-ovarian-conditions-as-well-as-women-with-Stage-I-or-Stage-II-endometriosis_UP	NA	Turicibacter
-bsdb:502/1/1_irritable-bowel-sydrome:IBS_vs_Healthy-Control_UP	NA	[Eubacterium] rectale
-bsdb:502/1/2_irritable-bowel-sydrome:IBS_vs_Healthy-Control_DOWN	NA	Veillonella
-bsdb:502/2/1_irritable-bowel-sydrome:IBS-C_vs_Healthy-Control_UP	NA	Bifidobacteriaceae
-bsdb:502/2/2_irritable-bowel-sydrome:IBS-C_vs_Healthy-Control_DOWN	NA	Bacteroides
-bsdb:502/3/1_irritable-bowel-sydrome:IBS-D_vs_Healthy-Control_UP	NA	[Eubacterium] rectale
-bsdb:502/3/2_irritable-bowel-sydrome:IBS-D_vs_Healthy-Control_DOWN	NA	Bacteroides
-bsdb:502/4/1_irritable-bowel-sydrome:IBS-M_vs_Healthy-Control_UP	NA	Lentilactobacillus buchneri
+bsdb:502/1/1_NA:IBS_vs_Healthy-Control_UP	NA	[Eubacterium] rectale
+bsdb:502/1/2_NA:IBS_vs_Healthy-Control_DOWN	NA	Veillonella
+bsdb:502/2/1_NA:IBS-C_vs_Healthy-Control_UP	NA	Bifidobacteriaceae
+bsdb:502/2/2_NA:IBS-C_vs_Healthy-Control_DOWN	NA	Bacteroides
+bsdb:502/3/1_NA:IBS-D_vs_Healthy-Control_UP	NA	[Eubacterium] rectale
+bsdb:502/3/2_NA:IBS-D_vs_Healthy-Control_DOWN	NA	Bacteroides
+bsdb:502/4/1_NA:IBS-M_vs_Healthy-Control_UP	NA	Lentilactobacillus buchneri
 bsdb:504/1/1_NA:BNH-with-TNBC-tumor-tissue_vs_BNH-with-TNBC-normal-tissue_DOWN	NA	Actinobacteria
 bsdb:504/2/1_NA:WNH-with-TNBC-normal-tissue_vs_WNH-with-TNBC-normal-tissue_UP	NA	Bacteroidetes
 bsdb:504/4/1_NA:TPBC-tumor-tissue_vs_TPBC-normal-tissue_UP	NA	Streptococcus
@@ -1920,15 +1926,15 @@ bsdb:504/5/1_race:BNH_vs_WNH_UP	NA	Planococcaceae
 bsdb:504/5/2_race:BNH_vs_WNH_DOWN	NA	Phenylobacterium
 bsdb:504/6/1_race:BNH_vs_WNH_UP	NA	Phyllobacterium
 bsdb:504/6/2_race:BNH_vs_WNH_DOWN	NA	Lactobacillus
-bsdb:505/1/1_irritable-bowel-sydrome:IBS_vs_Healthy-Control_UP	NA	Bifidobacterium longum
-bsdb:505/1/2_irritable-bowel-sydrome:IBS_vs_Healthy-Control_DOWN	NA	Bifidobacterium adolescentis
-bsdb:505/2/1_irritable-bowel-sydrome:IBS-D_vs_Healthy-Control_UP	NA	Bifidobacterium longum
-bsdb:505/2/2_irritable-bowel-sydrome:IBS-D_vs_Healthy-Control_DOWN	NA	Bifidobacterium bifidum
-bsdb:505/3/1_irritable-bowel-sydrome:IBS-A_vs_Healthy-Control_UP	NA	Bifidobacterium bifidum
-bsdb:505/3/2_irritable-bowel-sydrome:IBS-A_vs_Healthy-Control_DOWN	NA	Bifidobacterium longum
-bsdb:505/4/1_irritable-bowel-sydrome:IBS-C_vs_Healthy-Control_UP	NA	Bifidobacterium bifidum
-bsdb:505/4/2_irritable-bowel-sydrome:IBS-C_vs_Healthy-Control_DOWN	NA	Bifidobacterium longum
-bsdb:506/1/1_irritable-bowel-sydrome:IBS-D_vs_Healthy-Control_UP	NA	Escherichia coli
+bsdb:505/1/1_NA:IBS_vs_Healthy-Control_UP	NA	Bifidobacterium longum
+bsdb:505/1/2_NA:IBS_vs_Healthy-Control_DOWN	NA	Bifidobacterium adolescentis
+bsdb:505/2/1_NA:IBS-D_vs_Healthy-Control_UP	NA	Bifidobacterium longum
+bsdb:505/2/2_NA:IBS-D_vs_Healthy-Control_DOWN	NA	Bifidobacterium bifidum
+bsdb:505/3/1_NA:IBS-A_vs_Healthy-Control_UP	NA	Bifidobacterium bifidum
+bsdb:505/3/2_NA:IBS-A_vs_Healthy-Control_DOWN	NA	Bifidobacterium longum
+bsdb:505/4/1_NA:IBS-C_vs_Healthy-Control_UP	NA	Bifidobacterium bifidum
+bsdb:505/4/2_NA:IBS-C_vs_Healthy-Control_DOWN	NA	Bifidobacterium longum
+bsdb:506/1/1_NA:IBS-D_vs_Healthy-Control_UP	NA	Escherichia coli
 bsdb:507/1/1_antibiotic:Patients-after-Rifaximin-treatment_vs_Patients-before-Rifaximin-treatment_DOWN	NA	Veillonella
 bsdb:507/1/2_antibiotic:Patients-after-Rifaximin-treatment_vs_Patients-before-Rifaximin-treatment_UP	NA	NA
 bsdb:507/2/1_antibiotic:Patients-1-month-after-Rifaximin-treatment_vs_Patients-before-Rifaximin-treatment_UP	NA	Lactobacillus
@@ -1991,3 +1997,13 @@ bsdb:527/2/1_endometriosis:Endometriosis-patients_vs_Healthy-controls-taken-from
 bsdb:527/2/2_endometriosis:Endometriosis-patients_vs_Healthy-controls-taken-from-a-larger-cohort-study_UP	NA	Oscillospira
 bsdb:529/2/1_arthritis:rheumatoid-arthritis_vs_Osteoarthritis_UP	NA	Neisseria
 bsdb:529/2/2_arthritis:rheumatoid-arthritis_vs_Osteoarthritis_DOWN	NA	Abiotrophia
+bsdb:535/1/1_NA:Antibiotic-treated_vs_Antibiotic-untreated_DOWN	NA	Bifidobacterium sp.
+bsdb:535/1/2_NA:Antibiotic-treated_vs_Antibiotic-untreated_UP	NA	Lactobacillus sp.
+bsdb:535/2/1_NA:Antibiotic-treated_vs_Antibiotic-untreated_DOWN	NA	Proteobacteria
+bsdb:535/2/2_NA:Antibiotic-treated_vs_Antibiotic-untreated_UP	NA	Rhodocyclaceae
+bsdb:535/3/1_antibiotic-exposure:Antibiotic-treated_vs_Antibiotic-untreated_DOWN	NA	Lachnospira
+bsdb:535/3/2_antibiotic-exposure:Antibiotic-treated_vs_Antibiotic-untreated_UP	NA	Proteus
+bsdb:535/4/1_antibiotic-exposure:Antibiotic-treated_vs_Antibiotic-untreated_DOWN	NA	Enterobacteriaceae
+bsdb:535/4/2_antibiotic-exposure:Antibiotic-treated_vs_Antibiotic-untreated_UP	NA	Lactobacillus
+bsdb:536/1/1_antibiotic-therapy:The-group-given-an-azithromycin-oral-solution_vs_The-group-given-a-placebo_DOWN	NA	uncultured Bifidobacterium sp.
+bsdb:536/1/2_antibiotic-therapy:The-group-given-an-azithromycin-oral-solution_vs_The-group-given-a-placebo_UP	NA	Flavonifractor
