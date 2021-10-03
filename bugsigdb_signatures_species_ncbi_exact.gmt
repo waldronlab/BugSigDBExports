@@ -1,4 +1,4 @@
-# BugSigDB 2021-09-26, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2021-10-03, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/2/1_hyperplastic-polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	57037
 bsdb:6/1/1_non-alcoholic-fatty-liver-disease:advanced-fibrosis_vs_mild/moderate-fibrosis_DOWN	NA	39491
 bsdb:7/1/2_autism:severely-autistic_vs_non-sibling-control_DOWN	NA	1535
@@ -156,8 +156,8 @@ bsdb:216/1/1_cesarean-section:C-section_vs_vaginal-delivery_DOWN	NA	1502
 bsdb:217/1/1_eczema:child-with-eczema_vs_healthy-control_UP	NA	29343
 bsdb:217/3/2_age:infant-at-18-months_vs_infant-at-6-months_DOWN	NA	1590
 bsdb:219/1/1_diet:lower-fiber-(cracker)_vs_higher-fiber-(almonds)---interaction-by-time_UP	NA	817
-bsdb:221/1/1_NA:urinary-track-infection_vs_healthy-controls_UP	NA	536633
-bsdb:221/1/2_NA:urinary-track-infection_vs_healthy-controls_DOWN	NA	1537
+bsdb:221/1/1_NA:urinary-tract-infection_vs_healthy-controls_UP	NA	536633
+bsdb:221/1/2_NA:urinary-tract-infection_vs_healthy-controls_DOWN	NA	1537
 bsdb:222/1/1_gastric-cancer:high-gastric-cancer-risk_vs_low-gastric-cancer-risk-patients_UP	NA	1926307
 bsdb:222/1/2_gastric-cancer:high-gastric-cancer-risk_vs_low-gastric-cancer-risk-patients_DOWN	NA	1310087
 bsdb:223/2/1_HIV-infection:HIV-infected-homosexual-patients_vs_healthy-controls_UP	NA	1547
@@ -279,6 +279,7 @@ bsdb:300/1/1_graft-versus-host-disease:acute-graft--versus--host-disease_vs_non-
 bsdb:300/1/2_graft-versus-host-disease:acute-graft--versus--host-disease_vs_non--graft--versus--host-disease_DOWN	NA	47678
 bsdb:302/4/1_asthma:asthma_vs_healthy-control_UP	NA	208968
 bsdb:302/5/1_asthma:asthma_vs_healthy-control_UP	NA	2702
+bsdb:304/1/1_antimicrobial-agent:oral-intake-of-vancomycin-(directed-against-Gram-positive-bacteria)_vs_or-placebo-(microcrystalline-cellulose)_UP	NA	29343
 bsdb:306/1/1_graft-versus-host-disease:post--allogeneic-hematopoietic-stem-cell-transplant_vs_pre--allogeneic-hematopoietic-stem-cell-transplant_UP	NA	303
 bsdb:306/1/2_graft-versus-host-disease:post--allogeneic-hematopoietic-stem-cell-transplant_vs_pre--allogeneic-hematopoietic-stem-cell-transplant_DOWN	NA	303
 bsdb:307/1/2_antimicrobial-agent:moxifloxacin-treated-group-(MXF)_vs_Negative-control-group-(CLT)_DOWN	NA	1318
@@ -409,6 +410,7 @@ bsdb:457/2/1_periodontitis:Individuals-diagnosed-with-Periodontitis-and-Type-2-D
 bsdb:457/4/1_periodontitis:Individuals-diagnosed-with-both-Periodontitis-and-Type-2-Diabetes-and-treated-with-metformin-(Met-group)_vs_Healthy-controls_UP	NA	58231
 bsdb:457/5/1_periodontitis:Individuals-diagnosed-with-both-Periodontitis-and-Type-2-Diabetes-and-treated-with-metformin-(Met-group)_vs_Individuals-diagnosed-with-Periodontitis-and-Type-2-Diabetes-Mellitus-(DAP)_DOWN	NA	234908
 bsdb:457/5/2_periodontitis:Individuals-diagnosed-with-both-Periodontitis-and-Type-2-Diabetes-and-treated-with-metformin-(Met-group)_vs_Individuals-diagnosed-with-Periodontitis-and-Type-2-Diabetes-Mellitus-(DAP)_UP	NA	1309
+bsdb:464/3/1_COVID-19:COVID-19-patients_vs_Healthy-controls_DOWN	NA	707003
 bsdb:465/1/1_diabetic-neuropathy:Individuals-diagnosed-with-peripheral-neuropathy-associated-with-type-2-diabetes_vs_Healthy-controls_UP	NA	1940338
 bsdb:468/4/1_endometriosis:Stage-3/4-endometriosis-patients_vs_Healthy-controls_UP	NA	1940338
 bsdb:468/5/1_endometriosis:Stage-3/4-endometriosis-patients_vs_Healthy-controls_UP	NA	1940338
@@ -432,12 +434,12 @@ bsdb:481/2/1_COVID-19:Antibiotic-treated-COVID-19-patients_vs_Antibiotic-naive-C
 bsdb:481/2/2_COVID-19:Antibiotic-treated-COVID-19-patients_vs_Antibiotic-naive-COVID-19-patients_DOWN	NA	821
 bsdb:481/3/1_COVID-19:Severe-COVID-19-patients_vs_Mild-COVID-19-patients_UP	NA	187326
 bsdb:481/3/2_COVID-19:Severe-COVID-19-patients_vs_Mild-COVID-19-patients_DOWN	NA	39491
-bsdb:483/1/1_COVID-19:Antibiotic-naive-COVID-19-patients_vs_Healthy-controls,-pneumonia-patients,-antibiotics-treated-COVID-19-patients_UP	NA	291645
-bsdb:483/1/2_COVID-19:Antibiotic-naive-COVID-19-patients_vs_Healthy-controls,-pneumonia-patients,-antibiotics-treated-COVID-19-patients_DOWN	NA	39496
-bsdb:483/2/1_COVID-19:Antibiotic-treated-COVID-19-patients_vs_Antibiotic-naive-COVID-19-patients,-pneumonia-patients,-healthy-controls_DOWN	NA	39496
-bsdb:483/3/1_COVID-19:Pneumonia-controls_vs_Healthy-controls,-COVID-19-patients_DOWN	NA	39496
-bsdb:484/1/1_COVID-19:COVID-19-positive-patients_vs_COVID-19-negative-controls-with-fever-and-cough_UP	NA	59823
-bsdb:484/4/1_COVID-19:COVID-19-positive-patients_vs_COVID-19-negative-controls-with-fever-and-cough_UP	NA	1311
+bsdb:483/1/1_COVID-19:Antibiotic-naive-COVID-19-patients_vs_Uninfected-controls,-pneumonia-patients,-antibiotics-treated-COVID-19-patients_UP	NA	291645
+bsdb:483/1/2_COVID-19:Antibiotic-naive-COVID-19-patients_vs_Uninfected-controls,-pneumonia-patients,-antibiotics-treated-COVID-19-patients_DOWN	NA	39496
+bsdb:483/2/1_COVID-19:Antibiotic-treated-COVID-19-patients_vs_Antibiotic-naive-COVID-19-patients,-pneumonia-patients,-uninfected-controls_DOWN	NA	39496
+bsdb:483/3/1_COVID-19:Pneumonia-controls_vs_Uninfected-controls,-COVID-19-patients_DOWN	NA	39496
+bsdb:484/1/1_COVID-19:COVID-19-positive-patients_vs_COVID-19-negative-patients-with-fever-and-cough_UP	NA	59823
+bsdb:484/4/1_COVID-19:COVID-19-positive-patients_vs_COVID-19-negative-patients-with-fever-and-cough_UP	NA	1311
 bsdb:485/2/1_COVID-19:COVID-19-patients-with-fever_vs_COVID-19-patients-without-fever_UP	NA	1351
 bsdb:485/2/2_COVID-19:COVID-19-patients-with-fever_vs_COVID-19-patients-without-fever_DOWN	NA	658082
 bsdb:486/1/1_COVID-19:Asymptomatic-COVID-19-patients_vs_Healthy-controls_UP	NA	1587
@@ -494,3 +496,19 @@ bsdb:525/2/2_endometriosis:Women-with-EM-associated-CPPS_vs_Women-without-CPPS-p
 bsdb:535/1/1_NA:Antibiotic-treated_vs_Antibiotic-untreated_DOWN	NA	41200
 bsdb:535/1/2_NA:Antibiotic-treated_vs_Antibiotic-untreated_UP	NA	1591
 bsdb:536/1/1_antibiotic-therapy:The-group-given-an-azithromycin-oral-solution_vs_The-group-given-a-placebo_DOWN	NA	165187
+bsdb:541/1/1_schizophrenia:Schizophrenic-patients-(ARSCZ,-FESCZ)_vs_Healthy-controls_UP	NA	1613
+bsdb:541/1/2_schizophrenia:Schizophrenic-patients-(ARSCZ,-FESCZ)_vs_Healthy-controls_UP	NA	1632
+bsdb:541/2/1_schizophrenia:Schizophrenic-patients-(ARSCZ,-FESCZ)_vs_Healthy-controls_UP	NA	310297
+bsdb:541/2/2_schizophrenia:Schizophrenic-patients-(ARSCZ,-FESCZ)_vs_Healthy-controls_DOWN	NA	1244
+bsdb:541/2/3_schizophrenia:Schizophrenic-patients-(ARSCZ,-FESCZ)_vs_Healthy-controls_UP	NA	1613
+bsdb:541/3/1_schizophrenia:Schizophrenic-patients_vs_Healthy-controls_UP	NA	310297
+bsdb:541/3/2_schizophrenia:Schizophrenic-patients_vs_Healthy-controls_DOWN	NA	357276
+bsdb:541/4/1_schizophrenia:Baseline-schizophrenic-patients_vs_Healthy-controls_NA	NA	310297
+bsdb:541/5/1_schizophrenia:Baseline-schizophrenic-patients_vs_Healthy-controls_NA	NA	310297
+bsdb:545/1/2_antibiotic-therapy:7-week-old-(young)-mice-10-days-after-antibiotic-treatments_vs_7-week-old-(young)-mice-before-antibiotic-treatment_DOWN	NA	1898207
+bsdb:545/4/1_antibiotic-therapy:40-week-old-(old)-mice-6-months-after-antibiotic-treatments_vs_40-week-old-(old)-mice-before-antibiotic-treatment_DOWN	NA	1898207
+bsdb:547/1/1_COVID-19:Recovered-COVID-19-patients_vs_Healthy-controls_UP	NA	208479
+bsdb:547/1/2_COVID-19:Recovered-COVID-19-patients_vs_Healthy-controls_DOWN	NA	1150298
+bsdb:550/1/1_NA:JIA-patients_vs_healthy-controls_UP	NA	712365
+bsdb:550/1/2_NA:JIA-patients_vs_healthy-controls_DOWN	NA	712464;712187
+bsdb:550/2/2_NA:JIA-patients-with-TMJ_vs_JIA-patients-without-TMJ_UP	NA	729

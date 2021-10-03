@@ -1,4 +1,4 @@
-# BugSigDB 2021-09-26, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2021-10-03, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_adenoma:conventional-adenoma-cases_vs_controls_UP	NA	Bacillaceae
 bsdb:1/1/2_adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	Cyanobacteria
 bsdb:1/2/1_hyperplastic-polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	Lacticaseibacillus zeae
@@ -784,8 +784,8 @@ bsdb:219/2/2_diet:week-8_vs_baseline_DOWN	NA	Muribaculaceae
 bsdb:219/3/1_diet:lower-fiber-(cracker)_vs_higher-fiber-(almonds)_DOWN	NA	Sutterella
 bsdb:220/1/1_age:older-age-European-women_vs_younger-age_UP	NA	Proteobacteria
 bsdb:220/1/2_age:older-age-European-women_vs_younger-age_DOWN	NA	Propionibacteriales
-bsdb:221/1/1_NA:urinary-track-infection_vs_healthy-controls_UP	NA	Blautia glucerasea
-bsdb:221/1/2_NA:urinary-track-infection_vs_healthy-controls_DOWN	NA	Romboutsia lituseburensis
+bsdb:221/1/1_NA:urinary-tract-infection_vs_healthy-controls_UP	NA	Blautia glucerasea
+bsdb:221/1/2_NA:urinary-tract-infection_vs_healthy-controls_DOWN	NA	Romboutsia lituseburensis
 bsdb:222/1/1_gastric-cancer:high-gastric-cancer-risk_vs_low-gastric-cancer-risk-patients_UP	NA	Veillonella sp.
 bsdb:222/1/2_gastric-cancer:high-gastric-cancer-risk_vs_low-gastric-cancer-risk-patients_DOWN	NA	uncultured Haematobacter sp.
 bsdb:223/1/1_HIV-infection:HIV-infected-patients_vs_healthy-controls_UP	NA	Enterobacterales
@@ -1184,7 +1184,7 @@ bsdb:302/4/1_asthma:asthma_vs_healthy-control_UP	NA	Alkanindiges hongkongensis
 bsdb:302/5/1_asthma:asthma_vs_healthy-control_UP	NA	Gardnerella vaginalis
 bsdb:303/1/1_non-hodgkins-lymphoma:post-chemotherapy_vs_pre-chemotherapy_UP	NA	Enterococcus
 bsdb:303/1/2_non-hodgkins-lymphoma:post-chemotherapy_vs_pre-chemotherapy_DOWN	NA	Collinsella
-bsdb:304/1/1_antimicrobial-agent:oral-intake-of-vancomycin-(directed-against-Gram-positive-bacteria)_vs_or-placebo-(microcrystalline-cellulose)_UP	NA	Atopobium
+bsdb:304/1/1_antimicrobial-agent:oral-intake-of-vancomycin-(directed-against-Gram-positive-bacteria)_vs_or-placebo-(microcrystalline-cellulose)_UP	NA	[Clostridium] cellulosi
 bsdb:305/1/1_female-reproductive-organ-cancer:cancer_vs_healthy_UP	NA	Fusobacteria
 bsdb:305/1/2_female-reproductive-organ-cancer:cancer_vs_healthy_DOWN	NA	Proteobacteria
 bsdb:306/1/1_graft-versus-host-disease:post--allogeneic-hematopoietic-stem-cell-transplant_vs_pre--allogeneic-hematopoietic-stem-cell-transplant_UP	NA	Pseudomonas putida
@@ -1760,8 +1760,8 @@ bsdb:457/2/1_periodontitis:Individuals-diagnosed-with-Periodontitis-and-Type-2-D
 bsdb:457/4/1_periodontitis:Individuals-diagnosed-with-both-Periodontitis-and-Type-2-Diabetes-and-treated-with-metformin-(Met-group)_vs_Healthy-controls_UP	NA	Treponema medium
 bsdb:457/5/1_periodontitis:Individuals-diagnosed-with-both-Periodontitis-and-Type-2-Diabetes-and-treated-with-metformin-(Met-group)_vs_Individuals-diagnosed-with-Periodontitis-and-Type-2-Diabetes-Mellitus-(DAP)_DOWN	NA	Sutterella stercoricanis
 bsdb:457/5/2_periodontitis:Individuals-diagnosed-with-both-Periodontitis-and-Type-2-Diabetes-and-treated-with-metformin-(Met-group)_vs_Individuals-diagnosed-with-Periodontitis-and-Type-2-Diabetes-Mellitus-(DAP)_UP	NA	Streptococcus mutans
-bsdb:458/1/1_COVID-19:COVID-19-cases_vs_Non-intubated-controls-with-non-incubation-viral-pneumonia-or-non-incubation-non-infectious-diseases_UP	NA	Sphingomonas
-bsdb:458/1/2_COVID-19:COVID-19-cases_vs_Non-intubated-controls-with-non-incubation-viral-pneumonia-or-non-incubation-non-infectious-diseases_DOWN	NA	Veillonella
+bsdb:458/1/1_COVID-19:COVID-19-cases_vs_Non-intubated-patients-with-non-incubation-viral-pneumonia-or-non-incubation-non-infectious-diseases_UP	NA	Sphingomonas
+bsdb:458/1/2_COVID-19:COVID-19-cases_vs_Non-intubated-patients-with-non-incubation-viral-pneumonia-or-non-incubation-non-infectious-diseases_DOWN	NA	Veillonella
 bsdb:459/1/1_COVID-19:COVID-19-positive-patients_vs_COVID-19-negative-controls_DOWN	NA	Bacilli
 bsdb:459/1/2_COVID-19:COVID-19-positive-patients_vs_COVID-19-negative-controls_UP	NA	Gulbenkiania
 bsdb:462/1/1_type-I-diabetes-mellitus:Individuals-diagnosed-with-Type-1-Diabetes-Mellitus_vs_Healthy-controls_DOWN	NA	Saccharomyces
@@ -1774,7 +1774,7 @@ bsdb:464/1/1_COVID-19:Confirmed-COVID-19-patients_vs_Healthy-controls_DOWN	NA	Po
 bsdb:464/1/2_COVID-19:Confirmed-COVID-19-patients_vs_Healthy-controls_UP	NA	Tannerella
 bsdb:464/2/1_COVID-19:Recovered-COVID-19-patients_vs_Healthy-controls_DOWN	NA	Porphyromonas
 bsdb:464/2/2_COVID-19:Recovered-COVID-19-patients_vs_Healthy-controls_UP	NA	Selenomonas
-bsdb:464/3/1_COVID-19:COVID-19-patients_vs_Healthy-controls_DOWN	NA	Roseburia
+bsdb:464/3/1_COVID-19:COVID-19-patients_vs_Healthy-controls_DOWN	NA	uncultured Oscillospiraceae bacterium
 bsdb:464/3/2_COVID-19:COVID-19-patients_vs_Healthy-controls_UP	NA	Granulicatella
 bsdb:465/1/1_diabetic-neuropathy:Individuals-diagnosed-with-peripheral-neuropathy-associated-with-type-2-diabetes_vs_Healthy-controls_UP	NA	Escherichia/Shigella sp.
 bsdb:465/1/2_diabetic-neuropathy:Individuals-diagnosed-with-peripheral-neuropathy-associated-with-type-2-diabetes_vs_Healthy-controls_DOWN	NA	Faecalibacterium
@@ -1848,12 +1848,12 @@ bsdb:481/2/2_COVID-19:Antibiotic-treated-COVID-19-patients_vs_Antibiotic-naive-C
 bsdb:481/3/1_COVID-19:Severe-COVID-19-patients_vs_Mild-COVID-19-patients_UP	NA	Megasphaera micronuciformis
 bsdb:481/3/2_COVID-19:Severe-COVID-19-patients_vs_Mild-COVID-19-patients_DOWN	NA	[Eubacterium] rectale
 bsdb:482/2/1_COVID-19:Severe-COVID-19-patients_vs_Mild-COVID-19-patients_UP	NA	Parabacteroides
-bsdb:483/1/1_COVID-19:Antibiotic-naive-COVID-19-patients_vs_Healthy-controls,-pneumonia-patients,-antibiotics-treated-COVID-19-patients_UP	NA	Bacteroides nordii
-bsdb:483/1/2_COVID-19:Antibiotic-naive-COVID-19-patients_vs_Healthy-controls,-pneumonia-patients,-antibiotics-treated-COVID-19-patients_DOWN	NA	Eubacterium ventriosum
-bsdb:483/2/1_COVID-19:Antibiotic-treated-COVID-19-patients_vs_Antibiotic-naive-COVID-19-patients,-pneumonia-patients,-healthy-controls_DOWN	NA	Eubacterium ventriosum
-bsdb:483/3/1_COVID-19:Pneumonia-controls_vs_Healthy-controls,-COVID-19-patients_DOWN	NA	Eubacterium ventriosum
-bsdb:484/1/1_COVID-19:COVID-19-positive-patients_vs_COVID-19-negative-controls-with-fever-and-cough_UP	NA	Prevotella sp.
-bsdb:484/4/1_COVID-19:COVID-19-positive-patients_vs_COVID-19-negative-controls-with-fever-and-cough_UP	NA	Streptococcus agalactiae
+bsdb:483/1/1_COVID-19:Antibiotic-naive-COVID-19-patients_vs_Uninfected-controls,-pneumonia-patients,-antibiotics-treated-COVID-19-patients_UP	NA	Bacteroides nordii
+bsdb:483/1/2_COVID-19:Antibiotic-naive-COVID-19-patients_vs_Uninfected-controls,-pneumonia-patients,-antibiotics-treated-COVID-19-patients_DOWN	NA	Eubacterium ventriosum
+bsdb:483/2/1_COVID-19:Antibiotic-treated-COVID-19-patients_vs_Antibiotic-naive-COVID-19-patients,-pneumonia-patients,-uninfected-controls_DOWN	NA	Eubacterium ventriosum
+bsdb:483/3/1_COVID-19:Pneumonia-controls_vs_Uninfected-controls,-COVID-19-patients_DOWN	NA	Eubacterium ventriosum
+bsdb:484/1/1_COVID-19:COVID-19-positive-patients_vs_COVID-19-negative-patients-with-fever-and-cough_UP	NA	Prevotella sp.
+bsdb:484/4/1_COVID-19:COVID-19-positive-patients_vs_COVID-19-negative-patients-with-fever-and-cough_UP	NA	Streptococcus agalactiae
 bsdb:485/1/1_COVID-19:COVID-19-patients-with-fever_vs_COVID-19-patients-without-fever_UP	NA	Enterococcus
 bsdb:485/1/2_COVID-19:COVID-19-patients-with-fever_vs_COVID-19-patients-without-fever_DOWN	NA	Eggerthella
 bsdb:485/2/1_COVID-19:COVID-19-patients-with-fever_vs_COVID-19-patients-without-fever_UP	NA	Enterococcus faecalis
@@ -2007,3 +2007,45 @@ bsdb:535/4/1_antibiotic-exposure:Antibiotic-treated_vs_Antibiotic-untreated_DOWN
 bsdb:535/4/2_antibiotic-exposure:Antibiotic-treated_vs_Antibiotic-untreated_UP	NA	Lactobacillus
 bsdb:536/1/1_antibiotic-therapy:The-group-given-an-azithromycin-oral-solution_vs_The-group-given-a-placebo_DOWN	NA	uncultured Bifidobacterium sp.
 bsdb:536/1/2_antibiotic-therapy:The-group-given-an-azithromycin-oral-solution_vs_The-group-given-a-placebo_UP	NA	Flavonifractor
+bsdb:537/1/1_parkinson's-disease:patients-with-idiopathic-parkinson's-disease_vs_healthy-controls-without-any-form-of-Parkinson's-Disease_UP	NA	Akkermansia
+bsdb:537/1/2_parkinson's-disease:patients-with-idiopathic-parkinson's-disease_vs_healthy-controls-without-any-form-of-Parkinson's-Disease_DOWN	NA	Ruminococcus
+bsdb:537/2/1_parkinson's-disease:the-trend-over-Parkinson's-disease-progression_vs_healthy-controls-without-any-form-of-Parkinson's-Disease_UP	NA	Verrucomicrobiaceae
+bsdb:537/2/2_parkinson's-disease:the-trend-over-Parkinson's-disease-progression_vs_healthy-controls-without-any-form-of-Parkinson's-Disease_DOWN	NA	Lachnospiraceae
+bsdb:537/3/1_parkinson's-disease:patients-with-MSA(multiple-system-atrophy)-disease_vs_healthy-controls-without-any-form-of-Parkinson's-Disease_UP	NA	Verrucomicrobiaceae
+bsdb:537/3/2_parkinson's-disease:patients-with-MSA(multiple-system-atrophy)-disease_vs_healthy-controls-without-any-form-of-Parkinson's-Disease_DOWN	NA	Prevotellaceae
+bsdb:537/4/1_parkinson's-disease:patients-with-PSP(progressive-supranuclear-palsy)-disease_vs_healthy-controls-without-any-form-of-Parkinson's-Disease_UP	NA	Verrucomicrobiaceae
+bsdb:537/4/2_parkinson's-disease:patients-with-PSP(progressive-supranuclear-palsy)-disease_vs_healthy-controls-without-any-form-of-Parkinson's-Disease_DOWN	NA	Streptococcus
+bsdb:537/5/1_parkinson's-disease:patients-with-De-novo-Parkinson's-disease_vs_healthy-controls-without-any-form-of-Parkinson's-Disease_DOWN	NA	Lachnospiraceae
+bsdb:537/6/1_parkinson's-disease:patients-with-early-Parkinson's-disease_vs_healthy-controls-without-any-form-of-Parkinson's-disease_UP	NA	Verrucomicrobiaceae
+bsdb:537/6/2_parkinson's-disease:patients-with-early-Parkinson's-disease_vs_healthy-controls-without-any-form-of-Parkinson's-disease_DOWN	NA	Lachnospiraceae
+bsdb:537/7/1_parkinson's-disease:patients-with-mid-stage-Parkinson's_vs_healthy-controls-without-any-form-of-Parkinson's-Disease_UP	NA	Verrucomicrobiaceae
+bsdb:537/7/2_parkinson's-disease:patients-with-mid-stage-Parkinson's_vs_healthy-controls-without-any-form-of-Parkinson's-Disease_DOWN	NA	Lachnospiraceae
+bsdb:537/8/1_parkinson's-disease:patients-with-advanced-stage-Parkinson's_vs_healthy-controls-without-any-form-of-Parkinson's-Disease_UP	NA	Verrucomicrobiaceae
+bsdb:537/8/2_parkinson's-disease:patients-with-advanced-stage-Parkinson's_vs_healthy-controls-without-any-form-of-Parkinson's-Disease_DOWN	NA	Lachnospiraceae
+bsdb:541/1/1_schizophrenia:Schizophrenic-patients-(ARSCZ,-FESCZ)_vs_Healthy-controls_UP	NA	Limosilactobacillus fermentum
+bsdb:541/1/2_schizophrenia:Schizophrenic-patients-(ARSCZ,-FESCZ)_vs_Healthy-controls_UP	NA	Limosilactobacillus oris
+bsdb:541/2/1_schizophrenia:Schizophrenic-patients-(ARSCZ,-FESCZ)_vs_Healthy-controls_UP	NA	Phocaeicola plebeius
+bsdb:541/2/2_schizophrenia:Schizophrenic-patients-(ARSCZ,-FESCZ)_vs_Healthy-controls_DOWN	NA	Leuconostoc gelidum
+bsdb:541/2/3_schizophrenia:Schizophrenic-patients-(ARSCZ,-FESCZ)_vs_Healthy-controls_UP	NA	Limosilactobacillus fermentum
+bsdb:541/3/1_schizophrenia:Schizophrenic-patients_vs_Healthy-controls_UP	NA	Phocaeicola plebeius
+bsdb:541/3/2_schizophrenia:Schizophrenic-patients_vs_Healthy-controls_DOWN	NA	Phocaeicola dorei
+bsdb:541/4/1_schizophrenia:Baseline-schizophrenic-patients_vs_Healthy-controls_NA	NA	Phocaeicola plebeius
+bsdb:541/5/1_schizophrenia:Baseline-schizophrenic-patients_vs_Healthy-controls_NA	NA	Phocaeicola plebeius
+bsdb:545/1/1_antibiotic-therapy:7-week-old-(young)-mice-10-days-after-antibiotic-treatments_vs_7-week-old-(young)-mice-before-antibiotic-treatment_UP	NA	Enterococcus
+bsdb:545/1/2_antibiotic-therapy:7-week-old-(young)-mice-10-days-after-antibiotic-treatments_vs_7-week-old-(young)-mice-before-antibiotic-treatment_DOWN	NA	Clostridiales bacterium
+bsdb:545/2/1_antibiotic-therapy:7-week-old-(young)-mice-6-months-after-antibiotic-treatments_vs_7-week-old-(young)-mice-before-antibiotic-treatment_UP	NA	Dubosiella
+bsdb:545/2/2_antibiotic-therapy:7-week-old-(young)-mice-6-months-after-antibiotic-treatments_vs_7-week-old-(young)-mice-before-antibiotic-treatment_DOWN	NA	Candidatus Stoquefichus
+bsdb:545/3/1_antibiotic-therapy:40-week-old-(old)-mice-10-days-after-antibiotic-treatments_vs_40-week-old-(old)-mice-before-antibiotic-treatment_UP	NA	Bacteroidales
+bsdb:545/3/2_antibiotic-therapy:40-week-old-(old)-mice-10-days-after-antibiotic-treatments_vs_40-week-old-(old)-mice-before-antibiotic-treatment_DOWN	NA	Erysipelotrichales
+bsdb:545/4/1_antibiotic-therapy:40-week-old-(old)-mice-6-months-after-antibiotic-treatments_vs_40-week-old-(old)-mice-before-antibiotic-treatment_DOWN	NA	Clostridiales bacterium
+bsdb:545/4/2_antibiotic-therapy:40-week-old-(old)-mice-6-months-after-antibiotic-treatments_vs_40-week-old-(old)-mice-before-antibiotic-treatment_UP	NA	Erysipelotrichales
+bsdb:546/1/1_COVID-19:COVID-19-cases_vs_Non-infected-controls_UP	NA	Proteobacteria
+bsdb:546/1/2_COVID-19:COVID-19-cases_vs_Non-infected-controls_DOWN	NA	Streptococcus
+bsdb:547/1/1_COVID-19:Recovered-COVID-19-patients_vs_Healthy-controls_UP	NA	Enterocloster bolteae
+bsdb:547/1/2_COVID-19:Recovered-COVID-19-patients_vs_Healthy-controls_DOWN	NA	Fusicatenibacter saccharivorans
+bsdb:548/1/1_COVID-19:COVID-19-cases_vs_Healthy-controls_UP	NA	Firmicutes
+bsdb:548/1/2_COVID-19:COVID-19-cases_vs_Healthy-controls_DOWN	NA	Haemophilus
+bsdb:550/1/1_NA:JIA-patients_vs_healthy-controls_UP	NA	Leptotrichia sp. oral taxon 417
+bsdb:550/1/2_NA:JIA-patients_vs_healthy-controls_DOWN	NA	Prevotella sp. oral taxon 314,s__Bergeyella sp. oral taxon 322
+bsdb:550/2/1_NA:JIA-patients-with-TMJ_vs_JIA-patients-without-TMJ_DOWN	NA	Haemophilus
+bsdb:550/2/2_NA:JIA-patients-with-TMJ_vs_JIA-patients-without-TMJ_UP	NA	Haemophilus parainfluenzae
