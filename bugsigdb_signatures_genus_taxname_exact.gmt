@@ -1,4 +1,4 @@
-# BugSigDB 2021-10-27, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2021-10-31, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/4/2_adenoma:Proximal-conventional-adenoma-cases_vs_controls_DOWN	NA	Coprobacillus
 bsdb:1/6/1_adenoma:Non-advanced-conventional-adenoma-cases_vs_controls_UP	NA	Phascolarctobacterium
 bsdb:2/1/1_squamous-cell-carcinoma:squamous-cell-carcinoma-tissues_vs_normal-adjacent-tissues_UP	NA	Parvimonas
@@ -461,11 +461,11 @@ bsdb:247/3/1_diet:placebo_vs_prebiotic-(inulin-type-fructan)---in-participants-w
 bsdb:247/3/2_diet:placebo_vs_prebiotic-(inulin-type-fructan)---in-participants-with-high-dietary-fiber_DOWN	NA	Bifidobacterium
 bsdb:247/4/1_diet:low-dietary-fiber_vs_high-dietary-fiber_DOWN	NA	Faecalibacterium
 bsdb:248/2/1_human-papilloma-virus-infection:HPV_vs_no-HPV_UP	NA	Gardnerella
-bsdb:249/1/1_hepatitis,-alcoholic:alcoholics_vs_NAC_UP	NA	Bradyrhizobium
-bsdb:249/1/2_hepatitis,-alcoholic:alcoholics_vs_NAC_DOWN	NA	Aeromonas
-bsdb:249/2/1_hepatitis,-alcoholic:HDC_vs_NAC_UP	NA	Acinetobacter
-bsdb:249/3/1_hepatitis,-alcoholic:MAH_vs_NAC_UP	NA	Acinetobacter
-bsdb:249/4/1_hepatitis,-alcoholic:SAH_vs_NAC_UP	NA	Alloiococcus
+bsdb:249/1/1_hepatitis:alcoholics_vs_NAC_UP	NA	Bradyrhizobium
+bsdb:249/1/2_hepatitis:alcoholics_vs_NAC_DOWN	NA	Aeromonas
+bsdb:249/2/1_hepatitis:HDC_vs_NAC_UP	NA	Acinetobacter
+bsdb:249/3/1_hepatitis:MAH_vs_NAC_UP	NA	Acinetobacter
+bsdb:249/4/1_hepatitis:SAH_vs_NAC_UP	NA	Alloiococcus
 bsdb:251/1/1_milk-allergic-reaction:cows-milk-allergy_vs_healthy-control_UP	NA	Parabacteroides
 bsdb:251/1/2_milk-allergic-reaction:cows-milk-allergy_vs_healthy-control_DOWN	NA	Salmonella
 bsdb:253/1/1_asthma:asthma_vs_healthy-control_UP	NA	Prevotella
@@ -595,7 +595,7 @@ bsdb:323/2/1_necrotizing-enterocolitis:NEC_vs_non-NEC_DOWN	NA	Corynebacterium
 bsdb:323/3/1_necrotizing-enterocolitis:NEC_vs_non-NEC_UP	NA	Staphylococcus
 bsdb:325/1/1_psoriasis:psoriasis_vs_healthy-controls_UP	NA	Collinsella
 bsdb:325/1/2_psoriasis:psoriasis_vs_healthy-controls_DOWN	NA	Paraprevotella
-bsdb:326/1/1_NA:Responders_vs_Non-Responders_UP	NA	Prevotella
+bsdb:326/1/1_non-small-cell-lung-carcinoma,renal-cell-carcinoma:Responders_vs_Non-Responders_UP	NA	Prevotella
 bsdb:327/1/1_antimicrobial-agent:infants-received-short-term(<3days)-antibiotic-treatment_vs_control(no-treatment)_UP	NA	Lactobacillus
 bsdb:327/1/2_antimicrobial-agent:infants-received-short-term(<3days)-antibiotic-treatment_vs_control(no-treatment)_DOWN	NA	Streptococcus
 bsdb:327/2/1_antimicrobial-agent:infants-received-long-term(>5days)-antibiotic-treatment_vs_control(no-treatment)_UP	NA	Enterococcus
@@ -654,8 +654,8 @@ bsdb:345/1/1_obesity:obese_vs_normal_UP	NA	Megamonas
 bsdb:350/1/2_obesity:obese_vs_normal-weight_DOWN	NA	Phascolarctobacterium
 bsdb:351/1/1_obesity:overweight/obesity_vs_normal_UP	NA	Lactobacillus
 bsdb:351/1/2_obesity:overweight/obesity_vs_normal_DOWN	NA	Bifidobacterium
-bsdb:352/2/1_NA:High-risk-HPV_vs_Low-risk-HPV_UP	NA	Malassezia
-bsdb:352/4/1_NA:High-risk-HPV_vs_Low-risk-HPV_UP	NA	Malassezia
+bsdb:352/2/1_cervical-glandular-intraepithelial-neoplasia,human-papilloma-virus-infection:High-risk-HPV_vs_Low-risk-HPV_UP	NA	Malassezia
+bsdb:352/4/1_cervical-glandular-intraepithelial-neoplasia,human-papilloma-virus-infection:High-risk-HPV_vs_Low-risk-HPV_UP	NA	Malassezia
 bsdb:354/1/2_obesity:overweight/obese_vs_control-(BMI-at-normal-range)_DOWN	NA	Desulfovibrio
 bsdb:356/3/2_air-pollution:ICR-male-mice-exposed-to-PM-2.5_vs_mice-dams-exposed-to-filtered-blanks-PND-21_DOWN	NA	Anaerotruncus
 bsdb:356/6/2_air-pollution:ICR-female-mice-exposed-to-PM-2.5_vs_mice-dams-exposed-to-filtered-blanks-PND-21_DOWN	NA	Lactobacillus
@@ -769,20 +769,20 @@ bsdb:410/2/1_NA:MSM-with-gonorrhea_vs_MSM-with-no-gonorrhea_UP	NA	Prevotella
 bsdb:411/1/1_HIV/AIDS-pre-exposure-prophylaxis:HIV-negative-MSM-on-PrEP_vs_HIV-negative-MSM-not-on-PrEP_UP	NA	Mitsuokella
 bsdb:411/1/2_HIV/AIDS-pre-exposure-prophylaxis:HIV-negative-MSM-on-PrEP_vs_HIV-negative-MSM-not-on-PrEP_DOWN	NA	Shigella
 bsdb:411/2/1_HIV/AIDS-pre-exposure-prophylaxis:HIV-negative-MSM-on-PrEP_vs_HIV-negative-MSM-not-on-PrEP_UP	NA	Streptococcus
-bsdb:412/1/1_NA:HIV-positive-MA-users_vs_HIV-positive-non-MA-users_UP	NA	Streptobacillus
+bsdb:412/1/1_HIV-infection:HIV-positive-MA-users_vs_HIV-positive-non-MA-users_UP	NA	Streptobacillus
 bsdb:412/2/1_methamphetamine-dependence:Methamphetamine-users_vs_non-users_UP	NA	Mogibacterium
 bsdb:412/2/2_methamphetamine-dependence:Methamphetamine-users_vs_non-users_DOWN	NA	Alloprevotella
 bsdb:412/3/1_methamphetamine-dependence:MSM-who-tested-positive-on-MA-urine-drug-screening_vs_MSM-who-did-not-test-positive-on-MA-urine-drug-screening_UP	NA	Anaerococcus
 bsdb:412/3/2_methamphetamine-dependence:MSM-who-tested-positive-on-MA-urine-drug-screening_vs_MSM-who-did-not-test-positive-on-MA-urine-drug-screening_DOWN	NA	Succinivibrio
-bsdb:412/4/1_NA:HIV-positive-men-who-have-sex-with-men-who-tested-positive-in-a-methamphetamine-drug-screening_vs_HIV-positive-men-who-have-sex-with-men-who-did-not-test-positive-in-a-methamphetamine-drug-screening_UP	NA	Streptobacillus
-bsdb:412/4/2_NA:HIV-positive-men-who-have-sex-with-men-who-tested-positive-in-a-methamphetamine-drug-screening_vs_HIV-positive-men-who-have-sex-with-men-who-did-not-test-positive-in-a-methamphetamine-drug-screening_DOWN	NA	Oxalobacter
-bsdb:412/5/1_NA:HIV-negative-MSM-who-tested-positive-in-a-MA-drug-screening_vs_HIV-negative-MSM-who-did-not-test-positive-in-a-MA-drug-screening_UP	NA	Clostridium
-bsdb:412/5/2_NA:HIV-negative-MSM-who-tested-positive-in-a-MA-drug-screening_vs_HIV-negative-MSM-who-did-not-test-positive-in-a-MA-drug-screening_DOWN	NA	Sneathia
+bsdb:412/4/1_HIV-infection:HIV-positive-men-who-have-sex-with-men-who-tested-positive-in-a-methamphetamine-drug-screening_vs_HIV-positive-men-who-have-sex-with-men-who-did-not-test-positive-in-a-methamphetamine-drug-screening_UP	NA	Streptobacillus
+bsdb:412/4/2_HIV-infection:HIV-positive-men-who-have-sex-with-men-who-tested-positive-in-a-methamphetamine-drug-screening_vs_HIV-positive-men-who-have-sex-with-men-who-did-not-test-positive-in-a-methamphetamine-drug-screening_DOWN	NA	Oxalobacter
+bsdb:412/5/1_HIV-infection:HIV-negative-MSM-who-tested-positive-in-a-MA-drug-screening_vs_HIV-negative-MSM-who-did-not-test-positive-in-a-MA-drug-screening_UP	NA	Clostridium
+bsdb:412/5/2_HIV-infection:HIV-negative-MSM-who-tested-positive-in-a-MA-drug-screening_vs_HIV-negative-MSM-who-did-not-test-positive-in-a-MA-drug-screening_DOWN	NA	Sneathia
 bsdb:413/1/1_obsessive-compulsive-disorder:OCD_vs_healthy-controls_DOWN	NA	Anaerostipes
 bsdb:414/1/1_epilepsy:before-keto-diet_vs_after-keto-diet_UP	NA	Dialister
 bsdb:415/1/1_HIV-infection:HIV-positive-women-who-have-been-taking-ART-for-more-than-1-year_vs_Age-matched-HIV-uninfected-women_UP	NA	Moryella
 bsdb:415/3/1_age:HIV-uninfected-women-who-are-50-years-of-age-or-older_vs_HIV-uninfected-women-who-are-less-than-35-years-of-age_UP	NA	Moryella
-bsdb:417/1/1_NA:Women-with-diabetes_vs_Women-without-diabetes_DOWN	NA	Anaerococcus
+bsdb:417/1/1_HIV-infection:Women-with-diabetes_vs_Women-without-diabetes_DOWN	NA	Anaerococcus
 bsdb:418/1/1_HIV-infection:immunological-non-responders-assigned-to-treatment-for-12-weeks_vs_baseline_UP	NA	Desulfovibrio
 bsdb:418/1/2_HIV-infection:immunological-non-responders-assigned-to-treatment-for-12-weeks_vs_baseline_DOWN	NA	Catenibacterium
 bsdb:418/2/1_HIV-infection:immunological-responders-assigned-to-treatment-for-12-weeks_vs_baseline_UP	NA	Desulfovibrio
