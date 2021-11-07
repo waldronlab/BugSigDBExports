@@ -1,4 +1,4 @@
-# BugSigDB 2021-10-31, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2021-11-07, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/2/1_hyperplastic-polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	Lacticaseibacillus zeae
 bsdb:6/1/1_non-alcoholic-fatty-liver-disease:advanced-fibrosis_vs_mild/moderate-fibrosis_DOWN	NA	[Eubacterium] rectale
 bsdb:7/1/2_autism:severely-autistic_vs_non-sibling-control_DOWN	NA	[Clostridium] leptum
@@ -189,8 +189,8 @@ bsdb:244/7/1_age:18-62-years_vs_2-12-years_UP	NA	Lactobacillus iners
 bsdb:244/7/2_age:18-62-years_vs_2-12-years_DOWN	NA	Streptococcus cristatus
 bsdb:244/7/3_age:18-62-years_vs_2-12-years_UP	NA	Lactobacillus iners
 bsdb:244/7/4_age:18-62-years_vs_2-12-years_DOWN	NA	Streptococcus cristatus
-bsdb:249/2/2_hepatitis:HDC_vs_NAC_DOWN	NA	Azotobacter group
-bsdb:249/3/2_hepatitis:MAH_vs_NAC_DOWN	NA	Azotobacter group
+bsdb:249/2/2_hepatitis,alcoholic:HDC_vs_NAC_DOWN	NA	Azotobacter group
+bsdb:249/3/2_hepatitis,alcoholic:MAH_vs_NAC_DOWN	NA	Azotobacter group
 bsdb:250/1/1_severe-aplastic-anemia:hematopoietic-stem-cell-transplantation-engraftment_vs_baseline_UP	NA	Prevotella denticola
 bsdb:250/2/1_severe-aplastic-anemia:hematopoietic-stem-cell-transplantation-engraftment_vs_baseline_DOWN	NA	Prevotella nanceiensis
 bsdb:250/3/1_severe-aplastic-anemia:hematopoietic-stem-cell-transplantation-100-days-after-the-transplant_vs_engraftment_UP	NA	Gemella sanguinis
@@ -234,14 +234,14 @@ bsdb:274/1/2_human-papilloma-virus-infection:HPV+_vs_HPV-_DOWN	NA	Lactobacillus 
 bsdb:274/2/1_cervical-glandular-intraepithelial-neoplasia:low-grade-dysplasia_vs_HPV-_UP	NA	Fannyhessea vaginae
 bsdb:274/2/2_cervical-glandular-intraepithelial-neoplasia:low-grade-dysplasia_vs_HPV-_DOWN	NA	Lactobacillus crispatus
 bsdb:274/3/2_cervical-glandular-intraepithelial-neoplasia:high-grade-dysplasia_vs_HPV-_DOWN	NA	Lactobacillus gasseri
-bsdb:274/4/1_cervical-cancer:invasive-cervical-carcinoma_vs_HPV-_UP	NA	Sneathia sanguinegens
-bsdb:274/4/2_cervical-cancer:invasive-cervical-carcinoma_vs_HPV-_DOWN	NA	Lactobacillus crispatus
+bsdb:274/4/1_cervical-carcinoma:invasive-cervical-carcinoma_vs_HPV-_UP	NA	Sneathia sanguinegens
+bsdb:274/4/2_cervical-carcinoma:invasive-cervical-carcinoma_vs_HPV-_DOWN	NA	Lactobacillus crispatus
 bsdb:274/6/1_cervical-glandular-intraepithelial-neoplasia:low-grade-dysplasia_vs_HPV-_UP	NA	Lactobacillus gasseri
 bsdb:274/6/2_cervical-glandular-intraepithelial-neoplasia:low-grade-dysplasia_vs_HPV-_DOWN	NA	Lactobacillus crispatus
 bsdb:274/7/2_cervical-glandular-intraepithelial-neoplasia:high-grade-dysplasia_vs_HPV-_DOWN	NA	Actinotignum schaalii
-bsdb:274/8/1_cervical-cancer:invasive-cervical-carcinoma_vs_HPV-_DOWN	NA	Prevotella bivia
-bsdb:274/9/1_human-papilloma-virus-infection,cervical-cancer:normal-pH_vs_abnormal-pH_UP	NA	Streptococcus agalactiae
-bsdb:274/9/2_human-papilloma-virus-infection,cervical-cancer:normal-pH_vs_abnormal-pH_DOWN	NA	Lactobacillus gasseri
+bsdb:274/8/1_cervical-carcinoma:invasive-cervical-carcinoma_vs_HPV-_DOWN	NA	Prevotella bivia
+bsdb:274/9/1_human-papilloma-virus-infection,cervical-carcinoma:normal-pH_vs_abnormal-pH_UP	NA	Streptococcus agalactiae
+bsdb:274/9/2_human-papilloma-virus-infection,cervical-carcinoma:normal-pH_vs_abnormal-pH_DOWN	NA	Lactobacillus gasseri
 bsdb:274/10/1_human-papilloma-virus-infection:Hispanic_vs_non-Hispanic_UP	NA	Streptococcus anginosus
 bsdb:274/10/2_human-papilloma-virus-infection:Hispanic_vs_non-Hispanic_DOWN	NA	Lactobacillus gasseri
 bsdb:276/2/1_multiple-myeloma:Multiple-Myeloma-patient_vs_healthy-control_UP	NA	Cronobacter sakazakii
@@ -297,9 +297,9 @@ bsdb:320/2/1_antimicrobial-agent:infants(1-year)-to-mothers-exposed-to-intrapart
 bsdb:320/4/1_antimicrobial-agent:infants(1-year)-to-mothers-exposed-to--antibiotics-(amoxicillin,-penicillin-or-ampicillin)_vs_infants-(1-year)-to-mothers-unexposed-to--antibiotic_UP	NA	[Ruminococcus] gnavus
 bsdb:320/5/1_antimicrobial-agent:infants(6-weeks)-to-mothers-exposed-to-multi-class-antibiotics_vs_infants-(6-weeks)-to-mothers-unexposed-to--antibiotic_UP	NA	Veillonella dispar
 bsdb:324/1/2_thyroid-carcinoma:thyroid-carcinoma_vs_healthy-control_DOWN	NA	[Ruminococcus] gnavus
-bsdb:326/1/2_non-small-cell-lung-carcinoma,renal-cell-carcinoma:Responders_vs_Non-Responders_DOWN	NA	Parabacteroides distasonis
-bsdb:326/2/1_non-small-cell-lung-carcinoma,renal-cell-carcinoma:Progressive--Free--Survival-more-than-30-days_vs_Progressive--Free--Survival-more-less-than-30-days_UP	NA	Ruminococcus sp.
-bsdb:326/3/1_non-small-cell-lung-carcinoma,renal-cell-carcinoma:Responders_vs_Non-Responders_DOWN	NA	Corynebacterium aurimucosum
+bsdb:326/1/2_non-small-cell-lung-carcinoma,renal-cell-carcinoma,renal-cell-adenocarcinoma:Responders_vs_Non-Responders_DOWN	NA	Parabacteroides distasonis
+bsdb:326/2/1_non-small-cell-lung-carcinoma,renal-cell-carcinoma,renal-cell-adenocarcinoma:Progressive--Free--Survival-more-than-30-days_vs_Progressive--Free--Survival-more-less-than-30-days_UP	NA	Ruminococcus sp.
+bsdb:326/3/1_non-small-cell-lung-carcinoma,renal-cell-carcinoma,renal-cell-adenocarcinoma:Responders_vs_Non-Responders_DOWN	NA	Corynebacterium aurimucosum
 bsdb:330/1/1_human-papilloma-virus-infection:HPV+_vs_HPV-_UP	NA	Lactobacillus iners
 bsdb:330/2/1_human-papilloma-virus-infection:HPV+_vs_HPV-_UP	NA	Lactobacillus iners
 bsdb:331/1/1_hashimoto's-thyroiditis:hashimoto's-thyroiditis-patients_vs_healthy-controls_UP	NA	Eubacterium ruminantium
@@ -333,7 +333,7 @@ bsdb:353/1/1_obesity:obese_vs_non-obese_UP	NA	Faecalibacterium prausnitzii
 bsdb:355/1/1_obesity:obese-(obese/overweight/morbidly-obese)_vs_control-(lean/normal-weight)_UP	NA	Lactobacillus sp.
 bsdb:355/1/2_obesity:obese-(obese/overweight/morbidly-obese)_vs_control-(lean/normal-weight)_DOWN	NA	Phocaeicola vulgatus
 bsdb:356/1/2_air-pollution:ICR-male-mice-exposed-to-PM-2.5_vs_mice-dams-exposed-to-filtered-blanks-PND-3_DOWN	NA	Escherichia/Shigella sp.
-bsdb:358/1/1_cervical-glandular-intraepithelial-neoplasia,cervical-cancer:CIN2/3-CC_vs_Healthy-controls_UP	NA	Massilia alkalitolerans
+bsdb:358/1/1_cervical-glandular-intraepithelial-neoplasia,cervical-carcinoma:CIN2/3-CC_vs_Healthy-controls_UP	NA	Massilia alkalitolerans
 bsdb:364/1/1_smoking-behavior:smoker_vs_non-smoker_UP	NA	Veillonella atypica
 bsdb:367/1/1_obesity:obese_vs_normal-weight_UP	NA	Roseburia sp.
 bsdb:367/2/1_obesity:overweight_vs_normal-weight_UP	NA	Roseburia sp.
@@ -356,7 +356,7 @@ bsdb:377/3/2_smoking-behavior:E-cigarette-smoker_vs_cigarette-smoker_DOWN	NA	Str
 bsdb:379/1/1_obesity:non-obese_vs_obese_UP	NA	Lactobacillus ultunensis
 bsdb:379/2/1_obesity:obese_vs_non-obese_UP	NA	Actinomyces sp.
 bsdb:382/1/1_chlamydia-trachomatis-infectious-disease:patient-with-chlamydia-infection_vs_healthy-control_UP	NA	Aerococcus christensenii
-bsdb:382/2/1_human-papilloma-virus-infection:patient-with-chlamydia-infection_vs_HPV-positive-women_UP	NA	Chlamydia trachomatis
+bsdb:382/2/1_human-papilloma-virus-infection,chlamydia-infection:patient-with-chlamydia-infection_vs_HPV-positive-women_UP	NA	Chlamydia trachomatis
 bsdb:385/1/2_gastric-adenocarcinoma:gastric-adenocarcinoma-(GC)_vs_superficial-gastritis-(SG)_DOWN	NA	Streptococcus parasanguinis
 bsdb:386/1/1_pulmonary-tuberculosis:Tuberculosis-(TB)-patients_vs_healthy-controls_UP	NA	Enterocloster bolteae
 bsdb:386/1/2_pulmonary-tuberculosis:Tuberculosis-(TB)-patients_vs_healthy-controls_DOWN	NA	[Ruminococcus] lactaris
@@ -364,10 +364,10 @@ bsdb:397/1/1_atopic-eczema:severe-atopic-dermatitis_vs_healthy-control_UP	NA	Sph
 bsdb:397/1/2_atopic-eczema:severe-atopic-dermatitis_vs_healthy-control_DOWN	NA	Prevotella nanceiensis
 bsdb:403/4/1_eczema:child-with-eczema_vs_healthy-control_UP	NA	Bacteroides fragilis
 bsdb:403/4/2_eczema:child-with-eczema_vs_healthy-control_DOWN	NA	Bifidobacterium bifidum
-bsdb:416/1/1_HIV-infection:continue-cotrimoxazole-prophylaxis_vs_stop-cotrimoxazole-prophylaxis_UP	NA	Odoribacter splanchnicus
-bsdb:416/1/2_HIV-infection:continue-cotrimoxazole-prophylaxis_vs_stop-cotrimoxazole-prophylaxis_DOWN	NA	Streptococcus parasanguinis
-bsdb:416/1/3_HIV-infection:continue-cotrimoxazole-prophylaxis_vs_stop-cotrimoxazole-prophylaxis_UP	NA	Roseburia intestinalis
-bsdb:416/1/4_HIV-infection:continue-cotrimoxazole-prophylaxis_vs_stop-cotrimoxazole-prophylaxis_DOWN	NA	Streptococcus vestibularis
+bsdb:416/1/1_HIV-infection,cotrimoxazole:continue-cotrimoxazole-prophylaxis_vs_stop-cotrimoxazole-prophylaxis_UP	NA	Odoribacter splanchnicus
+bsdb:416/1/2_HIV-infection,cotrimoxazole:continue-cotrimoxazole-prophylaxis_vs_stop-cotrimoxazole-prophylaxis_DOWN	NA	Streptococcus parasanguinis
+bsdb:416/1/3_HIV-infection,cotrimoxazole:continue-cotrimoxazole-prophylaxis_vs_stop-cotrimoxazole-prophylaxis_UP	NA	Roseburia intestinalis
+bsdb:416/1/4_HIV-infection,cotrimoxazole:continue-cotrimoxazole-prophylaxis_vs_stop-cotrimoxazole-prophylaxis_DOWN	NA	Streptococcus vestibularis
 bsdb:428/1/1_COVID-19:COVID-19-cases_vs_Healthy-controls_UP	NA	Akkermansia muciniphila
 bsdb:428/1/2_COVID-19:COVID-19-cases_vs_Healthy-controls_DOWN	NA	Dorea formicigenerans
 bsdb:428/2/1_COVID-19:Recovered-COVID-19-cases_vs_Healthy-controls_UP	NA	[Clostridium] symbiosum
@@ -382,22 +382,22 @@ bsdb:434/2/1_cervical-glandular-intraepithelial-neoplasia:LSIL_vs_healthy-contro
 bsdb:434/2/2_cervical-glandular-intraepithelial-neoplasia:LSIL_vs_healthy-control_DOWN	NA	Fannyhessea vaginae
 bsdb:434/3/1_cervical-glandular-intraepithelial-neoplasia:HSIL_vs_healthy-control_UP	NA	Prevotella timonensis
 bsdb:434/3/2_cervical-glandular-intraepithelial-neoplasia:HSIL_vs_healthy-control_DOWN	NA	Fannyhessea vaginae
-bsdb:434/4/1_cervical-cancer:cervical-cancer_vs_healthy-control_UP	NA	Porphyromonas uenonis
-bsdb:434/4/2_cervical-cancer:cervical-cancer_vs_healthy-control_DOWN	NA	Fannyhessea vaginae
+bsdb:434/4/1_cervical-carcinoma:cervical-cancer_vs_healthy-control_UP	NA	Porphyromonas uenonis
+bsdb:434/4/2_cervical-carcinoma:cervical-cancer_vs_healthy-control_DOWN	NA	Fannyhessea vaginae
 bsdb:435/2/1_human-papilloma-virus-infection:HPV+-transient_vs_HPV-_UP	NA	Lactobacillus iners
 bsdb:436/1/1_cervical-glandular-intraepithelial-neoplasia:CIN2+/cervical-cancer_vs_healthy-control_UP	NA	Prevotella timonensis
 bsdb:437/1/1_human-papilloma-virus-infection:HPV-16+_vs_healthy-control_UP	NA	Gardnerella vaginalis
-bsdb:440/1/1_NA:Participants-with-papulopustular-rosacea-(PPR)_vs_Healthy-controls_UP	NA	Prevotella intermedia
-bsdb:440/1/2_NA:Participants-with-papulopustular-rosacea-(PPR)_vs_Healthy-controls_DOWN	NA	Shewanella algae
-bsdb:440/2/1_NA:Participants-with-erythematotelangiectatic-rosacea_vs_Healthy-controls_DOWN	NA	[Ruminococcus] gnavus
-bsdb:441/2/1_NA:H1N1-cases_vs_Healthy-controls_DOWN	NA	Ruminococcus sp.
+bsdb:440/1/1_Rosacea:Participants-with-papulopustular-rosacea-(PPR)_vs_Healthy-controls_UP	NA	Prevotella intermedia
+bsdb:440/1/2_Rosacea:Participants-with-papulopustular-rosacea-(PPR)_vs_Healthy-controls_DOWN	NA	Shewanella algae
+bsdb:440/2/1_rosacea:Participants-with-erythematotelangiectatic-rosacea_vs_Healthy-controls_DOWN	NA	[Ruminococcus] gnavus
+bsdb:441/2/1_H1N1:H1N1-cases_vs_Healthy-controls_DOWN	NA	Ruminococcus sp.
 bsdb:442/1/1_type-II-diabetes-mellitus:Individuals-diagnosed-with-Type-2-Diabetes-Mellitus_vs_Healthy-controls_DOWN	NA	Cladosporium herbarum
 bsdb:442/1/2_type-II-diabetes-mellitus:Individuals-diagnosed-with-Type-2-Diabetes-Mellitus_vs_Healthy-controls_UP	NA	Trichophyton rubrum
-bsdb:443/1/1_NA:IBS_vs_Health-Control_UP	NA	Pseudomonas aeruginosa
-bsdb:443/2/2_NA:IBS-C_vs_Health-Control_DOWN	NA	Bifidobacterium catenulatum
-bsdb:443/3/1_NA:IBS-D_vs_Health-Control_UP	NA	Pseudomonas aeruginosa
-bsdb:443/3/2_NA:IBS-D_vs_Health-Control_DOWN	NA	Bifidobacterium catenulatum
-bsdb:443/4/1_NA:IBS-U_vs_Health-Control_UP	NA	Pseudomonas aeruginosa
+bsdb:443/1/1_irritable-bowel-sydrome:IBS_vs_Health-Control_UP	NA	Pseudomonas aeruginosa
+bsdb:443/2/2_irritable-bowel-sydrome:IBS-C_vs_Health-Control_DOWN	NA	Bifidobacterium catenulatum
+bsdb:443/3/1_irritable-bowel-sydrome:IBS-D_vs_Health-Control_UP	NA	Pseudomonas aeruginosa
+bsdb:443/3/2_irritable-bowel-sydrome:IBS-D_vs_Health-Control_DOWN	NA	Bifidobacterium catenulatum
+bsdb:443/4/1_irritable-bowel-sydrome:IBS-U_vs_Health-Control_UP	NA	Pseudomonas aeruginosa
 bsdb:446/1/1_COVID-19:COVID-19-cases_vs_COVID-19-negative-controls_DOWN	NA	Corynebacterium accolens
 bsdb:449/1/1_COVID-19:COVID-19-cases_vs_Healthy-controls_UP	NA	Vibrio anguillarum
 bsdb:449/1/2_COVID-19:COVID-19-cases_vs_Healthy-controls_DOWN	NA	Treponema putidum
@@ -456,25 +456,25 @@ bsdb:498/1/1_COVID-19:COVID-19-patients_vs_Asymptomatic-uninfected-controls_UP	N
 bsdb:498/1/2_COVID-19:COVID-19-patients_vs_Asymptomatic-uninfected-controls_DOWN	NA	Prevotella disiens
 bsdb:498/2/1_COVID-19:COVID-19-patients-with-high-viral-load_vs_COVID-19-patients-with-low-viral-load_UP	NA	Prevotella copri
 bsdb:498/2/2_COVID-19:COVID-19-patients-with-high-viral-load_vs_COVID-19-patients-with-low-viral-load_DOWN	NA	Staphylococcus haemolyticus
-bsdb:499/1/2_NA:IBS-A_vs_Healthy-Control_UP	NA	uncultured Clostridia bacterium
-bsdb:499/2/1_NA:IBS-C_vs_Healthy-Control_DOWN	NA	uncultured Bacteroidetes bacterium
-bsdb:499/2/2_NA:IBS-C_vs_Healthy-Control_UP	NA	[Ruminococcus] gnavus
-bsdb:499/3/2_NA:IBS-D_vs_Healthy-Control_UP	NA	[Ruminococcus] lactaris
-bsdb:499/4/1_NA:IBS-(All-patients)_vs_Healthy-Control_DOWN	NA	uncultured Clostridia bacterium
-bsdb:499/4/2_NA:IBS-(All-patients)_vs_Healthy-Control_UP	NA	[Ruminococcus] lactaris
+bsdb:499/1/2_irritable-bowel-sydrome:IBS-A_vs_Healthy-Control_UP	NA	uncultured Clostridia bacterium
+bsdb:499/2/1_irritable-bowel-sydrome:IBS-C_vs_Healthy-Control_DOWN	NA	uncultured Bacteroidetes bacterium
+bsdb:499/2/2_irritable-bowel-sydrome:IBS-C_vs_Healthy-Control_UP	NA	[Ruminococcus] gnavus
+bsdb:499/3/2_irritable-bowel-sydrome:IBS-D_vs_Healthy-Control_UP	NA	[Ruminococcus] lactaris
+bsdb:499/4/1_irritable-bowel-sydrome:IBS-(All-patients)_vs_Healthy-Control_DOWN	NA	uncultured Clostridia bacterium
+bsdb:499/4/2_irritable-bowel-sydrome:IBS-(All-patients)_vs_Healthy-Control_UP	NA	[Ruminococcus] lactaris
 bsdb:500/1/1_COVID-19:COVID-19-patients_vs_Non-COVID-19-pneumonia-patients_UP	NA	Pseudomonas alcaligenes
-bsdb:502/1/1_NA:IBS_vs_Healthy-Control_UP	NA	[Eubacterium] rectale
-bsdb:502/3/1_NA:IBS-D_vs_Healthy-Control_UP	NA	[Eubacterium] rectale
-bsdb:502/4/1_NA:IBS-M_vs_Healthy-Control_UP	NA	Lentilactobacillus buchneri
-bsdb:505/1/1_NA:IBS_vs_Healthy-Control_UP	NA	Bifidobacterium longum
-bsdb:505/1/2_NA:IBS_vs_Healthy-Control_DOWN	NA	Bifidobacterium adolescentis
-bsdb:505/2/1_NA:IBS-D_vs_Healthy-Control_UP	NA	Bifidobacterium longum
-bsdb:505/2/2_NA:IBS-D_vs_Healthy-Control_DOWN	NA	Bifidobacterium bifidum
-bsdb:505/3/1_NA:IBS-A_vs_Healthy-Control_UP	NA	Bifidobacterium bifidum
-bsdb:505/3/2_NA:IBS-A_vs_Healthy-Control_DOWN	NA	Bifidobacterium longum
-bsdb:505/4/1_NA:IBS-C_vs_Healthy-Control_UP	NA	Bifidobacterium bifidum
-bsdb:505/4/2_NA:IBS-C_vs_Healthy-Control_DOWN	NA	Bifidobacterium longum
-bsdb:506/1/1_NA:IBS-D_vs_Healthy-Control_UP	NA	Escherichia coli
+bsdb:502/1/1_irritable-bowel-sydrome:IBS_vs_Healthy-Control_UP	NA	[Eubacterium] rectale
+bsdb:502/3/1_irritable-bowel-sydrome:IBS-D_vs_Healthy-Control_UP	NA	[Eubacterium] rectale
+bsdb:502/4/1_irritable-bowel-sydrome:IBS-M_vs_Healthy-Control_UP	NA	Lentilactobacillus buchneri
+bsdb:505/1/1_irritable-bowel-sydrome:IBS_vs_Healthy-Control_UP	NA	Bifidobacterium longum
+bsdb:505/1/2_irritable-bowel-sydrome:IBS_vs_Healthy-Control_DOWN	NA	Bifidobacterium adolescentis
+bsdb:505/2/1_irritable-bowel-sydrome:IBS-D_vs_Healthy-Control_UP	NA	Bifidobacterium longum
+bsdb:505/2/2_irritable-bowel-sydrome:IBS-D_vs_Healthy-Control_DOWN	NA	Bifidobacterium bifidum
+bsdb:505/3/1_irritable-bowel-sydrome:IBS-A_vs_Healthy-Control_UP	NA	Bifidobacterium bifidum
+bsdb:505/3/2_irritable-bowel-sydrome:IBS-A_vs_Healthy-Control_DOWN	NA	Bifidobacterium longum
+bsdb:505/4/1_irritable-bowel-sydrome:IBS-C_vs_Healthy-Control_UP	NA	Bifidobacterium bifidum
+bsdb:505/4/2_irritable-bowel-sydrome:IBS-C_vs_Healthy-Control_DOWN	NA	Bifidobacterium longum
+bsdb:506/1/1_irritable-bowel-sydrome:IBS-D_vs_Healthy-Control_UP	NA	Escherichia coli
 bsdb:510/1/1_periodontitis:patients-with-rheumatoid-arthritis_vs_patients-with-no-rheumatoid-arthritis_UP	NA	Aggregatibacter sp.
 bsdb:510/1/2_periodontitis:patients-with-rheumatoid-arthritis_vs_patients-with-no-rheumatoid-arthritis_DOWN	NA	Treponema sp.
 bsdb:510/2/1_rheumatoid-arthritis:patients-with-rheumatoid-arthritis_vs_patients-with-no-rheumatoid-arthritis_UP	NA	Tannerella sp. oral taxon 808
@@ -494,8 +494,8 @@ bsdb:522/5/2_endometriosis:Endometriosis-patients_vs_Controls-undergoing-laparos
 bsdb:525/1/2_endometriosis:Women-with-EM-associated-CPPS_vs_Women-without-CPPS-presenting-for-routine-examinations_UP	NA	Delftia tsuruhatensis
 bsdb:525/2/1_endometriosis:Women-with-EM-associated-CPPS_vs_Women-without-CPPS-presenting-for-routine-examinations_UP	NA	Veillonella montpellierensis
 bsdb:525/2/2_endometriosis:Women-with-EM-associated-CPPS_vs_Women-without-CPPS-presenting-for-routine-examinations_DOWN	NA	Lactobacillus jensenii
-bsdb:535/1/1_NA:Antibiotic-treated_vs_Antibiotic-untreated_DOWN	NA	Bifidobacterium sp.
-bsdb:535/1/2_NA:Antibiotic-treated_vs_Antibiotic-untreated_UP	NA	Lactobacillus sp.
+bsdb:535/1/1_housing-status:Antibiotic-treated_vs_Antibiotic-untreated_DOWN	NA	Bifidobacterium sp.
+bsdb:535/1/2_housing-status:Antibiotic-treated_vs_Antibiotic-untreated_UP	NA	Lactobacillus sp.
 bsdb:536/1/1_antibiotic-therapy:The-group-given-an-azithromycin-oral-solution_vs_The-group-given-a-placebo_DOWN	NA	uncultured Bifidobacterium sp.
 bsdb:541/1/1_schizophrenia:Schizophrenic-patients-(ARSCZ,-FESCZ)_vs_Healthy-controls_UP	NA	Limosilactobacillus fermentum
 bsdb:541/1/2_schizophrenia:Schizophrenic-patients-(ARSCZ,-FESCZ)_vs_Healthy-controls_UP	NA	Limosilactobacillus oris
@@ -510,9 +510,9 @@ bsdb:545/1/2_antibiotic-therapy:7-week-old-(young)-mice-10-days-after-antibiotic
 bsdb:545/4/1_antibiotic-therapy:40-week-old-(old)-mice-6-months-after-antibiotic-treatments_vs_40-week-old-(old)-mice-before-antibiotic-treatment_DOWN	NA	Clostridiales bacterium
 bsdb:547/1/1_COVID-19:Recovered-COVID-19-patients_vs_Healthy-controls_UP	NA	Enterocloster bolteae
 bsdb:547/1/2_COVID-19:Recovered-COVID-19-patients_vs_Healthy-controls_DOWN	NA	Fusicatenibacter saccharivorans
-bsdb:550/1/1_NA:JIA-patients_vs_healthy-controls_UP	NA	Leptotrichia sp. oral taxon 417
-bsdb:550/1/2_NA:JIA-patients_vs_healthy-controls_DOWN	NA	Prevotella sp. oral taxon 314,s__Bergeyella sp. oral taxon 322
-bsdb:550/2/2_NA:JIA-patients-with-TMJ_vs_JIA-patients-without-TMJ_UP	NA	Haemophilus parainfluenzae
+bsdb:550/1/1_juvenile-idiopathic-arthritis:JIA-patients_vs_healthy-controls_UP	NA	Leptotrichia sp. oral taxon 417
+bsdb:550/1/2_juvenile-idiopathic-arthritis:JIA-patients_vs_healthy-controls_DOWN	NA	Prevotella sp. oral taxon 314,s__Bergeyella sp. oral taxon 322
+bsdb:550/2/2_temporomandibular-joint-disorder:JIA-patients-with-TMJ_vs_JIA-patients-without-TMJ_UP	NA	Haemophilus parainfluenzae
 bsdb:553/1/1_spontaneous-abortion:First-or-second-trimester-miscarriage_vs_Viable-control-pregnancy_DOWN	NA	Lactobacillus sp.
-bsdb:553/2/1_NA:First-trimester-miscarriage_vs_Viable-control-pregnancy_DOWN	NA	Lactobacillus sp.
-bsdb:553/3/1_NA:complete/incomplete-miscarriage_vs_missed-miscarriage_DOWN	NA	Lactobacillus sp.
+bsdb:553/2/1_miscarriage:First-trimester-miscarriage_vs_Viable-control-pregnancy_DOWN	NA	Lactobacillus sp.
+bsdb:553/3/1_miscarriage:complete/incomplete-miscarriage_vs_missed-miscarriage_DOWN	NA	Lactobacillus sp.
