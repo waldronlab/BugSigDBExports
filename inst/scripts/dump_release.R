@@ -1,4 +1,4 @@
-############################################################
+###########################################################
 # 
 # author: Ludwig Geistlinger
 # date: 2021-07-13 19:49:35
@@ -118,6 +118,32 @@ bsdb <- readFiles(links)
 abstr.col <- "Abstract"
 bsdb <- bsdb[,colnames(bsdb) != abstr.col]
 
+
+# resolve lower case / upper case inconsistencies
+
+spl <- split(bsdb[,"Condition"], bsdb[,"EFO ID"])
+spl <- lapply(spl, unique)
+incons <- spl[lengths(spl) > 1]
+incons <- lapply(incons, tolower)
+incons <- lapply(incons, unique)
+incons <- incons[lengths(incons) == 1]
+for(n in names(incons))
+{ 
+    ind  <- which(bsdb[,"EFO ID"] == n)   
+    bsdb[ind,"Condition"] <- incons[[n]]
+}
+
+spl <- split(bsdb[,"Body site"], bsdb[,"UBERON ID"])
+spl <- lapply(spl, unique)
+incons <- spl[lengths(spl) > 1]
+incons <- lapply(incons, tolower)
+incons <- lapply(incons, unique)
+incons <- incons[lengths(incons) == 1]
+for(n in names(incons))
+{ 
+    ind  <- which(bsdb[,"UBERON ID"] == n)   
+    bsdb[ind,"Body site"] <- incons[[n]]
+}
 
 # write full dump
 csv.file <- file.path(out.dir, "full_dump.csv")
