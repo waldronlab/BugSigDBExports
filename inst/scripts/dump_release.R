@@ -161,6 +161,9 @@ addHeader <- function(header, out.file)
 } 
 
 # write GMT files for all combinations of ID type and taxonomic level
+bsdb[["MetaPhlAn taxon names"]] <- strsplit(bsdb[["MetaPhlAn taxon names"]], ",")
+bsdb[["NCBI Taxonomy IDs"]] <- strsplit(bsdb[["NCBI Taxonomy IDs"]], ";")
+
 tax.levels <- c("mixed", "genus", "species")
 id.types <- c("ncbi", "metaphlan", "taxname")
 exact.tax.levels <- c(TRUE, FALSE)
