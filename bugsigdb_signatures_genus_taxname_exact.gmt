@@ -1,4 +1,4 @@
-# BugSigDB 2022-01-23, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2022-01-30, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_adenoma:conventional-adenoma-cases_vs_controls_UP	NA	Actinomyces	Corynebacterium	Streptococcus	Peptoniphilus	Dorea	Phascolarctobacterium	Sutterella	Bacillus
 bsdb:1/1/2_adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	Coprobacillus
 bsdb:1/2/1_hyperplastic-polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	Anaerostipes
@@ -1512,6 +1512,8 @@ bsdb:562/3/1_NA:feces-from-healthy-adult_vs_none---50%-prevalence-threshold_NA	N
 bsdb:562/4/1_NA:nasal-cavity-from-healthy-adult_vs_none---50%-prevalence-threshold_NA	NA	Cutibacterium	Staphylococcus	Corynebacterium	Malassezia
 bsdb:562/5/1_NA:oral-cavity-from-healthy-adult_vs_none---50%-prevalence-threshold_NA	NA	Streptococcus	Rothia	Actinomyces	Veillonella	Prevotella	Fusobacterium	Gemella	Neisseria	Haemophilus	Porphyromonas	Campylobacter	Schaalia	Capnocytophaga	Leptotrichia	Corynebacterium	Lautropia	Aggregatibacter	Tannerella	Alloprevotella	Granulicatella	Serinicoccus	Lachnoanaerobaculum	Parvimonas	Selenomonas	Treponema	Abiotrophia	Kingella	Mogibacterium	Stomatobaculum	Solobacterium	Cardiobacterium	Megasphaera	Eikenella	Peptostreptococcus
 bsdb:562/6/1_NA:milk-from-healthy-adult_vs_none---50%-prevalence-threshold_NA	NA	Streptococcus
+bsdb:562/7/1_healthy:healthy-adult-vagina-70%-up_vs_NA_NA	NA	Lactobacillus
+bsdb:562/9/1_NA:feces-from-healthy-adult_vs_none---70%-prevalence-threshold_NA	NA	Faecalibacterium	Bacteroides	Roseburia	Blautia	Mediterraneibacter	Dorea	Eubacterium	Phocaeicola	Fusicatenibacter	Parabacteroides	Alistipes	Anaerostipes	Coprococcus	Collinsella	Agathobaculum	Anaerobutyricum	Ruminococcus	Bifidobacterium	Lachnospira	Streptococcus	Gemmiger	Oscillibacter	Clostridium	Odoribacter	Flavonifractor	Adlercreutzia
 bsdb:566/1/1_NA:HLAB27+_vs_HLAB27-_DOWN	NA	Haemophilus
 bsdb:570/1/1_NA:female-with-early-RA_vs_female-healthy-control_DOWN	NA	Eubacterium	Collinsella	Leuconostoc
 bsdb:576/1/1_colorectal-cancer:adenocarcinoma_vs_contemporaneous-patients-awaiting-elective-surgery-for-nononcologic-conditions_DOWN	NA	Coprococcus
@@ -1536,3 +1538,15 @@ bsdb:598/2/1_HIV-Infection:HIV-seroconverted_vs_HIV-seronegative_UP	NA	Dialister
 bsdb:599/1/1_Human-immunodeficiency-virus:Healthy-females-who-recieved-two-vaginal-HIV-microbicidal-gels_vs_Healthy-females-who-recieved-universal-placebo_UP	NA	Atopobium	Enterococcus	Escherichia	Gardnerella	Mobiluncus	Prevotella	Sneathia	Streptococcus
 bsdb:600/1/1_parkinson's-disease:Participants-with-Parkinson's-Disease_vs_Healthy-controls_UP	NA	Acinetobacter	Alistipes	Butyricicoccus	Clostridium	Desulfovibrio	Klebsiella	Nitrososphaera	Paraprevotella	Sphingomonas	Aquabacterium
 bsdb:600/1/2_parkinson's-disease:Participants-with-Parkinson's-Disease_vs_Healthy-controls_DOWN	NA	Lactobacillus	Sediminibacterium
+bsdb:604/1/1_parkinson's-disease:Participants-with-Parkinson's-Disease_vs_Healthy-controls-free-of-neurological-disease_UP	NA	Porphyromonas	Prevotella	Corynebacterium	Bifidobacterium	Lactobacillus
+bsdb:604/1/2_parkinson's-disease:Participants-with-Parkinson's-Disease_vs_Healthy-controls-free-of-neurological-disease_DOWN	NA	Faecalibacterium	Agathobacter	Blautia	Roseburia	Butyricicoccus	Fusicatenibacter	Lachnospira	Oscillospira
+bsdb:604/1/3_parkinson's-disease:Participants-with-Parkinson's-Disease_vs_Healthy-controls-free-of-neurological-disease_DOWN	NA	Faecalibacterium	Agathobacter	Blautia	Roseburia	Butyricicoccus	Fusicatenibacter	Lachnospira	Oscillospira
+bsdb:604/2/1_parkinson's-disease:Participants-with-Parkinson's-Disease_vs_Healthy-control-free-of-neurological-disease._UP	NA	Porphyromonas	Prevotella	Corynebacterium	Blautia	Bifidobacterium	Lactobacillus
+bsdb:604/2/2_parkinson's-disease:Participants-with-Parkinson's-Disease_vs_Healthy-control-free-of-neurological-disease._DOWN	NA	Faecalibacterium	Agathobacter	Roseburia	Butyricicoccus	Fusicatenibacter	Lachnospira
+bsdb:605/1/1_parkinson's-disease:Participants-with-Parkinson's-Disease_vs_Healthy-controls-without-Parkinson's-disease_UP	NA	Parabacteroides	Akkermansia	Butyricimonas	Veillonella	Odoribacter	Mucispirillum	Bilophila	Enterococcus	Lactobacillus
+bsdb:605/1/2_parkinson's-disease:Participants-with-Parkinson's-Disease_vs_Healthy-controls-without-Parkinson's-disease_DOWN	NA	Faecalibacterium	Prevotella
+bsdb:605/2/1_parkinson's-disease:Participants-with-Parkinson's-Disease-with-tremor-subtypes_vs_Participants-with-Parkinson's-Disease-with-non-tremor-subtypes_UP	NA	Akkermansia
+bsdb:605/2/2_parkinson's-disease:Participants-with-Parkinson's-Disease-with-tremor-subtypes_vs_Participants-with-Parkinson's-Disease-with-non-tremor-subtypes_DOWN	NA	Mogibacterium	Flavobacterium	Desulfovibrio	Propionibacterium	Cupriavidus	Sutterella
+bsdb:607/2/1_parkinson's-disease:Participants-with-typical-PD_vs_Healthy-controls_UP	NA	Christensenella	Anaerotruncus	Lactobacillus	Bilophila	Akkermansia	Streptococcus
+bsdb:607/2/2_parkinson's-disease:Participants-with-typical-PD_vs_Healthy-controls_DOWN	NA	Turicibacter
+bsdb:607/3/1_parkinson's-disease:Male-patients-with-PD_vs_Female-patients-with-PD_UP	NA	Paraprevotella

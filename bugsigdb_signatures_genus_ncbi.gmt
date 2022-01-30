@@ -1,4 +1,4 @@
-# BugSigDB 2022-01-23, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2022-01-30, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_adenoma:conventional-adenoma-cases_vs_controls_UP	NA	1654	1716	1301	162289	189330	33024	40544	1386
 bsdb:1/1/2_adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	100883
 bsdb:1/2/1_hyperplastic-polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	207244
@@ -1512,6 +1512,8 @@ bsdb:562/3/1_NA:feces-from-healthy-adult_vs_none---50%-prevalence-threshold_NA	N
 bsdb:562/4/1_NA:nasal-cavity-from-healthy-adult_vs_none---50%-prevalence-threshold_NA	NA	1912216	1279	1716	55193
 bsdb:562/5/1_NA:oral-cavity-from-healthy-adult_vs_none---50%-prevalence-threshold_NA	NA	1301	32207	1654	29465	838	848	1378	482	724	836	194	2529408	1016	32067	1716	47670	416916	195950	1283313	117563	265976	1164882	543311	970	157	46123	32257	86331	1213720	123375	2717	906	538	1257
 bsdb:562/6/1_NA:milk-from-healthy-adult_vs_none---50%-prevalence-threshold_NA	NA	1301
+bsdb:562/7/1_healthy:healthy-adult-vagina-70%-up_vs_NA_NA	NA	1578
+bsdb:562/9/1_NA:feces-from-healthy-adult_vs_none---70%-prevalence-threshold_NA	NA	216851	816	841	572511	2316020	189330	1730	909656	1407607	375288	239759	207244	33042	102106	2048137	2569097	1263	1678	28050	1301	204475	459786	1485	283168	946234	447020
 bsdb:566/1/1_NA:HLAB27+_vs_HLAB27-_DOWN	NA	724
 bsdb:570/1/1_NA:female-with-early-RA_vs_female-healthy-control_DOWN	NA	1730	102106	1243
 bsdb:576/1/1_colorectal-cancer:adenocarcinoma_vs_contemporaneous-patients-awaiting-elective-surgery-for-nononcologic-conditions_DOWN	NA	33042
@@ -1536,3 +1538,15 @@ bsdb:598/2/1_HIV-Infection:HIV-seroconverted_vs_HIV-seronegative_UP	NA	39948	125
 bsdb:599/1/1_Human-immunodeficiency-virus:Healthy-females-who-recieved-two-vaginal-HIV-microbicidal-gels_vs_Healthy-females-who-recieved-universal-placebo_UP	NA	1380	1350	561	2701	2050	838	168808	1301
 bsdb:600/1/1_parkinson's-disease:Participants-with-Parkinson's-Disease_vs_Healthy-controls_UP	NA	469	239759	580596	1485	872	570	497726	577309	13687	92793
 bsdb:600/1/2_parkinson's-disease:Participants-with-Parkinson's-Disease_vs_Healthy-controls_DOWN	NA	1578	504481
+bsdb:604/1/1_parkinson's-disease:Participants-with-Parkinson's-Disease_vs_Healthy-controls-free-of-neurological-disease_UP	NA	836	838	1716	1678	1578
+bsdb:604/1/2_parkinson's-disease:Participants-with-Parkinson's-Disease_vs_Healthy-controls-free-of-neurological-disease_DOWN	NA	216851	1766253	572511	841	580596	1407607	28050	119852
+bsdb:604/1/3_parkinson's-disease:Participants-with-Parkinson's-Disease_vs_Healthy-controls-free-of-neurological-disease_DOWN	NA	216851	1766253	572511	841	580596	1407607	28050	119852
+bsdb:604/2/1_parkinson's-disease:Participants-with-Parkinson's-Disease_vs_Healthy-control-free-of-neurological-disease._UP	NA	836	838	1716	572511	1678	1578
+bsdb:604/2/2_parkinson's-disease:Participants-with-Parkinson's-Disease_vs_Healthy-control-free-of-neurological-disease._DOWN	NA	216851	1766253	841	580596	1407607	28050
+bsdb:605/1/1_parkinson's-disease:Participants-with-Parkinson's-Disease_vs_Healthy-controls-without-Parkinson's-disease_UP	NA	375288	239934	574697	29465	283168	248038	35832	1350	1578
+bsdb:605/1/2_parkinson's-disease:Participants-with-Parkinson's-Disease_vs_Healthy-controls-without-Parkinson's-disease_DOWN	NA	216851	838
+bsdb:605/2/1_parkinson's-disease:Participants-with-Parkinson's-Disease-with-tremor-subtypes_vs_Participants-with-Parkinson's-Disease-with-non-tremor-subtypes_UP	NA	239934
+bsdb:605/2/2_parkinson's-disease:Participants-with-Parkinson's-Disease-with-tremor-subtypes_vs_Participants-with-Parkinson's-Disease-with-non-tremor-subtypes_DOWN	NA	86331	237	872	1743	106589	40544
+bsdb:607/2/1_parkinson's-disease:Participants-with-typical-PD_vs_Healthy-controls_UP	NA	990721	244127	1578	35832	239934	1301
+bsdb:607/2/2_parkinson's-disease:Participants-with-typical-PD_vs_Healthy-controls_DOWN	NA	191303
+bsdb:607/3/1_parkinson's-disease:Male-patients-with-PD_vs_Female-patients-with-PD_UP	NA	577309
