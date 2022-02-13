@@ -1,4 +1,4 @@
-# BugSigDB 2022-02-06, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2022-02-13, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_adenoma:conventional-adenoma-cases_vs_controls_UP	NA	1654	1716	1301	162289	189330	33024	40544	1386
 bsdb:1/1/2_adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	100883
 bsdb:1/2/1_hyperplastic-polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	207244
@@ -813,10 +813,10 @@ bsdb:269/1/4_leukemia:Acute-Lymphoblastic-Leukemia-diagnosis-and-Pre--Chemothera
 bsdb:270/1/1_human-papilloma-virus-infection:HPV+_vs_HPV-_UP	NA	168808	906	1253	1696	286
 bsdb:270/1/2_human-papilloma-virus-infection:HPV+_vs_HPV-_DOWN	NA	83618	1654	213484	222991
 bsdb:270/2/1_human-papilloma-virus-infection:HPV+-(persistance)_vs_HPV+-(clearance)_UP	NA	1380	216851
-bsdb:271/1/1_acute-lymphoblastic-leukemia:Minimal-Residual-Disease--(negativity)-with-Allogenic-Stem-Cell-Transplant_vs_Minimal-Residual-Disease--(positivity)-with-Allogenic-Stem-Cell-Transplant_UP	NA	216851	253238	44748
-bsdb:271/1/2_acute-lymphoblastic-leukemia:Minimal-Residual-Disease--(negativity)-with-Allogenic-Stem-Cell-Transplant_vs_Minimal-Residual-Disease--(positivity)-with-Allogenic-Stem-Cell-Transplant_DOWN	NA	32207
-bsdb:271/2/1_acute-lymphoblastic-leukemia:Minimal-Residual-Disease--(negativity)-with-Allogenic-Stem-Cell-Transplant_vs_Minimal-Residual-Disease--(positivity)-with-Allogenic-Stem-Cell-Transplant_UP	NA	1730
-bsdb:271/2/2_acute-lymphoblastic-leukemia:Minimal-Residual-Disease--(negativity)-with-Allogenic-Stem-Cell-Transplant_vs_Minimal-Residual-Disease--(positivity)-with-Allogenic-Stem-Cell-Transplant_UP	NA	216851
+bsdb:271/1/1_Acute-lymphoblastic-leukemia:Minimal-Residual-Disease--(negativity)-with-Allogenic-Stem-Cell-Transplant_vs_Minimal-Residual-Disease--(positivity)-with-Allogenic-Stem-Cell-Transplant_UP	NA	216851	253238	44748
+bsdb:271/1/2_Acute-lymphoblastic-leukemia:Minimal-Residual-Disease--(negativity)-with-Allogenic-Stem-Cell-Transplant_vs_Minimal-Residual-Disease--(positivity)-with-Allogenic-Stem-Cell-Transplant_DOWN	NA	32207
+bsdb:271/2/1_Acute-lymphoblastic-leukemia:Minimal-Residual-Disease--(negativity)-with-Allogenic-Stem-Cell-Transplant_vs_Minimal-Residual-Disease--(positivity)-with-Allogenic-Stem-Cell-Transplant_UP	NA	1730
+bsdb:271/2/2_Acute-lymphoblastic-leukemia:Minimal-Residual-Disease--(negativity)-with-Allogenic-Stem-Cell-Transplant_vs_Minimal-Residual-Disease--(positivity)-with-Allogenic-Stem-Cell-Transplant_UP	NA	216851
 bsdb:272/1/1_pneumonia:S.pneumoniae-positive_vs_negative_UP	NA	475	1301
 bsdb:272/1/2_pneumonia:S.pneumoniae-positive_vs_negative_DOWN	NA	1716	1279
 bsdb:274/1/1_human-papilloma-virus-infection:HPV+_vs_HPV-_UP	NA	838
@@ -837,8 +837,8 @@ bsdb:274/9/1_human-papilloma-virus-infection,cervical-cancer:normal-pH_vs_abnorm
 bsdb:274/9/2_human-papilloma-virus-infection,cervical-cancer:normal-pH_vs_abnormal-pH_DOWN	NA	1578	561	71655	620	1485
 bsdb:274/10/1_human-papilloma-virus-infection:Hispanic_vs_non-Hispanic_UP	NA	29465	1301	1375	2701	1350	437755	906	168808	1380	177971	836
 bsdb:274/10/2_human-papilloma-virus-infection:Hispanic_vs_non-Hispanic_DOWN	NA	1578
-bsdb:275/1/1_acute-lymphoblastic-leukemia:ALL-patient_vs_healthy-sibling-control_UP	NA	1301	39948	1485	397864	459786	1578	207244	40544	577309	1263	204475	1678	239934	841	239759	572511	375288	216851	838	816
-bsdb:275/1/2_acute-lymphoblastic-leukemia:ALL-patient_vs_healthy-sibling-control_DOWN	NA	1301	39948	1485	397864	459786	1578	207244	40544	577309	1263	204475	1678	239934	841	239759	572511	375288	216851	838	816
+bsdb:275/1/1_Acute-lymphoblastic-leukemia:ALL-patient_vs_healthy-sibling-control_UP	NA	1301	39948	1485	397864	459786	1578	207244	40544	577309	1263	204475	1678	239934	841	239759	572511	375288	216851	838	816
+bsdb:275/1/2_Acute-lymphoblastic-leukemia:ALL-patient_vs_healthy-sibling-control_DOWN	NA	1301	39948	1485	397864	459786	1578	207244	40544	577309	1263	204475	1678	239934	841	239759	572511	375288	216851	838	816
 bsdb:276/2/1_multiple-myeloma:Multiple-Myeloma-patient_vs_healthy-control_UP	NA	816	191303	413496
 bsdb:276/2/2_multiple-myeloma:Multiple-Myeloma-patient_vs_healthy-control_DOWN	NA	1508657	1730	207244	84108	135858	904
 bsdb:276/3/1_multiple-myeloma:Multiple-Myeloma-patient_vs_healthy-control_DOWN	NA	816	216851	841	29465	1481960	904	1472649
@@ -846,8 +846,8 @@ bsdb:277/1/1_Crohn's-disease:crohn's-disease_vs_healthy-control_DOWN	NA	216851	1
 bsdb:278/1/1_non-alcoholic-fatty-liver-disease:non-alcoholic-fatty-liver-disease_vs_healthy-control_UP	NA	1578
 bsdb:278/1/2_non-alcoholic-fatty-liver-disease:non-alcoholic-fatty-liver-disease_vs_healthy-control_DOWN	NA	239759	207244	816	572511	189330	216851
 bsdb:280/1/1_cervical-glandular-intraepithelial-neoplasia:high-grade-squamus-intraepithelial-lesion_vs_low-grade-squamus-intraepithelial-lesion_UP	NA	165779	168808
-bsdb:281/1/1_acute-lymphoblastic-leukemia:Fecal-bacterial-composition-in-small-intestines-of-leukemia-mice_vs_Fecal-bacterial-composition-in-small-intestines-of-control-mice_UP	NA	119852	2086	830	189330	1263	1485	33042	207244	239934	572511
-bsdb:281/1/2_acute-lymphoblastic-leukemia:Fecal-bacterial-composition-in-small-intestines-of-leukemia-mice_vs_Fecal-bacterial-composition-in-small-intestines-of-control-mice_DOWN	NA	1578	447020	191303	207244	239934	572511
+bsdb:281/1/1_Acute-lymphoblastic-leukemia:Fecal-bacterial-composition-in-small-intestines-of-leukemia-mice_vs_Fecal-bacterial-composition-in-small-intestines-of-control-mice_UP	NA	119852	2086	830	189330	1263	1485	33042	207244	239934	572511
+bsdb:281/1/2_Acute-lymphoblastic-leukemia:Fecal-bacterial-composition-in-small-intestines-of-leukemia-mice_vs_Fecal-bacterial-composition-in-small-intestines-of-control-mice_DOWN	NA	1578	447020	191303	207244	239934	572511
 bsdb:282/1/2_graft-versus-host-disease:Grades-II-IV-(acute-graft-host-disease)_vs_Grades-0-I-(non-acute-graft-host-disease)_DOWN	NA	1506553	572511
 bsdb:283/1/1_human-papilloma-virus-infection:HPV+_vs_HPV-_UP	NA	84111	1378
 bsdb:284/1/1_chronic-kidney-disease:Chronic-kidney-disease_vs_healthy-controls_UP	NA	1301	1716	1654	32207	59735
@@ -880,10 +880,10 @@ bsdb:297/1/1_human-papilloma-virus-infection:non-pregnant-high-risk-HPV_vs_non-p
 bsdb:297/1/2_human-papilloma-virus-infection:non-pregnant-high-risk-HPV_vs_non-pregnant-no-HPV_DOWN	NA	1578
 bsdb:297/2/1_human-papilloma-virus-infection:pregnant-high-risk-HPV_vs_pregnant-no-HPV_UP	NA	12916
 bsdb:297/2/2_human-papilloma-virus-infection:pregnant-high-risk-HPV_vs_pregnant-no-HPV_DOWN	NA	1301
-bsdb:298/1/1_acute-myeloid-leukemia:stool_vs_oral_UP	NA	239934	1578	1357	375288	838	46205	286	1301	1279	292632
-bsdb:298/1/2_acute-myeloid-leukemia:stool_vs_oral_DOWN	NA	838	1279	1301
-bsdb:298/2/1_acute-myeloid-leukemia:infection_vs_no-infection_UP	NA	40323	1301
-bsdb:298/3/1_acute-myeloid-leukemia:infection_vs_no-infection_UP	NA	1301
+bsdb:298/1/1_acute-myeloid-leukemia-by-FAB-classification:stool_vs_oral_UP	NA	239934	1578	1357	375288	838	46205	286	1301	1279	292632
+bsdb:298/1/2_acute-myeloid-leukemia-by-FAB-classification:stool_vs_oral_DOWN	NA	838	1279	1301
+bsdb:298/2/1_acute-myeloid-leukemia-by-FAB-classification:infection_vs_no-infection_UP	NA	40323	1301
+bsdb:298/3/1_Acute-myeloid-leukemia:infection_vs_no-infection_UP	NA	1301
 bsdb:300/1/2_graft-versus-host-disease:acute-graft--versus--host-disease_vs_non--graft--versus--host-disease_DOWN	NA	1470353
 bsdb:301/1/1_human-papilloma-virus-infection:HPV+_vs_HPV-_UP	NA	39948	906	168808
 bsdb:301/2/1_human-papilloma-virus-infection:HPV+_vs_HPV-_UP	NA	168808
@@ -1508,12 +1508,15 @@ bsdb:558/1/2_antimicrobial-agent:received-oral-i.v.-administered-GSK1322322-(end
 bsdb:558/2/2_antimicrobial-agent:received-oral-i.v.-administered-GSK1322322-(end-of-study)_vs_received-oral-i.v.-administered-GSK1322322-(prestudy)_DOWN	NA	375288	283168
 bsdb:560/3/1_parkinson's-disease:Men-with-Parkinson's-Disease._vs_Healthy-men-without-Parkinson's-Disease._UP	NA	1730
 bsdb:561/1/2_parkinson's-disease:Participants-with-early-stage-Parkinson's-Disease._vs_Healthy-age-sex-matched-controls-without-Parkinson's-disease._DOWN	NA	32199	511434
+bsdb:562/1/1_healthy:healthy-adult-vagina-50%-up_vs_NA_NA	NA	1578
+bsdb:562/2/1_healthy:healthy-adult-skin-50%-up_vs_none_NA	NA	1279	1912216	1716	1301	1269	150022	475	32207
 bsdb:562/3/1_NA:feces-from-healthy-adult_vs_none---50%-prevalence-threshold_NA	NA	216851	816	841	572511	2316020	189330	1730	909656	1407607	375288	239759	207244	33042	102106	2048137	2569097	1263	1678	28050	204475	1905344	459786	1485	283168	946234	447020	838	397864	644652	33024	2172004	561	35832	239934	574697	577310	1505657
 bsdb:562/4/1_NA:nasal-cavity-from-healthy-adult_vs_none---50%-prevalence-threshold_NA	NA	1912216	1279	1716	55193
 bsdb:562/5/1_NA:oral-cavity-from-healthy-adult_vs_none---50%-prevalence-threshold_NA	NA	1301	32207	1654	29465	838	848	1378	482	724	836	194	2529408	1016	32067	1716	47670	416916	195950	1283313	117563	265976	1164882	543311	970	157	46123	32257	86331	1213720	123375	2717	906	538	1257
 bsdb:562/6/1_NA:milk-from-healthy-adult_vs_none---50%-prevalence-threshold_NA	NA	1301
 bsdb:562/7/1_healthy:healthy-adult-vagina-70%-up_vs_NA_NA	NA	1578
 bsdb:562/9/1_NA:feces-from-healthy-adult_vs_none---70%-prevalence-threshold_NA	NA	216851	816	841	572511	2316020	189330	1730	909656	1407607	375288	239759	207244	33042	102106	2048137	2569097	1263	1678	28050	1301	204475	459786	1485	283168	946234	447020
+bsdb:562/10/1_NA:feces-from-healthy-adult_vs_none---0%-prevalence-threshold_NA	NA	46123	2147	222	904	1912215	50709	12916	469	76833	1654	1653174	447020	240233	1375	642	2048137	416916	186829	46352	239934	507	2321111	239759	2675234	133193	222991	209879	1651	1283313	419014	2823232	2749846	2569097	165779	52784	264995	156454	1924093	653683	207244	2039240	244127	55079	150247	69278	2801844	28263	1663	35823	5052	1380	414371	6	1386	816	397864	697279	59735	1678	35832	572511	517	85413	43668	29521	374	55080	1696	41275	2755	234	32008	580596	574697	830	1276290	1158982	1535326	1291539	1470349	1016	2717	2747	135858	43996	75	158483	698776	157920	1653176	180162	810	990721	59732	169133	1573	508459	501783	1870884	1485	102106	283	2767879	100883	1348911	33042	2678534	1716	1937664	413496	106589	2034	1912216	2675230	1298	80865	2767880	79603	36739	57495	82800	893	898	872	39948	1472649	37914	29393	189330	2518495	156973	635	84111	1279384	538	1432051	308865	423604	59734	212791	1472762	106591	5758	547	2719313	1350	2782229	171412	551	1505663	1647	561	1730	41201	33986	1582879	66831	2005359	1573536	1573534	2767327	44259	150022	237	946234	1649295	1434006	1335631	2767881	1407607	848	2701	1378	204475	129337	1193503	13075	1742989	2053	644652	117563	366614	724	568	1892380	31983	209	1573535	61170	2815774	1649459	243627	1609627	70774	89092	1937007	1505657	1392389	53457	29580	157226	227979	428711	257820	32257	570	579	136099	1330547	186475	1649	57499	1506553	28050	2719231	2759736	2767842	1578	1357	420345	2767353	2767884	2767885	47670	1847725	41707	2172004	83654	5658	2767893	32067	55968	1243	2767886	2767887	1676651	2742598	2767888	1637	2767889	400634	68	69965	1637257	55193	2803850	2837505	86795	248744	149698	1926659	2316020	158846	906	65551	1649468	33969	68287	2055876	2172	1080709	2316	316612	2282523	33882	29404	57479	52225	2100764	2050	88138	158848	86331	2039302	475	581	212742	248038	1918540	1774128	1763	670516	1866885	2093	2767358	53	909928	482	1839	2013	283168	46254	90243
 bsdb:566/1/1_NA:HLAB27+_vs_HLAB27-_DOWN	NA	724
 bsdb:570/1/1_NA:female-with-early-RA_vs_female-healthy-control_DOWN	NA	1730	102106	1243
 bsdb:576/1/1_colorectal-cancer:adenocarcinoma_vs_contemporaneous-patients-awaiting-elective-surgery-for-nononcologic-conditions_DOWN	NA	33042
