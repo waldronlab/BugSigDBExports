@@ -80,20 +80,40 @@ readFiles <- function(links, delay = 60)
     ind <- colnames(exps) == "Experiment page name"
     colnames(exps)[ind] <- "Experiment"
 
-    # remove experiments without signatures, and signatures without experiments
+    # sync studies and experiments
+    ind <- exps$Study %in% studs$Study 
+    exps <- exps[ind,]
+    ind <- match(exps$Study, studs$Study)
+    stud.exp <- studs[ind,] 
+    ind <- colnames(exps) != "Study"
+    exps <- cbind(stud.exp, exps[,ind])
+
+    # remove signatures without experiments
     ses <- paste(sigs$Study, sigs$Experiment, sep = "-")
     es <- paste(exps$Study, exps$Experiment, sep = "-")
-    valid.entries <- unique(intersect(es, ses))
-    spl <- strsplit(valid.entries, "-")
-    valid.studs <- vapply(spl, `[`, character(1), x = 1)
-    valid.studs <- unique(valid.studs)    
-    studs <- subset(studs, Study %in% valid.studs)
-    exps <- exps[es %in% valid.entries,]
-    sigs <- sigs[ses %in% valid.entries,]
+    ind <- ses %in% es
+    sigs <- sigs[ind,]
+    ses <- ses[ind]
+    ind <- match(ses, es)
+    exp.sig <- exps[ind,]
+    ind <- setdiff(colnames(sigs), c("Study", "Experiment"))
+    sigs <- cbind(exp.sig, sigs[,ind])
+    
+    # add NA fields for experiments without signatures
+    ind <- es %in% ses
+    fill.na <- exps[!ind,]
+    na.cols <- setdiff(colnames(sigs), colnames(exps))
+    na.df <- data.frame(matrix(NA, nrow = nrow(fill.na), ncol = length(na.cols)))
+    colnames(na.df) <- na.cols
+    fill.na <- cbind(fill.na, na.df)
+    sigs <- rbind(sigs, fill.na)
 
-    sig.exp <- plyr::join(exps, sigs, by = c("Study", "Experiment"))
-    sig.exp <- subset(sig.exp, Study %in% studs$Study)
-    bugsigdb <- plyr::join(studs, sig.exp, by = "Study")
+    # order
+    odf <- sigs[,c("Study", "Experiment", "Signature page name")]
+    odf <- gsub("^[A-Z][a-z]+ ", "", as.matrix(odf))
+    mode(odf) <- "integer"
+    ind <- do.call(order, as.data.frame(odf))
+    bugsigdb <- sigs[ind,]
     return(bugsigdb)
 }
 
