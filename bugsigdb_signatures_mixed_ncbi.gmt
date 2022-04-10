@@ -1,4 +1,4 @@
-# BugSigDB 2022-04-03, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2022-04-10, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_adenoma:conventional-adenoma-cases_vs_controls_UP	NA	91061	1236	1654	1716	1301	162289	189330	33024	40544	2037	2049	506	186826	1300	31977	91347	1653	57037	1386	186817
 bsdb:1/1/2_adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	100883	1117
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	207244	57037
@@ -73,8 +73,8 @@ bsdb:23/1/1_Alzheimer's-disease:Alzheimer's_vs_Healhty-controls_UP	NA	239759	815
 bsdb:23/1/2_Alzheimer's-disease:Alzheimer's_vs_Healhty-controls_DOWN	NA	201174	447020	31953	1678	31979	1485	39948	1239	541000	186804	2810281	186801	2	86331
 bsdb:24/1/1_chronic-fatigue-syndrome:Chronic-Fatigue-patients_vs_Healthy-controls_UP	NA	331654	815	816	194	72294	213849	29547	32066	203492	203491	203490	848	1378
 bsdb:24/1/2_chronic-fatigue-syndrome:Chronic-Fatigue-patients_vs_Healthy-controls_DOWN	NA	1236	31977	909932	909929	29465	724	712	135625	171551	836	475	351	286
-bsdb:25/1/1_Psoriasis:Psoriasis-Male_vs_Female_UP	NA	1300	1301	186827	186801	186802	31979	150022	186804	165779	31977	29465	360541	1653	1716	2037	85020	43668	32207	201174	1760	85023	33882	57495	117743	200644	49546	1016	469	36739	171412
-bsdb:25/1/2_Psoriasis:Psoriasis-Male_vs_Female_DOWN	NA	33958	1578	31957	1743	85004	31953	2701	1224	1236	72274	468	212791	85019	1696
+bsdb:25/1/1_psoriasis:Psoriasis-Male_vs_Female_UP	NA	1300	1301	186827	186801	186802	31979	150022	186804	165779	31977	29465	360541	1653	1716	2037	85020	43668	32207	201174	1760	85023	33882	57495	117743	200644	49546	1016	469	36739	171412
+bsdb:25/1/2_psoriasis:Psoriasis-Male_vs_Female_DOWN	NA	33958	1578	31957	1743	85004	31953	2701	1224	1236	72274	468	212791	85019	1696
 bsdb:26/1/1_sex-design:female_vs_male_UP	NA	35832	47678
 bsdb:26/1/2_sex-design:female_vs_male_DOWN	NA	310297
 bsdb:26/2/1_obesity:BMI->33-female_vs_male_UP	NA	816
@@ -149,10 +149,10 @@ bsdb:39/5/1_body-odor-measurement:teen-underarm-before_vs_after-excercise_DOWN	N
 bsdb:39/6/1_body-odor-measurement:teen-Neck-before_vs_after-excercise_DOWN	NA	469
 bsdb:40/1/1_attention-deficit-hyperactivity-disorder:ADHD_vs_Controls_UP	NA	201174	1760	85004	31953	1678	84111	28026	1679	1680	283168	171551	171550	375288	239759	821	28116	820	28221	213115
 bsdb:40/1/2_attention-deficit-hyperactivity-disorder:ADHD_vs_Controls_DOWN	NA	1239	186801	186802	33043	292632	1263	35829	33042
-bsdb:41/1/1_Psychosis:FIrst-episode-Psychosis_vs_Controls_UP	NA	118882	33958	255526	2038	528	316625	56688	1578	53572	109262	1579	197162	95486	885581	927	86304	622488	2039	36855	33959	2247	1598	133539	56426	529	1385	356	1613	1624	1596	1689
-bsdb:41/1/2_Psychosis:FIrst-episode-Psychosis_vs_Controls_DOWN	NA	1163	337090	96	370405	909932	42353	35798	1231	909929	187878	264691	31977	628	115778
-bsdb:41/2/1_Psychosis:FIrst-episode-Psychosis-(physically-active)_vs_Controls_UP	NA	2267	2266	33958
-bsdb:41/2/2_Psychosis:FIrst-episode-Psychosis-(physically-active)_vs_Controls_DOWN	NA	909932	909929	31977
+bsdb:41/1/1_psychosis:FIrst-episode-Psychosis_vs_Controls_UP	NA	118882	33958	255526	2038	528	316625	56688	1578	53572	109262	1579	197162	95486	885581	927	86304	622488	2039	36855	33959	2247	1598	133539	56426	529	1385	356	1613	1624	1596	1689
+bsdb:41/1/2_psychosis:FIrst-episode-Psychosis_vs_Controls_DOWN	NA	1163	337090	96	370405	909932	42353	35798	1231	909929	187878	264691	31977	628	115778
+bsdb:41/2/1_psychosis:FIrst-episode-Psychosis-(physically-active)_vs_Controls_UP	NA	2267	2266	33958
+bsdb:41/2/2_psychosis:FIrst-episode-Psychosis-(physically-active)_vs_Controls_DOWN	NA	909932	909929	31977
 bsdb:42/1/1_extrahepatic-cholestasis:cholestasis-infants_vs_healthy-infants_UP	NA	1301	1350	1279	906	28100	158846
 bsdb:42/1/2_extrahepatic-cholestasis:cholestasis-infants_vs_healthy-infants_DOWN	NA	1678	816	572511	216851	841	207244	102106
 bsdb:43/1/1_Behcet's-syndrome:behcet's-disease_vs_controls_UP	NA	729	1283313
@@ -387,8 +387,8 @@ bsdb:107/1/1_anorexia-nervosa:anorexia_vs_healthy-controls_UP	NA	91061
 bsdb:107/1/2_anorexia-nervosa:anorexia_vs_healthy-controls_DOWN	NA	186801	186802	207244	216851
 bsdb:107/2/1_anorexia-nervosa:anorexia_vs_healthy-controls_UP	NA	375288
 bsdb:108/1/1_anorexia-nervosa:anorexia-nervosa-patients_vs_healthy-controls_DOWN	NA	817	1301	1590
-bsdb:109/1/1_anorexia-nervosa:anorexia-patients-before-weight-gain_vs_HC_UP	NA	201174	74201	1678	244127	207244
-bsdb:109/1/2_anorexia-nervosa:anorexia-patients-before-weight-gain_vs_HC_DOWN	NA	976	204475	841
+bsdb:109/1/1_anorexia-nervosa:anorexia-patients-before-weight-gain_vs_normal-weight-participants_UP	NA	201174	74201	1678	244127	207244
+bsdb:109/1/2_anorexia-nervosa:anorexia-patients-before-weight-gain_vs_normal-weight-participants_DOWN	NA	976	204475	841
 bsdb:109/2/1_anorexia-nervosa:anorexia-patients-after-weight-gain_vs_HC_UP	NA	1239	201174	207244	44748	1263	1678	1578	1017280	1357
 bsdb:109/2/2_anorexia-nervosa:anorexia-patients-after-weight-gain_vs_HC_DOWN	NA	74201	816
 bsdb:110/1/1_schizophrenia:schizophrenia_vs_healthy-controls_DOWN	NA	1678	562	1578
@@ -550,8 +550,8 @@ bsdb:152/1/1_cervical-cancer:cervical-cancer_vs_healthy-controls_UP	NA	83770	126
 bsdb:152/1/2_cervical-cancer:cervical-cancer_vs_healthy-controls_DOWN	NA	2745	33024
 bsdb:152/2/1_cervical-cancer:cervical-cancer_vs_healthy-controls_UP	NA	310297	1224	1236	543	91347	375288	823	562	841	360807	46506
 bsdb:152/2/2_cervical-cancer:cervical-cancer_vs_healthy-controls_DOWN	NA	33024	909930	909929	909932
-bsdb:153/1/1_Prostate-cancer:prostate-cancer_vs_controls_UP	NA	1357	2747	1301	129337	547
-bsdb:153/1/2_Prostate-cancer:prostate-cancer_vs_controls_DOWN	NA	413496	114627	44249
+bsdb:153/1/1_prostate-cancer:prostate-cancer_vs_controls_UP	NA	1357	2747	1301	129337	547
+bsdb:153/1/2_prostate-cancer:prostate-cancer_vs_controls_DOWN	NA	413496	114627	44249
 bsdb:154/1/1_colorectal-cancer:colorectal-cancer_vs_healthy-controls_UP	NA	45401	46913	356	28211	44249	186822	59732
 bsdb:154/1/2_colorectal-cancer:colorectal-cancer_vs_healthy-controls_DOWN	NA	171552	838	31979	28221	213115	1730	570	32067	33024	86331	613
 bsdb:155/1/1_esophageal-cancer:Esophageal-Adenocarcinoma-(EAC)_vs_controls_UP	NA	28112	181487	29465	970
@@ -669,14 +669,14 @@ bsdb:182/1/1_acetaldehyde:high-acetaldehyde-concentration-group_vs_low-acetaldeh
 bsdb:182/1/2_acetaldehyde:high-acetaldehyde-concentration-group_vs_low-acetaldehyde-concentration-group_DOWN	NA	1318	470565
 bsdb:183/1/1_Crohn's-disease:crohn-disease-ASCA-positive-patients_vs_crohn-disease-ASCA-negative-patients_UP	NA	33039
 bsdb:183/1/2_Crohn's-disease:crohn-disease-ASCA-positive-patients_vs_crohn-disease-ASCA-negative-patients_DOWN	NA	550	853
-bsdb:184/1/1_Prostate-cancer:prostate-cancer-patients_vs_controls_UP	NA	816
-bsdb:184/2/1_Prostate-cancer:prostate-cancer-patients_vs_controls_DOWN	NA	28050	258514	216851
+bsdb:184/1/1_prostate-cancer:prostate-cancer-patients_vs_controls_UP	NA	816
+bsdb:184/2/1_prostate-cancer:prostate-cancer-patients_vs_controls_DOWN	NA	28050	258514	216851
 bsdb:185/1/1_gastric-cancer:gastric-cancer_vs_controls_UP	NA	1224	543	561	620	1485	29465	1236	91347
 bsdb:185/1/2_gastric-cancer:gastric-cancer_vs_controls_DOWN	NA	976	815	816	200643	171549
 bsdb:185/2/1_gastric-cancer:gastric-cancer_vs_healthy-gastric-cancer_UP	NA	508458	186803	570
 bsdb:185/2/2_gastric-cancer:gastric-cancer_vs_healthy-gastric-cancer_DOWN	NA	203494	48461	203557	74201	239934	620	95818	909929	909932	31977	33958	1578	39948	171552
-bsdb:186/1/1_Prostate-cancer:prostrate-cancer_vs_non-prostrate-cancer_UP	NA	1357	2747	1301	129337	547
-bsdb:186/1/2_Prostate-cancer:prostrate-cancer_vs_non-prostrate-cancer_DOWN	NA	413496	114627	44249
+bsdb:186/1/1_prostate-cancer:prostrate-cancer_vs_non-prostrate-cancer_UP	NA	1357	2747	1301	129337	547
+bsdb:186/1/2_prostate-cancer:prostrate-cancer_vs_non-prostrate-cancer_DOWN	NA	413496	114627	44249
 bsdb:187/1/1_medroxyprogesterone-acetate:naive-(baseline-visit)_vs_depot-mdroxyprogesterone-Acetate-vaginal-microbiome-(visit-2)-among-black-participants_UP	NA	838
 bsdb:187/2/1_medroxyprogesterone-acetate:white-naiive-vaginal-microbiome_vs_black-naive-vaginal-microbiome-(the-baseline-visit-)_UP	NA	150022
 bsdb:187/2/2_medroxyprogesterone-acetate:white-naiive-vaginal-microbiome_vs_black-naive-vaginal-microbiome-(the-baseline-visit-)_DOWN	NA	1485	177971
@@ -722,7 +722,7 @@ bsdb:202/2/1_autism:children-with-autism-non-mental-regression-ANMR_vs_healthy-c
 bsdb:202/3/1_autism:children-with-autism-mental-regression-AMR_vs_healthy-control_UP	NA	1224	31953	85023	186814	1678	1350	208479
 bsdb:202/4/1_autism:children-with-autism-spectrum-disordorders-ASD_vs_healthy-controls_UP	NA	186817	31953	1653	213117	543	81852	128827	85023	186824
 bsdb:202/4/2_autism:children-with-autism-spectrum-disordorders-ASD_vs_healthy-controls_DOWN	NA	186803
-bsdb:203/1/1_syncope:children-with-vasovagal-syncope_vs_healthy-children_UP	NA	541000
+bsdb:203/1/1_Syncope:children-with-vasovagal-syncope_vs_healthy-children_UP	NA	541000
 bsdb:204/1/1_premature-birth:mothers-whose-newborns-were-delivered-at-<34-gestational-week_vs_mothers-whose-newborns-were-delivered-at-≥37-getastional-weeks_DOWN	NA	1596	33959	1679	1685	1579	47770	147802	305	1678
 bsdb:205/1/1_human-papilloma-virus-infection:HPV-positive_vs_HPV-negative_UP	NA	1596	2702
 bsdb:206/1/1_gastric-cancer:patients-diagnosed-with-gastric-cancer_vs_patients-diagnosed-with-gastritis_UP	NA	179628	285729	851	1596	1598	187326	28131	28135	1302	1318
@@ -786,8 +786,8 @@ bsdb:219/2/2_diet:week-8_vs_baseline_DOWN	NA	239759	574697	283168	2005473
 bsdb:219/3/1_diet:lower-fiber-(cracker)_vs_higher-fiber-(almonds)_DOWN	NA	40544
 bsdb:220/1/1_age:older-age-European-women_vs_younger-age_UP	NA	1663	168808	468	72274	1716	28256	2745	135619	481	206351	28216	1224
 bsdb:220/1/2_age:older-age-European-women_vs_younger-age_DOWN	NA	31957	1743	85009
-bsdb:221/1/1_Urinary-tract-infection:urinary-tract-infection_vs_healthy-controls_UP	NA	547	1468449	86664	333367	44009	536633
-bsdb:221/1/2_Urinary-tract-infection:urinary-tract-infection_vs_healthy-controls_DOWN	NA	1559	39948	150022	1260	724	729	149698	75682	712	135625	186804	386414	373040	1537
+bsdb:221/1/1_urinary-tract-infection:urinary-tract-infection_vs_healthy-controls_UP	NA	547	1468449	86664	333367	44009	536633
+bsdb:221/1/2_urinary-tract-infection:urinary-tract-infection_vs_healthy-controls_DOWN	NA	1559	39948	150022	1260	724	729	149698	75682	712	135625	186804	386414	373040	1537
 bsdb:222/1/1_gastric-cancer:high-gastric-cancer-risk_vs_low-gastric-cancer-risk-patients_UP	NA	157687	1926307
 bsdb:222/1/2_gastric-cancer:high-gastric-cancer-risk_vs_low-gastric-cancer-risk-patients_DOWN	NA	29317	1017	49546	239	484	192066	171551	1924944	28135	1885016	84566	29387	1303	1310087
 bsdb:223/1/1_HIV-infection:HIV-infected-patients_vs_healthy-controls_UP	NA	1343	1578	33958	33038	1506553	1301	1300	1350	81852	186826	91061	1224	1236	543	91347
@@ -838,8 +838,8 @@ bsdb:233/1/1_HIV-infection:HIV-infected_vs_uninfected_UP	NA	1224	838	469	171552	
 bsdb:233/1/2_HIV-infection:HIV-infected_vs_uninfected_DOWN	NA	1239	816	572511	33042	171551	171550
 bsdb:234/1/1_atopic-eczema:adult-with-atopic-dermatitis_vs_healthy-control_UP	NA	1280
 bsdb:234/1/2_atopic-eczema:adult-with-atopic-dermatitis_vs_healthy-control_DOWN	NA	36773	1981334	29387	1591	1909303	1747
-bsdb:234/2/1_Psoriasis:adult-with-psoriasis_vs_healthy-control_UP	NA	146827	1981334	481	161879	1872515
-bsdb:234/2/2_Psoriasis:adult-with-psoriasis_vs_healthy-control_DOWN	NA	36773	1591	1909303
+bsdb:234/2/1_psoriasis:adult-with-psoriasis_vs_healthy-control_UP	NA	146827	1981334	481	161879	1872515
+bsdb:234/2/2_psoriasis:adult-with-psoriasis_vs_healthy-control_DOWN	NA	36773	1591	1909303
 bsdb:235/1/1_food-allergy:child-with-food-allergy_vs_healthy-control_UP	NA	351091	1971605
 bsdb:235/1/2_food-allergy:child-with-food-allergy_vs_healthy-control_DOWN	NA	1955243
 bsdb:235/2/1_food-allergy:child-with-food-allergy_vs_healthy-sibling_UP	NA	NA
@@ -1278,8 +1278,8 @@ bsdb:323/2/1_necrotizing-enterocolitis:NEC_vs_non-NEC_DOWN	NA	28196	150022	29330
 bsdb:323/3/1_necrotizing-enterocolitis:NEC_vs_non-NEC_UP	NA	1279
 bsdb:324/1/1_thyroid-carcinoma:thyroid-carcinoma_vs_healthy-control_UP	NA	1505657	570	207244	561	620	42322	33042	191303	290054	292632	928852	39488	1301	1578	171550	186804	128827	543	33958	990719	1300	1224	1239
 bsdb:324/1/2_thyroid-carcinoma:thyroid-carcinoma_vs_healthy-control_DOWN	NA	909930	1283313	815	816	976	1506553	158846	33024	838	171552	841	33038
-bsdb:325/1/1_Psoriasis:psoriasis_vs_healthy-controls_UP	NA	572511	1263	216851	1678	33042	86331	189330	990721	1654	102106
-bsdb:325/1/2_Psoriasis:psoriasis_vs_healthy-controls_DOWN	NA	574697	35832	283168	375288	838	40544	28050	577309
+bsdb:325/1/1_psoriasis:psoriasis_vs_healthy-controls_UP	NA	572511	1263	216851	1678	33042	86331	189330	990721	1654	102106
+bsdb:325/1/2_psoriasis:psoriasis_vs_healthy-controls_DOWN	NA	574697	35832	283168	375288	838	40544	28050	577309
 bsdb:326/1/1_non-small-cell-lung-carcinoma,renal-cell-carcinoma:Responders_vs_Non-Responders_UP	NA	239935	142586	186803	128827	1392389	214856	29523	1197717	1352	838
 bsdb:326/1/2_non-small-cell-lung-carcinoma,renal-cell-carcinoma:Responders_vs_Non-Responders_DOWN	NA	838	1506	186802	208479	572511	626929	1224	291645	823
 bsdb:326/2/1_non-small-cell-lung-carcinoma,renal-cell-carcinoma:Progressive--Free--Survival-more-than-30-days_vs_Progressive--Free--Survival-more-less-than-30-days_UP	NA	142586	239759	239935	1392389	291645	371601	572511	186803	1239	186802	1263	1506	292800	47678	41978
@@ -1289,10 +1289,10 @@ bsdb:327/1/1_antimicrobial-agent:infants-received-short-term(<3days)-antibiotic-
 bsdb:327/1/2_antimicrobial-agent:infants-received-short-term(<3days)-antibiotic-treatment_vs_control(no-treatment)_DOWN	NA	561	1301
 bsdb:327/2/1_antimicrobial-agent:infants-received-long-term(>5days)-antibiotic-treatment_vs_control(no-treatment)_UP	NA	1578	1350
 bsdb:327/2/2_antimicrobial-agent:infants-received-long-term(>5days)-antibiotic-treatment_vs_control(no-treatment)_DOWN	NA	561	1301
-bsdb:328/1/1_Psoriatic-arthritis:psoriatic-arthiritis_vs_healthy-controls_DOWN	NA	186801	203494	74201	239934	48461	46205	1263	33042
-bsdb:328/2/1_Psoriatic-arthritis:skin-psoriasis_vs_healthy-controls_DOWN	NA	171551	375288	186801	128827	526524	1760	201174	100883	526525	33042	186803	541000	976
-bsdb:328/3/1_Psoriatic-arthritis:psoriatic-arthiritis_vs_skin-psoriasis_UP	NA	100883	976
-bsdb:328/3/2_Psoriatic-arthritis:psoriatic-arthiritis_vs_skin-psoriasis_DOWN	NA	1239	186801	186802	203557	74201
+bsdb:328/1/1_psoriatic-arthritis:psoriatic-arthiritis_vs_healthy-controls_DOWN	NA	186801	203494	74201	239934	48461	46205	1263	33042
+bsdb:328/2/1_psoriatic-arthritis:skin-psoriasis_vs_healthy-controls_DOWN	NA	171551	375288	186801	128827	526524	1760	201174	100883	526525	33042	186803	541000	976
+bsdb:328/3/1_psoriatic-arthritis:psoriatic-arthiritis_vs_skin-psoriasis_UP	NA	100883	976
+bsdb:328/3/2_psoriatic-arthritis:psoriatic-arthiritis_vs_skin-psoriasis_DOWN	NA	1239	186801	186802	203557	74201
 bsdb:329/1/1_antimicrobial-agent:Postnatal-antibiotic-group-(2-day-old-infant)_vs_control-group_UP	NA	1578
 bsdb:329/1/2_antimicrobial-agent:Postnatal-antibiotic-group-(2-day-old-infant)_vs_control-group_DOWN	NA	816
 bsdb:329/2/1_antimicrobial-agent:IAP-group-(4-day-old-infant)_vs_control-group_DOWN	NA	816
@@ -1496,14 +1496,14 @@ bsdb:378/2/2_graft-versus-host-disease:Severe-acute-graft-versus-host-disease_vs
 bsdb:379/1/1_obesity:non-obese_vs_obese_UP	NA	1678	1679	158787	77635	1578	1613	47493	227945
 bsdb:379/2/1_obesity:obese_vs_non-obese_UP	NA	1378	186828	117563	46124	29317
 bsdb:379/2/2_obesity:obese_vs_non-obese_UP	NA	419014	156454
-bsdb:380/1/1_Response-to-allogeneic-hematopoietic-stem-cell-transplant:patients-preallogenic-hematopoietic-cell-transplant_vs_patients-post-allogenic-hematopoietic-cell-transplant/pre-Fecal-Microbiota-Transplant_UP	NA	186802
-bsdb:380/2/1_Response-to-allogeneic-hematopoietic-stem-cell-transplant:post-allogenic-hematopoietic-cell-transplant/-pre-Fecal-microbiota-transplant_vs_post-fecal-mircobiota-day-180_DOWN	NA	186802
-bsdb:380/3/1_Response-to-allogeneic-hematopoietic-stem-cell-transplant:post-allogenic-hematopoietic-cell-transplant/-pre-Fecal-microbiota-transplant_vs_post-fecal-mircobiota-day-7_DOWN	NA	186802
-bsdb:380/4/1_Response-to-allogeneic-hematopoietic-stem-cell-transplant:post-allogenic-hematopoietic-cell-transplant/-pre-Fecal-microbiota-transplant_vs_post-fecal-mircobiota-day-30_DOWN	NA	186802
-bsdb:381/1/1_Response-to-allogeneic-hematopoietic-stem-cell-transplant:hematopoietic-stem-cell-transplant-recipients_vs_healthy-volunteers_UP	NA	1350
-bsdb:381/1/2_Response-to-allogeneic-hematopoietic-stem-cell-transplant:hematopoietic-stem-cell-transplant-recipients_vs_healthy-volunteers_DOWN	NA	46205	292632
-bsdb:381/2/1_Response-to-allogeneic-hematopoietic-stem-cell-transplant:high-fecal-butyrate-levels_vs_low-fecal-butyrate-levels_UP	NA	186801	186802	186803	84111	541000	1508657	1506553	572511	526524	526525	128827	46205	1505663
-bsdb:381/2/2_Response-to-allogeneic-hematopoietic-stem-cell-transplant:high-fecal-butyrate-levels_vs_low-fecal-butyrate-levels_DOWN	NA	1578	33958	1350	81852	186826	91061
+bsdb:380/1/1_response-to-allogeneic-hematopoietic-stem-cell-transplant:patients-preallogenic-hematopoietic-cell-transplant_vs_patients-post-allogenic-hematopoietic-cell-transplant/pre-Fecal-Microbiota-Transplant_UP	NA	186802
+bsdb:380/2/1_response-to-allogeneic-hematopoietic-stem-cell-transplant:post-allogenic-hematopoietic-cell-transplant/-pre-Fecal-microbiota-transplant_vs_post-fecal-mircobiota-day-180_DOWN	NA	186802
+bsdb:380/3/1_response-to-allogeneic-hematopoietic-stem-cell-transplant:post-allogenic-hematopoietic-cell-transplant/-pre-Fecal-microbiota-transplant_vs_post-fecal-mircobiota-day-7_DOWN	NA	186802
+bsdb:380/4/1_response-to-allogeneic-hematopoietic-stem-cell-transplant:post-allogenic-hematopoietic-cell-transplant/-pre-Fecal-microbiota-transplant_vs_post-fecal-mircobiota-day-30_DOWN	NA	186802
+bsdb:381/1/1_response-to-allogeneic-hematopoietic-stem-cell-transplant:hematopoietic-stem-cell-transplant-recipients_vs_healthy-volunteers_UP	NA	1350
+bsdb:381/1/2_response-to-allogeneic-hematopoietic-stem-cell-transplant:hematopoietic-stem-cell-transplant-recipients_vs_healthy-volunteers_DOWN	NA	46205	292632
+bsdb:381/2/1_response-to-allogeneic-hematopoietic-stem-cell-transplant:high-fecal-butyrate-levels_vs_low-fecal-butyrate-levels_UP	NA	186801	186802	186803	84111	541000	1508657	1506553	572511	526524	526525	128827	46205	1505663
+bsdb:381/2/2_response-to-allogeneic-hematopoietic-stem-cell-transplant:high-fecal-butyrate-levels_vs_low-fecal-butyrate-levels_DOWN	NA	1578	33958	1350	81852	186826	91061
 bsdb:382/1/1_Chlamydia-trachomatis-infectious-disease:patient-with-chlamydia-infection_vs_healthy-control_UP	NA	1375	186827	87541
 bsdb:382/1/2_Chlamydia-trachomatis-infectious-disease:patient-with-chlamydia-infection_vs_healthy-control_DOWN	NA	186826	1578	33958	1239	91061
 bsdb:382/2/1_human-papilloma-virus-infection,Chlamydophila-infectious-disease:patient-with-chlamydia-infection_vs_HPV-positive-women_UP	NA	204428	809	204429	51291	810	813
@@ -1518,8 +1518,8 @@ bsdb:384/3/1_schizophrenia:TSCZ_vs_FSCZ_UP	NA	186804	31977	81852	33958	561	848	9
 bsdb:384/3/2_schizophrenia:TSCZ_vs_FSCZ_DOWN	NA	29465
 bsdb:385/1/1_gastric-adenocarcinoma:gastric-adenocarcinoma-(GC)_vs_superficial-gastritis-(SG)_UP	NA	490	416916	28037	1303	1313	712	1236	482	1283313
 bsdb:385/1/2_gastric-adenocarcinoma:gastric-adenocarcinoma-(GC)_vs_superficial-gastritis-(SG)_DOWN	NA	28211	41297	165695	13690	150203	1328	45634	1305	43675	31953	1654	561	113107	55565	121428	186803	28129	1318
-bsdb:386/1/1_Pulmonary-tuberculosis:Tuberculosis-(TB)-patients_vs_healthy-controls_UP	NA	208479
-bsdb:386/1/2_Pulmonary-tuberculosis:Tuberculosis-(TB)-patients_vs_healthy-controls_DOWN	NA	239935	1680	1679	28026	74426	410072	39486	88431	729	39485	437897	158847	491921	301301	166486	360807	40545	46228	40520	39491
+bsdb:386/1/1_pulmonary-tuberculosis:Tuberculosis-(TB)-patients_vs_healthy-controls_UP	NA	208479
+bsdb:386/1/2_pulmonary-tuberculosis:Tuberculosis-(TB)-patients_vs_healthy-controls_DOWN	NA	239935	1680	1679	28026	74426	410072	39486	88431	729	39485	437897	158847	491921	301301	166486	360807	40545	46228	40520	39491	751585
 bsdb:387/1/1_antimicrobial-agent:Before-ciprofloxacin-exposure_vs_after-antibiotic-exposure_UP	NA	816
 bsdb:387/1/2_antimicrobial-agent:Before-ciprofloxacin-exposure_vs_after-antibiotic-exposure_DOWN	NA	216851	239759	186802	171549	128827
 bsdb:387/2/1_antimicrobial-agent:Before-clindamycin-exposure_vs_after-antibiotic-exposure_DOWN	NA	33042	841	28050	189330	1263	186803	186802
@@ -1687,10 +1687,10 @@ bsdb:428/4/1_COVID-19:COVID-19-patients-treated-with-antibiotics_vs_Healthy-cont
 bsdb:428/4/2_COVID-19:COVID-19-patients-treated-with-antibiotics_vs_Healthy-controls_UP	NA	39488	47678	28116	457412	78259	1747	84163	177972	78258	1353	936594	652706	658089	2049041	138595	116085	1383	1280	172042	46125	360807	796942	1282	649756	39490	230143	40545	328813	100883	133926	1869337
 bsdb:430/1/1_COVID-19:Patients-with-high-SARS-CoV-2-infectivity_vs_Patients-with-low-to-none-SARS-CoV-2-infectivity_UP	NA	46506	46503	1898203
 bsdb:430/1/2_COVID-19:Patients-with-high-SARS-CoV-2-infectivity_vs_Patients-with-low-to-none-SARS-CoV-2-infectivity_DOWN	NA	74426	582	68892	626935
-bsdb:431/1/1_cervical-glandular-intraepithelial-neoplasia:persistent-HPV+-with-HSIL_vs_persistent-HPV+-with-LSIL_DOWN	NA	283	162290	2745	68	407	1839	33024	152161	270	1079922	286	1243	1522432	265	149698	1357	222	84036	207599
+bsdb:431/1/1_cervical-glandular-intraepithelial-neoplasia:persistent-HPV+-with-HSIL_vs_persistent-HPV+-with-LSIL_DOWN	NA	222	283	1079922	162290	2745	1357	1243	68	149698	407	1839	265	33024	1522432	286	207599	152161	84036	270
 bsdb:431/2/1_cervical-glandular-intraepithelial-neoplasia:transient-HPV+-with-HSIL_vs_transient-HPV+-with-LSIL_DOWN	NA	32033	1522
 bsdb:431/3/1_cervical-glandular-intraepithelial-neoplasia:transient-HPV+-with-LSIL_vs_HPV-_DOWN	NA	168808	177971	29465	1522	906	46913	32033	2701
-bsdb:431/4/NA_cervical-glandular-intraepithelial-neoplasia:persistent-HPV+-with-HSIL_vs_HPV-_NA	NA	NA
+bsdb:431/4/1_cervical-glandular-intraepithelial-neoplasia:persistent-HPV+-with-HSIL_vs_HPV-_DOWN	NA	906	1257	177971	168808
 bsdb:431/5/1_cervical-glandular-intraepithelial-neoplasia:persistent-HPV+-with-HSIL_vs_persistent-HPV+-with-LSIL_UP	NA	1311
 bsdb:431/5/2_cervical-glandular-intraepithelial-neoplasia:persistent-HPV+-with-HSIL_vs_persistent-HPV+-with-LSIL_DOWN	NA	216851	186818	38304	1847725	526525	1268	1671	169292	162289	2049	165779	33039	28130	85025	39948	1297	2037	838	2701	188787	1243	206379	135614	404402	150022	755172	1689	1279	1280	90964	1385	53345	1350	81852	1624	309120	909929	909932	31953	85004	1300
 bsdb:431/6/1_cervical-glandular-intraepithelial-neoplasia:persistent-HPV+-with-LSIL_vs_transient-HPV+-with-HSIL_UP	NA	33039
@@ -1754,6 +1754,12 @@ bsdb:447/1/1_gestational-diabetes:Individuals-with-gestational-diabetes_vs_Healt
 bsdb:447/1/2_gestational-diabetes:Individuals-with-gestational-diabetes_vs_Healthy-controls_DOWN	NA	239759	33024	171550
 bsdb:447/2/1_gestational-diabetes:Individuals-with-gestational-diabetes_vs_Healthy-controls_UP	NA	31953	85004	1678	970
 bsdb:447/2/2_gestational-diabetes:Individuals-with-gestational-diabetes_vs_Healthy-controls_DOWN	NA	32066	203492	203490	1164882	33958	32067	1129771	1243
+bsdb:448/1/1_influenza-A-(H1N1):Pneumonia-patients-with-pH1N1-infection_vs_Pneumonia-patients-without-any-influenza-A-infection_UP	NA	1239	1224	186817	468	135621	469	286	1386
+bsdb:448/1/2_influenza-A-(H1N1):Pneumonia-patients-with-pH1N1-infection_vs_Pneumonia-patients-without-any-influenza-A-infection_DOWN	NA	976	171552	31977	481	482	838	29465
+bsdb:448/1/3_influenza-A-(H1N1):Pneumonia-patients-with-pH1N1-infection_vs_Pneumonia-patients-without-any-influenza-A-infection_UP	NA	186817	468	135621
+bsdb:448/1/4_influenza-A-(H1N1):Pneumonia-patients-with-pH1N1-infection_vs_Pneumonia-patients-without-any-influenza-A-infection_DOWN	NA	481	171552	31977
+bsdb:448/1/5_influenza-A-(H1N1):Pneumonia-patients-with-pH1N1-infection_vs_Pneumonia-patients-without-any-influenza-A-infection_UP	NA	469	1386	286
+bsdb:448/1/6_influenza-A-(H1N1):Pneumonia-patients-with-pH1N1-infection_vs_Pneumonia-patients-without-any-influenza-A-infection_DOWN	NA	482	838	29465
 bsdb:449/1/1_COVID-19:COVID-19-cases_vs_Healthy-controls_UP	NA	57706	32013	550	158836	208224	2707174	477680	84030	29370	83655	1421	28101	306	1338689	43675	2003121	2219696	34073	2126319	1852377	2696063	28446	1396	450367	1813611	546	2077147	1898207	2109688	1520	217159	285	61645	881260	69218	2027919	2478464	1812935	885040	399742	2596949	1827481	853	292800	1134687	571	66219	28038	1584	1613	33959	1590	1598	1624	2714951	2681307	1920114	2282309	61646	1907578	2153385	2081964	2067957	2100	189425	1473112	2575375	61647	237609	47885	76760	1611770	1636610	2069256	34038	329	172042	867	33038	52773	1933220	1904944	1304	1305	712624	83771	2036206	114708	436515	434009	55601
 bsdb:449/1/2_COVID-19:COVID-19-cases_vs_Healthy-controls_DOWN	NA	824	203	204	221027
 bsdb:450/1/1_viral-pneumonia:Day-7_vs_Day-0_DOWN	NA	1239
@@ -1935,9 +1941,9 @@ bsdb:492/2/1_diabetic-retinopathy:Individuals-diagnosed-with-Type-2-Diabetes-and
 bsdb:492/2/2_diabetic-retinopathy:Individuals-diagnosed-with-Type-2-Diabetes-and-clinically-manifest-Diabetic-Retinopathy-(DR)_vs_Healthy-controls_UP	NA	904	239934	239759	508459	547	1350	561	28890	256845	158846	846	375288	620	508458	544448	74201
 bsdb:492/3/1_diabetic-retinopathy:Individuals-diagnosed-with-Type-2-Diabetes-and-clinically-manifest-Diabetic-Retinopathy-(DR)_vs_Individuals-diagnosed-with-type-2-diabetes-Mellitus_DOWN	NA	201174	82373	2152	1678	872	551	28890	32066	724	570	140625	256845	2172	52225	203691	1301	157	46255
 bsdb:492/3/2_diabetic-retinopathy:Individuals-diagnosed-with-Type-2-Diabetes-and-clinically-manifest-Diabetic-Retinopathy-(DR)_vs_Individuals-diagnosed-with-type-2-diabetes-Mellitus_UP	NA	239934	239759	508459	74152	1350	33024	620	508458	74201
-bsdb:493/1/NA_vitiligo:Vitiligo-patients-after-NBUVB-irradiation-on-normal-skin-(NB-group)_vs_Vitiligo-patients-before-narrowband-UV-(NBUVB)-light-irradiation-in-normal-skin-(NF-group)_NA	NA	NA
-bsdb:493/2/NA_vitiligo:Lesional-skin-of-Vitiligo-patients-after-NBUVB-irradiation-(DB-group)_vs_Normal-skin-of-Vitiligo-patients-before-narrowband-UV-(NBUVB)-light-irradiation-(NF-group)_NA	NA	NA
-bsdb:493/3/NA_vitiligo:Lesional-skin-of-Vitiligo-patients-after-NBUVB-irradiation-(DB-group)_vs_Lesional-skin-of-Vitiligo-patients-before-irradiation-(DF-group)_NA	NA	NA
+bsdb:493/1/NA_Vitiligo:Vitiligo-patients-after-NBUVB-irradiation-on-normal-skin-(NB-group)_vs_Vitiligo-patients-before-narrowband-UV-(NBUVB)-light-irradiation-in-normal-skin-(NF-group)_NA	NA	NA
+bsdb:493/2/NA_Vitiligo:Lesional-skin-of-Vitiligo-patients-after-NBUVB-irradiation-(DB-group)_vs_Normal-skin-of-Vitiligo-patients-before-narrowband-UV-(NBUVB)-light-irradiation-(NF-group)_NA	NA	NA
+bsdb:493/3/NA_Vitiligo:Lesional-skin-of-Vitiligo-patients-after-NBUVB-irradiation-(DB-group)_vs_Lesional-skin-of-Vitiligo-patients-before-irradiation-(DF-group)_NA	NA	NA
 bsdb:494/1/1_type-II-diabetes-mellitus:Individuals-diagnosed-with-Type-2-Diabetes-Mellitus_vs_Healthy-controls_DOWN	NA	239934	976	1678	375288
 bsdb:494/1/2_type-II-diabetes-mellitus:Individuals-diagnosed-with-Type-2-Diabetes-Mellitus_vs_Healthy-controls_UP	NA	189330	848	1239	1301
 bsdb:495/1/1_type-II-diabetes-mellitus:Individuals-diagnosed-with-Type-2-Diabetes-Mellitus_vs_Healthy-controls_UP	NA	1283313	906	909932	838
@@ -2177,9 +2183,9 @@ bsdb:576/1/1_colorectal-cancer:adenocarcinoma_vs_contemporaneous-patients-awaiti
 bsdb:577/1/1_NA:Male_vs_Female_DOWN	NA	NA
 bsdb:577/1/2_NA:Male_vs_Female_UP	NA	NA
 bsdb:577/1/3_NA:Male_vs_Female_DOWN	NA	NA
-bsdb:578/1/1_Urinary-tract-infection:Antibiotic-treated_vs_Control-group_DOWN	NA	976
-bsdb:578/2/1_Urinary-tract-infection:Antibiotic-treated-(day-5-15)_vs_Antibiotic-treated-(day-1)_UP	NA	201174
-bsdb:578/3/1_Urinary-tract-infection:Control-(day-5-15)_vs_Control-(day-1)_UP	NA	976
+bsdb:578/1/1_urinary-tract-infection:Antibiotic-treated_vs_Control-group_DOWN	NA	976
+bsdb:578/2/1_urinary-tract-infection:Antibiotic-treated-(day-5-15)_vs_Antibiotic-treated-(day-1)_UP	NA	201174
+bsdb:578/3/1_urinary-tract-infection:Control-(day-5-15)_vs_Control-(day-1)_UP	NA	976
 bsdb:580/1/1_NA:HIV-_vs_HIV+_DOWN	NA	194	1016	848	482	265975	838	195950	481
 bsdb:580/1/2_NA:HIV-_vs_HIV+_UP	NA	1678	1578	32207	1301	29465
 bsdb:580/2/1_NA:non_smoker_vs_current_smoker_UP	NA	1283313	59735	194	848	43994	482	838
