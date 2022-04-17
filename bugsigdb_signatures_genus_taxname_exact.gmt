@@ -1,4 +1,4 @@
-# BugSigDB 2022-04-10, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2022-04-17, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_adenoma:conventional-adenoma-cases_vs_controls_UP	NA	Actinomyces	Corynebacterium	Streptococcus	Peptoniphilus	Dorea	Phascolarctobacterium	Sutterella	Bacillus
 bsdb:1/1/2_adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	Coprobacillus
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	Anaerostipes
@@ -872,7 +872,7 @@ bsdb:291/1/2_Graves-disease:graves-disease_vs_healthy-controls_DOWN	NA	Alistipes
 bsdb:292/1/1_graft-versus-host-disease:allogeneic-hematopoietic-stem-cell-transplant_vs_community-dwelling_UP	NA	Clostridium	Acinetobacter	Capnocytophaga	Pseudomonas	Leptotrichia
 bsdb:292/1/2_graft-versus-host-disease:allogeneic-hematopoietic-stem-cell-transplant_vs_community-dwelling_DOWN	NA	Streptococcus	Prevotella	Neisseria	Actinomyces	Rothia	Veillonella	Granulicatella	Haemophilus	Fusobacterium	Gemella	Alloprevotella	Leptotrichia	Atopobium	Solobacterium	Oribacterium	Campylobacter	Lachnoanaerobaculum
 bsdb:293/1/1_human-papilloma-virus-infection:Baseline-HPV+_vs_Baseline-HPV-_UP	NA	Ureaplasma
-bsdb:293/1/2_human-papilloma-virus-infection:Baseline-HPV+_vs_Baseline-HPV-_DOWN	NA	Faecalibacterium	Ezakiella	Brochothrix	Diplorickettsia	Fusobacterium
+bsdb:293/1/2_human-papilloma-virus-infection:Baseline-HPV+_vs_Baseline-HPV-_DOWN	NA	Faecalibacterium	Ezakiella	Brochothrix	Rickettsiella	Fusobacterium
 bsdb:293/2/1_human-papilloma-virus-infection:new-acquisition-of-HPV-within-a-year_vs_no-new-acquisition-of-HPV-within-a-year_DOWN	NA	Actinomyces
 bsdb:295/1/1_human-papilloma-virus-infection:low-risk-HPV_vs_negative-control_UP	NA	Actinomyces	Alistipes	Bifidobacterium	Bilophila	Blautia	Butyricimonas	Clostridium	Coprobacter	Coprococcus	Delftia	Dialister	Enhydrobacter	Fusicatenibacter	Gemmiger	Hydrogenophilus	Megasphaera	Pasteurella	Peptostreptococcus	Phascolarctobacterium	Roseburia	Ruminococcus	Saccharofermentans	Sneathia	Sutterella
 bsdb:295/1/2_human-papilloma-virus-infection:low-risk-HPV_vs_negative-control_DOWN	NA	Pseudomonas	Flavobacterium	Lysobacter	Succinivibrio	Nitrososphaera	Helicobacter
@@ -1458,6 +1458,7 @@ bsdb:513/2/1_COVID-19:COVID-19-positive-patients-with-breathing-assistance_vs_CO
 bsdb:514/1/1_endometriosis:Stage-3/4-endometriosis-patients_vs_Women-scheduled-for-laparoscopic-surgery-for-benign-uterine/-ovarian-conditions_UP	NA	Streptococcus
 bsdb:515/1/1_endometriosis:Endometriosis-patients-with-infertility_vs_Non-endometriosis-patients-with-infertility_NA	NA	Fusobacterium
 bsdb:516/1/1_endometriosis:Mice-who-were-injected-with-endometrial-tissues_vs_Healthy-mice_UP	NA	Bifidobacterium	Parasutterella
+bsdb:516/2/2_endometriosis:Mice-who-were-injected-with-endometrial-tissues_vs_Healthy-mice_DOWN	NA	Alloprevotella
 bsdb:518/1/1_endometriosis:Stage-3/4-endometriosis-patients_vs_Healthy-controls_UP	NA	Actinomyces	Bifidobacterium	Blautia	Dorea	Eggerthella	Enterococcus	Lactobacillus	Lactococcus	Ruminiclostridium	Streptococcus	Clostridium	Corynebacterium
 bsdb:518/1/2_endometriosis:Stage-3/4-endometriosis-patients_vs_Healthy-controls_DOWN	NA	Lachnospira	Odoribacter	Parasutterella	Ruminiclostridium	Sutterella
 bsdb:519/1/1_endometriosis:Endo-mice_vs_Non-endo-mice_UP	NA	Bacteroides
@@ -1503,6 +1504,11 @@ bsdb:537/4/2_Parkinson's-disease:patients-with-PSP(progressive-supranuclear-pals
 bsdb:537/6/1_Parkinson's-disease:patients-with-early-Parkinson's-disease_vs_healthy-controls-without-any-form-of-Parkinson's-disease_UP	NA	Akkermansia
 bsdb:537/7/1_Parkinson's-disease:patients-with-mid-stage-Parkinson's_vs_healthy-controls-without-any-form-of-Parkinson's-Disease_UP	NA	Akkermansia
 bsdb:537/8/1_Parkinson's-disease:patients-with-advanced-stage-Parkinson's_vs_healthy-controls-without-any-form-of-Parkinson's-Disease_UP	NA	Akkermansia
+bsdb:538/1/1_antimicrobial-agent:ciprofloxacin-treated_vs_baseline-of-the-ciprofloxacin-treated_DOWN	NA	Faecalibacterium	Oscillospira	Ruminococcus
+bsdb:538/1/2_antimicrobial-agent:ciprofloxacin-treated_vs_baseline-of-the-ciprofloxacin-treated_UP	NA	Blautia	Clostridium	Eubacterium	Roseburia
+bsdb:538/2/2_NA:Nitrofurantoin-treated_vs_Baseline-of-the-Nitrofurantoin-treated_UP	NA	Faecalibacterium
+bsdb:538/6/1_urinary-tract-infection:CP2_vs_CRL2_UP	NA	Alistipes	Oscillospira	Parabacteroides	Roseburia	Ruminococcus
+bsdb:538/7/1_urinary-tract-infection:NF2_vs_CRL2_UP	NA	Alistipes	Faecalibacterium
 bsdb:545/1/1_antimicrobial-agent:7-week-old-(young)-mice-10-days-after-antibiotic-treatments_vs_7-week-old-(young)-mice-before-antibiotic-treatment_UP	NA	Enterococcus
 bsdb:545/1/2_antimicrobial-agent:7-week-old-(young)-mice-10-days-after-antibiotic-treatments_vs_7-week-old-(young)-mice-before-antibiotic-treatment_DOWN	NA	Candidatus Stoquefichus	Faecalibaculum	Romboutsia
 bsdb:545/2/1_antimicrobial-agent:7-week-old-(young)-mice-6-months-after-antibiotic-treatments_vs_7-week-old-(young)-mice-before-antibiotic-treatment_UP	NA	Romboutsia	Dubosiella
@@ -1552,6 +1558,14 @@ bsdb:571/1/1_osteoarthritis,-knee:Knee-osteroarthritis_vs_Normal-Vitamin-D-statu
 bsdb:571/1/2_osteoarthritis,-knee:Knee-osteroarthritis_vs_Normal-Vitamin-D-status_UP	NA	Intestinimonas	Parvimonas	Peptococcus	Propionibacterium	Shimwellia
 bsdb:571/2/1_osteoarthritis,-knee:Knee-osteroarthritis-with-vit-D-deficiency_vs_Vitamin-D-deficiency_DOWN	NA	Alloprevotella	Odoribacter	Oribacterium	Prevotella
 bsdb:571/2/2_osteoarthritis,-knee:Knee-osteroarthritis-with-vit-D-deficiency_vs_Vitamin-D-deficiency_UP	NA	Butyricimonas	Candidatus Saccharimonas	Delftia	Gordonibacter	Parabacteroides	Phascolarctobacterium
+bsdb:574/1/1_antimicrobial-agent:azithromycin-lactulose-treated-(day-18)_vs_azithromycin-lactulose-treated-(day-0)_DOWN	NA	Enterobacter	Prevotella
+bsdb:574/1/2_antimicrobial-agent:azithromycin-lactulose-treated-(day-18)_vs_azithromycin-lactulose-treated-(day-0)_UP	NA	Anaerostipes	Enterococcus	Lactobacillus	Roseburia	Ruminococcus
+bsdb:574/2/1_antimicrobial-agent:azithromycin-treated-(day-18)_vs_azithromycin-treated-(day-0)_DOWN	NA	Enterobacter
+bsdb:574/2/2_antimicrobial-agent:azithromycin-treated-(day-18)_vs_azithromycin-treated-(day-0)_UP	NA	Adlercreutzia	Lachnospira
+bsdb:574/3/1_antimicrobial-agent:azithromycin-treated-(day-60)_vs_azithromycin-treated-(day-0)_DOWN	NA	Enterobacter	Odoribacter	Paraprevotella	Prevotella	Sutterella
+bsdb:574/3/2_antimicrobial-agent:azithromycin-treated-(day-60)_vs_azithromycin-treated-(day-0)_UP	NA	Adlercreutzia	Alkaliphilus	Streptococcus	Veillonella
+bsdb:574/4/1_antimicrobial-agent:azithromycin-lactulose-treated_vs_azithromycin-treated_UP	NA	Anaerostipes	Blautia	Butyricimonas	Coprobacillus	Dysgonomonas	Erysipelothrix	Megasphaera
+bsdb:574/4/2_antimicrobial-agent:azithromycin-lactulose-treated_vs_azithromycin-treated_UP	NA	Megasphaera	Sporosarcina
 bsdb:576/1/1_colorectal-cancer:adenocarcinoma_vs_contemporaneous-patients-awaiting-elective-surgery-for-nononcologic-conditions_DOWN	NA	Coprococcus
 bsdb:580/1/1_NA:HIV-_vs_HIV+_DOWN	NA	Campylobacter	Capnocytophaga	Fusobacterium	Neisseria	Oribacterium	Prevotella	Tannerella
 bsdb:580/1/2_NA:HIV-_vs_HIV+_UP	NA	Bifidobacterium	Lactobacillus	Rothia	Streptococcus	Veillonella

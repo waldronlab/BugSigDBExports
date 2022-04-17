@@ -1,4 +1,4 @@
-# BugSigDB 2022-04-10, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2022-04-17, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_adenoma:conventional-adenoma-cases_vs_controls_UP	NA	1654	1716	1301	162289	189330	33024	40544	1386
 bsdb:1/1/2_adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	100883
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	207244
@@ -1458,6 +1458,7 @@ bsdb:513/2/1_COVID-19:COVID-19-positive-patients-with-breathing-assistance_vs_CO
 bsdb:514/1/1_endometriosis:Stage-3/4-endometriosis-patients_vs_Women-scheduled-for-laparoscopic-surgery-for-benign-uterine/-ovarian-conditions_UP	NA	1301
 bsdb:515/1/1_endometriosis:Endometriosis-patients-with-infertility_vs_Non-endometriosis-patients-with-infertility_NA	NA	848
 bsdb:516/1/1_endometriosis:Mice-who-were-injected-with-endometrial-tissues_vs_Healthy-mice_UP	NA	1678	577310
+bsdb:516/2/2_endometriosis:Mice-who-were-injected-with-endometrial-tissues_vs_Healthy-mice_DOWN	NA	1283313
 bsdb:518/1/1_endometriosis:Stage-3/4-endometriosis-patients_vs_Healthy-controls_UP	NA	1654	1678	572511	189330	84111	1350	1578	1357	1508657	1301	1485	1716
 bsdb:518/1/2_endometriosis:Stage-3/4-endometriosis-patients_vs_Healthy-controls_DOWN	NA	28050	283168	577310	1508657	40544
 bsdb:519/1/1_endometriosis:Endo-mice_vs_Non-endo-mice_UP	NA	816
@@ -1503,6 +1504,11 @@ bsdb:537/4/2_Parkinson's-disease:patients-with-PSP(progressive-supranuclear-pals
 bsdb:537/6/1_Parkinson's-disease:patients-with-early-Parkinson's-disease_vs_healthy-controls-without-any-form-of-Parkinson's-disease_UP	NA	239934
 bsdb:537/7/1_Parkinson's-disease:patients-with-mid-stage-Parkinson's_vs_healthy-controls-without-any-form-of-Parkinson's-Disease_UP	NA	239934
 bsdb:537/8/1_Parkinson's-disease:patients-with-advanced-stage-Parkinson's_vs_healthy-controls-without-any-form-of-Parkinson's-Disease_UP	NA	239934
+bsdb:538/1/1_antimicrobial-agent:ciprofloxacin-treated_vs_baseline-of-the-ciprofloxacin-treated_DOWN	NA	216851	119852	1263
+bsdb:538/1/2_antimicrobial-agent:ciprofloxacin-treated_vs_baseline-of-the-ciprofloxacin-treated_UP	NA	572511	1485	1730	841
+bsdb:538/2/2_NA:Nitrofurantoin-treated_vs_Baseline-of-the-Nitrofurantoin-treated_UP	NA	216851
+bsdb:538/6/1_urinary-tract-infection:CP2_vs_CRL2_UP	NA	239759	119852	375288	841	1263
+bsdb:538/7/1_urinary-tract-infection:NF2_vs_CRL2_UP	NA	239759	216851
 bsdb:545/1/1_antimicrobial-agent:7-week-old-(young)-mice-10-days-after-antibiotic-treatments_vs_7-week-old-(young)-mice-before-antibiotic-treatment_UP	NA	1350
 bsdb:545/1/2_antimicrobial-agent:7-week-old-(young)-mice-10-days-after-antibiotic-treatments_vs_7-week-old-(young)-mice-before-antibiotic-treatment_DOWN	NA	1470349	1729679	1501226
 bsdb:545/2/1_antimicrobial-agent:7-week-old-(young)-mice-6-months-after-antibiotic-treatments_vs_7-week-old-(young)-mice-before-antibiotic-treatment_UP	NA	1501226	1937008
@@ -1552,6 +1558,14 @@ bsdb:571/1/1_osteoarthritis,-knee:Knee-osteroarthritis_vs_Normal-Vitamin-D-statu
 bsdb:571/1/2_osteoarthritis,-knee:Knee-osteroarthritis_vs_Normal-Vitamin-D-status_UP	NA	1392389	543311	2740	1743	1335483
 bsdb:571/2/1_osteoarthritis,-knee:Knee-osteroarthritis-with-vit-D-deficiency_vs_Vitamin-D-deficiency_DOWN	NA	1283313	283168	265975	838
 bsdb:571/2/2_osteoarthritis,-knee:Knee-osteroarthritis-with-vit-D-deficiency_vs_Vitamin-D-deficiency_UP	NA	574697	1331051	80865	644652	375288	33024
+bsdb:574/1/1_antimicrobial-agent:azithromycin-lactulose-treated-(day-18)_vs_azithromycin-lactulose-treated-(day-0)_DOWN	NA	547	838
+bsdb:574/1/2_antimicrobial-agent:azithromycin-lactulose-treated-(day-18)_vs_azithromycin-lactulose-treated-(day-0)_UP	NA	207244	1350	1578	841	1263
+bsdb:574/2/1_antimicrobial-agent:azithromycin-treated-(day-18)_vs_azithromycin-treated-(day-0)_DOWN	NA	547
+bsdb:574/2/2_antimicrobial-agent:azithromycin-treated-(day-18)_vs_azithromycin-treated-(day-0)_UP	NA	447020	28050
+bsdb:574/3/1_antimicrobial-agent:azithromycin-treated-(day-60)_vs_azithromycin-treated-(day-0)_DOWN	NA	547	283168	577309	838	40544
+bsdb:574/3/2_antimicrobial-agent:azithromycin-treated-(day-60)_vs_azithromycin-treated-(day-0)_UP	NA	447020	114627	1301	29465
+bsdb:574/4/1_antimicrobial-agent:azithromycin-lactulose-treated_vs_azithromycin-treated_UP	NA	207244	572511	574697	100883	156973	1647	906
+bsdb:574/4/2_antimicrobial-agent:azithromycin-lactulose-treated_vs_azithromycin-treated_UP	NA	906	1569
 bsdb:576/1/1_colorectal-cancer:adenocarcinoma_vs_contemporaneous-patients-awaiting-elective-surgery-for-nononcologic-conditions_DOWN	NA	33042
 bsdb:580/1/1_NA:HIV-_vs_HIV+_DOWN	NA	194	1016	848	482	265975	838	195950
 bsdb:580/1/2_NA:HIV-_vs_HIV+_UP	NA	1678	1578	32207	1301	29465
