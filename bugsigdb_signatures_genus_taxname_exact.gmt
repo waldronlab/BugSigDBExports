@@ -1,4 +1,4 @@
-# BugSigDB 2022-05-08, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2022-05-15, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_adenoma:conventional-adenoma-cases_vs_controls_UP	NA	Actinomyces	Corynebacterium	Streptococcus	Peptoniphilus	Dorea	Phascolarctobacterium	Sutterella	Bacillus
 bsdb:1/1/2_adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	Coprobacillus
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	Anaerostipes
@@ -1575,6 +1575,10 @@ bsdb:580/3/1_NA:low_DLCO_vs_normal_DLCO_UP	NA	Lactobacillus	Streptococcus	Veillo
 bsdb:580/3/2_NA:low_DLCO_vs_normal_DLCO_DOWN	NA	Alloprevotella	Capnocytophaga	Fusobacterium	Lachnoanaerobaculum	Parvimonas	Prevotella	Stomatobaculum
 bsdb:581/1/1_epilepsy:Drug-resistant-epilepsy_vs_Drug-sensitive-epilepsy_DOWN	NA	Bacteroides	Barnesiella
 bsdb:581/1/2_epilepsy:Drug-resistant-epilepsy_vs_Drug-sensitive-epilepsy_UP	NA	Roseburia	Phascolarctobacterium	Methanobrevibacter	Fusobacterium	Coprococcus	Neisseria	Akkermansia	Gemmiger	Ruminococcus	Paraprevotella	Coprobacillus	Delftia	Dorea	Holdemania	Atopobium
+bsdb:582/1/1_colorectal-cancer:CRC-patients_vs_healthy-controls_UP	NA	Fusobacterium	Parvimonas	Staphylococcus
+bsdb:582/1/2_colorectal-cancer:CRC-patients_vs_healthy-controls_DOWN	NA	Blautia	Clostridium	Coprococcus	Streptococcus
+bsdb:582/2/1_colorectal-cancer:CRC-patients_vs_adenoma-patients_UP	NA	Parvimonas	Staphylococcus
+bsdb:582/2/2_colorectal-cancer:CRC-patients_vs_adenoma-patients_DOWN	NA	Dorea	Coprococcus	Blautia	Adlercreutzia
 bsdb:584/1/1_precancerous-colorectal-adenoma:cra-patients_vs_normal-participants_UP	NA	Serratia	Shigella	Salmonella	Pantoea	Morganella	Trabulsiella	Escherichia
 bsdb:589/1/1_colorectal-cancer:CRC-patients_vs_healthy-control_UP	NA	Phascolarctobacterium
 bsdb:590/1/1_infection:HIV-1-infection_vs_HIV-1-negative_DOWN	NA	Akkermansia	Bifidobacterium	Clostridium
@@ -1597,13 +1601,14 @@ bsdb:604/2/2_Parkinson's-disease:Participants-with-Parkinson's-Disease_vs_Health
 bsdb:605/1/1_Parkinson's-disease:Participants-with-Parkinson's-Disease_vs_Healthy-controls-without-Parkinson's-disease_UP	NA	Parabacteroides	Akkermansia	Butyricimonas	Veillonella	Odoribacter	Mucispirillum	Bilophila	Enterococcus	Lactobacillus
 bsdb:605/1/2_Parkinson's-disease:Participants-with-Parkinson's-Disease_vs_Healthy-controls-without-Parkinson's-disease_DOWN	NA	Faecalibacterium	Prevotella
 bsdb:605/2/1_Parkinson's-disease:Participants-with-Parkinson's-Disease-with-tremor-subtypes_vs_Participants-with-Parkinson's-Disease-with-non-tremor-subtypes_UP	NA	Akkermansia
-bsdb:605/2/2_Parkinson's-disease:Participants-with-Parkinson's-Disease-with-tremor-subtypes_vs_Participants-with-Parkinson's-Disease-with-non-tremor-subtypes_DOWN	NA	Mogibacterium	Flavobacterium	Desulfovibrio	Propionibacterium	Cupriavidus	Sutterella
+bsdb:605/2/2_Parkinson's-disease:Participants-with-Parkinson's-Disease-with-tremor-subtypes_vs_Participants-with-Parkinson's-Disease-with-non-tremor-subtypes_DOWN	NA	Cupriavidus	Desulfovibrio	Flavobacterium	Mogibacterium	Propionibacterium	Sutterella
 bsdb:607/2/1_Parkinson's-disease:Participants-with-typical-PD_vs_Healthy-controls_UP	NA	Christensenella	Anaerotruncus	Lactobacillus	Bilophila	Akkermansia	Streptococcus
 bsdb:607/2/2_Parkinson's-disease:Participants-with-typical-PD_vs_Healthy-controls_DOWN	NA	Turicibacter
 bsdb:607/3/1_Parkinson's-disease:Male-patients-with-PD_vs_Female-patients-with-PD_UP	NA	Paraprevotella
 bsdb:609/1/1_colorectal-cancer:CRC_vs_Healthy-Controls-(HC)_UP	NA	Akkermansia	Anaerostipes	Corynebacterium	Eggerthella	Enterococcus	Lactobacillus	Megasphaera	Parabacteroides	Parasutterella	Parvimonas	Peptostreptococcus	Porphyromonas	Selenomonas	Sutterella
 bsdb:609/1/2_colorectal-cancer:CRC_vs_Healthy-Controls-(HC)_DOWN	NA	Anaerofilum	Asaccharobacter	Blautia	Butyricicoccus	Collinsella	Faecalibacterium	Fusicatenibacter	Fusobacterium	Gemmiger	Romboutsia	Roseburia	Tyzzerella
 bsdb:612/1/1_colorectal-cancer:CRC-cases_vs_control-subjects_DOWN	NA	Coprococcus
+bsdb:613/1/1_colorectal-cancer:CRC-patients_vs_healthy-individuals_DOWN	NA	Actinobacillus	Anaerostipes	Citrobacter	Clostridium	Coprococcus	Dorea	Erwinia	Faecalibacterium	Haemophilus	Lachnospira	Leptotrichia	Neisseria	Oribacterium	Phascolarctobacterium	Prevotella	Roseburia	Selenomonas	Streptococcus	Sutterella	Veillonella
 bsdb:614/1/1_colorectal-cancer:CRC_vs_Healthy-Controls_UP	NA	Prevotella	Collinsella	Odoribacter	Peptostreptococcus	Lachnoanaerobaculum
 bsdb:614/1/2_colorectal-cancer:CRC_vs_Healthy-Controls_DOWN	NA	Cronobacter	Sporobacter
 bsdb:618/1/1_NA:Severe-dementia_vs_Control,-mild,-and-moderate-dementia_UP	NA	Anaerotruncus	Eisenbergiella	Hungatella	Oscillibacter	Sellimonas	Syntrophococcus

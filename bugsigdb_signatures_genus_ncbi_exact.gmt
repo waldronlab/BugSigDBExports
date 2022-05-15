@@ -1,4 +1,4 @@
-# BugSigDB 2022-05-08, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2022-05-15, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_adenoma:conventional-adenoma-cases_vs_controls_UP	NA	1654	1716	1301	162289	189330	33024	40544	1386
 bsdb:1/1/2_adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	100883
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	207244
@@ -1575,6 +1575,10 @@ bsdb:580/3/1_NA:low_DLCO_vs_normal_DLCO_UP	NA	1578	1301	29465
 bsdb:580/3/2_NA:low_DLCO_vs_normal_DLCO_DOWN	NA	1283313	1016	848	1164882	543311	838	1213720
 bsdb:581/1/1_epilepsy:Drug-resistant-epilepsy_vs_Drug-sensitive-epilepsy_DOWN	NA	816	397864
 bsdb:581/1/2_epilepsy:Drug-resistant-epilepsy_vs_Drug-sensitive-epilepsy_UP	NA	841	33024	2172	848	33042	482	239934	204475	1263	577309	100883	80865	189330	61170	1380
+bsdb:582/1/1_colorectal-cancer:CRC-patients_vs_healthy-controls_UP	NA	848	543311	1279
+bsdb:582/1/2_colorectal-cancer:CRC-patients_vs_healthy-controls_DOWN	NA	572511	1485	33042	1301
+bsdb:582/2/1_colorectal-cancer:CRC-patients_vs_adenoma-patients_UP	NA	543311	1279
+bsdb:582/2/2_colorectal-cancer:CRC-patients_vs_adenoma-patients_DOWN	NA	189330	33042	572511	447020
 bsdb:584/1/1_precancerous-colorectal-adenoma:cra-patients_vs_normal-participants_UP	NA	613	620	590	53335	581	158851	561
 bsdb:589/1/1_colorectal-cancer:CRC-patients_vs_healthy-control_UP	NA	33024
 bsdb:590/1/1_infection:HIV-1-infection_vs_HIV-1-negative_DOWN	NA	239934	1678	1485
@@ -1597,13 +1601,14 @@ bsdb:604/2/2_Parkinson's-disease:Participants-with-Parkinson's-Disease_vs_Health
 bsdb:605/1/1_Parkinson's-disease:Participants-with-Parkinson's-Disease_vs_Healthy-controls-without-Parkinson's-disease_UP	NA	375288	239934	574697	29465	283168	248038	35832	1350	1578
 bsdb:605/1/2_Parkinson's-disease:Participants-with-Parkinson's-Disease_vs_Healthy-controls-without-Parkinson's-disease_DOWN	NA	216851	838
 bsdb:605/2/1_Parkinson's-disease:Participants-with-Parkinson's-Disease-with-tremor-subtypes_vs_Participants-with-Parkinson's-Disease-with-non-tremor-subtypes_UP	NA	239934
-bsdb:605/2/2_Parkinson's-disease:Participants-with-Parkinson's-Disease-with-tremor-subtypes_vs_Participants-with-Parkinson's-Disease-with-non-tremor-subtypes_DOWN	NA	86331	237	872	1743	106589	40544
+bsdb:605/2/2_Parkinson's-disease:Participants-with-Parkinson's-Disease-with-tremor-subtypes_vs_Participants-with-Parkinson's-Disease-with-non-tremor-subtypes_DOWN	NA	106589	872	237	86331	1743	40544
 bsdb:607/2/1_Parkinson's-disease:Participants-with-typical-PD_vs_Healthy-controls_UP	NA	990721	244127	1578	35832	239934	1301
 bsdb:607/2/2_Parkinson's-disease:Participants-with-typical-PD_vs_Healthy-controls_DOWN	NA	191303
 bsdb:607/3/1_Parkinson's-disease:Male-patients-with-PD_vs_Female-patients-with-PD_UP	NA	577309
 bsdb:609/1/1_colorectal-cancer:CRC_vs_Healthy-Controls-(HC)_UP	NA	239934	207244	1716	84111	1350	1578	906	375288	577310	543311	1257	836	970	40544
 bsdb:609/1/2_colorectal-cancer:CRC_vs_Healthy-Controls-(HC)_DOWN	NA	52784	553372	572511	580596	102106	216851	1407607	848	204475	1501226	841	1506577
 bsdb:612/1/1_colorectal-cancer:CRC-cases_vs_control-subjects_DOWN	NA	33042
+bsdb:613/1/1_colorectal-cancer:CRC-patients_vs_healthy-individuals_DOWN	NA	713	207244	544	1485	33042	189330	551	216851	724	28050	32067	482	265975	33024	838	841	970	1301	40544	29465
 bsdb:614/1/1_colorectal-cancer:CRC_vs_Healthy-Controls_UP	NA	838	102106	283168	1257	1164882
 bsdb:614/1/2_colorectal-cancer:CRC_vs_Healthy-Controls_DOWN	NA	413496	44748
 bsdb:618/1/1_NA:Severe-dementia_vs_Control,-mild,-and-moderate-dementia_UP	NA	244127	1432051	1649459	459786	1769710	84036

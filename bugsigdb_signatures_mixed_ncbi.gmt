@@ -1,4 +1,4 @@
-# BugSigDB 2022-05-08, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2022-05-15, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_adenoma:conventional-adenoma-cases_vs_controls_UP	NA	91061	1236	1654	1716	1301	162289	189330	33024	40544	2037	2049	506	186826	1300	31977	91347	1653	57037	1386	186817
 bsdb:1/1/2_adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	100883	1117
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	207244	57037
@@ -1685,8 +1685,8 @@ bsdb:428/3/1_COVID-19:Recovered-COVID-19-cases_vs_Healthy-controls_UP	NA	1689	16
 bsdb:428/3/2_COVID-19:Recovered-COVID-19-cases_vs_Healthy-controls_DOWN	NA	1263079	40518	853	28026	292632	74426	1679	457412	1263107	165179	410072	39486	88431	28117	1304	39488
 bsdb:428/4/1_COVID-19:COVID-19-patients-treated-with-antibiotics_vs_Healthy-controls_DOWN	NA	1680	39486	88431	853	1263107	2053618	573	446660	40520	1263068	410072	665956	33945	39496	1896336
 bsdb:428/4/2_COVID-19:COVID-19-patients-treated-with-antibiotics_vs_Healthy-controls_UP	NA	39488	47678	28116	457412	78259	1747	84163	177972	78258	1353	936594	652706	658089	2049041	138595	116085	1383	1280	172042	46125	360807	796942	1282	649756	39490	230143	40545	328813	100883	133926	1869337
-bsdb:430/1/1_COVID-19:Patients-with-high-SARS-CoV-2-infectivity_vs_Patients-with-low-to-none-SARS-CoV-2-infectivity_UP	NA	46506	46503	1898203
-bsdb:430/1/2_COVID-19:Patients-with-high-SARS-CoV-2-infectivity_vs_Patients-with-low-to-none-SARS-CoV-2-infectivity_DOWN	NA	74426	582	68892	626935
+bsdb:430/1/1_COVID-19:Patients-with-high-SARS-CoV-2-infectivity_vs_Patients-with-low-to-none-SARS-CoV-2-infectivity_DOWN	NA	46506	1898203	46503	328813
+bsdb:430/1/2_COVID-19:Patients-with-high-SARS-CoV-2-infectivity_vs_Patients-with-low-to-none-SARS-CoV-2-infectivity_UP	NA	74426	626935	582	68892
 bsdb:431/1/1_cervical-glandular-intraepithelial-neoplasia:persistent-HPV+-with-HSIL_vs_persistent-HPV+-with-LSIL_DOWN	NA	222	283	1079922	162290	2745	1357	1243	68	149698	407	1839	265	33024	1522432	286	207599	152161	84036	270
 bsdb:431/2/1_cervical-glandular-intraepithelial-neoplasia:transient-HPV+-with-HSIL_vs_transient-HPV+-with-LSIL_DOWN	NA	32033	1522
 bsdb:431/3/1_cervical-glandular-intraepithelial-neoplasia:transient-HPV+-with-LSIL_vs_HPV-_DOWN	NA	168808	177971	29465	1522	906	46913	32033	2701
@@ -1796,7 +1796,7 @@ bsdb:457/5/1_periodontitis:Individuals-diagnosed-with-both-Periodontitis-and-Typ
 bsdb:457/5/2_periodontitis:Individuals-diagnosed-with-both-Periodontitis-and-Type-2-Diabetes-and-treated-with-metformin-(Met-group)_vs_Individuals-diagnosed-with-Periodontitis-and-Type-2-Diabetes-Mellitus-(DAP)_UP	NA	1177574	34105	1309
 bsdb:458/1/1_COVID-19:COVID-19-patients_vs_Non-intubated-patients-with-non-incubation-viral-pneumonia-or-non-incubation-non-infectious-diseases_UP	NA	469	570	1909303	48736	13687
 bsdb:458/1/2_COVID-19:COVID-19-patients_vs_Non-intubated-patients-with-non-incubation-viral-pneumonia-or-non-incubation-non-infectious-diseases_DOWN	NA	1654	724	482	838	1301	29465
-bsdb:458/2/NA_COVID-19:Intubated-COVID-19-patients_vs_Intubated-control-patients-with-viral-pneumonia-or-non-infectious-diseases_NA	NA	NA
+bsdb:458/2/NA_COVID-19:critically-severe-covid_vs_Inbutation-non-covid_NA	NA	NA
 bsdb:459/1/1_COVID-19:COVID-19-positive-patients_vs_COVID-19-negative-controls_DOWN	NA	1283313	165779	976	38501	580596	194	1016	59732	150022	237	1378	57493	1269	475	162289	836	838	32207	970	29465	662	91061
 bsdb:459/1/2_COVID-19:COVID-19-positive-patients_vs_COVID-19-negative-controls_UP	NA	432330	397456
 bsdb:460/1/NA_COVID-19:COVID-19-positive-patients_vs_COVID-19-negative-patients_NA	NA	NA
@@ -1853,8 +1853,8 @@ bsdb:471/1/4_colorectal-cancer:colorectal-cancer-cases_vs_controls_DOWN	NA	1304	
 bsdb:472/1/1_gestational-diabetes:Pregnant-individuals-with-gestational-diabetes_vs_Pregnant-individuals-who-are-normal-glucose-tolerance-(NGT)]_UP	NA	186801	1898207	1239	40518	59201	36835
 bsdb:472/1/2_gestational-diabetes:Pregnant-individuals-with-gestational-diabetes_vs_Pregnant-individuals-who-are-normal-glucose-tolerance-(NGT)]_DOWN	NA	171549	976	200643	140625
 bsdb:473/1/1_COVID-19:COVID-19-positive-patients_vs_COVID-19-negative-controls_DOWN	NA	32066	1236	203491	135625	1129771	203492	712	32067	848	724
-bsdb:474/1/1_COVID-19:COVID-19-patients_vs_Non-COVID-patients-with-URTI-or-COPD_UP	NA	1224	544448	1117
-bsdb:474/1/2_COVID-19:COVID-19-patients_vs_Non-COVID-patients-with-URTI-or-COPD_DOWN	NA	32066	1239	976	201174
+bsdb:474/1/1_COVID-19:COVID-19-patients_vs_Non-COVID-patients-with-URTI-or-COPD_UP	NA	1117	1224	544448	32066
+bsdb:474/1/2_COVID-19:COVID-19-patients_vs_Non-COVID-patients-with-URTI-or-COPD_DOWN	NA	201174	976	1239
 bsdb:475/1/NA_COVID-19:Non-COVID-19-patients-(Group-NP)_vs_Healthy-controls-(Group-H)_NA	NA	NA
 bsdb:475/2/NA_COVID-19:Community-Type-I-Patients_vs_Healthy-controls-(Group-H)_NA	NA	NA
 bsdb:475/3/NA_COVID-19:Community-Type-II-patients_vs_Healthy-controls-(Group-H)_NA	NA	NA
@@ -2210,6 +2210,10 @@ bsdb:580/3/2_NA:low_DLCO_vs_normal_DLCO_DOWN	NA	1283313	1016	848	1164882	543311	
 bsdb:581/1/1_epilepsy:Drug-resistant-epilepsy_vs_Drug-sensitive-epilepsy_DOWN	NA	2	815	171549	816	976	200643	397864
 bsdb:581/1/2_epilepsy:Drug-resistant-epilepsy_vs_Drug-sensitive-epilepsy_UP	NA	526524	468	1239	186803	909932	909929	841	33024	909930	183925	2159	2172	2158	32066	203490	203492	203491	848	33042	206351	482	481	2157	28890	48461	74201	239934	203557	203494	204475	1263	577309	100883	80865	95818	189330	61170	128827	1380	526525
 bsdb:581/2/NA_epilepsy:Drug-resistant-epilepsy_vs_Healthy-controls_NA	NA	NA
+bsdb:582/1/1_colorectal-cancer:CRC-patients_vs_healthy-controls_UP	NA	848	543311	1279
+bsdb:582/1/2_colorectal-cancer:CRC-patients_vs_healthy-controls_DOWN	NA	572511	1485	33042	1301
+bsdb:582/2/1_colorectal-cancer:CRC-patients_vs_adenoma-patients_UP	NA	543311	1279
+bsdb:582/2/2_colorectal-cancer:CRC-patients_vs_adenoma-patients_DOWN	NA	189330	33042	572511	447020
 bsdb:584/1/1_precancerous-colorectal-adenoma:cra-patients_vs_normal-participants_UP	NA	1224	135621	444	28256	543	613	620	590	53335	581	158851	561
 bsdb:586/1/1_colorectal-cancer:CRC-Patients_vs_Healthy-Controls_UP	NA	1239	32066
 bsdb:586/2/1_colorectal-cancer:CRC-Patients_vs_Healthy-Controls_UP	NA	201174	28216	1239	117743	32066	171552	95818
@@ -2247,9 +2251,9 @@ bsdb:604/1/3_Parkinson's-disease:Participants-with-Parkinson's-Disease_vs_Health
 bsdb:604/2/1_Parkinson's-disease:Participants-with-Parkinson's-Disease_vs_Healthy-control-free-of-neurological-disease._UP	NA	836	838	1716	572511	186803	1678	1578
 bsdb:604/2/2_Parkinson's-disease:Participants-with-Parkinson's-Disease_vs_Healthy-control-free-of-neurological-disease._DOWN	NA	216851	1766253	841	580596	1407607	28050
 bsdb:605/1/1_Parkinson's-disease:Participants-with-Parkinson's-Disease_vs_Healthy-controls-without-Parkinson's-disease_UP	NA	171551	375288	74201	203557	239934	48461	1853231	171550	574697	191394	28211	29465	526524	526525	128827	283168	544448	248038	68337	35832	81852	81850	1350	1578	31969	356
-bsdb:605/1/2_Parkinson's-disease:Participants-with-Parkinson's-Disease_vs_Healthy-controls-without-Parkinson's-disease_DOWN	NA	216851	171552	838
-bsdb:605/2/1_Parkinson's-disease:Participants-with-Parkinson's-Disease-with-tremor-subtypes_vs_Participants-with-Parkinson's-Disease-with-non-tremor-subtypes_UP	NA	186801	2137877	1239	74201	203557	239934	203494	48461
-bsdb:605/2/2_Parkinson's-disease:Participants-with-Parkinson's-Disease-with-tremor-subtypes_vs_Participants-with-Parkinson's-Disease-with-non-tremor-subtypes_DOWN	NA	86331	237	872	1743	106589	40544	506	200643	171549	976
+bsdb:605/1/2_Parkinson's-disease:Participants-with-Parkinson's-Disease_vs_Healthy-controls-without-Parkinson's-disease_DOWN	NA	216851	838	171552
+bsdb:605/2/1_Parkinson's-disease:Participants-with-Parkinson's-Disease-with-tremor-subtypes_vs_Participants-with-Parkinson's-Disease-with-non-tremor-subtypes_UP	NA	239934	186801	2137877	1239	74201	203557	203494	48461
+bsdb:605/2/2_Parkinson's-disease:Participants-with-Parkinson's-Disease-with-tremor-subtypes_vs_Participants-with-Parkinson's-Disease-with-non-tremor-subtypes_DOWN	NA	506	171549	976	200643	106589	872	237	86331	1743	40544
 bsdb:606/1/1_Parkinson's-disease:Participants-with-idiopathic-Parkinson's-Disease-and-mild-symptoms._vs_Healthy-controls_UP	NA	1236
 bsdb:606/2/1_Parkinson's-disease:Participants-with-severe-PD_vs_Participants-with-mild-PD_UP	NA	203494
 bsdb:607/1/1_Parkinson's-disease:Participants-with-typical-PD_vs_Healthy-controls_UP	NA	239935	169435	626937	40518	33039
@@ -2260,6 +2264,7 @@ bsdb:607/3/1_Parkinson's-disease:Male-patients-with-PD_vs_Female-patients-with-P
 bsdb:609/1/1_colorectal-cancer:CRC_vs_Healthy-Controls-(HC)_UP	NA	239934	28211	207244	91061	171549	976	200643	1653	1716	84111	91347	543	81852	1350	1940338	186826	1578	906	375288	577310	543311	1257	836	970	40544	74201	203557	203494	48461
 bsdb:609/1/2_colorectal-cancer:CRC_vs_Healthy-Controls-(HC)_DOWN	NA	52784	553372	572511	580596	186801	1898207	102106	216851	1239	1407607	32066	203492	203491	203490	848	204475	186803	1501226	841	1506577
 bsdb:612/1/1_colorectal-cancer:CRC-cases_vs_control-subjects_DOWN	NA	186801	33042	186803
+bsdb:613/1/1_colorectal-cancer:CRC-patients_vs_healthy-individuals_DOWN	NA	713	506	207244	91061	28116	820	976	200643	33035	544	186801	31979	1898207	1485	33042	1117	189330	551	128827	526525	526524	216851	853	1239	724	28050	186803	186826	32067	1129771	482	265975	135625	33024	310297	838	171552	841	301302	1265	970	1300	1301	35493	40544	29465	39778	29466	31977	33038	152509
 bsdb:614/1/1_colorectal-cancer:CRC_vs_Healthy-Controls_UP	NA	838	102106	283168	1257	1164882
 bsdb:614/1/2_colorectal-cancer:CRC_vs_Healthy-Controls_DOWN	NA	413496	1940338	44748
 bsdb:617/1/NA_cesarean-section:C-section_vs_vaginal-delivery_NA	NA	NA
