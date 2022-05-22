@@ -1,4 +1,4 @@
-# BugSigDB 2022-05-15, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2022-05-22, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_adenoma:conventional-adenoma-cases_vs_controls_UP	NA	91061	1236	1654	1716	1301	162289	189330	33024	40544	2037	2049	506	186826	1300	31977	91347	1653	57037	1386	186817
 bsdb:1/1/2_adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	100883	1117
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	207244	57037
@@ -903,13 +903,13 @@ bsdb:244/7/1_age:18-62-years_vs_2-12-years_UP	NA	1747	147802
 bsdb:244/7/2_age:18-62-years_vs_2-12-years_DOWN	NA	45634
 bsdb:244/7/3_age:18-62-years_vs_2-12-years_UP	NA	1747	1282	147802
 bsdb:244/7/4_age:18-62-years_vs_2-12-years_DOWN	NA	43675	45634
-bsdb:245/1/1_nephrolithiasis,urolithiasis:kidney-stone-group_vs_healthy-control_UP	NA	72274	468	469	287	562	620	1506553	33038	1283313	158846	1573534	85413	53254	1730	561
+bsdb:245/1/1_nephrolithiasis,urolithiasis:kidney-stone-group_vs_healthy-control_UP	NA	469	1283313	85413	53254	561	562	1730	1573534	1506553	158846	468	72274	287	620	33038	2212467
 bsdb:245/1/2_nephrolithiasis,urolithiasis:kidney-stone-group_vs_healthy-control_DOWN	NA	1508657	990719	39948	61170	168934	41295	204441	28211	638847	638849	1680	1678	85004	31953	1760	360807	841	328814	186803	328813	577310	310297	547
 bsdb:245/2/1_nephrolithiasis,urolithiasis:kidney-stone-group_vs_healthy-control_UP	NA	1283313	1505663	186803	33024	158846	469	561	620	40544	128827	468	72274	526525
 bsdb:245/2/2_nephrolithiasis,urolithiasis:kidney-stone-group_vs_healthy-control_DOWN	NA	39488	189330	1508657	207244	1407607	292632	42322	1573535	39948	1263	577310	35832
-bsdb:246/1/1_asthma:maternal-asthma_vs_no-asthma_UP	NA	1357	2049	1654	158846
-bsdb:246/1/2_asthma:maternal-asthma_vs_no-asthma_DOWN	NA	158851
-bsdb:246/2/1_asthma:maternal-asthma_vs_no-asthma_UP	NA	817	286	351	815	816	200643	976	171549
+bsdb:246/1/1_asthma:maternal-asthma_vs_no-asthma_UP	NA	1654	2049	1357	158846	44273	29317	2049033
+bsdb:246/1/2_asthma:maternal-asthma_vs_no-asthma_DOWN	NA	158851	1591
+bsdb:246/2/1_asthma:maternal-asthma_vs_no-asthma_UP	NA	351	815	171549	816	817	976	200643	286	306
 bsdb:246/2/2_asthma:maternal-asthma_vs_no-asthma_DOWN	NA	906
 bsdb:246/3/1_asthma:maternal-asthma_vs_no-asthma_DOWN	NA	1578
 bsdb:246/4/1_asthma:maternal-asthma_vs_no-asthma_DOWN	NA	33958	1578
@@ -997,13 +997,13 @@ bsdb:262/5/2_atopic-asthma:oral-wash_vs_induced-sputum-specimen-type_DOWN	NA	171
 bsdb:262/6/1_atopic-asthma:induced-sputum_vs_bronchial-brush-specimen-type_UP	NA	1301	32067
 bsdb:262/7/1_atopic-asthma:atopic-asthma_vs_healthy-control_UP	NA	482	848	838	724
 bsdb:262/7/2_atopic-asthma:atopic-asthma_vs_healthy-control_DOWN	NA	1301
-bsdb:263/1/1_Crohn's-disease:chron's-disease_vs_healthy-controls_UP	NA	1654	84111	32207	1239	572511	186828	1573536	1378	1505657	1301
-bsdb:263/1/2_Crohn's-disease:chron's-disease_vs_healthy-controls_DOWN	NA	553372	84107	186801	1485	33042	216851	1407607	204475	28050	86331	459786	1501226	186803	1263	44748	292632	191303
-bsdb:263/2/1_ulcerative-colitis:ulcerative-colitis_vs_healthy-controls_UP	NA	1654	1678	84111	264995	1573536	1378	1301
+bsdb:263/1/1_Crohn's-disease:chron's-disease_vs_healthy-controls_UP	NA	1654	572511	186828	84111	1573536	1239	1378	1505657	32207	1301	186803
+bsdb:263/1/2_Crohn's-disease:chron's-disease_vs_healthy-controls_DOWN	NA	553372	186801	1485	33042	84107	216851	1407607	204475	28050	186803	86331	459786	1501226	1263	44748	292632	191303	216572
+bsdb:263/2/1_ulcerative-colitis:ulcerative-colitis_vs_healthy-controls_UP	NA	1654	264995	1678	84111	1573536	1378	1301	186803
 bsdb:263/2/2_ulcerative-colitis:ulcerative-colitis_vs_healthy-controls_DOWN	NA	644652	204475	28050	86331	1263	44748
 bsdb:263/3/1_multiple-sclerosis:multiple-sceloris_vs_healthy-controls_UP	NA	1654	84111	264995	1485	1573536	1301	191303
 bsdb:263/3/2_multiple-sclerosis:multiple-sceloris_vs_healthy-controls_DOWN	NA	580596	39948	216851	1407607	204475	28050	100132	292632
-bsdb:263/4/1_rheumatoid-arthritis:arthiritis_vs_healthy-controls_UP	NA	1654	84111	32207	1239	1573536	1378	1301
+bsdb:263/4/1_rheumatoid-arthritis:arthiritis_vs_healthy-controls_UP	NA	1654	84111	1573536	1239	1378	32207	1301	186803
 bsdb:263/4/2_rheumatoid-arthritis:arthiritis_vs_healthy-controls_DOWN	NA	264995	580596	1485	216851	1407607	204475	28050	1501226	841	44748	292632
 bsdb:264/1/1_human-papilloma-virus-infection:HPV+/HIV-_vs_HPV-/HIV-_UP	NA	1872515	2023260	28263	1261	309120	72409	186804	1257	1971214	39948	1258	162289	59823	906	31979	976	200643	171549	168808	1129771	838	171552	32066	203491
 bsdb:264/1/2_human-papilloma-virus-infection:HPV+/HIV-_vs_HPV-/HIV-_DOWN	NA	147802	28211	356	56688	1879286	135614
@@ -1114,7 +1114,7 @@ bsdb:285/2/1_multiple-sclerosis:IMD-exposure-multiple-sclerosis-cases_vs_IMD-nai
 bsdb:285/2/2_multiple-sclerosis:IMD-exposure-multiple-sclerosis-cases_vs_IMD-naive-cases_DOWN	NA	544448	1117
 bsdb:285/3/1_multiple-sclerosis:IMD-naive-cases-multiple-sclerosis_vs_healthy-controls_UP	NA	904	239935	1380	47678	28116	1678	35832	33035	135858	990719	80864	33042	84107	872	189330	186802	1730	853	729	186803	158846	906	2172	119852	541000	823	33024	310297	165179	363265	113286	1263	40544	39778	33038
 bsdb:285/3/2_multiple-sclerosis:IMD-naive-cases-multiple-sclerosis_vs_healthy-controls_DOWN	NA	541000	165179	1623	577309	186803	171550	816	1263	823	820	574697	52226	33042	1261	207244	239935	28111	40544	853	817	135858	39948	387090	28116	189330
-bsdb:286/1/1_Graves-ophthalmopathy:graves-orbitopathy_vs_Healthy-controls_UP	NA	165179	976
+bsdb:286/1/1_Graves-ophthalmopathy:graves-orbitopathy_vs_Healthy-controls_UP	NA	976	165179	171552
 bsdb:286/1/2_Graves-ophthalmopathy:graves-orbitopathy_vs_Healthy-controls_DOWN	NA	328814	39488	207244	572511	574697	102106	39496	1239	1407607	1852369	204516	1263
 bsdb:286/2/1_Graves-ophthalmopathy:graves-orbitopathy_vs_healthy-controls_UP	NA	171549	976	200643	165179	171552
 bsdb:286/2/2_Graves-ophthalmopathy:graves-orbitopathy_vs_healthy-controls_DOWN	NA	186801	186802	1239	186803
@@ -1913,9 +1913,9 @@ bsdb:485/1/2_COVID-19:COVID-19-patients-with-fever_vs_COVID-19-patients-without-
 bsdb:485/2/1_COVID-19:COVID-19-patients-with-fever_vs_COVID-19-patients-without-fever_UP	NA	4890	1350	544	4930	724	208479	4932	729	546	1896336	1351
 bsdb:485/2/2_COVID-19:COVID-19-patients-with-fever_vs_COVID-19-patients-without-fever_DOWN	NA	577310	644652	328814	658087	469614	818	817	246787	371601	658086	39490	487175	821	649756	469610	658089	658082
 bsdb:486/1/1_COVID-19:Asymptomatic-COVID-19-patients_vs_Healthy-controls_UP	NA	31979	74426	1262234	84111	547	358743	81852	1350	33958	666060	823	171551	1263	620	46255	33038	543	622	1587
-bsdb:486/1/2_COVID-19:Asymptomatic-COVID-19-patients_vs_Healthy-controls_DOWN	NA	904	135624	207244	1680	194	72294	213849	29547	729	28050	81850	906	52225	52226	133925	712	135625	165179	841	301302	360807	40519	83770	83763	31977	33958	1531
+bsdb:486/1/2_COVID-19:Asymptomatic-COVID-19-patients_vs_Healthy-controls_DOWN	NA	904	135624	207244	1680	194	72294	213849	1531	29547	729	28050	81850	906	52225	52226	133925	712	135625	165179	841	301302	360807	40519	83770	83763	31977	33958
 bsdb:486/2/1_COVID-19:Asymptomatic-COVID-19-patients_vs_Healthy-controls_UP	NA	543	35493	81852	1350	72274	620	468	33970	33969	469	1587	106649	624	81850	1268	46255	358743
-bsdb:486/2/2_COVID-19:Asymptomatic-COVID-19-patients_vs_Healthy-controls_DOWN	NA	186801	33958	292632	970	189330	133925	904	33042	1485	84999	84107	1531	31979	712	207244	74201	29547	213849	52225	547	171550	135625	1263	28052	31977	906	841	72293	28050	39948	216851	83770	83763	135624	186803	186802
+bsdb:486/2/2_COVID-19:Asymptomatic-COVID-19-patients_vs_Healthy-controls_DOWN	NA	904	135624	207244	213849	186801	31979	1485	33042	84107	84999	39948	189330	547	1531	29547	186802	216851	72293	28050	28052	186803	906	52225	133925	712	135625	171550	841	1263	970	292632	83770	83763	31977	74201	33958
 bsdb:486/3/1_COVID-19:Severe-COVID-19-patients_vs_Healthy-controls_UP	NA	816	200643	171549	976	543	91347	201174	85004	31953	81852	1350	81850	2	620	624	186826	1587	1380	33969	358743	622
 bsdb:486/3/2_COVID-19:Severe-COVID-19-patients_vs_Healthy-controls_DOWN	NA	580596	186801	31969	189330	133925	1485	904	1531	84107	712	33042	31979	33958	74201	547	544448	80864	29547	213849	1239	135625	906	72294	194	31977	81850	841	28052	28050	216572	186802	186803	39948	2	216851	135624	83770	83763	541000
 bsdb:487/1/1_COVID-19:Recovered-COVID-19-samples-(respiratory-negative)_vs_Infected-COVID-19-samples-(respiratory-positive)_UP	NA	976	200643	171549
@@ -2054,8 +2054,8 @@ bsdb:527/1/2_endometriosis:Endometriosis-patients_vs_Healthy-controls-taken-from
 bsdb:527/2/1_endometriosis:Endometriosis-patients_vs_Healthy-controls-taken-from-a-larger-cohort-study_DOWN	NA	171549
 bsdb:527/2/2_endometriosis:Endometriosis-patients_vs_Healthy-controls-taken-from-a-larger-cohort-study_UP	NA	28050	119852
 bsdb:528/1/NA_endometriosis:Endo-mice_vs_Non-endo-mice_NA	NA	NA
-bsdb:529/1/1_EFO:0000685,MONDO:0005178:arthritis-patient_vs_healthy-controls_UP	NA	848	47670	32067	117563	1654	1301	32207	724	39778	29465	836	28132	482	838
-bsdb:529/1/2_EFO:0000685,MONDO:0005178:arthritis-patient_vs_healthy-controls_DOWN	NA	469	59732	286	212791	40323	13687	343873	293	816	283	172044	13159
+bsdb:529/1/1_rheumatoid-arthritis,osteoarthritis:arthritis-patient_vs_healthy-controls_UP	NA	848	47670	32067	117563	1654	1301	32207	724	39778	29465	836	28132	482	838
+bsdb:529/1/2_rheumatoid-arthritis,osteoarthritis:arthritis-patient_vs_healthy-controls_DOWN	NA	469	59732	286	212791	40323	13687	343873	293	816	283	172044	13159
 bsdb:529/2/1_EFO:0000685:rheumatoid-arthritis_vs_Osteoarthritis_UP	NA	735	713	416916	76122	848	29465	838	39778	724	729	28449	482
 bsdb:529/2/2_EFO:0000685:rheumatoid-arthritis_vs_Osteoarthritis_DOWN	NA	1301	1654	47670	32207	117563	2047	1263	265975	33038	46123
 bsdb:532/1/1_rheumatoid-arthritis:rheumatoid-arthritis-patient_vs_healthy-controls_UP	NA	201174	1654	2049	2037	91061	84107	84999	84111	551	186806	1730	186826	1300	1301	191303	2810281

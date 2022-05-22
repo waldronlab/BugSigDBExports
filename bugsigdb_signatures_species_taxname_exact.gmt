@@ -1,4 +1,4 @@
-# BugSigDB 2022-05-15, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2022-05-22, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_adenoma:conventional-adenoma-cases_vs_controls_UP	NA	Lacticaseibacillus zeae
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	Lacticaseibacillus zeae
 bsdb:1/6/1_adenoma:Non-advanced-conventional-adenoma-cases_vs_controls_UP	NA	Lacticaseibacillus zeae
@@ -295,10 +295,12 @@ bsdb:244/7/1_age:18-62-years_vs_2-12-years_UP	NA	Cutibacterium acnes	Lactobacill
 bsdb:244/7/2_age:18-62-years_vs_2-12-years_DOWN	NA	Streptococcus cristatus
 bsdb:244/7/3_age:18-62-years_vs_2-12-years_UP	NA	Cutibacterium acnes	Staphylococcus epidermidis	Lactobacillus iners
 bsdb:244/7/4_age:18-62-years_vs_2-12-years_DOWN	NA	Rothia mucilaginosa	Streptococcus cristatus
-bsdb:245/1/1_nephrolithiasis,urolithiasis:kidney-stone-group_vs_healthy-control_UP	NA	Pseudomonas aeruginosa	Escherichia coli	[Ruminococcus] gnavus	Bosea thiooxidans
+bsdb:245/1/1_nephrolithiasis,urolithiasis:kidney-stone-group_vs_healthy-control_UP	NA	Bosea thiooxidans	Escherichia coli	Pseudomonas aeruginosa	[Ruminococcus] gnavus	Bacteroidaceae bacterium
 bsdb:245/1/2_nephrolithiasis,urolithiasis:kidney-stone-group_vs_healthy-control_DOWN	NA	Pyramidobacter piscolens	Bifidobacterium adolescentis	Roseburia inulinivorans	Alistipes shahii	Alistipes onderdonkii	Phocaeicola plebeius
 bsdb:245/2/2_nephrolithiasis,urolithiasis:kidney-stone-group_vs_healthy-control_DOWN	NA	Anaerobutyricum hallii	Eubacterium ruminantium
-bsdb:246/2/1_asthma:maternal-asthma_vs_no-asthma_UP	NA	Bacteroides fragilis	Azotobacter group
+bsdb:246/1/1_asthma:maternal-asthma_vs_no-asthma_UP	NA	Lactococcus sp.	Actinomyces sp.	Megamonas sp.
+bsdb:246/1/2_asthma:maternal-asthma_vs_no-asthma_DOWN	NA	Lactobacillus sp.
+bsdb:246/2/1_asthma:maternal-asthma_vs_no-asthma_UP	NA	Azotobacter group	Bacteroides fragilis	Pseudomonas sp.
 bsdb:248/1/1_human-papilloma-virus-infection:high-risk-hpv_vs_low-risk-hpv_UP	NA	Azotobacter group
 bsdb:248/2/2_human-papilloma-virus-infection:HPV_vs_no-HPV_DOWN	NA	Pseudomonas veronii	Azotobacter group
 bsdb:249/2/2_Hepatitis,-Alcoholic:HDC_vs_NAC_DOWN	NA	Azotobacter group
@@ -638,7 +640,7 @@ bsdb:484/4/1_COVID-19:COVID-19-positive-patients_vs_COVID-19-negative-patients-w
 bsdb:485/2/1_COVID-19:COVID-19-patients-with-fever_vs_COVID-19-patients-without-fever_UP	NA	Enterocloster bolteae	Saccharomyces cerevisiae	Haemophilus parainfluenzae	Citrobacter freundii	Citrobacter sp.	Enterococcus faecalis
 bsdb:485/2/2_COVID-19:COVID-19-patients-with-fever_vs_COVID-19-patients-without-fever_DOWN	NA	Alistipes shahii	Lachnospiraceae bacterium 7_1_58FAA	Erysipelotrichaceae bacterium 6_1_45	Bacteroides thetaiotaomicron	Bacteroides fragilis	Bacteroides cellulosilyticus	Bacteroides xylanisolvens	Lachnospiraceae bacterium 3_1_57FAA_CT1	Eubacterium ramulus	Parasutterella excrementihominis	Phocaeicola vulgatus	Anaerostipes hadrus	Burkholderiales bacterium 1_1_47	Lachnospiraceae bacterium 5_1_63FAA	Lachnospiraceae bacterium 2_1_58FAA
 bsdb:486/1/1_COVID-19:Asymptomatic-COVID-19-patients_vs_Healthy-controls_UP	NA	Collinsella aerofaciens	Compsobata cibaria	Enterocloster citroniae	Parabacteroides distasonis	[Ruminococcus] gnavus	Shigella dysenteriae	Lactobacillus helveticus
-bsdb:486/1/2_COVID-19:Asymptomatic-COVID-19-patients_vs_Healthy-controls_DOWN	NA	Bifidobacterium adolescentis	Haemophilus parainfluenzae	Mitsuokella multacida	Prevotella copri	Roseburia faecis	Roseburia inulinivorans	Ruminococcus callidus	Enterocloster clostridioformis
+bsdb:486/1/2_COVID-19:Asymptomatic-COVID-19-patients_vs_Healthy-controls_DOWN	NA	Bifidobacterium adolescentis	Enterocloster clostridioformis	Haemophilus parainfluenzae	Mitsuokella multacida	Prevotella copri	Roseburia faecis	Roseburia inulinivorans	Ruminococcus callidus
 bsdb:486/2/1_COVID-19:Asymptomatic-COVID-19-patients_vs_Healthy-controls_UP	NA	Melissococcus plutonius	Lactobacillus helveticus	Acinetobacter guillouiae	Shigella sonnei	Enterocloster citroniae
 bsdb:486/2/2_COVID-19:Asymptomatic-COVID-19-patients_vs_Healthy-controls_DOWN	NA	Enterocloster clostridioformis	Lachnospira pectinoschiza
 bsdb:486/3/1_COVID-19:Severe-COVID-19-patients_vs_Healthy-controls_UP	NA	Shigella sonnei	Lactobacillus helveticus	Enterocloster citroniae	Shigella dysenteriae
@@ -711,8 +713,8 @@ bsdb:525/2/1_endometriosis:Women-with-EM-associated-CPPS_vs_Women-without-CPPS-p
 bsdb:525/2/2_endometriosis:Women-with-EM-associated-CPPS_vs_Women-without-CPPS-presenting-for-routine-examinations_DOWN	NA	Lactobacillus iners	Sneathia vaginalis	Lactobacillus jensenii
 bsdb:526/1/1_endometriosis:Endometriosis/-adenomyosis-patients_vs_Endometriosis-patients_UP	NA	Escherichia/Shigella sp.
 bsdb:526/2/1_endometriosis:Endometriosis/-adenomyosis-patients_vs_Patients-without-endometriosis_UP	NA	Escherichia/Shigella sp.
-bsdb:529/1/1_EFO:0000685,MONDO:0005178:arthritis-patient_vs_healthy-controls_UP	NA	Veillonella dispar	Prevotella melaninogenica
-bsdb:529/1/2_EFO:0000685,MONDO:0005178:arthritis-patient_vs_healthy-controls_DOWN	NA	Brevundimonas diminuta	Sphingomonas yabuuchiae
+bsdb:529/1/1_rheumatoid-arthritis,osteoarthritis:arthritis-patient_vs_healthy-controls_UP	NA	Veillonella dispar	Prevotella melaninogenica
+bsdb:529/1/2_rheumatoid-arthritis,osteoarthritis:arthritis-patient_vs_healthy-controls_DOWN	NA	Brevundimonas diminuta	Sphingomonas yabuuchiae
 bsdb:529/2/1_EFO:0000685:rheumatoid-arthritis_vs_Osteoarthritis_UP	NA	Haemophilus parahaemolyticus	Alloprevotella tannerae	Veillonella dispar	Haemophilus parainfluenzae	Neisseria subflava
 bsdb:529/2/2_EFO:0000685:rheumatoid-arthritis_vs_Osteoarthritis_DOWN	NA	Rothia dentocariosa	[Ruminococcus] gnavus
 bsdb:535/1/1_antimicrobial-agent:Antibiotic-treated_vs_Antibiotic-untreated_DOWN	NA	Bifidobacterium sp.
