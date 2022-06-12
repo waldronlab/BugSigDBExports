@@ -1,4 +1,4 @@
-# BugSigDB 2022-06-05, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2022-06-12, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_adenoma:conventional-adenoma-cases_vs_controls_UP	NA	Actinomyces	Corynebacterium	Streptococcus	Peptoniphilus	Dorea	Phascolarctobacterium	Sutterella	Lacticaseibacillus	Bacillus
 bsdb:1/1/2_adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	Coprobacillus
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	Anaerostipes	Lacticaseibacillus
@@ -1912,6 +1912,10 @@ bsdb:607/1/2_Parkinson's-disease:Participants-with-typical-PD_vs_Healthy-control
 bsdb:607/2/1_Parkinson's-disease:Participants-with-typical-PD_vs_Healthy-controls_UP	NA	Christensenella	Anaerotruncus	Lactobacillus	Bilophila	Akkermansia	Streptococcus
 bsdb:607/2/2_Parkinson's-disease:Participants-with-typical-PD_vs_Healthy-controls_DOWN	NA	Turicibacter
 bsdb:607/3/1_Parkinson's-disease:Male-patients-with-PD_vs_Female-patients-with-PD_UP	NA	Paraprevotella
+bsdb:608/1/1_healthy:healthy-child-oral-50%-up_vs_none_NA	NA	Streptococcus	Rothia	Veillonella	Prevotella	Gemella	Neisseria	Haemophilus
+bsdb:608/1/2_healthy:healthy-child-oral-50%-up_vs_none_NA	NA	Streptococcus	Rothia	Prevotella	Neisseria	Veillonella
+bsdb:608/2/1_healthy:healthy-child-stool-50%-up_vs_none_NA	NA	Streptococcus	Bifidobacterium	Escherichia	Veillonella	Bacteroides	Enterococcus	Clostridium	Mediterraneibacter
+bsdb:608/2/2_healthy:healthy-child-stool-50%-up_vs_none_NA	NA	Bifidobacterium	Streptococcus	Escherichia
 bsdb:609/1/1_colorectal-cancer:CRC_vs_Healthy-Controls-(HC)_UP	NA	Akkermansia	Anaerostipes	Corynebacterium	Eggerthella	Enterococcus	Lactobacillus	Megasphaera	Parabacteroides	Parasutterella	Parvimonas	Peptostreptococcus	Porphyromonas	Selenomonas	Sutterella
 bsdb:609/1/2_colorectal-cancer:CRC_vs_Healthy-Controls-(HC)_DOWN	NA	Anaerofilum	Asaccharobacter	Blautia	Butyricicoccus	Collinsella	Faecalibacterium	Fusicatenibacter	Fusobacterium	Gemmiger	Romboutsia	Roseburia	Tyzzerella
 bsdb:612/1/1_colorectal-cancer:CRC-cases_vs_control-subjects_DOWN	NA	Coprococcus
@@ -1936,3 +1940,14 @@ bsdb:624/1/1_colorectal-cancer:Patients-with-CRC_vs_Healthy-Individuals_UP	NA	Pa
 bsdb:624/2/1_colorectal-cancer:Patients-with-early-CRC_vs_Healthy-Individuals_UP	NA	Fusobacterium	Peptostreptococcus
 bsdb:624/3/1_colorectal-cancer:Patients-with-advanced-CRC_vs_Healthy-Individuals_UP	NA	Peptostreptococcus	Prevotella	Parvimonas	Porphyromonas	Alloprevotella	Solobacterium	Dialister	Fusobacterium
 bsdb:624/4/1_colorectal-cancer:After-resection_vs_Before-resection_DOWN	NA	Parvimonas	Prevotella	Peptostreptococcus	Porphyromonas	Solobacterium	Alloprevotella	Dialister	Fusobacterium
+bsdb:625/1/1_healthy.:High-SES_vs_Low-SES_UP	NA	Anaerostipes	Eubacterium	Faecalibacterium
+bsdb:625/1/2_healthy.:High-SES_vs_Low-SES_DOWN	NA	Bacteroides
+bsdb:629/1/1_Colorectal-cancer,Colorectal-carcinoma,rectal-carcinoma:Adjacent-Non-Tumor-Tissue-of-Colorectal-Cancer-Cases_vs_Tumor-Tissue-of-Colorectal-Cancer-Cases_UP	NA	Fusobacterium
+bsdb:630/1/1_colorectal-cancer:stage-I/II-(SI/II)_vs_healthy-control-(normal-and-a-few-polyps)_UP	NA	Collinsella	Fusobacterium	Lancefieldella	Parvimonas	Peptostreptococcus	Porphyromonas	Schaalia	Solobacterium
+bsdb:630/1/2_colorectal-cancer:stage-I/II-(SI/II)_vs_healthy-control-(normal-and-a-few-polyps)_DOWN	NA	Bifidobacterium	Lachnospira
+bsdb:630/2/1_colorectal-cancer:stage-III/IV-(SIII/IV)_vs_healthy-control-(normal-and-a-few-polyps)_UP	NA	Collinsella	Lancefieldella	Schaalia	Solobacterium	Porphyromonas	Fusobacterium	Selenomonas	Streptococcus	Fructilactobacillus	Parvimonas	Dorea	Peptostreptococcus	Bilophila	Oleidesulfovibrio
+bsdb:630/2/2_colorectal-cancer:stage-III/IV-(SIII/IV)_vs_healthy-control-(normal-and-a-few-polyps)_DOWN	NA	Lachnospira
+bsdb:630/3/1_colorectal-cancer:S0_vs_healthy-control-(normal-and-a-few-polyps)_UP	NA	Lancefieldella	Collinsella	Porphyromonas	Fusobacterium	Actinomyces	Schaalia	Solobacterium	Phascolarctobacterium	Fructilactobacillus	Parvimonas	Peptostreptococcus	Desulfovibrio
+bsdb:630/3/2_colorectal-cancer:S0_vs_healthy-control-(normal-and-a-few-polyps)_DOWN	NA	Bifidobacterium	Lachnospira
+bsdb:630/4/1_colorectal-cancer:MP_vs_healthy-control-(normal-and-a-few-polyps)_UP	NA	Lancefieldella	Fusobacterium	Schaalia	Phascolarctobacterium	Selenomonas	Oleidesulfovibrio
+bsdb:630/4/2_colorectal-cancer:MP_vs_healthy-control-(normal-and-a-few-polyps)_DOWN	NA	Bifidobacterium	Lachnospira

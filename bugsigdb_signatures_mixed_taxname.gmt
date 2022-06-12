@@ -1,4 +1,4 @@
-# BugSigDB 2022-06-05, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2022-06-12, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_adenoma:conventional-adenoma-cases_vs_controls_UP	NA	Bacilli	Gammaproteobacteria	Actinomyces	Corynebacterium	Streptococcus	Peptoniphilus	Dorea	Phascolarctobacterium	Sutterella	Actinomycetales	Actinomycetaceae	Alcaligenaceae	Lactobacillales	Streptococcaceae	Veillonellaceae	Enterobacterales	Corynebacteriaceae	Lacticaseibacillus zeae	Bacillus	Bacillaceae
 bsdb:1/1/2_adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	Coprobacillus	Cyanobacteria
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	Anaerostipes	Lacticaseibacillus zeae
@@ -2262,6 +2262,10 @@ bsdb:607/1/2_Parkinson's-disease:Participants-with-typical-PD_vs_Healthy-control
 bsdb:607/2/1_Parkinson's-disease:Participants-with-typical-PD_vs_Healthy-controls_UP	NA	Christensenella	Anaerotruncus	Lactobacillus	Bilophila	Akkermansia	Streptococcus
 bsdb:607/2/2_Parkinson's-disease:Participants-with-typical-PD_vs_Healthy-controls_DOWN	NA	Turicibacter
 bsdb:607/3/1_Parkinson's-disease:Male-patients-with-PD_vs_Female-patients-with-PD_UP	NA	Paraprevotella
+bsdb:608/1/1_healthy:healthy-child-oral-50%-up_vs_none_NA	NA	Streptococcus	Rothia	Veillonella	Prevotella	Gemella	Neisseria	Haemophilus
+bsdb:608/1/2_healthy:healthy-child-oral-50%-up_vs_none_NA	NA	Streptococcus mitis	Rothia mucilaginosa	Streptococcus parasanguinis	Streptococcus oralis	Prevotella melaninogenica	Gemella haemolysans	Streptococcus infantis	Gemella sanguinis	Neisseria flavescens	Streptococcus salivarius	Veillonella dispar
+bsdb:608/2/1_healthy:healthy-child-stool-50%-up_vs_none_NA	NA	Streptococcus	Bifidobacterium	Escherichia	Veillonella	Bacteroides	Calvatia complutensis	Enterococcus	Clostridium	Mediterraneibacter
+bsdb:608/2/2_healthy:healthy-child-stool-50%-up_vs_none_NA	NA	Bifidobacterium longum	Streptococcus salivarius	Escherichia coli	Streptococcus parasanguinis
 bsdb:609/1/1_colorectal-cancer:CRC_vs_Healthy-Controls-(HC)_UP	NA	Akkermansia	Alphaproteobacteria	Anaerostipes	Bacilli	Bacteroidales	Bacteroidetes	Bacteroidia	Corynebacteriaceae	Corynebacterium	Eggerthella	Enterobacterales	Enterobacteriaceae	Enterococcaceae	Enterococcus	Escherichia/Shigella sp.	Lactobacillales	Lactobacillus	Megasphaera	Parabacteroides	Parasutterella	Parvimonas	Peptostreptococcus	Porphyromonas	Selenomonas	Sutterella	Verrucomicrobia	Verrucomicrobiaceae	Verrucomicrobiae	Verrucomicrobiales
 bsdb:609/1/2_colorectal-cancer:CRC_vs_Healthy-Controls-(HC)_DOWN	NA	Anaerofilum	Asaccharobacter	Blautia	Butyricicoccus	Clostridia	Clostridiales bacterium	Collinsella	Faecalibacterium	Firmicutes	Fusicatenibacter	Fusobacteria	Fusobacteriaceae	Fusobacteriales	Fusobacteriia	Fusobacterium	Gemmiger	Lachnospiraceae	Romboutsia	Roseburia	Tyzzerella
 bsdb:612/1/1_colorectal-cancer:CRC-cases_vs_control-subjects_DOWN	NA	Clostridia	Coprococcus	Lachnospiraceae
@@ -2291,3 +2295,18 @@ bsdb:624/1/1_colorectal-cancer:Patients-with-CRC_vs_Healthy-Individuals_UP	NA	Pa
 bsdb:624/2/1_colorectal-cancer:Patients-with-early-CRC_vs_Healthy-Individuals_UP	NA	Fusobacterium nucleatum	Gemella morbillorum	Peptostreptococcus stomatis
 bsdb:624/3/1_colorectal-cancer:Patients-with-advanced-CRC_vs_Healthy-Individuals_UP	NA	Peptostreptococcus anaerobius	Prevotella intermedia	Parvimonas micra	Porphyromonas gingivalis	Peptostreptococcus stomatis	Alloprevotella tannerae	Porphyromonas asaccharolytica	Solobacterium moorei	Gemella morbillorum	Dialister pneumosintes	Fusobacterium nucleatum
 bsdb:624/4/1_colorectal-cancer:After-resection_vs_Before-resection_DOWN	NA	Parvimonas micra	Prevotella intermedia	Peptostreptococcus stomatis	Porphyromonas asaccharolytica	Solobacterium moorei	Gemella morbillorum	Peptostreptococcus anaerobius	Porphyromonas gingivalis	Alloprevotella tannerae	Dialister pneumosintes	Fusobacterium nucleatum
+bsdb:625/1/1_healthy.:High-SES_vs_Low-SES_UP	NA	Anaerostipes	Eubacterium	Faecalibacterium	Lachnospiraceae
+bsdb:625/1/2_healthy.:High-SES_vs_Low-SES_DOWN	NA	Bacteroides
+bsdb:626/1/1_healthy:East-Asian-(EA)_vs_White-(W)_UP	NA	Actinobacteria	Bacteroidetes	Firmicutes	Proteobacteria	Fusobacteria
+bsdb:626/1/2_healthy:East-Asian-(EA)_vs_White-(W)_DOWN	NA	Verrucomicrobia
+bsdb:627/1/1_healthy:lower-SES-(income<£25,000)_vs_Higher-SES-(income->-£25,000)_UP	NA	Clostridiales bacterium	Bacteroidales
+bsdb:627/1/2_healthy:lower-SES-(income<£25,000)_vs_Higher-SES-(income->-£25,000)_DOWN	NA	Verrucomicrobiales	Rikenellaceae
+bsdb:629/1/1_Colorectal-cancer,Colorectal-carcinoma,rectal-carcinoma:Adjacent-Non-Tumor-Tissue-of-Colorectal-Cancer-Cases_vs_Tumor-Tissue-of-Colorectal-Cancer-Cases_UP	NA	Fusobacterium nucleatum
+bsdb:630/1/1_colorectal-cancer:stage-I/II-(SI/II)_vs_healthy-control-(normal-and-a-few-polyps)_UP	NA	Collinsella aerofaciens	Fusobacterium nucleatum	Gemella morbillorum	Lancefieldella parvula	Parvimonas micra	Peptostreptococcus anaerobius	Peptostreptococcus stomatis	Porphyromonas uenonis	Schaalia odontolytica	Solobacterium moorei
+bsdb:630/1/2_colorectal-cancer:stage-I/II-(SI/II)_vs_healthy-control-(normal-and-a-few-polyps)_DOWN	NA	Bifidobacterium longum subsp. longum	Lachnospira eligens	Lachnospira multipara
+bsdb:630/2/1_colorectal-cancer:stage-III/IV-(SIII/IV)_vs_healthy-control-(normal-and-a-few-polyps)_UP	NA	Collinsella aerofaciens	Lancefieldella parvula	Schaalia odontolytica	Solobacterium moorei	Porphyromonas uenonis	Fusobacterium nucleatum	Selenomonas sputigena	Gemella morbillorum	Streptococcus anginosus	Fructilactobacillus sanfranciscensis	Parvimonas micra	Dorea longicatena	Peptostreptococcus anaerobius	Peptostreptococcus stomatis	Bilophila wadsworthia	Oleidesulfovibrio vietnamensis
+bsdb:630/2/2_colorectal-cancer:stage-III/IV-(SIII/IV)_vs_healthy-control-(normal-and-a-few-polyps)_DOWN	NA	Lachnospira eligens	Lachnospira multipara
+bsdb:630/3/1_colorectal-cancer:S0_vs_healthy-control-(normal-and-a-few-polyps)_UP	NA	Lancefieldella parvula	Collinsella aerofaciens	Porphyromonas uenonis	Fusobacterium nucleatum	Actinomyces viscosus	Schaalia odontolytica	Solobacterium moorei	Phascolarctobacterium succinatutens	Gemella morbillorum	Fructilactobacillus sanfranciscensis	Parvimonas micra	Peptostreptococcus stomatis	Desulfovibrio longreachensis
+bsdb:630/3/2_colorectal-cancer:S0_vs_healthy-control-(normal-and-a-few-polyps)_DOWN	NA	Bifidobacterium longum subsp. longum	Lachnospira multipara	Lachnospira eligens
+bsdb:630/4/1_colorectal-cancer:MP_vs_healthy-control-(normal-and-a-few-polyps)_UP	NA	Lancefieldella parvula	Fusobacterium nucleatum	Schaalia odontolytica	Phascolarctobacterium succinatutens	Selenomonas sputigena	Oleidesulfovibrio vietnamensis
+bsdb:630/4/2_colorectal-cancer:MP_vs_healthy-control-(normal-and-a-few-polyps)_DOWN	NA	Bifidobacterium longum subsp. longum	Lachnospira multipara	Lachnospira eligens
