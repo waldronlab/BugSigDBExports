@@ -1,4 +1,4 @@
-# BugSigDB 2022-06-12, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2022-06-19, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_adenoma:conventional-adenoma-cases_vs_controls_UP	NA	Bacilli	Gammaproteobacteria	Actinomyces	Corynebacterium	Streptococcus	Peptoniphilus	Dorea	Phascolarctobacterium	Sutterella	Actinomycetales	Actinomycetaceae	Alcaligenaceae	Lactobacillales	Streptococcaceae	Veillonellaceae	Enterobacterales	Corynebacteriaceae	Lacticaseibacillus zeae	Bacillus	Bacillaceae
 bsdb:1/1/2_adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	Coprobacillus	Cyanobacteria
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	Anaerostipes	Lacticaseibacillus zeae
@@ -1442,8 +1442,8 @@ bsdb:362/1/2_obesity:obese_vs_normal-weight-children_DOWN	NA	Bacteroidaceae	Porp
 bsdb:363/1/1_smoking-behavior:current-smokers_vs_never-smokers_UP	NA	Rothia	Streptococcus	Atopobium	Megasphaera	Corynebacterium	Paludibacter	Anaerovorax	Tannerella	Filifactor	Mycoplasma
 bsdb:363/1/2_smoking-behavior:current-smokers_vs_never-smokers_DOWN	NA	Peptococcus	Capnocytophaga	Neisseria	Cardiobacterium	Lautropia	Peptostreptococcus	Catonella	Fusobacterium	Alloprevotella	Porphyromonas	Lachnoanaerobaculum	Leptotrichia	Oribacterium	Eubacterium	Campylobacter	Solobacterium	Haemophilus	Stomatobaculum	Gemella
 bsdb:364/1/1_smoking-behavior:smoker_vs_non-smoker_UP	NA	Actinomyces	Veillonella	Streptococcus australis	Prevotella salivae	Prevotella melaninogenica	Rothia mucilaginosa	Veillonella atypica
-bsdb:365/1/1_diet:mice-exposed-to-American-Diet_vs_mice-fed-control-rodent-diet._UP	NA	Oscillospira	Coprococcus	Ruminococcus
-bsdb:365/1/2_diet:mice-exposed-to-American-Diet_vs_mice-fed-control-rodent-diet._DOWN	NA	Ruminococcus	Prevotella	Bacteroides
+bsdb:365/1/1_Methionine-measurement:mice-fed-American-Diet_vs_mice-fed-control-rodent-diet._UP	NA	Coprococcus	Oscillospira	Ruminococcus	Prevotellaceae	Clostridiales Family XVII. Incertae Sedis	Bacillaceae	Bacillus	Lactococcus
+bsdb:365/1/2_Methionine-measurement:mice-fed-American-Diet_vs_mice-fed-control-rodent-diet._DOWN	NA	Erysipelotrichaceae	Eubacterium sp.	Clostridiaceae	Clostridium	Prevotella
 bsdb:366/1/1_non-alcoholic-fatty-liver-disease:nonalcoholic-fatty-liver-disease_vs_healthy-controls_UP	NA	Kiloniellaceae	Pasteurellaceae	Lactobacillaceae	Veillonellaceae	Lactobacillus	Robinsoniella	Roseburia	Dorea
 bsdb:366/1/2_non-alcoholic-fatty-liver-disease:nonalcoholic-fatty-liver-disease_vs_healthy-controls_DOWN	NA	Oscillospiraceae	Porphyromonadaceae	Oscillibacter
 bsdb:367/1/1_obesity:obese_vs_normal-weight_UP	NA	Faecalibacterium sp.	Blautia sp.	Lachnospiraceae	Coprococcus sp.	Enterobacteriaceae	Roseburia sp.
@@ -2310,3 +2310,13 @@ bsdb:630/3/1_colorectal-cancer:S0_vs_healthy-control-(normal-and-a-few-polyps)_U
 bsdb:630/3/2_colorectal-cancer:S0_vs_healthy-control-(normal-and-a-few-polyps)_DOWN	NA	Bifidobacterium longum subsp. longum	Lachnospira multipara	Lachnospira eligens
 bsdb:630/4/1_colorectal-cancer:MP_vs_healthy-control-(normal-and-a-few-polyps)_UP	NA	Lancefieldella parvula	Fusobacterium nucleatum	Schaalia odontolytica	Phascolarctobacterium succinatutens	Selenomonas sputigena	Oleidesulfovibrio vietnamensis
 bsdb:630/4/2_colorectal-cancer:MP_vs_healthy-control-(normal-and-a-few-polyps)_DOWN	NA	Bifidobacterium longum subsp. longum	Lachnospira multipara	Lachnospira eligens
+bsdb:631/1/1_Colorectal-adenoma,Colorectal-cancer:Advanced-Colorectal-Adenoma_vs_Healthy-Controls_UP	NA	Paraprevotella clara	Phocaeicola dorei	Phocaeicola massiliensis
+bsdb:631/1/2_Colorectal-adenoma,Colorectal-cancer:Advanced-Colorectal-Adenoma_vs_Healthy-Controls_DOWN	NA	Bifidobacterium animalis	Streptococcus mutans
+bsdb:631/2/1_Colorectal-adenoma,Colorectal-cancer:Colorectal-Cancer_vs_Healthy-Controls_DOWN	NA	Actinomyces viscosus	Clostridium sp.	Streptococcus mutans	Streptococcus thermophilus	Bifidobacterium animalis
+bsdb:631/2/2_Colorectal-adenoma,Colorectal-cancer:Colorectal-Cancer_vs_Healthy-Controls_UP	NA	Phocaeicola dorei	Bacteroides sp.	Bacteroides eggerthii	Parabacteroides merdae	Phocaeicola massiliensis	Parabacteroides distasonis	Bacteroides xylanisolvens	Phocaeicola vulgatus	Alistipes putredinis	Odoribacter splanchnicus	Bilophila wadsworthia	Lachnospiraceae bacterium	[Clostridium] symbiosum	Alistipes finegoldii	Bacteroides caccae	Paraprevotella clara	Burkholderiales bacterium	Sutterella wadsworthensis	Escherichia coli	Acidaminococcus intestini	Veillonella atypica
+bsdb:631/3/1_Colorectal-adenoma,Colorectal-cancer:Colorectal-Cancer_vs_Advanced-Colorectal-Adenoma_DOWN	NA	Clostridium sp.	Streptococcus thermophilus	Bifidobacterium animalis	Actinomyces viscosus
+bsdb:631/3/2_Colorectal-adenoma,Colorectal-cancer:Colorectal-Cancer_vs_Advanced-Colorectal-Adenoma_UP	NA	Bacteroides xylanisolvens	Phocaeicola massiliensis	Parabacteroides distasonis	Bacteroides ovatus	Bacteroides sp.	Odoribacter splanchnicus	Bilophila wadsworthia	Parabacteroides merdae	Alistipes putredinis	Burkholderiales bacterium	Lachnospiraceae bacterium	[Clostridium] symbiosum	Acidaminococcus intestini	Escherichia coli	Alistipes finegoldii	Bacteroides caccae	Bacteroides eggerthii	Sutterella wadsworthensis	Veillonella atypica
+bsdb:632/1/1_healthy:298_vs_NA_UP	NA	Akkermansia	Bifidobacterium	Lactobacillus	Megasphaera
+bsdb:632/1/2_healthy:298_vs_NA_DOWN	NA	Coprococcus	Oscillospira	Parabacteroides	Prevotella	Staphylococcus	Streptococcus
+bsdb:632/2/1_healthy:298_vs_NA_UP	NA	Akkermansia	Bifidobacterium	Coprococcus	Faecalibacterium	Prevotella	Staphylococcus	Veillonella
+bsdb:632/2/2_healthy:298_vs_NA_DOWN	NA	Bacteroides	Ruminococcus	Streptococcus

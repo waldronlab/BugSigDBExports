@@ -1,4 +1,4 @@
-# BugSigDB 2022-06-12, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2022-06-19, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_adenoma:conventional-adenoma-cases_vs_controls_UP	NA	Actinomyces	Corynebacterium	Streptococcus	Peptoniphilus	Dorea	Phascolarctobacterium	Sutterella	Lacticaseibacillus	Bacillus
 bsdb:1/1/2_adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	Coprobacillus
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	Anaerostipes	Lacticaseibacillus
@@ -1250,8 +1250,8 @@ bsdb:361/4/2_air-pollution:mice-exposed-to-smoke_vs_control_DOWN	NA	Alistipes
 bsdb:363/1/1_smoking-behavior:current-smokers_vs_never-smokers_UP	NA	Rothia	Streptococcus	Atopobium	Megasphaera	Corynebacterium	Paludibacter	Anaerovorax	Tannerella	Filifactor	Mycoplasma
 bsdb:363/1/2_smoking-behavior:current-smokers_vs_never-smokers_DOWN	NA	Peptococcus	Capnocytophaga	Neisseria	Cardiobacterium	Lautropia	Peptostreptococcus	Catonella	Fusobacterium	Alloprevotella	Porphyromonas	Lachnoanaerobaculum	Leptotrichia	Oribacterium	Eubacterium	Campylobacter	Solobacterium	Haemophilus	Stomatobaculum	Gemella
 bsdb:364/1/1_smoking-behavior:smoker_vs_non-smoker_UP	NA	Actinomyces	Veillonella	Streptococcus	Prevotella	Rothia
-bsdb:365/1/1_diet:mice-exposed-to-American-Diet_vs_mice-fed-control-rodent-diet._UP	NA	Oscillospira	Coprococcus	Ruminococcus
-bsdb:365/1/2_diet:mice-exposed-to-American-Diet_vs_mice-fed-control-rodent-diet._DOWN	NA	Ruminococcus	Prevotella	Bacteroides
+bsdb:365/1/1_Methionine-measurement:mice-fed-American-Diet_vs_mice-fed-control-rodent-diet._UP	NA	Coprococcus	Oscillospira	Ruminococcus	Bacillus	Lactococcus
+bsdb:365/1/2_Methionine-measurement:mice-fed-American-Diet_vs_mice-fed-control-rodent-diet._DOWN	NA	Eubacterium	Clostridium	Prevotella
 bsdb:366/1/1_non-alcoholic-fatty-liver-disease:nonalcoholic-fatty-liver-disease_vs_healthy-controls_UP	NA	Lactobacillus	Robinsoniella	Roseburia	Dorea
 bsdb:366/1/2_non-alcoholic-fatty-liver-disease:nonalcoholic-fatty-liver-disease_vs_healthy-controls_DOWN	NA	Oscillibacter
 bsdb:367/1/1_obesity:obese_vs_normal-weight_UP	NA	Faecalibacterium	Blautia	Coprococcus	Roseburia
@@ -1951,3 +1951,13 @@ bsdb:630/3/1_colorectal-cancer:S0_vs_healthy-control-(normal-and-a-few-polyps)_U
 bsdb:630/3/2_colorectal-cancer:S0_vs_healthy-control-(normal-and-a-few-polyps)_DOWN	NA	Bifidobacterium	Lachnospira
 bsdb:630/4/1_colorectal-cancer:MP_vs_healthy-control-(normal-and-a-few-polyps)_UP	NA	Lancefieldella	Fusobacterium	Schaalia	Phascolarctobacterium	Selenomonas	Oleidesulfovibrio
 bsdb:630/4/2_colorectal-cancer:MP_vs_healthy-control-(normal-and-a-few-polyps)_DOWN	NA	Bifidobacterium	Lachnospira
+bsdb:631/1/1_Colorectal-adenoma,Colorectal-cancer:Advanced-Colorectal-Adenoma_vs_Healthy-Controls_UP	NA	Paraprevotella	Phocaeicola
+bsdb:631/1/2_Colorectal-adenoma,Colorectal-cancer:Advanced-Colorectal-Adenoma_vs_Healthy-Controls_DOWN	NA	Bifidobacterium	Streptococcus
+bsdb:631/2/1_Colorectal-adenoma,Colorectal-cancer:Colorectal-Cancer_vs_Healthy-Controls_DOWN	NA	Actinomyces	Clostridium	Streptococcus	Bifidobacterium
+bsdb:631/2/2_Colorectal-adenoma,Colorectal-cancer:Colorectal-Cancer_vs_Healthy-Controls_UP	NA	Phocaeicola	Bacteroides	Parabacteroides	Alistipes	Odoribacter	Bilophila	Lachnoclostridium	Paraprevotella	Sutterella	Escherichia	Acidaminococcus	Veillonella
+bsdb:631/3/1_Colorectal-adenoma,Colorectal-cancer:Colorectal-Cancer_vs_Advanced-Colorectal-Adenoma_DOWN	NA	Clostridium	Streptococcus	Bifidobacterium	Actinomyces
+bsdb:631/3/2_Colorectal-adenoma,Colorectal-cancer:Colorectal-Cancer_vs_Advanced-Colorectal-Adenoma_UP	NA	Bacteroides	Phocaeicola	Parabacteroides	Odoribacter	Bilophila	Alistipes	Lachnoclostridium	Acidaminococcus	Escherichia	Sutterella	Veillonella
+bsdb:632/1/1_healthy:298_vs_NA_UP	NA	Akkermansia	Bifidobacterium	Lactobacillus	Megasphaera
+bsdb:632/1/2_healthy:298_vs_NA_DOWN	NA	Coprococcus	Oscillospira	Parabacteroides	Prevotella	Staphylococcus	Streptococcus
+bsdb:632/2/1_healthy:298_vs_NA_UP	NA	Akkermansia	Bifidobacterium	Coprococcus	Faecalibacterium	Prevotella	Staphylococcus	Veillonella
+bsdb:632/2/2_healthy:298_vs_NA_DOWN	NA	Bacteroides	Ruminococcus	Streptococcus

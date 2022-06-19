@@ -1,4 +1,4 @@
-# BugSigDB 2022-06-12, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2022-06-19, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_adenoma:conventional-adenoma-cases_vs_controls_UP	NA	91061	1236	1654	1716	1301	162289	189330	33024	40544	2037	2049	506	186826	1300	31977	91347	1653	57037	1386	186817
 bsdb:1/1/2_adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	100883	1117
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	207244	57037
@@ -1442,8 +1442,8 @@ bsdb:362/1/2_obesity:obese_vs_normal-weight-children_DOWN	NA	815	171551	171552
 bsdb:363/1/1_smoking-behavior:current-smokers_vs_never-smokers_UP	NA	32207	1301	1380	906	1716	346096	109326	195950	44259	2093
 bsdb:363/1/2_smoking-behavior:current-smokers_vs_never-smokers_DOWN	NA	2740	1016	482	2717	47670	1257	43996	848	1283313	836	1164882	32067	265975	1730	194	123375	724	1213720	1378
 bsdb:364/1/1_smoking-behavior:smoker_vs_non-smoker_UP	NA	1654	29465	113107	228604	28132	43675	39777
-bsdb:365/1/1_diet:mice-exposed-to-American-Diet_vs_mice-fed-control-rodent-diet._UP	NA	119852	33042	1263
-bsdb:365/1/2_diet:mice-exposed-to-American-Diet_vs_mice-fed-control-rodent-diet._DOWN	NA	1263	838	816
+bsdb:365/1/1_Methionine-measurement:mice-fed-American-Diet_vs_mice-fed-control-rodent-diet._UP	NA	33042	119852	1263	171552	539000	186817	1386	1357
+bsdb:365/1/2_Methionine-measurement:mice-fed-American-Diet_vs_mice-fed-control-rodent-diet._DOWN	NA	128827	142586	31979	1485	838
 bsdb:366/1/1_non-alcoholic-fatty-liver-disease:nonalcoholic-fatty-liver-disease_vs_healthy-controls_UP	NA	597359	712	33958	31977	1578	588605	841	189330
 bsdb:366/1/2_non-alcoholic-fatty-liver-disease:nonalcoholic-fatty-liver-disease_vs_healthy-controls_DOWN	NA	541000	171551	459786
 bsdb:367/1/1_obesity:obese_vs_normal-weight_UP	NA	1971605	1955243	186803	2049024	543	2049040
@@ -2310,3 +2310,13 @@ bsdb:630/3/1_colorectal-cancer:S0_vs_healthy-control-(normal-and-a-few-polyps)_U
 bsdb:630/3/2_colorectal-cancer:S0_vs_healthy-control-(normal-and-a-few-polyps)_DOWN	NA	1679	28051	39485
 bsdb:630/4/1_colorectal-cancer:MP_vs_healthy-control-(normal-and-a-few-polyps)_UP	NA	1382	851	1660	626940	69823	201571
 bsdb:630/4/2_colorectal-cancer:MP_vs_healthy-control-(normal-and-a-few-polyps)_DOWN	NA	1679	28051	39485
+bsdb:631/1/1_Colorectal-adenoma,Colorectal-cancer:Advanced-Colorectal-Adenoma_vs_Healthy-Controls_UP	NA	454154	357276	204516
+bsdb:631/1/2_Colorectal-adenoma,Colorectal-cancer:Advanced-Colorectal-Adenoma_vs_Healthy-Controls_DOWN	NA	28025	1309
+bsdb:631/2/1_Colorectal-adenoma,Colorectal-cancer:Colorectal-Cancer_vs_Healthy-Controls_DOWN	NA	1656	1506	1309	1308	28025
+bsdb:631/2/2_Colorectal-adenoma,Colorectal-cancer:Colorectal-Cancer_vs_Healthy-Controls_UP	NA	357276	29523	28111	46503	204516	823	371601	821	28117	28118	35833	1898203	1512	214856	47678	454154	1891238	40545	562	187327	39777
+bsdb:631/3/1_Colorectal-adenoma,Colorectal-cancer:Colorectal-Cancer_vs_Advanced-Colorectal-Adenoma_DOWN	NA	1506	1308	28025	1656
+bsdb:631/3/2_Colorectal-adenoma,Colorectal-cancer:Colorectal-Cancer_vs_Advanced-Colorectal-Adenoma_UP	NA	371601	204516	823	28116	29523	28118	35833	46503	28117	1891238	1898203	1512	187327	562	214856	47678	28111	40545	39777
+bsdb:632/1/1_healthy:298_vs_NA_UP	NA	239934	1678	1578	906
+bsdb:632/1/2_healthy:298_vs_NA_DOWN	NA	33042	119852	375288	838	1279	1301
+bsdb:632/2/1_healthy:298_vs_NA_UP	NA	239934	1678	33042	216851	838	1279	29465
+bsdb:632/2/2_healthy:298_vs_NA_DOWN	NA	816	1263	1301
