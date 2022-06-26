@@ -1,4 +1,4 @@
-# BugSigDB 2022-06-19, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2022-06-26, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_adenoma:conventional-adenoma-cases_vs_controls_UP	NA	57037
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	57037
 bsdb:1/6/1_adenoma:Non-advanced-conventional-adenoma-cases_vs_controls_UP	NA	57037
@@ -253,8 +253,8 @@ bsdb:217/1/1_Eczema:child-with-eczema_vs_healthy-control_UP	NA	40518	29361	46228
 bsdb:217/1/2_Eczema:child-with-eczema_vs_healthy-control_DOWN	NA	817	28116	310297	46506	820	821	76122
 bsdb:217/3/1_age:infant-at-18-months_vs_infant-at-6-months_UP	NA	40518	33025	45851	1512	140626	100884	40545
 bsdb:217/3/2_age:infant-at-18-months_vs_infant-at-6-months_DOWN	NA	1590
-bsdb:218/1/2_hepatocellular-carcinoma:non-HBV-non-HCV-related-HCC_vs_healthy-control_DOWN	NA	39496
-bsdb:218/3/1_hepatocellular-carcinoma:non-HBV-non-HCV_vs_HBV-related-HCC_UP	NA	39496
+bsdb:218/1/2_hepatocellular-carcinoma:non-HBV-non-HCV-related-HCC_vs_healthy-controls_DOWN	NA	39496
+bsdb:218/3/1_hepatocellular-carcinoma:non-HBV-non-HCV-patients_vs_HBV-related-HCC-patients_DOWN	NA	39496
 bsdb:219/1/1_diet:lower-fiber-(cracker)_vs_higher-fiber-(almonds)---interaction-by-time_UP	NA	817
 bsdb:221/1/1_urinary-tract-infection:urinary-tract-infection_vs_healthy-controls_UP	NA	1468449	86664	333367	44009	536633
 bsdb:221/1/2_urinary-tract-infection:urinary-tract-infection_vs_healthy-controls_DOWN	NA	1559	1260	729	386414	373040	1537
@@ -468,8 +468,8 @@ bsdb:346/2/1_unipolar-depression:moderate-depression_vs_mild-depression_UP	NA	13
 bsdb:346/3/1_anxiety-disorder:severe-anxiety_vs_mild-anxiety_UP	NA	1328
 bsdb:346/3/2_anxiety-disorder:severe-anxiety_vs_mild-anxiety_DOWN	NA	28117	1680	360807	301301	39496	116085
 bsdb:346/4/1_anxiety-disorder:moderate-anxiety_vs_mild-anxiety_UP	NA	1358
-bsdb:347/1/1_obesity:obese_vs_control_UP	NA	310297	487175	823	35833	1512	437897	209880	363265	847
-bsdb:347/1/2_obesity:obese_vs_control_DOWN	NA	239935	671218	105841	817	28116	818	89014	418240	1547	853	471189	102148	76860	1304	1535	1549	143393	645466	44008	341220
+bsdb:347/1/1_obesity:obese-children_vs_controls_UP	NA	209880	35833	437897	847	823	487175	310297	363265	1512
+bsdb:347/1/2_obesity:obese-children_vs_controls_DOWN	NA	239935	671218	645466	105841	817	28116	818	89014	418240	44008	1547	853	471189	341220	102148	76860	1304	1535	1549	143393
 bsdb:348/1/1_obesity:obese_vs_lean_UP	NA	817	1591
 bsdb:348/1/2_obesity:obese_vs_lean_DOWN	NA	41200
 bsdb:348/2/1_obesity:overweight_vs_lean_UP	NA	817	1591
@@ -597,7 +597,7 @@ bsdb:455/3/2_gingivitis:pregnant-women-with-gingivitis_vs_pregnant-women-without
 bsdb:455/4/1_pregnancy:pregnant-women_vs_non-pregnant-women_UP	NA	55565	1872471	76122	45243	651822	2699746	860	157692	157691	104608	187326	56142	837	305719	52227	28129	28132	189723	59823	230143	2053611	69823	28112	158	166	29466	1926307	51123
 bsdb:455/4/2_pregnancy:pregnant-women_vs_non-pregnant-women_DOWN	NA	712187	29391	740	267212	172042	1306	217202
 bsdb:456/1/2_type-II-diabetes-mellitus:Individuals-diagnosed-with-Type-2-Diabetes-Mellitus_vs_Healthy-controls_UP	NA	1940338
-bsdb:457/1/1_periodontitis:Individuals-diagnosed-with-Periodontitis_vs_Healthy-controls_UP	NA	28124	837	165179	28133	28112	58231
+bsdb:457/1/1_periodontitis:Individuals-diagnosed-with-Periodontitis_vs_Healthy-controls_UP	NA	28124	165179	58231	671218	59892	853
 bsdb:457/2/1_periodontitis:Individuals-diagnosed-with-Periodontitis-and-Type-2-Diabetes-Mellitus-(DAP)_vs_Healthy-controls_UP	NA	671218	165179	329	234908
 bsdb:457/4/1_periodontitis:Individuals-diagnosed-with-both-Periodontitis-and-Type-2-Diabetes-and-treated-with-metformin-(Met-group)_vs_Healthy-controls_UP	NA	33033	341694	28129	1177574	60133	228604	102148	59892	58231
 bsdb:457/5/1_periodontitis:Individuals-diagnosed-with-both-Periodontitis-and-Type-2-Diabetes-and-treated-with-metformin-(Met-group)_vs_Individuals-diagnosed-with-Periodontitis-and-Type-2-Diabetes-Mellitus-(DAP)_DOWN	NA	671218	28101	165179	329	234908
@@ -765,8 +765,9 @@ bsdb:562/8/2_healthy:healthy-adult-skin-70%-up_vs_none_NA	NA	1747	1282	76775	293
 bsdb:562/9/2_NA:feces-from-healthy-adult_vs_none---70%-prevalence-threshold_NA	NA	853	1150298	820	39491	418240	649756	1628085	88431	39488	39486	74426	821	40520	360807	823	745368	410072	1550024	301301	39485	33039	301302	28116	28118	28117	116085	1262992	1304	216816	818	214856	39490	1897011	328814	166486	292800
 bsdb:562/10/1_NA:feces-from-healthy-adult_vs_none---0%-prevalence-threshold_NA	NA	94406	282472	283377	11320	96462	712363
 bsdb:564/1/1_antimicrobial-agent:IAP-group-(@7-days)_vs_Control-group-(@7-days)_DOWN	NA	41200
-bsdb:566/1/2_NA:HLAB27+_vs_HLAB27-_UP	NA	1506
-bsdb:566/2/2_NA:HLAB27+_vs_HLAB27-_UP	NA	1506
+bsdb:566/1/2_juvenile-idiopathic-arthritis:HLAB27+_vs_HLAB27-_UP	NA	1506
+bsdb:566/2/2_juvenile-idiopathic-arthritis:JIA-patients-in-remission_vs_JIA-patients-with-active-disease_UP	NA	1506
+bsdb:566/3/1_juvenile-idiopathic-arthritis:JIA-ERA-patients_vs_Healthy-subjects_UP	NA	1506
 bsdb:569/1/1_colorectal-cancer:colorectal-cancer-patients_vs_healthy-controls_UP	NA	851
 bsdb:569/1/2_colorectal-cancer:colorectal-cancer-patients_vs_healthy-controls_DOWN	NA	1591	41200	1506
 bsdb:571/2/2_osteoarthritis,-knee:Knee-osteroarthritis-with-vit-D-deficiency_vs_Vitamin-D-deficiency_UP	NA	1898207
@@ -807,9 +808,21 @@ bsdb:630/3/1_colorectal-cancer:S0_vs_healthy-control-(normal-and-a-few-polyps)_U
 bsdb:630/3/2_colorectal-cancer:S0_vs_healthy-control-(normal-and-a-few-polyps)_DOWN	NA	1679	28051	39485
 bsdb:630/4/1_colorectal-cancer:MP_vs_healthy-control-(normal-and-a-few-polyps)_UP	NA	1382	851	1660	626940	69823	201571
 bsdb:630/4/2_colorectal-cancer:MP_vs_healthy-control-(normal-and-a-few-polyps)_DOWN	NA	1679	28051	39485
-bsdb:631/1/1_Colorectal-adenoma,Colorectal-cancer:Advanced-Colorectal-Adenoma_vs_Healthy-Controls_UP	NA	454154	357276	204516
-bsdb:631/1/2_Colorectal-adenoma,Colorectal-cancer:Advanced-Colorectal-Adenoma_vs_Healthy-Controls_DOWN	NA	28025	1309
-bsdb:631/2/1_Colorectal-adenoma,Colorectal-cancer:Colorectal-Cancer_vs_Healthy-Controls_DOWN	NA	1656	1506	1309	1308	28025
-bsdb:631/2/2_Colorectal-adenoma,Colorectal-cancer:Colorectal-Cancer_vs_Healthy-Controls_UP	NA	357276	29523	28111	46503	204516	823	371601	821	28117	28118	35833	1898203	1512	214856	47678	454154	1891238	40545	562	187327	39777
-bsdb:631/3/1_Colorectal-adenoma,Colorectal-cancer:Colorectal-Cancer_vs_Advanced-Colorectal-Adenoma_DOWN	NA	1506	1308	28025	1656
-bsdb:631/3/2_Colorectal-adenoma,Colorectal-cancer:Colorectal-Cancer_vs_Advanced-Colorectal-Adenoma_UP	NA	371601	204516	823	28116	29523	28118	35833	46503	28117	1891238	1898203	1512	187327	562	214856	47678	28111	40545	39777
+bsdb:631/1/1_Colorectal-adenoma:Advanced-Colorectal-Adenoma_vs_Healthy-Controls_UP	NA	454154	357276	204516
+bsdb:631/1/2_Colorectal-adenoma:Advanced-Colorectal-Adenoma_vs_Healthy-Controls_DOWN	NA	28025	1309
+bsdb:631/2/1_colorectal-cancer:Colorectal-Cancer_vs_Healthy-Controls_DOWN	NA	1656	1506	1309	1308	28025
+bsdb:631/2/2_colorectal-cancer:Colorectal-Cancer_vs_Healthy-Controls_UP	NA	357276	29523	28111	46503	204516	823	371601	821	28117	28118	35833	1898203	1512	214856	47678	454154	1891238	40545	562	187327	39777
+bsdb:631/3/1_colorectal-cancer:Colorectal-Cancer_vs_Advanced-Colorectal-Adenoma_DOWN	NA	1506	1308	28025	1656
+bsdb:631/3/2_colorectal-cancer:Colorectal-Cancer_vs_Advanced-Colorectal-Adenoma_UP	NA	371601	204516	823	28116	29523	28118	35833	46503	28117	1891238	1898203	1512	187327	562	214856	47678	28111	40545	39777
+bsdb:643/1/1_colorectal-cancer:yCRC_vs_yControl_UP	NA	292800
+bsdb:643/1/2_colorectal-cancer:yCRC_vs_yControl_DOWN	NA	39488	39496	39491
+bsdb:643/2/1_colorectal-cancer:oCRC_vs_oControls_DOWN	NA	1955243	1492	290054	39496	853	39485	301301	166486	1160721	1161942	39491
+bsdb:643/2/2_colorectal-cancer:oCRC_vs_oControls_UP	NA	84112	208479	29347	2086584	1946507
+bsdb:644/1/1_Colorectal-adenoma:colorectal-adenoma_vs_healthy-controls_UP	NA	562	1944660	1262	1966354	28131	1955243	1894999	820
+bsdb:644/1/2_Colorectal-adenoma:colorectal-adenoma_vs_healthy-controls_DOWN	NA	853	1955243	40520	29523	2049024	59823	820
+bsdb:644/2/1_colorectal-cancer:colorectal-cancer_vs_healthy-controls_UP	NA	817	68766	1944660	2049028	1262	76761	1966354	28131	59823	739	28116	28124	205
+bsdb:644/2/2_colorectal-cancer:colorectal-cancer_vs_healthy-controls_DOWN	NA	562	29523	853	1955243	76761
+bsdb:644/3/1_colorectal-cancer:colorectal-cancer_vs_colorectal-adenoma_UP	NA	1944660	68766	1262	29523	1966354	28131	817	188932	363265	1955243	1898207	59823	41978	1869337	28117	28116	28124
+bsdb:644/3/2_colorectal-cancer:colorectal-cancer_vs_colorectal-adenoma_DOWN	NA	562	76761	188932	396015	1894999
+bsdb:644/4/1_colorectal-cancer:colorectal-cancer_vs_carcinoma-adjacent_DOWN	NA	1955243	76761
+bsdb:644/4/2_colorectal-cancer:colorectal-cancer_vs_carcinoma-adjacent_UP	NA	68766

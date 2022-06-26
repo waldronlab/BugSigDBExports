@@ -1,4 +1,4 @@
-# BugSigDB 2022-06-19, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2022-06-26, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_adenoma:conventional-adenoma-cases_vs_controls_UP	NA	91061	1236	1654	1716	1301	162289	189330	33024	40544	2037	2049	506	186826	1300	31977	91347	1653	57037	1386	186817
 bsdb:1/1/2_adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	100883	1117
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	207244	57037
@@ -387,10 +387,10 @@ bsdb:107/1/1_anorexia-nervosa:anorexia_vs_healthy-controls_UP	NA	91061
 bsdb:107/1/2_anorexia-nervosa:anorexia_vs_healthy-controls_DOWN	NA	186801	186802	207244	216851
 bsdb:107/2/1_anorexia-nervosa:anorexia_vs_healthy-controls_UP	NA	375288
 bsdb:108/1/1_anorexia-nervosa:anorexia-nervosa-patients_vs_healthy-controls_DOWN	NA	817	1301	1590
-bsdb:109/1/1_anorexia-nervosa:anorexia-patients-before-weight-gain_vs_normal-weight-participants_UP	NA	201174	74201	1678	244127	207244
+bsdb:109/1/1_anorexia-nervosa:anorexia-patients-before-weight-gain_vs_normal-weight-participants_UP	NA	201174	207244	244127	1678	74201	1485
 bsdb:109/1/2_anorexia-nervosa:anorexia-patients-before-weight-gain_vs_normal-weight-participants_DOWN	NA	976	204475	841
-bsdb:109/2/1_anorexia-nervosa:anorexia-patients-after-weight-gain_vs_HC_UP	NA	1239	201174	207244	44748	1263	1678	1578	1017280	1357
-bsdb:109/2/2_anorexia-nervosa:anorexia-patients-after-weight-gain_vs_HC_DOWN	NA	74201	816
+bsdb:109/2/1_anorexia-nervosa:anorexia-patients-after-weight-gain_vs_HC_UP	NA	201174	207244	1678	1239	1578	1357	1017280	1263	44748	1485
+bsdb:109/2/2_anorexia-nervosa:anorexia-patients-after-weight-gain_vs_HC_DOWN	NA	816	976	1485
 bsdb:110/1/1_schizophrenia:schizophrenia_vs_healthy-controls_DOWN	NA	1678	562	1578
 bsdb:111/1/1_attention-deficit-hyperactivity-disorder:ADHD_vs_healthy-control_UP	NA	186804	40323	469	1473205	100883	990721	1573534	1505652	186807
 bsdb:111/1/2_attention-deficit-hyperactivity-disorder:ADHD_vs_healthy-control_DOWN	NA	506	1506553	39948
@@ -776,10 +776,10 @@ bsdb:217/2/1_age:infant-at-18-months_vs_infant-at-6-months_UP	NA	NA
 bsdb:217/2/2_age:infant-at-18-months_vs_infant-at-6-months_DOWN	NA	201174	91061
 bsdb:217/3/1_age:infant-at-18-months_vs_infant-at-6-months_UP	NA	40518	33025	45851	1512	140626	100884	848	583	40545	31969
 bsdb:217/3/2_age:infant-at-18-months_vs_infant-at-6-months_DOWN	NA	1678	1590
-bsdb:218/1/1_hepatocellular-carcinoma:non-HBV-non-HCV-related-HCC_vs_healthy-control_UP	NA	244127
-bsdb:218/1/2_hepatocellular-carcinoma:non-HBV-non-HCV-related-HCC_vs_healthy-control_DOWN	NA	158846	28050	39496	186803
-bsdb:218/2/1_hepatocellular-carcinoma:HBV-related-HCC_vs_healthy-control_UP	NA	838	541000	33024	244127
-bsdb:218/3/1_hepatocellular-carcinoma:non-HBV-non-HCV_vs_HBV-related-HCC_UP	NA	32199	28050	33024	39496	1283313
+bsdb:218/1/1_hepatocellular-carcinoma:non-HBV-non-HCV-related-HCC_vs_healthy-controls_UP	NA	244127
+bsdb:218/1/2_hepatocellular-carcinoma:non-HBV-non-HCV-related-HCC_vs_healthy-controls_DOWN	NA	39496	28050	186803	158846
+bsdb:218/2/1_hepatocellular-carcinoma:HBV-related-HCC-patients_vs_healthy-controls_UP	NA	244127	541000	33024	838
+bsdb:218/3/1_hepatocellular-carcinoma:non-HBV-non-HCV-patients_vs_HBV-related-HCC-patients_DOWN	NA	32199	39496	28050	33024
 bsdb:219/1/1_diet:lower-fiber-(cracker)_vs_higher-fiber-(almonds)---interaction-by-time_UP	NA	817
 bsdb:219/2/1_diet:week-8_vs_baseline_UP	NA	28050	31969
 bsdb:219/2/2_diet:week-8_vs_baseline_DOWN	NA	239759	574697	283168	2005473
@@ -1330,8 +1330,8 @@ bsdb:337/1/1_antimicrobial-agent:3-month-old-infants-either-exposed_vs_not-expos
 bsdb:337/2/1_antimicrobial-agent:3-month-old-infants-exposed_vs_not-exposed-to-antibiotics-during-the-second-trimester_DOWN	NA	239935	543	1301	816	712	29465	1660	137838	1279	227943
 bsdb:337/3/1_antimicrobial-agent:12-month-old-infants-either-exposed_vs_not-exposed-to-antibiotics-during-the-second-trimester_UP	NA	29465	186804	1485	186803
 bsdb:337/3/2_antimicrobial-agent:12-month-old-infants-either-exposed_vs_not-exposed-to-antibiotics-during-the-second-trimester_DOWN	NA	543	239934	816	239759	29465	423477	186804	572511	204475	1485	1506553
-bsdb:338/1/1_obesity:obese_vs_normal-weight_UP	NA	216851	33024	28050	158846	724
-bsdb:338/1/2_obesity:obese_vs_normal-weight_DOWN	NA	119852	39948
+bsdb:338/1/1_obesity:obese-children_vs_normal-weight-children_UP	NA	216851	33024	28050	158846	724
+bsdb:338/1/2_obesity:obese-children_vs_normal-weight-children_DOWN	NA	119852	39948
 bsdb:338/2/1_obesity:obese_vs_normal-weight_UP	NA	2382	713	416916	506	91061	28216	80840	194	186828	31979	1502	1263076	32066	203492	203491	203490	848	117563	724	727	729	28050	186826	1129771	158846	1268	135625	538998	186804	33024	387090	165179	1224	32207	43675	1300	1301	40544	191303	29465	39778	36835	33038
 bsdb:338/2/2_obesity:obese_vs_normal-weight_DOWN	NA	201174	447020	239759	626932	244127	820	2005519	31953	85004	1678	1680	35832	990721	990719	1485	102106	74426	84107	84999	84998	1185408	28221	872	194924	213115	676517	128827	526525	526524	1730	1769729	61170	31969	119852	846	847	75682	304	186807	838	171550	1263	44748	1302	544448
 bsdb:339/1/1_air-pollution:mice-exposed-to-UFP_vs_vehicle-control_UP	NA	74201
@@ -1374,8 +1374,8 @@ bsdb:346/2/1_unipolar-depression:moderate-depression_vs_mild-depression_UP	NA	94
 bsdb:346/3/1_anxiety-disorder:severe-anxiety_vs_mild-anxiety_UP	NA	1328
 bsdb:346/3/2_anxiety-disorder:severe-anxiety_vs_mild-anxiety_DOWN	NA	1239	186802	186801	1653	85007	1760	201174	1847725	28117	1680	360807	301301	39496	116085
 bsdb:346/4/1_anxiety-disorder:moderate-anxiety_vs_mild-anxiety_UP	NA	1358
-bsdb:347/1/1_obesity:obese_vs_control_UP	NA	976	310297	487175	823	35833	1512	437897	209880	363265	847
-bsdb:347/1/2_obesity:obese_vs_control_DOWN	NA	201174	239935	671218	105841	817	28116	818	89014	418240	95818	1547	853	1239	471189	102148	76860	1304	74201	1535	1549	143393	645466	44008	341220
+bsdb:347/1/1_obesity:obese-children_vs_controls_UP	NA	209880	976	35833	437897	847	823	487175	310297	363265	1512
+bsdb:347/1/2_obesity:obese-children_vs_controls_DOWN	NA	201174	239935	671218	645466	105841	817	28116	818	89014	418240	95818	44008	1547	853	1239	471189	341220	102148	76860	1304	74201	1535	1549	143393
 bsdb:348/1/1_obesity:obese_vs_lean_UP	NA	817	1591
 bsdb:348/1/2_obesity:obese_vs_lean_DOWN	NA	41200
 bsdb:348/2/1_obesity:overweight_vs_lean_UP	NA	817	1591
@@ -1788,7 +1788,7 @@ bsdb:455/4/1_pregnancy:pregnant-women_vs_non-pregnant-women_UP	NA	55565	1872471	
 bsdb:455/4/2_pregnancy:pregnant-women_vs_non-pregnant-women_DOWN	NA	712187	29391	740	267212	172042	1306	217202
 bsdb:456/1/1_type-II-diabetes-mellitus:Individuals-diagnosed-with-Type-2-Diabetes-Mellitus_vs_Healthy-controls_DOWN	NA	207244	816	976	35832	572511	1485	33042	216851	28050	248744	283168	577310	33024	46205	841	1263	13687	40544
 bsdb:456/1/2_type-II-diabetes-mellitus:Individuals-diagnosed-with-Type-2-Diabetes-Mellitus_vs_Healthy-controls_UP	NA	201174	1654	239934	244127	1678	95818	544	102106	84111	1350	1940338	570	1578	906	375288	1224	160674	1301	292632	74201	46255
-bsdb:457/1/1_periodontitis:Individuals-diagnosed-with-Periodontitis_vs_Healthy-controls_UP	NA	28124	837	165179	28133	28112	58231
+bsdb:457/1/1_periodontitis:Individuals-diagnosed-with-Periodontitis_vs_Healthy-controls_UP	NA	28124	165179	58231	671218	40544	59892	853
 bsdb:457/2/1_periodontitis:Individuals-diagnosed-with-Periodontitis-and-Type-2-Diabetes-Mellitus-(DAP)_vs_Healthy-controls_UP	NA	671218	165179	329	234908
 bsdb:457/3/NA_type-II-diabetes-mellitus:Individuals-diagnosed-with-Type-2-Diabetes-Mellitus_vs_Healthy-controls_NA	NA	NA
 bsdb:457/4/1_periodontitis:Individuals-diagnosed-with-both-Periodontitis-and-Type-2-Diabetes-and-treated-with-metformin-(Met-group)_vs_Healthy-controls_UP	NA	33033	341694	28129	1177574	60133	228604	102148	59892	58231
@@ -2166,10 +2166,13 @@ bsdb:562/9/2_NA:feces-from-healthy-adult_vs_none---70%-prevalence-threshold_NA	N
 bsdb:562/10/1_NA:feces-from-healthy-adult_vs_none---0%-prevalence-threshold_NA	NA	46123	2147	222	904	1912215	50709	12916	469	76833	1654	1653174	447020	240233	1375	642	2048137	416916	186829	46352	239934	507	2321111	239759	2675234	133193	222991	209879	1651	1283313	419014	2823232	2749846	2569097	165779	52784	264995	156454	1924093	653683	207244	2039240	244127	55079	150247	69278	2801844	28263	1663	35823	5052	1380	414371	6	1386	816	397864	94406	697279	59735	1678	35832	572511	517	85413	43668	29521	374	55080	1696	41275	2755	234	32008	580596	574697	830	1276290	1158982	1535326	1291539	1470349	1016	2717	2747	135858	43996	75	158483	698776	157920	1653176	180162	810	990721	59732	169133	1573	508459	501783	1870884	1485	102106	283	2767879	100883	1348911	33042	282472	2678534	1716	1937664	413496	106589	2034	1912216	2675230	1298	80865	2767880	79603	36739	57495	82800	893	898	872	39948	1472649	37914	29393	189330	2518495	156973	635	84111	1279384	538	1432051	308865	423604	59734	212791	1472762	106591	5758	547	2719313	1350	2782229	171412	551	1505663	1647	561	1730	41201	33986	1582879	66831	2005359	1573536	1573534	2767327	44259	150022	237	946234	1649295	1434006	1335631	2767881	1407607	848	2701	1378	204475	129337	1193503	13075	1742989	2053	644652	117563	366614	724	568	1892380	31983	209	1573535	61170	2815774	1649459	243627	1609627	70774	283377	89092	1937007	11320	1505657	1392389	53457	29580	96462	157226	227979	428711	257820	32257	570	579	136099	1330547	186475	1649	57499	1506553	28050	2719231	2759736	2767842	1578	1357	420345	2767353	2767884	2767885	47670	1847725	41707	2172004	83654	5658	2767893	32067	712363	55968	1243	2767886	2767887	1676651	2742598	2767888	1637	2767889	400634	68	69965	1637257	55193	2803850	2837505	86795	248744	149698	1926659	2316020	158846	906	65551	1649468	33969	68287	2055876	2172	1080709	2316	316612	2282523	33882	29404	57479	52225	2100764	2050	88138	158848	86331	2039302	475	581	212742	248038	1918540	1774128	1763	670516	1866885	2093	2767358	53	909928	482	1839	2013	283168	46254	90243
 bsdb:562/11/1_NA:feces-from-healthy-adult_vs_none---30%-prevalence-threshold_NA	NA	216851	816	841	572511	2316020	189330	1730	909656	1407607	375288	239759	207244	33042	102106	2048137	2569097	1263	1678	28050	1301	204475	1905344	459786	1485	283168	946234	447020	838	397864	644652	33024	2172004	561	35832	239934	574697	577310	1505657	1578	1505663	84108	2719313	1348911	84111	39948	29465	1472762	1392389	724	1924093	1573535	2172	61170	577309	2847313	191303	1918598	1654
 bsdb:564/1/1_antimicrobial-agent:IAP-group-(@7-days)_vs_Control-group-(@7-days)_DOWN	NA	41200
-bsdb:566/1/1_NA:HLAB27+_vs_HLAB27-_DOWN	NA	724
-bsdb:566/1/2_NA:HLAB27+_vs_HLAB27-_UP	NA	35832	1506	39948	596767	1578	459786	543311
-bsdb:566/2/1_NA:HLAB27+_vs_HLAB27-_DOWN	NA	724	84111
-bsdb:566/2/2_NA:HLAB27+_vs_HLAB27-_UP	NA	35832	1506	596767	543311	459786
+bsdb:566/1/1_juvenile-idiopathic-arthritis:HLAB27+_vs_HLAB27-_DOWN	NA	724	712	84111
+bsdb:566/1/2_juvenile-idiopathic-arthritis:HLAB27+_vs_HLAB27-_UP	NA	35832	1506	39948	596767	1578	459786	543311	33958
+bsdb:566/2/1_juvenile-idiopathic-arthritis:JIA-patients-in-remission_vs_JIA-patients-with-active-disease_DOWN	NA	40544
+bsdb:566/2/2_juvenile-idiopathic-arthritis:JIA-patients-in-remission_vs_JIA-patients-with-active-disease_UP	NA	1506	577310	283168
+bsdb:566/3/1_juvenile-idiopathic-arthritis:JIA-ERA-patients_vs_Healthy-subjects_UP	NA	216572	1506
+bsdb:566/3/2_juvenile-idiopathic-arthritis:JIA-ERA-patients_vs_Healthy-subjects_DOWN	NA	186804	31979
+bsdb:566/4/1_juvenile-idiopathic-arthritis:JIA-nERA-patients_vs_Healthy-subjects_UP	NA	216572	31977
 bsdb:567/2/1_dietary-fiber-intake:Advanced-colorectal-adenoma-group-(A-CRA)_vs_Healthy-control-group-(HC)_UP	NA	816	1301	1350
 bsdb:568/1/1_Parkinson's-disease:NPD-group:-patients-suffering-with-suffering-with-with-PD-for-less-than-1-year-and-before-treatment._vs_healthy-controls-without-any-form-of-Parkinson's-Disease_UP	NA	191303
 bsdb:568/1/2_Parkinson's-disease:NPD-group:-patients-suffering-with-suffering-with-with-PD-for-less-than-1-year-and-before-treatment._vs_healthy-controls-without-any-form-of-Parkinson's-Disease_DOWN	NA	577309	1263	1301
@@ -2202,6 +2205,7 @@ bsdb:577/1/3_NA:Male_vs_Female_DOWN	NA	NA
 bsdb:578/1/1_urinary-tract-infection:Antibiotic-treated_vs_Control-group_DOWN	NA	976
 bsdb:578/2/1_urinary-tract-infection:Antibiotic-treated-(day-5-15)_vs_Antibiotic-treated-(day-1)_UP	NA	201174
 bsdb:578/3/1_urinary-tract-infection:Control-(day-5-15)_vs_Control-(day-1)_UP	NA	976
+bsdb:579/1/NA_major-depressive-disorder:MDD-patients-(age-18-29)_vs_Healthy-controls-(age-18-29)_NA	NA	NA
 bsdb:580/1/1_NA:HIV-_vs_HIV+_DOWN	NA	194	1016	848	482	265975	838	195950	481
 bsdb:580/1/2_NA:HIV-_vs_HIV+_UP	NA	1678	1578	32207	1301	29465
 bsdb:580/2/1_NA:non_smoker_vs_current_smoker_UP	NA	1283313	59735	194	848	43994	482	838
@@ -2241,7 +2245,7 @@ bsdb:598/1/1_HIV-infection:HIV-seroconverted_vs_HIV-seronegative_UP	NA	39948	150
 bsdb:598/1/2_HIV-infection:HIV-seroconverted_vs_HIV-seronegative_UP	NA	39948	150022	162289	1257	838
 bsdb:598/2/1_HIV-infection:HIV-seroconverted_vs_HIV-seronegative_UP	NA	39948	1257	838
 bsdb:599/1/1_Human-immunodeficiency-virus:Healthy-females-who-recieved-two-vaginal-HIV-microbicidal-gels_vs_Healthy-females-who-recieved-universal-placebo_UP	NA	1380	1350	561	2701	2050	838	168808	1301
-bsdb:600/1/1_Parkinson's-disease:Participants-with-Parkinson's-Disease_vs_Healthy-controls_UP	NA	469	239759	580596	1485	872	1239	570	497726	577309	13687	563835	128827	526524	82115	117747	200666	80840	92793	135614	41297	204457	32033	468	651137	1033997	171550
+bsdb:600/1/1_Parkinson's-disease:Participants-with-Parkinson's-Disease_vs_Healthy-controls_UP	NA	469	239759	92793	580596	563835	1485	872	128827	526524	1239	570	468	1033997	577309	82115	171550	200666	117747	41297	204457	13687	651137	32033	135614	80840	1033996	497726	186803	72274
 bsdb:600/1/2_Parkinson's-disease:Participants-with-Parkinson's-Disease_vs_Healthy-controls_DOWN	NA	2037	81850	1578	200644	117743	504481
 bsdb:600/2/NA_Parkinson's-disease:Participants-with-Parkinson's-Disease_vs_Healthy-controls_NA	NA	NA
 bsdb:603/1/1_colorectal-cancer:CRC-patients_vs_non-disease-controls_DOWN	NA	39488	649756	658089	410072	166486
@@ -2295,12 +2299,14 @@ bsdb:624/1/1_colorectal-cancer:Patients-with-CRC_vs_Healthy-Individuals_UP	NA	33
 bsdb:624/2/1_colorectal-cancer:Patients-with-early-CRC_vs_Healthy-Individuals_UP	NA	851	29391	341694
 bsdb:624/3/1_colorectal-cancer:Patients-with-advanced-CRC_vs_Healthy-Individuals_UP	NA	1261	28131	33033	837	341694	76122	28123	102148	29391	39950	851
 bsdb:624/4/1_colorectal-cancer:After-resection_vs_Before-resection_DOWN	NA	33033	28131	341694	28123	102148	29391	1261	837	76122	39950	851
-bsdb:625/1/1_healthy.:High-SES_vs_Low-SES_UP	NA	207244	1730	216851	186803
-bsdb:625/1/2_healthy.:High-SES_vs_Low-SES_DOWN	NA	816
+bsdb:625/1/1_Socioeconomic-status:NA_vs_NA_UP	NA	207244	1730	216851	186803
+bsdb:625/1/2_Socioeconomic-status:NA_vs_NA_DOWN	NA	816
 bsdb:626/1/1_healthy:East-Asian-(EA)_vs_White-(W)_UP	NA	201174	976	1239	1224	32066
 bsdb:626/1/2_healthy:East-Asian-(EA)_vs_White-(W)_DOWN	NA	74201
 bsdb:627/1/1_healthy:lower-SES-(income<£25,000)_vs_Higher-SES-(income->-£25,000)_UP	NA	1898207	171549
 bsdb:627/1/2_healthy:lower-SES-(income<£25,000)_vs_Higher-SES-(income->-£25,000)_DOWN	NA	48461	171550
+bsdb:628/1/1_healthy:lower-SES_vs_Higher-SES_UP	NA	838
+bsdb:628/1/2_healthy:lower-SES_vs_Higher-SES_DOWN	NA	816
 bsdb:629/1/1_Colorectal-cancer,Colorectal-carcinoma,rectal-carcinoma:Adjacent-Non-Tumor-Tissue-of-Colorectal-Cancer-Cases_vs_Tumor-Tissue-of-Colorectal-Cancer-Cases_UP	NA	851
 bsdb:630/1/1_colorectal-cancer:stage-I/II-(SI/II)_vs_healthy-control-(normal-and-a-few-polyps)_UP	NA	74426	851	29391	1382	33033	1261	341694	281920	1660	102148
 bsdb:630/1/2_colorectal-cancer:stage-I/II-(SI/II)_vs_healthy-control-(normal-and-a-few-polyps)_DOWN	NA	1679	39485	28051
@@ -2310,13 +2316,38 @@ bsdb:630/3/1_colorectal-cancer:S0_vs_healthy-control-(normal-and-a-few-polyps)_U
 bsdb:630/3/2_colorectal-cancer:S0_vs_healthy-control-(normal-and-a-few-polyps)_DOWN	NA	1679	28051	39485
 bsdb:630/4/1_colorectal-cancer:MP_vs_healthy-control-(normal-and-a-few-polyps)_UP	NA	1382	851	1660	626940	69823	201571
 bsdb:630/4/2_colorectal-cancer:MP_vs_healthy-control-(normal-and-a-few-polyps)_DOWN	NA	1679	28051	39485
-bsdb:631/1/1_Colorectal-adenoma,Colorectal-cancer:Advanced-Colorectal-Adenoma_vs_Healthy-Controls_UP	NA	454154	357276	204516
-bsdb:631/1/2_Colorectal-adenoma,Colorectal-cancer:Advanced-Colorectal-Adenoma_vs_Healthy-Controls_DOWN	NA	28025	1309
-bsdb:631/2/1_Colorectal-adenoma,Colorectal-cancer:Colorectal-Cancer_vs_Healthy-Controls_DOWN	NA	1656	1506	1309	1308	28025
-bsdb:631/2/2_Colorectal-adenoma,Colorectal-cancer:Colorectal-Cancer_vs_Healthy-Controls_UP	NA	357276	29523	28111	46503	204516	823	371601	821	28117	28118	35833	1898203	1512	214856	47678	454154	1891238	40545	562	187327	39777
-bsdb:631/3/1_Colorectal-adenoma,Colorectal-cancer:Colorectal-Cancer_vs_Advanced-Colorectal-Adenoma_DOWN	NA	1506	1308	28025	1656
-bsdb:631/3/2_Colorectal-adenoma,Colorectal-cancer:Colorectal-Cancer_vs_Advanced-Colorectal-Adenoma_UP	NA	371601	204516	823	28116	29523	28118	35833	46503	28117	1891238	1898203	1512	187327	562	214856	47678	28111	40545	39777
+bsdb:631/1/1_Colorectal-adenoma:Advanced-Colorectal-Adenoma_vs_Healthy-Controls_UP	NA	454154	357276	204516
+bsdb:631/1/2_Colorectal-adenoma:Advanced-Colorectal-Adenoma_vs_Healthy-Controls_DOWN	NA	28025	1309
+bsdb:631/2/1_colorectal-cancer:Colorectal-Cancer_vs_Healthy-Controls_DOWN	NA	1656	1506	1309	1308	28025
+bsdb:631/2/2_colorectal-cancer:Colorectal-Cancer_vs_Healthy-Controls_UP	NA	357276	29523	28111	46503	204516	823	371601	821	28117	28118	35833	1898203	1512	214856	47678	454154	1891238	40545	562	187327	39777
+bsdb:631/3/1_colorectal-cancer:Colorectal-Cancer_vs_Advanced-Colorectal-Adenoma_DOWN	NA	1506	1308	28025	1656
+bsdb:631/3/2_colorectal-cancer:Colorectal-Cancer_vs_Advanced-Colorectal-Adenoma_UP	NA	371601	204516	823	28116	29523	28118	35833	46503	28117	1891238	1898203	1512	187327	562	214856	47678	28111	40545	39777
 bsdb:632/1/1_healthy:298_vs_NA_UP	NA	239934	1678	1578	906
 bsdb:632/1/2_healthy:298_vs_NA_DOWN	NA	33042	119852	375288	838	1279	1301
 bsdb:632/2/1_healthy:298_vs_NA_UP	NA	239934	1678	33042	216851	838	1279	29465
 bsdb:632/2/2_healthy:298_vs_NA_DOWN	NA	816	1263	1301
+bsdb:637/1/1_colorectal-cancer:CRC_vs_Healthy-Individuals_UP	NA	165779	43668	207244	374	501783	1117	1378	1269	482	53335	286	497	134549	1301	292636
+bsdb:637/1/2_colorectal-cancer:CRC_vs_Healthy-Individuals_DOWN	NA	1654	1283313	156454	1434006	848	404402	1164882	1578	68	1257	838	1213720	35493	141948	157	2147	2152	1380	194	1016	39948	212791	32067	31957	95818	970	399320	29465
+bsdb:637/2/1_Colorectal-adenoma:CRA_vs_Healthy-Individuals_UP	NA	1301	1378	1117	173479	204475	374	43668	85021	1234	1386	292636	1269	13687	642	388463	158846	1263	2755	816
+bsdb:637/2/2_Colorectal-adenoma:CRA_vs_Healthy-Individuals_DOWN	NA	1654	1283313	1380	194	1016	43996	39948	1730	44259	1239	848	32067	68	2093	482	265975	346096	543311	836	1743	123375	35493	195950	157	29465	338	838	95818	1257	31957	156454	416916	830	2054427	1164882	1434006	2152	28100	283	1931224	109326	2740	150247	1213720	2717	1716	1279384	538	186804
+bsdb:637/3/1_colorectal-cancer:CRC_vs_CRA_UP	NA	416916	165779	194	1016	501783	283	39948	1730	848	482	543311	836	238749	28100	123375	1257	28219	95818	28211	225842	191494	156454	1224	830
+bsdb:637/3/2_colorectal-cancer:CRC_vs_CRA_DOWN	NA	572511	204475	1301	35493	1117	338	158846	216572	173479
+bsdb:639/1/1_socioeconomic-status:NA_vs_NA_UP	NA	816	28216	186803	375288	171550	1263	31977
+bsdb:639/1/2_socioeconomic-status:NA_vs_NA_DOWN	NA	31979	1236	186804	838	1263
+bsdb:642/1/1_socioeconomic-status:Malays-Children-(Moderate-SES.-house-income=<RM500)_vs_Chinese-Children-(High-SES,-household-income>RM500)_NA	NA	NA
+bsdb:642/2/1_socioeconomic-status:Orang-Asli-Children-(low-SES,-household-income<RM500)_vs_Chinese-Children-(High-SES,-household-income->RM500)_UP	NA	171549	28221	135624	1263	186801	976
+bsdb:642/2/2_socioeconomic-status:Orang-Asli-Children-(low-SES,-household-income<RM500)_vs_Chinese-Children-(High-SES,-household-income->RM500)_DOWN	NA	239759
+bsdb:642/3/1_socioeconomic-status:Orang-Asli-children-(low-SES,-household-income-<RM500)_vs_Malays-children-(Moderate-SES,-household-income-=>RM500)_UP	NA	135624	203691	2	171549	186801	28221	1263
+bsdb:642/3/2_socioeconomic-status:Orang-Asli-children-(low-SES,-household-income-<RM500)_vs_Malays-children-(Moderate-SES,-household-income-=>RM500)_DOWN	NA	171549	909929
+bsdb:643/1/1_colorectal-cancer:yCRC_vs_yControl_UP	NA	1654	946234	292800	848	186803	283168	29465
+bsdb:643/1/2_colorectal-cancer:yCRC_vs_yControl_DOWN	NA	1766253	39488	207244	572511	580596	1485	39948	128827	561	39496	724	570	158846	577310	1501226	620	39491
+bsdb:643/2/1_colorectal-cancer:oCRC_vs_oControls_DOWN	NA	1766253	207244	35832	572511	1955243	580596	990719	1485	1492	102106	33042	128827	290054	39496	216851	853	1407607	28050	39485	186803	2039302	577310	33024	1501226	841	301301	166486	1263	1160721	1161942	292632	39491
+bsdb:643/2/2_colorectal-cancer:oCRC_vs_oControls_UP	NA	561	84112	208479	29347	2086584	41275	84111	724	1649459	1506553	1505663	1257	1946507	1378	543311	848	1301	620
+bsdb:644/1/1_Colorectal-adenoma:colorectal-adenoma_vs_healthy-controls_UP	NA	562	1944660	1262	1966354	28131	1955243	1894999	820	1385
+bsdb:644/1/2_Colorectal-adenoma:colorectal-adenoma_vs_healthy-controls_DOWN	NA	853	1955243	40520	29523	2049024	59823	820	1385
+bsdb:644/2/1_colorectal-cancer:colorectal-cancer_vs_healthy-controls_UP	NA	817	68766	1944660	2049028	1262	76761	1966354	28131	119852	59823	739	28116	28124	205
+bsdb:644/2/2_colorectal-cancer:colorectal-cancer_vs_healthy-controls_DOWN	NA	562	29523	853	1955243	76761
+bsdb:644/3/1_colorectal-cancer:colorectal-cancer_vs_colorectal-adenoma_UP	NA	1944660	68766	1262	29523	1966354	28131	817	119852	188932	363265	1955243	1898207	59823	41978	1869337	28117	28116	28124
+bsdb:644/3/2_colorectal-cancer:colorectal-cancer_vs_colorectal-adenoma_DOWN	NA	562	76761	188932	396015	1894999
+bsdb:644/4/1_colorectal-cancer:colorectal-cancer_vs_carcinoma-adjacent_DOWN	NA	1955243	76761
+bsdb:644/4/2_colorectal-cancer:colorectal-cancer_vs_carcinoma-adjacent_UP	NA	68766
