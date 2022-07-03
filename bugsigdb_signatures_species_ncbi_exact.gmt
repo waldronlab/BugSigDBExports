@@ -1,4 +1,4 @@
-# BugSigDB 2022-06-26, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2022-07-03, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_adenoma:conventional-adenoma-cases_vs_controls_UP	NA	57037
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	57037
 bsdb:1/6/1_adenoma:Non-advanced-conventional-adenoma-cases_vs_controls_UP	NA	57037
@@ -175,7 +175,7 @@ bsdb:134/2/1_diet:6-months-after--New-Nordic-Diet_vs_before--New-Nordic-Diet_UP	
 bsdb:134/2/2_diet:6-months-after--New-Nordic-Diet_vs_before--New-Nordic-Diet_DOWN	NA	2173
 bsdb:136/2/1_diet:two-weeks-after-a-dietry-intervention_vs_before-dietary-intervention_UP	NA	84112	404403	1358	1679	88431	1680	74426
 bsdb:136/2/2_diet:two-weeks-after-a-dietry-intervention_vs_before-dietary-intervention_DOWN	NA	626929	28111	39485	626940	310297	301301	572010	46228	39492
-bsdb:139/1/2_squamous-cell-carcinoma:HNSCC_vs_controls_DOWN	NA	425941	327575	69823
+bsdb:139/1/2_head-and-neck-squamous-cell-carcinoma:HNSCC_vs_controls_DOWN	NA	425941	327575	69823
 bsdb:139/2/1_squamous-cell-carcinoma:Larynx-cancer-cases_vs_controls_DOWN	NA	502	1305
 bsdb:139/3/1_squamous-cell-carcinoma:Pharynx-cancer-cases_vs_controls_DOWN	NA	544580	419208
 bsdb:139/4/2_squamous-cell-carcinoma:Oral-cavity-cancer-cases_vs_controls_DOWN	NA	33033	490
@@ -195,7 +195,8 @@ bsdb:155/2/1_esophageal-cancer:Esophageal-Squamous-cell-carcinoma-(ESCC)_vs_cont
 bsdb:155/2/2_esophageal-cancer:Esophageal-Squamous-cell-carcinoma-(ESCC)_vs_controls_DOWN	NA	732
 bsdb:156/1/2_gastric-adenocarcinoma:Gastric-cancer_vs_healthy-controls_DOWN	NA	1263079
 bsdb:156/2/2_gastric-adenocarcinoma:Gastric-cancer_vs_healthy-controls_DOWN	NA	1263079
-bsdb:158/2/1_lung-cancer:lung-cancer_vs_healthy-volunteers_UP	NA	821	310297
+bsdb:158/2/1_lung-cancer:lung-cancer-patients_vs_healthy-volunteers_UP	NA	310297	821
+bsdb:158/2/2_lung-cancer:lung-cancer-patients_vs_healthy-volunteers_DOWN	NA	1898207
 bsdb:159/2/2_gingival-disease:3-months-after-the-placement-of-the-brackets_vs_before_DOWN	NA	1077464
 bsdb:161/2/2_lung-cancer:NSCLC_vs_healthy-controls_DOWN	NA	28132
 bsdb:166/1/1_chronic-kidney-disease:chronic-kidney-disease_vs_healthy-controls_UP	NA	1263106	1263108
@@ -262,10 +263,10 @@ bsdb:222/1/1_gastric-cancer:high-gastric-cancer-risk_vs_low-gastric-cancer-risk-
 bsdb:222/1/2_gastric-cancer:high-gastric-cancer-risk_vs_low-gastric-cancer-risk-patients_DOWN	NA	29317	1017	239	484	192066	1924944	28135	1885016	29387	1303	1310087
 bsdb:223/1/1_HIV-infection:HIV-infected-patients_vs_healthy-controls_UP	NA	1343	33038
 bsdb:223/1/2_HIV-infection:HIV-infected-patients_vs_healthy-controls_DOWN	NA	165179	821
-bsdb:223/2/1_HIV-infection:HIV-infected-homosexual-patients_vs_healthy-controls_UP	NA	1547
-bsdb:223/2/2_HIV-infection:HIV-infected-homosexual-patients_vs_healthy-controls_DOWN	NA	165179
+bsdb:223/2/1_HIV-infection:HIV-infected-patients-who-are-homosexual_vs_healthy-controls_UP	NA	1547
+bsdb:223/2/2_HIV-infection:HIV-infected-patients-who-are-homosexual_vs_healthy-controls_DOWN	NA	165179
 bsdb:223/3/1_HIV-infection:Intravenous-drug-abuse-HIV-patients_vs_healthy-controls_UP	NA	33038
-bsdb:223/5/1_HIV-infection:HAART_vs_healty-control_UP	NA	562	33038	817
+bsdb:223/5/1_HIV-infection:HAART-treated-HIV+-patients_vs_healthy-control_UP	NA	817	562	33038	1308
 bsdb:224/1/1_diet:barley-(WGB)_vs_baseline_UP	NA	418240	301302	166486	39491
 bsdb:224/1/2_diet:barley-(WGB)_vs_baseline_DOWN	NA	28118
 bsdb:228/1/1_diet:day-3-of-PECTIN-spike-in_vs_day-6-of-PECTIN-spike-in_DOWN	NA	853
@@ -413,10 +414,10 @@ bsdb:294/1/2_acute-lymphoblastic-leukemia:post-induction-therapy_vs_baseline_DOW
 bsdb:294/2/1_acute-lymphoblastic-leukemia:post-consolidation-therapy_vs_baseline_UP	NA	1955243
 bsdb:294/3/2_acute-lymphoblastic-leukemia:post-re-induction-therapy_vs_baseline_DOWN	NA	1971605
 bsdb:295/1/2_human-papilloma-virus-infection:low-risk-HPV_vs_negative-control_DOWN	NA	351
-bsdb:296/1/1_multiple-myeloma:multiple-myeloma_vs_health-control_UP	NA	573	244366	1303	1302	550	1308	1318	1304	1689	546	74426	28037	548	839	589436	1328	28132	1297617	1313	54291	1680	732	61645	907	351091
-bsdb:296/1/2_multiple-myeloma:multiple-myeloma_vs_health-control_DOWN	NA	197614	66219	1561	169679	43305	1496	185008	246787	36745	1869337	28116	1679721	818	823	39485	47678	1686	1520	1505	1491	649756	158847	1492	630129	28026	856
-bsdb:296/2/1_multiple-myeloma:multiple-myeloma_vs_health-control_UP	NA	54291	546	550	548	244366	573	1304	1303	1302	1313
-bsdb:296/2/2_multiple-myeloma:multiple-myeloma_vs_health-control_DOWN	NA	649756	84030
+bsdb:296/1/1_multiple-myeloma:multiple-myeloma-patients_vs_healthy-control_UP	NA	573	244366	1303	1302	550	1308	1318	1304	1689	546	74426	28037	548	839	589436	1328	28132	1297617	1313	54291	1680	732	61645	907	351091
+bsdb:296/1/2_multiple-myeloma:multiple-myeloma-patients_vs_healthy-control_DOWN	NA	197614	66219	1561	169679	43305	1496	185008	246787	36745	1869337	28116	1679721	818	823	39485	47678	1686	1520	1505	1491	649756	158847	1492	630129	28026	856
+bsdb:296/2/1_multiple-myeloma:multiple-myeloma-patients_vs_healthy-controls_UP	NA	546	550	548	573	244366	54291	1302	1303	1313	1304	28037
+bsdb:296/2/2_multiple-myeloma:multiple-myeloma-patients_vs_healthy-controls_DOWN	NA	649756	84030	1492
 bsdb:299/1/1_acute-lymphoblastic-leukemia:induction-chemotherapy_vs_no-induction-chemotherapy_UP	NA	35783
 bsdb:300/1/1_graft-versus-host-disease:acute-graft--versus--host-disease_vs_non--graft--versus--host-disease_UP	NA	301301	1924109	29466	1352	1354	1624	1613	357276	102148	43675
 bsdb:300/1/2_graft-versus-host-disease:acute-graft--versus--host-disease_vs_non--graft--versus--host-disease_DOWN	NA	1547	818	89014	2049021	1955243	2040332	41978	28116	47678
@@ -443,8 +444,8 @@ bsdb:320/3/1_antimicrobial-agent:infants(6-weeks)-to-mothers-exposed-to--antibio
 bsdb:320/4/1_antimicrobial-agent:infants(1-year)-to-mothers-exposed-to--antibiotics-(amoxicillin,-penicillin-or-ampicillin)_vs_infants-(1-year)-to-mothers-unexposed-to--antibiotic_UP	NA	33038
 bsdb:320/4/2_antimicrobial-agent:infants(1-year)-to-mothers-exposed-to--antibiotics-(amoxicillin,-penicillin-or-ampicillin)_vs_infants-(1-year)-to-mothers-unexposed-to--antibiotic_DOWN	NA	817
 bsdb:320/5/1_antimicrobial-agent:infants(6-weeks)-to-mothers-exposed-to-multi-class-antibiotics_vs_infants-(6-weeks)-to-mothers-unexposed-to--antibiotic_UP	NA	39778
-bsdb:324/1/1_thyroid-carcinoma:thyroid-carcinoma_vs_healthy-control_UP	NA	42322	290054	39488
-bsdb:324/1/2_thyroid-carcinoma:thyroid-carcinoma_vs_healthy-control_DOWN	NA	33038
+bsdb:324/1/1_thyroid-carcinoma:patients-with-thyroid-carcinoma_vs_healthy-controls_UP	NA	39488	290054	42322	1970093	1410629
+bsdb:324/1/2_thyroid-carcinoma:patients-with-thyroid-carcinoma_vs_healthy-controls_DOWN	NA	33038
 bsdb:326/1/1_non-small-cell-lung-carcinoma,renal-cell-carcinoma:Responders_vs_Non-Responders_UP	NA	239935	142586	214856	29523	1197717	1352
 bsdb:326/1/2_non-small-cell-lung-carcinoma,renal-cell-carcinoma:Responders_vs_Non-Responders_DOWN	NA	1506	208479	626929	291645	823
 bsdb:326/2/1_non-small-cell-lung-carcinoma,renal-cell-carcinoma:Progressive--Free--Survival-more-than-30-days_vs_Progressive--Free--Survival-more-less-than-30-days_UP	NA	142586	239935	291645	371601	1506	292800	47678	41978
@@ -458,8 +459,8 @@ bsdb:332/1/2_Hashimoto's-thyroiditis:hashimoto's-thyroiditis-patients_vs_healthy
 bsdb:336/3/1_antimicrobial-agent:combination-of-penicillin-and-moxalactam-group-(postnatal-day-7)_vs_Antibiotic-free-group-(postnatal-day-7)_UP	NA	1940338
 bsdb:337/2/1_antimicrobial-agent:3-month-old-infants-exposed_vs_not-exposed-to-antibiotics-during-the-second-trimester_DOWN	NA	239935	1660	137838	227943
 bsdb:337/3/2_antimicrobial-agent:12-month-old-infants-either-exposed_vs_not-exposed-to-antibiotics-during-the-second-trimester_DOWN	NA	423477
-bsdb:338/2/1_obesity:obese_vs_normal-weight_UP	NA	2382	1502	1263076	727	729	387090	165179	43675	39778	36835	33038
-bsdb:338/2/2_obesity:obese_vs_normal-weight_DOWN	NA	626932	820	1680	74426	676517	847	304	1302
+bsdb:338/2/1_obesity:obese-children_vs_normal-weight-children_UP	NA	2382	1502	1263076	727	729	387090	165179	43675	39778	36835	33038
+bsdb:338/2/2_obesity:obese-children_vs_normal-weight-children_DOWN	NA	626932	820	1680	74426	847	304	676517	1302
 bsdb:344/1/2_air-pollution:mice-exposed-to-Pm-2.5-suspension_vs_mice-exposed-suspension-from-extracts-of-“blank”-filter_DOWN	NA	351
 bsdb:345/1/2_obesity:obese_vs_normal_DOWN	NA	1308	39486	649756	29466	410072	674529	35833	291644	371601	28116
 bsdb:346/1/1_unipolar-depression:severe-depression_vs_mild-depression_UP	NA	292800
@@ -793,6 +794,7 @@ bsdb:618/3/1_NA:moderate-dementia_vs_control,-mild,-and-severe-dementia_UP	NA	16
 bsdb:618/4/1_NA:mild-dementia_vs_control,-moderate,-and-severe-dementia_UP	NA	853	39485
 bsdb:620/1/1_colorectal-cancer:NA_vs_NA_NA	NA	1898207
 bsdb:621/1/1_colorectal-cancer:Aspirin_vs_Placebo_UP	NA	2049031
+bsdb:621/2/1_colorectal-cancer:Aspirin_vs_Placebo_UP	NA	2049031
 bsdb:622/1/2_colorectal-cancer:CRA-and-CRC-groups_vs_Negative-control-group_UP	NA	1940338
 bsdb:624/1/1_colorectal-cancer:Patients-with-CRC_vs_Healthy-Individuals_UP	NA	33033	28131	341694	28123	102148	29391	1261	837	76122	39950	851
 bsdb:624/2/1_colorectal-cancer:Patients-with-early-CRC_vs_Healthy-Individuals_UP	NA	851	29391	341694

@@ -1,4 +1,4 @@
-# BugSigDB 2022-06-26, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2022-07-03, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_adenoma:conventional-adenoma-cases_vs_controls_UP	NA	Actinomyces	Corynebacterium	Streptococcus	Peptoniphilus	Dorea	Phascolarctobacterium	Sutterella	Bacillus
 bsdb:1/1/2_adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	Coprobacillus
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	Anaerostipes
@@ -9,11 +9,11 @@ bsdb:1/5/1_adenoma:Distal-conventional-adenoma-cases_vs_controls_DOWN	NA	Clostri
 bsdb:1/6/1_adenoma:Non-advanced-conventional-adenoma-cases_vs_controls_UP	NA	Actinomyces	Odoribacter	Streptococcus	Dorea	Sutterella	Phascolarctobacterium
 bsdb:1/7/1_adenoma:advanced-conventional-adenoma-cases_vs_controls_UP	NA	Actinomyces	Corynebacterium	Porphyromonas	Anaerococcus	Finegoldia	Peptoniphilus	Haemophilus
 bsdb:1/7/2_adenoma:advanced-conventional-adenoma-cases_vs_controls_DOWN	NA	Lachnobacterium	Lachnospira
-bsdb:2/1/1_squamous-cell-carcinoma:squamous-cell-carcinoma-tissues_vs_normal-adjacent-tissues_UP	NA	Parvimonas
-bsdb:2/1/2_squamous-cell-carcinoma:squamous-cell-carcinoma-tissues_vs_normal-adjacent-tissues_DOWN	NA	Actinomyces
-bsdb:2/2/1_squamous-cell-carcinoma:T3-T4-high-tumor-stages-patients_vs_T0-T2-low-tumor-stages-patients_UP	NA	Parvimonas
-bsdb:2/2/2_squamous-cell-carcinoma:T3-T4-high-tumor-stages-patients_vs_T0-T2-low-tumor-stages-patients_DOWN	NA	Actinomyces
-bsdb:2/3/1_squamous-cell-carcinoma:T3-T4-stages-patients_vs_T0-T2-stages-patients_UP	NA	Parvimonas
+bsdb:2/1/1_head-and-neck-squamous-cell-carcinoma:squamous-cell-carcinoma-tissues_vs_normal-adjacent-tissues_UP	NA	Parvimonas
+bsdb:2/1/2_head-and-neck-squamous-cell-carcinoma:squamous-cell-carcinoma-tissues_vs_normal-adjacent-tissues_DOWN	NA	Actinomyces
+bsdb:2/2/1_head-and-neck-squamous-cell-carcinoma:T3-T4-high-tumor-stages-patients_vs_T0-T2-low-tumor-stages-patients_UP	NA	Parvimonas
+bsdb:2/2/2_head-and-neck-squamous-cell-carcinoma:T3-T4-high-tumor-stages-patients_vs_T0-T2-low-tumor-stages-patients_DOWN	NA	Actinomyces
+bsdb:2/3/1_head-and-neck-squamous-cell-carcinoma:T3-T4-stages-patients_vs_T0-T2-stages-patients_UP	NA	Parvimonas
 bsdb:3/1/1_colorectal-cancer:adenocarcinoma-of-colon-and-rectum-patients_vs_controls_UP	NA	Fusobacterium	Porphyromonas
 bsdb:4/1/1_Hepatitis:HCV-stage-4-male-patients_vs_male-healthy-controls_UP	NA	Acinetobacter	Prevotella	Veillonella	Phascolarctobacterium
 bsdb:4/1/2_Hepatitis:HCV-stage-4-male-patients_vs_male-healthy-controls_DOWN	NA	Parabacteroides	Ruminococcus	Butyricimonas	Bifidobacterium	Pseudoalteromonas	Dialister
@@ -338,8 +338,8 @@ bsdb:125/1/1_squamous-cell-carcinoma:Oral-Squamous-Cell-Cancer-patients_vs_nonca
 bsdb:125/1/2_squamous-cell-carcinoma:Oral-Squamous-Cell-Cancer-patients_vs_noncancer-individuals_DOWN	NA	Rothia	Haemophilus
 bsdb:126/1/1_Oral-leukoplakia:Oral-leukoplakia_vs_healthy-controls_UP	NA	Haemophilus	Bacillus
 bsdb:126/1/2_Oral-leukoplakia:Oral-leukoplakia_vs_healthy-controls_DOWN	NA	Streptococcus	Abiotrophia
-bsdb:126/2/1_squamous-cell-carcinoma:Oral-Squamous-Cell-Cancer-patients_vs_healthy-controls_UP	NA	Haemophilus	Bacillus
-bsdb:126/2/2_squamous-cell-carcinoma:Oral-Squamous-Cell-Cancer-patients_vs_healthy-controls_DOWN	NA	Streptococcus	Abiotrophia
+bsdb:126/2/1_oral-squamous-cell-carcinoma:Oral-Squamous-Cell-Cancer-patients_vs_healthy-controls_UP	NA	Haemophilus	Bacillus
+bsdb:126/2/2_oral-squamous-cell-carcinoma:Oral-Squamous-Cell-Cancer-patients_vs_healthy-controls_DOWN	NA	Streptococcus	Abiotrophia
 bsdb:126/3/1_Oral-leukoplakia:Oral-leukoplakia_vs_Oral-Squamous-Cell-Cancer-patients_UP	NA	Haemophilus	Streptococcus
 bsdb:126/3/2_Oral-leukoplakia:Oral-leukoplakia_vs_Oral-Squamous-Cell-Cancer-patients_DOWN	NA	Bacillus
 bsdb:127/1/1_alcohol-drinking:alcohol-overconsumers_vs_controls_UP	NA	Sutterella	Clostridium	Holdemania
@@ -376,7 +376,7 @@ bsdb:137/1/1_colorectal-cancer:CRC_vs_controls_UP	NA	Aeromonas	Fusobacterium
 bsdb:137/1/2_colorectal-cancer:CRC_vs_controls_DOWN	NA	Bacteroides	Bilophila	Citrobacter	Cronobacter	Dorea	Eubacterium	Roseburia
 bsdb:138/1/1_lung-cancer:lung-cancer_vs_controls_UP	NA	Enterococcus	Erysipelatoclostridium	Macrococcus	Actinomyces	Intestinimonas	Raoultella	Atopobium	Holdemanella
 bsdb:138/1/2_lung-cancer:lung-cancer_vs_controls_DOWN	NA	Bifidobacterium	Collinsella	Dorea	Adlercreutzia	Lentibacillus	Alteromonas	Ruminiclostridium	Lachnospira	Peptoniphilus	Coprobacter	Pseudobutyrivibrio	Moryella	Sutterella	Peptostreptococcus
-bsdb:139/1/2_squamous-cell-carcinoma:HNSCC_vs_controls_DOWN	NA	Corynebacterium	Kingella
+bsdb:139/1/2_head-and-neck-squamous-cell-carcinoma:HNSCC_vs_controls_DOWN	NA	Corynebacterium	Kingella
 bsdb:139/2/1_squamous-cell-carcinoma:Larynx-cancer-cases_vs_controls_DOWN	NA	Corynebacterium	Kingella	Neisseria	Abiotrophia	Capnocytophaga
 bsdb:139/3/1_squamous-cell-carcinoma:Pharynx-cancer-cases_vs_controls_DOWN	NA	Corynebacterium	Kingella
 bsdb:139/4/1_squamous-cell-carcinoma:Oral-cavity-cancer-cases_vs_controls_UP	NA	Actinomyces
@@ -394,12 +394,12 @@ bsdb:140/6/1_multiple-sclerosis:treated-multiple-sclerosis_vs_untreated_UP	NA	Pr
 bsdb:140/6/2_multiple-sclerosis:treated-multiple-sclerosis_vs_untreated_DOWN	NA	Sarcina
 bsdb:141/1/1_preterm-premature-rupture-of-the-membranes:PPROM_vs_controls_UP	NA	Anaerococcus	Dialister	Peptoniphilus	Parvimonas	Catonella	Prevotella	Streptococcus
 bsdb:141/1/2_preterm-premature-rupture-of-the-membranes:PPROM_vs_controls_DOWN	NA	Lactobacillus
-bsdb:142/1/1_squamous-cell-carcinoma:HNSCC_vs_Controls_UP	NA	Streptococcus	Lactobacillus	Peptostreptococcus	Tannerella	Staphylococcus	Parvimonas	Veillonella
-bsdb:142/1/2_squamous-cell-carcinoma:HNSCC_vs_Controls_DOWN	NA	Aggregatibacter	Lautropia	Haemophilus	Neisseria	Leptotrichia
-bsdb:142/2/1_squamous-cell-carcinoma:HPV-+_vs_HPV--_UP	NA	Lactobacillus	Weeksella
-bsdb:142/2/2_squamous-cell-carcinoma:HPV-+_vs_HPV--_DOWN	NA	Eikenella	Neisseria	Leptotrichia
-bsdb:142/3/1_squamous-cell-carcinoma:chemothrapy-radiation-and-surgery_vs_surgery_UP	NA	Lactobacillus
-bsdb:142/4/1_squamous-cell-carcinoma:chemothrapy-radiation-and-surgery_vs_surgery_DOWN	NA	Haemophilus	Aggregatibacter	Leptotrichia
+bsdb:142/1/1_oral-squamous-cell-carcinoma:HNSCC_vs_Controls_UP	NA	Streptococcus	Lactobacillus	Peptostreptococcus	Tannerella	Staphylococcus	Parvimonas	Veillonella
+bsdb:142/1/2_oral-squamous-cell-carcinoma:HNSCC_vs_Controls_DOWN	NA	Aggregatibacter	Lautropia	Haemophilus	Neisseria	Leptotrichia
+bsdb:142/2/1_oral-squamous-cell-carcinoma:HPV-+_vs_HPV--_UP	NA	Lactobacillus	Weeksella
+bsdb:142/2/2_oral-squamous-cell-carcinoma:HPV-+_vs_HPV--_DOWN	NA	Eikenella	Neisseria	Leptotrichia
+bsdb:142/3/1_oral-squamous-cell-carcinoma:chemothrapy-radiation-and-surgery_vs_surgery_UP	NA	Lactobacillus
+bsdb:142/4/1_oral-squamous-cell-carcinoma:chemothrapy-radiation-and-surgery_vs_surgery_DOWN	NA	Haemophilus	Aggregatibacter	Leptotrichia
 bsdb:144/1/1_air-pollution:moderately-polluted-region-(B)_vs_lightly-poluuted-region-(A)_UP	NA	Rothia	Oribacterium	Neisseria	Actinomyces
 bsdb:144/1/2_air-pollution:moderately-polluted-region-(B)_vs_lightly-poluuted-region-(A)_DOWN	NA	Prevotella	Veillonella	Porphyromonas	Fusobacterium	Peptostreptococcus	Moraxella
 bsdb:144/2/2_air-pollution:heavily-polluted-region-(C)_vs_lightly-poluuted-region-(A)_DOWN	NA	Prevotella	Veillonella	Porphyromonas	Fusobacterium	Capnocytophaga	Peptostreptococcus	Moraxella	Campylobacter
@@ -442,10 +442,10 @@ bsdb:157/1/1_esophageal-cancer:Esophageal-Squamous-cell-carcinoma-(ESCC)_vs_Dysp
 bsdb:157/1/2_esophageal-cancer:Esophageal-Squamous-cell-carcinoma-(ESCC)_vs_Dysplasia_DOWN	NA	Veillonella	Neisseria	Fusobacterium	Haemophilus	Rothia	Leptotrichia	Campylobacter	Aggregatibacter	Oribacterium	Atopobium	Lautropia	Bulleidia	Catonella	Corynebacterium	Peptococcus	Cardiobacterium	Herbaspirillum
 bsdb:157/2/1_esophageal-cancer:Esophageal-Squamous-cell-carcinoma-(ESCC)_vs_controls_UP	NA	Prevotella	Streptococcus	Porphyromonas	Capnocytophaga	Elizabethkingia	Bacteroides
 bsdb:157/2/2_esophageal-cancer:Esophageal-Squamous-cell-carcinoma-(ESCC)_vs_controls_DOWN	NA	Veillonella	Neisseria	Haemophilus	Rothia	Treponema	Megasphaera	Campylobacter	Selenomonas	Aggregatibacter	Peptostreptococcus	Oribacterium	Actinomyces	Atopobium	Lautropia	Bulleidia	Catonella	Filifactor	Corynebacterium	Acholeplasma	Butyrivibrio	Dialister	Peptococcus	Cardiobacterium
-bsdb:158/1/1_lung-cancer:lung-cancer_vs_healthy-volunteers_UP	NA	Bacteroides	Veillonella	Fusobacterium	Phascolarctobacterium
-bsdb:158/1/2_lung-cancer:lung-cancer_vs_healthy-volunteers_DOWN	NA	Kluyvera	Faecalibacterium	Enterobacter	Dialister	Escherichia	Shigella
-bsdb:158/2/1_lung-cancer:lung-cancer_vs_healthy-volunteers_UP	NA	Klebsiella	Fusobacterium
-bsdb:158/2/2_lung-cancer:lung-cancer_vs_healthy-volunteers_DOWN	NA	Dialister	Enterobacter	Faecalibacterium	Escherichia	Shigella
+bsdb:158/1/1_lung-cancer:lung-cancer-patients_vs_healthy-volunteers_UP	NA	Bacteroides	Veillonella	Fusobacterium	Phascolarctobacterium
+bsdb:158/1/2_lung-cancer:lung-cancer-patients_vs_healthy-volunteers_DOWN	NA	Kluyvera	Faecalibacterium	Enterobacter	Dialister	Escherichia	Shigella
+bsdb:158/2/1_lung-cancer:lung-cancer-patients_vs_healthy-volunteers_UP	NA	Fusobacterium	Klebsiella	Bacteroides
+bsdb:158/2/2_lung-cancer:lung-cancer-patients_vs_healthy-volunteers_DOWN	NA	Dialister	Enterobacter	Escherichia	Faecalibacterium	Shigella
 bsdb:159/1/1_gingival-disease:1-month-after-the-placement-of-the-brackets_vs_before_UP	NA	Actinobacillus	Capnocytophaga
 bsdb:159/2/1_gingival-disease:3-months-after-the-placement-of-the-brackets_vs_before_UP	NA	Capnocytophaga
 bsdb:159/2/2_gingival-disease:3-months-after-the-placement-of-the-brackets_vs_before_DOWN	NA	Granulicatella
@@ -462,8 +462,8 @@ bsdb:163/2/1_squamous-cell-carcinoma:Oropharyngeal-Squamous-Cell-Carcinoma_vs_He
 bsdb:163/2/2_squamous-cell-carcinoma:Oropharyngeal-Squamous-Cell-Carcinoma_vs_Healthy-Controls_DOWN	NA	Stomatobaculum
 bsdb:164/1/1_gastric-cancer:gastric-cancer_vs_controls_UP	NA	Prevotella	Streptococcus	Veillonella	Actinomyces	Leptotrichia
 bsdb:164/1/2_gastric-cancer:gastric-cancer_vs_controls_DOWN	NA	Neisseria	Fusobacterium	Haemophilus	Porphyromonas
-bsdb:165/1/1_chronic-kidney-disease:chronic-kidney-disease_vs_healthy-controls_UP	NA	Methylobacterium	Desulfovibrio	Paraprevotella	Alloprevotella	Clostridium
-bsdb:165/1/2_chronic-kidney-disease:chronic-kidney-disease_vs_healthy-controls_DOWN	NA	Akkermansia	Allobaculum	Enterorhabdus	Eubacterium	Helicobacter	Lactobacillus	Lactococcus	Leuconostoc	Mucispirillum	Olsenella	Oribacterium	Parasutterella	Parvibacter	Pyramidobacter	Rothia	Synergistes
+bsdb:165/1/1_chronic-kidney-disease:chronic-kidney-disease-patients_vs_healthy-controls_UP	NA	Alloprevotella	Clostridium	Desulfovibrio	Methylobacterium	Paraprevotella
+bsdb:165/1/2_chronic-kidney-disease:chronic-kidney-disease-patients_vs_healthy-controls_DOWN	NA	Akkermansia	Allobaculum	Enterorhabdus	Eubacterium	Helicobacter	Lactobacillus	Lactococcus	Leuconostoc	Mucispirillum	Olsenella	Oribacterium	Parasutterella	Parvibacter	Pyramidobacter	Rothia	Synergistes
 bsdb:166/1/1_chronic-kidney-disease:chronic-kidney-disease_vs_healthy-controls_UP	NA	Bacteroides	Escherichia	Shigella	Parabacteroides	Weissella	Flavonifractor	Ruminiclostridium	Sellimonas	Erysipelatoclostridium	Eggerthella
 bsdb:166/1/2_chronic-kidney-disease:chronic-kidney-disease_vs_healthy-controls_DOWN	NA	Tyzzerella	Collinsella	Butyricicoccus	Romboutsia	Ruminococcus	Roseburia	Coprococcus	Subdoligranulum	Lachnospira	Carnobacterium	Dialister
 bsdb:167/1/1_squamous-cell-carcinoma:Stage-4_vs_healthy-controls_UP	NA	Centipeda
@@ -626,22 +626,22 @@ bsdb:221/1/1_urinary-tract-infection:urinary-tract-infection_vs_healthy-controls
 bsdb:221/1/2_urinary-tract-infection:urinary-tract-infection_vs_healthy-controls_DOWN	NA	Dialister	Finegoldia	Haemophilus	Massilia
 bsdb:223/1/1_HIV-infection:HIV-infected-patients_vs_healthy-controls_UP	NA	Lactobacillus	Lachnoclostridium	Streptococcus	Enterococcus
 bsdb:223/1/2_HIV-infection:HIV-infected-patients_vs_healthy-controls_DOWN	NA	Bacteroides	Prevotella	Megamonas	Subdoligranulum	Faecalibacterium	Dialister	Phascolarctobacterium
-bsdb:223/2/1_HIV-infection:HIV-infected-homosexual-patients_vs_healthy-controls_UP	NA	Enterococcus	Erysipelatoclostridium
-bsdb:223/2/2_HIV-infection:HIV-infected-homosexual-patients_vs_healthy-controls_DOWN	NA	Prevotella	Dialister	Faecalibacterium	Phascolarctobacterium
-bsdb:223/3/1_HIV-infection:Intravenous-drug-abuse-HIV-patients_vs_healthy-controls_UP	NA	Streptococcus	Lactobacillus
-bsdb:223/4/1_HIV-infection:homosexual_vs_hetersexual_DOWN	NA	Prevotella	Lachnoclostridium	Phascolarctobacterium	Parabacteroides
-bsdb:223/5/1_HIV-infection:HAART_vs_healty-control_UP	NA	Escherichia	Shigella	Streptococcus	Lachnoclostridium
-bsdb:223/5/2_HIV-infection:HAART_vs_healty-control_DOWN	NA	Bacteroides	Prevotella	Megamonas	Subdoligranulum	Faecalibacterium	Dialister	Phascolarctobacterium
+bsdb:223/2/1_HIV-infection:HIV-infected-patients-who-are-homosexual_vs_healthy-controls_UP	NA	Enterococcus	Erysipelatoclostridium
+bsdb:223/2/2_HIV-infection:HIV-infected-patients-who-are-homosexual_vs_healthy-controls_DOWN	NA	Dialister	Faecalibacterium	Phascolarctobacterium	Prevotella
+bsdb:223/3/1_HIV-infection:Intravenous-drug-abuse-HIV-patients_vs_healthy-controls_UP	NA	Lactobacillus	Streptococcus
+bsdb:223/4/1_HIV-infection:homosexual-subjects-with-HIV_vs_heterosexual-subjects-with-HIV_DOWN	NA	Prevotella	Lachnoclostridium	Phascolarctobacterium	Parabacteroides
+bsdb:223/5/1_HIV-infection:HAART-treated-HIV+-patients_vs_healthy-control_UP	NA	Escherichia	Lachnoclostridium	Shigella	Streptococcus
+bsdb:223/5/2_HIV-infection:HAART-treated-HIV+-patients_vs_healthy-control_DOWN	NA	Bacteroides	Dialister	Faecalibacterium	Megamonas	Phascolarctobacterium	Prevotella	Subdoligranulum
 bsdb:223/6/1_HIV-infection:HAART-untreated_vs_healthy-control_UP	NA	Enterococcus	Lactobacillus
 bsdb:224/1/1_diet:barley-(WGB)_vs_baseline_UP	NA	Blautia
 bsdb:224/1/2_diet:barley-(WGB)_vs_baseline_DOWN	NA	Odoribacter
 bsdb:224/3/1_diet:brown-rice-+-barley-(BR-+-WGB)_vs_baseline_UP	NA	Blautia
 bsdb:224/3/2_diet:brown-rice-+-barley-(BR-+-WGB)_vs_baseline_DOWN	NA	Bacteroides
 bsdb:225/1/1_atopic-eczema:infant-with-atopic-eczema_vs_healthy-infant_UP	NA	Enterococcus
-bsdb:226/1/1_HIV-infection:HIV-1-infected_vs_healthy-control_UP	NA	Prevotella	Megamonas	Faecalibacterium	Parasutterella	Enterococcus	Enterobacter	Catenibacterium	Butyricicoccus	Dorea
-bsdb:226/1/2_HIV-infection:HIV-1-infected_vs_healthy-control_DOWN	NA	Coprococcus	Barnesiella	Dialister	Bacteroides
-bsdb:226/2/1_HIV-infection:HIV-1-treated_vs_untreated_UP	NA	Enterococcus	Blautia	Actinomyces	Veillonella	Megamonas
-bsdb:226/2/2_HIV-infection:HIV-1-treated_vs_untreated_DOWN	NA	Prevotella	Faecalibacterium	Dialister	Alistipes	Pyramidobacter	Synergistes	Barnesiella	Oscillibacter	Odoribacter
+bsdb:226/1/1_HIV-infection:HIV-1-infected-patients_vs_healthy-controls_UP	NA	Butyricicoccus	Catenibacterium	Dorea	Enterobacter	Enterococcus	Faecalibacterium	Megamonas	Parasutterella	Prevotella
+bsdb:226/1/2_HIV-infection:HIV-1-infected-patients_vs_healthy-controls_DOWN	NA	Coprococcus	Barnesiella	Dialister	Bacteroides
+bsdb:226/2/1_HIV-infection:HAART-treated-HIV-1-patients_vs_HAART-naive-HIV-1-patients_UP	NA	Actinomyces	Blautia	Enterococcus	Megamonas	Veillonella
+bsdb:226/2/2_HIV-infection:HAART-treated-HIV-1-patients_vs_HAART-naive-HIV-1-patients_DOWN	NA	Alistipes	Barnesiella	Dialister	Faecalibacterium	Odoribacter	Oscillibacter	Prevotella	Pyramidobacter
 bsdb:227/1/2_atopic-eczema:infant-with-transient-atopic-dermatitis_vs_healthy-control_UP	NA	Bifidobacterium	Akkermansia
 bsdb:227/2/1_atopic-eczema:infants-with-persistent-atopic-dermatitis_vs_healthy-controls_UP	NA	Streptococcus
 bsdb:227/2/2_atopic-eczema:infants-with-persistent-atopic-dermatitis_vs_healthy-controls_DOWN	NA	Clostridium
@@ -945,8 +945,8 @@ bsdb:322/5/2_oral-mucositis:mucositis-lesions_vs_all-samples_DOWN	NA	Actinobacil
 bsdb:323/1/1_necrotizing-enterocolitis:NEC_vs_non-NEC_UP	NA	Clostridium	Staphylococcus
 bsdb:323/2/1_necrotizing-enterocolitis:NEC_vs_non-NEC_DOWN	NA	Arcobacter	Finegoldia	Alicyclobacillus	Actinomyces	Pseudomonas	Chryseobacterium	Comamonas	Streptococcus	Corynebacterium
 bsdb:323/3/1_necrotizing-enterocolitis:NEC_vs_non-NEC_UP	NA	Staphylococcus
-bsdb:324/1/1_thyroid-carcinoma:thyroid-carcinoma_vs_healthy-control_UP	NA	Intestinibacter	Klebsiella	Anaerostipes	Escherichia	Shigella	Coprococcus	Turicibacter	Subdoligranulum	Streptococcus	Lactobacillus
-bsdb:324/1/2_thyroid-carcinoma:thyroid-carcinoma_vs_healthy-control_DOWN	NA	Alloprevotella	Bacteroides	Lachnoclostridium	Megamonas	Phascolarctobacterium	Prevotella	Roseburia
+bsdb:324/1/1_thyroid-carcinoma:patients-with-thyroid-carcinoma_vs_healthy-controls_UP	NA	Anaerostipes	Coprococcus	Escherichia	Intestinibacter	Klebsiella	Lactobacillus	Shigella	Streptococcus	Subdoligranulum	Turicibacter	Lactococcus	Alistipes
+bsdb:324/1/2_thyroid-carcinoma:patients-with-thyroid-carcinoma_vs_healthy-controls_DOWN	NA	Alloprevotella	Bacteroides	Lachnoclostridium	Megamonas	Phascolarctobacterium	Prevotella	Roseburia
 bsdb:325/1/1_psoriasis:psoriasis_vs_healthy-controls_UP	NA	Blautia	Ruminococcus	Faecalibacterium	Bifidobacterium	Coprococcus	Mogibacterium	Dorea	Christensenella	Actinomyces	Collinsella
 bsdb:325/1/2_psoriasis:psoriasis_vs_healthy-controls_DOWN	NA	Butyricimonas	Bilophila	Odoribacter	Parabacteroides	Prevotella	Sutterella	Lachnospira	Paraprevotella
 bsdb:326/1/1_non-small-cell-lung-carcinoma,renal-cell-carcinoma:Responders_vs_Non-Responders_UP	NA	Intestinimonas	Prevotella
@@ -988,10 +988,10 @@ bsdb:337/1/1_antimicrobial-agent:3-month-old-infants-either-exposed_vs_not-expos
 bsdb:337/2/1_antimicrobial-agent:3-month-old-infants-exposed_vs_not-exposed-to-antibiotics-during-the-second-trimester_DOWN	NA	Streptococcus	Bacteroides	Veillonella	Staphylococcus
 bsdb:337/3/1_antimicrobial-agent:12-month-old-infants-either-exposed_vs_not-exposed-to-antibiotics-during-the-second-trimester_UP	NA	Veillonella	Clostridium
 bsdb:337/3/2_antimicrobial-agent:12-month-old-infants-either-exposed_vs_not-exposed-to-antibiotics-during-the-second-trimester_DOWN	NA	Akkermansia	Bacteroides	Alistipes	Veillonella	Blautia	Gemmiger	Clostridium	Lachnoclostridium
-bsdb:338/1/1_obesity:obese-children_vs_normal-weight-children_UP	NA	Faecalibacterium	Phascolarctobacterium	Lachnospira	Megamonas	Haemophilus
-bsdb:338/1/2_obesity:obese-children_vs_normal-weight-children_DOWN	NA	Oscillospira	Dialister
-bsdb:338/2/1_obesity:obese_vs_normal-weight_UP	NA	Actinobacillus	Aggregatibacter	Campylobacter	Fusobacterium	Granulicatella	Haemophilus	Lachnospira	Megamonas	Phascolarctobacterium	Rothia	Streptococcus	Sutterella	Turicibacter	Veillonella
-bsdb:338/2/2_obesity:obese_vs_normal-weight_DOWN	NA	Adlercreutzia	Alistipes	Anaerotruncus	Bifidobacterium	Bilophila	Christensenella	Clostridium	Collinsella	Defluviitalea	Desulfovibrio	Eubacterium	Hathewaya	Holdemania	Oscillospira	Oxalobacter	Prevotella	Ruminococcus	Sporobacter
+bsdb:338/1/1_obesity:obese-children_vs_normal-weight-children_UP	NA	Faecalibacterium	Haemophilus	Lachnospira	Megamonas	Phascolarctobacterium
+bsdb:338/1/2_obesity:obese-children_vs_normal-weight-children_DOWN	NA	Dialister	Oscillospira
+bsdb:338/2/1_obesity:obese-children_vs_normal-weight-children_UP	NA	Actinobacillus	Aggregatibacter	Campylobacter	Fusobacterium	Granulicatella	Haemophilus	Lachnospira	Megamonas	Phascolarctobacterium	Rothia	Streptococcus	Sutterella	Turicibacter	Veillonella
+bsdb:338/2/2_obesity:obese-children_vs_normal-weight-children_DOWN	NA	Adlercreutzia	Alistipes	Anaerotruncus	Bifidobacterium	Bilophila	Christensenella	Clostridium	Collinsella	Defluviitalea	Desulfovibrio	Eubacterium	Hathewaya	Holdemania	Oscillospira	Oxalobacter	Prevotella	Ruminococcus	Sporobacter
 bsdb:340/1/1_obesity:obese/overweight_vs_non-overweight/non-obese-children_UP	NA	Dorea
 bsdb:340/1/2_obesity:obese/overweight_vs_non-overweight/non-obese-children_DOWN	NA	Ruminococcus	Akkermansia	Parabacteroides
 bsdb:340/2/1_obesity:obese/overweight_vs_non-overweight/non-obese-children_UP	NA	Dorea
@@ -1569,12 +1569,12 @@ bsdb:574/3/2_antimicrobial-agent:azithromycin-treated-(day-60)_vs_azithromycin-t
 bsdb:574/4/1_antimicrobial-agent:azithromycin-lactulose-treated_vs_azithromycin-treated_UP	NA	Anaerostipes	Blautia	Butyricimonas	Coprobacillus	Dysgonomonas	Erysipelothrix	Megasphaera
 bsdb:574/4/2_antimicrobial-agent:azithromycin-lactulose-treated_vs_azithromycin-treated_UP	NA	Megasphaera	Sporosarcina
 bsdb:576/1/1_colorectal-cancer:adenocarcinoma_vs_contemporaneous-patients-awaiting-elective-surgery-for-nononcologic-conditions_DOWN	NA	Coprococcus
-bsdb:580/1/1_NA:HIV-_vs_HIV+_DOWN	NA	Campylobacter	Capnocytophaga	Fusobacterium	Neisseria	Oribacterium	Prevotella	Tannerella
-bsdb:580/1/2_NA:HIV-_vs_HIV+_UP	NA	Bifidobacterium	Lactobacillus	Rothia	Streptococcus	Veillonella
-bsdb:580/2/1_NA:non_smoker_vs_current_smoker_UP	NA	Alloprevotella	Bergeyella	Campylobacter	Fusobacterium	Johnsonella	Neisseria	Prevotella
-bsdb:580/2/2_NA:non_smoker_vs_current_smoker_DOWN	NA	Atopobium	Bifidobacterium	Lactobacillus	Streptococcus	Veillonella
-bsdb:580/3/1_NA:low_DLCO_vs_normal_DLCO_UP	NA	Lactobacillus	Streptococcus	Veillonella
-bsdb:580/3/2_NA:low_DLCO_vs_normal_DLCO_DOWN	NA	Alloprevotella	Capnocytophaga	Fusobacterium	Lachnoanaerobaculum	Parvimonas	Prevotella	Stomatobaculum
+bsdb:580/1/1_Human-immunodeficiency-virus:HIV+-individuals_vs_HIV-uninfected-individuals_DOWN	NA	Campylobacter	Capnocytophaga	Fusobacterium	Neisseria	Oribacterium	Prevotella	Tannerella
+bsdb:580/1/2_Human-immunodeficiency-virus:HIV+-individuals_vs_HIV-uninfected-individuals_UP	NA	Bifidobacterium	Lactobacillus	Rothia	Streptococcus	Veillonella
+bsdb:580/2/1_nicotine-dependence,smoking-behavior:HIV+-smokers_vs_HIV+-non-smokers_DOWN	NA	Alloprevotella	Bergeyella	Campylobacter	Fusobacterium	Johnsonella	Neisseria	Prevotella
+bsdb:580/2/2_nicotine-dependence,smoking-behavior:HIV+-smokers_vs_HIV+-non-smokers_UP	NA	Atopobium	Bifidobacterium	Lactobacillus	Streptococcus	Veillonella
+bsdb:580/3/1_lung-function:HIV+-patients-with-reduced-DLCO_vs_HIV+-patients-with-normal-DLCO_UP	NA	Lactobacillus	Streptococcus	Veillonella
+bsdb:580/3/2_lung-function:HIV+-patients-with-reduced-DLCO_vs_HIV+-patients-with-normal-DLCO_DOWN	NA	Alloprevotella	Capnocytophaga	Fusobacterium	Lachnoanaerobaculum	Parvimonas	Prevotella	Stomatobaculum
 bsdb:581/1/1_epilepsy:Drug-resistant-epilepsy_vs_Drug-sensitive-epilepsy_DOWN	NA	Bacteroides	Barnesiella
 bsdb:581/1/2_epilepsy:Drug-resistant-epilepsy_vs_Drug-sensitive-epilepsy_UP	NA	Roseburia	Phascolarctobacterium	Methanobrevibacter	Fusobacterium	Coprococcus	Neisseria	Akkermansia	Gemmiger	Ruminococcus	Paraprevotella	Coprobacillus	Delftia	Dorea	Holdemania	Atopobium
 bsdb:582/1/1_colorectal-cancer:CRC-patients_vs_healthy-controls_UP	NA	Fusobacterium	Parvimonas	Staphylococcus
@@ -1611,6 +1611,8 @@ bsdb:608/1/1_healthy:healthy-child-oral-50%-up_vs_none_NA	NA	Streptococcus	Rothi
 bsdb:608/2/1_healthy:healthy-child-stool-50%-up_vs_none_NA	NA	Streptococcus	Bifidobacterium	Escherichia	Veillonella	Bacteroides	Enterococcus	Clostridium	Mediterraneibacter
 bsdb:609/1/1_colorectal-cancer:CRC_vs_Healthy-Controls-(HC)_UP	NA	Akkermansia	Anaerostipes	Corynebacterium	Eggerthella	Enterococcus	Lactobacillus	Megasphaera	Parabacteroides	Parasutterella	Parvimonas	Peptostreptococcus	Porphyromonas	Selenomonas	Sutterella
 bsdb:609/1/2_colorectal-cancer:CRC_vs_Healthy-Controls-(HC)_DOWN	NA	Anaerofilum	Asaccharobacter	Blautia	Butyricicoccus	Collinsella	Faecalibacterium	Fusicatenibacter	Fusobacterium	Gemmiger	Romboutsia	Roseburia	Tyzzerella
+bsdb:610/1/1_irritable-bowl-syndrome:constipated-IBS_vs_Healthy-Control_DOWN	NA	Bifidobacterium	Eubacterium	Roseburia
+bsdb:610/1/3_irritable-bowl-syndrome:constipated-IBS_vs_Healthy-Control_DOWN	NA	Lactobacillus	Bifidobacterium
 bsdb:612/1/1_colorectal-cancer:CRC-cases_vs_control-subjects_DOWN	NA	Coprococcus
 bsdb:613/1/1_colorectal-cancer:CRC-patients_vs_healthy-individuals_DOWN	NA	Actinobacillus	Anaerostipes	Citrobacter	Clostridium	Coprococcus	Dorea	Erwinia	Faecalibacterium	Haemophilus	Lachnospira	Leptotrichia	Neisseria	Oribacterium	Phascolarctobacterium	Prevotella	Roseburia	Selenomonas	Streptococcus	Sutterella	Veillonella
 bsdb:614/1/1_colorectal-cancer:CRC_vs_Healthy-Controls_UP	NA	Prevotella	Collinsella	Odoribacter	Peptostreptococcus	Lachnoanaerobaculum
@@ -1623,8 +1625,8 @@ bsdb:618/4/1_NA:mild-dementia_vs_control,-moderate,-and-severe-dementia_UP	NA	Fa
 bsdb:620/1/1_colorectal-cancer:NA_vs_NA_NA	NA	Fusobacterium	Oribacterium
 bsdb:621/1/1_colorectal-cancer:Aspirin_vs_Placebo_UP	NA	Prevotella
 bsdb:621/1/2_colorectal-cancer:Aspirin_vs_Placebo_DOWN	NA	Veillonella
-bsdb:621/2/1_colorectal-cancer:Aspirin_vs_Placebo_UP	NA	Akkermansia	Prevotella
-bsdb:621/2/2_colorectal-cancer:Aspirin_vs_Placebo_DOWN	NA	Dorea	Parabacteroides	Bacteroides	Ruminococcus
+bsdb:621/2/1_colorectal-cancer:Aspirin_vs_Placebo_UP	NA	Akkermansia	Prevotella	Faecalibacterium
+bsdb:621/2/2_colorectal-cancer:Aspirin_vs_Placebo_DOWN	NA	Bacteroides	Dorea	Parabacteroides	Ruminococcus
 bsdb:622/1/1_colorectal-cancer:CRA-and-CRC-groups_vs_Negative-control-group_DOWN	NA	Dorea	Eubacterium	Lactobacillus	Roseburia	Clostridium	Blautia	Bifidobacterium	Actinomyces
 bsdb:622/1/2_colorectal-cancer:CRA-and-CRC-groups_vs_Negative-control-group_UP	NA	Fusobacterium	Coprococcus	Streptococcus	Enterococcus
 bsdb:623/1/1_colorectal-cancer:Patients-with-CRC-recurrence_vs_Patients-without-CRC-recurrence_UP	NA	Fusobacterium	Parvimonas	Anaerobacterium	Peptostreptococcus	Prevotella
