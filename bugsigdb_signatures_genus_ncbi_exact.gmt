@@ -1,4 +1,4 @@
-# BugSigDB 2022-07-03, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2022-07-10, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_adenoma:conventional-adenoma-cases_vs_controls_UP	NA	1654	1716	1301	162289	189330	33024	40544	1386
 bsdb:1/1/2_adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	100883
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	207244
@@ -464,7 +464,7 @@ bsdb:164/1/1_gastric-cancer:gastric-cancer_vs_controls_UP	NA	838	1301	29465	1654
 bsdb:164/1/2_gastric-cancer:gastric-cancer_vs_controls_DOWN	NA	482	848	724	836
 bsdb:165/1/1_chronic-kidney-disease:chronic-kidney-disease-patients_vs_healthy-controls_UP	NA	1283313	1485	872	407	577309
 bsdb:165/1/2_chronic-kidney-disease:chronic-kidney-disease-patients_vs_healthy-controls_DOWN	NA	239934	174708	580024	1730	209	1578	1357	1243	248038	133925	265975	577310	1427376	638847	32207	2753
-bsdb:166/1/1_chronic-kidney-disease:chronic-kidney-disease_vs_healthy-controls_UP	NA	816	561	620	375288	46255	946234	1508657	1769710	1505663	84111
+bsdb:166/1/1_chronic-kidney-disease:chronic-kidney-disease_vs_healthy-controls_UP	NA	816	84111	1505663	561	946234	375288	1508657	1769710	620	46255
 bsdb:166/1/2_chronic-kidney-disease:chronic-kidney-disease_vs_healthy-controls_DOWN	NA	1506577	102106	580596	1501226	1263	841	33042	292632	28050	2747	39948
 bsdb:167/1/1_squamous-cell-carcinoma:Stage-4_vs_healthy-controls_UP	NA	82202
 bsdb:167/3/1_squamous-cell-carcinoma:Stage-2-&-3_vs_healthy-controls_UP	NA	1730
@@ -608,8 +608,8 @@ bsdb:214/1/9_milk-allergic-reaction:children-with-milk-allergy-persistence_vs_mi
 bsdb:214/1/10_milk-allergic-reaction:children-with-milk-allergy-persistence_vs_milk-allergy-resolution_DOWN	NA	1263
 bsdb:214/1/11_milk-allergic-reaction:children-with-milk-allergy-persistence_vs_milk-allergy-resolution_UP	NA	590	547	158851
 bsdb:214/1/12_milk-allergic-reaction:children-with-milk-allergy-persistence_vs_milk-allergy-resolution_DOWN	NA	1730	572511
-bsdb:215/1/1_Eczema:infant-with-eczema_vs_healthy-control_UP	NA	239934	207244	35832	33042	872	547	216851	946234	204475	44249	375288	577309	33024	836	379	841	29465
-bsdb:215/1/2_Eczema:infant-with-eczema_vs_healthy-control_DOWN	NA	904	209879	156454	244127	1678	43668	1696	580596	1485	102106	1716	39948	189330	538	117563	724	570	1578	906	459786	838	1263	1301	40544	191303
+bsdb:215/1/1_Eczema:infants-with-eczema_vs_healthy-control-infants_UP	NA	239934	207244	35832	33042	872	547	216851	946234	204475	44249	375288	577309	33024	836	379	841	29465	561	620	1485
+bsdb:215/1/2_Eczema:infants-with-eczema_vs_healthy-control-infants_DOWN	NA	904	209879	156454	244127	1678	43668	1696	580596	1485	102106	1716	39948	189330	538	117563	724	570	1578	906	459786	838	1263	1301	40544	191303
 bsdb:216/1/1_cesarean-section:C-section_vs_vaginal-delivery_DOWN	NA	1380	1350
 bsdb:217/3/1_age:infant-at-18-months_vs_infant-at-6-months_UP	NA	848	583
 bsdb:217/3/2_age:infant-at-18-months_vs_infant-at-6-months_DOWN	NA	1678
@@ -660,8 +660,8 @@ bsdb:230/1/1_food-allergy:infant-with-food-allergy_vs_non-allergy_DOWN	NA	1243	4
 bsdb:230/1/2_food-allergy:infant-with-food-allergy_vs_non-allergy_UP	NA	1485
 bsdb:232/1/1_HIV-infection:HIV-infected-cART-negative_vs_HC_UP	NA	165779	1257	836	848
 bsdb:232/1/2_HIV-infection:HIV-infected-cART-negative_vs_HC_DOWN	NA	28050	33042	841	1730	1263	239759
-bsdb:233/1/1_HIV-infection:HIV-infected_vs_uninfected_UP	NA	838	469
-bsdb:233/1/2_HIV-infection:HIV-infected_vs_uninfected_DOWN	NA	816	572511	33042
+bsdb:233/1/1_HIV-infection:HIV-infected-subjects_vs_uninfected-controls_UP	NA	469	838
+bsdb:233/1/2_HIV-infection:HIV-infected-subjects_vs_uninfected-controls_DOWN	NA	816	572511	33042
 bsdb:236/1/1_diet:before-walnut-diet_vs_after-walnut-diet_UP	NA	207244	572511
 bsdb:236/1/2_diet:before-walnut-diet_vs_after-walnut-diet_DOWN	NA	1678
 bsdb:236/2/1_diet:carbohydrate-replacement-(with-walnuts)_vs_replace-both_DOWN	NA	204475	1407607	816
@@ -856,7 +856,6 @@ bsdb:285/1/1_multiple-sclerosis:pediatric-multiple-sclerosis_vs_healthy-controls
 bsdb:285/1/2_multiple-sclerosis:pediatric-multiple-sclerosis_vs_healthy-controls_DOWN	NA	28050	577309	816	119852
 bsdb:285/3/1_multiple-sclerosis:IMD-naive-cases-multiple-sclerosis_vs_healthy-controls_UP	NA	904	1380	1678	35832	135858	33042	872	189330	1730	158846	906	2172	119852	33024	113286	1263	40544
 bsdb:285/3/2_multiple-sclerosis:IMD-naive-cases-multiple-sclerosis_vs_healthy-controls_DOWN	NA	577309	816	1263	574697	33042	207244	40544	135858	39948	189330
-bsdb:286/1/2_Graves-ophthalmopathy:graves-orbitopathy_vs_Healthy-controls_DOWN	NA	207244	572511	574697	102106	1407607	1263
 bsdb:288/1/1_Phenylketonuria:phenylketonuric-with-Phe-restricted-diet_vs_mild-hyperphenylalaninemic-with-unrestricted-diet_DOWN	NA	841	1578
 bsdb:289/1/1_health-trait:suboptimal-health-status_vs_healthy-controls_UP	NA	59732	119852	1263	841
 bsdb:289/1/2_health-trait:suboptimal-health-status_vs_healthy-controls_DOWN	NA	581	48736	40544
@@ -972,7 +971,7 @@ bsdb:330/2/1_human-papilloma-virus-infection:HPV+_vs_HPV-_UP	NA	1578	2129
 bsdb:330/2/2_human-papilloma-virus-infection:HPV+_vs_HPV-_DOWN	NA	724	1257
 bsdb:330/3/1_human-papilloma-virus-infection:HPV+_vs_HPV-_UP	NA	150022
 bsdb:330/3/2_human-papilloma-virus-infection:HPV+_vs_HPV-_DOWN	NA	724
-bsdb:331/1/1_Hashimoto's-thyroiditis:hashimoto's-thyroiditis-patients_vs_healthy-controls_UP	NA	572511	841	1301	1407607	207244	1501226	33042	189330	292632	724	580596
+bsdb:331/1/1_Hashimoto's-thyroiditis:hashimoto's-thyroiditis-patients_vs_healthy-controls_UP	NA	207244	572511	580596	33042	189330	1407607	724	1501226	841	1301	292632	1485
 bsdb:331/1/2_Hashimoto's-thyroiditis:hashimoto's-thyroiditis-patients_vs_healthy-controls_DOWN	NA	816	216851	838	1283313	33024	1506553	375288	577309	1154586
 bsdb:333/1/1_antimicrobial-agent:infants-with-(Abx)_vs_without-(non-Abx)-use-of-maternal-antimicrobial-agents-at-delivery_DOWN	NA	1678
 bsdb:334/1/1_antimicrobial-agent:infants(14-d-old)-exposed-to-prenatal-antibiotic-therapy-(PAT-group)_vs_prenatal-antibiotic-free-group-(PAF-group)_UP	NA	1618113
@@ -1060,7 +1059,7 @@ bsdb:361/4/1_air-pollution:mice-exposed-to-smoke_vs_control_UP	NA	816	459786
 bsdb:361/4/2_air-pollution:mice-exposed-to-smoke_vs_control_DOWN	NA	239759
 bsdb:363/1/1_smoking-behavior:current-smokers_vs_never-smokers_UP	NA	32207	1301	1380	906	1716	346096	109326	195950	44259	2093
 bsdb:363/1/2_smoking-behavior:current-smokers_vs_never-smokers_DOWN	NA	2740	1016	482	2717	47670	1257	43996	848	1283313	836	1164882	32067	265975	1730	194	123375	724	1213720	1378
-bsdb:364/1/1_smoking-behavior:smoker_vs_non-smoker_UP	NA	1654	29465
+bsdb:364/1/1_smoking-behavior:smokers_vs_non-smokers_UP	NA	1654	29465
 bsdb:365/1/1_Methionine-measurement:mice-fed-American-Diet_vs_mice-fed-control-rodent-diet._UP	NA	33042	119852	1263	1386	1357
 bsdb:365/1/2_Methionine-measurement:mice-fed-American-Diet_vs_mice-fed-control-rodent-diet._DOWN	NA	1485	838
 bsdb:366/1/1_non-alcoholic-fatty-liver-disease:nonalcoholic-fatty-liver-disease_vs_healthy-controls_UP	NA	1578	588605	841	189330
@@ -1195,10 +1194,8 @@ bsdb:412/2/1_methamphetamine-dependence:Methamphetamine-users_vs_non-users_UP	NA
 bsdb:412/2/2_methamphetamine-dependence:Methamphetamine-users_vs_non-users_DOWN	NA	580596	216851	1283313
 bsdb:412/3/1_methamphetamine-dependence:MSM-who-tested-positive-on-MA-urine-drug-screening_vs_MSM-who-did-not-test-positive-on-MA-urine-drug-screening_UP	NA	1161127	37914	1730	150022	162289	836	848	86331	1257	1716	165779
 bsdb:412/3/2_methamphetamine-dependence:MSM-who-tested-positive-on-MA-urine-drug-screening_vs_MSM-who-did-not-test-positive-on-MA-urine-drug-screening_DOWN	NA	216851	1485	1578	1313210	83770
-bsdb:412/4/1_HIV-infection,methamphetamine-dependence:HIV-positive-men-who-have-sex-with-men-who-tested-positive-in-a-methamphetamine-drug-screening_vs_HIV-positive-men-who-have-sex-with-men-who-did-not-test-positive-in-a-methamphetamine-drug-screening_UP	NA	34104
-bsdb:412/4/2_HIV-infection,methamphetamine-dependence:HIV-positive-men-who-have-sex-with-men-who-tested-positive-in-a-methamphetamine-drug-screening_vs_HIV-positive-men-who-have-sex-with-men-who-did-not-test-positive-in-a-methamphetamine-drug-screening_DOWN	NA	846
-bsdb:412/5/1_HIV-infection,methamphetamine-dependence:HIV-negative-MSM-who-tested-positive-in-a-MA-drug-screening_vs_HIV-negative-MSM-who-did-not-test-positive-in-a-MA-drug-screening_UP	NA	1485
-bsdb:412/5/2_HIV-infection,methamphetamine-dependence:HIV-negative-MSM-who-tested-positive-in-a-MA-drug-screening_vs_HIV-negative-MSM-who-did-not-test-positive-in-a-MA-drug-screening_DOWN	NA	292632	117563	397864	34104	168808
+bsdb:412/4/1_methamphetamine-dependence:HIV-positive-men-who-have-sex-with-men-who-tested-positive-in-a-methamphetamine-drug-screening_vs_HIV-positive-men-who-have-sex-with-men-who-did-not-test-positive-in-a-methamphetamine-drug-screening_UP	NA	34104
+bsdb:412/4/2_methamphetamine-dependence:HIV-positive-men-who-have-sex-with-men-who-tested-positive-in-a-methamphetamine-drug-screening_vs_HIV-positive-men-who-have-sex-with-men-who-did-not-test-positive-in-a-methamphetamine-drug-screening_DOWN	NA	846
 bsdb:413/1/1_obsessive-compulsive-disorder:OCD_vs_healthy-controls_DOWN	NA	119852	283168	207244
 bsdb:414/1/1_epilepsy:before-keto-diet_vs_after-keto-diet_UP	NA	1678	39948
 bsdb:414/1/2_epilepsy:before-keto-diet_vs_after-keto-diet_DOWN	NA	561
@@ -1231,6 +1228,7 @@ bsdb:428/2/2_COVID-19:Recovered-COVID-19-cases_vs_Healthy-controls_DOWN	NA	29263
 bsdb:428/3/1_COVID-19:Recovered-COVID-19-cases_vs_Healthy-controls_UP	NA	375288
 bsdb:428/3/2_COVID-19:Recovered-COVID-19-cases_vs_Healthy-controls_DOWN	NA	292632
 bsdb:428/4/2_COVID-19:COVID-19-patients-treated-with-antibiotics_vs_Healthy-controls_UP	NA	100883
+bsdb:429/1/1_gastric-cancer:gastric-cancer-patients_vs_healthy-controls_UP	NA	1301
 bsdb:431/1/1_cervical-glandular-intraepithelial-neoplasia:persistent-HPV+-with-HSIL_vs_persistent-HPV+-with-LSIL_DOWN	NA	222	283	1079922	162290	2745	1357	1243	68	149698	407	1839	265	33024	1522432	286	207599	152161	84036	270
 bsdb:431/3/1_cervical-glandular-intraepithelial-neoplasia:transient-HPV+-with-LSIL_vs_HPV-_DOWN	NA	168808	177971	29465	906	46913	2701
 bsdb:431/4/1_cervical-glandular-intraepithelial-neoplasia:persistent-HPV+-with-HSIL_vs_HPV-_DOWN	NA	906	1257	177971	168808
@@ -1464,8 +1462,8 @@ bsdb:518/1/1_endometriosis:Stage-3/4-endometriosis-patients_vs_Healthy-controls_
 bsdb:518/1/2_endometriosis:Stage-3/4-endometriosis-patients_vs_Healthy-controls_DOWN	NA	28050	283168	577310	1508657	40544
 bsdb:519/1/1_endometriosis:Endo-mice_vs_Non-endo-mice_UP	NA	816
 bsdb:520/1/1_endometriosis:Stage-3/4-Endometriosis-patients_vs_Stage-1/2-Endometriosis-patients_UP	NA	165779
-bsdb:521/1/1_endometriosis:Stage-3/4-endometriosis-patients_vs_Surgical-controls_DOWN	NA	1743	32207	1654
-bsdb:521/1/2_endometriosis:Stage-3/4-endometriosis-patients_vs_Surgical-controls_UP	NA	469	286	1301	212791
+bsdb:521/1/1_endometriosis:Stage-3/4-endometriosis-patients_vs_Surgical-controls_DOWN	NA	1654	1743	32207
+bsdb:521/1/2_endometriosis:Stage-3/4-endometriosis-patients_vs_Surgical-controls_UP	NA	469	212791	286	1301
 bsdb:522/4/1_endometriosis:Endometriosis-patients_vs_Controls-undergoing-laparoscopic-surgery-for-benign-tumors_UP	NA	33986	1485
 bsdb:522/5/1_endometriosis:Endometriosis-patients_vs_Controls-undergoing-laparoscopic-surgery-for-benign-tumors_UP	NA	1485
 bsdb:523/1/1_endometriosis:Endo-mice_vs_Non-endo-mice_DOWN	NA	816	572511	1578	841	1506577	1573534	1432051	644652	207244
@@ -1486,8 +1484,8 @@ bsdb:529/1/1_rheumatoid-arthritis,osteoarthritis:arthritis-patient_vs_healthy-co
 bsdb:529/1/2_rheumatoid-arthritis,osteoarthritis:arthritis-patient_vs_healthy-controls_DOWN	NA	469	59732	286	212791	40323	13687	343873	816	283	13159
 bsdb:529/2/1_EFO:0000685:rheumatoid-arthritis_vs_Osteoarthritis_UP	NA	713	416916	848	29465	838	724	482
 bsdb:529/2/2_EFO:0000685:rheumatoid-arthritis_vs_Osteoarthritis_DOWN	NA	1301	1654	47670	32207	117563	1263	265975	46123
-bsdb:532/1/1_rheumatoid-arthritis:rheumatoid-arthritis-patient_vs_healthy-controls_UP	NA	1654	84111	551	1730	1301	191303
-bsdb:532/1/2_rheumatoid-arthritis:rheumatoid-arthritis-patient_vs_healthy-controls_DOWN	NA	216851
+bsdb:532/1/1_rheumatoid-arthritis:rheumatoid-arthritis-patients_vs_healthy-controls_UP	NA	1654	84111	551	1730	1301	191303
+bsdb:532/1/2_rheumatoid-arthritis:rheumatoid-arthritis-patients_vs_healthy-controls_DOWN	NA	216851
 bsdb:535/2/1_antimicrobial-agent:Antibiotic-treated_vs_Antibiotic-untreated_DOWN	NA	572511	216851
 bsdb:535/2/2_antimicrobial-agent:Antibiotic-treated_vs_Antibiotic-untreated_UP	NA	1578	86331	437755	162289	172900	46255
 bsdb:535/3/1_antimicrobial-agent:Antibiotic-treated_vs_Antibiotic-untreated_DOWN	NA	904	830	28050
@@ -1622,7 +1620,7 @@ bsdb:618/2/1_Dementia:Patients-with-dementia_vs_Controls-without-cognitive-impai
 bsdb:618/2/2_Dementia:Patients-with-dementia_vs_Controls-without-cognitive-impairments_DOWN	NA	1766253
 bsdb:618/3/1_NA:moderate-dementia_vs_control,-mild,-and-severe-dementia_UP	NA	1578	1508657
 bsdb:618/4/1_NA:mild-dementia_vs_control,-moderate,-and-severe-dementia_UP	NA	216851	1407607
-bsdb:620/1/1_colorectal-cancer:NA_vs_NA_NA	NA	848	265975
+bsdb:620/1/1_colorectal-cancer:Invasive-cancer-group_vs_Early-cancer-group_UP	NA	848
 bsdb:621/1/1_colorectal-cancer:Aspirin_vs_Placebo_UP	NA	838
 bsdb:621/1/2_colorectal-cancer:Aspirin_vs_Placebo_DOWN	NA	29465
 bsdb:621/2/1_colorectal-cancer:Aspirin_vs_Placebo_UP	NA	239934	838	216851
@@ -1647,12 +1645,48 @@ bsdb:637/3/1_colorectal-cancer:CRC_vs_CRA_UP	NA	416916	165779	194	1016	501783	28
 bsdb:637/3/2_colorectal-cancer:CRC_vs_CRA_DOWN	NA	572511	204475	1301	338	158846	173479
 bsdb:639/1/1_socioeconomic-status:NA_vs_NA_UP	NA	816	375288	1263
 bsdb:639/1/2_socioeconomic-status:NA_vs_NA_DOWN	NA	838	1263
-bsdb:642/2/1_socioeconomic-status:Orang-Asli-Children-(low-SES,-household-income<RM500)_vs_Chinese-Children-(High-SES,-household-income->RM500)_UP	NA	1263
 bsdb:642/2/2_socioeconomic-status:Orang-Asli-Children-(low-SES,-household-income<RM500)_vs_Chinese-Children-(High-SES,-household-income->RM500)_DOWN	NA	239759
-bsdb:642/3/1_socioeconomic-status:Orang-Asli-children-(low-SES,-household-income-<RM500)_vs_Malays-children-(Moderate-SES,-household-income-=>RM500)_UP	NA	1263
 bsdb:643/1/1_colorectal-cancer:yCRC_vs_yControl_UP	NA	1654	946234	848	283168	29465
 bsdb:643/1/2_colorectal-cancer:yCRC_vs_yControl_DOWN	NA	1766253	207244	572511	580596	1485	39948	561	724	570	158846	577310	1501226	620
 bsdb:643/2/1_colorectal-cancer:oCRC_vs_oControls_DOWN	NA	1766253	207244	35832	572511	580596	1485	102106	33042	216851	1407607	28050	2039302	577310	33024	1501226	841	1263	292632
 bsdb:643/2/2_colorectal-cancer:oCRC_vs_oControls_UP	NA	561	41275	84111	724	1649459	1506553	1505663	1257	1378	543311	848	1301	620
 bsdb:644/2/1_colorectal-cancer:colorectal-cancer_vs_healthy-controls_UP	NA	119852
 bsdb:644/3/1_colorectal-cancer:colorectal-cancer_vs_colorectal-adenoma_UP	NA	119852
+bsdb:644/5/2_colorectal-cancer:colorectal-cancer_vs_adenoma-adjacent_UP	NA	119852
+bsdb:644/9/1_colorectal-cancer:carcinoma-adjacent_vs_colorectal-adenoma_UP	NA	119852
+bsdb:646/1/1_Colorectal-adenoma:Non-adenoma_vs_Adenoma_UP	NA	86331	40544	35832
+bsdb:646/1/2_Colorectal-adenoma:Non-adenoma_vs_Adenoma_DOWN	NA	1485	29465	724
+bsdb:647/1/1_Ethnic-group:Black-Women_vs_White-Women_UP	NA	816
+bsdb:647/1/2_Ethnic-group:Black-Women_vs_White-Women_UP	NA	816
+bsdb:648/1/1_Ethnic-group:Gut-microbiome-of-African-American-children-(AA)_vs_Gut-microbiome-of-European-American-children-(EA)_UP	NA	244127	872	248744	846	838	1473205	84108
+bsdb:648/2/1_Ethnic-group:Oral-microbiota-of-African-American-children-(AA)_vs_Oral-microbiota-of-European-American-children-(EA)_UP	NA	1301
+bsdb:648/2/2_Ethnic-group:Oral-microbiota-of-African-American-children-(AA)_vs_Oral-microbiota-of-European-American-children-(EA)_DOWN	NA	830	1016	848	724	838
+bsdb:648/3/1_Socioeconomic-status:Household-income-(EA-&-AA)-<-$50,000._vs_Household-income-(EA-&-AA)-=>$50,000._UP	NA	33024
+bsdb:648/3/2_Socioeconomic-status:Household-income-(EA-&-AA)-<-$50,000._vs_Household-income-(EA-&-AA)-=>$50,000._DOWN	NA	1573534
+bsdb:648/4/1_Socioeconomic-status:Household-income-(EA-&-AA)-<-$50,000._vs_Household-income-(EA-&-AA)-=>$50,000._UP	NA	1301
+bsdb:650/1/1_socioeconomic-status:66-children-of-low-SES_vs_74-children-of-high-SES_UP	NA	838	135858	216851	1573535	292632	561	620
+bsdb:650/1/2_socioeconomic-status:66-children-of-low-SES_vs_74-children-of-high-SES_DOWN	NA	102106	1678	572511	133925
+bsdb:651/1/1_colorectal-cancer:CRC-patients-(swp)_vs_Healthy-volunteers-(swc)_DOWN	NA	207244	135858	216851	572511	2701	1678	28050
+bsdb:651/1/2_colorectal-cancer:CRC-patients-(swp)_vs_Healthy-volunteers-(swc)_UP	NA	43996	848	1378	570	86331	1257	836	970	44259
+bsdb:651/2/1_colorectal-cancer:cancerous-tissue-(cat)_vs_paracancerous-tissue-(pa10t)_DOWN	NA	1386	577309	33024	375288	216851	407	50709
+bsdb:651/3/1_colorectal-cancer:cancerous-tissue-(cat)_vs_paracancerous-tissue-(pa2t)_DOWN	NA	528
+bsdb:651/4/1_colorectal-cancer:CRC-patients-(stp)_vs_Healthy-volunteers-(stc)_UP	NA	165779	244127	102106	1730	86331	84108	577309	872	836	1257
+bsdb:652/1/1_intramucosal-CRC:Intramucosal-CRC_vs_Healthy_DOWN	NA	158846	165695
+bsdb:652/1/2_intramucosal-CRC:Intramucosal-CRC_vs_Healthy_UP	NA	713	848	543311	1257	1654
+bsdb:652/2/1_intramucosal-CRC:Intramucosal-CRC_vs_CRA-(colorectal-adenoma)_UP	NA	574697	102106	52225	283
+bsdb:652/2/2_intramucosal-CRC:Intramucosal-CRC_vs_CRA-(colorectal-adenoma)_DOWN	NA	158846
+bsdb:652/2/3_intramucosal-CRC:Intramucosal-CRC_vs_CRA-(colorectal-adenoma)_UP	NA	102106
+bsdb:652/2/4_intramucosal-CRC:Intramucosal-CRC_vs_CRA-(colorectal-adenoma)_DOWN	NA	29465
+bsdb:652/3/1_Colorectal-adenoma:CRA-(colorectal-adenoma)_vs_Healthy_DOWN	NA	140625	574697	590	283
+bsdb:652/3/2_Colorectal-adenoma:CRA-(colorectal-adenoma)_vs_Healthy_UP	NA	1380	543311	848
+bsdb:653/1/1_colorectal-cancer:Individuals-with-CRC_vs_Healthy-Controls_UP	NA	39948	848	1378	543311	1257	123375	1301
+bsdb:653/1/2_colorectal-cancer:Individuals-with-CRC_vs_Healthy-Controls_UP	NA	1654	117563	29465	724
+bsdb:654/1/1_Ethnic-group:Asian-Pacific_vs_Caucasians_UP	NA	29465
+bsdb:654/1/2_Ethnic-group:Asian-Pacific_vs_Caucasians_DOWN	NA	283168
+bsdb:654/2/1_Ethnic-group:Hispanic_vs_Caucasians_UP	NA	283168	29465
+bsdb:654/3/1_Ethnic-group:African-Americans_vs_Caucasians_UP	NA	29465	283168
+bsdb:654/4/1_Ethnic-group:Asian-Pacific_vs_Caucasians_UP	NA	29465
+bsdb:654/4/2_Ethnic-group:Asian-Pacific_vs_Caucasians_DOWN	NA	283168
+bsdb:654/5/1_Ethnic-group:Hispanics_vs_Caucasians_UP	NA	29465
+bsdb:654/5/2_Ethnic-group:Hispanics_vs_Caucasians_DOWN	NA	283168
+bsdb:654/6/1_Ethnic-group:African-Americans_vs_Caucasians_UP	NA	29465	283168
