@@ -1,4 +1,4 @@
-# BugSigDB 2022-07-17, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2022-07-24, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_adenoma:conventional-adenoma-cases_vs_controls_UP	NA	1654	1716	1301	162289	189330	33024	40544	1386
 bsdb:1/1/2_adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	100883
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	207244
@@ -156,10 +156,10 @@ bsdb:55/1/1_stimulus-or-stress-design:grid-floor-induced-stress_vs_control_UP	NA
 bsdb:56/1/1_type-II-diabetes-mellitus:Healthy-baby-meconium_vs_adult-stool_UP	NA	283	561	570	583	620
 bsdb:56/2/1_gestational-diabetes:Baby-meconium-with-GDM-mothers_vs_Healthy-baby-meconium_DOWN	NA	507	106589	283	80865	40323
 bsdb:56/3/1_type-II-diabetes-mellitus:Baby-meconium-with-DM-mothers_vs_Healthy-baby-meconium_UP	NA	904	267408	1380	1678	574697	135858	102106	33042	39948	189330	156973	1730	1378	2053	61170	57493	33882	88138	459786	375288	162291	836	838	841	125216	1263	191303
-bsdb:57/1/1_inflammatory-bowel-disease:irritable-bowel-syndrome_vs_control_UP	NA	838	1485	79206	1257	507	32008	482
-bsdb:57/1/2_inflammatory-bowel-disease:irritable-bowel-syndrome_vs_control_DOWN	NA	1716	1743	1301	13687	286
-bsdb:57/2/1_inflammatory-bowel-disease:overweight-irritabe-bowel-syndrome_vs_control_UP	NA	1716	1678	1380	133925	1386	162291	1578	113286	265975	177971	39948	906	970	92793	80865	194	286	157	838	1279
-bsdb:57/2/2_inflammatory-bowel-disease:overweight-irritabe-bowel-syndrome_vs_control_DOWN	NA	396388	59732	109244	670486	1378	1301	482	724	838	1279
+bsdb:57/1/1_irritable-bowel-syndrome:irritable-bowel-syndrome_vs_control_UP	NA	838	1485	79206	1257	507	32008	482
+bsdb:57/1/2_irritable-bowel-syndrome:irritable-bowel-syndrome_vs_control_DOWN	NA	1716	1743	1301	13687	286
+bsdb:57/2/1_irritable-bowel-syndrome:overweight-irritable-bowel-syndrome_vs_control_UP	NA	1716	1678	1380	133925	1386	162291	1578	113286	265975	177971	39948	906	970	92793	80865	194	286	157	838	1279
+bsdb:57/2/2_irritable-bowel-syndrome:overweight-irritable-bowel-syndrome_vs_control_DOWN	NA	396388	59732	109244	670486	1378	1301	482	724	838	1279
 bsdb:58/1/1_high-fat-diet:newborns-of-maternal-high-fat-diet_vs_nebowrns-of-maternal-control_UP	NA	1357	117563	1350
 bsdb:58/1/2_high-fat-diet:newborns-of-maternal-high-fat-diet_vs_nebowrns-of-maternal-control_DOWN	NA	40544	375288	816	283
 bsdb:58/2/1_high-fat-diet:6-months-babies-of-maternal-high-fat-diet_vs_6-months-babies-control_UP	NA	1301	561
@@ -485,10 +485,10 @@ bsdb:170/2/2_lung-cancer:paired-contralateral-non-cancerous-site_vs_controls_DOW
 bsdb:170/3/1_lung-cancer:cancerous-site_vs_paired-contralateral-non-cancerous-site_UP	NA	39948
 bsdb:170/4/1_lung-cancer:cacerous-site-with-no-antibiotics_vs_control-groups-with-no-antibiotics_UP	NA	1016
 bsdb:170/4/2_lung-cancer:cacerous-site-with-no-antibiotics_vs_control-groups-with-no-antibiotics_DOWN	NA	1279	265
-bsdb:171/1/1_digestive-system-cancer:digestive-track-cancers_vs_controls_UP	NA	1716	482	29465	848
-bsdb:171/1/2_digestive-system-cancer:digestive-track-cancers_vs_controls_DOWN	NA	838	836	32207
-bsdb:171/2/1_tongue-neoplasm:tongue/pharylgeal-cancer_vs_controls_UP	NA	482	1716	838	32067	1301
-bsdb:171/2/2_tongue-neoplasm:tongue/pharylgeal-cancer_vs_controls_DOWN	NA	482	1301
+bsdb:171/1/1_digestive-system-cancer:digestive-tract-cancer-patients_vs_controls_UP	NA	1716	848	482	29465
+bsdb:171/1/2_digestive-system-cancer:digestive-tract-cancer-patients_vs_controls_DOWN	NA	836	838	32207
+bsdb:171/2/1_tongue-neoplasm:tongue/pharyngeal-cancer-patients_vs_controls_UP	NA	1716	32067	482	838
+bsdb:171/2/2_tongue-neoplasm:tongue/pharyngeal-cancer-patients_vs_controls_DOWN	NA	1301
 bsdb:171/3/1_esophageal-cancer:esophageal-cancer_vs_controls_UP	NA	1716	482
 bsdb:171/3/2_esophageal-cancer:esophageal-cancer_vs_controls_DOWN	NA	1654	1301
 bsdb:171/4/1_colorectal-cancer:colorectal-cancer_vs_controls_UP	NA	1716	482
@@ -685,12 +685,11 @@ bsdb:242/1/2_Iron-deficiency-anemia:iron-deficiency-anemia_vs_healthy-control_DO
 bsdb:242/2/1_Iron-deficiency-anemia:iron-deficiency-anemia_vs_healthy-control_UP	NA	1357	286	1350	475	57493
 bsdb:242/2/2_Iron-deficiency-anemia:iron-deficiency-anemia_vs_healthy-control_DOWN	NA	194	2717	32207	416916	215579	1016	482	1716
 bsdb:242/3/1_Iron-deficiency-anemia:iron-deficiency-anemia-severe_vs_iron-deficiency-anemia-moderate_UP	NA	57493	1111	1279	475	1350	286	1357
-bsdb:243/1/1_gastric-cancer:current-H.pyloriI-infection_vs_non-current-H.pylori-infection_UP	NA	1378
-bsdb:243/1/2_gastric-cancer:current-H.pyloriI-infection_vs_non-current-H.pylori-infection_DOWN	NA	12916	1827
-bsdb:243/2/1_gastric-cancer:current-H.pyloriI-infection_vs_past-H.pylori-infection_UP	NA	40544	838
-bsdb:243/3/1_gastric-cancer:past-H.pylori-infection_vs_H.pylori-negative_DOWN	NA	375288
-bsdb:243/4/1_gastric-cancer:gastritis_vs_normal_UP	NA	189330	216851	244127	1301	191303	561	620
-bsdb:243/5/1_gastric-cancer:metaplasia_vs_normal_UP	NA	1506553	189330	1501226	39948	191303
+bsdb:243/1/1_gastric-cancer:current-H.pylori-infection_vs_non-current-H.pylori-infection_UP	NA	1378
+bsdb:243/1/2_gastric-cancer:current-H.pylori-infection_vs_non-current-H.pylori-infection_DOWN	NA	12916	1827
+bsdb:243/2/1_gastric-cancer:current-H.pylori-infection-patients_vs_past-H.pylori-infection_UP	NA	838	40544
+bsdb:243/4/1_gastric-cancer:gastritis-cases_vs_normal_UP	NA	244127	189330	561	216851	620	1301	191303
+bsdb:243/5/1_gastric-cancer:subjects-with-metaplasia_vs_normal_UP	NA	39948	189330	1506553	1501226	191303
 bsdb:244/1/3_age:18-62-years_vs_2-12-years_UP	NA	1743	1716	1279	1578	150022	165779
 bsdb:244/1/4_age:18-62-years_vs_2-12-years_DOWN	NA	32207	1301	117563	1378	724
 bsdb:244/2/1_atopic-eczema:lesional-skin_vs_non-lesional-skin_UP	NA	1279
@@ -765,19 +764,19 @@ bsdb:257/1/2_colorectal-cancer:colorectal-cancer_vs_healthy-control_DOWN	NA	1588
 bsdb:258/1/1_colorectal-cancer:carcinoma_vs_healthy-control_UP	NA	848	836
 bsdb:258/1/2_colorectal-cancer:carcinoma_vs_healthy-control_DOWN	NA	816
 bsdb:260/1/2_food-allergy:allergic_vs_nonallergic_DOWN	NA	816
-bsdb:262/1/1_atopic-asthma:nasal-brush_vs_bronchial-brush-specimen-type_UP	NA	1716	1279	1651	475
-bsdb:262/1/2_atopic-asthma:nasal-brush_vs_bronchial-brush-specimen-type_DOWN	NA	1654	836	838	1301	32067
-bsdb:262/2/1_atopic-asthma:oral-wash_vs_bronchial-brush-specimen-type_UP	NA	1654	1301	32067
-bsdb:262/2/2_atopic-asthma:oral-wash_vs_bronchial-brush-specimen-type_DOWN	NA	1716	838	475	1279
-bsdb:262/3/1_atopic-asthma:induced-sputum_vs_nasal-brush-specimen-type_UP	NA	1654	836	838	1301	32067
-bsdb:262/3/2_atopic-asthma:induced-sputum_vs_nasal-brush-specimen-type_DOWN	NA	1716	1279	1651	475
-bsdb:262/4/1_atopic-asthma:oral-wash_vs_nasal-brush-specimen-type_UP	NA	1654	836	838	1301	32067
-bsdb:262/4/2_atopic-asthma:oral-wash_vs_nasal-brush-specimen-type_DOWN	NA	1716	1279	1651	475
-bsdb:262/5/1_atopic-asthma:oral-wash_vs_induced-sputum-specimen-type_UP	NA	1654
-bsdb:262/5/2_atopic-asthma:oral-wash_vs_induced-sputum-specimen-type_DOWN	NA	1716	838	1279
-bsdb:262/6/1_atopic-asthma:induced-sputum_vs_bronchial-brush-specimen-type_UP	NA	1301	32067
-bsdb:262/7/1_atopic-asthma:atopic-asthma_vs_healthy-control_UP	NA	482	848	838	724
-bsdb:262/7/2_atopic-asthma:atopic-asthma_vs_healthy-control_DOWN	NA	1301
+bsdb:262/1/1_atopic-asthma:nasal-brush-speciments_vs_bronchial-brush-specimens_UP	NA	1651	1716	475	1279
+bsdb:262/1/2_atopic-asthma:nasal-brush-speciments_vs_bronchial-brush-specimens_DOWN	NA	1654	32067	836	838	1301
+bsdb:262/2/1_atopic-asthma:oral-wash-specimens_vs_bronchial-brush-specimens_UP	NA	1654	32067	1301
+bsdb:262/2/2_atopic-asthma:oral-wash-specimens_vs_bronchial-brush-specimens_DOWN	NA	1716	475	838	1279
+bsdb:262/3/1_atopic-asthma:induced-sputum-specimens_vs_nasal-brush-specimens_UP	NA	1654	32067	836	838	1301
+bsdb:262/3/2_atopic-asthma:induced-sputum-specimens_vs_nasal-brush-specimens_DOWN	NA	1651	1716	475	1279
+bsdb:262/4/1_atopic-asthma:oral-wash-specimens_vs_nasal-brush-specimens_UP	NA	1654	32067	836	838	1301
+bsdb:262/4/2_atopic-asthma:oral-wash-specimens_vs_nasal-brush-specimens_DOWN	NA	1651	1716	475	1279
+bsdb:262/5/1_atopic-asthma:oral-wash-specimens_vs_induced-sputum-specimens_UP	NA	1654
+bsdb:262/5/2_atopic-asthma:oral-wash-specimens_vs_induced-sputum-specimens_DOWN	NA	1716	838	1279
+bsdb:262/6/1_atopic-asthma:induced-sputum-specimens_vs_bronchial-brush-specimens_UP	NA	32067	1301
+bsdb:262/7/1_atopic-asthma:atopic-asthma-subjects_vs_healthy-controls_UP	NA	848	724	482	838
+bsdb:262/7/2_atopic-asthma:atopic-asthma-subjects_vs_healthy-controls_DOWN	NA	1301
 bsdb:263/1/1_Crohn's-disease:chron's-disease_vs_healthy-controls_UP	NA	1654	572511	84111	1573536	1378	1505657	32207	1301
 bsdb:263/1/2_Crohn's-disease:chron's-disease_vs_healthy-controls_DOWN	NA	553372	1485	33042	216851	1407607	204475	28050	86331	459786	1501226	1263	44748	292632	191303
 bsdb:263/2/1_ulcerative-colitis:ulcerative-colitis_vs_healthy-controls_UP	NA	1654	264995	1678	84111	1573536	1378	1301
@@ -1411,7 +1410,8 @@ bsdb:494/1/1_type-II-diabetes-mellitus:Individuals-diagnosed-with-Type-2-Diabete
 bsdb:494/1/2_type-II-diabetes-mellitus:Individuals-diagnosed-with-Type-2-Diabetes-Mellitus_vs_Healthy-controls_UP	NA	189330	848	1301
 bsdb:495/1/1_type-II-diabetes-mellitus:Individuals-diagnosed-with-Type-2-Diabetes-Mellitus_vs_Healthy-controls_UP	NA	1283313	906	838
 bsdb:495/1/2_type-II-diabetes-mellitus:Individuals-diagnosed-with-Type-2-Diabetes-Mellitus_vs_Healthy-controls_DOWN	NA	816	577309
-bsdb:495/2/1_prediabetes-syndrome:Individuals-with-Prediabetes-(PreDM)_vs_Healthy-controls_UP	NA	906
+bsdb:495/2/1_prediabetes-syndrome:Individuals-with-Prediabetes-(PreDM)_vs_Healthy-controls_UP	NA	906	724
+bsdb:495/2/2_prediabetes-syndrome:Individuals-with-Prediabetes-(PreDM)_vs_Healthy-controls_DOWN	NA	209
 bsdb:495/3/1_type-II-diabetes-mellitus:Individuals-diagnosed-with-Type-2-Diabetes-Mellitus_vs_Individuals-with-Prediabetes-(PreDM)_DOWN	NA	816
 bsdb:496/1/1_COVID-19:COVID-19-patients_vs_Healthy-controls_UP	NA	1654	174708	165779	1380	1678	118747	1485	1716	84111	1350	561	209	1578	437755	265975	583	32207	196081	177971	1301	29465
 bsdb:496/1/2_COVID-19:COVID-19-patients_vs_Healthy-controls_DOWN	NA	239759	207244	32008	574697	1485	283	33042	106589	189330	216851	61170	28050	482	283168	119852	375288	838	48736	841	1263	40544	172900	629
@@ -1629,14 +1629,12 @@ bsdb:621/1/1_colorectal-cancer:Aspirin_vs_Placebo_UP	NA	838
 bsdb:621/1/2_colorectal-cancer:Aspirin_vs_Placebo_DOWN	NA	29465
 bsdb:621/2/1_colorectal-cancer:Aspirin_vs_Placebo_UP	NA	239934	838	216851
 bsdb:621/2/2_colorectal-cancer:Aspirin_vs_Placebo_DOWN	NA	816	189330	375288	1263
-bsdb:622/1/1_colorectal-cancer:CRA-and-CRC-groups_vs_Negative-control-group_DOWN	NA	189330	1730	1578	841	1485	572511	1678	1654
-bsdb:622/1/2_colorectal-cancer:CRA-and-CRC-groups_vs_Negative-control-group_UP	NA	848	33042	1301	1350
 bsdb:623/1/1_colorectal-cancer:Patients-with-CRC-recurrence_vs_Patients-without-CRC-recurrence_UP	NA	848	543311	1486725	1257	838
 bsdb:623/1/2_colorectal-cancer:Patients-with-CRC-recurrence_vs_Patients-without-CRC-recurrence_DOWN	NA	40323	29465
-bsdb:625/1/1_Socioeconomic-status:NA_vs_NA_UP	NA	207244	1730	216851
-bsdb:625/1/2_Socioeconomic-status:NA_vs_NA_DOWN	NA	816
-bsdb:628/1/1_healthy:lower-SES_vs_Higher-SES_UP	NA	838
-bsdb:628/1/2_healthy:lower-SES_vs_Higher-SES_DOWN	NA	816
+bsdb:625/1/1_Socioeconomic-status:High-SES_vs_NA_UP	NA	207244	1730	216851
+bsdb:625/1/2_Socioeconomic-status:High-SES_vs_NA_DOWN	NA	816
+bsdb:628/1/1_Socioeconomic-status:Low-SES_vs_High-SES_UP	NA	838
+bsdb:628/1/2_Socioeconomic-status:Low-SES_vs_High-SES_DOWN	NA	816
 bsdb:632/1/1_healthy:298_vs_NA_UP	NA	239934	1678	1578	906
 bsdb:632/1/2_healthy:298_vs_NA_DOWN	NA	33042	119852	375288	838	1279	1301
 bsdb:632/2/1_healthy:298_vs_NA_UP	NA	239934	1678	33042	216851	838	1279	29465
@@ -1644,7 +1642,7 @@ bsdb:632/2/2_healthy:298_vs_NA_DOWN	NA	816	1263	1301
 bsdb:637/1/1_colorectal-cancer:CRC_vs_Healthy-Individuals_UP	NA	165779	43668	207244	374	501783	1378	1269	482	53335	286	497	1301	292636
 bsdb:637/1/2_colorectal-cancer:CRC_vs_Healthy-Individuals_DOWN	NA	1654	1283313	156454	1434006	848	404402	1164882	1578	68	1257	838	1213720	141948	157	2147	2152	1380	194	1016	39948	212791	32067	970	399320	29465
 bsdb:637/2/1_Colorectal-adenoma:CRA_vs_Healthy-Individuals_UP	NA	1301	1378	173479	204475	374	43668	1234	1386	292636	1269	13687	642	388463	158846	1263	2755	816
-bsdb:637/2/2_Colorectal-adenoma:CRA_vs_Healthy-Individuals_DOWN	NA	1654	1283313	1380	194	1016	43996	39948	1730	44259	848	32067	68	2093	482	265975	346096	543311	836	1743	123375	195950	157	29465	338	838	1257	156454	416916	830	2054427	1164882	1434006	2152	28100	283	1931224	109326	2740	150247	1213720	2717	1716	1279384	538
+bsdb:637/2/2_Colorectal-adenoma:CRA_vs_Healthy-Individuals_DOWN	NA	1654	2054427	416916	1283313	156454	109326	150247	2152	1380	830	194	1016	2717	43996	1931224	283	1716	39948	1279384	538	1730	44259	1434006	848	1164882	32067	68	2093	482	265975	346096	543311	2740	1257	28100	836	838	1743	123375	1213720	195950	157	29465	338	238749
 bsdb:637/3/1_colorectal-cancer:CRC_vs_CRA_UP	NA	416916	165779	194	1016	501783	283	39948	1730	848	482	543311	836	238749	28100	123375	1257	28219	225842	191494	156454	830
 bsdb:637/3/2_colorectal-cancer:CRC_vs_CRA_DOWN	NA	572511	204475	1301	338	158846	173479
 bsdb:639/1/1_socioeconomic-status:NA_vs_NA_UP	NA	816	375288	1263
@@ -1704,3 +1702,10 @@ bsdb:663/2/1_Ethnic-group:India_vs_Chinese_UP	NA	838
 bsdb:663/2/2_Ethnic-group:India_vs_Chinese_DOWN	NA	816
 bsdb:669/1/1_ethnic-group,socioeconomic-status:Rural-African-Children-in-Burkina-Faso_vs_European-Children-in-Italy_UP	NA	838
 bsdb:669/1/2_ethnic-group,socioeconomic-status:Rural-African-Children-in-Burkina-Faso_vs_European-Children-in-Italy_DOWN	NA	31980	216851	841	292632	239759	816
+bsdb:670/1/1_socioeconomic-status,ethnic-group:Bangladesh-Children-(Household-income-<-$61)_vs_US-children_UP	NA	830
+bsdb:671/1/1_socioeconomic-status:30-Months-exposure-(maternal-education-as-proxy)_vs_18-months-exposure-(maternal-education-as-proxy)_UP	NA	838	216851	841	292632	816	1730	459786	83770
+bsdb:671/1/2_socioeconomic-status:30-Months-exposure-(maternal-education-as-proxy)_vs_18-months-exposure-(maternal-education-as-proxy)_DOWN	NA	1263	1578	1301	1678	906	39948	292632
+bsdb:674/1/1_socioeconomic-status:Low-SES_vs_High-SES_UP	NA	135858	118747	86331	838	1730	189330
+bsdb:674/1/2_socioeconomic-status:Low-SES_vs_High-SES_DOWN	NA	80865	239759	816	1485	375288	283168	1263	447020
+bsdb:675/1/1_socioeconomic-status:25th-Percentile-of-926-participants-(monthly-household-income=<$7000.)_vs_75th-Percentile-of-926-participants-(monthly-household--income=>$15,250.)_UP	NA	158846	838
+bsdb:675/1/2_socioeconomic-status:25th-Percentile-of-926-participants-(monthly-household-income=<$7000.)_vs_75th-Percentile-of-926-participants-(monthly-household--income=>$15,250.)_DOWN	NA	1263	119852	61170
