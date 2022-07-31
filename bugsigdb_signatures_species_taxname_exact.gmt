@@ -1,4 +1,4 @@
-# BugSigDB 2022-07-24, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2022-07-31, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_adenoma:conventional-adenoma-cases_vs_controls_UP	NA	Lacticaseibacillus zeae
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	Lacticaseibacillus zeae
 bsdb:1/6/1_adenoma:Non-advanced-conventional-adenoma-cases_vs_controls_UP	NA	Lacticaseibacillus zeae
@@ -216,12 +216,12 @@ bsdb:171/1/1_digestive-system-cancer:digestive-tract-cancer-patients_vs_controls
 bsdb:171/1/2_digestive-system-cancer:digestive-tract-cancer-patients_vs_controls_DOWN	NA	Actinomyces graevenitzii	Porphyromonas pasteri	Porphyromonas sp.	Prevotella melaninogenica	Rothia dentocariosa	Solobacterium moorei
 bsdb:171/2/1_tongue-neoplasm:tongue/pharyngeal-cancer-patients_vs_controls_UP	NA	Aggregatibacter segnis	Porphyromonas gingivalis	Streptococcus parasanguinis	Streptococcus sanguinis
 bsdb:171/2/2_tongue-neoplasm:tongue/pharyngeal-cancer-patients_vs_controls_DOWN	NA	Prevotella melaninogenica	Rothia dentocariosa	Streptococcus australis
-bsdb:171/3/1_esophageal-cancer:esophageal-cancer_vs_controls_UP	NA	Streptococcus sp.	Aggregatibacter segnis	Leptotrichia sp.	Leptotrichia hofstadii	Porphyromonas gingivalis	Megasphaera micronuciformis
-bsdb:171/3/2_esophageal-cancer:esophageal-cancer_vs_controls_DOWN	NA	Rothia dentocariosa	Prevotella melaninogenica
-bsdb:171/4/1_colorectal-cancer:colorectal-cancer_vs_controls_UP	NA	Schaalia odontolytica	Streptomyces paraguayensis	Porphyromonas gingivalis	Megasphaera micronuciformis	Prevotella sp.	Oribacterium sinus
-bsdb:171/4/2_colorectal-cancer:colorectal-cancer_vs_controls_DOWN	NA	Prevotella sp.	Porphyromonas pasteri	Prevotella melaninogenica
-bsdb:171/5/1_gastric-cancer:gastric-cancer_vs_controls_UP	NA	Haemophilus parainfluenzae	Fusobacterium periodonticum	Gemella sanguinis	Porphyromonas gingivalis
-bsdb:171/5/2_gastric-cancer:gastric-cancer_vs_controls_DOWN	NA	Porphyromonas sp.
+bsdb:171/3/1_esophageal-cancer:esophageal-cancer-patients_vs_controls_UP	NA	Aggregatibacter segnis	Leptotrichia hofstadii	Leptotrichia sp.	Megasphaera micronuciformis	Porphyromonas gingivalis	Streptococcus sp.
+bsdb:171/3/2_esophageal-cancer:esophageal-cancer-patients_vs_controls_DOWN	NA	Prevotella melaninogenica	Rothia dentocariosa	Streptococcus australis
+bsdb:171/4/1_colorectal-cancer:colorectal-cancer-patients_vs_controls_UP	NA	Megasphaera micronuciformis	Oribacterium sinus	Porphyromonas gingivalis	Prevotella sp.	Schaalia odontolytica	Streptomyces paraguayensis	Streptococcus parasanguinis
+bsdb:171/4/2_colorectal-cancer:colorectal-cancer-patients_vs_controls_DOWN	NA	Porphyromonas pasteri	Prevotella melaninogenica	Prevotella sp.
+bsdb:171/5/1_gastric-cancer:gastric-cancer-patients_vs_controls_UP	NA	Fusobacterium periodonticum	Gemella sanguinis	Haemophilus parainfluenzae	Porphyromonas gingivalis
+bsdb:171/5/2_gastric-cancer:gastric-cancer-patients_vs_controls_DOWN	NA	Porphyromonas sp.
 bsdb:172/1/1_Cannabis-use:marijuana-usage-group_vs_controls-(lateral-border-of-tongue)_UP	NA	Delftia acidovorans	Rothia mucilaginosa	Veillonella atypica	Bosea vestrisii	Actinomyces graevenitzii
 bsdb:172/1/2_Cannabis-use:marijuana-usage-group_vs_controls-(lateral-border-of-tongue)_DOWN	NA	Bergeyella sp.	Prevotella nanceiensis
 bsdb:174/1/1_gastric-cancer:cacerous-tissue_vs_paired-adjacent-non-cacerous-tissue_UP	NA	Prevotella oris	Prevotella denticola	Acinetobacter baumannii	Pseudomonas aeruginosa
@@ -285,6 +285,7 @@ bsdb:241/1/2_Iron-deficiency-anemia:iron-deficiency-anemia_vs_healthy-control_DO
 bsdb:242/3/1_Iron-deficiency-anemia:iron-deficiency-anemia-severe_vs_iron-deficiency-anemia-moderate_UP	NA	Azotobacter group
 bsdb:243/1/2_gastric-cancer:current-H.pylori-infection_vs_non-current-H.pylori-infection_DOWN	NA	Acidovorax facilis	Rhodococcus erythropolis
 bsdb:243/2/1_gastric-cancer:current-H.pylori-infection-patients_vs_past-H.pylori-infection_UP	NA	Bacteroides uniformis	Prevotella copri
+bsdb:243/3/1_gastric-cancer:past-H.pylori-infection_vs_H.pylori-negative_DOWN	NA	Bacteroides eggerthii	Bacteroides fragilis	Bacteroides uniformis	Phocaeicola coprocola
 bsdb:243/4/1_gastric-cancer:gastritis-cases_vs_normal_UP	NA	Escherichia coli	Lachnospiraceae bacterium NK4A136
 bsdb:243/5/1_gastric-cancer:subjects-with-metaplasia_vs_normal_UP	NA	Eubacterium coprostanoligenes
 bsdb:244/1/1_age:18-62-years_vs_2-12-years_UP	NA	Corynebacterium sp.	Cutibacterium acnes	Staphylococcus epidermidis
@@ -398,6 +399,7 @@ bsdb:287/1/2_human-papilloma-virus-infection:Visit-1-HPV-(progression)_vs_HPV-(c
 bsdb:287/2/1_human-papilloma-virus-infection:Visit-2-HPV-(progression)_vs_HPV-(clearance)_UP	NA	Prevotella amnii	Porphyromonas circumdentaria	Parvimonas micra	Dialister succinatiphilus	Anaerococcus prevotii	Peptoniphilus harei	Clostridioides difficile	Gemella bergeri	Chryseobacterium gleum	Coprococcus eutactus
 bsdb:287/2/2_human-papilloma-virus-infection:Visit-2-HPV-(progression)_vs_HPV-(clearance)_DOWN	NA	Atopobium minutum	Actinomyces johnsonii
 bsdb:288/1/1_Phenylketonuria:phenylketonuric-with-Phe-restricted-diet_vs_mild-hyperphenylalaninemic-with-unrestricted-diet_DOWN	NA	Faecalibacterium prausnitzii
+bsdb:289/1/1_health-trait:suboptimal-health-status_vs_healthy-controls_UP	NA	Clostridiales bacterium
 bsdb:290/2/1_oral-mucositis:pre--and-three-month-after-auto-stem-cell-transplant_vs_one-and-two-weeks-after-stem-cell-transplant_UP	NA	Veillonella atypica	Veillonella dispar	Actinomyces sp.	Actinomyces graevenitzii	Megasphaera micronuciformis	Veillonella sp.
 bsdb:290/2/2_oral-mucositis:pre--and-three-month-after-auto-stem-cell-transplant_vs_one-and-two-weeks-after-stem-cell-transplant_DOWN	NA	Limosilactobacillus fermentum	Scardovia wiggsiae
 bsdb:290/3/1_oral-mucositis:pre--and-three-month-after-auto-stem-cell-transplant_vs_one-and-two-weeks-after-stem-cell-transplant_UP	NA	Streptococcus australis	Streptococcus parasanguinis	Veillonella atypica	Veillonella dispar	Actinomyces graevenitzii	Gemella haemolysans	Gemella morbillorum	Gemella sanguinis
@@ -480,12 +482,12 @@ bsdb:348/2/2_obesity:overweight_vs_lean_DOWN	NA	Bifidobacterium sp.
 bsdb:348/3/1_obesity:obese_vs_lean_UP	NA	Bacteroides fragilis
 bsdb:348/3/2_obesity:obese_vs_lean_DOWN	NA	Bifidobacterium sp.
 bsdb:348/4/1_obesity:overweight_vs_lean_UP	NA	Lactobacillus sp.
-bsdb:349/1/1_cervical-glandular-intraepithelial-neoplasia:LEEP-group-before-prcocedure_vs_normal_UP	NA	Gardnerella vaginalis	Metamycoplasma hominis	Ureaplasma parvum
-bsdb:349/2/1_cervical-glandular-intraepithelial-neoplasia:LEEP-group-before-prcocedure_vs_normal_UP	NA	Gardnerella vaginalis	Ureaplasma parvum
-bsdb:349/3/1_cervical-glandular-intraepithelial-neoplasia:LEEP-group-before-prcocedure_vs_normal_UP	NA	Gardnerella vaginalis	Metamycoplasma hominis	Ureaplasma parvum
-bsdb:349/4/1_cervical-glandular-intraepithelial-neoplasia:LEEP-group-before-prcocedure_vs_normal_UP	NA	Gardnerella vaginalis	Ureaplasma parvum
-bsdb:349/5/1_cervical-glandular-intraepithelial-neoplasia:LEEP-group-6-months-prcocedure_vs_normal_UP	NA	Gardnerella vaginalis	Metamycoplasma hominis	Ureaplasma parvum
-bsdb:349/6/1_cervical-glandular-intraepithelial-neoplasia:LEEP-group-12-months-prcocedure_vs_normal_UP	NA	Gardnerella vaginalis	Metamycoplasma hominis	Ureaplasma parvum
+bsdb:349/1/1_cervical-glandular-intraepithelial-neoplasia:LEEP-group-before-procedure_vs_normal_UP	NA	Gardnerella vaginalis	Ureaplasma parvum	Metamycoplasma hominis
+bsdb:349/2/1_cervical-glandular-intraepithelial-neoplasia:LEEP-group-before-procedure_vs_normal_UP	NA	Gardnerella vaginalis	Ureaplasma parvum
+bsdb:349/3/1_cervical-glandular-intraepithelial-neoplasia:LEEP-group-before-procedure-(age-<46)_vs_normal_UP	NA	Gardnerella vaginalis	Metamycoplasma hominis	Ureaplasma parvum
+bsdb:349/4/1_cervical-glandular-intraepithelial-neoplasia:LEEP-group-before-procedure_vs_normal_UP	NA	Gardnerella vaginalis	Ureaplasma parvum
+bsdb:349/5/1_cervical-glandular-intraepithelial-neoplasia:LEEP-group-6-months-post-procedure_vs_normal_UP	NA	Gardnerella vaginalis	Metamycoplasma hominis	Ureaplasma parvum
+bsdb:349/6/1_cervical-glandular-intraepithelial-neoplasia:LEEP-group-12-months-post-procedure_vs_normal_UP	NA	Gardnerella vaginalis	Metamycoplasma hominis	Ureaplasma parvum
 bsdb:350/1/1_obesity:obese_vs_normal-weight_UP	NA	Bifidobacterium adolescentis	Faecalibacterium prausnitzii
 bsdb:350/2/1_obesity:obesity-with-metabolic-syndrome_vs_normal-weight_UP	NA	Collinsella aerofaciens
 bsdb:353/1/1_obesity:obese_vs_non-obese_UP	NA	Faecalibacterium prausnitzii
@@ -735,8 +737,8 @@ bsdb:541/3/1_schizophrenia:Schizophrenic-patients_vs_Healthy-controls_UP	NA	Akke
 bsdb:541/3/2_schizophrenia:Schizophrenic-patients_vs_Healthy-controls_DOWN	NA	Bacteroides finegoldii	Bacteroides intestinalis	Phocaeicola dorei
 bsdb:541/4/1_schizophrenia:Baseline-schizophrenic-patients_vs_Healthy-controls_NA	NA	Akkermansia muciniphila	Alkaliphilus oremlandii	Bacillus anthracis	Bacteroides finegoldii	Bacteroides intestinalis	Bifidobacterium adolescentis	Bifidobacterium longum	Cronobacter sakazakii	Enterococcus faecium	Streptococcus vestibularis	Veillonella parvula	[Eubacterium] siraeum	Phocaeicola plebeius
 bsdb:541/5/1_schizophrenia:Baseline-schizophrenic-patients_vs_Healthy-controls_NA	NA	Akkermansia muciniphila	Alkaliphilus oremlandii	Bacillus anthracis	Bacteroides intestinalis	Bifidobacterium adolescentis	Bifidobacterium longum	Cronobacter sakazakii	Enterococcus faecium	Streptococcus vestibularis	Veillonella parvula	[Eubacterium] siraeum	Phocaeicola plebeius
-bsdb:544/1/1_colorectal-cancer:CRC-patients_vs_controls_UP	NA	Peptostreptococcus stomatis	Parvimonas micra	Gemella morbillorum	Dialister pneumosintes	Porphyromonas asaccharolytica	Solobacterium moorei	Fusobacterium nucleatum	Eggerthella lenta	Campylobacter rectus
-bsdb:544/1/2_colorectal-cancer:CRC-patients_vs_controls_DOWN	NA	Lachnospira eligens	Coprococcus comes	Anaerostipes hadrus	Anaerobutyricum hallii	Fusicatenibacter saccharivorans	Blautia faecis	Roseburia faecis	Agathobaculum desmolans	Streptococcus salivarius
+bsdb:544/1/1_colorectal-cancer:CRC-patients_vs_healthy-controls_UP	NA	Campylobacter rectus	Dialister pneumosintes	Eggerthella lenta	Fusobacterium nucleatum	Gemella morbillorum	Parvimonas micra	Peptostreptococcus stomatis	Porphyromonas asaccharolytica	Solobacterium moorei	[Ruminococcus] torques	Scriptaphyosemion liberiense
+bsdb:544/1/2_colorectal-cancer:CRC-patients_vs_healthy-controls_DOWN	NA	Agathobaculum desmolans	Anaerobutyricum hallii	Anaerostipes hadrus	Blautia faecis	Coprococcus comes	Fusicatenibacter saccharivorans	Lachnospira eligens	Roseburia faecis	Streptococcus salivarius
 bsdb:545/1/2_antimicrobial-agent:7-week-old-(young)-mice-10-days-after-antibiotic-treatments_vs_7-week-old-(young)-mice-before-antibiotic-treatment_DOWN	NA	Clostridiales Family XIII bacterium	Clostridiales bacterium
 bsdb:545/2/2_antimicrobial-agent:7-week-old-(young)-mice-6-months-after-antibiotic-treatments_vs_7-week-old-(young)-mice-before-antibiotic-treatment_DOWN	NA	Clostridiales Family XIII bacterium
 bsdb:545/4/1_antimicrobial-agent:40-week-old-(old)-mice-6-months-after-antibiotic-treatments_vs_40-week-old-(old)-mice-before-antibiotic-treatment_DOWN	NA	Clostridiales bacterium
@@ -800,11 +802,11 @@ bsdb:620/1/1_colorectal-cancer:Invasive-cancer-group_vs_Early-cancer-group_UP	NA
 bsdb:620/1/2_colorectal-cancer:Invasive-cancer-group_vs_Early-cancer-group_DOWN	NA	Oribacterium parvum	Clostridiales bacterium
 bsdb:621/1/1_colorectal-cancer:Aspirin_vs_Placebo_UP	NA	Lachnospira sp.
 bsdb:621/2/1_colorectal-cancer:Aspirin_vs_Placebo_UP	NA	Lachnospira sp.
+bsdb:622/1/2_colorectal-cancer:CRA-and-CRC-groups_vs_Negative-control-group_UP	NA	Escherichia/Shigella sp.
 bsdb:624/1/1_colorectal-cancer:Patients-with-CRC_vs_Healthy-Individuals_UP	NA	Parvimonas micra	Prevotella intermedia	Peptostreptococcus stomatis	Porphyromonas asaccharolytica	Solobacterium moorei	Gemella morbillorum	Peptostreptococcus anaerobius	Porphyromonas gingivalis	Alloprevotella tannerae	Dialister pneumosintes	Fusobacterium nucleatum
 bsdb:624/2/1_colorectal-cancer:Patients-with-early-CRC_vs_Healthy-Individuals_UP	NA	Fusobacterium nucleatum	Gemella morbillorum	Peptostreptococcus stomatis
 bsdb:624/3/1_colorectal-cancer:Patients-with-advanced-CRC_vs_Healthy-Individuals_UP	NA	Peptostreptococcus anaerobius	Prevotella intermedia	Parvimonas micra	Porphyromonas gingivalis	Peptostreptococcus stomatis	Alloprevotella tannerae	Porphyromonas asaccharolytica	Solobacterium moorei	Gemella morbillorum	Dialister pneumosintes	Fusobacterium nucleatum
 bsdb:624/4/1_colorectal-cancer:After-resection_vs_Before-resection_DOWN	NA	Parvimonas micra	Prevotella intermedia	Peptostreptococcus stomatis	Porphyromonas asaccharolytica	Solobacterium moorei	Gemella morbillorum	Peptostreptococcus anaerobius	Porphyromonas gingivalis	Alloprevotella tannerae	Dialister pneumosintes	Fusobacterium nucleatum
-bsdb:627/1/1_socioeconomic-status:lower-SES-(income<£25,000)_vs_Higher-SES-(income=->-£25,000)_UP	NA	Clostridiales bacterium
 bsdb:629/1/1_colorectal-cancer:Adjacent-Non-Tumor-Tissue-of-Colorectal-Cancer-Cases_vs_Tumor-Tissue-of-Colorectal-Cancer-Cases_UP	NA	Fusobacterium nucleatum
 bsdb:630/1/1_colorectal-cancer:stage-I/II-(SI/II)_vs_healthy-control-(normal-and-a-few-polyps)_UP	NA	Collinsella aerofaciens	Fusobacterium nucleatum	Gemella morbillorum	Lancefieldella parvula	Parvimonas micra	Peptostreptococcus anaerobius	Peptostreptococcus stomatis	Porphyromonas uenonis	Schaalia odontolytica	Solobacterium moorei
 bsdb:630/1/2_colorectal-cancer:stage-I/II-(SI/II)_vs_healthy-control-(normal-and-a-few-polyps)_DOWN	NA	Bifidobacterium longum subsp. longum	Lachnospira eligens	Lachnospira multipara
@@ -839,7 +841,7 @@ bsdb:644/7/2_Colorectal-adenoma:adenoma-adjacent_vs_healthy-controls_UP	NA	Fusob
 bsdb:644/8/1_colorectal-cancer:carcinoma-adjacent_vs_healthy-controls_UP	NA	Bacteroides fragilis	Bacteroides ovatus	Fusobacterium sp.	Gemella sp.	Granulicatella sp.	Peptostreptococcus sp.	Porphyromonas endodontalis	Prevotella sp.
 bsdb:644/9/1_colorectal-cancer:carcinoma-adjacent_vs_colorectal-adenoma_UP	NA	Bacteroides fragilis	Faecalibacterium prausnitzii	Fusobacterium sp.	Parvimonas sp.	Blautia sp.	Peptostreptococcus sp.	Blautia obeum	Bacteroides sp.	Gemella sp.	Prevotella intermedia	Prevotella stercorea	Coprococcus sp.	Ruminococcus sp.	Prevotella sp.	Clostridiales bacterium	Bacteroides ovatus	Porphyromonas endodontalis	Alistipes putredinis	Bacteroides uniformis
 bsdb:644/9/2_colorectal-cancer:carcinoma-adjacent_vs_colorectal-adenoma_DOWN	NA	Enhydrobacter sp.
-bsdb:646/1/2_Colorectal-adenoma:Non-adenoma_vs_Adenoma_DOWN	NA	unidentified Actinomycete OPB41	Tenericutes bacterium
+bsdb:646/1/2_Colorectal-adenoma:Adenoma_vs_Non-Adenoma_DOWN	NA	unidentified Actinomycete OPB41	Tenericutes bacterium
 bsdb:652/1/3_intramucosal-CRC:Intramucosal-CRC_vs_Healthy_DOWN	NA	Fusobacterium periodonticum	Fusobacterium perfoetens
 bsdb:652/1/4_intramucosal-CRC:Intramucosal-CRC_vs_Healthy_UP	NA	Fusobacterium varium
 bsdb:652/3/3_Colorectal-adenoma:CRA-(colorectal-adenoma)_vs_Healthy_DOWN	NA	Fusobacterium periodonticum	Fusobacterium nucleatum
@@ -855,3 +857,9 @@ bsdb:666/1/2_socioeconomic-status:Low-income-country-(Malawi)_vs_High-Income-cou
 bsdb:666/1/3_socioeconomic-status:Low-income-country-(Malawi)_vs_High-Income-country-(Finland)_DOWN	NA	Bifidobacterium catenulatum	Bifidobacterium adolescentis	[Clostridium] leptum	Blautia coccoides	Clostridioides difficile	Clostridium perfringens	Akkermansia muciniphila	Staphylococcus aureus
 bsdb:670/1/2_socioeconomic-status,ethnic-group:Bangladesh-Children-(Household-income-<-$61)_vs_US-children_DOWN	NA	Bacteroides thetaiotaomicron	Faecalibacterium prausnitzii
 bsdb:675/1/2_socioeconomic-status:25th-Percentile-of-926-participants-(monthly-household-income=<$7000.)_vs_75th-Percentile-of-926-participants-(monthly-household--income=>$15,250.)_DOWN	NA	Amedibacillus dolichus	Bacteroides fragilis	Eggerthella lenta
+bsdb:676/1/2_non-small-cell-lung-carcinoma:Responders_vs_Non-responders_UP	NA	Alistipes putredinis	Bifidobacterium longum	Prevotella copri
+bsdb:681/3/1_colorectal-cancer:Old-(≥-65-yrs)_vs_Young_UP	NA	Streptococcus gordonii	Porphyromonas gingivalis
+bsdb:681/4/2_colorectal-cancer:Current-Smokers_vs_Non,-Ex-Smokers_UP	NA	Veillonella atypica
+bsdb:682/1/2_irritable-bowel-syndrome:IBS.sibo+_vs_IBS.sibo-_DOWN	NA	Streptomyces purpurascens
+bsdb:683/4/1_Colorectal-adenoma:adenoma-group-post-polypectomy_vs_adenoma-group-pre-polypectomy_UP	NA	Anaerobutyricum hallii
+bsdb:683/5/1_Colorectal-adenoma:control-group-post-endoscopy_vs_control-group-pre-endoscopy_UP	NA	Anaerobutyricum hallii

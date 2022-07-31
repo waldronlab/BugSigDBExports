@@ -1,4 +1,4 @@
-# BugSigDB 2022-07-24, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2022-07-31, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_adenoma:conventional-adenoma-cases_vs_controls_UP	NA	57037
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	57037
 bsdb:1/6/1_adenoma:Non-advanced-conventional-adenoma-cases_vs_controls_UP	NA	57037
@@ -216,12 +216,12 @@ bsdb:171/1/1_digestive-system-cancer:digestive-tract-cancer-patients_vs_controls
 bsdb:171/1/2_digestive-system-cancer:digestive-tract-cancer-patients_vs_controls_DOWN	NA	55565	1583331	1924944	28132	2047	102148
 bsdb:171/2/1_tongue-neoplasm:tongue/pharyngeal-cancer-patients_vs_controls_UP	NA	739	837	1318	1305
 bsdb:171/2/2_tongue-neoplasm:tongue/pharyngeal-cancer-patients_vs_controls_DOWN	NA	28132	2047	113107
-bsdb:171/3/1_esophageal-cancer:esophageal-cancer_vs_controls_UP	NA	1306	739	104608	157688	837	187326
-bsdb:171/3/2_esophageal-cancer:esophageal-cancer_vs_controls_DOWN	NA	2047	28132
-bsdb:171/4/1_colorectal-cancer:colorectal-cancer_vs_controls_UP	NA	1660	68251	837	187326	59823	237576
-bsdb:171/4/2_colorectal-cancer:colorectal-cancer_vs_controls_DOWN	NA	59823	1583331	28132
-bsdb:171/5/1_gastric-cancer:gastric-cancer_vs_controls_UP	NA	729	860	84135	837
-bsdb:171/5/2_gastric-cancer:gastric-cancer_vs_controls_DOWN	NA	1924944
+bsdb:171/3/1_esophageal-cancer:esophageal-cancer-patients_vs_controls_UP	NA	739	157688	104608	187326	837	1306
+bsdb:171/3/2_esophageal-cancer:esophageal-cancer-patients_vs_controls_DOWN	NA	28132	2047	113107
+bsdb:171/4/1_colorectal-cancer:colorectal-cancer-patients_vs_controls_UP	NA	187326	237576	837	59823	1660	68251	1318
+bsdb:171/4/2_colorectal-cancer:colorectal-cancer-patients_vs_controls_DOWN	NA	1583331	28132	59823
+bsdb:171/5/1_gastric-cancer:gastric-cancer-patients_vs_controls_UP	NA	860	84135	729	837
+bsdb:171/5/2_gastric-cancer:gastric-cancer-patients_vs_controls_DOWN	NA	1924944
 bsdb:172/1/1_Cannabis-use:marijuana-usage-group_vs_controls-(lateral-border-of-tongue)_UP	NA	80866	43675	39777	151416	55565
 bsdb:172/1/2_Cannabis-use:marijuana-usage-group_vs_controls-(lateral-border-of-tongue)_DOWN	NA	1962306	425941
 bsdb:174/1/1_gastric-cancer:cacerous-tissue_vs_paired-adjacent-non-cacerous-tissue_UP	NA	28135	28129	470	287
@@ -285,6 +285,7 @@ bsdb:241/1/2_Iron-deficiency-anemia:iron-deficiency-anemia_vs_healthy-control_DO
 bsdb:242/3/1_Iron-deficiency-anemia:iron-deficiency-anemia-severe_vs_iron-deficiency-anemia-moderate_UP	NA	351
 bsdb:243/1/2_gastric-cancer:current-H.pylori-infection_vs_non-current-H.pylori-infection_DOWN	NA	12917	1833
 bsdb:243/2/1_gastric-cancer:current-H.pylori-infection-patients_vs_past-H.pylori-infection_UP	NA	820	165179
+bsdb:243/3/1_gastric-cancer:past-H.pylori-infection_vs_H.pylori-negative_DOWN	NA	28111	817	820	310298
 bsdb:243/4/1_gastric-cancer:gastritis-cases_vs_normal_UP	NA	562	877420
 bsdb:243/5/1_gastric-cancer:subjects-with-metaplasia_vs_normal_UP	NA	290054
 bsdb:244/1/1_age:18-62-years_vs_2-12-years_UP	NA	1720	1747	1282
@@ -398,6 +399,7 @@ bsdb:287/1/2_human-papilloma-virus-infection:Visit-1-HPV-(progression)_vs_HPV-(c
 bsdb:287/2/1_human-papilloma-virus-infection:Visit-2-HPV-(progression)_vs_HPV-(clearance)_UP	NA	419005	29524	33033	487173	33034	54005	1496	84136	250	33043
 bsdb:287/2/2_human-papilloma-virus-infection:Visit-2-HPV-(progression)_vs_HPV-(clearance)_DOWN	NA	1381	544581
 bsdb:288/1/1_Phenylketonuria:phenylketonuric-with-Phe-restricted-diet_vs_mild-hyperphenylalaninemic-with-unrestricted-diet_DOWN	NA	853
+bsdb:289/1/1_health-trait:suboptimal-health-status_vs_healthy-controls_UP	NA	1898207
 bsdb:290/2/1_oral-mucositis:pre--and-three-month-after-auto-stem-cell-transplant_vs_one-and-two-weeks-after-stem-cell-transplant_UP	NA	39777	39778	29317	55565	187326	1926307
 bsdb:290/2/2_oral-mucositis:pre--and-three-month-after-auto-stem-cell-transplant_vs_one-and-two-weeks-after-stem-cell-transplant_DOWN	NA	1613	230143
 bsdb:290/3/1_oral-mucositis:pre--and-three-month-after-auto-stem-cell-transplant_vs_one-and-two-weeks-after-stem-cell-transplant_UP	NA	113107	1318	39777	39778	55565	1379	29391	84135
@@ -480,12 +482,12 @@ bsdb:348/2/2_obesity:overweight_vs_lean_DOWN	NA	41200
 bsdb:348/3/1_obesity:obese_vs_lean_UP	NA	817
 bsdb:348/3/2_obesity:obese_vs_lean_DOWN	NA	41200
 bsdb:348/4/1_obesity:overweight_vs_lean_UP	NA	1591
-bsdb:349/1/1_cervical-glandular-intraepithelial-neoplasia:LEEP-group-before-prcocedure_vs_normal_UP	NA	2702	2098	134821
-bsdb:349/2/1_cervical-glandular-intraepithelial-neoplasia:LEEP-group-before-prcocedure_vs_normal_UP	NA	2702	134821
-bsdb:349/3/1_cervical-glandular-intraepithelial-neoplasia:LEEP-group-before-prcocedure_vs_normal_UP	NA	2702	2098	134821
-bsdb:349/4/1_cervical-glandular-intraepithelial-neoplasia:LEEP-group-before-prcocedure_vs_normal_UP	NA	2702	134821
-bsdb:349/5/1_cervical-glandular-intraepithelial-neoplasia:LEEP-group-6-months-prcocedure_vs_normal_UP	NA	2702	2098	134821
-bsdb:349/6/1_cervical-glandular-intraepithelial-neoplasia:LEEP-group-12-months-prcocedure_vs_normal_UP	NA	2702	2098	134821
+bsdb:349/1/1_cervical-glandular-intraepithelial-neoplasia:LEEP-group-before-procedure_vs_normal_UP	NA	2702	134821	2098
+bsdb:349/2/1_cervical-glandular-intraepithelial-neoplasia:LEEP-group-before-procedure_vs_normal_UP	NA	2702	134821
+bsdb:349/3/1_cervical-glandular-intraepithelial-neoplasia:LEEP-group-before-procedure-(age-<46)_vs_normal_UP	NA	2702	2098	134821
+bsdb:349/4/1_cervical-glandular-intraepithelial-neoplasia:LEEP-group-before-procedure_vs_normal_UP	NA	2702	134821
+bsdb:349/5/1_cervical-glandular-intraepithelial-neoplasia:LEEP-group-6-months-post-procedure_vs_normal_UP	NA	2702	2098	134821
+bsdb:349/6/1_cervical-glandular-intraepithelial-neoplasia:LEEP-group-12-months-post-procedure_vs_normal_UP	NA	2702	2098	134821
 bsdb:350/1/1_obesity:obese_vs_normal-weight_UP	NA	1680	853
 bsdb:350/2/1_obesity:obesity-with-metabolic-syndrome_vs_normal-weight_UP	NA	74426
 bsdb:353/1/1_obesity:obese_vs_non-obese_UP	NA	853
@@ -735,8 +737,8 @@ bsdb:541/3/1_schizophrenia:Schizophrenic-patients_vs_Healthy-controls_UP	NA	2399
 bsdb:541/3/2_schizophrenia:Schizophrenic-patients_vs_Healthy-controls_DOWN	NA	338188	329854	357276
 bsdb:541/4/1_schizophrenia:Baseline-schizophrenic-patients_vs_Healthy-controls_NA	NA	239935	461876	1392	338188	329854	1680	216816	28141	1352	1343	29466	39492	310297
 bsdb:541/5/1_schizophrenia:Baseline-schizophrenic-patients_vs_Healthy-controls_NA	NA	239935	461876	1392	329854	1680	216816	28141	1352	1343	29466	39492	310297
-bsdb:544/1/1_colorectal-cancer:CRC-patients_vs_controls_UP	NA	341694	33033	29391	39950	28123	102148	851	84112	203
-bsdb:544/1/2_colorectal-cancer:CRC-patients_vs_controls_DOWN	NA	39485	410072	649756	39488	1150298	871665	301302	39484	1304
+bsdb:544/1/1_colorectal-cancer:CRC-patients_vs_healthy-controls_UP	NA	203	39950	84112	851	29391	33033	341694	28123	102148	33039	60404
+bsdb:544/1/2_colorectal-cancer:CRC-patients_vs_healthy-controls_DOWN	NA	39484	39488	649756	871665	410072	1150298	39485	301302	1304
 bsdb:545/1/2_antimicrobial-agent:7-week-old-(young)-mice-10-days-after-antibiotic-treatments_vs_7-week-old-(young)-mice-before-antibiotic-treatment_DOWN	NA	2137877	1898207
 bsdb:545/2/2_antimicrobial-agent:7-week-old-(young)-mice-6-months-after-antibiotic-treatments_vs_7-week-old-(young)-mice-before-antibiotic-treatment_DOWN	NA	2137877
 bsdb:545/4/1_antimicrobial-agent:40-week-old-(old)-mice-6-months-after-antibiotic-treatments_vs_40-week-old-(old)-mice-before-antibiotic-treatment_DOWN	NA	1898207
@@ -800,11 +802,11 @@ bsdb:620/1/1_colorectal-cancer:Invasive-cancer-group_vs_Early-cancer-group_UP	NA
 bsdb:620/1/2_colorectal-cancer:Invasive-cancer-group_vs_Early-cancer-group_DOWN	NA	1501329	1898207
 bsdb:621/1/1_colorectal-cancer:Aspirin_vs_Placebo_UP	NA	2049031
 bsdb:621/2/1_colorectal-cancer:Aspirin_vs_Placebo_UP	NA	2049031
+bsdb:622/1/2_colorectal-cancer:CRA-and-CRC-groups_vs_Negative-control-group_UP	NA	1940338
 bsdb:624/1/1_colorectal-cancer:Patients-with-CRC_vs_Healthy-Individuals_UP	NA	33033	28131	341694	28123	102148	29391	1261	837	76122	39950	851
 bsdb:624/2/1_colorectal-cancer:Patients-with-early-CRC_vs_Healthy-Individuals_UP	NA	851	29391	341694
 bsdb:624/3/1_colorectal-cancer:Patients-with-advanced-CRC_vs_Healthy-Individuals_UP	NA	1261	28131	33033	837	341694	76122	28123	102148	29391	39950	851
 bsdb:624/4/1_colorectal-cancer:After-resection_vs_Before-resection_DOWN	NA	33033	28131	341694	28123	102148	29391	1261	837	76122	39950	851
-bsdb:627/1/1_socioeconomic-status:lower-SES-(income<£25,000)_vs_Higher-SES-(income=->-£25,000)_UP	NA	1898207
 bsdb:629/1/1_colorectal-cancer:Adjacent-Non-Tumor-Tissue-of-Colorectal-Cancer-Cases_vs_Tumor-Tissue-of-Colorectal-Cancer-Cases_UP	NA	851
 bsdb:630/1/1_colorectal-cancer:stage-I/II-(SI/II)_vs_healthy-control-(normal-and-a-few-polyps)_UP	NA	74426	851	29391	1382	33033	1261	341694	281920	1660	102148
 bsdb:630/1/2_colorectal-cancer:stage-I/II-(SI/II)_vs_healthy-control-(normal-and-a-few-polyps)_DOWN	NA	1679	39485	28051
@@ -839,7 +841,7 @@ bsdb:644/7/2_Colorectal-adenoma:adenoma-adjacent_vs_healthy-controls_UP	NA	68766
 bsdb:644/8/1_colorectal-cancer:carcinoma-adjacent_vs_healthy-controls_UP	NA	817	28116	68766	1966354	2049028	1262	28124	59823
 bsdb:644/9/1_colorectal-cancer:carcinoma-adjacent_vs_colorectal-adenoma_UP	NA	817	853	68766	1944660	1955243	1262	40520	29523	1966354	28131	363265	2049024	41978	59823	1898207	28116	28124	28117	820
 bsdb:644/9/2_colorectal-cancer:carcinoma-adjacent_vs_colorectal-adenoma_DOWN	NA	1894999
-bsdb:646/1/2_Colorectal-adenoma:Non-adenoma_vs_Adenoma_DOWN	NA	68904	2231116
+bsdb:646/1/2_Colorectal-adenoma:Adenoma_vs_Non-Adenoma_DOWN	NA	68904	2231116
 bsdb:652/1/3_intramucosal-CRC:Intramucosal-CRC_vs_Healthy_DOWN	NA	860	852
 bsdb:652/1/4_intramucosal-CRC:Intramucosal-CRC_vs_Healthy_UP	NA	856
 bsdb:652/3/3_Colorectal-adenoma:CRA-(colorectal-adenoma)_vs_Healthy_DOWN	NA	860	851
@@ -855,3 +857,9 @@ bsdb:666/1/2_socioeconomic-status:Low-income-country-(Malawi)_vs_High-Income-cou
 bsdb:666/1/3_socioeconomic-status:Low-income-country-(Malawi)_vs_High-Income-country-(Finland)_DOWN	NA	1686	1680	1535	1532	1496	1502	239935	1280
 bsdb:670/1/2_socioeconomic-status,ethnic-group:Bangladesh-Children-(Household-income-<-$61)_vs_US-children_DOWN	NA	818	853
 bsdb:675/1/2_socioeconomic-status:25th-Percentile-of-926-participants-(monthly-household-income=<$7000.)_vs_75th-Percentile-of-926-participants-(monthly-household--income=>$15,250.)_DOWN	NA	31971	817	84112
+bsdb:676/1/2_non-small-cell-lung-carcinoma:Responders_vs_Non-responders_UP	NA	28117	216816	165179
+bsdb:681/3/1_colorectal-cancer:Old-(≥-65-yrs)_vs_Young_UP	NA	1302	837
+bsdb:681/4/2_colorectal-cancer:Current-Smokers_vs_Non,-Ex-Smokers_UP	NA	39777
+bsdb:682/1/2_irritable-bowel-syndrome:IBS.sibo+_vs_IBS.sibo-_DOWN	NA	1924
+bsdb:683/4/1_Colorectal-adenoma:adenoma-group-post-polypectomy_vs_adenoma-group-pre-polypectomy_UP	NA	39488
+bsdb:683/5/1_Colorectal-adenoma:control-group-post-endoscopy_vs_control-group-pre-endoscopy_UP	NA	39488
