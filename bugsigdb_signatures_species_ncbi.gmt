@@ -1,4 +1,4 @@
-# BugSigDB 2022-07-31, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2022-08-07, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_adenoma:conventional-adenoma-cases_vs_controls_UP	NA	57037
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	57037
 bsdb:1/6/1_adenoma:Non-advanced-conventional-adenoma-cases_vs_controls_UP	NA	57037
@@ -241,7 +241,7 @@ bsdb:196/1/2_Henoch-Schoenlein-purpura:Henoch-Schönlein-Purpura_vs_controls_DOW
 bsdb:202/2/1_autism:children-with-autism-non-mental-regression-(ANMR)_vs_healthy-controls_UP	NA	208479
 bsdb:202/3/1_autism:children-with-autism-mental-regression-(AMR)_vs_healthy-controls_UP	NA	208479
 bsdb:204/1/1_premature-birth:mothers-whose-newborns-were-delivered-at-<34-gestational-week_vs_mothers-whose-newborns-were-delivered-at-≥37-getastional-weeks_DOWN	NA	1596	33959	1679	1685	1579	47770	147802	305
-bsdb:205/1/1_human-papilloma-virus-infection:HPV-positive_vs_HPV-negative_UP	NA	1596	2702
+bsdb:205/1/1_human-papilloma-virus-infection:HPV-positive-women_vs_HPV-negative-women_UP	NA	2702	1596
 bsdb:206/1/1_gastric-cancer:patients-diagnosed-with-gastric-cancer_vs_patients-diagnosed-with-gastritis_UP	NA	179628	285729	851	1596	1598	187326	28131	28135	1302	1318
 bsdb:213/1/1_diet:low-fiber-(Q1-and-Q2)_vs_high-fiber-(Q3-and-Q4)_UP	NA	820	31971
 bsdb:213/2/1_diet:low-fiber-from-FRUITS/VEGETABLES-(Q1-and-Q2)_vs_high-fiber-from-FRUITS/VEGETABLES-(Q3-and-Q4)_UP	NA	820
@@ -427,7 +427,6 @@ bsdb:300/1/2_graft-versus-host-disease:acute-graft--versus--host-disease_vs_non-
 bsdb:302/4/1_asthma:asthma_vs_healthy-control_UP	NA	28127	218538	2702	208968
 bsdb:302/5/1_asthma:asthma_vs_healthy-control_UP	NA	28127	2702
 bsdb:304/1/1_antimicrobial-agent:oral-intake-of-vancomycin-(directed-against-Gram-positive-bacteria)_vs_or-placebo-(microcrystalline-cellulose)_UP	NA	105841	109327	40520	33043	39486	84112	853	140626	28052	29370	1590	100176	40518	29361	29343
-bsdb:305/1/1_Genital-neoplasm,-female:cancer_vs_healthy_UP	NA	104608
 bsdb:306/1/1_graft-versus-host-disease:post--allogeneic-hematopoietic-stem-cell-transplant_vs_pre--allogeneic-hematopoietic-stem-cell-transplant_UP	NA	303
 bsdb:306/1/2_graft-versus-host-disease:post--allogeneic-hematopoietic-stem-cell-transplant_vs_pre--allogeneic-hematopoietic-stem-cell-transplant_DOWN	NA	303
 bsdb:307/1/2_antimicrobial-agent:moxifloxacin-treated-group-(MXF)_vs_Negative-control-group-(CLT)_DOWN	NA	214856	328813	28117	328814	487174	1680	28026	35833	1955243	544645	1913682	1506	39486	853	729	261299	39485	28118	1945593	823	487175	360807	40519	1318
@@ -475,8 +474,8 @@ bsdb:346/3/2_anxiety-disorder:severe-anxiety_vs_mild-anxiety_DOWN	NA	28117	1680	
 bsdb:346/4/1_anxiety-disorder:moderate-anxiety_vs_mild-anxiety_UP	NA	1358
 bsdb:347/1/1_obesity:obese-children_vs_controls_UP	NA	209880	35833	437897	847	823	487175	310297	363265	1512
 bsdb:347/1/2_obesity:obese-children_vs_controls_DOWN	NA	239935	671218	645466	105841	817	28116	818	89014	418240	44008	1547	853	471189	341220	102148	76860	1304	1535	1549	143393
-bsdb:348/1/1_obesity:obese_vs_lean_UP	NA	817	1591
-bsdb:348/1/2_obesity:obese_vs_lean_DOWN	NA	41200
+bsdb:348/1/1_obesity:obese-children_vs_lean-children_UP	NA	817	1591
+bsdb:348/1/2_obesity:obese-children_vs_lean-children_DOWN	NA	41200
 bsdb:348/2/1_obesity:overweight_vs_lean_UP	NA	817	1591
 bsdb:348/2/2_obesity:overweight_vs_lean_DOWN	NA	41200
 bsdb:348/3/1_obesity:obese_vs_lean_UP	NA	817
@@ -575,7 +574,7 @@ bsdb:434/4/1_cervical-cancer:cervical-cancer_vs_healthy-control_UP	NA	372463	281
 bsdb:434/4/2_cervical-cancer:cervical-cancer_vs_healthy-control_DOWN	NA	82135
 bsdb:435/1/1_human-papilloma-virus-infection:HPV+-persistence_vs_HPV-_UP	NA	68569	310298	29362
 bsdb:435/2/1_human-papilloma-virus-infection:HPV+-transient_vs_HPV-_UP	NA	147802
-bsdb:436/1/1_cervical-glandular-intraepithelial-neoplasia:CIN2+/cervical-cancer_vs_healthy-control_UP	NA	82135	218538	1260	2702	28127	386414
+bsdb:436/1/1_cervical-glandular-intraepithelial-neoplasia:CIN2+/cervical-cancer_vs_healthy-controls_UP	NA	218538	82135	1260	2702	28127	386414
 bsdb:437/1/1_human-papilloma-virus-infection:HPV-16+_vs_healthy-control_UP	NA	37327	28132	218538	363849	133926	28128	1276	851	114687	419005	102148	33033	28125	28130	131111	54005	266	309120	1393034	187328	813	316	884684	33036	502393	33031	2051	1261	2702
 bsdb:439/1/1_type-II-diabetes-mellitus:Individuals-diagnosed-with-Type-2-Diabetes-Mellitus_vs_Healthy-controls_DOWN	NA	425254	1492	29363
 bsdb:439/1/2_type-II-diabetes-mellitus:Individuals-diagnosed-with-Type-2-Diabetes-Mellitus_vs_Healthy-controls_UP	NA	901	36841	46228
@@ -854,7 +853,6 @@ bsdb:663/5/1_Ethnic-group:India_vs_Jakun_UP	NA	216816	1686
 bsdb:663/5/2_Ethnic-group:India_vs_Jakun_DOWN	NA	1463165
 bsdb:666/1/1_socioeconomic-status:Low-income-country-(Malawi)_vs_High-Income-country-(Finland)_UP	NA	1681	1685	216816
 bsdb:666/1/2_socioeconomic-status:Low-income-country-(Malawi)_vs_High-Income-country-(Finland)_DOWN	NA	1686	1680	1535	1532	1496	1502	239935	1280
-bsdb:666/1/3_socioeconomic-status:Low-income-country-(Malawi)_vs_High-Income-country-(Finland)_DOWN	NA	1686	1680	1535	1532	1496	1502	239935	1280
 bsdb:670/1/2_socioeconomic-status,ethnic-group:Bangladesh-Children-(Household-income-<-$61)_vs_US-children_DOWN	NA	818	853
 bsdb:675/1/2_socioeconomic-status:25th-Percentile-of-926-participants-(monthly-household-income=<$7000.)_vs_75th-Percentile-of-926-participants-(monthly-household--income=>$15,250.)_DOWN	NA	31971	817	84112
 bsdb:676/1/2_non-small-cell-lung-carcinoma:Responders_vs_Non-responders_UP	NA	28117	216816	165179
@@ -863,3 +861,9 @@ bsdb:681/4/2_colorectal-cancer:Current-Smokers_vs_Non,-Ex-Smokers_UP	NA	39777
 bsdb:682/1/2_irritable-bowel-syndrome:IBS.sibo+_vs_IBS.sibo-_DOWN	NA	1924
 bsdb:683/4/1_Colorectal-adenoma:adenoma-group-post-polypectomy_vs_adenoma-group-pre-polypectomy_UP	NA	39488
 bsdb:683/5/1_Colorectal-adenoma:control-group-post-endoscopy_vs_control-group-pre-endoscopy_UP	NA	39488
+bsdb:686/1/1_colorectal-cancer:CRC_vs_controls_DOWN	NA	91915	78587	28116	28026	1955243	79329	1561	169679	1513	2546360	310783	1005039	1549855	39485	109790	1613	2033137	158847	1184387	272131	1178515	1505	553	376805	1160	301301	42256	1160721	106	1884263	2382127	39491
+bsdb:686/1/2_colorectal-cancer:CRC_vs_controls_UP	NA	1817405	920	1852377	128944	645	654	714	1109412	9	1725232	1778262	138072	168169	1048758	1235990	401619	1486991	158822	546	1496	325775	881	39950	67780	550	417368	552	182337	208962	562	860	1785995	548	571	573	244366	208223	1526571	52242	1867846	582	747	29471	38293	891974	585	287	28901	52773	615	93973	623	1929246	1239307	316277	40754	680	674	163877	630	632
+bsdb:686/2/1_colorectal-cancer:adenomas_vs_controls_UP	NA	2756	1966354	2047	1376	29442
+bsdb:686/2/2_colorectal-cancer:adenomas_vs_controls_DOWN	NA	1872624	28116	472181	39485	1613	61624	1160	1528098
+bsdb:686/3/1_colorectal-cancer:CRC_vs_adenomas_UP	NA	645	654	1109412	9	187145	1778262	1048758	1235990	401619	1486991	1805714	546	325775	901	881	67780	550	552	208962	562	930806	573	244366	1526571	1867846	582	747	891974	287	28901	615	93973	623	1929246	1239307	1308	316277	1550240	40754	680	674	630
+bsdb:686/3/2_colorectal-cancer:CRC_vs_adenomas_DOWN	NA	28026	436114	2546360	2774595	169679	571	634113	1398	1496	34062	376805	1505	649756	46867	301301	39491
