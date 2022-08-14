@@ -1,4 +1,4 @@
-# BugSigDB 2022-08-07, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2022-08-14, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_adenoma:conventional-adenoma-cases_vs_controls_UP	NA	57037
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	57037
 bsdb:1/6/1_adenoma:Non-advanced-conventional-adenoma-cases_vs_controls_UP	NA	57037
@@ -212,6 +212,7 @@ bsdb:169/1/2_gastric-cancer:white-thin-tongue-coating-GC-patient_vs_other-coatin
 bsdb:169/2/1_gastric-cancer:white-thick-tongue-coating-GC-patient_vs_other-coatings_UP	NA	187326	69823	439703
 bsdb:169/2/2_gastric-cancer:white-thick-tongue-coating-GC-patient_vs_other-coatings_DOWN	NA	108980	1624
 bsdb:169/3/1_gastric-cancer:yellow-thick-tongue-coating-GC-patient_vs_other-coatings_DOWN	NA	84135	1019	729
+bsdb:170/4/2_lung-cancer:cancerous-site-with-no-antibiotics_vs_control-group-with-no-antibiotics_DOWN	NA	1898207
 bsdb:171/1/1_digestive-system-cancer:digestive-tract-cancer-patients_vs_controls_UP	NA	495	837	1660	1318	1305	1306
 bsdb:171/1/2_digestive-system-cancer:digestive-tract-cancer-patients_vs_controls_DOWN	NA	55565	1583331	1924944	28132	2047	102148
 bsdb:171/2/1_tongue-neoplasm:tongue/pharyngeal-cancer-patients_vs_controls_UP	NA	739	837	1318	1305
@@ -476,8 +477,8 @@ bsdb:347/1/1_obesity:obese-children_vs_controls_UP	NA	209880	35833	437897	847	82
 bsdb:347/1/2_obesity:obese-children_vs_controls_DOWN	NA	239935	671218	645466	105841	817	28116	818	89014	418240	44008	1547	853	471189	341220	102148	76860	1304	1535	1549	143393
 bsdb:348/1/1_obesity:obese-children_vs_lean-children_UP	NA	817	1591
 bsdb:348/1/2_obesity:obese-children_vs_lean-children_DOWN	NA	41200
-bsdb:348/2/1_obesity:overweight_vs_lean_UP	NA	817	1591
-bsdb:348/2/2_obesity:overweight_vs_lean_DOWN	NA	41200
+bsdb:348/2/1_obesity:overweight-children_vs_lean-children_UP	NA	817	1591
+bsdb:348/2/2_obesity:overweight-children_vs_lean-children_DOWN	NA	41200
 bsdb:348/3/1_obesity:obese_vs_lean_UP	NA	817
 bsdb:348/3/2_obesity:obese_vs_lean_DOWN	NA	41200
 bsdb:348/4/1_obesity:overweight_vs_lean_UP	NA	1591
@@ -504,10 +505,11 @@ bsdb:367/2/1_obesity:overweight_vs_normal-weight_UP	NA	1971605	1955243	2049024	2
 bsdb:367/2/2_obesity:overweight_vs_normal-weight_DOWN	NA	2053619	558
 bsdb:368/1/1_smoking-behavior:shammah-users_vs_non-shammah-users_UP	NA	43675	1306	52773	419015	227942	28037	1343	249188	484	29466	34026	554406	29317	1305	495
 bsdb:368/1/2_smoking-behavior:shammah-users_vs_non-shammah-users_DOWN	NA	539	1306	1501332	237576	104608
-bsdb:371/1/1_obesity:obese_vs_lean_UP	NA	1591
-bsdb:371/2/1_obesity:obese_vs_lean_DOWN	NA	2173
-bsdb:371/3/1_obesity:obese_vs_lean_DOWN	NA	562
-bsdb:371/4/1_obesity:obese_vs_lean_UP	NA	1598
+bsdb:371/2/1_obesity:obese-and-overweight-subjects_vs_lean-and-anorexic-subjects_DOWN	NA	2173
+bsdb:371/3/1_obesity:obese-subjects_vs_lean-subjects_DOWN	NA	562
+bsdb:371/3/2_obesity:obese-subjects_vs_lean-subjects_UP	NA	1598
+bsdb:371/4/1_obesity:overweight-subjects_vs_lean-subjects_UP	NA	1598
+bsdb:371/5/1_obesity:obese-subjects_vs_anorexic,-lean,-and-overweight-subjects_DOWN	NA	562	28025
 bsdb:373/1/1_obesity:overweight_vs_normal-weight-children_UP	NA	1681
 bsdb:373/1/2_obesity:overweight_vs_normal-weight-children_DOWN	NA	821	820	649756	28116	239935
 bsdb:373/2/1_obesity:overweight_vs_normal-weight-adult_UP	NA	418240	28026	100886	1680

@@ -1,4 +1,4 @@
-# BugSigDB 2022-08-07, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2022-08-14, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_adenoma:conventional-adenoma-cases_vs_controls_UP	NA	91061	1236	1654	1716	1301	162289	189330	33024	40544	2037	2049	506	186826	1300	31977	91347	1653	57037	1386	186817
 bsdb:1/1/2_adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	100883	1117
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	207244	57037
@@ -611,13 +611,13 @@ bsdb:169/1/2_gastric-cancer:white-thin-tongue-coating-GC-patient_vs_other-coatin
 bsdb:169/2/1_gastric-cancer:white-thick-tongue-coating-GC-patient_vs_other-coatings_UP	NA	95818	541000	1730	187326	69823	439703
 bsdb:169/2/2_gastric-cancer:white-thick-tongue-coating-GC-patient_vs_other-coatings_DOWN	NA	108980	1624
 bsdb:169/3/1_gastric-cancer:yellow-thick-tongue-coating-GC-patient_vs_other-coatings_DOWN	NA	541000	47670	482	1257	84135	1019	729
-bsdb:170/1/1_lung-cancer:cancerous-site_vs_controls_UP	NA	1300	1301	85007
+bsdb:170/1/1_lung-cancer:cancerous-site_vs_controls_UP	NA	85007	1300	1301
 bsdb:170/1/2_lung-cancer:cancerous-site_vs_controls_DOWN	NA	468	90964	1279
-bsdb:170/2/1_lung-cancer:paired-contralateral-non-cancerous-site_vs_controls_UP	NA	186826	135625	712	724	1300	1301	237	206351	481	482	49546	200644	1129771	32067	1016	970
-bsdb:170/2/2_lung-cancer:paired-contralateral-non-cancerous-site_vs_controls_DOWN	NA	469	186803	468	72274
+bsdb:170/2/1_lung-cancer:paired-contralateral-non-cancerous-site-in-lung-cancer-patients_vs_controls_UP	NA	1016	49546	200644	237	724	186826	32067	1129771	482	481	206351	712	135625	970	1300	1301
+bsdb:170/2/2_lung-cancer:paired-contralateral-non-cancerous-site-in-lung-cancer-patients_vs_controls_DOWN	NA	469	186803	468	72274
 bsdb:170/3/1_lung-cancer:cancerous-site_vs_paired-contralateral-non-cancerous-site_UP	NA	1385	39948	95818
-bsdb:170/4/1_lung-cancer:cacerous-site-with-no-antibiotics_vs_control-groups-with-no-antibiotics_UP	NA	1016
-bsdb:170/4/2_lung-cancer:cacerous-site-with-no-antibiotics_vs_control-groups-with-no-antibiotics_DOWN	NA	1279	90964	265	31989	204455	29	28221	80864	468
+bsdb:170/4/1_lung-cancer:cancerous-site-with-no-antibiotics_vs_control-group-with-no-antibiotics_UP	NA	1016
+bsdb:170/4/2_lung-cancer:cancerous-site-with-no-antibiotics_vs_control-group-with-no-antibiotics_DOWN	NA	80864	28221	468	29	265	31989	204455	90964	1279	72274	80840	28211	563835	186801	1898207	976	1004300
 bsdb:171/1/1_digestive-system-cancer:digestive-tract-cancer-patients_vs_controls_UP	NA	1716	848	482	495	837	1660	1318	1305	1306	29465
 bsdb:171/1/2_digestive-system-cancer:digestive-tract-cancer-patients_vs_controls_DOWN	NA	55565	836	1583331	1924944	838	28132	32207	2047	102148
 bsdb:171/2/1_tongue-neoplasm:tongue/pharyngeal-cancer-patients_vs_controls_UP	NA	739	1716	32067	482	837	838	1318	1305
@@ -1381,8 +1381,8 @@ bsdb:347/1/1_obesity:obese-children_vs_controls_UP	NA	209880	976	35833	437897	84
 bsdb:347/1/2_obesity:obese-children_vs_controls_DOWN	NA	201174	239935	671218	645466	105841	817	28116	818	89014	418240	95818	44008	1547	853	1239	471189	341220	102148	76860	1304	74201	1535	1549	143393
 bsdb:348/1/1_obesity:obese-children_vs_lean-children_UP	NA	817	1591
 bsdb:348/1/2_obesity:obese-children_vs_lean-children_DOWN	NA	41200
-bsdb:348/2/1_obesity:overweight_vs_lean_UP	NA	817	1591
-bsdb:348/2/2_obesity:overweight_vs_lean_DOWN	NA	41200
+bsdb:348/2/1_obesity:overweight-children_vs_lean-children_UP	NA	817	1591
+bsdb:348/2/2_obesity:overweight-children_vs_lean-children_DOWN	NA	41200
 bsdb:348/3/1_obesity:obese_vs_lean_UP	NA	817
 bsdb:348/3/2_obesity:obese_vs_lean_DOWN	NA	41200
 bsdb:348/4/1_obesity:overweight_vs_lean_UP	NA	1591
@@ -1425,7 +1425,7 @@ bsdb:357/1/1_air-pollution:post-smog-swabs_vs_pre-smog-swabs_UP	NA	28216	838
 bsdb:357/1/2_air-pollution:post-smog-swabs_vs_pre-smog-swabs_DOWN	NA	31977	91061	32067
 bsdb:358/1/1_cervical-glandular-intraepithelial-neoplasia,cervical-cancer:CIN2/3-CC_vs_Healthy-controls_UP	NA	1301	1313	419005	1599	212791	88164	225324	46255	165096	1279	1912216	1747	1269	1270	43770	851	286638
 bsdb:359/1/1_smoking-behavior:current-smoker_vs_former-smoker_UP	NA	201174	84998
-bsdb:359/1/2_smoking-behavior:current-smoker_vs_former-smoker_DOWN	NA	1224	28216	1236	117743
+bsdb:359/1/2_smoking-behavior:current-smoker_vs_former-smoker_DOWN	NA	28216	117743	1236	1224
 bsdb:359/1/3_smoking-behavior:current-smoker_vs_former-smoker_UP	NA	1380	1678	1578	1301
 bsdb:359/1/4_smoking-behavior:current-smoker_vs_former-smoker_DOWN	NA	482	724	416916	1016	1716	836	838	32067	1257	46123	970
 bsdb:360/1/1_air-pollution:mice-exposed-to-MVE_vs_mice-exposed-to-Filtered-Air_UP	NA	191303	1485
@@ -1460,10 +1460,12 @@ bsdb:369/1/2_obesity:obese_vs_normal-weight_DOWN	NA	171552	990719	1737406	84108	
 bsdb:369/2/1_obesity:after-onset-of-obesity_vs_before-onset-of-obesity_UP	NA	1224	135858	506	40544
 bsdb:369/2/2_obesity:after-onset-of-obesity_vs_before-onset-of-obesity_DOWN	NA	33958	31979	541000	1263
 bsdb:370/1/1_air-pollution:farmworker-exposure_vs_non-farmworker-exposure_DOWN	NA	1378	117563	724	2745	1301
-bsdb:371/1/1_obesity:obese_vs_lean_UP	NA	1591
-bsdb:371/2/1_obesity:obese_vs_lean_DOWN	NA	2173
-bsdb:371/3/1_obesity:obese_vs_lean_DOWN	NA	562
-bsdb:371/4/1_obesity:obese_vs_lean_UP	NA	1598
+bsdb:371/1/1_obesity:obese-subjects_vs_anorexic,-lean,-and-overweight-subjects_DOWN	NA	976
+bsdb:371/2/1_obesity:obese-and-overweight-subjects_vs_lean-and-anorexic-subjects_DOWN	NA	2173
+bsdb:371/3/1_obesity:obese-subjects_vs_lean-subjects_DOWN	NA	562
+bsdb:371/3/2_obesity:obese-subjects_vs_lean-subjects_UP	NA	1598
+bsdb:371/4/1_obesity:overweight-subjects_vs_lean-subjects_UP	NA	1598
+bsdb:371/5/1_obesity:obese-subjects_vs_anorexic,-lean,-and-overweight-subjects_DOWN	NA	562	28025
 bsdb:372/1/1_air-pollution:Diesel-exhaust-particle-(DEP)-exposed-mice_vs_mice-exposed-to-FRA_UP	NA	91061	186826	1578
 bsdb:372/1/2_air-pollution:Diesel-exhaust-particle-(DEP)-exposed-mice_vs_mice-exposed-to-FRA_DOWN	NA	815	816	1239	186803	186801
 bsdb:373/1/1_obesity:overweight_vs_normal-weight-children_UP	NA	1681
@@ -1523,9 +1525,9 @@ bsdb:385/1/1_gastric-adenocarcinoma:gastric-adenocarcinoma-(GC)_vs_superficial-g
 bsdb:385/1/2_gastric-adenocarcinoma:gastric-adenocarcinoma-(GC)_vs_superficial-gastritis-(SG)_DOWN	NA	28211	41297	165695	13690	150203	1328	45634	1305	43675	31953	1654	561	113107	55565	121428	186803	28129	1318
 bsdb:386/1/1_pulmonary-tuberculosis:Tuberculosis-(TB)-patients_vs_healthy-controls_UP	NA	208479
 bsdb:386/1/2_pulmonary-tuberculosis:Tuberculosis-(TB)-patients_vs_healthy-controls_DOWN	NA	239935	1680	1679	28026	74426	410072	39486	88431	729	39485	437897	158847	491921	301301	166486	360807	40545	46228	40520	39491	751585
-bsdb:387/1/1_antimicrobial-agent:Before-ciprofloxacin-exposure_vs_after-antibiotic-exposure_UP	NA	816
-bsdb:387/1/2_antimicrobial-agent:Before-ciprofloxacin-exposure_vs_after-antibiotic-exposure_DOWN	NA	216851	239759	186802	171549	128827
-bsdb:387/2/1_antimicrobial-agent:Before-clindamycin-exposure_vs_after-antibiotic-exposure_DOWN	NA	33042	841	28050	189330	1263	186803	186802
+bsdb:387/1/1_antimicrobial-agent:after-ciprofloxacin-exposure_vs_before-ciprofloxacin-exposure_UP	NA	816
+bsdb:387/1/2_antimicrobial-agent:after-ciprofloxacin-exposure_vs_before-ciprofloxacin-exposure_DOWN	NA	239759	216851	216572
+bsdb:387/2/1_antimicrobial-agent:after-clindamycin-exposure_vs_Before-clindamycin-exposure_DOWN	NA	33042	189330	186802	28050	186803	841	1263
 bsdb:388/1/1_oral-squamous-cell-carcinoma:cancerous--lesions_vs_paracancerous-tissues_UP	NA	44259	195950	543311	2747	1257	1301	157	848
 bsdb:388/1/2_oral-squamous-cell-carcinoma:cancerous--lesions_vs_paracancerous-tissues_DOWN	NA	1663	248038	872	33882	44249	41275
 bsdb:389/1/1_schizophrenia:schizophrenia_vs_healthy-controls_UP	NA	1301
@@ -1551,14 +1553,14 @@ bsdb:394/1/1_asthma:child-with-asthma-at-age-6_vs_healthy-control_UP	NA	29465	83
 bsdb:395/1/1_chronic-kidney-disease,stage-5-chronic-kidney-disease:peritoneal-dialysis_vs_healthy-controls_DOWN	NA	1239
 bsdb:395/2/1_chronic-kidney-disease,stage-5-chronic-kidney-disease:hemodialysis_vs_healthy-controls_UP	NA	976	201174
 bsdb:395/3/1_chronic-kidney-disease,stage-5-chronic-kidney-disease:hemodialysis_vs_peritoneal-dialysis_DOWN	NA	1224
-bsdb:396/1/1_atopic-eczema:atopic-dermatitis_vs_healthy-control_UP	NA	91061
-bsdb:396/1/2_atopic-eczema:atopic-dermatitis_vs_healthy-control_DOWN	NA	186801	28211	84995	203494	84998	28216	526524	200643	1760
+bsdb:396/1/1_atopic-eczema:atopic-dermatitis_vs_healthy-control_UP	NA	91061	1279
+bsdb:396/1/2_atopic-eczema:atopic-dermatitis_vs_healthy-control_DOWN	NA	1760	28211	200643	28216	186801	84998	526524	84995	203494	47670	106589
 bsdb:396/1/3_atopic-eczema:atopic-dermatitis_vs_healthy-control_UP	NA	1279
 bsdb:396/1/4_atopic-eczema:atopic-dermatitis_vs_healthy-control_DOWN	NA	47670	106589
-bsdb:396/2/1_atopic-eczema:atopic-dermatitis-after-treatment-with-TCS-+-Bleach_vs_baseline_UP	NA	1716	469	838
+bsdb:396/2/1_atopic-eczema:atopic-dermatitis-after-treatment-with-TCS-+-Bleach_vs_baseline_UP	NA	469	1716	838
 bsdb:396/2/2_atopic-eczema:atopic-dermatitis-after-treatment-with-TCS-+-Bleach_vs_baseline_DOWN	NA	1279
-bsdb:396/3/1_atopic-eczema:atopic-dermatitis-after-treatment-with-TCS_vs_baseline_UP	NA	1716	469	838
-bsdb:396/3/2_atopic-eczema:atopic-dermatitis-after-treatment-with-TCS_vs_baseline_DOWN	NA	1279
+bsdb:396/3/1_atopic-eczema:atopic-dermatitis-after-treatment-with-TCS-only_vs_baseline_UP	NA	469	1716	838
+bsdb:396/3/2_atopic-eczema:atopic-dermatitis-after-treatment-with-TCS-only_vs_baseline_DOWN	NA	1279
 bsdb:397/1/1_atopic-eczema:severe-atopic-dermatitis_vs_healthy-control_UP	NA	1279	1827	1651	114248	1280	146827	172044
 bsdb:397/1/2_atopic-eczema:severe-atopic-dermatitis_vs_healthy-control_DOWN	NA	1301	32207	29465	838	836	131079	32067	357	1380	43675	28132	425941
 bsdb:398/1/1_atopic-eczema:atopic-dermatitis_vs_healthy-control_DOWN	NA	1279
@@ -1705,7 +1707,7 @@ bsdb:431/8/1_cervical-glandular-intraepithelial-neoplasia:transient-HPV+-with-LS
 bsdb:431/9/1_cervical-glandular-intraepithelial-neoplasia:persistent-HPV+-with-HSIL_vs_HPV-_UP	NA	588673	581
 bsdb:431/9/2_cervical-glandular-intraepithelial-neoplasia:persistent-HPV+-with-HSIL_vs_HPV-_DOWN	NA	28132	39948	420645	838	40544	1257	286	33031	28130	541000
 bsdb:432/1/1_human-papilloma-virus-infection:HPV+_vs_HPV-_UP	NA	2093
-bsdb:432/1/2_human-papilloma-virus-infection:HPV+_vs_HPV-_DOWN	NA	186821	2077	91061	186826
+bsdb:432/1/2_human-papilloma-virus-infection:HPV+_vs_HPV-_DOWN	NA	91061	186826	186821	2077
 bsdb:433/1/1_cervical-glandular-intraepithelial-neoplasia:CIN-2+_vs_healthy-controls_UP	NA	2701
 bsdb:433/1/2_cervical-glandular-intraepithelial-neoplasia:CIN-2+_vs_healthy-controls_DOWN	NA	33958	1578	91061	186826
 bsdb:433/2/1_cervical-cancer:cervical-cancer_vs_healthy-controls_UP	NA	1301	1300	162289	150022	165779	186801	1737405	171552	838	171549	200643

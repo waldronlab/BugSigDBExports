@@ -1,4 +1,4 @@
-# BugSigDB 2022-08-07, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2022-08-14, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_adenoma:conventional-adenoma-cases_vs_controls_UP	NA	Actinomyces	Corynebacterium	Streptococcus	Peptoniphilus	Dorea	Phascolarctobacterium	Sutterella	Lacticaseibacillus	Bacillus
 bsdb:1/1/2_adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	Coprobacillus
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	Anaerostipes	Lacticaseibacillus
@@ -550,11 +550,11 @@ bsdb:169/2/2_gastric-cancer:white-thick-tongue-coating-GC-patient_vs_other-coati
 bsdb:169/3/1_gastric-cancer:yellow-thick-tongue-coating-GC-patient_vs_other-coatings_DOWN	NA	Lautropia	Neisseria	Peptostreptococcus	Capnocytophaga	Haemophilus
 bsdb:170/1/1_lung-cancer:cancerous-site_vs_controls_UP	NA	Streptococcus
 bsdb:170/1/2_lung-cancer:cancerous-site_vs_controls_DOWN	NA	Staphylococcus
-bsdb:170/2/1_lung-cancer:paired-contralateral-non-cancerous-site_vs_controls_UP	NA	Haemophilus	Streptococcus	Flavobacterium	Neisseria	Leptotrichia	Capnocytophaga	Selenomonas
-bsdb:170/2/2_lung-cancer:paired-contralateral-non-cancerous-site_vs_controls_DOWN	NA	Acinetobacter
+bsdb:170/2/1_lung-cancer:paired-contralateral-non-cancerous-site-in-lung-cancer-patients_vs_controls_UP	NA	Capnocytophaga	Flavobacterium	Haemophilus	Leptotrichia	Neisseria	Selenomonas	Streptococcus
+bsdb:170/2/2_lung-cancer:paired-contralateral-non-cancerous-site-in-lung-cancer-patients_vs_controls_DOWN	NA	Acinetobacter
 bsdb:170/3/1_lung-cancer:cancerous-site_vs_paired-contralateral-non-cancerous-site_UP	NA	Dialister
-bsdb:170/4/1_lung-cancer:cacerous-site-with-no-antibiotics_vs_control-groups-with-no-antibiotics_UP	NA	Capnocytophaga
-bsdb:170/4/2_lung-cancer:cacerous-site-with-no-antibiotics_vs_control-groups-with-no-antibiotics_DOWN	NA	Staphylococcus	Paracoccus
+bsdb:170/4/1_lung-cancer:cancerous-site-with-no-antibiotics_vs_control-group-with-no-antibiotics_UP	NA	Capnocytophaga
+bsdb:170/4/2_lung-cancer:cancerous-site-with-no-antibiotics_vs_control-group-with-no-antibiotics_DOWN	NA	Paracoccus	Staphylococcus	Hydrotalea
 bsdb:171/1/1_digestive-system-cancer:digestive-tract-cancer-patients_vs_controls_UP	NA	Corynebacterium	Fusobacterium	Neisseria	Porphyromonas	Schaalia	Streptococcus	Veillonella
 bsdb:171/1/2_digestive-system-cancer:digestive-tract-cancer-patients_vs_controls_DOWN	NA	Actinomyces	Porphyromonas	Prevotella	Rothia	Solobacterium
 bsdb:171/2/1_tongue-neoplasm:tongue/pharyngeal-cancer-patients_vs_controls_UP	NA	Aggregatibacter	Corynebacterium	Leptotrichia	Neisseria	Porphyromonas	Prevotella	Streptococcus
@@ -1204,8 +1204,8 @@ bsdb:347/1/1_obesity:obese-children_vs_controls_UP	NA	Allisonella	Bilophila	Mega
 bsdb:347/1/2_obesity:obese-children_vs_controls_DOWN	NA	Akkermansia	Alloprevotella	Anaerostipes	Bacteroides	Blautia	Enterococcus	Erysipelatoclostridium	Faecalibacterium	Gordonibacter	Lactonifactor	Solobacterium	Streptococcus
 bsdb:348/1/1_obesity:obese-children_vs_lean-children_UP	NA	Bacteroides	Lactobacillus
 bsdb:348/1/2_obesity:obese-children_vs_lean-children_DOWN	NA	Bifidobacterium
-bsdb:348/2/1_obesity:overweight_vs_lean_UP	NA	Bacteroides	Lactobacillus
-bsdb:348/2/2_obesity:overweight_vs_lean_DOWN	NA	Bifidobacterium
+bsdb:348/2/1_obesity:overweight-children_vs_lean-children_UP	NA	Bacteroides	Lactobacillus
+bsdb:348/2/2_obesity:overweight-children_vs_lean-children_DOWN	NA	Bifidobacterium
 bsdb:348/3/1_obesity:obese_vs_lean_UP	NA	Bacteroides
 bsdb:348/3/2_obesity:obese_vs_lean_DOWN	NA	Bifidobacterium
 bsdb:348/4/1_obesity:overweight_vs_lean_UP	NA	Lactobacillus
@@ -1268,10 +1268,11 @@ bsdb:369/1/2_obesity:obese_vs_normal-weight_DOWN	NA	Slackia	Prevotella	Oscillosp
 bsdb:369/2/1_obesity:after-onset-of-obesity_vs_before-onset-of-obesity_UP	NA	Catenibacterium	Sutterella
 bsdb:369/2/2_obesity:after-onset-of-obesity_vs_before-onset-of-obesity_DOWN	NA	Ruminococcus
 bsdb:370/1/1_air-pollution:farmworker-exposure_vs_non-farmworker-exposure_DOWN	NA	Gemella	Granulicatella	Haemophilus	Halomonas	Streptococcus
-bsdb:371/1/1_obesity:obese_vs_lean_UP	NA	Lactobacillus
-bsdb:371/2/1_obesity:obese_vs_lean_DOWN	NA	Methanobrevibacter
-bsdb:371/3/1_obesity:obese_vs_lean_DOWN	NA	Escherichia
-bsdb:371/4/1_obesity:obese_vs_lean_UP	NA	Limosilactobacillus
+bsdb:371/2/1_obesity:obese-and-overweight-subjects_vs_lean-and-anorexic-subjects_DOWN	NA	Methanobrevibacter
+bsdb:371/3/1_obesity:obese-subjects_vs_lean-subjects_DOWN	NA	Escherichia
+bsdb:371/3/2_obesity:obese-subjects_vs_lean-subjects_UP	NA	Limosilactobacillus
+bsdb:371/4/1_obesity:overweight-subjects_vs_lean-subjects_UP	NA	Limosilactobacillus
+bsdb:371/5/1_obesity:obese-subjects_vs_anorexic,-lean,-and-overweight-subjects_DOWN	NA	Escherichia	Bifidobacterium
 bsdb:372/1/1_air-pollution:Diesel-exhaust-particle-(DEP)-exposed-mice_vs_mice-exposed-to-FRA_UP	NA	Lactobacillus
 bsdb:372/1/2_air-pollution:Diesel-exhaust-particle-(DEP)-exposed-mice_vs_mice-exposed-to-FRA_DOWN	NA	Bacteroides
 bsdb:373/1/1_obesity:overweight_vs_normal-weight-children_UP	NA	Bifidobacterium
@@ -1319,9 +1320,9 @@ bsdb:385/1/1_gastric-adenocarcinoma:gastric-adenocarcinoma-(GC)_vs_superficial-g
 bsdb:385/1/2_gastric-adenocarcinoma:gastric-adenocarcinoma-(GC)_vs_superficial-gastritis-(SG)_DOWN	NA	Sphingobium	Blastomonas	Streptococcus	Rothia	Actinomyces	Escherichia	Prevotella
 bsdb:386/1/1_pulmonary-tuberculosis:Tuberculosis-(TB)-patients_vs_healthy-controls_UP	NA	Enterocloster
 bsdb:386/1/2_pulmonary-tuberculosis:Tuberculosis-(TB)-patients_vs_healthy-controls_DOWN	NA	Akkermansia	Bifidobacterium	Collinsella	Coprococcus	Dorea	Haemophilus	Lachnospira	Megamonas	Roseburia	Sutterella	Mediterraneibacter	Blautia
-bsdb:387/1/1_antimicrobial-agent:Before-ciprofloxacin-exposure_vs_after-antibiotic-exposure_UP	NA	Bacteroides
-bsdb:387/1/2_antimicrobial-agent:Before-ciprofloxacin-exposure_vs_after-antibiotic-exposure_DOWN	NA	Faecalibacterium	Alistipes
-bsdb:387/2/1_antimicrobial-agent:Before-clindamycin-exposure_vs_after-antibiotic-exposure_DOWN	NA	Coprococcus	Roseburia	Lachnospira	Dorea	Ruminococcus
+bsdb:387/1/1_antimicrobial-agent:after-ciprofloxacin-exposure_vs_before-ciprofloxacin-exposure_UP	NA	Bacteroides
+bsdb:387/1/2_antimicrobial-agent:after-ciprofloxacin-exposure_vs_before-ciprofloxacin-exposure_DOWN	NA	Alistipes	Faecalibacterium
+bsdb:387/2/1_antimicrobial-agent:after-clindamycin-exposure_vs_Before-clindamycin-exposure_DOWN	NA	Coprococcus	Dorea	Lachnospira	Roseburia	Ruminococcus
 bsdb:388/1/1_oral-squamous-cell-carcinoma:cancerous--lesions_vs_paracancerous-tissues_UP	NA	Filifactor	Tannerella	Parvimonas	Carnobacterium	Peptostreptococcus	Streptococcus	Treponema	Fusobacterium
 bsdb:388/1/2_oral-squamous-cell-carcinoma:cancerous--lesions_vs_paracancerous-tissues_DOWN	NA	Arthrobacter	Mucispirillum	Desulfovibrio	Microbacterium	Paenibacillus	Brevundimonas
 bsdb:389/1/1_schizophrenia:schizophrenia_vs_healthy-controls_UP	NA	Streptococcus
@@ -1343,12 +1344,14 @@ bsdb:392/4/2_milk-allergic-reaction:infant-with-non-IgE-mediated-cow's-milk-alle
 bsdb:393/1/1_milk-allergic-reaction:infant-with-non-IgE-mediated-cow's-milk-allergy-tolerant-to-cow's-milk-protein_vs_infant-with-non-IgE-mediated-cow's-milk-allergy-non-tolerant-to-cow's-milk-protein_UP	NA	Bifidobacterium
 bsdb:393/2/2_milk-allergic-reaction:infant-with-non-IgE-mediated-cow's-milk-allergy_vs_healthy-control_DOWN	NA	Bacteroides
 bsdb:394/1/1_asthma:child-with-asthma-at-age-6_vs_healthy-control_UP	NA	Veillonella	Prevotella
+bsdb:396/1/1_atopic-eczema:atopic-dermatitis_vs_healthy-control_UP	NA	Staphylococcus
+bsdb:396/1/2_atopic-eczema:atopic-dermatitis_vs_healthy-control_DOWN	NA	Lautropia	Cupriavidus
 bsdb:396/1/3_atopic-eczema:atopic-dermatitis_vs_healthy-control_UP	NA	Staphylococcus
 bsdb:396/1/4_atopic-eczema:atopic-dermatitis_vs_healthy-control_DOWN	NA	Lautropia	Cupriavidus
-bsdb:396/2/1_atopic-eczema:atopic-dermatitis-after-treatment-with-TCS-+-Bleach_vs_baseline_UP	NA	Corynebacterium	Acinetobacter	Prevotella
+bsdb:396/2/1_atopic-eczema:atopic-dermatitis-after-treatment-with-TCS-+-Bleach_vs_baseline_UP	NA	Acinetobacter	Corynebacterium	Prevotella
 bsdb:396/2/2_atopic-eczema:atopic-dermatitis-after-treatment-with-TCS-+-Bleach_vs_baseline_DOWN	NA	Staphylococcus
-bsdb:396/3/1_atopic-eczema:atopic-dermatitis-after-treatment-with-TCS_vs_baseline_UP	NA	Corynebacterium	Acinetobacter	Prevotella
-bsdb:396/3/2_atopic-eczema:atopic-dermatitis-after-treatment-with-TCS_vs_baseline_DOWN	NA	Staphylococcus
+bsdb:396/3/1_atopic-eczema:atopic-dermatitis-after-treatment-with-TCS-only_vs_baseline_UP	NA	Acinetobacter	Corynebacterium	Prevotella
+bsdb:396/3/2_atopic-eczema:atopic-dermatitis-after-treatment-with-TCS-only_vs_baseline_DOWN	NA	Staphylococcus
 bsdb:397/1/1_atopic-eczema:severe-atopic-dermatitis_vs_healthy-control_UP	NA	Staphylococcus	Rhodococcus	Alloiococcus	Tepidimonas	Corynebacterium	Sphingomonas
 bsdb:397/1/2_atopic-eczema:severe-atopic-dermatitis_vs_healthy-control_DOWN	NA	Streptococcus	Rothia	Veillonella	Prevotella	Porphyromonas	Limnobacter	Leptotrichia	Agrobacterium	Atopobium
 bsdb:398/1/1_atopic-eczema:atopic-dermatitis_vs_healthy-control_DOWN	NA	Staphylococcus
