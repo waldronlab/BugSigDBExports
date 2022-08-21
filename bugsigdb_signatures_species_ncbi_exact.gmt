@@ -1,4 +1,4 @@
-# BugSigDB 2022-08-14, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2022-08-21, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_adenoma:conventional-adenoma-cases_vs_controls_UP	NA	57037
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	57037
 bsdb:1/6/1_adenoma:Non-advanced-conventional-adenoma-cases_vs_controls_UP	NA	57037
@@ -260,8 +260,8 @@ bsdb:218/3/1_hepatocellular-carcinoma:non-HBV-non-HCV-patients_vs_HBV-related-HC
 bsdb:219/1/1_diet:lower-fiber-(cracker)_vs_higher-fiber-(almonds)---interaction-by-time_UP	NA	817
 bsdb:221/1/1_urinary-tract-infection:urinary-tract-infection_vs_healthy-controls_UP	NA	1468449	86664	333367	44009	536633
 bsdb:221/1/2_urinary-tract-infection:urinary-tract-infection_vs_healthy-controls_DOWN	NA	1559	1260	729	386414	373040	1537
-bsdb:222/1/1_gastric-cancer:high-gastric-cancer-risk_vs_low-gastric-cancer-risk-patients_UP	NA	157687	1926307
-bsdb:222/1/2_gastric-cancer:high-gastric-cancer-risk_vs_low-gastric-cancer-risk-patients_DOWN	NA	29317	1017	239	484	192066	1924944	28135	1885016	29387	1303	1310087
+bsdb:222/1/1_gastric-cancer:high-gastric-cancer-risk-patients-(Tuquerres-residents)_vs_low-gastric-cancer-risk-patients-(Tumaco-residents)_UP	NA	157687	1926307
+bsdb:222/1/2_gastric-cancer:high-gastric-cancer-risk-patients-(Tuquerres-residents)_vs_low-gastric-cancer-risk-patients-(Tumaco-residents)_DOWN	NA	29317	1017	239	484	192066	1924944	28135	1885016	29387	1303	1310087
 bsdb:223/1/1_HIV-infection:HIV-infected-patients_vs_healthy-controls_UP	NA	1343	33038
 bsdb:223/1/2_HIV-infection:HIV-infected-patients_vs_healthy-controls_DOWN	NA	165179	821
 bsdb:223/2/1_HIV-infection:HIV-infected-patients-who-are-homosexual_vs_healthy-controls_UP	NA	1547
@@ -333,7 +333,7 @@ bsdb:256/11/2_gastric-cancer:tumor-HP+_vs_tumor-HP-_DOWN	NA	351
 bsdb:259/1/1_atopic-eczema:emollient-use_vs_no-emollient-use_UP	NA	1304
 bsdb:259/2/1_atopic-eczema:emollient-use_vs_no-emollient-use_UP	NA	1304
 bsdb:259/2/2_atopic-eczema:emollient-use_vs_no-emollient-use_UP	NA	1304
-bsdb:261/1/1_chronic-pancreatitis:chronic-pancreatitis_vs_autoimmune-pancreatitis-type-1_UP	NA	28116	113107	1302	205328	460384
+bsdb:261/1/1_Chronic-pancreatitis:autoimmune-pancreatitis-type-1_vs_chronic-pancreatitis_DOWN	NA	28116	205328	460384	113107	1302
 bsdb:264/1/1_human-papilloma-virus-infection:HPV+/HIV-_vs_HPV-/HIV-_UP	NA	1872515	2023260	1261	309120	72409	1971214	1258	59823
 bsdb:264/1/2_human-papilloma-virus-infection:HPV+/HIV-_vs_HPV-/HIV-_DOWN	NA	147802	1879286
 bsdb:265/1/1_human-papilloma-virus-infection:two-months_vs_at-birth_UP	NA	39778	43675
@@ -407,7 +407,7 @@ bsdb:290/3/1_oral-mucositis:pre--and-three-month-after-auto-stem-cell-transplant
 bsdb:290/3/2_oral-mucositis:pre--and-three-month-after-auto-stem-cell-transplant_vs_one-and-two-weeks-after-stem-cell-transplant_DOWN	NA	1280	29380	1282	1292	230143	1351
 bsdb:291/1/1_Graves-disease:graves-disease_vs_healthy-controls_UP	NA	204	1926307	582
 bsdb:291/1/2_Graves-disease:graves-disease_vs_healthy-controls_DOWN	NA	1596	1872444
-bsdb:292/1/1_graft-versus-host-disease:allogeneic-hematopoietic-stem-cell-transplant_vs_community-dwelling_UP	NA	1597	1283	1290	329	56448	53345	47715	1582	38304	1351	1308	1313	40324	108980	1898956	158836	1260	82135	529	80866	1246	496	1492	2053611	316
+bsdb:292/1/1_response-to-allogeneic-hematopoietic-stem-cell-transplant:allogeneic-hematopoietic-stem-cell-transplant_vs_community-dwelling-controls_UP	NA	1597	1283	1290	329	56448	53345	47715	1582	38304	1351	1308	1313	40324	108980	1898956	158836	1260	82135	529	80866	1246	496	1492	2053611	316
 bsdb:293/4/1_human-papilloma-virus-infection:HPV+_vs_HPV-_UP	NA	134821
 bsdb:293/4/2_human-papilloma-virus-infection:HPV+_vs_HPV-_DOWN	NA	1852374	287
 bsdb:293/5/1_human-papilloma-virus-infection:new-acquisition-of-HPV-within-a-year_vs_no-new-acquisition-of-HPV-within-a-year_UP	NA	76122	28133	28136	218538
@@ -855,6 +855,8 @@ bsdb:663/5/1_Ethnic-group:India_vs_Jakun_UP	NA	216816	1686
 bsdb:663/5/2_Ethnic-group:India_vs_Jakun_DOWN	NA	1463165
 bsdb:666/1/1_socioeconomic-status:Low-income-country-(Malawi)_vs_High-Income-country-(Finland)_UP	NA	1681	1685	216816
 bsdb:666/1/2_socioeconomic-status:Low-income-country-(Malawi)_vs_High-Income-country-(Finland)_DOWN	NA	1686	1680	1535	1532	1496	1502	239935	1280
+bsdb:667/1/1_hepatocellular-carcinoma:Responders_vs_Non-responders_UP	NA	853	33025	1583331	48256	40518
+bsdb:667/1/2_hepatocellular-carcinoma:Responders_vs_Non-responders_DOWN	NA	147206	1841856	58180	470565	2702
 bsdb:670/1/2_socioeconomic-status,ethnic-group:Bangladesh-Children-(Household-income-<-$61)_vs_US-children_DOWN	NA	818	853
 bsdb:675/1/2_socioeconomic-status:25th-Percentile-of-926-participants-(monthly-household-income=<$7000.)_vs_75th-Percentile-of-926-participants-(monthly-household--income=>$15,250.)_DOWN	NA	31971	817	84112
 bsdb:676/1/2_non-small-cell-lung-carcinoma:Responders_vs_Non-responders_UP	NA	28117	216816	165179

@@ -1,4 +1,4 @@
-# BugSigDB 2022-08-14, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2022-08-21, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_adenoma:conventional-adenoma-cases_vs_controls_UP	NA	Lacticaseibacillus zeae
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	Lacticaseibacillus zeae
 bsdb:1/6/1_adenoma:Non-advanced-conventional-adenoma-cases_vs_controls_UP	NA	Lacticaseibacillus zeae
@@ -260,8 +260,8 @@ bsdb:218/3/1_hepatocellular-carcinoma:non-HBV-non-HCV-patients_vs_HBV-related-HC
 bsdb:219/1/1_diet:lower-fiber-(cracker)_vs_higher-fiber-(almonds)---interaction-by-time_UP	NA	Bacteroides fragilis
 bsdb:221/1/1_urinary-tract-infection:urinary-tract-infection_vs_healthy-controls_UP	NA	Holdemania massiliensis	Priestia flexa	Enterocloster asparagiformis	Enterococcus dispar	Blautia glucerasea
 bsdb:221/1/2_urinary-tract-infection:urinary-tract-infection_vs_healthy-controls_DOWN	NA	Clostridium tertium	Finegoldia magna	Haemophilus parainfluenzae	Prevotella timonensis	Massilia aurea	Romboutsia lituseburensis
-bsdb:222/1/1_gastric-cancer:high-gastric-cancer-risk_vs_low-gastric-cancer-risk-patients_UP	NA	Leptotrichia wadei	Veillonella sp.
-bsdb:222/1/2_gastric-cancer:high-gastric-cancer-risk_vs_low-gastric-cancer-risk-patients_DOWN	NA	Actinomyces sp.	Capnocytophaga gingivalis	Flavobacterium sp.	Neisseria flavescens	Neisseria sp.	Porphyromonas sp.	Prevotella oris	Rothia sp.	Staphylococcus sp.	Streptococcus oralis	uncultured Haematobacter sp.
+bsdb:222/1/1_gastric-cancer:high-gastric-cancer-risk-patients-(Tuquerres-residents)_vs_low-gastric-cancer-risk-patients-(Tumaco-residents)_UP	NA	Leptotrichia wadei	Veillonella sp.
+bsdb:222/1/2_gastric-cancer:high-gastric-cancer-risk-patients-(Tuquerres-residents)_vs_low-gastric-cancer-risk-patients-(Tumaco-residents)_DOWN	NA	Actinomyces sp.	Capnocytophaga gingivalis	Flavobacterium sp.	Neisseria flavescens	Neisseria sp.	Porphyromonas sp.	Prevotella oris	Rothia sp.	Staphylococcus sp.	Streptococcus oralis	uncultured Haematobacter sp.
 bsdb:223/1/1_HIV-infection:HIV-infected-patients_vs_healthy-controls_UP	NA	Streptococcus vestibularis	[Ruminococcus] gnavus
 bsdb:223/1/2_HIV-infection:HIV-infected-patients_vs_healthy-controls_DOWN	NA	Prevotella copri	Phocaeicola vulgatus
 bsdb:223/2/1_HIV-infection:HIV-infected-patients-who-are-homosexual_vs_healthy-controls_UP	NA	Erysipelatoclostridium ramosum
@@ -333,7 +333,7 @@ bsdb:256/11/2_gastric-cancer:tumor-HP+_vs_tumor-HP-_DOWN	NA	Azotobacter group
 bsdb:259/1/1_atopic-eczema:emollient-use_vs_no-emollient-use_UP	NA	Streptococcus salivarius
 bsdb:259/2/1_atopic-eczema:emollient-use_vs_no-emollient-use_UP	NA	Streptococcus salivarius
 bsdb:259/2/2_atopic-eczema:emollient-use_vs_no-emollient-use_UP	NA	Streptococcus salivarius
-bsdb:261/1/1_chronic-pancreatitis:chronic-pancreatitis_vs_autoimmune-pancreatitis-type-1_UP	NA	Bacteroides ovatus	Streptococcus australis	Streptococcus gordonii	Clostridium lacusfryxellense	Enterocloster lavalensis
+bsdb:261/1/1_Chronic-pancreatitis:autoimmune-pancreatitis-type-1_vs_chronic-pancreatitis_DOWN	NA	Bacteroides ovatus	Clostridium lacusfryxellense	Enterocloster lavalensis	Streptococcus australis	Streptococcus gordonii
 bsdb:264/1/1_human-papilloma-virus-infection:HPV+/HIV-_vs_HPV-/HIV-_UP	NA	Anaerococcus sp.	Megasphaera sp.	Peptostreptococcus anaerobius	Dialister micraerophilus	Arcanobacterium sp.	Peptoniphilus sp.	Peptoniphilus asaccharolyticus	Prevotella sp.
 bsdb:264/1/2_human-papilloma-virus-infection:HPV+/HIV-_vs_HPV-/HIV-_DOWN	NA	Lactobacillus iners	Halorubrum sp.
 bsdb:265/1/1_human-papilloma-virus-infection:two-months_vs_at-birth_UP	NA	Veillonella dispar	Rothia mucilaginosa
@@ -407,7 +407,7 @@ bsdb:290/3/1_oral-mucositis:pre--and-three-month-after-auto-stem-cell-transplant
 bsdb:290/3/2_oral-mucositis:pre--and-three-month-after-auto-stem-cell-transplant_vs_one-and-two-weeks-after-stem-cell-transplant_DOWN	NA	Staphylococcus aureus	Staphylococcus caprae	Staphylococcus epidermidis	Staphylococcus warneri	Scardovia wiggsiae	Enterococcus faecalis
 bsdb:291/1/1_Graves-disease:graves-disease_vs_healthy-controls_UP	NA	Campylobacter showae	Veillonella sp.	Morganella morganii
 bsdb:291/1/2_Graves-disease:graves-disease_vs_healthy-controls_DOWN	NA	Lactobacillus gasseri	Alistipes sp.
-bsdb:292/1/1_graft-versus-host-disease:allogeneic-hematopoietic-stem-cell-transplant_vs_community-dwelling_UP	NA	Lacticaseibacillus paracasei	Staphylococcus haemolyticus	Staphylococcus hominis	Ralstonia pickettii	Xanthomonas arboricola	Enterococcus durans	Lacticaseibacillus rhamnosus	Lacticaseibacillus casei	Corynebacterium tuberculostearicum	Enterococcus faecalis	Streptococcus thermophilus	Streptococcus pneumoniae	Stenotrophomonas maltophilia	Acinetobacter ursingii	Ottowia sp.	Enterobacter hormaechei	Finegoldia magna	Fannyhessea vaginae	Brucella anthropi	Delftia acidovorans	Leuconostoc lactis	Neisseria macacae	Clostridium butyricum	Selenomonas sp.	Pseudomonas stutzeri
+bsdb:292/1/1_response-to-allogeneic-hematopoietic-stem-cell-transplant:allogeneic-hematopoietic-stem-cell-transplant_vs_community-dwelling-controls_UP	NA	Lacticaseibacillus paracasei	Staphylococcus haemolyticus	Staphylococcus hominis	Ralstonia pickettii	Xanthomonas arboricola	Enterococcus durans	Lacticaseibacillus rhamnosus	Lacticaseibacillus casei	Corynebacterium tuberculostearicum	Enterococcus faecalis	Streptococcus thermophilus	Streptococcus pneumoniae	Stenotrophomonas maltophilia	Acinetobacter ursingii	Ottowia sp.	Enterobacter hormaechei	Finegoldia magna	Fannyhessea vaginae	Brucella anthropi	Delftia acidovorans	Leuconostoc lactis	Neisseria macacae	Clostridium butyricum	Selenomonas sp.	Pseudomonas stutzeri
 bsdb:293/4/1_human-papilloma-virus-infection:HPV+_vs_HPV-_UP	NA	Ureaplasma parvum
 bsdb:293/4/2_human-papilloma-virus-infection:HPV+_vs_HPV-_DOWN	NA	Ezakiella massiliensis	Pseudomonas aeruginosa
 bsdb:293/5/1_human-papilloma-virus-infection:new-acquisition-of-HPV-within-a-year_vs_no-new-acquisition-of-HPV-within-a-year_UP	NA	Alloprevotella tannerae	Prevotella nigrescens	Prevotella oulorum	Dialister invisus
@@ -855,6 +855,8 @@ bsdb:663/5/1_Ethnic-group:India_vs_Jakun_UP	NA	Bifidobacterium longum	Bifidobact
 bsdb:663/5/2_Ethnic-group:India_vs_Jakun_DOWN	NA	Klebsiella quasipneumoniae
 bsdb:666/1/1_socioeconomic-status:Low-income-country-(Malawi)_vs_High-Income-country-(Finland)_UP	NA	Bifidobacterium bifidum	Bifidobacterium breve	Bifidobacterium longum
 bsdb:666/1/2_socioeconomic-status:Low-income-country-(Malawi)_vs_High-Income-country-(Finland)_DOWN	NA	Bifidobacterium catenulatum	Bifidobacterium adolescentis	[Clostridium] leptum	Blautia coccoides	Clostridioides difficile	Clostridium perfringens	Akkermansia muciniphila	Staphylococcus aureus
+bsdb:667/1/1_hepatocellular-carcinoma:Responders_vs_Non-responders_UP	NA	Faecalibacterium prausnitzii	Phascolarctobacterium faecium	Porphyromonas pasteri	Ruminiclostridium hungatei	Ruminococcus bromii
+bsdb:667/1/2_hepatocellular-carcinoma:Responders_vs_Non-responders_DOWN	NA	Collinsella stercoris	Bacteroides mediterraneensis	Oleidesulfovibrio alaskensis	Prevotella histicola	Gardnerella vaginalis
 bsdb:670/1/2_socioeconomic-status,ethnic-group:Bangladesh-Children-(Household-income-<-$61)_vs_US-children_DOWN	NA	Bacteroides thetaiotaomicron	Faecalibacterium prausnitzii
 bsdb:675/1/2_socioeconomic-status:25th-Percentile-of-926-participants-(monthly-household-income=<$7000.)_vs_75th-Percentile-of-926-participants-(monthly-household--income=>$15,250.)_DOWN	NA	Amedibacillus dolichus	Bacteroides fragilis	Eggerthella lenta
 bsdb:676/1/2_non-small-cell-lung-carcinoma:Responders_vs_Non-responders_UP	NA	Alistipes putredinis	Bifidobacterium longum	Prevotella copri
