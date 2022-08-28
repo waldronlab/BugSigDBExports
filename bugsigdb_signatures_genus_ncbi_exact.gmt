@@ -1,4 +1,4 @@
-# BugSigDB 2022-08-21, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2022-08-28, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_adenoma:conventional-adenoma-cases_vs_controls_UP	NA	1654	1716	1301	162289	189330	33024	40544	1386
 bsdb:1/1/2_adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	100883
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	207244
@@ -574,9 +574,9 @@ bsdb:202/1/1_autism:children-with-autism-mental-regression-(AMR)_vs_children-wit
 bsdb:202/2/1_autism:children-with-autism-non-mental-regression-(ANMR)_vs_healthy-controls_UP	NA	1678	1350
 bsdb:202/3/1_autism:children-with-autism-mental-regression-(AMR)_vs_healthy-controls_UP	NA	1678	1350
 bsdb:204/1/1_premature-birth:mothers-whose-newborns-were-delivered-at-<34-gestational-week_vs_mothers-whose-newborns-were-delivered-at-≥37-getastional-weeks_DOWN	NA	1678
-bsdb:207/1/1_vulvovaginitis:BV_vs_NC_UP	NA	2701	168808	1380	118747	39948	2050	836
-bsdb:207/1/2_vulvovaginitis:BV_vs_NC_DOWN	NA	1578
-bsdb:207/2/1_vulvovaginitis:BV.VVC_vs_NC_UP	NA	838
+bsdb:207/1/1_vulvovaginitis:Women-with-BV_vs_Normal-controls_UP	NA	1380	118747	39948	2701	2050	836	168808
+bsdb:207/1/2_vulvovaginitis:Women-with-BV_vs_Normal-controls_DOWN	NA	1578
+bsdb:207/2/1_vulvovaginitis:Women-with-BV-and-VVC_vs_Normal-controls_UP	NA	838
 bsdb:208/1/5_food-allergy:infants-with-food-allergies_vs_healthy-controls_UP	NA	1485	1350	1578	1279	216851	207244	838	946234
 bsdb:208/1/6_food-allergy:infants-with-food-allergies_vs_healthy-controls_DOWN	NA	816	572511	570	158846	906	1301	29465
 bsdb:208/2/1_food-allergy:infants-with-food-allergies_vs_healthy-controls_UP	NA	1485	580596	1827
@@ -1009,12 +1009,12 @@ bsdb:342/3/2_asthma:Samples-with-rhinovirus-A-(RV-A)_vs_Samples-that-were-RV-A-n
 bsdb:342/4/1_asthma:Younger-children_vs_older-children_DOWN	NA	475
 bsdb:342/5/1_asthma:Children-who-experienced-exacerbation_vs_children-who-did-not-experience-exacerbation_UP	NA	475
 bsdb:342/5/2_asthma:Children-who-experienced-exacerbation_vs_children-who-did-not-experience-exacerbation_DOWN	NA	1651	1716	724	1279
-bsdb:342/6/1_asthma:Viral-illnesses_vs_no-viral-illnesses_UP	NA	475
-bsdb:342/6/2_asthma:Viral-illnesses_vs_no-viral-illnesses_DOWN	NA	1279
-bsdb:342/7/1_asthma:Children-with-any-rhinovirus-infection_vs_children-with-no-rhinovirus-infection_UP	NA	1301
-bsdb:342/7/2_asthma:Children-with-any-rhinovirus-infection_vs_children-with-no-rhinovirus-infection_DOWN	NA	1279
-bsdb:342/8/1_asthma:Children-with-rhinovirus-A-infection_vs_children-rhinovirus-negative_UP	NA	724	1301
-bsdb:342/8/2_asthma:Children-with-rhinovirus-A-infection_vs_children-rhinovirus-negative_DOWN	NA	1279
+bsdb:342/6/1_asthma:children-with-viral-illnesses-detected_vs_children-with-no-viral-illnesses_UP	NA	475
+bsdb:342/6/2_asthma:children-with-viral-illnesses-detected_vs_children-with-no-viral-illnesses_DOWN	NA	1279
+bsdb:342/7/1_asthma:samples-with-any-rhinovirus-infection_vs_samples-with-no-rhinovirus-infection_UP	NA	1301
+bsdb:342/7/2_asthma:samples-with-any-rhinovirus-infection_vs_samples-with-no-rhinovirus-infection_DOWN	NA	1279
+bsdb:342/8/1_asthma:Samples-with-rhinovirus-A_vs_Rhinovirus-negative-samples_UP	NA	724	1301
+bsdb:342/8/2_asthma:Samples-with-rhinovirus-A_vs_Rhinovirus-negative-samples_DOWN	NA	1279
 bsdb:342/9/1_asthma:Children-with-rhinovirus-C-infection_vs_children-rhinovirus-neagtive_UP	NA	1301
 bsdb:342/9/2_asthma:Children-with-rhinovirus-C-infection_vs_children-rhinovirus-neagtive_DOWN	NA	1279
 bsdb:342/10/1_asthma:Respiratory-illness_vs_no-respiratory-illness_UP	NA	1301
@@ -1548,6 +1548,7 @@ bsdb:562/4/1_NA:nasal-cavity-from-healthy-adult_vs_none---50%-prevalence-thresho
 bsdb:562/5/1_NA:oral-cavity-from-healthy-adult_vs_none---50%-prevalence-threshold_NA	NA	1301	32207	1654	29465	838	848	1378	482	724	836	194	2529408	1016	32067	1716	47670	416916	195950	1283313	117563	265976	1164882	543311	970	157	46123	32257	86331	1213720	123375	2717	906	538	1257
 bsdb:562/6/1_NA:milk-from-healthy-adult_vs_none---50%-prevalence-threshold_NA	NA	1301
 bsdb:562/7/1_healthy:healthy-adult-vagina-70%-up_vs_NA_NA	NA	1578
+bsdb:562/8/1_healthy:healthy-adult-skin-70%-up_vs_none_NA	NA	1716	1912216	55193	1279	1301
 bsdb:562/9/1_NA:feces-from-healthy-adult_vs_none---70%-prevalence-threshold_NA	NA	447020	2048137	239759	2569097	207244	816	1678	572511	1485	102106	33042	189330	1730	216851	946234	1407607	204475	28050	2316020	283168	459786	375288	909656	841	1263	1301	1905344
 bsdb:562/10/1_NA:feces-from-healthy-adult_vs_none---0%-prevalence-threshold_NA	NA	46123	2147	222	904	1912215	50709	12916	469	76833	1654	1653174	447020	240233	1375	642	2048137	416916	186829	46352	239934	507	2321111	239759	2675234	133193	222991	209879	1651	1283313	419014	2823232	2749846	2569097	165779	52784	264995	156454	1924093	653683	207244	2039240	244127	55079	150247	69278	2801844	28263	1663	35823	5052	1380	414371	6	1386	816	397864	697279	59735	1678	35832	572511	517	85413	43668	29521	374	55080	1696	41275	2755	234	32008	580596	574697	830	1276290	1158982	1535326	1291539	1470349	1016	2717	2747	135858	43996	75	158483	698776	157920	1653176	180162	810	990721	59732	169133	1573	508459	501783	1870884	1485	102106	283	2767879	100883	1348911	33042	2678534	1716	1937664	413496	106589	2034	1912216	2675230	1298	80865	2767880	79603	36739	57495	82800	893	898	872	39948	1472649	37914	29393	189330	2518495	156973	635	84111	1279384	538	1432051	308865	423604	59734	212791	1472762	106591	5758	547	2719313	1350	2782229	171412	551	1505663	1647	561	1730	41201	33986	1582879	66831	2005359	1573536	1573534	2767327	44259	150022	237	946234	1649295	1434006	1335631	2767881	1407607	848	2701	1378	204475	129337	1193503	13075	1742989	2053	644652	117563	366614	724	568	1892380	31983	209	1573535	61170	2815774	1649459	243627	1609627	70774	89092	1937007	1505657	1392389	53457	29580	157226	227979	428711	257820	32257	570	579	136099	1330547	186475	1649	57499	1506553	28050	2719231	2759736	2767842	1578	1357	420345	2767353	2767884	2767885	47670	1847725	41707	2172004	83654	5658	2767893	32067	55968	1243	2767886	2767887	1676651	2742598	2767888	1637	2767889	400634	68	69965	1637257	55193	2803850	2837505	86795	248744	149698	1926659	2316020	158846	906	65551	1649468	33969	68287	2055876	2172	1080709	2316	316612	2282523	33882	29404	57479	52225	2100764	2050	88138	158848	86331	2039302	475	581	212742	248038	1918540	1774128	1763	670516	1866885	2093	2767358	53	909928	482	1839	2013	283168	46254	90243
 bsdb:562/11/1_NA:feces-from-healthy-adult_vs_none---30%-prevalence-threshold_NA	NA	216851	816	841	572511	2316020	189330	1730	909656	1407607	375288	239759	207244	33042	102106	2048137	2569097	1263	1678	28050	1301	204475	1905344	459786	1485	283168	946234	447020	838	397864	644652	33024	2172004	561	35832	239934	574697	577310	1505657	1578	1505663	84108	2719313	1348911	84111	39948	29465	1472762	1392389	724	1924093	1573535	2172	61170	577309	2847313	191303	1918598	1654
@@ -1708,6 +1709,7 @@ bsdb:663/2/1_Ethnic-group:India_vs_Chinese_UP	NA	838
 bsdb:663/2/2_Ethnic-group:India_vs_Chinese_DOWN	NA	816
 bsdb:663/3/1_Ethnic-group:Jakun_vs_Chinese_UP	NA	838
 bsdb:663/3/2_Ethnic-group:Jakun_vs_Chinese_DOWN	NA	816
+bsdb:666/1/1_socioeconomic-status:Low-income-country-(Malawi)_vs_High-Income-country-(Finland)_UP	NA	1678
 bsdb:667/1/1_hepatocellular-carcinoma:Responders_vs_Non-responders_UP	NA	216851	162289	33024	32207	1263
 bsdb:667/1/2_hepatocellular-carcinoma:Responders_vs_Non-responders_DOWN	NA	2701
 bsdb:669/1/1_ethnic-group,socioeconomic-status:Rural-African-Children-in-Burkina-Faso_vs_European-Children-in-Italy_UP	NA	838
@@ -1720,6 +1722,7 @@ bsdb:674/1/2_socioeconomic-status:Low-SES_vs_High-SES_DOWN	NA	80865	239759	816	1
 bsdb:675/1/1_socioeconomic-status:25th-Percentile-of-926-participants-(monthly-household-income=<$7000.)_vs_75th-Percentile-of-926-participants-(monthly-household--income=>$15,250.)_UP	NA	158846	838
 bsdb:675/1/2_socioeconomic-status:25th-Percentile-of-926-participants-(monthly-household-income=<$7000.)_vs_75th-Percentile-of-926-participants-(monthly-household--income=>$15,250.)_DOWN	NA	1263	119852	61170
 bsdb:676/1/2_non-small-cell-lung-carcinoma:Responders_vs_Non-responders_UP	NA	140625	620
+bsdb:679/2/1_metastatic-melanoma:Responders_vs_Non-responders_UP	NA	375288
 bsdb:681/2/1_colorectal-cancer:Colorectal-cancer_vs_controls_UP	NA	32207	1578
 bsdb:681/4/1_colorectal-cancer:Current-Smokers_vs_Non,-Ex-Smokers_DOWN	NA	482
 bsdb:682/1/1_irritable-bowel-syndrome:IBS.sibo+_vs_IBS.sibo-_UP	NA	1663	2747	1243	374	64001	1357	286

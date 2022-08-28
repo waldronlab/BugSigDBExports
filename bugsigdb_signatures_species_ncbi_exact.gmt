@@ -1,4 +1,4 @@
-# BugSigDB 2022-08-21, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2022-08-28, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_adenoma:conventional-adenoma-cases_vs_controls_UP	NA	57037
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	57037
 bsdb:1/6/1_adenoma:Non-advanced-conventional-adenoma-cases_vs_controls_UP	NA	57037
@@ -478,10 +478,9 @@ bsdb:347/1/2_obesity:obese-children_vs_controls_DOWN	NA	239935	671218	645466	105
 bsdb:348/1/1_obesity:obese-children_vs_lean-children_UP	NA	817	1591
 bsdb:348/1/2_obesity:obese-children_vs_lean-children_DOWN	NA	41200
 bsdb:348/2/1_obesity:overweight-children_vs_lean-children_UP	NA	817	1591
-bsdb:348/2/2_obesity:overweight-children_vs_lean-children_DOWN	NA	41200
-bsdb:348/3/1_obesity:obese_vs_lean_UP	NA	817
-bsdb:348/3/2_obesity:obese_vs_lean_DOWN	NA	41200
-bsdb:348/4/1_obesity:overweight_vs_lean_UP	NA	1591
+bsdb:348/3/1_obesity:obese-children_vs_lean-children_UP	NA	817
+bsdb:348/3/2_obesity:obese-children_vs_lean-children_DOWN	NA	41200
+bsdb:348/4/1_obesity:overweight-children_vs_lean-children_UP	NA	1591
 bsdb:349/1/1_cervical-glandular-intraepithelial-neoplasia:LEEP-group-before-procedure_vs_normal_UP	NA	2702	134821	2098
 bsdb:349/2/1_cervical-glandular-intraepithelial-neoplasia:LEEP-group-before-procedure_vs_normal_UP	NA	2702	134821
 bsdb:349/3/1_cervical-glandular-intraepithelial-neoplasia:LEEP-group-before-procedure-(age-<46)_vs_normal_UP	NA	2702	2098	134821
@@ -779,6 +778,7 @@ bsdb:566/3/1_juvenile-idiopathic-arthritis:JIA-ERA-patients_vs_Healthy-subjects_
 bsdb:569/1/1_colorectal-cancer:colorectal-cancer-patients_vs_healthy-controls_UP	NA	851
 bsdb:569/1/2_colorectal-cancer:colorectal-cancer-patients_vs_healthy-controls_DOWN	NA	1591	41200	1506
 bsdb:571/2/2_osteoarthritis,-knee:Knee-osteroarthritis-with-vit-D-deficiency_vs_Vitamin-D-deficiency_UP	NA	1898207
+bsdb:580/1/1_Human-immunodeficiency-virus:HIV+-individuals_vs_HIV-uninfected-individuals_DOWN	NA	1486938	28121
 bsdb:589/1/1_colorectal-cancer:CRC-patients_vs_healthy-control_UP	NA	239935
 bsdb:589/1/2_colorectal-cancer:CRC-patients_vs_healthy-control_DOWN	NA	338188	329854	40520	218538	39950	39486	140626	28052	158847	165179	28135	106588
 bsdb:590/1/3_infection:HIV-1-infection_vs_HIV-1-negative_UP	NA	45851	74426	1161942	2053618
@@ -853,13 +853,19 @@ bsdb:656/1/1_socioeconomic-status:Children-living-in-slum-(Low-SES)_vs_Private-s
 bsdb:656/1/2_socioeconomic-status:Children-living-in-slum-(Low-SES)_vs_Private-school-children-(High-SES)_DOWN	NA	1496	1502	1280	41200	599
 bsdb:663/5/1_Ethnic-group:India_vs_Jakun_UP	NA	216816	1686
 bsdb:663/5/2_Ethnic-group:India_vs_Jakun_DOWN	NA	1463165
-bsdb:666/1/1_socioeconomic-status:Low-income-country-(Malawi)_vs_High-Income-country-(Finland)_UP	NA	1681	1685	216816
-bsdb:666/1/2_socioeconomic-status:Low-income-country-(Malawi)_vs_High-Income-country-(Finland)_DOWN	NA	1686	1680	1535	1532	1496	1502	239935	1280
+bsdb:665/1/1_Melanoma:Collitis_vs_No-collitis_UP	NA	28116	40520	1898207	1150298	745368	360807
+bsdb:665/1/2_Melanoma:Collitis_vs_No-collitis_DOWN	NA	59823	29523	820	853	2778071	823
+bsdb:666/1/1_socioeconomic-status:Low-income-country-(Malawi)_vs_High-Income-country-(Finland)_UP	NA	1681	216816
+bsdb:666/1/2_socioeconomic-status:Low-income-country-(Malawi)_vs_High-Income-country-(Finland)_DOWN	NA	239935	1680	1686	1532	1496	1502	1280	1535
 bsdb:667/1/1_hepatocellular-carcinoma:Responders_vs_Non-responders_UP	NA	853	33025	1583331	48256	40518
 bsdb:667/1/2_hepatocellular-carcinoma:Responders_vs_Non-responders_DOWN	NA	147206	1841856	58180	470565	2702
 bsdb:670/1/2_socioeconomic-status,ethnic-group:Bangladesh-Children-(Household-income-<-$61)_vs_US-children_DOWN	NA	818	853
 bsdb:675/1/2_socioeconomic-status:25th-Percentile-of-926-participants-(monthly-household-income=<$7000.)_vs_75th-Percentile-of-926-participants-(monthly-household--income=>$15,250.)_DOWN	NA	31971	817	84112
 bsdb:676/1/2_non-small-cell-lung-carcinoma:Responders_vs_Non-responders_UP	NA	28117	216816	165179
+bsdb:679/2/1_metastatic-melanoma:Responders_vs_Non-responders_UP	NA	1352	74426	1680	573	29466	46503	1591	216816
+bsdb:679/2/2_metastatic-melanoma:Responders_vs_Non-responders_DOWN	NA	1263107	166486
+bsdb:679/3/1_metastatic-melanoma:Group-A-Responders_vs_Group-B-Non-responders_UP	NA	74426	216816	1591	573	46503
+bsdb:679/3/2_metastatic-melanoma:Group-A-Responders_vs_Group-B-Non-responders_DOWN	NA	166486
 bsdb:681/3/1_colorectal-cancer:Old-(≥-65-yrs)_vs_Young_UP	NA	1302	837
 bsdb:681/4/2_colorectal-cancer:Current-Smokers_vs_Non,-Ex-Smokers_UP	NA	39777
 bsdb:682/1/2_irritable-bowel-syndrome:IBS.sibo+_vs_IBS.sibo-_DOWN	NA	1924

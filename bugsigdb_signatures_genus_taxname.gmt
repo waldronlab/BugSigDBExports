@@ -1,4 +1,4 @@
-# BugSigDB 2022-08-21, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2022-08-28, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_adenoma:conventional-adenoma-cases_vs_controls_UP	NA	Actinomyces	Corynebacterium	Streptococcus	Peptoniphilus	Dorea	Phascolarctobacterium	Sutterella	Lacticaseibacillus	Bacillus
 bsdb:1/1/2_adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	Coprobacillus
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	Anaerostipes	Lacticaseibacillus
@@ -654,9 +654,9 @@ bsdb:202/3/1_autism:children-with-autism-mental-regression-(AMR)_vs_healthy-cont
 bsdb:204/1/1_premature-birth:mothers-whose-newborns-were-delivered-at-<34-gestational-week_vs_mothers-whose-newborns-were-delivered-at-≥37-getastional-weeks_DOWN	NA	Lactobacillus	Bifidobacterium	Ralstonia
 bsdb:205/1/1_human-papilloma-virus-infection:HPV-positive-women_vs_HPV-negative-women_UP	NA	Gardnerella	Lactobacillus
 bsdb:206/1/1_gastric-cancer:patients-diagnosed-with-gastric-cancer_vs_patients-diagnosed-with-gastritis_UP	NA	Clostridium	Fusobacterium	Lactobacillus	Limosilactobacillus	Megasphaera	Prevotella	Streptococcus
-bsdb:207/1/1_vulvovaginitis:BV_vs_NC_UP	NA	Gardnerella	Sneathia	Atopobium	Bulleidia	Dialister	Mobiluncus	Porphyromonas
-bsdb:207/1/2_vulvovaginitis:BV_vs_NC_DOWN	NA	Lactobacillus
-bsdb:207/2/1_vulvovaginitis:BV.VVC_vs_NC_UP	NA	Prevotella
+bsdb:207/1/1_vulvovaginitis:Women-with-BV_vs_Normal-controls_UP	NA	Atopobium	Bulleidia	Dialister	Gardnerella	Mobiluncus	Porphyromonas	Sneathia
+bsdb:207/1/2_vulvovaginitis:Women-with-BV_vs_Normal-controls_DOWN	NA	Lactobacillus
+bsdb:207/2/1_vulvovaginitis:Women-with-BV-and-VVC_vs_Normal-controls_UP	NA	Prevotella
 bsdb:208/1/5_food-allergy:infants-with-food-allergies_vs_healthy-controls_UP	NA	Clostridium	Enterococcus	Lactobacillus	Staphylococcus	Faecalibacterium	Anaerostipes	Prevotella	Flavonifractor
 bsdb:208/1/6_food-allergy:infants-with-food-allergies_vs_healthy-controls_DOWN	NA	Bacteroides	Blautia	Klebsiella	Megamonas	Megasphaera	Streptococcus	Veillonella
 bsdb:208/2/1_food-allergy:infants-with-food-allergies_vs_healthy-controls_UP	NA	Clostridium	Butyricicoccus	Rhodococcus
@@ -1178,12 +1178,12 @@ bsdb:342/3/2_asthma:Samples-with-rhinovirus-A-(RV-A)_vs_Samples-that-were-RV-A-n
 bsdb:342/4/1_asthma:Younger-children_vs_older-children_DOWN	NA	Moraxella
 bsdb:342/5/1_asthma:Children-who-experienced-exacerbation_vs_children-who-did-not-experience-exacerbation_UP	NA	Moraxella
 bsdb:342/5/2_asthma:Children-who-experienced-exacerbation_vs_children-who-did-not-experience-exacerbation_DOWN	NA	Alloiococcus	Corynebacterium	Haemophilus	Staphylococcus
-bsdb:342/6/1_asthma:Viral-illnesses_vs_no-viral-illnesses_UP	NA	Moraxella
-bsdb:342/6/2_asthma:Viral-illnesses_vs_no-viral-illnesses_DOWN	NA	Staphylococcus
-bsdb:342/7/1_asthma:Children-with-any-rhinovirus-infection_vs_children-with-no-rhinovirus-infection_UP	NA	Streptococcus
-bsdb:342/7/2_asthma:Children-with-any-rhinovirus-infection_vs_children-with-no-rhinovirus-infection_DOWN	NA	Staphylococcus
-bsdb:342/8/1_asthma:Children-with-rhinovirus-A-infection_vs_children-rhinovirus-negative_UP	NA	Haemophilus	Streptococcus
-bsdb:342/8/2_asthma:Children-with-rhinovirus-A-infection_vs_children-rhinovirus-negative_DOWN	NA	Staphylococcus
+bsdb:342/6/1_asthma:children-with-viral-illnesses-detected_vs_children-with-no-viral-illnesses_UP	NA	Moraxella
+bsdb:342/6/2_asthma:children-with-viral-illnesses-detected_vs_children-with-no-viral-illnesses_DOWN	NA	Staphylococcus
+bsdb:342/7/1_asthma:samples-with-any-rhinovirus-infection_vs_samples-with-no-rhinovirus-infection_UP	NA	Streptococcus
+bsdb:342/7/2_asthma:samples-with-any-rhinovirus-infection_vs_samples-with-no-rhinovirus-infection_DOWN	NA	Staphylococcus
+bsdb:342/8/1_asthma:Samples-with-rhinovirus-A_vs_Rhinovirus-negative-samples_UP	NA	Haemophilus	Streptococcus
+bsdb:342/8/2_asthma:Samples-with-rhinovirus-A_vs_Rhinovirus-negative-samples_DOWN	NA	Staphylococcus
 bsdb:342/9/1_asthma:Children-with-rhinovirus-C-infection_vs_children-rhinovirus-neagtive_UP	NA	Streptococcus
 bsdb:342/9/2_asthma:Children-with-rhinovirus-C-infection_vs_children-rhinovirus-neagtive_DOWN	NA	Staphylococcus
 bsdb:342/10/1_asthma:Respiratory-illness_vs_no-respiratory-illness_UP	NA	Streptococcus
@@ -1205,10 +1205,9 @@ bsdb:347/1/2_obesity:obese-children_vs_controls_DOWN	NA	Akkermansia	Alloprevotel
 bsdb:348/1/1_obesity:obese-children_vs_lean-children_UP	NA	Bacteroides	Lactobacillus
 bsdb:348/1/2_obesity:obese-children_vs_lean-children_DOWN	NA	Bifidobacterium
 bsdb:348/2/1_obesity:overweight-children_vs_lean-children_UP	NA	Bacteroides	Lactobacillus
-bsdb:348/2/2_obesity:overweight-children_vs_lean-children_DOWN	NA	Bifidobacterium
-bsdb:348/3/1_obesity:obese_vs_lean_UP	NA	Bacteroides
-bsdb:348/3/2_obesity:obese_vs_lean_DOWN	NA	Bifidobacterium
-bsdb:348/4/1_obesity:overweight_vs_lean_UP	NA	Lactobacillus
+bsdb:348/3/1_obesity:obese-children_vs_lean-children_UP	NA	Bacteroides
+bsdb:348/3/2_obesity:obese-children_vs_lean-children_DOWN	NA	Bifidobacterium
+bsdb:348/4/1_obesity:overweight-children_vs_lean-children_UP	NA	Lactobacillus
 bsdb:349/1/1_cervical-glandular-intraepithelial-neoplasia:LEEP-group-before-procedure_vs_normal_UP	NA	Gardnerella	Ureaplasma
 bsdb:349/2/1_cervical-glandular-intraepithelial-neoplasia:LEEP-group-before-procedure_vs_normal_UP	NA	Gardnerella	Ureaplasma
 bsdb:349/3/1_cervical-glandular-intraepithelial-neoplasia:LEEP-group-before-procedure-(age-<46)_vs_normal_UP	NA	Gardnerella	Ureaplasma
@@ -1846,6 +1845,7 @@ bsdb:562/5/1_NA:oral-cavity-from-healthy-adult_vs_none---50%-prevalence-threshol
 bsdb:562/5/2_NA:oral-cavity-from-healthy-adult_vs_none---50%-prevalence-threshold_NA	NA	Streptococcus	Veillonella	Haemophilus	Rothia	Fusobacterium	Actinomyces	Prevotella	Schaalia	Neisseria	Campylobacter	Porphyromonas	Lautropia	Capnocytophaga	Leptotrichia	Corynebacterium	Granulicatella	Tannerella	Aggregatibacter	Lachnoanaerobaculum	Parvimonas	Lancefieldella	Oribacterium	Alloprevotella	Stomatobaculum	Solobacterium	Abiotrophia	Mogibacterium	Cardiobacterium	Megasphaera	Eikenella	Peptostreptococcus
 bsdb:562/6/1_NA:milk-from-healthy-adult_vs_none---50%-prevalence-threshold_NA	NA	Streptococcus
 bsdb:562/7/1_healthy:healthy-adult-vagina-70%-up_vs_NA_NA	NA	Lactobacillus
+bsdb:562/8/1_healthy:healthy-adult-skin-70%-up_vs_none_NA	NA	Corynebacterium	Cutibacterium	Malassezia	Staphylococcus	Streptococcus
 bsdb:562/8/2_healthy:healthy-adult-skin-70%-up_vs_none_NA	NA	Cutibacterium	Staphylococcus
 bsdb:562/9/1_NA:feces-from-healthy-adult_vs_none---70%-prevalence-threshold_NA	NA	Adlercreutzia	Agathobaculum	Alistipes	Anaerobutyricum	Anaerostipes	Bacteroides	Bifidobacterium	Blautia	Clostridium	Collinsella	Coprococcus	Dorea	Eubacterium	Faecalibacterium	Flavonifractor	Fusicatenibacter	Gemmiger	Lachnospira	Mediterraneibacter	Odoribacter	Oscillibacter	Parabacteroides	Phocaeicola	Roseburia	Ruminococcus	Streptococcus	Ruthenibacterium
 bsdb:562/9/2_NA:feces-from-healthy-adult_vs_none---70%-prevalence-threshold_NA	NA	Faecalibacterium	Fusicatenibacter	Bacteroides	Blautia	Anaerostipes	Agathobaculum	Dorea	Anaerobutyricum	Collinsella	Phocaeicola	Roseburia	Parabacteroides	Coprococcus	Ruthenibacterium	Lachnospira	Mediterraneibacter	Odoribacter	Alistipes	Streptococcus	Bifidobacterium	Eubacterium	Oscillibacter	Flavonifractor
@@ -1879,7 +1879,7 @@ bsdb:574/3/2_antimicrobial-agent:azithromycin-treated-(day-60)_vs_azithromycin-t
 bsdb:574/4/1_antimicrobial-agent:azithromycin-lactulose-treated_vs_azithromycin-treated_UP	NA	Anaerostipes	Blautia	Butyricimonas	Coprobacillus	Dysgonomonas	Erysipelothrix	Megasphaera
 bsdb:574/4/2_antimicrobial-agent:azithromycin-lactulose-treated_vs_azithromycin-treated_UP	NA	Megasphaera	Sporosarcina
 bsdb:576/1/1_colorectal-cancer:adenocarcinoma_vs_contemporaneous-patients-awaiting-elective-surgery-for-nononcologic-conditions_DOWN	NA	Coprococcus
-bsdb:580/1/1_Human-immunodeficiency-virus:HIV+-individuals_vs_HIV-uninfected-individuals_DOWN	NA	Campylobacter	Capnocytophaga	Fusobacterium	Neisseria	Oribacterium	Prevotella	Tannerella
+bsdb:580/1/1_Human-immunodeficiency-virus:HIV+-individuals_vs_HIV-uninfected-individuals_DOWN	NA	Campylobacter	Capnocytophaga	Fusobacterium	Neisseria	Oribacterium	Prevotella	Tannerella	Butyrivibrio
 bsdb:580/1/2_Human-immunodeficiency-virus:HIV+-individuals_vs_HIV-uninfected-individuals_UP	NA	Bifidobacterium	Lactobacillus	Rothia	Streptococcus	Veillonella
 bsdb:580/2/1_nicotine-dependence,smoking-behavior:HIV+-smokers_vs_HIV+-non-smokers_DOWN	NA	Alloprevotella	Bergeyella	Campylobacter	Fusobacterium	Johnsonella	Neisseria	Prevotella
 bsdb:580/2/2_nicotine-dependence,smoking-behavior:HIV+-smokers_vs_HIV+-non-smokers_UP	NA	Atopobium	Bifidobacterium	Lactobacillus	Streptococcus	Veillonella
@@ -2056,8 +2056,10 @@ bsdb:663/3/1_Ethnic-group:Jakun_vs_Chinese_UP	NA	Prevotella
 bsdb:663/3/2_Ethnic-group:Jakun_vs_Chinese_DOWN	NA	Bacteroides
 bsdb:663/5/1_Ethnic-group:India_vs_Jakun_UP	NA	Bifidobacterium
 bsdb:663/5/2_Ethnic-group:India_vs_Jakun_DOWN	NA	Klebsiella
+bsdb:665/1/1_Melanoma:Collitis_vs_No-collitis_UP	NA	Bacteroides	Blautia	Fusicatenibacter	Roseburia
+bsdb:665/1/2_Melanoma:Collitis_vs_No-collitis_DOWN	NA	Prevotella	Bacteroides	Faecalibacterium	Parabacteroides
 bsdb:666/1/1_socioeconomic-status:Low-income-country-(Malawi)_vs_High-Income-country-(Finland)_UP	NA	Bifidobacterium
-bsdb:666/1/2_socioeconomic-status:Low-income-country-(Malawi)_vs_High-Income-country-(Finland)_DOWN	NA	Bifidobacterium	Blautia	Clostridioides	Clostridium	Akkermansia	Staphylococcus
+bsdb:666/1/2_socioeconomic-status:Low-income-country-(Malawi)_vs_High-Income-country-(Finland)_DOWN	NA	Akkermansia	Bifidobacterium	Blautia	Clostridioides	Clostridium	Staphylococcus
 bsdb:667/1/1_hepatocellular-carcinoma:Responders_vs_Non-responders_UP	NA	Faecalibacterium	Peptoniphilus	Phascolarctobacterium	Porphyromonas	Rothia	Ruminiclostridium	Ruminococcus
 bsdb:667/1/2_hepatocellular-carcinoma:Responders_vs_Non-responders_DOWN	NA	Collinsella	Bacteroides	Oleidesulfovibrio	Prevotella	Gardnerella
 bsdb:669/1/1_ethnic-group,socioeconomic-status:Rural-African-Children-in-Burkina-Faso_vs_European-Children-in-Italy_UP	NA	Prevotella
@@ -2071,6 +2073,10 @@ bsdb:674/1/2_socioeconomic-status:Low-SES_vs_High-SES_DOWN	NA	Delftia	Alistipes	
 bsdb:675/1/1_socioeconomic-status:25th-Percentile-of-926-participants-(monthly-household-income=<$7000.)_vs_75th-Percentile-of-926-participants-(monthly-household--income=>$15,250.)_UP	NA	Megamonas	Prevotella
 bsdb:675/1/2_socioeconomic-status:25th-Percentile-of-926-participants-(monthly-household-income=<$7000.)_vs_75th-Percentile-of-926-participants-(monthly-household--income=>$15,250.)_DOWN	NA	Ruminococcus	Amedibacillus	Oscillospira	Holdemania	Bacteroides	Eggerthella
 bsdb:676/1/2_non-small-cell-lung-carcinoma:Responders_vs_Non-responders_UP	NA	Alistipes	Bifidobacterium	Lachnobacterium	Prevotella	Shigella
+bsdb:679/2/1_metastatic-melanoma:Responders_vs_Non-responders_UP	NA	Parabacteroides	Enterococcus	Collinsella	Bifidobacterium	Klebsiella	Veillonella	Lactobacillus
+bsdb:679/2/2_metastatic-melanoma:Responders_vs_Non-responders_DOWN	NA	Ruminococcus	Roseburia
+bsdb:679/3/1_metastatic-melanoma:Group-A-Responders_vs_Group-B-Non-responders_UP	NA	Collinsella	Bifidobacterium	Lactobacillus	Klebsiella	Parabacteroides
+bsdb:679/3/2_metastatic-melanoma:Group-A-Responders_vs_Group-B-Non-responders_DOWN	NA	Roseburia
 bsdb:681/2/1_colorectal-cancer:Colorectal-cancer_vs_controls_UP	NA	Rothia	Lactobacillus
 bsdb:681/3/1_colorectal-cancer:Old-(≥-65-yrs)_vs_Young_UP	NA	Streptococcus	Porphyromonas
 bsdb:681/4/1_colorectal-cancer:Current-Smokers_vs_Non,-Ex-Smokers_DOWN	NA	Neisseria

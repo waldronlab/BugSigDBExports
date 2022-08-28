@@ -1,4 +1,4 @@
-# BugSigDB 2022-08-21, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2022-08-28, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_adenoma:conventional-adenoma-cases_vs_controls_UP	NA	Lacticaseibacillus zeae
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	Lacticaseibacillus zeae
 bsdb:1/6/1_adenoma:Non-advanced-conventional-adenoma-cases_vs_controls_UP	NA	Lacticaseibacillus zeae
@@ -478,10 +478,9 @@ bsdb:347/1/2_obesity:obese-children_vs_controls_DOWN	NA	Akkermansia muciniphila	
 bsdb:348/1/1_obesity:obese-children_vs_lean-children_UP	NA	Bacteroides fragilis	Lactobacillus sp.
 bsdb:348/1/2_obesity:obese-children_vs_lean-children_DOWN	NA	Bifidobacterium sp.
 bsdb:348/2/1_obesity:overweight-children_vs_lean-children_UP	NA	Bacteroides fragilis	Lactobacillus sp.
-bsdb:348/2/2_obesity:overweight-children_vs_lean-children_DOWN	NA	Bifidobacterium sp.
-bsdb:348/3/1_obesity:obese_vs_lean_UP	NA	Bacteroides fragilis
-bsdb:348/3/2_obesity:obese_vs_lean_DOWN	NA	Bifidobacterium sp.
-bsdb:348/4/1_obesity:overweight_vs_lean_UP	NA	Lactobacillus sp.
+bsdb:348/3/1_obesity:obese-children_vs_lean-children_UP	NA	Bacteroides fragilis
+bsdb:348/3/2_obesity:obese-children_vs_lean-children_DOWN	NA	Bifidobacterium sp.
+bsdb:348/4/1_obesity:overweight-children_vs_lean-children_UP	NA	Lactobacillus sp.
 bsdb:349/1/1_cervical-glandular-intraepithelial-neoplasia:LEEP-group-before-procedure_vs_normal_UP	NA	Gardnerella vaginalis	Ureaplasma parvum	Metamycoplasma hominis
 bsdb:349/2/1_cervical-glandular-intraepithelial-neoplasia:LEEP-group-before-procedure_vs_normal_UP	NA	Gardnerella vaginalis	Ureaplasma parvum
 bsdb:349/3/1_cervical-glandular-intraepithelial-neoplasia:LEEP-group-before-procedure-(age-<46)_vs_normal_UP	NA	Gardnerella vaginalis	Metamycoplasma hominis	Ureaplasma parvum
@@ -779,6 +778,7 @@ bsdb:566/3/1_juvenile-idiopathic-arthritis:JIA-ERA-patients_vs_Healthy-subjects_
 bsdb:569/1/1_colorectal-cancer:colorectal-cancer-patients_vs_healthy-controls_UP	NA	Fusobacterium nucleatum
 bsdb:569/1/2_colorectal-cancer:colorectal-cancer-patients_vs_healthy-controls_DOWN	NA	Lactobacillus sp.	Bifidobacterium sp.	Clostridium sp.
 bsdb:571/2/2_osteoarthritis,-knee:Knee-osteroarthritis-with-vit-D-deficiency_vs_Vitamin-D-deficiency_UP	NA	Clostridiales bacterium
+bsdb:580/1/1_Human-immunodeficiency-virus:HIV+-individuals_vs_HIV-uninfected-individuals_DOWN	NA	Prevotella sp. 2-3	Butyrivibrio sp.
 bsdb:589/1/1_colorectal-cancer:CRC-patients_vs_healthy-control_UP	NA	Akkermansia muciniphila
 bsdb:589/1/2_colorectal-cancer:CRC-patients_vs_healthy-control_DOWN	NA	Bacteroides finegoldii	Bacteroides intestinalis	Blautia obeum	Dialister invisus	Dialister pneumosintes	Dorea formicigenerans	Lachnobacterium bovis	Lachnospira pectinoschiza	Megamonas hypermegale	Prevotella copri	Prevotella oris	Pseudoflavonifractor capillosus
 bsdb:590/1/3_infection:HIV-1-infection_vs_HIV-1-negative_UP	NA	Butyrivibrio crossotus	Collinsella aerofaciens	Ruminococcus champanellensis	Subdoligranulum sp.
@@ -853,13 +853,19 @@ bsdb:656/1/1_socioeconomic-status:Children-living-in-slum-(Low-SES)_vs_Private-s
 bsdb:656/1/2_socioeconomic-status:Children-living-in-slum-(Low-SES)_vs_Private-school-children-(High-SES)_DOWN	NA	Clostridioides difficile	Clostridium perfringens	Staphylococcus aureus	Bifidobacterium sp.	Salmonella sp.
 bsdb:663/5/1_Ethnic-group:India_vs_Jakun_UP	NA	Bifidobacterium longum	Bifidobacterium catenulatum
 bsdb:663/5/2_Ethnic-group:India_vs_Jakun_DOWN	NA	Klebsiella quasipneumoniae
-bsdb:666/1/1_socioeconomic-status:Low-income-country-(Malawi)_vs_High-Income-country-(Finland)_UP	NA	Bifidobacterium bifidum	Bifidobacterium breve	Bifidobacterium longum
-bsdb:666/1/2_socioeconomic-status:Low-income-country-(Malawi)_vs_High-Income-country-(Finland)_DOWN	NA	Bifidobacterium catenulatum	Bifidobacterium adolescentis	[Clostridium] leptum	Blautia coccoides	Clostridioides difficile	Clostridium perfringens	Akkermansia muciniphila	Staphylococcus aureus
+bsdb:665/1/1_Melanoma:Collitis_vs_No-collitis_UP	NA	Bacteroides ovatus	Blautia obeum	Clostridiales bacterium	Fusicatenibacter saccharivorans	Gemmiger formicilis	Roseburia inulinivorans
+bsdb:665/1/2_Melanoma:Collitis_vs_No-collitis_DOWN	NA	Prevotella sp.	Bacteroides sp.	Bacteroides uniformis	Faecalibacterium prausnitzii	Bacteroides sp	Parabacteroides distasonis
+bsdb:666/1/1_socioeconomic-status:Low-income-country-(Malawi)_vs_High-Income-country-(Finland)_UP	NA	Bifidobacterium bifidum	Bifidobacterium longum
+bsdb:666/1/2_socioeconomic-status:Low-income-country-(Malawi)_vs_High-Income-country-(Finland)_DOWN	NA	Akkermansia muciniphila	Bifidobacterium adolescentis	Bifidobacterium catenulatum	Blautia coccoides	Clostridioides difficile	Clostridium perfringens	Staphylococcus aureus	[Clostridium] leptum
 bsdb:667/1/1_hepatocellular-carcinoma:Responders_vs_Non-responders_UP	NA	Faecalibacterium prausnitzii	Phascolarctobacterium faecium	Porphyromonas pasteri	Ruminiclostridium hungatei	Ruminococcus bromii
 bsdb:667/1/2_hepatocellular-carcinoma:Responders_vs_Non-responders_DOWN	NA	Collinsella stercoris	Bacteroides mediterraneensis	Oleidesulfovibrio alaskensis	Prevotella histicola	Gardnerella vaginalis
 bsdb:670/1/2_socioeconomic-status,ethnic-group:Bangladesh-Children-(Household-income-<-$61)_vs_US-children_DOWN	NA	Bacteroides thetaiotaomicron	Faecalibacterium prausnitzii
 bsdb:675/1/2_socioeconomic-status:25th-Percentile-of-926-participants-(monthly-household-income=<$7000.)_vs_75th-Percentile-of-926-participants-(monthly-household--income=>$15,250.)_DOWN	NA	Amedibacillus dolichus	Bacteroides fragilis	Eggerthella lenta
 bsdb:676/1/2_non-small-cell-lung-carcinoma:Responders_vs_Non-responders_UP	NA	Alistipes putredinis	Bifidobacterium longum	Prevotella copri
+bsdb:679/2/1_metastatic-melanoma:Responders_vs_Non-responders_UP	NA	Enterococcus faecium	Collinsella aerofaciens	Bifidobacterium adolescentis	Klebsiella pneumoniae	Veillonella parvula	Parabacteroides merdae	Lactobacillus sp.	Bifidobacterium longum
+bsdb:679/2/2_metastatic-melanoma:Responders_vs_Non-responders_DOWN	NA	Ruminococcus obeum CAG:39	Roseburia intestinalis
+bsdb:679/3/1_metastatic-melanoma:Group-A-Responders_vs_Group-B-Non-responders_UP	NA	Collinsella aerofaciens	Bifidobacterium longum	Lactobacillus sp.	Klebsiella pneumoniae	Parabacteroides merdae
+bsdb:679/3/2_metastatic-melanoma:Group-A-Responders_vs_Group-B-Non-responders_DOWN	NA	Roseburia intestinalis
 bsdb:681/3/1_colorectal-cancer:Old-(≥-65-yrs)_vs_Young_UP	NA	Streptococcus gordonii	Porphyromonas gingivalis
 bsdb:681/4/2_colorectal-cancer:Current-Smokers_vs_Non,-Ex-Smokers_UP	NA	Veillonella atypica
 bsdb:682/1/2_irritable-bowel-syndrome:IBS.sibo+_vs_IBS.sibo-_DOWN	NA	Streptomyces purpurascens
