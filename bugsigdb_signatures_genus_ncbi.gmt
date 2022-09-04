@@ -1,4 +1,4 @@
-# BugSigDB 2022-08-28, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2022-09-04, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_adenoma:conventional-adenoma-cases_vs_controls_UP	NA	1654	1716	1301	162289	189330	33024	40544	1386
 bsdb:1/1/2_adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	100883
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	207244
@@ -869,7 +869,6 @@ bsdb:290/4/1_oral-mucositis:0.1%-or-higher-fungi-load_vs_low-or-no-fungi-load_UP
 bsdb:290/4/2_oral-mucositis:0.1%-or-higher-fungi-load_vs_low-or-no-fungi-load_DOWN	NA	29465	1654	838	32067	906	1301
 bsdb:291/1/1_Graves-disease:graves-disease_vs_healthy-controls_UP	NA	838	724
 bsdb:291/1/2_Graves-disease:graves-disease_vs_healthy-controls_DOWN	NA	239759	216851
-bsdb:292/1/1_response-to-allogeneic-hematopoietic-stem-cell-transplant:allogeneic-hematopoietic-stem-cell-transplant_vs_community-dwelling-controls_UP	NA	1485	469	1016	286	32067
 bsdb:292/1/2_response-to-allogeneic-hematopoietic-stem-cell-transplant:allogeneic-hematopoietic-stem-cell-transplant_vs_community-dwelling-controls_DOWN	NA	1283313	724	32067	482	265975	838	1301
 bsdb:293/1/1_human-papilloma-virus-infection:Baseline-HPV+_vs_Baseline-HPV-_UP	NA	2129
 bsdb:293/1/2_human-papilloma-virus-infection:Baseline-HPV+_vs_Baseline-HPV-_DOWN	NA	216851	1582879	2755	873565	848
@@ -1006,19 +1005,12 @@ bsdb:342/2/1_asthma:Samples-with-any-rhinovirus-infection_vs_Samples-with-no-rhi
 bsdb:342/2/2_asthma:Samples-with-any-rhinovirus-infection_vs_Samples-with-no-rhinovirus-infection_DOWN	NA	1279
 bsdb:342/3/1_asthma:Samples-with-rhinovirus-A-(RV-A)_vs_Samples-that-were-RV-A-negative-_UP	NA	724	1301
 bsdb:342/3/2_asthma:Samples-with-rhinovirus-A-(RV-A)_vs_Samples-that-were-RV-A-negative-_DOWN	NA	1279
-bsdb:342/4/1_asthma:Younger-children_vs_older-children_DOWN	NA	475
 bsdb:342/5/1_asthma:Children-who-experienced-exacerbation_vs_children-who-did-not-experience-exacerbation_UP	NA	475
 bsdb:342/5/2_asthma:Children-who-experienced-exacerbation_vs_children-who-did-not-experience-exacerbation_DOWN	NA	1651	1716	724	1279
-bsdb:342/6/1_asthma:children-with-viral-illnesses-detected_vs_children-with-no-viral-illnesses_UP	NA	475
-bsdb:342/6/2_asthma:children-with-viral-illnesses-detected_vs_children-with-no-viral-illnesses_DOWN	NA	1279
 bsdb:342/7/1_asthma:samples-with-any-rhinovirus-infection_vs_samples-with-no-rhinovirus-infection_UP	NA	1301
 bsdb:342/7/2_asthma:samples-with-any-rhinovirus-infection_vs_samples-with-no-rhinovirus-infection_DOWN	NA	1279
 bsdb:342/8/1_asthma:Samples-with-rhinovirus-A_vs_Rhinovirus-negative-samples_UP	NA	724	1301
 bsdb:342/8/2_asthma:Samples-with-rhinovirus-A_vs_Rhinovirus-negative-samples_DOWN	NA	1279
-bsdb:342/9/1_asthma:Children-with-rhinovirus-C-infection_vs_children-rhinovirus-neagtive_UP	NA	1301
-bsdb:342/9/2_asthma:Children-with-rhinovirus-C-infection_vs_children-rhinovirus-neagtive_DOWN	NA	1279
-bsdb:342/10/1_asthma:Respiratory-illness_vs_no-respiratory-illness_UP	NA	1301
-bsdb:342/10/2_asthma:Respiratory-illness_vs_no-respiratory-illness_DOWN	NA	1716	1279
 bsdb:343/1/1_leukemia:Antileukemic_vs_Allogeneic-Hematopoeitic-Stem-Cell-Transplant_UP	NA	1350	1578	375288
 bsdb:343/1/2_leukemia:Antileukemic_vs_Allogeneic-Hematopoeitic-Stem-Cell-Transplant_DOWN	NA	1350	816
 bsdb:344/1/1_air-pollution:mice-exposed-to-Pm-2.5-suspension_vs_mice-exposed-suspension-from-extracts-of-“blank”-filter_UP	NA	946234	459786	848
@@ -1080,8 +1072,8 @@ bsdb:372/1/1_air-pollution:Diesel-exhaust-particle-(DEP)-exposed-mice_vs_mice-ex
 bsdb:372/1/2_air-pollution:Diesel-exhaust-particle-(DEP)-exposed-mice_vs_mice-exposed-to-FRA_DOWN	NA	816
 bsdb:374/1/1_cervical-glandular-intraepithelial-neoplasia:cervical-intraepithelial-neoplasia-cases_vs_normal-controls_UP	NA	114627	1643951	953
 bsdb:374/1/2_cervical-glandular-intraepithelial-neoplasia:cervical-intraepithelial-neoplasia-cases_vs_normal-controls_DOWN	NA	53246	497
-bsdb:374/2/1_cervical-cancer:cervical-cancer-cancer_vs_normal-control_UP	NA	114627	1643951	953
-bsdb:374/2/2_cervical-cancer:cervical-cancer-cancer_vs_normal-control_DOWN	NA	1578	1279	1263978
+bsdb:374/2/1_cervical-cancer:cervical-cancer_vs_normal-control_UP	NA	114627	1643951	953
+bsdb:374/2/2_cervical-cancer:cervical-cancer_vs_normal-control_DOWN	NA	1578	1279	1263978
 bsdb:375/1/2_obesity:obese_vs_normal-weight_DOWN	NA	838
 bsdb:376/1/1_antimicrobial-agent:patients-that-took-amoxiclav_vs_before-antibiotic-exposure_UP	NA	816
 bsdb:376/2/1_antimicrobial-agent:patients-that-took-levofloxacin/Metronidazole_vs_before-antibiotic-exposure_UP	NA	816
@@ -1138,8 +1130,6 @@ bsdb:393/2/2_milk-allergic-reaction:infant-with-non-IgE-mediated-cow's-milk-alle
 bsdb:394/1/1_asthma:child-with-asthma-at-age-6_vs_healthy-control_UP	NA	29465	838
 bsdb:396/1/1_atopic-eczema:atopic-dermatitis_vs_healthy-control_UP	NA	1279
 bsdb:396/1/2_atopic-eczema:atopic-dermatitis_vs_healthy-control_DOWN	NA	47670	106589
-bsdb:396/1/3_atopic-eczema:atopic-dermatitis_vs_healthy-control_UP	NA	1279
-bsdb:396/1/4_atopic-eczema:atopic-dermatitis_vs_healthy-control_DOWN	NA	47670	106589
 bsdb:396/2/1_atopic-eczema:atopic-dermatitis-after-treatment-with-TCS-+-Bleach_vs_baseline_UP	NA	469	1716	838
 bsdb:396/2/2_atopic-eczema:atopic-dermatitis-after-treatment-with-TCS-+-Bleach_vs_baseline_DOWN	NA	1279
 bsdb:396/3/1_atopic-eczema:atopic-dermatitis-after-treatment-with-TCS-only_vs_baseline_UP	NA	469	1716	838
@@ -1529,8 +1519,10 @@ bsdb:547/1/2_COVID-19:Recovered-COVID-19-patients_vs_Healthy-controls_DOWN	NA	35
 bsdb:548/1/1_COVID-19:COVID-19-cases_vs_Healthy-controls_UP	NA	2745	117563	32067	1301
 bsdb:548/1/2_COVID-19:COVID-19-cases_vs_Healthy-controls_DOWN	NA	482	838	1283313	848	724
 bsdb:550/2/1_temporomandibular-joint-disorder:JIA-patients-with-TMJ_vs_JIA-patients-without-TMJ_DOWN	NA	724
-bsdb:552/1/1_gestational-age:Week-36_vs_Week-24_UP	NA	475	1301
-bsdb:552/2/1_gestational-age:Birth_vs_36_UP	NA	475	1301	1279	1716	1350	1378	724
+bsdb:552/1/1_gestational-age:Week-36_vs_Week-24_UP	NA	475	1301	1279	1350	1716	1378
+bsdb:552/1/2_gestational-age:Week-36_vs_Week-24_UP	NA	1578
+bsdb:552/2/1_gestational-age:Birth_vs_36_UP	NA	1716	1350	1378	475	1279	1301
+bsdb:552/2/2_gestational-age:Birth_vs_36_DOWN	NA	1578
 bsdb:553/2/2_spontaneous-abortion:First-trimester-miscarriage_vs_Viable-control-pregnancy_UP	NA	1301	162289	2129	39948
 bsdb:554/1/8_Parkinson's-disease:patients-with-parkinson's-disease_vs_healthy-controls-without-any-form-of-Parkinson's-Disease_UP	NA	1263	239934	1730	375288	33042	33024	2172	239759	841	28050
 bsdb:554/3/2_Parkinson's-disease:patients-with-Parkinson's-disease_vs_controls-without-any-form-of-Parkinson's_DOWN	NA	1578
@@ -1576,6 +1568,7 @@ bsdb:574/3/2_antimicrobial-agent:azithromycin-treated-(day-60)_vs_azithromycin-t
 bsdb:574/4/1_antimicrobial-agent:azithromycin-lactulose-treated_vs_azithromycin-treated_UP	NA	207244	572511	574697	100883	156973	1647	906
 bsdb:574/4/2_antimicrobial-agent:azithromycin-lactulose-treated_vs_azithromycin-treated_UP	NA	906	1569
 bsdb:576/1/1_colorectal-cancer:adenocarcinoma_vs_contemporaneous-patients-awaiting-elective-surgery-for-nononcologic-conditions_DOWN	NA	33042
+bsdb:577/2/3_asthma:Female-participants-with-asthma_vs_Female-normal-controls_UP	NA	1578
 bsdb:580/1/1_Human-immunodeficiency-virus:HIV+-individuals_vs_HIV-uninfected-individuals_DOWN	NA	194	1016	848	482	265975	838	195950
 bsdb:580/1/2_Human-immunodeficiency-virus:HIV+-individuals_vs_HIV-uninfected-individuals_UP	NA	1678	1578	32207	1301	29465
 bsdb:580/2/1_nicotine-dependence,smoking-behavior:HIV+-smokers_vs_HIV+-non-smokers_DOWN	NA	1283313	59735	194	848	43994	482	838
@@ -1590,15 +1583,16 @@ bsdb:582/2/1_colorectal-cancer:CRC-patients_vs_adenoma-patients_UP	NA	543311	127
 bsdb:582/2/2_colorectal-cancer:CRC-patients_vs_adenoma-patients_DOWN	NA	189330	33042	572511	447020
 bsdb:584/1/1_precancerous-colorectal-adenoma:cra-patients_vs_normal-participants_UP	NA	613	620	590	53335	581	158851	561
 bsdb:589/1/1_colorectal-cancer:CRC-patients_vs_healthy-control_UP	NA	33024
-bsdb:590/1/1_infection:HIV-1-infection_vs_HIV-1-negative_DOWN	NA	239934	1678	1485
-bsdb:590/1/3_infection:HIV-1-infection_vs_HIV-1-negative_UP	NA	189330	1730	1263
-bsdb:594/1/1_periodontitis:HIV+_vs_HIV–_UP	NA	46123	416916	82202	32257	32067	482	32207	970	195950	157
-bsdb:594/1/2_periodontitis:HIV+_vs_HIV–_DOWN	NA	46123	482	32207	157
-bsdb:596/1/1_HIV-infection:HIV-infected-men_vs_HIV-uninfected-men_DOWN	NA	1678	212791	1847
-bsdb:596/1/2_HIV-infection:HIV-infected-men_vs_HIV-uninfected-men_UP	NA	2093	838	168808	1301
-bsdb:598/1/1_HIV-infection:HIV-seroconverted_vs_HIV-seronegative_UP	NA	39948	150022	162289	1257	838
-bsdb:598/1/2_HIV-infection:HIV-seroconverted_vs_HIV-seronegative_UP	NA	39948	150022	162289	1257	838
-bsdb:598/2/1_HIV-infection:HIV-seroconverted_vs_HIV-seronegative_UP	NA	39948	1257	838
+bsdb:590/1/1_Human-immunodeficiency-virus:Recently-HIV-1-infected-individuals_vs_HIV-1-negative-individuals_DOWN	NA	189330
+bsdb:590/1/2_Human-immunodeficiency-virus:Recently-HIV-1-infected-individuals_vs_HIV-1-negative-individuals_UP	NA	29465
+bsdb:592/1/1_HIV-infection:HIV-Patients_vs_Healthy-controls_UP	NA	265975	123375	1578	1926663	133925	580024	86331	2082587	83770	906	1473205	84108	1573535	102106	135858	838	158846	39948
+bsdb:592/1/2_HIV-infection:HIV-Patients_vs_Healthy-controls_DOWN	NA	816	207244	2039302	239759	1407607	547	117563	724
+bsdb:594/1/1_periodontitis:HIV+_vs_HIV–_UP	NA	416916	32257	482	32207	46123
+bsdb:594/1/2_periodontitis:HIV+_vs_HIV–_DOWN	NA	82202	195950	32067	970	157	838
+bsdb:596/1/1_HIV-infection:HIV-infected-men_vs_HIV-uninfected-men_DOWN	NA	1678	212791	1847	149698	551	110932	12916	53387	469	1386	34072	99479	89966	28065
+bsdb:596/1/2_HIV-infection:HIV-infected-men_vs_HIV-uninfected-men_UP	NA	29465	402649
+bsdb:598/1/1_HIV-infection:HIV-seroconverted_vs_HIV-seronegative_UP	NA	39948	2050	1257
+bsdb:598/1/2_HIV-infection:HIV-seroconverted_vs_HIV-seronegative_DOWN	NA	838	1161127
 bsdb:599/1/1_Human-immunodeficiency-virus:Healthy-females-who-recieved-two-vaginal-HIV-microbicidal-gels_vs_Healthy-females-who-recieved-universal-placebo_UP	NA	1380	1350	561	2701	2050	838	168808	1301
 bsdb:600/1/1_Parkinson's-disease:Participants-with-Parkinson's-Disease_vs_Healthy-controls_UP	NA	469	239759	92793	580596	1485	872	570	577309	13687	497726
 bsdb:600/1/2_Parkinson's-disease:Participants-with-Parkinson's-Disease_vs_Healthy-controls_DOWN	NA	1578	504481
@@ -1710,8 +1704,8 @@ bsdb:663/2/2_Ethnic-group:India_vs_Chinese_DOWN	NA	816
 bsdb:663/3/1_Ethnic-group:Jakun_vs_Chinese_UP	NA	838
 bsdb:663/3/2_Ethnic-group:Jakun_vs_Chinese_DOWN	NA	816
 bsdb:666/1/1_socioeconomic-status:Low-income-country-(Malawi)_vs_High-Income-country-(Finland)_UP	NA	1678
-bsdb:667/1/1_hepatocellular-carcinoma:Responders_vs_Non-responders_UP	NA	216851	162289	33024	32207	1263
-bsdb:667/1/2_hepatocellular-carcinoma:Responders_vs_Non-responders_DOWN	NA	2701
+bsdb:667/1/1_Hepatocellular-carcinoma:Responders_vs_Non-responders_UP	NA	216851	162289	33024	32207	1263
+bsdb:667/1/2_Hepatocellular-carcinoma:Responders_vs_Non-responders_DOWN	NA	2701
 bsdb:669/1/1_ethnic-group,socioeconomic-status:Rural-African-Children-in-Burkina-Faso_vs_European-Children-in-Italy_UP	NA	838
 bsdb:669/1/2_ethnic-group,socioeconomic-status:Rural-African-Children-in-Burkina-Faso_vs_European-Children-in-Italy_DOWN	NA	31980	216851	841	292632	239759	816
 bsdb:670/1/1_socioeconomic-status,ethnic-group:Bangladesh-Children-(Household-income-<-$61)_vs_US-children_UP	NA	830
@@ -1723,6 +1717,8 @@ bsdb:675/1/1_socioeconomic-status:25th-Percentile-of-926-participants-(monthly-h
 bsdb:675/1/2_socioeconomic-status:25th-Percentile-of-926-participants-(monthly-household-income=<$7000.)_vs_75th-Percentile-of-926-participants-(monthly-household--income=>$15,250.)_DOWN	NA	1263	119852	61170
 bsdb:676/1/2_non-small-cell-lung-carcinoma:Responders_vs_Non-responders_UP	NA	140625	620
 bsdb:679/2/1_metastatic-melanoma:Responders_vs_Non-responders_UP	NA	375288
+bsdb:680/1/1_breast-cancer:patients-treated-with-metronomic-dose-of-capecitabine_vs_patients-treated-with-conventional-dose_UP	NA	158846
+bsdb:680/1/2_breast-cancer:patients-treated-with-metronomic-dose-of-capecitabine_vs_patients-treated-with-conventional-dose_DOWN	NA	572511
 bsdb:681/2/1_colorectal-cancer:Colorectal-cancer_vs_controls_UP	NA	32207	1578
 bsdb:681/4/1_colorectal-cancer:Current-Smokers_vs_Non,-Ex-Smokers_DOWN	NA	482
 bsdb:682/1/1_irritable-bowel-syndrome:IBS.sibo+_vs_IBS.sibo-_UP	NA	1663	2747	1243	374	64001	1357	286
@@ -1739,3 +1735,28 @@ bsdb:686/2/1_colorectal-cancer:adenomas_vs_controls_UP	NA	1654	1375	1378	65551	2
 bsdb:686/2/2_colorectal-cancer:adenomas_vs_controls_DOWN	NA	1769012	1937972
 bsdb:686/3/1_colorectal-cancer:CRC_vs_adenomas_UP	NA	642	32199	568987	401618	544	776	413496	872	204037	635	547	551	561	848	1217416	570	1330547	65551	581	53335	29487	160674	590	22	620	84565	13687	40751	662	629	43773
 bsdb:686/3/2_colorectal-cancer:CRC_vs_adenomas_DOWN	NA	890	212790	187144	122277	84567	423349	1870884	1849828	207244	841
+bsdb:687/1/1_Colorectal-adenocarcinoma:colorectal-cancer-patients_vs_healthy-controls_UP	NA	816	1678	620	561
+bsdb:687/1/2_Colorectal-adenocarcinoma:colorectal-cancer-patients_vs_healthy-controls_DOWN	NA	102106	100883	216851	1501226	1301
+bsdb:687/2/1_Colorectal-adenocarcinoma:colorectal-cancer-patients-with-KRAS-mutation_vs_colorectal-cancer-patients-without-KRAS-mutation_UP	NA	580596	1738645	216851	1892380	1506553	158846	165696	33024	841	342658
+bsdb:687/2/2_Colorectal-adenocarcinoma:colorectal-cancer-patients-with-KRAS-mutation_vs_colorectal-cancer-patients-without-KRAS-mutation_DOWN	NA	1678
+bsdb:687/4/1_Colorectal-adenocarcinoma:colorectal-cancer-patients-with-APC-mutation_vs_colorectal-cancer-patients-without-APC-mutation_UP	NA	1654
+bsdb:687/4/2_Colorectal-adenocarcinoma:colorectal-cancer-patients-with-APC-mutation_vs_colorectal-cancer-patients-without-APC-mutation_UP	NA	1654
+bsdb:687/5/1_Colorectal-adenocarcinoma:colorectal-cancer-patients-with-PIK3CA-mutation_vs_colorectal-cancer-patients-without-PIK3CA-mutation_DOWN	NA	1654
+bsdb:687/5/2_Colorectal-adenocarcinoma:colorectal-cancer-patients-with-PIK3CA-mutation_vs_colorectal-cancer-patients-without-PIK3CA-mutation_UP	NA	48736	239759	1578	906
+bsdb:688/1/1_metastatic-melanoma:Responders_vs_Non-responders_UP	NA	216851	162289	33024	32207
+bsdb:688/1/2_metastatic-melanoma:Responders_vs_Non-responders_DOWN	NA	2701
+bsdb:688/2/1_melanoma:Responders_vs_Non-responders_UP	NA	216851	1263	33024	162289	32207
+bsdb:688/2/2_melanoma:Responders_vs_Non-responders_DOWN	NA	2701
+bsdb:688/2/3_melanoma:Responders_vs_Non-responders_DOWN	NA	2701
+bsdb:690/1/1_non-small-cell-lung-carcinoma:Responders_vs_Non-responders_UP	NA	1578	1485	84036
+bsdb:690/1/2_non-small-cell-lung-carcinoma:Responders_vs_Non-responders_DOWN	NA	35832	40544	375288
+bsdb:691/1/2_metastatic-melanoma:Responders_vs_Non-responders_DOWN	NA	84111
+bsdb:692/1/1_colorectal-cancer:colorectal-cancer-patients-who-took-prebiotics-(preoperative-fecal-sample)_vs_colorectal-cancer-patients-who-didn't-take-prebiotics-(preoperative-fecal-sample)_DOWN	NA	816
+bsdb:692/1/2_colorectal-cancer:colorectal-cancer-patients-who-took-prebiotics-(preoperative-fecal-sample)_vs_colorectal-cancer-patients-who-didn't-take-prebiotics-(preoperative-fecal-sample)_UP	NA	1678	1350
+bsdb:692/2/1_colorectal-cancer:colorectal-cancer-patients-non-prebiotic-(postoperative)_vs_colorectal-cancer-patients-non-prebiotic-(preoperative)_DOWN	NA	816
+bsdb:692/2/2_colorectal-cancer:colorectal-cancer-patients-non-prebiotic-(postoperative)_vs_colorectal-cancer-patients-non-prebiotic-(preoperative)_UP	NA	1357	1350	1301	1386
+bsdb:692/3/1_colorectal-cancer:colorectal-cancer-patients-who-took-prebiotics-(postoperative-fecal-sample)_vs_colorectal-cancer-patients-who-took-prebiotics-(preoperative-fecal-sample)_UP	NA	1386	561	620	1678	1350
+bsdb:692/3/2_colorectal-cancer:colorectal-cancer-patients-who-took-prebiotics-(postoperative-fecal-sample)_vs_colorectal-cancer-patients-who-took-prebiotics-(preoperative-fecal-sample)_DOWN	NA	816
+bsdb:693/1/1_hepatocellular-carcinoma,EFO:0000182:Responders_vs_Non-responders_UP	NA	146918
+bsdb:694/2/1_colorectal-cancer:low-dose-GQD-(300-mg/kg)_vs_non-GQD_UP	NA	577310	1470349	583
+bsdb:694/2/2_colorectal-cancer:low-dose-GQD-(300-mg/kg)_vs_non-GQD_UP	NA	577310	1470349	583
