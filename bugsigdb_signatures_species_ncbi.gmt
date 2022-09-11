@@ -1,4 +1,4 @@
-# BugSigDB 2022-09-04, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2022-09-11, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_adenoma:conventional-adenoma-cases_vs_controls_UP	NA	57037
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	57037
 bsdb:1/6/1_adenoma:Non-advanced-conventional-adenoma-cases_vs_controls_UP	NA	57037
@@ -852,12 +852,12 @@ bsdb:656/1/1_socioeconomic-status:Children-living-in-slum-(Low-SES)_vs_Private-s
 bsdb:656/1/2_socioeconomic-status:Children-living-in-slum-(Low-SES)_vs_Private-school-children-(High-SES)_DOWN	NA	1496	1502	1280	41200	599
 bsdb:663/5/1_Ethnic-group:India_vs_Jakun_UP	NA	216816	1686
 bsdb:663/5/2_Ethnic-group:India_vs_Jakun_DOWN	NA	1463165
-bsdb:665/1/1_melanoma:Collitis_vs_No-collitis_UP	NA	28116	40520	1898207	1150298	745368	360807
-bsdb:665/1/2_melanoma:Collitis_vs_No-collitis_DOWN	NA	59823	29523	820	853	2778071	823
+bsdb:665/1/1_Melanoma:Collitis_vs_No-collitis_UP	NA	28116	40520	1898207	1150298	745368	360807
+bsdb:665/1/2_Melanoma:Collitis_vs_No-collitis_DOWN	NA	59823	29523	820	853	2778071	823
 bsdb:666/1/1_socioeconomic-status:Low-income-country-(Malawi)_vs_High-Income-country-(Finland)_UP	NA	1681	216816
 bsdb:666/1/2_socioeconomic-status:Low-income-country-(Malawi)_vs_High-Income-country-(Finland)_DOWN	NA	239935	1680	1686	1532	1496	1502	1280	1535
-bsdb:667/1/1_Hepatocellular-carcinoma:Responders_vs_Non-responders_UP	NA	853	33025	1583331	48256	40518
-bsdb:667/1/2_Hepatocellular-carcinoma:Responders_vs_Non-responders_DOWN	NA	147206	1841856	58180	470565	2702
+bsdb:667/1/1_hepatocellular-carcinoma:Responders_vs_Non-responders_UP	NA	853	33025	1583331	48256	40518
+bsdb:667/1/2_hepatocellular-carcinoma:Responders_vs_Non-responders_DOWN	NA	147206	1841856	58180	470565	2702
 bsdb:670/1/2_socioeconomic-status,ethnic-group:Bangladesh-Children-(Household-income-<-$61)_vs_US-children_DOWN	NA	818	853
 bsdb:675/1/2_socioeconomic-status:25th-Percentile-of-926-participants-(monthly-household-income=<$7000.)_vs_75th-Percentile-of-926-participants-(monthly-household--income=>$15,250.)_DOWN	NA	31971	817	84112
 bsdb:676/1/2_non-small-cell-lung-carcinoma:Responders_vs_Non-responders_UP	NA	28117	216816	165179
@@ -879,15 +879,16 @@ bsdb:686/3/2_colorectal-cancer:CRC_vs_adenomas_DOWN	NA	28026	436114	2546360	2774
 bsdb:687/2/1_Colorectal-adenocarcinoma:colorectal-cancer-patients-with-KRAS-mutation_vs_colorectal-cancer-patients-without-KRAS-mutation_UP	NA	1849041	61171	1926283	583272	517604	165185
 bsdb:687/2/2_Colorectal-adenocarcinoma:colorectal-cancer-patients-with-KRAS-mutation_vs_colorectal-cancer-patients-without-KRAS-mutation_DOWN	NA	1689	216816	28026	165187	765944
 bsdb:687/3/1_Colorectal-adenocarcinoma:colorectal-cancer-patients-with-TP53-mutation_vs_colorectal-cancer-patients-without-TP53-mutation_UP	NA	290054
-bsdb:687/5/2_Colorectal-adenocarcinoma:colorectal-cancer-patients-with-PIK3CA-mutation_vs_colorectal-cancer-patients-without-PIK3CA-mutation_UP	NA	159275	371674	281992	1686	887631
-bsdb:688/1/1_metastatic-melanoma:Responders_vs_Non-responders_UP	NA	1898207	853	33025	48256	40518
-bsdb:688/1/2_metastatic-melanoma:Responders_vs_Non-responders_DOWN	NA	1841856	147206	2702	58180	1583331	470565	818	562	169435
-bsdb:688/2/1_melanoma:Responders_vs_Non-responders_UP	NA	1898207	853	40518	1583331	48256	33025
-bsdb:688/2/2_melanoma:Responders_vs_Non-responders_DOWN	NA	147206	58180	1841856	470565	2702
-bsdb:688/2/3_melanoma:Responders_vs_Non-responders_DOWN	NA	147206	58180	1841856	470565	2702
+bsdb:687/5/2_Colorectal-adenocarcinoma:colorectal-cancer-patients-with-PIK3CA-mutation_vs_colorectal-cancer-patients-without-PIK3CA-mutation_UP	NA	1686	281992	887631	371674	159275
+bsdb:688/2/1_metastatic-melanoma:Responders_vs_Non-responders_UP	NA	1898207	853	40518	1583331	48256	33025
+bsdb:688/2/2_metastatic-melanoma:Responders_vs_Non-responders_DOWN	NA	147206	58180	1841856	470565	2702
+bsdb:689/1/1_metastatic-melanoma:Responders_vs_Progressive_UP	NA	818	39486	853	61171	1318
 bsdb:691/1/1_metastatic-melanoma:Responders_vs_Non-responders_UP	NA	562	626940	1304	33038
 bsdb:691/1/2_metastatic-melanoma:Responders_vs_Non-responders_DOWN	NA	216816	751585	39490	165179
-bsdb:693/1/1_hepatocellular-carcinoma,EFO:0000182:Responders_vs_Non-responders_UP	NA	1632	97478	1596	1633	1689	1308	410072	246787	2053618	658087	40520	40518	239935	861	39488	218538	39486	169435	187326
-bsdb:693/1/2_hepatocellular-carcinoma,EFO:0000182:Responders_vs_Non-responders_DOWN	NA	291645	856	28111	39778	820	39777	1624	548	1681	732	249188	626930	208962	1680	907
+bsdb:692/3/1_Nutraceutical:colorectal-cancer-patients-who-took-prebiotics-(postoperative-fecal-sample)_vs_colorectal-cancer-patients-who-took-prebiotics-(preoperative-fecal-sample)_UP	NA	1940338
+bsdb:693/1/1_hepatocellular-carcinoma:Responders_vs_Non-responders_UP	NA	239935	39488	169435	246787	1689	40520	410072	218538	39486	861	658087	1596	97478	1632	1633	187326	40518	1308	1968796
+bsdb:693/1/2_hepatocellular-carcinoma:Responders_vs_Non-responders_DOWN	NA	732	28111	626930	291645	820	1680	1681	208962	856	249188	548	1624	907	39777	39778
+bsdb:694/1/1_Gegen-Qinlian-decoction-(GQD):low-dose-GQD-(300-mg/kg)_vs_non-GQD_UP	NA	1622	512314	1159214	584	1522
+bsdb:694/1/2_Gegen-Qinlian-decoction-(GQD):low-dose-GQD-(300-mg/kg)_vs_non-GQD_DOWN	NA	876091
 bsdb:694/2/1_colorectal-cancer:low-dose-GQD-(300-mg/kg)_vs_non-GQD_UP	NA	584	1522	1622	512314	1159214
 bsdb:694/2/2_colorectal-cancer:low-dose-GQD-(300-mg/kg)_vs_non-GQD_UP	NA	584	1522	1622	512314	1159214

@@ -1,4 +1,4 @@
-# BugSigDB 2022-09-04, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2022-09-11, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_adenoma:conventional-adenoma-cases_vs_controls_UP	NA	Actinomyces	Corynebacterium	Streptococcus	Peptoniphilus	Dorea	Phascolarctobacterium	Sutterella	Bacillus
 bsdb:1/1/2_adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	Coprobacillus
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	Anaerostipes
@@ -1704,8 +1704,8 @@ bsdb:663/2/2_Ethnic-group:India_vs_Chinese_DOWN	NA	Bacteroides
 bsdb:663/3/1_Ethnic-group:Jakun_vs_Chinese_UP	NA	Prevotella
 bsdb:663/3/2_Ethnic-group:Jakun_vs_Chinese_DOWN	NA	Bacteroides
 bsdb:666/1/1_socioeconomic-status:Low-income-country-(Malawi)_vs_High-Income-country-(Finland)_UP	NA	Bifidobacterium
-bsdb:667/1/1_Hepatocellular-carcinoma:Responders_vs_Non-responders_UP	NA	Faecalibacterium	Peptoniphilus	Phascolarctobacterium	Rothia	Ruminococcus
-bsdb:667/1/2_Hepatocellular-carcinoma:Responders_vs_Non-responders_DOWN	NA	Gardnerella
+bsdb:667/1/1_hepatocellular-carcinoma:Responders_vs_Non-responders_UP	NA	Faecalibacterium	Peptoniphilus	Phascolarctobacterium	Rothia	Ruminococcus
+bsdb:667/1/2_hepatocellular-carcinoma:Responders_vs_Non-responders_DOWN	NA	Gardnerella
 bsdb:669/1/1_ethnic-group,socioeconomic-status:Rural-African-Children-in-Burkina-Faso_vs_European-Children-in-Italy_UP	NA	Prevotella
 bsdb:669/1/2_ethnic-group,socioeconomic-status:Rural-African-Children-in-Burkina-Faso_vs_European-Children-in-Italy_DOWN	NA	Acetitomaculum	Faecalibacterium	Roseburia	Subdoligranulum	Alistipes	Bacteroides
 bsdb:670/1/1_socioeconomic-status,ethnic-group:Bangladesh-Children-(Household-income-<-$61)_vs_US-children_UP	NA	Butyrivibrio
@@ -1742,21 +1742,22 @@ bsdb:687/2/2_Colorectal-adenocarcinoma:colorectal-cancer-patients-with-KRAS-muta
 bsdb:687/4/1_Colorectal-adenocarcinoma:colorectal-cancer-patients-with-APC-mutation_vs_colorectal-cancer-patients-without-APC-mutation_UP	NA	Actinomyces
 bsdb:687/4/2_Colorectal-adenocarcinoma:colorectal-cancer-patients-with-APC-mutation_vs_colorectal-cancer-patients-without-APC-mutation_UP	NA	Actinomyces
 bsdb:687/5/1_Colorectal-adenocarcinoma:colorectal-cancer-patients-with-PIK3CA-mutation_vs_colorectal-cancer-patients-without-PIK3CA-mutation_DOWN	NA	Actinomyces
-bsdb:687/5/2_Colorectal-adenocarcinoma:colorectal-cancer-patients-with-PIK3CA-mutation_vs_colorectal-cancer-patients-without-PIK3CA-mutation_UP	NA	Ralstonia	Alistipes	Lactobacillus	Megasphaera
-bsdb:688/1/1_metastatic-melanoma:Responders_vs_Non-responders_UP	NA	Faecalibacterium	Peptoniphilus	Phascolarctobacterium	Rothia
-bsdb:688/1/2_metastatic-melanoma:Responders_vs_Non-responders_DOWN	NA	Gardnerella
-bsdb:688/2/1_melanoma:Responders_vs_Non-responders_UP	NA	Faecalibacterium	Ruminococcus	Phascolarctobacterium	Peptoniphilus	Rothia
-bsdb:688/2/2_melanoma:Responders_vs_Non-responders_DOWN	NA	Gardnerella
-bsdb:688/2/3_melanoma:Responders_vs_Non-responders_DOWN	NA	Gardnerella
-bsdb:690/1/1_non-small-cell-lung-carcinoma:Responders_vs_Non-responders_UP	NA	Lactobacillus	Clostridium	Syntrophococcus
-bsdb:690/1/2_non-small-cell-lung-carcinoma:Responders_vs_Non-responders_DOWN	NA	Bilophila	Sutterella	Parabacteroides
+bsdb:687/5/2_Colorectal-adenocarcinoma:colorectal-cancer-patients-with-PIK3CA-mutation_vs_colorectal-cancer-patients-without-PIK3CA-mutation_UP	NA	Alistipes	Lactobacillus	Megasphaera	Ralstonia
+bsdb:688/2/1_metastatic-melanoma:Responders_vs_Non-responders_UP	NA	Faecalibacterium	Ruminococcus	Phascolarctobacterium	Peptoniphilus	Rothia
+bsdb:688/2/2_metastatic-melanoma:Responders_vs_Non-responders_DOWN	NA	Gardnerella
+bsdb:690/1/1_non-small-cell-lung-carcinoma:Responders_vs_Non-responders_UP	NA	Clostridium	Lactobacillus	Syntrophococcus
+bsdb:690/1/2_non-small-cell-lung-carcinoma:Responders_vs_Non-responders_DOWN	NA	Bilophila	Parabacteroides	Sutterella
 bsdb:691/1/2_metastatic-melanoma:Responders_vs_Non-responders_DOWN	NA	Eggerthella
-bsdb:692/1/1_colorectal-cancer:colorectal-cancer-patients-who-took-prebiotics-(preoperative-fecal-sample)_vs_colorectal-cancer-patients-who-didn't-take-prebiotics-(preoperative-fecal-sample)_DOWN	NA	Bacteroides
-bsdb:692/1/2_colorectal-cancer:colorectal-cancer-patients-who-took-prebiotics-(preoperative-fecal-sample)_vs_colorectal-cancer-patients-who-didn't-take-prebiotics-(preoperative-fecal-sample)_UP	NA	Bifidobacterium	Enterococcus
-bsdb:692/2/1_colorectal-cancer:colorectal-cancer-patients-non-prebiotic-(postoperative)_vs_colorectal-cancer-patients-non-prebiotic-(preoperative)_DOWN	NA	Bacteroides
-bsdb:692/2/2_colorectal-cancer:colorectal-cancer-patients-non-prebiotic-(postoperative)_vs_colorectal-cancer-patients-non-prebiotic-(preoperative)_UP	NA	Lactococcus	Enterococcus	Streptococcus	Bacillus
-bsdb:692/3/1_colorectal-cancer:colorectal-cancer-patients-who-took-prebiotics-(postoperative-fecal-sample)_vs_colorectal-cancer-patients-who-took-prebiotics-(preoperative-fecal-sample)_UP	NA	Bacillus	Escherichia	Shigella	Bifidobacterium	Enterococcus
-bsdb:692/3/2_colorectal-cancer:colorectal-cancer-patients-who-took-prebiotics-(postoperative-fecal-sample)_vs_colorectal-cancer-patients-who-took-prebiotics-(preoperative-fecal-sample)_DOWN	NA	Bacteroides
-bsdb:693/1/1_hepatocellular-carcinoma,EFO:0000182:Responders_vs_Non-responders_UP	NA	Salinibacter
+bsdb:692/1/1_Nutraceutical:colorectal-cancer-patients-who-took-prebiotics-(preoperative-fecal-sample)_vs_colorectal-cancer-patients-who-didn't-take-prebiotics-(preoperative-fecal-sample)_DOWN	NA	Bacteroides
+bsdb:692/1/2_Nutraceutical:colorectal-cancer-patients-who-took-prebiotics-(preoperative-fecal-sample)_vs_colorectal-cancer-patients-who-didn't-take-prebiotics-(preoperative-fecal-sample)_UP	NA	Bifidobacterium	Enterococcus
+bsdb:692/2/1_Nutraceutical:colorectal-cancer-patients-non-prebiotic-(postoperative)_vs_colorectal-cancer-patients-non-prebiotic-(preoperative)_DOWN	NA	Bacteroides
+bsdb:692/2/2_Nutraceutical:colorectal-cancer-patients-non-prebiotic-(postoperative)_vs_colorectal-cancer-patients-non-prebiotic-(preoperative)_UP	NA	Lactococcus	Enterococcus	Streptococcus	Bacillus
+bsdb:692/3/1_Nutraceutical:colorectal-cancer-patients-who-took-prebiotics-(postoperative-fecal-sample)_vs_colorectal-cancer-patients-who-took-prebiotics-(preoperative-fecal-sample)_UP	NA	Bacillus	Bifidobacterium	Enterococcus
+bsdb:692/3/2_Nutraceutical:colorectal-cancer-patients-who-took-prebiotics-(postoperative-fecal-sample)_vs_colorectal-cancer-patients-who-took-prebiotics-(preoperative-fecal-sample)_DOWN	NA	Bacteroides
+bsdb:692/4/1_Nutraceutical:colorectal-cancer-patients-who-took-prebiotics-(postoperative-fecal-sample)_vs_colorectal-cancer-patients-who-didn't-take-prebiotics-(postoperative-fecal-sample)_UP	NA	Bifidobacterium
+bsdb:692/4/2_Nutraceutical:colorectal-cancer-patients-who-took-prebiotics-(postoperative-fecal-sample)_vs_colorectal-cancer-patients-who-didn't-take-prebiotics-(postoperative-fecal-sample)_DOWN	NA	Enterococcus
+bsdb:693/1/1_hepatocellular-carcinoma:Responders_vs_Non-responders_UP	NA	Salinibacter	Subdoligranulum
+bsdb:694/1/1_Gegen-Qinlian-decoction-(GQD):low-dose-GQD-(300-mg/kg)_vs_non-GQD_UP	NA	Parasutterella	Candidatus Stoquefichus
+bsdb:694/1/2_Gegen-Qinlian-decoction-(GQD):low-dose-GQD-(300-mg/kg)_vs_non-GQD_DOWN	NA	Tyzzerella	Candidatus Saccharimonas	Turicibacter	Staphylococcus
 bsdb:694/2/1_colorectal-cancer:low-dose-GQD-(300-mg/kg)_vs_non-GQD_UP	NA	Parasutterella	Candidatus Stoquefichus	Proteus
 bsdb:694/2/2_colorectal-cancer:low-dose-GQD-(300-mg/kg)_vs_non-GQD_UP	NA	Parasutterella	Candidatus Stoquefichus	Proteus
