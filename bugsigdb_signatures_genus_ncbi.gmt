@@ -1,4 +1,4 @@
-# BugSigDB 2022-09-11, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2022-09-18, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_adenoma:conventional-adenoma-cases_vs_controls_UP	NA	1654	1716	1301	162289	189330	33024	40544	1386
 bsdb:1/1/2_adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	100883
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	207244
@@ -1747,7 +1747,8 @@ bsdb:688/2/1_metastatic-melanoma:Responders_vs_Non-responders_UP	NA	216851	1263	
 bsdb:688/2/2_metastatic-melanoma:Responders_vs_Non-responders_DOWN	NA	2701
 bsdb:690/1/1_non-small-cell-lung-carcinoma:Responders_vs_Non-responders_UP	NA	1485	1578	84036
 bsdb:690/1/2_non-small-cell-lung-carcinoma:Responders_vs_Non-responders_DOWN	NA	35832	375288	40544
-bsdb:691/1/2_metastatic-melanoma:Responders_vs_Non-responders_DOWN	NA	84111
+bsdb:691/1/1_metastatic-melanoma:Responders_vs_Non-responders_UP	NA	35832
+bsdb:691/1/2_metastatic-melanoma:Responders_vs_Non-responders_DOWN	NA	84111	29465	133925
 bsdb:692/1/1_Nutraceutical:colorectal-cancer-patients-who-took-prebiotics-(preoperative-fecal-sample)_vs_colorectal-cancer-patients-who-didn't-take-prebiotics-(preoperative-fecal-sample)_DOWN	NA	816
 bsdb:692/1/2_Nutraceutical:colorectal-cancer-patients-who-took-prebiotics-(preoperative-fecal-sample)_vs_colorectal-cancer-patients-who-didn't-take-prebiotics-(preoperative-fecal-sample)_UP	NA	1678	1350
 bsdb:692/2/1_Nutraceutical:colorectal-cancer-patients-non-prebiotic-(postoperative)_vs_colorectal-cancer-patients-non-prebiotic-(preoperative)_DOWN	NA	816
@@ -1757,7 +1758,15 @@ bsdb:692/3/2_Nutraceutical:colorectal-cancer-patients-who-took-prebiotics-(posto
 bsdb:692/4/1_Nutraceutical:colorectal-cancer-patients-who-took-prebiotics-(postoperative-fecal-sample)_vs_colorectal-cancer-patients-who-didn't-take-prebiotics-(postoperative-fecal-sample)_UP	NA	1678
 bsdb:692/4/2_Nutraceutical:colorectal-cancer-patients-who-took-prebiotics-(postoperative-fecal-sample)_vs_colorectal-cancer-patients-who-didn't-take-prebiotics-(postoperative-fecal-sample)_DOWN	NA	1350
 bsdb:693/1/1_hepatocellular-carcinoma:Responders_vs_Non-responders_UP	NA	146918	292632
-bsdb:694/1/1_Gegen-Qinlian-decoction-(GQD):low-dose-GQD-(300-mg/kg)_vs_non-GQD_UP	NA	577310	1470349
+bsdb:694/1/1_Gegen-Qinlian-decoction-(GQD):low-dose-GQD-(300-mg/kg)_vs_non-GQD_UP	NA	1470349	577310
 bsdb:694/1/2_Gegen-Qinlian-decoction-(GQD):low-dose-GQD-(300-mg/kg)_vs_non-GQD_DOWN	NA	1506577	1331051	191303	1279
-bsdb:694/2/1_colorectal-cancer:low-dose-GQD-(300-mg/kg)_vs_non-GQD_UP	NA	577310	1470349	583
+bsdb:694/2/1_colorectal-cancer:low-dose-GQD-(300-mg/kg)_vs_non-GQD_UP	NA	1470349	583	577310
 bsdb:694/2/2_colorectal-cancer:low-dose-GQD-(300-mg/kg)_vs_non-GQD_UP	NA	577310	1470349	583
+bsdb:694/3/1_Gegen-Qinlian-decoction-(GQD):low-dose-GQD-(300-mg/kg)-+-PD-1_vs_control_UP	NA	239759	1508657	1470349
+bsdb:694/3/2_Gegen-Qinlian-decoction-(GQD):low-dose-GQD-(300-mg/kg)-+-PD-1_vs_control_DOWN	NA	1331051
+bsdb:694/4/1_Gegen-Qinlian-decoction-(GQD):low-dose-GQD-(300-mg/kg)_vs_control_UP	NA	816	1649459	375288
+bsdb:694/4/2_Gegen-Qinlian-decoction-(GQD):low-dose-GQD-(300-mg/kg)_vs_control_DOWN	NA	2086	1678	572511	33042	872	580024	1506577
+bsdb:694/5/1_Gegen-Qinlian-decoction-(GQD):PD-1-group_vs_control_UP	NA	447020	2086	1505663	1649459
+bsdb:694/5/2_Gegen-Qinlian-decoction-(GQD):PD-1-group_vs_control_DOWN	NA	459786
+bsdb:694/6/1_Gegen-Qinlian-decoction-(GQD):low-dose-300-mg/kg-GQD-+-PD-1-group_vs_control_UP	NA	816	1470349	239759	1508657
+bsdb:694/6/2_Gegen-Qinlian-decoction-(GQD):low-dose-300-mg/kg-GQD-+-PD-1-group_vs_control_DOWN	NA	244127	1678
