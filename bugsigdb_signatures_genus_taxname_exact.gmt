@@ -1,4 +1,4 @@
-# BugSigDB 2022-09-18, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2022-09-25, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_adenoma:conventional-adenoma-cases_vs_controls_UP	NA	Actinomyces	Corynebacterium	Streptococcus	Peptoniphilus	Dorea	Phascolarctobacterium	Sutterella	Bacillus
 bsdb:1/1/2_adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	Coprobacillus
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	Anaerostipes
@@ -1548,7 +1548,7 @@ bsdb:566/1/1_juvenile-idiopathic-arthritis:HLAB27+_vs_HLAB27-_DOWN	NA	Haemophilu
 bsdb:566/1/2_juvenile-idiopathic-arthritis:HLAB27+_vs_HLAB27-_UP	NA	Bilophila	Dialister	Hydrogenoanaerobacterium	Lactobacillus	Oscillibacter	Parvimonas
 bsdb:566/2/1_juvenile-idiopathic-arthritis:JIA-patients-in-remission_vs_JIA-patients-with-active-disease_DOWN	NA	Sutterella
 bsdb:566/2/2_juvenile-idiopathic-arthritis:JIA-patients-in-remission_vs_JIA-patients-with-active-disease_UP	NA	Parasutterella	Odoribacter
-bsdb:567/2/1_dietary-fiber-intake:Advanced-colorectal-adenoma-group-(A-CRA)_vs_Healthy-control-group-(HC)_UP	NA	Bacteroides	Streptococcus	Enterococcus
+bsdb:567/1/1_dietary-fiber-intake:Advanced-colorectal-adenoma-group-(A-CRA)_vs_Healthy-control-group-(HC)_UP	NA	Bacteroides	Streptococcus	Enterococcus
 bsdb:568/1/1_Parkinson's-disease:NPD-group:-patients-suffering-with-suffering-with-with-PD-for-less-than-1-year-and-before-treatment._vs_healthy-controls-without-any-form-of-Parkinson's-Disease_UP	NA	Turicibacter
 bsdb:568/1/2_Parkinson's-disease:NPD-group:-patients-suffering-with-suffering-with-with-PD-for-less-than-1-year-and-before-treatment._vs_healthy-controls-without-any-form-of-Parkinson's-Disease_DOWN	NA	Paraprevotella	Ruminococcus	Streptococcus
 bsdb:568/2/1_Parkinson's-disease:NPD-group:-patients-suffering-with-PD-for-less-than-1-year-and-5-days-after-treatment._vs_healthy-controls-without-any-form-of-Parkinson's-Disease_UP	NA	Turicibacter
@@ -1632,10 +1632,10 @@ bsdb:622/1/1_colorectal-cancer:CRA-and-CRC-groups_vs_Negative-control-group_DOWN
 bsdb:622/1/2_colorectal-cancer:CRA-and-CRC-groups_vs_Negative-control-group_UP	NA	Coprococcus	Enterococcus	Fusobacterium	Streptococcus
 bsdb:623/1/1_colorectal-cancer:Patients-with-CRC-recurrence_vs_Patients-without-CRC-recurrence_UP	NA	Fusobacterium	Parvimonas	Anaerobacterium	Peptostreptococcus	Prevotella
 bsdb:623/1/2_colorectal-cancer:Patients-with-CRC-recurrence_vs_Patients-without-CRC-recurrence_DOWN	NA	Stenotrophomonas	Veillonella
-bsdb:625/1/1_Socioeconomic-status:High-SES_vs_NA_UP	NA	Anaerostipes	Eubacterium	Faecalibacterium
-bsdb:625/1/2_Socioeconomic-status:High-SES_vs_NA_DOWN	NA	Bacteroides
-bsdb:628/1/1_Socioeconomic-status:Low-SES_vs_High-SES_UP	NA	Prevotella
-bsdb:628/1/2_Socioeconomic-status:Low-SES_vs_High-SES_DOWN	NA	Bacteroides
+bsdb:625/1/1_socioeconomic-status:High-SES_vs_NA_UP	NA	Anaerostipes	Eubacterium	Faecalibacterium
+bsdb:625/1/2_socioeconomic-status:High-SES_vs_NA_DOWN	NA	Bacteroides
+bsdb:628/1/1_socioeconomic-status:Low-SES_vs_High-SES_UP	NA	Prevotella
+bsdb:628/1/2_socioeconomic-status:Low-SES_vs_High-SES_DOWN	NA	Bacteroides
 bsdb:632/1/1_ethnic-group:African-American-neonate-by-maternal-profile_vs_Caucasian-+-other-races-neonates-by-maternal-profiles_UP	NA	Akkermansia	Bifidobacterium	Lactobacillus	Megasphaera
 bsdb:632/1/2_ethnic-group:African-American-neonate-by-maternal-profile_vs_Caucasian-+-other-races-neonates-by-maternal-profiles_DOWN	NA	Coprococcus	Oscillospira	Parabacteroides	Prevotella	Staphylococcus	Streptococcus
 bsdb:632/2/1_socioeconomic-status:Infants-in-household-income-<$80,000._vs_Infants-in-household-income-=>$80,000._UP	NA	Bacteroides	Ruminococcus	Streptococcus
@@ -1770,3 +1770,9 @@ bsdb:694/5/1_Gegen-Qinlian-decoction-(GQD):PD-1-group_vs_control_UP	NA	Adlercreu
 bsdb:694/5/2_Gegen-Qinlian-decoction-(GQD):PD-1-group_vs_control_DOWN	NA	Oscillibacter
 bsdb:694/6/1_Gegen-Qinlian-decoction-(GQD):low-dose-300-mg/kg-GQD-+-PD-1-group_vs_control_UP	NA	Bacteroides	Candidatus Stoquefichus	Alistipes	Ruminiclostridium
 bsdb:694/6/2_Gegen-Qinlian-decoction-(GQD):low-dose-300-mg/kg-GQD-+-PD-1-group_vs_control_DOWN	NA	Anaerotruncus	Bifidobacterium
+bsdb:695/1/1_antimicrobial-agent:Coli_vs_control_UP	NA	Bacteroides	Ruminiclostridium
+bsdb:695/1/2_antimicrobial-agent:Coli_vs_control_DOWN	NA	Desulfovibrio
+bsdb:695/2/1_antimicrobial-agent:Vanc_vs_control_UP	NA	Akkermansia	Lactobacillus	Parabacteroides	Parasutterella	Roseburia
+bsdb:695/2/2_antimicrobial-agent:Vanc_vs_control_DOWN	NA	Desulfovibrio
+bsdb:695/3/1_antimicrobial-agent:Vanc_vs_Coli_UP	NA	Akkermansia	Lactobacillus	Parabacteroides	Parasutterella	Roseburia
+bsdb:695/3/2_antimicrobial-agent:Vanc_vs_Coli_DOWN	NA	Bacteroides	Ruminiclostridium
