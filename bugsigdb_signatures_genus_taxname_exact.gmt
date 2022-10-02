@@ -1,4 +1,4 @@
-# BugSigDB 2022-09-25, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2022-10-02, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_adenoma:conventional-adenoma-cases_vs_controls_UP	NA	Actinomyces	Corynebacterium	Streptococcus	Peptoniphilus	Dorea	Phascolarctobacterium	Sutterella	Bacillus
 bsdb:1/1/2_adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	Coprobacillus
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	Anaerostipes
@@ -755,8 +755,8 @@ bsdb:256/2/2_gastric-cancer:tumoral-tissues_vs_peritumoral-tissues_DOWN	NA	Halom
 bsdb:256/3/1_gastric-cancer:tumoral-tissues_vs_normal-tissues_UP	NA	Halomonas	Streptococcus	Shewanella	Lactobacillus	Bacillus	Selenomonas	Fusobacterium	Propionibacterium	Corynebacterium
 bsdb:256/3/2_gastric-cancer:tumoral-tissues_vs_normal-tissues_DOWN	NA	Helicobacter	Sphingomonas	Pseudomonas	Bacteroides
 bsdb:256/9/1_gastric-cancer:normal-HP+_vs_normal-HP-_UP	NA	Massilia	Bifidobacterium	Corynebacterium	Actinomyces	Methylobacterium	Sphingomonas	Streptococcus	Helicobacter
-bsdb:256/9/2_gastric-cancer:normal-HP+_vs_normal-HP-_DOWN	NA	Ruminococcus	Dialister	Gemmiger	Blautia	Roseburia	Faecalibacterium	Halomonas	Prevotella	Phascolarctobacterium	Shewanella
-bsdb:256/10/1_gastric-cancer:peritumor-HP+_vs_peritumor-HP-_UP	NA	Gemella	Bacillus	Streptococcus	Helicobacter
+bsdb:256/9/2_gastric-cancer:normal-HP+_vs_normal-HP-_DOWN	NA	Blautia	Dialister	Faecalibacterium	Gemmiger	Halomonas	Phascolarctobacterium	Prevotella	Roseburia	Ruminococcus	Shewanella
+bsdb:256/10/1_gastric-cancer:peritumor-HP+_vs_peritumor-HP-_UP	NA	Bacillus	Gemella	Helicobacter	Streptococcus
 bsdb:256/10/2_gastric-cancer:peritumor-HP+_vs_peritumor-HP-_DOWN	NA	Phascolarctobacterium	Roseburia	Faecalibacterium	Alistipes	Dialister	Gemmiger	Megamonas	Bacillus	Parabacteroides
 bsdb:256/11/1_gastric-cancer:tumor-HP+_vs_tumor-HP-_UP	NA	Staphylococcus	Bacteroides	Brevundimonas	Blautia	Massilia	Novosphingobium	Helicobacter
 bsdb:256/11/2_gastric-cancer:tumor-HP+_vs_tumor-HP-_DOWN	NA	Acinetobacter	Ruminococcus	Pseudomonas	Sphingomonas	Bifidobacterium
@@ -890,8 +890,8 @@ bsdb:301/2/1_human-papilloma-virus-infection:HPV+_vs_HPV-_UP	NA	Sneathia
 bsdb:301/3/1_human-papilloma-virus-infection:HR-HPV+_vs_HPV-_UP	NA	Sneathia
 bsdb:302/3/1_asthma:exacerbated-asthma_vs_non-exacerbated-asthma_UP	NA	Prevotella	Alkanindiges	Gardnerella
 bsdb:302/3/2_asthma:exacerbated-asthma_vs_non-exacerbated-asthma_DOWN	NA	Dialister
-bsdb:303/1/1_non-Hodgkins-lymphoma:post-chemotherapy_vs_pre-chemotherapy_UP	NA	Citrobacter	Parabacteroides	Enterococcus
-bsdb:303/1/2_non-Hodgkins-lymphoma:post-chemotherapy_vs_pre-chemotherapy_DOWN	NA	Dorea	Ruminococcus	Coprococcus	Atopobium	Roseburia	Clostridium	Klebsiella	Blautia	Oscillospira	Lachnospira	Megasphaera	Bifidobacterium	Adlercreutzia	Anaerococcus	Collinsella
+bsdb:303/1/1_non-Hodgkins-lymphoma:post-chemotherapy_vs_pre-chemotherapy_UP	NA	Citrobacter	Enterococcus	Parabacteroides	Atopobium	Klebsiella
+bsdb:303/1/2_non-Hodgkins-lymphoma:post-chemotherapy_vs_pre-chemotherapy_DOWN	NA	Adlercreutzia	Anaerococcus	Atopobium	Bifidobacterium	Blautia	Clostridium	Collinsella	Coprococcus	Dorea	Klebsiella	Lachnospira	Oscillospira	Roseburia	Ruminococcus
 bsdb:304/1/1_antimicrobial-agent:oral-intake-of-vancomycin-(directed-against-Gram-positive-bacteria)_vs_or-placebo-(microcrystalline-cellulose)_UP	NA	Atopobium	Bifidobacterium	Collinsella
 bsdb:305/1/1_Genital-neoplasm,-female:women-with-gynecological-cancer_vs_healthy-controls_UP	NA	Anaerococcus	Dialister	Ezakiella	Fusobacterium	Mobiluncus	Moryella	Mycoplasma	Parvimonas	Peptoniphilus	Peptostreptococcus	Porphyromonas	Prevotella	Sneathia
 bsdb:305/1/2_Genital-neoplasm,-female:women-with-gynecological-cancer_vs_healthy-controls_DOWN	NA	Bifidobacterium	Lactobacillus	Shuttleworthia
@@ -1040,8 +1040,6 @@ bsdb:356/6/2_air-pollution:ICR-female-mice-exposed-to-PM-2.5_vs_mice-dams-expose
 bsdb:357/1/1_air-pollution:post-smog-swabs_vs_pre-smog-swabs_UP	NA	Prevotella
 bsdb:357/1/2_air-pollution:post-smog-swabs_vs_pre-smog-swabs_DOWN	NA	Leptotrichia
 bsdb:358/1/1_cervical-glandular-intraepithelial-neoplasia,cervical-cancer:CIN2/3-CC_vs_Healthy-controls_UP	NA	Streptococcus	Enhydrobacter	Weissella	Staphylococcus	Cutibacterium	Micrococcus
-bsdb:359/1/3_smoking-behavior:current-smoker_vs_former-smoker_UP	NA	Atopobium	Bifidobacterium	Lactobacillus	Streptococcus
-bsdb:359/1/4_smoking-behavior:current-smoker_vs_former-smoker_DOWN	NA	Neisseria	Haemophilus	Aggregatibacter	Capnocytophaga	Corynebacterium	Porphyromonas	Prevotella	Leptotrichia	Peptostreptococcus	Abiotrophia	Selenomonas
 bsdb:360/1/1_air-pollution:mice-exposed-to-MVE_vs_mice-exposed-to-Filtered-Air_UP	NA	Turicibacter	Clostridium
 bsdb:360/1/2_air-pollution:mice-exposed-to-MVE_vs_mice-exposed-to-Filtered-Air_DOWN	NA	Oscillospira	Lactobacillus
 bsdb:360/2/2_air-pollution:mice-exposed-to-WS_vs_mice-exposed-to-Filtered-Air_DOWN	NA	Oscillospira	Clostridium	Lactobacillus
@@ -1480,16 +1478,14 @@ bsdb:527/1/2_endometriosis:Endometriosis-patients_vs_Healthy-controls-taken-from
 bsdb:527/2/2_endometriosis:Endometriosis-patients_vs_Healthy-controls-taken-from-a-larger-cohort-study_UP	NA	Lachnospira	Oscillospira
 bsdb:529/1/1_rheumatoid-arthritis,osteoarthritis:arthritis-patient_vs_healthy-controls_UP	NA	Fusobacterium	Lautropia	Leptotrichia	Granulicatella	Actinomyces	Streptococcus	Rothia	Haemophilus	Veillonella	Porphyromonas	Neisseria	Prevotella
 bsdb:529/1/2_rheumatoid-arthritis,osteoarthritis:arthritis-patient_vs_healthy-controls_DOWN	NA	Acinetobacter	Chryseobacterium	Pseudomonas	Enhydrobacter	Stenotrophomonas	Sphingomonas	Wautersiella	Bacteroides	Comamonas	Mycoplana
-bsdb:529/2/1_EFO:0000685:rheumatoid-arthritis_vs_Osteoarthritis_UP	NA	Actinobacillus	Aggregatibacter	Fusobacterium	Veillonella	Prevotella	Haemophilus	Neisseria
-bsdb:529/2/2_EFO:0000685:rheumatoid-arthritis_vs_Osteoarthritis_DOWN	NA	Streptococcus	Actinomyces	Lautropia	Rothia	Granulicatella	Ruminococcus	Oribacterium	Abiotrophia
+bsdb:529/2/1_rheumatoid-arthritis,osteoarthritis:rheumatoid-arthritis_vs_Osteoarthritis_UP	NA	Actinobacillus	Aggregatibacter	Fusobacterium	Veillonella	Prevotella	Haemophilus	Neisseria
+bsdb:529/2/2_rheumatoid-arthritis,osteoarthritis:rheumatoid-arthritis_vs_Osteoarthritis_DOWN	NA	Streptococcus	Actinomyces	Lautropia	Rothia	Granulicatella	Ruminococcus	Oribacterium	Abiotrophia
 bsdb:532/1/1_rheumatoid-arthritis:rheumatoid-arthritis-patients_vs_healthy-controls_UP	NA	Actinomyces	Eggerthella	Erwinia	Eubacterium	Streptococcus	Turicibacter
 bsdb:532/1/2_rheumatoid-arthritis:rheumatoid-arthritis-patients_vs_healthy-controls_DOWN	NA	Faecalibacterium
-bsdb:535/2/1_antimicrobial-agent:Antibiotic-treated_vs_Antibiotic-untreated_DOWN	NA	Blautia	Faecalibacterium
-bsdb:535/2/2_antimicrobial-agent:Antibiotic-treated_vs_Antibiotic-untreated_UP	NA	Lactobacillus	Mogibacterium	Moryella	Peptoniphilus	Victivallis	Weissella
-bsdb:535/3/1_antimicrobial-agent:Antibiotic-treated_vs_Antibiotic-untreated_DOWN	NA	Acidaminococcus	Butyrivibrio	Lachnospira
-bsdb:535/3/2_antimicrobial-agent:Antibiotic-treated_vs_Antibiotic-untreated_UP	NA	Anaerococcus	Lactobacillus	Lactonifactor	Megasphaera	Penicillium	Proteus
-bsdb:535/4/1_antimicrobial-agent:Antibiotic-treated_vs_Antibiotic-untreated_DOWN	NA	Bifidobacterium
-bsdb:535/4/2_antimicrobial-agent:Antibiotic-treated_vs_Antibiotic-untreated_UP	NA	Lactobacillus
+bsdb:535/1/1_antimicrobial-agent:Antibiotic-treated_vs_Antibiotic-untreated_DOWN	NA	Acidaminococcus	Butyrivibrio	Lachnospira
+bsdb:535/1/2_antimicrobial-agent:Antibiotic-treated_vs_Antibiotic-untreated_UP	NA	Anaerococcus	Lactonifactor	Lactobacillus	Megasphaera	Penicillium	Proteus
+bsdb:535/2/1_antimicrobial-agent:Antibiotic-treated-subjects-in-day-hospital_vs_Antibiotic-untreated-subjects-in-day-hospital_UP	NA	Lactobacillus	Mogibacterium	Moryella	Peptoniphilus	Victivallis	Weissella
+bsdb:535/2/2_antimicrobial-agent:Antibiotic-treated-subjects-in-day-hospital_vs_Antibiotic-untreated-subjects-in-day-hospital_DOWN	NA	Blautia	Faecalibacterium
 bsdb:536/1/2_azithromycin:The-group-given-an-azithromycin-oral-solution_vs_The-group-given-a-placebo_UP	NA	Flavonifractor
 bsdb:537/1/1_Parkinson's-disease:patients-with-idiopathic-parkinson's-disease_vs_healthy-controls-without-any-form-of-Parkinson's-Disease_UP	NA	Akkermansia	Bifidobacterium	Oscillospira	Parabacteroides
 bsdb:537/1/2_Parkinson's-disease:patients-with-idiopathic-parkinson's-disease_vs_healthy-controls-without-any-form-of-Parkinson's-Disease_DOWN	NA	Roseburia	Ruminococcus
@@ -1598,7 +1594,6 @@ bsdb:600/1/1_Parkinson's-disease:Participants-with-Parkinson's-Disease_vs_Health
 bsdb:600/1/2_Parkinson's-disease:Participants-with-Parkinson's-Disease_vs_Healthy-controls_DOWN	NA	Lactobacillus	Sediminibacterium
 bsdb:604/1/1_Parkinson's-disease:Participants-with-Parkinson's-Disease_vs_Healthy-controls-free-of-neurological-disease_UP	NA	Bifidobacterium	Corynebacterium	Lactobacillus	Porphyromonas	Prevotella
 bsdb:604/1/2_Parkinson's-disease:Participants-with-Parkinson's-Disease_vs_Healthy-controls-free-of-neurological-disease_DOWN	NA	Agathobacter	Blautia	Butyricicoccus	Faecalibacterium	Fusicatenibacter	Lachnospira	Oscillospira	Roseburia
-bsdb:604/1/3_Parkinson's-disease:Participants-with-Parkinson's-Disease_vs_Healthy-controls-free-of-neurological-disease_DOWN	NA	Faecalibacterium	Agathobacter	Blautia	Roseburia	Butyricicoccus	Fusicatenibacter	Lachnospira	Oscillospira
 bsdb:604/2/1_Parkinson's-disease:Participants-with-Parkinson's-Disease_vs_Healthy-control-free-of-neurological-disease._UP	NA	Porphyromonas	Prevotella	Corynebacterium	Blautia	Bifidobacterium	Lactobacillus
 bsdb:604/2/2_Parkinson's-disease:Participants-with-Parkinson's-Disease_vs_Healthy-control-free-of-neurological-disease._DOWN	NA	Faecalibacterium	Agathobacter	Roseburia	Butyricicoccus	Fusicatenibacter	Lachnospira
 bsdb:605/1/1_Parkinson's-disease:Participants-with-Parkinson's-Disease_vs_Healthy-controls-without-Parkinson's-disease_UP	NA	Parabacteroides	Akkermansia	Butyricimonas	Veillonella	Odoribacter	Mucispirillum	Bilophila	Enterococcus	Lactobacillus
@@ -1776,3 +1771,11 @@ bsdb:695/2/1_antimicrobial-agent:Vanc_vs_control_UP	NA	Akkermansia	Lactobacillus
 bsdb:695/2/2_antimicrobial-agent:Vanc_vs_control_DOWN	NA	Desulfovibrio
 bsdb:695/3/1_antimicrobial-agent:Vanc_vs_Coli_UP	NA	Akkermansia	Lactobacillus	Parabacteroides	Parasutterella	Roseburia
 bsdb:695/3/2_antimicrobial-agent:Vanc_vs_Coli_DOWN	NA	Bacteroides	Ruminiclostridium
+bsdb:695/5/1_antimicrobial-agent:Vanc_vs_control_UP	NA	Bacteroides	Parabacteroides
+bsdb:695/6/1_antimicrobial-agent:Vanc_vs_coli_UP	NA	Parabacteroides
+bsdb:696/1/1_Nutraceuticals:colorectal-cancer-patients-perioperative-probiotics_vs_colorectal-cancer-patients-perioperative-placebo_UP	NA	Acidovorax	Acinetobacter	Brevundimonas	Buttiauxella	Caulobacter	Enhydrobacter	Enterococcus	Janthinobacterium	Nesterenkonia	Pseudomonas	Psychrobacter	Rahnella	Rhizobium	Sphingobacterium	Stenotrophomonas	Nevskia
+bsdb:696/1/2_Nutraceuticals:colorectal-cancer-patients-perioperative-probiotics_vs_colorectal-cancer-patients-perioperative-placebo_DOWN	NA	Coprococcus	Sphingomonas	Comamonas
+bsdb:696/2/1_Nutraceuticals:colorectal-cancer-patients-perioperative-probiotics_vs_Healthy-controls_UP	NA	Bacillus	Carnobacterium	Enterococcus	Rhizobium	Nevskia	Rhodococcus
+bsdb:696/2/2_Nutraceuticals:colorectal-cancer-patients-perioperative-probiotics_vs_Healthy-controls_DOWN	NA	Acidovorax	Acinetobacter	Brevundimonas	Buttiauxella	Caulobacter	Enhydrobacter	Epilithonimonas	Flavobacterium	Janthinobacterium	Nesterenkonia	Pedobacter	Propionibacterium	Pseudomonas	Psychrobacter	Rahnella	Sphingobacterium	Sphingomonas
+bsdb:696/3/1_Nutraceuticals:colorectal-cancer-patients-perioperative-placebo_vs_Healthy-controls_UP	NA	Enterococcus	Peptostreptococcus	Fusobacterium
+bsdb:696/3/2_Nutraceuticals:colorectal-cancer-patients-perioperative-placebo_vs_Healthy-controls_DOWN	NA	Epilithonimonas	Flavobacterium	Pedobacter	Sphingobacterium	Caulobacter	Brevundimonas	Sphingomonas	Acidovorax	Janthinobacterium	Buttiauxella	Rahnella	Acinetobacter	Enhydrobacter	Psychrobacter	Pseudomonas	Nevskia	Stenotrophomonas	Rhodococcus	Nesterenkonia	Propionibacterium

@@ -1,4 +1,4 @@
-# BugSigDB 2022-09-25, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2022-10-02, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_adenoma:conventional-adenoma-cases_vs_controls_UP	NA	1654	1716	1301	162289	189330	33024	40544	1386
 bsdb:1/1/2_adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	100883
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	207244
@@ -755,8 +755,8 @@ bsdb:256/2/2_gastric-cancer:tumoral-tissues_vs_peritumoral-tissues_DOWN	NA	2745	
 bsdb:256/3/1_gastric-cancer:tumoral-tissues_vs_normal-tissues_UP	NA	2745	1301	22	1578	1386	970	848	1743	1716
 bsdb:256/3/2_gastric-cancer:tumoral-tissues_vs_normal-tissues_DOWN	NA	209	13687	286	816
 bsdb:256/9/1_gastric-cancer:normal-HP+_vs_normal-HP-_UP	NA	149698	1678	1716	1654	407	13687	1301	209
-bsdb:256/9/2_gastric-cancer:normal-HP+_vs_normal-HP-_DOWN	NA	1263	39948	204475	572511	841	216851	2745	838	33024	22
-bsdb:256/10/1_gastric-cancer:peritumor-HP+_vs_peritumor-HP-_UP	NA	1378	1386	1301	209
+bsdb:256/9/2_gastric-cancer:normal-HP+_vs_normal-HP-_DOWN	NA	572511	39948	216851	204475	2745	33024	838	841	1263	22
+bsdb:256/10/1_gastric-cancer:peritumor-HP+_vs_peritumor-HP-_UP	NA	1386	1378	209	1301
 bsdb:256/10/2_gastric-cancer:peritumor-HP+_vs_peritumor-HP-_DOWN	NA	33024	841	216851	239759	39948	204475	158846	1386	375288
 bsdb:256/11/1_gastric-cancer:tumor-HP+_vs_tumor-HP-_UP	NA	1279	816	41275	572511	149698	165696	209
 bsdb:256/11/2_gastric-cancer:tumor-HP+_vs_tumor-HP-_DOWN	NA	469	1263	286	13687	1678
@@ -890,8 +890,8 @@ bsdb:301/2/1_human-papilloma-virus-infection:HPV+_vs_HPV-_UP	NA	168808
 bsdb:301/3/1_human-papilloma-virus-infection:HR-HPV+_vs_HPV-_UP	NA	168808
 bsdb:302/3/1_asthma:exacerbated-asthma_vs_non-exacerbated-asthma_UP	NA	838	222991	2701
 bsdb:302/3/2_asthma:exacerbated-asthma_vs_non-exacerbated-asthma_DOWN	NA	39948
-bsdb:303/1/1_non-Hodgkins-lymphoma:post-chemotherapy_vs_pre-chemotherapy_UP	NA	544	375288	1350
-bsdb:303/1/2_non-Hodgkins-lymphoma:post-chemotherapy_vs_pre-chemotherapy_DOWN	NA	189330	1263	33042	1380	841	1485	570	572511	119852	28050	906	1678	447020	165779	102106
+bsdb:303/1/1_non-Hodgkins-lymphoma:post-chemotherapy_vs_pre-chemotherapy_UP	NA	544	1350	375288	1380	570
+bsdb:303/1/2_non-Hodgkins-lymphoma:post-chemotherapy_vs_pre-chemotherapy_DOWN	NA	447020	165779	1380	1678	572511	1485	102106	33042	189330	570	28050	119852	841	1263
 bsdb:304/1/1_antimicrobial-agent:oral-intake-of-vancomycin-(directed-against-Gram-positive-bacteria)_vs_or-placebo-(microcrystalline-cellulose)_UP	NA	1380	1678	102106
 bsdb:305/1/1_Genital-neoplasm,-female:women-with-gynecological-cancer_vs_healthy-controls_UP	NA	165779	39948	1582879	848	2050	437755	2093	543311	162289	1257	836	838	168808
 bsdb:305/1/2_Genital-neoplasm,-female:women-with-gynecological-cancer_vs_healthy-controls_DOWN	NA	1678	1578	177971
@@ -1040,8 +1040,6 @@ bsdb:356/6/2_air-pollution:ICR-female-mice-exposed-to-PM-2.5_vs_mice-dams-expose
 bsdb:357/1/1_air-pollution:post-smog-swabs_vs_pre-smog-swabs_UP	NA	838
 bsdb:357/1/2_air-pollution:post-smog-swabs_vs_pre-smog-swabs_DOWN	NA	32067
 bsdb:358/1/1_cervical-glandular-intraepithelial-neoplasia,cervical-cancer:CIN2/3-CC_vs_Healthy-controls_UP	NA	1301	212791	46255	1279	1912216	1269
-bsdb:359/1/3_smoking-behavior:current-smoker_vs_former-smoker_UP	NA	1380	1678	1578	1301
-bsdb:359/1/4_smoking-behavior:current-smoker_vs_former-smoker_DOWN	NA	482	724	416916	1016	1716	836	838	32067	1257	46123	970
 bsdb:360/1/1_air-pollution:mice-exposed-to-MVE_vs_mice-exposed-to-Filtered-Air_UP	NA	191303	1485
 bsdb:360/1/2_air-pollution:mice-exposed-to-MVE_vs_mice-exposed-to-Filtered-Air_DOWN	NA	119852	1578
 bsdb:360/2/2_air-pollution:mice-exposed-to-WS_vs_mice-exposed-to-Filtered-Air_DOWN	NA	119852	1485	1578
@@ -1480,16 +1478,14 @@ bsdb:527/1/2_endometriosis:Endometriosis-patients_vs_Healthy-controls-taken-from
 bsdb:527/2/2_endometriosis:Endometriosis-patients_vs_Healthy-controls-taken-from-a-larger-cohort-study_UP	NA	28050	119852
 bsdb:529/1/1_rheumatoid-arthritis,osteoarthritis:arthritis-patient_vs_healthy-controls_UP	NA	848	47670	32067	117563	1654	1301	32207	724	29465	836	482	838
 bsdb:529/1/2_rheumatoid-arthritis,osteoarthritis:arthritis-patient_vs_healthy-controls_DOWN	NA	469	59732	286	212791	40323	13687	343873	816	283	13159
-bsdb:529/2/1_EFO:0000685:rheumatoid-arthritis_vs_Osteoarthritis_UP	NA	713	416916	848	29465	838	724	482
-bsdb:529/2/2_EFO:0000685:rheumatoid-arthritis_vs_Osteoarthritis_DOWN	NA	1301	1654	47670	32207	117563	1263	265975	46123
+bsdb:529/2/1_rheumatoid-arthritis,osteoarthritis:rheumatoid-arthritis_vs_Osteoarthritis_UP	NA	713	416916	848	29465	838	724	482
+bsdb:529/2/2_rheumatoid-arthritis,osteoarthritis:rheumatoid-arthritis_vs_Osteoarthritis_DOWN	NA	1301	1654	47670	32207	117563	1263	265975	46123
 bsdb:532/1/1_rheumatoid-arthritis:rheumatoid-arthritis-patients_vs_healthy-controls_UP	NA	1654	84111	551	1730	1301	191303
 bsdb:532/1/2_rheumatoid-arthritis:rheumatoid-arthritis-patients_vs_healthy-controls_DOWN	NA	216851
-bsdb:535/2/1_antimicrobial-agent:Antibiotic-treated_vs_Antibiotic-untreated_DOWN	NA	572511	216851
-bsdb:535/2/2_antimicrobial-agent:Antibiotic-treated_vs_Antibiotic-untreated_UP	NA	1578	86331	437755	162289	172900	46255
-bsdb:535/3/1_antimicrobial-agent:Antibiotic-treated_vs_Antibiotic-untreated_DOWN	NA	904	830	28050
-bsdb:535/3/2_antimicrobial-agent:Antibiotic-treated_vs_Antibiotic-untreated_UP	NA	165779	1578	420345	906	5073	583
-bsdb:535/4/1_antimicrobial-agent:Antibiotic-treated_vs_Antibiotic-untreated_DOWN	NA	1678
-bsdb:535/4/2_antimicrobial-agent:Antibiotic-treated_vs_Antibiotic-untreated_UP	NA	1578
+bsdb:535/1/1_antimicrobial-agent:Antibiotic-treated_vs_Antibiotic-untreated_DOWN	NA	904	830	28050
+bsdb:535/1/2_antimicrobial-agent:Antibiotic-treated_vs_Antibiotic-untreated_UP	NA	165779	420345	1578	906	5073	583
+bsdb:535/2/1_antimicrobial-agent:Antibiotic-treated-subjects-in-day-hospital_vs_Antibiotic-untreated-subjects-in-day-hospital_UP	NA	1578	86331	437755	162289	172900	46255
+bsdb:535/2/2_antimicrobial-agent:Antibiotic-treated-subjects-in-day-hospital_vs_Antibiotic-untreated-subjects-in-day-hospital_DOWN	NA	572511	216851
 bsdb:536/1/2_azithromycin:The-group-given-an-azithromycin-oral-solution_vs_The-group-given-a-placebo_UP	NA	946234
 bsdb:537/1/1_Parkinson's-disease:patients-with-idiopathic-parkinson's-disease_vs_healthy-controls-without-any-form-of-Parkinson's-Disease_UP	NA	239934	1678	119852	375288
 bsdb:537/1/2_Parkinson's-disease:patients-with-idiopathic-parkinson's-disease_vs_healthy-controls-without-any-form-of-Parkinson's-Disease_DOWN	NA	841	1263
@@ -1598,7 +1594,6 @@ bsdb:600/1/1_Parkinson's-disease:Participants-with-Parkinson's-Disease_vs_Health
 bsdb:600/1/2_Parkinson's-disease:Participants-with-Parkinson's-Disease_vs_Healthy-controls_DOWN	NA	1578	504481
 bsdb:604/1/1_Parkinson's-disease:Participants-with-Parkinson's-Disease_vs_Healthy-controls-free-of-neurological-disease_UP	NA	1678	1716	1578	836	838
 bsdb:604/1/2_Parkinson's-disease:Participants-with-Parkinson's-Disease_vs_Healthy-controls-free-of-neurological-disease_DOWN	NA	1766253	572511	580596	216851	1407607	28050	119852	841
-bsdb:604/1/3_Parkinson's-disease:Participants-with-Parkinson's-Disease_vs_Healthy-controls-free-of-neurological-disease_DOWN	NA	216851	1766253	572511	841	580596	1407607	28050	119852
 bsdb:604/2/1_Parkinson's-disease:Participants-with-Parkinson's-Disease_vs_Healthy-control-free-of-neurological-disease._UP	NA	836	838	1716	572511	1678	1578
 bsdb:604/2/2_Parkinson's-disease:Participants-with-Parkinson's-Disease_vs_Healthy-control-free-of-neurological-disease._DOWN	NA	216851	1766253	841	580596	1407607	28050
 bsdb:605/1/1_Parkinson's-disease:Participants-with-Parkinson's-Disease_vs_Healthy-controls-without-Parkinson's-disease_UP	NA	375288	239934	574697	29465	283168	248038	35832	1350	1578
@@ -1776,3 +1771,11 @@ bsdb:695/2/1_antimicrobial-agent:Vanc_vs_control_UP	NA	239934	1578	375288	577310
 bsdb:695/2/2_antimicrobial-agent:Vanc_vs_control_DOWN	NA	872
 bsdb:695/3/1_antimicrobial-agent:Vanc_vs_Coli_UP	NA	239934	1578	375288	577310	841
 bsdb:695/3/2_antimicrobial-agent:Vanc_vs_Coli_DOWN	NA	816	1508657
+bsdb:695/5/1_antimicrobial-agent:Vanc_vs_control_UP	NA	816	375288
+bsdb:695/6/1_antimicrobial-agent:Vanc_vs_coli_UP	NA	375288
+bsdb:696/1/1_Nutraceuticals:colorectal-cancer-patients-perioperative-probiotics_vs_colorectal-cancer-patients-perioperative-placebo_UP	NA	12916	469	41275	82976	75	212791	1350	29580	57494	286	497	34037	379	28453	40323	64001
+bsdb:696/1/2_Nutraceuticals:colorectal-cancer-patients-perioperative-probiotics_vs_colorectal-cancer-patients-perioperative-placebo_DOWN	NA	33042	13687	283
+bsdb:696/2/1_Nutraceuticals:colorectal-cancer-patients-perioperative-probiotics_vs_Healthy-controls_UP	NA	1386	2747	1350	379	64001	1827
+bsdb:696/2/2_Nutraceuticals:colorectal-cancer-patients-perioperative-probiotics_vs_Healthy-controls_DOWN	NA	12916	469	41275	82976	75	212791	2782229	237	29580	57494	84567	1743	286	497	34037	28453	13687
+bsdb:696/3/1_Nutraceuticals:colorectal-cancer-patients-perioperative-placebo_vs_Healthy-controls_UP	NA	1350	1257	848
+bsdb:696/3/2_Nutraceuticals:colorectal-cancer-patients-perioperative-placebo_vs_Healthy-controls_DOWN	NA	2782229	237	84567	28453	75	41275	13687	12916	29580	82976	34037	469	212791	497	286	64001	40323	1827	57494	1743

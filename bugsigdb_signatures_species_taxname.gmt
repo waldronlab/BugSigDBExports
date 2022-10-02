@@ -1,4 +1,4 @@
-# BugSigDB 2022-09-25, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2022-10-02, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_adenoma:conventional-adenoma-cases_vs_controls_UP	NA	Lacticaseibacillus zeae
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	Lacticaseibacillus zeae
 bsdb:1/6/1_adenoma:Non-advanced-conventional-adenoma-cases_vs_controls_UP	NA	Lacticaseibacillus zeae
@@ -327,7 +327,6 @@ bsdb:256/4/1_gastric-cancer:early-stage-tumor_vs_early-stage-normal_UP	NA	Cutiba
 bsdb:256/4/2_gastric-cancer:early-stage-tumor_vs_early-stage-normal_DOWN	NA	Prevotella copri	Sphingomonas yabuuchiae
 bsdb:256/5/1_gastric-cancer:early-stage-peritumor_vs_early-stage-normal_DOWN	NA	Sphingomonas yabuuchiae
 bsdb:256/6/1_gastric-cancer:late-stage-tumor_vs_late-stage-normal_UP	NA	Cutibacterium acnes	Streptococcus anginosus
-bsdb:256/7/1_gastric-cancer:late-stage-tumor_vs_late-stage-normal_DOWN	NA	Prevotella copri	Sphingomonas yabuuchiae
 bsdb:256/8/1_gastric-cancer:late-stage-peritumor_vs_late-stage-normal_DOWN	NA	Prevotella copri
 bsdb:256/11/2_gastric-cancer:tumor-HP+_vs_tumor-HP-_DOWN	NA	Azotobacter group
 bsdb:259/1/1_atopic-eczema:emollient-use_vs_no-emollient-use_UP	NA	Streptococcus salivarius
@@ -426,6 +425,7 @@ bsdb:300/1/1_graft-versus-host-disease:acute-graft--versus--host-disease_vs_non-
 bsdb:300/1/2_graft-versus-host-disease:acute-graft--versus--host-disease_vs_non--graft--versus--host-disease_DOWN	NA	Erysipelatoclostridium ramosum	Bacteroides thetaiotaomicron	Blautia luti	Butyricicoccus sp.	Blautia sp.	Dorea sp.	Ruminococcus sp.	Bacteroides ovatus	Bacteroides caccae
 bsdb:302/4/1_asthma:asthma_vs_healthy-control_UP	NA	Prevotella buccalis	Dialister invisus	Gardnerella vaginalis	Alkanindiges hongkongensis
 bsdb:302/5/1_asthma:asthma_vs_healthy-control_UP	NA	Prevotella buccalis	Gardnerella vaginalis
+bsdb:303/1/2_non-Hodgkins-lymphoma:post-chemotherapy_vs_pre-chemotherapy_DOWN	NA	Clostridiales bacterium
 bsdb:304/1/1_antimicrobial-agent:oral-intake-of-vancomycin-(directed-against-Gram-positive-bacteria)_vs_or-placebo-(microcrystalline-cellulose)_UP	NA	Anaerostipes caccae	Anaerovorax odorimutans	Blautia obeum	Coprococcus eutactus	Dorea formicigenerans	Eggerthella lenta	Faecalibacterium prausnitzii	Lachnobacterium bovis	Lachnospira pectinoschiza	Lacrimispora sphenoides	Lactiplantibacillus plantarum	Papillibacter cinnamivorans	Ruminococcus bromii	Tyzzerella nexilis	[Clostridium] cellulosi
 bsdb:306/1/1_graft-versus-host-disease:post--allogeneic-hematopoietic-stem-cell-transplant_vs_pre--allogeneic-hematopoietic-stem-cell-transplant_UP	NA	Pseudomonas putida
 bsdb:306/1/2_graft-versus-host-disease:post--allogeneic-hematopoietic-stem-cell-transplant_vs_pre--allogeneic-hematopoietic-stem-cell-transplant_DOWN	NA	Pseudomonas putida
@@ -722,10 +722,9 @@ bsdb:526/1/1_endometriosis:Endometriosis/-adenomyosis-patients_vs_Endometriosis-
 bsdb:526/2/1_endometriosis:Endometriosis/-adenomyosis-patients_vs_Patients-without-endometriosis_UP	NA	Escherichia/Shigella sp.
 bsdb:529/1/1_rheumatoid-arthritis,osteoarthritis:arthritis-patient_vs_healthy-controls_UP	NA	Veillonella dispar	Prevotella melaninogenica
 bsdb:529/1/2_rheumatoid-arthritis,osteoarthritis:arthritis-patient_vs_healthy-controls_DOWN	NA	Brevundimonas diminuta	Sphingomonas yabuuchiae
-bsdb:529/2/1_EFO:0000685:rheumatoid-arthritis_vs_Osteoarthritis_UP	NA	Haemophilus parahaemolyticus	Alloprevotella tannerae	Veillonella dispar	Haemophilus parainfluenzae	Neisseria subflava
-bsdb:529/2/2_EFO:0000685:rheumatoid-arthritis_vs_Osteoarthritis_DOWN	NA	Rothia dentocariosa	[Ruminococcus] gnavus
+bsdb:529/2/1_rheumatoid-arthritis,osteoarthritis:rheumatoid-arthritis_vs_Osteoarthritis_UP	NA	Haemophilus parahaemolyticus	Alloprevotella tannerae	Veillonella dispar	Haemophilus parainfluenzae	Neisseria subflava
+bsdb:529/2/2_rheumatoid-arthritis,osteoarthritis:rheumatoid-arthritis_vs_Osteoarthritis_DOWN	NA	Rothia dentocariosa	[Ruminococcus] gnavus
 bsdb:535/1/1_antimicrobial-agent:Antibiotic-treated_vs_Antibiotic-untreated_DOWN	NA	Bifidobacterium sp.
-bsdb:535/1/2_antimicrobial-agent:Antibiotic-treated_vs_Antibiotic-untreated_UP	NA	Lactobacillus sp.
 bsdb:536/1/1_azithromycin:The-group-given-an-azithromycin-oral-solution_vs_The-group-given-a-placebo_DOWN	NA	uncultured Bifidobacterium sp.
 bsdb:541/1/1_schizophrenia:Schizophrenic-patients-(ARSCZ,-FESCZ)_vs_Healthy-controls_UP	NA	Alkaliphilus oremlandii	Cronobacter sakazakii	Enterococcus faecium	Limosilactobacillus fermentum
 bsdb:541/1/2_schizophrenia:Schizophrenic-patients-(ARSCZ,-FESCZ)_vs_Healthy-controls_UP	NA	Veillonella atypica	Veillonella dispar	Bifidobacterium dentium	Dialister invisus	Streptococcus salivarius	Limosilactobacillus oris
@@ -899,3 +898,10 @@ bsdb:694/4/2_Gegen-Qinlian-decoction-(GQD):low-dose-GQD-(300-mg/kg)_vs_control_D
 bsdb:694/5/1_Gegen-Qinlian-decoction-(GQD):PD-1-group_vs_control_UP	NA	Eubacterium ventriosum
 bsdb:695/2/1_antimicrobial-agent:Vanc_vs_control_UP	NA	Escherichia/Shigella sp.
 bsdb:695/3/1_antimicrobial-agent:Vanc_vs_Coli_UP	NA	Escherichia/Shigella sp.
+bsdb:695/4/1_antimicrobial-agent:Coli_vs_control_UP	NA	Bacteroidaceae bacterium	Bacteroides ovatus	Bacteroides xylanisolvens	Parabacteroides sp.	uncultured prokaryote
+bsdb:695/4/2_antimicrobial-agent:Coli_vs_control_DOWN	NA	Phocaeicola massiliensis	Parabacteroides goldsteinii	uncultured bacterium BAC10G6	Phocaeicola sartorii	Bacteroides sp. CAG:633	Bacteroides sp. CAG:530	uncultured bacterium	Bacteroides oleiciplenus
+bsdb:695/5/1_antimicrobial-agent:Vanc_vs_control_UP	NA	Akkermansia muciniphila	Akkermansia muciniphila CAG:154	Bacteroides sp. 2_1_33B	Bacteroides uniformis	Parabacteroides distasonis	Prevotella rara
+bsdb:695/5/2_antimicrobial-agent:Vanc_vs_control_DOWN	NA	Bacteroides sp. CAG:927	Firmicutes bacterium ASF500	Lachnospiraceae bacterium A4	Phocaeicola massiliensis	Prevotella sp. CAG:1031	Prevotella sp. CAG:873
+bsdb:695/6/1_antimicrobial-agent:Vanc_vs_coli_UP	NA	Prevotella sp. CAG:485	Parabacteroides distasonis	Akkermansia muciniphila	Bacteroides uniformis	Akkermansia muciniphila CAG:154	Parasutterella excrementihominis
+bsdb:695/6/2_antimicrobial-agent:Vanc_vs_coli_DOWN	NA	Bacteroides sp. CAG:927	Prevotella sp. CAG:1031	Prevotella sp. CAG:873	Prevotella sp. CAG:279	Phocaeicola vulgatus	Lachnospiraceae bacterium A4	Firmicutes bacterium ASF500
+bsdb:696/2/1_Nutraceuticals:colorectal-cancer-patients-perioperative-probiotics_vs_Healthy-controls_UP	NA	Escherichia/Shigella sp.

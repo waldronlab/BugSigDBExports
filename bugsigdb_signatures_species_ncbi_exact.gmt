@@ -1,4 +1,4 @@
-# BugSigDB 2022-09-25, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2022-10-02, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_adenoma:conventional-adenoma-cases_vs_controls_UP	NA	57037
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	57037
 bsdb:1/6/1_adenoma:Non-advanced-conventional-adenoma-cases_vs_controls_UP	NA	57037
@@ -327,7 +327,6 @@ bsdb:256/4/1_gastric-cancer:early-stage-tumor_vs_early-stage-normal_UP	NA	1747	1
 bsdb:256/4/2_gastric-cancer:early-stage-tumor_vs_early-stage-normal_DOWN	NA	165179	172044
 bsdb:256/5/1_gastric-cancer:early-stage-peritumor_vs_early-stage-normal_DOWN	NA	172044
 bsdb:256/6/1_gastric-cancer:late-stage-tumor_vs_late-stage-normal_UP	NA	1747	1328
-bsdb:256/7/1_gastric-cancer:late-stage-tumor_vs_late-stage-normal_DOWN	NA	165179	172044
 bsdb:256/8/1_gastric-cancer:late-stage-peritumor_vs_late-stage-normal_DOWN	NA	165179
 bsdb:256/11/2_gastric-cancer:tumor-HP+_vs_tumor-HP-_DOWN	NA	351
 bsdb:259/1/1_atopic-eczema:emollient-use_vs_no-emollient-use_UP	NA	1304
@@ -426,6 +425,7 @@ bsdb:300/1/1_graft-versus-host-disease:acute-graft--versus--host-disease_vs_non-
 bsdb:300/1/2_graft-versus-host-disease:acute-graft--versus--host-disease_vs_non--graft--versus--host-disease_DOWN	NA	1547	818	89014	2049021	1955243	2040332	41978	28116	47678
 bsdb:302/4/1_asthma:asthma_vs_healthy-control_UP	NA	28127	218538	2702	208968
 bsdb:302/5/1_asthma:asthma_vs_healthy-control_UP	NA	28127	2702
+bsdb:303/1/2_non-Hodgkins-lymphoma:post-chemotherapy_vs_pre-chemotherapy_DOWN	NA	1898207
 bsdb:304/1/1_antimicrobial-agent:oral-intake-of-vancomycin-(directed-against-Gram-positive-bacteria)_vs_or-placebo-(microcrystalline-cellulose)_UP	NA	105841	109327	40520	33043	39486	84112	853	140626	28052	29370	1590	100176	40518	29361	29343
 bsdb:306/1/1_graft-versus-host-disease:post--allogeneic-hematopoietic-stem-cell-transplant_vs_pre--allogeneic-hematopoietic-stem-cell-transplant_UP	NA	303
 bsdb:306/1/2_graft-versus-host-disease:post--allogeneic-hematopoietic-stem-cell-transplant_vs_pre--allogeneic-hematopoietic-stem-cell-transplant_DOWN	NA	303
@@ -722,10 +722,9 @@ bsdb:526/1/1_endometriosis:Endometriosis/-adenomyosis-patients_vs_Endometriosis-
 bsdb:526/2/1_endometriosis:Endometriosis/-adenomyosis-patients_vs_Patients-without-endometriosis_UP	NA	1940338
 bsdb:529/1/1_rheumatoid-arthritis,osteoarthritis:arthritis-patient_vs_healthy-controls_UP	NA	39778	28132
 bsdb:529/1/2_rheumatoid-arthritis,osteoarthritis:arthritis-patient_vs_healthy-controls_DOWN	NA	293	172044
-bsdb:529/2/1_EFO:0000685:rheumatoid-arthritis_vs_Osteoarthritis_UP	NA	735	76122	39778	729	28449
-bsdb:529/2/2_EFO:0000685:rheumatoid-arthritis_vs_Osteoarthritis_DOWN	NA	2047	33038
+bsdb:529/2/1_rheumatoid-arthritis,osteoarthritis:rheumatoid-arthritis_vs_Osteoarthritis_UP	NA	735	76122	39778	729	28449
+bsdb:529/2/2_rheumatoid-arthritis,osteoarthritis:rheumatoid-arthritis_vs_Osteoarthritis_DOWN	NA	2047	33038
 bsdb:535/1/1_antimicrobial-agent:Antibiotic-treated_vs_Antibiotic-untreated_DOWN	NA	41200
-bsdb:535/1/2_antimicrobial-agent:Antibiotic-treated_vs_Antibiotic-untreated_UP	NA	1591
 bsdb:536/1/1_azithromycin:The-group-given-an-azithromycin-oral-solution_vs_The-group-given-a-placebo_DOWN	NA	165187
 bsdb:541/1/1_schizophrenia:Schizophrenic-patients-(ARSCZ,-FESCZ)_vs_Healthy-controls_UP	NA	461876	28141	1352	1613
 bsdb:541/1/2_schizophrenia:Schizophrenic-patients-(ARSCZ,-FESCZ)_vs_Healthy-controls_UP	NA	39777	39778	1689	218538	1304	1632
@@ -899,3 +898,10 @@ bsdb:694/4/2_Gegen-Qinlian-decoction-(GQD):low-dose-GQD-(300-mg/kg)_vs_control_D
 bsdb:694/5/1_Gegen-Qinlian-decoction-(GQD):PD-1-group_vs_control_UP	NA	39496
 bsdb:695/2/1_antimicrobial-agent:Vanc_vs_control_UP	NA	1940338
 bsdb:695/3/1_antimicrobial-agent:Vanc_vs_Coli_UP	NA	1940338
+bsdb:695/4/1_antimicrobial-agent:Coli_vs_control_UP	NA	2212467	28116	371601	1869337	198431
+bsdb:695/4/2_antimicrobial-agent:Coli_vs_control_DOWN	NA	204516	328812	1329522	671267	1262744	1262741	77133	626931
+bsdb:695/5/1_antimicrobial-agent:Vanc_vs_control_UP	NA	239935	1263034	469589	820	823	1676614
+bsdb:695/5/2_antimicrobial-agent:Vanc_vs_control_DOWN	NA	1262753	1378168	397291	204516	1262917	1262936
+bsdb:695/6/1_antimicrobial-agent:Vanc_vs_coli_UP	NA	1262927	823	239935	820	1263034	487175
+bsdb:695/6/2_antimicrobial-agent:Vanc_vs_coli_DOWN	NA	1262753	1262917	1262936	1262924	821	397291	1378168
+bsdb:696/2/1_Nutraceuticals:colorectal-cancer-patients-perioperative-probiotics_vs_Healthy-controls_UP	NA	1940338
