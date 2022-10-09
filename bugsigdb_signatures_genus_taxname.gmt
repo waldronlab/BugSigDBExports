@@ -1,4 +1,4 @@
-# BugSigDB 2022-10-02, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2022-10-09, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_adenoma:conventional-adenoma-cases_vs_controls_UP	NA	Actinomyces	Corynebacterium	Streptococcus	Peptoniphilus	Dorea	Phascolarctobacterium	Sutterella	Lacticaseibacillus	Bacillus
 bsdb:1/1/2_adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	Coprobacillus
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	Anaerostipes	Lacticaseibacillus
@@ -672,7 +672,8 @@ bsdb:210/1/2_food-allergy:children-with-food-sensitization_vs_healthy-controls_D
 bsdb:210/2/1_food-allergy:children-with-food-sensitization_vs_healthy-controls_UP	NA	Subdoligranulum
 bsdb:210/2/2_food-allergy:children-with-food-sensitization_vs_healthy-controls_DOWN	NA	Bacteroides	Veillonella
 bsdb:211/1/1_diet:low-fiber-(Q1-and-Q2)_vs_high-fiber-(Q3-and-Q4)_UP	NA	Actinomyces
-bsdb:212/1/1_diet:low-fiber-(Q1-and-Q2)_vs_high-fiber-(Q3-and-Q4)_UP	NA	Odoribacter
+bsdb:212/1/1_diet:low-fiber-(Q1-and-Q2)_vs_high-fiber-(Q3-and-Q4)_UP	NA	Odoribacter	Bacteroides	Actinomyces	Eubacterium
+bsdb:212/1/2_diet:low-fiber-(Q1-and-Q2)_vs_high-fiber-(Q3-and-Q4)_DOWN	NA	Lachnospira
 bsdb:213/1/1_diet:low-fiber-(Q1-and-Q2)_vs_high-fiber-(Q3-and-Q4)_UP	NA	Actinomyces	Bacteroides	Odoribacter	Amedibacillus
 bsdb:213/2/1_diet:low-fiber-from-FRUITS/VEGETABLES-(Q1-and-Q2)_vs_high-fiber-from-FRUITS/VEGETABLES-(Q3-and-Q4)_UP	NA	Actinomyces	Odoribacter	Bacteroides
 bsdb:213/3/1_diet:low-fiber-from-BEANS-(Q1-and-Q2)_vs_high-fiber-from-BEANS-(Q3-and-Q4)_UP	NA	Odoribacter	Amedibacillus
@@ -984,7 +985,6 @@ bsdb:284/1/1_chronic-kidney-disease:Chronic-kidney-disease_vs_healthy-controls_U
 bsdb:284/1/2_chronic-kidney-disease:Chronic-kidney-disease_vs_healthy-controls_DOWN	NA	Fusobacterium	Porphyromonas
 bsdb:284/2/1_chronic-kidney-disease:Chronic-kidney-disease_vs_healthy-controls_UP	NA	Actinomyces	Campylobacter	Capnocytophaga	Ligilactobacillus	Limosilactobacillus	Streptococcus
 bsdb:284/2/2_chronic-kidney-disease:Chronic-kidney-disease_vs_healthy-controls_DOWN	NA	Capnocytophaga	Haemophilus	Johnsonella	Neisseria	Oribacterium	Prevotella	Pseudoleptotrichia
-bsdb:284/3/1_chronic-kidney-disease:Chronic-kidney-disease_vs_healthy-controls_DOWN	NA	Prevotella	Johnsonella	Haemophilus	Oribacterium	Pseudoleptotrichia	Neisseria
 bsdb:284/4/1_chronic-kidney-disease:Chronic-kidney-disease_vs_healthy-controls_UP	NA	Streptococcus
 bsdb:285/1/1_multiple-sclerosis:pediatric-multiple-sclerosis_vs_healthy-controls_UP	NA	Bilophila	Bifidobacterium	Desulfovibrio	Prevotella	Catenibacterium	Phascolarctobacterium
 bsdb:285/1/2_multiple-sclerosis:pediatric-multiple-sclerosis_vs_healthy-controls_DOWN	NA	Lachnospira	Paraprevotella	Prevotella	Bacteroides	Oscillospira	Peptostreptococcus
@@ -1154,7 +1154,6 @@ bsdb:336/5/1_antimicrobial-agent:combination-of-penicillin-and-moxalactam-group-
 bsdb:336/6/1_antimicrobial-agent:combination-of-penicillin-and-moxalactam-group-(postnatal-day-7)_vs_piperacillin-tazobactam-group-(postnatal-day-7)_DOWN	NA	Clostridium
 bsdb:337/1/1_antimicrobial-agent:3-month-old-infants-exposed-to-antibiotics-in-the-second-trimester_vs_3-month-old-infants-not-exposed-to-antibiotics-during-the-second-trimester_UP	NA	Fusicatenibacter	Enterococcus
 bsdb:337/1/2_antimicrobial-agent:3-month-old-infants-exposed-to-antibiotics-in-the-second-trimester_vs_3-month-old-infants-not-exposed-to-antibiotics-during-the-second-trimester_DOWN	NA	Akkermansia	Bacteroides	Clostridium	Limosilactobacillus	Schaalia	Staphylococcus	Streptococcus	Veillonella
-bsdb:337/2/1_antimicrobial-agent:3-month-old-infants-exposed_vs_not-exposed-to-antibiotics-during-the-second-trimester_DOWN	NA	Akkermansia	Streptococcus	Bacteroides	Veillonella	Schaalia	Clostridium	Staphylococcus	Limosilactobacillus
 bsdb:337/3/1_antimicrobial-agent:12-month-old-infants-exposed-to-antibiotics-during-the-second-trimester_vs_12-month-old-infants-not-exposed-to-antibiotics-during-the-second-trimester_UP	NA	Clostridium	Veillonella
 bsdb:337/3/2_antimicrobial-agent:12-month-old-infants-exposed-to-antibiotics-during-the-second-trimester_vs_12-month-old-infants-not-exposed-to-antibiotics-during-the-second-trimester_DOWN	NA	Akkermansia	Alistipes	Bacteroides	Blautia	Clostridium	Gemmiger	Lachnoclostridium	Veillonella
 bsdb:338/1/1_obesity:obese-children_vs_normal-weight-children_UP	NA	Faecalibacterium	Haemophilus	Lachnospira	Megamonas	Phascolarctobacterium
@@ -1231,12 +1230,10 @@ bsdb:358/1/1_cervical-glandular-intraepithelial-neoplasia,cervical-cancer:CIN2/3
 bsdb:360/1/1_air-pollution:mice-exposed-to-MVE_vs_mice-exposed-to-Filtered-Air_UP	NA	Turicibacter	Clostridium
 bsdb:360/1/2_air-pollution:mice-exposed-to-MVE_vs_mice-exposed-to-Filtered-Air_DOWN	NA	Oscillospira	Lactobacillus
 bsdb:360/2/2_air-pollution:mice-exposed-to-WS_vs_mice-exposed-to-Filtered-Air_DOWN	NA	Oscillospira	Clostridium	Lactobacillus
-bsdb:361/1/1_air-pollution:male-mice-exposed-to-cigarette-smoke_vs_control_UP	NA	Akkermansia
-bsdb:361/1/2_air-pollution:male-mice-exposed-to-cigarette-smoke_vs_control_DOWN	NA	Alistipes
-bsdb:361/2/1_air-pollution:female-mice-exposed-to-cigarette-smoke_vs_control_UP	NA	Bacteroides
-bsdb:361/2/2_air-pollution:female-mice-exposed-to-cigarette-smoke_vs_control_DOWN	NA	Heliobacterium	Muribaculum	Odoribacter
-bsdb:361/3/1_air-pollution:ovariectomized-female-mice-exposed-to-cigarette-smoke_vs_control_UP	NA	Rikenella	Butyrivibrio
-bsdb:361/4/1_air-pollution:mice-exposed-to-smoke_vs_control_UP	NA	Bacteroides	Akkermansia	Oscillibacter
+bsdb:361/1/1_air-pollution:male-mice-exposed-to-cigarette-smoke_vs_all-other-mice_UP	NA	Akkermansia
+bsdb:361/2/1_air-pollution:female-mice-exposed-to-cigarette-smoke_vs_all-other-mice_UP	NA	Bacteroides
+bsdb:361/3/1_air-pollution:ovariectomized-female-mice-exposed-to-cigarette-smoke_vs_all-other-mice_UP	NA	Butyrivibrio	Rikenella
+bsdb:361/4/1_air-pollution:mice-exposed-to-smoke_vs_control_UP	NA	Akkermansia	Bacteroides	Oscillibacter
 bsdb:361/4/2_air-pollution:mice-exposed-to-smoke_vs_control_DOWN	NA	Alistipes
 bsdb:363/1/1_smoking-behavior:current-smokers_vs_never-smokers_UP	NA	Rothia	Streptococcus	Atopobium	Megasphaera	Corynebacterium	Paludibacter	Anaerovorax	Tannerella	Filifactor	Mycoplasma
 bsdb:363/1/2_smoking-behavior:current-smokers_vs_never-smokers_DOWN	NA	Peptococcus	Capnocytophaga	Neisseria	Cardiobacterium	Lautropia	Peptostreptococcus	Catonella	Fusobacterium	Alloprevotella	Porphyromonas	Lachnoanaerobaculum	Leptotrichia	Oribacterium	Eubacterium	Campylobacter	Solobacterium	Haemophilus	Stomatobaculum	Gemella
@@ -1657,7 +1654,6 @@ bsdb:495/1/1_type-II-diabetes-mellitus:Individuals-diagnosed-with-Type-2-Diabete
 bsdb:495/1/2_type-II-diabetes-mellitus:Individuals-diagnosed-with-Type-2-Diabetes-Mellitus_vs_Healthy-controls_DOWN	NA	Bacteroides	Paraprevotella
 bsdb:495/2/1_prediabetes-syndrome:Individuals-with-Prediabetes-(PreDM)_vs_Healthy-controls_UP	NA	Megasphaera	Haemophilus
 bsdb:495/2/2_prediabetes-syndrome:Individuals-with-Prediabetes-(PreDM)_vs_Healthy-controls_DOWN	NA	Helicobacter
-bsdb:495/3/1_type-II-diabetes-mellitus:Individuals-diagnosed-with-Type-2-Diabetes-Mellitus_vs_Individuals-with-Prediabetes-(PreDM)_DOWN	NA	Bacteroides
 bsdb:496/1/1_COVID-19:COVID-19-patients_vs_Healthy-controls_UP	NA	Actinomyces	Allobaculum	Anaerococcus	Atopobium	Bifidobacterium	Bulleidia	Clostridium	Corynebacterium	Eggerthella	Enterococcus	Escherichia	Helicobacter	Lactobacillus	Moryella	Oribacterium	Proteus	Rothia	Scardovia	Shuttleworthia	Streptococcus	Veillonella
 bsdb:496/1/2_COVID-19:COVID-19-patients_vs_Healthy-controls_DOWN	NA	Alistipes	Anaerostipes	Burkholderia	Butyricimonas	Clostridium	Comamonas	Coprococcus	Cupriavidus	Dorea	Faecalibacterium	Holdemania	Lachnospira	Neisseria	Odoribacter	Oscillospira	Parabacteroides	Prevotella	Ralstonia	Roseburia	Ruminococcus	Sutterella	Victivallis	Yersinia
 bsdb:496/2/1_COVID-19:COVID-19-patients_vs_Seasonal-flu-patients_UP	NA	Escherichia	Bifidobacterium	Clostridium	Streptococcus	Parabacteroides	Veillonella	Sutterella	Fusobacterium
@@ -1994,7 +1990,6 @@ bsdb:644/9/1_colorectal-cancer:carcinoma-adjacent_vs_colorectal-adenoma_UP	NA	Ba
 bsdb:646/1/1_Colorectal-adenoma:Adenoma_vs_Non-Adenoma_UP	NA	Mogibacterium	Sutterella	Bilophila
 bsdb:646/1/2_Colorectal-adenoma:Adenoma_vs_Non-Adenoma_DOWN	NA	Clostridium	Veillonella	Haemophilus
 bsdb:647/1/1_Ethnic-group:Black-Women_vs_White-Women_UP	NA	Bacteroides
-bsdb:647/1/2_Ethnic-group:Black-Women_vs_White-Women_UP	NA	Bacteroides
 bsdb:648/1/1_Ethnic-group:Gut-microbiome-of-African-American-children-(AA)_vs_Gut-microbiome-of-European-American-children-(EA)_UP	NA	Anaerotruncus	Desulfovibrio	Marvinbryantia	Oxalobacter	Prevotella	Senegalimassilia	Slackia
 bsdb:648/2/1_Ethnic-group:Oral-microbiota-of-African-American-children-(AA)_vs_Oral-microbiota-of-European-American-children-(EA)_UP	NA	Streptococcus
 bsdb:648/2/2_Ethnic-group:Oral-microbiota-of-African-American-children-(AA)_vs_Oral-microbiota-of-European-American-children-(EA)_DOWN	NA	Butyrivibrio	Capnocytophaga	Fusobacterium	Haemophilus	Prevotella
@@ -2141,3 +2136,10 @@ bsdb:696/2/1_Nutraceuticals:colorectal-cancer-patients-perioperative-probiotics_
 bsdb:696/2/2_Nutraceuticals:colorectal-cancer-patients-perioperative-probiotics_vs_Healthy-controls_DOWN	NA	Acidovorax	Acinetobacter	Brevundimonas	Buttiauxella	Caulobacter	Enhydrobacter	Epilithonimonas	Flavobacterium	Janthinobacterium	Nesterenkonia	Pedobacter	Propionibacterium	Pseudomonas	Psychrobacter	Rahnella	Sphingobacterium	Sphingomonas
 bsdb:696/3/1_Nutraceuticals:colorectal-cancer-patients-perioperative-placebo_vs_Healthy-controls_UP	NA	Enterococcus	Peptostreptococcus	Fusobacterium
 bsdb:696/3/2_Nutraceuticals:colorectal-cancer-patients-perioperative-placebo_vs_Healthy-controls_DOWN	NA	Epilithonimonas	Flavobacterium	Pedobacter	Sphingobacterium	Caulobacter	Brevundimonas	Sphingomonas	Acidovorax	Janthinobacterium	Buttiauxella	Rahnella	Acinetobacter	Enhydrobacter	Psychrobacter	Pseudomonas	Nevskia	Stenotrophomonas	Rhodococcus	Nesterenkonia	Propionibacterium
+bsdb:696/4/1_Nutraceuticals:colorectal-cancer-patients-perioperative-probiotics_vs_colorectal-cancer-patients-perioperative-placebo_UP	NA	Rhizobium	Enterococcus
+bsdb:696/4/2_Nutraceuticals:colorectal-cancer-patients-perioperative-probiotics_vs_colorectal-cancer-patients-perioperative-placebo_DOWN	NA	Pseudomonas
+bsdb:696/5/1_Nutraceuticals:colorectal-cancer-patients-perioperative-probiotics_vs_colorectal-cancer-patients-perioperative-placebo_UP	NA	Rhizobium	Enterococcus
+bsdb:696/5/2_Nutraceuticals:colorectal-cancer-patients-perioperative-probiotics_vs_colorectal-cancer-patients-perioperative-placebo_UP	NA	Rhizobium	Enterococcus
+bsdb:696/5/3_Nutraceuticals:colorectal-cancer-patients-perioperative-probiotics_vs_colorectal-cancer-patients-perioperative-placebo_DOWN	NA	Fusobacterium	Gemella	Peptostreptococcus	Anaerosporobacter
+bsdb:696/6/1_Nutraceuticals:colorectal-cancer-patients-perioperative-placebo_vs_Healthy-controls_UP	NA	Fusobacterium	Gemella	Peptostreptococcus	Anaerosporobacter
+bsdb:696/6/2_Nutraceuticals:colorectal-cancer-patients-perioperative-placebo_vs_Healthy-controls_DOWN	NA	Pseudomonas

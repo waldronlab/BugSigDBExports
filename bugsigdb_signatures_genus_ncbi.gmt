@@ -1,4 +1,4 @@
-# BugSigDB 2022-10-02, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2022-10-09, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_adenoma:conventional-adenoma-cases_vs_controls_UP	NA	1654	1716	1301	162289	189330	33024	40544	1386
 bsdb:1/1/2_adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	100883
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	207244
@@ -592,7 +592,8 @@ bsdb:210/1/2_food-allergy:children-with-food-sensitization_vs_healthy-controls_D
 bsdb:210/2/1_food-allergy:children-with-food-sensitization_vs_healthy-controls_UP	NA	292632
 bsdb:210/2/2_food-allergy:children-with-food-sensitization_vs_healthy-controls_DOWN	NA	816	29465
 bsdb:211/1/1_diet:low-fiber-(Q1-and-Q2)_vs_high-fiber-(Q3-and-Q4)_UP	NA	1654
-bsdb:212/1/1_diet:low-fiber-(Q1-and-Q2)_vs_high-fiber-(Q3-and-Q4)_UP	NA	283168
+bsdb:212/1/1_diet:low-fiber-(Q1-and-Q2)_vs_high-fiber-(Q3-and-Q4)_UP	NA	283168	1654
+bsdb:212/1/2_diet:low-fiber-(Q1-and-Q2)_vs_high-fiber-(Q3-and-Q4)_DOWN	NA	28050
 bsdb:213/1/1_diet:low-fiber-(Q1-and-Q2)_vs_high-fiber-(Q3-and-Q4)_UP	NA	1654	283168
 bsdb:213/2/1_diet:low-fiber-from-FRUITS/VEGETABLES-(Q1-and-Q2)_vs_high-fiber-from-FRUITS/VEGETABLES-(Q3-and-Q4)_UP	NA	1654	283168
 bsdb:213/3/1_diet:low-fiber-from-BEANS-(Q1-and-Q2)_vs_high-fiber-from-BEANS-(Q3-and-Q4)_UP	NA	283168
@@ -986,7 +987,6 @@ bsdb:336/5/1_antimicrobial-agent:combination-of-penicillin-and-moxalactam-group-
 bsdb:336/6/1_antimicrobial-agent:combination-of-penicillin-and-moxalactam-group-(postnatal-day-7)_vs_piperacillin-tazobactam-group-(postnatal-day-7)_DOWN	NA	1485
 bsdb:337/1/1_antimicrobial-agent:3-month-old-infants-exposed-to-antibiotics-in-the-second-trimester_vs_3-month-old-infants-not-exposed-to-antibiotics-during-the-second-trimester_UP	NA	1407607	1350
 bsdb:337/1/2_antimicrobial-agent:3-month-old-infants-exposed-to-antibiotics-in-the-second-trimester_vs_3-month-old-infants-not-exposed-to-antibiotics-during-the-second-trimester_DOWN	NA	816	1279	1301	29465
-bsdb:337/2/1_antimicrobial-agent:3-month-old-infants-exposed_vs_not-exposed-to-antibiotics-during-the-second-trimester_DOWN	NA	1301	816	29465	1279
 bsdb:337/3/1_antimicrobial-agent:12-month-old-infants-exposed-to-antibiotics-during-the-second-trimester_vs_12-month-old-infants-not-exposed-to-antibiotics-during-the-second-trimester_UP	NA	1485	29465
 bsdb:337/3/2_antimicrobial-agent:12-month-old-infants-exposed-to-antibiotics-during-the-second-trimester_vs_12-month-old-infants-not-exposed-to-antibiotics-during-the-second-trimester_DOWN	NA	239934	239759	816	572511	1485	204475	1506553	29465
 bsdb:338/1/1_obesity:obese-children_vs_normal-weight-children_UP	NA	216851	724	28050	158846	33024
@@ -1043,12 +1043,10 @@ bsdb:358/1/1_cervical-glandular-intraepithelial-neoplasia,cervical-cancer:CIN2/3
 bsdb:360/1/1_air-pollution:mice-exposed-to-MVE_vs_mice-exposed-to-Filtered-Air_UP	NA	191303	1485
 bsdb:360/1/2_air-pollution:mice-exposed-to-MVE_vs_mice-exposed-to-Filtered-Air_DOWN	NA	119852	1578
 bsdb:360/2/2_air-pollution:mice-exposed-to-WS_vs_mice-exposed-to-Filtered-Air_DOWN	NA	119852	1485	1578
-bsdb:361/1/1_air-pollution:male-mice-exposed-to-cigarette-smoke_vs_control_UP	NA	239934
-bsdb:361/1/2_air-pollution:male-mice-exposed-to-cigarette-smoke_vs_control_DOWN	NA	239759
-bsdb:361/2/1_air-pollution:female-mice-exposed-to-cigarette-smoke_vs_control_UP	NA	816
-bsdb:361/2/2_air-pollution:female-mice-exposed-to-cigarette-smoke_vs_control_DOWN	NA	2697	1918540	283168
-bsdb:361/3/1_air-pollution:ovariectomized-female-mice-exposed-to-cigarette-smoke_vs_control_UP	NA	28138	830
-bsdb:361/4/1_air-pollution:mice-exposed-to-smoke_vs_control_UP	NA	816	459786
+bsdb:361/1/1_air-pollution:male-mice-exposed-to-cigarette-smoke_vs_all-other-mice_UP	NA	239934
+bsdb:361/2/1_air-pollution:female-mice-exposed-to-cigarette-smoke_vs_all-other-mice_UP	NA	816
+bsdb:361/3/1_air-pollution:ovariectomized-female-mice-exposed-to-cigarette-smoke_vs_all-other-mice_UP	NA	830	28138
+bsdb:361/4/1_air-pollution:mice-exposed-to-smoke_vs_control_UP	NA	816	459786	239934
 bsdb:361/4/2_air-pollution:mice-exposed-to-smoke_vs_control_DOWN	NA	239759
 bsdb:363/1/1_smoking-behavior:current-smokers_vs_never-smokers_UP	NA	32207	1301	1380	906	1716	346096	109326	195950	44259	2093
 bsdb:363/1/2_smoking-behavior:current-smokers_vs_never-smokers_DOWN	NA	2740	1016	482	2717	47670	1257	43996	848	1283313	836	1164882	32067	265975	1730	194	123375	724	1213720	1378
@@ -1404,7 +1402,6 @@ bsdb:495/1/1_type-II-diabetes-mellitus:Individuals-diagnosed-with-Type-2-Diabete
 bsdb:495/1/2_type-II-diabetes-mellitus:Individuals-diagnosed-with-Type-2-Diabetes-Mellitus_vs_Healthy-controls_DOWN	NA	816	577309
 bsdb:495/2/1_prediabetes-syndrome:Individuals-with-Prediabetes-(PreDM)_vs_Healthy-controls_UP	NA	906	724
 bsdb:495/2/2_prediabetes-syndrome:Individuals-with-Prediabetes-(PreDM)_vs_Healthy-controls_DOWN	NA	209
-bsdb:495/3/1_type-II-diabetes-mellitus:Individuals-diagnosed-with-Type-2-Diabetes-Mellitus_vs_Individuals-with-Prediabetes-(PreDM)_DOWN	NA	816
 bsdb:496/1/1_COVID-19:COVID-19-patients_vs_Healthy-controls_UP	NA	1654	174708	165779	1380	1678	118747	1485	1716	84111	1350	561	209	1578	437755	265975	583	32207	196081	177971	1301	29465
 bsdb:496/1/2_COVID-19:COVID-19-patients_vs_Healthy-controls_DOWN	NA	239759	207244	32008	574697	1485	283	33042	106589	189330	216851	61170	28050	482	283168	119852	375288	838	48736	841	1263	40544	172900	629
 bsdb:496/2/1_COVID-19:COVID-19-patients_vs_Seasonal-flu-patients_UP	NA	561	1678	1485	1301	375288	29465	40544	848
@@ -1655,7 +1652,6 @@ bsdb:644/9/1_colorectal-cancer:carcinoma-adjacent_vs_colorectal-adenoma_UP	NA	11
 bsdb:646/1/1_Colorectal-adenoma:Adenoma_vs_Non-Adenoma_UP	NA	86331	40544	35832
 bsdb:646/1/2_Colorectal-adenoma:Adenoma_vs_Non-Adenoma_DOWN	NA	1485	29465	724
 bsdb:647/1/1_Ethnic-group:Black-Women_vs_White-Women_UP	NA	816
-bsdb:647/1/2_Ethnic-group:Black-Women_vs_White-Women_UP	NA	816
 bsdb:648/1/1_Ethnic-group:Gut-microbiome-of-African-American-children-(AA)_vs_Gut-microbiome-of-European-American-children-(EA)_UP	NA	244127	872	248744	846	838	1473205	84108
 bsdb:648/2/1_Ethnic-group:Oral-microbiota-of-African-American-children-(AA)_vs_Oral-microbiota-of-European-American-children-(EA)_UP	NA	1301
 bsdb:648/2/2_Ethnic-group:Oral-microbiota-of-African-American-children-(AA)_vs_Oral-microbiota-of-European-American-children-(EA)_DOWN	NA	830	1016	848	724	838
@@ -1779,3 +1775,10 @@ bsdb:696/2/1_Nutraceuticals:colorectal-cancer-patients-perioperative-probiotics_
 bsdb:696/2/2_Nutraceuticals:colorectal-cancer-patients-perioperative-probiotics_vs_Healthy-controls_DOWN	NA	12916	469	41275	82976	75	212791	2782229	237	29580	57494	84567	1743	286	497	34037	28453	13687
 bsdb:696/3/1_Nutraceuticals:colorectal-cancer-patients-perioperative-placebo_vs_Healthy-controls_UP	NA	1350	1257	848
 bsdb:696/3/2_Nutraceuticals:colorectal-cancer-patients-perioperative-placebo_vs_Healthy-controls_DOWN	NA	2782229	237	84567	28453	75	41275	13687	12916	29580	82976	34037	469	212791	497	286	64001	40323	1827	57494	1743
+bsdb:696/4/1_Nutraceuticals:colorectal-cancer-patients-perioperative-probiotics_vs_colorectal-cancer-patients-perioperative-placebo_UP	NA	379	1350
+bsdb:696/4/2_Nutraceuticals:colorectal-cancer-patients-perioperative-probiotics_vs_colorectal-cancer-patients-perioperative-placebo_DOWN	NA	286
+bsdb:696/5/1_Nutraceuticals:colorectal-cancer-patients-perioperative-probiotics_vs_colorectal-cancer-patients-perioperative-placebo_UP	NA	379	1350
+bsdb:696/5/2_Nutraceuticals:colorectal-cancer-patients-perioperative-probiotics_vs_colorectal-cancer-patients-perioperative-placebo_UP	NA	379	1350
+bsdb:696/5/3_Nutraceuticals:colorectal-cancer-patients-perioperative-probiotics_vs_colorectal-cancer-patients-perioperative-placebo_DOWN	NA	848	1378	1257	653683
+bsdb:696/6/1_Nutraceuticals:colorectal-cancer-patients-perioperative-placebo_vs_Healthy-controls_UP	NA	848	1378	1257	653683
+bsdb:696/6/2_Nutraceuticals:colorectal-cancer-patients-perioperative-placebo_vs_Healthy-controls_DOWN	NA	286
