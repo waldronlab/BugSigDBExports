@@ -1,4 +1,4 @@
-# BugSigDB 2022-10-16, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2022-10-23, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_adenoma:conventional-adenoma-cases_vs_controls_UP	NA	Actinomyces	Corynebacterium	Streptococcus	Peptoniphilus	Dorea	Phascolarctobacterium	Sutterella	Bacillus
 bsdb:1/1/2_adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	Coprobacillus
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	Anaerostipes
@@ -172,9 +172,9 @@ bsdb:61/1/1_obesity:infants-of-overweight-mothers_vs_infants-of-normal-weight-mo
 bsdb:61/3/1_obesity:infants-of-excessive-maternal-weight-gain-mothers_vs_infants-of-normal-maternal-weight-gain-mothers-at-age-1-month_DOWN	NA	Bacteroides	Prevotella
 bsdb:62/1/1_cesarean-section:C-section_vs_vaginal-delivery_DOWN	NA	Lactobacillus
 bsdb:63/2/1_cesarean-section:C-section-delivery_vs_vaginal-delivery-after-3-months-of-delivery_DOWN	NA	Lactobacillus
-bsdb:64/1/2_periodontitis:periodnotitis_vs_No-Periodontitis-within-negative-diabetic-background-only_DOWN	NA	Aggregatibacter	Leptotrichia
-bsdb:64/4/1_periodontitis:periodnotitis_vs_No-Periodontitis-within-positive-diabetic-background-only_UP	NA	Leptotrichia
-bsdb:64/4/2_periodontitis:periodnotitis_vs_No-Periodontitis-within-positive-diabetic-background-only_DOWN	NA	Veillonella	Neisseria
+bsdb:64/1/2_periodontitis:periodontitis_vs_No-Periodontitis-within-negative-diabetic-background-only_DOWN	NA	Aggregatibacter	Leptotrichia
+bsdb:64/4/1_periodontitis:periodontitis_vs_No-Periodontitis-within-positive-diabetic-background-only_UP	NA	Leptotrichia
+bsdb:64/4/2_periodontitis:periodontitis_vs_No-Periodontitis-within-positive-diabetic-background-only_DOWN	NA	Veillonella	Neisseria
 bsdb:65/1/1_type-II-diabetes-mellitus:Diabetic_vs_Non-diabetic_UP	NA	Aggregatibacter	Neisseria	Gemella	Eikenella	Actinomyces	Capnocytophaga	Fusobacterium	Veillonella	Streptococcus	Selenomonas
 bsdb:65/1/2_type-II-diabetes-mellitus:Diabetic_vs_Non-diabetic_DOWN	NA	Eubacterium	Filifactor	Porphyromonas	Tannerella	Treponema
 bsdb:66/1/1_neonatal-jaundice:cesarean-infants-with-jaundice_vs_control_UP	NA	Cupriavidus
@@ -306,10 +306,10 @@ bsdb:115/1/2_unipolar-depression:MDD_vs_controls_DOWN	NA	Bacteroides	Odoribacter
 bsdb:115/2/1_bipolar-disorder:bipolar_vs_healthy-controls_DOWN	NA	Bacteroides	Odoribacter	Tannerella
 bsdb:116/1/1_type-I-diabetes-mellitus:children-with-type-1-diabetes_vs_healthy-controls_UP	NA	Clostridium	Bacteroides	Veillonella
 bsdb:116/1/2_type-I-diabetes-mellitus:children-with-type-1-diabetes_vs_healthy-controls_DOWN	NA	Prevotella	Bifidobacterium	Lactobacillus
-bsdb:117/1/1_pneumonia:elderly-pneumonia-patients_vs_elderly-controls_UP	NA	Rothia	Lactobacillus
-bsdb:117/1/2_pneumonia:elderly-pneumonia-patients_vs_elderly-controls_DOWN	NA	Parascardovia	Leptotrichia
-bsdb:117/2/1_pneumonia:adult-pneumonia-patients_vs_adult-controls_UP	NA	Rothia	Lactobacillus
-bsdb:117/2/2_pneumonia:adult-pneumonia-patients_vs_adult-controls_DOWN	NA	Leptotrichia	Haemophilus	Neisseria
+bsdb:117/1/1_pneumonia:elderly-pneumonia-patients_vs_elderly-controls_UP	NA	Lactobacillus	Rothia
+bsdb:117/1/2_pneumonia:elderly-pneumonia-patients_vs_elderly-controls_DOWN	NA	Leptotrichia	Parascardovia
+bsdb:117/2/1_pneumonia:adult-pneumonia-patients_vs_adult-controls_UP	NA	Lactobacillus	Rothia
+bsdb:117/2/2_pneumonia:adult-pneumonia-patients_vs_adult-controls_DOWN	NA	Haemophilus	Leptotrichia	Neisseria
 bsdb:118/1/1_cesarean-section:cesarean-born_vs_vaginal-born-children_UP	NA	Klebsiella	Lactobacillus
 bsdb:118/1/2_cesarean-section:cesarean-born_vs_vaginal-born-children_DOWN	NA	Bifidobacterium
 bsdb:118/2/1_cesarean-section:cesarean-born-and-mixed-fed_vs_cesarean-born-and-breastfed_UP	NA	Veillonella	Enterococcus
@@ -528,8 +528,6 @@ bsdb:179/1/1_esophageal-squamous-cell-carcinoma:Oesophageal-cancer_vs_Healthy-co
 bsdb:179/1/2_esophageal-squamous-cell-carcinoma:Oesophageal-cancer_vs_Healthy-controls_DOWN	NA	Fusobacterium	Porphyromonas
 bsdb:179/2/1_esophageal-squamous-cell-carcinoma:Oesophageal-cancer_vs_Healthy-controls_UP	NA	Atopobium	Actinomyces
 bsdb:179/2/2_esophageal-squamous-cell-carcinoma:Oesophageal-cancer_vs_Healthy-controls_DOWN	NA	Fusobacterium	Porphyromonas
-bsdb:181/1/1_pancreatic-carcinoma:pancreatic-cancer_vs_controls_UP	NA	Alloprevotella
-bsdb:181/1/2_pancreatic-carcinoma:pancreatic-cancer_vs_controls_DOWN	NA	Leptotrichia
 bsdb:184/1/1_prostate-cancer:prostate-cancer-patients_vs_controls_UP	NA	Bacteroides
 bsdb:184/2/1_prostate-cancer:prostate-cancer-patients_vs_controls_DOWN	NA	Lachnospira	Acetanaerobacterium	Faecalibacterium
 bsdb:185/1/1_gastric-cancer:gastric-cancer_vs_controls_UP	NA	Escherichia	Shigella	Clostridium	Veillonella
@@ -561,7 +559,7 @@ bsdb:195/2/2_chronic-hepatitis-b-virus-infection:chronic-hepatitis-B_vs_liver-ci
 bsdb:196/1/1_Henoch-Schoenlein-purpura:Henoch-Schönlein-Purpura_vs_controls_UP	NA	Veillonella	Enterococcus	Megamonas	Parabacteroides
 bsdb:196/1/2_Henoch-Schoenlein-purpura:Henoch-Schönlein-Purpura_vs_controls_DOWN	NA	Dialister	Haemophilus	Klebsiella	Lachnospira	Parasutterella	Roseburia	Ruminiclostridium	Ruminococcus	Streptococcus
 bsdb:197/1/1_asthma:severe-asthma_vs_non-asthma_UP	NA	Alistipes	Anaerostipes	Bacteroides	Capnocytophaga	Eisenbergiella	Eubacterium	Faecalibacterium	Flavonifractor	Leucosporidium	Odoribacter	Oscillibacter	Parabacteroides	Pneumocystis	Rhodotorula	Romboutsia	Roseburia	Ruminococcus
-bsdb:197/1/2_asthma:severe-asthma_vs_non-asthma_DOWN	NA	Proteus	Sterigmatomyces	Cryptococcus	Davidiella
+bsdb:197/1/2_asthma:severe-asthma_vs_non-asthma_DOWN	NA	Cryptococcus	Davidiella	Proteus	Sterigmatomyces
 bsdb:198/1/1_Henoch-Schoenlein-purpura:Henoch-Schönlein-Purpura_vs_controls_UP	NA	Neisseria	Veillonella	Prevotella
 bsdb:198/1/2_Henoch-Schoenlein-purpura:Henoch-Schönlein-Purpura_vs_controls_DOWN	NA	Haemophilus	Acinetobacter
 bsdb:199/1/2_ovarian-cancer:ovarian-cancer_vs_controls_DOWN	NA	Paenibacillus	Haloferax
@@ -1525,6 +1523,7 @@ bsdb:558/1/1_antimicrobial-agent:received-oral-i.v.-administered-GSK1322322-(end
 bsdb:558/1/2_antimicrobial-agent:received-oral-i.v.-administered-GSK1322322-(end-of-study)_vs_received-oral-i.v.-administered-GSK1322322-(prestudy)_DOWN	NA	Anaerostipes	Blautia	Butyricimonas	Faecalibacterium	Odoribacter
 bsdb:558/2/2_antimicrobial-agent:received-oral-i.v.-administered-GSK1322322-(end-of-study)_vs_received-oral-i.v.-administered-GSK1322322-(prestudy)_DOWN	NA	Parabacteroides	Odoribacter
 bsdb:560/3/1_Parkinson's-disease:Men-with-Parkinson's-Disease._vs_Healthy-men-without-Parkinson's-Disease._UP	NA	Eubacterium
+bsdb:561/1/1_Parkinson's-disease:Participants-with-early-stage-Parkinson's-Disease._vs_Healthy-age-sex-matched-controls-without-Parkinson's-disease._UP	NA	Cellulosimicrobium	Methylobacterium	Rhodococcus	Brucella
 bsdb:561/1/2_Parkinson's-disease:Participants-with-early-stage-Parkinson's-Disease._vs_Healthy-age-sex-matched-controls-without-Parkinson's-disease._DOWN	NA	Buchnera	Candidatus Azobacteroides
 bsdb:562/1/1_healthy:healthy-adult-vagina-50%-up_vs_NA_NA	NA	Lactobacillus
 bsdb:562/2/1_healthy:healthy-adult-skin-50%-up_vs_none_NA	NA	Staphylococcus	Cutibacterium	Corynebacterium	Streptococcus	Micrococcus	Finegoldia	Moraxella	Rothia
@@ -1727,8 +1726,8 @@ bsdb:686/2/2_colorectal-cancer:adenomas_vs_controls_DOWN	NA	Arachidicoccus	Berna
 bsdb:686/3/1_colorectal-cancer:CRC_vs_adenomas_UP	NA	Aeromonas	Buchnera	Candidatus Hamiltonella	Candidatus Riesia	Citrobacter	Coxiella	Cronobacter	Desulfovibrio	Dickeya	Edwardsiella	Enterobacter	Erwinia	Escherichia	Fusobacterium	Halioglobus	Klebsiella	Kosakonia	Meiothermus	Morganella	Pantoea	Photorhabdus	Raoultella	Salmonella	Shewanella	Shigella	Sodalis	Sphingomonas	Thioploca	Vibrio	Yersinia	Syntrophus
 bsdb:686/3/2_colorectal-cancer:CRC_vs_adenomas_DOWN	NA	Desulfuromonas	Sulfurihydrogenibium	Caldithrix	Pectobacterium	Pedobacter	Mucilaginibacter	Clostridioides	Paeniclostridium	Anaerostipes	Roseburia
 bsdb:687/1/1_Colorectal-adenocarcinoma:colorectal-cancer-patients_vs_healthy-controls_UP	NA	Bacteroides	Bifidobacterium	Shigella	Escherichia
-bsdb:687/1/2_Colorectal-adenocarcinoma:colorectal-cancer-patients_vs_healthy-controls_DOWN	NA	Collinsella	Coprobacillus	Faecalibacterium	Romboutsia	Streptococcus
-bsdb:687/2/1_Colorectal-adenocarcinoma:colorectal-cancer-patients-with-KRAS-mutation_vs_colorectal-cancer-patients-without-KRAS-mutation_UP	NA	Butyricicoccus	Caproiciproducens	Faecalibacterium	Harryflintia	Lachnoclostridium	Megamonas	Novosphingobium	Phascolarctobacterium	Roseburia	Gracilibacter
+bsdb:687/1/2_Colorectal-adenocarcinoma:colorectal-cancer-patients_vs_healthy-controls_DOWN	NA	Collinsella	Coprobacillus	Faecalibacterium	Romboutsia	Streptococcus	Agathobacter
+bsdb:687/2/1_Colorectal-adenocarcinoma:colorectal-cancer-patients-with-KRAS-mutation_vs_colorectal-cancer-patients-without-KRAS-mutation_UP	NA	Butyricicoccus	Caproiciproducens	Faecalibacterium	Gracilibacter	Harryflintia	Lachnoclostridium	Megamonas	Novosphingobium	Phascolarctobacterium	Roseburia	Coprococcus	Anaerobutyricum
 bsdb:687/2/2_Colorectal-adenocarcinoma:colorectal-cancer-patients-with-KRAS-mutation_vs_colorectal-cancer-patients-without-KRAS-mutation_DOWN	NA	Bifidobacterium
 bsdb:687/4/1_Colorectal-adenocarcinoma:colorectal-cancer-patients-with-APC-mutation_vs_colorectal-cancer-patients-without-APC-mutation_UP	NA	Actinomyces
 bsdb:687/4/2_Colorectal-adenocarcinoma:colorectal-cancer-patients-with-APC-mutation_vs_colorectal-cancer-patients-without-APC-mutation_UP	NA	Actinomyces
@@ -1786,3 +1785,9 @@ bsdb:697/1/2_NA:Responders-to-Immune-checkpoint-inhibitors_vs_Non-responders-to-
 bsdb:697/2/1_NA:Disease-control-with-Immune-checkpoint-inhibitors_vs_Disease-control-with-Immune-checkpoint-inhibitors_UP	NA	Bifidobacterium	Megasphaera	Alloprevotella	Blautia	Acidaminococcus	Succinatimonas	Lachnospira	Tyzzerella	Coprococcus
 bsdb:697/2/2_NA:Disease-control-with-Immune-checkpoint-inhibitors_vs_Disease-control-with-Immune-checkpoint-inhibitors_DOWN	NA	Faecalibacterium
 bsdb:697/3/1_NA:Responders-to-Immune-checkpoint-inhibitors_vs_Non-responders-to-Immune-checkpoint-inhibitors_DOWN	NA	Alloprevotella
+bsdb:698/1/1_NA:Patients-with-Crohn's-disease_vs_Healthy-controls_UP	NA	Abiotrophia	Escherichia	Pseudoramibacter
+bsdb:698/1/2_NA:Patients-with-Crohn's-disease_vs_Healthy-controls_DOWN	NA	Butyricicoccus	Mitsuokella	Haemophilus	Victivallis
+bsdb:698/2/1_NA:Patients-with-ulcerative-colitis_vs_Healthy-controls_UP	NA	Granulicatella	Peptostreptococcus	Schwartzia	Capnocytophaga	Escherichia	Janthinobacterium	Campylobacter	Actinomyces	Eggerthella	Corynebacterium
+bsdb:698/2/2_NA:Patients-with-ulcerative-colitis_vs_Healthy-controls_DOWN	NA	Holdemania	Lachnobacterium	Megamonas	Mitsuokella	Alistipes	Butyricimonas	Prevotella	Desulfovibrio	Oxalobacter	Pyramidobacter	Synergistes	Victivallis
+bsdb:698/3/1_NA:Patients-with-Crohn's-disease_vs_Patients-with-ulcerative-colitis_UP	NA	Pseudoramibacter	Desulfovibrio	Slackia
+bsdb:698/3/2_NA:Patients-with-Crohn's-disease_vs_Patients-with-ulcerative-colitis_DOWN	NA	Butyricicoccus	Moryella	Staphylococcus	Capnocytophaga	Haemophilus	Janthinobacterium	Cardiobacterium	Lautropia	Shewanella	Corynebacterium

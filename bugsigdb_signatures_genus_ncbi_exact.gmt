@@ -1,4 +1,4 @@
-# BugSigDB 2022-10-16, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2022-10-23, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_adenoma:conventional-adenoma-cases_vs_controls_UP	NA	1654	1716	1301	162289	189330	33024	40544	1386
 bsdb:1/1/2_adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	100883
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	207244
@@ -172,9 +172,9 @@ bsdb:61/1/1_obesity:infants-of-overweight-mothers_vs_infants-of-normal-weight-mo
 bsdb:61/3/1_obesity:infants-of-excessive-maternal-weight-gain-mothers_vs_infants-of-normal-maternal-weight-gain-mothers-at-age-1-month_DOWN	NA	816	838
 bsdb:62/1/1_cesarean-section:C-section_vs_vaginal-delivery_DOWN	NA	1578
 bsdb:63/2/1_cesarean-section:C-section-delivery_vs_vaginal-delivery-after-3-months-of-delivery_DOWN	NA	1578
-bsdb:64/1/2_periodontitis:periodnotitis_vs_No-Periodontitis-within-negative-diabetic-background-only_DOWN	NA	416916	32067
-bsdb:64/4/1_periodontitis:periodnotitis_vs_No-Periodontitis-within-positive-diabetic-background-only_UP	NA	32067
-bsdb:64/4/2_periodontitis:periodnotitis_vs_No-Periodontitis-within-positive-diabetic-background-only_DOWN	NA	29465	482
+bsdb:64/1/2_periodontitis:periodontitis_vs_No-Periodontitis-within-negative-diabetic-background-only_DOWN	NA	416916	32067
+bsdb:64/4/1_periodontitis:periodontitis_vs_No-Periodontitis-within-positive-diabetic-background-only_UP	NA	32067
+bsdb:64/4/2_periodontitis:periodontitis_vs_No-Periodontitis-within-positive-diabetic-background-only_DOWN	NA	29465	482
 bsdb:65/1/1_type-II-diabetes-mellitus:Diabetic_vs_Non-diabetic_UP	NA	416916	482	1378	538	1654	1016	848	29465	1301	970
 bsdb:65/1/2_type-II-diabetes-mellitus:Diabetic_vs_Non-diabetic_DOWN	NA	1730	44259	836	195950	157
 bsdb:66/1/1_neonatal-jaundice:cesarean-infants-with-jaundice_vs_control_UP	NA	106589
@@ -306,10 +306,10 @@ bsdb:115/1/2_unipolar-depression:MDD_vs_controls_DOWN	NA	816	283168	195950
 bsdb:115/2/1_bipolar-disorder:bipolar_vs_healthy-controls_DOWN	NA	816	283168	195950
 bsdb:116/1/1_type-I-diabetes-mellitus:children-with-type-1-diabetes_vs_healthy-controls_UP	NA	1485	816	29465
 bsdb:116/1/2_type-I-diabetes-mellitus:children-with-type-1-diabetes_vs_healthy-controls_DOWN	NA	838	1678	1578
-bsdb:117/1/1_pneumonia:elderly-pneumonia-patients_vs_elderly-controls_UP	NA	32207	1578
-bsdb:117/1/2_pneumonia:elderly-pneumonia-patients_vs_elderly-controls_DOWN	NA	196082	32067
-bsdb:117/2/1_pneumonia:adult-pneumonia-patients_vs_adult-controls_UP	NA	32207	1578
-bsdb:117/2/2_pneumonia:adult-pneumonia-patients_vs_adult-controls_DOWN	NA	32067	724	482
+bsdb:117/1/1_pneumonia:elderly-pneumonia-patients_vs_elderly-controls_UP	NA	1578	32207
+bsdb:117/1/2_pneumonia:elderly-pneumonia-patients_vs_elderly-controls_DOWN	NA	32067	196082
+bsdb:117/2/1_pneumonia:adult-pneumonia-patients_vs_adult-controls_UP	NA	1578	32207
+bsdb:117/2/2_pneumonia:adult-pneumonia-patients_vs_adult-controls_DOWN	NA	724	32067	482
 bsdb:118/1/1_cesarean-section:cesarean-born_vs_vaginal-born-children_UP	NA	570	1578
 bsdb:118/1/2_cesarean-section:cesarean-born_vs_vaginal-born-children_DOWN	NA	1678
 bsdb:118/2/1_cesarean-section:cesarean-born-and-mixed-fed_vs_cesarean-born-and-breastfed_UP	NA	29465	1350
@@ -528,8 +528,6 @@ bsdb:179/1/1_esophageal-squamous-cell-carcinoma:Oesophageal-cancer_vs_Healthy-co
 bsdb:179/1/2_esophageal-squamous-cell-carcinoma:Oesophageal-cancer_vs_Healthy-controls_DOWN	NA	848	836
 bsdb:179/2/1_esophageal-squamous-cell-carcinoma:Oesophageal-cancer_vs_Healthy-controls_UP	NA	1380	1654
 bsdb:179/2/2_esophageal-squamous-cell-carcinoma:Oesophageal-cancer_vs_Healthy-controls_DOWN	NA	848	836
-bsdb:181/1/1_pancreatic-carcinoma:pancreatic-cancer_vs_controls_UP	NA	1283313
-bsdb:181/1/2_pancreatic-carcinoma:pancreatic-cancer_vs_controls_DOWN	NA	32067
 bsdb:184/1/1_prostate-cancer:prostate-cancer-patients_vs_controls_UP	NA	816
 bsdb:184/2/1_prostate-cancer:prostate-cancer-patients_vs_controls_DOWN	NA	28050	258514	216851
 bsdb:185/1/1_gastric-cancer:gastric-cancer_vs_controls_UP	NA	561	620	1485	29465
@@ -561,7 +559,7 @@ bsdb:195/2/2_chronic-hepatitis-b-virus-infection:chronic-hepatitis-B_vs_liver-ci
 bsdb:196/1/1_Henoch-Schoenlein-purpura:Henoch-Schönlein-Purpura_vs_controls_UP	NA	29465	1350	158846	375288
 bsdb:196/1/2_Henoch-Schoenlein-purpura:Henoch-Schönlein-Purpura_vs_controls_DOWN	NA	39948	724	570	28050	577310	841	1508657	1263	1301
 bsdb:197/1/1_asthma:severe-asthma_vs_non-asthma_UP	NA	239759	207244	816	1016	1432051	1730	216851	946234	5277	283168	459786	375288	4753	5533	1501226	841	1263
-bsdb:197/1/2_asthma:severe-asthma_vs_non-asthma_DOWN	NA	583	5615	5206	237557
+bsdb:197/1/2_asthma:severe-asthma_vs_non-asthma_DOWN	NA	5206	237557	583	5615
 bsdb:198/1/1_Henoch-Schoenlein-purpura:Henoch-Schönlein-Purpura_vs_controls_UP	NA	482	29465	838
 bsdb:198/1/2_Henoch-Schoenlein-purpura:Henoch-Schönlein-Purpura_vs_controls_DOWN	NA	724	469
 bsdb:199/1/2_ovarian-cancer:ovarian-cancer_vs_controls_DOWN	NA	44249	2251
@@ -1525,6 +1523,7 @@ bsdb:558/1/1_antimicrobial-agent:received-oral-i.v.-administered-GSK1322322-(end
 bsdb:558/1/2_antimicrobial-agent:received-oral-i.v.-administered-GSK1322322-(end-of-study)_vs_received-oral-i.v.-administered-GSK1322322-(prestudy)_DOWN	NA	207244	572511	574697	216851	283168
 bsdb:558/2/2_antimicrobial-agent:received-oral-i.v.-administered-GSK1322322-(end-of-study)_vs_received-oral-i.v.-administered-GSK1322322-(prestudy)_DOWN	NA	375288	283168
 bsdb:560/3/1_Parkinson's-disease:Men-with-Parkinson's-Disease._vs_Healthy-men-without-Parkinson's-Disease._UP	NA	1730
+bsdb:561/1/1_Parkinson's-disease:Participants-with-early-stage-Parkinson's-Disease._vs_Healthy-age-sex-matched-controls-without-Parkinson's-disease._UP	NA	157920	407	1827	234
 bsdb:561/1/2_Parkinson's-disease:Participants-with-early-stage-Parkinson's-Disease._vs_Healthy-age-sex-matched-controls-without-Parkinson's-disease._DOWN	NA	32199	511434
 bsdb:562/1/1_healthy:healthy-adult-vagina-50%-up_vs_NA_NA	NA	1578
 bsdb:562/2/1_healthy:healthy-adult-skin-50%-up_vs_none_NA	NA	1279	1912216	1716	1301	1269	150022	475	32207
@@ -1727,8 +1726,8 @@ bsdb:686/2/2_colorectal-cancer:adenomas_vs_controls_DOWN	NA	1769012	1937972
 bsdb:686/3/1_colorectal-cancer:CRC_vs_adenomas_UP	NA	642	32199	568987	401618	544	776	413496	872	204037	635	547	551	561	848	1217416	570	1330547	65551	581	53335	29487	160674	590	22	620	84565	13687	40751	662	629	43773
 bsdb:686/3/2_colorectal-cancer:CRC_vs_adenomas_DOWN	NA	890	212790	187144	122277	84567	423349	1870884	1849828	207244	841
 bsdb:687/1/1_Colorectal-adenocarcinoma:colorectal-cancer-patients_vs_healthy-controls_UP	NA	816	1678	620	561
-bsdb:687/1/2_Colorectal-adenocarcinoma:colorectal-cancer-patients_vs_healthy-controls_DOWN	NA	102106	100883	216851	1501226	1301
-bsdb:687/2/1_Colorectal-adenocarcinoma:colorectal-cancer-patients-with-KRAS-mutation_vs_colorectal-cancer-patients-without-KRAS-mutation_UP	NA	580596	1738645	216851	1892380	1506553	158846	165696	33024	841	342658
+bsdb:687/1/2_Colorectal-adenocarcinoma:colorectal-cancer-patients_vs_healthy-controls_DOWN	NA	102106	100883	216851	1501226	1301	1766253
+bsdb:687/2/1_Colorectal-adenocarcinoma:colorectal-cancer-patients-with-KRAS-mutation_vs_colorectal-cancer-patients-without-KRAS-mutation_UP	NA	580596	1738645	216851	342658	1892380	1506553	158846	165696	33024	841	33042	2569097
 bsdb:687/2/2_Colorectal-adenocarcinoma:colorectal-cancer-patients-with-KRAS-mutation_vs_colorectal-cancer-patients-without-KRAS-mutation_DOWN	NA	1678
 bsdb:687/4/1_Colorectal-adenocarcinoma:colorectal-cancer-patients-with-APC-mutation_vs_colorectal-cancer-patients-without-APC-mutation_UP	NA	1654
 bsdb:687/4/2_Colorectal-adenocarcinoma:colorectal-cancer-patients-with-APC-mutation_vs_colorectal-cancer-patients-without-APC-mutation_UP	NA	1654
@@ -1786,3 +1785,9 @@ bsdb:697/1/2_NA:Responders-to-Immune-checkpoint-inhibitors_vs_Non-responders-to-
 bsdb:697/2/1_NA:Disease-control-with-Immune-checkpoint-inhibitors_vs_Disease-control-with-Immune-checkpoint-inhibitors_UP	NA	1678	906	1283313	572511	904	674963	28050	1506577	33042
 bsdb:697/2/2_NA:Disease-control-with-Immune-checkpoint-inhibitors_vs_Disease-control-with-Immune-checkpoint-inhibitors_DOWN	NA	216851
 bsdb:697/3/1_NA:Responders-to-Immune-checkpoint-inhibitors_vs_Non-responders-to-Immune-checkpoint-inhibitors_DOWN	NA	1283313
+bsdb:698/1/1_NA:Patients-with-Crohn's-disease_vs_Healthy-controls_UP	NA	46123	561	113286
+bsdb:698/1/2_NA:Patients-with-Crohn's-disease_vs_Healthy-controls_DOWN	NA	580596	52225	724	172900
+bsdb:698/2/1_NA:Patients-with-ulcerative-colitis_vs_Healthy-controls_UP	NA	117563	1257	55506	1016	561	29580	194	1654	84111	1716
+bsdb:698/2/2_NA:Patients-with-ulcerative-colitis_vs_Healthy-controls_DOWN	NA	61170	140625	158846	52225	239759	574697	838	872	846	638847	2753	172900
+bsdb:698/3/1_NA:Patients-with-Crohn's-disease_vs_Patients-with-ulcerative-colitis_UP	NA	113286	872	84108
+bsdb:698/3/2_NA:Patients-with-Crohn's-disease_vs_Patients-with-ulcerative-colitis_DOWN	NA	580596	437755	1279	1016	724	29580	2717	47670	22	1716
