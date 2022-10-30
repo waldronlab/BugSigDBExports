@@ -1,4 +1,4 @@
-# BugSigDB 2022-10-23, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2022-10-30, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_adenoma:conventional-adenoma-cases_vs_controls_UP	NA	91061	1236	1654	1716	1301	162289	189330	33024	40544	2037	2049	506	186826	1300	31977	91347	1653	57037	1386	186817
 bsdb:1/1/2_adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	100883	1117
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	207244	57037
@@ -638,19 +638,19 @@ bsdb:173/1/1_pancreatic-carcinoma:pancreatic-cancer_vs_healthy-controls_UP	NA	83
 bsdb:173/1/2_pancreatic-carcinoma:pancreatic-cancer_vs_healthy-controls_DOWN	NA	244127	651554	583	86331	1485	44748	84111	379	41275	239934	906	189330	572511	946234	580596	35832	33042	207244	158846	1678	239759	577310	204475
 bsdb:173/2/1_pancreatic-carcinoma:pancreatic-head-cancer-with-obstruction_vs_without-cancer_UP	NA	46205	283	1200657	32067	140625	1301	115543	117563
 bsdb:173/2/2_pancreatic-carcinoma:pancreatic-head-cancer-with-obstruction_vs_without-cancer_DOWN	NA	561	620	118966
-bsdb:174/1/1_gastric-cancer:cacerous-tissue_vs_paired-adjacent-non-cacerous-tissue_UP	NA	356	1497346	57723	970	838	28135	1164882	1301	909929	909932	31977	1257	186803	13687	201174	186804	28129	469	468	171552	470	186802	186801	186817	1386	171549	200643	91061	976	1385	287	1239
-bsdb:174/1/2_gastric-cancer:cacerous-tissue_vs_paired-adjacent-non-cacerous-tissue_DOWN	NA	543	91347	613	210	72293	209	615	213849	29547	1543704	41295	204441	1580	1357	1358	135614
+bsdb:174/1/1_gastric-cancer:cancer-tissue_vs_adjacent-normal-tissue_UP	NA	356	1497346	57723	970	838	28135	1164882	1301	909929	909932	31977	1257	186803	13687	201174	186804	28129	469	468	171552	470	186802	186801	186817	1386	171549	200643	91061	976	1385	287	1239
+bsdb:174/1/2_gastric-cancer:cancer-tissue_vs_adjacent-normal-tissue_DOWN	NA	543	91347	613	210	72293	209	615	213849	29547	1543704	41295	204441	1580	1357	1358	135614
 bsdb:175/1/1_pancreatic-carcinoma:pancreatic-cancer-cases_vs_controls_UP	NA	976	1283313
 bsdb:175/1/2_pancreatic-carcinoma:pancreatic-cancer-cases_vs_controls_DOWN	NA	32066	203490	203491	1129771	32067
 bsdb:175/2/1_pancreatic-carcinoma:pancreatic-cancer-cases_vs_controls_DOWN	NA	1129771	32067	1283313	203491	203490	32066
 bsdb:175/3/1_pancreatic-carcinoma:pancreatic-cancer-cases_vs_controls_DOWN	NA	1129771	32067
 bsdb:176/1/1_leukemia:survivors-of-acute-lymphoblastic-leukemia_vs_controls_UP	NA	201174	1716	1653	162289	150022	2157	90964	1279	1654
 bsdb:176/1/2_leukemia:survivors-of-acute-lymphoblastic-leukemia_vs_controls_DOWN	NA	171549	200643	976	541000	216851	1263	171550	28050	213115	28221	194924
-bsdb:177/1/1_colorectal-cancer:mucosa_vs_control_UP	NA	976	35832	1485	39948	28890	32066	848	2172	119852	1257	544448
-bsdb:177/1/2_colorectal-cancer:mucosa_vs_control_DOWN	NA	1301
-bsdb:177/2/1_colorectal-cancer:tumor_vs_control_UP	NA	2172	970	1257
-bsdb:177/3/1_colorectal-cancer:fecal_vs_control_UP	NA	189330	1257
-bsdb:177/3/2_colorectal-cancer:fecal_vs_control_DOWN	NA	544448	841
+bsdb:177/1/1_colorectal-cancer:colon-cancer-patients_vs_control_UP	NA	976	35832	1485	39948	28890	32066	848	2172	119852	1257	544448
+bsdb:177/1/2_colorectal-cancer:colon-cancer-patients_vs_control_DOWN	NA	1301
+bsdb:177/2/1_colorectal-cancer:colon-cancer-patients-(tumor-samples)_vs_control_UP	NA	2172	1257	970
+bsdb:177/3/1_colorectal-cancer:colon-cancer-patients-(fecal-samples)_vs_control_UP	NA	189330	1257
+bsdb:177/3/2_colorectal-cancer:colon-cancer-patients-(fecal-samples)_vs_control_DOWN	NA	841	544448
 bsdb:178/1/1_gastric-cancer:gastric-cancer-peritumor-group_vs_normal_UP	NA	135619	2745	28256	267890	22	135622	1350	81852	41275	1663	1763	1762
 bsdb:178/1/2_gastric-cancer:gastric-cancer-peritumor-group_vs_normal_DOWN	NA	106589	119060	171551	444	445	118969
 bsdb:178/2/1_gastric-cancer:gastric-cancer-tumor-group_vs_peritumor_UP	NA	91061	1350	81852	970	135619	2745	28256	31953	1678	85004	543	91347	239759	1263	171550	39948	459786	33042	541000	841	906	90964	1279	572511
@@ -1407,8 +1407,8 @@ bsdb:356/6/1_air-pollution:ICR-female-mice-exposed-to-PM-2.5_vs_mice-dams-expose
 bsdb:356/6/2_air-pollution:ICR-female-mice-exposed-to-PM-2.5_vs_mice-dams-exposed-to-filtered-blanks-PND-21_DOWN	NA	33958	1578
 bsdb:356/7/1_air-pollution:ICR-female-mice-exposed-to-PM-2.5_vs_mice-dams-exposed-to-filtered-blanks-PND-35_UP	NA	541000
 bsdb:356/7/2_air-pollution:ICR-female-mice-exposed-to-PM-2.5_vs_mice-dams-exposed-to-filtered-blanks-PND-35_DOWN	NA	186804
-bsdb:357/1/1_air-pollution:post-smog-swabs_vs_pre-smog-swabs_UP	NA	28216	838
-bsdb:357/1/2_air-pollution:post-smog-swabs_vs_pre-smog-swabs_DOWN	NA	31977	91061	32067
+bsdb:357/1/1_air-pollution:post-smog-swabs_vs_pre-smog-swabs_UP	NA	31977	91061	32067
+bsdb:357/1/2_air-pollution:post-smog-swabs_vs_pre-smog-swabs_DOWN	NA	28216	838
 bsdb:358/1/1_cervical-glandular-intraepithelial-neoplasia,cervical-cancer:CIN2/3-CC_vs_Healthy-controls_UP	NA	1301	1313	419005	1599	212791	88164	225324	46255	165096	1279	1912216	1747	1269	1270	43770	851	286638
 bsdb:359/1/1_smoking-behavior:current-smoker_vs_former-smoker_UP	NA	201174	84998
 bsdb:359/1/2_smoking-behavior:current-smoker_vs_former-smoker_DOWN	NA	28216	117743	1236	1224
@@ -2491,8 +2491,8 @@ bsdb:692/3/1_Nutraceutical:colorectal-cancer-patients-who-took-prebiotics-(posto
 bsdb:692/3/2_Nutraceutical:colorectal-cancer-patients-who-took-prebiotics-(postoperative-fecal-sample)_vs_colorectal-cancer-patients-who-took-prebiotics-(preoperative-fecal-sample)_DOWN	NA	816
 bsdb:692/4/1_Nutraceutical:colorectal-cancer-patients-who-took-prebiotics-(postoperative-fecal-sample)_vs_colorectal-cancer-patients-who-didn't-take-prebiotics-(postoperative-fecal-sample)_UP	NA	1678
 bsdb:692/4/2_Nutraceutical:colorectal-cancer-patients-who-took-prebiotics-(postoperative-fecal-sample)_vs_colorectal-cancer-patients-who-didn't-take-prebiotics-(postoperative-fecal-sample)_DOWN	NA	1350
-bsdb:693/1/1_hepatocellular-carcinoma:Responders_vs_Non-responders_UP	NA	239935	39488	169435	246787	1689	40520	410072	218538	39486	861	658087	1596	97478	1632	1633	187326	40518	146918	1308	292632	1968796
-bsdb:693/1/2_hepatocellular-carcinoma:Responders_vs_Non-responders_DOWN	NA	732	28111	626930	291645	820	1680	1681	208962	856	249188	548	1624	907	39777	39778
+bsdb:693/1/1_hepatocellular-carcinoma:Responders_vs_Non-responders_UP	NA	239935	39488	169435	246787	1689	40520	1968796	410072	218538	39486	861	658087	1596	97478	1632	1633	187326	40518	146918	1308	292632	1578	1678	1263	239934	39948	196081
+bsdb:693/1/2_hepatocellular-carcinoma:Responders_vs_Non-responders_DOWN	NA	732	28111	626930	291645	820	1680	1681	208962	856	249188	548	1624	907	39777	39778	517	191303	31957
 bsdb:694/1/1_Gegen-Qinlian-decoction-(GQD):low-dose-GQD-(300-mg/kg)_vs_non-GQD_UP	NA	1470349	1159214	1622	584	1522	128827	577310	512314
 bsdb:694/1/2_Gegen-Qinlian-decoction-(GQD):low-dose-GQD-(300-mg/kg)_vs_non-GQD_DOWN	NA	186807	876091	1506577	1331051	191303	1279
 bsdb:694/2/1_colorectal-cancer:low-dose-GQD-(300-mg/kg)_vs_non-GQD_UP	NA	1470349	1159214	128827	526525	526524	1622	583	584	1522	577310	512314
