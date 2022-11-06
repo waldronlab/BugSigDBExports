@@ -1,4 +1,4 @@
-# BugSigDB 2022-10-30, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2022-11-06, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_adenoma:conventional-adenoma-cases_vs_controls_UP	NA	Actinomyces	Corynebacterium	Streptococcus	Peptoniphilus	Dorea	Phascolarctobacterium	Sutterella	Lacticaseibacillus	Bacillus
 bsdb:1/1/2_adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	Coprobacillus
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	Anaerostipes	Lacticaseibacillus
@@ -1031,8 +1031,6 @@ bsdb:297/1/1_human-papilloma-virus-infection:non-pregnant-high-risk-HPV_vs_non-p
 bsdb:297/1/2_human-papilloma-virus-infection:non-pregnant-high-risk-HPV_vs_non-pregnant-no-HPV_DOWN	NA	Lactobacillus
 bsdb:297/2/1_human-papilloma-virus-infection:pregnant-high-risk-HPV_vs_pregnant-no-HPV_UP	NA	Acidovorax
 bsdb:297/2/2_human-papilloma-virus-infection:pregnant-high-risk-HPV_vs_pregnant-no-HPV_DOWN	NA	Streptococcus
-bsdb:298/1/1_acute-myeloid-leukemia:stool_vs_oral_UP	NA	Akkermansia	Lactobacillus	Lactococcus	Parabacteroides	Prevotella	Pseudobutyrivibrio	Pseudomonas	Streptococcus	Staphylococcus	Subdoligranulum
-bsdb:298/1/2_acute-myeloid-leukemia:stool_vs_oral_DOWN	NA	Prevotella	Staphylococcus	Streptococcus
 bsdb:298/2/1_acute-myeloid-leukemia:infection_vs_no-infection_UP	NA	Stenotrophomonas
 bsdb:298/2/2_acute-myeloid-leukemia:infection_vs_no-infection_DOWN	NA	Streptococcus
 bsdb:298/3/1_acute-myeloid-leukemia:infection_vs_no-infection_UP	NA	Stenotrophomonas
@@ -1547,15 +1545,16 @@ bsdb:465/1/1_diabetic-neuropathy:Individuals-diagnosed-with-peripheral-neuropath
 bsdb:465/1/2_diabetic-neuropathy:Individuals-diagnosed-with-peripheral-neuropathy-associated-with-type-2-diabetes_vs_Healthy-controls_DOWN	NA	Bacteroides	Faecalibacterium
 bsdb:467/1/1_HER2-Positive-Breast-Carcinoma:Her2-positive-tumor_vs_Her2-negative-tumor_UP	NA	Acidaminococcus
 bsdb:467/1/2_HER2-Positive-Breast-Carcinoma:Her2-positive-tumor_vs_Her2-negative-tumor_DOWN	NA	Desulfovibrio	Ruminococcus
-bsdb:467/2/2_age-at-menarche:later-age-at-menarche-(≥12)_vs_early-age-at-menarche-(≤11)_DOWN	NA	Methanobrevibacter	Ruminococcus
-bsdb:467/3/1_estrogen-receptor-status:ER-_vs_ER+_DOWN	NA	Haemophilus	Veillonella
+bsdb:467/2/1_Age-at-menarche:later-age-at-menarche-(≥12)_vs_early-age-at-menarche-(≤11)_UP	NA	Escherichia
+bsdb:467/2/2_Age-at-menarche:later-age-at-menarche-(≥12)_vs_early-age-at-menarche-(≤11)_DOWN	NA	Methanobrevibacter	Ruminococcus
+bsdb:467/3/1_Estrogen-receptor-status:ER-_vs_ER+_DOWN	NA	Haemophilus	Veillonella
 bsdb:467/5/1_breast-cancer:Grade-High-(III)_vs_Grade-Low-(I/II)_UP	NA	Eggerthella
 bsdb:467/5/2_breast-cancer:Grade-High-(III)_vs_Grade-Low-(I/II)_DOWN	NA	Anaerostipes
-bsdb:467/6/1_breast-cancer-stage:Stage-High-(III)_vs_Stage-Low-(I/II)_UP	NA	Clostridium	Veillonella	Haemophilus
-bsdb:467/6/2_breast-cancer-stage:Stage-High-(III)_vs_Stage-Low-(I/II)_DOWN	NA	Acidaminococcus	Catenibacterium
+bsdb:467/6/1_Breast-cancer-stage:Stage-High-(III)_vs_Stage-Low-(I/II)_UP	NA	Clostridium	Veillonella	Haemophilus
+bsdb:467/6/2_Breast-cancer-stage:Stage-High-(III)_vs_Stage-Low-(I/II)_DOWN	NA	Acidaminococcus	Catenibacterium
 bsdb:467/7/1_age:Age-≤50_vs_Age-50+_UP	NA	Clostridium	Lactococcus
 bsdb:467/8/1_parous:Nulliparous_vs_Parous_DOWN	NA	Catenibacterium
-bsdb:467/9/1_body-mass-index:BMI≥25_vs_BMI<25_UP	NA	Akkermansia
+bsdb:467/9/1_Body-mass-index:BMI≥25_vs_BMI<25_UP	NA	Akkermansia
 bsdb:468/1/1_endometriosis:Stage-3/4-endometriosis-patients_vs_Healthy-controls_DOWN	NA	Atopobium	Gemella
 bsdb:468/2/1_endometriosis:Stage-3/4-endometriosis-patients_vs_Healthy-controls_DOWN	NA	Atopobium	Sneathia
 bsdb:468/2/2_endometriosis:Stage-3/4-endometriosis-patients_vs_Healthy-controls_UP	NA	Alloprevotella
@@ -1742,6 +1741,8 @@ bsdb:529/1/1_rheumatoid-arthritis,osteoarthritis:arthritis-patient_vs_healthy-co
 bsdb:529/1/2_rheumatoid-arthritis,osteoarthritis:arthritis-patient_vs_healthy-controls_DOWN	NA	Acinetobacter	Chryseobacterium	Pseudomonas	Enhydrobacter	Stenotrophomonas	Sphingomonas	Wautersiella	Brevundimonas	Bacteroides	Comamonas	Mycoplana
 bsdb:529/2/1_rheumatoid-arthritis,osteoarthritis:rheumatoid-arthritis_vs_Osteoarthritis_UP	NA	Haemophilus	Actinobacillus	Aggregatibacter	Alloprevotella	Fusobacterium	Veillonella	Prevotella	Neisseria
 bsdb:529/2/2_rheumatoid-arthritis,osteoarthritis:rheumatoid-arthritis_vs_Osteoarthritis_DOWN	NA	Streptococcus	Actinomyces	Lautropia	Rothia	Granulicatella	Ruminococcus	Oribacterium	Mediterraneibacter	Abiotrophia
+bsdb:531/1/1_rheumatoid-arthritis:rheumatoid-arthritis-patient_vs_healthy-controls_UP	NA	Actinomyces	Atopobium	Gemella	Megasphaera	Prevotella	Selenomonas
+bsdb:531/1/2_rheumatoid-arthritis:rheumatoid-arthritis-patient_vs_healthy-controls_DOWN	NA	Filifactor	Haemophilus	Neisseria	Porphyromonas	Spirochaeta
 bsdb:532/1/1_rheumatoid-arthritis:rheumatoid-arthritis-patients_vs_healthy-controls_UP	NA	Actinomyces	Eggerthella	Erwinia	Eubacterium	Streptococcus	Turicibacter
 bsdb:532/1/2_rheumatoid-arthritis:rheumatoid-arthritis-patients_vs_healthy-controls_DOWN	NA	Faecalibacterium
 bsdb:535/1/1_antimicrobial-agent:Antibiotic-treated_vs_Antibiotic-untreated_DOWN	NA	Bifidobacterium	Acidaminococcus	Butyrivibrio	Lachnospira
@@ -1763,8 +1764,8 @@ bsdb:537/8/1_Parkinson's-disease:patients-with-advanced-stage-Parkinson's_vs_hea
 bsdb:538/1/1_antimicrobial-agent:ciprofloxacin-treated_vs_baseline-of-the-ciprofloxacin-treated_DOWN	NA	Faecalibacterium	Oscillospira	Ruminococcus
 bsdb:538/1/2_antimicrobial-agent:ciprofloxacin-treated_vs_baseline-of-the-ciprofloxacin-treated_UP	NA	Blautia	Clostridium	Eubacterium	Roseburia
 bsdb:538/2/2_NA:Nitrofurantoin-treated_vs_Baseline-of-the-Nitrofurantoin-treated_UP	NA	Faecalibacterium
-bsdb:538/6/1_urinary-tract-infection:CP2_vs_CRL2_UP	NA	Alistipes	Oscillospira	Parabacteroides	Roseburia	Ruminococcus
-bsdb:538/7/1_urinary-tract-infection:NF2_vs_CRL2_UP	NA	Alistipes	Faecalibacterium
+bsdb:538/6/1_urinary-tract-infection:Ciprofloxacin-treated-group-(timepoint-2)_vs_control-group-(timepoint-2)_UP	NA	Alistipes	Oscillospira	Parabacteroides	Roseburia	Ruminococcus
+bsdb:538/7/1_urinary-tract-infection:nitrofurantoin-treated-group-(timepoint-2)_vs_controls-(timepoint-2)_UP	NA	Alistipes	Faecalibacterium
 bsdb:541/1/1_schizophrenia:Schizophrenic-patients-(ARSCZ,-FESCZ)_vs_Healthy-controls_UP	NA	Alkaliphilus	Cronobacter	Enterococcus	Limosilactobacillus
 bsdb:541/1/2_schizophrenia:Schizophrenic-patients-(ARSCZ,-FESCZ)_vs_Healthy-controls_UP	NA	Veillonella	Bifidobacterium	Dialister	Streptococcus	Limosilactobacillus
 bsdb:541/2/1_schizophrenia:Schizophrenic-patients-(ARSCZ,-FESCZ)_vs_Healthy-controls_UP	NA	Acidaminococcus	Akkermansia	Alkaliphilus	Anaerotruncus	Bifidobacterium	Coprobacillus	Cronobacter	Dialister	Dorea	Enterococcus	Lactobacillus	Limosilactobacillus	Megasphaera	Methanobrevibacter	Pseudoflavonifractor	Streptococcus	Veillonella	Phocaeicola
@@ -2085,7 +2086,6 @@ bsdb:687/2/1_Colorectal-adenocarcinoma:colorectal-cancer-patients-with-KRAS-muta
 bsdb:687/2/2_Colorectal-adenocarcinoma:colorectal-cancer-patients-with-KRAS-mutation_vs_colorectal-cancer-patients-without-KRAS-mutation_DOWN	NA	Bifidobacterium	Lactobacillus
 bsdb:687/3/1_Colorectal-adenocarcinoma:colorectal-cancer-patients-with-TP53-mutation_vs_colorectal-cancer-patients-without-TP53-mutation_UP	NA	Eubacterium
 bsdb:687/4/1_Colorectal-adenocarcinoma:colorectal-cancer-patients-with-APC-mutation_vs_colorectal-cancer-patients-without-APC-mutation_UP	NA	Actinomyces
-bsdb:687/4/2_Colorectal-adenocarcinoma:colorectal-cancer-patients-with-APC-mutation_vs_colorectal-cancer-patients-without-APC-mutation_UP	NA	Actinomyces
 bsdb:687/5/1_Colorectal-adenocarcinoma:colorectal-cancer-patients-with-PIK3CA-mutation_vs_colorectal-cancer-patients-without-PIK3CA-mutation_DOWN	NA	Actinomyces
 bsdb:687/5/2_Colorectal-adenocarcinoma:colorectal-cancer-patients-with-PIK3CA-mutation_vs_colorectal-cancer-patients-without-PIK3CA-mutation_UP	NA	Alistipes	Bifidobacterium	Desulfovibrio	Enterobacter	Lactobacillus	Megasphaera	Moryella	Ralstonia	Selenomonas
 bsdb:688/2/1_metastatic-melanoma:Responders_vs_Non-responders_UP	NA	Faecalibacterium	Ruminococcus	Porphyromonas	Ruminiclostridium	Phascolarctobacterium	Peptoniphilus	Rothia
@@ -2152,3 +2152,14 @@ bsdb:698/2/1_NA:Patients-with-ulcerative-colitis_vs_Healthy-controls_UP	NA	Granu
 bsdb:698/2/2_NA:Patients-with-ulcerative-colitis_vs_Healthy-controls_DOWN	NA	Holdemania	Lachnobacterium	Megamonas	Mitsuokella	Alistipes	Butyricimonas	Prevotella	Desulfovibrio	Oxalobacter	Pyramidobacter	Synergistes	Victivallis
 bsdb:698/3/1_NA:Patients-with-Crohn's-disease_vs_Patients-with-ulcerative-colitis_UP	NA	Pseudoramibacter	Desulfovibrio	Slackia
 bsdb:698/3/2_NA:Patients-with-Crohn's-disease_vs_Patients-with-ulcerative-colitis_DOWN	NA	Butyricicoccus	Moryella	Staphylococcus	Capnocytophaga	Haemophilus	Janthinobacterium	Cardiobacterium	Lautropia	Propioniferax	Shewanella	Corynebacterium
+bsdb:702/1/1_NA:Rheumatoid-Arthritis_vs_Arthritis-Remission_UP	NA	Corynebacterium	Actinomyces	Veillonella	Streptococcus	Prevotella
+bsdb:702/1/2_NA:Rheumatoid-Arthritis_vs_Arthritis-Remission_DOWN	NA	Atopobium	Fusobacterium	Oribacterium	Prevotella	Selenomonas
+bsdb:703/1/1_Arthritis:Rheumatoid-Arthritis_vs_healthy_DOWN	NA	Haemophilus	Streptococcus
+bsdb:703/1/2_Arthritis:Rheumatoid-Arthritis_vs_healthy_UP	NA	Streptococcus	Treponema	Fusobacterium
+bsdb:704/1/1_Arthritis:Rheumatoid-Arthritis_vs_healthy-shallow_DOWN	NA	Leptotrichia	Prevotella	Kingella
+bsdb:704/1/2_Arthritis:Rheumatoid-Arthritis_vs_healthy-shallow_UP	NA	Streptococcus	Schaalia
+bsdb:705/1/1_Arthritis:Rheumatoid-Arthritis-with-periodontitis_vs_Osteoarthritis-with-periodontitis_DOWN	NA	Catonella	Porphyromonas	Prevotella	Selenomonas	Treponema
+bsdb:707/1/1_Arthritis:Rheumatoid-Arthritis_vs_healthy-controls_UP	NA	Anaeroglobus	Capnocytophaga	Corynebacterium	Leptotrichia	Prevotella	Selenomonas
+bsdb:707/1/2_Arthritis:Rheumatoid-Arthritis_vs_healthy-controls_DOWN	NA	Corynebacterium
+bsdb:709/1/1_Arthritis:Early-Rheumatoid-Arthritis_vs_Healthy-Controls_DOWN	NA	Oribacterium	Catonella	Veillonella	Campylobacter
+bsdb:709/1/2_Arthritis:Early-Rheumatoid-Arthritis_vs_Healthy-Controls_UP	NA	Alloprevotella	Campylobacter	Capnocytophaga	Dialister	Filifactor	Porphyromonas	Prevotella	Stomatobaculum	Treponema

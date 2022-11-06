@@ -1,4 +1,4 @@
-# BugSigDB 2022-10-30, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2022-11-06, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_adenoma:conventional-adenoma-cases_vs_controls_UP	NA	91061	1236	1654	1716	1301	162289	189330	33024	40544	2037	2049	506	186826	1300	31977	91347	1653	57037	1386	186817
 bsdb:1/1/2_adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	100883	1117
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	207244	57037
@@ -1160,8 +1160,6 @@ bsdb:297/1/1_human-papilloma-virus-infection:non-pregnant-high-risk-HPV_vs_non-p
 bsdb:297/1/2_human-papilloma-virus-infection:non-pregnant-high-risk-HPV_vs_non-pregnant-no-HPV_DOWN	NA	1578	33958	186826
 bsdb:297/2/1_human-papilloma-virus-infection:pregnant-high-risk-HPV_vs_pregnant-no-HPV_UP	NA	1224	28216	80864	80840	12916
 bsdb:297/2/2_human-papilloma-virus-infection:pregnant-high-risk-HPV_vs_pregnant-no-HPV_DOWN	NA	91061	186803	186801	186802	1300	1301
-bsdb:298/1/1_acute-myeloid-leukemia:stool_vs_oral_UP	NA	239934	1578	1357	375288	838	46205	286	1301	1279	292632
-bsdb:298/1/2_acute-myeloid-leukemia:stool_vs_oral_DOWN	NA	838	1279	1301
 bsdb:298/2/1_acute-myeloid-leukemia:infection_vs_no-infection_UP	NA	40323
 bsdb:298/2/2_acute-myeloid-leukemia:infection_vs_no-infection_DOWN	NA	1301
 bsdb:298/3/1_acute-myeloid-leukemia:infection_vs_no-infection_UP	NA	40323
@@ -1807,19 +1805,18 @@ bsdb:465/2/NA_diabetic-neuropathy:Individuals-diagnosed-with-peripheral-neuropat
 bsdb:465/3/NA_type-II-diabetes-mellitus:Individuals-diagnosed-with-Type-2-Diabetes-Mellitus_vs_Healthy-controls_NA	NA	NA
 bsdb:467/1/1_HER2-Positive-Breast-Carcinoma:Her2-positive-tumor_vs_Her2-negative-tumor_UP	NA	904
 bsdb:467/1/2_HER2-Positive-Breast-Carcinoma:Her2-positive-tumor_vs_Her2-negative-tumor_DOWN	NA	872	1263
-bsdb:467/2/1_age-at-menarche:later-age-at-menarche-(≥12)_vs_early-age-at-menarche-(≤11)_UP	NA	NA
-bsdb:467/2/2_age-at-menarche:later-age-at-menarche-(≥12)_vs_early-age-at-menarche-(≤11)_DOWN	NA	2172	1263
-bsdb:467/3/1_estrogen-receptor-status:ER-_vs_ER+_DOWN	NA	724	29465
-bsdb:467/4/NA_progesterone-receptor-status:PR-_vs_PR+_NA	NA	NA
+bsdb:467/2/1_Age-at-menarche:later-age-at-menarche-(≥12)_vs_early-age-at-menarche-(≤11)_UP	NA	561
+bsdb:467/2/2_Age-at-menarche:later-age-at-menarche-(≥12)_vs_early-age-at-menarche-(≤11)_DOWN	NA	2172	1263
+bsdb:467/3/1_Estrogen-receptor-status:ER-_vs_ER+_DOWN	NA	724	29465
 bsdb:467/5/1_breast-cancer:Grade-High-(III)_vs_Grade-Low-(I/II)_UP	NA	84111
 bsdb:467/5/2_breast-cancer:Grade-High-(III)_vs_Grade-Low-(I/II)_DOWN	NA	186803	207244
-bsdb:467/6/1_breast-cancer-stage:Stage-High-(III)_vs_Stage-Low-(I/II)_UP	NA	1485	29465	724
-bsdb:467/6/2_breast-cancer-stage:Stage-High-(III)_vs_Stage-Low-(I/II)_DOWN	NA	904	135858
+bsdb:467/6/1_Breast-cancer-stage:Stage-High-(III)_vs_Stage-Low-(I/II)_UP	NA	1485	29465	724
+bsdb:467/6/2_Breast-cancer-stage:Stage-High-(III)_vs_Stage-Low-(I/II)_DOWN	NA	904	135858
 bsdb:467/7/1_age:Age-≤50_vs_Age-50+_UP	NA	31979	1485	543	1357
 bsdb:467/8/1_parous:Nulliparous_vs_Parous_DOWN	NA	135858
-bsdb:467/9/1_body-mass-index:BMI≥25_vs_BMI<25_UP	NA	239934
-bsdb:467/10/1_body-fat-percentage:TBF>46%_vs_TBF≤46%_UP	NA	31979
-bsdb:467/10/2_body-fat-percentage:TBF>46%_vs_TBF≤46%_DOWN	NA	84107
+bsdb:467/9/1_Body-mass-index:BMI≥25_vs_BMI<25_UP	NA	239934
+bsdb:467/10/1_Body-fat-percentage:TBF>46%_vs_TBF≤46%_UP	NA	31979
+bsdb:467/10/2_Body-fat-percentage:TBF>46%_vs_TBF≤46%_DOWN	NA	84107
 bsdb:467/11/NA_physical-activity:No-Physical-Activity_vs_Yes-Physical-Activity_NA	NA	NA
 bsdb:468/1/1_endometriosis:Stage-3/4-endometriosis-patients_vs_Healthy-controls_DOWN	NA	1380	1378
 bsdb:468/2/1_endometriosis:Stage-3/4-endometriosis-patients_vs_Healthy-controls_DOWN	NA	1380	168808
@@ -2044,6 +2041,8 @@ bsdb:529/1/1_rheumatoid-arthritis,osteoarthritis:arthritis-patient_vs_healthy-co
 bsdb:529/1/2_rheumatoid-arthritis,osteoarthritis:arthritis-patient_vs_healthy-controls_DOWN	NA	469	59732	286	212791	40323	13687	343873	293	816	283	172044	13159
 bsdb:529/2/1_rheumatoid-arthritis,osteoarthritis:rheumatoid-arthritis_vs_Osteoarthritis_UP	NA	735	713	416916	76122	848	29465	838	39778	724	729	28449	482
 bsdb:529/2/2_rheumatoid-arthritis,osteoarthritis:rheumatoid-arthritis_vs_Osteoarthritis_DOWN	NA	1301	1654	47670	32207	117563	2047	1263	265975	33038	46123
+bsdb:531/1/1_rheumatoid-arthritis:rheumatoid-arthritis-patient_vs_healthy-controls_UP	NA	201174	1654	55565	2037	1643824	1380	1385	84999	1239	1378	906	909932	2	838	909929	970	31977	2093825	2093818
+bsdb:531/1/2_rheumatoid-arthritis:rheumatoid-arthritis-patient_vs_healthy-controls_DOWN	NA	28216	44259	724	482	712	135625	171551	836	146	137	136	203691
 bsdb:532/1/1_rheumatoid-arthritis:rheumatoid-arthritis-patients_vs_healthy-controls_UP	NA	201174	1654	2049	2037	91061	84107	84999	84111	551	186806	1730	186826	1300	1301	191303	2810281	84998
 bsdb:532/1/2_rheumatoid-arthritis:rheumatoid-arthritis-patients_vs_healthy-controls_DOWN	NA	2005519	1643685	216851
 bsdb:535/1/1_antimicrobial-agent:Antibiotic-treated_vs_Antibiotic-untreated_DOWN	NA	41200	904	830	28050
@@ -2070,12 +2069,12 @@ bsdb:537/7/1_Parkinson's-disease:patients-with-mid-stage-Parkinson's_vs_healthy-
 bsdb:537/7/2_Parkinson's-disease:patients-with-mid-stage-Parkinson's_vs_healthy-controls-without-any-form-of-Parkinson's-Disease_DOWN	NA	186803
 bsdb:537/8/1_Parkinson's-disease:patients-with-advanced-stage-Parkinson's_vs_healthy-controls-without-any-form-of-Parkinson's-Disease_UP	NA	239934	543	1224	74201	203557
 bsdb:537/8/2_Parkinson's-disease:patients-with-advanced-stage-Parkinson's_vs_healthy-controls-without-any-form-of-Parkinson's-Disease_DOWN	NA	1239	186803
-bsdb:538/1/1_antimicrobial-agent:ciprofloxacin-treated_vs_baseline-of-the-ciprofloxacin-treated_DOWN	NA	31953	216851	119852	1263	216572
+bsdb:538/1/1_antimicrobial-agent:ciprofloxacin-treated_vs_baseline-of-the-ciprofloxacin-treated_DOWN	NA	31953	216851	119852	216572	1263
 bsdb:538/1/2_antimicrobial-agent:ciprofloxacin-treated_vs_baseline-of-the-ciprofloxacin-treated_UP	NA	815	572511	1485	1730	186803	841
 bsdb:538/2/1_NA:Nitrofurantoin-treated_vs_Baseline-of-the-Nitrofurantoin-treated_DOWN	NA	31979
 bsdb:538/2/2_NA:Nitrofurantoin-treated_vs_Baseline-of-the-Nitrofurantoin-treated_UP	NA	216851
-bsdb:538/6/1_urinary-tract-infection:CP2_vs_CRL2_UP	NA	239759	186803	119852	375288	171551	171550	841	1263	31977
-bsdb:538/7/1_urinary-tract-infection:NF2_vs_CRL2_UP	NA	239759	171549	976	200643	216851	171550
+bsdb:538/6/1_urinary-tract-infection:Ciprofloxacin-treated-group-(timepoint-2)_vs_control-group-(timepoint-2)_UP	NA	239759	186803	119852	375288	171551	171550	841	1263	31977
+bsdb:538/7/1_urinary-tract-infection:nitrofurantoin-treated-group-(timepoint-2)_vs_controls-(timepoint-2)_UP	NA	239759	171549	200643	976	216851	171550
 bsdb:541/1/1_schizophrenia:Schizophrenic-patients-(ARSCZ,-FESCZ)_vs_Healthy-controls_UP	NA	461876	28141	1352	1613
 bsdb:541/1/2_schizophrenia:Schizophrenic-patients-(ARSCZ,-FESCZ)_vs_Healthy-controls_UP	NA	39777	39778	1689	218538	1304	1632
 bsdb:541/2/1_schizophrenia:Schizophrenic-patients-(ARSCZ,-FESCZ)_vs_Healthy-controls_UP	NA	187327	239935	461876	169435	1680	1683	1689	216816	1898207	2137881	28141	218538	39486	1352	1898203	47770	1613	1632	187326	2173	106588	315405	1309	1304	1343	39777	39778	29466	39492	310297
@@ -2473,7 +2472,6 @@ bsdb:687/2/2_Colorectal-adenocarcinoma:colorectal-cancer-patients-with-KRAS-muta
 bsdb:687/3/1_Colorectal-adenocarcinoma:colorectal-cancer-patients-with-TP53-mutation_vs_colorectal-cancer-patients-without-TP53-mutation_UP	NA	290054
 bsdb:687/3/2_Colorectal-adenocarcinoma:colorectal-cancer-patients-with-TP53-mutation_vs_colorectal-cancer-patients-without-TP53-mutation_DOWN	NA	NA
 bsdb:687/4/1_Colorectal-adenocarcinoma:colorectal-cancer-patients-with-APC-mutation_vs_colorectal-cancer-patients-without-APC-mutation_UP	NA	1654	2049	2037
-bsdb:687/4/2_Colorectal-adenocarcinoma:colorectal-cancer-patients-with-APC-mutation_vs_colorectal-cancer-patients-without-APC-mutation_UP	NA	1654	2049	2037
 bsdb:687/5/1_Colorectal-adenocarcinoma:colorectal-cancer-patients-with-PIK3CA-mutation_vs_colorectal-cancer-patients-without-PIK3CA-mutation_DOWN	NA	2037	1654	2049
 bsdb:687/5/2_Colorectal-adenocarcinoma:colorectal-cancer-patients-with-PIK3CA-mutation_vs_colorectal-cancer-patients-without-PIK3CA-mutation_UP	NA	239759	1686	281992	887631	1578	906	371674	909932	48736	909929	31977	159275	33958
 bsdb:688/2/1_metastatic-melanoma:Responders_vs_Non-responders_UP	NA	1239	186801	1898207	216572	853	216851	40518	1263	1583331	31977	48256	33024	33025	162289	1268	31969	32207
@@ -2540,3 +2538,14 @@ bsdb:698/2/1_NA:Patients-with-ulcerative-colitis_vs_Healthy-controls_UP	NA	11756
 bsdb:698/2/2_NA:Patients-with-ulcerative-colitis_vs_Healthy-controls_DOWN	NA	61170	140625	158846	52225	239759	574697	838	872	846	638847	2753	256845	172900
 bsdb:698/3/1_NA:Patients-with-Crohn's-disease_vs_Patients-with-ulcerative-colitis_UP	NA	113286	872	84108
 bsdb:698/3/2_NA:Patients-with-Crohn's-disease_vs_Patients-with-ulcerative-colitis_DOWN	NA	580596	437755	1279	1016	724	29580	2717	47670	1753	22	1716
+bsdb:702/1/1_NA:Rheumatoid-Arthritis_vs_Arthritis-Remission_UP	NA	1716	1654	29465	1301	838
+bsdb:702/1/2_NA:Rheumatoid-Arthritis_vs_Arthritis-Remission_DOWN	NA	1380	1898207	848	265975	838	171550	970
+bsdb:703/1/1_Arthritis:Rheumatoid-Arthritis_vs_healthy_DOWN	NA	729	1305
+bsdb:703/1/2_Arthritis:Rheumatoid-Arthritis_vs_healthy_UP	NA	1328	158	848
+bsdb:704/1/1_Arthritis:Rheumatoid-Arthritis_vs_healthy-shallow_DOWN	NA	32067	28132	502	29391
+bsdb:704/1/2_Arthritis:Rheumatoid-Arthritis_vs_healthy-shallow_UP	NA	1318	52773
+bsdb:705/1/1_Arthritis:Rheumatoid-Arthritis-with-periodontitis_vs_Osteoarthritis-with-periodontitis_DOWN	NA	43996	1898207	186803	186804	836	59823	970	166	282402
+bsdb:707/1/1_Arthritis:Rheumatoid-Arthritis_vs_healthy-controls_UP	NA	156454	1016	1716	32067	838	970
+bsdb:707/1/2_Arthritis:Rheumatoid-Arthritis_vs_healthy-controls_DOWN	NA	1716
+bsdb:709/1/1_Arthritis:Early-Rheumatoid-Arthritis_vs_Healthy-Controls_DOWN	NA	237576	43997	423477	199
+bsdb:709/1/2_Arthritis:Early-Rheumatoid-Arthritis_vs_Healthy-Controls_UP	NA	76122	824	327575	39950	143361	28124	52227	28131	407975	59823	1213720	158
