@@ -1,4 +1,4 @@
-# BugSigDB 2022-11-06, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2022-11-13, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_adenoma:conventional-adenoma-cases_vs_controls_UP	NA	Actinomyces	Corynebacterium	Streptococcus	Peptoniphilus	Dorea	Phascolarctobacterium	Sutterella	Lacticaseibacillus	Bacillus
 bsdb:1/1/2_adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	Coprobacillus
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	Anaerostipes	Lacticaseibacillus
@@ -689,7 +689,7 @@ bsdb:214/1/11_milk-allergic-reaction:children-with-milk-allergy-persistence_vs_m
 bsdb:214/1/12_milk-allergic-reaction:children-with-milk-allergy-persistence_vs_milk-allergy-resolution_DOWN	NA	Eubacterium	Blautia
 bsdb:215/1/1_Eczema:infants-with-eczema_vs_healthy-control-infants_UP	NA	Akkermansia	Anaerostipes	Bacteroides	Bilophila	Coprococcus	Cronobacter	Desulfovibrio	Enterobacter	Faecalibacterium	Flavonifractor	Gemmiger	Paenibacillus	Parabacteroides	Paraprevotella	Phascolarctobacterium	Phocaeicola	Porphyromonas	Prevotella	Rhizobium	Roseburia	Veillonella	Mediterraneibacter	Escherichia	Shigella	Clostridium
 bsdb:215/1/2_Eczema:infants-with-eczema_vs_healthy-control-infants_DOWN	NA	Acidaminococcus	Allisonella	Anaeroglobus	Anaerotruncus	Bacteroides	Bifidobacterium	Brachybacterium	Brevibacterium	Butyricicoccus	Clostridium	Collinsella	Corynebacterium	Dialister	Dorea	Eikenella	Granulicatella	Haemophilus	Holdemanella	Klebsiella	Lactobacillus	Megasphaera	Oscillibacter	Prevotella	Ruminococcus	Streptococcus	Sutterella	Turicibacter
-bsdb:216/1/1_cesarean-section:C-section_vs_vaginal-delivery_DOWN	NA	Bacteroides	Phocaeicola	Bifidobacterium	Atopobium	Enterococcus	Clostridium
+bsdb:216/1/1_cesarean-section:C-section_vs_vaginal-delivery_DOWN	NA	Atopobium	Bacteroides	Bifidobacterium	Clostridium	Enterococcus	Phocaeicola	Lactobacillus	Limosilactobacillus
 bsdb:217/1/1_Eczema:child-with-eczema_vs_healthy-control_UP	NA	Ruminococcus	Tyzzerella	Mediterraneibacter
 bsdb:217/1/2_Eczema:child-with-eczema_vs_healthy-control_DOWN	NA	Bacteroides	Phocaeicola	Alloprevotella
 bsdb:217/3/1_age:infant-at-18-months_vs_infant-at-6-months_UP	NA	Ruminococcus	Phascolarctobacterium	Butyrivibrio	Lachnoclostridium	Lachnobacterium	Coprobacillus	Fusobacterium	Proteus	Sutterella
@@ -911,12 +911,12 @@ bsdb:265/2/2_human-papilloma-virus-infection:HPV+_vs_HPV-_DOWN	NA	Veillonella
 bsdb:265/3/1_human-papilloma-virus-infection:HPV+_vs_HPV--at-two-months_DOWN	NA	Veillonella
 bsdb:266/1/1_diet:healthy-vegetarian_vs_healthy-non-vegetarian_UP	NA	Prevotella	Klebsiella
 bsdb:266/1/2_diet:healthy-vegetarian_vs_healthy-non-vegetarian_DOWN	NA	Parabacteroides	Bacteroides	Alistipes	Akkermansia
-bsdb:267/1/1_atopic-asthma:atopic-asthma_vs_healthy-control_UP	NA	Fusobacterium	Haemophilus	Neisseria	Actinomyces	Prevotella	Treponema	Veillonella	Anaerovorax	Porphyromonas	Campylobacter	Kingella	Sphingopyxis	Alloprevotella	Lactobacillus
-bsdb:267/1/2_atopic-asthma:atopic-asthma_vs_healthy-control_DOWN	NA	Methylobacterium	Peptostreptococcus	Lactobacillus	Actinobacillus	Leptotrichia	Kocuria	Lacticaseibacillus
-bsdb:267/2/1_atopic-asthma:atopic-no-asthma_vs_healthy-control_UP	NA	Aggregatibacter	Fusobacterium	Granulicatella	Corynebacterium	Actinomyces	Selenomonas	Flexispira	Haemophilus	Veillonella	Moraxella	Sharpea	Sphingopyxis	Prevotella	Treponema
-bsdb:267/2/2_atopic-asthma:atopic-no-asthma_vs_healthy-control_DOWN	NA	Lactobacillus	Streptococcus	Pseudomonas	Helicobacter	Parvimonas	Prevotella	Porphyromonas	Leptotrichia	Lacticaseibacillus
-bsdb:267/3/1_atopic-asthma:atopic-asthma_vs_atopic-no-asthma_UP	NA	Leptotrichia	Fusobacterium	Prevotella	Selenomonas	Haemophilus	Mycoplasma	Dialister	Neisseria
-bsdb:267/3/2_atopic-asthma:atopic-asthma_vs_atopic-no-asthma_DOWN	NA	Sphingopyxis	Sharpea	Lactobacillus	Allobaculum	Streptococcus	Porphyromonas	Flexispira	Corynebacterium	Aggregatibacter	Flavobacterium	Prevotella	Bacteroides	Treponema	Haemophilus	Capnocytophaga	Mediterraneibacter	Lacticaseibacillus
+bsdb:267/1/1_atopic-asthma:atopic-asthma_vs_healthy-control_UP	NA	Actinomyces	Alloprevotella	Anaerovorax	Campylobacter	Fusobacterium	Haemophilus	Kingella	Lactobacillus	Neisseria	Porphyromonas	Prevotella	Sphingopyxis	Treponema	Veillonella
+bsdb:267/1/2_atopic-asthma:atopic-asthma_vs_healthy-control_DOWN	NA	Actinobacillus	Kocuria	Lacticaseibacillus	Lactobacillus	Leptotrichia	Methylobacterium	Peptostreptococcus
+bsdb:267/2/1_atopic-asthma:atopic-no-asthma_vs_healthy-control_UP	NA	Actinomyces	Aggregatibacter	Corynebacterium	Flexispira	Fusobacterium	Granulicatella	Haemophilus	Moraxella	Prevotella	Selenomonas	Sharpea	Sphingopyxis	Treponema	Veillonella
+bsdb:267/2/2_atopic-asthma:atopic-no-asthma_vs_healthy-control_DOWN	NA	Helicobacter	Lacticaseibacillus	Lactobacillus	Leptotrichia	Parvimonas	Porphyromonas	Prevotella	Pseudomonas	Streptococcus
+bsdb:267/3/1_atopic-asthma:atopic-asthma_vs_atopic-no-asthma_UP	NA	Dialister	Fusobacterium	Haemophilus	Leptotrichia	Mycoplasma	Neisseria	Prevotella	Selenomonas
+bsdb:267/3/2_atopic-asthma:atopic-asthma_vs_atopic-no-asthma_DOWN	NA	Aggregatibacter	Allobaculum	Bacteroides	Capnocytophaga	Corynebacterium	Flavobacterium	Flexispira	Haemophilus	Lacticaseibacillus	Lactobacillus	Porphyromonas	Prevotella	Sharpea	Sphingopyxis	Streptococcus	Treponema	Mediterraneibacter
 bsdb:267/5/1_atopic-asthma:post-inhaled-corticosteroid-treatment_vs_baseline_UP	NA	Neisseria	Moraxella
 bsdb:267/5/2_atopic-asthma:post-inhaled-corticosteroid-treatment_vs_baseline_DOWN	NA	Fusobacterium	Dialister
 bsdb:267/6/1_atopic-asthma:post-placebo-treatment_vs_baseline_UP	NA	Eikenella
@@ -1118,7 +1118,7 @@ bsdb:327/1/1_antimicrobial-agent:infants-received-short-term(<3days)-antibiotic-
 bsdb:327/1/2_antimicrobial-agent:infants-received-short-term(<3days)-antibiotic-treatment_vs_control(no-treatment)_DOWN	NA	Escherichia	Streptococcus
 bsdb:327/2/1_antimicrobial-agent:infants-received-long-term(>5days)-antibiotic-treatment_vs_control(no-treatment)_UP	NA	Lactobacillus	Enterococcus
 bsdb:327/2/2_antimicrobial-agent:infants-received-long-term(>5days)-antibiotic-treatment_vs_control(no-treatment)_DOWN	NA	Escherichia	Streptococcus
-bsdb:328/1/1_psoriatic-arthritis:psoriatic-arthiritis_vs_healthy-controls_DOWN	NA	Akkermansia	Pseudobutyrivibrio	Ruminococcus	Coprococcus
+bsdb:328/1/1_psoriatic-arthritis:psoriatic-arthiritis_vs_healthy-controls_DOWN	NA	Akkermansia	Coprococcus	Pseudobutyrivibrio	Ruminococcus
 bsdb:328/2/1_psoriatic-arthritis:skin-psoriasis_vs_healthy-controls_DOWN	NA	Parabacteroides	Coprobacillus	Coprococcus
 bsdb:328/3/1_psoriatic-arthritis:psoriatic-arthiritis_vs_skin-psoriasis_UP	NA	Coprobacillus
 bsdb:329/1/1_antimicrobial-agent:Postnatal-antibiotic-group-(2-day-old-infant)_vs_control-group_UP	NA	Lactobacillus
@@ -1270,12 +1270,12 @@ bsdb:376/2/1_antimicrobial-agent:patients-that-took-levofloxacin/Metronidazole_v
 bsdb:376/3/1_antimicrobial-agent:patients-that-took-Piperacilin/Tazobactam_vs_before-antibiotic-exposure_UP	NA	Bacteroides
 bsdb:376/4/1_antimicrobial-agent:patients-that-took-Ceftriaxone/Azithromycin_vs_before-antibiotic-exposure_UP	NA	Bacteroides
 bsdb:376/5/1_antimicrobial-agent:patients-that-took-Ciprofloxacin_vs_before-antibiotic-exposure_UP	NA	Bacteroides
-bsdb:377/1/1_smoking-behavior:never-smoker_vs_E-cigarette-smoker_UP	NA	Streptococcus	Porphyromonas	Fusobacterium	Prevotella	Lautropia	Lachnoanaerobaculum	Oribacterium	Peptococcus
-bsdb:377/1/2_smoking-behavior:never-smoker_vs_E-cigarette-smoker_DOWN	NA	Prevotella	Neisseria	Selenomonas	Mitsuokella	Alloscardovia	Slackia	Porphyromonas	Fretibacterium	Lactococcus	Parvimonas	Filifactor	Oribacterium	Fusobacterium	Staphylococcus	Veillonella
-bsdb:377/2/1_smoking-behavior:never-smoker_vs_cigarette-smoker_UP	NA	Porphyromonas	Fusobacterium	Veillonella	Lautropia	Prevotella	Haemophilus	Oribacterium	Granulicatella	Capnocytophaga	Neisseria	Lachnoanaerobaculum	Abiotrophia	Peptostreptococcus	Catonella	Solobacterium	Streptococcus	Cardiobacterium	Ottowia	Corynebacterium	Peptococcus	Rothia	Eikenella	Actinomyces
-bsdb:377/2/2_smoking-behavior:never-smoker_vs_cigarette-smoker_DOWN	NA	Actinomyces	Alloscardovia	Desulfobulbus	Filifactor	Fretibacterium	Fusobacterium	Lactobacillus	Lactococcus	Megasphaera	Mitsuokella	Oribacterium	Parvimonas	Peptoniphilus	Porphyromonas	Prevotella	Pyramidobacter	Scardovia	Selenomonas	Slackia	Streptococcus	Treponema	Veillonella
-bsdb:377/3/1_smoking-behavior:E-cigarette-smoker_vs_cigarette-smoker_UP	NA	Veillonella	Porphyromonas	Fusobacterium	Lautropia	Capnocytophaga	Neisseria	Prevotella	Haemophilus	Peptostreptococcus	Cardiobacterium	Catonella	Eikenella	Rothia	Corynebacterium	Peptococcus
-bsdb:377/3/2_smoking-behavior:E-cigarette-smoker_vs_cigarette-smoker_DOWN	NA	Alloscardovia	Desulfobotulus	Actinomyces	Megasphaera	Prevotella	Streptococcus
+bsdb:377/1/1_smoking-behavior:e-cigarette-smokers_vs_non-smokers_DOWN	NA	Fusobacterium	Lachnoanaerobaculum	Lautropia	Oribacterium	Peptococcus	Prevotella	Streptococcus	Porphyromonas
+bsdb:377/1/2_smoking-behavior:e-cigarette-smokers_vs_non-smokers_UP	NA	Alloscardovia	Filifactor	Fretibacterium	Fusobacterium	Lactococcus	Mitsuokella	Neisseria	Oribacterium	Parvimonas	Porphyromonas	Prevotella	Selenomonas	Slackia	Staphylococcus	Veillonella
+bsdb:377/2/1_smoking-behavior:cigarette-smokers_vs_never-smokers_UP	NA	Abiotrophia	Actinomyces	Capnocytophaga	Cardiobacterium	Catonella	Corynebacterium	Eikenella	Fusobacterium	Granulicatella	Haemophilus	Lachnoanaerobaculum	Lautropia	Neisseria	Oribacterium	Ottowia	Peptococcus	Peptostreptococcus	Porphyromonas	Prevotella	Rothia	Solobacterium	Streptococcus	Veillonella
+bsdb:377/2/2_smoking-behavior:cigarette-smokers_vs_never-smokers_DOWN	NA	Actinomyces	Alloscardovia	Desulfobulbus	Filifactor	Fretibacterium	Fusobacterium	Lactobacillus	Lactococcus	Megasphaera	Mitsuokella	Oribacterium	Parvimonas	Peptoniphilus	Porphyromonas	Prevotella	Pyramidobacter	Scardovia	Selenomonas	Slackia	Streptococcus	Treponema	Veillonella
+bsdb:377/3/1_smoking-behavior:E-cigarette-smoker_vs_cigarette-smoker_UP	NA	Capnocytophaga	Cardiobacterium	Catonella	Corynebacterium	Eikenella	Fusobacterium	Haemophilus	Lautropia	Neisseria	Peptococcus	Peptostreptococcus	Porphyromonas	Prevotella	Rothia	Veillonella
+bsdb:377/3/2_smoking-behavior:E-cigarette-smoker_vs_cigarette-smoker_DOWN	NA	Actinomyces	Alloscardovia	Desulfobotulus	Megasphaera	Prevotella	Streptococcus
 bsdb:378/1/1_graft-versus-host-disease:Severe-acute-graft-versus-host-disease_vs_non-acute-graft-versus-host-disease_UP	NA	Lautropia	Stenotrophomonas	Lactococcus
 bsdb:378/1/2_graft-versus-host-disease:Severe-acute-graft-versus-host-disease_vs_non-acute-graft-versus-host-disease_DOWN	NA	Lachnoclostridium	Blautia	Sellimonas	Gemella	Flavonifractor	Oscillibacter	Erysipelatoclostridium	Anaerostipes	Intestinimonas	Ruminiclostridium
 bsdb:378/2/1_graft-versus-host-disease:Severe-acute-graft-versus-host-disease_vs_non-acute-graft-versus-host-disease_UP	NA	Stenotrophomonas
@@ -1366,13 +1366,13 @@ bsdb:404/1/2_atopic-eczema:patient-with-atopic-dermatitis_vs_healthy-control_DOW
 bsdb:404/2/1_atopic-eczema:patient-with-atopic-dermatitis_vs_healthy-control_UP	NA	Ruminococcus
 bsdb:404/2/2_atopic-eczema:patient-with-atopic-dermatitis_vs_healthy-control_DOWN	NA	Turicibacter	Coprobacillus
 bsdb:404/3/1_atopic-eczema:patient-with-atopic-dermatitis_vs_healthy-control_UP	NA	Robinsoniella
-bsdb:404/3/2_atopic-eczema:patient-with-atopic-dermatitis_vs_healthy-control_DOWN	NA	Paraprevotella	Anaerotruncus	Butyricimonas	Collinsella	Coprococcus	Holdemania
+bsdb:404/3/2_atopic-eczema:patient-with-atopic-dermatitis_vs_healthy-control_DOWN	NA	Anaerotruncus	Butyricimonas	Collinsella	Coprococcus	Holdemania	Paraprevotella
 bsdb:405/1/1_asthma:child-with-asthma-at-5-years-old_vs_no-asthma-at-5-years-old_UP	NA	Veillonella
 bsdb:405/1/2_asthma:child-with-asthma-at-5-years-old_vs_no-asthma-at-5-years-old_DOWN	NA	Roseburia	Alistipes	Flavonifractor
 bsdb:405/2/1_asthma:child-with-asthma-at-5-years-old-among-mothers-with-asthma_vs_no-asthma-at-5-years-old_UP	NA	Veillonella
 bsdb:405/2/2_asthma:child-with-asthma-at-5-years-old-among-mothers-with-asthma_vs_no-asthma-at-5-years-old_DOWN	NA	Faecalibacterium	Bifidobacterium	Roseburia	Alistipes	Ruminococcus	Dialister
-bsdb:406/1/1_lung-cancer:non-smoking-female-lung-cancer-patients_vs_healthy-controls_UP	NA	Sphingomonas	Blastomonas	Herbaspirillum
-bsdb:406/1/2_lung-cancer:non-smoking-female-lung-cancer-patients_vs_healthy-controls_DOWN	NA	Comamonas	Chryseobacterium	Streptococcus	Acinetobacter
+bsdb:406/1/1_lung-cancer:non-smoking-female-lung-cancer-patients_vs_healthy-controls_UP	NA	Blastomonas	Herbaspirillum	Sphingomonas
+bsdb:406/1/2_lung-cancer:non-smoking-female-lung-cancer-patients_vs_healthy-controls_DOWN	NA	Acinetobacter	Chryseobacterium	Comamonas	Streptococcus
 bsdb:407/1/1_peptic-esophagitis:reflux-esophagus-patients_vs_healthy-controls_UP	NA	Solobacterium	Eubacterium	Oribacterium	Lachnoanaerobaculum	Atopobium	Peptostreptococcus	Megasphaera	Veillonella	Prevotella
 bsdb:407/1/2_peptic-esophagitis:reflux-esophagus-patients_vs_healthy-controls_DOWN	NA	Aggregatibacter	Campylobacter	Corynebacterium	Eikenella	Filifactor	Gardnerella	Gemella	Granulicella	Hallella	Johnsonella	Lactivibrio	Neisseria	Pseudoramibacter	Rothia	Streptococcus	Treponema	Wolinella
 bsdb:408/2/1_asthma:asthma-at-1-year_vs_healthy-controls_UP	NA	Rothia
@@ -1968,11 +1968,13 @@ bsdb:637/3/1_colorectal-cancer:CRC_vs_CRA_UP	NA	Aggregatibacter	Anaerococcus	Cam
 bsdb:637/3/2_colorectal-cancer:CRC_vs_CRA_DOWN	NA	Blautia	Gemmiger	Streptococcus	Xanthomonas	Megamonas	Gemmatimonas
 bsdb:639/1/1_socioeconomic-status:underdeveloped-cities-vs-developed-cities_vs_NA_UP	NA	Bacteroides	Parabacteroides	Ruminococcus
 bsdb:639/1/2_socioeconomic-status:underdeveloped-cities-vs-developed-cities_vs_NA_DOWN	NA	Prevotella	Ruminococcus
+bsdb:641/1/1_Arthritis:Early-Rheumatoid-Arthritis_vs_healthy-control_DOWN	NA	Porphyromonas	Fusobacterium	Veillonella
+bsdb:641/1/2_Arthritis:Early-Rheumatoid-Arthritis_vs_healthy-control_UP	NA	Neisseria	Prevotella	Veillonella
 bsdb:642/2/2_socioeconomic-status:Orang-Asli-Children-(low-SES,-household-income<RM500)_vs_Chinese-Children-(High-SES,-household-income->RM500)_DOWN	NA	Alistipes
 bsdb:643/1/1_colorectal-cancer:yCRC_vs_yControl_UP	NA	Actinomyces	Flavonifractor	Fusobacterium	Odoribacter	Veillonella
 bsdb:643/1/2_colorectal-cancer:yCRC_vs_yControl_DOWN	NA	Agathobacter	Anaerobutyricum	Anaerostipes	Blautia	Butyricicoccus	Clostridium	Dialister	Escherichia	Eubacterium	Haemophilus	Klebsiella	Megamonas	Parasutterella	Romboutsia	Shigella
 bsdb:643/2/1_colorectal-cancer:oCRC_vs_oControls_DOWN	NA	Agathobacter	Anaerostipes	Bilophila	Blautia	Butyricicoccus	Clostridium	Collinsella	Coprococcus	Eubacterium	Faecalibacterium	Fusicatenibacter	Lachnospira	Monoglobus	Parasutterella	Phascolarctobacterium	Romboutsia	Roseburia	Ruminococcus	Subdoligranulum
-bsdb:643/2/2_colorectal-cancer:oCRC_vs_oControls_UP	NA	Escherichia	Eggerthella	Enterocloster	Lachnoclostridium	Brevundimonas	Haemophilus	Hungatella	Erysipelatoclostridium	Peptostreptococcus	Faecalibacterium	Gemella	Parvimonas	Fusobacterium	Streptococcus	Shigella
+bsdb:643/2/2_colorectal-cancer:oCRC_vs_oControls_UP	NA	Brevundimonas	Eggerthella	Enterocloster	Erysipelatoclostridium	Escherichia	Faecalibacterium	Fusobacterium	Gemella	Haemophilus	Hungatella	Lachnoclostridium	Parvimonas	Peptostreptococcus	Shigella	Streptococcus
 bsdb:644/1/1_Colorectal-adenoma:colorectal-adenoma_vs_healthy-controls_UP	NA	Escherichia	Parvimonas	Peptostreptococcus	Prevotella	Blautia	Bacteroides
 bsdb:644/1/2_Colorectal-adenoma:colorectal-adenoma_vs_healthy-controls_DOWN	NA	Faecalibacterium	Blautia	Bacteroides	Coprococcus	Prevotella
 bsdb:644/2/1_colorectal-cancer:colorectal-cancer_vs_healthy-controls_UP	NA	Bacteroides	Fusobacterium	Parvimonas	Granulicatella	Peptostreptococcus	Pseudomonas	Prevotella	Oscillospira	Aggregatibacter	Porphyromonas	Campylobacter
@@ -2047,8 +2049,8 @@ bsdb:667/1/1_hepatocellular-carcinoma:Responders_vs_Non-responders_UP	NA	Faecali
 bsdb:667/1/2_hepatocellular-carcinoma:Responders_vs_Non-responders_DOWN	NA	Collinsella	Bacteroides	Oleidesulfovibrio	Prevotella	Gardnerella
 bsdb:669/1/1_ethnic-group,socioeconomic-status:Rural-African-Children-in-Burkina-Faso_vs_European-Children-in-Italy_UP	NA	Prevotella
 bsdb:669/1/2_ethnic-group,socioeconomic-status:Rural-African-Children-in-Burkina-Faso_vs_European-Children-in-Italy_DOWN	NA	Acetitomaculum	Faecalibacterium	Roseburia	Subdoligranulum	Alistipes	Bacteroides
-bsdb:670/1/1_socioeconomic-status,ethnic-group:Bangladesh-Children-(Household-income-<-$61)_vs_US-children_UP	NA	Butyrivibrio
-bsdb:670/1/2_socioeconomic-status,ethnic-group:Bangladesh-Children-(Household-income-<-$61)_vs_US-children_DOWN	NA	Bacteroides	Faecalibacterium
+bsdb:670/1/1_socioeconomic-status,Ethnic-group:Bangladesh-Children-(Household-income-<-$61)_vs_US-children_UP	NA	Butyrivibrio
+bsdb:670/1/2_socioeconomic-status,Ethnic-group:Bangladesh-Children-(Household-income-<-$61)_vs_US-children_DOWN	NA	Bacteroides	Faecalibacterium
 bsdb:671/1/1_socioeconomic-status:30-Months-exposure-(maternal-education-as-proxy)_vs_18-months-exposure-(maternal-education-as-proxy)_UP	NA	Prevotella	Faecalibacterium	Roseburia	Subdoligranulum	Bacteroides	Eubacterium	Oscillibacter	Succinivibrio
 bsdb:671/1/2_socioeconomic-status:30-Months-exposure-(maternal-education-as-proxy)_vs_18-months-exposure-(maternal-education-as-proxy)_DOWN	NA	Ruminococcus	Lactobacillus	Streptococcus	Bifidobacterium	Megasphaera	Dialister	Subdoligranulum
 bsdb:674/1/1_socioeconomic-status:Low-SES_vs_High-SES_UP	NA	Catenibacterium	Bulleidia	Mogibacterium	Prevotella	Eubacterium	Dorea
@@ -2163,3 +2165,7 @@ bsdb:707/1/1_Arthritis:Rheumatoid-Arthritis_vs_healthy-controls_UP	NA	Anaeroglob
 bsdb:707/1/2_Arthritis:Rheumatoid-Arthritis_vs_healthy-controls_DOWN	NA	Corynebacterium
 bsdb:709/1/1_Arthritis:Early-Rheumatoid-Arthritis_vs_Healthy-Controls_DOWN	NA	Oribacterium	Catonella	Veillonella	Campylobacter
 bsdb:709/1/2_Arthritis:Early-Rheumatoid-Arthritis_vs_Healthy-Controls_UP	NA	Alloprevotella	Campylobacter	Capnocytophaga	Dialister	Filifactor	Porphyromonas	Prevotella	Stomatobaculum	Treponema
+bsdb:712/1/1_Arthritis:Rheumatoid-Arthritis_vs_healthy-controls_DOWN	NA	Prevotella	Porphyromonas	Leptotrichia	Veillonella	Granulicatella	Fusobacterium	Treponema
+bsdb:712/1/2_Arthritis:Rheumatoid-Arthritis_vs_healthy-controls_UP	NA	Streptococcus	Rothia	Prevotella	Leptotrichia	Selenomonas
+bsdb:713/1/1_Arthritis:Juvenile-Idiopathic-Arthritis_vs_healthy-controls_DOWN	NA	Actinomyces	Corynebacterium	Leptotrichia
+bsdb:713/1/2_Arthritis:Juvenile-Idiopathic-Arthritis_vs_healthy-controls_UP	NA	Streptococcus	Haemophilus	Leptotrichia

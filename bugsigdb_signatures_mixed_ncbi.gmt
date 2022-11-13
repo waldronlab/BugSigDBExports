@@ -1,4 +1,4 @@
-# BugSigDB 2022-11-06, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2022-11-13, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_adenoma:conventional-adenoma-cases_vs_controls_UP	NA	91061	1236	1654	1716	1301	162289	189330	33024	40544	2037	2049	506	186826	1300	31977	91347	1653	57037	1386	186817
 bsdb:1/1/2_adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	100883	1117
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	207244	57037
@@ -581,9 +581,10 @@ bsdb:161/1/2_lung-cancer:NSCLC_vs_healthy-controls_DOWN	NA	976	216851	816	838	12
 bsdb:161/2/1_lung-cancer:NSCLC_vs_healthy-controls_UP	NA	1224	28216	80840	91061	1300	1301	186826	119060	47670
 bsdb:161/2/2_lung-cancer:NSCLC_vs_healthy-controls_DOWN	NA	171551	838	28132	171552	976	200643	171549
 bsdb:162/1/1_lung-cancer:lung-cancer-group_vs_healthy-control_DOWN	NA	186803
-bsdb:162/2/1_lung-cancer:CEA-group_vs_others_UP	NA	815	1300
-bsdb:162/3/1_lung-cancer:NSE-group_vs_others_UP	NA	543	203492	203557
-bsdb:162/4/1_lung-cancer:CYF-group_vs_healthy-controls_UP	NA	171552	31977
+bsdb:162/2/1_lung-cancer:CEA-group_vs_controls-+-other-lung-cancer-groups_UP	NA	815	1300
+bsdb:162/3/1_lung-cancer:NSE-group_vs_controls-+-other-lung-cancer-groups_UP	NA	543	203492	203557
+bsdb:162/4/1_lung-cancer:CYF-group_vs_healthy-controls_UP	NA	543	203492	203557
+bsdb:162/5/1_lung-cancer:CYF-group_vs_healthy-controls-+-other-lung-cancer-groups_UP	NA	171552	31977
 bsdb:163/1/1_squamous-cell-carcinoma:Oropharyngeal-Squamous-Cell-Carcinoma_vs_Healthy-Controls_UP	NA	1129771	872	55506	437755	157	1678	1654	970
 bsdb:163/1/2_squamous-cell-carcinoma:Oropharyngeal-Squamous-Cell-Carcinoma_vs_Healthy-Controls_DOWN	NA	712	43996	29465	482	1301	838	724	171552
 bsdb:163/2/1_squamous-cell-carcinoma:Oropharyngeal-Squamous-Cell-Carcinoma_vs_Healthy-Controls_UP	NA	1224	137	136	203691	146	201174	28221	28211	976	200643	171549	909929	909932	526525	526524	171552	712	117747	200666	85004	49546	200644	117743	29465	31977	1653	135624	83763
@@ -699,8 +700,8 @@ bsdb:194/1/1_ovarian-cancer:ovarian-cancer_vs_normal-tissue_UP	NA	1239	201174	57
 bsdb:194/1/2_ovarian-cancer:ovarian-cancer_vs_normal-tissue_DOWN	NA	1224	212791	283	1279	165695	407	106589	586	215579	504481	12916	13687	469	34062	13690	333965	28090	330920
 bsdb:195/1/1_chronic-hepatitis-b-virus-infection:chronic-hepatitis-B_vs_healthy-controls_UP	NA	543	91347	629	135614	44259	32033	186804	186802	186801
 bsdb:195/1/2_chronic-hepatitis-b-virus-infection:chronic-hepatitis-B_vs_healthy-controls_DOWN	NA	1129771	32067	200644	49546	117743	1016
-bsdb:195/2/1_chronic-hepatitis-b-virus-infection:chronic-hepatitis-B_vs_liver-cirrhosis_UP	NA	44259	157	137	136	203691	203692
-bsdb:195/2/2_chronic-hepatitis-b-virus-infection:chronic-hepatitis-B_vs_liver-cirrhosis_DOWN	NA	28216	481	206351	482
+bsdb:195/2/1_chronic-hepatitis-b-virus-infection:chronic-hepatitis-B_vs_liver-cirrhosis_UP	NA	44259	137	136	203691	203692	157
+bsdb:195/2/2_chronic-hepatitis-b-virus-infection:chronic-hepatitis-B_vs_liver-cirrhosis_DOWN	NA	28216	482	481	206351
 bsdb:196/1/1_Henoch-Schoenlein-purpura:Henoch-Schönlein-Purpura_vs_controls_UP	NA	29465	203490	32066	203491	1350	81852	31977	158846	171551	375288
 bsdb:196/1/2_Henoch-Schoenlein-purpura:Henoch-Schönlein-Purpura_vs_controls_DOWN	NA	506	28216	80840	990719	186801	39948	186802	1239	724	570	28050	39485	186803	577310	712	135625	841	1508657	1263	1300	1301	39491
 bsdb:197/1/1_asthma:severe-asthma_vs_non-asthma_UP	NA	239759	207244	816	1016	1432051	1730	216851	946234	5277	283168	459786	375288	4753	5533	1501226	841	1263
@@ -767,7 +768,7 @@ bsdb:214/1/11_milk-allergic-reaction:children-with-milk-allergy-persistence_vs_m
 bsdb:214/1/12_milk-allergic-reaction:children-with-milk-allergy-persistence_vs_milk-allergy-resolution_DOWN	NA	186804	31979	1730	572511	186802	186801	1239
 bsdb:215/1/1_Eczema:infants-with-eczema_vs_healthy-control-infants_UP	NA	239934	239935	207244	2157	626929	35832	33042	28141	213119	872	547	216851	853	946234	204475	745368	186803	541000	186822	44249	375288	46503	577309	33024	310297	171551	836	28126	82115	379	841	29465	203557	33038	561	620	1485
 bsdb:215/1/2_Eczema:infants-with-eczema_vs_healthy-control-infants_DOWN	NA	909930	904	209879	156454	244127	817	31953	1678	1681	1679	43668	85019	1696	580596	186828	31979	1485	102106	84107	1653	1716	85020	39948	189330	538	128827	526524	117563	724	1735	570	33958	1578	906	459786	712	186804	838	171552	1263	90964	1300	1301	1304	40544	191303	31977
-bsdb:216/1/1_cesarean-section:C-section_vs_vaginal-delivery_DOWN	NA	817	28116	821	47678	1679	1380	1686	1350	1502
+bsdb:216/1/1_cesarean-section:C-section_vs_vaginal-delivery_DOWN	NA	1380	47678	817	28116	1686	1679	1502	1350	821	1681	1596	1598
 bsdb:217/1/1_Eczema:child-with-eczema_vs_healthy-control_UP	NA	40518	29361	46228	1535	29343
 bsdb:217/1/2_Eczema:child-with-eczema_vs_healthy-control_DOWN	NA	817	28116	310297	46506	820	821	76122	976
 bsdb:217/2/1_age:infant-at-18-months_vs_infant-at-6-months_UP	NA	NA
@@ -1011,12 +1012,12 @@ bsdb:265/2/2_human-papilloma-virus-infection:HPV+_vs_HPV-_DOWN	NA	29465
 bsdb:265/3/1_human-papilloma-virus-infection:HPV+_vs_HPV--at-two-months_DOWN	NA	31977	39778
 bsdb:266/1/1_diet:healthy-vegetarian_vs_healthy-non-vegetarian_UP	NA	171552	838	570
 bsdb:266/1/2_diet:healthy-vegetarian_vs_healthy-non-vegetarian_DOWN	NA	171551	203557	171550	815	375288	816	239759	239934
-bsdb:267/1/1_atopic-asthma:atopic-asthma_vs_healthy-control_UP	NA	848	724	482	1654	838	157	29465	109326	836	194	32257	165697	76122	39778	59892	117207	165179	28449	147802
-bsdb:267/1/2_atopic-asthma:atopic-asthma_vs_healthy-control_DOWN	NA	407	1257	1578	713	32067	71999	57037
-bsdb:267/2/1_atopic-asthma:atopic-no-asthma_vs_healthy-control_UP	NA	416916	848	117563	1716	1654	970	2353	724	29465	475	519427	165697	739	28132	39778	117207	425941	59892	727
-bsdb:267/2/2_atopic-asthma:atopic-no-asthma_vs_healthy-control_DOWN	NA	1578	1301	286	209	543311	838	836	32067	57037
-bsdb:267/3/1_atopic-asthma:atopic-asthma_vs_atopic-no-asthma_UP	NA	32067	848	838	970	724	2093	39948	28449	28131
-bsdb:267/3/2_atopic-asthma:atopic-asthma_vs_atopic-no-asthma_DOWN	NA	165697	519427	1578	174708	1301	836	2353	1716	416916	739	996	425941	817	59892	727	729	165179	1018	33038	117207	57037
+bsdb:267/1/1_atopic-asthma:atopic-asthma_vs_healthy-control_UP	NA	1654	76122	109326	194	848	724	32257	147802	482	28449	836	838	165179	165697	117207	157	59892	29465	39778
+bsdb:267/1/2_atopic-asthma:atopic-asthma_vs_healthy-control_DOWN	NA	713	71999	57037	1578	32067	407	1257
+bsdb:267/2/1_atopic-asthma:atopic-no-asthma_vs_healthy-control_UP	NA	1654	416916	739	1716	2353	848	117563	724	727	475	28132	425941	970	519427	165697	117207	59892	29465	39778
+bsdb:267/2/2_atopic-asthma:atopic-no-asthma_vs_healthy-control_DOWN	NA	209	57037	1578	32067	543311	836	838	286	1301
+bsdb:267/3/1_atopic-asthma:atopic-asthma_vs_atopic-no-asthma_UP	NA	39948	848	724	32067	2093	28449	838	28131	970
+bsdb:267/3/2_atopic-asthma:atopic-asthma_vs_atopic-no-asthma_DOWN	NA	416916	739	174708	817	1018	1716	996	2353	727	729	57037	1578	836	165179	425941	519427	165697	117207	1301	59892	33038
 bsdb:267/4/1_atopic-asthma:inhaled-corticosteroid-responder_vs_nonresponder_UP	NA	128827	481	31977	186803	41297	468	186804	203492	1300
 bsdb:267/4/2_atopic-asthma:inhaled-corticosteroid-responder_vs_nonresponder_DOWN	NA	85023	712	171551	137	171552	49546	33958	2092	186827	2049	351
 bsdb:267/5/1_atopic-asthma:post-inhaled-corticosteroid-treatment_vs_baseline_UP	NA	85023	482	475	137	2049	2092
@@ -1284,10 +1285,10 @@ bsdb:327/1/1_antimicrobial-agent:infants-received-short-term(<3days)-antibiotic-
 bsdb:327/1/2_antimicrobial-agent:infants-received-short-term(<3days)-antibiotic-treatment_vs_control(no-treatment)_DOWN	NA	561	1301
 bsdb:327/2/1_antimicrobial-agent:infants-received-long-term(>5days)-antibiotic-treatment_vs_control(no-treatment)_UP	NA	1578	1350
 bsdb:327/2/2_antimicrobial-agent:infants-received-long-term(>5days)-antibiotic-treatment_vs_control(no-treatment)_DOWN	NA	561	1301
-bsdb:328/1/1_psoriatic-arthritis:psoriatic-arthiritis_vs_healthy-controls_DOWN	NA	186801	203494	74201	239934	48461	46205	1263	33042
+bsdb:328/1/1_psoriatic-arthritis:psoriatic-arthiritis_vs_healthy-controls_DOWN	NA	239934	186801	33042	46205	1263	74201	203494	48461
 bsdb:328/2/1_psoriatic-arthritis:skin-psoriasis_vs_healthy-controls_DOWN	NA	171551	375288	186801	128827	526524	1760	201174	100883	526525	33042	186803	541000	976
 bsdb:328/3/1_psoriatic-arthritis:psoriatic-arthiritis_vs_skin-psoriasis_UP	NA	100883	976
-bsdb:328/3/2_psoriatic-arthritis:psoriatic-arthiritis_vs_skin-psoriasis_DOWN	NA	1239	186801	186802	203557	74201
+bsdb:328/3/2_psoriatic-arthritis:psoriatic-arthiritis_vs_skin-psoriasis_DOWN	NA	186801	186802	1239	74201	203557
 bsdb:329/1/1_antimicrobial-agent:Postnatal-antibiotic-group-(2-day-old-infant)_vs_control-group_UP	NA	1578
 bsdb:329/1/2_antimicrobial-agent:Postnatal-antibiotic-group-(2-day-old-infant)_vs_control-group_DOWN	NA	816
 bsdb:329/2/1_antimicrobial-agent:IAP-group-(4-day-old-infant)_vs_control-group_DOWN	NA	816
@@ -1467,12 +1468,12 @@ bsdb:376/4/1_antimicrobial-agent:patients-that-took-Ceftriaxone/Azithromycin_vs_
 bsdb:376/4/2_antimicrobial-agent:patients-that-took-Ceftriaxone/Azithromycin_vs_before-antibiotic-exposure_DOWN	NA	1239
 bsdb:376/5/1_antimicrobial-agent:patients-that-took-Ciprofloxacin_vs_before-antibiotic-exposure_UP	NA	816	976
 bsdb:376/5/2_antimicrobial-agent:patients-that-took-Ciprofloxacin_vs_before-antibiotic-exposure_DOWN	NA	1239
-bsdb:377/1/1_smoking-behavior:never-smoker_vs_E-cigarette-smoker_UP	NA	1303	836	860	59823	47671	979627	1501329	68766	2049038
-bsdb:377/1/2_smoking-behavior:never-smoker_vs_E-cigarette-smoker_DOWN	NA	310514	267212	671224	135079	2049034	31977	59823	419015	84109	281920	651822	1358	186802	33033	143361	1969407	28135	851	28124	29388	39778
-bsdb:377/2/1_smoking-behavior:never-smoker_vs_cigarette-smoker_UP	NA	1583331	860	423477	47671	59823	735	1501329	137732	1019	1107316	979627	46125	726	327575	341694	43997	102148	1303	541000	1017	2718	45243	1898956	61592	2049038	43675	740	539	52769	192066
-bsdb:377/2/2_smoking-behavior:never-smoker_vs_cigarette-smoker_DOWN	NA	114702	419015	895	186802	143361	651822	851	1596	1358	187326	2023260	2049034	31969	1969407	33033	33031	28124	281920	28129	28131	439703	310514	28134	28135	28136	59823	28137	638849	230143	671224	135079	84109	1318	158	51160	166	39777	39778	1926307	31977
-bsdb:377/3/1_smoking-behavior:E-cigarette-smoker_vs_cigarette-smoker_UP	NA	423477	1583331	860	47671	541000	1019	1107316	1017	59823	726	341694	2718	43997	539	192066	45243	43675	61592	740	2049038
-bsdb:377/3/2_smoking-behavior:E-cigarette-smoker_vs_cigarette-smoker_DOWN	NA	419015	1940337	114702	187326	59823	1318
+bsdb:377/1/1_smoking-behavior:e-cigarette-smokers_vs_non-smokers_DOWN	NA	860	68766	979627	47671	1501329	2049038	59823	1303	1583331
+bsdb:377/1/2_smoking-behavior:e-cigarette-smokers_vs_non-smokers_UP	NA	419015	186802	143361	651822	851	1358	2049034	267212	1969407	33033	28124	281920	310514	28135	59823	671224	135079	84109	29388	39778	31977	152509
+bsdb:377/2/1_smoking-behavior:cigarette-smokers_vs_never-smokers_UP	NA	46125	52769	1017	45243	327575	1019	2718	43997	61592	539	860	137732	726	735	740	979627	47671	1107316	192066	1501329	541000	1898956	2049038	341694	1583331	59823	43675	102148	1303	423477
+bsdb:377/2/2_smoking-behavior:cigarette-smokers_vs_never-smokers_DOWN	NA	114702	419015	895	186802	143361	651822	851	1596	1358	187326	2023260	2049034	31969	1969407	33033	33031	28124	281920	28129	28131	439703	310514	28134	28135	28136	59823	28137	638849	230143	671224	135079	84109	1318	158	51160	166	39777	39778	1926307	31977
+bsdb:377/3/1_smoking-behavior:E-cigarette-smoker_vs_cigarette-smoker_UP	NA	1017	45243	1019	2718	43997	61592	539	860	726	740	47671	1107316	192066	541000	2049038	341694	1583331	59823	43675	423477
+bsdb:377/3/2_smoking-behavior:E-cigarette-smoker_vs_cigarette-smoker_DOWN	NA	114702	419015	1940337	187326	59823	1318
 bsdb:378/1/1_graft-versus-host-disease:Severe-acute-graft-versus-host-disease_vs_non-acute-graft-versus-host-disease_UP	NA	47670	32033	40323	135614	1357
 bsdb:378/1/2_graft-versus-host-disease:Severe-acute-graft-versus-host-disease_vs_non-acute-graft-versus-host-disease_DOWN	NA	186802	186801	186803	541000	1506553	572511	1769710	1378	946234	459786	28211	204441	1505663	207244	1392389	1508657
 bsdb:378/2/1_graft-versus-host-disease:Severe-acute-graft-versus-host-disease_vs_non-acute-graft-versus-host-disease_UP	NA	40323
@@ -1576,14 +1577,14 @@ bsdb:404/1/1_atopic-eczema:patient-with-atopic-dermatitis_vs_healthy-control_UP	
 bsdb:404/1/2_atopic-eczema:patient-with-atopic-dermatitis_vs_healthy-control_DOWN	NA	561	620	543
 bsdb:404/2/1_atopic-eczema:patient-with-atopic-dermatitis_vs_healthy-control_UP	NA	1263
 bsdb:404/2/2_atopic-eczema:patient-with-atopic-dermatitis_vs_healthy-control_DOWN	NA	191303	100883
-bsdb:404/3/1_atopic-eczema:patient-with-atopic-dermatitis_vs_healthy-control_UP	NA	588605	186804
-bsdb:404/3/2_atopic-eczema:patient-with-atopic-dermatitis_vs_healthy-control_DOWN	NA	171551	577309	244127	574697	541000	102106	33042	186802	61170
+bsdb:404/3/1_atopic-eczema:patient-with-atopic-dermatitis_vs_healthy-control_UP	NA	186804	588605
+bsdb:404/3/2_atopic-eczema:patient-with-atopic-dermatitis_vs_healthy-control_DOWN	NA	244127	574697	102106	33042	186802	61170	541000	577309	171551
 bsdb:405/1/1_asthma:child-with-asthma-at-5-years-old_vs_no-asthma-at-5-years-old_UP	NA	29465
 bsdb:405/1/2_asthma:child-with-asthma-at-5-years-old_vs_no-asthma-at-5-years-old_DOWN	NA	841	239759	946234
 bsdb:405/2/1_asthma:child-with-asthma-at-5-years-old-among-mothers-with-asthma_vs_no-asthma-at-5-years-old_UP	NA	29465
 bsdb:405/2/2_asthma:child-with-asthma-at-5-years-old-among-mothers-with-asthma_vs_no-asthma-at-5-years-old_DOWN	NA	216851	1678	841	239759	1263	39948
-bsdb:406/1/1_lung-cancer:non-smoking-female-lung-cancer-patients_vs_healthy-controls_UP	NA	1224	41297	204457	200644	117743	13687	75787	150203	963	75682
-bsdb:406/1/2_lung-cancer:non-smoking-female-lung-cancer-patients_vs_healthy-controls_DOWN	NA	283	80864	32033	351	135614	59732	80840	28216	976	91061	1301	1300	186826	1239	91347	543	469
+bsdb:406/1/1_lung-cancer:non-smoking-female-lung-cancer-patients_vs_healthy-controls_UP	NA	150203	200644	117743	963	75682	1224	75787	41297	204457	13687	2762318	206389
+bsdb:406/1/2_lung-cancer:non-smoking-female-lung-cancer-patients_vs_healthy-controls_DOWN	NA	469	91061	976	28216	80840	59732	80864	283	91347	543	1239	186826	1300	1301	32033	135614	135621
 bsdb:407/1/1_peptic-esophagitis:reflux-esophagus-patients_vs_healthy-controls_UP	NA	123375	186806	1730	265975	1164882	186804	84107	84999	1380	1257	906	186803	119045	29465	171552	31977	838	909932	909929	200643	171549	976
 bsdb:407/1/2_peptic-esophagitis:reflux-esophagus-patients_vs_healthy-controls_DOWN	NA	2037	416916	1385	539003	91061	28216	80840	194	72294	213849	186828	1653	1716	538	29547	44259	2701	1378	940557	52228	43994	1508421	186826	1268	482	481	206351	1224	113286	32207	137	136	203691	203692	1300	1301	649777	649776	508458	649775	68298	157	843
 bsdb:408/1/1_asthma:asthma-at-3-months_vs_healthy-controls_UP	NA	1239	31979
@@ -2320,15 +2321,17 @@ bsdb:637/3/1_colorectal-cancer:CRC_vs_CRA_UP	NA	416916	165779	194	1016	501783	28
 bsdb:637/3/2_colorectal-cancer:CRC_vs_CRA_DOWN	NA	572511	204475	1301	35493	1117	338	158846	216572	173479
 bsdb:639/1/1_socioeconomic-status:underdeveloped-cities-vs-developed-cities_vs_NA_UP	NA	816	28216	186803	375288	171550	1263	31977
 bsdb:639/1/2_socioeconomic-status:underdeveloped-cities-vs-developed-cities_vs_NA_DOWN	NA	31979	1236	186804	838	1263
+bsdb:641/1/1_Arthritis:Early-Rheumatoid-Arthritis_vs_healthy-control_DOWN	NA	1583331	860	29466
+bsdb:641/1/2_Arthritis:Early-Rheumatoid-Arthritis_vs_healthy-control_UP	NA	484	228604	29465	838
 bsdb:642/1/NA_socioeconomic-status:Malays-Children-(Moderate-SES.-house-income=<RM500)_vs_Chinese-Children-(High-SES,-household-income>RM500)_NA	NA	NA
 bsdb:642/2/1_socioeconomic-status:Orang-Asli-Children-(low-SES,-household-income<RM500)_vs_Chinese-Children-(High-SES,-household-income->RM500)_UP	NA	135624	976	28221	186802	216572
 bsdb:642/2/2_socioeconomic-status:Orang-Asli-Children-(low-SES,-household-income<RM500)_vs_Chinese-Children-(High-SES,-household-income->RM500)_DOWN	NA	239759
-bsdb:642/3/1_socioeconomic-status:Orang-Asli-children-(low-SES,-household-income-<RM500)_vs_Malays-children-(Moderate-SES,-household-income-=>RM500)_UP	NA	135624	203691	186801	28221	976	216572	2
+bsdb:642/3/1_socioeconomic-status:Orang-Asli-children-(low-SES,-household-income-<RM500)_vs_Malays-children-(Moderate-SES,-household-income-=>RM500)_UP	NA	135624	203691	2	976	186801	28221	216572
 bsdb:642/3/2_socioeconomic-status:Orang-Asli-children-(low-SES,-household-income-<RM500)_vs_Malays-children-(Moderate-SES,-household-income-=>RM500)_DOWN	NA	171549	909929
 bsdb:643/1/1_colorectal-cancer:yCRC_vs_yControl_UP	NA	1654	946234	292800	848	186803	283168	29465
 bsdb:643/1/2_colorectal-cancer:yCRC_vs_yControl_DOWN	NA	1766253	39488	207244	572511	580596	1485	39948	128827	561	39496	724	570	158846	577310	1501226	620	39491
 bsdb:643/2/1_colorectal-cancer:oCRC_vs_oControls_DOWN	NA	1766253	207244	35832	572511	1955243	580596	990719	1485	1492	102106	33042	128827	290054	39496	216851	853	1407607	28050	39485	186803	2039302	577310	33024	1501226	841	301301	166486	1263	1160721	1161942	292632	39491
-bsdb:643/2/2_colorectal-cancer:oCRC_vs_oControls_UP	NA	561	84112	208479	29347	2086584	41275	84111	724	1649459	1506553	1505663	1257	1946507	1378	543311	848	1301	620
+bsdb:643/2/2_colorectal-cancer:oCRC_vs_oControls_UP	NA	41275	84111	84112	208479	1505663	561	1946507	848	1378	724	1649459	1506553	2086584	543311	1257	620	1301	29347
 bsdb:644/1/1_Colorectal-adenoma:colorectal-adenoma_vs_healthy-controls_UP	NA	562	1944660	1262	1966354	28131	1955243	1894999	820	1385
 bsdb:644/1/2_Colorectal-adenoma:colorectal-adenoma_vs_healthy-controls_DOWN	NA	853	1955243	40520	29523	2049024	59823	820	1385
 bsdb:644/2/1_colorectal-cancer:colorectal-cancer_vs_healthy-controls_UP	NA	817	68766	1944660	2049028	1262	76761	1966354	28131	119852	59823	739	28116	28124	205
@@ -2411,8 +2414,8 @@ bsdb:667/1/1_hepatocellular-carcinoma:Responders_vs_Non-responders_UP	NA	186801	
 bsdb:667/1/2_hepatocellular-carcinoma:Responders_vs_Non-responders_DOWN	NA	171549	976	200643	147206	1841856	58180	470565	2702	2701
 bsdb:669/1/1_ethnic-group,socioeconomic-status:Rural-African-Children-in-Burkina-Faso_vs_European-Children-in-Italy_UP	NA	838	203691	976	201174
 bsdb:669/1/2_ethnic-group,socioeconomic-status:Rural-African-Children-in-Burkina-Faso_vs_European-Children-in-Italy_DOWN	NA	1239	1224	31980	216851	841	292632	239759	816
-bsdb:670/1/1_socioeconomic-status,ethnic-group:Bangladesh-Children-(Household-income-<-$61)_vs_US-children_UP	NA	186802	830
-bsdb:670/1/2_socioeconomic-status,ethnic-group:Bangladesh-Children-(Household-income-<-$61)_vs_US-children_DOWN	NA	818	853
+bsdb:670/1/1_socioeconomic-status,Ethnic-group:Bangladesh-Children-(Household-income-<-$61)_vs_US-children_UP	NA	830	186802
+bsdb:670/1/2_socioeconomic-status,Ethnic-group:Bangladesh-Children-(Household-income-<-$61)_vs_US-children_DOWN	NA	818	853
 bsdb:671/1/1_socioeconomic-status:30-Months-exposure-(maternal-education-as-proxy)_vs_18-months-exposure-(maternal-education-as-proxy)_UP	NA	838	216851	841	292632	816	1730	459786	83770
 bsdb:671/1/2_socioeconomic-status:30-Months-exposure-(maternal-education-as-proxy)_vs_18-months-exposure-(maternal-education-as-proxy)_DOWN	NA	1263	1578	1301	1678	906	39948	292632
 bsdb:673/1/1_ethnic-group:Colombia-data_vs_USA-data_UP	NA	201174	1239	544448	74201
@@ -2549,3 +2552,7 @@ bsdb:707/1/1_Arthritis:Rheumatoid-Arthritis_vs_healthy-controls_UP	NA	156454	101
 bsdb:707/1/2_Arthritis:Rheumatoid-Arthritis_vs_healthy-controls_DOWN	NA	1716
 bsdb:709/1/1_Arthritis:Early-Rheumatoid-Arthritis_vs_Healthy-Controls_DOWN	NA	237576	43997	423477	199
 bsdb:709/1/2_Arthritis:Early-Rheumatoid-Arthritis_vs_Healthy-Controls_UP	NA	76122	824	327575	39950	143361	28124	52227	28131	407975	59823	1213720	158
+bsdb:712/1/1_Arthritis:Rheumatoid-Arthritis_vs_healthy-controls_DOWN	NA	59823	28124	104608	29466	137732	860	166	152509	28132
+bsdb:712/1/2_Arthritis:Rheumatoid-Arthritis_vs_healthy-controls_UP	NA	1304	43675	59823	104608	135080
+bsdb:713/1/1_Arthritis:Juvenile-Idiopathic-Arthritis_vs_healthy-controls_DOWN	NA	1654	1716	32067	2049
+bsdb:713/1/2_Arthritis:Juvenile-Idiopathic-Arthritis_vs_healthy-controls_UP	NA	1301	729	32067	724
