@@ -1,4 +1,4 @@
-# BugSigDB 2022-11-13, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2022-11-20, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_adenoma:conventional-adenoma-cases_vs_controls_UP	NA	Actinomyces	Corynebacterium	Streptococcus	Peptoniphilus	Dorea	Phascolarctobacterium	Sutterella	Bacillus
 bsdb:1/1/2_adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	Coprobacillus
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	Anaerostipes
@@ -799,10 +799,12 @@ bsdb:267/2/1_atopic-asthma:atopic-no-asthma_vs_healthy-control_UP	NA	Actinomyces
 bsdb:267/2/2_atopic-asthma:atopic-no-asthma_vs_healthy-control_DOWN	NA	Helicobacter	Lactobacillus	Leptotrichia	Parvimonas	Porphyromonas	Prevotella	Pseudomonas	Streptococcus
 bsdb:267/3/1_atopic-asthma:atopic-asthma_vs_atopic-no-asthma_UP	NA	Dialister	Fusobacterium	Haemophilus	Leptotrichia	Mycoplasma	Prevotella	Selenomonas
 bsdb:267/3/2_atopic-asthma:atopic-asthma_vs_atopic-no-asthma_DOWN	NA	Aggregatibacter	Allobaculum	Corynebacterium	Flexispira	Lactobacillus	Porphyromonas	Sharpea	Sphingopyxis	Streptococcus
-bsdb:267/5/1_atopic-asthma:post-inhaled-corticosteroid-treatment_vs_baseline_UP	NA	Neisseria	Moraxella
-bsdb:267/5/2_atopic-asthma:post-inhaled-corticosteroid-treatment_vs_baseline_DOWN	NA	Fusobacterium	Dialister
-bsdb:267/6/1_atopic-asthma:post-placebo-treatment_vs_baseline_UP	NA	Eikenella
-bsdb:267/6/2_atopic-asthma:post-placebo-treatment_vs_baseline_DOWN	NA	Acinetobacter
+bsdb:267/4/1_atopic-asthma:inhaled-corticosteroid-responder_vs_nonresponder_UP	NA	Mogibacterium
+bsdb:267/4/2_atopic-asthma:inhaled-corticosteroid-responder_vs_nonresponder_DOWN	NA	Gemella
+bsdb:267/5/1_atopic-asthma:post-inhaled-corticosteroid-treatment_vs_baseline-(corticosteroid-treatment-group)_UP	NA	Neisseria	Moraxella
+bsdb:267/5/2_atopic-asthma:post-inhaled-corticosteroid-treatment_vs_baseline-(corticosteroid-treatment-group)_DOWN	NA	Fusobacterium	Dialister
+bsdb:267/6/1_atopic-asthma:post-placebo-treatment_vs_baseline-(placebo-group)_UP	NA	Eikenella
+bsdb:267/6/2_atopic-asthma:post-placebo-treatment_vs_baseline-(placebo-group)_DOWN	NA	Acinetobacter
 bsdb:268/1/1_cervical-glandular-intraepithelial-neoplasia:before_vs_after-loop-electrosurgical-excision-procedure_UP	NA	Sneathia	Corynebacterium	Veillonella	Clostridium	Collinsella
 bsdb:268/1/2_cervical-glandular-intraepithelial-neoplasia:before_vs_after-loop-electrosurgical-excision-procedure_DOWN	NA	Staphylococcus	Ralstonia
 bsdb:269/1/1_leukemia:Acute-Lymphoblastic-Leukemia-diagnosis-and-Pre--Chemotherapy-treatment_vs_healthy-control_UP	NA	Bacteroides
@@ -1749,18 +1751,18 @@ bsdb:692/4/1_Nutraceutical:colorectal-cancer-patients-who-took-prebiotics-(posto
 bsdb:692/4/2_Nutraceutical:colorectal-cancer-patients-who-took-prebiotics-(postoperative-fecal-sample)_vs_colorectal-cancer-patients-who-didn't-take-prebiotics-(postoperative-fecal-sample)_DOWN	NA	Enterococcus
 bsdb:693/1/1_hepatocellular-carcinoma:Responders_vs_Non-responders_UP	NA	Salinibacter	Subdoligranulum	Lactobacillus	Bifidobacterium	Ruminococcus	Akkermansia	Dialister	Scardovia
 bsdb:693/1/2_hepatocellular-carcinoma:Responders_vs_Non-responders_DOWN	NA	Bordetella	Turicibacter
-bsdb:694/1/1_Gegen-Qinlian-decoction-(GQD):low-dose-GQD-(300-mg/kg)_vs_non-GQD_UP	NA	Candidatus Stoquefichus	Parasutterella
-bsdb:694/1/2_Gegen-Qinlian-decoction-(GQD):low-dose-GQD-(300-mg/kg)_vs_non-GQD_DOWN	NA	Tyzzerella	Candidatus Saccharimonas	Turicibacter	Staphylococcus
+bsdb:694/1/1_colorectal-cancer:low-dose-GQD-(300-mg/kg)_vs_non-GQD_UP	NA	Candidatus Stoquefichus	Lactobacillus	Parasutterella	Roseburia	Candidatus Saccharimonas
+bsdb:694/1/2_colorectal-cancer:low-dose-GQD-(300-mg/kg)_vs_non-GQD_DOWN	NA	Candidatus Saccharimonas	Turicibacter	Tyzzerella
 bsdb:694/2/1_colorectal-cancer:low-dose-GQD-(300-mg/kg)_vs_non-GQD_UP	NA	Candidatus Stoquefichus	Proteus	Parasutterella
-bsdb:694/2/2_colorectal-cancer:low-dose-GQD-(300-mg/kg)_vs_non-GQD_UP	NA	Parasutterella	Candidatus Stoquefichus	Proteus
-bsdb:694/3/1_Gegen-Qinlian-decoction-(GQD):low-dose-GQD-(300-mg/kg)-+-PD-1_vs_control_UP	NA	Alistipes	Ruminiclostridium	Candidatus Stoquefichus
-bsdb:694/3/2_Gegen-Qinlian-decoction-(GQD):low-dose-GQD-(300-mg/kg)-+-PD-1_vs_control_DOWN	NA	Candidatus Saccharimonas
-bsdb:694/4/1_Gegen-Qinlian-decoction-(GQD):low-dose-GQD-(300-mg/kg)_vs_control_UP	NA	Bacteroides	Hungatella	Parabacteroides
-bsdb:694/4/2_Gegen-Qinlian-decoction-(GQD):low-dose-GQD-(300-mg/kg)_vs_control_DOWN	NA	Anaeroplasma	Bifidobacterium	Blautia	Coprococcus	Desulfovibrio	Enterorhabdus	Tyzzerella
-bsdb:694/5/1_Gegen-Qinlian-decoction-(GQD):PD-1-group_vs_control_UP	NA	Adlercreutzia	Anaeroplasma	Erysipelatoclostridium	Hungatella
-bsdb:694/5/2_Gegen-Qinlian-decoction-(GQD):PD-1-group_vs_control_DOWN	NA	Oscillibacter
-bsdb:694/6/1_Gegen-Qinlian-decoction-(GQD):low-dose-300-mg/kg-GQD-+-PD-1-group_vs_control_UP	NA	Bacteroides	Candidatus Stoquefichus	Alistipes	Ruminiclostridium
-bsdb:694/6/2_Gegen-Qinlian-decoction-(GQD):low-dose-300-mg/kg-GQD-+-PD-1-group_vs_control_DOWN	NA	Anaerotruncus	Bifidobacterium
+bsdb:694/2/2_colorectal-cancer:low-dose-GQD-(300-mg/kg)_vs_non-GQD_DOWN	NA	Staphylococcus	Candidatus Saccharimonas	Turicibacter	Tyzzerella
+bsdb:694/3/1_colorectal-cancer:low-dose-GQD-(300-mg/kg)-+-PD-1_vs_control_UP	NA	Alistipes	Candidatus Stoquefichus	Ruminiclostridium
+bsdb:694/3/2_colorectal-cancer:low-dose-GQD-(300-mg/kg)-+-PD-1_vs_control_DOWN	NA	Candidatus Saccharimonas
+bsdb:694/4/1_colorectal-cancer:low-dose-GQD-(300-mg/kg)_vs_control_UP	NA	Bacteroides	Hungatella	Parabacteroides
+bsdb:694/4/2_colorectal-cancer:low-dose-GQD-(300-mg/kg)_vs_control_DOWN	NA	Anaeroplasma	Bifidobacterium	Blautia	Coprococcus	Desulfovibrio	Enterorhabdus	Tyzzerella
+bsdb:694/5/1_colorectal-cancer:PD-1-group_vs_control_UP	NA	Adlercreutzia	Anaeroplasma	Erysipelatoclostridium	Hungatella
+bsdb:694/5/2_colorectal-cancer:PD-1-group_vs_control_DOWN	NA	Oscillibacter
+bsdb:694/6/1_colorectal-cancer:low-dose-300-mg/kg-GQD-+-PD-1-group_vs_control_UP	NA	Alistipes	Bacteroides	Candidatus Stoquefichus	Ruminiclostridium
+bsdb:694/6/2_colorectal-cancer:low-dose-300-mg/kg-GQD-+-PD-1-group_vs_control_DOWN	NA	Anaerotruncus	Bifidobacterium
 bsdb:695/1/1_antimicrobial-agent:Coli_vs_control_UP	NA	Bacteroides	Ruminiclostridium
 bsdb:695/1/2_antimicrobial-agent:Coli_vs_control_DOWN	NA	Desulfovibrio
 bsdb:695/2/1_antimicrobial-agent:Vanc_vs_control_UP	NA	Akkermansia	Lactobacillus	Parabacteroides	Parasutterella	Roseburia

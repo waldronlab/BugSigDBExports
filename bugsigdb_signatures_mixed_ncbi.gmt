@@ -1,4 +1,4 @@
-# BugSigDB 2022-11-13, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2022-11-20, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_adenoma:conventional-adenoma-cases_vs_controls_UP	NA	91061	1236	1654	1716	1301	162289	189330	33024	40544	2037	2049	506	186826	1300	31977	91347	1653	57037	1386	186817
 bsdb:1/1/2_adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	100883	1117
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	207244	57037
@@ -1018,12 +1018,12 @@ bsdb:267/2/1_atopic-asthma:atopic-no-asthma_vs_healthy-control_UP	NA	1654	416916
 bsdb:267/2/2_atopic-asthma:atopic-no-asthma_vs_healthy-control_DOWN	NA	209	57037	1578	32067	543311	836	838	286	1301
 bsdb:267/3/1_atopic-asthma:atopic-asthma_vs_atopic-no-asthma_UP	NA	39948	848	724	32067	2093	28449	838	28131	970
 bsdb:267/3/2_atopic-asthma:atopic-asthma_vs_atopic-no-asthma_DOWN	NA	416916	739	174708	817	1018	1716	996	2353	727	729	57037	1578	836	165179	425941	519427	165697	117207	1301	59892	33038
-bsdb:267/4/1_atopic-asthma:inhaled-corticosteroid-responder_vs_nonresponder_UP	NA	128827	481	31977	186803	41297	468	186804	203492	1300
-bsdb:267/4/2_atopic-asthma:inhaled-corticosteroid-responder_vs_nonresponder_DOWN	NA	85023	712	171551	137	171552	49546	33958	2092	186827	2049	351
-bsdb:267/5/1_atopic-asthma:post-inhaled-corticosteroid-treatment_vs_baseline_UP	NA	85023	482	475	137	2049	2092
-bsdb:267/5/2_atopic-asthma:post-inhaled-corticosteroid-treatment_vs_baseline_DOWN	NA	2146	33958	171552	186803	186804	848	39948
-bsdb:267/6/1_atopic-asthma:post-placebo-treatment_vs_baseline_UP	NA	538	137	2092
-bsdb:267/6/2_atopic-asthma:post-placebo-treatment_vs_baseline_DOWN	NA	469	2049	171552	186804
+bsdb:267/4/1_atopic-asthma:inhaled-corticosteroid-responder_vs_nonresponder_UP	NA	128827	203492	186803	468	481	186804	41297	1300	31977	86331
+bsdb:267/4/2_atopic-asthma:inhaled-corticosteroid-responder_vs_nonresponder_DOWN	NA	2049	186827	351	49546	33958	85023	2092	712	171551	171552	137	2762318	1378
+bsdb:267/5/1_atopic-asthma:post-inhaled-corticosteroid-treatment_vs_baseline-(corticosteroid-treatment-group)_UP	NA	85023	482	475	137	2049	2092
+bsdb:267/5/2_atopic-asthma:post-inhaled-corticosteroid-treatment_vs_baseline-(corticosteroid-treatment-group)_DOWN	NA	2146	33958	171552	186803	186804	848	39948
+bsdb:267/6/1_atopic-asthma:post-placebo-treatment_vs_baseline-(placebo-group)_UP	NA	538	137	2092
+bsdb:267/6/2_atopic-asthma:post-placebo-treatment_vs_baseline-(placebo-group)_DOWN	NA	469	2049	171552	186804
 bsdb:267/7/1_atopic-asthma:atopic-asthma_vs_healthy-control_UP	NA	201174	976	32066	1224	203691
 bsdb:267/7/2_atopic-asthma:atopic-asthma_vs_healthy-control_DOWN	NA	1239
 bsdb:267/8/1_atopic-asthma:atopic-no-asthma_vs_healthy-control_UP	NA	201174	1239	1224
@@ -1164,8 +1164,7 @@ bsdb:297/2/2_human-papilloma-virus-infection:pregnant-high-risk-HPV_vs_pregnant-
 bsdb:298/2/1_acute-myeloid-leukemia:infection_vs_no-infection_UP	NA	40323
 bsdb:298/2/2_acute-myeloid-leukemia:infection_vs_no-infection_DOWN	NA	1301
 bsdb:298/3/1_acute-myeloid-leukemia:infection_vs_no-infection_UP	NA	40323
-bsdb:299/1/1_acute-lymphoblastic-leukemia:induction-chemotherapy_vs_no-induction-chemotherapy_UP	NA	35783
-bsdb:299/1/2_acute-lymphoblastic-leukemia:induction-chemotherapy_vs_no-induction-chemotherapy_DOWN	NA	NA
+bsdb:299/1/1_acute-lymphoblastic-leukemia:induction-chemotherapy_vs_baseline_UP	NA	35783
 bsdb:300/1/1_graft-versus-host-disease:acute-graft--versus--host-disease_vs_non--graft--versus--host-disease_UP	NA	301301	1924109	29466	1352	1354	1624	1613	357276	102148	43675
 bsdb:300/1/2_graft-versus-host-disease:acute-graft--versus--host-disease_vs_non--graft--versus--host-disease_DOWN	NA	1547	818	89014	1470353	2049021	1955243	2040332	41978	28116	47678
 bsdb:301/1/1_human-papilloma-virus-infection:HPV+_vs_HPV-_UP	NA	39948	906	203492	203491	32066	168808
@@ -2279,7 +2278,6 @@ bsdb:622/1/1_colorectal-cancer:CRA-and-CRC-groups_vs_Negative-control-group_DOWN
 bsdb:622/1/2_colorectal-cancer:CRA-and-CRC-groups_vs_Negative-control-group_UP	NA	33042	1350	1940338	848	1301
 bsdb:622/2/1_NA:C57BL/6-APCMin/+:-F.-nucleatum-(Fn),-E.-coli-(Ec);-wild-type-C57BL/6:-DMH,-Fn,-Fn+DMH,-Ec,-Ec+DMH_vs_Control-(male-C57BL/6-APCMin/+-and-male-wild-type-C57BL/6)_UP	NA	976	1239	1224	74201	1117	544448
 bsdb:622/3/1_colorectal-cancer:C57BL/6-APCMin/+:-BBR-and-Fn+BBR;-wild-type-C57BL/6:-BBR,-BBR+DMH-and-BBR+Fn+DMH_vs_male-C57BL/6-APCMin/+:-Ctrl,-F.-nucleatum-(Fn),-E.-coli-(Ec);-male-wild-type-C57BL/6):-Ctrl,-DMH,-Fn,-Fn+DMH,-Ec,-Ec+DMH_DOWN	NA	544448	74201
-bsdb:622/4/NA_colorectal-cancer:CRC-and-CRA_vs_Healthy-Controls_NA	NA	NA
 bsdb:623/1/1_colorectal-cancer:Patients-with-CRC-recurrence_vs_Patients-without-CRC-recurrence_UP	NA	848	543311	1486725	1257	838
 bsdb:623/1/2_colorectal-cancer:Patients-with-CRC-recurrence_vs_Patients-without-CRC-recurrence_DOWN	NA	40323	29465
 bsdb:624/1/1_colorectal-cancer:Patients-with-CRC_vs_Healthy-Individuals_UP	NA	33033	28131	341694	28123	102148	29391	1261	837	76122	39950	851
@@ -2494,18 +2492,18 @@ bsdb:692/4/1_Nutraceutical:colorectal-cancer-patients-who-took-prebiotics-(posto
 bsdb:692/4/2_Nutraceutical:colorectal-cancer-patients-who-took-prebiotics-(postoperative-fecal-sample)_vs_colorectal-cancer-patients-who-didn't-take-prebiotics-(postoperative-fecal-sample)_DOWN	NA	1350
 bsdb:693/1/1_hepatocellular-carcinoma:Responders_vs_Non-responders_UP	NA	239935	39488	169435	246787	1689	40520	1968796	410072	218538	39486	861	658087	1596	97478	1632	1633	187326	40518	146918	1308	292632	1578	1678	1263	239934	39948	196081
 bsdb:693/1/2_hepatocellular-carcinoma:Responders_vs_Non-responders_DOWN	NA	732	28111	626930	291645	820	1680	1681	208962	856	249188	548	1624	907	39777	39778	517	191303	31957
-bsdb:694/1/1_Gegen-Qinlian-decoction-(GQD):low-dose-GQD-(300-mg/kg)_vs_non-GQD_UP	NA	1470349	1159214	1622	584	1522	128827	577310	512314
-bsdb:694/1/2_Gegen-Qinlian-decoction-(GQD):low-dose-GQD-(300-mg/kg)_vs_non-GQD_DOWN	NA	186807	876091	1506577	1331051	191303	1279
+bsdb:694/1/1_colorectal-cancer:low-dose-GQD-(300-mg/kg)_vs_non-GQD_UP	NA	1470349	1159214	1578	584	1522	128827	577310	841	1331051
+bsdb:694/1/2_colorectal-cancer:low-dose-GQD-(300-mg/kg)_vs_non-GQD_DOWN	NA	1331051	186807	29387	191303	1506577	876091
 bsdb:694/2/1_colorectal-cancer:low-dose-GQD-(300-mg/kg)_vs_non-GQD_UP	NA	1470349	1159214	128827	526525	526524	1622	583	584	1522	577310	512314
-bsdb:694/2/2_colorectal-cancer:low-dose-GQD-(300-mg/kg)_vs_non-GQD_UP	NA	128827	526524	526525	577310	1470349	584	583	1522	1622	512314	1159214
-bsdb:694/3/1_Gegen-Qinlian-decoction-(GQD):low-dose-GQD-(300-mg/kg)-+-PD-1_vs_control_UP	NA	171549	85831	165185	239759	171552	1508657	186807	1898203	1470349	1898207
-bsdb:694/3/2_Gegen-Qinlian-decoction-(GQD):low-dose-GQD-(300-mg/kg)-+-PD-1_vs_control_DOWN	NA	194843	1872531	1331051	1983405	28025	2049040	1757166	186803	458253	172733
-bsdb:694/4/1_Gegen-Qinlian-decoction-(GQD):low-dose-GQD-(300-mg/kg)_vs_control_UP	NA	815	816	39497	1649459	375288	171551	84107
-bsdb:694/4/2_Gegen-Qinlian-decoction-(GQD):low-dose-GQD-(300-mg/kg)_vs_control_DOWN	NA	201174	2086	186333	186332	31953	85004	1678	572511	990719	33042	84107	84999	28221	872	213115	2272	580024	1506577	35517	171549	186803
-bsdb:694/5/1_Gegen-Qinlian-decoction-(GQD):PD-1-group_vs_control_UP	NA	447020	2086	186333	186332	1505663	39496	1649459	31969	544448
-bsdb:694/5/2_Gegen-Qinlian-decoction-(GQD):PD-1-group_vs_control_DOWN	NA	459786	1239
-bsdb:694/6/1_Gegen-Qinlian-decoction-(GQD):low-dose-300-mg/kg-GQD-+-PD-1-group_vs_control_UP	NA	816	815	1470349	171550	239759	1508657	171552
-bsdb:694/6/2_Gegen-Qinlian-decoction-(GQD):low-dose-300-mg/kg-GQD-+-PD-1-group_vs_control_DOWN	NA	171549	244127	95818	1678	85004	31953
+bsdb:694/2/2_colorectal-cancer:low-dose-GQD-(300-mg/kg)_vs_non-GQD_DOWN	NA	194843	1236	91347	543	186807	1385	1279	1331051	95818	191303	1506577	1945593
+bsdb:694/3/1_colorectal-cancer:low-dose-GQD-(300-mg/kg)-+-PD-1_vs_control_UP	NA	239759	171549	85831	1470349	1898207	1898203	186807	171552	1508657	165185	707003	39497	31969
+bsdb:694/3/2_colorectal-cancer:low-dose-GQD-(300-mg/kg)-+-PD-1_vs_control_DOWN	NA	1872531	28025	1331051	2049040	186803	194843	1983405	458253	172733	1757166	2485925	1898207
+bsdb:694/4/1_colorectal-cancer:low-dose-GQD-(300-mg/kg)_vs_control_UP	NA	815	816	39497	1649459	375288	171551	84107
+bsdb:694/4/2_colorectal-cancer:low-dose-GQD-(300-mg/kg)_vs_control_DOWN	NA	201174	2086	186333	186332	31953	85004	1678	572511	990719	33042	84107	84999	28221	872	213115	2272	580024	1506577	35517	171549	186803
+bsdb:694/5/1_colorectal-cancer:PD-1-group_vs_control_UP	NA	447020	2086	186333	186332	1505663	39496	1649459	31969	544448
+bsdb:694/5/2_colorectal-cancer:PD-1-group_vs_control_DOWN	NA	459786	1239
+bsdb:694/6/1_colorectal-cancer:low-dose-300-mg/kg-GQD-+-PD-1-group_vs_control_UP	NA	239759	815	816	1470349	171552	171550	1508657	541000
+bsdb:694/6/2_colorectal-cancer:low-dose-300-mg/kg-GQD-+-PD-1-group_vs_control_DOWN	NA	244127	171549	31953	85004	1678	95818
 bsdb:695/1/1_antimicrobial-agent:Coli_vs_control_UP	NA	816	1508657	128827
 bsdb:695/1/2_antimicrobial-agent:Coli_vs_control_DOWN	NA	872	186803	2005473
 bsdb:695/2/1_antimicrobial-agent:Vanc_vs_control_UP	NA	239934	1940338	1578	375288	577310	171552	841	543

@@ -1,4 +1,4 @@
-# BugSigDB 2022-11-13, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2022-11-20, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_adenoma:conventional-adenoma-cases_vs_controls_UP	NA	Lacticaseibacillus zeae
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	Lacticaseibacillus zeae
 bsdb:1/6/1_adenoma:Non-advanced-conventional-adenoma-cases_vs_controls_UP	NA	Lacticaseibacillus zeae
@@ -420,7 +420,7 @@ bsdb:296/1/1_multiple-myeloma:multiple-myeloma-patients_vs_healthy-control_UP	NA
 bsdb:296/1/2_multiple-myeloma:multiple-myeloma-patients_vs_healthy-control_DOWN	NA	Streptococcus pasteurianus	Lachnoclostridium phytofermentans	Clostridium baratii	Clostridium saccharobutylicum	Butyrivibrio proteoclasticus	Clostridioides difficile	Butyrivibrio hungatei	Bacteroides cellulosilyticus	Clostridium saccharoperbutylacetonicum	Parabacteroides sp.	Bacteroides ovatus	Herbinix luporum	Bacteroides thetaiotaomicron	Parabacteroides distasonis	Lachnospira eligens	Bacteroides caccae	Bifidobacterium catenulatum	Clostridium beijerinckii	Paeniclostridium sordellii	Clostridium botulinum	Anaerostipes hadrus	Megamonas hypermegale	Clostridium butyricum	Bifidobacterium catenulatum subsp. kashiwanohense	Bifidobacterium pseudocatenulatum	Fusobacterium varium
 bsdb:296/2/1_multiple-myeloma:multiple-myeloma-patients_vs_healthy-controls_UP	NA	Citrobacter freundii	Enterobacter cloacae	Klebsiella aerogenes	Klebsiella pneumoniae	Klebsiella variicola	Raoultella ornithinolytica	Streptococcus gordonii	Streptococcus oralis	Streptococcus pneumoniae	Streptococcus salivarius	Streptococcus mitis
 bsdb:296/2/2_multiple-myeloma:multiple-myeloma-patients_vs_healthy-controls_DOWN	NA	Anaerostipes hadrus	Lacrimispora saccharolytica	Clostridium butyricum
-bsdb:299/1/1_acute-lymphoblastic-leukemia:induction-chemotherapy_vs_no-induction-chemotherapy_UP	NA	Enterococcus sp.
+bsdb:299/1/1_acute-lymphoblastic-leukemia:induction-chemotherapy_vs_baseline_UP	NA	Enterococcus sp.
 bsdb:300/1/1_graft-versus-host-disease:acute-graft--versus--host-disease_vs_non--graft--versus--host-disease_UP	NA	Roseburia hominis	Eisenbergiella sp.	Veillonella parvula	Enterococcus faecium	Enterococcus hirae	Ligilactobacillus salivarius	Limosilactobacillus fermentum	Phocaeicola dorei	Solobacterium moorei	Rothia mucilaginosa
 bsdb:300/1/2_graft-versus-host-disease:acute-graft--versus--host-disease_vs_non--graft--versus--host-disease_DOWN	NA	Erysipelatoclostridium ramosum	Bacteroides thetaiotaomicron	Blautia luti	Butyricicoccus sp.	Blautia sp.	Dorea sp.	Ruminococcus sp.	Bacteroides ovatus	Bacteroides caccae
 bsdb:302/4/1_asthma:asthma_vs_healthy-control_UP	NA	Prevotella buccalis	Dialister invisus	Gardnerella vaginalis	Alkanindiges hongkongensis
@@ -890,15 +890,15 @@ bsdb:691/1/2_metastatic-melanoma:Responders_vs_Non-responders_DOWN	NA	Bifidobact
 bsdb:692/3/1_Nutraceutical:colorectal-cancer-patients-who-took-prebiotics-(postoperative-fecal-sample)_vs_colorectal-cancer-patients-who-took-prebiotics-(preoperative-fecal-sample)_UP	NA	Escherichia/Shigella sp.
 bsdb:693/1/1_hepatocellular-carcinoma:Responders_vs_Non-responders_UP	NA	Akkermansia muciniphila	Anaerobutyricum hallii	Anaerotruncus colihominis	Bacteroides cellulosilyticus	Bifidobacterium dentium	Blautia obeum	Candidatus Liberibacter brunswickensis	Coprococcus comes	Dialister invisus	Dorea formicigenerans	Fusobacterium ulcerans	Lachnospiraceae bacterium 7_1_58FAA	Lactobacillus gasseri	Limosilactobacillus mucosae	Limosilactobacillus oris	Limosilactobacillus vaginalis	Megasphaera micronuciformis	Ruminococcus bromii	Streptococcus thermophilus
 bsdb:693/1/2_hepatocellular-carcinoma:Responders_vs_Non-responders_DOWN	NA	Aggregatibacter aphrophilus	Bacteroides eggerthii	Bacteroides fluxus	Bacteroides nordii	Bacteroides uniformis	Bifidobacterium adolescentis	Bifidobacterium bifidum	Escherichia albertii	Fusobacterium varium	Haemophilus pittmaniae	Klebsiella aerogenes	Ligilactobacillus salivarius	Megasphaera elsdenii	Veillonella atypica	Veillonella dispar
-bsdb:694/1/1_Gegen-Qinlian-decoction-(GQD):low-dose-GQD-(300-mg/kg)_vs_non-GQD_UP	NA	Clostridiales bacterium CIEAF 012	Ligilactobacillus murinus	Proteus mirabilis	[Clostridium] innocuum	uncultured Roseburia sp.
-bsdb:694/1/2_Gegen-Qinlian-decoction-(GQD):low-dose-GQD-(300-mg/kg)_vs_non-GQD_DOWN	NA	uncultured Oscillibacter sp.
+bsdb:694/1/1_colorectal-cancer:low-dose-GQD-(300-mg/kg)_vs_non-GQD_UP	NA	Clostridiales bacterium CIEAF 012	Proteus mirabilis	[Clostridium] innocuum
+bsdb:694/1/2_colorectal-cancer:low-dose-GQD-(300-mg/kg)_vs_non-GQD_DOWN	NA	Staphylococcus sp.	uncultured Oscillibacter sp.
 bsdb:694/2/1_colorectal-cancer:low-dose-GQD-(300-mg/kg)_vs_non-GQD_UP	NA	Clostridiales bacterium CIEAF 012	Ligilactobacillus murinus	Proteus mirabilis	[Clostridium] innocuum	uncultured Roseburia sp.
-bsdb:694/2/2_colorectal-cancer:low-dose-GQD-(300-mg/kg)_vs_non-GQD_UP	NA	Proteus mirabilis	[Clostridium] innocuum	Ligilactobacillus murinus	uncultured Roseburia sp.	Clostridiales bacterium CIEAF 012
-bsdb:694/3/1_Gegen-Qinlian-decoction-(GQD):low-dose-GQD-(300-mg/kg)-+-PD-1_vs_control_UP	NA	Bacteroides acidifaciens	uncultured Eubacterium sp.	Lachnospiraceae bacterium	Clostridiales bacterium
-bsdb:694/3/2_Gegen-Qinlian-decoction-(GQD):low-dose-GQD-(300-mg/kg)-+-PD-1_vs_control_DOWN	NA	uncultured Bacteroidales bacterium	Anaerotruncus sp.	uncultured Candidatus Saccharimonas sp.	Bifidobacterium animalis	Roseburia sp.	uncultured Ruminiclostridium sp.	uncultured Coprococcus sp.	uncultured Eubacteriales bacterium
-bsdb:694/4/1_Gegen-Qinlian-decoction-(GQD):low-dose-GQD-(300-mg/kg)_vs_control_UP	NA	Eubacterium xylanophilum
-bsdb:694/4/2_Gegen-Qinlian-decoction-(GQD):low-dose-GQD-(300-mg/kg)_vs_control_DOWN	NA	[Eubacterium] brachy
-bsdb:694/5/1_Gegen-Qinlian-decoction-(GQD):PD-1-group_vs_control_UP	NA	Eubacterium ventriosum
+bsdb:694/2/2_colorectal-cancer:low-dose-GQD-(300-mg/kg)_vs_non-GQD_DOWN	NA	uncultured Bacteroidales bacterium	Oscillibacter sp.
+bsdb:694/3/1_colorectal-cancer:low-dose-GQD-(300-mg/kg)-+-PD-1_vs_control_UP	NA	Bacteroides acidifaciens	Clostridiales bacterium	Lachnospiraceae bacterium	uncultured Eubacterium sp.	uncultured Oscillospiraceae bacterium	Eubacterium xylanophilum
+bsdb:694/3/2_colorectal-cancer:low-dose-GQD-(300-mg/kg)-+-PD-1_vs_control_DOWN	NA	Anaerotruncus sp.	Bifidobacterium animalis	Roseburia sp.	uncultured Bacteroidales bacterium	uncultured Candidatus Saccharimonas sp.	uncultured Coprococcus sp.	uncultured Eubacteriales bacterium	uncultured Ruminiclostridium sp.	Oscillospiraceae bacterium	Clostridiales bacterium
+bsdb:694/4/1_colorectal-cancer:low-dose-GQD-(300-mg/kg)_vs_control_UP	NA	Eubacterium xylanophilum
+bsdb:694/4/2_colorectal-cancer:low-dose-GQD-(300-mg/kg)_vs_control_DOWN	NA	[Eubacterium] brachy
+bsdb:694/5/1_colorectal-cancer:PD-1-group_vs_control_UP	NA	Eubacterium ventriosum
 bsdb:695/2/1_antimicrobial-agent:Vanc_vs_control_UP	NA	Escherichia/Shigella sp.
 bsdb:695/3/1_antimicrobial-agent:Vanc_vs_Coli_UP	NA	Escherichia/Shigella sp.
 bsdb:695/4/1_antimicrobial-agent:Coli_vs_control_UP	NA	Bacteroidaceae bacterium	Bacteroides ovatus	Bacteroides xylanisolvens	Parabacteroides sp.	uncultured prokaryote
