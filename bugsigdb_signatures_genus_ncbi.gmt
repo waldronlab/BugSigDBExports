@@ -1,4 +1,4 @@
-# BugSigDB 2022-11-27, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2022-12-04, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_adenoma:conventional-adenoma-cases_vs_controls_UP	NA	1654	1716	1301	162289	189330	33024	40544	1386
 bsdb:1/1/2_adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	100883
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	207244
@@ -820,6 +820,8 @@ bsdb:271/2/1_acute-lymphoblastic-leukemia:Minimal-Residual-Disease--(negativity)
 bsdb:271/2/2_acute-lymphoblastic-leukemia:Minimal-Residual-Disease--(negativity)-with-Allogenic-Stem-Cell-Transplant_vs_Minimal-Residual-Disease--(positivity)-with-Allogenic-Stem-Cell-Transplant_UP	NA	216851
 bsdb:272/1/1_pneumonia:S.pneumoniae-positive_vs_negative_UP	NA	475	1301
 bsdb:272/1/2_pneumonia:S.pneumoniae-positive_vs_negative_DOWN	NA	1716	1279
+bsdb:273/1/1_acute-lymphoblastic-leukemia:Infectious-complications-(IC)_vs_non-infectious-complications-(NIC)_DOWN	NA	1678	816	838	239759	189330	216851
+bsdb:273/1/2_acute-lymphoblastic-leukemia:Infectious-complications-(IC)_vs_non-infectious-complications-(NIC)_UP	NA	357	507	41275	517
 bsdb:274/1/1_human-papilloma-virus-infection:HPV+_vs_HPV-_UP	NA	838
 bsdb:274/1/2_human-papilloma-virus-infection:HPV+_vs_HPV-_DOWN	NA	2701	1678	1578	39948	1654
 bsdb:274/2/1_cervical-glandular-intraepithelial-neoplasia:low-grade-dysplasia_vs_HPV-_UP	NA	543311
@@ -1120,7 +1122,7 @@ bsdb:392/4/1_milk-allergic-reaction:infant-with-non-IgE-mediated-cow's-milk-alle
 bsdb:392/4/2_milk-allergic-reaction:infant-with-non-IgE-mediated-cow's-milk-allergy-treated-with-EHCF+LGG_vs_infant-with-non-IgE-mediated-cow's-milk-allergy-treated-with-EHCF_DOWN	NA	239759	816	39948
 bsdb:393/1/1_milk-allergic-reaction:infant-with-non-IgE-mediated-cow's-milk-allergy-tolerant-to-cow's-milk-protein_vs_infant-with-non-IgE-mediated-cow's-milk-allergy-non-tolerant-to-cow's-milk-protein_UP	NA	1678
 bsdb:393/2/2_milk-allergic-reaction:infant-with-non-IgE-mediated-cow's-milk-allergy_vs_healthy-control_DOWN	NA	816
-bsdb:394/1/1_asthma:child-with-asthma-at-age-6_vs_healthy-control_UP	NA	29465	838
+bsdb:394/1/1_asthma:child-with-asthma-at-age-6_vs_healthy-control_UP	NA	838	29465
 bsdb:396/1/1_atopic-eczema:atopic-dermatitis_vs_healthy-control_UP	NA	1279
 bsdb:396/1/2_atopic-eczema:atopic-dermatitis_vs_healthy-control_DOWN	NA	47670	106589
 bsdb:396/2/1_atopic-eczema:atopic-dermatitis-after-treatment-with-TCS-+-Bleach_vs_baseline_UP	NA	469	1716	838
@@ -1446,7 +1448,6 @@ bsdb:512/3/1_COVID-19:COVID-19-positive-patients_vs_COVID-19-negative-healthcare
 bsdb:513/1/1_COVID-19:COVID-19-positive-patients_vs_COVID-19-negative-controls_UP	NA	613	29465
 bsdb:513/2/1_COVID-19:COVID-19-positive-patients-with-breathing-assistance_vs_COVID-19-positive-patients-without-breathing-assistance_UP	NA	547	838	29465	1301	32207	613
 bsdb:514/1/1_endometriosis:Stage-3/4-endometriosis-patients_vs_Women-scheduled-for-laparoscopic-surgery-for-benign-uterine/-ovarian-conditions_UP	NA	1301
-bsdb:515/1/1_endometriosis:Endometriosis-patients-with-infertility_vs_Non-endometriosis-patients-with-infertility_NA	NA	848
 bsdb:516/1/1_endometriosis:Mice-who-were-injected-with-endometrial-tissues_vs_Healthy-mice_UP	NA	1678	577310
 bsdb:516/2/2_endometriosis:Mice-who-were-injected-with-endometrial-tissues_vs_Healthy-mice_DOWN	NA	1283313
 bsdb:518/1/1_endometriosis:Stage-3/4-endometriosis-patients_vs_Healthy-controls_UP	NA	1654	1678	572511	189330	84111	1350	1578	1357	1508657	1301	1485	1716
@@ -1629,8 +1630,8 @@ bsdb:625/1/1_socioeconomic-status:High-SES_vs_NA_UP	NA	207244	1730	216851
 bsdb:625/1/2_socioeconomic-status:High-SES_vs_NA_DOWN	NA	816
 bsdb:628/1/1_socioeconomic-status:Low-SES_vs_High-SES_UP	NA	838
 bsdb:628/1/2_socioeconomic-status:Low-SES_vs_High-SES_DOWN	NA	816
-bsdb:632/1/1_ethnic-group:African-American-neonate-by-maternal-profile_vs_Caucasian-+-other-races-neonates-by-maternal-profiles_UP	NA	239934	1678	1578	906
-bsdb:632/1/2_ethnic-group:African-American-neonate-by-maternal-profile_vs_Caucasian-+-other-races-neonates-by-maternal-profiles_DOWN	NA	33042	119852	375288	838	1279	1301
+bsdb:632/1/1_Ethnic-group:African-American-neonate-by-maternal-profile_vs_Caucasian-+-other-races-neonates-by-maternal-profiles_UP	NA	239934	1678	1578	906
+bsdb:632/1/2_Ethnic-group:African-American-neonate-by-maternal-profile_vs_Caucasian-+-other-races-neonates-by-maternal-profiles_DOWN	NA	33042	119852	375288	838	1279	1301
 bsdb:632/2/1_socioeconomic-status:Infants-in-household-income-<$80,000._vs_Infants-in-household-income-=>$80,000._UP	NA	816	1263	1301
 bsdb:632/2/2_socioeconomic-status:Infants-in-household-income-<$80,000._vs_Infants-in-household-income-=>$80,000._DOWN	NA	239934	1678	33042	216851	838	1279	29465
 bsdb:637/1/1_colorectal-cancer:CRC_vs_Healthy-Individuals_UP	NA	165779	43668	207244	374	501783	1378	1269	482	53335	286	497	1301	292636
