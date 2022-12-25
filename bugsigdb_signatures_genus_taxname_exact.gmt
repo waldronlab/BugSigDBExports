@@ -1,4 +1,4 @@
-# BugSigDB 2022-12-18, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2022-12-25, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_adenoma:conventional-adenoma-cases_vs_controls_UP	NA	Actinomyces	Corynebacterium	Streptococcus	Peptoniphilus	Dorea	Phascolarctobacterium	Sutterella	Bacillus
 bsdb:1/1/2_adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	Coprobacillus
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	Anaerostipes
@@ -93,8 +93,8 @@ bsdb:34/8/1_bipolar-disorder:Bipolar-patients-with-high-BMI_vs_low-BMI_UP	NA	Lac
 bsdb:34/9/1_bipolar-disorder:Bipolar-patients-with-metabolic-syndrome_vs_no-metabolic-syndrome_UP	NA	Lactobacillus
 bsdb:34/10/2_bipolar-disorder:Bipolar-patients-with-depressive-syndrome_vs_healthier-bipolar-patients_DOWN	NA	Roseburia
 bsdb:34/11/2_bipolar-disorder:Bipolar-disorder_vs_Controls_DOWN	NA	Faecalibacterium
-bsdb:35/1/1_Sjogren-syndrome:PSS_vs_Control_UP	NA	Veillonella
-bsdb:35/1/2_Sjogren-syndrome:PSS_vs_Control_DOWN	NA	Actinomyces	Haemophilus	Neisseria	Rothia	Porphyromonas	Peptostreptococcus
+bsdb:35/1/1_Sjogren-syndrome:PSS_vs_Controls_UP	NA	Veillonella
+bsdb:35/1/2_Sjogren-syndrome:PSS_vs_Controls_DOWN	NA	Actinomyces	Haemophilus	Neisseria	Rothia	Porphyromonas	Peptostreptococcus
 bsdb:36/1/1_obesity:obese-adolescent_vs_control-adult_UP	NA	Actinomyces
 bsdb:36/1/2_obesity:obese-adolescent_vs_control-adult_DOWN	NA	Oscillospira
 bsdb:36/2/1_obesity:obese-adult_vs_contorl-adolescent_UP	NA	Streptococcus
@@ -374,10 +374,10 @@ bsdb:136/2/1_diet:two-weeks-after-a-dietry-intervention_vs_before-dietary-interv
 bsdb:136/2/2_diet:two-weeks-after-a-dietry-intervention_vs_before-dietary-intervention_DOWN	NA	Desulfovibrio	Dialister	Faecalibacterium	Ruminococcus	Slackia	Veillonella
 bsdb:137/1/1_colorectal-cancer:CRC_vs_controls_UP	NA	Aeromonas	Fusobacterium
 bsdb:137/1/2_colorectal-cancer:CRC_vs_controls_DOWN	NA	Bacteroides	Bilophila	Citrobacter	Cronobacter	Dorea	Eubacterium	Roseburia
-bsdb:138/1/1_lung-cancer:lung-cancer_vs_controls_UP	NA	Enterococcus	Erysipelatoclostridium	Macrococcus	Actinomyces	Intestinimonas	Raoultella	Atopobium	Holdemanella
-bsdb:138/1/2_lung-cancer:lung-cancer_vs_controls_DOWN	NA	Bifidobacterium	Collinsella	Dorea	Adlercreutzia	Lentibacillus	Alteromonas	Ruminiclostridium	Lachnospira	Peptoniphilus	Coprobacter	Pseudobutyrivibrio	Moryella	Sutterella	Peptostreptococcus
+bsdb:138/1/1_lung-cancer:lung-cancer_vs_controls_UP	NA	Actinomyces	Atopobium	Enterococcus	Erysipelatoclostridium	Holdemanella	Intestinimonas	Macrococcus	Raoultella
+bsdb:138/1/2_lung-cancer:lung-cancer_vs_controls_DOWN	NA	Adlercreutzia	Alteromonas	Bifidobacterium	Collinsella	Coprobacter	Dorea	Lachnospira	Lentibacillus	Moryella	Peptoniphilus	Peptostreptococcus	Pseudobutyrivibrio	Ruminiclostridium	Sutterella
 bsdb:139/1/2_head-and-neck-squamous-cell-carcinoma:HNSCC_vs_controls_DOWN	NA	Corynebacterium	Kingella
-bsdb:139/2/1_squamous-cell-carcinoma:Larynx-cancer-cases_vs_controls_DOWN	NA	Corynebacterium	Kingella	Neisseria	Abiotrophia	Capnocytophaga
+bsdb:139/2/1_squamous-cell-carcinoma:Larynx-cancer-cases_vs_controls_DOWN	NA	Abiotrophia	Capnocytophaga	Corynebacterium	Kingella	Neisseria
 bsdb:139/3/1_squamous-cell-carcinoma:Pharynx-cancer-cases_vs_controls_DOWN	NA	Corynebacterium	Kingella
 bsdb:139/4/1_squamous-cell-carcinoma:Oral-cavity-cancer-cases_vs_controls_UP	NA	Actinomyces
 bsdb:140/1/1_multiple-sclerosis:multiple-sclerosis_vs_healthy-controls_UP	NA	Methanobrevibacter	Akkermansia	Verrucosispora
@@ -398,8 +398,8 @@ bsdb:142/1/1_oral-squamous-cell-carcinoma:HNSCC_vs_Controls_UP	NA	Streptococcus	
 bsdb:142/1/2_oral-squamous-cell-carcinoma:HNSCC_vs_Controls_DOWN	NA	Aggregatibacter	Lautropia	Haemophilus	Neisseria	Leptotrichia
 bsdb:142/2/1_oral-squamous-cell-carcinoma:HPV-+_vs_HPV--_UP	NA	Lactobacillus	Weeksella
 bsdb:142/2/2_oral-squamous-cell-carcinoma:HPV-+_vs_HPV--_DOWN	NA	Eikenella	Neisseria	Leptotrichia
-bsdb:142/3/1_oral-squamous-cell-carcinoma:chemothrapy-radiation-and-surgery_vs_surgery_UP	NA	Lactobacillus
-bsdb:142/4/1_oral-squamous-cell-carcinoma:chemothrapy-radiation-and-surgery_vs_surgery_DOWN	NA	Haemophilus	Aggregatibacter	Leptotrichia
+bsdb:142/3/1_oral-squamous-cell-carcinoma:chemotherapy-radiation-and-surgery_vs_surgery_UP	NA	Lactobacillus
+bsdb:142/3/2_oral-squamous-cell-carcinoma:chemotherapy-radiation-and-surgery_vs_surgery_DOWN	NA	Haemophilus	Aggregatibacter	Leptotrichia
 bsdb:144/1/1_air-pollution:moderately-polluted-region-(B)_vs_lightly-poluuted-region-(A)_UP	NA	Rothia	Oribacterium	Neisseria	Actinomyces
 bsdb:144/1/2_air-pollution:moderately-polluted-region-(B)_vs_lightly-poluuted-region-(A)_DOWN	NA	Prevotella	Veillonella	Porphyromonas	Fusobacterium	Peptostreptococcus	Moraxella
 bsdb:144/2/2_air-pollution:heavily-polluted-region-(C)_vs_lightly-poluuted-region-(A)_DOWN	NA	Prevotella	Veillonella	Porphyromonas	Fusobacterium	Capnocytophaga	Peptostreptococcus	Moraxella	Campylobacter
@@ -944,7 +944,7 @@ bsdb:322/4/1_oral-mucositis:during-chemotherapy_vs_at-malignancy-diagnosis_UP	NA
 bsdb:322/5/1_oral-mucositis:mucositis-lesions_vs_all-samples_UP	NA	Actinomyces	Scardovia	Bacillus	Staphylococcus	Abiotrophia	Lactococcus
 bsdb:322/5/2_oral-mucositis:mucositis-lesions_vs_all-samples_DOWN	NA	Actinobacillus	Aggregatibacter	Haemophilus	Stenotrophomonas	Mycoplasma
 bsdb:323/1/1_necrotizing-enterocolitis:NEC_vs_non-NEC_UP	NA	Clostridium	Staphylococcus
-bsdb:323/2/1_necrotizing-enterocolitis:NEC_vs_non-NEC_DOWN	NA	Arcobacter	Finegoldia	Alicyclobacillus	Actinomyces	Pseudomonas	Chryseobacterium	Comamonas	Streptococcus	Corynebacterium
+bsdb:323/1/2_necrotizing-enterocolitis:NEC_vs_non-NEC_DOWN	NA	Arcobacter	Finegoldia	Alicyclobacillus	Actinomyces	Pseudomonas	Chryseobacterium	Comamonas	Streptococcus	Corynebacterium
 bsdb:323/3/1_necrotizing-enterocolitis:NEC_vs_non-NEC_UP	NA	Staphylococcus
 bsdb:324/1/1_thyroid-carcinoma:patients-with-thyroid-carcinoma_vs_healthy-controls_UP	NA	Anaerostipes	Coprococcus	Escherichia	Intestinibacter	Klebsiella	Lactobacillus	Shigella	Streptococcus	Subdoligranulum	Turicibacter	Lactococcus	Alistipes
 bsdb:324/1/2_thyroid-carcinoma:patients-with-thyroid-carcinoma_vs_healthy-controls_DOWN	NA	Alloprevotella	Bacteroides	Lachnoclostridium	Megamonas	Phascolarctobacterium	Prevotella	Roseburia
@@ -1425,9 +1425,9 @@ bsdb:502/2/2_irritable-bowel-syndrome:IBS-C_vs_Healthy-Control_DOWN	NA	Alloprevo
 bsdb:502/3/2_irritable-bowel-syndrome:IBS-D_vs_Healthy-Control_DOWN	NA	Alloprevotella	Bacteroides
 bsdb:502/4/1_irritable-bowel-syndrome:IBS-M_vs_Healthy-Control_UP	NA	Campylobacter
 bsdb:504/4/1_neoplasm:TPBC-tumor-tissue_vs_TPBC-normal-tissue_UP	NA	Streptococcus
-bsdb:504/5/2_EFO:0001799:BNH_vs_WNH_DOWN	NA	Phenylobacterium
-bsdb:504/6/1_ethnic-group,Rapid-Amplification-of-cDNA-Ends:BNH_vs_WNH_UP	NA	Veillonella	Phyllobacterium
-bsdb:504/6/2_ethnic-group,Rapid-Amplification-of-cDNA-Ends:BNH_vs_WNH_DOWN	NA	Phenylobacterium	Lactobacillus
+bsdb:504/5/2_Ethnic-group:BNH_vs_WNH_DOWN	NA	Phenylobacterium
+bsdb:504/6/1_Ethnic-group:BNH_vs_WNH_UP	NA	Veillonella	Phyllobacterium
+bsdb:504/6/2_Ethnic-group:BNH_vs_WNH_DOWN	NA	Phenylobacterium	Lactobacillus
 bsdb:505/1/2_irritable-bowel-syndrome:IBS_vs_Healthy-Control_DOWN	NA	Bifidobacterium
 bsdb:507/1/1_antimicrobial-agent:Patients-after-Rifaximin-treatment_vs_Patients-before-Rifaximin-treatment_DOWN	NA	Haemophilus	Roseburia	Veillonella
 bsdb:507/2/1_antimicrobial-agent:Patients-1-month-after-Rifaximin-treatment_vs_Patients-before-Rifaximin-treatment_UP	NA	Lactobacillus
@@ -1458,8 +1458,8 @@ bsdb:521/1/1_endometriosis:Stage-3/4-endometriosis-patients_vs_Surgical-controls
 bsdb:521/1/2_endometriosis:Stage-3/4-endometriosis-patients_vs_Surgical-controls_UP	NA	Acinetobacter	Enhydrobacter	Pseudomonas	Streptococcus
 bsdb:522/4/1_endometriosis:Endometriosis-patients_vs_Controls-undergoing-laparoscopic-surgery-for-benign-tumors_UP	NA	Exiguobacterium	Clostridium
 bsdb:522/5/1_endometriosis:Endometriosis-patients_vs_Controls-undergoing-laparoscopic-surgery-for-benign-tumors_UP	NA	Clostridium
-bsdb:523/1/1_endometriosis:Endo-mice_vs_Non-endo-mice_DOWN	NA	Bacteroides	Blautia	Lactobacillus	Roseburia	Tyzzerella	Faecalitalea	Eisenbergiella	Gordonibacter	Anaerostipes
-bsdb:523/1/2_endometriosis:Endo-mice_vs_Non-endo-mice_UP	NA	Allobaculum	Akkermansia	Parasutterella	Rikenella	Citrobacter	Parabacteroides
+bsdb:523/1/1_endometriosis:Endo-mice_vs_Non-endo-mice_DOWN	NA	Anaerostipes	Bacteroides	Blautia	Eisenbergiella	Faecalitalea	Gordonibacter	Lactobacillus	Roseburia	Tyzzerella
+bsdb:523/1/2_endometriosis:Endo-mice_vs_Non-endo-mice_UP	NA	Akkermansia	Allobaculum	Citrobacter	Parabacteroides	Parasutterella	Rikenella
 bsdb:524/1/1_non-alcoholic-steatohepatitis:Individuals-diagnosed-with--Nonalcoholic-steatohepatitis-(without-cirrhosis)_vs_Healthy-controls_UP	NA	Actinomyces	Collinsella	Eggerthella	Fusicatenibacter	Hungatella	Lachnoclostridium
 bsdb:524/1/2_non-alcoholic-steatohepatitis:Individuals-diagnosed-with--Nonalcoholic-steatohepatitis-(without-cirrhosis)_vs_Healthy-controls_DOWN	NA	Alistipes	Bacteroides	Barnesiella	Desulfovibrio	Odoribacter	Parabacteroides	Paraprevotella	Parasutterella	Peptoclostridium	Terrisporobacter
 bsdb:524/2/1_non-alcoholic-steatohepatitis:Individuals-diagnosed-with-Nonalcoholic-steatohepatitis-(NASH)-with-cirrhosis_vs_Healthy-controls_UP	NA	Actinomyces	Collinsella	Eggerthella	Hungatella	Lachnoclostridium
@@ -1723,7 +1723,7 @@ bsdb:683/3/1_Colorectal-adenoma:adenoma-group_vs_non-adenoma-group_DOWN	NA	Bifid
 bsdb:683/3/2_Colorectal-adenoma:adenoma-group_vs_non-adenoma-group_UP	NA	Sutterella
 bsdb:683/4/1_Colorectal-adenoma:adenoma-group-post-polypectomy_vs_adenoma-group-pre-polypectomy_UP	NA	Candidatus Izimaplasma	Clostridium
 bsdb:683/5/1_Colorectal-adenoma:control-group-post-endoscopy_vs_control-group-pre-endoscopy_UP	NA	Desulfovibrio	Dialister	Streptococcus	Victivallis	Candidatus Izimaplasma	Clostridium
-bsdb:686/1/1_colorectal-cancer:CRC_vs_controls_DOWN	NA	Acetohalobium	Arachidicoccus	Asaia	Barnesiella	Caldithrix	Clostridioides	Desulfosporosinus	Eubacterium	Fibrella	Gilvibacter	Megamonas	Mesotoga	Paeniclostridium	Pedobacter	Runella	Thermincola	Chitinophaga
+bsdb:686/1/1_colorectal-cancer:CRC_vs_controls_DOWN	NA	Acetohalobium	Arachidicoccus	Asaia	Barnesiella	Caldithrix	Chitinophaga	Clostridioides	Desulfosporosinus	Eubacterium	Fibrella	Gilvibacter	Megamonas	Mesotoga	Paeniclostridium	Pedobacter	Runella	Thermincola
 bsdb:686/1/2_colorectal-cancer:CRC_vs_controls_UP	NA	Abyssicoccus	Actinomyces	Aerococcus	Aeromonas	Borrelia	Candidatus Blochmannia	Candidatus Doolittlea	Candidatus Hamiltonella	Candidatus Ishikawaella	Cedecea	Citrobacter	Coxiella	Cronobacter	Desulfovibrio	Dialister	Dickeya	Edwardsiella	Enterobacter	Erwinia	Escherichia	Fusobacterium	Klebsiella	Kosakonia	Leptotrichia	Marinobacter	Morganella	Pectobacterium	Photorhabdus	Pseudomonas	Raoultella	Salmonella	Serratia	Shewanella	Shigella	Sodalis	Thioploca	Yersinia	Micromonospora
 bsdb:686/2/1_colorectal-cancer:adenomas_vs_controls_UP	NA	Actinomyces	Aerococcus	Gemella	Meiothermus	Pseudomonas
 bsdb:686/2/2_colorectal-cancer:adenomas_vs_controls_DOWN	NA	Arachidicoccus	Bernardetia
@@ -1742,14 +1742,12 @@ bsdb:690/1/1_non-small-cell-lung-carcinoma:Responders_vs_Non-responders_UP	NA	Cl
 bsdb:690/1/2_non-small-cell-lung-carcinoma:Responders_vs_Non-responders_DOWN	NA	Bilophila	Parabacteroides	Sutterella
 bsdb:691/1/1_metastatic-melanoma:Responders_vs_Non-responders_UP	NA	Bilophila
 bsdb:691/1/2_metastatic-melanoma:Responders_vs_Non-responders_DOWN	NA	Eggerthella	Veillonella	Olsenella
-bsdb:692/1/1_Nutraceutical:colorectal-cancer-patients-who-took-prebiotics-(preoperative-fecal-sample)_vs_colorectal-cancer-patients-who-didn't-take-prebiotics-(preoperative-fecal-sample)_DOWN	NA	Bacteroides
-bsdb:692/1/2_Nutraceutical:colorectal-cancer-patients-who-took-prebiotics-(preoperative-fecal-sample)_vs_colorectal-cancer-patients-who-didn't-take-prebiotics-(preoperative-fecal-sample)_UP	NA	Bifidobacterium	Enterococcus
-bsdb:692/2/1_Nutraceutical:colorectal-cancer-patients-non-prebiotic-(postoperative)_vs_colorectal-cancer-patients-non-prebiotic-(preoperative)_DOWN	NA	Bacteroides
-bsdb:692/2/2_Nutraceutical:colorectal-cancer-patients-non-prebiotic-(postoperative)_vs_colorectal-cancer-patients-non-prebiotic-(preoperative)_UP	NA	Lactococcus	Enterococcus	Streptococcus	Bacillus
-bsdb:692/3/1_Nutraceutical:colorectal-cancer-patients-who-took-prebiotics-(postoperative-fecal-sample)_vs_colorectal-cancer-patients-who-took-prebiotics-(preoperative-fecal-sample)_UP	NA	Bacillus	Bifidobacterium	Enterococcus
-bsdb:692/3/2_Nutraceutical:colorectal-cancer-patients-who-took-prebiotics-(postoperative-fecal-sample)_vs_colorectal-cancer-patients-who-took-prebiotics-(preoperative-fecal-sample)_DOWN	NA	Bacteroides
-bsdb:692/4/1_Nutraceutical:colorectal-cancer-patients-who-took-prebiotics-(postoperative-fecal-sample)_vs_colorectal-cancer-patients-who-didn't-take-prebiotics-(postoperative-fecal-sample)_UP	NA	Bifidobacterium
-bsdb:692/4/2_Nutraceutical:colorectal-cancer-patients-who-took-prebiotics-(postoperative-fecal-sample)_vs_colorectal-cancer-patients-who-didn't-take-prebiotics-(postoperative-fecal-sample)_DOWN	NA	Enterococcus
+bsdb:692/1/1_Nutraceutical,Colorectal-cancer:colorectal-cancer-patients-who-took-prebiotics-(preoperative-fecal-sample)_vs_colorectal-cancer-patients-who-didn't-take-prebiotics-(preoperative-fecal-sample)_DOWN	NA	Bacteroides	Enterococcus
+bsdb:692/1/2_Nutraceutical,Colorectal-cancer:colorectal-cancer-patients-who-took-prebiotics-(preoperative-fecal-sample)_vs_colorectal-cancer-patients-who-didn't-take-prebiotics-(preoperative-fecal-sample)_UP	NA	Bifidobacterium
+bsdb:692/2/1_Nutraceutical,Colorectal-cancer:colorectal-cancer-patients-non-prebiotic-(postoperative)_vs_colorectal-cancer-patients-non-prebiotic-(preoperative)_DOWN	NA	Bacteroides
+bsdb:692/2/2_Nutraceutical,Colorectal-cancer:colorectal-cancer-patients-non-prebiotic-(postoperative)_vs_colorectal-cancer-patients-non-prebiotic-(preoperative)_UP	NA	Bacillus	Enterococcus	Lactococcus	Streptococcus
+bsdb:692/3/1_Nutraceutical,Colorectal-cancer:colorectal-cancer-patients-who-took-prebiotics-(postoperative-fecal-sample)_vs_colorectal-cancer-patients-who-took-prebiotics-(preoperative-fecal-sample)_UP	NA	Bacillus	Bifidobacterium	Enterococcus
+bsdb:692/3/2_Nutraceutical,Colorectal-cancer:colorectal-cancer-patients-who-took-prebiotics-(postoperative-fecal-sample)_vs_colorectal-cancer-patients-who-took-prebiotics-(preoperative-fecal-sample)_DOWN	NA	Bacteroides
 bsdb:693/1/1_hepatocellular-carcinoma:Responders_vs_Non-responders_UP	NA	Salinibacter	Subdoligranulum	Lactobacillus	Bifidobacterium	Ruminococcus	Akkermansia	Dialister	Scardovia
 bsdb:693/1/2_hepatocellular-carcinoma:Responders_vs_Non-responders_DOWN	NA	Bordetella	Turicibacter
 bsdb:694/1/1_colorectal-cancer:low-dose-GQD-(300-mg/kg)_vs_non-GQD_UP	NA	Candidatus Stoquefichus	Lactobacillus	Parasutterella	Roseburia	Candidatus Saccharimonas
