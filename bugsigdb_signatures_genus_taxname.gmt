@@ -1,4 +1,4 @@
-# BugSigDB 2023-01-01, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2023-01-08, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_adenoma:conventional-adenoma-cases_vs_controls_UP	NA	Actinomyces	Corynebacterium	Streptococcus	Peptoniphilus	Dorea	Phascolarctobacterium	Sutterella	Lacticaseibacillus	Bacillus
 bsdb:1/1/2_adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	Coprobacillus
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	Anaerostipes	Lacticaseibacillus
@@ -579,7 +579,7 @@ bsdb:174/1/1_gastric-cancer:cancer-tissue_vs_adjacent-normal-tissue_UP	NA	Seleno
 bsdb:174/1/2_gastric-cancer:cancer-tissue_vs_adjacent-normal-tissue_DOWN	NA	Serratia	Helicobacter	Niveispirillum	Levilactobacillus	Lactococcus
 bsdb:175/1/1_pancreatic-carcinoma:pancreatic-cancer-cases_vs_controls_UP	NA	Alloprevotella
 bsdb:175/1/2_pancreatic-carcinoma:pancreatic-cancer-cases_vs_controls_DOWN	NA	Leptotrichia
-bsdb:175/2/1_pancreatic-carcinoma:pancreatic-cancer-cases_vs_controls_DOWN	NA	Leptotrichia	Alloprevotella
+bsdb:175/2/1_pancreatic-carcinoma:pancreatic-cancer-cases_vs_controls_DOWN	NA	Alloprevotella	Leptotrichia
 bsdb:175/3/1_pancreatic-carcinoma:pancreatic-cancer-cases_vs_controls_DOWN	NA	Leptotrichia
 bsdb:176/1/1_leukemia:survivors-of-acute-lymphoblastic-leukemia_vs_controls_UP	NA	Corynebacterium	Peptoniphilus	Finegoldia	Staphylococcus	Actinomyces
 bsdb:176/1/2_leukemia:survivors-of-acute-lymphoblastic-leukemia_vs_controls_DOWN	NA	Faecalibacterium	Ruminococcus	Lachnospira
@@ -895,11 +895,11 @@ bsdb:263/4/1_rheumatoid-arthritis:arthiritis_vs_healthy-controls_UP	NA	Actinomyc
 bsdb:263/4/2_rheumatoid-arthritis:arthiritis_vs_healthy-controls_DOWN	NA	Anaerofustis	Butyricicoccus	Clostridium	Faecalibacterium	Fusicatenibacter	Gemmiger	Lachnospira	Romboutsia	Roseburia	Sporobacter	Subdoligranulum
 bsdb:264/1/1_human-papilloma-virus-infection:HPV+/HIV-_vs_HPV-/HIV-_UP	NA	Anaerococcus	Megasphaera	Arcanobacterium	Peptostreptococcus	Dialister	Peptoniphilus	Prevotella	Sneathia
 bsdb:264/1/2_human-papilloma-virus-infection:HPV+/HIV-_vs_HPV-/HIV-_DOWN	NA	Lactobacillus	Halorubrum
-bsdb:265/1/1_human-papilloma-virus-infection:two-months_vs_at-birth_UP	NA	Streptococcus	Veillonella	Rothia
-bsdb:265/1/2_human-papilloma-virus-infection:two-months_vs_at-birth_DOWN	NA	Lactobacillus	Bacteroides	Megasphaera	Staphylococcus	Propionibacterium	Agrobacterium	Delftia	Pseudomonas
+bsdb:265/1/1_human-papilloma-virus-infection,Age:two-months_vs_at-birth_UP	NA	Rothia	Streptococcus	Veillonella	Haemophilus	Anaerococcus	Finegoldia
+bsdb:265/1/2_human-papilloma-virus-infection,Age:two-months_vs_at-birth_DOWN	NA	Agrobacterium	Bacteroides	Delftia	Lactobacillus	Megasphaera	Propionibacterium	Pseudomonas	Staphylococcus
 bsdb:265/2/1_human-papilloma-virus-infection:HPV+_vs_HPV-_UP	NA	Lysinibacillus	Ureaplasma
 bsdb:265/2/2_human-papilloma-virus-infection:HPV+_vs_HPV-_DOWN	NA	Veillonella
-bsdb:265/3/1_human-papilloma-virus-infection:HPV+_vs_HPV--at-two-months_DOWN	NA	Veillonella
+bsdb:265/3/1_human-papilloma-virus-infection:HPV+-at-two-months_vs_HPV--at-two-months_DOWN	NA	Veillonella
 bsdb:266/1/1_diet:healthy-vegetarian_vs_healthy-non-vegetarian_UP	NA	Prevotella	Klebsiella
 bsdb:266/1/2_diet:healthy-vegetarian_vs_healthy-non-vegetarian_DOWN	NA	Parabacteroides	Bacteroides	Alistipes	Akkermansia
 bsdb:267/1/1_atopic-asthma:atopic-asthma_vs_healthy-control_UP	NA	Actinomyces	Alloprevotella	Anaerovorax	Campylobacter	Fusobacterium	Haemophilus	Kingella	Lactobacillus	Neisseria	Porphyromonas	Prevotella	Sphingopyxis	Treponema	Veillonella
@@ -1396,7 +1396,7 @@ bsdb:416/1/1_HIV-infection,cotrimoxazole:continue-cotrimoxazole-prophylaxis_vs_s
 bsdb:416/1/2_HIV-infection,cotrimoxazole:continue-cotrimoxazole-prophylaxis_vs_stop-cotrimoxazole-prophylaxis_DOWN	NA	Haemophilus	Holdemanella	Streptococcus	Faecalibacterium
 bsdb:416/1/3_HIV-infection,cotrimoxazole:continue-cotrimoxazole-prophylaxis_vs_stop-cotrimoxazole-prophylaxis_UP	NA	Odoribacter	Parabacteroides	Roseburia	Alistipes
 bsdb:416/1/4_HIV-infection,cotrimoxazole:continue-cotrimoxazole-prophylaxis_vs_stop-cotrimoxazole-prophylaxis_DOWN	NA	Alistipes	Intestinibacter	Eggerthella	Haemophilus	Streptococcus
-bsdb:417/1/1_HIV-infection:Women-with-diabetes_vs_Women-without-diabetes_DOWN	NA	Anaerococcus	Finegoldia	Sneathia	Adlercreutzia
+bsdb:417/1/1_HIV-infection,diabetes-mellitus:Women-with-diabetes_vs_Women-without-diabetes_DOWN	NA	Anaerococcus	Finegoldia	Sneathia	Adlercreutzia
 bsdb:418/1/1_HIV-infection:immunological-non-responders-assigned-to-treatment-for-12-weeks_vs_baseline_UP	NA	Megamonas	Desulfovibrio
 bsdb:418/1/2_HIV-infection:immunological-non-responders-assigned-to-treatment-for-12-weeks_vs_baseline_DOWN	NA	Catenibacterium
 bsdb:418/2/1_HIV-infection:immunological-responders-assigned-to-treatment-for-12-weeks_vs_baseline_UP	NA	Megamonas	Desulfovibrio
@@ -1776,6 +1776,8 @@ bsdb:541/3/1_schizophrenia:Schizophrenic-patients_vs_Healthy-controls_UP	NA	Akke
 bsdb:541/3/2_schizophrenia:Schizophrenic-patients_vs_Healthy-controls_DOWN	NA	Bacteroides	Phocaeicola
 bsdb:541/4/1_schizophrenia:Baseline-schizophrenic-patients_vs_Healthy-controls_NA	NA	Akkermansia	Alkaliphilus	Bacillus	Bacteroides	Bifidobacterium	Cronobacter	Enterococcus	Streptococcus	Veillonella	Phocaeicola
 bsdb:541/5/1_schizophrenia:Baseline-schizophrenic-patients_vs_Healthy-controls_NA	NA	Akkermansia	Alkaliphilus	Bacillus	Bacteroides	Bifidobacterium	Cronobacter	Enterococcus	Streptococcus	Veillonella	Phocaeicola
+bsdb:543/1/1_HIV-infection:Persons-with-HIV-(PWH)_vs_HIV-seronegative-controls_DOWN	NA	Gracilibacter	Slackia	Oscillibacter	Clostridium	Faecalibacterium	Romboutsia	Sporobacter
+bsdb:543/1/2_HIV-infection:Persons-with-HIV-(PWH)_vs_HIV-seronegative-controls_UP	NA	Eggerthella	Clostridium	Bilophila
 bsdb:544/1/1_colorectal-cancer:CRC-patients_vs_healthy-controls_UP	NA	Campylobacter	Dialister	Eggerthella	Fusobacterium	Parvimonas	Peptostreptococcus	Porphyromonas	Solobacterium	Mediterraneibacter
 bsdb:544/1/2_colorectal-cancer:CRC-patients_vs_healthy-controls_DOWN	NA	Agathobaculum	Anaerobutyricum	Anaerostipes	Blautia	Coprococcus	Fusicatenibacter	Lachnospira	Roseburia	Streptococcus
 bsdb:545/1/1_antimicrobial-agent:7-week-old-(young)-mice-10-days-after-antibiotic-treatments_vs_7-week-old-(young)-mice-before-antibiotic-treatment_UP	NA	Enterococcus
@@ -1862,7 +1864,7 @@ bsdb:574/3/1_antimicrobial-agent:azithromycin-treated-(day-60)_vs_azithromycin-t
 bsdb:574/3/2_antimicrobial-agent:azithromycin-treated-(day-60)_vs_azithromycin-treated-(day-0)_UP	NA	Adlercreutzia	Alkaliphilus	Streptococcus	Veillonella
 bsdb:574/4/1_antimicrobial-agent:azithromycin-lactulose-treated_vs_azithromycin-treated_UP	NA	Anaerostipes	Blautia	Butyricimonas	Coprobacillus	Dysgonomonas	Erysipelothrix	Megasphaera
 bsdb:574/4/2_antimicrobial-agent:azithromycin-lactulose-treated_vs_azithromycin-treated_UP	NA	Megasphaera	Sporosarcina
-bsdb:576/1/1_colorectal-cancer:adenocarcinoma_vs_contemporaneous-patients-awaiting-elective-surgery-for-nononcologic-conditions_DOWN	NA	Coprococcus
+bsdb:576/1/1_colorectal-cancer:patients-with-adenocarcinoma_vs_controls-with-no-cancer_DOWN	NA	Coprococcus
 bsdb:577/1/1_asthma:Male_vs_Female_DOWN	NA	Streptococcus
 bsdb:577/2/1_asthma:Female-participants-with-asthma_vs_Female-normal-controls_DOWN	NA	Streptococcus
 bsdb:577/2/3_asthma:Female-participants-with-asthma_vs_Female-normal-controls_UP	NA	Lactobacillus
@@ -1963,12 +1965,12 @@ bsdb:632/1/1_ethnic-group:African-American-neonate-by-maternal-profile_vs_Caucas
 bsdb:632/1/2_ethnic-group:African-American-neonate-by-maternal-profile_vs_Caucasian-+-other-races-neonates-by-maternal-profiles_DOWN	NA	Coprococcus	Oscillospira	Parabacteroides	Prevotella	Staphylococcus	Streptococcus
 bsdb:632/2/1_socioeconomic-status:Infants-in-household-income-<$80,000._vs_Infants-in-household-income-=>$80,000._UP	NA	Bacteroides	Ruminococcus	Streptococcus
 bsdb:632/2/2_socioeconomic-status:Infants-in-household-income-<$80,000._vs_Infants-in-household-income-=>$80,000._DOWN	NA	Akkermansia	Bifidobacterium	Coprococcus	Faecalibacterium	Prevotella	Staphylococcus	Veillonella
-bsdb:637/1/1_colorectal-cancer:CRC_vs_Healthy-Individuals_UP	NA	Anaerococcus	Brachybacterium	Anaerostipes	Bradyrhizobium	Cloacibacterium	Gemella	Micrococcus	Neisseria	Pantoea	Pseudomonas	Psychrobacter	Streptococcus	Thermoflavimicrobium
-bsdb:637/1/2_colorectal-cancer:CRC_vs_Healthy-Individuals_DOWN	NA	Actinomyces	Alloprevotella	Anaeroglobus	Fretibacterium	Fusobacterium	Howardella	Lachnoanaerobaculum	Lactobacillus	Lysobacter	Peptostreptococcus	Prevotella	Stomatobaculum	Thermomonas	Treponema	Acholeplasma	Asteroleplasma	Atopobium	Campylobacter	Capnocytophaga	Dialister	Enhydrobacter	Leptotrichia	Selenomonas	Sphaerochaeta	Veillonella
-bsdb:637/2/1_colorectal-adenoma:CRA_vs_Healthy-Individuals_UP	NA	Streptococcus	Gemella	Gemmatimonas	Gemmiger	Bradyrhizobium	Brachybacterium	Nitrospira	Bacillus	Thermoflavimicrobium	Micrococcus	Sphingomonas	Aeromonas	Edaphobacter	Megamonas	Ruminococcus	Brochothrix	Bacteroides
-bsdb:637/2/2_colorectal-adenoma:CRA_vs_Healthy-Individuals_DOWN	NA	Actinomyces	Aestuariicoccus	Aggregatibacter	Alloprevotella	Anaeroglobus	Anaerovorax	Anoxybacillus	Asteroleplasma	Atopobium	Butyrivibrio	Campylobacter	Capnocytophaga	Cardiobacterium	Catonella	Chujaibacter	Comamonas	Corynebacterium	Dialister	Eggerthia	Eikenella	Eubacterium	Filifactor	Fretibacterium	Fusobacterium	Lachnoanaerobaculum	Leptotrichia	Lysobacter	Mycoplasma	Neisseria	Oribacterium	Paludibacter	Parvimonas	Peptococcus	Peptostreptococcus	Phyllobacterium	Porphyromonas	Prevotella	Propionibacterium	Solobacterium	Stomatobaculum	Tannerella	Treponema	Veillonella	Xanthomonas	Diaphorobacter
-bsdb:637/3/1_colorectal-cancer:CRC_vs_CRA_UP	NA	Aggregatibacter	Anaerococcus	Campylobacter	Capnocytophaga	Cloacibacterium	Comamonas	Dialister	Eubacterium	Fusobacterium	Neisseria	Parvimonas	Porphyromonas	Diaphorobacter	Phyllobacterium	Solobacterium	Peptostreptococcus	Brachymonas	Formosa	Conexibacter	Anaeroglobus	Butyrivibrio
-bsdb:637/3/2_colorectal-cancer:CRC_vs_CRA_DOWN	NA	Blautia	Gemmiger	Streptococcus	Xanthomonas	Megamonas	Gemmatimonas
+bsdb:637/1/1_colorectal-cancer:CRC_vs_Healthy-Individuals_UP	NA	Anaerococcus	Anaerostipes	Brachybacterium	Bradyrhizobium	Cloacibacterium	Gemella	Micrococcus	Neisseria	Pantoea	Pseudomonas	Psychrobacter	Streptococcus	Thermoflavimicrobium
+bsdb:637/1/2_colorectal-cancer:CRC_vs_Healthy-Individuals_DOWN	NA	Veillonella	Actinomyces	Prevotella	Fusobacterium	Lysobacter
+bsdb:637/2/1_colorectal-adenoma:CRA_vs_Healthy-Individuals_UP	NA	Nitrospira	Streptococcus	Gemella	Gemmatimonas	Gemmiger	Bradyrhizobium	Brachybacterium	Xanthomonas
+bsdb:637/2/2_colorectal-adenoma:CRA_vs_Healthy-Individuals_DOWN	NA	Actinomyces	Aestuariicoccus	Aggregatibacter	Alloprevotella	Anaeroglobus	Anaerovorax	Anoxybacillus	Asteroleplasma	Atopobium	Butyrivibrio	Campylobacter	Capnocytophaga	Corynebacterium	Dialister	Diaphorobacter	Eggerthia	Eubacterium	Fretibacterium	Fusobacterium	Lachnoanaerobaculum	Leptotrichia	Lysobacter	Mycoplasma	Neisseria	Oribacterium	Parvimonas	Peptococcus	Peptostreptococcus	Phyllobacterium	Porphyromonas	Prevotella	Propionibacterium	Solobacterium	Stomatobaculum	Tannerella	Treponema	Veillonella	Xanthomonas
+bsdb:637/3/1_colorectal-cancer:CRC_vs_CRA_DOWN	NA	Porphyromonas	Diaphorobacter	Neisseria	Prevotella	Phyllobacterium	Comamonas	Solobacterium	Anaerococcus	Capnocytophaga	Peptostreptococcus	Fusobacterium	Aggregatibacter	Brachymonas	Parvimonas	Cloacibacterium	Campylobacter	Eubacterium	Formosa
+bsdb:637/3/2_colorectal-cancer:CRC_vs_CRA_UP	NA	Blautia	Gemmatimonas	Gemmiger	Megamonas	Streptococcus	Xanthomonas
 bsdb:639/1/1_socioeconomic-status:underdeveloped-cities-vs-developed-cities_vs_NA_UP	NA	Bacteroides	Parabacteroides	Ruminococcus
 bsdb:639/1/2_socioeconomic-status:underdeveloped-cities-vs-developed-cities_vs_NA_DOWN	NA	Prevotella	Ruminococcus
 bsdb:641/1/1_arthritis:Early-Rheumatoid-Arthritis_vs_healthy-control_DOWN	NA	Porphyromonas	Fusobacterium	Veillonella
@@ -2052,8 +2054,8 @@ bsdb:667/1/1_hepatocellular-carcinoma:Responders_vs_Non-responders_UP	NA	Faecali
 bsdb:667/1/2_hepatocellular-carcinoma:Responders_vs_Non-responders_DOWN	NA	Collinsella	Bacteroides	Oleidesulfovibrio	Prevotella	Gardnerella
 bsdb:669/1/1_ethnic-group,socioeconomic-status:Rural-African-Children-in-Burkina-Faso_vs_European-Children-in-Italy_UP	NA	Prevotella
 bsdb:669/1/2_ethnic-group,socioeconomic-status:Rural-African-Children-in-Burkina-Faso_vs_European-Children-in-Italy_DOWN	NA	Acetitomaculum	Faecalibacterium	Roseburia	Subdoligranulum	Alistipes	Bacteroides
-bsdb:670/1/1_ethnic-group:Bangladesh-Children-(Household-income-<-$61)_vs_US-children_UP	NA	Butyrivibrio
-bsdb:670/1/2_ethnic-group:Bangladesh-Children-(Household-income-<-$61)_vs_US-children_DOWN	NA	Bacteroides	Faecalibacterium
+bsdb:670/1/1_ethnic-group,socioeconomic-status:Bangladesh-Children-(Household-income-<-$61)_vs_US-children_UP	NA	Butyrivibrio
+bsdb:670/1/2_ethnic-group,socioeconomic-status:Bangladesh-Children-(Household-income-<-$61)_vs_US-children_DOWN	NA	Bacteroides	Faecalibacterium
 bsdb:671/1/1_seasonal-gut-microbiome-measurement:samples-taken-in-dry/cold-season_vs_samples-taken-in-dry/hot-or-rainy-season_UP	NA	Prevotella	Streptococcus	Faecalibacterium	Clostridium
 bsdb:671/1/2_seasonal-gut-microbiome-measurement:samples-taken-in-dry/cold-season_vs_samples-taken-in-dry/hot-or-rainy-season_DOWN	NA	Enterobacter	Eubacterium	Clostridium	Granulicatella	Neisseria	Bacteroides	Ruminococcus
 bsdb:674/1/1_socioeconomic-status:Low-SES_vs_High-SES_UP	NA	Catenibacterium	Bulleidia	Mogibacterium	Prevotella	Eubacterium	Dorea

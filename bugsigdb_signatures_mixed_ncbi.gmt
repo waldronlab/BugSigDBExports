@@ -1,4 +1,4 @@
-# BugSigDB 2023-01-01, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2023-01-08, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_adenoma:conventional-adenoma-cases_vs_controls_UP	NA	91061	1236	1654	1716	1301	162289	189330	33024	40544	2037	2049	506	186826	1300	31977	91347	1653	57037	1386	186817
 bsdb:1/1/2_adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	100883	1117
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	207244	57037
@@ -641,10 +641,10 @@ bsdb:173/2/1_pancreatic-carcinoma:pancreatic-head-cancer-with-obstruction_vs_wit
 bsdb:173/2/2_pancreatic-carcinoma:pancreatic-head-cancer-with-obstruction_vs_without-cancer_DOWN	NA	561	620	118966
 bsdb:174/1/1_gastric-cancer:cancer-tissue_vs_adjacent-normal-tissue_UP	NA	356	1497346	57723	970	838	28135	1164882	1301	909929	909932	31977	1257	186803	13687	201174	186804	28129	469	468	171552	470	186802	186801	186817	1386	171549	200643	91061	976	1385	287	1239
 bsdb:174/1/2_gastric-cancer:cancer-tissue_vs_adjacent-normal-tissue_DOWN	NA	543	91347	613	210	72293	209	615	213849	29547	1543704	41295	204441	1580	1357	1358	135614
-bsdb:175/1/1_pancreatic-carcinoma:pancreatic-cancer-cases_vs_controls_UP	NA	976	1283313
-bsdb:175/1/2_pancreatic-carcinoma:pancreatic-cancer-cases_vs_controls_DOWN	NA	32066	203490	203491	1129771	32067
-bsdb:175/2/1_pancreatic-carcinoma:pancreatic-cancer-cases_vs_controls_DOWN	NA	1129771	32067	1283313	203491	203490	32066
-bsdb:175/3/1_pancreatic-carcinoma:pancreatic-cancer-cases_vs_controls_DOWN	NA	1129771	32067
+bsdb:175/1/1_pancreatic-carcinoma:pancreatic-cancer-cases_vs_controls_UP	NA	1283313	976
+bsdb:175/1/2_pancreatic-carcinoma:pancreatic-cancer-cases_vs_controls_DOWN	NA	32066	203491	203490	32067	1129771
+bsdb:175/2/1_pancreatic-carcinoma:pancreatic-cancer-cases_vs_controls_DOWN	NA	1283313	32066	203491	203490	32067	1129771
+bsdb:175/3/1_pancreatic-carcinoma:pancreatic-cancer-cases_vs_controls_DOWN	NA	32067	1129771
 bsdb:176/1/1_leukemia:survivors-of-acute-lymphoblastic-leukemia_vs_controls_UP	NA	201174	1716	1653	162289	150022	2157	90964	1279	1654
 bsdb:176/1/2_leukemia:survivors-of-acute-lymphoblastic-leukemia_vs_controls_DOWN	NA	171549	200643	976	541000	216851	1263	171550	28050	213115	28221	194924
 bsdb:177/1/1_colorectal-cancer:colon-cancer-patients_vs_control_UP	NA	976	35832	1485	39948	28890	32066	848	2172	119852	1257	544448
@@ -995,11 +995,11 @@ bsdb:263/4/1_rheumatoid-arthritis:arthiritis_vs_healthy-controls_UP	NA	1654	8411
 bsdb:263/4/2_rheumatoid-arthritis:arthiritis_vs_healthy-controls_DOWN	NA	264995	580596	1485	216851	1407607	204475	28050	1501226	841	44748	292632
 bsdb:264/1/1_human-papilloma-virus-infection:HPV+/HIV-_vs_HPV-/HIV-_UP	NA	1872515	2023260	28263	1261	309120	72409	186804	1257	1971214	39948	1258	162289	59823	906	31979	976	200643	171549	168808	1129771	838	171552	32066	203491
 bsdb:264/1/2_human-papilloma-virus-infection:HPV+/HIV-_vs_HPV-/HIV-_DOWN	NA	147802	28211	356	56688	1879286	135614
-bsdb:265/1/1_human-papilloma-virus-infection:two-months_vs_at-birth_UP	NA	1301	29465	32207	1268	1300	39778	43675
-bsdb:265/1/2_human-papilloma-virus-infection:two-months_vs_at-birth_DOWN	NA	1578	816	906	1279	1743	357	80865	286	1737406
+bsdb:265/1/1_human-papilloma-virus-infection,Age:two-months_vs_at-birth_UP	NA	1268	32207	43675	1300	1301	29465	39778	2762318	724	1872515	150022
+bsdb:265/1/2_human-papilloma-virus-infection,Age:two-months_vs_at-birth_DOWN	NA	357	816	80865	1578	906	1743	286	1279	1737406
 bsdb:265/2/1_human-papilloma-virus-infection:HPV+_vs_HPV-_UP	NA	400634	2129
 bsdb:265/2/2_human-papilloma-virus-infection:HPV+_vs_HPV-_DOWN	NA	29465
-bsdb:265/3/1_human-papilloma-virus-infection:HPV+_vs_HPV--at-two-months_DOWN	NA	31977	39778
+bsdb:265/3/1_human-papilloma-virus-infection:HPV+-at-two-months_vs_HPV--at-two-months_DOWN	NA	31977	39778
 bsdb:266/1/1_diet:healthy-vegetarian_vs_healthy-non-vegetarian_UP	NA	171552	838	570
 bsdb:266/1/2_diet:healthy-vegetarian_vs_healthy-non-vegetarian_DOWN	NA	171551	203557	171550	815	375288	816	239759	239934
 bsdb:267/1/1_atopic-asthma:atopic-asthma_vs_healthy-control_UP	NA	1654	76122	109326	194	848	724	32257	147802	482	28449	836	838	165179	165697	117207	157	59892	29465	39778
@@ -1605,7 +1605,7 @@ bsdb:416/1/1_HIV-infection,cotrimoxazole:continue-cotrimoxazole-prophylaxis_vs_s
 bsdb:416/1/2_HIV-infection,cotrimoxazole:continue-cotrimoxazole-prophylaxis_vs_stop-cotrimoxazole-prophylaxis_DOWN	NA	729	1735	1318	853	1304
 bsdb:416/1/3_HIV-infection,cotrimoxazole:continue-cotrimoxazole-prophylaxis_vs_stop-cotrimoxazole-prophylaxis_UP	NA	28118	328812	387661	166486	2585118
 bsdb:416/1/4_HIV-infection,cotrimoxazole:continue-cotrimoxazole-prophylaxis_vs_stop-cotrimoxazole-prophylaxis_DOWN	NA	328813	261299	84112	729	1309	1318	1343
-bsdb:417/1/1_HIV-infection:Women-with-diabetes_vs_Women-without-diabetes_DOWN	NA	165779	150022	168808	447020
+bsdb:417/1/1_HIV-infection,diabetes-mellitus:Women-with-diabetes_vs_Women-without-diabetes_DOWN	NA	165779	150022	168808	447020
 bsdb:418/1/1_HIV-infection:immunological-non-responders-assigned-to-treatment-for-12-weeks_vs_baseline_UP	NA	158846	872
 bsdb:418/1/2_HIV-infection:immunological-non-responders-assigned-to-treatment-for-12-weeks_vs_baseline_DOWN	NA	31979	135858
 bsdb:418/2/1_HIV-infection:immunological-responders-assigned-to-treatment-for-12-weeks_vs_baseline_UP	NA	158846	872
@@ -1803,8 +1803,8 @@ bsdb:467/6/2_breast-cancer-stage:Stage-High-(III)_vs_Stage-Low-(I/II)_DOWN	NA	90
 bsdb:467/7/1_age:Age-≤50_vs_Age-50+_UP	NA	31979	1485	543	1357
 bsdb:467/8/1_parous:Nulliparous_vs_Parous_DOWN	NA	135858
 bsdb:467/9/1_body-mass-index:BMI≥25_vs_BMI<25_UP	NA	239934
-bsdb:467/10/1_Body-fat-percentage:TBF>46%_vs_TBF≤46%_UP	NA	31979
-bsdb:467/10/2_Body-fat-percentage:TBF>46%_vs_TBF≤46%_DOWN	NA	84107
+bsdb:467/10/1_body-fat-percentage:TBF>46%_vs_TBF≤46%_UP	NA	31979
+bsdb:467/10/2_body-fat-percentage:TBF>46%_vs_TBF≤46%_DOWN	NA	84107
 bsdb:467/11/NA_physical-activity:No-Physical-Activity_vs_Yes-Physical-Activity_NA	NA	NA
 bsdb:468/1/1_endometriosis:Stage-3/4-endometriosis-patients_vs_Healthy-controls_DOWN	NA	1380	1378
 bsdb:468/2/1_endometriosis:Stage-3/4-endometriosis-patients_vs_Healthy-controls_DOWN	NA	1380	168808
@@ -2075,7 +2075,8 @@ bsdb:541/3/1_schizophrenia:Schizophrenic-patients_vs_Healthy-controls_UP	NA	2399
 bsdb:541/3/2_schizophrenia:Schizophrenic-patients_vs_Healthy-controls_DOWN	NA	338188	329854	357276
 bsdb:541/4/1_schizophrenia:Baseline-schizophrenic-patients_vs_Healthy-controls_NA	NA	239935	461876	1392	338188	329854	1680	216816	28141	1352	1343	29466	39492	310297
 bsdb:541/5/1_schizophrenia:Baseline-schizophrenic-patients_vs_Healthy-controls_NA	NA	239935	461876	1392	329854	1680	216816	28141	1352	1343	29466	39492	310297
-bsdb:543/1/NA_HIV-infection:Persons-with-HIV-(PWH)_vs_HIV-seronegative-controls_NA	NA	NA
+bsdb:543/1/1_HIV-infection:Persons-with-HIV-(PWH)_vs_HIV-seronegative-controls_DOWN	NA	342658	572010	459786	1898207	1506	853	186803	1501226	44748
+bsdb:543/1/2_HIV-infection:Persons-with-HIV-(PWH)_vs_HIV-seronegative-controls_UP	NA	84112	1485	35833
 bsdb:544/1/1_colorectal-cancer:CRC-patients_vs_healthy-controls_UP	NA	203	39950	84112	851	29391	33033	341694	28123	102148	33039	60404
 bsdb:544/1/2_colorectal-cancer:CRC-patients_vs_healthy-controls_DOWN	NA	39484	39488	649756	871665	410072	1150298	39485	301302	1304
 bsdb:545/1/1_antimicrobial-agent:7-week-old-(young)-mice-10-days-after-antibiotic-treatments_vs_7-week-old-(young)-mice-before-antibiotic-treatment_UP	NA	81852	186826	1350
@@ -2178,7 +2179,7 @@ bsdb:574/3/2_antimicrobial-agent:azithromycin-treated-(day-60)_vs_azithromycin-t
 bsdb:574/4/1_antimicrobial-agent:azithromycin-lactulose-treated_vs_azithromycin-treated_UP	NA	207244	572511	574697	100883	156973	1647	906
 bsdb:574/4/2_antimicrobial-agent:azithromycin-lactulose-treated_vs_azithromycin-treated_UP	NA	906	1569
 bsdb:575/1/NA_antimicrobial-agent:perinatal-antibiotics_vs_Control-group_NA	NA	NA
-bsdb:576/1/1_colorectal-cancer:adenocarcinoma_vs_contemporaneous-patients-awaiting-elective-surgery-for-nononcologic-conditions_DOWN	NA	186801	186802	33042	186803
+bsdb:576/1/1_colorectal-cancer:patients-with-adenocarcinoma_vs_controls-with-no-cancer_DOWN	NA	186801	33042	186802	186803	1898207
 bsdb:577/1/1_asthma:Male_vs_Female_DOWN	NA	201174	1239	1304
 bsdb:577/1/2_asthma:Male_vs_Female_UP	NA	976
 bsdb:577/2/1_asthma:Female-participants-with-asthma_vs_Female-normal-controls_DOWN	NA	1304
@@ -2304,12 +2305,12 @@ bsdb:632/1/1_ethnic-group:African-American-neonate-by-maternal-profile_vs_Caucas
 bsdb:632/1/2_ethnic-group:African-American-neonate-by-maternal-profile_vs_Caucasian-+-other-races-neonates-by-maternal-profiles_DOWN	NA	33042	119852	375288	838	1279	1301
 bsdb:632/2/1_socioeconomic-status:Infants-in-household-income-<$80,000._vs_Infants-in-household-income-=>$80,000._UP	NA	816	1263	1301
 bsdb:632/2/2_socioeconomic-status:Infants-in-household-income-<$80,000._vs_Infants-in-household-income-=>$80,000._DOWN	NA	239934	1678	33042	216851	838	1279	29465
-bsdb:637/1/1_colorectal-cancer:CRC_vs_Healthy-Individuals_UP	NA	165779	43668	207244	374	501783	1117	1378	1269	482	53335	286	497	134549	1301	292636
-bsdb:637/1/2_colorectal-cancer:CRC_vs_Healthy-Individuals_DOWN	NA	1654	1283313	156454	1434006	848	404402	1164882	1578	68	1257	838	1213720	35493	141948	157	2147	2152	1380	194	1016	39948	212791	32067	31957	95818	970	399320	29465
-bsdb:637/2/1_colorectal-adenoma:CRA_vs_Healthy-Individuals_UP	NA	1301	1378	1117	173479	204475	374	43668	85021	1234	1386	292636	1269	13687	642	388463	158846	1263	2755	816
-bsdb:637/2/2_colorectal-adenoma:CRA_vs_Healthy-Individuals_DOWN	NA	1654	2054427	416916	1283313	156454	109326	150247	2152	1380	830	194	95818	1016	2717	43996	1931224	283	1716	39948	1279384	538	1730	44259	1239	1434006	848	1164882	32067	68	2093	482	265975	346096	543311	2740	186804	1257	28100	836	838	31957	1743	123375	1213720	35493	195950	157	29465	338	238749
-bsdb:637/3/1_colorectal-cancer:CRC_vs_CRA_UP	NA	416916	165779	194	1016	501783	283	39948	1730	848	482	543311	836	238749	28100	123375	1257	28219	95818	28211	225842	191494	156454	1224	830
-bsdb:637/3/2_colorectal-cancer:CRC_vs_CRA_DOWN	NA	572511	204475	1301	35493	1117	338	158846	216572	173479
+bsdb:637/1/1_colorectal-cancer:CRC_vs_Healthy-Individuals_UP	NA	165779	207244	43668	374	501783	1117	1378	1269	482	53335	286	497	134549	1301	292636
+bsdb:637/1/2_colorectal-cancer:CRC_vs_Healthy-Individuals_DOWN	NA	976	32066	201174	95818	203691	508458	1117	29465	1654	838	848	68
+bsdb:637/2/1_colorectal-adenoma:CRA_vs_Healthy-Individuals_UP	NA	1239	57723	219685	1234	200795	74201	1301	1117	1378	173479	204475	134549	374	43668	85021	338
+bsdb:637/2/2_colorectal-adenoma:CRA_vs_Healthy-Individuals_DOWN	NA	1654	2054427	416916	1283313	156454	109326	150247	2152	1380	830	194	95818	1016	1716	39948	238749	1279384	1730	1239	1434006	848	1164882	32067	68	2093	482	265975	543311	2740	186804	1257	28100	836	838	31957	1743	123375	1213720	35493	195950	157	29465	338	205	976	32066	1117	203691	201174	508458	544448	1224
+bsdb:637/3/1_colorectal-cancer:CRC_vs_CRA_DOWN	NA	976	95818	1224	32066	836	238749	482	838	28100	283	123375	165779	1016	1257	848	416916	28219	28211	543311	501783	194	1730	225842
+bsdb:637/3/2_colorectal-cancer:CRC_vs_CRA_UP	NA	572511	1117	173479	204475	158846	1301	35493	338	216572	1239	57723	200795	219686
 bsdb:639/1/1_socioeconomic-status:underdeveloped-cities-vs-developed-cities_vs_NA_UP	NA	816	28216	186803	375288	171550	1263	31977
 bsdb:639/1/2_socioeconomic-status:underdeveloped-cities-vs-developed-cities_vs_NA_DOWN	NA	31979	1236	186804	838	1263
 bsdb:641/1/1_arthritis:Early-Rheumatoid-Arthritis_vs_healthy-control_DOWN	NA	1583331	860	29466
@@ -2405,8 +2406,8 @@ bsdb:667/1/1_hepatocellular-carcinoma:Responders_vs_Non-responders_UP	NA	186801	
 bsdb:667/1/2_hepatocellular-carcinoma:Responders_vs_Non-responders_DOWN	NA	171549	976	200643	147206	1841856	58180	470565	2702	2701
 bsdb:669/1/1_ethnic-group,socioeconomic-status:Rural-African-Children-in-Burkina-Faso_vs_European-Children-in-Italy_UP	NA	838	203691	976	201174
 bsdb:669/1/2_ethnic-group,socioeconomic-status:Rural-African-Children-in-Burkina-Faso_vs_European-Children-in-Italy_DOWN	NA	1239	1224	31980	216851	841	292632	239759	816
-bsdb:670/1/1_ethnic-group:Bangladesh-Children-(Household-income-<-$61)_vs_US-children_UP	NA	830	186802
-bsdb:670/1/2_ethnic-group:Bangladesh-Children-(Household-income-<-$61)_vs_US-children_DOWN	NA	818	853
+bsdb:670/1/1_ethnic-group,socioeconomic-status:Bangladesh-Children-(Household-income-<-$61)_vs_US-children_UP	NA	830	186802
+bsdb:670/1/2_ethnic-group,socioeconomic-status:Bangladesh-Children-(Household-income-<-$61)_vs_US-children_DOWN	NA	818	853
 bsdb:671/1/1_seasonal-gut-microbiome-measurement:samples-taken-in-dry/cold-season_vs_samples-taken-in-dry/hot-or-rainy-season_UP	NA	838	1340	853	541000	1485	1898207	216851
 bsdb:671/1/2_seasonal-gut-microbiome-measurement:samples-taken-in-dry/cold-season_vs_samples-taken-in-dry/hot-or-rainy-season_DOWN	NA	547	1263079	1898207	1485	46124	482	817	1263	543	818
 bsdb:673/1/1_ethnic-group:Colombia-data_vs_USA-data_UP	NA	201174	1239	544448	74201
