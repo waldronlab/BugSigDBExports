@@ -1,4 +1,4 @@
-# BugSigDB 2023-01-08, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2023-01-15, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_adenoma:conventional-adenoma-cases_vs_controls_UP	NA	91061	1236	1654	1716	1301	162289	189330	33024	40544	2037	2049	506	186826	1300	31977	91347	1653	57037	1386	186817
 bsdb:1/1/2_adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	100883	1117
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	207244	57037
@@ -386,7 +386,7 @@ bsdb:106/1/1_bipolar-disorder:bipolar_vs_healthy-controls_UP	NA	946234
 bsdb:107/1/1_anorexia-nervosa:anorexia_vs_healthy-controls_UP	NA	91061
 bsdb:107/1/2_anorexia-nervosa:anorexia_vs_healthy-controls_DOWN	NA	186801	186802	207244	216851
 bsdb:107/2/1_anorexia-nervosa:anorexia_vs_healthy-controls_UP	NA	375288
-bsdb:108/1/1_anorexia-nervosa:anorexia-nervosa-patients_vs_healthy-controls_DOWN	NA	817	1301	1590
+bsdb:108/1/1_anorexia-nervosa:anorexia-nervosa-patients_vs_healthy-controls_DOWN	NA	817	1590	1301	1532	1535
 bsdb:109/1/1_anorexia-nervosa:anorexia-patients-before-weight-gain_vs_normal-weight-participants_UP	NA	201174	207244	244127	1678	74201	1485
 bsdb:109/1/2_anorexia-nervosa:anorexia-patients-before-weight-gain_vs_normal-weight-participants_DOWN	NA	976	204475	841
 bsdb:109/2/1_anorexia-nervosa:anorexia-patients-after-weight-gain_vs_HC_UP	NA	201174	207244	1678	1239	1578	1357	1017280	1263	44748	1485
@@ -635,10 +635,10 @@ bsdb:172/2/1_Cannabis-use:marijuana-usage-group_vs_controls-(oral-pharynx)_UP	NA
 bsdb:172/2/2_Cannabis-use:marijuana-usage-group_vs_controls-(oral-pharynx)_DOWN	NA	59735	1301	1300	186826
 bsdb:172/3/1_Cannabis-use:marijuana-usage-group_vs_controls-(lateral-border-of-tongue)_UP	NA	80865	88	286	85413	47670	32207
 bsdb:172/3/2_Cannabis-use:marijuana-usage-group_vs_controls-(lateral-border-of-tongue)_DOWN	NA	59735
-bsdb:173/1/1_pancreatic-carcinoma:pancreatic-cancer_vs_healthy-controls_UP	NA	838	29465	570	970	135858	1578	52228	904	547	200903	82202	194	32067	413496	416916
-bsdb:173/1/2_pancreatic-carcinoma:pancreatic-cancer_vs_healthy-controls_DOWN	NA	244127	651554	583	86331	1485	44748	84111	379	41275	239934	906	189330	572511	946234	580596	35832	33042	207244	158846	1678	239759	577310	204475
-bsdb:173/2/1_pancreatic-carcinoma:pancreatic-head-cancer-with-obstruction_vs_without-cancer_UP	NA	46205	283	1200657	32067	140625	1301	115543	117563
-bsdb:173/2/2_pancreatic-carcinoma:pancreatic-head-cancer-with-obstruction_vs_without-cancer_DOWN	NA	561	620	118966
+bsdb:173/1/1_pancreatic-carcinoma:pancreatic-cancer_vs_healthy-controls_UP	NA	904	416916	194	135858	82202	413496	547	52228	570	1578	32067	200903	838	970	29465
+bsdb:173/1/2_pancreatic-carcinoma:pancreatic-cancer_vs_healthy-controls_DOWN	NA	239934	239759	207244	244127	1678	35832	572511	41275	580596	1485	33042	189330	84111	946234	204475	158846	906	86331	651554	577310	583	379	44748
+bsdb:173/2/1_pancreatic-carcinoma:pancreatic-head-cancer-with-obstruction_vs_pancreatic-head-cancer-without-obstruction_UP	NA	283	117563	140625	32067	115543	46205	1200657	1301
+bsdb:173/2/2_pancreatic-carcinoma:pancreatic-head-cancer-with-obstruction_vs_pancreatic-head-cancer-without-obstruction_DOWN	NA	118966	561	620
 bsdb:174/1/1_gastric-cancer:cancer-tissue_vs_adjacent-normal-tissue_UP	NA	356	1497346	57723	970	838	28135	1164882	1301	909929	909932	31977	1257	186803	13687	201174	186804	28129	469	468	171552	470	186802	186801	186817	1386	171549	200643	91061	976	1385	287	1239
 bsdb:174/1/2_gastric-cancer:cancer-tissue_vs_adjacent-normal-tissue_DOWN	NA	543	91347	613	210	72293	209	615	213849	29547	1543704	41295	204441	1580	1357	1358	135614
 bsdb:175/1/1_pancreatic-carcinoma:pancreatic-cancer-cases_vs_controls_UP	NA	1283313	976
@@ -685,8 +685,6 @@ bsdb:187/4/1_medroxyprogesterone-acetate:white-participants-after-using-depot-me
 bsdb:187/4/2_medroxyprogesterone-acetate:white-participants-after-using-depot-medroxyprogesterone-(visit-3)_vs_black-participants-after-using-depot-medroxyprogesterone-(visit-3)_DOWN	NA	1375	906	838
 bsdb:188/1/1_cervical-cerclage:Vaginal-microbiome-of-symptomatic-women-prior-ro-cerclage_vs_Vaginal-microbiome-of-asymptomatic-women-prior-to-cerclage_UP	NA	257758	28130	2702	2701
 bsdb:188/1/2_cervical-cerclage:Vaginal-microbiome-of-symptomatic-women-prior-ro-cerclage_vs_Vaginal-microbiome-of-asymptomatic-women-prior-to-cerclage_DOWN	NA	47770
-bsdb:189/1/1_chronic-hepatitis-B-virus-infection:chronic-hepatitis-B-patients_vs_healthy-controls_UP	NA	158846
-bsdb:189/1/2_chronic-hepatitis-B-virus-infection:chronic-hepatitis-B-patients_vs_healthy-controls_DOWN	NA	816	574697	375288	171551	186803	543
 bsdb:190/1/1_breast-milk-measurement:one-month-age-infants-exposed-to-high-chemical-breast-milk_vs_one-month-age-infants-exposed-to-low-chemical-breast-milk_UP	NA	1485	1350	1300	13623
 bsdb:190/1/2_breast-milk-measurement:one-month-age-infants-exposed-to-high-chemical-breast-milk_vs_one-month-age-infants-exposed-to-low-chemical-breast-milk_DOWN	NA	1578	29465
 bsdb:191/1/1_equol:equol-producers_vs_equol-non-producers_UP	NA	394340	572010
@@ -789,11 +787,11 @@ bsdb:223/5/1_HIV-infection:HAART-treated-HIV+-patients_vs_healthy-control_UP	NA	
 bsdb:223/5/2_HIV-infection:HAART-treated-HIV+-patients_vs_healthy-control_DOWN	NA	909930	815	171549	816	976	200643	186801	39948	186802	216851	158846	909932	541000	33024	838	171552	909929	292632	31977
 bsdb:223/6/1_HIV-infection:HAART-untreated_vs_healthy-control_UP	NA	91061	91347	543	81852	1350	1236	33958	186826	1578	1224
 bsdb:224/1/1_diet:barley-(WGB)_vs_baseline_UP	NA	572511	418240	1239	301302	166486	39491
-bsdb:224/1/2_diet:barley-(WGB)_vs_baseline_DOWN	NA	28118	976	171551	283168
+bsdb:224/1/2_diet:barley-(WGB)_vs_baseline_DOWN	NA	976	283168	28118	171551	815	841	39948
 bsdb:224/2/1_diet:brown-rice-(BR)_vs_baseline_UP	NA	1239
 bsdb:224/2/2_diet:brown-rice-(BR)_vs_baseline_DOWN	NA	976
 bsdb:224/3/1_diet:brown-rice-+-barley-(BR-+-WGB)_vs_baseline_UP	NA	572511	1239
-bsdb:224/3/2_diet:brown-rice-+-barley-(BR-+-WGB)_vs_baseline_DOWN	NA	976	815	816
+bsdb:224/3/2_diet:brown-rice-+-barley-(BR-+-WGB)_vs_baseline_DOWN	NA	815	816	976
 bsdb:225/1/1_atopic-eczema:infant-with-atopic-eczema_vs_healthy-infant_UP	NA	1350	186804
 bsdb:225/1/2_atopic-eczema:infant-with-atopic-eczema_vs_healthy-infant_DOWN	NA	1224
 bsdb:226/1/1_HIV-infection:HIV-1-infected-patients_vs_healthy-controls_UP	NA	28216	80840	580596	135858	189330	547	81852	1350	128827	526525	526524	216851	1239	158846	577310	838	171552	1224	995019
@@ -1338,8 +1336,8 @@ bsdb:342/7/1_asthma:samples-with-any-rhinovirus-infection_vs_samples-with-no-rhi
 bsdb:342/7/2_asthma:samples-with-any-rhinovirus-infection_vs_samples-with-no-rhinovirus-infection_DOWN	NA	1279
 bsdb:342/8/1_asthma:Samples-with-rhinovirus-A_vs_Rhinovirus-negative-samples_UP	NA	724	1301
 bsdb:342/8/2_asthma:Samples-with-rhinovirus-A_vs_Rhinovirus-negative-samples_DOWN	NA	1279
-bsdb:343/1/1_leukemia:Antileukemic_vs_Allogeneic-Hematopoeitic-Stem-Cell-Transplant_UP	NA	1350	1578	375288
-bsdb:343/1/2_leukemia:Antileukemic_vs_Allogeneic-Hematopoeitic-Stem-Cell-Transplant_DOWN	NA	1350	816
+bsdb:343/1/1_leukemia:Acute-anti-leukemia-treatment_vs_Allogeneic-Hematopoetic-Stem-Cell-Transplant_UP	NA	816	239934	216851
+bsdb:343/1/2_leukemia:Acute-anti-leukemia-treatment_vs_Allogeneic-Hematopoetic-Stem-Cell-Transplant_DOWN	NA	1485
 bsdb:344/1/1_air-pollution:mice-exposed-to-Pm-2.5-suspension_vs_mice-exposed-suspension-from-extracts-of-“blank”-filter_UP	NA	28221	946234	32066	203492	203491	203490	459786	1224	1448937	848	194924	213115
 bsdb:344/1/2_air-pollution:mice-exposed-to-Pm-2.5-suspension_vs_mice-exposed-suspension-from-extracts-of-“blank”-filter_DOWN	NA	57723	286	351	91061	1236	72274	204457	13687	219686	219685	173479	80865	142182	1300	1385	85023	1301	1386	55968	191394	191393	200930	68337	248038	283168
 bsdb:345/1/1_obesity:obese_vs_normal_UP	NA	158846
@@ -1786,13 +1784,12 @@ bsdb:464/2/1_COVID-19:Recovered-COVID-19-patients_vs_Healthy-controls_DOWN	NA	13
 bsdb:464/2/2_COVID-19:Recovered-COVID-19-patients_vs_Healthy-controls_UP	NA	82202	32067	906	970
 bsdb:464/3/1_COVID-19:COVID-19-patients_vs_Healthy-controls_DOWN	NA	239759	816	35832	572511	1485	102106	33042	39948	189330	216851	724	61170	1392389	570	28050	283168	375288	577310	46205	841	1263	13687	40544	191303	1869227	707003
 bsdb:464/3/2_COVID-19:COVID-19-patients_vs_Healthy-controls_UP	NA	239934	1678	1350	186803	1301	32207	2745	207244	265975	29465	123375	1380	946234	1082930	1378	117563
-bsdb:464/4/NA_COVID-19:Suspected-COVID-19-patients_vs_Healthy-controls_NA	NA	NA
 bsdb:465/1/1_diabetic-neuropathy:Individuals-diagnosed-with-peripheral-neuropathy-associated-with-type-2-diabetes_vs_Healthy-controls_UP	NA	201174	572511	561	1940338	1239	1506553	906	33039
 bsdb:465/1/2_diabetic-neuropathy:Individuals-diagnosed-with-peripheral-neuropathy-associated-with-type-2-diabetes_vs_Healthy-controls_DOWN	NA	816	976	216851
 bsdb:465/2/NA_diabetic-neuropathy:Individuals-diagnosed-with-peripheral-neuropathy-associated-with-type-2-diabetes_vs_Individuals-diagnosed-with-type-2-diabetes-Mellitus_NA	NA	NA
 bsdb:465/3/NA_type-II-diabetes-mellitus:Individuals-diagnosed-with-Type-2-Diabetes-Mellitus_vs_Healthy-controls_NA	NA	NA
 bsdb:467/1/1_HER2-Positive-Breast-Carcinoma:Her2-positive-tumor_vs_Her2-negative-tumor_UP	NA	904
-bsdb:467/1/2_HER2-Positive-Breast-Carcinoma:Her2-positive-tumor_vs_Her2-negative-tumor_DOWN	NA	872	1263
+bsdb:467/1/2_HER2-Positive-Breast-Carcinoma:Her2-positive-tumor_vs_Her2-negative-tumor_DOWN	NA	872	1263	424536
 bsdb:467/2/1_age-at-menarche:later-age-at-menarche-(≥12)_vs_early-age-at-menarche-(≤11)_UP	NA	561
 bsdb:467/2/2_age-at-menarche:later-age-at-menarche-(≥12)_vs_early-age-at-menarche-(≤11)_DOWN	NA	2172	1263
 bsdb:467/3/1_estrogen-receptor-status:ER-_vs_ER+_DOWN	NA	724	29465
@@ -1888,7 +1885,7 @@ bsdb:486/1/2_COVID-19:Asymptomatic-COVID-19-patients_vs_Healthy-controls_DOWN	NA
 bsdb:486/2/1_COVID-19:Asymptomatic-COVID-19-patients_vs_Healthy-controls_UP	NA	543	35493	81852	1350	72274	620	468	33970	33969	469	1587	106649	624	81850	1268	46255	358743
 bsdb:486/2/2_COVID-19:Asymptomatic-COVID-19-patients_vs_Healthy-controls_DOWN	NA	904	135624	207244	213849	186801	31979	1485	33042	84107	84999	39948	189330	547	1531	29547	186802	216851	72293	28050	28052	186803	906	52225	133925	712	135625	171550	841	1263	970	292632	83770	83763	31977	74201	33958
 bsdb:486/3/1_COVID-19:Severe-COVID-19-patients_vs_Healthy-controls_UP	NA	816	200643	171549	976	543	91347	201174	85004	31953	81852	1350	81850	2	620	624	186826	1587	1380	33969	358743	622
-bsdb:486/3/2_COVID-19:Severe-COVID-19-patients_vs_Healthy-controls_DOWN	NA	580596	186801	31969	189330	133925	1485	904	1531	84107	712	33042	31979	33958	74201	547	544448	80864	29547	213849	1239	135625	906	72294	194	31977	81850	841	28052	28050	216572	186802	186803	39948	2	216851	135624	83770	83763	541000
+bsdb:486/3/2_COVID-19:Severe-COVID-19-patients_vs_Healthy-controls_DOWN	NA	904	135624	580596	194	72294	213849	186801	31979	1485	80864	33042	39948	189330	547	1531	29547	186802	216851	1239	28050	28052	186803	81850	906	31969	133925	541000	712	135625	841	83770	83763	544448	74201	2	84107	33958	216572	31977
 bsdb:487/1/1_COVID-19:Recovered-COVID-19-samples-(respiratory-negative)_vs_Infected-COVID-19-samples-(respiratory-positive)_UP	NA	976	200643	171549
 bsdb:487/1/2_COVID-19:Recovered-COVID-19-samples-(respiratory-negative)_vs_Infected-COVID-19-samples-(respiratory-positive)_DOWN	NA	2037
 bsdb:487/2/1_COVID-19:Recovered-COVID-19-samples-(respiratory-negative)_vs_Healthy-controls_DOWN	NA	909932	909929	541000	877420	877428	841	207244	2039302	1407607	33042
@@ -2162,8 +2159,8 @@ bsdb:568/3/1_Parkinson's-disease:NPD-group:-patients-suffering-with-PD-for-less-
 bsdb:568/3/2_Parkinson's-disease:NPD-group:-patients-suffering-with-PD-for-less-than-1-year-and-14-days-after-treatment._vs_healthy-controls-without-any-form-of-Parkinson's-Disease_DOWN	NA	1263
 bsdb:569/1/1_colorectal-cancer:colorectal-cancer-patients_vs_healthy-controls_UP	NA	543	851
 bsdb:569/1/2_colorectal-cancer:colorectal-cancer-patients_vs_healthy-controls_DOWN	NA	1591	41200	1506
-bsdb:570/1/1_NA:female-with-early-RA_vs_female-healthy-control_DOWN	NA	649777	1730	84999	84107	84998	128827	526525	102106	1243	201174
-bsdb:570/1/2_NA:female-with-early-RA_vs_female-healthy-control_UP	NA	976	200643	171549
+bsdb:570/1/1_rheumatoid-arthritis:female-with-early-RA_vs_female-healthy-control_DOWN	NA	201174	102106	84107	84999	84998	128827	526525	1730	1243	649777	526524
+bsdb:570/1/2_rheumatoid-arthritis:female-with-early-RA_vs_female-healthy-control_UP	NA	171549	200643	976
 bsdb:571/1/1_osteoarthritis,-knee:Knee-osteroarthritis_vs_Normal-Vitamin-D-status_DOWN	NA	52784	171551
 bsdb:571/1/2_osteoarthritis,-knee:Knee-osteroarthritis_vs_Normal-Vitamin-D-status_UP	NA	1392389	543311	2740	1743	1335483	84107	128827
 bsdb:571/2/1_osteoarthritis,-knee:Knee-osteroarthritis-with-vit-D-deficiency_vs_Vitamin-D-deficiency_DOWN	NA	1283313	283168	265975	838
@@ -2274,10 +2271,10 @@ bsdb:622/2/1_NA:C57BL/6-APCMin/+:-F.-nucleatum-(Fn),-E.-coli-(Ec);-wild-type-C57
 bsdb:622/3/1_colorectal-cancer:C57BL/6-APCMin/+:-BBR-and-Fn+BBR;-wild-type-C57BL/6:-BBR,-BBR+DMH-and-BBR+Fn+DMH_vs_male-C57BL/6-APCMin/+:-Ctrl,-F.-nucleatum-(Fn),-E.-coli-(Ec);-male-wild-type-C57BL/6):-Ctrl,-DMH,-Fn,-Fn+DMH,-Ec,-Ec+DMH_DOWN	NA	544448	74201
 bsdb:623/1/1_colorectal-cancer:Patients-with-CRC-recurrence_vs_Patients-without-CRC-recurrence_UP	NA	848	543311	1486725	1257	838
 bsdb:623/1/2_colorectal-cancer:Patients-with-CRC-recurrence_vs_Patients-without-CRC-recurrence_DOWN	NA	40323	29465
-bsdb:624/1/1_colorectal-cancer:Patients-with-CRC_vs_Healthy-Individuals_UP	NA	33033	28131	341694	28123	102148	29391	1261	837	76122	39950	851
+bsdb:624/1/1_colorectal-cancer:Patients-with-CRC_vs_Healthy-Individuals_UP	NA	76122	39950	851	29391	33033	1261	341694	28123	837	28131	102148
 bsdb:624/2/1_colorectal-cancer:Patients-with-early-CRC_vs_Healthy-Individuals_UP	NA	851	29391	341694
-bsdb:624/3/1_colorectal-cancer:Patients-with-advanced-CRC_vs_Healthy-Individuals_UP	NA	1261	28131	33033	837	341694	76122	28123	102148	29391	39950	851
-bsdb:624/4/1_colorectal-cancer:After-resection_vs_Before-resection_DOWN	NA	33033	28131	341694	28123	102148	29391	1261	837	76122	39950	851
+bsdb:624/3/1_colorectal-cancer:Patients-with-advanced-CRC_vs_Healthy-Individuals_UP	NA	76122	39950	851	29391	33033	1261	341694	28123	837	28131	102148
+bsdb:624/4/1_colorectal-cancer:After-resection_vs_Before-resection_DOWN	NA	76122	39950	851	29391	33033	1261	341694	28123	837	28131	102148
 bsdb:625/1/1_socioeconomic-status:High-SES_vs_NA_UP	NA	207244	1730	216851	186803
 bsdb:625/1/2_socioeconomic-status:High-SES_vs_NA_DOWN	NA	816
 bsdb:626/1/1_ethnic-group:East-Asian-(EA)_vs_White-(W)_UP	NA	201174	976	1239	1224	32066
@@ -2350,6 +2347,8 @@ bsdb:648/2/2_ethnic-group:Oral-microbiota-of-African-American-children-(AA)_vs_O
 bsdb:648/3/1_Socioeconomic-status:Household-income-(EA-&-AA)-<-$50,000._vs_Household-income-(EA-&-AA)-=>$50,000._UP	NA	33024
 bsdb:648/3/2_Socioeconomic-status:Household-income-(EA-&-AA)-<-$50,000._vs_Household-income-(EA-&-AA)-=>$50,000._DOWN	NA	1573534
 bsdb:648/4/1_Socioeconomic-status:Household-income-(EA-&-AA)-<-$50,000._vs_Household-income-(EA-&-AA)-=>$50,000._UP	NA	1300	1301
+bsdb:649/1/1_Huntington-disease:R6/2_vs_Wild-type_UP	NA	100883	1236	543	375288	1578	186826	91061	815	816
+bsdb:649/1/2_Huntington-disease:R6/2_vs_Wild-type_DOWN	NA	447020	84107	84998	201174	84999	872	28221	213115	194924
 bsdb:650/1/1_socioeconomic-status:66-children-of-low-SES_vs_74-children-of-high-SES_UP	NA	838	135858	216851	1573535	292632	561	620
 bsdb:650/1/2_socioeconomic-status:66-children-of-low-SES_vs_74-children-of-high-SES_DOWN	NA	102106	1678	572511	133925
 bsdb:651/1/1_colorectal-cancer:CRC-patients-(swp)_vs_Healthy-volunteers-(swc)_DOWN	NA	207244	135858	216851	572511	2701	1678	28050
@@ -2373,7 +2372,7 @@ bsdb:652/3/4_colorectal-adenoma:CRA-(colorectal-adenoma)_vs_Healthy_UP	NA	856
 bsdb:653/1/1_colorectal-cancer:Individuals-with-CRC_vs_Healthy-Controls_UP	NA	39948	848	1378	543311	1257	123375	1301
 bsdb:653/1/2_colorectal-cancer:Individuals-with-CRC_vs_Healthy-Controls_UP	NA	1654	117563	29465	724
 bsdb:654/1/1_ethnic-group:Asian-Pacific_vs_Caucasians_UP	NA	29465
-bsdb:654/1/2_ethnic-group:Asian-Pacific_vs_Caucasians_DOWN	NA	990719	283168	1853231	186807	171550	203557	255528	186802	84107
+bsdb:654/1/2_ethnic-group:Asian-Pacific_vs_Caucasians_DOWN	NA	990719	283168	1853231	186807	171550	203557	255528	84107	186802
 bsdb:654/2/1_ethnic-group:Hispanic_vs_Caucasians_UP	NA	283168	1853231	186807	171550	29465	255528	186802	84107
 bsdb:654/2/2_ethnic-group:Hispanic_vs_Caucasians_DOWN	NA	990719	203557
 bsdb:654/3/1_ethnic-group:African-Americans_vs_Caucasians_UP	NA	186807	29465	255528	1853231	283168
@@ -2474,8 +2473,8 @@ bsdb:688/2/2_metastatic-melanoma:Responders_vs_Non-responders_DOWN	NA	147206	581
 bsdb:689/1/1_metastatic-melanoma:Responders_vs_Progressive_UP	NA	818	39486	853	61171	1318
 bsdb:690/1/1_non-small-cell-lung-carcinoma:Responders_vs_Non-responders_UP	NA	1485	1578	84036	33958
 bsdb:690/1/2_non-small-cell-lung-carcinoma:Responders_vs_Non-responders_DOWN	NA	35832	375288	40544	28211	506	28216	80840	171551
-bsdb:691/1/1_metastatic-melanoma:Responders_vs_Non-responders_UP	NA	328814	28111	818	901	562	39496	729	658082	626940	204516	1304	29466	1535	39492	33038	35832	1735
-bsdb:691/1/2_metastatic-melanoma:Responders_vs_Non-responders_DOWN	NA	216816	751585	39490	165179	84111	239935	1318	46228	310297	186804	40519	487174	665951	29465	454154	46506	246787	658087	817	1343	371601	1288121	658657	1660	133925	61171	457422
+bsdb:691/1/1_metastatic-melanoma:Responders_vs_Non-responders_UP	NA	328814	28111	818	901	562	39496	729	1735	658082	626940	204516	1304	29466	1535	39492	33038	35832	1236	561	543	909930	39948	33024
+bsdb:691/1/2_metastatic-melanoma:Responders_vs_Non-responders_DOWN	NA	239935	1288121	246787	817	46506	371601	487174	216816	751585	658657	457422	39490	61171	658087	665951	454154	310297	165179	40519	1660	1318	1343	46228	84111	133925	186804	29465	1301	838	1300	171552
 bsdb:692/1/1_nutraceutical,colorectal-cancer:colorectal-cancer-patients-who-took-prebiotics-(preoperative-fecal-sample)_vs_colorectal-cancer-patients-who-didn't-take-prebiotics-(preoperative-fecal-sample)_DOWN	NA	816	1350
 bsdb:692/1/2_nutraceutical,colorectal-cancer:colorectal-cancer-patients-who-took-prebiotics-(preoperative-fecal-sample)_vs_colorectal-cancer-patients-who-didn't-take-prebiotics-(preoperative-fecal-sample)_UP	NA	1678
 bsdb:692/2/1_nutraceutical,colorectal-cancer:colorectal-cancer-patients-non-prebiotic-(postoperative)_vs_colorectal-cancer-patients-non-prebiotic-(preoperative)_DOWN	NA	816
