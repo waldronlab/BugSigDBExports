@@ -1,4 +1,4 @@
-# BugSigDB 2023-01-22, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2023-01-29, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_adenoma:conventional-adenoma-cases_vs_controls_UP	NA	57037
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	57037
 bsdb:1/6/1_adenoma:Non-advanced-conventional-adenoma-cases_vs_controls_UP	NA	57037
@@ -670,6 +670,7 @@ bsdb:489/2/2_COVID-19:COVID-positive-patients-admitted-to-ICU-(i-COVID-19)_vs_CO
 bsdb:489/3/1_COVID-19:COVID-positive-patients-admitted-to-infectious-disease-ward-(w-COVID-19)_vs_Pneumonia-controls-(COVID-negative)_UP	NA	28130	1703337	309120	1261	54007	387661	507844	1870997	1288121	712430	1647711	1285934	537274	100884	1735	1287640	1472764	2023260	1352	1872650	28127	1308	178214	1354	1330241	28123	1299485	1816688	43765	624	549	51197	1805476	1290	1795816	1232428	487173	615	187327	1577797	1871009	337315	1871036	571	1720203	1648956	454154	971	146482	1328	28141	2049040	290054	29387
 bsdb:489/3/2_COVID-19:COVID-positive-patients-admitted-to-infectious-disease-ward-(w-COVID-19)_vs_Pneumonia-controls-(COVID-negative)_DOWN	NA	28111	291644	598660	28117	1647714	584	702963	35830	46506	1619234	59505	438033	817	1547	1506	397283	298389	1640371	169136	1470355	29347	328814	342942	338188	1150298	169435	1647678	712495	460384	68766	29523	1550024	291645	1227507	1569942	208479	319644	1924109	29361	1720294	47246	1544	40520	320882	39950	357276	818
 bsdb:491/1/1_irritable-bowel-syndrome:IBS_vs_Healthy-Control_UP	NA	562
+bsdb:491/1/2_irritable-bowel-syndrome:IBS_vs_Healthy-Control_DOWN	NA	821
 bsdb:498/1/1_COVID-19:COVID-19-patients_vs_Asymptomatic-uninfected-controls_UP	NA	1871086	156978	1720	2049028	33031	76517	258	1872515	1971214	165179	821
 bsdb:498/1/2_COVID-19:COVID-19-patients_vs_Asymptomatic-uninfected-controls_DOWN	NA	192066	649756	1720	1283	28130
 bsdb:498/2/1_COVID-19:COVID-19-patients-with-high-viral-load_vs_COVID-19-patients-with-low-viral-load_UP	NA	1872515	1971214	76517	35783	1720	853	165179
@@ -838,14 +839,14 @@ bsdb:643/1/1_colorectal-cancer:yCRC_vs_yControl_UP	NA	292800
 bsdb:643/1/2_colorectal-cancer:yCRC_vs_yControl_DOWN	NA	39488	39496	39491
 bsdb:643/2/1_colorectal-cancer:oCRC_vs_oControls_DOWN	NA	1955243	1492	290054	39496	853	39485	301301	166486	1160721	1161942	39491
 bsdb:643/2/2_colorectal-cancer:oCRC_vs_oControls_UP	NA	84112	208479	1946507	2086584	29347
-bsdb:644/1/1_colorectal-adenoma:colorectal-adenoma_vs_healthy-controls_UP	NA	562	1944660	1262	1966354	28131	1955243	1894999	820
-bsdb:644/1/2_colorectal-adenoma:colorectal-adenoma_vs_healthy-controls_DOWN	NA	853	1955243	40520	29523	2049024	59823	820
-bsdb:644/2/1_colorectal-cancer:colorectal-cancer_vs_healthy-controls_UP	NA	817	68766	1944660	2049028	1262	76761	1966354	28131	59823	739	28116	28124	205
-bsdb:644/2/2_colorectal-cancer:colorectal-cancer_vs_healthy-controls_DOWN	NA	562	29523	853	1955243	76761
-bsdb:644/3/1_colorectal-cancer:colorectal-cancer_vs_colorectal-adenoma_UP	NA	1944660	68766	1262	29523	1966354	28131	817	188932	363265	1955243	1898207	59823	41978	1869337	28117	28116	28124
-bsdb:644/3/2_colorectal-cancer:colorectal-cancer_vs_colorectal-adenoma_DOWN	NA	562	76761	188932	396015	1894999
-bsdb:644/4/1_colorectal-cancer:colorectal-cancer_vs_carcinoma-adjacent_DOWN	NA	1955243	76761
-bsdb:644/4/2_colorectal-cancer:colorectal-cancer_vs_carcinoma-adjacent_UP	NA	68766
+bsdb:644/1/1_colorectal-adenoma:colorectal-adenoma_vs_healthy-controls_UP	NA	820	1955243	1894999	562	1966354	1944660	1262	28131
+bsdb:644/1/2_colorectal-adenoma:colorectal-adenoma_vs_healthy-controls_DOWN	NA	29523	820	40520	1955243	2049024	853	59823
+bsdb:644/2/1_colorectal-cancer:colorectal-cancer-(adenocarcinoma)_vs_healthy-controls_UP	NA	739	817	28116	205	68766	1966354	2049028	1944660	1262	28124	28131	59823	76761
+bsdb:644/2/2_colorectal-cancer:colorectal-cancer-(adenocarcinoma)_vs_healthy-controls_DOWN	NA	29523	1955243	562	853	76761
+bsdb:644/3/1_colorectal-cancer:colorectal-cancer_vs_colorectal-adenoma_UP	NA	28117	817	28116	29523	1955243	1898207	68766	1966354	1869337	1944660	188932	1262	28124	28131	59823	363265	41978
+bsdb:644/3/2_colorectal-cancer:colorectal-cancer_vs_colorectal-adenoma_DOWN	NA	1894999	562	188932	76761	396015
+bsdb:644/4/1_colorectal-cancer:colorectal-cancer-mucosae_vs_carcinoma-adjacent-mucosae_DOWN	NA	1955243	76761
+bsdb:644/4/2_colorectal-cancer:colorectal-cancer-mucosae_vs_carcinoma-adjacent-mucosae_UP	NA	68766
 bsdb:644/5/1_colorectal-cancer:colorectal-cancer_vs_adenoma-adjacent_DOWN	NA	562	76761	188932	396015	1894999	1409
 bsdb:644/5/2_colorectal-cancer:colorectal-cancer_vs_adenoma-adjacent_UP	NA	817	1955243	205	68766	1966354	2049028	1869337	1944660	1262	28124	28131	59823	363265	1898207
 bsdb:644/7/1_colorectal-adenoma:adenoma-adjacent_vs_healthy-controls_DOWN	NA	853	1955243	2049024	1531

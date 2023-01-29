@@ -1,4 +1,4 @@
-# BugSigDB 2023-01-22, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2023-01-29, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_adenoma:conventional-adenoma-cases_vs_controls_UP	NA	91061	1236	1654	1716	1301	162289	189330	33024	40544	2037	2049	506	186826	1300	31977	91347	1653	57037	1386	186817
 bsdb:1/1/2_adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	100883	1117
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	207244	57037
@@ -14,8 +14,6 @@ bsdb:2/1/1_head-and-neck-squamous-cell-carcinoma:squamous-cell-carcinoma-tissues
 bsdb:2/1/2_head-and-neck-squamous-cell-carcinoma:squamous-cell-carcinoma-tissues_vs_normal-adjacent-tissues_DOWN	NA	201174	1760	2037	2049	1654
 bsdb:2/2/1_head-and-neck-squamous-cell-carcinoma:T3-T4-high-tumor-stages-patients_vs_T0-T2-low-tumor-stages-patients_UP	NA	543311
 bsdb:2/2/2_head-and-neck-squamous-cell-carcinoma:T3-T4-high-tumor-stages-patients_vs_T0-T2-low-tumor-stages-patients_DOWN	NA	1654	201174
-bsdb:2/3/1_head-and-neck-squamous-cell-carcinoma:T3-T4-stages-patients_vs_T0-T2-stages-patients_UP	NA	543311
-bsdb:2/3/2_head-and-neck-squamous-cell-carcinoma:T3-T4-stages-patients_vs_T0-T2-stages-patients_DOWN	NA	201174
 bsdb:3/1/1_colorectal-cancer:adenocarcinoma-of-colon-and-rectum-patients_vs_controls_UP	NA	848	836
 bsdb:3/1/2_colorectal-cancer:adenocarcinoma-of-colon-and-rectum-patients_vs_controls_DOWN	NA	186801	186803
 bsdb:4/1/1_Hepatitis:HCV-stage-4-male-patients_vs_male-healthy-controls_UP	NA	469	838	29465	33024	72274	468	171549	200643	976
@@ -1059,8 +1057,8 @@ bsdb:274/9/1_human-papilloma-virus-infection,cervical-cancer:normal-pH_vs_abnorm
 bsdb:274/9/2_human-papilloma-virus-infection,cervical-cancer:normal-pH_vs_abnormal-pH_DOWN	NA	1578	561	71655	620	1485	1596
 bsdb:274/10/1_human-papilloma-virus-infection:Hispanic_vs_non-Hispanic_UP	NA	187328	29465	1301	2052	1375	2701	1350	437755	40543	82135	906	168808	1380	177971	836	1328
 bsdb:274/10/2_human-papilloma-virus-infection:Hispanic_vs_non-Hispanic_DOWN	NA	1578	28127	33037	1596
-bsdb:275/1/1_acute-lymphoblastic-leukemia:ALL-patient_vs_healthy-sibling-control_UP	NA	1301	39948	1485	397864	459786	1578	207244	40544	577309	1263	204475	1678	239934	841	239759	572511	375288	216851	838	816
-bsdb:275/1/2_acute-lymphoblastic-leukemia:ALL-patient_vs_healthy-sibling-control_DOWN	NA	1301	39948	1485	397864	459786	1578	207244	40544	577309	1263	204475	1678	239934	841	239759	572511	375288	216851	838	816
+bsdb:275/1/1_acute-lymphoblastic-leukemia:adolescent-ALL-patient_vs_healthy-sibling-control_UP	NA	816
+bsdb:275/1/2_acute-lymphoblastic-leukemia:adolescent-ALL-patient_vs_healthy-sibling-control_DOWN	NA	841	186803
 bsdb:276/1/1_multiple-myeloma:Multiple-Myeloma-patient_vs_healthy-control_UP	NA	976	1239	1224	32066	74201
 bsdb:276/1/2_multiple-myeloma:Multiple-Myeloma-patient_vs_healthy-control_DOWN	NA	976	1239	201174	544448
 bsdb:276/2/1_multiple-myeloma:Multiple-Myeloma-patient_vs_healthy-control_UP	NA	815	816	1224	191303	413496	28141
@@ -1246,14 +1244,14 @@ bsdb:320/4/1_antimicrobial-agent:infants(1-year)-to-mothers-exposed-to--antibiot
 bsdb:320/4/2_antimicrobial-agent:infants(1-year)-to-mothers-exposed-to--antibiotics-(amoxicillin,-penicillin-or-ampicillin)_vs_infants-(1-year)-to-mothers-unexposed-to--antibiotic_DOWN	NA	816	817	1485	158846	1301
 bsdb:320/5/1_antimicrobial-agent:infants(6-weeks)-to-mothers-exposed-to-multi-class-antibiotics_vs_infants-(6-weeks)-to-mothers-unexposed-to--antibiotic_UP	NA	39778
 bsdb:321/1/1_antimicrobial-agent:10-d-old-7-10-day-treatment-infants_vs_10-d-old-2-day-treatment-infants_DOWN	NA	1357	816
-bsdb:322/1/1_oral-mucositis:newly-diagnosis-maligancies_vs_reference_UP	NA	46123	1357	203697
-bsdb:322/1/2_oral-mucositis:newly-diagnosis-maligancies_vs_reference_DOWN	NA	31953	1716	84107	346096	117747	1378	186803	848	22	2745	713
-bsdb:322/2/1_oral-mucositis:oral-mucositis_vs_no-oral-mucositis_UP	NA	1016	1357	32066	146
+bsdb:322/1/1_oral-mucositis:patients-with-newly-diagnosed-malignancies_vs_reference_UP	NA	46123	1357	203697
+bsdb:322/1/2_oral-mucositis:patients-with-newly-diagnosed-malignancies_vs_reference_DOWN	NA	31953	1716	84107	346096	117747	1378	186803	848	22	2745	713
+bsdb:322/2/1_oral-mucositis:oral-mucositis_vs_no-oral-mucositis_UP	NA	1016	32066	1357	146	186804
 bsdb:322/3/1_oral-mucositis:during-chemotherapy_vs_at-malignancy-diagnosis_UP	NA	1279
-bsdb:322/3/2_oral-mucositis:during-chemotherapy_vs_at-malignancy-diagnosis_DOWN	NA	1224	203697
+bsdb:322/3/2_oral-mucositis:during-chemotherapy_vs_at-malignancy-diagnosis_DOWN	NA	203697	1224
 bsdb:322/4/1_oral-mucositis:during-chemotherapy_vs_at-malignancy-diagnosis_UP	NA	338
-bsdb:322/5/1_oral-mucositis:mucositis-lesions_vs_all-samples_UP	NA	1654	196081	1386	171550	1279	46123	1357	1448937	128827
-bsdb:322/5/2_oral-mucositis:mucositis-lesions_vs_all-samples_DOWN	NA	713	416916	724	40323	2093
+bsdb:322/5/1_oral-mucositis:mucositis-lesions_vs_all-samples_UP	NA	46123	1654	1386	128827	1357	171550	196081	1279	1448937	1578	1257	40323	544448	2093
+bsdb:322/5/2_oral-mucositis:mucositis-lesions_vs_all-samples_DOWN	NA	713	416916	724
 bsdb:323/1/1_necrotizing-enterocolitis:NEC_vs_non-NEC_UP	NA	1485	1279
 bsdb:323/1/2_necrotizing-enterocolitis:NEC_vs_non-NEC_DOWN	NA	28196	150022	29330	1654	286	59732	283	2037	563835	976	1301	2	1716
 bsdb:323/3/1_necrotizing-enterocolitis:NEC_vs_non-NEC_UP	NA	1279
@@ -1901,8 +1899,8 @@ bsdb:489/2/2_COVID-19:COVID-positive-patients-admitted-to-ICU-(i-COVID-19)_vs_CO
 bsdb:489/3/1_COVID-19:COVID-positive-patients-admitted-to-infectious-disease-ward-(w-COVID-19)_vs_Pneumonia-controls-(COVID-negative)_UP	NA	1224	224372	201174	85006	28221	909930	31977	1903410	68298	2062	1843491	85020	117747	225058	186804	543	909932	186827	90964	1643824	641	59753	1375	40544	51196	100883	133925	995019	909928	1357	1795789	1935176	904	1931105	970	81852	1573535	241189	119977	906	35832	561	1300	662	28130	1703337	309120	1261	54007	387661	507844	1870997	1288121	712430	1647711	1285934	537274	100884	1735	1287640	1472764	2023260	1352	1872650	28127	1308	178214	1354	1330241	28123	1299485	1816688	43765	624	549	66831	51197	1805476	1290	1795816	1232428	487173	615	187327	1577797	1871009	337315	1871036	571	1720203	1648956	454154	971	146482	1328	547	28141	2049040	290054	29387
 bsdb:489/3/2_COVID-19:COVID-positive-patients-admitted-to-infectious-disease-ward-(w-COVID-19)_vs_Pneumonia-controls-(COVID-negative)_DOWN	NA	203691	32066	84642	2092	543314	119060	468	80840	76892	31957	583	1903414	1653174	1653	1432051	33882	2005359	244127	1738645	2740	1407607	128827	1017280	44249	642	588605	35829	1243	1905344	171550	990719	33958	2093	1378	469	135621	28111	291644	598660	28117	1647714	584	702963	1200657	35830	46506	1619234	59505	438033	817	1547	1506	397283	298389	1640371	169136	1470355	29347	328814	342942	1506577	338188	1150298	169435	580596	1647678	712495	460384	68766	29523	1550024	291645	1227507	1569942	208479	319644	1924109	29361	1720294	47246	1544	40520	320882	39950	357276	818
 bsdb:490/1/1_irritable-bowel-syndrome:IBS_vs_Healthy-Control_UP	NA	29465
-bsdb:491/1/1_irritable-bowel-syndrome:IBS_vs_Healthy-Control_UP	NA	84642	72275	186817	31979	118968	213119	194924	543	562	186806	186803	712	2740	186804	171552	213465
-bsdb:491/1/2_irritable-bowel-syndrome:IBS_vs_Healthy-Control_DOWN	NA	815	186803	186822	1300
+bsdb:491/1/1_irritable-bowel-syndrome:IBS_vs_Healthy-Control_UP	NA	204434	84642	72275	186817	85016	31979	118968	213119	194924	543	562	186806	186803	189779	712	2740	186804	49	171552	85017	1300	213465	135617
+bsdb:491/1/2_irritable-bowel-syndrome:IBS_vs_Healthy-Control_DOWN	NA	815	85016	186803	186822	171551	1300	976	821
 bsdb:492/1/1_type-II-diabetes-mellitus:Individuals-having-Type-2-Diabetes-Mellitus-without-Diabetic-Retinopathy_vs_Healthy-controls_DOWN	NA	207244	572511	283	33042	28889	74152	32066	724	28050	33024	841	40544	191303
 bsdb:492/1/2_type-II-diabetes-mellitus:Individuals-having-Type-2-Diabetes-Mellitus-without-Diabetic-Retinopathy_vs_Healthy-controls_UP	NA	904	574697	547	561	28890	140625	256845	2172	203691	508458	157	46255
 bsdb:492/2/1_diabetic-retinopathy:Individuals-diagnosed-with-Type-2-Diabetes-and-clinically-manifest-Diabetic-Retinopathy-(DR)_vs_Healthy-controls_DOWN	NA	201174	82373	2152	976	1678	572511	118747	830	95818	1485	283	28889	872	551	216851	32066	724	28050	1578	52225	841	32207	203691	1301	40544	191303
@@ -2321,14 +2319,14 @@ bsdb:643/1/1_colorectal-cancer:yCRC_vs_yControl_UP	NA	1654	946234	292800	848	186
 bsdb:643/1/2_colorectal-cancer:yCRC_vs_yControl_DOWN	NA	1766253	39488	207244	572511	580596	1485	39948	128827	561	39496	724	570	158846	577310	1501226	620	39491
 bsdb:643/2/1_colorectal-cancer:oCRC_vs_oControls_DOWN	NA	1766253	207244	35832	572511	1955243	580596	990719	1485	1492	102106	33042	128827	290054	39496	216851	853	1407607	28050	39485	186803	2039302	577310	33024	1501226	841	301301	166486	1263	1160721	1161942	292632	39491
 bsdb:643/2/2_colorectal-cancer:oCRC_vs_oControls_UP	NA	41275	84111	84112	208479	1505663	561	1946507	848	1378	724	1649459	1506553	2086584	543311	1257	620	1301	29347
-bsdb:644/1/1_colorectal-adenoma:colorectal-adenoma_vs_healthy-controls_UP	NA	562	1944660	1262	1966354	28131	1955243	1894999	820	1385
-bsdb:644/1/2_colorectal-adenoma:colorectal-adenoma_vs_healthy-controls_DOWN	NA	853	1955243	40520	29523	2049024	59823	820	1385
-bsdb:644/2/1_colorectal-cancer:colorectal-cancer_vs_healthy-controls_UP	NA	817	68766	1944660	2049028	1262	76761	1966354	28131	119852	59823	739	28116	28124	205
-bsdb:644/2/2_colorectal-cancer:colorectal-cancer_vs_healthy-controls_DOWN	NA	562	29523	853	1955243	76761
-bsdb:644/3/1_colorectal-cancer:colorectal-cancer_vs_colorectal-adenoma_UP	NA	1944660	68766	1262	29523	1966354	28131	817	119852	188932	363265	1955243	1898207	59823	41978	1869337	28117	28116	28124
-bsdb:644/3/2_colorectal-cancer:colorectal-cancer_vs_colorectal-adenoma_DOWN	NA	562	76761	188932	396015	1894999
-bsdb:644/4/1_colorectal-cancer:colorectal-cancer_vs_carcinoma-adjacent_DOWN	NA	1955243	76761
-bsdb:644/4/2_colorectal-cancer:colorectal-cancer_vs_carcinoma-adjacent_UP	NA	68766
+bsdb:644/1/1_colorectal-adenoma:colorectal-adenoma_vs_healthy-controls_UP	NA	1385	820	1955243	1894999	562	1966354	1944660	1262	28131
+bsdb:644/1/2_colorectal-adenoma:colorectal-adenoma_vs_healthy-controls_DOWN	NA	1385	29523	820	40520	1955243	2049024	853	59823
+bsdb:644/2/1_colorectal-cancer:colorectal-cancer-(adenocarcinoma)_vs_healthy-controls_UP	NA	739	817	28116	205	68766	1966354	2049028	119852	1944660	1262	28124	28131	59823	76761
+bsdb:644/2/2_colorectal-cancer:colorectal-cancer-(adenocarcinoma)_vs_healthy-controls_DOWN	NA	29523	1955243	562	853	76761
+bsdb:644/3/1_colorectal-cancer:colorectal-cancer_vs_colorectal-adenoma_UP	NA	28117	817	28116	29523	1955243	1898207	68766	1966354	119852	1869337	1944660	188932	1262	28124	28131	59823	363265	41978
+bsdb:644/3/2_colorectal-cancer:colorectal-cancer_vs_colorectal-adenoma_DOWN	NA	1894999	562	188932	76761	396015
+bsdb:644/4/1_colorectal-cancer:colorectal-cancer-mucosae_vs_carcinoma-adjacent-mucosae_DOWN	NA	1955243	76761
+bsdb:644/4/2_colorectal-cancer:colorectal-cancer-mucosae_vs_carcinoma-adjacent-mucosae_UP	NA	68766
 bsdb:644/5/1_colorectal-cancer:colorectal-cancer_vs_adenoma-adjacent_DOWN	NA	562	76761	188932	396015	1894999	1409
 bsdb:644/5/2_colorectal-cancer:colorectal-cancer_vs_adenoma-adjacent_UP	NA	817	1955243	205	68766	1966354	2049028	119852	1869337	1944660	1262	28124	28131	59823	363265	1898207
 bsdb:644/6/NA_colorectal-cancer:carcinoma-adjacent_vs_adenoma-adjacent_NA	NA	NA
@@ -2347,7 +2345,7 @@ bsdb:648/2/2_ethnic-group:Oral-microbiota-of-African-American-children-(AA)_vs_O
 bsdb:648/3/1_Socioeconomic-status:Household-income-(EA-&-AA)-<-$50,000._vs_Household-income-(EA-&-AA)-=>$50,000._UP	NA	33024
 bsdb:648/3/2_Socioeconomic-status:Household-income-(EA-&-AA)-<-$50,000._vs_Household-income-(EA-&-AA)-=>$50,000._DOWN	NA	1573534
 bsdb:648/4/1_Socioeconomic-status:Household-income-(EA-&-AA)-<-$50,000._vs_Household-income-(EA-&-AA)-=>$50,000._UP	NA	1300	1301
-bsdb:649/1/1_Huntington-disease:R6/2_vs_Wild-type_UP	NA	100883	1236	543	375288	1578	186826	91061	815	816
+bsdb:649/1/1_Huntington-disease:R6/2_vs_Wild-type_UP	NA	91061	815	816	100883	543	1236	186826	1578	375288	91347	33958
 bsdb:649/1/2_Huntington-disease:R6/2_vs_Wild-type_DOWN	NA	447020	84107	84998	201174	84999	872	28221	213115	194924
 bsdb:650/1/1_socioeconomic-status:66-children-of-low-SES_vs_74-children-of-high-SES_UP	NA	838	135858	216851	1573535	292632	561	620
 bsdb:650/1/2_socioeconomic-status:66-children-of-low-SES_vs_74-children-of-high-SES_DOWN	NA	102106	1678	572511	133925
