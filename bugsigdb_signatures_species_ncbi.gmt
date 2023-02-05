@@ -1,7 +1,7 @@
-# BugSigDB 2023-01-29, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
-bsdb:1/1/1_adenoma:conventional-adenoma-cases_vs_controls_UP	NA	57037
+# BugSigDB 2023-02-05, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+bsdb:1/1/1_colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	57037
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	57037
-bsdb:1/6/1_adenoma:Non-advanced-conventional-adenoma-cases_vs_controls_UP	NA	57037
+bsdb:1/6/1_colorectal-adenoma:Non-advanced-conventional-adenoma-cases_vs_controls_UP	NA	57037
 bsdb:5/1/2_chronic-obstructive-pulmonary-disease:Chronic-obstructive-pulmonary-disease_vs_controls_DOWN	NA	1470358
 bsdb:6/1/1_non-alcoholic-fatty-liver-disease:advanced-fibrosis_vs_mild/moderate-fibrosis_DOWN	NA	40520	39491
 bsdb:7/1/1_autism:severely-autistic_vs_non-sibling-control_UP	NA	901	876	58621	821
@@ -235,6 +235,8 @@ bsdb:183/1/1_Crohn's-disease:crohn-disease-ASCA-positive-patients_vs_crohn-disea
 bsdb:183/1/2_Crohn's-disease:crohn-disease-ASCA-positive-patients_vs_crohn-disease-ASCA-negative-patients_DOWN	NA	550	853
 bsdb:188/1/1_cervical-cerclage:Vaginal-microbiome-of-symptomatic-women-prior-ro-cerclage_vs_Vaginal-microbiome-of-asymptomatic-women-prior-to-cerclage_UP	NA	257758	28130	2702
 bsdb:188/1/2_cervical-cerclage:Vaginal-microbiome-of-symptomatic-women-prior-ro-cerclage_vs_Vaginal-microbiome-of-asymptomatic-women-prior-to-cerclage_DOWN	NA	47770
+bsdb:189/1/1_chronic-hepatitis-B-virus-infection:chronic-hepatitis-B-patients_vs_healthy-controls_UP	NA	1506
+bsdb:189/1/2_chronic-hepatitis-B-virus-infection:chronic-hepatitis-B-patients_vs_healthy-controls_DOWN	NA	1898207	1940338
 bsdb:191/1/1_equol:equol-producers_vs_equol-non-producers_UP	NA	394340	572010
 bsdb:194/1/1_ovarian-cancer:ovarian-cancer_vs_normal-tissue_UP	NA	1364
 bsdb:194/1/2_ovarian-cancer:ovarian-cancer_vs_normal-tissue_DOWN	NA	34062	13690	333965	28090	330920
@@ -777,7 +779,7 @@ bsdb:562/4/2_NA:nasal-cavity-from-healthy-adult_vs_none---50%-prevalence-thresho
 bsdb:562/5/2_NA:oral-cavity-from-healthy-adult_vs_none---50%-prevalence-threshold_NA	NA	1303	29466	28037	729	2047	1379	1305	43675	84135	29391	851	544580	68892	28132	1660	484	490	199	322095	860	47671	1318	327575	157687	172042	39778	1019	1017	726	43768	46124	1911679	154688	1302	204	712710	712359	39777	28133	1304	45634	712148	1739406	467210	739	28135	495	33033	1382	936548	28449	60133	712357	113107	237576	1383	61592	257758	1018	2027459	1655	55565	228604	28124	76122	796942	1739309	102148	712469	1581061	470565	488	45242	28136	35517	114527	1078480	1759399	671213	2718	46125	187326	1739491	1177574	539	712461	123834	1227267	143393	341694	40542	28129
 bsdb:562/8/2_healthy:healthy-adult-skin-70%-up_vs_none_NA	NA	1747	1282	76775	29388	33011
 bsdb:562/9/2_NA:feces-from-healthy-adult_vs_none---70%-prevalence-threshold_NA	NA	853	1150298	820	39491	418240	649756	1628085	88431	39488	39486	74426	821	40520	360807	823	745368	410072	1550024	301301	39485	33039	301302	28116	28118	28117	116085	1262992	1304	216816	818	214856	39490	1897011	328814	166486	292800
-bsdb:562/10/1_NA:feces-from-healthy-adult_vs_none---0%-prevalence-threshold_NA	NA	94406	282472	283377	11320	96462	712363
+bsdb:562/10/1_NA:feces-from-healthy-adult_vs_none---0%-prevalence-threshold_NA	NA	94406	282472	283377	11320	96462	712363	1651279	5335
 bsdb:564/1/1_antimicrobial-agent:IAP-group-(@7-days)_vs_Control-group-(@7-days)_DOWN	NA	41200
 bsdb:566/1/2_juvenile-idiopathic-arthritis:HLAB27+_vs_HLAB27-_UP	NA	1506
 bsdb:566/2/2_juvenile-idiopathic-arthritis:JIA-patients-in-remission_vs_JIA-patients-with-active-disease_UP	NA	1506
@@ -789,6 +791,11 @@ bsdb:576/1/1_colorectal-cancer:patients-with-adenocarcinoma_vs_controls-with-no-
 bsdb:577/1/1_asthma:Male_vs_Female_DOWN	NA	1304
 bsdb:577/2/1_asthma:Female-participants-with-asthma_vs_Female-normal-controls_DOWN	NA	1304
 bsdb:580/1/1_Human-immunodeficiency-virus:HIV+-individuals_vs_HIV-uninfected-individuals_DOWN	NA	1486938	28121
+bsdb:583/1/1_HIV-infection:PLWH->50-years-old-with-severe-periodontitis_vs_PLWH->50-years-old-with-no/mild-periodontitis_UP	NA	5476	5480
+bsdb:583/1/2_HIV-infection:PLWH->50-years-old-with-severe-periodontitis_vs_PLWH->50-years-old-with-no/mild-periodontitis_DOWN	NA	42374	93612	82525	4959
+bsdb:583/1/3_HIV-infection:PLWH->50-years-old-with-severe-periodontitis_vs_PLWH->50-years-old-with-no/mild-periodontitis_UP	NA	28132	2047	43675	39778
+bsdb:583/1/4_HIV-infection:PLWH->50-years-old-with-severe-periodontitis_vs_PLWH->50-years-old-with-no/mild-periodontitis_DOWN	NA	39778
+bsdb:583/1/6_HIV-infection:PLWH->50-years-old-with-severe-periodontitis_vs_PLWH->50-years-old-with-no/mild-periodontitis_DOWN	NA	43675
 bsdb:589/1/1_colorectal-cancer:CRC-patients_vs_healthy-control_UP	NA	239935
 bsdb:589/1/2_colorectal-cancer:CRC-patients_vs_healthy-control_DOWN	NA	338188	329854	40520	218538	39950	39486	140626	28052	158847	165179	28135	106588
 bsdb:603/1/1_colorectal-cancer:CRC-patients_vs_non-disease-controls_DOWN	NA	39488	649756	658089	410072	166486
@@ -845,15 +852,15 @@ bsdb:644/2/1_colorectal-cancer:colorectal-cancer-(adenocarcinoma)_vs_healthy-con
 bsdb:644/2/2_colorectal-cancer:colorectal-cancer-(adenocarcinoma)_vs_healthy-controls_DOWN	NA	29523	1955243	562	853	76761
 bsdb:644/3/1_colorectal-cancer:colorectal-cancer_vs_colorectal-adenoma_UP	NA	28117	817	28116	29523	1955243	1898207	68766	1966354	1869337	1944660	188932	1262	28124	28131	59823	363265	41978
 bsdb:644/3/2_colorectal-cancer:colorectal-cancer_vs_colorectal-adenoma_DOWN	NA	1894999	562	188932	76761	396015
-bsdb:644/4/1_colorectal-cancer:colorectal-cancer-mucosae_vs_carcinoma-adjacent-mucosae_DOWN	NA	1955243	76761
-bsdb:644/4/2_colorectal-cancer:colorectal-cancer-mucosae_vs_carcinoma-adjacent-mucosae_UP	NA	68766
-bsdb:644/5/1_colorectal-cancer:colorectal-cancer_vs_adenoma-adjacent_DOWN	NA	562	76761	188932	396015	1894999	1409
-bsdb:644/5/2_colorectal-cancer:colorectal-cancer_vs_adenoma-adjacent_UP	NA	817	1955243	205	68766	1966354	2049028	1869337	1944660	1262	28124	28131	59823	363265	1898207
-bsdb:644/7/1_colorectal-adenoma:adenoma-adjacent_vs_healthy-controls_DOWN	NA	853	1955243	2049024	1531
-bsdb:644/7/2_colorectal-adenoma:adenoma-adjacent_vs_healthy-controls_UP	NA	68766	188932	1894999
+bsdb:644/4/1_colorectal-cancer:carcinoma-mucosae_vs_carcinoma-adjacent-mucosae_DOWN	NA	1955243	76761
+bsdb:644/4/2_colorectal-cancer:carcinoma-mucosae_vs_carcinoma-adjacent-mucosae_UP	NA	68766
+bsdb:644/5/1_colorectal-cancer:adenocarcinoma-mucosae_vs_adenoma-adjacent_DOWN	NA	1409	1894999	562	188932	76761	396015
+bsdb:644/5/2_colorectal-cancer:adenocarcinoma-mucosae_vs_adenoma-adjacent_UP	NA	817	1955243	205	1898207	68766	1966354	2049028	1869337	1944660	1262	28124	28131	59823	363265
+bsdb:644/7/1_colorectal-adenoma:adenoma-adjacent_vs_healthy-controls_DOWN	NA	1955243	2049024	1531	853
+bsdb:644/7/2_colorectal-adenoma:adenoma-adjacent_vs_healthy-controls_UP	NA	1894999	68766	188932
 bsdb:644/8/1_colorectal-cancer:carcinoma-adjacent_vs_healthy-controls_UP	NA	817	28116	68766	1966354	2049028	1262	28124	59823
-bsdb:644/9/1_colorectal-cancer:carcinoma-adjacent_vs_colorectal-adenoma_UP	NA	817	853	68766	1944660	1955243	1262	40520	29523	1966354	28131	363265	2049024	41978	59823	1898207	28116	28124	28117	820
-bsdb:644/9/2_colorectal-cancer:carcinoma-adjacent_vs_colorectal-adenoma_DOWN	NA	1894999
+bsdb:644/9/1_colorectal-cancer:carcinoma-adjacent-tissue_vs_colorectal-adenoma-tissue_UP	NA	28117	817	28116	29523	820	40520	1955243	1898207	2049024	853	68766	1966354	1944660	1262	28124	28131	59823	363265	41978
+bsdb:644/9/2_colorectal-cancer:carcinoma-adjacent-tissue_vs_colorectal-adenoma-tissue_DOWN	NA	1894999
 bsdb:646/1/2_colorectal-adenoma:Adenoma_vs_Non-Adenoma_DOWN	NA	68904	2231116
 bsdb:652/1/3_intramucosal-CRC:Intramucosal-CRC_vs_Healthy_DOWN	NA	860	852
 bsdb:652/1/4_intramucosal-CRC:Intramucosal-CRC_vs_Healthy_UP	NA	856
