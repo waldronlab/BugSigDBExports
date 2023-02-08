@@ -117,6 +117,34 @@ readFiles <- function(links, delay = 60)
     return(bugsigdb)
 }
 
+resolveCase <- function(bsdb, ncol = "Condition", icol = "EFO ID")
+{
+    spl <- split(bsdb[,ncol], bsdb[,icol])
+    spl <- lapply(spl, unique)
+    incons <- spl[lengths(spl) > 1]
+    incons <- lapply(incons, tolower)
+    incons <- lapply(incons, unique)
+    incons <- incons[lengths(incons) == 1]
+    for(n in names(incons))
+    { 
+        ind  <- which(bsdb[,"EFO ID"] == n)   
+        bsdb[ind,"Condition"] <- incons[[n]]
+    }
+    return(bsdb)
+}
+
+addID <- function(df)
+{
+    eid <- sub("^Experiment ", "", df[["Experiment"]])
+    sid <- sub("^Study ", "", df[["Study"]])
+    sgid <- sub("^Signature ", "", df[["Signature page name"]])
+    id <- paste(sid, eid, sgid, sep = "/")
+    id <- paste("bsdb", id, sep = ":")
+    df[,"BSDB ID"] <- id
+    df <- df[,c(ncol(df),seq_len(ncol(df) - 1))]
+    return(df)
+}
+
 ## MAIN
 
 # command line arguments
@@ -138,32 +166,12 @@ bsdb <- readFiles(links)
 abstr.col <- "Abstract"
 bsdb <- bsdb[,colnames(bsdb) != abstr.col]
 
-
 # resolve lower case / upper case inconsistencies
+bsdb <- resolveCase(bsdb, ncol = "Condition", icol = "EFO ID")
+bsdb <- resolveCase(bsdb, ncol = "Body site", icol = "UBERON ID")
 
-spl <- split(bsdb[,"Condition"], bsdb[,"EFO ID"])
-spl <- lapply(spl, unique)
-incons <- spl[lengths(spl) > 1]
-incons <- lapply(incons, tolower)
-incons <- lapply(incons, unique)
-incons <- incons[lengths(incons) == 1]
-for(n in names(incons))
-{ 
-    ind  <- which(bsdb[,"EFO ID"] == n)   
-    bsdb[ind,"Condition"] <- incons[[n]]
-}
-
-spl <- split(bsdb[,"Body site"], bsdb[,"UBERON ID"])
-spl <- lapply(spl, unique)
-incons <- spl[lengths(spl) > 1]
-incons <- lapply(incons, tolower)
-incons <- lapply(incons, unique)
-incons <- incons[lengths(incons) == 1]
-for(n in names(incons))
-{ 
-    ind  <- which(bsdb[,"UBERON ID"] == n)   
-    bsdb[ind,"Body site"] <- incons[[n]]
-}
+# add BSDB ID
+bsdb <- addID(bsdb)
 
 # write full dump
 csv.file <- file.path(out.dir, "full_dump.csv")
