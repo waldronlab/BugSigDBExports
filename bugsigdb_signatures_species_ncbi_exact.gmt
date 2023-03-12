@@ -1,4 +1,4 @@
-# BugSigDB 2023-03-05, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2023-03-12, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	57037
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	57037
 bsdb:1/6/1_colorectal-adenoma:Non-advanced-conventional-adenoma-cases_vs_controls_UP	NA	57037
@@ -225,6 +225,7 @@ bsdb:182/1/1_acetaldehyde:high-acetaldehyde-concentration-group_vs_low-acetaldeh
 bsdb:182/1/2_acetaldehyde:high-acetaldehyde-concentration-group_vs_low-acetaldehyde-concentration-group_DOWN	NA	1318	470565
 bsdb:183/1/1_Crohn's-disease:crohn-disease-ASCA-positive-patients_vs_crohn-disease-ASCA-negative-patients_UP	NA	33039
 bsdb:183/1/2_Crohn's-disease:crohn-disease-ASCA-positive-patients_vs_crohn-disease-ASCA-negative-patients_DOWN	NA	550	853
+bsdb:186/2/2_colorectal-cancer:Cigarette-smoke-exposure-group_vs_Control-group_UP	NA	239935
 bsdb:188/1/1_cervical-cerclage:Vaginal-microbiome-of-symptomatic-women-prior-ro-cerclage_vs_Vaginal-microbiome-of-asymptomatic-women-prior-to-cerclage_UP	NA	257758	28130	2702
 bsdb:188/1/2_cervical-cerclage:Vaginal-microbiome-of-symptomatic-women-prior-ro-cerclage_vs_Vaginal-microbiome-of-asymptomatic-women-prior-to-cerclage_DOWN	NA	47770
 bsdb:189/1/1_chronic-hepatitis-B-virus-infection:chronic-hepatitis-B-patients_vs_healthy-controls_UP	NA	1506
@@ -328,6 +329,7 @@ bsdb:259/2/2_atopic-eczema:emollient-use_vs_no-emollient-use_UP	NA	1304
 bsdb:261/1/1_chronic-pancreatitis:autoimmune-pancreatitis-type-1_vs_chronic-pancreatitis_DOWN	NA	28116	205328	460384	113107	1302
 bsdb:264/1/1_human-papilloma-virus-infection:HPV+/HIV-_vs_HPV-/HIV-_UP	NA	1872515	2023260	1261	309120	72409	1971214	1258	59823
 bsdb:264/1/2_human-papilloma-virus-infection:HPV+/HIV-_vs_HPV-/HIV-_DOWN	NA	147802	1879286
+bsdb:265/1/1_human-papilloma-virus-infection,Age:two-months_vs_at-birth_UP	NA	43675	39778	1872515
 bsdb:265/3/1_human-papilloma-virus-infection:HPV+-at-two-months_vs_HPV--at-two-months_DOWN	NA	39778
 bsdb:267/1/1_atopic-asthma:atopic-asthma_vs_healthy-control_UP	NA	76122	147802	28449	165179	117207	59892	39778
 bsdb:267/1/2_atopic-asthma:atopic-asthma_vs_healthy-control_DOWN	NA	71999	57037
@@ -784,6 +786,12 @@ bsdb:583/1/4_HIV-infection:PLWH->50-years-old-with-severe-periodontitis_vs_PLWH-
 bsdb:583/1/6_HIV-infection:PLWH->50-years-old-with-severe-periodontitis_vs_PLWH->50-years-old-with-no/mild-periodontitis_DOWN	NA	43675
 bsdb:589/1/1_colorectal-cancer:CRC-patients_vs_healthy-control_UP	NA	239935
 bsdb:589/1/2_colorectal-cancer:CRC-patients_vs_healthy-control_DOWN	NA	338188	329854	40520	218538	39950	39486	140626	28052	158847	165179	28135	106588
+bsdb:595/1/1_colorectal-carcinoma:CRC-patients_vs_Neoplasia-free_UP	NA	76859	76856	76857	155615	28123	28133	106588	707003	341694	157688	860	33033	817	35833	203	69823	40542	89153	1512
+bsdb:595/1/2_colorectal-carcinoma:CRC-patients_vs_Neoplasia-free_DOWN	NA	39488	39496	39485	166486	40518	1304	39491
+bsdb:595/2/1_colorectal-carcinoma:CRC-patients_vs_Adenoma-patients_UP	NA	76859	76856	76857	155615	28123	28133	341694	33033	133926	1328
+bsdb:595/2/2_colorectal-carcinoma:CRC-patients_vs_Adenoma-patients_DOWN	NA	39491
+bsdb:595/4/1_colorectal-carcinoma:CRC_vs_Neoplasia-free-control_UP	NA	76859	341694	817	1512	33033	155615	35833	106588	1263067	860	849	28135	28133	28123
+bsdb:595/4/2_colorectal-carcinoma:CRC_vs_Neoplasia-free-control_DOWN	NA	2317	1304	39488	39485	39491	166486	39496
 bsdb:603/1/1_colorectal-cancer:CRC-patients_vs_non-disease-controls_DOWN	NA	39488	649756	658089	410072	166486
 bsdb:603/1/2_colorectal-cancer:CRC-patients_vs_non-disease-controls_UP	NA	328813	76122	291644	35833	333367	208479	358743	46124	154046	33033	1944660	341694	28123	322095	281920	28131	2049041	1328	1522	1512	33039	658086	1261	1262	169435	1872531	665956	102148	2023260	851	876
 bsdb:605/2/1_Parkinson's-disease:Participants-with-Parkinson's-Disease-with-tremor-subtypes_vs_Participants-with-Parkinson's-Disease-with-non-tremor-subtypes_UP	NA	2137877
@@ -930,3 +938,14 @@ bsdb:709/1/2_arthritis:Early-Rheumatoid-Arthritis_vs_Healthy-Controls_UP	NA	7612
 bsdb:712/1/1_arthritis:Rheumatoid-Arthritis_vs_healthy-controls_DOWN	NA	59823	28124	104608	29466	137732	860	166	152509	28132
 bsdb:712/1/2_arthritis:Rheumatoid-Arthritis_vs_healthy-controls_UP	NA	1304	43675	59823	104608	135080
 bsdb:713/1/2_arthritis:Juvenile-Idiopathic-Arthritis_vs_healthy-controls_UP	NA	729
+bsdb:721/1/2_HIV-mother-to-child-transmission:HIV-exposed-uninfected_vs_HIV--unexposed-uninfected-controls_DOWN	NA	2080739
+bsdb:731/1/2_HIV-infection:People-with-HIV_vs_HIV-uninfected-individuals_DOWN	NA	2044938
+bsdb:733/1/1_Dermatomyositis:dermatomyositis_vs_healthy-controls_UP	NA	165179	28129
+bsdb:733/1/2_Dermatomyositis:dermatomyositis_vs_healthy-controls_UP	NA	165179	28129
+bsdb:734/1/1_COVID-19:COVID-19-infection-cases._vs_Control-group_DOWN	NA	1681
+bsdb:734/1/2_COVID-19:COVID-19-infection-cases._vs_Control-group_UP	NA	1656	291645
+bsdb:738/1/1_Crohn's-disease:pediatric-crohn's-disease_vs_healthy-adults_DOWN	NA	437897	360807	39485
+bsdb:738/1/5_Crohn's-disease:pediatric-crohn's-disease_vs_healthy-adults_DOWN	NA	39485	437897	360807
+bsdb:747/1/1_Dermatomyositis:dermatomyositis_vs_healthy-controls_UP	NA	165179	28129
+bsdb:748/1/1_colorectal-cancer:cohort_vs_control_DOWN	NA	39496
+bsdb:748/1/2_colorectal-cancer:cohort_vs_control_UP	NA	33033	102148	851	341694

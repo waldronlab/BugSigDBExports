@@ -1,4 +1,4 @@
-# BugSigDB 2023-03-05, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2023-03-12, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	91061	1236	1654	1716	1301	162289	189330	33024	40544	2037	2049	506	186826	1300	31977	91347	1653	57037	1386	186817
 bsdb:1/1/2_colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	100883	1117
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	207244	57037
@@ -548,8 +548,8 @@ bsdb:152/1/1_cervical-cancer:cervical-cancer_vs_healthy-controls_UP	NA	189330	58
 bsdb:152/1/2_cervical-cancer:cervical-cancer_vs_healthy-controls_DOWN	NA	2745	33024
 bsdb:152/2/1_cervical-cancer:cervical-cancer-patients_vs_healthy-controls_UP	NA	46506	91347	543	562	1236	375288	823	1224	841	360807
 bsdb:152/2/2_cervical-cancer:cervical-cancer-patients_vs_healthy-controls_DOWN	NA	909930	909932	33024	909929
-bsdb:153/1/1_prostate-cancer:prostate-cancer_vs_controls_UP	NA	1357	2747	1301	129337	547
-bsdb:153/1/2_prostate-cancer:prostate-cancer_vs_controls_DOWN	NA	413496	114627	44249
+bsdb:153/1/1_prostate-cancer:prostate-cancer_vs_non-prostate-cancer_UP	NA	1357	2747	1301	129337	547
+bsdb:153/1/2_prostate-cancer:prostate-cancer_vs_non-prostate-cancer_DOWN	NA	413496	114627	44249
 bsdb:154/1/1_colorectal-cancer:colorectal-cancer_vs_healthy-controls_UP	NA	45401	46913	356	28211	44249	186822	59732
 bsdb:154/1/2_colorectal-cancer:colorectal-cancer_vs_healthy-controls_DOWN	NA	171552	838	31979	213115	1730	570	32067	33024	86331	613
 bsdb:155/1/1_esophageal-cancer:Esophageal-Adenocarcinoma-(EAC)_vs_controls_UP	NA	28112	181487	29465	970
@@ -672,8 +672,8 @@ bsdb:185/1/1_gastric-cancer:gastric-cancer_vs_controls_UP	NA	1224	543	561	620	14
 bsdb:185/1/2_gastric-cancer:gastric-cancer_vs_controls_DOWN	NA	976	815	816	200643	171549
 bsdb:185/2/1_gastric-cancer:gastric-cancer_vs_healthy-gastric-cancer-(post-surgery)_UP	NA	508458	186803	570
 bsdb:185/2/2_gastric-cancer:gastric-cancer_vs_healthy-gastric-cancer-(post-surgery)_DOWN	NA	203494	48461	203557	74201	239934	620	95818	909929	909932	31977	33958	1578	39948	171552
-bsdb:186/1/1_prostate-cancer:prostrate-cancer_vs_non-prostrate-cancer_UP	NA	1357	2747	1301	129337	547
-bsdb:186/1/2_prostate-cancer:prostrate-cancer_vs_non-prostrate-cancer_DOWN	NA	413496	114627	44249
+bsdb:186/2/1_colorectal-cancer:Cigarette-smoke-exposure-group_vs_Control-group_NA	NA	NA
+bsdb:186/2/2_colorectal-cancer:Cigarette-smoke-exposure-group_vs_Control-group_UP	NA	239935
 bsdb:187/1/1_medroxyprogesterone-acetate:naive-black-participants-(baseline-visit)_vs_depot-medroxyprogesterone-acetate-vaginal-microbiome-(visit-2)-among-black-participants_UP	NA	838
 bsdb:187/2/1_medroxyprogesterone-acetate:white-naiive-vaginal-microbiome-(baseline)_vs_black-naive-vaginal-microbiome-(baseline-visit-)_UP	NA	150022
 bsdb:187/2/2_medroxyprogesterone-acetate:white-naiive-vaginal-microbiome-(baseline)_vs_black-naive-vaginal-microbiome-(baseline-visit-)_DOWN	NA	1485	177971
@@ -993,6 +993,8 @@ bsdb:263/4/1_rheumatoid-arthritis:arthiritis_vs_healthy-controls_UP	NA	1654	8411
 bsdb:263/4/2_rheumatoid-arthritis:arthiritis_vs_healthy-controls_DOWN	NA	264995	580596	1485	216851	1407607	204475	28050	1501226	841	44748	292632
 bsdb:264/1/1_human-papilloma-virus-infection:HPV+/HIV-_vs_HPV-/HIV-_UP	NA	1872515	2023260	28263	1261	309120	72409	186804	1257	1971214	39948	1258	162289	59823	906	31979	976	200643	171549	1129771	838	171552	32066	203491
 bsdb:264/1/2_human-papilloma-virus-infection:HPV+/HIV-_vs_HPV-/HIV-_DOWN	NA	147802	28211	356	56688	1879286	135614
+bsdb:265/1/1_human-papilloma-virus-infection,Age:two-months_vs_at-birth_UP	NA	1268	32207	43675	1300	1301	29465	39778	2762318	724	1872515	150022
+bsdb:265/1/2_human-papilloma-virus-infection,Age:two-months_vs_at-birth_DOWN	NA	357	816	80865	1578	906	1743	286	1279	1737406
 bsdb:265/2/1_human-papilloma-virus-infection:HPV+_vs_HPV-_UP	NA	400634	2129
 bsdb:265/2/2_human-papilloma-virus-infection:HPV+_vs_HPV-_DOWN	NA	29465
 bsdb:265/3/1_human-papilloma-virus-infection:HPV+-at-two-months_vs_HPV--at-two-months_DOWN	NA	31977	39778
@@ -1950,7 +1952,7 @@ bsdb:507/1/1_antimicrobial-agent:Patients-after-Rifaximin-treatment_vs_Patients-
 bsdb:507/1/2_antimicrobial-agent:Patients-after-Rifaximin-treatment_vs_Patients-before-Rifaximin-treatment_UP	NA	NA
 bsdb:507/2/1_antimicrobial-agent:Patients-1-month-after-Rifaximin-treatment_vs_Patients-before-Rifaximin-treatment_UP	NA	1578
 bsdb:507/2/2_antimicrobial-agent:Patients-1-month-after-Rifaximin-treatment_vs_Patients-before-Rifaximin-treatment_DOWN	NA	841
-bsdb:508/1/1_Parkinson's-disease:Parkinson's-Disease-Patients_vs_Healthy-Controls_UP	NA	239934	31953	85004	1678	186801	194924	213115	561	186803	119852	375288	33024	171551	31977	203557	203494	48461	74201	216572	186802	1239	1224	84992	1760
+bsdb:508/1/1_Parkinson's-disease:Parkinson's-Disease-Patients_vs_Healthy-Controls_UP	NA	28221	239934	31953	85004	1678	186801	194924	213115	561	186803	119852	375288	33024	171551	31977	203557	203494	48461	74201	216572	186802	1239	1224	84992	1760
 bsdb:508/1/2_Parkinson's-disease:Parkinson's-Disease-Patients_vs_Healthy-Controls_DOWN	NA	171549	200643	203492	203491	203490	848	32066	976
 bsdb:510/1/1_periodontitis:patients-with-rheumatoid-arthritis_vs_patients-with-no-rheumatoid-arthritis_UP	NA	714	35519	33033	33031	52227	470565	310514	228604	287	671224	1872413
 bsdb:510/1/2_periodontitis:patients-with-rheumatoid-arthritis_vs_patients-with-no-rheumatoid-arthritis_DOWN	NA	189722	52773	1328	166
@@ -2201,7 +2203,12 @@ bsdb:586/2/1_colorectal-cancer:CRC-Patients_vs_Healthy-Controls_UP	NA	201174	282
 bsdb:587/1/1_nicotine-dependence,smoking-behavior:Current-Smoker_vs_Non-smoker_UP	NA	NA
 bsdb:587/1/2_nicotine-dependence,smoking-behavior:Current-Smoker_vs_Non-smoker_UP	NA	28211
 bsdb:587/1/3_nicotine-dependence,smoking-behavior:Current-Smoker_vs_Non-smoker_UP	NA	NA
-bsdb:588/1/NA_colorectal-cancer:colorectal-cancer-patients_vs_healthy-subjects_NA	NA	NA
+bsdb:588/1/1_colorectal-cancer:colorectal-cancer-patients_vs_healthy-subjects_UP	NA	46123	469	33870	776	1243	131079	2172	32207	100132	674963	574899
+bsdb:588/1/2_colorectal-cancer:colorectal-cancer-patients_vs_healthy-subjects_DOWN	NA	119852
+bsdb:588/2/1_Intestinal-polyp:polyps-patients_vs_healthy-subjects_UP	NA	244127	52225
+bsdb:588/2/2_Intestinal-polyp:polyps-patients_vs_healthy-subjects_DOWN	NA	194	1350	286	978
+bsdb:588/3/1_Intestinal-polyp:cancer-patients_vs_polyps-patients_UP	NA	1654	194	1350	84108	638847	33870	2172	1257	46123	776	574899	1243	46255
+bsdb:588/3/2_Intestinal-polyp:cancer-patients_vs_polyps-patients_DOWN	NA	642	100132	119852	52225	34104
 bsdb:589/1/1_colorectal-cancer:CRC-patients_vs_healthy-control_UP	NA	239935	33024
 bsdb:589/1/2_colorectal-cancer:CRC-patients_vs_healthy-control_DOWN	NA	338188	329854	40520	218538	39950	39486	140626	28052	158847	165179	28135	106588
 bsdb:590/1/1_Human-immunodeficiency-virus:Recently-HIV-1-infected-individuals_vs_HIV-1-negative-individuals_DOWN	NA	189330
@@ -2210,8 +2217,13 @@ bsdb:592/1/1_HIV-infection:HIV-Patients_vs_Healthy-controls_UP	NA	201174	265975	
 bsdb:592/1/2_HIV-infection:HIV-Patients_vs_Healthy-controls_DOWN	NA	186801	816	815	543	207244	2039302	239759	1407607	171550	547	186828	117563	712	724	216572
 bsdb:594/1/1_periodontitis:HIV+_vs_HIV–_UP	NA	416916	32257	482	32207	481	712	46123
 bsdb:594/1/2_periodontitis:HIV+_vs_HIV–_DOWN	NA	82202	195950	32067	970	157	31977	838
-bsdb:595/1/1_colorectal-carcinoma:CRC-patients_vs_tumor-free-controls_UP	NA	976	32066	1224
-bsdb:595/1/3_colorectal-carcinoma:CRC-patients_vs_tumor-free-controls_DOWN	NA	201174	1239
+bsdb:595/1/1_colorectal-carcinoma:CRC-patients_vs_Neoplasia-free_UP	NA	816	35832	872	32066	848	76859	76856	76857	155615	32067	543311	1257	836	28123	28133	1017280	106588	1224	970	707003	341694	157688	860	33033	817	35833	482	203	69823	40542	89153	1512
+bsdb:595/1/2_colorectal-carcinoma:CRC-patients_vs_Neoplasia-free_DOWN	NA	469	39488	1239	194	1730	39496	39485	166486	1263	40518	1304	39491
+bsdb:595/2/1_colorectal-carcinoma:CRC-patients_vs_Adenoma-patients_UP	NA	203490	848	76859	76856	76857	155615	133925	543311	1257	836	28123	1224	28133	341694	33033	133926	1328
+bsdb:595/2/2_colorectal-carcinoma:CRC-patients_vs_Adenoma-patients_DOWN	NA	39491	1730
+bsdb:595/3/1_colorectal-carcinoma:Adenoma-patients_vs_Neoplasia-free_DOWN	NA	1263
+bsdb:595/4/1_colorectal-carcinoma:CRC_vs_Neoplasia-free-control_UP	NA	203490	1224	872	848	543311	1257	1017280	836	194	76859	341694	817	1512	33033	155615	35833	106588	1263067	860	849	28135	28133	28123
+bsdb:595/4/2_colorectal-carcinoma:CRC_vs_Neoplasia-free-control_DOWN	NA	1239	35832	1263	1730	2317	1304	39488	39485	39491	166486	39496
 bsdb:596/1/1_HIV-infection:HIV-infected-men_vs_HIV-uninfected-men_DOWN	NA	1678	212791	1847	85030	28056	149698	551	12916	53387	85031	469	1386	2037	976	80840	34072	204455	99479	541000	89966	28065
 bsdb:596/1/2_HIV-infection:HIV-infected-men_vs_HIV-uninfected-men_UP	NA	29465	402649
 bsdb:598/1/1_HIV-infection:HIV-seroconverted_vs_HIV-seronegative_UP	NA	39948	2050	1257
@@ -2541,7 +2553,61 @@ bsdb:712/1/1_arthritis:Rheumatoid-Arthritis_vs_healthy-controls_DOWN	NA	59823	28
 bsdb:712/1/2_arthritis:Rheumatoid-Arthritis_vs_healthy-controls_UP	NA	1304	43675	59823	104608	135080
 bsdb:713/1/1_arthritis:Juvenile-Idiopathic-Arthritis_vs_healthy-controls_DOWN	NA	1654	1716	32067	2049
 bsdb:713/1/2_arthritis:Juvenile-Idiopathic-Arthritis_vs_healthy-controls_UP	NA	1301	729	32067	724
+bsdb:715/1/NA_NA:acute-respiratory-distress-syndrome_vs_healthy-controls_NA	NA	NA
+bsdb:716/1/1_Parkinson's-disease:Parkinson's-disease_vs_Controls_UP	NA	186827	31953	194924	186806
+bsdb:716/1/2_Parkinson's-disease:Parkinson's-disease_vs_Controls_DOWN	NA	2049	1239	85019	118882	80864	28890	28256	69657	267893	85021	186803	2159	119045	1268	544448	712	41297	1300	32033
+bsdb:716/2/1_Parkinson's-disease:PD-duration-more-than-5-years_vs_PD-duration-less-than-5-years_UP	NA	416916	191394	248038	171550
+bsdb:716/2/2_Parkinson's-disease:PD-duration-more-than-5-years_vs_PD-duration-less-than-5-years_DOWN	NA	28100
 bsdb:716/3/1_Parkinson's-disease:Early-onset-PD_vs_Late-onset-PD_UP	NA	506	66831	216851	724	1357	40544	712	1485
 bsdb:716/3/2_Parkinson's-disease:Early-onset-PD_vs_Late-onset-PD_DOWN	NA	244127	283
 bsdb:716/4/1_Parkinson's-disease:Tremor-dominant-PD_vs_Non-tremor-dominant-PD_UP	NA	244127	1129771
 bsdb:716/4/2_Parkinson's-disease:Tremor-dominant-PD_vs_Non-tremor-dominant-PD_DOWN	NA	841
+bsdb:720/1/1_Chlamydia-trachomatis:Chlamydia-trachomatis_vs_Healthy-Controls_UP	NA	186803	31953	31977	84107	186827	31979	906	841	168808	216851	1380	1375	39948	1485	572511	1301	561	2129	419014
+bsdb:720/2/1_Vulvovaginal-candidiasis:Vulvovaginal-candidiasis_vs_Healthy-Controls_DOWN	NA	1578
+bsdb:720/2/2_Vulvovaginal-candidiasis:Vulvovaginal-candidiasis_vs_Healthy-Controls_UP	NA	186803	31977	171552	84107	1737406	2049	186804	2701	838	906	841	216851	1380	39948	572511	1301	561	1257	150022	29465	419014
+bsdb:720/3/1_Bacterial-vaginosis:bacterial-vaginosis_vs_Healthy-Controls_DOWN	NA	1578
+bsdb:720/3/2_Bacterial-vaginosis:bacterial-vaginosis_vs_Healthy-Controls_UP	NA	186803	31977	171552	84107	1129771	1737406	186827	31979	2049	186804	2701	838	906	841	168808	1380	1375	39948	1485	2129	1257	1378	2050
+bsdb:721/1/1_HIV-mother-to-child-transmission:HIV-exposed-uninfected_vs_HIV--unexposed-uninfected-controls_UP	NA	84111	397864	283168	572511	168808	1239	216572
+bsdb:721/1/2_HIV-mother-to-child-transmission:HIV-exposed-uninfected_vs_HIV--unexposed-uninfected-controls_DOWN	NA	135858	158846	547	2080739	976
+bsdb:721/2/1_HIV-mother-to-child-transmission:HIV-exposed-uninfected_vs_HIV--unexposed-uninfected-controls_UP	NA	2383	570	1357	158846	577310	186802
+bsdb:721/2/2_HIV-mother-to-child-transmission:HIV-exposed-uninfected_vs_HIV--unexposed-uninfected-controls_DOWN	NA	1380	2701	1378	2050	543311	168808
+bsdb:721/3/1_HIV-mother-to-child-transmission:HIV-exposed-uninfected_vs_HIV--unexposed-uninfected-controls_DOWN	NA	583	84107
+bsdb:721/4/NA_HIV-mother-to-child-transmission:HIV-infected-mothers_vs_Healthy-controls_NA	NA	NA
+bsdb:729/1/1_schizophrenia:Schizophrenia_vs_healthy-control_UP	NA	201174	239934	976	838	1501226	1301	508458	74201
+bsdb:729/1/2_schizophrenia:Schizophrenia_vs_healthy-control_DOWN	NA	46123	580596	33042	216851	1407607	204475	841
+bsdb:729/2/1_schizophrenia:Schizophrenia_vs_healthy-control_NA	NA	NA
+bsdb:729/2/2_schizophrenia:Schizophrenia_vs_healthy-control_NA	NA	NA
+bsdb:729/2/3_schizophrenia:Schizophrenia_vs_healthy-control_NA	NA	NA
+bsdb:729/2/4_schizophrenia:Schizophrenia_vs_healthy-control_UP	NA	200643	201174	74201	508458
+bsdb:729/2/5_schizophrenia:Schizophrenia_vs_healthy-control_DOWN	NA	1239
+bsdb:729/3/1_schizophrenia:Schizophrenia_vs_healthy-control_UP	NA	171552	1300	203557
+bsdb:729/3/2_schizophrenia:Schizophrenia_vs_healthy-control_DOWN	NA	186803	216572
+bsdb:729/4/1_schizophrenia:Schizophrenia_vs_healthy-control_UP	NA	838	239934	1301	1501226
+bsdb:729/4/2_schizophrenia:Schizophrenia_vs_healthy-control_DOWN	NA	204475	841	216851	33042	1407607	580596
+bsdb:729/5/1_schizophrenia:Schizophrenia_vs_healthy-control_UP	NA	1654
+bsdb:729/5/2_schizophrenia:Schizophrenia_vs_healthy-control_DOWN	NA	216851
+bsdb:731/1/1_HIV-infection:People-with-HIV_vs_HIV-uninfected-individuals_UP	NA	1678	1578	32207	1301	29465
+bsdb:731/1/2_HIV-infection:People-with-HIV_vs_HIV-uninfected-individuals_DOWN	NA	194	1016	848	482	265975	195950	830	2044938	838	481
+bsdb:731/2/NA_HIV-infection:People-with-HIV_vs_HIV-uninfected-individuals_NA	NA	NA
+bsdb:731/3/1_HIV-infection:People-with-HIV_vs_HIV-uninfected-individuals_UP	NA	838	816	216851	1263	33024	1283313
+bsdb:731/3/2_HIV-infection:People-with-HIV_vs_HIV-uninfected-individuals_DOWN	NA	838	816	186803	1283313	33024	1263
+bsdb:733/1/1_Dermatomyositis:dermatomyositis_vs_healthy-controls_UP	NA	815	171549	165179	28129
+bsdb:733/1/2_Dermatomyositis:dermatomyositis_vs_healthy-controls_UP	NA	171549	815	165179	816	28129
+bsdb:733/1/3_Dermatomyositis:dermatomyositis_vs_healthy-controls_DOWN	NA	186803	186802	810
+bsdb:734/1/1_COVID-19:COVID-19-infection-cases._vs_Control-group_DOWN	NA	1681
+bsdb:734/1/2_COVID-19:COVID-19-infection-cases._vs_Control-group_UP	NA	1656	291645
+bsdb:736/1/1_Alzheimer's-disease:Alzheimer’s-disease_vs_healthy-controls_UP	NA	201174	74201
+bsdb:736/1/2_Alzheimer's-disease:Alzheimer’s-disease_vs_healthy-controls_DOWN	NA	1239
+bsdb:738/1/1_Crohn's-disease:pediatric-crohn's-disease_vs_healthy-adults_DOWN	NA	437897	360807	39485
+bsdb:738/1/2_Crohn's-disease:pediatric-crohn's-disease_vs_healthy-adults_UP	NA	91061
+bsdb:738/1/3_Crohn's-disease:pediatric-crohn's-disease_vs_healthy-adults_DOWN	NA	91061
+bsdb:738/1/4_Crohn's-disease:pediatric-crohn's-disease_vs_healthy-adults_UP	NA	91061	1263
+bsdb:738/1/5_Crohn's-disease:pediatric-crohn's-disease_vs_healthy-adults_DOWN	NA	39485	909929	1843491	158846	437897	360807
+bsdb:739/1/NA_NA:response-to-placebo_vs_healthy-conrols_NA	NA	NA
+bsdb:740/1/1_Alzheimer's-disease:Alzheimer’s-disease_vs_healthy-controls_DOWN	NA	1239
+bsdb:740/1/2_Alzheimer's-disease:Alzheimer’s-disease_vs_healthy-controls_UP	NA	1224	200643
+bsdb:747/1/1_Dermatomyositis:dermatomyositis_vs_healthy-controls_UP	NA	171549	815	816	165179	28129
+bsdb:747/1/2_Dermatomyositis:dermatomyositis_vs_healthy-controls_DOWN	NA	186803	810	186802
+bsdb:748/1/1_colorectal-cancer:cohort_vs_control_DOWN	NA	39496
+bsdb:748/1/2_colorectal-cancer:cohort_vs_control_UP	NA	33033	102148	851	341694
+bsdb:751/1/NA_Alcohol-drinking,Alcohol-abuse:NA_vs_NA_NA	NA	NA
