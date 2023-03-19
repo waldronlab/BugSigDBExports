@@ -1,4 +1,4 @@
-# BugSigDB 2023-03-12, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2023-03-19, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	57037
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	57037
 bsdb:1/6/1_colorectal-adenoma:Non-advanced-conventional-adenoma-cases_vs_controls_UP	NA	57037
@@ -19,7 +19,7 @@ bsdb:13/1/2_cervical-glandular-intraepithelial-neoplasia:Cervical-Intraepithelia
 bsdb:13/2/1_cervical-glandular-intraepithelial-neoplasia:HPV-+ve_vs_HPV--ve-among-pateints-with-Cervical-Intraepithelial-Neoplasia-different-severity-status_UP	NA	1311	316	1261
 bsdb:13/2/2_cervical-glandular-intraepithelial-neoplasia:HPV-+ve_vs_HPV--ve-among-pateints-with-Cervical-Intraepithelial-Neoplasia-different-severity-status_DOWN	NA	1584
 bsdb:14/1/1_halitosis:Oral-Halitosis_vs_Control_UP	NA	739
-bsdb:14/1/2_halitosis:Oral-Halitosis_vs_Control_DOWN	NA	2047	729
+bsdb:14/1/2_halitosis:Oral-Halitosis_vs_Control_DOWN	NA	729	2047
 bsdb:16/2/2_obesity:high-fat-diet-+-melatonin_vs_high-fat-diet_DOWN	NA	152490
 bsdb:17/1/1_anxiety-disorder:treatment-active-Generalized-Anxiety-disorder_vs_healthy-controls_UP	NA	33038	1522
 bsdb:17/1/2_anxiety-disorder:treatment-active-Generalized-Anxiety-disorder_vs_healthy-controls_DOWN	NA	39485	438033	39491
@@ -88,7 +88,7 @@ bsdb:65/1/2_type-II-diabetes-mellitus:Diabetic_vs_Non-diabetic_DOWN	NA	143361	83
 bsdb:66/1/2_neonatal-jaundice:cesarean-infants-with-jaundice_vs_control_DOWN	NA	1690
 bsdb:66/2/1_neonatal-jaundice:infants-with-jaundice_vs_control_UP	NA	1502
 bsdb:66/2/2_neonatal-jaundice:infants-with-jaundice_vs_control_DOWN	NA	43675
-bsdb:68/1/1_obesity:obese_vs_normal-weight_UP	NA	28116	31971
+bsdb:68/1/1_obesity:obese_vs_normal-weight_UP	NA	31971	28116
 bsdb:68/1/2_obesity:obese_vs_normal-weight_DOWN	NA	853
 bsdb:68/2/1_obesity:overweight_vs_normal-weight_UP	NA	853
 bsdb:68/3/1_obesity:obese-men_vs_normal-weight-men_UP	NA	823
@@ -225,7 +225,8 @@ bsdb:182/1/1_acetaldehyde:high-acetaldehyde-concentration-group_vs_low-acetaldeh
 bsdb:182/1/2_acetaldehyde:high-acetaldehyde-concentration-group_vs_low-acetaldehyde-concentration-group_DOWN	NA	1318	470565
 bsdb:183/1/1_Crohn's-disease:crohn-disease-ASCA-positive-patients_vs_crohn-disease-ASCA-negative-patients_UP	NA	33039
 bsdb:183/1/2_Crohn's-disease:crohn-disease-ASCA-positive-patients_vs_crohn-disease-ASCA-negative-patients_DOWN	NA	550	853
-bsdb:186/2/2_colorectal-cancer:Cigarette-smoke-exposure-group_vs_Control-group_UP	NA	239935
+bsdb:186/2/1_colorectal-cancer:Cigarette-smoke-exposure-group_vs_Control-group_UP	NA	29388
+bsdb:186/2/2_colorectal-cancer:Cigarette-smoke-exposure-group_vs_Control-group_DOWN	NA	823
 bsdb:188/1/1_cervical-cerclage:Vaginal-microbiome-of-symptomatic-women-prior-ro-cerclage_vs_Vaginal-microbiome-of-asymptomatic-women-prior-to-cerclage_UP	NA	257758	28130	2702
 bsdb:188/1/2_cervical-cerclage:Vaginal-microbiome-of-symptomatic-women-prior-ro-cerclage_vs_Vaginal-microbiome-of-asymptomatic-women-prior-to-cerclage_DOWN	NA	47770
 bsdb:189/1/1_chronic-hepatitis-B-virus-infection:chronic-hepatitis-B-patients_vs_healthy-controls_UP	NA	1506
@@ -338,7 +339,7 @@ bsdb:267/2/2_atopic-asthma:atopic-no-asthma_vs_healthy-control_DOWN	NA	57037
 bsdb:267/3/1_atopic-asthma:atopic-asthma_vs_atopic-no-asthma_UP	NA	28449	28131
 bsdb:267/3/2_atopic-asthma:atopic-asthma_vs_atopic-no-asthma_DOWN	NA	739	1018	996	727	729	57037	165179	425941	117207	59892	33038
 bsdb:267/4/2_atopic-asthma:inhaled-corticosteroid-responder_vs_nonresponder_DOWN	NA	351
-bsdb:268/1/1_cervical-glandular-intraepithelial-neoplasia:before_vs_after-loop-electrosurgical-excision-procedure_UP	NA	419005	2702	33959
+bsdb:268/1/1_cervical-glandular-intraepithelial-neoplasia:before_vs_after-loop-electrosurgical-excision-procedure_UP	NA	2702	33959	419005	187101
 bsdb:271/1/1_acute-lymphoblastic-leukemia:Minimal-Residual-Disease--(negativity)-with-Allogenic-Stem-Cell-Transplant_vs_Minimal-Residual-Disease--(positivity)-with-Allogenic-Stem-Cell-Transplant_UP	NA	853	39488	253239	44749
 bsdb:271/1/2_acute-lymphoblastic-leukemia:Minimal-Residual-Disease--(negativity)-with-Allogenic-Stem-Cell-Transplant_vs_Minimal-Residual-Disease--(positivity)-with-Allogenic-Stem-Cell-Transplant_DOWN	NA	1659	1655	2047	43675	29361	1335
 bsdb:271/3/1_acute-lymphoblastic-leukemia:Minimal-Residual-Disease--(negativity)-with-Allogenic-Stem-Cell-Transplant_vs_Minimal-Residual-Disease--(positivity)-with-Allogenic-Stem-Cell-Transplant_UP	NA	853
@@ -455,7 +456,7 @@ bsdb:337/3/2_antimicrobial-agent:12-month-old-infants-exposed-to-antibiotics-dur
 bsdb:338/2/1_obesity:obese-children_vs_normal-weight-children_UP	NA	2382	1502	1263076	727	729	387090	165179	43675	39778	36835	33038
 bsdb:338/2/2_obesity:obese-children_vs_normal-weight-children_DOWN	NA	626932	1680	74426	847	304	676517	1302
 bsdb:344/1/2_air-pollution:mice-exposed-to-Pm-2.5-suspension_vs_mice-exposed-suspension-from-extracts-of-“blank”-filter_DOWN	NA	351
-bsdb:345/1/2_obesity:obese_vs_normal_DOWN	NA	1308	39486	649756	29466	410072	674529	35833	291644	371601	28116
+bsdb:345/1/2_obesity:obese_vs_normal_DOWN	NA	649756	28116	674529	371601	35833	39486	291644	1308	29466
 bsdb:346/1/1_unipolar-depression:severe-depression_vs_mild-depression_UP	NA	292800
 bsdb:346/1/2_unipolar-depression:severe-depression_vs_mild-depression_DOWN	NA	1680	1288121	847
 bsdb:346/2/1_unipolar-depression:moderate-depression_vs_mild-depression_UP	NA	1328	116085	1512
@@ -514,7 +515,7 @@ bsdb:377/3/2_smoking-behavior:E-cigarette-smoker_vs_cigarette-smoker_DOWN	NA	114
 bsdb:378/1/1_graft-versus-host-disease:Severe-acute-graft-versus-host-disease_vs_controls_UP	NA	59823
 bsdb:378/2/2_graft-versus-host-disease:Severe-acute-graft-versus-host-disease_vs_controls_DOWN	NA	1547	1946507
 bsdb:379/1/1_obesity:non-obese_vs_obese_UP	NA	1679	158787	77635	1613	47493	227945
-bsdb:379/2/1_obesity:obese_vs_non-obese_UP	NA	46124	29317
+bsdb:379/2/1_obesity:obese_vs_non-obese_UP	NA	29317	46124	45634
 bsdb:382/1/1_Chlamydia-trachomatis-infectious-disease:patient-with-chlamydia-infection_vs_healthy-control_UP	NA	87541
 bsdb:382/2/1_human-papilloma-virus-infection,Chlamydophila-infectious-disease:patient-with-chlamydia-infection_vs_HPV-positive-women_UP	NA	813
 bsdb:385/1/1_gastric-adenocarcinoma:gastric-adenocarcinoma-(GC)_vs_superficial-gastritis-(SG)_UP	NA	490	28037	1303	1313
@@ -604,10 +605,13 @@ bsdb:457/4/1_periodontitis:Individuals-diagnosed-with-both-Periodontitis-and-Typ
 bsdb:457/5/1_periodontitis:Individuals-diagnosed-with-both-Periodontitis-and-Type-2-Diabetes-and-treated-with-metformin-(Met-group)_vs_Individuals-diagnosed-with-Periodontitis-and-Type-2-Diabetes-Mellitus-(DAP)_DOWN	NA	671218	28101	165179	329	234908
 bsdb:457/5/2_periodontitis:Individuals-diagnosed-with-both-Periodontitis-and-Type-2-Diabetes-and-treated-with-metformin-(Met-group)_vs_Individuals-diagnosed-with-Periodontitis-and-Type-2-Diabetes-Mellitus-(DAP)_UP	NA	1177574	34105	1309
 bsdb:458/1/1_COVID-19:COVID-19-patients_vs_Non-intubated-patients-with-non-incubation-viral-pneumonia-or-non-incubation-non-infectious-diseases_UP	NA	1909303
+bsdb:461/1/1_smoking-behavior:Healthy-Current-Smokers_vs_Never-smokers_UP	NA	470	106649	29430	40214	108981	156456	895	309120	143361	77917	851	907	187326	349094	330	113287
+bsdb:461/1/2_smoking-behavior:Healthy-Current-Smokers_vs_Never-smokers_DOWN	NA	1659	1656	46124	137732	729	28449	1303	1318	1305	272548
 bsdb:464/1/1_COVID-19:Confirmed-COVID-19-patients_vs_Healthy-controls_DOWN	NA	2080739	2044938	443342
 bsdb:464/1/2_COVID-19:Confirmed-COVID-19-patients_vs_Healthy-controls_UP	NA	41978
 bsdb:464/3/1_COVID-19:COVID-19-patients_vs_Healthy-controls_DOWN	NA	1869227	707003
 bsdb:465/1/1_diabetic-neuropathy:Individuals-diagnosed-with-peripheral-neuropathy-associated-with-type-2-diabetes_vs_Healthy-controls_UP	NA	1940338	33039
+bsdb:466/1/4_Gut-microbiome-measurement:PWH_vs_HIV-seronegative-controls_DOWN	NA	239935
 bsdb:468/4/1_endometriosis:Stage-3/4-endometriosis-patients_vs_Healthy-controls_UP	NA	1940338
 bsdb:468/5/1_endometriosis:Stage-3/4-endometriosis-patients_vs_Healthy-controls_UP	NA	1940338
 bsdb:469/1/1_COVID-19:COVID-19-patients_vs_Non-COVID-19-controls_DOWN	NA	1379	824	157688	40324
@@ -681,6 +685,7 @@ bsdb:502/3/1_irritable-bowel-syndrome:IBS-D_vs_Healthy-Control_UP	NA	79880	1396	
 bsdb:502/4/1_irritable-bowel-syndrome:IBS-M_vs_Healthy-Control_UP	NA	79880	1352	1581
 bsdb:505/1/2_irritable-bowel-syndrome:IBS_vs_Healthy-Control_DOWN	NA	1686	1537
 bsdb:506/1/1_irritable-bowel-syndrome:IBS-D_vs_Healthy-Control_UP	NA	562
+bsdb:509/1/1_smoking-behavior:Smoking_vs_Non-smoking_DOWN	NA	211442	257462
 bsdb:510/1/1_periodontitis:patients-with-rheumatoid-arthritis_vs_patients-with-no-rheumatoid-arthritis_UP	NA	714	35519	33033	33031	52227	470565	310514	228604	287	671224	1872413
 bsdb:510/1/2_periodontitis:patients-with-rheumatoid-arthritis_vs_patients-with-no-rheumatoid-arthritis_DOWN	NA	189722	52773	1328	166
 bsdb:510/2/1_rheumatoid-arthritis:patients-with-rheumatoid-arthritis_vs_patients-with-no-rheumatoid-arthritis_UP	NA	671218	156456	1689	1018	43768	1383	157688	157691	157687	114528	35519	28126	52227	28129	470565	439703	28132	310514	28133	28136	60133	228604	228603	287	230143	135080	135083	163583	69823	712711
@@ -804,6 +809,7 @@ bsdb:609/1/1_colorectal-cancer:CRC_vs_Healthy-Controls-(HC)_UP	NA	1940338
 bsdb:609/1/2_colorectal-cancer:CRC_vs_Healthy-Controls-(HC)_DOWN	NA	1898207
 bsdb:613/1/1_colorectal-cancer:CRC-patients_vs_healthy-individuals_DOWN	NA	28116	33035	1898207	853	301302	1265	39778	29466	33038	152509
 bsdb:614/1/2_colorectal-cancer:CRC_vs_Healthy-Controls_DOWN	NA	1940338
+bsdb:615/1/2_rheumatoid-arthritis:rheumatoid-arthritis_vs_healthy-controls_DOWN	NA	29523	820	691816	817
 bsdb:618/1/1_dementia:Severe-dementia_vs_Control,-mild,-and-moderate-dementia_UP	NA	2778071	1531	290054	1550024	2021466	1304	1535	35518	33039	1308	1944639	2485925	1946507
 bsdb:618/2/1_dementia:Patients-with-dementia_vs_Controls-without-cognitive-impairments_UP	NA	649756	1898207	1531	357276	33039
 bsdb:618/2/2_dementia:Patients-with-dementia_vs_Controls-without-cognitive-impairments_DOWN	NA	2021311	1755642	877420	331630	297314	707003
@@ -833,6 +839,8 @@ bsdb:631/2/1_colorectal-cancer:Colorectal-Cancer_vs_Healthy-Controls_DOWN	NA	165
 bsdb:631/2/2_colorectal-cancer:Colorectal-Cancer_vs_Healthy-Controls_UP	NA	357276	29523	28111	46503	204516	823	371601	821	28117	28118	35833	1898203	1512	214856	454154	1891238	40545	562	187327	39777
 bsdb:631/3/1_colorectal-cancer:Colorectal-Cancer_vs_Advanced-Colorectal-Adenoma_DOWN	NA	1506	1308	28025	1656
 bsdb:631/3/2_colorectal-cancer:Colorectal-Cancer_vs_Advanced-Colorectal-Adenoma_UP	NA	371601	204516	823	28116	29523	28118	35833	46503	28117	1891238	1898203	1512	187327	562	214856	28111	40545	39777
+bsdb:636/1/1_Human-oral-metagenome:Human-oral-meta-genome_vs_Healthy-control_UP	NA	1409
+bsdb:636/1/3_Human-oral-metagenome:Human-oral-meta-genome_vs_Healthy-control_UP	NA	1720
 bsdb:637/2/2_colorectal-adenoma:CRA_vs_Healthy-Individuals_DOWN	NA	205
 bsdb:641/1/1_arthritis:Early-Rheumatoid-Arthritis_vs_healthy-control_DOWN	NA	1583331	860	29466
 bsdb:641/1/2_arthritis:Early-Rheumatoid-Arthritis_vs_healthy-control_UP	NA	484	228604
@@ -864,6 +872,9 @@ bsdb:655/1/1_ethnic-group:African-Americans-(AA)_vs_European-Americans-(EA)_UP	N
 bsdb:655/1/2_ethnic-group:African-Americans-(AA)_vs_European-Americans-(EA)_DOWN	NA	46124	43675	45634	712621
 bsdb:656/1/1_socioeconomic-status:Children-living-in-slum-(Low-SES)_vs_Private-school-children-(High-SES)_UP	NA	562	1591	2173
 bsdb:656/1/2_socioeconomic-status:Children-living-in-slum-(Low-SES)_vs_Private-school-children-(High-SES)_DOWN	NA	1496	1502	599
+bsdb:661/1/2_Meningeal-tuberculosis:Tuberculosis-Meningitis-(TBM)_vs_Healthy-Control-(HC)_DOWN	NA	1378168
+bsdb:661/1/3_Meningeal-tuberculosis:Tuberculosis-Meningitis-(TBM)_vs_Healthy-Control-(HC)_UP	NA	1940338
+bsdb:661/2/2_Meningeal-tuberculosis:Pulmonary-tuberculosis-(PTB)_vs_Healthy-Control-(HC)_DOWN	NA	1378168
 bsdb:663/5/1_ethnic-group:India_vs_Jakun_UP	NA	216816	1686
 bsdb:663/5/2_ethnic-group:India_vs_Jakun_DOWN	NA	1463165
 bsdb:665/1/1_melanoma:Collitis_vs_No-collitis_UP	NA	28116	40520	1898207	1150298	745368	360807
@@ -877,6 +888,7 @@ bsdb:671/1/1_seasonal-gut-microbiome-measurement:samples-taken-in-dry/cold-seaso
 bsdb:671/1/2_seasonal-gut-microbiome-measurement:samples-taken-in-dry/cold-season_vs_samples-taken-in-dry/hot-or-rainy-season_DOWN	NA	1263079	1898207	46124	817	818
 bsdb:675/1/2_socioeconomic-status:25th-Percentile-of-926-participants-(monthly-household-income=<$7000.)_vs_75th-Percentile-of-926-participants-(monthly-household--income=>$15,250.)_DOWN	NA	31971	84112
 bsdb:676/1/2_non-small-cell-lung-carcinoma:Responders_vs_Non-responders_UP	NA	28117	216816	165179
+bsdb:677/1/1_Survival-time:Short-term-surviviors_vs_Long-term-survivors_UP	NA	1940338
 bsdb:679/2/1_metastatic-melanoma:Responders_vs_Non-responders_UP	NA	1352	74426	1680	573	29466	46503	1591	216816
 bsdb:679/2/2_metastatic-melanoma:Responders_vs_Non-responders_DOWN	NA	1263107	166486
 bsdb:679/3/1_metastatic-melanoma:Group-A-Responders_vs_Group-B-Non-responders_UP	NA	74426	216816	1591	573	46503
@@ -938,14 +950,19 @@ bsdb:709/1/2_arthritis:Early-Rheumatoid-Arthritis_vs_Healthy-Controls_UP	NA	7612
 bsdb:712/1/1_arthritis:Rheumatoid-Arthritis_vs_healthy-controls_DOWN	NA	59823	28124	104608	29466	137732	860	166	152509	28132
 bsdb:712/1/2_arthritis:Rheumatoid-Arthritis_vs_healthy-controls_UP	NA	1304	43675	59823	104608	135080
 bsdb:713/1/2_arthritis:Juvenile-Idiopathic-Arthritis_vs_healthy-controls_UP	NA	729
+bsdb:715/1/2_NA:acute-respiratory-distress-syndrome_vs_healthy-controls_DOWN	NA	550
+bsdb:720/1/1_Chlamydia-trachomatis:Chlamydia-trachomatis_vs_Healthy-Controls_UP	NA	11320
+bsdb:720/3/2_Bacterial-vaginosis:bacterial-vaginosis_vs_Healthy-Controls_UP	NA	1001126	11320
 bsdb:721/1/2_HIV-mother-to-child-transmission:HIV-exposed-uninfected_vs_HIV--unexposed-uninfected-controls_DOWN	NA	2080739
 bsdb:731/1/2_HIV-infection:People-with-HIV_vs_HIV-uninfected-individuals_DOWN	NA	2044938
 bsdb:733/1/1_Dermatomyositis:dermatomyositis_vs_healthy-controls_UP	NA	165179	28129
 bsdb:733/1/2_Dermatomyositis:dermatomyositis_vs_healthy-controls_UP	NA	165179	28129
-bsdb:734/1/1_COVID-19:COVID-19-infection-cases._vs_Control-group_DOWN	NA	1681
-bsdb:734/1/2_COVID-19:COVID-19-infection-cases._vs_Control-group_UP	NA	1656	291645
+bsdb:734/1/1_COVID-19:COVID-19-infection-cases._vs_Control-group_UP	NA	820	1681	74426	853	154046	1613	387661	357276	204516	310297	150055
+bsdb:734/1/2_COVID-19:COVID-19-infection-cases._vs_Control-group_DOWN	NA	328813	28117	28116	818	1322	33043	208479	853	165179	40518	333367	39491
 bsdb:738/1/1_Crohn's-disease:pediatric-crohn's-disease_vs_healthy-adults_DOWN	NA	437897	360807	39485
 bsdb:738/1/5_Crohn's-disease:pediatric-crohn's-disease_vs_healthy-adults_DOWN	NA	39485	437897	360807
 bsdb:747/1/1_Dermatomyositis:dermatomyositis_vs_healthy-controls_UP	NA	165179	28129
 bsdb:748/1/1_colorectal-cancer:cohort_vs_control_DOWN	NA	39496
 bsdb:748/1/2_colorectal-cancer:cohort_vs_control_UP	NA	33033	102148	851	341694
+bsdb:754/1/1_Chronic-periodontitis:Smokers_vs_Non-smokers_UP	NA	43768	143361	851	1107316	490	39778
+bsdb:754/1/2_Chronic-periodontitis:Smokers_vs_Non-smokers_DOWN	NA	495	285729
