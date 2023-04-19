@@ -66,7 +66,7 @@ readFiles <- function(links, delay = 60)
     exps <- readr::read_csv("exp.csv")
     exps <- subset(exps, State == "Complete")
     sigs <- readr::read_csv("sig.csv")
-    sigs <- subset(sigs, State == "Complete")
+#     sigs <- subset(sigs, State == "Complete") ## uncomment when State issue resolved
     file.remove(c("sig.csv", "exp.csv", "stud.csv"))
     print(gettextf("Successfully read csv files"))
 
@@ -192,8 +192,11 @@ addHeader <- function(header, out.file)
 bsdb[["MetaPhlAn taxon names"]] <- strsplit(bsdb[["MetaPhlAn taxon names"]], ",")
 bsdb[["NCBI Taxonomy IDs"]] <- strsplit(bsdb[["NCBI Taxonomy IDs"]], ";")
 
-tax.levels <- c("mixed", "genus", "species")
-id.types <- c("ncbi", "metaphlan", "taxname")
+# Change back to the following when fixed:
+# tax.levels <- c("mixed", "genus", "species")
+# id.types <- c("ncbi", "metaphlan", "taxname")
+tax.levels <- c("mixed")
+id.types <- c("metaphlan")
 exact.tax.levels <- c(TRUE, FALSE)
 
 for(tl in tax.levels)
@@ -203,6 +206,7 @@ for(tl in tax.levels)
         for(etl in exact.tax.levels)
         {
             if(tl == "mixed" && etl) next
+          print(paste0("Starting tl: ", tl, "  /  it: ", it, "  /  etl: ", etl))
             sigs <- bugsigdbr::getSignatures(bsdb, 
                                              tax.id.type = it,
                                              tax.level = tl,
@@ -215,6 +219,7 @@ for(tl in tax.levels)
             gmt.file <- file.path(out.dir, gmt.file)
             bugsigdbr::writeGMT(sigs, gmt.file = gmt.file) 
             addHeader(header, gmt.file)
+            print(paste0("Finished tl: ", tl, "  /  it: ", it, "  /  etl: ", etl))
         }
     }
 }        
