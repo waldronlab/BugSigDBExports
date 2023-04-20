@@ -192,11 +192,13 @@ addHeader <- function(header, out.file)
 bsdb[["MetaPhlAn taxon names"]] <- strsplit(bsdb[["MetaPhlAn taxon names"]], ",")
 bsdb[["NCBI Taxonomy IDs"]] <- strsplit(bsdb[["NCBI Taxonomy IDs"]], ";")
 
-# Change back to the following when fixed:
-# tax.levels <- c("mixed", "genus", "species")
-# id.types <- c("ncbi", "metaphlan", "taxname")
-tax.levels <- c("mixed")
-id.types <- c("metaphlan")
+# rm empty strings
+.rmEmpty <- function(x) x[x != ""]
+bsdb[["MetaPhlAn taxon names"]] <- lapply(bsdb[["MetaPhlAn taxon names"]], .rmEmpty)
+bsdb[["NCBI Taxonomy IDs"]] <- lapply(bsdb[["NCBI Taxonomy IDs"]], .rmEmpty)
+
+tax.levels <- c("mixed", "genus", "species")
+id.types <- c("ncbi", "metaphlan", "taxname")
 exact.tax.levels <- c(TRUE, FALSE)
 
 for(tl in tax.levels)
@@ -206,7 +208,6 @@ for(tl in tax.levels)
         for(etl in exact.tax.levels)
         {
             if(tl == "mixed" && etl) next
-          print(paste0("Starting tl: ", tl, "  /  it: ", it, "  /  etl: ", etl))
             sigs <- bugsigdbr::getSignatures(bsdb, 
                                              tax.id.type = it,
                                              tax.level = tl,
@@ -219,7 +220,6 @@ for(tl in tax.levels)
             gmt.file <- file.path(out.dir, gmt.file)
             bugsigdbr::writeGMT(sigs, gmt.file = gmt.file) 
             addHeader(header, gmt.file)
-            print(paste0("Finished tl: ", tl, "  /  it: ", it, "  /  etl: ", etl))
         }
     }
 }        
