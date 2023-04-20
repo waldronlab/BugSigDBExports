@@ -66,7 +66,7 @@ readFiles <- function(links, delay = 60)
     exps <- readr::read_csv("exp.csv")
     exps <- subset(exps, State == "Complete")
     sigs <- readr::read_csv("sig.csv")
-#     sigs <- subset(sigs, State == "Complete") ## uncomment when State issue resolved
+    sigs <- subset(sigs, State == "Complete")
     file.remove(c("sig.csv", "exp.csv", "stud.csv"))
     print(gettextf("Successfully read csv files"))
 
