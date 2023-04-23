@@ -1,4 +1,4 @@
-# BugSigDB 2023-04-21, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2023-04-23, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	Actinomyces	Corynebacterium	Streptococcus	Peptoniphilus	Dorea	Phascolarctobacterium	Sutterella	Bacillus
 bsdb:1/1/2_colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	Coprobacillus
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	Anaerostipes
@@ -1461,7 +1461,8 @@ bsdb:507/2/1_antimicrobial-agent:Patients-1-month-after-Rifaximin-treatment_vs_P
 bsdb:507/2/2_antimicrobial-agent:Patients-1-month-after-Rifaximin-treatment_vs_Patients-before-Rifaximin-treatment_DOWN	NA	Roseburia
 bsdb:508/1/1_Parkinson's-disease:Parkinson's-Disease-Patients_vs_Healthy-Controls_UP	NA	Akkermansia	Bifidobacterium	Escherichia	Oscillospira	Parabacteroides	Phascolarctobacterium
 bsdb:508/1/2_Parkinson's-disease:Parkinson's-Disease-Patients_vs_Healthy-Controls_DOWN	NA	Fusobacterium
-bsdb:509/1/1_smoking-behavior:Smoking_vs_Non-smoking_DOWN	NA	Enterobacter	Raoultella
+bsdb:509/1/1_smoking-behavior:Smoking_vs_Non-smoking_UP	NA	Alloprevotella	Blastocatella	Dyadobacter	Lactococcus	Pedobacter	Planomicrobium	Porphyromonas	Proteus	Pullulanibacillus	Subdoligranulum	Trichococcus
+bsdb:509/1/2_smoking-behavior:Smoking_vs_Non-smoking_DOWN	NA	Lactobacillus	Enterobacter	Brevibacillus	Kluyvera	Geobacter	Mesorhizobium	Raoultella	Nesterenkonia	Ralstonia	Brachybacterium	Phascolarctobacterium	Diaphorobacter
 bsdb:510/2/1_rheumatoid-arthritis:patients-with-rheumatoid-arthritis_vs_patients-with-no-rheumatoid-arthritis_UP	NA	Bifidobacterium	Mitsuokella
 bsdb:511/1/1_COVID-19:COVID-19-patients_vs_Healthy-controls_UP	NA	Veillonella	Campylobacter	Granulicatella	Kingella	Filifactor
 bsdb:511/1/2_COVID-19:COVID-19-patients_vs_Healthy-controls_DOWN	NA	Neisseria	Corynebacterium	Actinobacillus	Moryella	Aggregatibacter	Treponema	Pseudomonas
@@ -1714,8 +1715,8 @@ bsdb:634/1/1_smoking-behavior:smokers_vs_non-smokers_UP	NA	Eubacterium	Lachnoana
 bsdb:634/1/2_smoking-behavior:smokers_vs_non-smokers_DOWN	NA	Selenomonas
 bsdb:634/1/3_smoking-behavior:smokers_vs_non-smokers_UP	NA	Lachnoanaerobaculum	Stomatobaculum
 bsdb:634/1/4_smoking-behavior:smokers_vs_non-smokers_DOWN	NA	Selenomonas
-bsdb:635/1/1_Smoking-status-measurement:Current-cigarette-smokers_vs_Never-Smokers_UP	NA	Fusobacterium	Lactobacillus	Lactococcus	Porphyromonas	Prevotella	Streptococcus
-bsdb:635/1/2_Smoking-status-measurement:Current-cigarette-smokers_vs_Never-Smokers_DOWN	NA	Cardiobacterium	Corynebacterium	Leptotrichia	Neisseria
+bsdb:635/1/1_smoking-behavior:self-reported-current-cigarette-smokers-with-the-highest-serum-cotinine_vs_randomly-selected-never-smokers-with-cotinine-<0.05-ng/mL_UP	NA	Fusobacterium	Lactobacillus	Lactococcus	Porphyromonas	Prevotella	Streptococcus
+bsdb:635/1/2_smoking-behavior:self-reported-current-cigarette-smokers-with-the-highest-serum-cotinine_vs_randomly-selected-never-smokers-with-cotinine-<0.05-ng/mL_DOWN	NA	Cardiobacterium	Corynebacterium	Leptotrichia	Neisseria
 bsdb:636/1/1_Human-oral-metagenome:Human-oral-meta-genome_vs_Healthy-control_UP	NA	Actinobacillus	Bacteroides
 bsdb:636/1/2_Human-oral-metagenome:Human-oral-meta-genome_vs_Healthy-control_UP	NA	Streptococcus	Neisseria	Veillonella	Haemophilus	Corynebacterium	Prevotella	Porphyrobacter
 bsdb:636/1/3_Human-oral-metagenome:Human-oral-meta-genome_vs_Healthy-control_UP	NA	Neisseria	Streptococcus	Porphyrobacter	Haemophilus	Veillonella
@@ -2042,10 +2043,3 @@ bsdb:754/1/4_smoking-behavior:Smokers_vs_Non-smokers_DOWN	NA	Cardiobacterium
 bsdb:754/1/8_smoking-behavior:Smokers_vs_Non-smokers_DOWN	NA	Selenomonas	Prevotella
 bsdb:754/1/9_smoking-behavior:Smokers_vs_Non-smokers_DOWN	NA	Treponema	Catonella	Leptotrichia
 bsdb:754/1/10_smoking-behavior:Smokers_vs_Non-smokers_UP	NA	Treponema	Fretibacterium	Neisseria	Porphyromonas	Aggregatibacter
-bsdb:756/1/1_smoking-behavior:Current-smoker_vs_Non-smoker_UP	NA	Streptococcus
-bsdb:756/1/2_smoking-behavior:Current-smoker_vs_Non-smoker_UP	NA	Streptococcus
-bsdb:756/1/3_smoking-behavior:Current-smoker_vs_Non-smoker_UP	NA	Streptococcus
-bsdb:756/1/4_smoking-behavior:Current-smoker_vs_Non-smoker_UP	NA	Streptococcus
-bsdb:756/1/5_smoking-behavior:Current-smoker_vs_Non-smoker_UP	NA	Streptococcus
-bsdb:756/1/7_smoking-behavior:Current-smoker_vs_Non-smoker_UP	NA	Streptococcus
-bsdb:756/1/8_smoking-behavior:Current-smoker_vs_Non-smoker_UP	NA	Streptococcus
