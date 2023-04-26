@@ -1,4 +1,4 @@
-# BugSigDB 2023-04-23, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2023-04-26, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	Actinomyces	Corynebacterium	Streptococcus	Peptoniphilus	Dorea	Phascolarctobacterium	Sutterella	Lacticaseibacillus	Bacillus
 bsdb:1/1/2_colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	Coprobacillus
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	Anaerostipes	Lacticaseibacillus
@@ -1670,6 +1670,7 @@ bsdb:492/2/1_diabetic-retinopathy:Individuals-diagnosed-with-Type-2-Diabetes-and
 bsdb:492/2/2_diabetic-retinopathy:Individuals-diagnosed-with-Type-2-Diabetes-and-clinically-manifest-Diabetic-Retinopathy-(DR)_vs_Healthy-controls_UP	NA	Acidaminococcus	Akkermansia	Alistipes	Cloacibacillus	Enterobacter	Enterococcus	Escherichia	Megamonas	Oxalobacter	Parabacteroides	Shigella
 bsdb:492/3/1_diabetic-retinopathy:Individuals-diagnosed-with-Type-2-Diabetes-and-clinically-manifest-Diabetic-Retinopathy-(DR)_vs_Individuals-diagnosed-with-type-2-diabetes-Mellitus_DOWN	NA	Anaerovibrio	Asteroleplasma	Bifidobacterium	Desulfovibrio	Erwinia	Haemophilus	Klebsiella	Lachnobacterium	Methanobrevibacter	Mitsuokella	Streptococcus	Treponema	Weissella
 bsdb:492/3/2_diabetic-retinopathy:Individuals-diagnosed-with-Type-2-Diabetes-and-clinically-manifest-Diabetic-Retinopathy-(DR)_vs_Individuals-diagnosed-with-type-2-diabetes-Mellitus_UP	NA	Akkermansia	Alistipes	Cloacibacillus	Enterococcus	Phascolarctobacterium	Shigella
+bsdb:493/1/1_Vitiligo:Vitiligo-patients-after-NBUVB-irradiation-on-normal-skin-(NB-group)_vs_Vitiligo-patients-before-narrowband-UV-(NBUVB)-light-irradiation-in-normal-skin-(NF-group)_UP	NA	Bacillus	Corynebacterium
 bsdb:494/1/1_type-II-diabetes-mellitus:Individuals-diagnosed-with-Type-2-Diabetes-Mellitus_vs_Healthy-controls_DOWN	NA	Akkermansia	Bifidobacterium	Parabacteroides
 bsdb:494/1/2_type-II-diabetes-mellitus:Individuals-diagnosed-with-Type-2-Diabetes-Mellitus_vs_Healthy-controls_UP	NA	Dorea	Fusobacterium	Streptococcus
 bsdb:495/1/1_type-II-diabetes-mellitus:Individuals-diagnosed-with-Type-2-Diabetes-Mellitus_vs_Healthy-controls_UP	NA	Alloprevotella	Megasphaera	Prevotella
@@ -2172,8 +2173,8 @@ bsdb:678/4/1_smoking-behavior:Mutiple-Smokers_vs_Nonsmokers_UP	NA	Bifidobacteriu
 bsdb:678/4/2_smoking-behavior:Mutiple-Smokers_vs_Nonsmokers_DOWN	NA	Actinobacillus	Aggregatibacter	Atopobium	Capnocytophaga	Cardiobacterium	Eikenella	Fusobacterium	Gemella	Haemophilus	Lautropia	Megasphaera	Neisseria	Peptostreptococcus	Porphyromonas	Prevotella	Vagococcus
 bsdb:679/2/1_Response-to-immunochemotherapy:Responders_vs_Non-responders_UP	NA	Parabacteroides	Enterococcus	Collinsella	Bifidobacterium	Klebsiella	Veillonella	Lactobacillus
 bsdb:679/2/2_Response-to-immunochemotherapy:Responders_vs_Non-responders_DOWN	NA	Ruminococcus	Roseburia
-bsdb:679/3/1_metastatic-melanoma:Group-A-Responders_vs_Group-B-Non-responders_UP	NA	Collinsella	Bifidobacterium	Lactobacillus	Klebsiella	Parabacteroides
-bsdb:679/3/2_metastatic-melanoma:Group-A-Responders_vs_Group-B-Non-responders_DOWN	NA	Roseburia
+bsdb:679/3/1_Response-to-immunochemotherapy:Responders,-group-A_vs_Non-responders,-group-B_UP	NA	Collinsella	Bifidobacterium	Lactobacillus	Klebsiella	Parabacteroides
+bsdb:679/3/2_Response-to-immunochemotherapy:Responders,-group-A_vs_Non-responders,-group-B_DOWN	NA	Roseburia
 bsdb:680/1/1_Response-to-immunochemotherapy:responders-(patients-treated-with-metronomic-dose-of-capecitabine)_vs_non-responders-(patients-treated-with-conventional-dose)_UP	NA	Megamonas	Veillonella
 bsdb:680/1/2_Response-to-immunochemotherapy:responders-(patients-treated-with-metronomic-dose-of-capecitabine)_vs_non-responders-(patients-treated-with-conventional-dose)_DOWN	NA	Blautia
 bsdb:681/1/1_colorectal-cancer:Colorectal-cancer_vs_Healthy-Controls(HC)_UP	NA	Lactobacillus	Rothia
@@ -2293,8 +2294,10 @@ bsdb:708/1/3_rheumatoid-arthritis:rheumatoid-arthritis-patients_vs_healthy-contr
 bsdb:708/1/4_rheumatoid-arthritis:rheumatoid-arthritis-patients_vs_healthy-controls_DOWN	NA	Streptococcus
 bsdb:709/1/1_arthritis:Early-Rheumatoid-Arthritis_vs_Healthy-Controls_DOWN	NA	Oribacterium	Catonella	Veillonella	Campylobacter
 bsdb:709/1/2_arthritis:Early-Rheumatoid-Arthritis_vs_Healthy-Controls_UP	NA	Alloprevotella	Campylobacter	Capnocytophaga	Dialister	Filifactor	Porphyromonas	Prevotella	Hoylesella	Stomatobaculum	Treponema
-bsdb:710/1/1_psoriasis:Psoriasis-patient_vs_orally-healthy-individuals_UP	NA	Actinomyces	Aggregatibacter	Alloprevotella	Atopobium	Fusobacterium	Gemella	Granulicatella	Haemophilus	Kingella	Lactobacillus	Leptotrichia	Neisseria	Porphyromonas	Prevotella	Rothia	Selenomonas	Streptococcus	Veillonella	Campylobacter
-bsdb:710/1/2_psoriasis:Psoriasis-patient_vs_orally-healthy-individuals_DOWN	NA	Filifactor	Fretibacterium	Fusobacterium	Mogibacterium	Mycoplasma	Prevotella	Rothia	Tannerella	Treponema	Porphyromonas
+bsdb:710/1/1_psoriasis:Psoriasis-patient_vs_orally-healthy-individuals_UP	NA	Aggregatibacter	Capnocytophaga	Haemophilus	Neisseria	Peptoniphilus	Prevotella	Rothia
+bsdb:710/1/2_psoriasis:Psoriasis-patient_vs_orally-healthy-individuals_DOWN	NA	Actinomyces	Arachnia	Capnocytophaga	Lactobacillus	Neisseria	Streptococcus	Veillonella
+bsdb:710/2/1_psoriasis:Psoriasis_vs_periodntitis_UP	NA	Aggregatibacter	Butyrivibrio	Campylobacter	Capnocytophaga	Fusobacterium	Kingella	Leptotrichia	Mogibacterium	Neisseria	Porphyromonas	Prevotella	Streptococcus
+bsdb:710/2/2_psoriasis:Psoriasis_vs_periodntitis_DOWN	NA	Fretibacterium	Treponema	Fusobacterium	Streptococcus	Porphyromonas	Rothia	Desulfobulbus	Tannerella	Mogibacterium	Hoylesella	Filifactor	Prevotella	Schaalia
 bsdb:711/1/1_Systemic-lupus-erythematosus:SLE_vs_HC_UP	NA	Hungatella	Klebsiella	Kluyvera	Lachnoclostridium	Rudaea	Sphingomonas	Streptococcus	Thomasclavelia	Mediterraneibacter
 bsdb:711/1/2_Systemic-lupus-erythematosus:SLE_vs_HC_DOWN	NA	Agathobacter	Akkermansia	Dialister	Dorea	Eubacterium	Faecalibacterium	Fusicatenibacter	Odoribacter	Subdoligranulum	Lachnospira
 bsdb:712/1/1_arthritis:Rheumatoid-Arthritis_vs_healthy-controls_DOWN	NA	Fusobacterium	Granulicatella	Leptotrichia	Porphyromonas	Prevotella	Treponema	Veillonella

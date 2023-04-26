@@ -1,4 +1,4 @@
-# BugSigDB 2023-04-23, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2023-04-26, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	57037
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	57037
 bsdb:1/6/1_colorectal-adenoma:Non-advanced-conventional-adenoma-cases_vs_controls_UP	NA	57037
@@ -975,8 +975,8 @@ bsdb:676/1/1_Response-to-immunochemotherapy:Responders_vs_Non-responders_UP	NA	2
 bsdb:677/1/1_Survival-time:Short-term-surviviors_vs_Long-term-survivors_UP	NA	1940338
 bsdb:679/2/1_Response-to-immunochemotherapy:Responders_vs_Non-responders_UP	NA	1352	74426	1680	573	29466	46503	1591	216816
 bsdb:679/2/2_Response-to-immunochemotherapy:Responders_vs_Non-responders_DOWN	NA	1263107	166486
-bsdb:679/3/1_metastatic-melanoma:Group-A-Responders_vs_Group-B-Non-responders_UP	NA	74426	216816	1591	573	46503
-bsdb:679/3/2_metastatic-melanoma:Group-A-Responders_vs_Group-B-Non-responders_DOWN	NA	166486
+bsdb:679/3/1_Response-to-immunochemotherapy:Responders,-group-A_vs_Non-responders,-group-B_UP	NA	74426	216816	1591	573	46503
+bsdb:679/3/2_Response-to-immunochemotherapy:Responders,-group-A_vs_Non-responders,-group-B_DOWN	NA	166486
 bsdb:680/1/1_Response-to-immunochemotherapy:responders-(patients-treated-with-metronomic-dose-of-capecitabine)_vs_non-responders-(patients-treated-with-conventional-dose)_UP	NA	1926307	2049033
 bsdb:680/1/2_Response-to-immunochemotherapy:responders-(patients-treated-with-metronomic-dose-of-capecitabine)_vs_non-responders-(patients-treated-with-conventional-dose)_DOWN	NA	1955243
 bsdb:681/1/1_colorectal-cancer:Colorectal-cancer_vs_Healthy-Controls(HC)_UP	NA	43675
@@ -1048,8 +1048,10 @@ bsdb:706/1/1_arthritis:Early-Rheumatoid-Arthritis_vs_Healthy-Controls_DOWN	NA	15
 bsdb:706/1/2_arthritis:Early-Rheumatoid-Arthritis_vs_Healthy-Controls_UP	NA	28112
 bsdb:709/1/1_arthritis:Early-Rheumatoid-Arthritis_vs_Healthy-Controls_DOWN	NA	237576	43997	423477	199
 bsdb:709/1/2_arthritis:Early-Rheumatoid-Arthritis_vs_Healthy-Controls_UP	NA	76122	824	327575	39950	143361	28124	52227	28131	407975	59823	158
-bsdb:710/1/1_psoriasis:Psoriasis-patient_vs_orally-healthy-individuals_UP	NA	1872650
-bsdb:710/1/2_psoriasis:Psoriasis-patient_vs_orally-healthy-individuals_DOWN	NA	143361	651822	2699746	851	35519	28131	2047	43675	28112	158	28124
+bsdb:710/1/1_psoriasis:Psoriasis-patient_vs_orally-healthy-individuals_UP	NA	1872413	44737	729	33053	33031	28132	43675
+bsdb:710/1/2_psoriasis:Psoriasis-patient_vs_orally-healthy-individuals_DOWN	NA	29317	1750	44737	1596	496	1309	1310	39777	1926307
+bsdb:710/2/1_psoriasis:Psoriasis_vs_periodntitis_UP	NA	1872413	28121	199	44737	68766	29391	502	157691	104608	114528	33053	28449	1924944	60133	59823	1306
+bsdb:710/2/2_psoriasis:Psoriasis_vs_periodntitis_DOWN	NA	2699746	158	77917	166	651822	76860	837	2047	895	28112	35519	56142	407975	53419	1309	143361	28131	28124	1660	43675
 bsdb:711/1/1_Systemic-lupus-erythematosus:SLE_vs_HC_UP	NA	1940338	1522	33038
 bsdb:711/1/2_Systemic-lupus-erythematosus:SLE_vs_HC_DOWN	NA	290054	1410626	877420	39485
 bsdb:712/1/1_arthritis:Rheumatoid-Arthritis_vs_healthy-controls_DOWN	NA	860	137732	104608	28124	28132	59823	166	29466	152509
