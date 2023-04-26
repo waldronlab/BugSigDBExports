@@ -1,6 +1,6 @@
 on:
   schedule:
-    - cron: "0 22 * * 0" # UTC Time
+    - cron: "55 * * * *" # UTC Time
   workflow_dispatch:
 
 name: Export BugSigDB
