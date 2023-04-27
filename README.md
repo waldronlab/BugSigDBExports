@@ -1,3 +1,5 @@
+Hourly export status: ![hourly export](https://github.com/waldronlab/BugSigDBExports/actions/workflows/export-bugsigdb.yml/badge.svg)
+
 # BugSigDBExports
 
 This repository contains data files exported from
