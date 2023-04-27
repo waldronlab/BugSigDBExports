@@ -49,5 +49,5 @@ jobs:
         run: |
           cd $GITHUB_WORKSPACE/BugSigDBExports
           git add .
-          git commit -m "Hourly export update"
+          git commit -m "Hourly export update" || echo "No changes to commit"
           git push origin main
