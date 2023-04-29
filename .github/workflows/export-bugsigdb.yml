@@ -42,7 +42,7 @@ jobs:
       - name: Export BugSigDB
         run: |
           echo $(date)
-          Rscript $GITHUB_WORKSPACE/BugSigDBExports/inst/scripts/dump_release.R $(date '+%Y-%m-%d %H:%M') $GITHUB_WORKSPACE/BugSigDBExports
+          Rscript $GITHUB_WORKSPACE/BugSigDBExports/inst/scripts/dump_release.R $(date -u '+%Y-%m-%d_%H:%M_UTC') $GITHUB_WORKSPACE/BugSigDBExports
         timeout-minutes: 10
 
       - name: Commit Exports
