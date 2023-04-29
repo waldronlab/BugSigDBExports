@@ -49,5 +49,7 @@ jobs:
         run: |
           cd $GITHUB_WORKSPACE/BugSigDBExports
           git add .
-          git commit -m "Hourly export update" || echo "No changes to commit"
+          gitstring=$(git diff --numstat full_dump.csv | sed -e 's/\t//g')
+          nochangestring="11full_dump.csv"
+          [[ "$gitstring" == "$nochangestring" ]] && echo "No changes to commit" || git commit -m "Hourly export update"
           git push origin main
