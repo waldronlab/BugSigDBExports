@@ -1,4 +1,4 @@
-# BugSigDB 2023-04-28, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2023-04-29_01:56_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	Actinomyces	Corynebacterium	Streptococcus	Peptoniphilus	Dorea	Phascolarctobacterium	Sutterella	Lacticaseibacillus	Bacillus
 bsdb:1/1/2_colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	Coprobacillus
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	Anaerostipes	Lacticaseibacillus
@@ -1715,6 +1715,7 @@ bsdb:504/6/1_ethnic-group:BNH_vs_WNH_UP	NA	Veillonella	Phyllobacterium
 bsdb:504/6/2_ethnic-group:BNH_vs_WNH_DOWN	NA	Lactobacillus	Phenylobacterium
 bsdb:505/1/2_irritable-bowel-syndrome:IBS_vs_Healthy-Control_DOWN	NA	Bifidobacterium	Romboutsia
 bsdb:506/1/1_irritable-bowel-syndrome:IBS-D_vs_Healthy-Control_UP	NA	Escherichia
+bsdb:506/1/2_irritable-bowel-syndrome:IBS-D_vs_Healthy-Control_DOWN	NA	Bifidobacterium
 bsdb:507/1/1_antimicrobial-agent:Patients-after-Rifaximin-treatment_vs_Patients-before-Rifaximin-treatment_DOWN	NA	Haemophilus	Roseburia	Veillonella
 bsdb:507/2/1_antimicrobial-agent:Patients-1-month-after-Rifaximin-treatment_vs_Patients-before-Rifaximin-treatment_UP	NA	Lactobacillus
 bsdb:507/2/2_antimicrobial-agent:Patients-1-month-after-Rifaximin-treatment_vs_Patients-before-Rifaximin-treatment_DOWN	NA	Roseburia
@@ -1853,11 +1854,18 @@ bsdb:553/2/1_spontaneous-abortion:First-trimester-miscarriage_vs_Viable-control-
 bsdb:553/2/2_spontaneous-abortion:First-trimester-miscarriage_vs_Viable-control-pregnancy_UP	NA	Prevotella	Streptococcus	Peptoniphilus	Ureaplasma	Dialister
 bsdb:553/3/1_spontaneous-abortion:complete/incomplete-miscarriage_vs_missed-miscarriage_DOWN	NA	Lactobacillus
 bsdb:554/1/2_Parkinson's-disease:patients-with-parkinson's-disease_vs_Healthy-Controls(HC)_DOWN	NA	Lactobacillus
+bsdb:555/1/1_rheumatoid-arthritis:rheumatoid-arthritis-patient_vs_healthy-controls_DOWN	NA	Roseburia	Lachnoclostridium
+bsdb:555/1/2_rheumatoid-arthritis:rheumatoid-arthritis-patient_vs_healthy-controls_DOWN	NA	Roseburia	Lachnoclostridium	Candidatus Microthrix	Mycoplasma	Gallicola	Kroppenstedtia
+bsdb:555/1/4_rheumatoid-arthritis:rheumatoid-arthritis-patient_vs_healthy-controls_DOWN	NA	Roseburia
 bsdb:555/1/5_rheumatoid-arthritis:rheumatoid-arthritis-patient_vs_healthy-controls_DOWN	NA	Roseburia
+bsdb:555/1/6_rheumatoid-arthritis:rheumatoid-arthritis-patient_vs_healthy-controls_DOWN	NA	Roseburia
+bsdb:555/1/7_rheumatoid-arthritis:rheumatoid-arthritis-patient_vs_healthy-controls_UP	NA	Abiotrophia
 bsdb:555/1/8_rheumatoid-arthritis:rheumatoid-arthritis-patient_vs_healthy-controls_DOWN	NA	Acetitomaculum
+bsdb:555/1/10_rheumatoid-arthritis:rheumatoid-arthritis-patient_vs_healthy-controls_NA	NA	Roseburia
 bsdb:558/1/1_antimicrobial-agent:received-oral-i.v.-administered-GSK1322322-(end-of-study)_vs_received-oral-i.v.-administered-GSK1322322-(prestudy)_UP	NA	Bifidobacterium	Sutterella
 bsdb:558/1/2_antimicrobial-agent:received-oral-i.v.-administered-GSK1322322-(end-of-study)_vs_received-oral-i.v.-administered-GSK1322322-(prestudy)_DOWN	NA	Anaerostipes	Bacteroides	Blautia	Butyricimonas	Faecalibacterium	Odoribacter	Parabacteroides
 bsdb:558/1/3_antimicrobial-agent:received-oral-i.v.-administered-GSK1322322-(end-of-study)_vs_received-oral-i.v.-administered-GSK1322322-(prestudy)_UP	NA	Bifidobacterium	Sutterella	Bacteroides	Stenotrophomonas
+bsdb:558/1/4_antimicrobial-agent:received-oral-i.v.-administered-GSK1322322-(end-of-study)_vs_received-oral-i.v.-administered-GSK1322322-(prestudy)_DOWN	NA	Parabacteroides	Odoribacter	Prevotella	Bacteroides	Faecalibacterium	Mediterraneibacter	Blautia	Ruminococcus	Anaerostipes
 bsdb:558/2/1_antimicrobial-agent:received-oral-i.v.-administered-GSK1322322-(end-of-study)_vs_received-oral-i.v.-administered-GSK1322322-(prestudy)_UP	NA	Bifidobacterium	Sutterella
 bsdb:558/2/2_antimicrobial-agent:received-oral-i.v.-administered-GSK1322322-(end-of-study)_vs_received-oral-i.v.-administered-GSK1322322-(prestudy)_DOWN	NA	Parabacteroides	Odoribacter	Prevotella	Bacteroides	Faecalibacterium	Mediterraneibacter	Blautia	Ruminococcus	Anaerostipes
 bsdb:559/1/1_diet:no-fiber-liquid-omnivore-diet_vs_regular-fiber-omnivore-diet_UP	NA	Mediterraneibacter
@@ -2310,6 +2318,8 @@ bsdb:716/3/1_Parkinson's-disease:Early-onset-PD_vs_Late-onset-PD_UP	NA	Facklamia
 bsdb:716/3/2_Parkinson's-disease:Early-onset-PD_vs_Late-onset-PD_DOWN	NA	Anaerotruncus	Comamonas
 bsdb:716/4/1_Parkinson's-disease:Tremor-dominant-PD_vs_Non-tremor-dominant-PD_UP	NA	Anaerotruncus
 bsdb:716/4/2_Parkinson's-disease:Tremor-dominant-PD_vs_Non-tremor-dominant-PD_DOWN	NA	Roseburia
+bsdb:718/1/1_polycystic-ovary-syndrome:Letrozole-treated_vs_Placebo-treated_DOWN	NA	Ruminococcus	Alistipes
+bsdb:718/1/2_polycystic-ovary-syndrome:Letrozole-treated_vs_Placebo-treated_UP	NA	Allobaculum	Blautia
 bsdb:719/3/1_Parkinson's-disease:Parkinson's-Disease-Patients_vs_Healthy-Controls_UP	NA	Akkermansia	Anaerotruncus	Flavonifractor	Olsenella	Parasutterella	Prevotella	Blautia
 bsdb:719/3/2_Parkinson's-disease:Parkinson's-Disease-Patients_vs_Healthy-Controls_DOWN	NA	Bacteroides	Butyricimonas	Lactobacillus	Olsenella	Roseburia	Ruminococcus	Sutterella
 bsdb:719/4/1_REM-sleep-behavior-disorder:idiopathic-rapid-eye-movement-sleep-behavior-disorder_vs_Healthy-Controls_UP	NA	Anaerotruncus	Flavonifractor	Gordonibacter	Blautia
