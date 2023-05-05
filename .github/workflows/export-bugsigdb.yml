@@ -48,6 +48,17 @@ jobs:
       - name: Commit Exports
         run: |
           cd $GITHUB_WORKSPACE/BugSigDBExports
-          gitstring=$(git diff --numstat full_dump.csv | sed -e 's/\t//g')
-          nochangestring="11full_dump.csv"
-          [[ "$gitstring" == "$nochangestring" ]] && echo "No changes to commit" || (git add . && git commit -m "Hourly export update" && git push origin main)
+          for export in `find . -type f -iname \*.gmt -o -iname \*.csv` 
+          do
+            export=$(echo $export | sed 's/\.\///g')
+            git_diff=$(git diff --numstat $export | sed -e 's/\t//g')
+            if [ "$git_diff" = "11$export" -o "$git_diff" = "" ]; then
+                echo "No changes to commit for $export"
+            else
+                echo "Commit changes for $export"
+                git add *.gmt *.csv
+                git commit -m "Hourly export update"
+                git push origin main
+                break
+            fi
+          done
