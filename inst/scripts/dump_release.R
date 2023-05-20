@@ -197,6 +197,10 @@ bsdb[["NCBI Taxonomy IDs"]] <- strsplit(bsdb[["NCBI Taxonomy IDs"]], ";")
 bsdb[["MetaPhlAn taxon names"]] <- lapply(bsdb[["MetaPhlAn taxon names"]], .rmEmpty)
 bsdb[["NCBI Taxonomy IDs"]] <- lapply(bsdb[["NCBI Taxonomy IDs"]], .rmEmpty)
 
+# rm NA signatures
+na.ind <- is.na(bsdb[["MetaPhlAn taxon names"]])
+bsdb <- bsdb[!na.ind,]
+
 tax.levels <- c("mixed", "genus", "species")
 id.types <- c("ncbi", "metaphlan", "taxname")
 exact.tax.levels <- c(TRUE, FALSE)
