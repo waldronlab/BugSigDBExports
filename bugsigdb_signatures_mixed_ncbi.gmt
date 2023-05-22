@@ -1,4 +1,4 @@
-# BugSigDB 2023-05-20_20:01_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2023-05-22_23:01_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	91061	1236	1654	1716	1301	162289	189330	33024	40544	2037	2049	506	186826	1300	31977	91347	1653	57037	1386	186817
 bsdb:1/1/2_colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	100883	1117
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	207244	57037
@@ -1228,8 +1228,8 @@ bsdb:316/9/1_antimicrobial-agent:30-day-old-pre-tem-neonates-exposed-to-antibiot
 bsdb:316/9/2_antimicrobial-agent:30-day-old-pre-tem-neonates-exposed-to-antibiotics-(IAP)_vs_30-day-old-full-term-neonates-not-exposed-to-antibiotics-(IAP/postnatal)_DOWN	NA	31953	1300	1760	186826
 bsdb:316/10/1_antimicrobial-agent:30-day-old-pre-tem-neonates-exposed-to-antibiotics-(IAP/postnatal)_vs_30-day-old-pre-term-neonates-not-exposed-to-antibiotics-(IAP/postnatal)_DOWN	NA	90964	543
 bsdb:316/11/1_antimicrobial-agent:90-day-old-pre-tem-neonates-exposed-to-antibiotics-(IAP/postnatal)_vs_90-day-old-pre-term-neonates-not-exposed-to-antibiotics-(IAP/postnatal)_DOWN	NA	31953
-bsdb:317/1/1_obsessive-compulsive-disorder:OCD-T0_vs_Control-(healthy-group)_UP	NA	239759	207244	2005519	1348911	946234	1649459	459786	171550
-bsdb:317/1/2_obsessive-compulsive-disorder:OCD-T0_vs_Control-(healthy-group)_DOWN	NA	1766253	580596	135858	31979	1485	33042	39948	404402	28050	909932	577309	171552	1501226	909929	31977
+bsdb:317/1/1_obsessive-compulsive-disorder:OCD-T0-(Baseline)_vs_Control-(healthy-group)_UP	NA	239759	207244	2005519	1348911	946234	1649459	459786	171550	31969	2485925
+bsdb:317/1/2_obsessive-compulsive-disorder:OCD-T0-(Baseline)_vs_Control-(healthy-group)_DOWN	NA	1766253	580596	135858	31979	1485	33042	39948	404402	28050	909932	577309	171552	1501226	909929	31977
 bsdb:317/2/1_obsessive-compulsive-disorder:OCD-T0_vs_Control-(healthy-group)_UP	NA	1654	2037	186803	84999	1643824	84998	1380	1164882	265975	86331
 bsdb:317/2/2_obsessive-compulsive-disorder:OCD-T0_vs_Control-(healthy-group)_DOWN	NA	203492	203491	203490
 bsdb:317/3/1_obsessive-compulsive-disorder:OCD-T3_vs_Control-(healthy-group)_UP	NA	171550	239759	1508657	207244	2005519	459786	946234	1649459	1432051	1929305	244127	35832	61170	1348911
@@ -2284,8 +2284,9 @@ bsdb:621/2/1_colorectal-cancer:Aspirin_vs_Placebo_UP	NA	239934	2049031	216572	83
 bsdb:621/2/2_colorectal-cancer:Aspirin_vs_Placebo_DOWN	NA	816	189330	375288	1263
 bsdb:622/1/1_colorectal-cancer:CRA-and-CRC-groups_vs_Negative-control-group_DOWN	NA	1654	1678	572511	1485	189330	1730	1578	841
 bsdb:622/1/2_colorectal-cancer:CRA-and-CRC-groups_vs_Negative-control-group_UP	NA	33042	1350	1940338	848	1301
-bsdb:622/2/1_NA:C57BL/6-APCMin/+:-F.-nucleatum-(Fn),-E.-coli-(Ec);-wild-type-C57BL/6:-DMH,-Fn,-Fn+DMH,-Ec,-Ec+DMH_vs_Control-(male-C57BL/6-APCMin/+-and-male-wild-type-C57BL/6)_UP	NA	976	1239	1224	74201	1117	544448
-bsdb:622/3/1_colorectal-cancer:C57BL/6-APCMin/+:-BBR-and-Fn+BBR;-wild-type-C57BL/6:-BBR,-BBR+DMH-and-BBR+Fn+DMH_vs_male-C57BL/6-APCMin/+:-Ctrl,-F.-nucleatum-(Fn),-E.-coli-(Ec);-male-wild-type-C57BL/6):-Ctrl,-DMH,-Fn,-Fn+DMH,-Ec,-Ec+DMH_DOWN	NA	544448	74201
+bsdb:622/2/1_colorectal-cancer:Fn-Mice_vs_Control-(male-C57BL/6-APCMin/+-and-male-wild-type-C57BL/6)_UP	NA	544448	74201	203490
+bsdb:622/3/1_colorectal-cancer:Fn+DMH-Treated-Mice_vs_DMH-Treated-Mice_UP	NA	203490	74201	544448
+bsdb:622/4/1_colorectal-cancer:BBR+Fn+DMH-Treated-Mice_vs_Fn+DMH-Treated-Mice_DOWN	NA	544448	74201
 bsdb:623/1/1_colorectal-cancer:Patients-with-CRC-recurrence_vs_Patients-without-CRC-recurrence_UP	NA	848	543311	1486725	1257	838
 bsdb:623/1/2_colorectal-cancer:Patients-with-CRC-recurrence_vs_Patients-without-CRC-recurrence_DOWN	NA	40323	29465
 bsdb:624/1/1_colorectal-cancer:Patients-with-CRC_vs_Healthy-Individuals_UP	NA	76122	39950	851	29391	33033	1261	341694	28123	837	28131	102148
