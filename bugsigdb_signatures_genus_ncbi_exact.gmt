@@ -1,4 +1,4 @@
-# BugSigDB 2023-06-03_21:59_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2023-06-04_07:00_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	1654	1716	1301	162289	189330	33024	40544	1386
 bsdb:1/1/2_colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	100883
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	207244
@@ -24,7 +24,7 @@ bsdb:7/1/2_autism:severely-autistic_vs_non-sibling-control_DOWN	NA	114627	52784	
 bsdb:10/1/1_cervical-glandular-intraepithelial-neoplasia:Cervical-Intraepithelial-Lesion-HIV-patients_vs_Normal-tissue-HIV-patients_UP	NA	437755
 bsdb:10/2/1_cervical-glandular-intraepithelial-neoplasia:Cervical-Intraepithelial-Lesion-HIV-patients_vs_Normal-tissue-HIV-patients_UP	NA	1375
 bsdb:14/1/1_halitosis:Oral-Halitosis_vs_Control_UP	NA	194	195950	39948	1257	970	32067	2740	543311	157	1016	416916	838
-bsdb:14/1/2_halitosis:Oral-Halitosis_vs_Control_DOWN	NA	416916	724	437755	838	1301	2740	32067
+bsdb:14/1/2_halitosis:Oral-Halitosis_vs_Control_DOWN	NA	416916	724	437755	265975	838	1301	2740	32067
 bsdb:15/1/1_gestational-diabetes:Gestational-diabetes-mellitus_vs_controls_UP	NA	33057
 bsdb:15/1/2_gestational-diabetes:Gestational-diabetes-mellitus_vs_controls_DOWN	NA	55080	935200	1578	231454	44675
 bsdb:16/1/1_obesity:high-fat-diet_vs_normal-chow-diet_UP	NA	31980	1263	248744	239759	572511
@@ -228,7 +228,7 @@ bsdb:77/1/2_bipolar-disorder:atypical-antipsychotic-users_vs_non-users_DOWN	NA	2
 bsdb:78/1/1_stimulus-or-stress-design:limited-nesting-stress_vs_controls_UP	NA	1350	1301	2740	1375	227979	66831	1485	1716	872	117563	32207	583	100883	1357	191303	2316
 bsdb:78/1/2_stimulus-or-stress-design:limited-nesting-stress_vs_controls_DOWN	NA	1263	841	33042	1573535	1279	375288	28050	244127	724	283168
 bsdb:79/1/1_obesity:Laparoscopic-sleeve-gastrectomy-baseline_vs_Laparoscopic-sleeve-gastrectomy-after-3-months-and-6-Months-combined_UP	NA	33042	189330	1263
-bsdb:79/2/1_obesity:Very-low-calorie-diet-baseline_vs_very-low-calorie-diet-after-3-months-and-6-months_DOWN	NA	100883	1350	61170	1578	1263
+bsdb:79/2/1_obesity:Very-low-calorie-diet-baseline_vs_very-low-calorie-diet-after-3-months-and-6-months_DOWN	NA	100883	1350	61170	1578	265975	1263
 bsdb:80/1/1_type-I-diabetes-mellitus:Type-I-diabetic-children-at-onset_vs_controls_UP	NA	816
 bsdb:80/1/2_type-I-diabetes-mellitus:Type-I-diabetic-children-at-onset_vs_controls_DOWN	NA	838	904	158846
 bsdb:83/1/1_obesity:before-surgery_vs_after-surgery_UP	NA	207244	33042	216851	209	5782	40637
@@ -344,7 +344,7 @@ bsdb:126/3/2_Oral-leukoplakia:Oral-leukoplakia_vs_Oral-Squamous-Cell-Cancer-pati
 bsdb:127/1/1_alcohol-drinking:alcohol-overconsumers_vs_controls_UP	NA	1485	61170	40544
 bsdb:127/1/2_alcohol-drinking:alcohol-overconsumers_vs_controls_DOWN	NA	216851
 bsdb:127/2/1_alcohol-drinking:alcohol-overconsumers_vs_controls_UP	NA	904	118747	1485	2383	561	61170	570	158846	581	32207	40544
-bsdb:127/2/2_alcohol-drinking:alcohol-overconsumers_vs_controls_DOWN	NA	447020	102106	216851	52225	283168	838	1279	674963
+bsdb:127/2/2_alcohol-drinking:alcohol-overconsumers_vs_controls_DOWN	NA	447020	102106	216851	52225	283168	265975	838	1279	674963
 bsdb:128/1/1_gastric-cancer:gastric-cancer_vs_intestinal-metaplasia_UP	NA	1283313	43996	39948	848	543311	1578	437755	2740	1257	838	84108	1301
 bsdb:128/1/2_gastric-cancer:gastric-cancer_vs_intestinal-metaplasia_DOWN	NA	469	57739	378210	235572
 bsdb:128/2/1_gastric-cancer:gastric-cancer_vs_atrophic-gastric_UP	NA	1301	1257	1378	848	543311	1578	1730	1283313	838	39948	84108	2740	43996	437755
@@ -399,7 +399,7 @@ bsdb:142/2/1_oral-squamous-cell-carcinoma:HPV-+_vs_HPV--_UP	NA	1578	1013
 bsdb:142/2/2_oral-squamous-cell-carcinoma:HPV-+_vs_HPV--_DOWN	NA	538	482	32067
 bsdb:142/3/1_oral-squamous-cell-carcinoma:chemotherapy-radiation-and-surgery_vs_surgery_UP	NA	1578
 bsdb:142/3/2_oral-squamous-cell-carcinoma:chemotherapy-radiation-and-surgery_vs_surgery_DOWN	NA	724	416916	32067
-bsdb:144/1/1_air-pollution:moderately-polluted-region-(B)_vs_lightly-poluuted-region-(A)_UP	NA	32207	482	1654
+bsdb:144/1/1_air-pollution:moderately-polluted-region-(B)_vs_lightly-poluuted-region-(A)_UP	NA	32207	265975	482	1654
 bsdb:144/1/2_air-pollution:moderately-polluted-region-(B)_vs_lightly-poluuted-region-(A)_DOWN	NA	848	475	1257	836	838	29465
 bsdb:144/2/2_air-pollution:heavily-polluted-region-(C)_vs_lightly-poluuted-region-(A)_DOWN	NA	194	1016	848	475	1257	836	838	29465
 bsdb:144/3/2_air-pollution:heavily-polluted-region-(C)_vs_moderately-poluuted-region-(B)_DOWN	NA	32207	848	1654	194	482
@@ -407,7 +407,7 @@ bsdb:146/1/1_oral-squamous-cell-carcinoma:oral-squamous-cell-carcinoma-(OSCC)_vs
 bsdb:146/1/2_oral-squamous-cell-carcinoma:oral-squamous-cell-carcinoma-(OSCC)_vs_Controls_DOWN	NA	906	1213720	117563	47670	29465	1301	196081	32207	1654
 bsdb:147/1/1_squamous-cell-carcinoma:laryngeal-squamous-cell-carcinoma-(LSCC)_vs_controls_UP	NA	848	838	543311	1257	39948	43996	970	157	32008
 bsdb:147/1/2_squamous-cell-carcinoma:laryngeal-squamous-cell-carcinoma-(LSCC)_vs_controls_DOWN	NA	1301	32207
-bsdb:147/2/1_squamous-cell-carcinoma:Site-1-(upper-portion-of-throat-near-the-epiglottis)_vs_Site-2-(site-below-the-epiglottis-in-the-throat)_UP	NA	29465	32067	1654	32207	117563	906	1380	437755
+bsdb:147/2/1_squamous-cell-carcinoma:Site-1-(upper-portion-of-throat-near-the-epiglottis)_vs_Site-2-(site-below-the-epiglottis-in-the-throat)_UP	NA	29465	32067	1654	32207	117563	906	265975	1380	437755
 bsdb:147/2/2_squamous-cell-carcinoma:Site-1-(upper-portion-of-throat-near-the-epiglottis)_vs_Site-2-(site-below-the-epiglottis-in-the-throat)_DOWN	NA	848	838	543311	1257	836	39948	2093	44259	43996	538	157	416916
 bsdb:148/1/1_polycystic-ovary-syndrome:NIR-PCOS_vs_HC_UP	NA	816	28050
 bsdb:148/1/2_polycystic-ovary-syndrome:NIR-PCOS_vs_HC_DOWN	NA	838
@@ -430,7 +430,7 @@ bsdb:153/1/2_prostate-cancer:prostate-cancer_vs_non-prostate-cancer_DOWN	NA	4134
 bsdb:154/1/1_colorectal-cancer:colorectal-cancer_vs_healthy-controls_UP	NA	46913	44249	59732
 bsdb:154/1/2_colorectal-cancer:colorectal-cancer_vs_healthy-controls_DOWN	NA	838	1730	570	32067	33024	86331	613
 bsdb:155/1/1_esophageal-cancer:Esophageal-Adenocarcinoma-(EAC)_vs_controls_UP	NA	29465	970
-bsdb:155/1/2_esophageal-cancer:Esophageal-Adenocarcinoma-(EAC)_vs_controls_DOWN	NA	1283313	123375	482	724
+bsdb:155/1/2_esophageal-cancer:Esophageal-Adenocarcinoma-(EAC)_vs_controls_DOWN	NA	1283313	265975	123375	482	724
 bsdb:155/2/1_esophageal-cancer:Esophageal-Squamous-cell-carcinoma-(ESCC)_vs_controls_UP	NA	59735
 bsdb:155/2/2_esophageal-cancer:Esophageal-Squamous-cell-carcinoma-(ESCC)_vs_controls_DOWN	NA	838
 bsdb:156/1/1_gastric-adenocarcinoma:Gastric-cancer_vs_healthy-controls_UP	NA	838	561	620	570	1578	1301	239759	29465	1678	990721	375288
@@ -449,6 +449,7 @@ bsdb:159/1/1_gingival-disease:1-month-after-the-placement-of-the-brackets_vs_bef
 bsdb:159/2/1_gingival-disease:3-months-after-the-placement-of-the-brackets_vs_before_UP	NA	1016
 bsdb:159/2/2_gingival-disease:3-months-after-the-placement-of-the-brackets_vs_before_DOWN	NA	117563
 bsdb:160/1/1_head-and-neck-carcinoma:OCC-&-OPC_vs_High-risk-individuals_DOWN	NA	346096	1716	836	1654	713	1016	848	416916	47670
+bsdb:160/2/1_head-and-neck-carcinoma:OCC-&-OPC_vs_Normal-Healthy-Controls_UP	NA	265975
 bsdb:160/2/2_head-and-neck-carcinoma:OCC-&-OPC_vs_Normal-Healthy-Controls_DOWN	NA	32207	724	1716	346096	836	1016
 bsdb:161/1/1_lung-cancer:NSCLC_vs_healthy-controls_UP	NA	416916	32207	32067	47670	1301	29465
 bsdb:161/1/2_lung-cancer:NSCLC_vs_healthy-controls_DOWN	NA	216851	816	838	1283313	836
@@ -461,7 +462,7 @@ bsdb:163/2/2_squamous-cell-carcinoma:Oropharyngeal-Squamous-Cell-Carcinoma_vs_He
 bsdb:164/1/1_gastric-cancer:gastric-cancer_vs_controls_UP	NA	838	1301	29465	1654	32067
 bsdb:164/1/2_gastric-cancer:gastric-cancer_vs_controls_DOWN	NA	482	848	724	836
 bsdb:165/1/1_chronic-kidney-disease:chronic-kidney-disease-patients_vs_healthy-controls_UP	NA	1283313	1485	872	407	577309
-bsdb:165/1/2_chronic-kidney-disease:chronic-kidney-disease-patients_vs_healthy-controls_DOWN	NA	239934	174708	580024	1730	209	1578	1357	1243	248038	133925	577310	1427376	638847	32207	2753
+bsdb:165/1/2_chronic-kidney-disease:chronic-kidney-disease-patients_vs_healthy-controls_DOWN	NA	239934	174708	580024	1730	209	1578	1357	1243	248038	133925	265975	577310	1427376	638847	32207	2753
 bsdb:166/1/1_chronic-kidney-disease:chronic-kidney-disease_vs_healthy-controls_UP	NA	816	84111	1505663	561	946234	375288	1508657	1769710	620	46255
 bsdb:166/1/2_chronic-kidney-disease:chronic-kidney-disease_vs_healthy-controls_DOWN	NA	1506577	102106	580596	1501226	1263	841	33042	292632	28050	2747	39948
 bsdb:167/1/1_squamous-cell-carcinoma:Stage-4_vs_healthy-controls_UP	NA	82202
