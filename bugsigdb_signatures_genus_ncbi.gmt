@@ -1,4 +1,4 @@
-# BugSigDB 2023-06-15_05:59_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2023-06-15_06:59_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	1654	1716	1301	162289	189330	33024	40544	1386
 bsdb:1/1/2_colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	100883
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	207244
@@ -1740,11 +1740,15 @@ bsdb:632/1/2_ethnic-group:African-American-neonate-by-maternal-profile_vs_Caucas
 bsdb:632/2/1_socioeconomic-status:Infants-in-household-income-<$80,000._vs_Infants-in-household-income-=>$80,000._UP	NA	816	1263	1301
 bsdb:632/2/2_socioeconomic-status:Infants-in-household-income-<$80,000._vs_Infants-in-household-income-=>$80,000._DOWN	NA	239934	1678	33042	216851	838	1279	29465
 bsdb:634/1/2_smoking-behavior:smokers_vs_non-smokers_DOWN	NA	970
-bsdb:635/1/1_smoking-behavior:Some-college-or-associate's-degree_vs_High-school-diploma-or-less_DOWN	NA	836	194	29465	838
-bsdb:635/2/2_smoking-behavior:Females-who-have-smoked-before_vs_Females-that-have-never-smoked_DOWN	NA	713	1578
-bsdb:635/3/1_smoking-behavior:self-reported-current-cigarette-smokers-with-high-serum-cotinine_vs_randomly-selected-never-smokers-with-cotinine-<0.05-ng/mL_UP	NA	1678	1016	1578	1357	32067	836	838	32207	196081	1301
-bsdb:635/3/2_smoking-behavior:self-reported-current-cigarette-smokers-with-high-serum-cotinine_vs_randomly-selected-never-smokers-with-cotinine-<0.05-ng/mL_DOWN	NA	1283313	1380	43996	39948	44259	848	1578	32067	1257	836	838	286	34104	157	29465
-bsdb:635/4/1_smoking-behavior:self-reported-current-cigarette-smokers-with-high-serum-cotinine_vs_randomly-selected-never-smokers-with-cotinine-<0.05-ng/mL_UP	NA	1578	196081	1357	1283313	194	836	838	156454	29465	286	848	1213720
+bsdb:635/1/1_smoking-behavior:Less-than-High-school-diploma_vs_College-graduate-or-more_DOWN	NA	1283313
+bsdb:635/1/2_smoking-behavior:Less-than-High-school-diploma_vs_College-graduate-or-more_UP	NA	836	194	838	29465	44259	196081	1301
+bsdb:635/2/1_smoking-behavior:Some-college-or-associate's-degree_vs_College-graduate-or-more_DOWN	NA	1716
+bsdb:635/2/2_smoking-behavior:Some-college-or-associate's-degree_vs_College-graduate-or-more_UP	NA	196081	1578	1283313	29465
+bsdb:635/3/1_smoking-behavior:Alternative-smokers_vs_Cigarette-smokers_DOWN	NA	156454	286	1301	419014	1654	1213720
+bsdb:635/3/2_smoking-behavior:Alternative-smokers_vs_Cigarette-smokers_UP	NA	848	482	34104	836	59735	47670	2717	1378	1283313
+bsdb:635/4/1_smoking-behavior:Former-smokers_vs_Cigarette-smokers_DOWN	NA	29465	1578	1283313	194	838	286
+bsdb:635/4/2_smoking-behavior:Former-smokers_vs_Cigarette-smokers_UP	NA	482	59735	47670	724	2740	1016
+bsdb:635/5/1_smoking-behavior:Never-smokers_vs_Cigarette-smokers_DOWN	NA	906	1213720	838	194	32067	29465
 bsdb:636/1/1_smoking-behavior:Tobacco-smokers_vs_Non-Smokers_UP	NA	482	836
 bsdb:636/1/2_smoking-behavior:Tobacco-smokers_vs_Non-Smokers_DOWN	NA	1716
 bsdb:636/2/1_smoking-behavior:E-cigarette-smokers_vs_Non-Smokers_UP	NA	836
