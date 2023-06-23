@@ -1,4 +1,4 @@
-# BugSigDB 2023-06-22_18:59_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2023-06-23_05:00_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	Bacilli	Gammaproteobacteria	Actinomyces	Corynebacterium	Streptococcus	Peptoniphilus	Dorea	Phascolarctobacterium	Sutterella	Actinomycetales	Actinomycetaceae	Alcaligenaceae	Lactobacillales	Streptococcaceae	Veillonellaceae	Enterobacterales	Corynebacteriaceae	Lacticaseibacillus zeae	Bacillus	Bacillaceae
 bsdb:1/1/2_colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	Coprobacillus	Cyanobacteriota
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	Anaerostipes	Lacticaseibacillus zeae
@@ -2694,6 +2694,10 @@ bsdb:715/3/2_Acute-respiratory-failure:Patients-with-more-VFDs_vs_Patients-with-
 bsdb:715/4/1_Acute-respiratory-failure:Non-survivors_vs_Survivors_DOWN	NA	Prevotella
 bsdb:715/5/1_Acute-respiratory-failure:Patients-with-more-VFDs_vs_Patients-with-fewer-VFDs_UP	NA	Prevotella	Rothia	Streptococcus	Neisseria	Veillonella	Granulicatella	Pasteurellaceae
 bsdb:715/5/2_Acute-respiratory-failure:Patients-with-more-VFDs_vs_Patients-with-fewer-VFDs_DOWN	NA	Enterobacteriaceae	Pseudomonadaceae
+bsdb:715/6/1_Acute-respiratory-failure:Mortality_vs_Hyper-inflammatory-subphenotype_UP	NA	Prevotella
+bsdb:715/6/2_Acute-respiratory-failure:Mortality_vs_Hyper-inflammatory-subphenotype_DOWN	NA	Fusobacterium	Staphylococcus	Enterobacteriaceae	Pseudomonadaceae
+bsdb:715/7/1_Acute-respiratory-failure:VFD-(Ventilator-free-days)_vs_Hyper-inflammatory-subphenotype_UP	NA	Prevotella	Haemophilus	Streptococcus
+bsdb:715/7/2_Acute-respiratory-failure:VFD-(Ventilator-free-days)_vs_Hyper-inflammatory-subphenotype_DOWN	NA	Fusobacterium	Enterobacteriaceae	Pseudomonadaceae
 bsdb:716/1/1_Parkinson's-disease:Parkinson's-disease_vs_Controls_UP	NA	Aerococcaceae	Bifidobacteriaceae	Desulfovibrionaceae	Eubacteriaceae
 bsdb:716/1/2_Parkinson's-disease:Parkinson's-disease_vs_Controls_DOWN	NA	Actinomycetaceae	Bacillota	Brevibacteriaceae	Brucellaceae	Comamonadaceae	Euryarchaeota	Halomonadaceae	Hyphomonadaceae	Idiomarinaceae	Intrasporangiaceae	Lachnospiraceae	Methanobacteriaceae	Methylobacteriaceae	Micrococcaceae	Mycoplasmatota	Pasteurellaceae	Sphingomonadaceae	Streptococcaceae	Xanthomonadaceae
 bsdb:716/2/1_Parkinson's-disease:PD-duration-more-than-5-years_vs_PD-duration-less-than-5-years_UP	NA	Aggregatibacter	Deferribacteraceae	Mucispirillum	Rikenellaceae
@@ -2856,8 +2860,8 @@ bsdb:748/1/1_colorectal-cancer:Colorectal-cancer-patients_vs_control_UP	NA	Alist
 bsdb:748/1/2_colorectal-cancer:Colorectal-cancer-patients_vs_control_DOWN	NA	Burkholderiales bacterium 1_1_47	Eubacterium ventriosum	Adhaeribacter aquaticus	Coprococcus sp. ART55/1	butyrate-producing bacterium SS3/4	Haemophilus parainfluenzae	Holdemanella biformis	Faecalibacterium prausnitzii	[Ruminococcus] torques	Klebsiella pneumoniae	Lachnospira eligens	Bacteroides clarus	Blautia obeum	Clostridium sp. L2-50	Roseburia intestinalis	[Eubacterium] rectale
 bsdb:750/1/1_sex-design:Females_vs_Males_DOWN	NA	Bergeyella	Tannerella	Bacteroidota
 bsdb:750/1/2_sex-design:Females_vs_Males_UP	NA	Treponema	Mycoplasma	Corynebacterium	Spirochaetota
-bsdb:750/2/1_NA:Elderly_vs_Adults_UP	NA	Bacteroidota	Spirochaeta	Prevotella	Treponema
-bsdb:750/2/2_NA:Elderly_vs_Adults_DOWN	NA	Bacillota	Candidatus Saccharibacteria	Actinomycetota	Actinomyces	Fusobacteriota	Pseudomonadota	Lautropia	Megasphaera	Abiotrophia	Stomatobaculum	Catonella	Aggregatibacter	Selenomonas	Campylobacter	Dialister	Mogibacterium	Rothia	Eikenella	Leptotrichia	Kingella	Granulicatella	Gemella	Anaeroglobus	Lachnoanaerobaculum	Haemophilus	Veillonella	Streptococcus	Peptostreptococcaceae
+bsdb:750/2/1_Aging:Elderly_vs_Adults_UP	NA	Bacteroidota	Spirochaeta	Prevotella	Treponema
+bsdb:750/2/2_Aging:Elderly_vs_Adults_DOWN	NA	Bacillota	Candidatus Saccharibacteria	Actinomycetota	Actinomyces	Fusobacteriota	Pseudomonadota	Lautropia	Megasphaera	Abiotrophia	Stomatobaculum	Catonella	Aggregatibacter	Selenomonas	Campylobacter	Dialister	Mogibacterium	Rothia	Eikenella	Leptotrichia	Kingella	Granulicatella	Gemella	Anaeroglobus	Lachnoanaerobaculum	Haemophilus	Veillonella	Streptococcus	Peptostreptococcaceae
 bsdb:750/3/1_Gingival-bleeding:Participants-with-gingival-bleeding_vs_Participants-without-gingivitis-bleeding_UP	NA	Bacteroidota	Capnocytophaga	Prevotella
 bsdb:750/3/2_Gingival-bleeding:Participants-with-gingival-bleeding_vs_Participants-without-gingivitis-bleeding_DOWN	NA	Alloprevotella	Bacillota	Candidatus Saccharibacteria	Fusobacteriota	Gemella	Granulicatella	Haemophilus	Lautropia	Leptotrichia	Megasphaera	Neisseria	Pseudomonadota	Streptococcus	Veillonella	Actinomycetota
 bsdb:750/4/1_Oral-ulcer:Participants-with-oral-ulcers_vs_Participants-without-oral-ulcers_UP	NA	Bacteroidota	Capnocytophaga	Prevotella
