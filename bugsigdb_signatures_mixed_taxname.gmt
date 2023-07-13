@@ -1,4 +1,4 @@
-# BugSigDB 2023-07-12_16:59_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2023-07-13_10:59_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	Bacilli	Gammaproteobacteria	Actinomyces	Corynebacterium	Streptococcus	Peptoniphilus	Dorea	Phascolarctobacterium	Sutterella	Actinomycetales	Actinomycetaceae	Alcaligenaceae	Lactobacillales	Streptococcaceae	Veillonellaceae	Enterobacterales	Corynebacteriaceae	Lacticaseibacillus zeae	Bacillus	Bacillaceae
 bsdb:1/1/2_colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	Coprobacillus	Cyanobacteriota
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	Anaerostipes	Lacticaseibacillus zeae
@@ -1995,6 +1995,8 @@ bsdb:518/1/1_endometriosis:Stage-3/4-endometriosis-patients_vs_Healthy-controls_
 bsdb:518/1/2_endometriosis:Stage-3/4-endometriosis-patients_vs_Healthy-controls_DOWN	NA	Lachnospira	Lachnospira eligens	Odoribacter	Parasutterella	Ruminiclostridium	Ruminococcus sp.	Betaproteobacteria	Burkholderiales	Alcaligenaceae	Sutterella	Porphyromonadaceae
 bsdb:519/1/1_endometriosis:Endo-mice_vs_Non-endo-mice_UP	NA	Bacteroides
 bsdb:520/1/1_endometriosis:Stage-3/4-Endometriosis-patients_vs_Stage-1/2-Endometriosis-patients_UP	NA	Anaerococcus
+bsdb:520/2/1_endometriosis:Higher-stages-of-endometriosis_vs_Lower-stages-of-endometriosis_DOWN	NA	Porphyromonas	Neisseria	Haemophilus
+bsdb:520/2/2_endometriosis:Higher-stages-of-endometriosis_vs_Lower-stages-of-endometriosis_UP	NA	Anaerococcus	Acidovorax	Sphingomonas	Peptoniphilus	Dialister	Phyllobacterium	Howardella	Escherichia	Lactobacillus	Varibaculum	Propionibacterium
 bsdb:521/1/1_endometriosis:Stage-3/4-endometriosis-patients_vs_Surgical-controls_DOWN	NA	Actinomycetota	Actinomyces	Actinomycetaceae	Actinomycetales	Propionibacteriaceae	Propionibacterium	Rothia	Veillonellaceae
 bsdb:521/1/2_endometriosis:Stage-3/4-endometriosis-patients_vs_Surgical-controls_UP	NA	Acinetobacter	Enhydrobacter	Pseudomonadaceae	Pseudomonadales	Pseudomonas	Streptococcus
 bsdb:522/2/1_endometriosis:Endometriosis-patients_vs_Controls-undergoing-laparoscopic-surgery-for-benign-tumors_DOWN	NA	Lactobacillus iners
@@ -2055,17 +2057,17 @@ bsdb:537/1/1_Parkinson's-disease:patients-with-idiopathic-parkinson's-disease_vs
 bsdb:537/1/2_Parkinson's-disease:patients-with-idiopathic-parkinson's-disease_vs_healthy-controls-without-any-form-of-Parkinson's-Disease_DOWN	NA	Lachnospiraceae	Roseburia	Oscillospiraceae	Bacillota	Faecalibacterium
 bsdb:537/2/1_Parkinson's-disease:the-trend-over-Parkinson's-disease-progression_vs_healthy-controls-without-any-form-of-Parkinson's-Disease_UP	NA	Akkermansia	Lactobacillaceae	Lactobacillus	Verrucomicrobiota	Verrucomicrobiaceae
 bsdb:537/2/2_Parkinson's-disease:the-trend-over-Parkinson's-disease-progression_vs_healthy-controls-without-any-form-of-Parkinson's-Disease_DOWN	NA	Lachnospiraceae
-bsdb:537/3/1_Parkinson's-disease:patients-with-MSA(multiple-system-atrophy)-disease_vs_healthy-controls-without-any-form-of-Parkinson's-Disease_UP	NA	Akkermansia	Lactobacillaceae	Verrucomicrobiota	Verrucomicrobiaceae	Streptococcus	Streptococcaceae	Christensenellaceae	Bifidobacterium	Bifidobacteriaceae	Chaetobranchopsis	Actinomycetota
-bsdb:537/3/2_Parkinson's-disease:patients-with-MSA(multiple-system-atrophy)-disease_vs_healthy-controls-without-any-form-of-Parkinson's-Disease_DOWN	NA	Faecalibacterium	Prevotellaceae
-bsdb:537/4/1_Parkinson's-disease:patients-with-PSP(progressive-supranuclear-palsy)-disease_vs_healthy-controls-without-any-form-of-Parkinson's-Disease_UP	NA	Akkermansia	Christensenellaceae	Oscillospira	Parabacteroides	Verrucomicrobiota	Verrucomicrobiaceae
-bsdb:537/4/2_Parkinson's-disease:patients-with-PSP(progressive-supranuclear-palsy)-disease_vs_healthy-controls-without-any-form-of-Parkinson's-Disease_DOWN	NA	Lachnospiraceae	Roseburia	Streptococcaceae	Streptococcus
+bsdb:537/3/1_Parkinson's-disease:patients-with-MSA(multiple-system-atrophy)-disease_vs_healthy-controls-without-any-form-of-Parkinson's-Disease_UP	NA	Akkermansia	Lactobacillaceae	Verrucomicrobiota	Verrucomicrobiaceae	Streptococcus	Streptococcaceae	Christensenellaceae	Bifidobacterium	Bifidobacteriaceae	Chaetobranchopsis	Actinomycetota	Coriobacteriaceae
+bsdb:537/3/2_Parkinson's-disease:patients-with-MSA(multiple-system-atrophy)-disease_vs_healthy-controls-without-any-form-of-Parkinson's-Disease_DOWN	NA	Faecalibacterium	Prevotellaceae	Bacillota	Roseburia	Lachnospiraceae
+bsdb:537/4/1_Parkinson's-disease:patients-with-PSP(progressive-supranuclear-palsy)-disease_vs_healthy-controls-without-any-form-of-Parkinson's-Disease_UP	NA	Akkermansia	Christensenellaceae	Oscillospira	Verrucomicrobiota	Verrucomicrobiaceae	Pseudomonadota	Enterobacteriaceae
+bsdb:537/4/2_Parkinson's-disease:patients-with-PSP(progressive-supranuclear-palsy)-disease_vs_healthy-controls-without-any-form-of-Parkinson's-Disease_DOWN	NA	Lachnospiraceae	Roseburia	Streptococcaceae	Streptococcus	Prevotella	Faecalibacterium
 bsdb:537/5/1_Parkinson's-disease:patients-with-De-novo-Parkinson's-disease_vs_healthy-controls-without-any-form-of-Parkinson's-Disease_DOWN	NA	Lachnospiraceae
-bsdb:537/6/1_Parkinson's-disease:patients-with-early-Parkinson's-disease_vs_healthy-controls-without-any-form-of-Parkinson's-disease_UP	NA	Akkermansia	Christensenellaceae	Enterobacteriaceae	Verrucomicrobiota	Verrucomicrobiaceae
-bsdb:537/6/2_Parkinson's-disease:patients-with-early-Parkinson's-disease_vs_healthy-controls-without-any-form-of-Parkinson's-disease_DOWN	NA	Lachnospiraceae
-bsdb:537/7/1_Parkinson's-disease:patients-with-mid-stage-Parkinson's_vs_healthy-controls-without-any-form-of-Parkinson's-Disease_UP	NA	Akkermansia	Christensenellaceae	Enterobacteriaceae	Pseudomonadota	Verrucomicrobiota	Verrucomicrobiaceae
-bsdb:537/7/2_Parkinson's-disease:patients-with-mid-stage-Parkinson's_vs_healthy-controls-without-any-form-of-Parkinson's-Disease_DOWN	NA	Lachnospiraceae
-bsdb:537/8/1_Parkinson's-disease:patients-with-advanced-stage-Parkinson's_vs_healthy-controls-without-any-form-of-Parkinson's-Disease_UP	NA	Akkermansia	Enterobacteriaceae	Pseudomonadota	Verrucomicrobiota	Verrucomicrobiaceae
-bsdb:537/8/2_Parkinson's-disease:patients-with-advanced-stage-Parkinson's_vs_healthy-controls-without-any-form-of-Parkinson's-Disease_DOWN	NA	Bacillota	Lachnospiraceae
+bsdb:537/6/1_Parkinson's-disease:patients-with-early-Parkinson's-disease_vs_healthy-controls-without-any-form-of-Parkinson's-disease_UP	NA	Akkermansia	Christensenellaceae	Enterobacteriaceae	Verrucomicrobiota	Verrucomicrobiaceae	Pseudomonadota	Oscillospira
+bsdb:537/6/2_Parkinson's-disease:patients-with-early-Parkinson's-disease_vs_healthy-controls-without-any-form-of-Parkinson's-disease_DOWN	NA	Lachnospiraceae	Faecalibacterium	Bacillota	Roseburia
+bsdb:537/7/1_Parkinson's-disease:patients-with-mid-stage-Parkinson's_vs_healthy-controls-without-any-form-of-Parkinson's-Disease_UP	NA	Akkermansia	Christensenellaceae	Enterobacteriaceae	Pseudomonadota	Verrucomicrobiota	Verrucomicrobiaceae	Bifidobacterium	Bifidobacteriaceae	Porphyromonadaceae	Parabacteroides
+bsdb:537/7/2_Parkinson's-disease:patients-with-mid-stage-Parkinson's_vs_healthy-controls-without-any-form-of-Parkinson's-Disease_DOWN	NA	Lachnospiraceae	Bacillota	Roseburia	Oscillospiraceae	Faecalibacterium
+bsdb:537/8/1_Parkinson's-disease:patients-with-advanced-stage-Parkinson's_vs_healthy-controls-without-any-form-of-Parkinson's-Disease_UP	NA	Akkermansia	Enterobacteriaceae	Pseudomonadota	Verrucomicrobiota	Verrucomicrobiaceae	Escherichia	Streptococcaceae	Lactobacillus	Lactobacillaceae	Christensenellaceae	Parabacteroides	Actinomycetota	Bifidobacterium	Porphyromonadaceae	Bifidobacteriaceae	Coriobacteriaceae
+bsdb:537/8/2_Parkinson's-disease:patients-with-advanced-stage-Parkinson's_vs_healthy-controls-without-any-form-of-Parkinson's-Disease_DOWN	NA	Bacillota	Lachnospiraceae	Faecalibacterium	Roseburia	Oscillospiraceae
 bsdb:538/1/1_antimicrobial-agent:ciprofloxacin-treated_vs_baseline-of-the-ciprofloxacin-treated_DOWN	NA	Bifidobacteriaceae	Faecalibacterium	Oscillospira	Oscillospiraceae	Ruminococcus
 bsdb:538/1/2_antimicrobial-agent:ciprofloxacin-treated_vs_baseline-of-the-ciprofloxacin-treated_UP	NA	Bacteroidaceae	Blautia	Clostridium	Eubacterium	Lachnospiraceae	Roseburia
 bsdb:538/2/1_NA:Nitrofurantoin-treated_vs_Baseline-of-the-Nitrofurantoin-treated_DOWN	NA	Clostridiaceae

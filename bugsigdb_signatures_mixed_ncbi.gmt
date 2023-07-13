@@ -1,4 +1,4 @@
-# BugSigDB 2023-07-12_16:59_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2023-07-13_10:59_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	91061	1236	1654	1716	1301	162289	189330	33024	40544	2037	2049	506	186826	1300	31977	91347	1653	57037	1386	186817
 bsdb:1/1/2_colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	100883	1117
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	207244	57037
@@ -1995,6 +1995,8 @@ bsdb:518/1/1_endometriosis:Stage-3/4-endometriosis-patients_vs_Healthy-controls_
 bsdb:518/1/2_endometriosis:Stage-3/4-endometriosis-patients_vs_Healthy-controls_DOWN	NA	28050	39485	283168	577310	1508657	41978	28216	80840	506	40544	171551
 bsdb:519/1/1_endometriosis:Endo-mice_vs_Non-endo-mice_UP	NA	816
 bsdb:520/1/1_endometriosis:Stage-3/4-Endometriosis-patients_vs_Stage-1/2-Endometriosis-patients_UP	NA	165779
+bsdb:520/2/1_endometriosis:Higher-stages-of-endometriosis_vs_Lower-stages-of-endometriosis_DOWN	NA	836	482	724
+bsdb:520/2/2_endometriosis:Higher-stages-of-endometriosis_vs_Lower-stages-of-endometriosis_UP	NA	165779	12916	13687	162289	39948	28100	404402	561	1578	184869	1743
 bsdb:521/1/1_endometriosis:Stage-3/4-endometriosis-patients_vs_Surgical-controls_DOWN	NA	201174	1654	2049	2037	31957	1743	32207	31977
 bsdb:521/1/2_endometriosis:Stage-3/4-endometriosis-patients_vs_Surgical-controls_UP	NA	469	212791	135621	72274	286	1301
 bsdb:522/2/1_endometriosis:Endometriosis-patients_vs_Controls-undergoing-laparoscopic-surgery-for-benign-tumors_DOWN	NA	147802
@@ -2055,17 +2057,17 @@ bsdb:537/1/1_Parkinson's-disease:patients-with-idiopathic-parkinson's-disease_vs
 bsdb:537/1/2_Parkinson's-disease:patients-with-idiopathic-parkinson's-disease_vs_healthy-controls-without-any-form-of-Parkinson's-Disease_DOWN	NA	186803	841	216572	1239	216851
 bsdb:537/2/1_Parkinson's-disease:the-trend-over-Parkinson's-disease-progression_vs_healthy-controls-without-any-form-of-Parkinson's-Disease_UP	NA	239934	81850	1578	74201	203557
 bsdb:537/2/2_Parkinson's-disease:the-trend-over-Parkinson's-disease-progression_vs_healthy-controls-without-any-form-of-Parkinson's-Disease_DOWN	NA	186803
-bsdb:537/3/1_Parkinson's-disease:patients-with-MSA(multiple-system-atrophy)-disease_vs_healthy-controls-without-any-form-of-Parkinson's-Disease_UP	NA	239934	33958	74201	203557	1301	1300	990719	1678	31953	74107	201174
-bsdb:537/3/2_Parkinson's-disease:patients-with-MSA(multiple-system-atrophy)-disease_vs_healthy-controls-without-any-form-of-Parkinson's-Disease_DOWN	NA	216851	171552
-bsdb:537/4/1_Parkinson's-disease:patients-with-PSP(progressive-supranuclear-palsy)-disease_vs_healthy-controls-without-any-form-of-Parkinson's-Disease_UP	NA	239934	424536	119852	375288	74201	203557
-bsdb:537/4/2_Parkinson's-disease:patients-with-PSP(progressive-supranuclear-palsy)-disease_vs_healthy-controls-without-any-form-of-Parkinson's-Disease_DOWN	NA	186803	841	1300	1301
+bsdb:537/3/1_Parkinson's-disease:patients-with-MSA(multiple-system-atrophy)-disease_vs_healthy-controls-without-any-form-of-Parkinson's-Disease_UP	NA	239934	33958	74201	203557	1301	1300	990719	1678	31953	74107	201174	84107
+bsdb:537/3/2_Parkinson's-disease:patients-with-MSA(multiple-system-atrophy)-disease_vs_healthy-controls-without-any-form-of-Parkinson's-Disease_DOWN	NA	216851	171552	1239	841	186803
+bsdb:537/4/1_Parkinson's-disease:patients-with-PSP(progressive-supranuclear-palsy)-disease_vs_healthy-controls-without-any-form-of-Parkinson's-Disease_UP	NA	239934	424536	119852	74201	203557	1224	543
+bsdb:537/4/2_Parkinson's-disease:patients-with-PSP(progressive-supranuclear-palsy)-disease_vs_healthy-controls-without-any-form-of-Parkinson's-Disease_DOWN	NA	186803	841	1300	1301	838	216851
 bsdb:537/5/1_Parkinson's-disease:patients-with-De-novo-Parkinson's-disease_vs_healthy-controls-without-any-form-of-Parkinson's-Disease_DOWN	NA	186803
-bsdb:537/6/1_Parkinson's-disease:patients-with-early-Parkinson's-disease_vs_healthy-controls-without-any-form-of-Parkinson's-disease_UP	NA	239934	424536	543	74201	203557
-bsdb:537/6/2_Parkinson's-disease:patients-with-early-Parkinson's-disease_vs_healthy-controls-without-any-form-of-Parkinson's-disease_DOWN	NA	186803
-bsdb:537/7/1_Parkinson's-disease:patients-with-mid-stage-Parkinson's_vs_healthy-controls-without-any-form-of-Parkinson's-Disease_UP	NA	239934	424536	543	1224	74201	203557
-bsdb:537/7/2_Parkinson's-disease:patients-with-mid-stage-Parkinson's_vs_healthy-controls-without-any-form-of-Parkinson's-Disease_DOWN	NA	186803
-bsdb:537/8/1_Parkinson's-disease:patients-with-advanced-stage-Parkinson's_vs_healthy-controls-without-any-form-of-Parkinson's-Disease_UP	NA	239934	543	1224	74201	203557
-bsdb:537/8/2_Parkinson's-disease:patients-with-advanced-stage-Parkinson's_vs_healthy-controls-without-any-form-of-Parkinson's-Disease_DOWN	NA	1239	186803
+bsdb:537/6/1_Parkinson's-disease:patients-with-early-Parkinson's-disease_vs_healthy-controls-without-any-form-of-Parkinson's-disease_UP	NA	239934	424536	543	74201	203557	1224	119852
+bsdb:537/6/2_Parkinson's-disease:patients-with-early-Parkinson's-disease_vs_healthy-controls-without-any-form-of-Parkinson's-disease_DOWN	NA	186803	216851	1239	841
+bsdb:537/7/1_Parkinson's-disease:patients-with-mid-stage-Parkinson's_vs_healthy-controls-without-any-form-of-Parkinson's-Disease_UP	NA	239934	424536	543	1224	74201	203557	1678	31953	171551	375288
+bsdb:537/7/2_Parkinson's-disease:patients-with-mid-stage-Parkinson's_vs_healthy-controls-without-any-form-of-Parkinson's-Disease_DOWN	NA	186803	1239	841	216572	216851
+bsdb:537/8/1_Parkinson's-disease:patients-with-advanced-stage-Parkinson's_vs_healthy-controls-without-any-form-of-Parkinson's-Disease_UP	NA	239934	543	1224	74201	203557	561	1300	1578	33958	990719	375288	201174	1678	171551	31953	84107
+bsdb:537/8/2_Parkinson's-disease:patients-with-advanced-stage-Parkinson's_vs_healthy-controls-without-any-form-of-Parkinson's-Disease_DOWN	NA	1239	186803	216851	841	216572
 bsdb:538/1/1_antimicrobial-agent:ciprofloxacin-treated_vs_baseline-of-the-ciprofloxacin-treated_DOWN	NA	31953	216851	119852	216572	1263
 bsdb:538/1/2_antimicrobial-agent:ciprofloxacin-treated_vs_baseline-of-the-ciprofloxacin-treated_UP	NA	815	572511	1485	1730	186803	841
 bsdb:538/2/1_NA:Nitrofurantoin-treated_vs_Baseline-of-the-Nitrofurantoin-treated_DOWN	NA	31979
