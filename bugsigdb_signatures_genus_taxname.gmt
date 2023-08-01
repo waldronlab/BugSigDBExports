@@ -1,4 +1,4 @@
-# BugSigDB 2023-07-27_17:00_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2023-08-01_23:00_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	Actinomyces	Corynebacterium	Streptococcus	Peptoniphilus	Dorea	Phascolarctobacterium	Sutterella	Lacticaseibacillus	Bacillus
 bsdb:1/1/2_colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	Coprobacillus
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	Anaerostipes	Lacticaseibacillus
@@ -1754,6 +1754,7 @@ bsdb:512/3/1_COVID-19:COVID-19-positive-patients_vs_COVID-19-negative-healthcare
 bsdb:512/3/2_COVID-19:COVID-19-positive-patients_vs_COVID-19-negative-healthcare-workers-(controls)_DOWN	NA	Burkholderia
 bsdb:513/1/1_COVID-19:COVID-19-positive-patients_vs_COVID-19-negative-controls_UP	NA	Serratia	Veillonella
 bsdb:513/2/1_COVID-19:COVID-19-positive-patients-with-breathing-assistance_vs_COVID-19-positive-patients-without-breathing-assistance_UP	NA	Enterobacter	Prevotella	Veillonella	Streptococcus	Rothia	Serratia
+bsdb:513/3/1_COVID-19:COVID-19-positive-patients-with-antibiotic-use_vs_COVID-19-positive-patients-without-antibiotic-use_UP	NA	Finegoldia	Serratia
 bsdb:514/1/1_endometriosis:Stage-3/4-endometriosis-patients_vs_Women-scheduled-for-laparoscopic-surgery-for-benign-uterine/-ovarian-conditions_UP	NA	Streptococcus
 bsdb:516/1/1_endometriosis:Mice-who-were-injected-with-endometrial-tissues_vs_Healthy-mice_UP	NA	Bifidobacterium	Parasutterella
 bsdb:516/2/2_endometriosis:Mice-who-were-injected-with-endometrial-tissues_vs_Healthy-mice_DOWN	NA	Alloprevotella
@@ -2134,6 +2135,12 @@ bsdb:639/1/1_socioeconomic-status:underdeveloped-cities-vs-developed-cities_vs_N
 bsdb:639/1/2_socioeconomic-status:underdeveloped-cities-vs-developed-cities_vs_NA_DOWN	NA	Prevotella	Ruminococcus
 bsdb:640/1/1_rheumatoid-arthritis:Rheumatoid-Arthritis_vs_Non-Rheumatoid-Arthritis_UP	NA	Streptococcus	Rothia	Leptotrichia	Selenomonas
 bsdb:640/1/2_rheumatoid-arthritis:Rheumatoid-Arthritis_vs_Non-Rheumatoid-Arthritis_DOWN	NA	Capnocytophaga	Aggregatibacter	Porphyromonas	Fusobacterium	Veillonella	Granulicatella	Prevotella
+bsdb:640/2/1_rheumatoid-arthritis:rheumatoid-arthritis-patients-with-the-homozygous-PAV/PAV-(“supertasters”)_vs_rheumatoid-arthritis-patients-carrying-the-AVI/AVI-genotype-(“non-tasters”)_DOWN	NA	Campylobacter	Selenomonas	Corynebacterium	Capnocytophaga	Leptotrichia
+bsdb:640/2/2_rheumatoid-arthritis:rheumatoid-arthritis-patients-with-the-homozygous-PAV/PAV-(“supertasters”)_vs_rheumatoid-arthritis-patients-carrying-the-AVI/AVI-genotype-(“non-tasters”)_UP	NA	Streptococcus
+bsdb:640/3/1_rheumatoid-arthritis:Non-rheumatoid-arthritis-patients-with-the-homozygous-PAV/PAV-(“supertasters”)_vs_Non-rheumatoid-arthritis-patients-carrying-the-AVI/AVI-genotype-(“non-tasters”)_DOWN	NA	Lancefieldella
+bsdb:640/3/2_rheumatoid-arthritis:Non-rheumatoid-arthritis-patients-with-the-homozygous-PAV/PAV-(“supertasters”)_vs_Non-rheumatoid-arthritis-patients-carrying-the-AVI/AVI-genotype-(“non-tasters”)_UP	NA	Prevotella	Megasphaera	Catonella	Veillonella	Oribacterium
+bsdb:640/4/1_rheumatoid-arthritis:All-participants-with-the-homozygous-PAV/PAV-(“supertasters”)_vs_All-participants-carrying-the-AVI/AVI-genotype-(“non-tasters”)_DOWN	NA	Abiotrophia
+bsdb:640/4/2_rheumatoid-arthritis:All-participants-with-the-homozygous-PAV/PAV-(“supertasters”)_vs_All-participants-carrying-the-AVI/AVI-genotype-(“non-tasters”)_UP	NA	Campylobacter
 bsdb:641/1/1_arthritis:Early-Rheumatoid-Arthritis_vs_healthy-control_DOWN	NA	Porphyromonas	Fusobacterium	Veillonella	Hoylesella	Alloprevotella	Granulicatella	Neisseria	Streptococcus
 bsdb:641/1/2_arthritis:Early-Rheumatoid-Arthritis_vs_healthy-control_UP	NA	Streptococcus	Prevotella	Rothia	Selenomonas
 bsdb:642/2/2_socioeconomic-status:Orang-Asli-Children-(low-SES,-household-income<RM500)_vs_Chinese-Children-(High-SES,-household-income->RM500)_DOWN	NA	Alistipes
