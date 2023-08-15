@@ -58,7 +58,7 @@ jobs:
                 echo "Commit changes for $export"
                 git add *.gmt *.csv
                 git commit -m "Hourly export update"
-                git push origin main
+                git push origin devel
                 break
             fi
           done
