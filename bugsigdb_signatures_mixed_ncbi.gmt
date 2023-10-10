@@ -1,4 +1,4 @@
-# BugSigDB 2023-10-10_19:59_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2023-10-10_20:59_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	91061	1236	1654	1716	1301	162289	189330	33024	40544	2037	2049	506	186826	1300	31977	91347	1653	57037	1386	186817
 bsdb:1/1/2_colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	100883	1117
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	207244	57037
@@ -1971,7 +1971,7 @@ bsdb:508/1/2_Parkinson's-disease:Parkinson's-Disease-Patients_vs_Healthy-Control
 bsdb:509/1/1_smoking-behavior:Smoking_vs_Non-smoking_UP	NA	1283313	1281902	1748771	120831	1940338	388449	388447	1357	31969	544448	206379	32003	75682	84567	162291	836	583	475230	84566	186821	292632	82802
 bsdb:509/1/2_smoking-behavior:Smoking_vs_Non-smoking_DOWN	NA	43668	55080	119060	69541	238749	547	91347	543	28231	579	81850	1578	68287	57494	135619	33024	69277	48736	160674
 bsdb:509/2/1_smoking-behavior:Smoking_vs_Non-smoking_UP	NA	583	84993	100233	475230	76892	248744	1283313	347538	1434010	354349	162291	292632	82802	69965	120831	836	346096	84567	1357
-bsdb:509/2/2_smoking-behavior:Smoking_vs_Non-smoking_DOWN	NA	547	160674	28231	55080	1578	1774107	238749	1716	68287	43668	227979	157932	248038	745	1649510	57494	579
+bsdb:509/2/2_smoking-behavior:Smoking_vs_Non-smoking_DOWN	NA	43668	55080	1774107	1716	238749	547	28231	227979	579	1578	68287	248038	57494	745	157932	160674	1649510	1940338	257462
 bsdb:510/1/1_periodontitis:patients-with-rheumatoid-arthritis_vs_patients-with-no-rheumatoid-arthritis_UP	NA	714	35519	33033	33031	52227	470565	310514	228604	287	671224	1872413
 bsdb:510/1/2_periodontitis:patients-with-rheumatoid-arthritis_vs_patients-with-no-rheumatoid-arthritis_DOWN	NA	189722	52773	1328	166
 bsdb:510/2/1_rheumatoid-arthritis:patients-with-rheumatoid-arthritis_vs_patients-with-no-rheumatoid-arthritis_UP	NA	671218	156456	1678	1689	1018	43768	1383	157688	157691	157687	52225	114528	35519	28126	52227	28129	470565	439703	28132	310514	28133	28136	60133	228604	228603	287	230143	135080	135083	163583	69823	712711
@@ -2951,9 +2951,12 @@ bsdb:771/1/1_Health-study-participation:Bejing-healthy-volunteers_vs_Guangzhou-h
 bsdb:771/1/2_Health-study-participation:Bejing-healthy-volunteers_vs_Guangzhou-healthy-volunteers_DOWN	NA	1639	300	84378	336809	40324	28903	1872122	721785	2100	1747
 bsdb:772/1/1_Body-weight:OW-cats-at-T1_vs_LN-cats-at-T1_UP	NA	2005519	31953	72294	990719	84107	81852	72293	1853231	216572	712	186807	1300	31977
 bsdb:772/1/2_Body-weight:OW-cats-at-T1_vs_LN-cats-at-T1_DOWN	NA	203492	186804	506	2810281	33958	171552	2049	194924	171551	128827	815	809	31979	186803	543	171550	83763
-bsdb:772/2/1_NA:HPLC-fed-cats_vs_CON-fed-cats_UP	NA	31979	216851	853	203492	848	186803	2485925	186807	33038	89152	31971
-bsdb:772/2/2_NA:HPLC-fed-cats_vs_CON-fed-cats_DOWN	NA	31953	1678	906	171551	171550	29465	31977	39483	1623	310297
-bsdb:772/3/1_NA:CON-fed-cats_vs_HPLC-fed-cats_UP	NA	1485
+bsdb:772/2/1_NA:CON-fed-OW-cats-at-T2-(end-of-intervention)_vs_OW-cats-at-T1(end-of-baseline-feeding)_UP	NA	31979	186803	216572	186807	171551	171550	1853231	815	186804	128827	83763	194924
+bsdb:772/2/2_NA:CON-fed-OW-cats-at-T2-(end-of-intervention)_vs_OW-cats-at-T1(end-of-baseline-feeding)_DOWN	NA	203492	31977	31953	506	33958	84107	171552	81852	2810281	543	72294	72293	1300
+bsdb:772/3/1_NA:HPLC-fed-OW-cats-at-T2-(end-of-intervention)_vs_OW-cats-at-T1(end-of-baseline-feeding)_UP	NA	203492	31979	186803	216572	186807	171551	506	815	186804	171552	543
+bsdb:772/3/2_NA:HPLC-fed-OW-cats-at-T2-(end-of-intervention)_vs_OW-cats-at-T1(end-of-baseline-feeding)_DOWN	NA	31953	72294	84107	194924	81852	128827	72293	33958	1853231	171550	1300	83763	2810281	31977
+bsdb:772/4/1_NA:HPLC-fed-OW-cats-at-T2-(end-of-intervention)_vs_CON-fed-OW-cats-at-T2-(end-of-intervention)_UP	NA	203492	31979	186803	216572	186807	506	171552	81852	543	1300
+bsdb:772/4/2_NA:HPLC-fed-OW-cats-at-T2-(end-of-intervention)_vs_CON-fed-OW-cats-at-T2-(end-of-intervention)_DOWN	NA	815	31953	72294	84107	194924	128827	72293	33958	1853231	186804	171551	171550	83763	2810281	31977
 bsdb:775/1/1_breast-cancer:breast-cancer-(BC)_vs_healthy-controls-(HC)_UP	NA	1654	572511	84111	1573534	261299	216572
 bsdb:775/1/2_breast-cancer:breast-cancer-(BC)_vs_healthy-controls-(HC)_DOWN	NA	1872444	2049044	853	1926283	28052	1945593	46503	446043
 bsdb:776/1/1_Overactive-bladder:Overactive-Bladder-(OAB)_vs_Asymptomatic-controls_UP	NA	1279	168808	583	31983	1378	2093	1375
