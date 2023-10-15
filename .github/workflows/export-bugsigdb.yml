@@ -8,20 +8,9 @@ name: Export BugSigDB
 jobs:
   export-bugsigdb:
     runs-on: ubuntu-latest
-    container: bioconductor/bioconductor_docker:RELEASE_3_13
+    container: bioconductor/bioconductor_docker:RELEASE_3_17
 
     steps:
-
-      - name: Checkout bugsigdbr
-        uses: actions/checkout@v3
-        with:
-          repository: waldronlab/bugsigdbr
-          path: bugsigdbr
-
-      - name: Install dependencies
-        run: |
-          cd $GITHUB_WORKSPACE/bugsigdbr
-          Rscript -e "devtools::install()"
 
       - name: Checkout BugSigDBExports
         uses: actions/checkout@v3
@@ -31,7 +20,11 @@ jobs:
       - name: Install BugSigDBExports dependencies
         run: |
           cd $GITHUB_WORKSPACE/BugSigDBExports
-          Rscript -e "install.packages(c('rvest', 'readr', 'plyr'))"
+          Rscript -e "install.packages(c('rvest', 'readr', 'plyr', 'BiocFileCache'))"
+
+      - name: Install bugsigdbr 
+        run: |
+          Rscript -e "BiocManager::install('bugsigdbr')"
 
       - name: Setup git config
         run: |
