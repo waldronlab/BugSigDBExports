@@ -1,4 +1,4 @@
-# BugSigDB 2023-10-16_09:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2023-10-16_10:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	Actinomyces	Corynebacterium	Streptococcus	Peptoniphilus	Dorea	Phascolarctobacterium	Sutterella	Lacticaseibacillus	Bacillus
 bsdb:1/1/2_colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	Coprobacillus
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	Anaerostipes	Lacticaseibacillus
@@ -1718,8 +1718,8 @@ bsdb:502/2/2_irritable-bowel-syndrome:IBS-C_vs_Healthy-Control_DOWN	NA	Bacteroid
 bsdb:502/3/1_irritable-bowel-syndrome:IBS-D_vs_Healthy-Control_UP	NA	Alkalihalobacillus	Bacillus	Bifidobacterium	Clostridioides	Enterococcus	Ligilactobacillus
 bsdb:502/3/2_irritable-bowel-syndrome:IBS-D_vs_Healthy-Control_DOWN	NA	Bacteroides	Prevotella
 bsdb:502/4/1_irritable-bowel-syndrome:IBS-M_vs_Healthy-Control_UP	NA	Alkalihalobacillus	Campylobacter	Enterococcus	Lentilactobacillus
-bsdb:503/1/1_Otitis-media-with-effusion:Exposed-group-(Amoxicillin-Group)_vs_Unexposed-group-that-did-not-receive-antibiotics.-(control-group)_UP	NA	Fusobacterium
-bsdb:503/1/2_Otitis-media-with-effusion:Exposed-group-(Amoxicillin-Group)_vs_Unexposed-group-that-did-not-receive-antibiotics.-(control-group)_DOWN	NA	Rothia	Prevotella	Atopobium	Solobacterium
+bsdb:503/1/1_Amoxicillin:Amoxicillin-exposed_vs_Controls(Unexposed-to-Amoxicillin)_UP	NA	Fusobacterium
+bsdb:503/1/2_Amoxicillin:Amoxicillin-exposed_vs_Controls(Unexposed-to-Amoxicillin)_DOWN	NA	Rothia	Prevotella	Atopobium	Solobacterium
 bsdb:503/2/1_Otitis-media-with-effusion:Exposed-group-(Amoxicillin-Group)_vs_Unexposed-group-that-did-not-receive-antibiotics.-(control-group)_UP	NA	Fusobacterium
 bsdb:503/2/2_Otitis-media-with-effusion:Exposed-group-(Amoxicillin-Group)_vs_Unexposed-group-that-did-not-receive-antibiotics.-(control-group)_DOWN	NA	Rothia	Prevotella	Atopobium	Solobacterium
 bsdb:503/3/2_Otitis-media-with-effusion:Exposed-group-(Amoxicillin-Group)_vs_Unexposed-group-that-did-not-receive-antibiotics.-(control-group)_DOWN	NA	Prevotella	Abiotrophia	Fusobacterium
@@ -2688,10 +2688,12 @@ bsdb:815/1/1_Colitis:Infants-diagnosed-with-food-protein-induced-allergic-procto
 bsdb:818/1/1_Dermatitis,Asthma,Food-allergy,Allergic-rhinitis:Allergic-Children_vs_Healthy-controls_DOWN	NA	Anaerostipes	Fusicatenibacter	Anaerobutyricum
 bsdb:818/1/2_Dermatitis,Asthma,Food-allergy,Allergic-rhinitis:Allergic-Children_vs_Healthy-controls_UP	NA	Eggerthella	Enterococcus	Escherichia	Thomasclavelia	Tyzzerella
 bsdb:818/1/3_Dermatitis,Asthma,Food-allergy,Allergic-rhinitis:Allergic-Children_vs_Healthy-controls_UP	NA	Eggerthella	Enterococcus	Escherichia	Thomasclavelia	Tyzzerella
+bsdb:819/2/1_HIV-1-infection:Week-24-samples_vs_Baseline-samples_UP	NA	Treponema
+bsdb:819/2/2_HIV-1-infection:Week-24-samples_vs_Baseline-samples_DOWN	NA	Muribaculum
 bsdb:820/2/1_Respiratory-Syncytial-Virus-Infection:infant-after-the-amoxicillin-treatment_vs_infan-before-amoxicillin-treatment_DOWN	NA	Aspergillus	Cladosporium	Valsa
 bsdb:820/2/2_Respiratory-Syncytial-Virus-Infection:infant-after-the-amoxicillin-treatment_vs_infan-before-amoxicillin-treatment_UP	NA	Aspergillus	Cladosporium	Valsa
-bsdb:822/1/1_Chronic-lung-disease:HIV-associated-Chronic-Lung-Disease-(HCLD)_vs_placebo(control)_UP	NA	Actinomyces	Lautropia	Oribacterium	Treponema	Veillonella	Rothia
-bsdb:822/1/2_Chronic-lung-disease:HIV-associated-Chronic-Lung-Disease-(HCLD)_vs_placebo(control)_DOWN	NA	Aggregatibacter	Haemophilus	Moraxella
+bsdb:822/1/1_Chronic-lung-disease:HIV-associated-Chronic-Lung-Disease-(HCLD)_vs_placebo(healthy-controls)_UP	NA	Actinomyces	Lautropia	Oribacterium	Treponema	Veillonella	Rothia
+bsdb:822/1/2_Chronic-lung-disease:HIV-associated-Chronic-Lung-Disease-(HCLD)_vs_placebo(healthy-controls)_DOWN	NA	Aggregatibacter	Haemophilus	Moraxella
 bsdb:822/2/1_Chronic-lung-disease:HIV-associated-Chronic-Lung-Disease-(HCLD)_vs_placebo(control)_UP	NA	Actinomyces	Lautropia	Oribacterium	Treponema	Veillonella	Rothia
 bsdb:822/2/2_Chronic-lung-disease:HIV-associated-Chronic-Lung-Disease-(HCLD)_vs_placebo(control)_DOWN	NA	Aggregatibacter	Haemophilus	Moraxella
 bsdb:822/3/1_Chronic-lung-disease:HIV-associated-Chronic-Lung-Disease-(HCLD)_vs_placebo(control)_UP	NA	Actinomyces	Lautropia	Oribacterium	Treponema	Veillonella	Rothia
