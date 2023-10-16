@@ -1,4 +1,4 @@
-# BugSigDB 2023-10-16_13:02_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2023-10-16_13:59_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	1654	1716	1301	162289	189330	33024	40544	2759736	1386
 bsdb:1/1/2_colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	100883
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	207244	2759736
@@ -2019,6 +2019,7 @@ bsdb:595/4/1_colorectal-carcinoma:CRC_vs_Neoplasia-free-control_UP	NA	872	848	54
 bsdb:595/4/2_colorectal-carcinoma:CRC_vs_Neoplasia-free-control_DOWN	NA	35832	2316	1263	1730	1301	2569097	28050	841
 bsdb:596/1/1_HIV-infection:HIV-infected-men_vs_HIV-uninfected-men_DOWN	NA	1678	212791	1847	149698	551	110932	12916	53387	469	1386	34072	99479	89966	28065
 bsdb:596/1/2_HIV-infection:HIV-infected-men_vs_HIV-uninfected-men_UP	NA	29465	402649
+bsdb:597/1/2_Response-to-vaccine:Vaccinated-participants_vs_healthy-controls_DOWN	NA	165779	1582879	150022	1161127	543311
 bsdb:597/2/2_Response-to-vaccine,HIV-infection:T1,-T2,-T3,-T4,(experimental-group)_vs_S1-Table-(control-group)_DOWN	NA	165779	1582879	150022	1161127	543311
 bsdb:598/1/1_HIV-infection:HIV-seroconverted_vs_HIV-seronegative_UP	NA	39948	2050	1257
 bsdb:598/1/2_HIV-infection:HIV-seroconverted_vs_HIV-seronegative_DOWN	NA	838	1161127
@@ -2428,6 +2429,8 @@ bsdb:717/3/1_Parkinson's-disease:Participants-with-Parkinson's-Disease-at-time-o
 bsdb:717/3/2_Parkinson's-disease:Participants-with-Parkinson's-Disease-at-time-of-follow-up_vs_Healthy-controls-at-time-of-follow-up_DOWN	NA	816	838	841	1263
 bsdb:717/4/1_Parkinson's-disease:Postural-instability-and-gait-difficulty-(PIGD)-phenotype-at-baseline_vs_Tremor-dominant-phenotype-(TD)-at-baseline_DOWN	NA	1678	1485	1432051	1357	838
 bsdb:717/4/2_Parkinson's-disease:Postural-instability-and-gait-difficulty-(PIGD)-phenotype-at-baseline_vs_Tremor-dominant-phenotype-(TD)-at-baseline_UP	NA	830	204475	816
+bsdb:717/5/1_Parkinson's-disease:Postural-instability-and-gait-difficulty-(PIGD)-phenotype-at-follow-up_vs_Tremor-dominant-phenotype-(TD)-at-follow-up_DOWN	NA	397864	1357
+bsdb:717/5/2_Parkinson's-disease:Postural-instability-and-gait-difficulty-(PIGD)-phenotype-at-follow-up_vs_Tremor-dominant-phenotype-(TD)-at-follow-up_UP	NA	239934
 bsdb:719/3/1_Parkinson's-disease:Parkinson's-Disease-Patients_vs_Healthy-Controls_UP	NA	239934	244127	946234	133925	577310	838	572511
 bsdb:719/3/2_Parkinson's-disease:Parkinson's-Disease-Patients_vs_Healthy-Controls_DOWN	NA	816	574697	1578	133925	841	1263	40544
 bsdb:719/4/1_REM-sleep-behavior-disorder:idiopathic-rapid-eye-movement-sleep-behavior-disorder_vs_Healthy-Controls_UP	NA	244127	946234	644652	572511
@@ -2627,11 +2630,11 @@ bsdb:763/1/1_Age-at-assessment:Old_vs_Young_UP	NA	165779	1716	1912216	1298	561	1
 bsdb:763/1/2_Age-at-assessment:Old_vs_Young_DOWN	NA	2767358	1578	1091	1637	1350	29521	336809	286	234	2923352	1912216
 bsdb:764/1/1_type-ii-diabetes-mellitus:diabetic_vs_healthy-controls_UP	NA	469	32008	67575	1060	1269	2745	1663	235888	1562	13159	28100	76890	2742	1835	1696	357	57494	191	1375
 bsdb:764/1/2_type-ii-diabetes-mellitus:diabetic_vs_healthy-controls_DOWN	NA	165696	1279
-bsdb:768/1/1_Mismatch-repair-cancer-syndrome:DNA-mismatch-repair-deficiency-(dMMR)_vs_proficient-DNA-mismatch-repair-(pMMR)_UP	NA	222	119977	12916	65496	239934	31988	1813	2039240	407217	2173039	12960	146937	191	1386	397864	1678	517	374	32008	872	1016	75	1653176	292691	535	59732	202907	102106	33870	1716	1295327	106589	1298	218207	893	896	2582840	898	1562	46913	204037	120831	538	308865	106591	547	1350	1041	44011	44259	332102	1775705	848	392332	28231	2910589	441	2053	644652	45667	209	2974257	89966	1934947	1921784	2063	2767842	47670	13134	2742	48075	293088	149698	2910978	68287	186650	57479	423349	1918540	482	2675232	2013	165696	283168	2909705	44249	1763521	93217	53335	1822464	256616	122277	18	1099	162289	302485	1632780	152267	118	836	838	2035811	1522432	286	379	1060	1073	32207	1379908	105	146918	263377	970	613	28105	399320	165695	146	107	2689589	1301	1883	2901164	2034504	29526	2812025	195950	33057	919	171436	432330	191303	34072	279	338
-bsdb:768/1/2_Mismatch-repair-cancer-syndrome:DNA-mismatch-repair-deficiency-(dMMR)_vs_proficient-DNA-mismatch-repair-(pMMR)_DOWN	NA	946234	1378
-bsdb:768/2/1_colorectal-cancer:DNA-mismatch-repair-deficiency-(dMMR)_vs_Healthy-controls-(CTRL)_UP	NA	848	1386	1918540	397864	283168	836	2974257	838	872
-bsdb:768/3/1_colorectal-cancer:proficient-DNA-mismatch-repair-(pMMR)_vs_Healthy-controls-(CTRL)_UP	NA	946234
-bsdb:768/3/2_colorectal-cancer:proficient-DNA-mismatch-repair-(pMMR)_vs_Healthy-controls-(CTRL)_DOWN	NA	102106	644652	2039240
+bsdb:768/1/1_Mismatch-repair-cancer-syndrome:deficient-DNA-mismatch-repair-(dMMR)-CRC_vs_proficient-DNA-mismatch-repair-(pMMR)-CRC_UP	NA	222	119977	12916	65496	239934	31988	1813	2039240	407217	2173039	12960	146937	191	1386	397864	1678	517	374	32008	872	1016	75	1653176	292691	535	59732	202907	102106	33870	1716	1295327	106589	1298	218207	893	896	2582840	898	1562	46913	204037	120831	538	308865	106591	547	1350	1041	44011	44259	332102	1775705	848	392332	28231	2910589	441	2053	644652	45667	209	2974257	89966	1934947	1921784	2063	2767842	47670	13134	2742	48075	293088	149698	2910978	68287	186650	57479	423349	1918540	482	2675232	2013	165696	283168	2909705	44249	1763521	93217	53335	1822464	256616	122277	18	1099	162289	302485	1632780	152267	118	836	838	2035811	1522432	286	379	1060	1073	32207	1379908	105	146918	263377	970	613	28105	399320	165695	146	107	2689589	1301	1883	2901164	2034504	29526	2812025	195950	33057	919	171436	432330	191303	34072	279	338
+bsdb:768/1/2_Mismatch-repair-cancer-syndrome:deficient-DNA-mismatch-repair-(dMMR)-CRC_vs_proficient-DNA-mismatch-repair-(pMMR)-CRC_DOWN	NA	946234	1378
+bsdb:768/2/1_colorectal-cancer:deficient-DNA-mismatch-repair-(dMMR)-CRC_vs_Healthy-controls-(CTRL)_UP	NA	1386	397864	872	848	2974257	1918540	283168	836	838
+bsdb:768/3/1_colorectal-cancer:proficient-DNA-mismatch-repair-(pMMR)-CRC_vs_Healthy-controls-(CTRL)_UP	NA	946234
+bsdb:768/3/2_colorectal-cancer:proficient-DNA-mismatch-repair-(pMMR)-CRC_vs_Healthy-controls-(CTRL)_DOWN	NA	2039240	102106	644652
 bsdb:770/2/1_Dry-eye-syndrome:Dry-Eye_vs_healthy-controls_UP	NA	1716
 bsdb:771/1/1_Health-study-participation:Bejing-healthy-volunteers_vs_Guangzhou-healthy-volunteers_UP	NA	1386	234	1653176	1716	80865	1350	561	2053	57499	1269	482	836	286	48736	379
 bsdb:771/1/2_Health-study-participation:Bejing-healthy-volunteers_vs_Guangzhou-healthy-volunteers_DOWN	NA	1637	286	29521	336809	40323	2767358	12916	238749	2923352	1912216
