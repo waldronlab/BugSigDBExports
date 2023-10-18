@@ -1,4 +1,4 @@
-# BugSigDB 2023-10-18_17:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2023-10-18_18:59_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	91061	1236	1654	1716	1301	162289	189330	33024	40544	2037	2049	506	186826	1300	31977	91347	1653	57037	1386	186817
 bsdb:1/1/2_colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	100883	1117
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	207244	57037
@@ -6,7 +6,7 @@ bsdb:1/2/2_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_DOWN	NA	1236	
 bsdb:1/3/1_Colon-Sessile-Serrated-Adenoma/Polyp:Sessile-serrated-adenoma-cases_vs_controls_DOWN	NA	526524	1236
 bsdb:1/4/1_colorectal-adenoma:Proximal-conventional-adenoma-cases_vs_controls_UP	NA	2037	2049	1654	1653	1716	1300	1485	836	91061	186826	162289	1301	1737406	165779	283168	31977	207244	189330	40544	33024	506	91347	1236	1853231
 bsdb:1/4/2_colorectal-adenoma:Proximal-conventional-adenoma-cases_vs_controls_DOWN	NA	100883
-bsdb:1/5/1_colorectal-adenoma:Distal-conventional-adenoma-cases_vs_controls_DOWN	NA	186801	31979	1485	81852	1350	31969	508458	990719	186803
+bsdb:1/5/1_colorectal-adenoma:Distal-conventional-adenoma-cases_vs_controls_DOWN	NA	990719	186801	31979	1485	81852	1350	31969	508458
 bsdb:1/6/1_colorectal-adenoma:Non-advanced-conventional-adenoma-cases_vs_controls_UP	NA	1654	283168	91061	186826	57037	1300	1301	189330	31977	40544	506	33024
 bsdb:1/7/1_colorectal-adenoma:advanced-conventional-adenoma-cases_vs_controls_UP	NA	2037	2049	1654	1716	836	1737406	165779	150022	162289	135625	712	724	1653
 bsdb:1/7/2_colorectal-adenoma:advanced-conventional-adenoma-cases_vs_controls_DOWN	NA	2005519	1117	990719	140625	28050	28211
@@ -165,7 +165,7 @@ bsdb:46/1/2_obesity:pediatric-obese_vs_controls_DOWN	NA	239935	853	838	4935	1983
 bsdb:47/1/1_obesity:low_vs_high-dietary-fiber_UP	NA	2005519	28211	1263
 bsdb:47/1/2_obesity:low_vs_high-dietary-fiber_DOWN	NA	544448
 bsdb:47/2/1_obesity:low_vs_hight-moderate-to-vigrous-physical-activity_UP	NA	543	91347
-bsdb:47/2/2_obesity:low_vs_hight-moderate-to-vigrous-physical-activity_DOWN	NA	189330	186803	28050
+bsdb:47/2/2_obesity:low_vs_hight-moderate-to-vigrous-physical-activity_DOWN	NA	189330	28050	186803
 bsdb:48/1/1_obesity:obese-adolescent_vs_control-adolescent_UP	NA	171552	995019	31977	838
 bsdb:48/1/2_obesity:obese-adolescent_vs_control-adolescent_DOWN	NA	815	171550	541000	816	239759	216851	459786
 bsdb:48/2/1_obesity:high-BMI-zscore_vs_low-BMI-zscores_UP	NA	838
@@ -2753,7 +2753,7 @@ bsdb:717/3/1_Parkinson's-disease:Participants-with-Parkinson's-Disease-at-time-o
 bsdb:717/3/2_Parkinson's-disease:Participants-with-Parkinson's-Disease-at-time-of-follow-up_vs_Healthy-controls-at-time-of-follow-up_DOWN	NA	816	838	171552	415002	841	1263
 bsdb:717/4/1_Parkinson's-disease:Postural-instability-and-gait-difficulty-(PIGD)-phenotype-at-baseline_vs_Tremor-dominant-phenotype-(TD)-at-baseline_DOWN	NA	1678	1485	1432051	543	1940338	1357	838	28221	186803
 bsdb:717/4/2_Parkinson's-disease:Postural-instability-and-gait-difficulty-(PIGD)-phenotype-at-baseline_vs_Tremor-dominant-phenotype-(TD)-at-baseline_UP	NA	830	204475	816	909930	186803	1898207
-bsdb:717/5/1_Parkinson's-disease:Postural-instability-and-gait-difficulty-(PIGD)-phenotype-at-follow-up_vs_Tremor-dominant-phenotype-(TD)-at-follow-up_DOWN	NA	397864	1357	186801	31979	186803	216572	171551	1485
+bsdb:717/5/1_Parkinson's-disease:Postural-instability-and-gait-difficulty-(PIGD)-phenotype-at-follow-up_vs_Tremor-dominant-phenotype-(TD)-at-follow-up_DOWN	NA	397864	1357	186801	31979	186803	216572	171551
 bsdb:717/5/2_Parkinson's-disease:Postural-instability-and-gait-difficulty-(PIGD)-phenotype-at-follow-up_vs_Tremor-dominant-phenotype-(TD)-at-follow-up_UP	NA	239934	216572
 bsdb:719/1/1_Parkinson's-disease:Parkinson's-Disease-Patients_vs_Healthy-Controls_UP	NA	186828	206349	45401
 bsdb:719/1/2_Parkinson's-disease:Parkinson's-Disease-Patients_vs_Healthy-Controls_DOWN	NA	186817	1385	194924	186820	1268	216572	75682
@@ -3047,11 +3047,13 @@ bsdb:798/1/2_urinary-tract-infection:Recurrent-Urinary-Tract-Infection-(RUTI)-pa
 bsdb:800/1/1_Health-study-participation:pandemic-group-with-covariates-controlled-for_vs_pre-pandemic-group-with-covariates-controlled-for_DOWN	NA	724	712
 bsdb:800/2/1_Health-study-participation:pandemic-group-without-covariates-controlled-for_vs_pre-pandemic-group-without-covariates-controlled-for_UP	NA	712
 bsdb:800/2/2_Health-study-participation:pandemic-group-without-covariates-controlled-for_vs_pre-pandemic-group-without-covariates-controlled-for_DOWN	NA	33958
-bsdb:800/3/1_Health-study-participation:pandemic-group_vs_pre-pandemic-group_DOWN	NA	31953
+bsdb:800/3/1_Health-study-participation:pandemic-group-according-to-the-number-of-days_vs_pandemic-groups-(with/without-covariates)_DOWN	NA	31953
 bsdb:802/1/1_Cachexia:cachexia-induced-mice_vs_Healthy-controls_UP	NA	1501226	1357	191303	1678	1263	1980681
 bsdb:802/1/2_Cachexia:cachexia-induced-mice_vs_Healthy-controls_DOWN	NA	49082	1485	128827	248744	1926677	1301	877428
 bsdb:803/1/1_colorectal-cancer:Samples-with-Colorectal-Cancer_vs_Normal-samples-free-from-Colorectal-Cancer_UP	NA	1817405	1694	161879	1747	1587	79681
 bsdb:803/1/2_colorectal-cancer:Samples-with-Colorectal-Cancer_vs_Normal-samples-free-from-Colorectal-Cancer_DOWN	NA	2037	33986	71999	1269	482	33069	172042
+bsdb:803/2/1_colorectal-cancer:Samples-with-Colorectal-Cancer_vs_Normal-samples-free-from-Colorectal-Cancer_UP	NA	1502	2701	117563	1060
+bsdb:803/2/2_colorectal-cancer:Samples-with-Colorectal-Cancer_vs_Normal-samples-free-from-Colorectal-Cancer_DOWN	NA	374
 bsdb:803/3/1_colorectal-cancer:Samples-with-Colorectal-Cancer_vs_Normal-samples-free-from-Colorectal-Cancer_UP	NA	149698
 bsdb:803/3/2_colorectal-cancer:Samples-with-Colorectal-Cancer_vs_Normal-samples-free-from-Colorectal-Cancer_DOWN	NA	745368	28231	165179	33038
 bsdb:804/1/1_Cognitive-impairment:SD-FMT:-receiving-sleep-deprivation-microbiota-FMT-mice_vs_CON-FMT:-receiving-control-microbiota-FMT-mice_UP	NA	200643	1918598	1224
@@ -3069,8 +3071,8 @@ bsdb:820/2/1_Respiratory-Syncytial-Virus-Infection:infant-after-the-amoxicillin-
 bsdb:820/2/2_Respiratory-Syncytial-Virus-Infection:infant-after-the-amoxicillin-treatment_vs_infan-before-amoxicillin-treatment_UP	NA	5052	5498	83174
 bsdb:821/1/1_Temperature:Warm-Temperature-Treatment_vs_Cool-Temperature-Treatment_DOWN	NA	67819	1239	51291	544448	1224
 bsdb:821/1/2_Temperature:Warm-Temperature-Treatment_vs_Cool-Temperature-Treatment_UP	NA	57723	201174	187857	976	221235	2030827	2	363464	62680	221216	95818	1090	32061	1117	1297	32066	203683	508458	74201	2056643
-bsdb:822/1/1_azithromycin:azithromycin(AZM)_vs_placebo_UP	NA	1654	186803	47670	2740	508215	34104	157	29465
-bsdb:822/1/2_azithromycin:azithromycin(AZM)_vs_placebo_DOWN	NA	416916	724	475	265975
+bsdb:822/1/1_azithromycin:azithromycin(AZM)-arm_vs_placebo-arm_UP	NA	1654	186803	47670	2740	508215	34104	157	29465
+bsdb:822/1/2_azithromycin:azithromycin(AZM)-arm_vs_placebo-arm_DOWN	NA	416916	724	475	265975
 bsdb:822/2/1_Chronic-lung-disease:HIV-associated-Chronic-Lung-Disease-(HCLD)_vs_placebo(control)_UP	NA	186803	47670	2740	508215	34104	157	29465
 bsdb:822/2/2_Chronic-lung-disease:HIV-associated-Chronic-Lung-Disease-(HCLD)_vs_placebo(control)_DOWN	NA	416916	724	475	265975	400060
 bsdb:822/3/1_Chronic-lung-disease:HIV-associated-Chronic-Lung-Disease-(HCLD)_vs_placebo(control)_UP	NA	47670	265975	400060	2740	508215	157
