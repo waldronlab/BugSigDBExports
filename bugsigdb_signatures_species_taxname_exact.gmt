@@ -1,4 +1,4 @@
-# BugSigDB 2023-10-23_16:59_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2023-10-23_17:59_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	Lacticaseibacillus zeae
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	Lacticaseibacillus zeae
 bsdb:1/6/1_colorectal-adenoma:Non-advanced-conventional-adenoma-cases_vs_controls_UP	NA	Lacticaseibacillus zeae
@@ -10,6 +10,10 @@ bsdb:9/1/1_breast-carcinoma:Breast-Cancer_vs_Control_UP	NA	Alkalihalobacillus al
 bsdb:9/1/2_breast-carcinoma:Breast-Cancer_vs_Control_DOWN	NA	Acinetobacter radioresistens	Escherichia coli	Ralstonia pickettii	Microbacterium barkeri
 bsdb:10/2/1_cervical-glandular-intraepithelial-neoplasia:Cervical-Intraepithelial-Lesion-HIV-patients_vs_Normal-tissue-HIV-patients_UP	NA	Bifidobacterium bifidum	Caldimonas thermodepolymerans	Gardnerella vaginalis
 bsdb:11/1/1_cervical-glandular-intraepithelial-neoplasia:HIV-patients-with-lesion-at-12-months_vs_HIV-pateints-with-normal-tissue-at-6-months_DOWN	NA	Gardnerella vaginalis
+bsdb:12/1/1_human-papilloma-virus-infection:HPV-persistent_vs_HPV-clearance_UP	NA	Parabacteroides johnsonii
+bsdb:12/2/1_human-papilloma-virus-infection:HPV-clearance_vs_HPV-negative_UP	NA	Gardnerella vaginalis	Ureaplasma urealyticum
+bsdb:12/3/1_human-papilloma-virus-infection:HPV-negative_vs_HPV-presistent-and-clearance_UP	NA	Lactobacillus crispatus
+bsdb:12/4/1_human-papilloma-virus-infection:HPV-clearance_vs_HPV-presistent-and-negative_UP	NA	Lachnospira eligens
 bsdb:13/1/1_cervical-glandular-intraepithelial-neoplasia:Cervical-Intraepithelial-Neoplasis-+2_vs_Cervical-Intraepithelial-Neoplasis--1_UP	NA	Lactobacillus crispatus	Bacteroides fragilis	Streptococcus agalactiae	Campylobacter ureolyticus
 bsdb:13/1/2_cervical-glandular-intraepithelial-neoplasia:Cervical-Intraepithelial-Neoplasis-+2_vs_Cervical-Intraepithelial-Neoplasis--1_DOWN	NA	Photobacterium damselae	Lactobacillus jensenii	Fannyhessea vaginae
 bsdb:13/2/1_cervical-glandular-intraepithelial-neoplasia:HPV-+ve_vs_HPV--ve-among-pateints-with-Cervical-Intraepithelial-Neoplasia-different-severity-status_UP	NA	Streptococcus agalactiae	Bacteroides fragilis	Stutzerimonas stutzeri	Peptostreptococcus anaerobius
@@ -32,6 +36,12 @@ bsdb:24/1/2_chronic-fatigue-syndrome:Chronic-Fatigue-patients_vs_Healthy-control
 bsdb:26/1/1_sex-design:female_vs_male_UP	NA	Bacteroides caccae
 bsdb:26/1/2_sex-design:female_vs_male_DOWN	NA	Phocaeicola plebeius
 bsdb:26/2/2_obesity:BMI->33-female_vs_male_DOWN	NA	Phocaeicola plebeius
+bsdb:31/1/1_chronic-fatigue-syndrome:CFS/ME-patients_vs_controls_UP	NA	Anaerostipes caccae	Enterocloster asparagiformis	Pseudoflavonifractor capillosus	[Clostridium] scindens	[Clostridium] symbiosum	[Ruminococcus] gnavus	Coprobacillus cateniformis
+bsdb:31/1/2_chronic-fatigue-syndrome:CFS/ME-patients_vs_controls_DOWN	NA	Alistipes putredinis	Anaerobutyricum hallii	Blautia obeum	Coprococcus catus	Dorea formicigenerans	Dorea longicatena	Eubacterium ventriosum	Faecalibacterium prausnitzii	Haemophilus parainfluenzae	Parabacteroides distasonis	Roseburia inulinivorans	Faecalibacterium sp.
+bsdb:31/2/1_chronic-fatigue-syndrome:CFS/ME-patients-with-IBS_vs_controls_UP	NA	Anaerostipes caccae	Enterocloster bolteae
+bsdb:31/2/2_chronic-fatigue-syndrome:CFS/ME-patients-with-IBS_vs_controls_DOWN	NA	Anaerobutyricum hallii	Coprococcus catus	Coprococcus comes	Dorea formicigenerans	Dorea longicatena	Faecalibacterium prausnitzii	Roseburia inulinivorans	Faecalibacterium sp.	Blautia obeum
+bsdb:31/3/1_chronic-fatigue-syndrome:CFS/ME-patients-without-IBS_vs_controls_UP	NA	Azotobacter group	Coprobacillus cateniformis	Dorea longicatena	Eggerthella lenta	Pseudoflavonifractor capillosus	[Clostridium] scindens	[Clostridium] symbiosum	[Ruminococcus] gnavus	Clostridium sp.
+bsdb:31/3/2_chronic-fatigue-syndrome:CFS/ME-patients-without-IBS_vs_controls_DOWN	NA	Coprococcus catus	Parabacteroides distasonis	Dorea formicigenerans
 bsdb:32/1/1_anorexia-nervosa:Aonerxia-Nervosa-patients_vs_Controls_UP	NA	Methanobrevibacter smithii
 bsdb:33/1/1_obesity:obese_vs_controls_UP	NA	Blautia hydrogenotrophica	Coprococcus catus	Eubacterium ventriosum	Ruminococcus bromii	Blautia obeum
 bsdb:33/1/2_obesity:obese_vs_controls_DOWN	NA	Flavonifractor plautii	Bacteroides faecichinchillae	Bacteroides thetaiotaomicron	Blautia wexlerae	Enterocloster bolteae
@@ -51,13 +61,24 @@ bsdb:38/3/1_body-odor-measurement:teen-underarm_vs_child-underarm_UP	NA	Staphylo
 bsdb:38/3/2_body-odor-measurement:teen-underarm_vs_child-underarm_DOWN	NA	Staphylococcus hominis
 bsdb:39/1/1_body-odor-measurement:youth-underarm-after-exercise_vs_youth-underarm-before_UP	NA	Staphylococcus epidermidis
 bsdb:39/2/1_body-odor-measurement:youth-Neck-before_vs_after-excercise_DOWN	NA	Cutibacterium granulosum	Acinetobacter schindleri
+bsdb:40/1/1_attention-deficit-hyperactivity-disorder:ADHD_vs_Controls_UP	NA	Bifidobacterium pseudocatenulatum	Bifidobacterium longum subsp. longum	Bifidobacterium adolescentis	Phocaeicola vulgatus	Bacteroides ovatus	Bacteroides uniformis
+bsdb:40/1/2_attention-deficit-hyperactivity-disorder:ADHD_vs_Controls_DOWN	NA	Coprococcus eutactus
 bsdb:41/1/1_psychosis:FIrst-episode-Psychosis_vs_Controls_UP	NA	Lactobacillus acidophilus	Deferribacter desulfuricans	Burkholderia cenocepacia	Desulfosporosinus acidiphilus	Halothiobacillus neapolitanus	Saccharophagus degradans	Francisella hispaniensis	Tropheryma whipplei	Brucella canis	Lactobacillus johnsonii	Halorubrum lacusprofundi	Limosilactobacillus reuteri	Nitrosococcus halophilus	Bartonella clarridgeiae	Brucella anthropi	Limosilactobacillus fermentum	Ligilactobacillus salivarius	Lactobacillus gasseri	Bifidobacterium dentium
 bsdb:41/1/2_psychosis:FIrst-episode-Psychosis_vs_Controls_DOWN	NA	Chlorobium chlorochromatii	Gallionella capsiferriformans	Nitrosomonas sp.	Nitrosospira multiformis	Thermococcus gammatolerans	Trichormus variabilis	Xenorhabdus nematophila	Leuconostoc gasicomitatum
+bsdb:43/1/1_Behcet's-syndrome:behcet's-disease_vs_controls_UP	NA	Haemophilus parainfluenzae
+bsdb:43/1/2_Behcet's-syndrome:behcet's-disease_vs_controls_DOWN	NA	Alloprevotella rava	Campylobacter concisus	Leptotrichia sp.	Selenomonas sp.	Actinomyces graevenitzii	Prevotella pallens	Lancefieldella parvula	Lachnoanaerobaculum orale	Solobacterium moorei	Veillonella sp.	Hoylesella enoeca
+bsdb:43/2/1_Behcet's-syndrome:immunosuppressant-users_vs_non-immunosuppressent-users-among-behcet's-patients_UP	NA	Porphyromonas catoniae
+bsdb:43/2/2_Behcet's-syndrome:immunosuppressant-users_vs_non-immunosuppressent-users-among-behcet's-patients_DOWN	NA	Prevotella baroniae	Oribacterium sp.
 bsdb:44/1/1_obesity:pediatric-obese_vs_controls_UP	NA	Faecalibacterium prausnitzii
 bsdb:44/1/2_obesity:pediatric-obese_vs_controls_DOWN	NA	Phocaeicola vulgatus	Bacteroides stercoris
+bsdb:46/1/1_obesity:pediatric-obese_vs_controls_DOWN	NA	Akkermansia muciniphila	Faecalibacterium prausnitzii	Saccharomyces sp.	[Candida] sp. (uncertain placement)
+bsdb:46/1/2_obesity:pediatric-obese_vs_controls_DOWN	NA	Akkermansia muciniphila	Faecalibacterium prausnitzii	Saccharomyces sp.	uncultured Candidatus Saccharimonas sp.	[Candida] sp. (uncertain placement)
+bsdb:46/2/1_obesity:pediatric-obese_vs_controls_UP	NA	Agathobacter rectalis	Candida albicans	Saccharomyces cerevisiae
 bsdb:51/1/2_colorectal-cancer:Carcinoma-patients_vs_postoperation-patients_DOWN	NA	[Ruminococcus] gnavus
 bsdb:51/2/2_colorectal-cancer:NDA(new-dev.-adenoma)_vs_CIT(cleain-intestine)_DOWN	NA	Eubacterium coprostanoligenes
 bsdb:59/1/2_titanium-dioxide-nanoparticle:pregnant-rats-exposed-to-titanium-dioxide-nanoparticles_vs_control-pregnant-rats-at-gestational-day-10_DOWN	NA	bacterium Ellin6075
+bsdb:61/2/1_obesity:infants-of-overweight-mothers_vs_infants-of-normal-weight-mother-at-age-6-month_UP	NA	Hathewaya histolytica	Bifidobacterium catenulatum
+bsdb:61/4/1_obesity:infants-of-excessive-maternal-weight-gain-mothers_vs_infants-of-normal-maternal-weight-gain-mothers-at-age-6-months_UP	NA	Hathewaya histolytica
 bsdb:63/1/1_cesarean-section:C-section-delivery_vs_vaginal-delivery-after-7-days-of-delivery_DOWN	NA	Lactobacillus gasseri
 bsdb:63/3/1_cesarean-section:C-section-delivery_vs_vaginal-delivery-after-6-months-of-delivery_DOWN	NA	Limosilactobacillus reuteri
 bsdb:64/1/1_periodontitis:periodontitis_vs_No-Periodontitis-within-negative-diabetic-background-only_UP	NA	Selenomonas sputigena	Streptococcus gordonii
@@ -82,6 +103,11 @@ bsdb:68/4/2_obesity:overweight-men_vs_normal-weight-men_DOWN	NA	[Ruminococcus] g
 bsdb:68/5/1_obesity:obese-women_vs_normal-weight-women_UP	NA	[Ruminococcus] gnavus
 bsdb:68/5/2_obesity:obese-women_vs_normal-weight-women_DOWN	NA	Clostridiales bacterium
 bsdb:68/6/1_obesity:overweight-women_vs_normal-weight-women_UP	NA	[Ruminococcus] gnavus
+bsdb:70/1/1_obesity:pediatric-obese_vs_pediatric-normal-weight_UP	NA	Bacteroides eggerthii	Bacteroides acidifaciens	Bacteroides ovatus	Prevotella copri
+bsdb:70/1/2_obesity:pediatric-obese_vs_pediatric-normal-weight_DOWN	NA	Phocaeicola plebeius	Prevotella stercorea	Prevotella copri
+bsdb:70/2/1_obesity:female-pediatric-obese_vs_female-pediatric-normal-weight_UP	NA	Bacteroides eggerthii
+bsdb:70/3/1_obesity:male-pediatric-obese_vs_male-pediatric-normal-weight_UP	NA	Bacteroides eggerthii
+bsdb:70/3/2_obesity:male-pediatric-obese_vs_male-pediatric-normal-weight_DOWN	NA	Phocaeicola plebeius
 bsdb:74/1/1_obesity:obese_vs_non-obese_UP	NA	Papillibacter cinnamivorans	[Clostridium] symbiosum	Dorea formicigenerans
 bsdb:74/1/2_obesity:obese_vs_non-obese_DOWN	NA	Bacteroides fragilis	Bacteroides intestinalis	Odoribacter splanchnicus	Bacteroides ovatus	Phocaeicola plebeius	Bacteroides stercoris	Bacteroides uniformis	Parabacteroides distasonis	Hoylesella oralis	Prevotella ruminicola	Alloprevotella tannerae
 bsdb:74/2/1_obesity:obese_vs_Nonobese-microbiota-cluster_UP	NA	[Clostridium] symbiosum	[Clostridium] colinum	Anaerobutyricum hallii
@@ -91,9 +117,15 @@ bsdb:74/3/2_obesity:high-BMI_vs_low-BMI_DOWN	NA	Bacteroides fragilis	Bacteroides
 bsdb:74/4/1_obesity:high-C-Reactive-Protein_vs_low-C-Reactive-Protein_UP	NA	Papillibacter cinnamivorans	Subdoligranulum variabile	Roseburia intestinalis	Lacrimispora sphenoides
 bsdb:74/4/2_obesity:high-C-Reactive-Protein_vs_low-C-Reactive-Protein_DOWN	NA	Bacteroides intestinalis	Phocaeicola plebeius	Odoribacter splanchnicus	Phocaeicola vulgatus	Parabacteroides distasonis
 bsdb:78/1/2_stimulus-or-stress-design:limited-nesting-stress_vs_controls_DOWN	NA	Eubacterium dolichum CAG:375	Akkermansia muciniphila	Mucispirillum schaedleri
+bsdb:79/1/1_obesity:Laparoscopic-sleeve-gastrectomy-baseline_vs_Laparoscopic-sleeve-gastrectomy-after-3-months-and-6-Months-combined_UP	NA	Bacteroides sp. 3_1_40A	Clostridium sp. L2-50	Ruminococcus obeum CAG:39	Dorea longicatena
+bsdb:79/2/1_obesity:Very-low-calorie-diet-baseline_vs_very-low-calorie-diet-after-3-months-and-6-months_DOWN	NA	Blautia hydrogenotrophica	Clostridium sp. D5	Clostridium sp. M62/1	Enterococcus faecium	Eubacterium limosum	Lacrimispora saccharolytica	[Clostridium] symbiosum	Coprobacillus cateniformis
 bsdb:81/1/1_obesity:3-Months-after-Roux-en-Y-gastric-bypass-surgery_vs_baseline_UP	NA	Escherichia coli	Klebsiella pneumoniae	Streptococcus salivarius	Veillonella atypica	Veillonella parvula	Streptococcus vestibularis	Streptococcus parasanguinis	Veillonella dispar	Streptococcus pneumoniae	Streptococcus thermophilus	Streptococcus australis	Akkermansia muciniphila	Clostridium perfringens	Streptococcus infantis	Streptococcus gordonii	Streptococcus anginosus	[Ruminococcus] lactaris	Alistipes shahii	Odoribacter splanchnicus	Bifidobacterium dentium	Enterococcus faecalis	Megasphaera micronuciformis	Anaerotruncus colihominis
 bsdb:81/1/2_obesity:3-Months-after-Roux-en-Y-gastric-bypass-surgery_vs_baseline_DOWN	NA	Faecalibacterium prausnitzii
 bsdb:81/2/1_obesity:one-year-after-Roux-en-Y-gastric-bypass-surgery_vs_baseline_UP	NA	Klebsiella pneumoniae	Escherichia coli	Streptococcus salivarius	Veillonella atypica	Veillonella parvula	Streptococcus vestibularis	Streptococcus parasanguinis	Veillonella dispar	Streptococcus thermophilus	Streptococcus australis	Streptococcus infantis	Alistipes shahii	Granulicatella adiacens	Schaalia odontolytica
+bsdb:82/1/1_obesity:before-surgery_vs_lean-controls_UP	NA	Faecalibacterium prausnitzii
+bsdb:82/1/2_obesity:before-surgery_vs_lean-controls_DOWN	NA	Thomasclavelia spiroformis	Brachyspira hyodysenteriae	Fusobacterium periodonticum
+bsdb:83/1/1_obesity:before-surgery_vs_after-surgery_UP	NA	Acinetobacter johnsonii	Anaerostipes caccae	Brachyspira hyodysenteriae	Coprococcus comes	Faecalibacterium prausnitzii	Fibrobacter succinogenes	Fusobacterium periodonticum	Lactobacillus acidophilus	Leptospira interrogans	Limosilactobacillus reuteri	Mycobacterium kansasii	Nakamurella multipartita	Pseudomonas mendocina	Staphylococcus epidermidis	Thermomicrobium roseum	Treponema pallidum	Thomasclavelia spiroformis
+bsdb:83/1/2_obesity:before-surgery_vs_after-surgery_DOWN	NA	Enterobacter cancerogenus	Salmonella enterica	Shigella boydii	Veillonella dispar	Veillonella parvula
 bsdb:84/1/1_obesity:after-surgery_vs_lean-controls_UP	NA	Enterobacter cancerogenus	Veillonella parvula	Shigella boydii
 bsdb:84/1/2_obesity:after-surgery_vs_lean-controls_DOWN	NA	Thomasclavelia spiroformis	Brachyspira hyodysenteriae	Limosilactobacillus reuteri	Anaerostipes caccae	Fusobacterium periodonticum	Thermomicrobium roseum	Staphylococcus epidermidis	Fibrobacter succinogenes
 bsdb:88/1/2_schizophrenia:schizophrenia_vs_non-psychiatric-controls_DOWN	NA	Haemophilus parainfluenzae
@@ -114,6 +146,8 @@ bsdb:97/4/2_obesity:obese-patients-3-moths-after-Roux-en-Y-gastric-bypass-RYGB3_
 bsdb:98/1/1_chronic-kidney-disease:CKD_vs_controls_UP	NA	Azotobacter group	Yersinia intermedia
 bsdb:98/1/2_chronic-kidney-disease:CKD_vs_controls_DOWN	NA	Galloisiana yuasai
 bsdb:108/1/1_anorexia-nervosa:anorexia-nervosa-patients_vs_healthy-controls_DOWN	NA	Bacteroides fragilis	Lactiplantibacillus plantarum	Blautia coccoides	[Clostridium] leptum
+bsdb:110/1/1_schizophrenia:schizophrenia_vs_healthy-controls_DOWN	NA	Escherichia coli
+bsdb:110/1/2_schizophrenia:schizophrenia_vs_healthy-controls_DOWN	NA	Blautia coccoides
 bsdb:113/1/1_unipolar-depression:MDD_vs_controls_DOWN	NA	Amylolactobacillus amylophilus
 bsdb:115/1/1_unipolar-depression:MDD_vs_controls_UP	NA	Escherichia coli	Megasphaera elsdenii	Oscillibacter valericigenes	Bifidobacterium adolescentis	Prevotella melaninogenica	Bifidobacterium dentium
 bsdb:115/1/2_unipolar-depression:MDD_vs_controls_DOWN	NA	Haemophilus parainfluenzae
@@ -129,7 +163,16 @@ bsdb:120/2/2_physical-activity:Ad-libitum-group_vs_exercise-group_DOWN	NA	[Eubac
 bsdb:121/1/1_gingivitis:gingivitis_vs_healthy-controls_UP	NA	Porphyromonas endodontalis	Porphyromonas gingivalis	Prevotella intermedia	Bacteroidales genomosp. P1
 bsdb:122/1/1_breast-carcinoma:tumor-tissue_vs_normal-tissue_UP	NA	Methylobacterium radiotolerans
 bsdb:122/1/2_breast-carcinoma:tumor-tissue_vs_normal-tissue_DOWN	NA	Sphingobium yanoikuyae	Novosphingobium aromaticivorans	Streptococcus pseudopneumoniae
+bsdb:124/1/1_diet:body-builders-(high-protein)_vs_distance-runners-(high-carb)_UP	NA	Blautia wexlerae	Enterobacter cloacae
+bsdb:124/1/2_diet:body-builders-(high-protein)_vs_distance-runners-(high-carb)_DOWN	NA	Bifidobacterium adolescentis	Ruminococcus callidus	Bacteroides caccae	Escherichia coli
+bsdb:124/2/2_diet:body-builders-(high-protein)_vs_control_DOWN	NA	Blautia wexlerae	Anaerobutyricum hallii	Bacteroides stercoris	Ruminococcus callidus	Bifidobacterium longum subsp. longum	Escherichia coli	Latilactobacillus sakei
+bsdb:124/3/2_diet:distance-runners-(high-carb)_vs_control_DOWN	NA	Enterobacter cloacae	Weissella confusa	[Clostridium] innocuum	Bacteroides caccae	Anaerobutyricum hallii	Blautia wexlerae
 bsdb:129/1/1_multiple-sclerosis:multiple-sclerosis_vs_healthy-controls_UP	NA	Azotobacter group
+bsdb:131/4/1_diet:Cara-Cara_vs_controls-at-time-7_UP	NA	Eubacterium dolichum CAG:375
+bsdb:131/6/1_diet:Cara-Cara_vs_Bahia-at-time-7_UP	NA	Eubacterium dolichum CAG:375
+bsdb:134/1/1_diet:6-months-after-Average-Danish-Diet_vs_before-Average-Danish-Diet_UP	NA	Anaerobutyricum hallii
+bsdb:134/2/1_diet:6-months-after--New-Nordic-Diet_vs_before--New-Nordic-Diet_UP	NA	Anaerobutyricum hallii	Lactobacillus acidophilus	Escherichia coli
+bsdb:134/2/2_diet:6-months-after--New-Nordic-Diet_vs_before--New-Nordic-Diet_DOWN	NA	Methanobrevibacter smithii
 bsdb:136/2/1_diet:two-weeks-after-a-dietry-intervention_vs_before-dietary-intervention_UP	NA	Eggerthella lenta	Howardella ureilytica	Lactococcus lactis	Bifidobacterium longum subsp. longum	Dorea longicatena	Bifidobacterium adolescentis	Collinsella aerofaciens
 bsdb:136/2/2_diet:two-weeks-after-a-dietry-intervention_vs_before-dietary-intervention_DOWN	NA	Bacteroides clarus	Bacteroides eggerthii	Lachnospira eligens	Phascolarctobacterium succinatutens	Phocaeicola plebeius	Roseburia hominis	Slackia isoflavoniconvertens	[Ruminococcus] lactaris	[Eubacterium] siraeum
 bsdb:139/1/2_head-and-neck-squamous-cell-carcinoma:HNSCC_vs_controls_DOWN	NA	Capnocytophaga leadbetteri	Hoylesella nanceiensis	Selenomonas sputigena
@@ -150,6 +193,11 @@ bsdb:155/1/1_esophageal-cancer:Esophageal-Adenocarcinoma-(EAC)_vs_controls_UP	NA
 bsdb:155/1/2_esophageal-cancer:Esophageal-Adenocarcinoma-(EAC)_vs_controls_DOWN	NA	Corynebacterium durum	Hoylesella nanceiensis	Streptococcus pneumoniae	Lachnoanaerobaculum umeaense	Oribacterium parvum	Solobacterium moorei	Neisseria flavescens	Neisseria sicca
 bsdb:155/2/1_esophageal-cancer:Esophageal-Squamous-cell-carcinoma-(ESCC)_vs_controls_UP	NA	Hoylesella nanceiensis	Neisseria weaveri	Treponema vincentii
 bsdb:155/2/2_esophageal-cancer:Esophageal-Squamous-cell-carcinoma-(ESCC)_vs_controls_DOWN	NA	Aggregatibacter aphrophilus
+bsdb:156/1/2_gastric-adenocarcinoma:Gastric-cancer_vs_healthy-controls_DOWN	NA	Eubacterium rectale CAG:36
+bsdb:156/2/2_gastric-adenocarcinoma:Gastric-cancer_vs_healthy-controls_DOWN	NA	Eubacterium rectale CAG:36
+bsdb:158/2/1_lung-cancer:lung-cancer-patients_vs_healthy-volunteers_UP	NA	Phocaeicola plebeius	Phocaeicola vulgatus
+bsdb:158/2/2_lung-cancer:lung-cancer-patients_vs_healthy-volunteers_DOWN	NA	Clostridiales bacterium
+bsdb:159/2/2_gingival-disease:3-months-after-the-placement-of-the-brackets_vs_before_DOWN	NA	Streptococcus oralis subsp. tigurinus
 bsdb:161/2/2_lung-cancer:NSCLC_vs_healthy-controls_DOWN	NA	Prevotella melaninogenica
 bsdb:166/1/1_chronic-kidney-disease:chronic-kidney-disease_vs_healthy-controls_UP	NA	[Ruminococcus] gnavus CAG:126	[Ruminococcus] torques CAG:61	[Clostridium] innocuum
 bsdb:166/1/2_chronic-kidney-disease:chronic-kidney-disease_vs_healthy-controls_DOWN	NA	Anaerobutyricum hallii	Eubacterium coprostanoligenes	Eubacterium rectale CAG:36
@@ -178,6 +226,8 @@ bsdb:171/5/1_gastric-cancer:gastric-cancer-patients_vs_controls_UP	NA	Fusobacter
 bsdb:171/5/2_gastric-cancer:gastric-cancer-patients_vs_controls_DOWN	NA	Porphyromonas sp.
 bsdb:172/1/1_Cannabis-use:marijuana-usage-group_vs_controls-(lateral-border-of-tongue)_UP	NA	Delftia acidovorans	Rothia mucilaginosa	Veillonella atypica	Bosea vestrisii	Actinomyces graevenitzii
 bsdb:172/1/2_Cannabis-use:marijuana-usage-group_vs_controls-(lateral-border-of-tongue)_DOWN	NA	Bergeyella sp.	Hoylesella nanceiensis
+bsdb:174/1/1_gastric-cancer:cancer-tissue_vs_adjacent-normal-tissue_UP	NA	Prevotella oris	Prevotella denticola	Acinetobacter baumannii	Pseudomonas aeruginosa
+bsdb:174/1/2_gastric-cancer:cancer-tissue_vs_adjacent-normal-tissue_DOWN	NA	Helicobacter pylori	Serratia marcescens	Levilactobacillus brevis	Lactococcus lactis
 bsdb:180/1/1_gastric-carcinoma:gastric-carcinoma_vs_chronic-gastritis_UP	NA	Achromobacter sp.	Chryseobacterium sp.	Citrobacter sp.	Clostridium sp.	Phyllobacterium sp.	Pseudomonas sp.	Rhodococcus sp. (in: high G+C Gram-positive bacteria)
 bsdb:180/1/2_gastric-carcinoma:gastric-carcinoma_vs_chronic-gastritis_DOWN	NA	Helicobacter sp.	Neisseria sp.	Prevotella sp.	Streptococcus sp.	Gemella sp.
 bsdb:183/1/1_Crohn's-disease:crohn-disease-ASCA-positive-patients_vs_crohn-disease-ASCA-negative-patients_UP	NA	[Ruminococcus] torques
@@ -186,6 +236,8 @@ bsdb:186/2/1_colorectal-cancer:Smoke-exposed_vs_Smoke-free-group_UP	NA	Bacillus 
 bsdb:186/2/2_colorectal-cancer:Smoke-exposed_vs_Smoke-free-group_DOWN	NA	Bacteroides cellulosilyticus	Clostridiales bacterium CCNA10	Erysipelotrichaceae bacterium GAM147	Limosilactobacillus reuteri	Parabacteroides distasonis	Parabacteroides sp. CT06	Phocaeicola dorei	Phocaeicola vulgatus	Streptococcus suis
 bsdb:188/1/1_cervical-cerclage:Vaginal-microbiome-of-symptomatic-women-prior-ro-cerclage_vs_Vaginal-microbiome-of-asymptomatic-women-prior-to-cerclage_UP	NA	Streptococcus pseudopneumoniae	Prevotella disiens	Gardnerella vaginalis
 bsdb:188/1/2_cervical-cerclage:Vaginal-microbiome-of-symptomatic-women-prior-ro-cerclage_vs_Vaginal-microbiome-of-asymptomatic-women-prior-to-cerclage_DOWN	NA	Lactobacillus crispatus
+bsdb:189/1/1_chronic-hepatitis-B-virus-infection:chronic-hepatitis-B-patients_vs_healthy-controls_UP	NA	Clostridium sp.
+bsdb:189/1/2_chronic-hepatitis-B-virus-infection:chronic-hepatitis-B-patients_vs_healthy-controls_DOWN	NA	Clostridiales bacterium	Escherichia/Shigella sp.
 bsdb:191/1/1_equol:equol-producers_vs_equol-non-producers_UP	NA	Adlercreutzia equolifaciens subsp. celatus	Slackia isoflavoniconvertens
 bsdb:194/1/1_ovarian-cancer:ovarian-cancer_vs_normal-tissue_UP	NA	Lactococcus piscium
 bsdb:194/1/2_ovarian-cancer:ovarian-cancer_vs_normal-tissue_DOWN	NA	Moraxella osloensis	Sphingobium yanoikuyae	Providencia vermicola	Acinetobacter lwoffii	Sphingomonas azotifigens
@@ -195,6 +247,8 @@ bsdb:202/3/1_autism:children-with-autism-mental-regression-(AMR)_vs_healthy-cont
 bsdb:204/1/1_premature-birth:mothers-whose-newborns-were-delivered-at-<34-gestational-week_vs_mothers-whose-newborns-were-delivered-at-≥37-getastional-weeks_DOWN	NA	Lactobacillus gasseri	Lactobacillus johnsonii	Bifidobacterium longum subsp. longum	Bifidobacterium breve	Lactobacillus acidophilus	Lactobacillus crispatus	Lactobacillus iners	Ralstonia solanacearum
 bsdb:205/1/1_human-papilloma-virus-infection:HPV-positive-women_vs_HPV-negative-women_UP	NA	Gardnerella vaginalis	Lactobacillus gasseri
 bsdb:206/1/1_gastric-cancer:patients-diagnosed-with-gastric-cancer_vs_patients-diagnosed-with-gastritis_UP	NA	Clostridium colicanis	Fusobacterium canifelinum	Fusobacterium nucleatum	Lactobacillus gasseri	Limosilactobacillus reuteri	Megasphaera micronuciformis	Prevotella intermedia	Prevotella oris	Streptococcus gordonii	Streptococcus parasanguinis
+bsdb:212/1/1_diet:low-fiber-(Q1-and-Q2)_vs_high-fiber-(Q3-and-Q4)_UP	NA	Bacteroides uniformis	Eubacterium dolichum CAG:375
+bsdb:212/1/2_diet:low-fiber-(Q1-and-Q2)_vs_high-fiber-(Q3-and-Q4)_DOWN	NA	Eubacterium dolichum CAG:375	Bacteroides uniformis
 bsdb:213/1/1_diet:low-fiber-intake_vs_higher-fiber-intake_UP	NA	Bacteroides uniformis	Amedibacillus dolichus
 bsdb:213/2/1_diet:low-fiber-from-FRUITS/VEGETABLES_vs_high-fiber-from-FRUITS/VEGETABLES_UP	NA	Bacteroides uniformis
 bsdb:213/3/1_diet:low-fiber-from-BEANS_vs_high-fiber-from-BEANS_UP	NA	Bacteroides uniformis
@@ -202,6 +256,11 @@ bsdb:213/3/2_diet:low-fiber-from-BEANS_vs_high-fiber-from-BEANS_DOWN	NA	Faecalib
 bsdb:215/1/1_Eczema:infants-with-eczema_vs_healthy-control-infants_UP	NA	Akkermansia muciniphila	Bacteroides clarus	Cronobacter sakazakii	Faecalibacterium prausnitzii	Gemmiger formicilis	Parabacteroides merdae	Phocaeicola plebeius	Prevotella buccae	[Ruminococcus] gnavus
 bsdb:215/1/2_Eczema:infants-with-eczema_vs_healthy-control-infants_DOWN	NA	Bacteroides fragilis	Bifidobacterium bifidum	Bifidobacterium longum subsp. longum	Holdemanella biformis	Streptococcus salivarius
 bsdb:216/1/1_cesarean-section:C-section_vs_vaginal-delivery_DOWN	NA	Bacteroides caccae	Bacteroides fragilis	Bacteroides ovatus	Bifidobacterium catenulatum	Bifidobacterium longum subsp. longum	Clostridium perfringens	Phocaeicola vulgatus	Bifidobacterium bifidum	Lactobacillus gasseri	Limosilactobacillus reuteri
+bsdb:217/1/1_Eczema:child-with-eczema_vs_healthy-control_UP	NA	Ruminococcus bromii	[Clostridium] nexile	[Ruminococcus] lactaris	[Clostridium] leptum	[Clostridium] cellulosi
+bsdb:217/1/2_Eczema:child-with-eczema_vs_healthy-control_DOWN	NA	Bacteroides fragilis	Bacteroides ovatus	Phocaeicola plebeius	Bacteroides stercoris	Bacteroides uniformis	Phocaeicola vulgatus	Alloprevotella tannerae
+bsdb:217/2/1_age:infant-at-18-months_vs_infant-at-6-months_UP	NA	Clostridiales bacterium
+bsdb:217/3/1_age:infant-at-18-months_vs_infant-at-6-months_UP	NA	Ruminococcus bromii	Phascolarctobacterium faecium	Butyrivibrio crossotus	[Clostridium] symbiosum	Lachnobacterium bovis	Coprobacillus cateniformis	Sutterella wadsworthensis
+bsdb:217/3/2_age:infant-at-18-months_vs_infant-at-6-months_DOWN	NA	Lactiplantibacillus plantarum
 bsdb:218/1/2_hepatocellular-carcinoma:non-HBV-non-HCV-related-HCC_vs_healthy-controls_DOWN	NA	Eubacterium ventriosum
 bsdb:218/3/1_hepatocellular-carcinoma:non-HBV-non-HCV-patients_vs_HBV-related-HCC-patients_DOWN	NA	Eubacterium ventriosum
 bsdb:219/1/1_diet:lower-fiber-(cracker),-at-baseline_vs_higher-fiber-(almonds)---at-baseline_UP	NA	Bacteroides fragilis
@@ -304,12 +363,41 @@ bsdb:271/5/1_acute-lymphoblastic-leukemia:Minimal-Residual-Disease--(negativity)
 bsdb:271/6/1_acute-lymphoblastic-leukemia:Age-less-than-65-years-old_vs_Age-greater-than-65-years-old_UP	NA	Anaerobutyricum hallii
 bsdb:273/1/1_acute-lymphoblastic-leukemia:Infectious-complications-(IC)_vs_non-infectious-complications-(NIC)_DOWN	NA	Faecalibacterium prausnitzii
 bsdb:273/1/2_acute-lymphoblastic-leukemia:Infectious-complications-(IC)_vs_non-infectious-complications-(NIC)_UP	NA	Achromobacter sp.	Agrobacterium tumefaciens	Brevundimonas diminuta
+bsdb:274/1/1_human-papilloma-virus-infection:HPV+_vs_HPV-_UP	NA	Sneathia sanguinegens
+bsdb:274/1/2_human-papilloma-virus-infection:HPV+_vs_HPV-_DOWN	NA	Peptoniphilus grossensis	Fenollaria massiliensis	Mobiluncus mulieris	Fusobacterium nucleatum	Anaerococcus lactolyticus	Streptococcus anginosus	Lactobacillus gasseri
+bsdb:274/2/1_cervical-glandular-intraepithelial-neoplasia:low-grade-dysplasia_vs_HPV-_UP	NA	Sneathia sanguinegens	Gemella asaccharolytica	Mobiluncus mulieris	Fannyhessea vaginae
+bsdb:274/2/2_cervical-glandular-intraepithelial-neoplasia:low-grade-dysplasia_vs_HPV-_DOWN	NA	Anaerococcus obesiensis	Campylobacter ureolyticus	Peptoniphilus grossensis	Finegoldia magna	Fusobacterium nucleatum	Peptoniphilus coxii	Peptoniphilus duerdenii	Streptococcus anginosus	Lactobacillus gasseri	Lactobacillus crispatus
+bsdb:274/3/1_cervical-glandular-intraepithelial-neoplasia:high-grade-dysplasia_vs_HPV-_UP	NA	Sneathia sanguinegens	Prevotella amnii	Hoylesella buccalis	Fannyhessea vaginae	Streptococcus agalactiae
+bsdb:274/3/2_cervical-glandular-intraepithelial-neoplasia:high-grade-dysplasia_vs_HPV-_DOWN	NA	Peptoniphilus grossensis	Prevotella bivia	Anaerococcus obesiensis	Peptoniphilus lacrimalis	Peptoniphilus coxii	Anaerococcus lactolyticus	Peptoniphilus duerdenii	Fenollaria massiliensis	Dialister propionicifaciens	Prevotella disiens	Finegoldia magna	Prevotella corporis	Lactobacillus gasseri
+bsdb:274/4/1_cervical-cancer:invasive-cervical-carcinoma_vs_HPV-_UP	NA	Sneathia sanguinegens
+bsdb:274/4/2_cervical-cancer:invasive-cervical-carcinoma_vs_HPV-_DOWN	NA	Peptoniphilus grossensis	Prevotella bivia	Winkia neuii subsp. anitrata	Fenollaria massiliensis	Streptococcus anginosus	Anaerococcus lactolyticus	Peptoniphilus duerdenii	Peptoniphilus coxii	Prevotella corporis	Dialister propionicifaciens	Fusobacterium nucleatum	Lactobacillus gasseri	Lactobacillus crispatus
+bsdb:274/5/1_human-papilloma-virus-infection:HPV+_vs_HPV-_UP	NA	Peptostreptococcus anaerobius
+bsdb:274/5/2_human-papilloma-virus-infection:HPV+_vs_HPV-_DOWN	NA	Hoylesella timonensis	Prevotella bivia	Peptoniphilus grossensis	Anaerococcus obesiensis
+bsdb:274/6/1_cervical-glandular-intraepithelial-neoplasia:low-grade-dysplasia_vs_HPV-_UP	NA	Sneathia sanguinegens	Prevotella disiens	Anaerococcus lactolyticus	Gemella asaccharolytica	Winkia neuii subsp. anitrata	Mobiluncus mulieris	Lactobacillus iners	Peptostreptococcus anaerobius	Hoylesella buccalis	Prevotella amnii	Lactobacillus gasseri
+bsdb:274/6/2_cervical-glandular-intraepithelial-neoplasia:low-grade-dysplasia_vs_HPV-_DOWN	NA	Peptoniphilus coxii	Lactobacillus crispatus
+bsdb:274/7/1_cervical-glandular-intraepithelial-neoplasia:high-grade-dysplasia_vs_HPV-_UP	NA	Prevotella amnii	Lactobacillus iners	Sneathia sanguinegens
+bsdb:274/7/2_cervical-glandular-intraepithelial-neoplasia:high-grade-dysplasia_vs_HPV-_DOWN	NA	Anaerococcus lactolyticus	Anaerococcus obesiensis	Campylobacter ureolyticus	Corynebacterium coyleae	Fenollaria massiliensis	Peptoniphilus coxii	Peptoniphilus duerdenii	Peptoniphilus grossensis	Peptoniphilus lacrimalis	Prevotella bivia	Hoylesella buccalis	Hoylesella timonensis	Ezakiella coagulans	Actinotignum schaalii
+bsdb:274/8/1_cervical-cancer:invasive-cervical-carcinoma_vs_HPV-_DOWN	NA	Lactobacillus crispatus	Peptoniphilus grossensis	Prevotella bivia
+bsdb:274/9/1_human-papilloma-virus-infection,cervical-cancer:normal-pH_vs_abnormal-pH_UP	NA	Prevotella amnii	Veillonella montpellierensis	Metamycoplasma hominis	Fusobacterium nucleatum	Sneathia sanguinegens	Mobiluncus mulieris	Prevotella disiens	Streptococcus agalactiae
+bsdb:274/9/2_human-papilloma-virus-infection,cervical-cancer:normal-pH_vs_abnormal-pH_DOWN	NA	Lactobacillus gasseri
+bsdb:274/10/1_human-papilloma-virus-infection:Hispanic_vs_non-Hispanic_UP	NA	Veillonella montpellierensis	Mobiluncus mulieris	Sneathia sanguinegens	Fannyhessea vaginae	Streptococcus anginosus
+bsdb:274/10/2_human-papilloma-virus-infection:Hispanic_vs_non-Hispanic_DOWN	NA	Hoylesella buccalis	Anaerococcus vaginalis	Lactobacillus gasseri
 bsdb:276/2/1_multiple-myeloma:Multiple-Myeloma-patient_vs_healthy-control_UP	NA	Cronobacter sakazakii
 bsdb:276/2/2_multiple-myeloma:Multiple-Myeloma-patient_vs_healthy-control_DOWN	NA	Anaerobutyricum hallii
 bsdb:276/3/1_multiple-myeloma:Multiple-Myeloma-patient_vs_healthy-control_UP	NA	Nicotiana otophora
 bsdb:276/4/1_multiple-myeloma:Multiple-Myeloma-patient_vs_healthy-relatives-control_UP	NA	Pseudomonas aeruginosa	[Clostridium] leptum
+bsdb:280/1/1_cervical-glandular-intraepithelial-neoplasia:high-grade-squamus-intraepithelial-lesion_vs_low-grade-squamus-intraepithelial-lesion_UP	NA	Peptostreptococcus anaerobius	Anaerococcus tetradius	Sneathia sanguinegens
+bsdb:280/1/2_cervical-glandular-intraepithelial-neoplasia:high-grade-squamus-intraepithelial-lesion_vs_low-grade-squamus-intraepithelial-lesion_DOWN	NA	Lactobacillus jensenii	Limosilactobacillus coleohominis
+bsdb:281/1/1_acute-lymphoblastic-leukemia:Fecal-bacterial-composition-in-small-intestines-of-leukemia-mice_vs_Fecal-bacterial-composition-in-small-intestines-of-control-mice_UP	NA	Dehalobacterium formicoaceticum
 bsdb:283/1/1_human-papilloma-virus-infection:HPV+_vs_HPV-_UP	NA	Gardnerella vaginalis	Atopobium sp.	Aerococcus christensenii	Peptoniphilus asaccharolyticus	Limosilactobacillus vaginalis
 bsdb:283/1/2_human-papilloma-virus-infection:HPV+_vs_HPV-_DOWN	NA	Fannyhessea vaginae	Lactobacillus jensenii	Lactobacillus crispatus
+bsdb:284/2/1_chronic-kidney-disease:Chronic-kidney-disease_vs_healthy-controls_UP	NA	Actinomyces naeslundii	Campylobacter curvus	Capnocytophaga sp.	Ligilactobacillus salivarius	Limosilactobacillus fermentum	Streptococcus mitis	Streptococcus mutans	Streptococcus sobrinus	[Eubacterium] infirmum
+bsdb:284/2/2_chronic-kidney-disease:Chronic-kidney-disease_vs_healthy-controls_DOWN	NA	Acholeplasmatales bacterium canine oral taxon 172	Capnocytophaga haemolytica	Haemophilus haemolyticus	Johnsonella ignava	Neisseria sp. GHG17	Oribacterium sp. CM12	Prevotella genomosp. P6	Prevotella intermedia	Prevotella melaninogenica	Hoylesella nanceiensis	Prevotella sp. oral clone GU027	Pseudoleptotrichia goodfellowii
+bsdb:284/4/1_chronic-kidney-disease:Chronic-kidney-disease_vs_healthy-controls_UP	NA	Streptococcus mutans
+bsdb:285/1/1_multiple-sclerosis:pediatric-multiple-sclerosis_vs_healthy-controls_UP	NA	Prevotella copri
+bsdb:285/1/2_multiple-sclerosis:pediatric-multiple-sclerosis_vs_healthy-controls_DOWN	NA	Prevotella copri	Peptostreptococcus anaerobius
+bsdb:285/3/1_multiple-sclerosis:IMD-naive-cases-multiple-sclerosis_vs_healthy-controls_UP	NA	Akkermansia muciniphila	Bacteroides caccae	Bacteroides ovatus	Blautia producta	Faecalibacterium prausnitzii	Haemophilus parainfluenzae	Parabacteroides distasonis	Phocaeicola plebeius	Prevotella copri	Prevotella stercorea	Veillonella dispar	[Ruminococcus] gnavus
+bsdb:285/3/2_multiple-sclerosis:IMD-naive-cases-multiple-sclerosis_vs_healthy-controls_DOWN	NA	Prevotella copri	Ligilactobacillus ruminis	Parabacteroides distasonis	Bacteroides uniformis	Mitsuokella multacida	Peptostreptococcus anaerobius	Akkermansia muciniphila	Bacteroides eggerthii	Faecalibacterium prausnitzii	Bacteroides fragilis	Phocaeicola coprophilus	Bacteroides ovatus
 bsdb:287/1/1_human-papilloma-virus-infection:Visit-1-HPV-(progression)_vs_HPV-(clearance)_UP	NA	Aerococcus christensenii	Anaerococcus prevotii	Bifidobacterium bifidum	Bifidobacterium longum subsp. longum	Blautia hansenii	Campylobacter canadensis	Campylobacter ureolyticus	Corynebacterium atypicum	Gardnerella vaginalis	Hallella bergensis	Methylobacillus flagellatus	Methylobacillus glycogenes	Neisseria gonorrhoeae	Peptoniphilus harei	Peptoniphilus indolicus	Porphyromonas bennonis	Prevotella melaninogenica	Prevotella veroralis	Schaalia meyeri	Schaalia odontolytica	Sphingomonas leidyi	Treponema pallidum	Veillonella montpellierensis
 bsdb:287/1/2_human-papilloma-virus-infection:Visit-1-HPV-(progression)_vs_HPV-(clearance)_DOWN	NA	Prevotella paludivivens	Lactobacillus iners
 bsdb:287/2/1_human-papilloma-virus-infection:Visit-2-HPV-(progression)_vs_HPV-(clearance)_UP	NA	Prevotella amnii	Porphyromonas circumdentaria	Parvimonas micra	Dialister succinatiphilus	Anaerococcus prevotii	Peptoniphilus harei	Clostridioides difficile	Gemella bergeri	Chryseobacterium gleum	Coprococcus eutactus
@@ -318,6 +406,12 @@ bsdb:288/1/1_Phenylketonuria:phenylketonuric-with-Phe-restricted-diet_vs_mild-hy
 bsdb:289/1/1_health-trait:suboptimal-health-status_vs_healthy-controls_UP	NA	Clostridiales bacterium
 bsdb:291/1/1_Graves-disease:graves-disease_vs_healthy-controls_UP	NA	Campylobacter showae	Veillonella sp.	Morganella morganii
 bsdb:291/1/2_Graves-disease:graves-disease_vs_healthy-controls_DOWN	NA	Lactobacillus gasseri	Alistipes sp.
+bsdb:293/4/1_human-papilloma-virus-infection:HPV+_vs_HPV-_UP	NA	Ureaplasma parvum
+bsdb:293/4/2_human-papilloma-virus-infection:HPV+_vs_HPV-_DOWN	NA	Ezakiella massiliensis	Pseudomonas aeruginosa
+bsdb:293/5/1_human-papilloma-virus-infection:new-acquisition-of-HPV-within-a-year_vs_no-new-acquisition-of-HPV-within-a-year_UP	NA	Alloprevotella tannerae	Prevotella nigrescens	Prevotella oulorum	Dialister invisus
+bsdb:293/6/1_human-papilloma-virus-infection:without-any-HPV-type-cleared_vs_with-any-HPV-type-cleared-in-a-year_UP	NA	Gemella asaccharolytica	Prevotella amnii	Labilithrix luteola	Lachnotalea glycerini
+bsdb:293/7/1_human-papilloma-virus-infection:at-least-one-HPV-type-persisted_vs_no-HPV-type-persisted_UP	NA	Hoylesella timonensis	Microvirga lupini	Dialister invisus	Coprococcus comes	Deinococcus radiopugnans	Anaerobacterium chartisolvens
+bsdb:293/7/2_human-papilloma-virus-infection:at-least-one-HPV-type-persisted_vs_no-HPV-type-persisted_DOWN	NA	Lactobacillus delbrueckii
 bsdb:294/1/2_acute-lymphoblastic-leukemia:post-induction-therapy_vs_baseline_DOWN	NA	Faecalibacterium sp.
 bsdb:294/3/2_acute-lymphoblastic-leukemia:post-re-induction-therapy_vs_baseline_DOWN	NA	Faecalibacterium sp.
 bsdb:295/1/2_human-papilloma-virus-infection:low-risk-HPV_vs_negative-control_DOWN	NA	Azotobacter group
@@ -328,10 +422,13 @@ bsdb:296/2/2_multiple-myeloma:multiple-myeloma-patients_vs_healthy-controls_DOWN
 bsdb:299/1/1_acute-lymphoblastic-leukemia:induction-chemotherapy_vs_baseline_UP	NA	Enterococcus sp.
 bsdb:300/1/1_graft-versus-host-disease:acute-graft--versus--host-disease_vs_non--graft--versus--host-disease_UP	NA	Roseburia hominis	Eisenbergiella sp.	Veillonella parvula	Enterococcus faecium	Enterococcus hirae	Ligilactobacillus salivarius	Limosilactobacillus fermentum	Phocaeicola dorei	Solobacterium moorei	Rothia mucilaginosa
 bsdb:300/1/2_graft-versus-host-disease:acute-graft--versus--host-disease_vs_non--graft--versus--host-disease_DOWN	NA	Bacteroides caccae	Bacteroides ovatus	Bacteroides thetaiotaomicron	Blautia luti	Blautia sp.	Butyricicoccus sp.	Dorea sp.	Ruminococcus sp.
+bsdb:301/1/1_human-papilloma-virus-infection:HPV+_vs_HPV-_UP	NA	Sneathia sp.
 bsdb:302/4/1_asthma:asthma_vs_healthy-control_UP	NA	Hoylesella buccalis	Dialister invisus	Gardnerella vaginalis	Alkanindiges hongkongensis
 bsdb:302/5/1_asthma:asthma_vs_healthy-control_UP	NA	Hoylesella buccalis	Gardnerella vaginalis
 bsdb:303/1/2_non-Hodgkins-lymphoma:post-chemotherapy_vs_pre-chemotherapy_DOWN	NA	Clostridiales bacterium
 bsdb:304/1/1_antimicrobial-agent:oral-intake-of-vancomycin-(directed-against-Gram-positive-bacteria)_vs_or-placebo-(microcrystalline-cellulose)_UP	NA	Anaerostipes caccae	Anaerovorax odorimutans	Blautia obeum	Coprococcus eutactus	Dorea formicigenerans	Eggerthella lenta	Faecalibacterium prausnitzii	Lachnobacterium bovis	Lachnospira pectinoschiza	Lacrimispora sphenoides	Lactiplantibacillus plantarum	Papillibacter cinnamivorans	Ruminococcus bromii	[Clostridium] nexile	[Clostridium] cellulosi
+bsdb:306/1/1_graft-versus-host-disease:post--allogeneic-hematopoietic-stem-cell-transplant_vs_pre--allogeneic-hematopoietic-stem-cell-transplant_UP	NA	Pseudomonas putida
+bsdb:306/1/2_graft-versus-host-disease:post--allogeneic-hematopoietic-stem-cell-transplant_vs_pre--allogeneic-hematopoietic-stem-cell-transplant_DOWN	NA	Pseudomonas putida
 bsdb:307/1/2_antimicrobial-agent:moxifloxacin-treated-group-(MXF)_vs_Negative-control-group-(CLT)_DOWN	NA	Alistipes finegoldii	Alistipes onderdonkii	Alistipes putredinis	Alistipes shahii	Barnesiella intestinihominis	Bifidobacterium adolescentis	Bifidobacterium pseudocatenulatum	Bilophila wadsworthia	Blautia sp.	Butyricimonas virosa	Cloacibacterium sp.	Clostridium sp.	Dorea formicigenerans	Faecalibacterium prausnitzii	Haemophilus parainfluenzae	Intestinibacter bartlettii	Lachnospira eligens	Odoribacter splanchnicus	Oscillibacter sp.	Parabacteroides distasonis	Parasutterella excrementihominis	Roseburia inulinivorans	Ruminococcus callidus	Streptococcus parasanguinis
 bsdb:307/2/1_antimicrobial-agent:DAV132+moxifloxacin-treated-group-(MXF+DAV132)_vs_moxifloxacin-treated-group-(MXF)_UP	NA	Parabacteroides distasonis	Bilophila wadsworthia	Roseburia inulinivorans	Odoribacter splanchnicus	Blautia sp.	Clostridium sp.	Faecalibacterium prausnitzii	Ruminococcus callidus	Alistipes shahii	Parasutterella excrementihominis	Cloacibacterium sp.	Bifidobacterium adolescentis	Alistipes onderdonkii	Oscillibacter sp.	Alistipes finegoldii	Butyricimonas virosa	Alistipes putredinis	Barnesiella intestinihominis	Lachnospira eligens	Dorea formicigenerans	Haemophilus parainfluenzae	Alistipes senegalensis
 bsdb:307/3/2_antimicrobial-agent:DAV132+moxifloxacin-treated-group-(MXF+DAV132)_vs_Negative-control-group-(CLT)_DOWN	NA	Bilophila wadsworthia	Bifidobacterium adolescentis	Intestinibacter bartlettii	Bifidobacterium pseudocatenulatum	Flavonifractor plautii
@@ -368,8 +465,13 @@ bsdb:326/1/2_non-small-cell-lung-carcinoma,renal-cell-carcinoma:Responders_vs_No
 bsdb:326/2/1_non-small-cell-lung-carcinoma,renal-cell-carcinoma:Progressive--Free--Survival-more-than-30-days_vs_Progressive--Free--Survival-more-less-than-30-days_UP	NA	Akkermansia muciniphila	Bacteroides nordii	Bacteroides xylanisolvens	Clostridium sp.	Eubacterium sp.	Flavonifractor plautii	Ruminococcus sp.	Bacteroides caccae	Bacillota bacterium
 bsdb:326/2/2_non-small-cell-lung-carcinoma,renal-cell-carcinoma:Progressive--Free--Survival-more-than-30-days_vs_Progressive--Free--Survival-more-less-than-30-days_DOWN	NA	Anaerotruncus colihominis	Parabacteroides distasonis	Bacillota bacterium
 bsdb:326/3/1_non-small-cell-lung-carcinoma,renal-cell-carcinoma:Responders_vs_Non-Responders_DOWN	NA	Staphylococcus haemolyticus	Corynebacterium aurimucosum
+bsdb:327/3/1_antimicrobial-agent:infants-received-long-term-(>5days)-antibiotic-treatment---week-1_vs_infants-received-short-term-(<3days)-antibiotic-treatment---week-1_DOWN	NA	Clostridium sp.
+bsdb:330/1/1_human-papilloma-virus-infection:HPV+_vs_HPV-_UP	NA	Lactobacillus iners
+bsdb:330/2/1_human-papilloma-virus-infection:HPV+_vs_HPV-_UP	NA	Lactobacillus iners
+bsdb:331/1/1_Hashimoto's-thyroiditis:hashimoto's-thyroiditis-patients_vs_healthy-controls_UP	NA	Anaerobutyricum hallii	Eubacterium ruminantium	Ruminococcus gauvreauii	[Ruminococcus] torques
 bsdb:332/1/1_Hashimoto's-thyroiditis:hashimoto's-thyroiditis-patients_vs_healthy-controls_UP	NA	Ruminococcus flavefaciens
 bsdb:332/1/2_Hashimoto's-thyroiditis:hashimoto's-thyroiditis-patients_vs_healthy-controls_DOWN	NA	Lactobacillus gasseri
+bsdb:336/3/1_antimicrobial-agent:combination-of-penicillin-and-moxalactam-group-(postnatal-day-7)_vs_Antibiotic-free-group-(postnatal-day-7)_UP	NA	Escherichia/Shigella sp.
 bsdb:337/1/2_antimicrobial-agent:3-month-old-infants-exposed-to-antibiotics-in-the-second-trimester_vs_3-month-old-infants-not-exposed-to-antibiotics-during-the-second-trimester_DOWN	NA	Akkermansia muciniphila	Clostridium neonatale	Limosilactobacillus antri	Schaalia odontolytica
 bsdb:337/3/2_antimicrobial-agent:12-month-old-infants-exposed-to-antibiotics-during-the-second-trimester_vs_12-month-old-infants-not-exposed-to-antibiotics-during-the-second-trimester_DOWN	NA	Veillonella rogosae
 bsdb:338/2/1_obesity:obese-children_vs_normal-weight-children_UP	NA	Acetitomaculum ruminis	Clostridium perfringens	Eubacterium dolichum CAG:375	Haemophilus influenzae	Haemophilus parainfluenzae	Phocaeicola coprophilus	Prevotella copri	Rothia mucilaginosa	Veillonella dispar	[Clostridium] colinum	[Ruminococcus] gnavus
@@ -398,6 +500,8 @@ bsdb:349/3/1_cervical-glandular-intraepithelial-neoplasia:LEEP-group-before-proc
 bsdb:349/4/1_cervical-glandular-intraepithelial-neoplasia:LEEP-group-before-procedure_vs_normal_UP	NA	Gardnerella vaginalis	Ureaplasma parvum
 bsdb:349/5/1_cervical-glandular-intraepithelial-neoplasia:LEEP-group-6-months-post-procedure_vs_normal_UP	NA	Gardnerella vaginalis	Metamycoplasma hominis	Ureaplasma parvum
 bsdb:349/6/1_cervical-glandular-intraepithelial-neoplasia:LEEP-group-12-months-post-procedure_vs_normal_UP	NA	Gardnerella vaginalis	Metamycoplasma hominis	Ureaplasma parvum
+bsdb:353/1/1_obesity:obese_vs_non-obese_UP	NA	Faecalibacterium prausnitzii
+bsdb:354/1/2_obesity:overweight/obese_vs_control-(BMI-at-normal-range)_DOWN	NA	Akkermansia muciniphila
 bsdb:355/1/1_obesity:obese-(obese/overweight/morbidly-obese)_vs_control-(lean/normal-weight)_UP	NA	Lactobacillus sp.
 bsdb:355/1/2_obesity:obese-(obese/overweight/morbidly-obese)_vs_control-(lean/normal-weight)_DOWN	NA	Phocaeicola vulgatus
 bsdb:356/1/2_air-pollution:ICR-male-mice-exposed-to-PM-2.5_vs_mice-dams-exposed-to-filtered-blanks-PND-3_DOWN	NA	Escherichia/Shigella sp.
@@ -450,6 +554,13 @@ bsdb:397/1/2_atopic-eczema:severe-atopic-dermatitis_vs_healthy-control_DOWN	NA	R
 bsdb:399/1/2_age:non-healthy-aging-(NHA)_vs_healthy-aging-(HA)_DOWN	NA	Fusobacterium sp.	Haemophilus sp.	candidate division SR1 bacterium
 bsdb:399/2/1_age:non-healthy-aging-(NHA)_vs_healthy-aging-(HA)_UP	NA	Clostridiales bacterium
 bsdb:399/2/2_age:non-healthy-aging-(NHA)_vs_healthy-aging-(HA)_DOWN	NA	Clostridiales Family XIII bacterium
+bsdb:403/2/1_Eczema:child-with-eczema_vs_healthy-control_UP	NA	Veillonella parvula	Clostridium neonatale
+bsdb:403/2/2_Eczema:child-with-eczema_vs_healthy-control_DOWN	NA	Bifidobacterium longum subsp. longum
+bsdb:403/4/1_Eczema:child-with-eczema_vs_healthy-control_UP	NA	Veillonella parvula	Bacteroides fragilis
+bsdb:403/4/2_Eczema:child-with-eczema_vs_healthy-control_DOWN	NA	Bifidobacterium bifidum
+bsdb:403/6/1_Eczema:child-with-eczema_vs_healthy-control_DOWN	NA	Faecalibacterium prausnitzii	Bifidobacterium longum subsp. longum
+bsdb:414/1/1_epilepsy:before-keto-diet_vs_after-keto-diet_UP	NA	Eubacterium rectale CAG:36
+bsdb:414/1/2_epilepsy:before-keto-diet_vs_after-keto-diet_DOWN	NA	Escherichia coli
 bsdb:415/4/1_HIV-infection:aging-HIV-infected-women-with-coinfections_vs_young-HIV-infected-group-without-coinfection_UP	NA	Mucispirillum schaedleri	Lactobacillus sp.	Desulfovibrio sp.	Odoribacter sp.	Limosilactobacillus reuteri
 bsdb:415/4/2_HIV-infection:aging-HIV-infected-women-with-coinfections_vs_young-HIV-infected-group-without-coinfection_DOWN	NA	Solobacterium moorei	Bulleidia sp.	Veillonella parvula
 bsdb:416/1/1_HIV-infection,cotrimoxazole:continue-cotrimoxazole-prophylaxis_vs_stop-cotrimoxazole-prophylaxis_UP	NA	Bacteroides xylanisolvens	Escherichia coli	Odoribacter splanchnicus	Parabacteroides goldsteinii	Parabacteroides johnsonii	Roseburia intestinalis	Alistipes communis
@@ -465,6 +576,8 @@ bsdb:428/3/1_COVID-19:Recovered-COVID-19-cases_vs_Healthy-controls_UP	NA	Bifidob
 bsdb:428/3/2_COVID-19:Recovered-COVID-19-cases_vs_Healthy-controls_DOWN	NA	Eubacterium rectale CAG:36	Ruminococcus bromii	Faecalibacterium prausnitzii	Bifidobacterium pseudocatenulatum	Collinsella aerofaciens	Bifidobacterium longum subsp. longum	Ruminococcus sp. 5_1_39BFAA	Ruminococcus obeum CAG:39	Prevotella copri	Coprococcus comes	Dorea formicigenerans	Dorea longicatena	Alistipes putredinis	Streptococcus salivarius	Anaerobutyricum hallii
 bsdb:428/4/1_COVID-19:COVID-19-patients-treated-with-antibiotics_vs_Healthy-controls_DOWN	NA	Bifidobacterium adolescentis	Dorea formicigenerans	Dorea longicatena	Faecalibacterium prausnitzii	Ruminococcus obeum CAG:39	Subdoligranulum sp.	Klebsiella pneumoniae	Adlercreutzia equolifaciens	Blautia obeum	Clostridium leptum CAG:27	Coprococcus comes	Subdoligranulum sp. 4_3_54A2FAA	Enterococcus avium	Eubacterium ventriosum	Citrobacter sp.
 bsdb:428/4/2_COVID-19:COVID-19-patients-treated-with-antibiotics_vs_Healthy-controls_UP	NA	Anaerobutyricum hallii	Bacteroides caccae	Bacteroides ovatus	Ruminococcus sp. 5_1_39BFAA	Scardovia inopinata	Cutibacterium acnes	Cryptobacterium curtum	Shuttleworthia satelles	Parascardovia denticolens	Enterococcus gallinarum	Lachnoanaerobaculum sp. ICM7	Oribacterium sp. oral taxon 078	Lachnospiraceae bacterium 5_1_63FAA	Slackia sp.	Olsenella profusa	Coprococcus catus	Lancefieldella rimae	Staphylococcus aureus	Rothia aeria	Abiotrophia defectiva	Roseburia inulinivorans	Stomatobaculum longum	Staphylococcus epidermidis	Anaerostipes hadrus	Eubacterium ramulus	Scardovia wiggsiae	Sutterella wadsworthensis	Alistipes onderdonkii	Olsenella uli	Parabacteroides sp.
+bsdb:429/1/1_gastric-cancer:gastric-cancer-patients_vs_healthy-controls_UP	NA	Campylobacter jejuni
+bsdb:429/1/2_gastric-cancer:gastric-cancer-patients_vs_healthy-controls_DOWN	NA	Gemella taiwanensis	Prevotella intermedia	Prevotella melaninogenica	Prevotella nigrescens	Streptococcus vestibularis	Streptococcus sp.
 bsdb:430/1/1_COVID-19:Patients-with-high-SARS-CoV-2-infectivity_vs_Patients-with-low-to-none-SARS-CoV-2-infectivity_DOWN	NA	Bacteroides stercoris	Lachnospiraceae bacterium	Parabacteroides merdae	Alistipes onderdonkii
 bsdb:430/1/2_COVID-19:Patients-with-high-SARS-CoV-2-infectivity_vs_Patients-with-low-to-none-SARS-CoV-2-infectivity_UP	NA	Collinsella aerofaciens	Collinsella tanakaei	Morganella morganii	Streptococcus infantis
 bsdb:431/2/1_cervical-glandular-intraepithelial-neoplasia:transient-HPV+-with-HSIL_vs_transient-HPV+-with-LSIL_DOWN	NA	[Clostridium] innocuum
@@ -506,6 +619,8 @@ bsdb:444/7/1_Colorectal-cancer,Body-mass-index,Physical-activity:Overweight/Obes
 bsdb:446/1/1_COVID-19:COVID-19-cases_vs_COVID-19-negative-controls_DOWN	NA	Corynebacterium accolens
 bsdb:449/1/1_COVID-19:COVID-19-cases_vs_Healthy-controls_UP	NA	Actinomyces pacaensis	Anaerocolumna sedimenticola	Anaerotignum propionicum	Bacillus cereus	Chryseobacterium cucumeris	Citrobacter braakii	Citrobacter freundii	Citrobacter freundii complex sp. CFNIH3	Clostridiales bacterium	Clostridiales bacterium CCNA10	Clostridium beijerinckii	Clostridium carboxidivorans	Comamonas terrigena	Comamonas testosteroni	Enterobacter asburiae	Enterobacter bugandensis	Enterobacter cancerogenus	Enterobacter cloacae	Enterobacter cloacae complex sp.	Enterobacter hormaechei	Enterobacter kobei	Enterobacter oligotrophicus	Enterobacter roggenkampii	Enterobacter soli	Enterobacter sp. 638	Enterobacter sp. E76	Enterobacter sp. ODB01	Enterobacter sp. T2	Faecalibacterium prausnitzii	Filimonas lacunae	Flavonifractor plautii	Klebsiella michiganensis	Klebsiella oxytoca	Lachnoclostridium phytofermentans	Lacrimispora saccharolytica	Lacrimispora sphenoides	Lactiplantibacillus plantarum	Lactobacillus delbrueckii	Lactobacillus johnsonii	Latilactobacillus curvatus	Leclercia adecarboxylata	Leclercia sp. 29361	Leclercia sp. J807	Leclercia sp. LSNIH1	Leclercia sp. W17	Lelliottia amnigena	Lelliottia jeotgali	Lelliottia sp. WB101	Ligilactobacillus salivarius	Limosilactobacillus fermentum	Limosilactobacillus reuteri	Lysinibacillus sp. B2A1	Lysinibacillus sphaericus	Mesomycoplasma hyorhinis	Methylobacterium sp. DM1	Paenibacillus graminis	Paenibacillus guangzhouensis	Pantoea sp. SO10	Peribacillus frigoritolerans	Phyllobacterium myrsinacearum	Pluralibacter gergoviae	Pseudomonas alkylphenolica	Pseudomonas oryzihabitans	Pseudomonas rhodesiae	Pseudomonas sp.	Pseudomonas sp. JY-Q	Pseudomonas sp. MRSN 12121	Pseudomonas sp. PONIH3	Pseudomonas sp. XWY-1	Rahnella aquatilis	Ralstonia pickettii	Rothia aeria	Rothia mucilaginosa	Ruminobacter amylophilus	Schaalia meyeri	Sphingobacterium sp. B29	Sphingobacterium sp. G1-14	Sphingomonas sp. FARSPH	Stenotrophomonas sp. LM091	Streptococcus salivarius	Streptococcus sanguinis	Streptococcus sp. oral taxon 064	Succinivibrio dextrinosolvens	Suicoccus acidiformans	Variovorax boronicumulans	Variovorax paradoxus	Variovorax sp. PBL-H6	Variovorax sp. PMC12	Vibrio anguillarum	[Ruminococcus] gnavus	uncultured Variovorax sp.
 bsdb:449/1/2_COVID-19:COVID-19-cases_vs_Healthy-controls_DOWN	NA	Campylobacter gracilis	Campylobacter rectus	Campylobacter showae	Treponema putidum
+bsdb:453/3/1_COVID-19:Recovered-COVID-19-patients_vs_Non-infected-patients-with-unrelated-respiratory-medical-conditions_UP	NA	rumen bacterium NK4A214
+bsdb:453/4/1_COVID-19:Positive-for-COVID-19-viral-RNA-in-feces_vs_Negative-for-COVID-19-viral-RNA-in-feces_UP	NA	Clostridium sp.
 bsdb:455/3/1_gingivitis:pregnant-women-with-gingivitis_vs_pregnant-women-without-gingivitis_UP	NA	TM7 phylum sp. oral taxon 349	Metamycoplasma faucium	Lachnospiraceae bacterium oral taxon 500	TM7 phylum sp. oral taxon 346	Treponema sp. oral taxon 258	[Eubacterium] saphenum	Catonella morbi	Treponema maltophilum	Filifactor alocis	Fretibacterium fastidiosum	Tannerella forsythia	Treponema lecithinolyticum	Treponema sp. oral taxon 238	Prevotella sp. oral taxon 304	Aggregatibacter actinomycetemcomitans	Treponema sp. oral taxon 270	Treponema denticola	Fretibacterium sp.
 bsdb:455/3/2_gingivitis:pregnant-women-with-gingivitis_vs_pregnant-women-without-gingivitis_DOWN	NA	Veillonella parvula	Actinomyces naeslundii	Streptococcus salivarius	Granulicatella adiacens	Rothia dentocariosa	SR1 bacterium oral taxon 875	Actinomyces sp. oral taxon 448	Actinomyces sp. oral taxon 172	Kingella oralis	Oribacterium sp. oral taxon 108	Leptotrichia sp. oral taxon 221	Selenomonas sp. oral taxon 478	Propionibacterium sp. oral taxon 194	Actinomyces graevenitzii	Lancefieldella parvula
 bsdb:455/4/1_pregnancy:pregnant-women_vs_non-pregnant-women_UP	NA	Actinomyces graevenitzii	Alloprevotella sp.	Alloprevotella tannerae	Capnocytophaga haemolytica	Fretibacterium fastidiosum	Fretibacterium sp.	Fusobacterium periodonticum	Pseudoleptotrichia goodfellowii	Leptotrichia shahii	Leptotrichia sp.	Megasphaera micronuciformis	Metamycoplasma faucium	Porphyromonas gingivalis	Prevotella baroniae	Prevotella dentalis	Prevotella denticola	Prevotella melaninogenica	Prevotella micans	Prevotella sp.	Scardovia wiggsiae	Selenomonas sp.	Selenomonas sputigena	Tannerella forsythia	Treponema denticola	Treponema sp.	Veillonella parvula	Veillonella sp.	[Eubacterium] saphenum
@@ -556,6 +671,18 @@ bsdb:483/3/1_COVID-19:Pneumonia-controls_vs_Uninfected-controls,-COVID-19-patien
 bsdb:484/1/1_COVID-19:COVID-19-positive-patients_vs_COVID-19-negative-patients-with-fever-and-cough_UP	NA	Streptococcus sp. A12	Streptococcus agalactiae	Streptococcus suis	Campylobacter jejuni	Prevotella ruminicola	Prevotella sp.
 bsdb:484/2/1_COVID-19:COVID-19-positive-patients_vs_Healthy-controls_UP	NA	Aerococcus sanguinicola	Campylobacter concisus	Campylobacter showae	Clostridium botulinum	Fusobacterium pseudoperiodonticum	Haemophilus parainfluenzae	Lachnoanaerobaculum umeaense	Leptotrichia wadei	Porphyromonas gingivalis	Prevotella denticola	Prevotella intermedia	Prevotella jejuni	Prevotella melaninogenica	Prevotella oris	Rothia mucilaginosa	Streptococcus australis	Streptococcus gordonii	Streptococcus koreensis	Streptococcus mitis	Streptococcus parasanguinis	Streptococcus pneumoniae	Streptococcus salivarius	Streptococcus sanguinis	Streptococcus suis	Streptococcus thermophilus	Streptococcus uberis	Veillonella atypica	Veillonella dispar	Veillonella parvula	Veillonella rodentium
 bsdb:484/4/1_COVID-19:COVID-19-positive-patients_vs_COVID-19-negative-patients-with-fever-and-cough_UP	NA	Streptococcus sp. A12	Lachnospira eligens	Aerococcus sanguinicola	Campylobacter jejuni	Lachnoanaerobaculum umeaense	Porphyromonas gingivalis	Campylobacter concisus	Streptococcus ilei	Prevotella ruminicola	Streptococcus australis	Gemella haemolysans	Prevotella sp. oral taxon 299	Veillonella atypica	Fusobacterium pseudoperiodonticum	Campylobacter showae	Erysipelothrix sp. HDW6B	Treponema phagedenis	Capnocytophaga sputigena	Streptococcus troglodytae	Erysipelothrix larvae	Streptococcus sp. HSISM1	Streptococcus suis	Streptococcus parasanguinis	Veillonella parvula	Vagococcus teuberi	Streptococcus koreensis	Streptococcus ruminicola	Treponema brennaborense	Bergeyella cardium	Prevotella denticola	Streptococcus sanguinis	Chryseobacterium camelliae	Brochothrix thermosphacta	Porphyromonas cangingivalis	Streptococcus marmotae	Streptococcus salivarius	Streptococcus thermophilus	Carnobacterium divergens	Fermentimonas caenicola	Prevotella oris	Carnobacterium maltaromaticum	Streptococcus cristatus	Lachnoclostridium phytofermentans	Leptotrichia sp. oral taxon 212	Porphyromonas asaccharolytica	Bacteroides heparinolyticus	Campylobacter ureolyticus	Streptococcus uberis	Streptococcus agalactiae
+bsdb:485/2/1_COVID-19:COVID-19-patients-with-fever_vs_COVID-19-patients-without-fever_UP	NA	Enterocloster bolteae	Saccharomyces cerevisiae	Haemophilus parainfluenzae	Citrobacter freundii	Citrobacter sp.	Enterococcus faecalis
+bsdb:485/2/2_COVID-19:COVID-19-patients-with-fever_vs_COVID-19-patients-without-fever_DOWN	NA	Alistipes shahii	Lachnospiraceae bacterium 7_1_58FAA	Erysipelotrichaceae bacterium 6_1_45	Bacteroides thetaiotaomicron	Bacteroides fragilis	Bacteroides cellulosilyticus	Bacteroides xylanisolvens	Lachnospiraceae bacterium 3_1_57FAA_CT1	Eubacterium ramulus	Parasutterella excrementihominis	Phocaeicola vulgatus	Anaerostipes hadrus	Burkholderiales bacterium 1_1_47	Lachnospiraceae bacterium 5_1_63FAA	Lachnospiraceae bacterium 2_1_58FAA
+bsdb:486/1/1_COVID-19:Asymptomatic-COVID-19-patients_vs_Healthy-controls_UP	NA	Collinsella aerofaciens	Compsobata cibaria	Enterocloster citroniae	Lactobacillus helveticus	Parabacteroides distasonis	Shigella dysenteriae	[Ruminococcus] gnavus	Clostridiales bacterium	Clostridium sp.	Ruminococcus sp.	Enterococcus sp.
+bsdb:486/1/2_COVID-19:Asymptomatic-COVID-19-patients_vs_Healthy-controls_DOWN	NA	Bifidobacterium adolescentis	Enterocloster clostridioformis	Haemophilus parainfluenzae	Mitsuokella multacida	Prevotella copri	Roseburia faecis	Roseburia inulinivorans	Ruminococcus callidus
+bsdb:486/2/1_COVID-19:Asymptomatic-COVID-19-patients_vs_Healthy-controls_UP	NA	Acinetobacter guillouiae	Enterocloster citroniae	Lactobacillus helveticus	Melissococcus plutonius	Shigella sonnei	Enterococcus sp.	Lactobacillus sp.
+bsdb:486/2/2_COVID-19:Asymptomatic-COVID-19-patients_vs_Healthy-controls_DOWN	NA	Enterocloster clostridioformis	Lachnospira pectinoschiza
+bsdb:486/3/1_COVID-19:Severe-COVID-19-patients_vs_Healthy-controls_UP	NA	Shigella sonnei	Lactobacillus helveticus	Enterocloster citroniae	Shigella dysenteriae
+bsdb:486/3/2_COVID-19:Severe-COVID-19-patients_vs_Healthy-controls_DOWN	NA	Enterocloster clostridioformis	Lachnospira pectinoschiza
+bsdb:487/2/1_COVID-19:Recovered-COVID-19-samples-(respiratory-negative)_vs_Healthy-controls_DOWN	NA	Lachnospiraceae bacterium NK4A136	rumen bacterium NK4A214
+bsdb:487/2/2_COVID-19:Recovered-COVID-19-samples-(respiratory-negative)_vs_Healthy-controls_UP	NA	Faecalibacterium sp. UBA1819
+bsdb:487/3/1_COVID-19:Infected-COVID-19-samples-(respiratory-positive)_vs_Healthy-controls_DOWN	NA	Eubacterium coprostanoligenes	Lachnospira eligens	Lachnospiraceae bacterium NK4A136	rumen bacterium NK4A214	uncultured Oscillospira sp.
+bsdb:487/3/2_COVID-19:Infected-COVID-19-samples-(respiratory-positive)_vs_Healthy-controls_UP	NA	Anaerobutyricum hallii
 bsdb:488/1/1_irritable-bowel-syndrome:IBS-D_vs_Healthy-Control_UP	NA	Bifidobacterium pseudocatenulatum	Clostridiales bacterium	Prevotellamassilia timonensis	Phocaeicola plebeius
 bsdb:488/1/2_irritable-bowel-syndrome:IBS-D_vs_Healthy-Control_DOWN	NA	Bacteroides fragilis	Escherichia coli
 bsdb:489/1/1_COVID-19:COVID-positive-patients-admitted-to-ICU-(i-COVID-19)_vs_Pneumonia-control-patients-(COVID-negative)_UP	NA	Enterococcus faecium	Corynebacterium amycolatum	Anaerococcus octavius	Corynebacterium imitans	Facklamia hominis	Fusobacterium nucleatum	Enterococcus hirae	Enterococcus rivorum	Hoylesella buccalis	Candidatus Anaerococcus phoceensis	Corynebacterium tuscaniense	Lactobacillus helveticus	Corynebacterium sp. IrT-R5M2-141	Peptoniphilus sp. S362	Slackia sp.	Micrococcus luteus	Anaerococcus provencensis	Corynebacterium sundsvallense	Corynebacterium afermentans	Prevotella sp. S4-8	Butyrivibrio crossotus	Rhodococcus sp. (in: high G+C Gram-positive bacteria)	Senegalimassilia anaerobia	Veillonella parvula	Howardella ureilytica	Enterococcus casseliflavus	Klebsiella oxytoca	Clostridium sp. TM-40	Clostridium fusiformis	Enterococcus sp.	Corynebacterium sp.
@@ -584,10 +711,29 @@ bsdb:502/1/1_irritable-bowel-syndrome:IBS_vs_Healthy-Control_UP	NA	Alkalihalobac
 bsdb:502/2/1_irritable-bowel-syndrome:IBS-C_vs_Healthy-Control_UP	NA	Alkalihalobacillus clausii
 bsdb:502/3/1_irritable-bowel-syndrome:IBS-D_vs_Healthy-Control_UP	NA	Alkalihalobacillus clausii	Bacillus cereus	Bifidobacterium adolescentis	Bifidobacterium breve	Bifidobacterium longum	Clostridioides difficile	Enterococcus faecium	Ligilactobacillus salivarius	[Eubacterium] rectale
 bsdb:502/4/1_irritable-bowel-syndrome:IBS-M_vs_Healthy-Control_UP	NA	Alkalihalobacillus clausii	Enterococcus faecium	Lentilactobacillus buchneri
+bsdb:505/1/2_irritable-bowel-syndrome:IBS_vs_Healthy-Control_DOWN	NA	Bifidobacterium catenulatum	Romboutsia lituseburensis
 bsdb:506/1/1_irritable-bowel-syndrome:IBS-D_vs_Healthy-Control_UP	NA	Escherichia coli
 bsdb:509/1/1_smoking-behavior:Smoking_vs_Non-smoking_UP	NA	Escherichia/Shigella sp.
 bsdb:509/2/1_smoking-behavior:Smoking_vs_Non-smoking_UP	NA	uncultured Planctomycetaceae bacterium	Escherichia/Shigella sp.
 bsdb:509/2/2_smoking-behavior:Smoking_vs_Non-smoking_DOWN	NA	uncultured Phyllobacteriaceae bacterium
+bsdb:510/1/1_periodontitis:patients-with-rheumatoid-arthritis_vs_patients-with-no-rheumatoid-arthritis_UP	NA	Aggregatibacter actinomycetemcomitans	Mogibacterium timidum	Parvimonas micra	Peptoniphilus lacrimalis	Prevotella dentalis	Prevotella histicola	Hallella multisaccharivorax	Prevotella salivae	Pseudomonas aeruginosa	Selenomonas artemidis	Aggregatibacter sp.
+bsdb:510/1/2_periodontitis:patients-with-rheumatoid-arthritis_vs_patients-with-no-rheumatoid-arthritis_DOWN	NA	Hoylesella marshii	Schaalia meyeri	Streptococcus anginosus	Treponema sp.
+bsdb:510/2/1_rheumatoid-arthritis:patients-with-rheumatoid-arthritis_vs_patients-with-no-rheumatoid-arthritis_UP	NA	Alloprevotella rava	Anaeroglobus geminatus	Bifidobacterium dentium	Capnocytophaga ochracea	Corynebacterium matruchotii	Lancefieldella rimae	Leptotrichia hofstadii	Leptotrichia shahii	Leptotrichia wadei	Mogibacterium neglectum	Mogibacterium timidum	Prevotella buccae	Prevotella dentalis	Prevotella denticola	Prevotella histicola	Prevotella maculosa	Prevotella melaninogenica	Hallella multisaccharivorax	Prevotella nigrescens	Prevotella oulorum	Prevotella pallens	Prevotella salivae	Hoylesella shahii	Pseudomonas aeruginosa	Scardovia wiggsiae	Selenomonas flueggei	Selenomonas noxia	Selenomonas sp. oral clone DO042	Selenomonas sputigena	Tannerella sp. oral taxon 808
+bsdb:510/2/2_rheumatoid-arthritis:patients-with-rheumatoid-arthritis_vs_patients-with-no-rheumatoid-arthritis_DOWN	NA	Delftia tsuruhatensis	Granulicatella elegans	Kingella oralis	Pelomonas puraquae	Hoylesella pleuritidis	Prevotella sp. oral clone BR014	Pyramidobacter piscolens	Rothia aeria	Schaalia meyeri	Streptococcus anginosus	Streptococcus sp. oral clone ASCB04
+bsdb:511/1/1_COVID-19:COVID-19-patients_vs_Healthy-controls_UP	NA	Haemophilus parainfluenzae	Rothia mucilaginosa	Neisseria subflava
+bsdb:511/1/2_COVID-19:COVID-19-patients_vs_Healthy-controls_DOWN	NA	Prevotella intermedia	Treponema amylovorum
+bsdb:511/2/1_COVID-19:COVID-19-patients-(severe/critical)_vs_COVID-19-patients-(mild/moderate)_DOWN	NA	Aggregatibacter segnis	Prevotella intermedia	Streptococcus anginosus	Treponema amylovorum
+bsdb:511/3/1_COVID-19:COVID-19-patients-not-treated-with-antibiotics_vs_Healthy-controls_UP	NA	Neisseria subflava	Rothia mucilaginosa	Veillonella dispar
+bsdb:511/3/2_COVID-19:COVID-19-patients-not-treated-with-antibiotics_vs_Healthy-controls_DOWN	NA	Prevotella intermedia
+bsdb:511/4/1_COVID-19:COVID-19-patients_vs_Healthy-controls_UP	NA	Enterocloster citroniae	Bifidobacterium longum	Rothia mucilaginosa
+bsdb:511/4/2_COVID-19:COVID-19-patients_vs_Healthy-controls_DOWN	NA	Bacteroides caccae	Blautia obeum	[Clostridium] colinum	Phocaeicola coprophilus
+bsdb:511/5/1_COVID-19:COVID-19-patients-not-treated-with-antibiotics_vs_Healthy-controls_UP	NA	Enterocloster citroniae	Streptococcus anginosus
+bsdb:511/5/2_COVID-19:COVID-19-patients-not-treated-with-antibiotics_vs_Healthy-controls_DOWN	NA	Bacteroides eggerthii	Phocaeicola coprophilus	Blautia obeum	Blautia producta	[Clostridium] colinum
+bsdb:512/2/1_COVID-19:COVID-19-positive-patients_vs_COVID-19-negative-controls_UP	NA	Pseudomonas aeruginosa
+bsdb:512/3/1_COVID-19:COVID-19-positive-patients_vs_COVID-19-negative-healthcare-workers-(controls)_UP	NA	Pseudomonas aeruginosa
+bsdb:512/3/2_COVID-19:COVID-19-positive-patients_vs_COVID-19-negative-healthcare-workers-(controls)_DOWN	NA	Burkholderia cepacia
+bsdb:518/1/1_endometriosis:Stage-3/4-endometriosis-patients_vs_Healthy-controls_UP	NA	Anaerobutyricum hallii	[Eubacterium] brachy	[Ruminococcus] gnavus
+bsdb:518/1/2_endometriosis:Stage-3/4-endometriosis-patients_vs_Healthy-controls_DOWN	NA	Lachnospira eligens	Ruminococcus sp.
 bsdb:522/2/1_endometriosis:Endometriosis-patients_vs_Controls-undergoing-laparoscopic-surgery-for-benign-tumors_DOWN	NA	Lactobacillus iners
 bsdb:522/3/1_endometriosis:Endometriosis-patients_vs_Controls-undergoing-laparoscopic-surgery-for-benign-tumors_UP	NA	Lactobacillus iners	Pseudomonas viridiflava
 bsdb:522/3/2_endometriosis:Endometriosis-patients_vs_Controls-undergoing-laparoscopic-surgery-for-benign-tumors_DOWN	NA	Pseudomonas viridiflava
@@ -612,7 +758,9 @@ bsdb:530/2/2_Smoking-status-measurement:Former-Smokers_vs_Never-Smokers_DOWN	NA	
 bsdb:530/3/1_Smoking-status-measurement:Current-Smokers_vs_Former-Smokers_UP	NA	Actinomyces graevenitzii	Actinomyces lingnae	Bifidobacterium longum	Lactobacillus crispatus	Lactobacillus gasseri	Lancefieldella parvula	Limosilactobacillus fermentum	Limosilactobacillus oris	Limosilactobacillus panis	Limosilactobacillus reuteri	Megasphaera micronuciformis	Prevotella sp. oral taxon 313	Rothia mucilaginosa	Streptococcus sp. oral taxon 057	Streptococcus sp. oral taxon 070	Treponema denticola
 bsdb:530/3/2_Smoking-status-measurement:Current-Smokers_vs_Former-Smokers_DOWN	NA	Capnocytophaga sputigena	Haemophilus parahaemolyticus	Haemophilus paraphrohaemolyticus	Kingella denitrificans	Lachnoanaerobaculum umeaense	Neisseria elongata	Neisseria oralis	Neisseria pharyngis	Neisseria pharyngis subsp. flava	Hoylesella nanceiensis	Streptococcus cristatus	[Eubacterium] infirmum
 bsdb:531/1/1_rheumatoid-arthritis:rheumatoid-arthritis-patient_vs_healthy-controls_UP	NA	Actinomyces graevenitzii
+bsdb:532/1/2_rheumatoid-arthritis:rheumatoid-arthritis-patients_vs_healthy-controls_DOWN	NA	Faecalibacterium sp.
 bsdb:533/2/1_Parkinson's-disease:Patients-with-Parkinson's-disease_vs_Healthy-control_UP	NA	Clostridium sp.
+bsdb:535/1/1_antimicrobial-agent:Antibiotic-treated_vs_Antibiotic-untreated_DOWN	NA	Bifidobacterium sp.
 bsdb:537/1/1_Parkinson's-disease:patients-with-idiopathic-parkinson's-disease_vs_healthy-controls-without-any-form-of-Parkinson's-Disease_UP	NA	Paurocotylis pila
 bsdb:539/1/1_Nephrolithiasis:Patients-with-kidney-stones_vs_Healthy-Controls_DOWN	NA	Roseburia hominis	Faecalitalea cylindroides	Clostridioides difficile	Oscillibacter valericigenes	Ruminococcus champanellensis	Enterococcus faecium	Ethanoligenens harbinense	Eubacterium limosum	Ruminococcus albus	Butyrivibrio proteoclasticus	Streptococcus suis	Treponema succinifaciens	Mageeibacillus indolicus	Desulfovibrio vulgaris	Streptococcus pyogenes	Clostridium botulinum	Desulfovibrio desulfuricans	Slackia heliotrinireducens	Campylobacter jejuni	Enterococcus faecalis	Campylobacter coli	Clostridium perfringens	Bifidobacterium animalis
 bsdb:540/2/1_smoking-behavior:Smokers_vs_Non-smokers_UP	NA	Bacillus sp. (in: firmicutes)
@@ -627,6 +775,11 @@ bsdb:541/4/1_schizophrenia:Baseline-schizophrenic-patients_vs_Healthy-controls_N
 bsdb:541/5/1_schizophrenia:Baseline-schizophrenic-patients_vs_Healthy-controls_NA	NA	Akkermansia muciniphila	Alkaliphilus oremlandii	Bacillus anthracis	Bacteroides intestinalis	Bifidobacterium adolescentis	Bifidobacterium longum	Cronobacter sakazakii	Enterococcus faecium	Streptococcus vestibularis	Veillonella parvula	[Eubacterium] siraeum	Phocaeicola plebeius
 bsdb:543/1/1_HIV-infection:Persons-with-HIV-(PWH)_vs_HIV-seronegative-controls_DOWN	NA	Slackia isoflavoniconvertens	Clostridiales bacterium	Clostridium sp.	Faecalibacterium prausnitzii
 bsdb:543/1/2_HIV-infection:Persons-with-HIV-(PWH)_vs_HIV-seronegative-controls_UP	NA	Eggerthella lenta	Bilophila wadsworthia
+bsdb:544/1/1_colorectal-cancer:CRC-patients_vs_healthy-controls_UP	NA	Campylobacter rectus	Dialister pneumosintes	Eggerthella lenta	Fusobacterium nucleatum	Gemella morbillorum	Parvimonas micra	Peptostreptococcus stomatis	Porphyromonas asaccharolytica	Scriptaphyosemion liberiense	Solobacterium moorei	[Clostridium] scindens	[Clostridium] symbiosum	[Ruminococcus] torques
+bsdb:544/1/2_colorectal-cancer:CRC-patients_vs_healthy-controls_DOWN	NA	Agathobaculum desmolans	Anaerobutyricum hallii	Anaerostipes hadrus	Blautia faecis	Coprococcus comes	Fusicatenibacter saccharivorans	Lachnospira eligens	Roseburia faecis	Streptococcus salivarius	[Ruminococcus] lactaris
+bsdb:545/1/2_antimicrobial-agent:7-week-old-(young)-mice-10-days-after-antibiotic-treatments_vs_7-week-old-(young)-mice-before-antibiotic-treatment_DOWN	NA	Clostridiales Family XIII bacterium	Clostridiales bacterium
+bsdb:545/2/2_antimicrobial-agent:7-week-old-(young)-mice-6-months-after-antibiotic-treatments_vs_7-week-old-(young)-mice-before-antibiotic-treatment_DOWN	NA	Clostridiales Family XIII bacterium
+bsdb:545/4/1_antimicrobial-agent:40-week-old-(old)-mice-6-months-after-antibiotic-treatments_vs_40-week-old-(old)-mice-before-antibiotic-treatment_DOWN	NA	Clostridiales bacterium
 bsdb:547/1/1_COVID-19:Recovered-COVID-19-patients_vs_Healthy-controls_UP	NA	Thomasclavelia ramosa	Intestinibacter bartlettii	Enterocloster aldenensis	Enterocloster bolteae
 bsdb:547/1/2_COVID-19:Recovered-COVID-19-patients_vs_Healthy-controls_DOWN	NA	Bilophila wadsworthia	Dialister invisus	Intestinimonas butyriciproducens	Romboutsia sedimentorum	Faecalibacterium prausnitzii	Butyricicoccus pullicaecorum	[Clostridium] colinum	Dorea longicatena	Blautia faecis	Blautia obeum	Roseburia inulinivorans	Ruminococcus bromii	Fusicatenibacter saccharivorans
 bsdb:550/1/1_juvenile-idiopathic-arthritis:JIA-patients_vs_healthy-controls_UP	NA	Alloprevotella sp.	Lachnoanaerobaculum orale	Rothia aeria	Solobacterium moorei	Stomatobaculum longum	Hoylesella nanceiensis	Mogibacterium diversum	Veillonella atypica	Capnocytophaga sp.	TM7 phylum sp. oral taxon 352	Leptotrichia sp. oral taxon 417
@@ -641,6 +794,11 @@ bsdb:554/2/8_Parkinson's-disease:Parkinson's-Disease-subjects_vs_Healthy-Control
 bsdb:554/2/9_Parkinson's-disease:Parkinson's-Disease-subjects_vs_Healthy-Controls_DOWN	NA	Anaerobutyricum hallii
 bsdb:554/2/10_Parkinson's-disease:Parkinson's-Disease-subjects_vs_Healthy-Controls_UP	NA	Methanobrevibacter smithii	Parabacteroides merdae	Prevotella copri	Roseburia inulinivorans	Ruminococcus callidus	[Ruminococcus] torques
 bsdb:554/2/11_Parkinson's-disease:Parkinson's-Disease-subjects_vs_Healthy-Controls_DOWN	NA	Lactobacillus gasseri
+bsdb:558/1/1_antimicrobial-agent:received-oral-i.v.-administered-GSK1322322-(end-of-study)_vs_received-oral-i.v.-administered-GSK1322322-(prestudy)_UP	NA	Bifidobacterium adolescentis	Bifidobacterium pseudolongum
+bsdb:558/1/2_antimicrobial-agent:received-oral-i.v.-administered-GSK1322322-(end-of-study)_vs_received-oral-i.v.-administered-GSK1322322-(prestudy)_DOWN	NA	Bacteroides uniformis	Blautia obeum	Faecalibacterium prausnitzii	Parabacteroides distasonis
+bsdb:558/1/3_antimicrobial-agent:received-oral-i.v.-administered-GSK1322322-(end-of-study)_vs_received-oral-i.v.-administered-GSK1322322-(prestudy)_UP	NA	Bifidobacterium adolescentis	Bifidobacterium dentium	Bifidobacterium sp.	Enterobacteriaceae bacterium	Sutterella parvirubra	Sutterella wadsworthensis	Bacteroides thetaiotaomicron
+bsdb:558/2/1_antimicrobial-agent:received-oral-i.v.-administered-GSK1322322-(end-of-study)_vs_received-oral-i.v.-administered-GSK1322322-(prestudy)_UP	NA	Bifidobacterium adolescentis	Bifidobacterium dentium	Bifidobacterium sp.	Enterobacteriaceae bacterium	Sutterella parvirubra	Sutterella wadsworthensis
+bsdb:558/2/2_antimicrobial-agent:received-oral-i.v.-administered-GSK1322322-(end-of-study)_vs_received-oral-i.v.-administered-GSK1322322-(prestudy)_DOWN	NA	Prevotella copri	Bacteroides uniformis	Odoribacter laneus	Oscillospiraceae bacterium	Faecalibacterium prausnitzii	[Ruminococcus] lactaris	Blautia hansenii	Ruminococcus sp.	Blautia hydrogenotrophica	Anaerostipes sp.	Ruminococcus bromii	Ruminococcus champanellensis	[Ruminococcus] gnavus
 bsdb:559/1/1_diet:no-fiber-liquid-omnivore-diet_vs_regular-fiber-omnivore-diet_UP	NA	[Ruminococcus] gnavus	[Ruminococcus] torques
 bsdb:559/1/2_diet:no-fiber-liquid-omnivore-diet_vs_regular-fiber-omnivore-diet_DOWN	NA	Bacteroides ovatus	Faecalibacterium prausnitzii	Parabacteroides merdae	Prevotella copri	Streptococcus thermophilus	[Eubacterium] rectale
 bsdb:560/1/1_Parkinson's-disease:Men-with-Parkinson's-Disease._vs_Healthy-men-without-Parkinsons's-Disease._UP	NA	Akkermansia muciniphila	Alistipes shahii	Lacrimispora saccharolytica	Eubacterium sp.
@@ -656,13 +814,20 @@ bsdb:562/5/2_Health-study-participation:oral-cavity-from-healthy-adult_vs_none--
 bsdb:562/8/2_Health-study-participation:healthy-adult-skin-70%-up_vs_none_NA	NA	Cutibacterium acnes	Staphylococcus epidermidis	Malassezia restricta	Staphylococcus capitis	Cutibacterium granulosum
 bsdb:562/9/2_Health-study-participation:feces-from-healthy-adult_vs_none---70%-prevalence-threshold_NA	NA	Faecalibacterium prausnitzii	Fusicatenibacter saccharivorans	Bacteroides uniformis	[Eubacterium] rectale	Blautia wexlerae	Anaerostipes hadrus	Agathobaculum butyriciproducens	Dorea longicatena	Anaerobutyricum hallii	Dorea formicigenerans	Collinsella aerofaciens	Phocaeicola vulgatus	Blautia obeum	Roseburia inulinivorans	Parabacteroides distasonis	Gemmiger formicilis	Coprococcus comes	Ruthenibacterium lactatiformans	Roseburia hominis	Lachnospira eligens	[Ruminococcus] torques	Roseburia faecis	Bacteroides ovatus	Odoribacter splanchnicus	Alistipes putredinis	Coprococcus catus	Firmicutes bacterium CAG:83	Streptococcus salivarius	Bifidobacterium longum	Bacteroides thetaiotaomicron	Alistipes finegoldii	Eubacterium ramulus	Oscillibacter sp. 57_20	Alistipes shahii	Roseburia intestinalis	Flavonifractor plautii
 bsdb:564/1/1_antimicrobial-agent:IAP-group-(@7-days)_vs_Control-group-(@7-days)_DOWN	NA	Bifidobacterium sp.
+bsdb:566/1/2_juvenile-idiopathic-arthritis:HLAB27+_vs_HLAB27-_UP	NA	Clostridium sp.
+bsdb:566/2/2_juvenile-idiopathic-arthritis:JIA-patients-in-remission_vs_JIA-patients-with-active-disease_UP	NA	Clostridium sp.
+bsdb:566/3/1_juvenile-idiopathic-arthritis:JIA-ERA-patients_vs_Healthy-subjects_UP	NA	Clostridium sp.
 bsdb:569/1/1_colorectal-cancer:colorectal-cancer-patients_vs_healthy-controls_UP	NA	Fusobacterium nucleatum
 bsdb:569/1/2_colorectal-cancer:colorectal-cancer-patients_vs_healthy-controls_DOWN	NA	Lactobacillus sp.	Bifidobacterium sp.	Clostridium sp.
+bsdb:571/2/2_osteoarthritis,-knee:Knee-osteroarthritis-with-vit-D-deficiency_vs_Vitamin-D-deficiency_UP	NA	Clostridiales bacterium
 bsdb:575/1/1_antimicrobial-agent:perinatal-antibiotics_vs_Control-group_UP	NA	Escherichia coli
+bsdb:576/1/1_colorectal-cancer:patients-with-adenocarcinoma_vs_controls-with-no-cancer_DOWN	NA	Clostridiales bacterium
 bsdb:577/1/1_asthma:Male_vs_Female_DOWN	NA	Streptococcus salivarius
 bsdb:577/2/1_asthma:Female-participants-with-asthma_vs_Female-normal-controls_DOWN	NA	Streptococcus salivarius
 bsdb:579/3/2_major-depressive-disorder:Middle-aged-MDD-(aged-30-59-years)_vs_Middle-aged-HC-(aged-30-59-years)_DOWN	NA	Clostridiales Family XIII bacterium
 bsdb:579/4/1_major-depressive-disorder:Young-MDD-(aged-18-29-years)_vs_Young-HC-(aged-18-29-years)_DOWN	NA	Oscillospiraceae bacterium	Clostridium sp.
+bsdb:580/1/1_Human-immunodeficiency-virus:HIV+-individuals_vs_HIV-uninfected-individuals_DOWN	NA	Prevotella sp. 2-3	Butyrivibrio sp.
+bsdb:580/3/2_lung-function:HIV+-patients-with-reduced-DLCO_vs_HIV+-patients-with-normal-DLCO_DOWN	NA	Neisseria sp.	Parvimonas sp.
 bsdb:583/1/1_HIV-infection:PLWH->50-years-old-with-severe-periodontitis_vs_PLWH->50-years-old-with-no/mild-periodontitis_UP	NA	Candida albicans	Candida parapsilosis
 bsdb:583/1/2_HIV-infection:PLWH->50-years-old-with-severe-periodontitis_vs_PLWH->50-years-old-with-no/mild-periodontitis_DOWN	NA	Candida dubliniensis	Exserohilum turcicum	Tausonia pullulans	Debaryomyces hansenii
 bsdb:583/1/3_HIV-infection:PLWH->50-years-old-with-severe-periodontitis_vs_PLWH->50-years-old-with-no/mild-periodontitis_UP	NA	Prevotella melaninogenica	Rothia dentocariosa	Rothia mucilaginosa	Veillonella dispar
@@ -944,9 +1109,9 @@ bsdb:749/2/1_Down-syndrome:Down-Syndrome-children-with-mixed-dentition-(PD)_vs_C
 bsdb:749/2/2_Down-syndrome:Down-Syndrome-children-with-mixed-dentition-(PD)_vs_Controls-children-with-mixed-dentition-(PD)_DOWN	NA	Actinomyces sp. oral strain Hal-1065	Prevotella sp. oral taxon 306	TM7 phylum sp. oral taxon 352	Solobacterium moorei	Prevotella sp. oral clone IK062	Prevotella pallens	Actinomyces sp. ICM47	Prevotella histicola	Hoylesella nanceiensis	Actinomyces sp.	Schaalia meyeri	Actinomyces sp. ICM39	Actinomyces graevenitzii	Veillonella sp. oral taxon 158	Gemella sanguinis	Prevotella sp. CD3:34	Streptococcus salivarius
 bsdb:750/2/2_Aging:Elderly_vs_Adults_DOWN	NA	Candidatus Nanosynbacter sp. TM7-053
 bsdb:750/3/2_Gingival-bleeding:Participants-with-gingival-bleeding_vs_Participants-without-gingivitis-bleeding_DOWN	NA	Candidatus Nanosynbacter featherlites
-bsdb:751/1/2_Alcohol-drinking:Moderate-drinkers_vs_Non-drinkers_DOWN	NA	Granulicatella adiacens	Granulicatella elegans
-bsdb:751/2/1_Alcohol-drinking:Heavy-drinkers_vs_Non-drinkers_UP	NA	Actinomyces graevenitzii	Granulicatella elegans
-bsdb:751/2/2_Alcohol-drinking:Heavy-drinkers_vs_Non-drinkers_DOWN	NA	Granulicatella adiacens	Granulicatella elegans
+bsdb:751/1/2_alcohol-drinking:Moderate-drinkers_vs_Non-drinkers_DOWN	NA	Granulicatella adiacens	Granulicatella elegans
+bsdb:751/2/1_alcohol-drinking:Heavy-drinkers_vs_Non-drinkers_UP	NA	Actinomyces graevenitzii	Granulicatella elegans
+bsdb:751/2/2_alcohol-drinking:Heavy-drinkers_vs_Non-drinkers_DOWN	NA	Granulicatella adiacens	Granulicatella elegans
 bsdb:754/1/1_smoking-behavior:Smokers_vs_Non-smokers_UP	NA	Campylobacter concisus	Campylobacter showae	Corynebacterium matruchotii	Filifactor alocis	Fusobacterium nucleatum	Hoylesella oralis	Lachnoanaerobaculum orale	Lachnoanaerobaculum saburreum	Neisseria oralis	Neisseria sicca	Prevotella baroniae	Prevotella buccae	Prevotella maculosa	Prevotella salivae	Veillonella dispar
 bsdb:754/1/2_smoking-behavior:Smokers_vs_Non-smokers_DOWN	NA	Actinomyces johnsonii	Actinomyces viscosus	Aggregatibacter segnis	Capnocytophaga ochracea	Capnocytophaga sputigena	Fusobacterium canifelinum	Granulicatella adiacens	Hallella seregens	Lautropia mirabilis	Leptotrichia buccalis	Leptotrichia trevisanii	Megasphaera micronuciformis	Mogibacterium timidum	Neisseria bacilliformis	Neisseria elongata	Neisseria flavescens	Neisseria mucosa	Neisseria perflava	Prevotella denticola	Prevotella intermedia	Prevotella melaninogenica	Prevotella nigrescens	Prevotella oulorum	Prevotella pallens	Rothia aeria	Rothia dentocariosa	Schaalia odontolytica	Selenomonas noxia	Streptococcus cristatus	Streptococcus oralis	Streptococcus pseudopneumoniae	Streptococcus sanguinis	Treponema amylovorum	Treponema lecithinolyticum	Veillonella parvula	Veillonella rodentium	[Eubacterium] brachy	[Eubacterium] nodatum	[Eubacterium] saphenum	[Eubacterium] yurii
 bsdb:759/3/1_Dry-eye-syndrome:ADDE_vs_control_UP	NA	Streptomyces violaceusniger
@@ -980,6 +1145,8 @@ bsdb:786/3/2_type-ii-diabetes-mellitus:Pre-Type-2-Diabetes_vs_Healthy-controls_D
 bsdb:790/1/1_Response-to-heat:Jersey-cow_vs_Holstein-cow_UP	NA	Clostridium botulinum
 bsdb:791/1/1_Spontaneous-preterm-birth:Preterm-Birth-(delivery-outcome)_vs_Full-term-Birth-(delivery-outcome)_UP	NA	Fannyhessea vaginae	Gardnerella vaginalis	Prevotella amnii	Sneathia vaginalis
 bsdb:791/1/2_Spontaneous-preterm-birth:Preterm-Birth-(delivery-outcome)_vs_Full-term-Birth-(delivery-outcome)_DOWN	NA	Bifidobacterium breve	Lactobacillus crispatus	Lactobacillus gasseri	Lactobacillus iners
+bsdb:794/1/1_colorectal-cancer:EOCRC-(Early-onset-Colorectal-cancer)-patients_vs_Healthy-controls_UP	NA	[Ruminococcus] gnavus
+bsdb:794/2/1_colorectal-cancer:EOCRC-(Early-onset-Colorectal-cancer)-patients_vs_LOCRC-(Late-onset-Colorectal-cancer)-patients_UP	NA	[Ruminococcus] gnavus
 bsdb:795/1/1_Streptococcus-pneumoniae:Colonized-with-Streptococcus-pneumoniae_vs_individuals-not-colonized-with-Streptococcus-pneumoniae_UP	NA	Dolosigranulum pigrum
 bsdb:797/1/1_Smoking-status-measurement:Active-smokers_vs_Never-smokers_UP	NA	Fusobacterium perfoetens	Streptococcus mitis	Haemophilus seminalis	Methylobacterium isbiliense
 bsdb:797/1/2_Smoking-status-measurement:Active-smokers_vs_Never-smokers_DOWN	NA	Pelomonas saccharophila	Ralstonia mannitolilytica	Ralstonia pseudosolanacearum	Ralstonia syzygii	Burkholderia pseudomultivorans	Burkholderia perseverans	Stenotrophomonas rhizophila
@@ -991,12 +1158,15 @@ bsdb:797/4/1_Smoking-status-measurement:Active-smokers-&-former-smokers_vs_Never
 bsdb:797/5/1_Smoking-status-measurement:Active-smokers_vs_never-smokers-&-former-smokers_UP	NA	Delftia lacustris
 bsdb:798/1/1_urinary-tract-infection:Recurrent-Urinary-Tract-Infection-(RUTI)-patients_vs_Asymptomatic-controls_UP	NA	Prevotella bivia
 bsdb:798/1/2_urinary-tract-infection:Recurrent-Urinary-Tract-Infection-(RUTI)-patients_vs_Asymptomatic-controls_DOWN	NA	Lachnospiraceae bacterium NK4A136	Lactobacillus gasseri	Phaseolus acutifolius	Streptococcus pneumoniae
+bsdb:801/1/1_Respiratory-system-disease:Diseased-individuals-(D)_vs_Non-diseased/-healthy-individuals-(ND)_UP	NA	Rothia mucilaginosa
 bsdb:802/1/2_Cachexia:cachexia-induced-mice_vs_Healthy-controls_DOWN	NA	rumen bacterium NK4A214
 bsdb:803/1/1_colorectal-cancer:Samples-with-Colorectal-Cancer_vs_Normal-samples-free-from-Colorectal-Cancer_UP	NA	Abyssicoccus albus	Bifidobacterium pseudolongum	Corynebacterium kroppenstedtii	Cutibacterium acnes	Lactobacillus helveticus	Tissierella creatinophila
 bsdb:803/1/2_colorectal-cancer:Samples-with-Colorectal-Cancer_vs_Normal-samples-free-from-Colorectal-Cancer_DOWN	NA	Kocuria palustris	Pseudomonas viridiflava	Rothia aeria
 bsdb:803/2/1_colorectal-cancer:Samples-with-Colorectal-Cancer_vs_Normal-samples-free-from-Colorectal-Cancer_UP	NA	Clostridium perfringens
 bsdb:803/3/2_colorectal-cancer:Samples-with-Colorectal-Cancer_vs_Normal-samples-free-from-Colorectal-Cancer_DOWN	NA	Gemmiger formicilis	Segatella copri	[Ruminococcus] gnavus
 bsdb:804/1/2_Cognitive-impairment:SD-FMT:-receiving-sleep-deprivation-microbiota-FMT-mice_vs_CON-FMT:-receiving-control-microbiota-FMT-mice_DOWN	NA	Eubacterium xylanophilum	Lachnospiraceae bacterium NK4A136
+bsdb:810/1/1_preterm-premature-rupture-of-the-membranes:Preterm-premature-rupture-of-membranes-(PPROM)_vs_Control(term-delivery)_UP	NA	Lactobacillus iners	Gardnerella vaginalis	Lactobacillus jensenii	Prevotella bivia	Pelomonas puraquae	Hoylesella timonensis	Ureaplasma parvum	Ochrobactrum sp.
+bsdb:810/1/2_preterm-premature-rupture-of-the-membranes:Preterm-premature-rupture-of-membranes-(PPROM)_vs_Control(term-delivery)_DOWN	NA	Lactobacillus crispatus	Lactobacillus gasseri
 bsdb:815/1/1_Colitis:Infants-diagnosed-with-food-protein-induced-allergic-proctocolitis-(FPIAP)_vs_Infants-diagnosed-without-food-protein-induced-allergic-proctocolitis-(FPIAP)_UP	NA	Clostridiaceae bacterium	Clostridiales bacterium 1_7_47FAA
 bsdb:818/1/1_Dermatitis,Asthma,Food-allergy,Allergic-rhinitis:Allergic-Children_vs_Healthy-controls_DOWN	NA	Anaerostipes hadrus	Fusicatenibacter saccharivorans	Anaerobutyricum hallii
 bsdb:818/1/2_Dermatitis,Asthma,Food-allergy,Allergic-rhinitis:Allergic-Children_vs_Healthy-controls_UP	NA	Eggerthella lenta	Enterococcus faecalis	Escherichia coli	[Clostridium] innocuum
@@ -1004,11 +1174,16 @@ bsdb:818/1/3_Dermatitis,Asthma,Food-allergy,Allergic-rhinitis:Allergic-Children_
 bsdb:819/2/1_HIV-1-infection:Week-24-samples_vs_Baseline-samples_UP	NA	Treponema lecithinolyticum
 bsdb:819/2/2_HIV-1-infection:Week-24-samples_vs_Baseline-samples_DOWN	NA	Muribaculum intestinale
 bsdb:819/3/1_CD4-positive-T-lymphocyte-count:Baseline-CD4+-high-samples_vs_Baseline-CD4+-low-samples_UP	NA	Haemophilus parainfluenzae
+bsdb:819/4/1_CD4-positive-T-lymphocyte-count:week-24-CD4+-high-samples_vs_week-24-CD4+-low-samples_DOWN	NA	Haemophilus parainfluenzae
 bsdb:820/1/1_Human-respiratory-syncytial-virus-A-strain-Long:infants-after-the-amoxicillin-treatment_vs_infants-before-amoxicillin-treatment_DOWN	NA	Clostridiales bacterium
 bsdb:820/1/2_Human-respiratory-syncytial-virus-A-strain-Long:infants-after-the-amoxicillin-treatment_vs_infants-before-amoxicillin-treatment_UP	NA	Clostridiales bacterium
 bsdb:821/1/2_Temperature:Warm-Temperature-Treatment_vs_Cool-Temperature-Treatment_UP	NA	Candidatus Dependentiae bacterium	Terrabacteria group bacterium
 bsdb:823/2/1_NA:Meibomian-Gland-Dysfunction-(MGD)_vs_healthy-controls_UP	NA	Sphingomonas melonis	Staphylococcus epidermidis
 bsdb:823/2/2_NA:Meibomian-Gland-Dysfunction-(MGD)_vs_healthy-controls_DOWN	NA	Corynebacterium sp.
+bsdb:824/1/1_gastric-cancer:Gastric-cancer-patients-(Post-gastrectomy)_vs_Gastric-cancer-patients-(Pre-gastrectomy)_UP	NA	uncultured bacterium
+bsdb:824/1/2_gastric-cancer:Gastric-cancer-patients-(Post-gastrectomy)_vs_Gastric-cancer-patients-(Pre-gastrectomy)_DOWN	NA	TM7 phylum sp. oral clone CW040	[Eubacterium] yurii
+bsdb:824/2/2_gastric-cancer:Gastric-cancer-patients-(Post-gastrectomy)_vs_Gastric-cancer-patients-(Pre-gastrectomy)_DOWN	NA	Clostridium sp. CAG:352	TM7 phylum sp. oral clone CW040	[Eubacterium] nodatum	uncultured bacterium
+bsdb:828/1/2_SARS-CoV-2-related-disease:Symptomatic-patients-with-mild-pneumonia_vs_Asymptomatic-patients_UP	NA	Clostridiales bacterium
 bsdb:830/2/1_Biological-sex:male_vs_female_UP	NA	Pseudomonas aeruginosa
 bsdb:830/3/1_Dry-eye-syndrome:Meibomian-Gland-Dysfunction-(MGD)-DED_vs_Aqueous-tear-deficient-(ATD)-DED_UP	NA	Staphylococcus capitis	Staphylococcus aureus
 bsdb:830/3/2_Dry-eye-syndrome:Meibomian-Gland-Dysfunction-(MGD)-DED_vs_Aqueous-tear-deficient-(ATD)-DED_DOWN	NA	Staphylococcus hominis
@@ -1017,3 +1192,7 @@ bsdb:833/1/1_irritable-bowel-syndrome:Irritable-Bowel-Syndrome_vs_Healthy-contro
 bsdb:833/1/2_irritable-bowel-syndrome:Irritable-Bowel-Syndrome_vs_Healthy-controls_DOWN	NA	Bilophila wadsworthia	Roseburia inulinivorans	Bifidobacterium animalis	Phocaeicola plebeius	Phocaeicola barnesiae
 bsdb:834/1/1_Vitiligo:Non-segmental-Vitiligo-patients_vs_Healthy-controls_UP	NA	Agathobacter rectalis	Alistipes putredinis	Amedibacillus dolichus	Anaerobutyricum hallii	Anaerostipes hadrus	Bacteroides fragilis	Bacteroides stercoris	Bacteroides uniformis	Barnesiella intestinihominis	Bifidobacterium pseudocatenulatum	Blautia wexlerae	Escherichia coli	Faecalibacterium prausnitzii	Fusicatenibacter saccharivorans	Lachnospiraceae bacterium OF09-6	Massilioclostridium coli	Megamonas funiformis	Phocaeicola coprocola	Phocaeicola dorei	Phocaeicola plebeius	Phocaeicola vulgatus	Roseburia faecis	Roseburia intestinalis	Roseburia inulinivorans	Ruminococcus bromii	TM7 phylum sp. oral taxon 348	[Ruminococcus] torques	Dialister hominis
 bsdb:834/1/2_Vitiligo:Non-segmental-Vitiligo-patients_vs_Healthy-controls_DOWN	NA	Actinomyces sp. ICM58	Allisonella histaminiformans	Bacteroides bouchesdurhonensis	Bacteroides eggerthii	Clostridia bacterium	Clostridium sp. AF20-17LB	Coprobacter secundus	Coprococcus comes	Desulfovibrio desulfuricans	Dorea longicatena	Eggerthellaceae bacterium	Isoptericola variabilis	Oscillospiraceae bacterium	Parvimonas micra	Rikenellaceae bacterium	Sellimonas intestinalis	Trueperella pyogenes	Veillonella rogosae	Streptococcus thermophilus	Faecalicatena fissicatena	Faecalimonas umbilicata	Alistipes senegalensis	Butyricimonas faecalis	Neobittarella massiliensis	Alistipes ihumii	Holdemanella biformis
+bsdb:835/1/1_Response-to-vaccine:Mothers-at-post-vaccination-timepoints_vs_Mothers-at-pre-vaccination-timepoint_UP	NA	Acinetobacter ursingii	Roseomonas gilardii
+bsdb:835/1/2_Response-to-vaccine:Mothers-at-post-vaccination-timepoints_vs_Mothers-at-pre-vaccination-timepoint_DOWN	NA	Helicobacter rodentium
+bsdb:835/2/1_Response-to-vaccine:High-IgA-mothers-at-one-week-post-second-dose_vs_mothers-at-pre-vaccination_UP	NA	Cutibacterium granulosum	Neisseria elongata	Prevotella histicola	Ruminococcus callidus	Stutzerimonas balearica	Actinomyces massiliensis	Endobacter medicaginis
+bsdb:835/3/1_Response-to-vaccine:low-IgA-mothers-at-one-week-post-second-dose_vs_pre-vaccination-(baseline)_UP	NA	Corynebacterium kroppenstedtii
