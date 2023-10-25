@@ -1,4 +1,4 @@
-# BugSigDB 2023-10-25_10:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2023-10-25_13:01_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	91061	1236	1654	1716	1301	162289	189330	33024	40544	2037	2049	506	186826	1300	31977	91347	1653	57037	1386	186817
 bsdb:1/1/2_colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	100883	1117
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	207244	57037
@@ -758,8 +758,8 @@ bsdb:213/3/2_diet:low-fiber-from-BEANS_vs_high-fiber-from-BEANS_DOWN	NA	216851	8
 bsdb:213/4/1_Gut-microbiome-measurement:2-month-old-infants_vs_Neonates_UP	NA	201174	29465	1485	1300	2810280	1578	838	1678
 bsdb:213/5/1_Gut-microbiome-measurement:Vaginal-delivery_vs_Cesarean-delivery_UP	NA	816	158846	375288
 bsdb:213/5/2_Gut-microbiome-measurement:Vaginal-delivery_vs_Cesarean-delivery_DOWN	NA	1301	158851
-bsdb:213/6/1_Gut-microbiome-measurement:Vaginal-delivery_vs_Cesarean-delivery_UP	NA	816	158846	375288
-bsdb:213/6/2_Gut-microbiome-measurement:Vaginal-delivery_vs_Cesarean-delivery_DOWN	NA	1485
+bsdb:213/6/1_Gut-microbiome-measurement:Vaginal-delivery_vs_Cesarean-delivery_UP	NA	816	158846	375288	216572
+bsdb:213/6/2_Gut-microbiome-measurement:Vaginal-delivery_vs_Cesarean-delivery_DOWN	NA	1485	838
 bsdb:214/1/1_milk-allergic-reaction:children-with-milk-allergy-persistence_vs_milk-allergy-resolution_UP	NA	171549	200643	976	547	590	158851
 bsdb:214/1/2_milk-allergic-reaction:children-with-milk-allergy-persistence_vs_milk-allergy-resolution_DOWN	NA	572511	186801	31979	1730	1239	186804	171552	1263
 bsdb:215/1/1_Eczema:infants-with-eczema_vs_healthy-control-infants_UP	NA	239934	239935	207244	2157	626929	35832	33042	28141	213119	872	547	216851	853	946234	204475	745368	186803	541000	186822	44249	375288	46503	577309	33024	310297	171551	836	28126	82115	379	841	29465	203557	33038	561	620	1485
@@ -2204,6 +2204,8 @@ bsdb:562/8/2_Health-study-participation:healthy-adult-skin-70%-up_vs_none_NA	NA	
 bsdb:562/9/1_Health-study-participation:feces-from-healthy-adult_vs_none---70%-prevalence-threshold_NA	NA	447020	2048137	239759	2569097	207244	816	1678	572511	1485	102106	33042	189330	1730	216851	946234	1407607	204475	28050	2316020	283168	459786	375288	909656	841	1263	1301	1905344
 bsdb:562/9/2_Health-study-participation:feces-from-healthy-adult_vs_none---70%-prevalence-threshold_NA	NA	853	1150298	820	39491	418240	649756	1628085	88431	39488	39486	74426	821	40520	360807	823	745368	410072	1550024	301301	39485	33039	301302	28116	28118	28117	116085	1262992	1304	216816	818	214856	39490	1897011	328814	166486	292800
 bsdb:562/11/1_Health-study-participation:feces-from-healthy-adult_vs_none---30%-prevalence-threshold_NA	NA	216851	816	841	572511	2316020	189330	1730	909656	1407607	375288	239759	207244	33042	102106	2048137	2569097	1263	1678	28050	1301	204475	1905344	459786	1485	283168	946234	447020	838	397864	644652	33024	2172004	561	35832	239934	574697	577310	1505657	1578	1505663	84108	2719313	1348911	84111	39948	29465	1472762	1392389	724	1924093	1573535	2172	61170	577309	2847313	191303	1918598	1654
+bsdb:563/1/1_Chlamydia-trachomatis:Controls-aged->-10-years_vs_Controls-aged-<=-10-years_UP	NA	2037	1716	253183	265	85017	1743
+bsdb:563/1/2_Chlamydia-trachomatis:Controls-aged->-10-years_vs_Controls-aged-<=-10-years_DOWN	NA	43668	57493	1269	1279	1301
 bsdb:564/1/1_antimicrobial-agent:IAP-group-(@7-days)_vs_Control-group-(@7-days)_DOWN	NA	41200
 bsdb:565/1/1_arthritis:dogs-with-hip-or-elbow-arthritis_vs_healthy-dogs_DOWN	NA	135624	13334	2	375288	186807	2740	33024	171551	83763	86331
 bsdb:565/1/2_arthritis:dogs-with-hip-or-elbow-arthritis_vs_healthy-dogs_UP	NA	158846
@@ -3091,6 +3093,7 @@ bsdb:810/1/1_preterm-premature-rupture-of-the-membranes:Preterm-premature-ruptur
 bsdb:810/1/2_preterm-premature-rupture-of-the-membranes:Preterm-premature-rupture-of-membranes-(PPROM)_vs_Control(term-delivery)_DOWN	NA	47770	1596
 bsdb:812/1/1_urinary-tract-infection:rUTI-History,-UTI-(-),-rUTI-History,-UTI(+)_vs_No-UTI-History_UP	NA	1375	1578
 bsdb:812/1/2_urinary-tract-infection:rUTI-History,-UTI-(-),-rUTI-History,-UTI(+)_vs_No-UTI-History_UP	NA	816	820	2137877	38303	84111	1351	561	178214	1260	1378	570	33031	1282	1290	1301	2129	134821	33034
+bsdb:812/2/1_urinary-tract-infection:EHT+-Premenopausal-women-with-no-UTI-History-and-rUTI-History(-UTI(−)-groups)-with-estrogen-hormone-therapy-(EHT)_vs_Premenopausal-women-with-no-UTI-History-and-rUTI-History(-UTI(−)-groups)-without-estrogen-hormone-therapy-(EHT)_UP	NA	1578	47770
 bsdb:813/1/1_Morbid-obesity:GF-Swiss-Webster_vs_FVB/N_UP	NA	1678	1485	40544
 bsdb:813/1/2_Morbid-obesity:GF-Swiss-Webster_vs_FVB/N_DOWN	NA	191303
 bsdb:814/1/1_Systemic-scleroderma:Adult-Systemic-Sclerosis-patients-on-a-non-low-fermentable-oligosaccharides,-disaccharides,-monosaccharides,-and-polyols-(FODMAP)-diet._vs_Adult-Systemic-Sclerosis-patients-on-a-low-fermentable-oligosaccharides,-disaccharides,-monosaccharides,-and-polyols-(FODMAP)-diet._UP	NA	1350	570	906	204441	33042	128827	1649459	1505652	265975	1506577	186803	1481960
