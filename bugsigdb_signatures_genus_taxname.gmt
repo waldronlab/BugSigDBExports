@@ -1,4 +1,4 @@
-# BugSigDB 2023-10-25_14:59_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2023-10-25_15:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	Actinomyces	Corynebacterium	Streptococcus	Peptoniphilus	Dorea	Phascolarctobacterium	Sutterella	Lacticaseibacillus	Bacillus
 bsdb:1/1/2_colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	Coprobacillus
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	Anaerostipes	Lacticaseibacillus
@@ -1945,6 +1945,9 @@ bsdb:563/1/1_Chlamydia-trachomatis:Controls-aged->-10-years_vs_Controls-aged-<=-
 bsdb:563/1/2_Chlamydia-trachomatis:Controls-aged->-10-years_vs_Controls-aged-<=-10-years_DOWN	NA	Brachybacterium	Kocuria	Micrococcus	Staphylococcus	Streptococcus
 bsdb:563/2/1_Chlamydia-trachomatis:Controls-aged->-10-years-with-samples-collected-in-the-dry-season_vs_Controls-aged->-10-years-with-samples-collected-in-the-wet-season_UP	NA	Bacillus	Tumebacillus
 bsdb:563/4/1_Chlamydia-trachomatis:Cases-aged->-10-years-with-clinical-signs-of-conjunctival-scarring-sampled-during-the-dry-season_vs_Controls-aged->-10-years-with-healthy-conjunctiva-samples-collected-during-the-dry-season_UP	NA	Corynebacterium	Streptococcus
+bsdb:563/4/2_Chlamydia-trachomatis:Cases-aged->-10-years-with-clinical-signs-of-conjunctival-scarring-sampled-during-the-dry-season_vs_Controls-aged->-10-years-with-healthy-conjunctiva-samples-collected-during-the-dry-season_DOWN	NA	Globicatella
+bsdb:563/6/1_Chlamydia-trachomatis:Cases-with-conjunctival-scarring-(C>0)-and-trachomatous-trichiasis-(TT),with-samples-collected-in-the-dry-season_vs_Cases-with-conjunctival-scarring-(C>0)-alone,-with-samples-collected-in-the-dry-season_UP	NA	Corynebacterium	Kocuria
+bsdb:563/6/2_Chlamydia-trachomatis:Cases-with-conjunctival-scarring-(C>0)-and-trachomatous-trichiasis-(TT),with-samples-collected-in-the-dry-season_vs_Cases-with-conjunctival-scarring-(C>0)-alone,-with-samples-collected-in-the-dry-season_DOWN	NA	Myceligenerans	Paracoccus
 bsdb:564/1/1_antimicrobial-agent:IAP-group-(@7-days)_vs_Control-group-(@7-days)_DOWN	NA	Bifidobacterium
 bsdb:565/1/1_arthritis:dogs-with-hip-or-elbow-arthritis_vs_healthy-dogs_DOWN	NA	Anaerobiospirillum	Parabacteroides	Peptococcus	Phascolarctobacterium	Mogibacterium
 bsdb:565/1/2_arthritis:dogs-with-hip-or-elbow-arthritis_vs_healthy-dogs_UP	NA	Megamonas
@@ -2640,6 +2643,9 @@ bsdb:760/4/1_Chemotherapy-induced-gastrointestinal-mucositis,Colorectal-cancer:P
 bsdb:760/4/2_Chemotherapy-induced-gastrointestinal-mucositis,Colorectal-cancer:Placebo_vs_CRC-(colorectal-cancer-patients)_UP	NA	Akkermansia	Clostridium	Enterococcus	Parabacteroides	Ruminococcus
 bsdb:760/5/1_Chemotherapy-induced-gastrointestinal-mucositis,Colorectal-cancer:Probio_vs_Placebo_DOWN	NA	Akkermansia	Enterococcus	Parabacteroides	Ruminococcus
 bsdb:760/5/2_Chemotherapy-induced-gastrointestinal-mucositis,Colorectal-cancer:Probio_vs_Placebo_UP	NA	Alistipes	Gemmiger	Haemophilus	Microbispora
+bsdb:761/2/1_Metabolic-disease-associated-with-ocular-features:Patients_vs_Healthy-control_UP	NA	Actinomyces	Corynebacterium	Prevotella	Streptococcus
+bsdb:761/2/2_Metabolic-disease-associated-with-ocular-features:Patients_vs_Healthy-control_DOWN	NA	Acinetobacter	Actinomyces	Corynebacterium	Lactobacillus	Pseudomonas	Staphylococcus	Streptococcus
+bsdb:761/2/3_Metabolic-disease-associated-with-ocular-features:Patients_vs_Healthy-control_UP	NA	Staphylococcus	Corynebacterium	Lactobacillus	Prevotella	Fusobacterium	Selenomonas	Streptococcus	Hydrotalea	Ralstonia	Clostridium	Acinetobacter
 bsdb:762/1/2_Dry-eye-syndrome:Dry-Eye_vs_healthy-controls_UP	NA	Pseudomonas
 bsdb:762/2/1_Dry-eye-syndrome:MGD_vs_Non-MGD_UP	NA	Bacillus
 bsdb:762/2/2_Dry-eye-syndrome:MGD_vs_Non-MGD_DOWN	NA	Alloprevotella	Eubacterium	Thermomonas
@@ -2799,9 +2805,7 @@ bsdb:835/1/2_Response-to-vaccine:Mothers-at-post-vaccination-timepoints_vs_Mothe
 bsdb:835/2/1_Response-to-vaccine:High-IgA-mothers-at-one-week-post-second-dose_vs_mothers-at-pre-vaccination_UP	NA	Cutibacterium	Fusobacterium	Neisseria	Prevotella	Ruminococcus	Aggregatibacter	Sutterella	Castellaniella	Monoglobus	Stutzerimonas	Arachnia	Stomatobaculum	Actinobacillus	Actinomyces	Terrisporobacter	Alishewanella	Endobacter
 bsdb:835/3/1_Response-to-vaccine:low-IgA-mothers-at-one-week-post-second-dose_vs_pre-vaccination-(baseline)_UP	NA	Brevundimonas	Acinetobacter	Corynebacterium
 bsdb:835/4/1_Response-to-vaccine:Mothers-at-one-week-post-first-dose_vs_Mothers-at-pre-vaccination-timepoint_UP	NA	Acinetobacter	Eubacterium	Haemophilus	Roseomonas	Actinobacillus	Brevundimonas	Microbacterium	Caldibacillus	Empedobacter	Anoxybacillus	Bacillus	Bergeyella	Duganella	Enhydrobacter	Flavobacterium	Janthinobacterium	Providencia	Pseudarthrobacter	Shewanella	Sphingomonas
-bsdb:835/4/2_Response-to-vaccine:Mothers-at-one-week-post-first-dose_vs_Mothers-at-pre-vaccination-timepoint_DOWN	NA	Acinetobacter	Helicobacter	Lactobacillus	Allobaculum	Fusicatenibacter	Parabacteroides	Ralstonia	Turicibacter
 bsdb:835/5/1_Response-to-vaccine:Mothers-at-one-week-post-second-dose_vs_Mothers-at-pre-vaccination-timepoint-(baseline)_UP	NA	Acinetobacter	Eubacterium	Prevotella	Roseomonas	Actinobacillus	Brevundimonas	Gordonia	Klebsiella	Leptotrichia	Megamonas	Pseudarthrobacter	Saccharofermentans	Epilithonimonas	Moraxella	Paenibacillus	Gemmobacter	Nautella	Neptunomonas	Ochrobactrum	Peptoniphilus	Serratia	Vogesella
-bsdb:835/5/2_Response-to-vaccine:Mothers-at-one-week-post-second-dose_vs_Mothers-at-pre-vaccination-timepoint-(baseline)_DOWN	NA	Anaerococcus	Cutibacterium	Eubacterium	Helicobacter	Phocaeicola	Rothia	Allobaculum	Bacteroides	Castellaniella	Parabacteroides	Treponema	Arthrobacter	Ligilactobacillus	Pseudoxanthomonas	Akkermansia	Alcaligenes	Colidextribacter	Faecalibaculum	Haliangium	Halomonas	Kurthia	Lactobacillus	Odoribacter
 bsdb:835/6/1_Response-to-vaccine:Mothers-at-one-month-post-second-dose_vs_Mothers-at-pre-vaccination-timepoint_UP	NA	Acinetobacter	Campylobacter	Dubosiella	Epilithonimonas	Marinobacterium	Moraxella	Neisseria	Prevotella	Pseudoroseomonas	Roseomonas	Stenotrophomonas	Acidovorax	Aeromicrobium	Atopobium	Brevundimonas	Formosa	Gordonia	Lachnoanaerobaculum	Microvirga	Novosphingobium	Pediococcus	Pseudarcobacter	Serratia	Skermanella	Sphingomonas	Tepidimonas
 bsdb:837/1/1_food-allergy:Healthy-pregnant-women_vs_Mother-infant_UP	NA	Pseudomonas	Acinetobacter
 bsdb:837/1/2_food-allergy:Healthy-pregnant-women_vs_Mother-infant_DOWN	NA	Escherichia	Shigella	Prevotella	Bifidobacterium	Veillonella	Roseburia	Akkermansia	Ruminococcus	Blautia
