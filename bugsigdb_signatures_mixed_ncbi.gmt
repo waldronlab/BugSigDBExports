@@ -1,4 +1,4 @@
-# BugSigDB 2023-10-28_17:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2023-10-28_18:59_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	91061	1236	1654	1716	1301	162289	189330	33024	40544	2037	2049	506	186826	1300	31977	91347	1653	57037	1386	186817
 bsdb:1/1/2_colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	100883	1117
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	207244	57037
@@ -747,9 +747,11 @@ bsdb:210/1/1_food-allergy:children-with-food-sensitization_vs_healthy-controls_U
 bsdb:210/1/2_food-allergy:children-with-food-sensitization_vs_healthy-controls_DOWN	NA	816	375288	838	239759	1301	29465
 bsdb:210/2/1_food-allergy:children-with-food-sensitization_vs_healthy-controls_UP	NA	28211	186801	186802	1239	292632	216572
 bsdb:210/2/2_food-allergy:children-with-food-sensitization_vs_healthy-controls_DOWN	NA	976	200643	171549	815	816	29465
-bsdb:212/1/1_diet:Higher-total-fiber-intake_vs_low-total-fiber-intake_DOWN	NA	1654	31971	820	283168	119852
-bsdb:212/1/2_diet:Higher-total-fiber-intake_vs_low-total-fiber-intake_DOWN	NA	853	28050	216851
-bsdb:212/3/1_diet:Higher-fiber-intake-from-beans_vs_low-fiber-intake-from-beans_DOWN	NA	283168	31971
+bsdb:212/1/1_diet:Higher-quartile-of-TOTAL-fiber-intake_vs_low-quartile-of-TOTAL-fiber-intake_DOWN	NA	1654	31971	820	283168	119852
+bsdb:212/1/2_diet:Higher-quartile-of-TOTAL-fiber-intake_vs_low-quartile-of-TOTAL-fiber-intake_DOWN	NA	216851	853	28050
+bsdb:212/2/1_diet:Higher-fiber-intake-from-FRUITS/-VEGETABLES_vs_low-fiber-intake-from-FRUITS/-VEGETABLES_UP	NA	1654	820	84999	84998	186826	283168	186804	1263	40518
+bsdb:212/3/1_diet:Higher-fiber-intake-from-BEANS_vs_low-fiber-intake-from-BEANS_UP	NA	2037	816	2005519	33042	28221	194924	213115	216851	853	283168	1853231	375288	823	1263
+bsdb:212/3/2_diet:Higher-fiber-intake-from-BEANS_vs_low-fiber-intake-from-BEANS_DOWN	NA	31971	283168
 bsdb:213/4/1_Gut-microbiome-measurement:2-month-old-infants_vs_Neonates_UP	NA	201174	29465	1485	1300	2810280	1578	838	1678
 bsdb:213/5/1_Gut-microbiome-measurement:Vaginal-delivery_vs_Cesarean-delivery_UP	NA	816	158846	375288
 bsdb:213/5/2_Gut-microbiome-measurement:Vaginal-delivery_vs_Cesarean-delivery_DOWN	NA	1301	158851
@@ -3025,8 +3027,8 @@ bsdb:774/2/1_irritable-bowel-syndrome:IBS-D-(IBS-Diarrhea)_vs_Non-IBS2-(Non-irri
 bsdb:774/2/2_irritable-bowel-syndrome:IBS-D-(IBS-Diarrhea)_vs_Non-IBS2-(Non-irritable-bowel-syndrome-2)_UP	NA	292632	724	946234	1940338	189330	41275	33038	39488
 bsdb:774/3/1_irritable-bowel-syndrome:IBS-U-(IBS-Unclassified)_vs_Non-IBS3-(Non-irritable-bowel-syndrome-3)_DOWN	NA	1766253	39488	207244	1678	572511	194	135858	102106	189330	42322	216851	1686313	150022	1407607	1378	1573535	162289	838	1263	292632	40544	191303	184869	256845
 bsdb:774/3/2_irritable-bowel-syndrome:IBS-U-(IBS-Unclassified)_vs_Non-IBS3-(Non-irritable-bowel-syndrome-3)_UP	NA	1940338	286	40840	33039
-bsdb:774/4/1_irritable-bowel-syndrome:IBS-patients-with-depression-in-all-three-subtypes-(IBS-D,-IBS-C-and-IBS-U)_vs_IBS-patients-without-depression_DOWN	NA	1678	574697	40544
-bsdb:774/4/2_irritable-bowel-syndrome:IBS-patients-with-depression-in-all-three-subtypes-(IBS-D,-IBS-C-and-IBS-U)_vs_IBS-patients-without-depression_UP	NA	583
+bsdb:774/4/1_Depressive-disorder:IBS-patients-with-depression-in-all-three-subtypes-(IBS-D,-IBS-C-and-IBS-U)_vs_IBS-patients-without-depression_DOWN	NA	1678	574697	40544
+bsdb:774/4/2_Depressive-disorder:IBS-patients-with-depression-in-all-three-subtypes-(IBS-D,-IBS-C-and-IBS-U)_vs_IBS-patients-without-depression_UP	NA	583
 bsdb:774/5/1_irritable-bowel-syndrome:IBS-C-(IBS-Constipation)-Validation-Cohort_vs_Non-IBS-(Non-irritable-bowel-syndrome)_DOWN	NA	1239	201174
 bsdb:774/5/2_irritable-bowel-syndrome:IBS-C-(IBS-Constipation)-Validation-Cohort_vs_Non-IBS-(Non-irritable-bowel-syndrome)_UP	NA	74201
 bsdb:774/6/1_irritable-bowel-syndrome:IBS-D-(IBS-Diarrhea)-Validation-Cohort_vs_Non-IBS-(Non-irritable-bowel-syndrome)_DOWN	NA	201174	1239	29547
@@ -3075,6 +3077,8 @@ bsdb:791/1/1_Spontaneous-preterm-birth:Preterm-Birth_vs_Full-term-Birth_UP	NA	87
 bsdb:791/1/2_Spontaneous-preterm-birth:Preterm-Birth_vs_Full-term-Birth_DOWN	NA	1685	47770	33959	1596
 bsdb:791/2/1_Spontaneous-preterm-birth:Risk-Group_vs_Non-risk-Control_UP	NA	1685
 bsdb:791/2/2_Spontaneous-preterm-birth:Risk-Group_vs_Non-risk-Control_DOWN	NA	908809	1834109	40324
+bsdb:791/3/1_Spontaneous-preterm-birth:Previous-Preterm-birth_vs_No-Previous-Preterm-birth_UP	NA	246787	908809	1834109	40324	47715	2024555	38815
+bsdb:791/3/2_Spontaneous-preterm-birth:Previous-Preterm-birth_vs_No-Previous-Preterm-birth_DOWN	NA	1685	1682
 bsdb:792/1/1_Arabidopsis-thaliana:Test-group-(Roots)_vs_Control-group-(Leaves)_UP	NA	237	149698	1865
 bsdb:792/1/2_Arabidopsis-thaliana:Test-group-(Roots)_vs_Control-group-(Leaves)_DOWN	NA	286	29580	13687
 bsdb:793/1/1_Cerebral-small-vessel-disease:High-burden-(Unhealthy)_vs_Lower-burden-(Healthy)_UP	NA	221216

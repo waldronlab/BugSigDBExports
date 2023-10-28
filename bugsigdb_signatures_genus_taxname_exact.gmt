@@ -1,4 +1,4 @@
-# BugSigDB 2023-10-28_17:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2023-10-28_18:59_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	Actinomyces	Corynebacterium	Streptococcus	Peptoniphilus	Dorea	Phascolarctobacterium	Sutterella	Bacillus
 bsdb:1/1/2_colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	Coprobacillus
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	Anaerostipes
@@ -592,9 +592,11 @@ bsdb:210/1/1_food-allergy:children-with-food-sensitization_vs_healthy-controls_U
 bsdb:210/1/2_food-allergy:children-with-food-sensitization_vs_healthy-controls_DOWN	NA	Bacteroides	Parabacteroides	Prevotella	Alistipes	Streptococcus	Veillonella
 bsdb:210/2/1_food-allergy:children-with-food-sensitization_vs_healthy-controls_UP	NA	Subdoligranulum
 bsdb:210/2/2_food-allergy:children-with-food-sensitization_vs_healthy-controls_DOWN	NA	Bacteroides	Veillonella
-bsdb:212/1/1_diet:Higher-total-fiber-intake_vs_low-total-fiber-intake_DOWN	NA	Actinomyces	Odoribacter	Oscillospira
-bsdb:212/1/2_diet:Higher-total-fiber-intake_vs_low-total-fiber-intake_DOWN	NA	Lachnospira	Faecalibacterium
-bsdb:212/3/1_diet:Higher-fiber-intake-from-beans_vs_low-fiber-intake-from-beans_DOWN	NA	Odoribacter
+bsdb:212/1/1_diet:Higher-quartile-of-TOTAL-fiber-intake_vs_low-quartile-of-TOTAL-fiber-intake_DOWN	NA	Actinomyces	Odoribacter	Oscillospira
+bsdb:212/1/2_diet:Higher-quartile-of-TOTAL-fiber-intake_vs_low-quartile-of-TOTAL-fiber-intake_DOWN	NA	Faecalibacterium	Lachnospira
+bsdb:212/2/1_diet:Higher-fiber-intake-from-FRUITS/-VEGETABLES_vs_low-fiber-intake-from-FRUITS/-VEGETABLES_UP	NA	Actinomyces	Odoribacter	Ruminococcus
+bsdb:212/3/1_diet:Higher-fiber-intake-from-BEANS_vs_low-fiber-intake-from-BEANS_UP	NA	Bacteroides	Coprococcus	Faecalibacterium	Odoribacter	Parabacteroides	Ruminococcus
+bsdb:212/3/2_diet:Higher-fiber-intake-from-BEANS_vs_low-fiber-intake-from-BEANS_DOWN	NA	Odoribacter
 bsdb:213/4/1_Gut-microbiome-measurement:2-month-old-infants_vs_Neonates_UP	NA	Veillonella	Clostridium	Lactobacillus	Prevotella	Bifidobacterium
 bsdb:213/5/1_Gut-microbiome-measurement:Vaginal-delivery_vs_Cesarean-delivery_UP	NA	Bacteroides	Megamonas	Parabacteroides
 bsdb:213/5/2_Gut-microbiome-measurement:Vaginal-delivery_vs_Cesarean-delivery_DOWN	NA	Streptococcus	Trabulsiella
@@ -2271,8 +2273,8 @@ bsdb:774/2/1_irritable-bowel-syndrome:IBS-D-(IBS-Diarrhea)_vs_Non-IBS2-(Non-irri
 bsdb:774/2/2_irritable-bowel-syndrome:IBS-D-(IBS-Diarrhea)_vs_Non-IBS2-(Non-irritable-bowel-syndrome-2)_UP	NA	Subdoligranulum	Haemophilus	Flavonifractor	Dorea	Brevundimonas
 bsdb:774/3/1_irritable-bowel-syndrome:IBS-U-(IBS-Unclassified)_vs_Non-IBS3-(Non-irritable-bowel-syndrome-3)_DOWN	NA	Agathobacter	Anaerostipes	Bifidobacterium	Blautia	Campylobacter	Catenibacterium	Collinsella	Dorea	Faecalibacterium	Fenollaria	Finegoldia	Fusicatenibacter	Gemella	Holdemanella	Peptoniphilus	Prevotella	Ruminococcus	Subdoligranulum	Sutterella	Turicibacter	Varibaculum
 bsdb:774/3/2_irritable-bowel-syndrome:IBS-U-(IBS-Unclassified)_vs_Non-IBS3-(Non-irritable-bowel-syndrome-3)_UP	NA	Pseudomonas	Succiniclasticum
-bsdb:774/4/1_irritable-bowel-syndrome:IBS-patients-with-depression-in-all-three-subtypes-(IBS-D,-IBS-C-and-IBS-U)_vs_IBS-patients-without-depression_DOWN	NA	Bifidobacterium	Butyricimonas	Sutterella
-bsdb:774/4/2_irritable-bowel-syndrome:IBS-patients-with-depression-in-all-three-subtypes-(IBS-D,-IBS-C-and-IBS-U)_vs_IBS-patients-without-depression_UP	NA	Proteus
+bsdb:774/4/1_Depressive-disorder:IBS-patients-with-depression-in-all-three-subtypes-(IBS-D,-IBS-C-and-IBS-U)_vs_IBS-patients-without-depression_DOWN	NA	Bifidobacterium	Butyricimonas	Sutterella
+bsdb:774/4/2_Depressive-disorder:IBS-patients-with-depression-in-all-three-subtypes-(IBS-D,-IBS-C-and-IBS-U)_vs_IBS-patients-without-depression_UP	NA	Proteus
 bsdb:775/1/1_breast-cancer:breast-cancer-(BC)_vs_healthy-controls-(HC)_UP	NA	Actinomyces	Blautia	Eggerthella	Faecalitalea
 bsdb:776/1/1_Overactive-bladder:Overactive-Bladder-(OAB)_vs_Asymptomatic-controls_UP	NA	Staphylococcus	Sneathia	Proteus	Helcococcus	Gemella	Mycoplasma	Aerococcus
 bsdb:776/1/2_Overactive-bladder:Overactive-Bladder-(OAB)_vs_Asymptomatic-controls_DOWN	NA	Anaerococcus	Campylobacter	Dialister	Enterococcus	Finegoldia	Fusobacterium	Jonquetella	Lactobacillus	Lactococcus	Novosphingobium	Prevotella	Pyramidobacter	Ureaplasma
