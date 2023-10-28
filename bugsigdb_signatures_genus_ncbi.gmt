@@ -1,4 +1,4 @@
-# BugSigDB 2023-10-28_01:19_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2023-10-28_02:05_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	1654	1716	1301	162289	189330	33024	40544	2759736	1386
 bsdb:1/1/2_colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	100883
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	207244	2759736
@@ -1997,7 +1997,7 @@ bsdb:583/1/3_HIV-infection:PLWH->50-years-old-with-severe-periodontitis_vs_PLWH-
 bsdb:583/1/4_HIV-infection:PLWH->50-years-old-with-severe-periodontitis_vs_PLWH->50-years-old-with-no/mild-periodontitis_DOWN	NA	906	29465
 bsdb:583/1/5_HIV-infection:PLWH->50-years-old-with-severe-periodontitis_vs_PLWH->50-years-old-with-no/mild-periodontitis_UP	NA	1301
 bsdb:583/1/6_HIV-infection:PLWH->50-years-old-with-severe-periodontitis_vs_PLWH->50-years-old-with-no/mild-periodontitis_DOWN	NA	32207	482
-bsdb:584/1/1_precancerous-colorectal-adenoma:cra-patients_vs_normal-participants_UP	NA	613	620	590	53335	581	158851	561
+bsdb:584/1/1_colorectal-adenoma:cra-patients_vs_normal-participants_UP	NA	613	620	590	53335	581	158851	561
 bsdb:587/1/1_nicotine-dependence,smoking-behavior:Current-Smoker_vs_Non-smoker_UP	NA	135858	102106	32207	191303	1763
 bsdb:587/1/3_nicotine-dependence,smoking-behavior:Current-Smoker_vs_Non-smoker_UP	NA	135858	102106	52225	84108
 bsdb:588/1/1_colorectal-cancer:colorectal-cancer-patients_vs_healthy-subjects_UP	NA	46123	469	33870	776	1243	131079	2172	32207	100132	674963	574899
@@ -2008,8 +2008,8 @@ bsdb:588/3/1_Intestinal-polyp:cancer-patients_vs_polyps-patients_UP	NA	1654	194	
 bsdb:588/3/2_Intestinal-polyp:cancer-patients_vs_polyps-patients_DOWN	NA	642	100132	119852	52225	34104
 bsdb:589/1/1_colorectal-cancer:CRC-patients_vs_healthy-control_UP	NA	239934	33024	544	65402
 bsdb:589/1/2_colorectal-cancer:CRC-patients_vs_healthy-control_DOWN	NA	816	572511	39948	189330	140625	28050	158846	2974251	838	46205	1017280	1263
-bsdb:590/1/1_Human-immunodeficiency-virus:Recently-HIV-1-infected-individuals_vs_HIV-1-negative-individuals_DOWN	NA	189330
-bsdb:590/1/2_Human-immunodeficiency-virus:Recently-HIV-1-infected-individuals_vs_HIV-1-negative-individuals_UP	NA	29465
+bsdb:590/1/1_HIV-infection:Recently-HIV-1-infected-individuals_vs_HIV-1-negative-individuals_DOWN	NA	189330
+bsdb:590/1/2_HIV-infection:Recently-HIV-1-infected-individuals_vs_HIV-1-negative-individuals_UP	NA	29465
 bsdb:591/1/1_HIV-infection:HIV+-individuals_vs_HIV–-individuals_UP	NA	572511	118747	580596	1716	544	872	1350	561	1730	848	117563	158846	906	52225	86331	543311	1257	33024	838	1279	191303
 bsdb:591/1/2_HIV-infection:HIV+-individuals_vs_HIV–-individuals_DOWN	NA	1301	168808	841	1263	119852	28050	140625	61170	216851	189330	33042	1485	830	1678	816	207244	447020	357
 bsdb:592/1/1_HIV-infection:HIV-Patients_vs_Healthy-controls_UP	NA	265975	123375	1578	1926663	133925	580024	86331	2082587	83770	906	1473205	84108	1573535	102106	135858	838	158846	39948
@@ -2032,7 +2032,7 @@ bsdb:596/1/2_HIV-infection:HIV-infected-men_vs_HIV-uninfected-men_UP	NA	29465	40
 bsdb:597/1/2_Response-to-vaccine:Vaccinated-participants_vs_healthy-controls_DOWN	NA	165779	1582879	150022	1161127	543311
 bsdb:598/1/1_HIV-infection:HIV-seroconverted_vs_HIV-seronegative_UP	NA	39948	2050	1257
 bsdb:598/1/2_HIV-infection:HIV-seroconverted_vs_HIV-seronegative_DOWN	NA	838	1161127
-bsdb:599/1/1_Human-immunodeficiency-virus:Healthy-females-who-recieved-two-vaginal-HIV-microbicidal-gels_vs_Healthy-females-who-recieved-universal-placebo_UP	NA	1380	1350	561	2701	2050	838	168808	1301	906
+bsdb:599/1/1_HIV-infection:Healthy-females-who-recieved-two-vaginal-HIV-microbicidal-gels_vs_Healthy-females-who-recieved-universal-placebo_UP	NA	1380	1350	561	2701	2050	838	168808	1301	906
 bsdb:600/1/1_Parkinson's-disease:Participants-with-Parkinson's-Disease_vs_Healthy-controls_UP	NA	469	239759	92793	580596	1485	872	570	577309	13687	497726
 bsdb:600/1/2_Parkinson's-disease:Participants-with-Parkinson's-Disease_vs_Healthy-controls_DOWN	NA	1578	504481
 bsdb:601/2/1_Parkinson's-disease:Participants-with-idiopathic-Parkinson's-Disease_vs_Healthy-controls-without-any-form-of-Parkinson's-Disease_UP	NA	239759	547	2719313	644652	117563	61170	1578	2767887	577309	1301	46123
@@ -2741,6 +2741,7 @@ bsdb:798/1/2_urinary-tract-infection:Recurrent-Urinary-Tract-Infection-(RUTI)-pa
 bsdb:799/1/1_chronic-obstructive-pulmonary-disease:HIV-positive-individuals-diagnosed-with-COPD_vs_HIV-negative-individuals-with-COPD_UP	NA	416916	2801844	1386	2717	1716	1730	44259	848	1378	1840214	32067	2742598	475	543311	838	1743	508215	970	1301	195950
 bsdb:799/1/2_chronic-obstructive-pulmonary-disease:HIV-positive-individuals-diagnosed-with-COPD_vs_HIV-negative-individuals-with-COPD_DOWN	NA	1283313	482	195950	1654	1380	836	1016	59735	194	2147	123375	46123	117563	1164882	265975	1213720	2740	1257	156454	39948	29465	34104	1331051	47670	71	713	724	157	1434006
 bsdb:799/2/1_chronic-obstructive-pulmonary-disease:HIV-positive-individuals-(without-COPD)_vs_HIV-negative-individuals-(without-COPD)_UP	NA	1654	1716	1743	1380	836	1283313	1016	194	1386	123375	117563	1378	830	43996	1164882	265975	1213720	1730	2060094	1913599	970	29465	34104	1331051	713	724	475	157
+bsdb:799/2/2_chronic-obstructive-pulmonary-disease:HIV-positive-individuals-(without-COPD)_vs_HIV-negative-individuals-(without-COPD)_DOWN	NA	508215	2801844	838	46123	1301	543311	44259	1257	848	32067	47670	482	416916	1434006
 bsdb:800/1/1_Health-study-participation:pandemic-group-with-covariates-controlled-for_vs_pre-pandemic-group-with-covariates-controlled-for_DOWN	NA	724
 bsdb:800/3/2_Health-study-participation:pandemic-group-according-to-the-number-of-days_vs_pandemic-groups-(with/without-covariates)_UP	NA	46123
 bsdb:801/1/1_Respiratory-system-disease:Diseased-individuals-(D)_vs_Non-diseased/-healthy-individuals-(ND)_UP	NA	2801844	1678	1716	561	724	570	44249	286	497	195950	32207
@@ -2767,6 +2768,7 @@ bsdb:812/2/2_urinary-tract-infection:EHT+-Premenopausal-women-with-no-UTI-Histor
 bsdb:812/2/3_urinary-tract-infection:EHT+-Premenopausal-women-with-no-UTI-History-and-rUTI-History(-UTI(−)-groups)-with-estrogen-hormone-therapy-(EHT)_vs_Premenopausal-women-with-no-UTI-History-and-rUTI-History(-UTI(−)-groups)-without-estrogen-hormone-therapy-(EHT)_UP	NA	1578
 bsdb:812/2/4_urinary-tract-infection:EHT+-Premenopausal-women-with-no-UTI-History-and-rUTI-History(-UTI(−)-groups)-with-estrogen-hormone-therapy-(EHT)_vs_Premenopausal-women-with-no-UTI-History-and-rUTI-History(-UTI(−)-groups)-without-estrogen-hormone-therapy-(EHT)_UP	NA	1301
 bsdb:812/2/5_urinary-tract-infection:EHT+-Premenopausal-women-with-no-UTI-History-and-rUTI-History(-UTI(−)-groups)-with-estrogen-hormone-therapy-(EHT)_vs_Premenopausal-women-with-no-UTI-History-and-rUTI-History(-UTI(−)-groups)-without-estrogen-hormone-therapy-(EHT)_NA	NA	1578	1375	570	561	1350	1678	1301	2701	1279	76833	150022	1716	1743	66831	165779	838	162289	419014	184869	1654	1380	1263
+bsdb:812/2/6_urinary-tract-infection:EHT+-Premenopausal-women-with-no-UTI-History-and-rUTI-History(-UTI(−)-groups)-with-estrogen-hormone-therapy-(EHT)_vs_Premenopausal-women-with-no-UTI-History-and-rUTI-History(-UTI(−)-groups)-without-estrogen-hormone-therapy-(EHT)_NA	NA	1653174	419014	165779	1678	1716	1350	561	66831	150022	2701	570	1578	162289	838	1279	1301	184869
 bsdb:813/1/1_Morbid-obesity:GF-Swiss-Webster_vs_FVB/N_UP	NA	1678	1485	40544
 bsdb:813/1/2_Morbid-obesity:GF-Swiss-Webster_vs_FVB/N_DOWN	NA	191303
 bsdb:814/1/1_Systemic-scleroderma:Adult-Systemic-Sclerosis-patients-on-a-non-low-fermentable-oligosaccharides,-disaccharides,-monosaccharides,-and-polyols-(FODMAP)-diet._vs_Adult-Systemic-Sclerosis-patients-on-a-low-fermentable-oligosaccharides,-disaccharides,-monosaccharides,-and-polyols-(FODMAP)-diet._UP	NA	1350	570	906	33042	1649459	1505652	265975	1506577	1481960
