@@ -1,4 +1,4 @@
-# BugSigDB 2023-11-05_20:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2023-11-05_21:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	91061	1236	1654	1716	1301	162289	189330	33024	40544	2037	2049	506	186826	1300	31977	91347	1653	57037	1386	186817
 bsdb:1/1/2_colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	100883	1117
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	207244	57037
@@ -2507,10 +2507,10 @@ bsdb:651/2/1_colorectal-cancer:cancerous-tissue-(cat)_vs_paracancerous-tissue-(p
 bsdb:651/2/2_colorectal-cancer:cancerous-tissue-(cat)_vs_paracancerous-tissue-(pa10t)_UP	NA	91061
 bsdb:651/3/1_colorectal-cancer:cancerous-tissue-(cat)_vs_paracancerous-tissue-(pa2t)_DOWN	NA	528	28211
 bsdb:651/4/1_colorectal-cancer:CRC-patients-(stp)_vs_Healthy-volunteers-(stc)_UP	NA	165779	244127	102106	1730	86331	84108	577309	872	836	1257
-bsdb:652/1/1_intramucosal-CRC:Intramucosal-CRC_vs_Healthy_DOWN	NA	158846	165695	860	852
-bsdb:652/1/2_intramucosal-CRC:Intramucosal-CRC_vs_Healthy_UP	NA	713	848	543311	1257	1654	203490	203491	203492	856
-bsdb:652/2/1_intramucosal-CRC:Intramucosal-CRC_vs_CRA-(colorectal-adenoma)_UP	NA	574697	102106	52225	28221	213115	649777	283	194924
-bsdb:652/2/2_intramucosal-CRC:Intramucosal-CRC_vs_CRA-(colorectal-adenoma)_DOWN	NA	158846	128827	29465
+bsdb:652/1/1_colorectal-cancer:Intramucosal-CRC_vs_Healthy_DOWN	NA	158846	165695	860	852
+bsdb:652/1/2_colorectal-cancer:Intramucosal-CRC_vs_Healthy_UP	NA	713	848	543311	1257	1654	203490	203491	203492	856
+bsdb:652/2/1_colorectal-cancer:Intramucosal-CRC_vs_CRA-(colorectal-adenoma)_UP	NA	574697	102106	52225	28221	213115	649777	283	194924
+bsdb:652/2/2_colorectal-cancer:Intramucosal-CRC_vs_CRA-(colorectal-adenoma)_DOWN	NA	158846	128827	29465
 bsdb:652/3/1_colorectal-adenoma:CRA-(colorectal-adenoma)_vs_Healthy_UP	NA	140625	574697	590	283	468	856
 bsdb:652/3/2_colorectal-adenoma:CRA-(colorectal-adenoma)_vs_Healthy_DOWN	NA	1380	543311	848	860	851	203490	203491	203492
 bsdb:653/1/1_colorectal-cancer:Individuals-with-CRC_vs_Healthy-Controls_UP	NA	39948	848	1378	543311	1257	123375	1301
@@ -2537,8 +2537,8 @@ bsdb:657/2/1_oral-squamous-cell-carcinoma:Nonsmoking,-nondrinking,-and-dentate-p
 bsdb:657/2/2_oral-squamous-cell-carcinoma:Nonsmoking,-nondrinking,-and-dentate-pre-treatment-OSCC-patients_vs_Nonsmoking,-nondrinking,-and-dentate-healthy-controls_DOWN	NA	39778	113107	470565	28137	712118	28136	712362
 bsdb:657/3/1_oral-squamous-cell-carcinoma:post-treatment-OSCC-patients_vs_pre-treatment-OSCC-patients_UP	NA	102148	114527	1306	104608	166	712187	712911	28124	1382	47671	712365	341694	33033	652722	554406	327575	155615	423477	28137	46125	651609	1305	1458253
 bsdb:657/3/2_oral-squamous-cell-carcinoma:post-treatment-OSCC-patients_vs_pre-treatment-OSCC-patients_DOWN	NA	2047	1597	47715	52769
-bsdb:658/1/1_NA:Responders-(Partial-Response-or-Stable-Disease)_vs_Non-responders-(Progressive-Disease)_UP	NA	909929	2161821
-bsdb:658/1/2_NA:Responders-(Partial-Response-or-Stable-Disease)_vs_Non-responders-(Progressive-Disease)_DOWN	NA	909930	1843488	904	239759	35832	194924	213115	203492	203491	203490	32066	848	68766	1506553	1573805	216572	171550	2904303	529385	3031449
+bsdb:658/1/1_colorectal-cancer:Responders-(Partial-Response-or-Stable-Disease)_vs_Non-responders-(Progressive-Disease)_UP	NA	909929	2161821
+bsdb:658/1/2_colorectal-cancer:Responders-(Partial-Response-or-Stable-Disease)_vs_Non-responders-(Progressive-Disease)_DOWN	NA	909930	1843488	904	239759	35832	194924	213115	203492	203491	203490	32066	848	68766	1506553	1573805	216572	171550	2904303	529385	3031449
 bsdb:659/1/1_gastric-cancer:Mice-kept-in-original-breeding-environment_vs_Mice-quarantined-to-a-different-breeding-environment_UP	NA	815
 bsdb:659/1/2_gastric-cancer:Mice-kept-in-original-breeding-environment_vs_Mice-quarantined-to-a-different-breeding-environment_DOWN	NA	2292890
 bsdb:660/1/1_smoking-behavior:Smokers_vs_Never-smokers_UP	NA	1654	1380	118747	194	906	437755	265975	838	28132	60133	2047	102148	29465	39778
@@ -2683,18 +2683,18 @@ bsdb:695/5/1_antimicrobial-agent:Vanc_vs_control_UP	NA	239935	1263034	469589	820
 bsdb:695/5/2_antimicrobial-agent:Vanc_vs_control_DOWN	NA	1262753	1378168	397291	204516	1262917	1262936
 bsdb:695/6/1_antimicrobial-agent:Vanc_vs_coli_UP	NA	1262927	823	239935	171549	820	375288	1263034	487175
 bsdb:695/6/2_antimicrobial-agent:Vanc_vs_coli_DOWN	NA	1262753	1262917	1262936	1262924	821	397291	1378168
-bsdb:696/1/1_Nutraceuticals:colorectal-cancer-patients-perioperative-probiotics_vs_colorectal-cancer-patients-perioperative-placebo_UP	NA	12916	469	28211	41275	82976	75	212791	1350	117743	1236	29580	57494	1224	286	497	34037	379	117747	28453	40323	64001
-bsdb:696/1/2_Nutraceuticals:colorectal-cancer-patients-perioperative-probiotics_vs_colorectal-cancer-patients-perioperative-placebo_DOWN	NA	33042	13687	283	32066
-bsdb:696/2/1_Nutraceuticals:colorectal-cancer-patients-perioperative-probiotics_vs_Healthy-controls_UP	NA	1239	1386	2747	1350	379	1940338	64001	32066	1827
-bsdb:696/2/2_Nutraceuticals:colorectal-cancer-patients-perioperative-probiotics_vs_Healthy-controls_DOWN	NA	12916	469	28216	41275	82976	75	212791	2782229	117743	237	1236	29580	57494	84567	1743	286	497	34037	117747	28453	13687	1224
-bsdb:696/3/1_Nutraceuticals:colorectal-cancer-patients-perioperative-placebo_vs_Healthy-controls_UP	NA	1350	1257	32066	848
-bsdb:696/3/2_Nutraceuticals:colorectal-cancer-patients-perioperative-placebo_vs_Healthy-controls_DOWN	NA	12916	469	28211	28216	41275	82976	75	212791	2782229	237	1236	29580	57494	64001	84567	1743	286	497	34037	1827	117747	28453	13687	40323	117743
-bsdb:696/4/1_Nutraceuticals:colorectal-cancer-patients-perioperative-probiotics_vs_colorectal-cancer-patients-perioperative-placebo_UP	NA	1940338	82115	379	356	81852	1350	28211	171552
-bsdb:696/4/2_Nutraceuticals:colorectal-cancer-patients-perioperative-probiotics_vs_colorectal-cancer-patients-perioperative-placebo_DOWN	NA	848	203492	1378	1257	653683
-bsdb:696/5/1_Nutraceuticals:healthy-volunteer-group_vs_colorectal-cancer-patients-perioperative-placebo_UP	NA	1940338	82115	379	356	81852	1350	28211	171552
-bsdb:696/5/3_Nutraceuticals:healthy-volunteer-group_vs_colorectal-cancer-patients-perioperative-placebo_DOWN	NA	72274	1224	1236	286	135621	117743	200644	468
-bsdb:696/6/1_Nutraceuticals:colorectal-cancer-patients-perioperative-placebo_vs_Healthy-controls_UP	NA	653683	203492	848	1378	1257
-bsdb:696/6/2_Nutraceuticals:colorectal-cancer-patients-perioperative-placebo_vs_Healthy-controls_DOWN	NA	72274	1224	1236	286	135621	200644	117743	468	49546
+bsdb:696/1/1_Nutraceutical:colorectal-cancer-patients-perioperative-probiotics_vs_colorectal-cancer-patients-perioperative-placebo_UP	NA	12916	469	28211	41275	82976	75	212791	1350	117743	1236	29580	57494	1224	286	497	34037	379	117747	28453	40323	64001
+bsdb:696/1/2_Nutraceutical:colorectal-cancer-patients-perioperative-probiotics_vs_colorectal-cancer-patients-perioperative-placebo_DOWN	NA	33042	13687	283	32066
+bsdb:696/2/1_Nutraceutical:colorectal-cancer-patients-perioperative-probiotics_vs_Healthy-controls_UP	NA	1239	1386	2747	1350	379	1940338	64001	32066	1827
+bsdb:696/2/2_Nutraceutical:colorectal-cancer-patients-perioperative-probiotics_vs_Healthy-controls_DOWN	NA	12916	469	28216	41275	82976	75	212791	2782229	117743	237	1236	29580	57494	84567	1743	286	497	34037	117747	28453	13687	1224
+bsdb:696/3/1_Nutraceutical:colorectal-cancer-patients-perioperative-placebo_vs_Healthy-controls_UP	NA	1350	1257	32066	848
+bsdb:696/3/2_Nutraceutical:colorectal-cancer-patients-perioperative-placebo_vs_Healthy-controls_DOWN	NA	12916	469	28211	28216	41275	82976	75	212791	2782229	237	1236	29580	57494	64001	84567	1743	286	497	34037	1827	117747	28453	13687	40323	117743
+bsdb:696/4/1_Nutraceutical:colorectal-cancer-patients-perioperative-probiotics_vs_colorectal-cancer-patients-perioperative-placebo_UP	NA	1940338	82115	379	356	81852	1350	28211	171552
+bsdb:696/4/2_Nutraceutical:colorectal-cancer-patients-perioperative-probiotics_vs_colorectal-cancer-patients-perioperative-placebo_DOWN	NA	848	203492	1378	1257	653683
+bsdb:696/5/1_Nutraceutical:healthy-volunteer-group_vs_colorectal-cancer-patients-perioperative-placebo_UP	NA	1940338	82115	379	356	81852	1350	28211	171552
+bsdb:696/5/3_Nutraceutical:healthy-volunteer-group_vs_colorectal-cancer-patients-perioperative-placebo_DOWN	NA	72274	1224	1236	286	135621	117743	200644	468
+bsdb:696/6/1_Nutraceutical:colorectal-cancer-patients-perioperative-placebo_vs_Healthy-controls_UP	NA	653683	203492	848	1378	1257
+bsdb:696/6/2_Nutraceutical:colorectal-cancer-patients-perioperative-placebo_vs_Healthy-controls_DOWN	NA	72274	1224	1236	286	135621	200644	117743	468	49546
 bsdb:697/1/1_hepatocellular-carcinoma:Responders-to-Immune-checkpoint-inhibitors_vs_Non-responders-to-Immune-checkpoint-inhibitors_UP	NA	83770	1506577
 bsdb:697/1/2_hepatocellular-carcinoma:Responders-to-Immune-checkpoint-inhibitors_vs_Non-responders-to-Immune-checkpoint-inhibitors_DOWN	NA	239934	1647988	186804	203494	48461	74201
 bsdb:697/2/1_hepatocellular-carcinoma:Disease-control-with-Immune-checkpoint-inhibitors_vs_Non-Disease-control-with-Immune-checkpoint-inhibitors_UP	NA	904	201174	135624	1283313	1643824	31953	85004	1678	572511	40520	33042	84999	84998	128827	526525	526524	28050	906	674963	83763	1506577	29347
