@@ -1,4 +1,4 @@
-# BugSigDB 2023-12-15_19:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2023-12-16_03:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	Actinomyces	Corynebacterium	Streptococcus	Peptoniphilus	Dorea	Phascolarctobacterium	Sutterella	Lacticaseibacillus	Bacillus
 bsdb:1/1/2_colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	Coprobacillus
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	Anaerostipes	Lacticaseibacillus
@@ -2274,6 +2274,9 @@ bsdb:678/4/1_smoking-behavior:Mutiple-Smokers_vs_Nonsmokers_UP	NA	Campylobacter	
 bsdb:678/4/2_smoking-behavior:Mutiple-Smokers_vs_Nonsmokers_DOWN	NA	Actinobacillus	Eikenella	Gemella	Haemophilus	Lautropia	Neisseria	Vagococcus
 bsdb:678/5/1_Cotinine-measurement:Cotinine-positive_vs_Cotinine-negative_DOWN	NA	Aggregatibacter	Capnocytophaga	Cardiobacterium	Eikenella	Fusobacterium	Gemella	Haemophilus	Lautropia	Neisseria	Peptococcus	Peptostreptococcus	Porphyromonas	Rothia
 bsdb:678/5/2_Cotinine-measurement:Cotinine-positive_vs_Cotinine-negative_UP	NA	Bifidobacterium	Campylobacter	Desulfobulbus	Filifactor	Megasphaera	Mycoplasma	Paludibacter	Treponema	Synergistes	Paraprevotella
+bsdb:678/8/1_smoking-behavior:CIigarettes_vs_Shisha_DOWN	NA	Actinobacillus	Butyrivibrio	Capnocytophaga
+bsdb:678/8/2_smoking-behavior:CIigarettes_vs_Shisha_UP	NA	Paludibacter	Treponema	Synergistes	Mycoplasma
+bsdb:678/9/1_smoking-behavior:Dokha_vs_Shisha_DOWN	NA	Actinobacillus
 bsdb:679/2/1_Response-to-immunochemotherapy:Responders_vs_Non-responders_UP	NA	Parabacteroides	Enterococcus	Collinsella	Bifidobacterium	Klebsiella	Veillonella	Lactobacillus
 bsdb:679/2/2_Response-to-immunochemotherapy:Responders_vs_Non-responders_DOWN	NA	Blautia	Roseburia
 bsdb:679/3/1_Response-to-immunochemotherapy:Responders,-group-A_vs_Non-responders,-group-B_UP	NA	Collinsella	Bifidobacterium	Lactobacillus	Klebsiella	Parabacteroides
@@ -2737,6 +2740,16 @@ bsdb:789/2/1_breast-cancer:Adjacent-normal-(AN)_vs_Health-(H)_UP	NA	Anaerococcus
 bsdb:789/2/2_breast-cancer:Adjacent-normal-(AN)_vs_Health-(H)_DOWN	NA	Arthrobacter	Bacteroides	Bradyrhizobium	Cutibacterium	Iodobacter	Lactococcus	Photobacterium	Ruminococcus	Corynebacterium	Pseudomonas	Acinetobacter	Carnobacterium	Staphylococcus
 bsdb:789/3/1_breast-cancer:Tumor-(T)_vs_Health-(H)_UP	NA	Anaerococcus	Pseudogracilibacillus	Rhodococcus	Enterococcus	Pseudomonas	Herbaspirillum	Staphylococcus
 bsdb:789/3/2_breast-cancer:Tumor-(T)_vs_Health-(H)_DOWN	NA	Acinetobacter	Arthrobacter	Bacteroides	Bilophila	Lactococcus	Lawsonella	Photobacterium	Rubellimicrobium	Serratia	Thermus	Vagococcus	Carnobacterium	Corynebacterium	Iodobacter	Brochothrix	Bradyrhizobium	Pseudomonas	Staphylococcus
+bsdb:790/1/1_inflammatory-bowel-disease:inflammatory-bowel-disease-patients_vs_healthy-controls_DOWN	NA	Bifidobacterium	Christensenella	Lachnoclostridium	Lachnospira	Agathobacter	Eubacterium	Lactobacillus	Lacticaseibacillus	Methanobrevibacter	Paraprevotella	Roseburia	Ruminococcus	Streptococcus	Alistipes	Anaerostipes	Bacteroides	Phocaeicola	Barnesiella	Intestinibacter	Akkermansia
+bsdb:790/2/1_Sign-or-symptom:non-inflammatory-bowel-disease-symptomatic-controls_vs_healthy-children_DOWN	NA	Bifidobacterium	Coprococcus	Lachnospira	Ruminococcus	Streptococcus	Alistipes	Bacteroides	Phocaeicola
+bsdb:790/2/2_Sign-or-symptom:non-inflammatory-bowel-disease-symptomatic-controls_vs_healthy-children_UP	NA	Enterococcus	Citrobacter
+bsdb:790/3/1_inflammatory-bowel-disease:inflammatory-bowel-disease-patients_vs_non-inflammatory-bowel-disease-symptomatic-controls_DOWN	NA	Paraprevotella	Bifidobacterium	Christensenella	Desulfovibrio	Agathobacter	Eubacterium	Lactobacillus	Lacticaseibacillus	Roseburia	Ruminococcus	Alistipes	Phocaeicola	Bacteroides	Akkermansia
+bsdb:790/3/2_inflammatory-bowel-disease:inflammatory-bowel-disease-patients_vs_non-inflammatory-bowel-disease-symptomatic-controls_UP	NA	Haemophilus
+bsdb:790/4/1_Phenotype:Crohn's-Disease-patients-with-stricturing-and/or-penetrating-phenotypes_vs_Crohn's-Disease-patients-with-inflammatory-phenotypes_DOWN	NA	Christensenella	Lachnoclostridium	Lachnospira	Roseburia
+bsdb:790/4/2_Phenotype:Crohn's-Disease-patients-with-stricturing-and/or-penetrating-phenotypes_vs_Crohn's-Disease-patients-with-inflammatory-phenotypes_UP	NA	Escherichia
+bsdb:790/5/1_Treatment:Inflammatory-bowel-disease-patients-treated-with-biological-therapy_vs_Inflammatory-bowel-disease-patients-treated-with-conventional-therapy_DOWN	NA	Bifidobacterium	Agathobacter	Roseburia	Ruminococcus	Bacteroides	Paraprevotella
+bsdb:790/5/2_Treatment:Inflammatory-bowel-disease-patients-treated-with-biological-therapy_vs_Inflammatory-bowel-disease-patients-treated-with-conventional-therapy_UP	NA	Mediterraneibacter	Phocaeicola
+bsdb:790/6/1_Increased-inflammatory-response:Inflammatory-bowel-disease-patients-with-fecal-calprotectin-levels->-1000-mg/kg_vs_Inflammatory-bowel-disease-patients-with-fecal-calprotectin-levels-<-1000-mg/kg_DOWN	NA	Roseburia	Alistipes	Barnesiella
 bsdb:791/1/1_Spontaneous-preterm-birth:Preterm-Birth_vs_Full-term-Birth_UP	NA	Aerococcus	Dialister	Fannyhessea	Gardnerella	Hallella	Hoylesella	Prevotella	Scardovia	Sneathia
 bsdb:791/1/2_Spontaneous-preterm-birth:Preterm-Birth_vs_Full-term-Birth_DOWN	NA	Bifidobacterium	Lactobacillus
 bsdb:791/2/1_Spontaneous-preterm-birth:Risk-Group_vs_Non-risk-Control_UP	NA	Bifidobacterium
@@ -2986,3 +2999,10 @@ bsdb:866/3/2_Intestinal-polyp:low-grade-colorectal-polyps-cohort_vs_polyp-free-c
 bsdb:866/4/1_Intestinal-polyp:low-grade-colorectal-polyps-cohort_vs_polyp-free-control-cohort_UP	NA	Mediterraneibacter	Phascolarctobacterium	Sutterella
 bsdb:867/1/1_breast-cancer:Breast-cancer-patients_vs_Healthy-controls_UP	NA	Acidaminococcus	Hungatella	Tyzzerella
 bsdb:867/1/2_breast-cancer:Breast-cancer-patients_vs_Healthy-controls_DOWN	NA	Anaerofilum	Candidatus Galligastranaerophilus	Dialister	Romboutsia
+bsdb:868/1/1_ulcerative-colitis:ulcerative-colitis_vs_healthy-controls_UP	NA	Haemophilus	Olsenella	Prevotella	Cedecea	Peptostreptococcus	Faecalibacterium	Lachnospira	Negativibacillus	Butyrivibrio
+bsdb:868/1/2_ulcerative-colitis:ulcerative-colitis_vs_healthy-controls_DOWN	NA	Leuconostoc	Yersinia	Brevundimonas	Falsochrobactrum	Cutibacterium	Coprobacter	Eisenbergiella	Lactococcus	Butyricimonas	Fusicatenibacter
+bsdb:868/2/1_ulcerative-colitis:ulcerative-colitis_vs_healthy-controls_UP	NA	Phocaeicola	Phascolarctobacterium	Dialister	Sutterella	Faecalibacterium
+bsdb:868/2/2_ulcerative-colitis:ulcerative-colitis_vs_healthy-controls_DOWN	NA	Fusicatenibacter
+bsdb:869/1/1_ulcerative-colitis:quiescent-ulcerative-colitis-patients_vs_healthy-controls_UP	NA	Bifidobacterium
+bsdb:869/2/1_Disease-progression-measurement:relapsed-ulcerative-colitis-group_vs_sustained-remission-of-ulcerative-colitis-group_UP	NA	Faecalibacterium	Bifidobacterium
+bsdb:869/2/2_Disease-progression-measurement:relapsed-ulcerative-colitis-group_vs_sustained-remission-of-ulcerative-colitis-group_DOWN	NA	Prevotella
