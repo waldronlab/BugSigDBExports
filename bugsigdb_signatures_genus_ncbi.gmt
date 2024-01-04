@@ -1,4 +1,4 @@
-# BugSigDB 2024-01-04_19:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2024-01-04_20:59_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	1654	1716	1301	162289	189330	33024	40544	2759736	1386
 bsdb:1/1/2_colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	100883
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	207244	2759736
@@ -2879,6 +2879,10 @@ bsdb:830/3/1_Dry-eye-syndrome:Meibomian-Gland-Dysfunction-(MGD)-DED_vs_Aqueous-t
 bsdb:830/3/2_Dry-eye-syndrome:Meibomian-Gland-Dysfunction-(MGD)-DED_vs_Aqueous-tear-deficient-(ATD)-DED_DOWN	NA	1279
 bsdb:830/4/1_Dry-eye-syndrome:Mixed-DED_vs_Aqueous-tear-deficient-(ATD)-DED_UP	NA	1279
 bsdb:830/6/1_Dry-eye-syndrome:Dry-Eye_vs_healthy-controls_UP	NA	469	416916	59732	1716	1298	848	53457	1578	116071	482	265	543311	32207	1279	1301	29465
+bsdb:830/7/1_Dry-eye-syndrome:Dry-Eye--ATD_vs_Dry-Eye--nonATD_UP	NA	53457
+bsdb:830/7/2_Dry-eye-syndrome:Dry-Eye--ATD_vs_Dry-Eye--nonATD_DOWN	NA	1016
+bsdb:830/8/1_Dry-eye-syndrome:Dry-Eye--MGD_vs_Dry-Eye--nonMGD_UP	NA	469	1298	1279
+bsdb:830/8/2_Dry-eye-syndrome:Dry-Eye--MGD_vs_Dry-Eye--nonMGD_DOWN	NA	102106
 bsdb:831/1/1_COVID-19:COVID-19-Patients_vs_ventilator-associated-pneumonia-(pneumonia-group)_UP	NA	816	1905344	1017280
 bsdb:831/1/2_COVID-19:COVID-19-Patients_vs_ventilator-associated-pneumonia-(pneumonia-group)_UP	NA	838	150022	1686313	162289	836
 bsdb:831/2/1_COVID-19:COVID-19-patients-with-ventilation_vs_COVID-19-patients-without-ventilation_DOWN	NA	216851	841	1301
@@ -2922,16 +2926,16 @@ bsdb:842/2/1_Dermatitis:Atopic-dermatitis_vs_Control-group_UP	NA	469	375288	4032
 bsdb:842/3/1_Food-allergy,Dermatitis:Atopic-dermatitis-and-Food-Allergy-(ADFA)_vs_Control-group_UP	NA	469	816	375288	29465	909656
 bsdb:842/4/1_Food-allergy,Dermatitis:Infants-with-Allergy-Symptoms_vs_Control-group_UP	NA	1301	1378	1678	32207	1578
 bsdb:842/4/2_Food-allergy,Dermatitis:Infants-with-Allergy-Symptoms_vs_Control-group_DOWN	NA	469	1301	1578	724	816	2529408	1654
-bsdb:844/1/1_Response-to-metformin:metformin-treated-T2D-patients_vs_metformin-naive-type-2-diabetes-(T2D)-patients_DOWN	NA	1506553
+bsdb:844/1/1_Response-to-metformin:metformin-treated-T2D-patients_vs_metformin-naive-type-2-diabetes-(T2D)-patients_UP	NA	1506553
 bsdb:844/3/1_Population:Denmark-(normoglycaemic-controls-and-T2D-patients)_vs_Indians-(normoglycaemic-controls-and-T2D-patients)_UP	NA	447020	239934	239759	52784	244127	1935176	816	397864	35832	374	574697	990721	1348911	872	1432051	216851	946234	61170	1649459	1506553	28050	1935200	3028852	1980693	283168	459786	119852	846	375288	577309	577310	2740	33024	1017280	1827	1508657	1635148	292632	40544	1263
 bsdb:844/3/2_Population:Denmark-(normoglycaemic-controls-and-T2D-patients)_vs_Indians-(normoglycaemic-controls-and-T2D-patients)_DOWN	NA	222	1654	1766253	1283313	156454	207244	1678	135858	102106	189330	1407607	117563	1573535	404402	257820	1578	248744	906	52225	133925	265975	1822464	2082587	1501226	841	1473205	613	123375	1505652	46255	838	33042
 bsdb:844/4/1_Metformin:metformin-treated-T2D-patients_vs_metformin-naive-type-2-diabetes-(T2D)-patients_DOWN	NA	216851
 bsdb:844/4/2_Metformin:metformin-treated-T2D-patients_vs_metformin-naive-type-2-diabetes-(T2D)-patients_UP	NA	816
 bsdb:844/5/1_type-ii-diabetes-mellitus:Type-2-diabetes-(T2D)-patients_vs_Normoglycemic-(NG)-controls_UP	NA	653683	580596	39948	216851	1578	1501226	841	292632	1263
 bsdb:844/5/2_type-ii-diabetes-mellitus:Type-2-diabetes-(T2D)-patients_vs_Normoglycemic-(NG)-controls_DOWN	NA	816	572511	189330	1506553	906	459786	33042
-bsdb:844/6/1_type-ii-diabetes-mellitus:Type-2-diabetes-(T2D)-patients_vs_Normoglycemic-(NG)-controls_UP	NA	292632	580596	653683
-bsdb:844/6/2_type-ii-diabetes-mellitus:Type-2-diabetes-(T2D)-patients_vs_Normoglycemic-(NG)-controls_DOWN	NA	1506553
-bsdb:844/7/1_type-ii-diabetes-mellitus:Type-2-diabetes-(T2D)-patients_vs_Normoglycemic-(NG)-controls_DOWN	NA	1506553
+bsdb:844/6/1_type-ii-diabetes-mellitus:Type-2-diabetes-(T2D)-patients_vs_Normoglycemic-(NG)-controls_DOWN	NA	653683	580596	292632
+bsdb:844/6/2_type-ii-diabetes-mellitus:Type-2-diabetes-(T2D)-patients_vs_Normoglycemic-(NG)-controls_UP	NA	1506553
+bsdb:844/7/1_type-ii-diabetes-mellitus:Type-2-diabetes-(T2D)-patients_vs_Normoglycemic-(NG)-controls_UP	NA	1506553
 bsdb:845/1/1_Smoking-status-measurement:Current-smokers_vs_Never-smokers_UP	NA	1654	419014	1380	1678	118747	84162	39948	44259	1434006	1578	906	52225	2093	508215	1213720	157	29465	1257
 bsdb:845/1/2_Smoking-status-measurement:Current-smokers_vs_Never-smokers_DOWN	NA	46123	416916	1283313	59735	1016	2717	43996	848	724	32257	47670	32067	482	219181	2740	1257	836
 bsdb:845/2/1_Smoking-status-measurement:Former-smokers-(0-1--year)_vs_Never-smokers_UP	NA	46123	416916	118747	84162	39948	1434006	32257	2093	1257
@@ -3014,3 +3018,7 @@ bsdb:870/1/1_Postmenopausal-osteoporosis:Postmenopausal-osteoporosis-(PMOP)-pati
 bsdb:870/1/2_Postmenopausal-osteoporosis:Postmenopausal-osteoporosis-(PMOP)-patients_vs_Healthy-controls_DOWN	NA	816
 bsdb:871/1/1_head-and-neck-squamous-cell-carcinoma:Oral-mucositis-CTCAE-grade-3-(severe)_vs_Oral-mucositis-CTCAE-grade-1-2-(mild)_UP	NA	207244	1485	2719313	1649459	2683202	1924110	2316020	1905344	1769710	3025755
 bsdb:871/1/2_head-and-neck-squamous-cell-carcinoma:Oral-mucositis-CTCAE-grade-3-(severe)_vs_Oral-mucositis-CTCAE-grade-1-2-(mild)_DOWN	NA	1766253	239759	419014	1485	28050	909656	838	1473205	2316020
+bsdb:871/2/1_head-and-neck-squamous-cell-carcinoma:Enteral-feeding-plus-mucositis-of-any-grade_vs_No-enteral-feeding-plus-mild-mucositis_UP	NA	207244	84111	2719313	1350	57499	1506553	2316020	1905344	1769710	3025755
+bsdb:871/2/2_head-and-neck-squamous-cell-carcinoma:Enteral-feeding-plus-mucositis-of-any-grade_vs_No-enteral-feeding-plus-mild-mucositis_DOWN	NA	239759	572511	1485	33042	189330	1730	909656	841	1473205	40544
+bsdb:871/3/1_head-and-neck-squamous-cell-carcinoma:Enteral-feeding-tube-placement_vs_No-Enteral-feeding-tube-placement_UP	NA	207244	572511	84111	1432051	2719313	1350	2005359	2005355	254250	57499	1506553	2316020	1905344	3025755	29465
+bsdb:871/3/2_head-and-neck-squamous-cell-carcinoma:Enteral-feeding-tube-placement_vs_No-Enteral-feeding-tube-placement_DOWN	NA	239759	572511	574697	1485	33042	189330	1730	2005359	909656	841
