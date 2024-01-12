@@ -1,4 +1,4 @@
-# BugSigDB 2024-01-11_15:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2024-01-12_04:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	Actinomyces	Corynebacterium	Streptococcus	Peptoniphilus	Dorea	Phascolarctobacterium	Sutterella	Lacticaseibacillus	Bacillus
 bsdb:1/1/2_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	Coprobacillus
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	Anaerostipes	Lacticaseibacillus
@@ -618,8 +618,8 @@ bsdb:185/1/1_Gastric-cancer:gastric-cancer_vs_controls_UP	NA	Escherichia	Shigell
 bsdb:185/1/2_Gastric-cancer:gastric-cancer_vs_controls_DOWN	NA	Bacteroides
 bsdb:185/2/1_Gastric-cancer:gastric-cancer_vs_healthy-gastric-cancer-(post-surgery)_UP	NA	Klebsiella
 bsdb:185/2/2_Gastric-cancer:gastric-cancer_vs_healthy-gastric-cancer-(post-surgery)_DOWN	NA	Akkermansia	Shigella	Lactobacillus	Dialister
-bsdb:186/2/1_Colorectal-cancer:Smoke-exposed-group-intraperitoneally-injected-with-carcinogen,-AOM-(AOM-+-Smoking)_vs_Smoke-free-control-group-intraperitoneally-injected-with-carcinogen-azoxymethane-(AOM)-(10-mg/kg)_UP	NA	Bacillus	Bifidobacterium	Eggerthella	Escherichia	Gordonibacter	Muribaculum	Parolsenella	Staphylococcus
-bsdb:186/2/2_Colorectal-cancer:Smoke-exposed-group-intraperitoneally-injected-with-carcinogen,-AOM-(AOM-+-Smoking)_vs_Smoke-free-control-group-intraperitoneally-injected-with-carcinogen-azoxymethane-(AOM)-(10-mg/kg)_DOWN	NA	Bacteroides	Limosilactobacillus	Parabacteroides	Phocaeicola	Streptococcus
+bsdb:186/2/1_Smoking-behavior:Smoke-exposed-group-intraperitoneally-injected-with-carcinogen,-AOM-(AOM-+-Smoking)_vs_Smoke-free-control-group-intraperitoneally-injected-with-carcinogen-azoxymethane-(AOM)-(10-mg/kg)_UP	NA	Bacillus	Bifidobacterium	Eggerthella	Escherichia	Gordonibacter	Muribaculum	Parolsenella	Staphylococcus
+bsdb:186/2/2_Smoking-behavior:Smoke-exposed-group-intraperitoneally-injected-with-carcinogen,-AOM-(AOM-+-Smoking)_vs_Smoke-free-control-group-intraperitoneally-injected-with-carcinogen-azoxymethane-(AOM)-(10-mg/kg)_DOWN	NA	Bacteroides	Limosilactobacillus	Parabacteroides	Phocaeicola	Streptococcus
 bsdb:187/1/1_Medroxyprogesterone-acetate:naive-black-participants-(baseline-visit)_vs_depot-medroxyprogesterone-acetate-vaginal-microbiome-(visit-2)-among-black-participants_UP	NA	Prevotella
 bsdb:187/2/1_Medroxyprogesterone-acetate:white-naiive-vaginal-microbiome-(baseline)_vs_black-naive-vaginal-microbiome-(baseline-visit-)_UP	NA	Finegoldia
 bsdb:187/2/2_Medroxyprogesterone-acetate:white-naiive-vaginal-microbiome-(baseline)_vs_black-naive-vaginal-microbiome-(baseline-visit-)_DOWN	NA	Clostridium	Shuttleworthia
@@ -2299,8 +2299,11 @@ bsdb:683/5/1_Colorectal-adenoma:control-group-post-endoscopy_vs_control-group-pr
 bsdb:684/1/3_Colorectal-cancer:Colorectal-cancer-patients_vs_Healthy-control_UP	NA	Akkermansia	Bacteroides	Campylobacter	Citrobacter	Enterococcus	Gemella	Klebsiella	Limosilactobacillus	Methanobrevibacter	Odoribacter	Parasutterella	Porphyromonas	Prevotella	Roseburia	Streptococcus	Escherichia	Flavonifractor	Parabacteroides	Parvimonas	Veillonella	Peptostreptococcus
 bsdb:684/1/4_Colorectal-cancer:Colorectal-cancer-patients_vs_Healthy-control_DOWN	NA	Acidaminococcus	Alistipes	Anaerobutyricum	Bacteroides	Bifidobacterium	Butyrivibrio	Comamonas	Coprococcus	Dorea	Eggerthella	Eubacterium	Fusobacterium	Haemophilus	Lactobacillus	Mitsuokella	Segatella	Roseburia	Streptococcus	Treponema	Faecalibacterium	Ligilactobacillus	Megasphaera	Agathobacter
 bsdb:685/1/1_Colorectal-cancer:CRC_vs_Control_UP	NA	Fusobacterium	Bacteroides	Blautia
-bsdb:686/2/1_Colorectal-cancer:adenomas_vs_controls_UP	NA	Actinomyces	Aerococcus	Brochothrix	Gemella	Meiothermus	Pseudomonas	Rothia
-bsdb:686/2/2_Colorectal-cancer:adenomas_vs_controls_DOWN	NA	Arachidicoccus	Bacteroides	Bernardetia	Halopseudomonas	Lachnospira	Limosilactobacillus	Paenibacillus	Planktothrix
+bsdb:686/1/1_Colorectal-cancer:Colorectal-cancer-(CRC)_vs_Healthy-controls_DOWN	NA	Bacteroides	Bifidobacterium	Faecalibacterium	Lachnospira	Subdoligranulum
+bsdb:686/1/2_Colorectal-cancer:Colorectal-cancer-(CRC)_vs_Healthy-controls_UP	NA	Morganella	Klebsiella	Escherichia	Leyella	Lachnoclostridium
+bsdb:686/2/1_Colorectal-cancer:Adenomas_vs_Healthy-controls_DOWN	NA	Akkermansia	Lachnospira
+bsdb:686/3/1_Colorectal-cancer:Carcinoma-(CRC)_vs_Adenoma_UP	NA	Odoribacter
+bsdb:686/3/2_Colorectal-cancer:Carcinoma-(CRC)_vs_Adenoma_DOWN	NA	Bifidobacterium	Collinsella
 bsdb:687/1/1_Colorectal-adenocarcinoma:colorectal-cancer-patients_vs_healthy-controls_UP	NA	Bacteroides	Bifidobacterium	Shigella	Escherichia
 bsdb:687/1/2_Colorectal-adenocarcinoma:colorectal-cancer-patients_vs_healthy-controls_DOWN	NA	Collinsella	Coprobacillus	Faecalibacterium	Romboutsia	Streptococcus	Agathobacter
 bsdb:687/2/1_Colorectal-adenocarcinoma:colorectal-cancer-patients-with-KRAS-mutation_vs_colorectal-cancer-patients-without-KRAS-mutation_UP	NA	Alistipes	Anaerobutyricum	Butyricicoccus	Caproiciproducens	Enterocloster	Faecalibacterium	Gracilibacter	Harryflintia	Holdemania	Lachnoclostridium	Megamonas	Novosphingobium	Phascolarctobacterium	Roseburia	Coprococcus	Eubacterium	Prevotella
