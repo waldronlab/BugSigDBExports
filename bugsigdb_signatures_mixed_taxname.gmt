@@ -1,4 +1,4 @@
-# BugSigDB 2024-01-18_16:59_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2024-01-18_17:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	Bacilli	Gammaproteobacteria	Actinomyces	Corynebacterium	Streptococcus	Peptoniphilus	Dorea	Phascolarctobacterium	Sutterella	Actinomycetales	Actinomycetaceae	Alcaligenaceae	Lactobacillales	Streptococcaceae	Veillonellaceae	Enterobacterales	Corynebacteriaceae	Lacticaseibacillus zeae	Bacillus	Bacillaceae
 bsdb:1/1/2_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	Coprobacillus	Cyanobacteriota
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	Anaerostipes	Lacticaseibacillus zeae
@@ -1439,7 +1439,7 @@ bsdb:374/2/1_Cervical-cancer:cervical-cancer_vs_normal-control_UP	NA	Alkaliphilu
 bsdb:374/2/2_Cervical-cancer:cervical-cancer_vs_normal-control_DOWN	NA	Lactobacillus	Staphylococcus	Endolissoclinum
 bsdb:375/1/1_Obesity:obese_vs_normal-weight_UP	NA	[Clostridium] leptum	Lactobacillus
 bsdb:375/1/2_Obesity:obese_vs_normal-weight_DOWN	NA	Escherichia coli	Prevotella
-bsdb:376/1/1_Antimicrobial-agent:patients-that-took-amoxiclav_vs_before-antibiotic-exposure_UP	NA	Bacteroidia	Bacteroides	Bacteroidota
+bsdb:376/1/1_Antimicrobial-agent:patients-that-took-amoxiclav_vs_before-antibiotic-exposure_UP	NA	Bacteroides	Bacteroidia	Bacteroidota	Bacteroidales
 bsdb:376/1/2_Antimicrobial-agent:patients-that-took-amoxiclav_vs_before-antibiotic-exposure_DOWN	NA	Bacillota
 bsdb:376/2/1_Antimicrobial-agent:patients-that-took-levofloxacin/Metronidazole_vs_before-antibiotic-exposure_UP	NA	Bacteroides	Phocaeicola plebeius
 bsdb:376/2/2_Antimicrobial-agent:patients-that-took-levofloxacin/Metronidazole_vs_before-antibiotic-exposure_DOWN	NA	Bacillota
@@ -2439,12 +2439,12 @@ bsdb:639/1/1_socioeconomic-status:underdeveloped-cities-vs-developed-cities_vs_N
 bsdb:639/1/2_socioeconomic-status:underdeveloped-cities-vs-developed-cities_vs_NA_DOWN	NA	Clostridiaceae	Gammaproteobacteria	Peptostreptococcaceae	Prevotella	Ruminococcus
 bsdb:640/1/1_Rheumatoid-arthritis:Rheumatoid-Arthritis_vs_Non-Rheumatoid-Arthritis_UP	NA	Streptococcus	Rothia	Leptotrichia	Streptococcus salivarius	Rothia mucilaginosa	Selenomonas flueggei
 bsdb:640/1/2_Rheumatoid-arthritis:Rheumatoid-Arthritis_vs_Non-Rheumatoid-Arthritis_DOWN	NA	Capnocytophaga	Aggregatibacter	Porphyromonas	Fusobacterium	Porphyromonas endodontalis	Veillonella parvula	Granulicatella elegans	Fusobacterium periodonticum	Prevotella melaninogenica	Bacteroidota bacterium
-bsdb:640/2/1_Rheumatoid-arthritis:rheumatoid-arthritis-patients-with-the-homozygous-PAV/PAV-(“supertasters”)_vs_rheumatoid-arthritis-patients-carrying-the-AVI/AVI-genotype-(“non-tasters”)_DOWN	NA	Campylobacter rectus	Selenomonas artemidis	Corynebacterium durum	Capnocytophaga sputigena	Candidatus Absconditabacteria bacterium	Leptotrichia sp.
-bsdb:640/2/2_Rheumatoid-arthritis:rheumatoid-arthritis-patients-with-the-homozygous-PAV/PAV-(“supertasters”)_vs_rheumatoid-arthritis-patients-carrying-the-AVI/AVI-genotype-(“non-tasters”)_UP	NA	Streptococcus salivarius
-bsdb:640/3/1_Rheumatoid-arthritis:Non-rheumatoid-arthritis-patients-with-the-homozygous-PAV/PAV-(“supertasters”)_vs_Non-rheumatoid-arthritis-patients-carrying-the-AVI/AVI-genotype-(“non-tasters”)_DOWN	NA	Lancefieldella parvula
-bsdb:640/3/2_Rheumatoid-arthritis:Non-rheumatoid-arthritis-patients-with-the-homozygous-PAV/PAV-(“supertasters”)_vs_Non-rheumatoid-arthritis-patients-carrying-the-AVI/AVI-genotype-(“non-tasters”)_UP	NA	Prevotella histicola	Megasphaera micronuciformis	Segatella salivae	Candidatus Saccharibacteria	Catonella morbi	Veillonella rogosae	Oribacterium asaccharolyticum
-bsdb:640/4/1_Rheumatoid-arthritis:All-participants-with-the-homozygous-PAV/PAV-(“supertasters”)_vs_All-participants-carrying-the-AVI/AVI-genotype-(“non-tasters”)_DOWN	NA	Abiotrophia defectiva
-bsdb:640/4/2_Rheumatoid-arthritis:All-participants-with-the-homozygous-PAV/PAV-(“supertasters”)_vs_All-participants-carrying-the-AVI/AVI-genotype-(“non-tasters”)_UP	NA	Campylobacter gracilis
+bsdb:640/2/1_Sensory-perception-of-bitter-taste:rheumatoid-arthritis-patients-with-the-homozygous-PAV/PAV-(“supertasters”)_vs_rheumatoid-arthritis-patients-carrying-the-AVI/AVI-genotype-(“non-tasters”)_DOWN	NA	Campylobacter rectus	Selenomonas artemidis	Corynebacterium durum	Capnocytophaga sputigena	Candidatus Absconditabacteria bacterium	Leptotrichia sp.
+bsdb:640/2/2_Sensory-perception-of-bitter-taste:rheumatoid-arthritis-patients-with-the-homozygous-PAV/PAV-(“supertasters”)_vs_rheumatoid-arthritis-patients-carrying-the-AVI/AVI-genotype-(“non-tasters”)_UP	NA	Streptococcus salivarius
+bsdb:640/3/1_Sensory-perception-of-bitter-taste:Non-rheumatoid-arthritis-patients-with-the-homozygous-PAV/PAV-(“supertasters”)_vs_Non-rheumatoid-arthritis-patients-carrying-the-AVI/AVI-genotype-(“non-tasters”)_DOWN	NA	Lancefieldella parvula
+bsdb:640/3/2_Sensory-perception-of-bitter-taste:Non-rheumatoid-arthritis-patients-with-the-homozygous-PAV/PAV-(“supertasters”)_vs_Non-rheumatoid-arthritis-patients-carrying-the-AVI/AVI-genotype-(“non-tasters”)_UP	NA	Prevotella histicola	Megasphaera micronuciformis	Segatella salivae	Candidatus Saccharibacteria	Catonella morbi	Veillonella rogosae	Oribacterium asaccharolyticum
+bsdb:640/4/1_Sensory-perception-of-bitter-taste:All-participants-with-the-homozygous-PAV/PAV-(“supertasters”)_vs_All-participants-carrying-the-AVI/AVI-genotype-(“non-tasters”)_DOWN	NA	Abiotrophia defectiva
+bsdb:640/4/2_Sensory-perception-of-bitter-taste:All-participants-with-the-homozygous-PAV/PAV-(“supertasters”)_vs_All-participants-carrying-the-AVI/AVI-genotype-(“non-tasters”)_UP	NA	Campylobacter gracilis
 bsdb:641/1/1_Arthritis:Early-Rheumatoid-Arthritis_vs_healthy-control_DOWN	NA	Porphyromonas pasteri	Fusobacterium periodonticum	Veillonella parvula	Veillonella	Hoylesella nanceiensis	Alloprevotella	Granulicatella	Neisseria flavescens	Neisseria subflava	Streptococcus oralis subsp. dentisani	Streptococcus oralis	Streptococcus infantis	Streptococcus mitis
 bsdb:641/1/2_Arthritis:Early-Rheumatoid-Arthritis_vs_healthy-control_UP	NA	Streptococcus salivarius	Streptococcus vestibularis	Streptococcus sanguinis	Segatella salivae	Streptococcus	Rothia mucilaginosa	Selenomonas	Streptococcus downei	Streptococcus sobrinus
 bsdb:642/2/1_socioeconomic-status:Orang-Asli-Children-(low-SES,-household-income<RM500)_vs_Chinese-Children-(High-SES,-household-income->RM500)_UP	NA	Aeromonadales	Bacteroidota	Deltaproteobacteria	Eubacteriales	Oscillospiraceae
