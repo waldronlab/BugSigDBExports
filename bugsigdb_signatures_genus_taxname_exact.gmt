@@ -1,4 +1,4 @@
-# BugSigDB 2024-01-19_13:01_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2024-01-19_13:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	Actinomyces	Corynebacterium	Streptococcus	Peptoniphilus	Dorea	Phascolarctobacterium	Sutterella	Bacillus
 bsdb:1/1/2_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	Coprobacillus
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	Anaerostipes
@@ -761,12 +761,14 @@ bsdb:256/11/1_Gastric-cancer:tumor-HP+_vs_tumor-HP-_UP	NA	Staphylococcus	Bactero
 bsdb:256/11/2_Gastric-cancer:tumor-HP+_vs_tumor-HP-_DOWN	NA	Acinetobacter	Ruminococcus	Pseudomonas	Sphingomonas	Bifidobacterium
 bsdb:257/1/1_Colorectal-cancer:colorectal-cancer_vs_healthy-control_UP	NA	Akkermansia	Bilophila	Butyricimonas	Christensenella	Clostridium	Dehalobacterium	Fusobacterium	Odoribacter	Oscillospira	Oxalobacter	Parabacteroides	Peptostreptococcus	Porphyromonas	Ruminococcus	Selenomonas	Eubacterium
 bsdb:257/1/2_Colorectal-cancer:colorectal-cancer_vs_healthy-control_DOWN	NA	Megamonas	Mitsuokella
-bsdb:258/1/1_Colorectal-cancer:carcinoma_vs_healthy-control_UP	NA	Fusobacterium	Porphyromonas	Clostridium
-bsdb:258/1/2_Colorectal-cancer:carcinoma_vs_healthy-control_DOWN	NA	Bacteroides	Staphylococcus	Clostridium
+bsdb:258/1/1_Colorectal-cancer:carcinoma_vs_Healthy-Controls_UP	NA	Fusobacterium	Porphyromonas	Clostridium
+bsdb:258/1/2_Colorectal-cancer:carcinoma_vs_Healthy-Controls_DOWN	NA	Bacteroides	Staphylococcus	Clostridium
 bsdb:258/2/1_Colorectal-cancer:Adenoma_vs_Healthy-Controls_UP	NA	Clostridium	Pseudomonas
 bsdb:258/2/2_Colorectal-cancer:Adenoma_vs_Healthy-Controls_DOWN	NA	Bacteroides	Clostridium	Odoribacter
 bsdb:258/3/1_Colorectal-cancer:Colonic-lesions_vs_Healthy-Controls_UP	NA	Pseudomonas
 bsdb:258/3/2_Colorectal-cancer:Colonic-lesions_vs_Healthy-Controls_DOWN	NA	Bacteroides	Clostridium
+bsdb:258/4/1_Colorectal-cancer:Carcinoma_vs_Adenoma_UP	NA	Bacteroides	Clostridium	Fusobacterium	Parasutterella	Phascolarctobacterium	Porphyromonas
+bsdb:258/4/2_Colorectal-cancer:Carcinoma_vs_Adenoma_DOWN	NA	Blautia	Ruminococcus	Clostridium
 bsdb:260/1/2_Food-allergy:allergic_vs_nonallergic_DOWN	NA	Bacteroides
 bsdb:262/1/1_Atopic-asthma:nasal-brush-speciments_vs_bronchial-brush-specimens_UP	NA	Alloiococcus	Corynebacterium	Moraxella	Staphylococcus
 bsdb:262/1/2_Atopic-asthma:nasal-brush-speciments_vs_bronchial-brush-specimens_DOWN	NA	Actinomyces	Leptotrichia	Porphyromonas	Prevotella	Streptococcus
@@ -2080,8 +2082,8 @@ bsdb:721/5/2_HIV-mother-to-child-transmission:HIV-infected--mothers_vs_Healthy-c
 bsdb:721/6/2_HIV-mother-to-child-transmission:HIV-infected-mothers_vs_Healthy-controls_UP	NA	Anaerococcus	Arthrobacter	Atopobium	Bacillus	Blastococcus	Brevibacterium	Chryseobacterium	Corynebacterium	Enterococcus	Exiguobacterium	Faecalibacterium	Finegoldia	Gardnerella	Herbaspirillum	Hymenobacter	Lactococcus	Massilia	Methylobacterium	Micrococcus	Microvirga	Moraxella	Neisseria	Nocardioides	Peptoniphilus	Prevotella	Propionibacterium	Pseudobutyrivibrio	Pseudonocardia	Rubellimicrobium	Rubrobacter	Staphylococcus
 bsdb:722/1/1_Parkinson's-disease:Parkinson's-Disease-Patients_vs_Healthy-Controls_UP	NA	Akkermansia	Butyricimonas	Eisenbergiella	Holdemania	Hydrogenoanaerobacterium	Intestinimonas	Odoribacter	Parasutterella	Subdoligranulum
 bsdb:722/1/2_Parkinson's-disease:Parkinson's-Disease-Patients_vs_Healthy-Controls_DOWN	NA	Allisonella	Bacteroides	Clostridium	Collinsella	Holdemanella	Tyzzerella
-bsdb:723/1/2_Parkinson's-disease:Idiopathic-Parkinson's-Disease-Patients_vs_Healthy-Controls_DOWN	NA	Atopobium	Desulfotomaculum	Granulicatella	Roseburia
-bsdb:723/3/1_Parkinson's-disease:Idiopathic-Parkinson's-Disease-Patients-with-Weight-Loss_vs_Healthy-Controls_UP	NA	Odoribacter	Bilophila
+bsdb:723/1/2_Parkinson's-disease:Idiopathic-Parkinson's-Disease-Patients_vs_Healthy-Controls_DOWN	NA	Atopobium	Desulfotomaculum	Granulicatella	Roseburia	Paraprevotella
+bsdb:723/3/1_Parkinson's-disease:Idiopathic-Parkinson's-Disease-Patients-with-Weight-Loss_vs_Healthy-Controls_UP	NA	Bilophila	Odoribacter	Paraprevotella
 bsdb:723/3/2_Parkinson's-disease:Idiopathic-Parkinson's-Disease-Patients-with-Weight-Loss_vs_Healthy-Controls_DOWN	NA	Anaerovorax	Granulicatella	Actinomyces	Atopobium	Anaerococcus
 bsdb:723/4/1_Parkinson's-disease:Idiopathic-Parkinson's-Disease-Patients-without-Weight-Loss_vs_Healthy-Controls_UP	NA	Enterococcus	Candidatus Epulonipiscium
 bsdb:723/4/2_Parkinson's-disease:Idiopathic-Parkinson's-Disease-Patients-without-Weight-Loss_vs_Healthy-Controls_DOWN	NA	Blautia	Clostridium	Dehalobacterium	Roseburia

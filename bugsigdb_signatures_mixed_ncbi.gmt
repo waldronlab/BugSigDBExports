@@ -1,4 +1,4 @@
-# BugSigDB 2024-01-19_13:01_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2024-01-19_13:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	91061	1236	1654	1716	1301	162289	189330	33024	40544	2037	2049	506	186826	1300	31977	91347	1653	57037	1386	186817
 bsdb:1/1/2_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	100883	1117
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	207244	57037
@@ -966,12 +966,14 @@ bsdb:256/11/1_Gastric-cancer:tumor-HP+_vs_tumor-HP-_UP	NA	90964	1279	815	816	204
 bsdb:256/11/2_Gastric-cancer:tumor-HP+_vs_tumor-HP-_DOWN	NA	469	468	1263	286	351	72274	28216	118882	13687	85004	1678	31953	1224
 bsdb:257/1/1_Colorectal-cancer:colorectal-cancer_vs_healthy-control_UP	NA	239934	35832	574697	990721	990719	31979	1485	51514	194924	848	186803	283168	119852	541000	846	375288	1257	836	1263	970	128827	1730
 bsdb:257/1/2_Colorectal-cancer:colorectal-cancer_vs_healthy-control_DOWN	NA	158846	41294	52225
-bsdb:258/1/1_Colorectal-cancer:carcinoma_vs_healthy-control_UP	NA	543	848	186803	836	1485	171551
-bsdb:258/1/2_Colorectal-cancer:carcinoma_vs_healthy-control_DOWN	NA	816	186802	186803	1279	1485
+bsdb:258/1/1_Colorectal-cancer:carcinoma_vs_Healthy-Controls_UP	NA	543	848	186803	836	1485	171551
+bsdb:258/1/2_Colorectal-cancer:carcinoma_vs_Healthy-Controls_DOWN	NA	816	186802	186803	1279	1485
 bsdb:258/2/1_Colorectal-cancer:Adenoma_vs_Healthy-Controls_UP	NA	1485	171551	286
 bsdb:258/2/2_Colorectal-cancer:Adenoma_vs_Healthy-Controls_DOWN	NA	816	1485	186803	283168
 bsdb:258/3/1_Colorectal-cancer:Colonic-lesions_vs_Healthy-Controls_UP	NA	171551	286
 bsdb:258/3/2_Colorectal-cancer:Colonic-lesions_vs_Healthy-Controls_DOWN	NA	816	186803	1485
+bsdb:258/4/1_Colorectal-cancer:Carcinoma_vs_Adenoma_UP	NA	816	1485	848	577310	33024	836
+bsdb:258/4/2_Colorectal-cancer:Carcinoma_vs_Adenoma_DOWN	NA	572511	186803	1263	1485
 bsdb:259/1/1_Atopic-eczema:emollient-use_vs_no-emollient-use_UP	NA	1304
 bsdb:259/2/1_Atopic-eczema:emollient-use_vs_no-emollient-use_UP	NA	1304
 bsdb:259/2/2_Atopic-eczema:emollient-use_vs_no-emollient-use_UP	NA	1304
@@ -2796,9 +2798,9 @@ bsdb:721/6/2_HIV-mother-to-child-transmission:HIV-infected-mothers_vs_Healthy-co
 bsdb:722/1/1_Parkinson's-disease:Parkinson's-Disease-Patients_vs_Healthy-Controls_UP	NA	2	239934	574697	1432051	39496	61170	596767	1392389	186803	283168	216572	577310	171551	292632	203557	203494	48461	74201
 bsdb:722/1/2_Parkinson's-disease:Parkinson's-Disease-Patients_vs_Healthy-Controls_DOWN	NA	2	209879	171549	816	31979	1485	102106	1573535	33958	171552	1506577
 bsdb:723/1/1_Parkinson's-disease:Idiopathic-Parkinson's-Disease-Patients_vs_Healthy-Controls_UP	NA	75682	1224
-bsdb:723/1/2_Parkinson's-disease:Idiopathic-Parkinson's-Disease-Patients_vs_Healthy-Controls_DOWN	NA	1380	1694	31979	1562	117563	186803	186818	171552	841	90964	1737406
+bsdb:723/1/2_Parkinson's-disease:Idiopathic-Parkinson's-Disease-Patients_vs_Healthy-Controls_DOWN	NA	1380	1694	31979	1562	117563	186803	186818	171552	841	90964	1737406	577309
 bsdb:723/2/1_Parkinson's-disease:Idiopathic-Parkinson's-Disease-Patients-without-Weight-Loss_vs_Healthy-Controls-and-Idiopathic-Parkinson's-Disease-Patients-with-Weight-Loss_UP	NA	1224
-bsdb:723/3/1_Parkinson's-disease:Idiopathic-Parkinson's-Disease-Patients-with-Weight-Loss_vs_Healthy-Controls_UP	NA	283168	35832	194924	75682	171552
+bsdb:723/3/1_Parkinson's-disease:Idiopathic-Parkinson's-Disease-Patients-with-Weight-Loss_vs_Healthy-Controls_UP	NA	35832	194924	283168	75682	577309
 bsdb:723/3/2_Parkinson's-disease:Idiopathic-Parkinson's-Disease-Patients-with-Weight-Loss_vs_Healthy-Controls_DOWN	NA	109326	1694	117563	1654	171552	1380	165779	186818
 bsdb:723/4/1_Parkinson's-disease:Idiopathic-Parkinson's-Disease-Patients-without-Weight-Loss_vs_Healthy-Controls_UP	NA	543	84112	1350	2383
 bsdb:723/4/2_Parkinson's-disease:Idiopathic-Parkinson's-Disease-Patients-without-Weight-Loss_vs_Healthy-Controls_DOWN	NA	572511	31979	1485	51514	841	301302	1265	1280	89152	171552
