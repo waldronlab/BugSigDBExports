@@ -1,4 +1,4 @@
-# BugSigDB 2024-01-22_09:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2024-01-22_10:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	Bacilli	Gammaproteobacteria	Actinomyces	Corynebacterium	Streptococcus	Peptoniphilus	Dorea	Phascolarctobacterium	Sutterella	Actinomycetales	Actinomycetaceae	Alcaligenaceae	Lactobacillales	Streptococcaceae	Veillonellaceae	Enterobacterales	Corynebacteriaceae	Lacticaseibacillus zeae	Bacillus	Bacillaceae
 bsdb:1/1/2_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	Coprobacillus	Cyanobacteriota
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	Anaerostipes	Lacticaseibacillus zeae
@@ -2503,6 +2503,8 @@ bsdb:652/3/1_Colorectal-adenoma:CRA-(colorectal-adenoma)_vs_Healthy_UP	NA	Lachno
 bsdb:652/3/2_Colorectal-adenoma:CRA-(colorectal-adenoma)_vs_Healthy_DOWN	NA	Atopobium	Parvimonas	Fusobacterium	Fusobacterium periodonticum	Fusobacterium nucleatum	Fusobacteriia	Fusobacteriales	Fusobacteriaceae
 bsdb:653/1/1_Colorectal-cancer:Individuals-with-CRC_vs_Healthy-Controls_UP	NA	Dialister	Fusobacterium	Gemella	Parvimonas	Peptostreptococcus	Solobacterium	Streptococcus
 bsdb:653/1/2_Colorectal-cancer:Individuals-with-CRC_vs_Healthy-Controls_DOWN	NA	Actinomyces	Haemophilus	Veillonella
+bsdb:653/2/1_Colorectal-cancer:Individuals-with-CRC_vs_Healthy-Controls_UP	NA	Haemophilus	Parvimonas	Prevotella	Alloprevotella	Lachnoanaerobaculum	Neisseria	Streptococcus
+bsdb:653/3/1_Colorectal-cancer:Individuals-with-polyps_vs_Healthy-Controls_UP	NA	Parvimonas	Streptococcus	Leptotrichia
 bsdb:654/1/1_Ethnic-group:Asian-Pacific_vs_Caucasians_UP	NA	Veillonella
 bsdb:654/1/2_Ethnic-group:Asian-Pacific_vs_Caucasians_DOWN	NA	Christensenellaceae	Odoribacter	Odoribacteraceae	Peptococcaceae	Rikenellaceae	Verrucomicrobiaceae	Victivallaceae	Coriobacteriaceae	Eubacteriales
 bsdb:654/2/1_Ethnic-group:Hispanic_vs_Caucasians_UP	NA	Odoribacter	Odoribacteraceae	Peptococcaceae	Rikenellaceae	Veillonella	Victivallaceae	Eubacteriales	Coriobacteriaceae
@@ -2556,9 +2558,11 @@ bsdb:667/1/1_Response-to-immunochemotherapy:Responders_vs_Non-responders_UP	NA	C
 bsdb:667/1/2_Response-to-immunochemotherapy:Responders_vs_Non-responders_DOWN	NA	Bacteroidales	Bacteroidota	Bacteroidia	Collinsella stercoris	Bacteroides mediterraneensis	Oleidesulfovibrio alaskensis	Prevotella histicola	Gardnerella vaginalis	Gardnerella
 bsdb:668/1/1_Bacterial-vaginosis:cesarean-section_vs_vaginal-delivery_UP	NA	Prevotella bivia
 bsdb:668/1/2_Bacterial-vaginosis:cesarean-section_vs_vaginal-delivery_DOWN	NA	Lactobacillus jensenii	Lactobacillus iners
-bsdb:669/1/1_socioeconomic-status,Ethnic-group:Rural-African-Children-in-Burkina-Faso_vs_European-Children-in-Italy_UP	NA	Eggerthella	Bacteroidia	Anaerotruncus	Gracilibacter	Guggenheimella	Megamonas	Oxobacter	Propionispira
-bsdb:669/1/2_socioeconomic-status,Ethnic-group:Rural-African-Children-in-Burkina-Faso_vs_European-Children-in-Italy_DOWN	NA	Bacillota	Pseudomonadota	Acetitomaculum	Faecalibacterium	Roseburia	Subdoligranulum	Alistipes	Bacteroides
-bsdb:669/2/1_Ethnic-group:Rural-African-Children-in-Burkina-Faso_vs_European-children-in-Italy_DOWN	NA	Escherichia	Shigella
+bsdb:669/1/1_Ethnic-group,Place-of-residence-measurement:Rural-African-Children-in-Burkina-Faso_vs_European-Children-in-Italy_UP	NA	Bacteroides sp. TP-5	Bifidobacterium adolescentis	Bifidobacterium animalis	Bifidobacterium bifidum	Bifidobacterium breve	Bifidobacterium longum	Bifidobacterium pseudocatenulatum	Bifidobacterium pullorum	Bifidobacterium animalis subsp. lactis	Bifidobacterium simiae	Bifidobacterium ruminantium	Bifidobacterium thermophilum
+bsdb:669/1/2_Ethnic-group,Place-of-residence-measurement:Rural-African-Children-in-Burkina-Faso_vs_European-Children-in-Italy_DOWN	NA	Bacillota	Pseudomonadota	Acetitomaculum	Faecalibacterium	Roseburia	Subdoligranulum	Alistipes	Bacteroides
+bsdb:669/2/1_Ethnic-group,Place-of-residence-measurement:Rural-African-Children-in-Burkina-Faso_vs_European-Children-in-Italy_DOWN	NA	Escherichia	Shigella
+bsdb:669/3/1_Ethnic-group,Place-of-residence-measurement:Rural-African-Children-in-Burkina-Faso_vs_European-Children-in-Italy_UP	NA	Actinomycetota	Bacteroidia
+bsdb:669/3/2_Ethnic-group,Place-of-residence-measurement:Rural-African-Children-in-Burkina-Faso_vs_European-Children-in-Italy_DOWN	NA	Bacillota	Pseudomonadota
 bsdb:670/1/1_socioeconomic-status,Ethnic-group:Bangladesh-Children-(Household-income-<-$61)_vs_US-children_UP	NA	Butyrivibrio	Eubacteriales
 bsdb:670/1/2_socioeconomic-status,Ethnic-group:Bangladesh-Children-(Household-income-<-$61)_vs_US-children_DOWN	NA	Bacteroides thetaiotaomicron	Faecalibacterium prausnitzii
 bsdb:671/1/1_Seasonal-gut-microbiome-measurement:samples-taken-in-dry/cold-season_vs_samples-taken-in-dry/hot-or-rainy-season_UP	NA	Prevotella	Streptococcus porcinus	Faecalibacterium prausnitzii	Oscillospiraceae	Clostridium	Clostridiales bacterium	Faecalibacterium
