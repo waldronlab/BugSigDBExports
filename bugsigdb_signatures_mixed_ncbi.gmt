@@ -1,4 +1,4 @@
-# BugSigDB 2024-01-23_09:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2024-01-23_10:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	91061	1236	1654	1716	1301	162289	189330	33024	40544	2037	2049	506	186826	1300	31977	91347	1653	57037	1386	186817
 bsdb:1/1/2_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	100883	1117
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	207244	57037
@@ -1077,8 +1077,8 @@ bsdb:276/3/1_Multiple-myeloma:Multiple-Myeloma-patient_vs_healthy-control_UP	NA	
 bsdb:276/3/2_Multiple-myeloma:Multiple-Myeloma-patient_vs_healthy-control_DOWN	NA	1481960
 bsdb:276/4/1_Multiple-myeloma:Multiple-Myeloma-patient_vs_healthy-relatives-control_UP	NA	287	1535
 bsdb:277/1/1_Crohn's-disease:crohn's-disease_vs_healthy-control_DOWN	NA	186801	541000	186803	186806	171550	33925	213117	1653	2092	216851	1263	841	239759	1730	46239	206664	836	28138	375288	830
-bsdb:278/1/1_Non-alcoholic-fatty-liver-disease:NAFLD--[non-alcoholic-fatty-liver-disease]_vs_Healthy-control_UP	NA	1578	33958
-bsdb:278/1/2_Non-alcoholic-fatty-liver-disease:NAFLD--[non-alcoholic-fatty-liver-disease]_vs_Healthy-control_DOWN	NA	239759	207244	816	572511	189330	216851	815	186803	171551	171550	541000	976	1239
+bsdb:278/1/1_Non-alcoholic-fatty-liver-disease:NAFLD--[non-alcoholic-fatty-liver-disease]_vs_Healthy-control_UP	NA	33958	1578	91061
+bsdb:278/1/2_Non-alcoholic-fatty-liver-disease:NAFLD--[non-alcoholic-fatty-liver-disease]_vs_Healthy-control_DOWN	NA	239759	207244	1239	815	816	976	572511	189330	216851	186803	541000	171551	171550	33042	841	375288	186801	171549
 bsdb:279/1/2_Acute-myeloid-leukemia:High-Intensity-Chemotherapy_vs_Low-Intensity-Chemotherapy_DOWN	NA	55193
 bsdb:279/2/1_Acute-myeloid-leukemia:bacterial-infections-at-T3_vs_No-bacterial-infections-at-T3_UP	NA	1535326
 bsdb:279/3/1_Acute-myeloid-leukemia:bacterial-infections-at-T6_vs_No-bacterial-infections-at-T6_DOWN	NA	5506
@@ -3128,7 +3128,7 @@ bsdb:791/3/2_Spontaneous-preterm-birth:Previous-Preterm-birth_vs_No-Previous-Pre
 bsdb:792/1/1_Root:Test-group-(Roots)_vs_Control-group-(Leaves)_UP	NA	237	149698	1865
 bsdb:792/1/2_Root:Test-group-(Roots)_vs_Control-group-(Leaves)_DOWN	NA	286	29580	13687
 bsdb:793/1/1_Cerebral-small-vessel-disease:High-burden-(Unhealthy)_vs_Lower-burden-(Healthy)_UP	NA	221216
-bsdb:793/1/2_Cerebral-small-vessel-disease:High-burden-(Unhealthy)_vs_Lower-burden-(Healthy)_DOWN	NA	265317
+bsdb:793/1/2_Cerebral-small-vessel-disease:High-burden-(Unhealthy)_vs_Lower-burden-(Healthy)_DOWN	NA	265317	1485	2172	172900
 bsdb:793/2/1_Cerebral-small-vessel-disease:High-burden-(Unhealthy)_vs_Lower-burden-(Healthy)_UP	NA	221216	1224
 bsdb:793/2/2_Cerebral-small-vessel-disease:High-burden-(Unhealthy)_vs_Lower-burden-(Healthy)_DOWN	NA	221216	1239	200643	201174
 bsdb:793/3/1_Cerebral-small-vessel-disease:High-burden-(Unhealthy)_vs_Lower-burden-(Healthy)_UP	NA	221216
@@ -3297,8 +3297,6 @@ bsdb:835/5/1_Response-to-vaccine:Mothers-at-one-week-post-second-dose_vs_Mothers
 bsdb:835/6/1_Response-to-vaccine:Mothers-at-one-month-post-second-dose_vs_Mothers-at-pre-vaccination-timepoint_UP	NA	108980	204	1862672	420404	434084	34059	495	470565	28132	568898	257708	128780	12916	2040	1380	41275	1653	145357	225842	2053	1164882	186650	475	481	165696	31989	712	1253	186818	2321113	82115	613	204447	13687	114248	244328
 bsdb:836/1/1_Food-allergy:food-allergy-(FA)-group_vs_non-allergy-(NA)-group_UP	NA	469	286	1696
 bsdb:836/1/2_Food-allergy:food-allergy-(FA)-group_vs_non-allergy-(NA)-group_DOWN	NA	239934	239759	1283313	1678	1485	1940338	186803	158846	33024	838	1501226	841	1263	29465	204475	572511	459786	1380	848	397864	577309	191303	66831	499551	336260	1017280	580596	43773	53457	423604	906	580024	1184396	283168	2172	2740	1860
-bsdb:837/1/1_Food-allergy:Healthy-pregnant-women_vs_Mother-infant_UP	NA	286	469
-bsdb:837/1/2_Food-allergy:Healthy-pregnant-women_vs_Mother-infant_DOWN	NA	239934	1678	572511	561	838	841	1263	620	29465	1485	186803
 bsdb:838/1/1_Asthma:Asthma-Samples_vs_Healthy-controls_UP	NA	562	480	349106
 bsdb:838/1/2_Asthma:Asthma-Samples_vs_Healthy-controls_DOWN	NA	33034
 bsdb:839/1/3_Epilepsy:pre-treatment-(focal-epilepsy)_vs_healthy-control-(HC)_UP	NA	1622071	1385	91061	102106	84107	84999	1378	186826	1940338

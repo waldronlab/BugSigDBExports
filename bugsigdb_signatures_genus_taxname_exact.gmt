@@ -1,4 +1,4 @@
-# BugSigDB 2024-01-23_09:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2024-01-23_10:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	Actinomyces	Corynebacterium	Streptococcus	Peptoniphilus	Dorea	Phascolarctobacterium	Sutterella	Bacillus
 bsdb:1/1/2_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	Coprobacillus
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	Anaerostipes
@@ -853,7 +853,7 @@ bsdb:276/3/1_Multiple-myeloma:Multiple-Myeloma-patient_vs_healthy-control_UP	NA	
 bsdb:276/3/2_Multiple-myeloma:Multiple-Myeloma-patient_vs_healthy-control_DOWN	NA	Peptoclostridium
 bsdb:277/1/1_Crohn's-disease:crohn's-disease_vs_healthy-control_DOWN	NA	Faecalibacterium	Ruminococcus	Roseburia	Alistipes	Eubacterium	Mesoplasma	Desulfonauticus	Porphyromonas	Rikenella	Parabacteroides	Butyrivibrio
 bsdb:278/1/1_Non-alcoholic-fatty-liver-disease:NAFLD--[non-alcoholic-fatty-liver-disease]_vs_Healthy-control_UP	NA	Lactobacillus
-bsdb:278/1/2_Non-alcoholic-fatty-liver-disease:NAFLD--[non-alcoholic-fatty-liver-disease]_vs_Healthy-control_DOWN	NA	Alistipes	Anaerostipes	Bacteroides	Blautia	Dorea	Faecalibacterium
+bsdb:278/1/2_Non-alcoholic-fatty-liver-disease:NAFLD--[non-alcoholic-fatty-liver-disease]_vs_Healthy-control_DOWN	NA	Alistipes	Anaerostipes	Bacteroides	Blautia	Dorea	Faecalibacterium	Coprococcus	Roseburia	Parabacteroides
 bsdb:279/1/2_Acute-myeloid-leukemia:High-Intensity-Chemotherapy_vs_Low-Intensity-Chemotherapy_DOWN	NA	Malassezia
 bsdb:279/2/1_Acute-myeloid-leukemia:bacterial-infections-at-T3_vs_No-bacterial-infections-at-T3_UP	NA	Candida
 bsdb:279/3/1_Acute-myeloid-leukemia:bacterial-infections-at-T6_vs_No-bacterial-infections-at-T6_DOWN	NA	Fusarium
@@ -2318,6 +2318,7 @@ bsdb:789/3/1_Breast-cancer:Tumor-(T)_vs_Health-(H)_UP	NA	Anaerococcus	Pseudograc
 bsdb:789/3/2_Breast-cancer:Tumor-(T)_vs_Health-(H)_DOWN	NA	Acinetobacter	Arthrobacter	Bacteroides	Bilophila	Lactococcus	Lawsonella	Photobacterium	Rubellimicrobium	Serratia	Thermus	Vagococcus
 bsdb:792/1/1_Root:Test-group-(Roots)_vs_Control-group-(Leaves)_UP	NA	Flavobacterium	Massilia	Actinoplanes
 bsdb:792/1/2_Root:Test-group-(Roots)_vs_Control-group-(Leaves)_DOWN	NA	Pseudomonas	Janthinobacterium	Sphingomonas
+bsdb:793/1/2_Cerebral-small-vessel-disease:High-burden-(Unhealthy)_vs_Lower-burden-(Healthy)_DOWN	NA	Clostridium	Methanobrevibacter	Victivallis
 bsdb:794/1/1_Colorectal-cancer:EOCRC-(Early-onset-Colorectal-cancer)-patients_vs_Healthy-controls_UP	NA	Fusobacterium	Megamonas	Parvimonas	Peptostreptococcus	Porphyromonas
 bsdb:794/3/1_Colorectal-cancer:LOCRC-(Late-onset-colorectal-cancer)_vs_Healthy-controls_UP	NA	Alistipes	Parabacteroides	Phascolarctobacterium
 bsdb:796/1/1_Aging:group-4-(-66-to-80-years-old.-elderly-people)_vs_group-1-(-18-to-35-years-old.-young-adults)_UP	NA	Klebsiella	Lactobacillus	Enterococcus
@@ -2447,8 +2448,6 @@ bsdb:835/5/1_Response-to-vaccine:Mothers-at-one-week-post-second-dose_vs_Mothers
 bsdb:835/6/1_Response-to-vaccine:Mothers-at-one-month-post-second-dose_vs_Mothers-at-pre-vaccination-timepoint_UP	NA	Acidovorax	Aeromicrobium	Atopobium	Brevundimonas	Formosa	Gordonia	Lachnoanaerobaculum	Microvirga	Moraxella	Novosphingobium	Pediococcus	Pseudarcobacter	Serratia	Skermanella	Sphingomonas	Tepidimonas
 bsdb:836/1/1_Food-allergy:food-allergy-(FA)-group_vs_non-allergy-(NA)-group_UP	NA	Acinetobacter	Pseudomonas	Brevibacterium
 bsdb:836/1/2_Food-allergy:food-allergy-(FA)-group_vs_non-allergy-(NA)-group_DOWN	NA	Akkermansia	Alistipes	Alloprevotella	Bifidobacterium	Clostridium	Megamonas	Phascolarctobacterium	Prevotella	Romboutsia	Roseburia	Ruminococcus	Veillonella	Gemmiger	Blautia	Oscillibacter	Atopobium	Fusobacterium	Barnesiella	Paraprevotella	Turicibacter	Facklamia	Methanolinea	Thermovirga	Pseudoflavonifractor	Butyricicoccus	Syntrophus	Janibacter	Elusimicrobium	Megasphaera	Enterorhabdus	Mesotoga	Odoribacter	Methanobrevibacter	Peptococcus	Geodermatophilus
-bsdb:837/1/1_Food-allergy:Healthy-pregnant-women_vs_Mother-infant_UP	NA	Pseudomonas	Acinetobacter
-bsdb:837/1/2_Food-allergy:Healthy-pregnant-women_vs_Mother-infant_DOWN	NA	Akkermansia	Bifidobacterium	Blautia	Escherichia	Prevotella	Roseburia	Ruminococcus	Shigella	Veillonella	Clostridium
 bsdb:839/1/3_Epilepsy:pre-treatment-(focal-epilepsy)_vs_healthy-control-(HC)_UP	NA	Collinsella	Gemella
 bsdb:839/2/1_Epilepsy:post-treatment-(focal-epilepsy)_vs_healthy-control-(HC)_UP	NA	Butyricimonas	Collinsella	Eubacterium	Oscillibacter	Parabacteroides
 bsdb:839/3/1_Response-to-oxcarbazepine:post-treatment-(focal-epilepsy)_vs_pre-treatment-(focal-epilepsy)_UP	NA	Oscillibacter	Victivallis
