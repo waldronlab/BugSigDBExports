@@ -1,4 +1,4 @@
-# BugSigDB 2024-02-01_13:59_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2024-02-01_14:59_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	Bacilli	Gammaproteobacteria	Actinomyces	Corynebacterium	Streptococcus	Peptoniphilus	Dorea	Phascolarctobacterium	Sutterella	Actinomycetales	Actinomycetaceae	Alcaligenaceae	Lactobacillales	Streptococcaceae	Veillonellaceae	Enterobacterales	Corynebacteriaceae	Lacticaseibacillus zeae	Bacillus	Bacillaceae
 bsdb:1/1/2_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	Coprobacillus	Cyanobacteriota
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	Anaerostipes	Lacticaseibacillus zeae
@@ -340,10 +340,10 @@ bsdb:92/2/2_Non-alcoholic-fatty-liver-disease:non-alcoholic-fatty-liver-disease-
 bsdb:92/3/1_Non-alcoholic-fatty-liver-disease:non-alcoholic-fatty-liver-disease-patients_vs_obese-without-non-alcoholic-fatty-liver-disease_UP	NA	Actinomycetes	Prevotella	Fusobacteriia	Campylobacterota
 bsdb:92/3/2_Non-alcoholic-fatty-liver-disease:non-alcoholic-fatty-liver-disease-patients_vs_obese-without-non-alcoholic-fatty-liver-disease_DOWN	NA	Erysipelotrichia	Alphaproteobacteria	Gammaproteobacteria
 bsdb:93/1/1_Cesarean-section:C-section_vs_vaginal-delivery_DOWN	NA	Staphylococcus
-bsdb:93/2/1_Cesarean-section:Antimicrobials-use-during-delivery-yes_vs_no_UP	NA	Bifidobacterium
-bsdb:93/3/1_Cesarean-section:Maternal-consumption-of-probiotics-yes_vs_no_UP	NA	Lactobacillus
-bsdb:93/4/1_Cesarean-section:Furry-pets-at-home-yes_vs_no_UP	NA	Bacteroidota	Faecalibacterium
-bsdb:93/4/2_Cesarean-section:Furry-pets-at-home-yes_vs_no_DOWN	NA	Staphylococcus	Bacillota
+bsdb:93/2/1_Cesarean-section:Antimicrobials-use-during-delivery-(yes)_vs_Antimicrobials-use-during-delivery-(no)_UP	NA	Bifidobacterium
+bsdb:93/3/1_Cesarean-section:Maternal-consumption-of-probiotics-(YES)_vs_Maternal-consumption-of-probiotics-(NO)_UP	NA	Lactobacillus
+bsdb:93/4/1_Cesarean-section:Furry-pets-at-home-(YES)_vs_Furry-pets-at-home-(NO)_UP	NA	Bacteroidota	Faecalibacterium
+bsdb:93/4/2_Cesarean-section:Furry-pets-at-home-(YES)_vs_Furry-pets-at-home-(NO)_DOWN	NA	Bacillota	Staphylococcus
 bsdb:94/1/1_Obesity:3-months_vs_baseline-participants_UP	NA	Anaerobiospirillum succiniciproducens	Collinsella aerofaciens	Parasutterella excrementihominis	Roseburia intestinalis	Roseburia inulinivorans	Subdoligranulum variabile	Burkholderiales bacterium 1_1_47
 bsdb:94/1/2_Obesity:3-months_vs_baseline-participants_DOWN	NA	Treponema brennaborense	Pedobacter heparinus	Alistipes finegoldii	Dysgonomonas gadei	Desulfitobacterium hafniense	Desulforamulus ruminis	Selenomonas sputigena	Anaerotruncus colihominis	Ethanoligenens harbinense	Oscillibacter valericigenes	Pseudoflavonifractor capillosus	Holdemania filiformis	Heyndrickxia coagulans	Enterococcus faecalis	Enterococcus faecium	Paenibacillus mucilaginosus	Clostridioides difficile	Enterocloster asparagiformis	Marvinbryantia formatexigens	Geobacter sp. M18	Escherichia coli	Stutzerimonas stutzeri	Streptomyces coelicolor	Slackia heliotrinireducens	Eggerthella lenta	Akkermansia muciniphila	Thermanaerovibrio acidaminovorans	Fretibacterium fastidiosum
 bsdb:94/2/1_Obesity:6-months_vs_3-months-participants_UP	NA	Alistipes finegoldii	Dysgonomonas gadei	Enterocloster asparagiformis	Lacrimispora saccharolytica	Desulfovibrio desulfuricans	Escherichia coli	Eggerthella lenta	Gordonibacter pamelaeae	Thermanaerovibrio acidaminovorans
@@ -745,8 +745,8 @@ bsdb:210/1/1_Food-allergy:children-with-food-sensitization_vs_healthy-controls_U
 bsdb:210/1/2_Food-allergy:children-with-food-sensitization_vs_healthy-controls_DOWN	NA	Alistipes	Bacteroides	Parabacteroides	Prevotella	Streptococcus	Veillonella
 bsdb:210/2/1_Food-allergy:children-with-food-sensitization_vs_healthy-controls_UP	NA	Alphaproteobacteria	Bacillota	Clostridia	Eubacteriales	Subdoligranulum	Oscillospiraceae
 bsdb:210/2/2_Food-allergy:children-with-food-sensitization_vs_healthy-controls_DOWN	NA	Bacteroidaceae	Bacteroidales	Bacteroides	Bacteroidia	Bacteroidota	Veillonella
-bsdb:211/1/1_Anemia:gestational-anemia-(GA1-group)_vs_healthy-controls(HC1-group)_UP	NA	Anaerotruncus	Oribacterium	Parvimonas	Turicibacter
-bsdb:211/2/1_Anemia:gestational-anemia-(GA3-group)_vs_healthy-controls(HC3-group)_UP	NA	Atopobium	Catenibacterium	Clostridiaceae	Eggerthella
+bsdb:211/2/1_Anemia:gestational-anemia-(GA3-group)_vs_healthy-controls-(HC3-group)_UP	NA	Atopobium	Catenibacterium	Clostridiaceae	Eggerthella
+bsdb:211/2/2_Anemia:gestational-anemia-(GA3-group)_vs_healthy-controls-(HC3-group)_DOWN	NA	Faecalibacterium	Ruminococcus	Mogibacterium	Oscillospiraceae	Eubacteriales	Anaerostipes	Gemmiger	Adlercreutzia
 bsdb:212/1/1_Diet:Higher-quartile-of-TOTAL-fiber-intake_vs_low-quartile-of-TOTAL-fiber-intake_DOWN	NA	Actinomyces	Amedibacillus dolichus	Bacteroides uniformis	Odoribacter	Oscillospira
 bsdb:212/1/2_Diet:Higher-quartile-of-TOTAL-fiber-intake_vs_low-quartile-of-TOTAL-fiber-intake_DOWN	NA	Faecalibacterium	Faecalibacterium prausnitzii	Lachnospira	Clostridiaceae
 bsdb:212/2/1_Diet:Higher-fiber-intake-from-FRUITS/-VEGETABLES_vs_low-fiber-intake-from-FRUITS/-VEGETABLES_DOWN	NA	Actinomyces	Bacteroides uniformis	Coriobacteriales	Lactobacillales	Odoribacter	Ruminococcus bromii
