@@ -1,4 +1,4 @@
-# BugSigDB 2024-01-31_21:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2024-02-01_04:59_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	Bacilli	Gammaproteobacteria	Actinomyces	Corynebacterium	Streptococcus	Peptoniphilus	Dorea	Phascolarctobacterium	Sutterella	Actinomycetales	Actinomycetaceae	Alcaligenaceae	Lactobacillales	Streptococcaceae	Veillonellaceae	Enterobacterales	Corynebacteriaceae	Lacticaseibacillus zeae	Bacillus	Bacillaceae
 bsdb:1/1/2_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	Coprobacillus	Cyanobacteriota
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	Anaerostipes	Lacticaseibacillus zeae
@@ -1196,6 +1196,8 @@ bsdb:309/3/1_Cervical-glandular-intraepithelial-neoplasia:CIN2+_vs_CIN1_UP	NA	Ak
 bsdb:309/3/2_Cervical-glandular-intraepithelial-neoplasia:CIN2+_vs_CIN1_DOWN	NA	Segatella copri	Blautia producta	Collinsella aerofaciens	Prevotella melaninogenica	Clostridium perfringens	Streptococcus agalactiae	Akkermansia muciniphila
 bsdb:310/1/1_Non-Hodgkins-lymphoma:post-chemotherapy_vs_pre-chemotherapy_UP	NA	Bacteroides	Bacteroidota	Escherichia	Pseudomonadota
 bsdb:310/1/2_Non-Hodgkins-lymphoma:post-chemotherapy_vs_pre-chemotherapy_DOWN	NA	Bacillota	Actinomycetota	Blautia	Faecalibacterium	Roseburia	Bifidobacterium
+bsdb:311/1/1_Graft-versus-host-disease:aGvHD-(acute-Graft-versus-host-disease)_vs_non-GvHD-(Graft-versus-host-disease)_DOWN	NA	Bacteroidia
+bsdb:311/1/2_Graft-versus-host-disease:aGvHD-(acute-Graft-versus-host-disease)_vs_non-GvHD-(Graft-versus-host-disease)_UP	NA	Bacillota
 bsdb:312/1/1_Antimicrobial-agent:Infants-born-by-mothers-positive-to-GBS-and-received-IAP_vs_infants-born-by-mothers-negative-to-GBS_DOWN	NA	Bifidobacteriaceae	Bacteroidaceae
 bsdb:312/2/1_Antimicrobial-agent:Infants-born-by-mothers-positive-to-GBS-and-received-IAP_vs_infants-born-by-mothers-negative-to-GBS_DOWN	NA	Bifidobacterium
 bsdb:313/1/1_Non-Hodgkins-lymphoma:bloodstream-infection_vs_non-bloodstream-infection_UP	NA	Veillonella	Erysipelotrichaceae
@@ -2284,9 +2286,9 @@ bsdb:584/1/1_Colorectal-adenoma:cra-patients_vs_normal-participants_UP	NA	Pseudo
 bsdb:586/1/1_Colorectal-cancer:Colorectal-Cancer-Patients_vs_Healthy-Controls_UP	NA	Bacteroidaceae	Bacteroidales	Bacteroidia	Clostridia	Erysipelotrichaceae	Erysipelotrichales	Erysipelotrichia	Eubacteriales	Oscillospiraceae	Porphyromonadaceae	Rikenellaceae	Bacteria	Clostridiales Family XVII. Incertae Sedis
 bsdb:586/2/1_Colorectal-cancer:Colorectal-cancer-Patients_vs_Healthy-Controls_UP	NA	Actinomycetaceae	Actinomycetales	Actinomycetota	Bacillales	Bacilli	Betaproteobacteria	Flavobacteriaceae	Flavobacteriales	Fusobacteriia	Leptotrichiaceae	Micrococcaceae	Micrococcales	Negativicutes	Neisseriaceae	Neisseriales	Pasteurellaceae	Prevotellaceae	Selenomonadales	Streptococcaceae	Veillonellaceae	Candidatus Saccharibacteria	Lactobacillales
 bsdb:586/3/1_Colorectal-cancer:Biopsy-samples-of-colorectal-cancer-patients_vs_Healthy-Controls_UP	NA	Lachnospiraceae	Fusobacteriaceae	Hyphomicrobiales	Alphaproteobacteria	Deltaproteobacteria	Enterobacterales	Enterobacteriaceae	Gammaproteobacteria
-bsdb:587/1/1_Nicotine-dependence,Smoking-behavior:Current-Smoker_vs_Non-smoker_UP	NA	Catenibacterium	Collinsella	Coriobacteriaceae	Coriobacteriales	Coriobacteriia	Erysipelotrichaceae	Erysipelotrichales	Erysipelotrichia	Peptostreptococcaceae	Rothia	Turicibacter	Turicibacteraceae	Mycobacterium	Deferribacterales
-bsdb:587/1/2_Nicotine-dependence,Smoking-behavior:Current-Smoker_vs_Non-smoker_UP	NA	Alphaproteobacteria
-bsdb:587/1/3_Nicotine-dependence,Smoking-behavior:Current-Smoker_vs_Non-smoker_UP	NA	Catenibacterium	Collinsella	Erysipelotrichaceae	Erysipelotrichales	Mitsuokella	Peptostreptococcaceae	Slackia	Erysipelotrichia
+bsdb:587/1/1_Nicotine-dependence,Smoking-behavior:Current-Smokers_vs_Never-smokers_UP	NA	Catenibacterium	Erysipelotrichaceae	Erysipelotrichales	Erysipelotrichia
+bsdb:587/1/2_Nicotine-dependence,Smoking-behavior:Current-Smokers_vs_Never-smokers_UP	NA	Alphaproteobacteria
+bsdb:587/1/3_Nicotine-dependence,Smoking-behavior:Current-Smokers_vs_Never-smokers_UP	NA	Catenibacterium	Collinsella	Erysipelotrichaceae	Erysipelotrichales	Mitsuokella	Peptostreptococcaceae	Slackia	Erysipelotrichia
 bsdb:588/1/1_Colorectal-cancer:colorectal-cancer-patients_vs_healthy-subjects_UP	NA	Abiotrophia	Acinetobacter	Coriobacterium	Coxiella	Leuconostoc	Limnobacter	Methanobrevibacter	Rothia	Sporobacterium	Succinatimonas	Haloferula
 bsdb:588/1/2_Colorectal-cancer:colorectal-cancer-patients_vs_healthy-subjects_DOWN	NA	Oscillospira
 bsdb:588/2/1_Intestinal-polyp:polyps-patients_vs_healthy-subjects_UP	NA	Anaerotruncus	Mitsuokella
