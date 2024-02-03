@@ -1,4 +1,4 @@
-# BugSigDB 2024-02-03_22:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2024-02-03_23:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	Bacilli	Gammaproteobacteria	Actinomyces	Corynebacterium	Streptococcus	Peptoniphilus	Dorea	Phascolarctobacterium	Sutterella	Actinomycetales	Actinomycetaceae	Alcaligenaceae	Lactobacillales	Streptococcaceae	Veillonellaceae	Enterobacterales	Corynebacteriaceae	Lacticaseibacillus zeae	Bacillus	Bacillaceae
 bsdb:1/1/2_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	Coprobacillus	Cyanobacteriota
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	Anaerostipes	Lacticaseibacillus zeae
@@ -1722,19 +1722,13 @@ bsdb:443/3/2_Irritable-bowel-syndrome:IBS-D_vs_Health-Control_DOWN	NA	Bifidobact
 bsdb:443/5/1_Irritable-bowel-syndrome:Irritable-Bowel-Syndrome,-constipation-predominant-(IBS-C)_vs_Irritable-Bowel-Syndrome,-diarrhea-predominant-(IBS-D)_UP	NA	Lactobacillus	Bacteroides	Candidatus Arthromitus sp. SFB-mouse
 bsdb:443/6/1_Irritable-bowel-syndrome:Visible-abdominal-distension_vs_No-Visible-abdominal-distension_UP	NA	Blautia coccoides	Candidatus Arthromitus sp. SFB-mouse	Pseudomonas aeruginosa	Bacteroides thetaiotaomicron
 bsdb:443/7/1_Irritable-bowel-syndrome:Abdominal-Bloating_vs_No-Abdominal-Bloating_UP	NA	Blautia coccoides
-bsdb:444/1/1_Physical-activity,Colorectal-cancer:Inactive-patients_vs_Active-patients_UP	NA	Bacillota	Fusobacteriia	Pseudomonadota	Synergistota
-bsdb:444/1/2_Physical-activity,Colorectal-cancer:Inactive-patients_vs_Active-patients_DOWN	NA	Cyanobacteriota	Verrucomicrobiae	Mycoplasmatota	Bacteroidia
-bsdb:444/2/1_Body-mass-index,Colorectal-cancer:Overweight-patients_vs_Normal-weight-patients_UP	NA	Actinomycetota	Bacillota	Bacteroidia	Verrucomicrobiae
-bsdb:444/2/2_Body-mass-index,Colorectal-cancer:Overweight-patients_vs_Normal-weight-patients_DOWN	NA	Cyanobacteriota	Fusobacteriia	Mycoplasmatota	Pseudomonadota	Synergistota
-bsdb:444/3/1_Body-mass-index,Colorectal-cancer:Obese-patients_vs_Normal-weight-patients_UP	NA	Fusobacteriia	Actinomycetota	Pseudomonadota	Bacteroidia
-bsdb:444/3/2_Body-mass-index,Colorectal-cancer:Obese-patients_vs_Normal-weight-patients_DOWN	NA	Cyanobacteriota	Verrucomicrobiota	Synergistota	Bacillota	Mycoplasmatota
-bsdb:444/4/2_Body-mass-index,Physical-activity,Colorectal-cancer:Normal-weight/inactive-patients_vs_Normal-weight/active-patients_DOWN	NA	Cyanobacteriota	Fusobacteriia	Bacteroidia
-bsdb:444/5/1_Body-mass-index,Physical-activity,Colorectal-cancer:Overweight/Obese/active-patients_vs_Normal-weight/active-patients_UP	NA	Verrucomicrobiae	Bacteroidia	Mycoplasmatota	Bacillota	Actinomycetota	Synergistota
-bsdb:444/5/2_Body-mass-index,Physical-activity,Colorectal-cancer:Overweight/Obese/active-patients_vs_Normal-weight/active-patients_DOWN	NA	Cyanobacteriota	Fusobacteriia	Pseudomonadota
-bsdb:444/6/1_Body-mass-index,Physical-activity,Colorectal-cancer:Overweight/Obese/inactive-patients_vs_Normal-weight/active-patients_UP	NA	Verrucomicrobiae	Bacillota	Synergistota	Bacteroidia	Actinomycetota	Pseudomonadota
-bsdb:444/6/2_Body-mass-index,Physical-activity,Colorectal-cancer:Overweight/Obese/inactive-patients_vs_Normal-weight/active-patients_DOWN	NA	Cyanobacteriota	Fusobacteriia	Mycoplasmatota
-bsdb:444/7/1_Body-mass-index,Physical-activity,Colorectal-cancer:Overweight/Obese/inactive-patients_vs_Overweight/Obese/active-patients_UP	NA	Psychotria ramuensis	Verrucomicrobiae	Synergistota	Cleisthenes	Pseudomonadota	Bacillota
-bsdb:444/7/2_Body-mass-index,Physical-activity,Colorectal-cancer:Overweight/Obese/inactive-patients_vs_Overweight/Obese/active-patients_DOWN	NA	Cyanobacteriota	Fusobacteriia	Bacteroidia
+bsdb:444/1/1_Physical-activity:Inactive-patients_vs_Active-patients_UP	NA	Actinomycetota
+bsdb:444/1/2_Physical-activity:Inactive-patients_vs_Active-patients_DOWN	NA	Succinivibrio	Succiniclasticum
+bsdb:444/2/2_Body-mass-index:Overweight-patients_vs_Normal-weight-patients_DOWN	NA	Olsenella	Mogibacterium	Anaerococcus	Eubacterium	Clostridium	Succiniclasticum	Succinivibrio
+bsdb:444/3/1_Body-mass-index:Obese-patients_vs_Normal-weight-patients_UP	NA	Fusobacteriia	Actinomycetota	Pseudomonadota	Bacteroidia
+bsdb:444/3/2_Body-mass-index:Obese-patients_vs_Normal-weight-patients_DOWN	NA	Cyanobacteriota	Verrucomicrobiota	Synergistota	Bacillota	Mycoplasmatota
+bsdb:444/5/2_Body-mass-index,Physical-activity,Colorectal-cancer:Overweight/Obese/active-patients_vs_Normal-weight/active-patients_DOWN	NA	Fusobacteriia
+bsdb:444/6/1_Body-mass-index,Physical-activity,Colorectal-cancer:Overweight/Obese/inactive-patients_vs_Normal-weight/active-patients_UP	NA	Actinomycetota
 bsdb:446/1/1_COVID-19:COVID-19-cases_vs_COVID-19-negative-controls_DOWN	NA	Corynebacterium accolens
 bsdb:446/1/2_COVID-19:COVID-19-cases_vs_COVID-19-negative-controls_UP	NA	Propionibacteriaceae
 bsdb:447/1/1_Gestational-diabetes:Individuals-with-gestational-diabetes_vs_Healthy-controls_UP	NA	Gammaproteobacteria	Haemophilus	Pasteurellaceae	Pasteurellales

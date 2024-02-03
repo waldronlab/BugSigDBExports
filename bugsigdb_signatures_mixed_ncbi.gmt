@@ -1,4 +1,4 @@
-# BugSigDB 2024-02-03_22:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2024-02-03_23:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	91061	1236	1654	1716	1301	162289	189330	33024	40544	2037	2049	506	186826	1300	31977	91347	1653	57037	1386	186817
 bsdb:1/1/2_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	100883	1117
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	207244	57037
@@ -1722,19 +1722,13 @@ bsdb:443/3/2_Irritable-bowel-syndrome:IBS-D_vs_Health-Control_DOWN	NA	1686	1578
 bsdb:443/5/1_Irritable-bowel-syndrome:Irritable-Bowel-Syndrome,-constipation-predominant-(IBS-C)_vs_Irritable-Bowel-Syndrome,-diarrhea-predominant-(IBS-D)_UP	NA	1578	816	49118
 bsdb:443/6/1_Irritable-bowel-syndrome:Visible-abdominal-distension_vs_No-Visible-abdominal-distension_UP	NA	1532	49118	287	818
 bsdb:443/7/1_Irritable-bowel-syndrome:Abdominal-Bloating_vs_No-Abdominal-Bloating_UP	NA	1532
-bsdb:444/1/1_Physical-activity,Colorectal-cancer:Inactive-patients_vs_Active-patients_UP	NA	1239	203490	1224	508458
-bsdb:444/1/2_Physical-activity,Colorectal-cancer:Inactive-patients_vs_Active-patients_DOWN	NA	1117	203494	544448	200643
-bsdb:444/2/1_Body-mass-index,Colorectal-cancer:Overweight-patients_vs_Normal-weight-patients_UP	NA	201174	1239	200643	203494
-bsdb:444/2/2_Body-mass-index,Colorectal-cancer:Overweight-patients_vs_Normal-weight-patients_DOWN	NA	1117	203490	544448	1224	508458
-bsdb:444/3/1_Body-mass-index,Colorectal-cancer:Obese-patients_vs_Normal-weight-patients_UP	NA	203490	201174	1224	200643
-bsdb:444/3/2_Body-mass-index,Colorectal-cancer:Obese-patients_vs_Normal-weight-patients_DOWN	NA	1117	74201	508458	1239	544448
-bsdb:444/4/2_Body-mass-index,Physical-activity,Colorectal-cancer:Normal-weight/inactive-patients_vs_Normal-weight/active-patients_DOWN	NA	1117	203490	200643
-bsdb:444/5/1_Body-mass-index,Physical-activity,Colorectal-cancer:Overweight/Obese/active-patients_vs_Normal-weight/active-patients_UP	NA	203494	200643	544448	1239	201174	508458
-bsdb:444/5/2_Body-mass-index,Physical-activity,Colorectal-cancer:Overweight/Obese/active-patients_vs_Normal-weight/active-patients_DOWN	NA	1117	203490	1224
-bsdb:444/6/1_Body-mass-index,Physical-activity,Colorectal-cancer:Overweight/Obese/inactive-patients_vs_Normal-weight/active-patients_UP	NA	203494	1239	508458	200643	201174	1224
-bsdb:444/6/2_Body-mass-index,Physical-activity,Colorectal-cancer:Overweight/Obese/inactive-patients_vs_Normal-weight/active-patients_DOWN	NA	1117	203490	544448
-bsdb:444/7/1_Body-mass-index,Physical-activity,Colorectal-cancer:Overweight/Obese/inactive-patients_vs_Overweight/Obese/active-patients_UP	NA	165065	203494	508458	244448	1224	1239
-bsdb:444/7/2_Body-mass-index,Physical-activity,Colorectal-cancer:Overweight/Obese/inactive-patients_vs_Overweight/Obese/active-patients_DOWN	NA	1117	203490	200643
+bsdb:444/1/1_Physical-activity:Inactive-patients_vs_Active-patients_UP	NA	201174
+bsdb:444/1/2_Physical-activity:Inactive-patients_vs_Active-patients_DOWN	NA	83770	40840
+bsdb:444/2/2_Body-mass-index:Overweight-patients_vs_Normal-weight-patients_DOWN	NA	133925	86331	165779	1730	1485	40840	83770
+bsdb:444/3/1_Body-mass-index:Obese-patients_vs_Normal-weight-patients_UP	NA	203490	201174	1224	200643
+bsdb:444/3/2_Body-mass-index:Obese-patients_vs_Normal-weight-patients_DOWN	NA	1117	74201	508458	1239	544448
+bsdb:444/5/2_Body-mass-index,Physical-activity,Colorectal-cancer:Overweight/Obese/active-patients_vs_Normal-weight/active-patients_DOWN	NA	203490
+bsdb:444/6/1_Body-mass-index,Physical-activity,Colorectal-cancer:Overweight/Obese/inactive-patients_vs_Normal-weight/active-patients_UP	NA	201174
 bsdb:446/1/1_COVID-19:COVID-19-cases_vs_COVID-19-negative-controls_DOWN	NA	38284
 bsdb:446/1/2_COVID-19:COVID-19-cases_vs_COVID-19-negative-controls_UP	NA	31957
 bsdb:447/1/1_Gestational-diabetes:Individuals-with-gestational-diabetes_vs_Healthy-controls_UP	NA	1236	724	712	135625
