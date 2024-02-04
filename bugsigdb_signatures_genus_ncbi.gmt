@@ -1,4 +1,4 @@
-# BugSigDB 2024-02-03_23:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2024-02-04_01:23_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	1654	1716	1301	162289	189330	33024	40544	2759736	1386
 bsdb:1/1/2_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	100883
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	207244	2759736
@@ -123,8 +123,8 @@ bsdb:36/5/2_Obesity:obese-adolescent_vs_control-adolescent_DOWN	NA	816	119852
 bsdb:36/6/1_Obesity:obese-adult_vs_control-adult_UP	NA	216851	1912216
 bsdb:37/1/1_Colorectal-cancer:CRC-patients_vs_Healthy-controls_UP	NA	165779	194	1730	236752	848	1378	61170	32257	32067	283168	459786	375288	543311	1257	836	123375
 bsdb:37/1/2_Colorectal-cancer:CRC-patients_vs_Healthy-controls_DOWN	NA	1243	1301
-bsdb:38/1/1_Body-odor-measurement:head-of-teen-ager_vs_head-of-child_UP	NA	1912216
-bsdb:38/1/2_Body-odor-measurement:head-of-teen-ager_vs_head-of-child_DOWN	NA	55193	1279
+bsdb:38/1/1_Body-odor-measurement:head-of-teenager_vs_head-of-child_UP	NA	1912216
+bsdb:38/1/2_Body-odor-measurement:head-of-teenager_vs_head-of-child_DOWN	NA	55193	1279
 bsdb:38/2/1_Body-odor-measurement:teen-neck_vs_child-neck_UP	NA	1912216	55193
 bsdb:38/2/2_Body-odor-measurement:teen-neck_vs_child-neck_DOWN	NA	1279
 bsdb:38/3/1_Body-odor-measurement:teen-underarm_vs_child-underarm_UP	NA	1279
@@ -143,8 +143,8 @@ bsdb:41/1/1_Psychosis:FIrst-episode-Psychosis_vs_Controls_UP	NA	2038	528	316625	
 bsdb:41/1/2_Psychosis:FIrst-episode-Psychosis_vs_Controls_DOWN	NA	1163	1091	96	914	35798	2263	264688	626	1243
 bsdb:42/1/1_Extrahepatic-cholestasis:cholestasis-infants_vs_healthy-infants_UP	NA	1301	1350	1279	906	28100	158846
 bsdb:42/1/2_Extrahepatic-cholestasis:cholestasis-infants_vs_healthy-infants_DOWN	NA	1678	816	572511	216851	841	207244	102106
-bsdb:43/1/1_Behcet's-syndrome:behcet's-disease_vs_controls_UP	NA	724	1283313
-bsdb:43/1/2_Behcet's-syndrome:behcet's-disease_vs_controls_DOWN	NA	1283313	194	32067	970	1654	838	2767353	1164882	123375	29465	2974257
+bsdb:43/1/1_Behcet's-syndrome:behcet's-disease_vs_controls_UP	NA	1283313	724
+bsdb:43/1/2_Behcet's-syndrome:behcet's-disease_vs_controls_DOWN	NA	1654	1283313	194	2974257	1164882	2767353	32067	838	970	123375	29465
 bsdb:43/2/1_Behcet's-syndrome:immunosuppressant-users_vs_non-immunosuppressent-users-among-behcet's-patients_UP	NA	59735	838	836
 bsdb:43/2/2_Behcet's-syndrome:immunosuppressant-users_vs_non-immunosuppressent-users-among-behcet's-patients_DOWN	NA	2974251	265975
 bsdb:44/1/1_Obesity:pediatric-obese_vs_controls_UP	NA	216851
@@ -522,8 +522,8 @@ bsdb:160/2/1_Head-and-neck-carcinoma:OCC-&-OPC_vs_Normal-Healthy-Controls_UP	NA	
 bsdb:160/2/2_Head-and-neck-carcinoma:OCC-&-OPC_vs_Normal-Healthy-Controls_DOWN	NA	32207	724	1716	346096	836	1016
 bsdb:161/1/1_Lung-cancer:NSCLC_vs_Healthy-controls_UP	NA	1301	47670
 bsdb:161/1/2_Lung-cancer:NSCLC_vs_Healthy-controls_DOWN	NA	838
-bsdb:163/1/1_Squamous-cell-carcinoma:Oropharyngeal-Squamous-Cell-Carcinoma_vs_Healthy-Controls_UP	NA	872	55506	437755	157	1678	1654	970
-bsdb:163/1/2_Squamous-cell-carcinoma:Oropharyngeal-Squamous-Cell-Carcinoma_vs_Healthy-Controls_DOWN	NA	43996	29465	482	1301	838	724
+bsdb:163/1/1_Squamous-cell-carcinoma:Oropharyngeal-Squamous-Cell-Carcinoma_vs_Healthy-Controls_UP	NA	1654	1678	872	437755	55506	970	157
+bsdb:163/1/2_Squamous-cell-carcinoma:Oropharyngeal-Squamous-Cell-Carcinoma_vs_Healthy-Controls_DOWN	NA	43996	724	482	838	1301	29465
 bsdb:163/2/1_Squamous-cell-carcinoma:Oropharyngeal-Squamous-Cell-Carcinoma_vs_Healthy-Controls_UP	NA	146	29465
 bsdb:163/2/2_Squamous-cell-carcinoma:Oropharyngeal-Squamous-Cell-Carcinoma_vs_Healthy-Controls_DOWN	NA	1213720
 bsdb:164/1/1_Gastric-cancer:gastric-cancer_vs_controls_UP	NA	838	1301	29465	1654	32067
@@ -1521,6 +1521,14 @@ bsdb:443/6/1_Irritable-bowel-syndrome:Visible-abdominal-distension_vs_No-Visible
 bsdb:443/7/1_Irritable-bowel-syndrome:Abdominal-Bloating_vs_No-Abdominal-Bloating_UP	NA	572511
 bsdb:444/1/2_Physical-activity:Inactive-patients_vs_Active-patients_DOWN	NA	83770	40840
 bsdb:444/2/2_Body-mass-index:Overweight-patients_vs_Normal-weight-patients_DOWN	NA	133925	86331	165779	1730	1485	40840	83770
+bsdb:444/3/1_Body-mass-index:Obese-patients_vs_Normal-weight-patients_UP	NA	1263
+bsdb:444/3/2_Body-mass-index:Obese-patients_vs_Normal-weight-patients_DOWN	NA	447020	1485	83770
+bsdb:444/4/1_Body-mass-index,Physical-activity:Normal-weight/inactive-patients_vs_Normal-weight/active-patients_DOWN	NA	40840	83770
+bsdb:444/4/2_Body-mass-index,Physical-activity:Normal-weight/inactive-patients_vs_Normal-weight/active-patients_UP	NA	638847
+bsdb:444/5/1_Body-mass-index,Physical-activity:Overweight/Obese/active-patients_vs_Normal-weight/active-patients_UP	NA	638847
+bsdb:444/5/2_Body-mass-index,Physical-activity:Overweight/Obese/active-patients_vs_Normal-weight/active-patients_DOWN	NA	162289	40840	83770
+bsdb:444/6/2_Body-mass-index,Physical-activity:Overweight/Obese/inactive-patients_vs_Normal-weight/active-patients_DOWN	NA	83770
+bsdb:444/7/1_Body-mass-index,Physical-activity:Overweight/Obese/inactive-patients_vs_Overweight/Obese/active-patients_DOWN	NA	40840	83770
 bsdb:446/1/1_COVID-19:COVID-19-cases_vs_COVID-19-negative-controls_DOWN	NA	1716
 bsdb:447/1/1_Gestational-diabetes:Individuals-with-gestational-diabetes_vs_Healthy-controls_UP	NA	724
 bsdb:447/1/2_Gestational-diabetes:Individuals-with-gestational-diabetes_vs_Healthy-controls_DOWN	NA	239759	33024
