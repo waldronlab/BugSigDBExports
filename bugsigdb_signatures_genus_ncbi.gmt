@@ -1,4 +1,4 @@
-# BugSigDB 2024-02-04_22:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2024-02-05_01:22_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	1654	1716	1301	162289	189330	33024	40544	2759736	1386
 bsdb:1/1/2_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	100883
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	207244	2759736
@@ -1022,7 +1022,7 @@ bsdb:290/3/2_Oral-mucositis:pre--and-three-month-after-auto-stem-cell-transplant
 bsdb:290/4/1_Oral-mucositis:0.1%-or-higher-fungi-load_vs_low-or-no-fungi-load_UP	NA	196081	1279	1578
 bsdb:290/4/2_Oral-mucositis:0.1%-or-higher-fungi-load_vs_low-or-no-fungi-load_DOWN	NA	29465	1654	838	32067	906	1301
 bsdb:291/1/1_Graves-disease:graves-disease_vs_healthy-controls_UP	NA	838	724	194	29465	581
-bsdb:291/1/2_Graves-disease:graves-disease_vs_healthy-controls_DOWN	NA	239759	216851	1578
+bsdb:291/1/2_Graves-disease:graves-disease_vs_healthy-controls_DOWN	NA	239759	216851	1578	39948
 bsdb:292/1/2_Response-to-allogeneic-hematopoietic-stem-cell-transplant:allogeneic-hematopoietic-stem-cell-transplant_vs_community-dwelling-controls_DOWN	NA	1283313	724	32067	482	265975	838	1301
 bsdb:293/1/1_Human-papilloma-virus-infection:Baseline-HPV+_vs_Baseline-HPV-_UP	NA	2129
 bsdb:293/1/2_Human-papilloma-virus-infection:Baseline-HPV+_vs_Baseline-HPV-_DOWN	NA	1582879	216851	848	873565
@@ -1510,8 +1510,8 @@ bsdb:441/3/1_COVID-19:COVID-19-patients_vs_H1N1-patients_UP	NA	1766253	2569097	2
 bsdb:441/3/2_COVID-19:COVID-19-patients_vs_H1N1-patients_DOWN	NA	838	1582879	239934	1161127	836
 bsdb:441/4/1_COVID-19:COVID-19-cases_vs_Healthy-controls_UP	NA	1301
 bsdb:442/1/1_Type-II-diabetes-mellitus:Individuals-diagnosed-with-Type-2-Diabetes-Mellitus_vs_Healthy-controls_DOWN	NA	5598	5498	5453	41254	95729	5644
-bsdb:443/1/1_Irritable-bowel-syndrome:IBS_vs_Healthy-Control_UP	NA	816	572511	286	29465
-bsdb:443/1/2_Irritable-bowel-syndrome:IBS_vs_Healthy-Control_DOWN	NA	1678
+bsdb:443/1/1_irritable-bowel-sydrome:IBS_vs_Health-Control_UP	NA	816	572511	286	29465
+bsdb:443/1/2_irritable-bowel-sydrome:IBS_vs_Health-Control_DOWN	NA	1678
 bsdb:443/2/1_Irritable-bowel-syndrome:IBS-C_vs_Health-Control_UP	NA	816	572511	1578	286	29465
 bsdb:443/2/2_Irritable-bowel-syndrome:IBS-C_vs_Health-Control_DOWN	NA	1678
 bsdb:443/3/1_Irritable-bowel-syndrome:IBS-D_vs_Health-Control_UP	NA	816	49082	286
@@ -2180,8 +2180,6 @@ bsdb:640/2/1_Sensory-perception-of-bitter-taste:rheumatoid-arthritis-patients-wi
 bsdb:640/2/2_Sensory-perception-of-bitter-taste:rheumatoid-arthritis-patients-with-the-homozygous-PAV/PAV-(“supertasters”)_vs_rheumatoid-arthritis-patients-carrying-the-AVI/AVI-genotype-(“non-tasters”)_UP	NA	1301
 bsdb:640/3/1_Sensory-perception-of-bitter-taste:Non-rheumatoid-arthritis-patients-with-the-homozygous-PAV/PAV-(“supertasters”)_vs_Non-rheumatoid-arthritis-patients-carrying-the-AVI/AVI-genotype-(“non-tasters”)_DOWN	NA	2767353
 bsdb:640/3/2_Sensory-perception-of-bitter-taste:Non-rheumatoid-arthritis-patients-with-the-homozygous-PAV/PAV-(“supertasters”)_vs_Non-rheumatoid-arthritis-patients-carrying-the-AVI/AVI-genotype-(“non-tasters”)_UP	NA	838	906	2974251	43996	29465	265975
-bsdb:640/4/1_Sensory-perception-of-bitter-taste:All-participants-with-the-homozygous-PAV/PAV-(“supertasters”)_vs_All-participants-carrying-the-AVI/AVI-genotype-(“non-tasters”)_DOWN	NA	46123
-bsdb:640/4/2_Sensory-perception-of-bitter-taste:All-participants-with-the-homozygous-PAV/PAV-(“supertasters”)_vs_All-participants-carrying-the-AVI/AVI-genotype-(“non-tasters”)_UP	NA	194
 bsdb:641/1/1_Arthritis:Early-Rheumatoid-Arthritis_vs_healthy-control_DOWN	NA	836	848	29465	2974257	1283313	117563	482	1301
 bsdb:641/1/2_Arthritis:Early-Rheumatoid-Arthritis_vs_healthy-control_UP	NA	1301	2974251	32207	970
 bsdb:642/2/2_Socioeconomic-status:Orang-Asli-Children-(low-SES,-household-income<RM500)_vs_Chinese-Children-(High-SES,-household-income->RM500)_DOWN	NA	239759
@@ -2414,8 +2412,8 @@ bsdb:702/4/1_Rheumatoid-arthritis:Current-Smokers_vs_Never-Smokers_UP	NA	848	143
 bsdb:702/4/2_Rheumatoid-arthritis:Current-Smokers_vs_Never-Smokers_DOWN	NA	32067	76833	482	2717
 bsdb:702/5/1_Rheumatoid-arthritis:Current-Smokers_vs_Former-Smokers_UP	NA	848	1434006	346096	1654	157	195950	970	2093	86331	838
 bsdb:702/5/2_Rheumatoid-arthritis:Current-Smokers_vs_Former-Smokers_DOWN	NA	482	1716	724	1016	416916	47670	2717	1378	1654	59735
-bsdb:703/1/1_Rheumatoid-arthritis:All-Matched-(AM)-Rheumatoid-Arthritis_vs_Healthy-Controls_UP	NA	1301	157	848
-bsdb:703/1/2_Rheumatoid-arthritis:All-Matched-(AM)-Rheumatoid-Arthritis_vs_Healthy-Controls_DOWN	NA	724	1301
+bsdb:703/1/1_Arthritis:Rheumatoid-Arthritis_vs_healthy_UP	NA	1301	157	848
+bsdb:703/1/2_Arthritis:Rheumatoid-Arthritis_vs_healthy_DOWN	NA	724	1301
 bsdb:703/2/1_Rheumatoid-arthritis:Periodontally-diseased-(PD)-Rheumatoid-Arthritis_vs_Healthy-Controls_UP	NA	1301	1654	848	543311
 bsdb:703/2/2_Rheumatoid-arthritis:Periodontally-diseased-(PD)-Rheumatoid-Arthritis_vs_Healthy-Controls_DOWN	NA	286
 bsdb:704/1/1_Arthritis:Rheumatoid-Arthritis_vs_Healthy-Non-RA-Controls_UP	NA	2529408	1301
