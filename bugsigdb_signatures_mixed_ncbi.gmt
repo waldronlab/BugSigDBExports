@@ -1,4 +1,4 @@
-# BugSigDB 2024-02-05_14:59_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2024-02-05_15:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	91061	1236	1654	1716	1301	162289	189330	33024	40544	2037	2049	506	186826	1300	31977	91347	1653	57037	1386	186817
 bsdb:1/1/2_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	100883	1117
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	207244	57037
@@ -861,9 +861,9 @@ bsdb:238/3/2_Cervical-cancer:cervical-cancer-patient_vs_healthy-controls_DOWN	NA
 bsdb:239/1/1_Egg-allergy:children-with-egg-allergy_vs_healthy-control_UP	NA	1263	1357
 bsdb:239/1/2_Egg-allergy:children-with-egg-allergy_vs_healthy-control_DOWN	NA	1243
 bsdb:239/2/1_Egg-allergy:children-with-egg-sensitization_vs_healthy-control_UP	NA	216851	841	74201	1239
-bsdb:240/1/1_Food-allergy:infant-with-food-sensitization_vs_healthy-control_UP	NA	1224	543
-bsdb:240/2/1_Food-allergy:infant-with-food-sensitization_vs_healthy-control_UP	NA	543
-bsdb:240/2/2_Food-allergy:infant-with-food-sensitization_vs_healthy-control_DOWN	NA	976	815
+bsdb:240/1/1_Food-allergy:sensitized-group_vs_non-sensitized-group_UP	NA	543	1224
+bsdb:240/2/1_Food-allergy:sensitized-group_vs_non-sensitized-group_UP	NA	543
+bsdb:240/2/2_Food-allergy:sensitized-group_vs_non-sensitized-group_DOWN	NA	976	815
 bsdb:241/1/1_Iron-deficiency-anemia:iron-deficiency-anemia_vs_healthy-control_UP	NA	29466	39778	137838
 bsdb:241/1/2_Iron-deficiency-anemia:iron-deficiency-anemia_vs_healthy-control_DOWN	NA	74426	39486	1681	39948
 bsdb:242/1/1_Iron-deficiency-anemia:iron-deficiency-anemia_vs_healthy-control_UP	NA	1239	475	1357	286	1350	57493	1578
@@ -1612,8 +1612,6 @@ bsdb:418/2/2_HIV-infection:immunological-responders-assigned-to-treatment-for-12
 bsdb:419/1/1_HIV-infection:combination-antiretroviral-therapy-treated-individuals-after-taking-LGG-probiotic-for-8-weeks_vs_baseline_UP	NA	1508657	186803
 bsdb:419/1/2_HIV-infection:combination-antiretroviral-therapy-treated-individuals-after-taking-LGG-probiotic-for-8-weeks_vs_baseline_DOWN	NA	543	128827
 bsdb:419/3/1_HIV-infection:individuals-with-decreased-F-2-fluoro-2-deoxy-D-glucose-(F-FDG)-uptake-on-positron-emission-tomography-(PET)/magnetic-resonance-imaging-(MRI)_vs_individuals-with-no-change-in-uptake_DOWN	NA	543
-bsdb:420/1/1_HIV-infection:HIV-infected-on-antiretroviral-therapy-allocated-to-probiotic-intervention_vs_baseline_UP	NA	1678	1760	1239
-bsdb:420/1/2_HIV-infection:HIV-infected-on-antiretroviral-therapy-allocated-to-probiotic-intervention_vs_baseline_DOWN	NA	816	976
 bsdb:420/2/1_HIV-infection:HIV-infected-on-antiretroviral-therapy-allocated-to-probiotic-intervention_vs_nonprobiotic-intervention_UP	NA	1578
 bsdb:421/1/1_HIV-infection:Vertically-HIV-infected-children_vs_HIV-uninfected-siblings-or-children-born-to-HIV-infected-mothers_UP	NA	239934	100883	561	848	838
 bsdb:421/1/2_HIV-infection:Vertically-HIV-infected-children_vs_HIV-uninfected-siblings-or-children-born-to-HIV-infected-mothers_DOWN	NA	244127	207244	51514	1357	189330	33042	28050	216851	1678
@@ -3024,7 +3022,7 @@ bsdb:774/1/1_Irritable-bowel-syndrome:IBS-C-(IBS-Constipation)_vs_Non-IBS1-(Non-
 bsdb:774/1/2_Irritable-bowel-syndrome:IBS-C-(IBS-Constipation)_vs_Non-IBS1-(Non-irritable-bowel-syndrome-1)_UP	NA	239934	397864	990721	186801	2137877	80865	872	1472649	1432051	1940338	1730	1573534	150022	946234	1918511	1649459	596767	1392389	1980693	459786	119852	375288	1508657	1522	200940
 bsdb:774/2/1_Irritable-bowel-syndrome:IBS-D-(IBS-Diarrhea)_vs_Non-IBS2-(Non-irritable-bowel-syndrome-2)_DOWN	NA	222	239934	239759	207244	397864	1678	574697	830	194	2975519	990719	2137877	33042	1117	73029	872	42322	39497	216851	1686313	596767	256845	2005473	283168	846	577310	162289	836	838	1263	40544	184869	29465	172900	39492	1452070	331630	297314	707003	244328
 bsdb:774/2/2_Irritable-bowel-syndrome:IBS-D-(IBS-Diarrhea)_vs_Non-IBS2-(Non-irritable-bowel-syndrome-2)_UP	NA	46123	189330	1940338	946234	724	33038	292632	39488	41275	1185407
-bsdb:774/3/1_Irritable-bowel-syndrome:IBS-U-(IBS-Unclassified)_vs_Non-IBS3-(Non-irritable-bowel-syndrome-3)_DOWN	NA	1766253	39488	207244	1678	572511	194	135858	102106	189330	42322	216851	1686313	150022	1407607	1378	1573535	162289	838	1263	292632	40544	191303	184869	256845	297314	666559
+bsdb:774/3/1_Irritable-bowel-syndrome:IBS-U-(IBS-Unclassified)_vs_Non-IBS3-(Non-irritable-bowel-syndrome-3)_DOWN	NA	1766253	39488	207244	1678	572511	194	135858	102106	189330	42322	216851	1686313	150022	1407607	1378	1573535	162289	838	1263	292632	40544	191303	184869	256845	666559	297314	1350
 bsdb:774/3/2_Irritable-bowel-syndrome:IBS-U-(IBS-Unclassified)_vs_Non-IBS3-(Non-irritable-bowel-syndrome-3)_UP	NA	1940338	286	40840	33039	1224
 bsdb:774/4/1_Depressive-disorder:IBS-patients-with-depression-in-all-three-subtypes-(IBS-D,-IBS-C-and-IBS-U)_vs_IBS-patients-without-depression_DOWN	NA	1678	574697	40544	3085642
 bsdb:774/4/2_Depressive-disorder:IBS-patients-with-depression-in-all-three-subtypes-(IBS-D,-IBS-C-and-IBS-U)_vs_IBS-patients-without-depression_UP	NA	583
