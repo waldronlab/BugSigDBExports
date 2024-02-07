@@ -1,4 +1,4 @@
-# BugSigDB 2024-02-07_13:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2024-02-07_14:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	Bacilli	Gammaproteobacteria	Actinomyces	Corynebacterium	Streptococcus	Peptoniphilus	Dorea	Phascolarctobacterium	Sutterella	Actinomycetales	Actinomycetaceae	Alcaligenaceae	Lactobacillales	Streptococcaceae	Veillonellaceae	Enterobacterales	Corynebacteriaceae	Lacticaseibacillus zeae	Bacillus	Bacillaceae
 bsdb:1/1/2_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	Coprobacillus	Cyanobacteriota
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	Anaerostipes	Lacticaseibacillus zeae
@@ -648,11 +648,11 @@ bsdb:175/2/1_Pancreatic-carcinoma:pancreatic-cancer-cases_vs_controls_DOWN	NA	Al
 bsdb:175/3/1_Pancreatic-carcinoma:pancreatic-cancer-cases_vs_controls_DOWN	NA	Leptotrichia	Leptotrichiaceae
 bsdb:176/1/1_Leukemia:survivors-of-acute-lymphoblastic-leukemia_vs_controls_UP	NA	Actinomycetota	Corynebacterium	Corynebacteriaceae	Peptoniphilus	Finegoldia	Archaea	Staphylococcaceae	Staphylococcus	Actinomyces
 bsdb:176/1/2_Leukemia:survivors-of-acute-lymphoblastic-leukemia_vs_controls_DOWN	NA	Bacteroidales	Bacteroidia	Bacteroidota	Oscillospiraceae	Faecalibacterium	Ruminococcus	Rikenellaceae	Lachnospira	Desulfovibrionales	Deltaproteobacteria	Desulfovibrionaceae
-bsdb:177/1/1_Colorectal-cancer:colon-cancer-patients_vs_control_UP	NA	Bacteroidota	Bilophila	Clostridium	Dialister	Euryarchaeota	Fusobacteriota	Fusobacterium	Methanobrevibacter	Oscillospira	Peptostreptococcus	Mycoplasmatota
-bsdb:177/1/2_Colorectal-cancer:colon-cancer-patients_vs_control_DOWN	NA	Streptococcus
-bsdb:177/2/1_Colorectal-cancer:colon-cancer-patients-(tumor-samples)_vs_control_UP	NA	Methanobrevibacter	Peptostreptococcus	Selenomonas
-bsdb:177/3/1_Colorectal-cancer:colon-cancer-patients-(fecal-samples)_vs_control_UP	NA	Dorea	Peptostreptococcus
-bsdb:177/3/2_Colorectal-cancer:colon-cancer-patients-(fecal-samples)_vs_control_DOWN	NA	Roseburia	Mycoplasmatota
+bsdb:177/1/1_Colorectal-cancer:colon-cancer-patients_vs_control-group_UP	NA	Bacteroidota	Bilophila	Clostridium	Dialister	Euryarchaeota	Fusobacteriota	Fusobacterium	Methanobrevibacter	Oscillospira	Peptostreptococcus	Mycoplasmatota
+bsdb:177/1/2_Colorectal-cancer:colon-cancer-patients_vs_control-group_DOWN	NA	Streptococcus
+bsdb:177/2/1_Colorectal-cancer:colon-cancer-patients-(tumor-samples)_vs_control-group_UP	NA	Methanobrevibacter	Peptostreptococcus	Selenomonas
+bsdb:177/3/1_Colorectal-cancer:colon-cancer-patients-(fecal-samples)_vs_control-group_UP	NA	Dorea	Peptostreptococcus
+bsdb:177/3/2_Colorectal-cancer:colon-cancer-patients-(fecal-samples)_vs_control-group_DOWN	NA	Roseburia	Mycoplasmatota
 bsdb:178/1/1_Gastric-cancer:gastric-cancer-peritumor-group_vs_normal_UP	NA	Oceanospirillales	Halomonas	Halomonadaceae	Shewanellaceae	Shewanella	Alteromonadales	Enterococcus	Enterococcaceae	Brevundimonas	Arthrobacter	Mycobacterium	Mycobacteriaceae
 bsdb:178/1/2_Gastric-cancer:gastric-cancer-peritumor-group_vs_normal_DOWN	NA	Cupriavidus	Burkholderiaceae	Porphyromonadaceae	Legionellaceae	Legionella	Legionellales
 bsdb:178/2/1_Gastric-cancer:gastric-cancer-tumor-group_vs_peritumor_UP	NA	Bacilli	Enterococcus	Enterococcaceae	Selenomonas	Oceanospirillales	Halomonas	Halomonadaceae	Bifidobacteriaceae	Bifidobacterium	Bifidobacteriales	Enterobacteriaceae	Enterobacterales	Alistipes	Ruminococcus	Rikenellaceae	Dialister	Oscillibacter	Coprococcus	Oscillospiraceae	Roseburia	Megasphaera	Staphylococcaceae	Staphylococcus	Blautia
@@ -1374,6 +1374,7 @@ bsdb:351/1/2_Obesity:overweight/obesity_vs_normal_DOWN	NA	Bifidobacteriaceae	Bif
 bsdb:352/1/1_Human-papilloma-virus-infection,Cervical-glandular-intraepithelial-neoplasia:Low-Grade-Squamous-Intraepithelial-Lesion_vs_Atypical-Squamous-Cells-of-Undetermined-Significance_DOWN	NA	Saccharomyces	Sporidiobolaceae
 bsdb:352/2/1_Human-papilloma-virus-infection,Cervical-glandular-intraepithelial-neoplasia:High-risk-HPV_vs_Low-risk-HPV_UP	NA	Malassezia
 bsdb:352/2/2_Human-papilloma-virus-infection,Cervical-glandular-intraepithelial-neoplasia:High-risk-HPV_vs_Low-risk-HPV_DOWN	NA	Sporidiobolaceae
+bsdb:352/3/1_Cervical-glandular-intraepithelial-neoplasia,Human-papilloma-virus-infection:Low-Grade-Squamous-Intraepithelial-Lesion_vs_Atypical-Squamous-Cells-of-Undetermined-Significance_DOWN	NA	Sporidiobolaceae
 bsdb:352/4/1_Human-papilloma-virus-infection,Cervical-glandular-intraepithelial-neoplasia:High-risk-HPV_vs_Low-risk-HPV_UP	NA	Malassezia
 bsdb:352/4/2_Human-papilloma-virus-infection,Cervical-glandular-intraepithelial-neoplasia:High-risk-HPV_vs_Low-risk-HPV_DOWN	NA	Sporidiobolaceae
 bsdb:353/1/1_Obesity:obese_vs_non-obese_UP	NA	Faecalibacterium prausnitzii
