@@ -1,4 +1,4 @@
-# BugSigDB 2024-02-15_13:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2024-02-15_14:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	91061	1236	1654	1716	1301	162289	189330	33024	40544	2037	2049	506	186826	1300	31977	91347	1653	57037	1386	186817
 bsdb:1/1/2_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	100883	1117
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	207244	57037
@@ -3291,8 +3291,9 @@ bsdb:834/1/1_Vitiligo:Non-segmental-Vitiligo-patients_vs_Healthy-controls_UP	NA	
 bsdb:834/1/2_Vitiligo:Non-segmental-Vitiligo-patients_vs_Healthy-controls_DOWN	NA	1105030	209880	1841855	28111	2044939	2292205	1501392	410072	876	88431	1972561	139208	2485925	33033	2049048	1653434	1661	423477	1308	290055	1912855	1288121	2093856	2041842	1470347	1735
 bsdb:835/1/1_Response-to-vaccine,Timepoint:Mothers-at-post-vaccination-timepoints_vs_Mothers-at-pre-vaccination-timepoint_UP	NA	108980	257708	41275	2053	31989
 bsdb:835/1/2_Response-to-vaccine,Timepoint:Mothers-at-post-vaccination-timepoints_vs_Mothers-at-pre-vaccination-timepoint_DOWN	NA	59617	174708	2005473	48736	191303
-bsdb:835/2/1_Response-to-vaccine:High-IgA-mothers-at-one-week-post-second-dose_vs_mothers-at-pre-vaccination_UP	NA	33011	848	495	470565	40519	416916	482	216572	40544	359336	1239	2039302	74829	2801844	1213720	713	461393	1505652	111142	1181271
-bsdb:835/3/1_Response-to-vaccine:low-IgA-mothers-at-one-week-post-second-dose_vs_pre-vaccination-(baseline)_UP	NA	41275	469	161879
+bsdb:835/2/1_Response-to-vaccine:High-IgA-mothers-at-Baseline_vs_Low-IgA-mothers-at-Baseline_UP	NA	461393	1239	33011	1181271	848	495	470565	40519	74829	713	416916	111142	2801844	359336	2039302	482	216572	1213720	40544	1505652
+bsdb:835/2/2_Response-to-vaccine:High-IgA-mothers-at-Baseline_vs_Low-IgA-mothers-at-Baseline_DOWN	NA	41275	469	161879
+bsdb:835/3/1_Response-to-vaccine:High-IgA-mothers-at-one-week-post-second-dose_vs_Low-IgA-mothers-at-one-week-post-second-dose_UP	NA	41275	469	161879
 bsdb:835/4/1_Response-to-vaccine:Mothers-at-one-week-post-first-dose_vs_Mothers-at-pre-vaccination-timepoint_UP	NA	40216	108980	39496	726	735	257708	713	41275	33882	31989	41297	487316	35841	247	150247	1386	59735	75654	59734	212791	237	29580	586	1742993	22	13687
 bsdb:835/5/1_Response-to-vaccine:Mothers-at-one-week-post-second-dose_vs_Mothers-at-pre-vaccination-timepoint-(baseline)_UP	NA	470	487316	108980	657642	420404	39496	34059	1288392	44252	28202	28132	257708	469	713	41275	563835	204456	2053	570	32067	158846	481445	75687	528	31989	162289	1742993	1200657	613	57739	244328	1822466
 bsdb:835/6/1_Response-to-vaccine:Mothers-at-one-month-post-second-dose_vs_Mothers-at-pre-vaccination-timepoint_UP	NA	108980	204	1862672	420404	434084	34059	495	470565	28132	568898	257708	128780	12916	2040	1380	41275	1653	145357	225842	2053	1164882	186650	475	481	165696	31989	712	1253	186818	2321113	82115	613	204447	13687	114248	244328
@@ -3408,6 +3409,7 @@ bsdb:859/1/2_Biliary-atresia:Post24-+-m_vs_Children-with-BA-before---[pre]_DOWN	
 bsdb:859/2/1_Biliary-atresia:Post24-+-m_vs_post-24-+-m-Control_UP	NA	91347	1236
 bsdb:859/2/2_Biliary-atresia:Post24-+-m_vs_post-24-+-m-Control_DOWN	NA	85004	201174	186802	186801
 bsdb:863/1/1_Rhinitis,Eczema:Atopic-dermatitis-(eczema)_vs_Chronic-urticaria-(hives)_UP	NA	171549	1501226	40544	200643
+bsdb:863/1/2_Rhinitis,Eczema:Atopic-dermatitis-(eczema)_vs_Chronic-urticaria-(hives)_DOWN	NA	42374	93612	82525	4959	4932	906	29465
 bsdb:865/1/1_Colorectal-cancer-cell-line:azoxymethane/dextran-sodiumsulfate-(AOM/DSS)-group-at-week-10-(AD10-group)_vs_control-group-at-week-10-(C10-group)_DOWN	NA	239759	171549	200643	31979	1485	872	186803	283168	171551	171550
 bsdb:865/1/2_Colorectal-cancer-cell-line:azoxymethane/dextran-sodiumsulfate-(AOM/DSS)-group-at-week-10-(AD10-group)_vs_control-group-at-week-10-(C10-group)_UP	NA	815	816	213849	194924	213115	3031852	186806	1730	209	72293	1392389	375288	1224	1300	1301
 bsdb:866/1/1_Intestinal-polyp:Patients-with-low-grade-colorectal-polyps-cohort_vs_Polyp-free-control-patients_UP	NA	187327	1501391	2358141	816	28116	820	74426	1940338	1417852	33038	823	1263
