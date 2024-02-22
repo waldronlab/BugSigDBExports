@@ -1,4 +1,4 @@
-# BugSigDB 2024-02-21_19:59_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2024-02-22_11:59_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	1654	1716	1301	162289	189330	33024	40544	1386
 bsdb:1/1/2_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	100883
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	207244
@@ -2357,6 +2357,7 @@ bsdb:789/2/1_Breast-cancer:Adjacent-normal-(AN)_vs_Health-(H)_UP	NA	165779	1716	
 bsdb:789/2/2_Breast-cancer:Adjacent-normal-(AN)_vs_Health-(H)_DOWN	NA	1663	816	374	1912216	1357	657	1263	613	42255	2755	2737
 bsdb:789/3/1_Breast-cancer:Tumor-(T)_vs_Health-(H)_UP	NA	165779	1494958	1827
 bsdb:789/3/2_Breast-cancer:Tumor-(T)_vs_Health-(H)_DOWN	NA	469	1663	816	35832	1357	1847725	657	295418	613	270	2737
+bsdb:791/1/1_Spontaneous-preterm-birth:Preterm-Birth_vs_Full-term-Birth_UP	NA	1213720
 bsdb:792/1/1_Root:Test-group-(Roots)_vs_Control-group-(Leaves)_UP	NA	149698	4855	164535
 bsdb:792/1/2_Root:Test-group-(Roots)_vs_Control-group-(Leaves)_DOWN	NA	29580	286	5598	253308	5498	40657
 bsdb:793/1/1_Cerebral-small-vessel-disease:High-burden-(Unhealthy)_vs_Lower-burden-(Healthy)_UP	NA	270497	119852
@@ -2481,10 +2482,10 @@ bsdb:829/3/2_Breastfeeding-duration:Low-Breastfeeding-Bouts_vs_Medium-Breastfeed
 bsdb:829/4/1_Breastfeeding-duration:High-Breastfeeding-Bouts_vs_Medium-Breastfeeding-Bouts_UP	NA	1678
 bsdb:829/4/2_Breastfeeding-duration:High-Breastfeeding-Bouts_vs_Medium-Breastfeeding-Bouts_DOWN	NA	1269	84567	50709	222
 bsdb:830/6/1_Dry-eye-syndrome:Dry-Eye_vs_healthy-controls_UP	NA	1716
-bsdb:831/1/1_COVID-19:COVID-19-Patients_vs_ventilator-associated-pneumonia-(pneumonia-group)_UP	NA	816	1905344	1017280
-bsdb:831/1/2_COVID-19:COVID-19-Patients_vs_ventilator-associated-pneumonia-(pneumonia-group)_UP	NA	838	150022	1686313	162289	836
-bsdb:831/2/1_COVID-19:COVID-19-patients-with-ventilation_vs_COVID-19-patients-without-ventilation_DOWN	NA	216851	841	1301
-bsdb:831/2/2_COVID-19:COVID-19-patients-with-ventilation_vs_COVID-19-patients-without-ventilation_UP	NA	194	1485	1263
+bsdb:831/1/1_COVID-19:COVID-19-Patients_vs_Non-Covid-19-Patients---pneumonia-patients_UP	NA	816	1017280	1905344
+bsdb:831/1/2_COVID-19:COVID-19-Patients_vs_Non-Covid-19-Patients---pneumonia-patients_DOWN	NA	1686313	150022	836	1716	40544	165779	909928
+bsdb:831/2/1_COVID-19:COVID-19-patients---Ventilated_vs_COVID-19-patients---Non-Ventilated_UP	NA	194	1263	1485
+bsdb:831/2/2_COVID-19:COVID-19-patients---Ventilated_vs_COVID-19-patients---Non-Ventilated_DOWN	NA	1301	216851	841
 bsdb:832/1/1_Atrial-fibrillation:Individuals-with-Prevalent-Atrial-Fibrillation-(AF)_vs_Individuals-without-Prevalent-Atrial-Fibrillation-(AF)_UP	NA	1432051	1472762	547	579
 bsdb:832/1/2_Atrial-fibrillation:Individuals-with-Prevalent-Atrial-Fibrillation-(AF)_vs_Individuals-without-Prevalent-Atrial-Fibrillation-(AF)_DOWN	NA	816	1678	1573535	375288	191303
 bsdb:832/2/1_Atrial-fibrillation:Individuals-with-Incident-Atrial-Fibrillation-(AF)_vs_Individuals-without-Incident-Atrial-Fibrillation-(AF)_UP	NA	1678	1472762	1357	52225	1769710
