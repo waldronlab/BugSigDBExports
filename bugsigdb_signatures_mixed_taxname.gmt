@@ -1,4 +1,4 @@
-# BugSigDB 2024-03-07_11:59_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2024-03-07_12:59_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	Bacilli	Gammaproteobacteria	Actinomyces	Corynebacterium	Streptococcus	Peptoniphilus	Dorea	Phascolarctobacterium	Sutterella	Actinomycetales	Actinomycetaceae	Alcaligenaceae	Lactobacillales	Streptococcaceae	Veillonellaceae	Enterobacterales	Corynebacteriaceae	Lacticaseibacillus zeae	Bacillus	Bacillaceae
 bsdb:1/1/2_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	Coprobacillus	Cyanobacteriota
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	Anaerostipes	Lacticaseibacillus zeae
@@ -3501,25 +3501,31 @@ bsdb:876/1/2_Male-homosexuality:Men-who-have-sex-with-men_vs_men-who-does-not-ha
 bsdb:877/1/1_Mucositis:Mucositis-group_vs_Healthy-group_UP	NA	Actinomyces oris	Corynebacterium matruchotii
 bsdb:877/2/1_Peri-Implantitis:Peri-implantitis-group_vs_Healthy-group_UP	NA	Actinomyces oris	Corynebacterium matruchotii	Rothia aeria
 bsdb:877/3/1_Peri-Implantitis:Peri-implantitis-group_vs_Healthy-group_DOWN	NA	Porphyromonas gingivalis	Fusobacterium nucleatum	Anaerolineaceae
+bsdb:879/1/1_COVID-19,Oral-ulcer:Covid-19_vs_NA_DOWN	NA	Fusobacterium	Veillonella
+bsdb:879/2/1_Oral-ulcer,COVID-19:Covid-19_vs_NA_DOWN	NA	Staphylococcus
+bsdb:879/3/1_COVID-19,Oral-ulcer:Covid-19_vs_NA_DOWN	NA	Haemophilus
+bsdb:879/4/1_COVID-19,Oral-ulcer:Covid-19_vs_NA_DOWN	NA	Prevotella
 bsdb:880/1/1_Urinary-tract-infection:Culture-Positive_vs_No-Growth_UP	NA	Escherichia coli	Klebsiella pneumoniae	Klebsiella oxytoca
 bsdb:880/1/2_Urinary-tract-infection:Culture-Positive_vs_No-Growth_DOWN	NA	Cutibacterium acnes	Ascomycota
 bsdb:880/2/1_Urinary-tract-infection:Culture-Positive_vs_Insignificant_UP	NA	Klebsiella pneumoniae
 bsdb:880/2/2_Urinary-tract-infection:Culture-Positive_vs_Insignificant_DOWN	NA	Bacteroides ovatus	[Ruminococcus] torques
 bsdb:880/3/1_Urinary-tract-infection:Insignificant_vs_Asymptomatic_DOWN	NA	Staphylococcus aureus
+bsdb:880/4/1_Urinary-tract-infection:No-Growth_vs_Asymptomatic_UP	NA	Cutibacterium acnes
 bsdb:880/4/2_Urinary-tract-infection:No-Growth_vs_Asymptomatic_DOWN	NA	Subdoligranulum sp.
 bsdb:881/1/1_Post-traumatic-stress-disorder:Post-Traumatic-Stress-Disorder-(PTSD)_vs_Trauma-exposed-controls-(TECs)_UP	NA	Catenibacterium	Mitsuokella	Odoribacter	Olsenella
 bsdb:881/2/1_NA:Individuals-using-psychotropic-medication_vs_Individuals-not-using-psychotropic-medication_UP	NA	Ruminococcus
 bsdb:881/2/2_NA:Individuals-using-psychotropic-medication_vs_Individuals-not-using-psychotropic-medication_DOWN	NA	Akkermansia
-bsdb:881/2/3_NA:Individuals-using-psychotropic-medication_vs_Individuals-not-using-psychotropic-medication_UP	NA	Bacteroidota	Bacillota
+bsdb:881/2/3_NA:Individuals-using-psychotropic-medication_vs_Individuals-not-using-psychotropic-medication_UP	NA	Bacillota	Bacteroidota
 bsdb:881/2/4_NA:Individuals-using-psychotropic-medication_vs_Individuals-not-using-psychotropic-medication_DOWN	NA	Verrucomicrobiota
 bsdb:892/1/1_Gut-microbiome-measurement:Captive-panda_vs_Wild-pandas_UP	NA	Escherichia
 bsdb:892/1/2_Gut-microbiome-measurement:Captive-panda_vs_Wild-pandas_DOWN	NA	Clostridium	Pseudomonas
 bsdb:894/1/1_Adult:Female_vs_Male_UP	NA	Allenopithecus	Cebus	Cercopithecus	Colobus	Eulemur	Hapalemur	Lemur	Mirza	Pithecia	Symphalangus	Trachypithecus	Varecia
 bsdb:894/1/2_Adult:Female_vs_Male_UP	NA	Bacillota	Bacteroidota	Pseudomonadota	Actinomycetota	Fusobacteriia	Spirochaetia	Euryarchaeota	Verrucomicrobiota	Acidobacteriota	Planctomycetales
+bsdb:899/1/1_Restricted-to-specific-location:North-American-hive-microenvironments_vs_Brazilian-hive-microenvironment_UP	NA	Lysinibacillus fusiformis	Pantoea agglomerans
 bsdb:900/1/1_2,4,6-trinitrotoluene:(2,4,6-trinitrotoluene)-TNT-exposure-on-tadpoles_vs_Non-exposed-tadpoles_UP	NA	Pseudomonadota
 bsdb:900/1/2_2,4,6-trinitrotoluene:(2,4,6-trinitrotoluene)-TNT-exposure-on-tadpoles_vs_Non-exposed-tadpoles_DOWN	NA	Verrucomicrobiota	Bacteroidota
 bsdb:900/2/1_NA:IMX-101-exposure-on-tadpoles_vs_Non-exposed-tadpoles_UP	NA	Pseudomonadota
-bsdb:900/2/2_NA:IMX-101-exposure-on-tadpoles_vs_Non-exposed-tadpoles_DOWN	NA	Bacteroidota	Verrucomicrobiota	Bacillota
+bsdb:900/2/2_NA:IMX-101-exposure-on-tadpoles_vs_Non-exposed-tadpoles_DOWN	NA	Bacillota	Bacteroidota	Verrucomicrobiota
 bsdb:900/3/1_NA:(Nitroguanidine)-NQ-exposure-on-tadpoles_vs_Non-exposed-tadpoles_UP	NA	Pseudomonadota
 bsdb:900/3/2_NA:(Nitroguanidine)-NQ-exposure-on-tadpoles_vs_Non-exposed-tadpoles_DOWN	NA	Acidobacteriota	Actinomycetota	Verrucomicrobiota	Bacillota
 bsdb:900/4/1_NA:(1-methyl-3-nitroguanidine)-MeNQ-exposure-on-tadpoles_vs_Non-exposed-tadpoles_UP	NA	Pseudomonadota
