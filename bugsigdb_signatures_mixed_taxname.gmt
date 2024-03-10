@@ -1,4 +1,4 @@
-# BugSigDB 2024-03-10_11:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2024-03-10_12:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	Bacilli	Gammaproteobacteria	Actinomyces	Corynebacterium	Streptococcus	Peptoniphilus	Dorea	Phascolarctobacterium	Sutterella	Actinomycetales	Actinomycetaceae	Alcaligenaceae	Lactobacillales	Streptococcaceae	Veillonellaceae	Enterobacterales	Corynebacteriaceae	Lacticaseibacillus zeae	Bacillus	Bacillaceae
 bsdb:1/1/2_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	Coprobacillus	Cyanobacteriota
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	Anaerostipes	Lacticaseibacillus zeae
@@ -3270,6 +3270,7 @@ bsdb:816/2/2_Diarrhea:post-cholecystectomy-diarrhea-(PCD)_vs_post-cholecystectom
 bsdb:817/1/1_Granulomatosis-with-Polyangiitis:SG-affected_vs_Healthy/Healthy-with-no-visible-granuloma_UP	NA	Bacteria	Burkholderiaceae	Paracoccus	Pyrinomonas	Sphingobacteriales	Beijerinckiaceae
 bsdb:817/1/2_Granulomatosis-with-Polyangiitis:SG-affected_vs_Healthy/Healthy-with-no-visible-granuloma_DOWN	NA	Anoxybacillus	Micrococcus	Dermacoccus	Paracoccus	Meiothermus	Bacillales	Streptococcus	Coraliomargarita	Bacillus
 bsdb:817/2/1_NA:Sick-with-Kidney-calcification_vs_Healthy/Healthy-with-no-visible-granuloma_UP	NA	Candidatus Actinomarina sp.	Flavobacteriaceae
+bsdb:817/2/2_NA:Sick-with-Kidney-calcification_vs_Healthy/Healthy-with-no-visible-granuloma_DOWN	NA	Anoxybacillus	Micrococcus	Dermacoccus	Paracoccus	Meiothermus	Bacillales	Streptococcus	Coraliomargarita	Bacillus
 bsdb:818/1/1_Asthma,Allergic-rhinitis,Dermatitis,Food-allergy:Allergic-Children_vs_Healthy-controls_DOWN	NA	Anaerobutyricum hallii	Anaerostipes hadrus	Blautia wexlerae	Fusicatenibacter saccharivorans
 bsdb:818/1/2_Asthma,Allergic-rhinitis,Dermatitis,Food-allergy:Allergic-Children_vs_Healthy-controls_UP	NA	Eggerthella lenta	Enterococcus faecalis	Escherichia coli	[Clostridium] innocuum	[Clostridium] nexile
 bsdb:819/2/1_Response-to-antiviral-drug:Week-24-samples_vs_Baseline-samples_UP	NA	Treponema lecithinolyticum
@@ -3527,8 +3528,9 @@ bsdb:881/1/1_Post-traumatic-stress-disorder:Post-Traumatic-Stress-Disorder-(PTSD
 bsdb:881/2/1_NA:Individuals-using-psychotropic-medication_vs_Individuals-not-using-psychotropic-medication_UP	NA	Bacillota	Bacteroidota	Ruminococcus
 bsdb:881/2/2_NA:Individuals-using-psychotropic-medication_vs_Individuals-not-using-psychotropic-medication_DOWN	NA	Akkermansia	Verrucomicrobiota
 bsdb:881/3/1_Major-depressive-disorder:Individuals-with-MDD-diagnoses_vs_Individuals-without-MDD-diagnoses_UP	NA	Bacteroidota
-bsdb:885/1/1_COVID-19:Guild-2_vs_Guild-1_UP	NA	Akkermansia muciniphila	Anaerotignum	Barnesiella intestinihominis	Dorea	Enterocloster bolteae	Enterococcus	Intestinibacter bartlettii	Lachnospiraceae	Lactobacillus	Phascolarctobacterium faecium	Ruthenibacterium lactatiformans
-bsdb:885/2/1_COVID-19:Guild-1_vs_Severe/Critical_UP	NA	Allisonella histaminiformans	Clostridium	Coprococcus	Faecalibacterium prausnitzii	Lachnospiraceae	Negativibacillus	Romboutsia timonensis	Ruminococcus
+bsdb:885/1/1_COVID-19:Severe/Critical_vs_Mild_UP	NA	Akkermansia muciniphila	Anaerotignum	Barnesiella intestinihominis	Dorea	Enterocloster bolteae	Enterococcus	Intestinibacter bartlettii	Lachnospiraceae	Lactobacillus	Phascolarctobacterium faecium	Ruthenibacterium lactatiformans
+bsdb:885/1/2_COVID-19:Severe/Critical_vs_Mild_DOWN	NA	Allisonella histaminiformans	Clostridium	Coprococcus	Faecalibacterium prausnitzii	Lachnospiraceae	Negativibacillus	Romboutsia timonensis	Ruminococcus
+bsdb:885/2/1_COVID-19:Guild-1_vs_Healthy-control_UP	NA	Allisonella histaminiformans	Clostridium	Coprococcus	Faecalibacterium prausnitzii	Lachnospiraceae	Negativibacillus	Romboutsia timonensis	Ruminococcus
 bsdb:886/2/1_Ascariasis:Ascaris-Suum-Infected-Controls_vs_Uninfected-Controls_DOWN	NA	Citrobacter	Lachnospiraceae	Mycoplasma	Mycoplasmataceae	Mycoplasmatales	Roseburia
 bsdb:886/2/2_Ascariasis:Ascaris-Suum-Infected-Controls_vs_Uninfected-Controls_UP	NA	Acidaminococcus
 bsdb:891/1/1_COVID-19:mortality_vs_recovered_UP	NA	Achromobacter xylosoxidans	Bacillus cereus
@@ -3554,6 +3556,8 @@ bsdb:896/6/1_Health-study-participation:Indian_vs_Malay_UP	NA	Erysipelothrix	Bac
 bsdb:896/6/2_Health-study-participation:Indian_vs_Malay_DOWN	NA	Klebsiella granulomatis	Sutterella stercoricanis	Enterobacteriaceae
 bsdb:896/7/1_Health-study-participation:Female_vs_Male_UP	NA	Acidaminococcus intestini	Bacteroides clarus	Bacteroides thetaiotaomicron	Bacteroides xylanisolvens	Hoylesella buccalis	Sphingobacteriaceae	Sphingobacteriales	Sphingobacteriia	Sphingobacterium	Sphingobacterium shayense
 bsdb:896/7/2_Health-study-participation:Female_vs_Male_DOWN	NA	Anaerolineae	Caldilinea	Caldilinea tarbellica	Caldilineaceae	Caldilineales	Lactobacillaceae	Lactobacillus	Oribacterium
+bsdb:897/1/1_Neonatal-death:Unsuccessful-breeders_vs_Successful-breeders_UP	NA	Enterobacteriaceae	Escherichia/Shigella sp.	Klebsiella pneumoniae	Pasteurellaceae	Phascolarctobacterium	Pluralibacter gergoviae	Pseudomonadaceae	Pseudomonadota	Pseudomonas
+bsdb:897/1/2_Neonatal-death:Unsuccessful-breeders_vs_Successful-breeders_DOWN	NA	Acidaminococcaceae	Actinomycetota	Bacillota	Bacteroidaceae	Bacteroidia	Desulfovibrionaceae	Moraxellaceae	Muribaculaceae	Planctomycetales	Streptococcaceae	Tannerellaceae	Thermodesulfobacteriota
 bsdb:899/1/1_Restricted-to-specific-location:North-American-hive-microenvironments_vs_Brazilian-hive-microenvironment_UP	NA	Bacillus licheniformis	Bacillus sp. (in: firmicutes)	Priestia megaterium	Priestia aryabhattai
 bsdb:899/1/2_Restricted-to-specific-location:North-American-hive-microenvironments_vs_Brazilian-hive-microenvironment_DOWN	NA	Bacillus subtilis	Lactobacillus sp.	Lysinibacillus fusiformis
 bsdb:900/1/1_2,4,6-trinitrotoluene:(2,4,6-trinitrotoluene)-TNT-exposure-on-tadpoles_vs_NA_UP	NA	Pseudomonadota

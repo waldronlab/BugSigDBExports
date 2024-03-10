@@ -1,4 +1,4 @@
-# BugSigDB 2024-03-10_11:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2024-03-10_12:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	Actinomyces	Corynebacterium	Streptococcus	Peptoniphilus	Dorea	Phascolarctobacterium	Sutterella	Lacticaseibacillus	Bacillus
 bsdb:1/1/2_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	Coprobacillus
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	Anaerostipes	Lacticaseibacillus
@@ -2912,6 +2912,7 @@ bsdb:816/2/2_Diarrhea:post-cholecystectomy-diarrhea-(PCD)_vs_post-cholecystectom
 bsdb:817/1/1_Granulomatosis-with-Polyangiitis:SG-affected_vs_Healthy/Healthy-with-no-visible-granuloma_UP	NA	Paracoccus	Pyrinomonas
 bsdb:817/1/2_Granulomatosis-with-Polyangiitis:SG-affected_vs_Healthy/Healthy-with-no-visible-granuloma_DOWN	NA	Anoxybacillus	Micrococcus	Dermacoccus	Paracoccus	Meiothermus	Streptococcus	Coraliomargarita	Bacillus
 bsdb:817/2/1_NA:Sick-with-Kidney-calcification_vs_Healthy/Healthy-with-no-visible-granuloma_UP	NA	Actinomarina
+bsdb:817/2/2_NA:Sick-with-Kidney-calcification_vs_Healthy/Healthy-with-no-visible-granuloma_DOWN	NA	Anoxybacillus	Micrococcus	Dermacoccus	Paracoccus	Meiothermus	Streptococcus	Coraliomargarita	Bacillus
 bsdb:818/1/1_Asthma,Allergic-rhinitis,Dermatitis,Food-allergy:Allergic-Children_vs_Healthy-controls_DOWN	NA	Anaerobutyricum	Anaerostipes	Blautia	Fusicatenibacter
 bsdb:818/1/2_Asthma,Allergic-rhinitis,Dermatitis,Food-allergy:Allergic-Children_vs_Healthy-controls_UP	NA	Eggerthella	Enterococcus	Escherichia	Thomasclavelia	Tyzzerella
 bsdb:819/2/1_Response-to-antiviral-drug:Week-24-samples_vs_Baseline-samples_UP	NA	Treponema
@@ -3146,8 +3147,9 @@ bsdb:880/4/2_Urinary-tract-infection:No-Growth_vs_Asymptomatic_DOWN	NA	Subdoligr
 bsdb:881/1/1_Post-traumatic-stress-disorder:Post-Traumatic-Stress-Disorder-(PTSD)_vs_Trauma-exposed-controls-(TECs)_UP	NA	Catenibacterium	Mitsuokella	Odoribacter	Olsenella
 bsdb:881/2/1_NA:Individuals-using-psychotropic-medication_vs_Individuals-not-using-psychotropic-medication_UP	NA	Ruminococcus
 bsdb:881/2/2_NA:Individuals-using-psychotropic-medication_vs_Individuals-not-using-psychotropic-medication_DOWN	NA	Akkermansia
-bsdb:885/1/1_COVID-19:Guild-2_vs_Guild-1_UP	NA	Akkermansia	Anaerotignum	Barnesiella	Dorea	Enterocloster	Enterococcus	Intestinibacter	Lactobacillus	Phascolarctobacterium	Ruthenibacterium
-bsdb:885/2/1_COVID-19:Guild-1_vs_Severe/Critical_UP	NA	Allisonella	Clostridium	Coprococcus	Faecalibacterium	Negativibacillus	Romboutsia	Ruminococcus
+bsdb:885/1/1_COVID-19:Severe/Critical_vs_Mild_UP	NA	Akkermansia	Anaerotignum	Barnesiella	Dorea	Enterocloster	Enterococcus	Intestinibacter	Lactobacillus	Phascolarctobacterium	Ruthenibacterium
+bsdb:885/1/2_COVID-19:Severe/Critical_vs_Mild_DOWN	NA	Allisonella	Clostridium	Coprococcus	Faecalibacterium	Negativibacillus	Romboutsia	Ruminococcus
+bsdb:885/2/1_COVID-19:Guild-1_vs_Healthy-control_UP	NA	Allisonella	Clostridium	Coprococcus	Faecalibacterium	Negativibacillus	Romboutsia	Ruminococcus
 bsdb:886/2/1_Ascariasis:Ascaris-Suum-Infected-Controls_vs_Uninfected-Controls_DOWN	NA	Citrobacter	Mycoplasma	Roseburia
 bsdb:886/2/2_Ascariasis:Ascaris-Suum-Infected-Controls_vs_Uninfected-Controls_UP	NA	Acidaminococcus
 bsdb:891/1/1_COVID-19:mortality_vs_recovered_UP	NA	Achromobacter	Bacillus
@@ -3172,6 +3174,7 @@ bsdb:896/6/1_Health-study-participation:Indian_vs_Malay_UP	NA	Erysipelothrix	Bac
 bsdb:896/6/2_Health-study-participation:Indian_vs_Malay_DOWN	NA	Klebsiella	Sutterella
 bsdb:896/7/1_Health-study-participation:Female_vs_Male_UP	NA	Acidaminococcus	Bacteroides	Hoylesella	Sphingobacterium
 bsdb:896/7/2_Health-study-participation:Female_vs_Male_DOWN	NA	Caldilinea	Lactobacillus	Oribacterium
+bsdb:897/1/1_Neonatal-death:Unsuccessful-breeders_vs_Successful-breeders_UP	NA	Klebsiella	Phascolarctobacterium	Pluralibacter	Pseudomonas
 bsdb:899/1/1_Restricted-to-specific-location:North-American-hive-microenvironments_vs_Brazilian-hive-microenvironment_UP	NA	Bacillus	Priestia
 bsdb:899/1/2_Restricted-to-specific-location:North-American-hive-microenvironments_vs_Brazilian-hive-microenvironment_DOWN	NA	Bacillus	Lactobacillus	Lysinibacillus
 bsdb:902/1/1_SAPHO-syndrome:SAPHO-syndrome-Patients_vs_typically-healthy-control-group_UP	NA	Ruminococcus
