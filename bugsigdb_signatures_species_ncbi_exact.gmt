@@ -1,4 +1,4 @@
-# BugSigDB 2024-03-14_10:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2024-03-16_10:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	57037
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	57037
 bsdb:1/6/1_Colorectal-adenoma:Non-advanced-conventional-adenoma-cases_vs_controls_UP	NA	57037
@@ -1218,6 +1218,8 @@ bsdb:777/2/2_Crohn's-disease:Crohn's-disease-(CD)_vs_healthy-controls_UP	NA	2811
 bsdb:777/3/2_Crohn's-disease:Crohn's-disease-(CD)_vs_ulcerative-colitis-(UC)_DOWN	NA	2054177	290054	446043	77133
 bsdb:779/1/1_Post-COVID-19-disorder:long-COVID-19_vs_healthy-controls-and-mild-COVID-19-patients_DOWN	NA	729	28132	484	28037	1872471	28449	322095	712469	2663009	76122	28131	1303	1161412	60133	1313	1110546	2026720	68892	936548	997829
 bsdb:779/2/1_Post-COVID-19-disorder:long-COVID-19_vs_healthy-controls-and-mild-COVID-19-patients_UP	NA	1583331	28449	484	28132	423477	729	1110546	60133	47671	1304	1177574	43675	495	837
+bsdb:784/1/1_Gut-microbiome-measurement:Severe-COVID-19_vs_Moderate-COVID-19_UP	NA	1351
+bsdb:784/1/2_Gut-microbiome-measurement:Severe-COVID-19_vs_Moderate-COVID-19_DOWN	NA	544580	1203556	446660	394340	39491	1628085	39488	649756	1680	216816	28026	40520	418240	74426	147206	116085	410072	39486	88431	39490	39496	853	1262989	1262988	1150298	84135	745368	39485	1358	1981510	301302	301301	166486	360807	43675	1160721	40518	1660	1302	28037	1303	1318	1304	1308	1535	39492	33039
 bsdb:785/1/1_Ulcerative-colitis:Ulcerative-colitis-patient_vs_Healthy-control-individual_UP	NA	1689	40520	1531	292800	729	39485	585	39778
 bsdb:785/1/2_Ulcerative-colitis:Ulcerative-colitis-patient_vs_Healthy-control-individual_DOWN	NA	491921	28117	1694	40518	88431	46503	78344	74426	1735	214851	592978	1623	1473216	239935
 bsdb:785/2/1_Crohn's-disease:Crohn's-disease-patient_vs_Healthy-control-individual_UP	NA	1689	35833	1531	562	1912855	1596	1246	33038	907	296	315405	29466	39778
@@ -1455,6 +1457,7 @@ bsdb:871/2/1_Head-and-neck-squamous-cell-carcinoma:Enteral-feeding-plus-mucositi
 bsdb:871/2/2_Head-and-neck-squamous-cell-carcinoma:Enteral-feeding-plus-mucositis-of-any-grade_vs_No-enteral-feeding-plus-mild-mucositis_DOWN	NA	28117	40520	1715004	2293011	116085	39486	39496	357276	204516	166486	1473216	40545
 bsdb:871/3/1_Head-and-neck-squamous-cell-carcinoma:Enteral-feeding-tube-placement_vs_No-Enteral-feeding-tube-placement_UP	NA	105841	1322	33035	502558	2292348	1531	1351	39482	1912855	139208	1276	1965575	33038	1550024	1547	29466	1522
 bsdb:871/3/2_Head-and-neck-squamous-cell-carcinoma:Enteral-feeding-tube-placement_vs_No-Enteral-feeding-tube-placement_DOWN	NA	28117	40520	1472416	1715004	2293011	116085	39486	2292041	39496	290055	357276	204516	166486
+bsdb:872/1/2_NA:spinal-cord-injury-patient_vs_typically-healthy-control-group_DOWN	NA	877420
 bsdb:873/1/1_Health-study-participation:Strength-athletes_vs_Non-athletes_UP	NA	2292991	1650661
 bsdb:873/2/1_Health-study-participation:Endurance-athletes_vs_Non-athletes_UP	NA	2292961	88431
 bsdb:873/3/1_Health-study-participation:Strength-athletes_vs_Non-athletes_UP	NA	2292069	43675	116085
@@ -1479,13 +1482,32 @@ bsdb:880/2/2_Urinary-tract-infection:Culture-Positive-Samples_vs_Insignificant-S
 bsdb:880/3/1_Urinary-tract-infection:Insignificant-Samples_vs_Asymptomatic_DOWN	NA	1280
 bsdb:880/4/1_Urinary-tract-infection:No-Growth_vs_Asymptomatic_UP	NA	1747
 bsdb:880/4/2_Urinary-tract-infection:No-Growth_vs_Asymptomatic_DOWN	NA	2053618
+bsdb:882/1/1_Chronic-inflammatory-demyelinating-polyradiculoneuropathy:CIDP-subjects_vs_non-CIDP-subjects_UP	NA	573	562	437897	33025
+bsdb:882/1/2_Chronic-inflammatory-demyelinating-polyradiculoneuropathy:CIDP-subjects_vs_non-CIDP-subjects_DOWN	NA	820	357276	821
+bsdb:883/1/1_SARS-CoV-2-related-disease:COVID-19-patients_vs_Healthy-Controls_UP	NA	2609667	531813	287	1435069
+bsdb:883/1/2_SARS-CoV-2-related-disease:COVID-19-patients_vs_Healthy-Controls_DOWN	NA	216816	2663009	729	33053	28132	2588991	2682456	1110546
+bsdb:883/2/1_SARS-CoV-2-related-disease:Delta-infected-patients_vs_Healthy-Controls_UP	NA	470	539813	2529382	573	1463165
+bsdb:883/3/1_SARS-CoV-2-related-disease:Delta-infected-patients_vs_Omicron-infected-patients_UP	NA	470	1871047	208224	539813	2529382	573	1463165	244366	69392	2819619
+bsdb:883/3/2_SARS-CoV-2-related-disease:Delta-infected-patients_vs_Omicron-infected-patients_DOWN	NA	33053	42190	531813	28124	1583331	28132	287	306	43675	29380	1156431	1304	2588991	39777	2682456	1110546	1435069
+bsdb:883/4/1_SARS-CoV-2-related-disease:Omicron-infected-patients_vs_Healthy-Controls_DOWN	NA	33053	28132	2588991	2682456	1110546
+bsdb:884/1/1_Diabetic-nephropathy:Diabetic-nephropathy-(DN)_vs_healthy-controls-(CON)_UP	NA	1470347	46506	2033407	469591	1032506	1262979
+bsdb:884/2/1_Diabetes-mellitus:type-2-diabetes-mellitus-(T2DM)_vs_healthy-controls-(CON)_UP	NA	2763023	2162637	1262834	97478	2293114	1262936	39778
 bsdb:885/1/1_COVID-19:Covid-19-Patients-with-Severe/Critical-severity_vs_Covid-19-Patients-with-Mild-severity_UP	NA	239935	487174	261299	33025	1550024
 bsdb:885/1/2_COVID-19:Covid-19-Patients-with-Severe/Critical-severity_vs_Covid-19-Patients-with-Mild-severity_DOWN	NA	209880	853	1776391
 bsdb:885/2/1_COVID-19:Patients-with-MIld/Moderate-condition_vs_Patients-with-Severe/Critical-condion_DOWN	NA	239935	487174	208479	261299	33025	1550024
 bsdb:885/2/2_COVID-19:Patients-with-MIld/Moderate-condition_vs_Patients-with-Severe/Critical-condion_UP	NA	209880	853	1776391
 bsdb:885/3/1_COVID-19:Severe_vs_Moderate_UP	NA	239935	487174	208479	261299	33025	1550024
 bsdb:885/3/2_COVID-19:Severe_vs_Moderate_DOWN	NA	209880	853	1776391
+bsdb:885/4/1_COVID-19:Mild/Moderate_vs_Pneumonia-control_UP	NA	209880	853	1776391
+bsdb:885/4/2_COVID-19:Mild/Moderate_vs_Pneumonia-control_DOWN	NA	239935	487174	208479	261299	33025	1550024
+bsdb:885/5/1_COVID-19:Healthy-Control_vs_Covid-19-Patients_UP	NA	209880	853	1776391
+bsdb:885/5/2_COVID-19:Healthy-Control_vs_Covid-19-Patients_DOWN	NA	239935	487174	208479	261299	33025	1550024
 bsdb:891/1/1_COVID-19:moderate_vs_mild_DOWN	NA	1486246	52773
+bsdb:891/2/1_COVID-19:mortality_vs_mild_UP	NA	85698
+bsdb:891/3/1_COVID-19:severe_vs_moderate_UP	NA	40542
+bsdb:891/4/1_COVID-19:mortality_vs_moderate_UP	NA	1396
+bsdb:891/4/2_COVID-19:mortality_vs_moderate_DOWN	NA	29466
+bsdb:891/5/1_COVID-19:mortality_vs_severe_DOWN	NA	40542
 bsdb:894/1/3_Adult:Female_vs_Male_UP	NA	97346	97737	97063	98271	97746	98114	6205	2322	98357	97075	1333	6206	90017	97037
 bsdb:894/1/4_Adult:Female_vs_Male_UP	NA	97737	97746	98357	98114	97346	97075	90017	97063	97037	1333	98271	6206	6205	2322
 bsdb:894/1/5_Adult:Female_vs_Male_UP	NA	98357	98114	97346	6205
@@ -1510,6 +1532,8 @@ bsdb:899/1/2_Restricted-to-specific-location:North-American-hive-microenvironmen
 bsdb:902/1/1_SAPHO-syndrome:SAPHO-syndrome-Patients_vs_typically-healthy-control-group_UP	NA	41978
 bsdb:909/1/1_Parkinson's-disease:Parkinson's-Disease-Patients_vs_Healthy-Controls_UP	NA	239935	1735	823	46503	47246	438033	47678	65403	292800	180332	1309	33039	1816678
 bsdb:909/1/2_Parkinson's-disease:Parkinson's-Disease-Patients_vs_Healthy-Controls_DOWN	NA	1351	39490	1871029	645466	40520	39488	437897	216816	39485	871665	1264	853
+bsdb:920/1/1_Diet:participants-on-ketogenic-diet_vs_participants-on-vegan-diet_UP	NA	208479	39490	1358	2041842	33025	143393
+bsdb:920/1/2_Diet:participants-on-ketogenic-diet_vs_participants-on-vegan-diet_DOWN	NA	40518	261299	39496	649756	2053618	1737424	2292890	301302	1955243	1150298	142586	1898203	1628085	2049021	41978	43997
 bsdb:925/1/1_Parkinson's-disease:Treatment-group_vs_Vehicle-group_UP	NA	1591
 bsdb:925/1/2_Parkinson's-disease:Treatment-group_vs_Vehicle-group_DOWN	NA	1965302
 bsdb:926/1/1_Crohn's-disease:Crohn’s-disease-(CD)_vs_Healthy-controls-(HC)_UP	NA	1834207	562	1499973	1743168	622
@@ -1520,3 +1544,52 @@ bsdb:926/3/1_Ulcerative-colitis,Crohn's-disease:Crohn's-disease-(CD)_vs_ulcerati
 bsdb:926/3/2_Ulcerative-colitis,Crohn's-disease:Crohn's-disease-(CD)_vs_ulcerative-colitis-(UC)_DOWN	NA	2109691
 bsdb:927/1/1_Behcet's-syndrome:Untreated-active-BD-patients_vs_Healthy-Control_UP	NA	1470347	908612	1262705	28111	1262751	693988	35833	74426	742722	1262850	1262884	1263013	1262992	1262901	52226	1226322	1226323	1232459	454154	387090	1627893	1211417
 bsdb:927/1/2_Behcet's-syndrome:Untreated-active-BD-patients_vs_Healthy-Control_DOWN	NA	850	1262797	1262774	1262689	1262700	1262889	1262693	1262970	1262863	218538	907	638849	1262770	1262843	1262903	1291540
+bsdb:928/1/1_Chronic-granulomatous-disease:Chronic-granulomatous-disease_vs_Healthy-controls_UP	NA	512314	77133
+bsdb:928/1/2_Chronic-granulomatous-disease:Chronic-granulomatous-disease_vs_Healthy-controls_DOWN	NA	39496	2049021	165185	297314	1297617	301301
+bsdb:928/2/1_Chronic-granulomatous-disease:CGD-IBD_vs_CGD-(without-IBD-history)_UP	NA	1871021
+bsdb:928/2/2_Chronic-granulomatous-disease:CGD-IBD_vs_CGD-(without-IBD-history)_DOWN	NA	47678	871665	2049021	1871021	1660	297314
+bsdb:928/3/1_Chronic-granulomatous-disease:CGD-with-active-IBD_vs_CGD-(without-active-IBD)_UP	NA	1871021
+bsdb:928/3/2_Chronic-granulomatous-disease:CGD-with-active-IBD_vs_CGD-(without-active-IBD)_DOWN	NA	47678	871665	2049021	1506	39490	46503	487175	297314
+bsdb:929/1/1_Alzheimer's-disease:Alzheimer's-disease_vs_Healthy-controls_UP	NA	817	329854	371601
+bsdb:929/1/2_Alzheimer's-disease:Alzheimer's-disease_vs_Healthy-controls_DOWN	NA	28116	208479	328812
+bsdb:932/1/1_Cesarean-section:Elective-Cesarean-Section-(ECS)_vs_Vaginally-Delivered(VD)_UP	NA	544580	1689	57706	1502	40324	2077149	1560339	712122	2081702
+bsdb:932/2/1_Cesarean-section:Elective-Cesarean-Section-(ECS)-at-Day-0_vs_Vaginally-Delivered(VD)-at-Day-0_UP	NA	546
+bsdb:932/3/1_Cesarean-section:Elective-Cesarean-Section-(ECS)-at-Day-15_vs_Vaginally-Delivered(VD)-at-Day-15_UP	NA	1689	544580	2081702	638619
+bsdb:932/4/1_Cesarean-section:Elective-Cesarean-Section-(ECS)-at-Day-30_vs_Vaginally-Delivered(VD)-at-Day-30_UP	NA	550	571	2027919	1977566	1934254	57706	881260	69220	138072	617123
+bsdb:933/1/2_Bile-duct-disease,Hepatobiliary-disease:Infantile--cholestasis-(IC)_vs_Healthy-Control-(CON)_DOWN	NA	290054
+bsdb:935/1/1_Parkinson's-disease:Patients-with-Parkinson's-Disease_vs_Healthy-controls_UP	NA	2054177
+bsdb:941/1/1_Abnormal-sperm-morphology:Asthenozoospermia_vs_Healthy-Control_UP	NA	1940338
+bsdb:942/1/1_Ischemic-stroke:Cerebral-ischemic-stroke-patients_vs_Healthy-individuals_UP	NA	1262684	239935	1288121	328814	1262705	47678	626931	1262770	1262781	1262834	1262865	901	1262872	1736	363265	28118	1262911	1519439	419005	1262959	2485925
+bsdb:942/1/2_Ischemic-stroke:Cerebral-ischemic-stroke-patients_vs_Healthy-individuals_DOWN	NA	1262685	1262706	1796613	487174	1262894
+bsdb:944/1/1_Parkinson's-disease:Parkinson's-disease-group_vs_Healthy-control-(control-matched--CM)_DOWN	NA	853
+bsdb:944/1/2_Parkinson's-disease:Parkinson's-disease-group_vs_Healthy-control-(control-matched--CM)_UP	NA	41200
+bsdb:946/1/1_Parkinson's-disease:PD:-individuals-with-Parkinson's-disease_vs_HC:-household-controls_UP	NA	239935	214856	291645	487174	1681	901	1432052
+bsdb:946/1/2_Parkinson's-disease:PD:-individuals-with-Parkinson's-disease_vs_HC:-household-controls_DOWN	NA	39491	46506	1262889	853	1150298	301302	166486	360807
+bsdb:946/2/1_Parkinson's-disease:PD:-Individuals-with-Parkinson's-disease_vs_PC:-healthy-population-controls-without-Parkinson's-Disease_UP	NA	1681	1262873	1432052	292800	1297617	1550024
+bsdb:946/2/2_Parkinson's-disease:PD:-Individuals-with-Parkinson's-disease_vs_PC:-healthy-population-controls-without-Parkinson's-Disease_DOWN	NA	338188	853	1262988	39485	301301	165179
+bsdb:950/1/1_Diarrhea:Acutely-diarrheic-American-Shorthair_vs_healthy-American-Shorthair_UP	NA	165179
+bsdb:950/2/1_Diarrhea:Acutely-diarrheic-British-shorthair_vs_healthy-British-Shorthair_UP	NA	165179
+bsdb:950/2/2_Diarrhea:Acutely-diarrheic-British-shorthair_vs_healthy-British-Shorthair_DOWN	NA	29348	626935
+bsdb:951/1/1_Diabetes-mellitus:Type-2-Diabetes-Mellitus-Patients_vs_Healthy-Control_UP	NA	739	43997	851	33033	837	43675	158	69710
+bsdb:951/1/2_Diabetes-mellitus:Type-2-Diabetes-Mellitus-Patients_vs_Healthy-Control_DOWN	NA	47671	596085
+bsdb:955/2/1_Parkinson's-disease:Parkinson's-Disease-Patients_vs_Healthy-controls_UP	NA	216816
+bsdb:960/1/1_Curcumin:CUR-L_vs_MPTP_UP	NA	446660	1501391	1647659	76122	2039241	2028282	215530	2094151	35517	59620
+bsdb:960/1/2_Curcumin:CUR-L_vs_MPTP_DOWN	NA	239935	1588	1598	1796646	165187
+bsdb:960/2/1_Curcumin:CUR-M_vs_MPTP_UP	NA	85831	2094151	83427	2028282	1231603	290054
+bsdb:960/2/2_Curcumin:CUR-M_vs_MPTP_DOWN	NA	1588	1598	165185	1872090
+bsdb:960/3/1_Curcumin:CUR-H_vs_MPTP_UP	NA	2094151	1757166	1187017	1231603	215530
+bsdb:960/3/2_Curcumin:CUR-H_vs_MPTP_DOWN	NA	1468449	165185	162156	1588	1598	35518	290054
+bsdb:961/1/2_Parkinson's-disease:MPTP-(untreated-PD-mice)_vs_Control-(CON-groups)_DOWN	NA	287948	1869227
+bsdb:961/2/1_Parkinson's-disease:MPTP-(untreated-PD-mice)_vs_FGF21-+-MPTP-mice-(mice-treated-with-Fibroblast-growth-factor-21-(FGF21))_UP	NA	42858
+bsdb:961/2/2_Parkinson's-disease:MPTP-(untreated-PD-mice)_vs_FGF21-+-MPTP-mice-(mice-treated-with-Fibroblast-growth-factor-21-(FGF21))_DOWN	NA	29362	1869227
+bsdb:967/1/1_Parkinson's-disease:PD-patients_vs_Healthy_UP	NA	446660	239935	328814	2030927
+bsdb:967/1/2_Parkinson's-disease:PD-patients_vs_Healthy_DOWN	NA	100886	1735	363265	626940	165179	1308	39777	1535
+bsdb:971/4/1_Parkinson's-disease:Parkinson's-Disease_vs_Healthy-Controls_UP	NA	35517
+bsdb:971/4/2_Parkinson's-disease:Parkinson's-Disease_vs_Healthy-Controls_DOWN	NA	438033
+bsdb:980/1/1_Non-alcoholic-fatty-liver-disease:Non-alcoholic-fatty-liver-disease-(NAFLD)_vs_Healthy-controls_UP	NA	1940338	33038	2053632
+bsdb:980/1/2_Non-alcoholic-fatty-liver-disease:Non-alcoholic-fatty-liver-disease-(NAFLD)_vs_Healthy-controls_DOWN	NA	290054	39496	1486938	331630	707003	77133	3023528
+bsdb:980/2/1_Non-alcoholic-steatohepatitis:NASH-(Non-alcoholic-steatohepatitis)-patients_vs_NAFL-(Non-alcoholic-fatty-liver)-patients_UP	NA	820	658087	39496
+bsdb:984/1/1_Parkinson's-disease:Parkinson's-Disease_vs_Healthy-Controls_UP	NA	35517
+bsdb:989/1/1_Colitis:DSS-+-BAC-Group_vs_DSS-Group_UP	NA	28116	397865	28025	1796646	1622
+bsdb:989/1/2_Colitis:DSS-+-BAC-Group_vs_DSS-Group_DOWN	NA	214856	328814	1694	1834205	2109688	1496	208479	853	1702221	292800	1297617	1871021	2109691	2109687	301301	28901
+bsdb:995/1/1_Parkinson's-disease:Mice-induced-with-Parkinson's-disease_vs_Healthy-Controls_UP	NA	1702221	1849041	487175	1161942
