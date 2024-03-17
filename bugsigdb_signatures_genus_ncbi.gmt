@@ -1,4 +1,4 @@
-# BugSigDB 2024-03-17_20:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2024-03-17_21:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	1654	1716	1301	162289	189330	33024	40544	2759736	1386
 bsdb:1/1/2_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	100883
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	207244	2759736
@@ -2478,7 +2478,7 @@ bsdb:712/1/2_Rheumatoid-arthritis:Rheumatoid-Arthritis_vs_healthy-controls_DOWN	
 bsdb:713/1/1_Arthritis:Juvenile-Idiopathic-Arthritis_vs_healthy-controls_DOWN	NA	1654	1716	32067
 bsdb:713/1/2_Arthritis:Juvenile-Idiopathic-Arthritis_vs_healthy-controls_UP	NA	1301	724	32067	32257
 bsdb:714/1/1_Response-to-ketogenic-diet:Overweight/Obese-Men-on-Ketogenic-Diet-(KD)_vs_Overweight/Obese-Men-on-Baseline-Diet-(BD)_UP	NA	1573534	946234	848	1505657	1392389	158846	1980693	577310	838	3025755
-bsdb:714/1/2_Response-to-ketogenic-diet:Overweight/Obese-Men-on-Ketogenic-Diet-(KD)_vs_Overweight/Obese-Men-on-Baseline-Diet-(BD)_DOWN	NA	1766253	207244	1678	39948	1301
+bsdb:714/1/2_Response-to-ketogenic-diet:Overweight/Obese-Men-on-Ketogenic-Diet-(KD)_vs_Overweight/Obese-Men-on-Baseline-Diet-(BD)_DOWN	NA	1766253	207244	1678	39948	1301	1263
 bsdb:714/2/1_Response-to-ketogenic-diet:Mice-fed-on-Ketogenic-Diet-(KD)_vs_Mice-fed-on-High-fat-Diet-(HFD)_UP	NA	580596	1485	580024	1392389	1470349
 bsdb:714/2/2_Response-to-ketogenic-diet:Mice-fed-on-Ketogenic-Diet-(KD)_vs_Mice-fed-on-High-fat-Diet-(HFD)_DOWN	NA	1678	1578	248744
 bsdb:715/1/1_Acute-respiratory-distress-syndrome:Mortality_vs_Hyper-inflammatory-subphenotype-and-ventilation-free-days(VFDs)_DOWN	NA	838
@@ -3201,10 +3201,8 @@ bsdb:894/1/4_Adult:Female_vs_Male_UP	NA	642	1301	1854	2321
 bsdb:894/1/5_Adult:Female_vs_Male_UP	NA	642
 bsdb:896/1/1_Health-study-participation:Day-7_vs_Day-1_UP	NA	43994	1301	29465	2767887	1330545	547	724	838
 bsdb:896/1/2_Health-study-participation:Day-7_vs_Day-1_DOWN	NA	102106
-bsdb:896/2/1_Health-study-participation:Day-14_vs_Day-1_UP	NA	207244	244127	191303
-bsdb:896/2/2_Health-study-participation:Day-14_vs_Day-1_DOWN	NA	102106	561
 bsdb:896/3/1_Health-study-participation:Day-14_vs_Day-7_UP	NA	207244	244127	191303
-bsdb:896/3/2_Health-study-participation:Day-14_vs_Day-7_DOWN	NA	547	551	2862142	724	1330545	75984	53335	1301	29465
+bsdb:896/3/2_Health-study-participation:Day-14_vs_Day-7_DOWN	NA	547	551	724	1330545	75984	1301	29465	233191	2767887	43994
 bsdb:896/4/1_Health-study-participation:Indian_vs_Chinese_UP	NA	1647	816	1678	135858	577309
 bsdb:896/4/2_Health-study-participation:Indian_vs_Chinese_DOWN	NA	239934	244127	216851	572511	1263	1243
 bsdb:896/5/1_Health-study-participation:Malay_vs_Chinese_UP	NA	570	40544
@@ -3266,11 +3264,11 @@ bsdb:927/2/1_Behcet's-syndrome:Untreated-active-BD-patients_vs_Healthy-Control_U
 bsdb:927/3/1_Uveitis:BD-feces-treated-group_vs_Healthy-Control-feces-treated-group_UP	NA	239759	1283313	52784	35832	574697	1348911	248038	577309
 bsdb:927/3/2_Uveitis:BD-feces-treated-group_vs_Healthy-Control-feces-treated-group_DOWN	NA	102106
 bsdb:928/1/1_Chronic-granulomatous-disease:Chronic-granulomatous-disease_vs_Healthy-controls_UP	NA	264995	2316020	1769710	3025755	1506553	1905344
-bsdb:928/1/2_Chronic-granulomatous-disease:Chronic-granulomatous-disease_vs_Healthy-controls_DOWN	NA	207244	189330	33042	28050	102106	191303	1730	580596	841
+bsdb:928/1/2_Chronic-granulomatous-disease:Chronic-granulomatous-disease_vs_Healthy-controls_DOWN	NA	841	1730	2569097	28050	189330	207244	33042	909656	572511	580596
 bsdb:928/2/1_Chronic-granulomatous-disease:CGD-IBD_vs_CGD-(without-IBD-history)_UP	NA	1506577	1506553
-bsdb:928/2/2_Chronic-granulomatous-disease:CGD-IBD_vs_CGD-(without-IBD-history)_DOWN	NA	207244	816	572511	580596	39948	189330	1407607	1506553	2529408	292632	191303
+bsdb:928/2/2_Chronic-granulomatous-disease:CGD-IBD_vs_CGD-(without-IBD-history)_DOWN	NA	207244	816	572511	580596	39948	189330	1407607	1506553	2529408	292632	191303	2316020	2569097	2719313	909656
 bsdb:928/3/1_Chronic-granulomatous-disease:CGD-with-active-IBD_vs_CGD-(without-active-IBD)_UP	NA	1432051	1506553	1578	29465
-bsdb:928/3/2_Chronic-granulomatous-disease:CGD-with-active-IBD_vs_CGD-(without-active-IBD)_DOWN	NA	1766253	207244	816	572511	580596	1485	84111	1730	1407607	1506553	375288	577310	292632
+bsdb:928/3/2_Chronic-granulomatous-disease:CGD-with-active-IBD_vs_CGD-(without-active-IBD)_DOWN	NA	1766253	207244	816	572511	580596	1485	84111	1730	1407607	1506553	375288	577310	292632	264995
 bsdb:929/1/1_Alzheimer's-disease:Alzheimer's-disease_vs_Healthy-controls_UP	NA	816
 bsdb:929/1/2_Alzheimer's-disease:Alzheimer's-disease_vs_Healthy-controls_DOWN	NA	816	2719313	375288
 bsdb:932/1/1_Cesarean-section:Elective-Cesarean-Section-(ECS)_vs_Vaginally-Delivered(VD)_UP	NA	1654	1678	544	1485	40323	547
@@ -3283,6 +3281,7 @@ bsdb:932/4/1_Cesarean-section:Elective-Cesarean-Section-(ECS)-at-Day-30_vs_Vagin
 bsdb:932/4/2_Cesarean-section:Elective-Cesarean-Section-(ECS)-at-Day-30_vs_Vaginally-Delivered(VD)-at-Day-30_DOWN	NA	1678	816	375288	1716	39948	2701
 bsdb:932/5/1_NA:Delivery-Mode(DM)-at-Day-0-vs.-Day-15-and-Day-30_vs_Delivery-Mode(DM)-at-Day-0-vs.-Day-15-and-Day-30_UP	NA	40323	286	2282523
 bsdb:932/6/1_NA:Delivery-Mode(DM)-at-Day-15-vs.-Day-0-and-Day-30_vs_Delivery-Mode(DM)-at-Day-15-vs.-Day-0-and-Day-30_UP	NA	904	1678	1716	547	561	570	1578	2742598	909928	590	620	1279	1301
+bsdb:932/7/1_NA:Delivery-Mode(DM)-at-Day-30-vs.-Day-0-and-Day-15_vs_Delivery-Mode(DM)-at-Day-30-vs.-Day-0-and-Day-15_UP	NA	816	1678	572511	544	1485	1912216	547	1350	1730	724	570	1506553	160674	613	1301	29465	2759736
 bsdb:933/1/1_Bile-duct-disease,Hepatobiliary-disease:Infantile--cholestasis-(IC)_vs_Healthy-Control-(CON)_UP	NA	1301	156973	1506553	29465
 bsdb:933/1/2_Bile-duct-disease,Hepatobiliary-disease:Infantile--cholestasis-(IC)_vs_Healthy-Control-(CON)_DOWN	NA	1980681	1730	1729679	1505657	1263	967
 bsdb:935/1/1_Parkinson's-disease:Patients-with-Parkinson's-Disease_vs_Healthy-controls_UP	NA	816	239934	1905344	2172	1508657
@@ -3418,3 +3417,4 @@ bsdb:996/3/1_Irritable-bowel-syndrome:IBS-D-patients-(Rectal-mucosa-samples)_vs_
 bsdb:996/3/2_Irritable-bowel-syndrome:IBS-D-patients-(Rectal-mucosa-samples)_vs_Healthy-controls-(Rectal-mucosa-samples)_DOWN	NA	838	265	119852
 bsdb:996/4/1_Irritable-bowel-syndrome:IBS-D-patients-(Rectal-lumen-samples)_vs_Healthy-controls-(Rectal-lumen-samples)_UP	NA	375288
 bsdb:996/4/2_Irritable-bowel-syndrome:IBS-D-patients-(Rectal-lumen-samples)_vs_Healthy-controls-(Rectal-lumen-samples)_DOWN	NA	216851	1298
+bsdb:1000/1/2_Parkinson's-disease:iRBD-patients_vs_Controls_DOWN	NA	239934	216851	841
