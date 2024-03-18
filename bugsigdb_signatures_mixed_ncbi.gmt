@@ -1,4 +1,4 @@
-# BugSigDB 2024-03-18_08:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2024-03-18_09:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	91061	1236	1654	1716	1301	162289	189330	33024	40544	2037	2049	506	186826	1300	31977	91347	1653	57037	1386	186817
 bsdb:1/1/2_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	100883	1117
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	207244	57037
@@ -3583,18 +3583,15 @@ bsdb:894/1/2_Adult:Female_vs_Male_UP	NA	1239	976	1224	201174	203490	203692	28890
 bsdb:894/1/3_Adult:Female_vs_Male_UP	NA	97346	97737	97063	98271	6407	97746	98114	6205	6521	2322	9331	98357	97075	1333	6206	90017	97037
 bsdb:894/1/4_Adult:Female_vs_Male_UP	NA	97737	9331	97746	98357	98114	97346	97075	90017	97063	97037	1333	98271	6521	6407	6206	6205	2322
 bsdb:894/1/5_Adult:Female_vs_Male_UP	NA	98357	98114	97346	6205
-bsdb:896/1/1_Health-study-participation:Day-7_vs_Day-1_UP	NA	91061	43994	186826	1300	1301	1318	29465	39777	39778	187328	29466	1343	1624	61646	299767	547	729	712	135625	419208	43995	28125
-bsdb:896/1/2_Health-study-participation:Day-7_vs_Day-1_DOWN	NA	626935	68295
+bsdb:896/1/1_Health-study-participation:Day-7-participants_vs_Day-1-participants_UP	NA	91061	43994	186826	1300	1301	1318	29465	39777	39778	187328	29466	1343	1624	61646	299767	547	729	712	135625	419208	43995	28125
+bsdb:896/1/2_Health-study-participation:Day-7-participants_vs_Day-1-participants_DOWN	NA	626935	68295
 bsdb:896/3/1_Health-study-participation:Day-14_vs_Day-7_UP	NA	207244	244127	169435	171549	200643	191303	2810281
 bsdb:896/3/2_Health-study-participation:Day-14_vs_Day-7_DOWN	NA	91061	547	91347	543	551	182337	1236	729	186826	61646	75984	712	135625	1300	1301	1318	29465	39777	419208	187328	475964	233191	475963	292625	859243	1624	43995	43994	39778	29466	885040	724	879276
-bsdb:896/4/1_Health-study-participation:Indian_vs_Chinese_UP	NA	1647
-bsdb:896/4/2_Health-study-participation:Indian_vs_Chinese_DOWN	NA	239934	244127	169435	203557	853	1322	1263	1243	203492
-bsdb:896/5/1_Health-study-participation:Malay_vs_Chinese_UP	NA	39824	234908	543
-bsdb:896/5/2_Health-study-participation:Malay_vs_Chinese_DOWN	NA	239934	244127	169435	1322	853	203492	1243	1263	203557
-bsdb:896/6/1_Health-study-participation:Indian_vs_Malay_UP	NA	1647	266833	454154	135858	1678
-bsdb:896/6/2_Health-study-participation:Indian_vs_Malay_DOWN	NA	39824	234908	543
-bsdb:896/7/1_Health-study-participation:Female_vs_Male_UP	NA	187327	626929	818	371601	28127	84566	200666	117747	28453	626343
-bsdb:896/7/2_Health-study-participation:Female_vs_Male_DOWN	NA	292625	233191	859243	475964	475963	33958	1578	265975
+bsdb:896/4/1_Health-study-participation:Indian-participants_vs_Chinese-participants_UP	NA	1647
+bsdb:896/4/2_Health-study-participation:Indian-participants_vs_Chinese-participants_DOWN	NA	169435	203557	239935	48461	77917
+bsdb:896/6/1_Health-study-participation:Malay-participants_vs_Indian-participants_UP	NA	234908	39824
+bsdb:896/7/1_Health-study-participation:Female-participants_vs_Male-participants_UP	NA	187327	626929	818	371601	28127	84566	200666	117747	28453	626343
+bsdb:896/7/2_Health-study-participation:Female-participants_vs_Male-participants_DOWN	NA	292625	233191	859243	475964	475963	33958	1578	265975	237576	77917
 bsdb:897/1/1_Neonatal-death:Unsuccessful-breeders_vs_Successful-breeders_UP	NA	543	561	570	573	53416	712	1330546	61647	135621	1224	286	620
 bsdb:897/1/2_Neonatal-death:Unsuccessful-breeders_vs_Successful-breeders_DOWN	NA	909930	201174	1239	815	200643	194924	468	2005473	1918540	33024	33025	112	1300	2005525	200940	77133
 bsdb:899/1/1_Restricted-to-specific-location:North-American-hive-microenvironments_vs_Brazilian-hive-microenvironment_UP	NA	1402	1409	1404	412384
@@ -3610,7 +3607,7 @@ bsdb:904/1/2_Response-to-allogeneic-hematopoietic-stem-cell-transplant:Engraftme
 bsdb:906/1/1_Lactobacillus:Specific-Pathogen-Free-Hens_vs_Korean-commercial-breed_DOWN	NA	816	238749	1350	848	1578	158846	286	1279
 bsdb:906/1/2_Lactobacillus:Specific-Pathogen-Free-Hens_vs_Korean-commercial-breed_UP	NA	85025	374
 bsdb:907/1/1_Colorectal-cancer:Colorectal-Cancer-Patients_vs_Advanced-Adenoma-Patients_UP	NA	1765964	504090	1330545	543311
-bsdb:907/1/2_Colorectal-cancer:Colorectal-Cancer-Patients_vs_Advanced-Adenoma-Patients_DOWN	NA	5125	147550	1239	186801	572511	1485	1263
+bsdb:907/1/2_Colorectal-cancer:Colorectal-Cancer-Patients_vs_Advanced-Adenoma-Patients_DOWN	NA	1239	186802	186801	186803	572511	31979	1485	1263	841	128827	526524	526525	1407607	712	135625	724	28050	186804	1501226	189330	216572	459786	1980693	186806	1730	1935176	990721	990719	2005359	2023266	1392389	1935927	207244	1935200	61170	906	35829	1715798	1164882	995019	1940255	244127	191303	588605	1213720
 bsdb:909/1/1_Parkinson's-disease:Parkinson's-Disease-Patients_vs_Healthy-Controls_UP	NA	239935	1735	823	46503	47246	438033	47678	65403	292800	180332	1309	33039	1816678
 bsdb:909/1/2_Parkinson's-disease:Parkinson's-Disease-Patients_vs_Healthy-Controls_DOWN	NA	1351	39490	1871029	645466	40520	39488	437897	216816	39485	871665	1264	853
 bsdb:912/1/1_Diet:Test-diet_vs_Reference-diet_UP	NA	2093
@@ -3665,10 +3662,10 @@ bsdb:927/2/1_Behcet's-syndrome:Untreated-active-BD-patients_vs_Healthy-Control_U
 bsdb:927/2/2_Behcet's-syndrome:Untreated-active-BD-patients_vs_Healthy-Control_DOWN	NA	28216	481	206351	1224
 bsdb:927/3/1_Uveitis:BD-feces-treated-group_vs_Healthy-Control-feces-treated-group_UP	NA	239759	1283313	52784	35832	574697	1348911	248038	577309
 bsdb:927/3/2_Uveitis:BD-feces-treated-group_vs_Healthy-Control-feces-treated-group_DOWN	NA	102106
-bsdb:928/1/1_Chronic-granulomatous-disease:Chronic-granulomatous-disease_vs_Healthy-controls_UP	NA	264995	33038	1769710	3025755	1506553	214853	1550024	29348	1535
-bsdb:928/1/2_Chronic-granulomatous-disease:Chronic-granulomatous-disease_vs_Healthy-controls_DOWN	NA	841	39496	39488	28050	189330	207244	33042	821	512314	871665	165185	2049021	301301	39485	297314
+bsdb:928/1/1_Chronic-granulomatous-disease:Chronic-granulomatous-disease_vs_Healthy-controls_UP	NA	1506553	1769710	3025755	29465	512314	77133
+bsdb:928/1/2_Chronic-granulomatous-disease:Chronic-granulomatous-disease_vs_Healthy-controls_DOWN	NA	207244	2049021	102106	33042	189330	39496	1297617	28050	301301	191303	165185	297314	39485
 bsdb:928/2/1_Chronic-granulomatous-disease:CGD-IBD_vs_CGD-(without-IBD-history)_UP	NA	1506577	1871021
-bsdb:928/2/2_Chronic-granulomatous-disease:CGD-IBD_vs_CGD-(without-IBD-history)_DOWN	NA	207244	816	47678	871665	2049021	39948	189330	1407607	1506553	1871021	1660	292632	191303	297314	33038	39488	1535	333367	357276	342942	1796615
+bsdb:928/2/2_Chronic-granulomatous-disease:CGD-IBD_vs_CGD-(without-IBD-history)_DOWN	NA	39488	207244	816	1796615	871665	2049021	39948	189330	333367	1407607	1506553	342942	33038	357276	1660	292632	191303	1535	297314	33039
 bsdb:928/3/1_Chronic-granulomatous-disease:CGD-with-active-IBD_vs_CGD-(without-active-IBD)_UP	NA	1432051	1871021	1578	29465
 bsdb:928/3/2_Chronic-granulomatous-disease:CGD-with-active-IBD_vs_CGD-(without-active-IBD)_DOWN	NA	1766253	207244	816	47678	871665	580596	2049021	1506	84111	39490	1407607	1506553	46503	487175	292632	297314	214853	1796615
 bsdb:929/1/1_Alzheimer's-disease:Alzheimer's-disease_vs_Healthy-controls_UP	NA	817	329854	371601
@@ -3753,7 +3750,9 @@ bsdb:955/2/2_Parkinson's-disease:Parkinson's-Disease-Patients_vs_Healthy-control
 bsdb:956/1/1_Encephalitis:NMDAR-encephalitis-Patients_vs_Healthy-Control_UP	NA	543	186803	375288	838
 bsdb:956/1/2_Encephalitis:NMDAR-encephalitis-Patients_vs_Healthy-Control_DOWN	NA	816	239759	39948	216851
 bsdb:958/1/1_Lung-transplantation:Lung-transplant-event-free-group-(EF)_vs_No-lung-transplant-group-(NT)_UP	NA	1350	570	1263	1301	1505663
+bsdb:958/1/2_Lung-transplantation:Lung-transplant-event-free-group-(EF)_vs_No-lung-transplant-group-(NT)_DOWN	NA	816	216851	838	2383
 bsdb:958/2/1_Lung-transplantation:Lung-transplant-chronic-rejection-group-(CR)_vs_No-lung-transplant-group-(NT)_UP	NA	1350	2759736	1301
+bsdb:958/2/2_Lung-transplantation:Lung-transplant-chronic-rejection-group-(CR)_vs_No-lung-transplant-group-(NT)_DOWN	NA	838	216851	816
 bsdb:959/1/1_Essential-thrombocythemia:ET-Patients_vs_Healthy-Controls_UP	NA	201174	84999	84998	128827	29465
 bsdb:959/1/2_Essential-thrombocythemia:ET-Patients_vs_Healthy-Controls_DOWN	NA	1766253	186801	186802	216851	186803	216572	3085636
 bsdb:959/2/1_Essential-thrombocythemia:JAK2V617F-positive_vs_Healthy-Controls_UP	NA	201174	84999	84998	128827	526525	29465	191303
@@ -3801,8 +3800,8 @@ bsdb:972/6/1_Alzheimer's-disease:Alzheimer’s-disease_vs_Control-group_UP	NA	44
 bsdb:972/6/2_Alzheimer's-disease:Alzheimer’s-disease_vs_Control-group_DOWN	NA	1283313	1508657	1301
 bsdb:976/1/1_HIV-enteropathy:HIV-Positive-Patients_vs_Healthy-Control_UP	NA	838	848	1730	102106	906	86331	52225
 bsdb:976/1/2_HIV-enteropathy:HIV-Positive-Patients_vs_Healthy-Control_DOWN	NA	1263	572511	1485
-bsdb:977/1/1_COVID-19:COVID-19-patients_vs_local-community-controls_UP	NA	1654	1283313	1380	906	838	123375	13687	29465
-bsdb:977/1/2_COVID-19:COVID-19-patients_vs_local-community-controls_DOWN	NA	713	194195	816	1678	572511	1016	43996	216851	44259	150022	724	1357	47670	1847725	1840214	86331	482	265975	1263	195950	157
+bsdb:977/1/1_COVID-19:COVID-19-patients_vs_local-community-controls_UP	NA	1654	1283313	1380	906	838	123375	13687	29465	59823
+bsdb:977/1/2_COVID-19:COVID-19-patients_vs_local-community-controls_DOWN	NA	713	194195	816	1678	572511	1016	43996	216851	44259	150022	724	1357	47670	1847725	1840214	86331	482	265975	1263	195950	157	1940338	1378	2420712
 bsdb:979/1/1_Parkinson's-disease:PD_M_vs_PD_F_UP	NA	1502180	46466	82980	83766	291988
 bsdb:979/1/2_Parkinson's-disease:PD_M_vs_PD_F_DOWN	NA	348581
 bsdb:980/1/1_Non-alcoholic-fatty-liver-disease:Non-alcoholic-fatty-liver-disease-(NAFLD)_vs_Healthy-controls_UP	NA	506	91061	2	28216	80840	580596	91347	543	1940338	946234	203491	203490	570	1506553	186803	33958	186826	1578	33038	1224	1506577	2053632
