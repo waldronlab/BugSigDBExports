@@ -1,4 +1,4 @@
-# BugSigDB 2024-03-17_22:59_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2024-03-18_08:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	91061	1236	1654	1716	1301	162289	189330	33024	40544	2037	2049	506	186826	1300	31977	91347	1653	57037	1386	186817
 bsdb:1/1/2_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	100883	1117
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	207244	57037
@@ -2610,6 +2610,8 @@ bsdb:670/1/1_Ethnic-group,Socioeconomic-status:Bangladesh-Children-(Household-in
 bsdb:670/1/2_Ethnic-group,Socioeconomic-status:Bangladesh-Children-(Household-income-<-$61)_vs_US-children_DOWN	NA	818	853
 bsdb:671/1/1_Seasonal-gut-microbiome-measurement:samples-taken-in-dry/cold-season_vs_samples-taken-in-dry/hot-or-rainy-season_UP	NA	838	1340	853	541000	1485	1898207	216851
 bsdb:671/1/2_Seasonal-gut-microbiome-measurement:samples-taken-in-dry/cold-season_vs_samples-taken-in-dry/hot-or-rainy-season_DOWN	NA	547	39491	1898207	1485	46124	482	817	1263	543	818
+bsdb:672/1/1_Spontaneous-preterm-birth:4-months-corrected-age-(4M)_vs_Day-10-(D10)-(chronological-age)_UP	NA	31977	128827	186804	33958	31953	1643826	84107	2049	1643824	543	815	216572
+bsdb:672/1/2_Spontaneous-preterm-birth:4-months-corrected-age-(4M)_vs_Day-10-(D10)-(chronological-age)_DOWN	NA	90964	1653	712
 bsdb:673/1/1_Ethnic-group:Colombia-data_vs_USA-data_UP	NA	1239
 bsdb:673/1/2_Ethnic-group:Colombia-data_vs_USA-data_DOWN	NA	816
 bsdb:673/2/2_Ethnic-group:Europe-data_vs_USA-data_DOWN	NA	1239
@@ -3585,7 +3587,7 @@ bsdb:896/1/1_Health-study-participation:Day-7_vs_Day-1_UP	NA	91061	43994	186826	
 bsdb:896/1/2_Health-study-participation:Day-7_vs_Day-1_DOWN	NA	626935	68295
 bsdb:896/3/1_Health-study-participation:Day-14_vs_Day-7_UP	NA	207244	244127	169435	171549	200643	191303	2810281
 bsdb:896/3/2_Health-study-participation:Day-14_vs_Day-7_DOWN	NA	91061	547	91347	543	551	182337	1236	729	186826	61646	75984	712	135625	1300	1301	1318	29465	39777	419208	187328	475964	233191	475963	292625	859243	1624	43995	43994	39778	29466	885040	724	879276
-bsdb:896/4/1_Health-study-participation:Indian_vs_Chinese_UP	NA	1647	266833	1678	135858	454154
+bsdb:896/4/1_Health-study-participation:Indian_vs_Chinese_UP	NA	1647
 bsdb:896/4/2_Health-study-participation:Indian_vs_Chinese_DOWN	NA	239934	244127	169435	203557	853	1322	1263	1243	203492
 bsdb:896/5/1_Health-study-participation:Malay_vs_Chinese_UP	NA	39824	234908	543
 bsdb:896/5/2_Health-study-participation:Malay_vs_Chinese_DOWN	NA	239934	244127	169435	1322	853	203492	1243	1263	203557
@@ -3607,8 +3609,8 @@ bsdb:904/1/1_Response-to-allogeneic-hematopoietic-stem-cell-transplant:Engraftme
 bsdb:904/1/2_Response-to-allogeneic-hematopoietic-stem-cell-transplant:Engraftment-(Patients-After-Allogeneic-Hematopoietic-Stem-Cell-Transplantation)_vs_Preconditioning-(Patients-Before-Allogeneic-Hematopoietic-Stem-Cell-Transplantation)_DOWN	NA	1654	1378	1164882	32067	1301
 bsdb:906/1/1_Lactobacillus:Specific-Pathogen-Free-Hens_vs_Korean-commercial-breed_DOWN	NA	816	238749	1350	848	1578	158846	286	1279
 bsdb:906/1/2_Lactobacillus:Specific-Pathogen-Free-Hens_vs_Korean-commercial-breed_UP	NA	85025	374
-bsdb:907/1/1_Colorectal-cancer:Colorectal-cancer_vs_Advanced-Adenoma_UP	NA	1765964	183963	1075397	504090	45989	230355	224756	2207	693996	1910954
-bsdb:907/1/2_Colorectal-cancer:Colorectal-cancer_vs_Advanced-Adenoma_DOWN	NA	5125	147550	1239	186801	572511	1485	1263
+bsdb:907/1/1_Colorectal-cancer:Colorectal-Cancer-Patients_vs_Advanced-Adenoma-Patients_UP	NA	1765964	504090	1330545	543311
+bsdb:907/1/2_Colorectal-cancer:Colorectal-Cancer-Patients_vs_Advanced-Adenoma-Patients_DOWN	NA	5125	147550	1239	186801	572511	1485	1263
 bsdb:909/1/1_Parkinson's-disease:Parkinson's-Disease-Patients_vs_Healthy-Controls_UP	NA	239935	1735	823	46503	47246	438033	47678	65403	292800	180332	1309	33039	1816678
 bsdb:909/1/2_Parkinson's-disease:Parkinson's-Disease-Patients_vs_Healthy-Controls_DOWN	NA	1351	39490	1871029	645466	40520	39488	437897	216816	39485	871665	1264	853
 bsdb:912/1/1_Diet:Test-diet_vs_Reference-diet_UP	NA	2093
@@ -3800,12 +3802,15 @@ bsdb:972/6/2_Alzheimer's-disease:Alzheimer’s-disease_vs_Control-group_DOWN	NA	
 bsdb:976/1/1_HIV-enteropathy:HIV-Positive-Patients_vs_Healthy-Control_UP	NA	838	848	1730	102106	906	86331	52225
 bsdb:976/1/2_HIV-enteropathy:HIV-Positive-Patients_vs_Healthy-Control_DOWN	NA	1263	572511	1485
 bsdb:977/1/1_COVID-19:COVID-19-patients_vs_local-community-controls_UP	NA	1654	1283313	1380	906	838	123375	13687	29465
+bsdb:977/1/2_COVID-19:COVID-19-patients_vs_local-community-controls_DOWN	NA	713	194195	816	1678	572511	1016	43996	216851	44259	150022	724	1357	47670	1847725	1840214	86331	482	265975	1263	195950	157
 bsdb:979/1/1_Parkinson's-disease:PD_M_vs_PD_F_UP	NA	1502180	46466	82980	83766	291988
 bsdb:979/1/2_Parkinson's-disease:PD_M_vs_PD_F_DOWN	NA	348581
 bsdb:980/1/1_Non-alcoholic-fatty-liver-disease:Non-alcoholic-fatty-liver-disease-(NAFLD)_vs_Healthy-controls_UP	NA	506	91061	2	28216	80840	580596	91347	543	1940338	946234	203491	203490	570	1506553	186803	33958	186826	1578	33038	1224	1506577	2053632
 bsdb:980/1/2_Non-alcoholic-fatty-liver-disease:Non-alcoholic-fatty-liver-disease-(NAFLD)_vs_Healthy-controls_DOWN	NA	207244	2157	397864	31953	85004	990719	424536	80864	283	33042	39948	128827	526525	526524	290054	39496	28890	216851	1407607	724	158846	906	183925	2159	2158	2172	577309	712	135625	1481960	186804	838	1486938	171552	1508657	1263	1300	1301	31977	331630	707003	77133	3023528
 bsdb:980/2/1_Non-alcoholic-steatohepatitis:NASH-(Non-alcoholic-steatohepatitis)-patients_vs_NAFL-(Non-alcoholic-fatty-liver)-patients_UP	NA	239759	820	39496	658087	841
 bsdb:980/2/2_Non-alcoholic-steatohepatitis:NASH-(Non-alcoholic-steatohepatitis)-patients_vs_NAFL-(Non-alcoholic-fatty-liver)-patients_DOWN	NA	186804
+bsdb:981/1/1_Parkinson's-disease:Participants-with-Parkinson's-Disease_vs_Healthy-controls_UP	NA	1678	574697	2856521	1946507	946234	41978
+bsdb:981/1/2_Parkinson's-disease:Participants-with-Parkinson's-Disease_vs_Healthy-controls_DOWN	NA	1766253	580596	2049044	1407607	1410629	438033
 bsdb:983/1/1_Colorectal-adenoma:adenoma-patients_vs_non-adenoma-patients_UP	NA	848
 bsdb:984/1/1_Parkinson's-disease:Parkinson's-Disease_vs_Healthy-Controls_UP	NA	165779	31953	81852	216851	150022	162289	1769710	35517	186804
 bsdb:987/1/1_Cesarean-section:Cesarean-Section-Diverticulum_vs_Healthy-Control_UP	NA	816	1350	1940338	2701	2005473	416943	838	48736	13687	1301
