@@ -1,4 +1,4 @@
-# BugSigDB 2024-03-18_10:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2024-03-18_11:59_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	91061	1236	1654	1716	1301	162289	189330	33024	40544	2037	2049	506	186826	1300	31977	91347	1653	57037	1386	186817
 bsdb:1/1/2_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	100883	1117
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	207244	57037
@@ -2612,6 +2612,8 @@ bsdb:671/1/1_Seasonal-gut-microbiome-measurement:samples-taken-in-dry/cold-seaso
 bsdb:671/1/2_Seasonal-gut-microbiome-measurement:samples-taken-in-dry/cold-season_vs_samples-taken-in-dry/hot-or-rainy-season_DOWN	NA	547	39491	1898207	1485	46124	482	817	1263	543	818
 bsdb:672/1/1_Spontaneous-preterm-birth:4-months-corrected-age-(4M)_vs_Day-10-(D10)-(chronological-age)_UP	NA	31977	128827	186804	33958	31953	1643826	84107	2049	1643824	543	815	216572
 bsdb:672/1/2_Spontaneous-preterm-birth:4-months-corrected-age-(4M)_vs_Day-10-(D10)-(chronological-age)_DOWN	NA	90964	1653	712
+bsdb:672/2/1_Spontaneous-preterm-birth:Lower-SES-(D10)_vs_Higher-SES-(D10)_UP	NA	1678
+bsdb:672/3/1_Spontaneous-preterm-birth:Lower-SES-(4M)_vs_Higher-SES-(4M)_UP	NA	906
 bsdb:673/1/1_Ethnic-group:Colombia-data_vs_USA-data_UP	NA	1239
 bsdb:673/1/2_Ethnic-group:Colombia-data_vs_USA-data_DOWN	NA	816
 bsdb:673/2/2_Ethnic-group:Europe-data_vs_USA-data_DOWN	NA	1239
@@ -3801,6 +3803,7 @@ bsdb:972/3/2_Alzheimer's-disease:Alzheimer’s-disease_vs_Control-group_DOWN	NA	
 bsdb:972/6/1_Alzheimer's-disease:Alzheimer’s-disease_vs_Control-group_UP	NA	447020	239934	28138
 bsdb:972/6/2_Alzheimer's-disease:Alzheimer’s-disease_vs_Control-group_DOWN	NA	1283313	1508657	1301
 bsdb:973/1/1_Parkinson's-disease:People-with-Parkinson's-Disease-(PWP)_vs_Healthy-Controls_UP	NA	1236	543	649775
+bsdb:973/1/2_Parkinson's-disease:People-with-Parkinson's-Disease-(PWP)_vs_Healthy-Controls_DOWN	NA	1898207	186803	841	2163168	2048137	1980681	1505657
 bsdb:976/1/1_HIV-enteropathy:HIV-Positive-Patients_vs_Healthy-Control_UP	NA	838	848	1730	102106	906	86331	52225
 bsdb:976/1/2_HIV-enteropathy:HIV-Positive-Patients_vs_Healthy-Control_DOWN	NA	1263	572511	1485
 bsdb:977/1/1_COVID-19:COVID-19-patients_vs_local-community-controls_UP	NA	1654	1283313	1380	906	838	123375	13687	29465	59823
@@ -3813,6 +3816,7 @@ bsdb:980/2/1_Non-alcoholic-steatohepatitis:NASH-(Non-alcoholic-steatohepatitis)-
 bsdb:980/2/2_Non-alcoholic-steatohepatitis:NASH-(Non-alcoholic-steatohepatitis)-patients_vs_NAFL-(Non-alcoholic-fatty-liver)-patients_DOWN	NA	186804
 bsdb:981/1/1_Parkinson's-disease:Participants-with-Parkinson's-Disease_vs_Healthy-controls_UP	NA	1678	574697	2856521	1946507	946234	41978
 bsdb:981/1/2_Parkinson's-disease:Participants-with-Parkinson's-Disease_vs_Healthy-controls_DOWN	NA	1766253	580596	2049044	1407607	1410629	438033
+bsdb:982/1/1_Prion-disease:Prion-infected-mice_vs_Healthy-Control_DOWN	NA	1283313	1331051	171552
 bsdb:982/1/2_Prion-disease:Prion-infected-mice_vs_Healthy-Control_UP	NA	91061	186826	1578	3031852	209	72293	213849
 bsdb:983/1/1_Colorectal-adenoma:adenoma-patients_vs_non-adenoma-patients_UP	NA	848
 bsdb:984/1/1_Parkinson's-disease:Parkinson's-Disease_vs_Healthy-Controls_UP	NA	165779	31953	81852	216851	150022	162289	1769710	35517	186804
@@ -3836,4 +3840,5 @@ bsdb:996/3/2_Irritable-bowel-syndrome:IBS-D-patients-(Rectal-mucosa-samples)_vs_
 bsdb:996/4/1_Irritable-bowel-syndrome:IBS-D-patients-(Rectal-lumen-samples)_vs_Healthy-controls-(Rectal-lumen-samples)_UP	NA	375288
 bsdb:996/4/2_Irritable-bowel-syndrome:IBS-D-patients-(Rectal-lumen-samples)_vs_Healthy-controls-(Rectal-lumen-samples)_DOWN	NA	216851	1298
 bsdb:1000/1/2_Parkinson's-disease:iRBD-patients_vs_Controls_DOWN	NA	239934	216851	841
-bsdb:1002/1/1_Hereditary-nonpolyposis-colon-cancer:Colorectal-Tumor-Samples_vs_Patient-Matched-Normal-Colon-Tissue-Samples_UP	NA	820	848	186803	586	171550	2807717
+bsdb:1002/1/1_Colorectal-cancer:Colorectal-Tumor-Samples_vs_Patient-Matched-Normal-Colon-Tissue-Samples_UP	NA	848	586	235572
+bsdb:1002/1/2_Colorectal-cancer:Colorectal-Tumor-Samples_vs_Patient-Matched-Normal-Colon-Tissue-Samples_DOWN	NA	820	853	186803	171550	552398
