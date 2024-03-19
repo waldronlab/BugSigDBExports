@@ -1,4 +1,4 @@
-# BugSigDB 2024-03-19_04:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2024-03-19_09:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	Actinomyces	Corynebacterium	Streptococcus	Peptoniphilus	Dorea	Phascolarctobacterium	Sutterella	Bacillus
 bsdb:1/1/2_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	Coprobacillus
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	Anaerostipes
@@ -2709,8 +2709,11 @@ bsdb:928/2/1_Chronic-granulomatous-disease:CGD-IBD_vs_CGD-(without-IBD-history)_
 bsdb:928/2/2_Chronic-granulomatous-disease:CGD-IBD_vs_CGD-(without-IBD-history)_DOWN	NA	Anaerostipes	Bacteroides	Dialister	Dorea	Fusicatenibacter	Lachnoclostridium	Subdoligranulum	Turicibacter
 bsdb:928/3/1_Chronic-granulomatous-disease:CGD-with-active-IBD_vs_CGD-(without-active-IBD)_UP	NA	Eisenbergiella	Lactobacillus	Veillonella
 bsdb:928/3/2_Chronic-granulomatous-disease:CGD-with-active-IBD_vs_CGD-(without-active-IBD)_DOWN	NA	Agathobacter	Anaerostipes	Bacteroides	Butyricicoccus	Eggerthella	Fusicatenibacter	Lachnoclostridium	Subdoligranulum
-bsdb:928/4/1_Chronic-granulomatous-disease:NIHCC-Cohort-(CGD-without-IBD)_vs_PICTC-Cohort-(CGD-without-IBD)_UP	NA	Enterococcus
-bsdb:928/4/2_Chronic-granulomatous-disease:NIHCC-Cohort-(CGD-without-IBD)_vs_PICTC-Cohort-(CGD-without-IBD)_DOWN	NA	Subdoligranulum	Faecalibacterium	Agathobacter	Bacteroides	Ruminococcus	Dorea	Anaerostipes	Roseburia	Monoglobus	Butyricicoccus	Sellimonas
+bsdb:928/4/1_Chronic-granulomatous-disease:NIHCC-Cohort-(CGD-without-IBD)_vs_PIDTC-Cohort-(CGD-without-IBD)_UP	NA	Enterococcus
+bsdb:928/4/2_Chronic-granulomatous-disease:NIHCC-Cohort-(CGD-without-IBD)_vs_PIDTC-Cohort-(CGD-without-IBD)_DOWN	NA	Subdoligranulum	Faecalibacterium	Agathobacter	Bacteroides	Ruminococcus	Dorea	Anaerostipes	Roseburia	Monoglobus	Butyricicoccus	Sellimonas
+bsdb:928/5/1_Chronic-granulomatous-disease:NIHCC-Cohort-(CGD-Patients)_vs_PIDTC-Cohort-(CGD-Patients)_UP	NA	Streptococcus	Butyricicoccus
+bsdb:928/5/2_Chronic-granulomatous-disease:NIHCC-Cohort-(CGD-Patients)_vs_PIDTC-Cohort-(CGD-Patients)_DOWN	NA	Agathobacter	Monoglobus	Moryella	Oscillibacter	Sellimonas	Subdoligranulum
+bsdb:928/6/1_Chronic-granulomatous-disease:CGD-patients-above-12-years_vs_CGD-patients-less-than-or-equal-to-12-years_UP	NA	Subdoligranulum	Alistipes	Sellimonas	Oscillibacter	Bilophila	Butyricicoccus
 bsdb:932/1/1_Cesarean-section:Elective-Cesarean-Section-(ECS)_vs_Vaginally-Delivered(VD)_UP	NA	Clostridium
 bsdb:932/1/2_Cesarean-section:Elective-Cesarean-Section-(ECS)_vs_Vaginally-Delivered(VD)_DOWN	NA	Dialister	Gardnerella	Parabacteroides
 bsdb:932/2/1_Cesarean-section:Elective-Cesarean-Section-(ECS)-at-Day-0_vs_Vaginally-Delivered(VD)-at-Day-0_UP	NA	Citrobacter
@@ -2784,7 +2787,7 @@ bsdb:958/2/1_Lung-transplantation:Lung-transplant-chronic-rejection-group-(CR)_v
 bsdb:958/2/2_Lung-transplantation:Lung-transplant-chronic-rejection-group-(CR)_vs_No-lung-transplant-group-(NT)_DOWN	NA	Bacteroides	Faecalibacterium	Prevotella	Candidatus Epulonipiscium
 bsdb:959/1/1_Essential-thrombocythemia:ET-Patients_vs_Healthy-Controls_UP	NA	Veillonella
 bsdb:959/1/2_Essential-thrombocythemia:ET-Patients_vs_Healthy-Controls_DOWN	NA	Agathobacter	Faecalibacterium
-bsdb:959/2/1_Essential-thrombocythemia:JAK2V617F-positive_vs_Healthy-Controls_UP	NA	Veillonella	Turicibacter
+bsdb:959/2/1_Essential-thrombocythemia:JAK2V617F-positive_vs_Healthy-Controls_UP	NA	Turicibacter	Veillonella
 bsdb:959/2/2_Essential-thrombocythemia:JAK2V617F-positive_vs_Healthy-Controls_DOWN	NA	Agathobacter	Faecalibacterium
 bsdb:959/3/1_Essential-thrombocythemia:JAK2V617F-negaive_vs_Healthy-Controls_UP	NA	Subdoligranulum
 bsdb:959/3/2_Essential-thrombocythemia:JAK2V617F-negaive_vs_Healthy-Controls_DOWN	NA	Agathobacter	Faecalibacterium
@@ -2810,9 +2813,10 @@ bsdb:966/9/2_Parkinson's-disease:LCIG(Levodopa-Carbidopa-Intestinal-Gel)_vs_Pre-
 bsdb:966/10/1_Parkinson's-disease:LCIG(Levodopa-Carbidopa-Intestinal-Gel)_vs_Pre-DAT(device-assisted-therapy)-PD-patients_UP	NA	Bacillus	Prevotella
 bsdb:967/1/1_Parkinson's-disease:PD-patients_vs_Healthy_UP	NA	Akkermansia	Adlercreutzia
 bsdb:967/1/2_Parkinson's-disease:PD-patients_vs_Healthy_DOWN	NA	Coprococcus	Paraprevotella	Phascolarctobacterium	Prevotella	Streptococcus
-bsdb:968/1/1_Alzheimer's-disease:Alzheimer's-group_vs_Healthy-senior-group_UP	NA	Akkermansia	Cloacibacillus	Corynebacterium	Eubacterium	Flavobacterium	Longimicrobium	Niastella	Oxalobacter	Parasegetibacter	Polaromonas	Prevotella	Solitalea	Vicinamibacter
-bsdb:968/1/2_Alzheimer's-disease:Alzheimer's-group_vs_Healthy-senior-group_DOWN	NA	Bifidobacterium	Castellaniella	Haemophilus	Lactiplantibacillus	Latilactobacillus	Levilactobacillus	Monoglobus	Phyllobacterium	Roseburia	Tyzzerella	Veillonella
+bsdb:968/1/1_Alzheimer's-disease:Alzheimer's-group_vs_Healthy-senior-group_UP	NA	Akkermansia	Cloacibacillus	Corynebacterium	Eubacterium	Flavobacterium	Longimicrobium	Niastella	Oxalobacter	Parasegetibacter	Polaromonas	Prevotella	Solitalea	Vicinamibacter	Dinghuibacter	Thioalkalivibrio	Methylotenera	Candidatus Udaeobacter
+bsdb:968/1/2_Alzheimer's-disease:Alzheimer's-group_vs_Healthy-senior-group_DOWN	NA	Bifidobacterium	Castellaniella	Haemophilus	Lactiplantibacillus	Latilactobacillus	Levilactobacillus	Monoglobus	Phyllobacterium	Roseburia	Tyzzerella	Veillonella	Nitrosococcus
 bsdb:968/2/1_Alzheimer's-disease:Alzheimer's-disease-group_vs_Healthy-senior-group_UP	NA	Alloprevotella	Bacteroides	Bifidobacterium	Dialister	Ruminococcus	Sutterella
+bsdb:968/2/2_Alzheimer's-disease:Alzheimer's-disease-group_vs_Healthy-senior-group_DOWN	NA	Levilactobacillus	Tyzzerella	Eubacterium	Monoglobus	Bacteroides	Veillonella	Faecalibacterium	Haemophilus
 bsdb:971/1/1_Parkinson's-disease:Parkinson's-Disease_vs_Healthy-Controls_UP	NA	Peptoniphilus
 bsdb:971/1/2_Parkinson's-disease:Parkinson's-Disease_vs_Healthy-Controls_DOWN	NA	Faecalibacterium	Fusicatenibacter
 bsdb:971/2/1_Parkinson's-disease:Female-Parkinson's-disease-Patients_vs_Male-Parkinson's-disease-Patients_UP	NA	Peptoniphilus
