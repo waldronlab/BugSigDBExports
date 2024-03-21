@@ -1,4 +1,4 @@
-# BugSigDB 2024-03-21_19:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2024-03-21_20:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	1654	1716	1301	162289	189330	33024	40544	2759736	1386
 bsdb:1/1/2_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	100883
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	207244	2759736
@@ -3437,10 +3437,10 @@ bsdb:975/1/1_Parkinson's-disease:Parkinson's-disease_vs_healthy-controls_UP	NA	1
 bsdb:975/1/2_Parkinson's-disease:Parkinson's-disease_vs_healthy-controls_DOWN	NA	1730
 bsdb:976/1/1_HIV-enteropathy:HIV-Positive-Patients_vs_Healthy-Control_UP	NA	838	848	1730	102106	906	86331	52225
 bsdb:976/1/2_HIV-enteropathy:HIV-Positive-Patients_vs_Healthy-Control_DOWN	NA	1263	572511	1485
-bsdb:977/1/1_COVID-19:COVID-19-patients_vs_local-community-controls_UP	NA	1654	1283313	1380	906	838	123375	13687	29465
-bsdb:977/1/2_COVID-19:COVID-19-patients_vs_local-community-controls_DOWN	NA	713	194195	816	1678	572511	1016	43996	216851	44259	150022	724	1357	47670	1847725	1840214	86331	482	265975	1263	195950	157	1378	2420712
-bsdb:977/2/1_Abnormality-of-the-respiratory-system:Non-Covid-19-Patients_vs_local-community-controls_UP	NA	1654	1380	2759736	1578	2767887	2742598	906	838	29465	29393	508215
-bsdb:977/2/2_Abnormality-of-the-respiratory-system:Non-Covid-19-Patients_vs_local-community-controls_DOWN	NA	713	194195	1386	59735	1678	572511	43996	1350	216851	1378	724	47670	1847725	1840214	482	265975	1257	1263	1279	1213720	157	1331051	2060094
+bsdb:977/1/1_COVID-19:COVID-19-patients_vs_local-controls_UP	NA	1654	1283313	1380	906	838	123375	13687	29465
+bsdb:977/1/2_COVID-19:COVID-19-patients_vs_local-controls_DOWN	NA	713	194195	816	1678	572511	1016	43996	216851	44259	150022	1378	724	1357	47670	1847725	1840214	86331	482	265975	1263	195950	157
+bsdb:977/2/1_Abnormality-of-the-respiratory-system:Non-Covid-19-Patients_vs_local-controls_UP	NA	1654	1380	29393	2759736	1578	2767887	2742598	906	838	508215	29465
+bsdb:977/2/2_Abnormality-of-the-respiratory-system:Non-Covid-19-Patients_vs_local-controls_DOWN	NA	713	194195	1386	59735	1678	572511	43996	1350	216851	1378	724	47670	1847725	1840214	482	265975	1257	1263	1279	1213720	157	1331051	2060094
 bsdb:977/3/1_COVID-19:Covid-19-patients_vs_non-Covid-19-patients_UP	NA	1283313	59735	194	1331051	43996	1350	117563	724	1847725	475	1257	123375	2093823
 bsdb:977/3/2_COVID-19:Covid-19-patients_vs_non-Covid-19-patients_DOWN	NA	86331	1578	2759736	156454	2767887	2742598	508215
 bsdb:979/1/1_Parkinson's-disease:PD_M_vs_PD_F_UP	NA	1502180	46466	82980	83766	291988
@@ -3454,8 +3454,8 @@ bsdb:982/1/1_Prion-disease:Prion-infected-mice_vs_Healthy-Control_DOWN	NA	128331
 bsdb:982/1/2_Prion-disease:Prion-infected-mice_vs_Healthy-Control_UP	NA	209	1578
 bsdb:983/1/1_Colorectal-adenoma:adenoma-patients_vs_non-adenoma-patients_UP	NA	848
 bsdb:984/1/1_Parkinson's-disease:Parkinson's-Disease_vs_Healthy-Controls_UP	NA	165779	216851	150022	162289	1769710
-bsdb:985/1/1_Chronic-kidney-disease:Chronic-Kidney-Disease_vs_Healthy-Controls_UP	NA	816	561	848	1301	292632	2742598
-bsdb:985/1/2_Chronic-kidney-disease:Chronic-Kidney-Disease_vs_Healthy-Controls_DOWN	NA	970	207244
+bsdb:985/1/1_Chronic-kidney-disease:Chronic-Kidney-Disease_vs_Healthy-Controls_UP	NA	816	561	848	2742598	1301	292632
+bsdb:985/1/2_Chronic-kidney-disease:Chronic-Kidney-Disease_vs_Healthy-Controls_DOWN	NA	207244	970
 bsdb:987/1/1_Cesarean-section:Cesarean-Section-Diverticulum_vs_Healthy-Control_UP	NA	816	1350	2701	1822464	838	48736	13687	1301
 bsdb:987/1/2_Cesarean-section:Cesarean-Section-Diverticulum_vs_Healthy-Control_DOWN	NA	1578	1729679
 bsdb:988/1/1_Mycobacterium-tuberculosis:Untreated-pulmonary-TB-patients-(UTG)_vs_Healthy-control-group-(HCG)_UP	NA	570	1279	745	32207
@@ -3548,3 +3548,4 @@ bsdb:1051/1/1_Lung-cancer,Chronic-obstructive-pulmonary-disease:lung-cancer_vs_B
 bsdb:1051/1/2_Lung-cancer,Chronic-obstructive-pulmonary-disease:lung-cancer_vs_Benign-pulmonary-diseases_DOWN	NA	572511	292632	1164882	1649	1407607	2747	1743	33042	1263
 bsdb:1052/1/1_Alzheimer's-disease:Alzheimer’s-Disease-(AD)_vs_Cognitively-normal-control-(NC)_UP	NA	1766253	33042	1730	216851	1283313	1380	543311	508459	123375	286
 bsdb:1052/1/2_Alzheimer's-disease:Alzheimer’s-Disease-(AD)_vs_Cognitively-normal-control-(NC)_DOWN	NA	1506577	3025755
+bsdb:1054/1/1_Streptococcal-infection:GBS-culture-negative-pregnant-women_vs_GBS-culture-positive-pregnant-women_UP	NA	1578	2742598
