@@ -1,4 +1,4 @@
-# BugSigDB 2024-03-22_20:59_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2024-03-22_21:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	91061	1236	1654	1716	1301	162289	189330	33024	40544	2037	2049	506	186826	1300	31977	91347	1653	57037	1386	186817
 bsdb:1/1/2_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	100883	1117
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	207244	57037
@@ -3862,6 +3862,7 @@ bsdb:977/4/1_COVID-19:With-Pneumonia_vs_Without-Pneumonia_UP	NA	1940338
 bsdb:977/4/2_COVID-19:With-Pneumonia_vs_Without-Pneumonia_DOWN	NA	162289	475
 bsdb:977/5/1_COVID-19:viral-load(>7.5)_vs_viral-load(≤7.5	)_UP	NA	2147	816	836	35518
 bsdb:977/5/2_COVID-19:viral-load(>7.5)_vs_viral-load(≤7.5	)_DOWN	NA	416943	1350	286	1378
+bsdb:977/6/1_COVID-19:Hospitalized-patients_vs_local-controls_UP	NA	1486937	29465	838	1283313	1654	906	1380	2742598	2767887	82202	123375
 bsdb:979/1/1_Parkinson's-disease:PD_M_vs_PD_F_UP	NA	1502180	46466	82980	83766	291988
 bsdb:979/1/2_Parkinson's-disease:PD_M_vs_PD_F_DOWN	NA	348581
 bsdb:980/1/1_Non-alcoholic-fatty-liver-disease:Non-alcoholic-fatty-liver-disease-(NAFLD)_vs_Healthy-controls_UP	NA	506	91061	2	28216	80840	580596	91347	543	1940338	946234	203491	203490	570	1506553	186803	33958	186826	1578	33038	1224	1506577	2053632
@@ -3985,12 +3986,16 @@ bsdb:1028/2/2_COVID-19:adequate-oral-health-group_vs_poor-oral-health-group_UP	N
 bsdb:1028/3/1_COVID-19:high-SARS-CoV-2-viral-load-group_vs_moderate-SARS-CoV-2-viral-load-group_UP	NA	425941	28132	1283313	28124
 bsdb:1045/1/1_Gut-microbiome-measurement:Exposed-status_vs_Baseline-status_UP	NA	201174	31953	85004	1678	84107	84999	194924	213115	55968	85023	186804	135621	1501226	28221
 bsdb:1045/1/2_Gut-microbiome-measurement:Exposed-status_vs_Baseline-status_DOWN	NA	216851	841
-bsdb:1046/1/1_Aging:PLWH-on-ART_vs_PLWOH_UP	NA	1283313	135858	838
-bsdb:1046/1/2_Aging:PLWH-on-ART_vs_PLWOH_DOWN	NA	239759	816	216851	331630	33042
-bsdb:1046/2/1_Aging:PLWH-on-ART_vs_PLWOH_UP	NA	1283313	135858	838
-bsdb:1046/2/2_Aging:PLWH-on-ART_vs_PLWOH_DOWN	NA	239759	816	33042	292632	331630
+bsdb:1046/1/1_Aging:PLWH-on-ART_vs_PLWOH_UP	NA	1283313	135858
+bsdb:1046/1/2_Aging:PLWH-on-ART_vs_PLWOH_DOWN	NA	239759	816	216851	331630
+bsdb:1046/2/1_Aging:PLWH-on-ART_vs_PLWOH_UP	NA	1283313	135858
+bsdb:1046/2/2_Aging:PLWH-on-ART_vs_PLWOH_DOWN	NA	239759	816	292632	331630
 bsdb:1046/3/1_Aging:PLWH-on-ART_vs_PLWOH_UP	NA	135858	186803
 bsdb:1046/3/2_Aging:PLWH-on-ART_vs_PLWOH_DOWN	NA	331630
+bsdb:1046/4/1_Aging:Samples-PLWH-on-ART_vs_Samples-of-PLWOH_UP	NA	1766253	39488	207244	572511	135858	102106	1407607	1573535	186804	1501226	438033	1301	331630
+bsdb:1046/4/2_Aging:Samples-PLWH-on-ART_vs_Samples-of-PLWOH_DOWN	NA	239759	1283313	816	543	848	1506553	33038	375288	40544	33039	344338
+bsdb:1046/5/1_Aging:Samples-of-PLWH-on-ART_vs_Samples-of-PLWOH_UP	NA	1766253	39488	207244	572511	135858	102106	189330	1407607	1573535	186804	1501226	438033	331630
+bsdb:1046/5/2_Aging:Samples-of-PLWH-on-ART_vs_Samples-of-PLWOH_DOWN	NA	239759	1283313	816	543	848	1506553	33038	375288	40544	33039
 bsdb:1047/1/1_Major-depressive-disorder:CUMS-group_vs_Control-group_UP	NA	91347	543	570	1236	1224	816	815	200643	171549	203490	74201
 bsdb:1047/1/2_Major-depressive-disorder:CUMS-group_vs_Control-group_DOWN	NA	1385	201174	90964	1279	32061	1239	219685	67819
 bsdb:1047/2/1_Major-depressive-disorder:CUMS + XYS-group_vs_Control-group_UP	NA	1239	1578	91061	186826	33958	544448
