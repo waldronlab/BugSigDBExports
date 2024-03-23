@@ -1,4 +1,4 @@
-# BugSigDB 2024-03-23_01:19_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2024-03-23_06:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	Bacilli	Gammaproteobacteria	Actinomyces	Corynebacterium	Streptococcus	Peptoniphilus	Dorea	Phascolarctobacterium	Sutterella	Actinomycetales	Actinomycetaceae	Alcaligenaceae	Lactobacillales	Streptococcaceae	Veillonellaceae	Enterobacterales	Corynebacteriaceae	Lacticaseibacillus zeae	Bacillus	Bacillaceae
 bsdb:1/1/2_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	Coprobacillus	Cyanobacteriota
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	Anaerostipes	Lacticaseibacillus zeae
@@ -3721,8 +3721,8 @@ bsdb:941/1/2_Abnormal-sperm-morphology:Asthenozoospermia_vs_Healthy-Control_DOWN
 bsdb:942/1/1_Ischemic-stroke:Cerebral-ischemic-stroke-patients_vs_Healthy-individuals_UP	NA	Acetobacter sp. CAG:267	Akkermansia muciniphila	Alistipes senegalensis	Alistipes shahii	Azospirillum sp. CAG:239	Bacteroides caccae	Bacteroides oleiciplenus	Clostridium sp. CAG:1024	Clostridium sp. CAG:226	Clostridium sp. CAG:715	Coraliomargarita sp. CAG:312	Desulfovibrio piger	Dorea sp. CAG:105	Eubacterium limosum	Leyella stercorea	Odoribacter splanchnicus	Oscillibacter sp. CAG:241	Oscillibacter sp. ER4	Prevotella amnii	Ruminococcus sp. CAG:488	Oscillibacter	Oscillospiraceae bacterium	Alphaproteobacteria	Acetobacter	Coriobacteriaceae	Odoribacter	Collinsella	Desulfovibrio	Opitutae	Puniceicoccaceae	Puniceicoccales	Coraliomargarita	Pasteurellaceae	Pasteurellales
 bsdb:942/1/2_Ischemic-stroke:Cerebral-ischemic-stroke-patients_vs_Healthy-individuals_DOWN	NA	Acetobacter sp. CAG:977	Azospirillum	Azospirillum sp. CAG:260	Bacteroides caecimuris	Barnesiella intestinihominis	Eubacterium sp. CAG:841	Rhodospirillaceae
 bsdb:944/1/1_Parkinson's-disease:Parkinson's-disease-group_vs_Healthy-control-(control-matched--CM)_UP	NA	Enterobacteriaceae	Bifidobacterium sp.
-bsdb:944/1/2_Parkinson's-disease:Parkinson's-disease-group_vs_Healthy-control-(control-matched--CM)_UP	NA	Enterococcus	Faecalibacterium prausnitzii	Lactobacillus	Prevotellaceae
-bsdb:944/2/1_Parkinson's-disease:Parkinson's-disease-group_vs_Healthy-control-group-(control-young-CY)_UP	NA	Enterobacteriaceae	Bifidobacterium sp.
+bsdb:944/1/2_Parkinson's-disease:Parkinson's-disease-group_vs_Healthy-control-(control-matched--CM)_DOWN	NA	Enterococcaceae	Faecalibacterium prausnitzii	Lactobacillaceae
+bsdb:944/2/1_Parkinson's-disease:Parkinson's-disease-group_vs_Healthy-control-group-(control-young-CY)_UP	NA	Lactobacillaceae	Enterococcaceae
 bsdb:944/2/2_Parkinson's-disease:Parkinson's-disease-group_vs_Healthy-control-group-(control-young-CY)_DOWN	NA	Faecalibacterium prausnitzii	Prevotellaceae
 bsdb:945/1/1_Cognitive-impairment:Mild-Cognitive-Impairment_vs_Cognitive-Normal_UP	NA	Coprococcus	Coriobacteriaceae	Enterobacteriaceae	Phascolarctobacterium	Pseudomonadota	Mycoplasmatota	Bacillota
 bsdb:945/1/2_Cognitive-impairment:Mild-Cognitive-Impairment_vs_Cognitive-Normal_DOWN	NA	Dialister
@@ -3859,10 +3859,10 @@ bsdb:977/2/2_Abnormality-of-the-respiratory-system:Non-Covid-19-Patients_vs_loca
 bsdb:977/3/1_COVID-19:Covid-19-patients_vs_non-Covid-19-patients_UP	NA	Alloprevotella	Bergeyella	Campylobacter	Candidatus Saccharimonas	Catonella	Enterococcus	Granulicatella	Haemophilus	Lawsonella	Moraxella	Peptostreptococcus	Solobacterium	Nanosynbacter
 bsdb:977/3/2_COVID-19:Covid-19-patients_vs_non-Covid-19-patients_DOWN	NA	Mogibacterium	Lactobacillus	Lacticaseibacillus	Anaeroglobus	Ligilactobacillus	Limosilactobacillus	Rothia
 bsdb:977/4/1_COVID-19:Covid-19-with-Pneumonia_vs_Covid-19-with-no-Pneumonia_UP	NA	Escherichia/Shigella sp.
-bsdb:977/4/2_COVID-19:Covid-19-with-Pneumonia_vs_Covid-19-with-no-Pneumonia_DOWN	NA	Peptoniphilus	Moraxella
+bsdb:977/4/2_COVID-19:Covid-19-with-Pneumonia_vs_Covid-19-with-no-Pneumonia_DOWN	NA	Moraxella	Peptoniphilus
 bsdb:977/5/1_COVID-19:viral-load(>7.5)_vs_viral-load(≤7.5	)_UP	NA	Acholeplasma	Bacteroides	Porphyromonas	[Eubacterium] nodatum
-bsdb:977/5/2_COVID-19:viral-load(>7.5)_vs_viral-load(≤7.5	)_DOWN	NA	Paraburkholderia caballeronis	Enterococcus	Pseudomonas	Gemella
-bsdb:977/6/1_COVID-19:Hospitalized-patients_vs_local-controls_UP	NA	Prevotella sp. 1-8	Veillonella	Prevotella	Alloprevotella	Actinomyces	Megasphaera	Atopobium	Limosilactobacillus	Ligilactobacillus	Centipeda	Solobacterium
+bsdb:977/5/2_COVID-19:viral-load(>7.5)_vs_viral-load(≤7.5	)_DOWN	NA	Enterococcus	Gemella	Paraburkholderia caballeronis	Pseudomonas
+bsdb:977/6/1_COVID-19:Hospitalized-patients_vs_local-controls_UP	NA	Actinomyces	Alloprevotella	Atopobium	Centipeda	Ligilactobacillus	Limosilactobacillus	Megasphaera	Prevotella	Prevotella sp. 1-8	Solobacterium	Veillonella
 bsdb:977/6/2_COVID-19:Hospitalized-patients_vs_local-controls_DOWN	NA	Actinobacillus	Alysiella	Aminipila	Bacillus	Bacteroides	Bifidobacterium	Blautia	Catonella	Escherichia/Shigella sp.	Faecalibacterium	Finegoldia	Gemella	Haemophilus	Lautropia	Lawsonella	Lentimicrobium	Neisseria	Oribacterium	Ruminococcus	Staphylococcus	Stomatobaculum	Tannerella	Treponema
 bsdb:979/1/1_Parkinson's-disease:PD_M_vs_PD_F_UP	NA	Alsobacter	Halocella	Leminorella	Propionivibrio	Thermosediminibacter
 bsdb:979/1/2_Parkinson's-disease:PD_M_vs_PD_F_DOWN	NA	Propionicicella
