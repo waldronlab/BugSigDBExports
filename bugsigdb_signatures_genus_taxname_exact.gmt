@@ -1,4 +1,4 @@
-# BugSigDB 2024-03-24_17:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2024-03-24_18:59_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	Actinomyces	Corynebacterium	Streptococcus	Peptoniphilus	Dorea	Phascolarctobacterium	Sutterella	Bacillus
 bsdb:1/1/2_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	Coprobacillus
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	Anaerostipes
@@ -1054,8 +1054,10 @@ bsdb:343/1/1_Leukemia:Acute-anti-leukemia-treatment_vs_Allogeneic-Hematopoetic-S
 bsdb:343/1/2_Leukemia:Acute-anti-leukemia-treatment_vs_Allogeneic-Hematopoetic-Stem-Cell-Transplant_DOWN	NA	Clostridium
 bsdb:344/1/1_Air-pollution:mice-exposed-to-Pm-2.5-suspension_vs_mice-exposed-suspension-from-extracts-of-“blank”-filter_UP	NA	Flavonifractor	Fusobacterium	Oscillibacter
 bsdb:344/1/2_Air-pollution:mice-exposed-to-Pm-2.5-suspension_vs_mice-exposed-suspension-from-extracts-of-“blank”-filter_DOWN	NA	Bacillus	Delftia	Gemmatimonas	Leucobacter	Mucispirillum	Odoribacter	Pseudomonas	Selenomonas	Sphingomonas	Streptococcus
-bsdb:345/1/1_Response-to-diet:Female-hamsters-LPD-group_vs_Female-hamsters-NPD-group_UP	NA	Allobaculum	Gemmiger	Oscillospira	Elizabethkingia	Macellibacteroides	Paraprevotella	Acinetobacter	Oleomonas	Spirochaeta	Corynebacterium	Millisia	Mycoplasma	Mucispirillum
-bsdb:345/1/2_Response-to-diet:Female-hamsters-LPD-group_vs_Female-hamsters-NPD-group_DOWN	NA	Allobaculum	Gemmiger	Oscillospira	Elizabethkingia	Macellibacteroides	Paraprevotella	Acinetobacter	Oleomonas	Spirochaeta	Millisia	Mycoplasma	Mucispirillum
+bsdb:345/1/1_Response-to-diet:Female-hamsters-LPD-group_vs_Female-hamsters-NPD-group_UP	NA	Anaeroplasma	Bacteroides	Dysgonomonas	Georgfuchsia
+bsdb:345/1/2_Response-to-diet:Female-hamsters-LPD-group_vs_Female-hamsters-NPD-group_DOWN	NA	Acinetobacter	Allobaculum	Elizabethkingia	Gemmiger	Macellibacteroides	Millisia	Mucispirillum	Mycoplasma	Oleomonas	Oscillospira	Spirochaeta	Paraprevotella
+bsdb:345/4/1_Response-to-diet:Offspring-hamsters-niacin--group_vs_Offspring-hamsters-naicin+-group_UP	NA	Spirochaeta	Proteiniborus
+bsdb:345/4/2_Response-to-diet:Offspring-hamsters-niacin--group_vs_Offspring-hamsters-naicin+-group_DOWN	NA	Alkanindiges	Arthrobacter	Hespellia	Macrococcus	Mucispirillum	Paraprevotella	Clostridium
 bsdb:346/2/1_Unipolar-depression:moderate-depression_vs_mild-depression_UP	NA	Flavonifractor
 bsdb:346/3/2_Anxiety-disorder:severe-anxiety_vs_mild-anxiety_DOWN	NA	Lawsonella
 bsdb:346/4/1_Anxiety-disorder:moderate-anxiety_vs_mild-anxiety_UP	NA	Eggerthella
@@ -3027,5 +3029,7 @@ bsdb:1060/3/2_Population:Tjimba_vs_Kuvale_DOWN	NA	Cedecea	Hafnia
 bsdb:1060/4/2_Population:Kwisi_vs_Kuvale_DOWN	NA	Cedecea
 bsdb:1060/5/1_Population:Twa_vs_Kuvale_UP	NA	Citrobacter	Enterobacter	Escherichia	Pseudomonas	Yokenella	Eggerthia	Salmonella	Serratia	Porphyromonas
 bsdb:1060/5/2_Population:Twa_vs_Kuvale_DOWN	NA	Paraprevotella	Fusobacterium	Porphyromonas
-bsdb:1060/6/1_Population:Tshwa_vs_Kuvale_UP	NA	Catonella	Citrobacter	Eggerthia	Enterobacter	Enterococcus	Escherichia	Hafnia	Johnsonella	Salmonella	Yokenella	Filifactor	Peptoanaerobacter
-bsdb:1060/6/2_Population:Tshwa_vs_Kuvale_DOWN	NA	Simonsiella
+bsdb:1060/6/1_Population:Tshwa_vs_Kuvale_UP	NA	Catonella	Citrobacter	Eggerthia	Enterobacter	Enterococcus	Escherichia	Filifactor	Hafnia	Johnsonella	Peptoanaerobacter	Salmonella	Yokenella
+bsdb:1060/6/2_Population:Tshwa_vs_Kuvale_DOWN	NA	Simonsiella	Lachnoanaerobaculum	Paraprevotella	Porphyromonas
+bsdb:1060/7/1_Population:!Xun_vs_Kuvale_UP	NA	Eggerthia	Propionibacterium	Peptoanaerobacter	Shuttleworthia
+bsdb:1060/7/2_Population:!Xun_vs_Kuvale_DOWN	NA	Clostridioides	Enterococcus	Abiotrophia	Bacillus
