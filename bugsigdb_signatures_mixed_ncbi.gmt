@@ -1,4 +1,4 @@
-# BugSigDB 2024-03-25_19:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2024-03-25_20:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	91061	1236	1654	1716	1301	162289	189330	33024	40544	2037	2049	506	186826	1300	31977	91347	1653	57037	1386	186817
 bsdb:1/1/2_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	100883	1117
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	207244	57037
@@ -3681,8 +3681,8 @@ bsdb:926/1/1_Crohn's-disease:Crohn’s-disease-(CD)-patients_vs_Healthy-controls
 bsdb:926/1/2_Crohn's-disease:Crohn’s-disease-(CD)-patients_vs_Healthy-controls-(HC)_DOWN	NA	1239	1680	1117	853	28050	2109691	256846	544448	375288	821	74201
 bsdb:926/2/1_Ulcerative-colitis:Ulcerative-colitis-(UC)-patients_vs_Healthy-controls-(HC)_UP	NA	201174	28116	1678	1680	203490	28050	1578	1224	1301	216816	562
 bsdb:926/2/2_Ulcerative-colitis:Ulcerative-colitis-(UC)-patients_vs_Healthy-controls-(HC)_DOWN	NA	2109691	200643	74201	256846	1117	544448	375288	821
-bsdb:926/3/1_Ulcerative-colitis,Crohn's-disease:Crohn's-disease-(CD)-patients_vs_Ulcerative-colitis-(UC)-patients_UP	NA	74201	203490	256846	375288	562
-bsdb:926/3/2_Ulcerative-colitis,Crohn's-disease:Crohn's-disease-(CD)-patients_vs_Ulcerative-colitis-(UC)-patients_DOWN	NA	216851	2109691	1239	201174	1224	1117	544448	203692	1301	1578	28050	821	216816	1680	28116
+bsdb:926/3/1_Gut-microbiome-measurement:Crohn's-disease-(CD)-patients_vs_Ulcerative-colitis-(UC)-patients_UP	NA	74201	203490	256846	375288	562
+bsdb:926/3/2_Gut-microbiome-measurement:Crohn's-disease-(CD)-patients_vs_Ulcerative-colitis-(UC)-patients_DOWN	NA	216851	2109691	1239	201174	1224	1117	544448	203692	1301	1578	28050	821	216816	1680	28116
 bsdb:927/1/1_Behcet's-syndrome:Untreated-active-BD-patients_vs_Healthy-Control_UP	NA	1470347	908612	1262705	816	28111	1262751	693988	35833	74426	742722	1262850	1262884	1263013	1262992	1262901	52226	1226322	1226323	1232459	454154	387090	1627893	1211417
 bsdb:927/1/2_Behcet's-syndrome:Untreated-active-BD-patients_vs_Healthy-Control_DOWN	NA	850	1262797	1262774	1262689	1262700	1262889	1262693	1262970	1262863	218538	907	638849	1262770	1262843	1262903	1291540
 bsdb:927/2/1_Behcet's-syndrome:Untreated-active-BD-patients_vs_Healthy-Control_UP	NA	174708	419014	1380	31953	85004	1678	830	84107	84999	1653	1716	872	33958	1578	2050	838	196081	191303	2810281	577309
@@ -3858,6 +3858,8 @@ bsdb:972/6/1_Alzheimer's-disease:Alzheimer’s-disease_vs_Control-group_UP	NA	44
 bsdb:972/6/2_Alzheimer's-disease:Alzheimer’s-disease_vs_Control-group_DOWN	NA	1283313	1508657	1301
 bsdb:973/1/1_Parkinson's-disease:People-with-Parkinson's-Disease-(PWP)_vs_Healthy-Controls_UP	NA	543	1236	649775
 bsdb:973/1/2_Parkinson's-disease:People-with-Parkinson's-Disease-(PWP)_vs_Healthy-Controls_DOWN	NA	2048137	1898207	1980681	1505657	2163168	186803	841
+bsdb:974/1/1_Ovarian-cancer:Immune-deficient-subtype-(clust1)_vs_Immune-enriched-subtype-(clust2)_UP	NA	196024	1423	2749996	2559073	80866	1274	851	1931241	472181	1774	28077	53407	2731681	2320867	53408	200452	157783	1149133	1785145	2745503	437900	1392877	485898	2054914	118613	1534110	1755504	2614442	1173283	1573712	2866277	2678257	1855380	317	2745495	2505979	2842356	2745510	382	29388	28037	2664899	1855331	2777367	450	1500687	2745511
+bsdb:974/1/2_Ovarian-cancer:Immune-deficient-subtype-(clust1)_vs_Immune-enriched-subtype-(clust2)_DOWN	NA	287	470	2184519	40215	55601	363952	101571	2604941	119219	156980	406548
 bsdb:975/1/1_Parkinson's-disease:Parkinson's-disease_vs_healthy-controls_UP	NA	102106	84107	2049040	438033	1407607
 bsdb:975/1/2_Parkinson's-disease:Parkinson's-disease_vs_healthy-controls_DOWN	NA	186801	290054
 bsdb:976/1/1_HIV-enteropathy:HIV-Positive-Patients_vs_Healthy-Control_UP	NA	838	848	1730	102106	906	86331	52225
@@ -3927,8 +3929,8 @@ bsdb:997/4/1_Memory-impairment:Memory-Deficit-(MD)-group_vs_Normal-group_UP	NA	1
 bsdb:997/4/2_Memory-impairment:Memory-Deficit-(MD)-group_vs_Normal-group_DOWN	NA	626932	328813	820	358742	460384	37734	853	1633	574930	438033	1280	1512	33039
 bsdb:997/5/1_Memory-impairment:Positive-group_vs_Normal-group_UP	NA	338188	216816	1694	74426	1598	214851
 bsdb:997/5/2_Memory-impairment:Positive-group_vs_Normal-group_DOWN	NA	626932	328813	820	358742	460384	37734	853	1633	574930	438033	1280	1512	33039
-bsdb:999/1/1_NA:Ferrous-sulfate-(FS)_vs_Vehicle-control-(CON)_UP	NA	1375	2086	1729679	946234	1892380	544448	244328
-bsdb:999/1/2_NA:Ferrous-sulfate-(FS)_vs_Vehicle-control-(CON)_DOWN	NA	1678	1578	1470353
+bsdb:999/1/1_Abnormality-of-iron-homeostasis:Ferrous-sulfate-(FS)_vs_Vehicle-control-(CON)_UP	NA	1375	2086	1729679	946234	1892380	544448	244328
+bsdb:999/1/2_Abnormality-of-iron-homeostasis:Ferrous-sulfate-(FS)_vs_Vehicle-control-(CON)_DOWN	NA	1678	1578	1470353
 bsdb:999/2/1_NA:Ferrous-bis-glycinate-chelate-(Ferrochel,-FC)_vs_Vehicle-control-(CON)_DOWN	NA	1239	816	200643	375288	155900	1432051	194843	39497	572511	1506553	841	584861
 bsdb:999/2/2_NA:Ferrous-bis-glycinate-chelate-(Ferrochel,-FC)_vs_Vehicle-control-(CON)_UP	NA	239934	174708	1937008	438033	74201
 bsdb:999/3/1_NA:Iron-treated-pups_vs_Vehicle-control-(CON)_DOWN	NA	1678	1578	191303	447020	577310	77133	1279	227979	66831	1696	43668	225447	1301	248744	1350	239759	830
