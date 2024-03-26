@@ -1,4 +1,4 @@
-# BugSigDB 2024-03-26_05:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2024-03-26_06:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	Actinomyces	Corynebacterium	Streptococcus	Peptoniphilus	Dorea	Phascolarctobacterium	Sutterella	Lacticaseibacillus	Bacillus
 bsdb:1/1/2_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	Coprobacillus
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	Anaerostipes	Lacticaseibacillus
@@ -3586,7 +3586,7 @@ bsdb:1026/1/2_HIV-infection,SARS-coronavirus:PLWH-with-COVID-19-confirmed-by-SAR
 bsdb:1027/1/1_Colorectal-carcinoma:Colorectal-cancer-(CRC)_vs_Healthy_UP	NA	Acinetobacter	Actinomyces	Aeromonas	Aggregatibacter	Akkermansia	Alloscardovia	Anaeroglobus	Aquabacterium	Arthrobacter	Bradyrhizobium	Brevundimonas	Butyricimonas	Christensenella	Corynebacterium	Eikenella	Enterobacter	Enterococcus	Exiguobacterium	Fretibacterium	Gemella	Granulicatella	Klebsiella	Lachnoclostridium	Lactobacillus	Megamonas	Mitsuokella	Mogibacterium	Morganella	Olsenella	Parabacteroides	Parvimonas	Peptostreptococcus	Propionibacterium	Pseudoramibacter	Ralstonia	Raoultella	Rhodococcus	Scardovia	Selenomonas	Slackia	Solobacterium	Sphingomonas	Streptococcus
 bsdb:1027/2/1_Colorectal-carcinoma:hypoleukocytes_vs_normal-leukocytes_UP	NA	Cetobacterium	Eggerthella	Granulicatella
 bsdb:1027/2/2_Colorectal-carcinoma:hypoleukocytes_vs_normal-leukocytes_DOWN	NA	Christensenella	Coprobacillus	Enorma	Eubacterium	Fusobacterium	Klebsiella	Megamonas	Oscillibacter	Paludicola	Paraclostridium	Phascolarctobacterium	Tyzzerella	Ezakiella
-bsdb:1028/1/1_COVID-19:postmenopausal-women-group_vs_premenopausal-women-group_DOWN	NA	Prevotella	Haemophilus	Alloprevotella
+bsdb:1028/1/1_COVID-19:postmenopausal-women-group_vs_premenopausal-women-group_DOWN	NA	Alloprevotella	Haemophilus	Prevotella	Neisseria	Hoylesella
 bsdb:1028/2/1_COVID-19:adequate-oral-health-group_vs_poor-oral-health-group_DOWN	NA	Leptotrichia	Tannerella
 bsdb:1028/2/2_COVID-19:adequate-oral-health-group_vs_poor-oral-health-group_UP	NA	Neisseria
 bsdb:1028/3/1_COVID-19:high-SARS-CoV-2-viral-load-group_vs_moderate-SARS-CoV-2-viral-load-group_UP	NA	Hoylesella	Prevotella	Alloprevotella	Porphyromonas
@@ -3673,7 +3673,7 @@ bsdb:1060/17/1_Population:Tshwa_vs_Himba_UP	NA	Salmonella	Cedecea	Enterobacter	C
 bsdb:1060/17/2_Population:Tshwa_vs_Himba_DOWN	NA	Actinomyces	Arachnia	Lactobacillus
 bsdb:1060/18/1_Population:!Xun_vs_Himba_UP	NA	Salmonella	Campylobacter	Citrobacter
 bsdb:1060/18/2_Population:!Xun_vs_Himba_DOWN	NA	Abiotrophia	Bacillus	Capnocytophaga	Citrobacter	Clostridioides	Corynebacterium	Enterococcus	Escherichia	Gemella	Haemophilus	Arachnia
-bsdb:1060/19/1_Population:Tshwa_vs_Twa_UP	NA	Fusobacterium
+bsdb:1060/19/1_Population:Tshwa_vs_Twa_UP	NA	Fusobacterium	Peptoanaerobacter
 bsdb:1060/19/2_Population:Tshwa_vs_Twa_DOWN	NA	Simonsiella	Actinomyces
 bsdb:1060/20/1_Population:!Xun_vs_Twa_DOWN	NA	Citrobacter	Klebsiella	Enterobacter	Enterococcus	Yokenella	Cedecea	Corynebacterium	Escherichia	Serratia	Clostridioides	Salmonella	Pseudomonas	Rothia
 bsdb:1060/21/1_Population:!Xun_vs_Tshwa_UP	NA	Simonsiella	Propionibacterium	Actinomyces	Kingella
@@ -3688,7 +3688,8 @@ bsdb:1060/26/1_Population:Twa_vs_Kwisi_UP	NA	Cedecea	Citrobacter	Enterobacter	Yo
 bsdb:1060/26/2_Population:Twa_vs_Kwisi_DOWN	NA	Moraxella	Capnocytophaga
 bsdb:1060/27/1_Population:Tshwa_vs_Kwisi_UP	NA	Cedecea	Enterobacter	Citrobacter	Yokenella	Klebsiella	Fusobacterium	Kingella	Salmonella	Peptoanaerobacter
 bsdb:1060/27/2_Population:Tshwa_vs_Kwisi_DOWN	NA	Capnocytophaga	Moraxella	Kingella	Simonsiella
-bsdb:1060/28/1_Population:!Xun_vs_Kwisi_DOWN	NA	Citrobacter	Propionibacterium	Actinomyces	Simonsiella	Kingella
+bsdb:1060/28/1_Population:!Xun_vs_Kwisi_UP	NA	Citrobacter	Propionibacterium
+bsdb:1060/28/2_Population:!Xun_vs_Kwisi_DOWN	NA	Abiotrophia	Bacillus	Capnocytophaga	Citrobacter	Clostridioides	Corynebacterium	Enterococcus	Escherichia	Gemella	Haemophilus
 bsdb:1061/1/1_Alzheimer's-disease:Patients-with-AD-dementia_vs_Cognitively-normal-people_UP	NA	Dialister	Veillonella
 bsdb:1061/1/2_Alzheimer's-disease:Patients-with-AD-dementia_vs_Cognitively-normal-people_DOWN	NA	Actinomyces	Leptotrichia	Pseudoleptotrichia
 bsdb:1061/2/1_NA:Amnestic-mild-cognitive-impairment-(aMCI)_vs_Alzheimer’s-disease_UP	NA	Actinomyces	Leptotrichia
