@@ -1,4 +1,4 @@
-# BugSigDB 2024-03-28_06:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2024-03-28_07:59_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	Actinomyces	Corynebacterium	Streptococcus	Peptoniphilus	Dorea	Phascolarctobacterium	Sutterella	Bacillus
 bsdb:1/1/2_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	Coprobacillus
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	Anaerostipes
@@ -2966,8 +2966,13 @@ bsdb:1005/2/1_Fertilized-ovule-stage:Vagina-sample_vs_Oral-(saliva)-sample_UP	NA
 bsdb:1005/2/2_Fertilized-ovule-stage:Vagina-sample_vs_Oral-(saliva)-sample_DOWN	NA	Gemella	Rodentibacter
 bsdb:1006/1/1_Parkinson's-disease:PD-patient-with-motor-complications_vs_PD-patient-without-motor-complications_DOWN	NA	Blautia
 bsdb:1006/1/2_Parkinson's-disease:PD-patient-with-motor-complications_vs_PD-patient-without-motor-complications_UP	NA	Lactobacillus
-bsdb:1007/2/1_Ulcerative-colitis:Crohn’s-disease-(CD)_vs_Healthy-controls-(HC)_UP	NA	Dorea
+bsdb:1007/1/1_Ulcerative-colitis:Ulcerative-colitis-(UC)_vs_Healthy-controls-(HC)_UP	NA	Acidaminococcus	Bacteroides	Faecalibacterium	Parabacteroides	Parasutterella	Oscillibacter
+bsdb:1007/1/2_Ulcerative-colitis:Ulcerative-colitis-(UC)_vs_Healthy-controls-(HC)_DOWN	NA	Alistipes	Coprococcus	Oxalobacter	Bacteroides	Oscillibacter	Anaerostipes	Faecalibacterium	Sutterella
+bsdb:1007/2/1_Ulcerative-colitis:Crohn’s-disease-(CD)_vs_Healthy-controls-(HC)_UP	NA	Dorea	Subdoligranulum	Escherichia	Oscillibacter	Bacteroides	Acidaminococcus
+bsdb:1007/2/2_Ulcerative-colitis:Crohn’s-disease-(CD)_vs_Healthy-controls-(HC)_DOWN	NA	Alistipes	Coprococcus	Oxalobacter	Bacteroides	Oscillibacter	Anaerostipes	Faecalibacterium	Sutterella
+bsdb:1007/3/1_Gut-microbiome-measurement:Ulcerative-colitis-(UC)_vs_Crohn's-disease-(CD)_UP	NA	Parabacteroides	Faecalibacterium	Parasutterella
 bsdb:1007/3/2_Gut-microbiome-measurement:Ulcerative-colitis-(UC)_vs_Crohn's-disease-(CD)_DOWN	NA	Dorea
+bsdb:1007/5/1_Smoking-behavior:Ex_vs_No_UP	NA	Faecalibacterium	Sutterella	Parasutterella	Bacteroides
 bsdb:1008/1/1_Light:Dim-light-at-night-(dLAN)---Control-group_vs_Normal-light‐dark-cycle-(LD)---Control-group_UP	NA	Paraprevotella	Lactobacillus
 bsdb:1008/1/2_Light:Dim-light-at-night-(dLAN)---Control-group_vs_Normal-light‐dark-cycle-(LD)---Control-group_DOWN	NA	Rikenella	Odoribacter
 bsdb:1008/3/1_Light:Dim-light-at-night-(dLAN)---DTA-group_vs_Normal-light‐dark-cycle-(LD)---DTA-group_UP	NA	Allobaculum	Akkermansia
