@@ -1,4 +1,4 @@
-# BugSigDB 2024-03-27_22:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2024-03-27_23:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	Actinomyces	Corynebacterium	Streptococcus	Peptoniphilus	Dorea	Phascolarctobacterium	Sutterella	Lacticaseibacillus	Bacillus
 bsdb:1/1/2_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	Coprobacillus
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	Anaerostipes	Lacticaseibacillus
@@ -3184,8 +3184,8 @@ bsdb:881/2/1_Clinical-treatment:Individuals-using-psychotropic-medication_vs_Ind
 bsdb:881/2/2_Clinical-treatment:Individuals-using-psychotropic-medication_vs_Individuals-not-using-psychotropic-medication_DOWN	NA	Akkermansia
 bsdb:882/1/1_Chronic-inflammatory-demyelinating-polyradiculoneuropathy:CIDP-subjects_vs_non-CIDP-subjects_UP	NA	Klebsiella	Escherichia	Megamonas	Phascolarctobacterium
 bsdb:882/1/2_Chronic-inflammatory-demyelinating-polyradiculoneuropathy:CIDP-subjects_vs_non-CIDP-subjects_DOWN	NA	Bacteroides	Phocaeicola
-bsdb:883/1/1_SARS-CoV-2-related-disease:COVID-19-patients_vs_Healthy-Controls_UP	NA	Halomonas	Pelagibacterium	Pseudomonas	Vibrio
-bsdb:883/1/2_SARS-CoV-2-related-disease:COVID-19-patients_vs_Healthy-Controls_DOWN	NA	Bifidobacterium	Fusobacterium	Haemophilus	Neisseria	Prevotella	Streptococcus	Veillonella
+bsdb:883/1/1_SARS-CoV-2-related-disease:COVID-19-patients_vs_Healthy-Controls_UP	NA	Stenotrophomonas	Pseudoalteromonas	Ochrobactrum	Pseudomonas	Staphylococcus	Rheinheimera	Vibrio	Chryseobacterium	Halomonas	Pelagibacterium
+bsdb:883/1/2_SARS-CoV-2-related-disease:COVID-19-patients_vs_Healthy-Controls_DOWN	NA	Bifidobacterium	Fusobacterium	Haemophilus	Neisseria	Prevotella	Streptococcus	Veillonella	Actinobacillus	Corynebacterium	Moraxella	Leptotrichia
 bsdb:883/2/1_SARS-CoV-2-related-disease:Delta-infected-patients_vs_Healthy-Controls_UP	NA	Acinetobacter	Enterobacter	Klebsiella
 bsdb:883/3/1_SARS-CoV-2-related-disease:Delta-infected-patients_vs_Omicron-infected-patients_UP	NA	Acinetobacter	Chryseobacterium	Enterobacter	Klebsiella	Stenotrophomonas	Streptococcus
 bsdb:883/3/2_SARS-CoV-2-related-disease:Delta-infected-patients_vs_Omicron-infected-patients_DOWN	NA	Neisseria	Ochrobactrum	Pelagibacterium	Porphyromonas	Prevotella	Pseudomonas	Rothia	Staphylococcus	Streptococcus	Veillonella	Vibrio
@@ -3669,6 +3669,10 @@ bsdb:1048/120/1_Microbiome:Unspiked-pig-feces(P2)-at-16-hours-(5°C)_vs_Unspiked
 bsdb:1048/120/2_Microbiome:Unspiked-pig-feces(P2)-at-16-hours-(5°C)_vs_Unspiked-pig-feces(P2)-at-16-hours-(-80°C)_DOWN	NA	Prevotella
 bsdb:1048/121/1_Microbiome:Unspiked-pig-feces(P2)-at-64-hours-(5°C)_vs_Unspiked-pig-feces(P2)-at-16-hours-(-80°C)_UP	NA	Treponema	Faecalibacterium	Phascolarctobacterium	Roseburia
 bsdb:1048/121/2_Microbiome:Unspiked-pig-feces(P2)-at-64-hours-(5°C)_vs_Unspiked-pig-feces(P2)-at-16-hours-(-80°C)_DOWN	NA	Prevotella
+bsdb:1048/122/1_Microbiome:Unspiked-pig-feces(P2)-at-16-hours-(22°C)_vs_Unspiked-pig-feces(P2)-at-16-hours-(-80°C)_UP	NA	Treponema	Faecalibacterium	Phascolarctobacterium	Roseburia
+bsdb:1048/122/2_Microbiome:Unspiked-pig-feces(P2)-at-16-hours-(22°C)_vs_Unspiked-pig-feces(P2)-at-16-hours-(-80°C)_DOWN	NA	Prevotella
+bsdb:1048/123/1_Microbiome:Unspiked-pig-feces(P2)-at-64-hours-(22°C)_vs_Unspiked-pig-feces(P2)-at-16-hours-(-80°C)_UP	NA	Treponema	Faecalibacterium	Phascolarctobacterium	Roseburia
+bsdb:1048/123/2_Microbiome:Unspiked-pig-feces(P2)-at-64-hours-(22°C)_vs_Unspiked-pig-feces(P2)-at-16-hours-(-80°C)_DOWN	NA	Prevotella
 bsdb:1051/1/1_Lung-cancer,Chronic-obstructive-pulmonary-disease:lung-cancer_vs_Benign-pulmonary-diseases_UP	NA	Anaerobutyricum	Bifidobacterium	Bacteroides
 bsdb:1051/1/2_Lung-cancer,Chronic-obstructive-pulmonary-disease:lung-cancer_vs_Benign-pulmonary-diseases_DOWN	NA	Blautia	Subdoligranulum	Lachnoanaerobaculum	Kurthia	Fusicatenibacter	Carnobacterium	Propionibacterium	Coprococcus	Ruminococcus
 bsdb:1051/4/1_Lung-cancer:moderate-pulmonary-dysfunction_vs_lung-cancer_UP	NA	Eubacterium	Lactococcus	Raoultibacter	Romboutsia	Subdoligranulum
