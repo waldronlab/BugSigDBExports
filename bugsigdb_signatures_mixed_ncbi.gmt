@@ -1,4 +1,4 @@
-# BugSigDB 2024-03-28_07:59_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2024-03-28_08:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	91061	1236	1654	1716	1301	162289	189330	33024	40544	2037	2049	506	186826	1300	31977	91347	1653	57037	1386	186817
 bsdb:1/1/2_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	100883	1117
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	207244	57037
@@ -3983,11 +3983,13 @@ bsdb:1007/1/2_Ulcerative-colitis:Ulcerative-colitis-(UC)_vs_Healthy-controls-(HC
 bsdb:1007/2/1_Ulcerative-colitis:Crohn’s-disease-(CD)_vs_Healthy-controls-(HC)_UP	NA	218538	292800	189330	216572	292632	561	459786	816	904
 bsdb:1007/2/2_Ulcerative-colitis:Crohn’s-disease-(CD)_vs_Healthy-controls-(HC)_DOWN	NA	239759	33042	846	239935	816	186803	459786	186802	207244	216851	729	40544
 bsdb:1007/3/1_Gut-microbiome-measurement:Ulcerative-colitis-(UC)_vs_Crohn's-disease-(CD)_UP	NA	375288	216851	577310
-bsdb:1007/3/2_Gut-microbiome-measurement:Ulcerative-colitis-(UC)_vs_Crohn's-disease-(CD)_DOWN	NA	189330
-bsdb:1007/4/2_Smoking-behavior:Yes_vs_No_DOWN	NA	28116	357276	216572
-bsdb:1007/5/1_Smoking-behavior:Ex_vs_No_UP	NA	357276	216851	40544	577310	816	186803
-bsdb:1007/5/2_Smoking-behavior:Ex_vs_No_DOWN	NA	28116
-bsdb:1007/6/2_Smoking-behavior:Yes_vs_Ex_DOWN	NA	28116	357276	216572
+bsdb:1007/3/2_Gut-microbiome-measurement:Ulcerative-colitis-(UC)_vs_Crohn's-disease-(CD)_DOWN	NA	189330	292632	561
+bsdb:1007/4/1_Smoking-behavior:Yes_vs_No_UP	NA	186803	816	216851	40544
+bsdb:1007/4/2_Smoking-behavior:Yes_vs_No_DOWN	NA	28116	357276	207244	816	35832	216851	216572	577310	544
+bsdb:1007/5/1_Smoking-behavior:Ex_vs_No_UP	NA	357276	186803	816	577310	216851
+bsdb:1007/5/2_Smoking-behavior:Ex_vs_No_DOWN	NA	28116	207244	35832	216851	216572	40544	544
+bsdb:1007/6/1_Smoking-behavior:Yes_vs_Ex_UP	NA	35832	216851	816	40544
+bsdb:1007/6/2_Smoking-behavior:Yes_vs_Ex_DOWN	NA	28116	357276	207244	816	186803	216572	577310	544
 bsdb:1008/1/1_Light:Dim-light-at-night-(dLAN)---Control-group_vs_Normal-light‐dark-cycle-(LD)---Control-group_UP	NA	2005473	577309	1578	33958	423410
 bsdb:1008/1/2_Light:Dim-light-at-night-(dLAN)---Control-group_vs_Normal-light‐dark-cycle-(LD)---Control-group_DOWN	NA	28138	283168	1853231
 bsdb:1008/3/1_Light:Dim-light-at-night-(dLAN)---DTA-group_vs_Normal-light‐dark-cycle-(LD)---DTA-group_UP	NA	31979	174708	128827	526525	239934	203557	48461
@@ -4110,6 +4112,7 @@ bsdb:1048/122/1_Microbiome:Unspiked-pig-feces(P2)-at-16-hours-(22°C)_vs_Unspike
 bsdb:1048/122/2_Microbiome:Unspiked-pig-feces(P2)-at-16-hours-(22°C)_vs_Unspiked-pig-feces(P2)-at-16-hours-(-80°C)_DOWN	NA	838
 bsdb:1048/123/1_Microbiome:Unspiked-pig-feces(P2)-at-64-hours-(22°C)_vs_Unspiked-pig-feces(P2)-at-16-hours-(-80°C)_UP	NA	157	216851	33024	841
 bsdb:1048/123/2_Microbiome:Unspiked-pig-feces(P2)-at-64-hours-(22°C)_vs_Unspiked-pig-feces(P2)-at-16-hours-(-80°C)_DOWN	NA	838
+bsdb:1048/124/1_Microbiome:Unspiked-pig-feces(P2)-at-16-hours-(-20°C)_vs_Unspiked-pig-feces(P2)-at-64-hours-(-80°C)_UP	NA	838
 bsdb:1051/1/1_Lung-cancer,Chronic-obstructive-pulmonary-disease:lung-cancer_vs_Benign-pulmonary-diseases_UP	NA	39488	1678	816
 bsdb:1051/1/2_Lung-cancer,Chronic-obstructive-pulmonary-disease:lung-cancer_vs_Benign-pulmonary-diseases_DOWN	NA	572511	292632	1164882	1649	1407607	2747	1743	33042	438033
 bsdb:1051/4/1_Lung-cancer:moderate-pulmonary-dysfunction_vs_lung-cancer_UP	NA	142586	186803	1357	1926677	1501226	292632
@@ -4209,3 +4212,4 @@ bsdb:1066/1/1_Polycystic-ovary-syndrome:Polycystic-ovary-syndrome-(PCOS)-patient
 bsdb:1066/1/2_Polycystic-ovary-syndrome:Polycystic-ovary-syndrome-(PCOS)-patients_vs_Healthy-Controls_DOWN	NA	5052	3072159	5042	28568	155616	5204
 bsdb:1067/1/1_Acquired-primary-ovarian-failure:POF_vs_healthy-controls_UP	NA	2701	838	816	168808	39948	165779
 bsdb:1067/1/2_Acquired-primary-ovarian-failure:POF_vs_healthy-controls_DOWN	NA	1578
+bsdb:1075/1/1_Puberty:Pubertal_vs_Non-pubertal_DOWN	NA	31979	724	135625	100883
