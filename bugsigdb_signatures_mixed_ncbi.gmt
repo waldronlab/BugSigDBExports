@@ -1,4 +1,4 @@
-# BugSigDB 2024-03-29_19:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2024-03-29_20:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	91061	1236	1654	1716	1301	162289	189330	33024	40544	2037	2049	506	186826	1300	31977	91347	1653	57037	1386	186817
 bsdb:1/1/2_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	100883	1117
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	207244	57037
@@ -3556,8 +3556,8 @@ bsdb:877/5/1_Peri-Implantitis:Peri-implantitis-group-(contralateral-site-samples
 bsdb:877/6/1_Peri-Implantitis:Peri-implantitis-and-mucositis-groups-(contralteral-samples)_vs_Healthy-group--(contralteral-samples)_UP	NA	28131
 bsdb:879/1/1_COVID-19,Oral-ulcer:Covid-19-with-oral-lesions_vs_Covid-19-patients-without-oral-lesions_UP	NA	1279
 bsdb:879/2/1_COVID-19:Severe-COVID-patients_vs_Non-severe-COVID-patients_UP	NA	838
-bsdb:879/3/1_COVID-19:Antibiotics-use_vs_No-antibiotics-use_UP	NA	1578	29465
-bsdb:879/4/1_COVID-19:Oxygen-therapy_vs_No-oxygen-therapy_DOWN	NA	838
+bsdb:879/3/1_COVID-19:Antibiotics-use_vs_No-antibiotics-use_UP	NA	1578	482	838	1279
+bsdb:879/4/1_COVID-19:Oxygen-therapy_vs_No-oxygen-therapy_UP	NA	1578	29465
 bsdb:879/5/1_COVID-19:ICU-patients_vs_Non-ICU-patients_UP	NA	1578	29465
 bsdb:879/5/2_COVID-19:ICU-patients_vs_Non-ICU-patients_DOWN	NA	724
 bsdb:879/6/1_COVID-19:Covid-19-patients-on-enteral-diet_vs_Non-enteral-diet_UP	NA	117563	1578	32207	724	836	1301	29465	2717	32067
@@ -3705,6 +3705,8 @@ bsdb:927/2/1_Behcet's-syndrome:Untreated-active-Behcet's-disease-(BD)-patients_v
 bsdb:927/2/2_Behcet's-syndrome:Untreated-active-Behcet's-disease-(BD)-patients_vs_Healthy-Control_DOWN	NA	28216	481	206351	1224
 bsdb:927/3/1_Response-to-transplant:Behcet's-disease-(BD)-feces-treated-group_vs_Healthy-Control-feces-treated-group_UP	NA	239759	1283313	52784	35832	574697	1348911	248038	577309
 bsdb:927/3/2_Response-to-transplant:Behcet's-disease-(BD)-feces-treated-group_vs_Healthy-Control-feces-treated-group_DOWN	NA	102106
+bsdb:927/4/1_Behcet's-syndrome:Untreated-active-Behcet's-disease-(BD)-patients_vs_Healthy-Control_UP	NA	51582	170559	35725	1736233	1214573	80884	314127	858221	1182553	5465	216778	1118058	5480	40601	42817	212818	1156966	55565	40324	665115	5141
+bsdb:927/4/2_Behcet's-syndrome:Untreated-active-Behcet's-disease-(BD)-patients_vs_Healthy-Control_DOWN	NA	1262690	79591
 bsdb:928/1/1_Chronic-granulomatous-disease:Chronic-granulomatous-disease_vs_Healthy-controls_UP	NA	1506553	1769710	3025755	29465	512314	77133
 bsdb:928/1/2_Chronic-granulomatous-disease:Chronic-granulomatous-disease_vs_Healthy-controls_DOWN	NA	207244	2049021	102106	33042	189330	39496	1297617	28050	301301	191303	165185	297314	39485
 bsdb:928/2/1_Chronic-granulomatous-disease:CGD-IBD_vs_CGD-(without-IBD-history)_UP	NA	1506577	1871021
@@ -3945,6 +3947,11 @@ bsdb:997/4/1_Memory-impairment:Memory-Deficit-(MD)-group_vs_Normal-group_UP	NA	1
 bsdb:997/4/2_Memory-impairment:Memory-Deficit-(MD)-group_vs_Normal-group_DOWN	NA	626932	328813	820	358742	460384	37734	853	1633	574930	438033	1280	1512	33039
 bsdb:997/5/1_Memory-impairment:Positive-group_vs_Normal-group_UP	NA	338188	216816	1694	74426	1598	214851
 bsdb:997/5/2_Memory-impairment:Positive-group_vs_Normal-group_DOWN	NA	626932	328813	820	358742	460384	37734	853	1633	574930	438033	1280	1512	33039
+bsdb:998/1/1_Parkinson's-disease:PD-patients_vs_Controls_UP	NA	46125	904	264995	244127	194	544	100883	51514	1730	150022	162290	2745	2172	1080709	86331	1253	162289	583	1263	2753	191303	184869
+bsdb:998/1/2_Parkinson's-disease:PD-patients_vs_Controls_DOWN	NA	207244	816	189330	216851	28050	33024	838	841	40544	572511
+bsdb:998/2/1_Parkinson's-disease:PD-patients_vs_Controls_DOWN	NA	572511	189330	65551	57494
+bsdb:998/3/1_Parkinson's-disease:PD-patients_vs_Controls_UP	NA	413496	1839	118	33886	29526
+bsdb:998/3/2_Parkinson's-disease:PD-patients_vs_Controls_DOWN	NA	816	572511	308865	1041	150022	2745	1847	28895
 bsdb:999/1/1_Abnormality-of-iron-homeostasis:Ferrous-sulfate-(FS)_vs_Vehicle-control-(CON)_UP	NA	1375	2086	1729679	946234	1892380	544448	244328
 bsdb:999/1/2_Abnormality-of-iron-homeostasis:Ferrous-sulfate-(FS)_vs_Vehicle-control-(CON)_DOWN	NA	1678	1578	1470353
 bsdb:999/2/1_Abnormality-of-iron-homeostasis:Ferrous-bis-glycinate-chelate-(Ferrochel,-FC)_vs_Vehicle-control-(CON)_DOWN	NA	1239	816	200643	375288	155900	1432051	194843	39497	572511	1506553	841	584861

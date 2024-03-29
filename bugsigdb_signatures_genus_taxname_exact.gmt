@@ -1,4 +1,4 @@
-# BugSigDB 2024-03-29_19:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2024-03-29_20:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	Actinomyces	Corynebacterium	Streptococcus	Peptoniphilus	Dorea	Phascolarctobacterium	Sutterella	Bacillus
 bsdb:1/1/2_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	Coprobacillus
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	Anaerostipes
@@ -2649,8 +2649,8 @@ bsdb:872/1/2_NA:spinal-cord-injury-patient_vs_typically-healthy-control-group_DO
 bsdb:876/1/1_Male-homosexuality:Men-who-have-sex-with-men_vs_men-who-does-not-have-sex-with-men_DOWN	NA	Oscillibacter
 bsdb:879/1/1_COVID-19,Oral-ulcer:Covid-19-with-oral-lesions_vs_Covid-19-patients-without-oral-lesions_UP	NA	Staphylococcus
 bsdb:879/2/1_COVID-19:Severe-COVID-patients_vs_Non-severe-COVID-patients_UP	NA	Prevotella
-bsdb:879/3/1_COVID-19:Antibiotics-use_vs_No-antibiotics-use_UP	NA	Lactobacillus	Veillonella
-bsdb:879/4/1_COVID-19:Oxygen-therapy_vs_No-oxygen-therapy_DOWN	NA	Prevotella
+bsdb:879/3/1_COVID-19:Antibiotics-use_vs_No-antibiotics-use_UP	NA	Lactobacillus	Neisseria	Prevotella	Staphylococcus
+bsdb:879/4/1_COVID-19:Oxygen-therapy_vs_No-oxygen-therapy_UP	NA	Lactobacillus	Veillonella
 bsdb:879/5/1_COVID-19:ICU-patients_vs_Non-ICU-patients_UP	NA	Lactobacillus	Veillonella
 bsdb:879/5/2_COVID-19:ICU-patients_vs_Non-ICU-patients_DOWN	NA	Haemophilus
 bsdb:879/6/1_COVID-19:Covid-19-patients-on-enteral-diet_vs_Non-enteral-diet_UP	NA	Granulicatella	Lactobacillus	Rothia	Haemophilus	Porphyromonas	Streptococcus	Veillonella	Cardiobacterium	Leptotrichia
@@ -2941,6 +2941,11 @@ bsdb:997/1/2_Alzheimer's-disease:Alzheimer's-Disease-(AD)_vs_Healthy-controls-(H
 bsdb:997/2/1_Cognitive-impairment:Mild-Cognitive-Impairment-(MCI)_vs_Healthy-controls-(HC)_UP	NA	Blautia	Collinsella	Faecalibacterium	Streptococcus	Thomasclavelia
 bsdb:997/2/2_Cognitive-impairment:Mild-Cognitive-Impairment-(MCI)_vs_Healthy-controls-(HC)_DOWN	NA	Alistipes	Bacteroides	Parabacteroides	Phocaeicola	Ruminococcus
 bsdb:997/3/1_Gut-microbiome-measurement:Mild-Cognitive-Impairment-(MCI)_vs_Alzheimer's-Disease-(AD)_UP	NA	Blautia	Faecalibacterium
+bsdb:998/1/1_Parkinson's-disease:PD-patients_vs_Controls_UP	NA	Acidaminococcus	Anaerofustis	Anaerotruncus	Campylobacter	Citrobacter	Coprobacillus	Dehalobacterium	Eubacterium	Finegoldia	Gallicola	Halomonas	Methanobrevibacter	Methanomassiliicoccus	Mogibacterium	Pediococcus	Peptoniphilus	Proteus	Ruminococcus	Synergistes	Turicibacter	Varibaculum
+bsdb:998/1/2_Parkinson's-disease:PD-patients_vs_Controls_DOWN	NA	Anaerostipes	Bacteroides	Dorea	Faecalibacterium	Lachnospira	Phascolarctobacterium	Prevotella	Roseburia	Sutterella	Blautia
+bsdb:998/2/1_Parkinson's-disease:PD-patients_vs_Controls_DOWN	NA	Blautia	Dorea	Meiothermus	Nesterenkonia
+bsdb:998/3/1_Parkinson's-disease:PD-patients_vs_Controls_UP	NA	Cronobacter	Nocardioides	Planctomyces	Rathayibacter	Syntrophobacter
+bsdb:998/3/2_Parkinson's-disease:PD-patients_vs_Controls_DOWN	NA	Bacteroides	Blautia	Elizabethkingia	Erythrobacter	Finegoldia	Halomonas	Pseudonocardia	Thermoanaerobacterium
 bsdb:999/1/1_Abnormality-of-iron-homeostasis:Ferrous-sulfate-(FS)_vs_Vehicle-control-(CON)_UP	NA	Aerococcus	Anaeroplasma	Faecalibaculum	Flavonifractor	Harryflintia
 bsdb:999/1/2_Abnormality-of-iron-homeostasis:Ferrous-sulfate-(FS)_vs_Vehicle-control-(CON)_DOWN	NA	Bifidobacterium	Lactobacillus	Soleaferrea
 bsdb:999/2/1_Abnormality-of-iron-homeostasis:Ferrous-bis-glycinate-chelate-(Ferrochel,-FC)_vs_Vehicle-control-(CON)_DOWN	NA	Bacteroides	Parabacteroides	Eisenbergiella	Blautia	Lachnoclostridium	Roseburia

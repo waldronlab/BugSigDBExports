@@ -1,4 +1,4 @@
-# BugSigDB 2024-03-29_19:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2024-03-29_20:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	Bacilli	Gammaproteobacteria	Actinomyces	Corynebacterium	Streptococcus	Peptoniphilus	Dorea	Phascolarctobacterium	Sutterella	Actinomycetales	Actinomycetaceae	Alcaligenaceae	Lactobacillales	Streptococcaceae	Veillonellaceae	Enterobacterales	Corynebacteriaceae	Lacticaseibacillus zeae	Bacillus	Bacillaceae
 bsdb:1/1/2_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	Coprobacillus	Cyanobacteriota
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	Anaerostipes	Lacticaseibacillus zeae
@@ -3556,8 +3556,8 @@ bsdb:877/5/1_Peri-Implantitis:Peri-implantitis-group-(contralateral-site-samples
 bsdb:877/6/1_Peri-Implantitis:Peri-implantitis-and-mucositis-groups-(contralteral-samples)_vs_Healthy-group--(contralteral-samples)_UP	NA	Prevotella intermedia
 bsdb:879/1/1_COVID-19,Oral-ulcer:Covid-19-with-oral-lesions_vs_Covid-19-patients-without-oral-lesions_UP	NA	Staphylococcus
 bsdb:879/2/1_COVID-19:Severe-COVID-patients_vs_Non-severe-COVID-patients_UP	NA	Prevotella
-bsdb:879/3/1_COVID-19:Antibiotics-use_vs_No-antibiotics-use_UP	NA	Lactobacillus	Veillonella
-bsdb:879/4/1_COVID-19:Oxygen-therapy_vs_No-oxygen-therapy_DOWN	NA	Prevotella
+bsdb:879/3/1_COVID-19:Antibiotics-use_vs_No-antibiotics-use_UP	NA	Lactobacillus	Neisseria	Prevotella	Staphylococcus
+bsdb:879/4/1_COVID-19:Oxygen-therapy_vs_No-oxygen-therapy_UP	NA	Lactobacillus	Veillonella
 bsdb:879/5/1_COVID-19:ICU-patients_vs_Non-ICU-patients_UP	NA	Lactobacillus	Veillonella
 bsdb:879/5/2_COVID-19:ICU-patients_vs_Non-ICU-patients_DOWN	NA	Haemophilus
 bsdb:879/6/1_COVID-19:Covid-19-patients-on-enteral-diet_vs_Non-enteral-diet_UP	NA	Granulicatella	Lactobacillus	Rothia	Haemophilus	Porphyromonas	Streptococcus	Veillonella	Cardiobacterium	Leptotrichia
@@ -3705,6 +3705,8 @@ bsdb:927/2/1_Behcet's-syndrome:Untreated-active-Behcet's-disease-(BD)-patients_v
 bsdb:927/2/2_Behcet's-syndrome:Untreated-active-Behcet's-disease-(BD)-patients_vs_Healthy-Control_DOWN	NA	Betaproteobacteria	Neisseriaceae	Neisseriales	Pseudomonadota
 bsdb:927/3/1_Response-to-transplant:Behcet's-disease-(BD)-feces-treated-group_vs_Healthy-Control-feces-treated-group_UP	NA	Alistipes	Alloprevotella	Anaerofilum	Bilophila	Butyricimonas	Coprobacter	Mucispirillum	Paraprevotella
 bsdb:927/3/2_Response-to-transplant:Behcet's-disease-(BD)-feces-treated-group_vs_Healthy-Control-feces-treated-group_DOWN	NA	Collinsella
+bsdb:927/4/1_Behcet's-syndrome:Untreated-active-Behcet's-disease-(BD)-patients_vs_Healthy-Control_UP	NA	Atkinsonella texensis	Epichloe aotearoae	Macrophomina phaseolina	Stenotrophomonas sp. Leaf70	Diaporthe ampelina	Colletotrichum higginsianum	Drechslerella stenobrocha	Trichoderma parareesei	Cladophialophora psammophila	Colletotrichum orbiculare	Stenotrophomonas rhizophila	Actinomyces sp. ph3	Candida parapsilosis	Claviceps paspali	Corynebacterium argentoratense	Exophiala mesophila	Ogataea methanolica	Actinomyces graevenitzii	Stenotrophomonas maltophilia	Shiraia sp. slf14	Neurospora crassa
+bsdb:927/4/2_Behcet's-syndrome:Untreated-active-Behcet's-disease-(BD)-patients_vs_Healthy-Control_DOWN	NA	Acinetobacter sp. CAG:196	Epichloe glyceriae
 bsdb:928/1/1_Chronic-granulomatous-disease:Chronic-granulomatous-disease_vs_Healthy-controls_UP	NA	Lachnoclostridium	Sellimonas	Thomasclavelia	Veillonella	uncultured Roseburia sp.	uncultured bacterium
 bsdb:928/1/2_Chronic-granulomatous-disease:Chronic-granulomatous-disease_vs_Healthy-controls_DOWN	NA	Anaerostipes	Butyricicoccus sp.	Collinsella	Coprococcus	Dorea	Eubacterium ventriosum	Intestinimonas butyriciproducens	Lachnospira	Roseburia hominis	Turicibacter	uncultured Eubacterium sp.	uncultured Lachnospiraceae bacterium	Lachnospira eligens
 bsdb:928/2/1_Chronic-granulomatous-disease:CGD-IBD_vs_CGD-(without-IBD-history)_UP	NA	Tyzzerella	Lachnoclostridium phocaeense
@@ -3945,6 +3947,11 @@ bsdb:997/4/1_Memory-impairment:Memory-Deficit-(MD)-group_vs_Normal-group_UP	NA	A
 bsdb:997/4/2_Memory-impairment:Memory-Deficit-(MD)-group_vs_Normal-group_DOWN	NA	Alistipes indistinctus	Alistipes onderdonkii	Bacteroides uniformis	Enterocloster aldenensis	Enterocloster lavalensis	Enterococcus casseliflavus	Faecalibacterium prausnitzii	Limosilactobacillus vaginalis	Parabacteroides gordonii	Ruminococcus gauvreauii	Staphylococcus aureus	[Clostridium] symbiosum	[Ruminococcus] torques
 bsdb:997/5/1_Memory-impairment:Positive-group_vs_Normal-group_UP	NA	Bacteroides finegoldii	Bifidobacterium longum	Bifidobacterium pseudolongum	Collinsella aerofaciens	Limosilactobacillus reuteri	Subdoligranulum variabile
 bsdb:997/5/2_Memory-impairment:Positive-group_vs_Normal-group_DOWN	NA	Alistipes indistinctus	Alistipes onderdonkii	Bacteroides uniformis	Enterocloster aldenensis	Enterocloster lavalensis	Enterococcus casseliflavus	Faecalibacterium prausnitzii	Limosilactobacillus vaginalis	Parabacteroides gordonii	Ruminococcus gauvreauii	Staphylococcus aureus	[Clostridium] symbiosum	[Ruminococcus] torques
+bsdb:998/1/1_Parkinson's-disease:PD-patients_vs_Controls_UP	NA	Abiotrophia defectiva	Acidaminococcus	Anaerofustis	Anaerotruncus	Campylobacter	Citrobacter	Coprobacillus	Dehalobacterium	Eubacterium	Finegoldia	Gallicola	Halomonas	Methanobrevibacter	Methanomassiliicoccus	Mogibacterium	Pediococcus	Peptoniphilus	Proteus	Ruminococcus	Synergistes	Turicibacter	Varibaculum
+bsdb:998/1/2_Parkinson's-disease:PD-patients_vs_Controls_DOWN	NA	Anaerostipes	Bacteroides	Dorea	Faecalibacterium	Lachnospira	Phascolarctobacterium	Prevotella	Roseburia	Sutterella	Blautia
+bsdb:998/2/1_Parkinson's-disease:PD-patients_vs_Controls_DOWN	NA	Blautia	Dorea	Meiothermus	Nesterenkonia
+bsdb:998/3/1_Parkinson's-disease:PD-patients_vs_Controls_UP	NA	Cronobacter	Nocardioides	Planctomyces	Rathayibacter	Syntrophobacter
+bsdb:998/3/2_Parkinson's-disease:PD-patients_vs_Controls_DOWN	NA	Bacteroides	Blautia	Elizabethkingia	Erythrobacter	Finegoldia	Halomonas	Pseudonocardia	Thermoanaerobacterium
 bsdb:999/1/1_Abnormality-of-iron-homeostasis:Ferrous-sulfate-(FS)_vs_Vehicle-control-(CON)_UP	NA	Aerococcus	Anaeroplasma	Faecalibaculum	Flavonifractor	Harryflintia	Mycoplasmatota	uncultured Clostridia bacterium
 bsdb:999/1/2_Abnormality-of-iron-homeostasis:Ferrous-sulfate-(FS)_vs_Vehicle-control-(CON)_DOWN	NA	Bifidobacterium	Lactobacillus	Soleaferrea
 bsdb:999/2/1_Abnormality-of-iron-homeostasis:Ferrous-bis-glycinate-chelate-(Ferrochel,-FC)_vs_Vehicle-control-(CON)_DOWN	NA	Bacillota	Bacteroides	Bacteroidia	Parabacteroides	uncultured organism	Eisenbergiella	uncultured Bacteroidales bacterium	Eubacterium xylanophilum	Blautia	Lachnoclostridium	Roseburia	uncultured Barnesiella sp.
