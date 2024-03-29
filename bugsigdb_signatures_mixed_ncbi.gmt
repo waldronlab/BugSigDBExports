@@ -1,4 +1,4 @@
-# BugSigDB 2024-03-29_17:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2024-03-29_18:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	91061	1236	1654	1716	1301	162289	189330	33024	40544	2037	2049	506	186826	1300	31977	91347	1653	57037	1386	186817
 bsdb:1/1/2_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	100883	1117
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	207244	57037
@@ -3554,10 +3554,12 @@ bsdb:877/3/1_Peri-Implantitis:Peri-implantitis-group-(case-samples)_vs_Healthy-g
 bsdb:877/4/1_Peri-Implantitis:Mucositis-group-(contralateral-site-samples)_vs_Healthy-group-(contralateral-site-samples)_DOWN	NA	1303
 bsdb:877/5/1_Peri-Implantitis:Peri-implantitis-group-(contralateral-site-samples)_vs_Healthy-group-(contralateral-site-samples)_DOWN	NA	29466
 bsdb:877/6/1_Peri-Implantitis:Peri-implantitis-and-mucositis-groups-(contralteral-samples)_vs_Healthy-group--(contralteral-samples)_UP	NA	28131
-bsdb:879/1/1_COVID-19,Oral-ulcer:Covid-19-with-oral-lesions_vs_Covid-19-patients-without-oral-lesions_DOWN	NA	848	29465
-bsdb:879/2/1_Oral-ulcer,COVID-19:Covid-19_vs_NA_DOWN	NA	1279
-bsdb:879/3/1_COVID-19,Oral-ulcer:Covid-19_vs_NA_DOWN	NA	724
-bsdb:879/4/1_COVID-19,Oral-ulcer:Covid-19_vs_NA_DOWN	NA	838
+bsdb:879/1/1_COVID-19,Oral-ulcer:Covid-19-with-oral-lesions_vs_Covid-19-patients-without-oral-lesions_UP	NA	1279
+bsdb:879/2/1_COVID-19:Severe-COVID-patients_vs_Non-severe-COVID-patients_UP	NA	838
+bsdb:879/3/1_COVID-19:Antibiotics-use_vs_No-antibiotics-use_UP	NA	1578	29465
+bsdb:879/4/1_COVID-19:Oxygen-therapy_vs_No-oxygen-therapy_DOWN	NA	838
+bsdb:879/5/1_COVID-19:ICU-patients_vs_Non-ICU-patients_UP	NA	1578	29465
+bsdb:879/5/2_COVID-19:ICU-patients_vs_Non-ICU-patients_DOWN	NA	724
 bsdb:880/1/1_Urinary-tract-infection:Culture-Positive_vs_No-Growth_UP	NA	562	571	573
 bsdb:880/1/2_Urinary-tract-infection:Culture-Positive_vs_No-Growth_DOWN	NA	4890	1747
 bsdb:880/2/1_Urinary-tract-infection:Culture-Positive-Samples_vs_Insignificant-Samples_UP	NA	573
@@ -3696,12 +3698,12 @@ bsdb:926/2/1_Ulcerative-colitis:Ulcerative-colitis-(UC)-patients_vs_Healthy-cont
 bsdb:926/2/2_Ulcerative-colitis:Ulcerative-colitis-(UC)-patients_vs_Healthy-controls-(HC)_DOWN	NA	2109691	200643	74201	256846	1117	544448	375288	821
 bsdb:926/3/1_Gut-microbiome-measurement:Crohn's-disease-(CD)-patients_vs_Ulcerative-colitis-(UC)-patients_UP	NA	74201	203490	256846	375288	562
 bsdb:926/3/2_Gut-microbiome-measurement:Crohn's-disease-(CD)-patients_vs_Ulcerative-colitis-(UC)-patients_DOWN	NA	216851	2109691	1239	201174	1224	1117	544448	203692	1301	1578	28050	821	216816	1680	28116
-bsdb:927/1/1_Behcet's-syndrome:Untreated-active-BD-patients_vs_Healthy-Control_UP	NA	1470347	908612	1262705	816	28111	1262751	693988	35833	74426	742722	1262850	1262884	1263013	1262992	1262901	52226	1226322	1226323	1232459	454154	387090	1627893	1211417
-bsdb:927/1/2_Behcet's-syndrome:Untreated-active-BD-patients_vs_Healthy-Control_DOWN	NA	850	1262797	1262774	1262689	1262700	1262889	1262693	1262970	1262863	218538	907	638849	1262770	1262843	1262903	1291540
-bsdb:927/2/1_Behcet's-syndrome:Untreated-active-BD-patients_vs_Healthy-Control_UP	NA	174708	419014	1380	31953	85004	1678	830	84107	84999	1653	1716	872	33958	1578	2050	838	196081	191303	2810281	577309
-bsdb:927/2/2_Behcet's-syndrome:Untreated-active-BD-patients_vs_Healthy-Control_DOWN	NA	28216	481	206351	1224
-bsdb:927/3/1_Uveitis:BD-feces-treated-group_vs_Healthy-Control-feces-treated-group_UP	NA	239759	1283313	52784	35832	574697	1348911	248038	577309
-bsdb:927/3/2_Uveitis:BD-feces-treated-group_vs_Healthy-Control-feces-treated-group_DOWN	NA	102106
+bsdb:927/1/1_Behcet's-syndrome:Untreated-active-Behcet's-disease-(BD)-patients_vs_Healthy-Control_UP	NA	1470347	908612	1262705	816	28111	1262751	693988	35833	74426	742722	1262850	1262884	1263013	1262992	1262901	52226	1226322	1226323	1232459	454154	387090	1627893	1211417
+bsdb:927/1/2_Behcet's-syndrome:Untreated-active-Behcet's-disease-(BD)-patients_vs_Healthy-Control_DOWN	NA	1262689	1262693	1262700	1262770	1262774	1262797	1262843	1262863	218538	1262889	850	907	1262903	1291540	638849	1262970
+bsdb:927/2/1_Behcet's-syndrome:Untreated-active-Behcet's-disease-(BD)-patients_vs_Healthy-Control_UP	NA	174708	419014	1380	31953	85004	1678	830	84107	84999	1653	1716	872	33958	1578	2050	838	196081	191303	2810281	577309
+bsdb:927/2/2_Behcet's-syndrome:Untreated-active-Behcet's-disease-(BD)-patients_vs_Healthy-Control_DOWN	NA	28216	481	206351	1224
+bsdb:927/3/1_Uveitis:Behcet's-disease-(BD)-feces-treated-group_vs_Healthy-Control-feces-treated-group_UP	NA	239759	1283313	52784	35832	574697	1348911	248038	577309
+bsdb:927/3/2_Uveitis:Behcet's-disease-(BD)-feces-treated-group_vs_Healthy-Control-feces-treated-group_DOWN	NA	102106
 bsdb:928/1/1_Chronic-granulomatous-disease:Chronic-granulomatous-disease_vs_Healthy-controls_UP	NA	1506553	1769710	3025755	29465	512314	77133
 bsdb:928/1/2_Chronic-granulomatous-disease:Chronic-granulomatous-disease_vs_Healthy-controls_DOWN	NA	207244	2049021	102106	33042	189330	39496	1297617	28050	301301	191303	165185	297314	39485
 bsdb:928/2/1_Chronic-granulomatous-disease:CGD-IBD_vs_CGD-(without-IBD-history)_UP	NA	1506577	1871021
