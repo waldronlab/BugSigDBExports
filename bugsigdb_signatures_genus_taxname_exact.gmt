@@ -1,4 +1,4 @@
-# BugSigDB 2024-03-31_06:59_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2024-03-31_09:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	Actinomyces	Corynebacterium	Streptococcus	Peptoniphilus	Dorea	Phascolarctobacterium	Sutterella	Bacillus
 bsdb:1/1/2_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	Coprobacillus
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	Anaerostipes
@@ -1975,6 +1975,7 @@ bsdb:672/5/1_Spontaneous-preterm-birth:Maori-(4M)_vs_Asian-(4M)_DOWN	NA	Rothia	S
 bsdb:672/6/1_Spontaneous-preterm-birth:Pacifica-(4M)_vs_Asian-(4M)_DOWN	NA	Staphylococcus
 bsdb:672/7/1_Spontaneous-preterm-birth:University-(4M)_vs_No-University-(4M)_DOWN	NA	Eggerthella
 bsdb:672/9/1_Spontaneous-preterm-birth:Breastmilk-feeding-(4M)_vs_Only-formula-(4M)_UP	NA	Megasphaera
+bsdb:672/12/1_Spontaneous-preterm-birth:Yes-maternal-probiotics_vs_No-maternal-probiotics_UP	NA	Bifidobacterium	Lactobacillus
 bsdb:672/13/1_Spontaneous-preterm-birth:Yes-infant-probiotics_vs_No-infant-probiotics_UP	NA	Lactobacillus
 bsdb:673/1/2_Ethnic-group:Colombia-data_vs_USA-data_DOWN	NA	Bacteroides
 bsdb:674/1/1_Socioeconomic-status:High-SES_vs_Low-SES_UP	NA	Delftia	Clostridium	Parabacteroides	Odoribacter	Ruminococcus
@@ -2558,8 +2559,6 @@ bsdb:839/3/2_Response-to-oxcarbazepine:post-treatment-(focal-epilepsy)_vs_pre-tr
 bsdb:839/4/1_Epilepsy:pre-treatment-(focal-epilepsy)_vs_healthy-control-(HC)_UP	NA	Faecalibacterium	Parabacteroides	Megamonas	Streptococcus	Romboutsia	Collinsella
 bsdb:839/5/1_Epilepsy:post-treatment-(focal-epilepsy)_vs_healthy-control-(HC)_UP	NA	Parabacteroides	Anaerostipes	Oscillibacter	Megamonas
 bsdb:839/6/1_Response-to-oxcarbazepine:post-treatment-(focal-epilepsy)_vs_pre-treatment-(focal-epilepsy)_UP	NA	Blautia	Megamonas	Oscillibacter	Streptococcus	Romboutsia	Collinsella	Anaerostipes
-bsdb:840/1/1_COVID-19:COVID-19-positive-participants-with-severe-disease._vs_COVID-19-positive-participants-with-mild-or-moderate-disease._UP	NA	Actinomyces	Bifidobacterium	Clostridium	Fusobacterium	Lactobacillus	Bacteroides
-bsdb:840/1/2_COVID-19:COVID-19-positive-participants-with-severe-disease._vs_COVID-19-positive-participants-with-mild-or-moderate-disease._DOWN	NA	Prevotella	Streptococcus	Actinomyces	Porphyromonas	Veillonella	Leptotrichia	Capnocytophaga	Gemella	Neisseria
 bsdb:841/1/1_Breastfeeding-duration:Calves-without-dam-on-day-35_vs_Calves-with-dam-on-day-35_UP	NA	Myroides	Paraeggerthella	Peptostreptococcus
 bsdb:841/1/2_Breastfeeding-duration:Calves-without-dam-on-day-35_vs_Calves-with-dam-on-day-35_DOWN	NA	Bacteroides	Parabacteroides
 bsdb:841/2/1_Breastfeeding-duration:Calves-without-dam-on-day-65_vs_Calves-with-dam-on-day-65_UP	NA	Bacteroides	Lactobacillus
@@ -3013,9 +3012,9 @@ bsdb:1009/2/2_Peutz-Jeghers-Polyp:With-Intussusception-(I-PJS)_vs_Without-Intuss
 bsdb:1009/3/1_Peutz-Jeghers-Polyp:Peutz-Jeghers-syndrome-(PJS)_vs_healthy-control-(family-members)_UP	NA	Enterobacter	Escherichia	Klebsiella
 bsdb:1009/4/1_Peutz-Jeghers-Polyp:With-Intussusception-(I-PJS)_vs_Without-Intussusception-(NI-PJS)_UP	NA	Aeromonas
 bsdb:1009/4/2_Peutz-Jeghers-Polyp:With-Intussusception-(I-PJS)_vs_Without-Intussusception-(NI-PJS)_DOWN	NA	Faecalibacterium
-bsdb:1010/1/1_Iron-biomarker-measurement:Ferrous-bisglycinate-group_vs_Placebo-group_UP	NA	Weissella
-bsdb:1010/1/2_Iron-biomarker-measurement:Ferrous-bisglycinate-group_vs_Placebo-group_DOWN	NA	Enterococcus
-bsdb:1010/2/1_Iron-biomarker-measurement:Ferrous-sulfate-group_vs_Placebo-Group_UP	NA	Enterococcus	Weissella
+bsdb:1010/1/1_Environmental-exposure-measurement:Ferrous-bisglycinate-group_vs_Placebo-group_UP	NA	Weissella
+bsdb:1010/1/2_Environmental-exposure-measurement:Ferrous-bisglycinate-group_vs_Placebo-group_DOWN	NA	Enterococcus
+bsdb:1010/2/1_Environmental-exposure-measurement:Ferrous-sulfate-group_vs_Placebo-Group_UP	NA	Enterococcus	Weissella
 bsdb:1015/1/1_Pituitary-Gland-Adenoma:Patients-with-pituitary-adenomas-(PA)_vs_Healthy-controls_UP	NA	Oribacterium	Peptostreptococcus	Porphyromonas	Rothia	Schaalia	Lancefieldella	Actinomyces	Tannerella	Corynebacterium	Mogibacterium	Arachnia	Butyrivibrio	Cardiobacterium	Shuttleworthia
 bsdb:1015/1/2_Pituitary-Gland-Adenoma:Patients-with-pituitary-adenomas-(PA)_vs_Healthy-controls_DOWN	NA	Neisseria	Veillonella	Haemophilus	Fusobacterium	Prevotellamassilia	Campylobacter	Alloprevotella	Megasphaera	Aggregatibacter	Bergeyella	Dialister	Centipeda	Shigella	Bacteroides	Casaltella	Simonsiella	Klebsiella
 bsdb:1016/2/1_Oral-squamous-cell-carcinoma:Post-surgery_vs_Pre-surgery_UP	NA	Pseudomonas
