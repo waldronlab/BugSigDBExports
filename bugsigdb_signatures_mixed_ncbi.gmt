@@ -1,4 +1,4 @@
-# BugSigDB 2024-03-31_09:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2024-03-31_13:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	91061	1236	1654	1716	1301	162289	189330	33024	40544	2037	2049	506	186826	1300	31977	91347	1653	57037	1386	186817
 bsdb:1/1/2_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	100883	1117
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	207244	57037
@@ -3658,10 +3658,11 @@ bsdb:912/4/1_Diet:Fishes-fed-with-test-diet-in-September_vs_Fishes-fed-with-test
 bsdb:912/4/2_Diet:Fishes-fed-with-test-diet-in-September_vs_Fishes-fed-with-test-diet-in-January_DOWN	NA	1243	1578	1357
 bsdb:913/1/1_Myopia:L-group----Ok-Lens-group_vs_N-group----Non-wearer-group_UP	NA	28211	76892	204458	41275	201174	91061	204457	41297	1653	85007	468	469	1385	90964	583	91347	85006	1279	1117	32033	1300	1716	1301	57723	1636152	81852	1268	547	1350	1853229	85009	200644	563835	572511	186817	31957	1912216	32061
 bsdb:913/1/2_Myopia:L-group----Ok-Lens-group_vs_N-group----Non-wearer-group_DOWN	NA	1386	2	1872421	2005473
-bsdb:914/1/2_Celiac-disease:Patient-with-CeD_vs_Control-Group_DOWN	NA	201174	200643	28890	1239	1224	74201	186802
-bsdb:914/1/4_Celiac-disease:Patient-with-CeD_vs_Control-Group_DOWN	NA	201174	1239	186802	28890	1224	74201	200643	171549
-bsdb:914/1/5_Celiac-disease:Patient-with-CeD_vs_Control-Group_DOWN	NA	1253	1080709	1578	1505657	189330	572511	838	239934	724
-bsdb:914/1/6_Celiac-disease:Patient-with-CeD_vs_Control-Group_DOWN	NA	12381
+bsdb:914/1/2_Celiac-disease:FDRs-of-patient-with-CeD_vs_Control-Group_UP	NA	201174	1239	200643	186802	28890	1224	74201
+bsdb:914/1/3_Celiac-disease:FDRs-of-patient-with-CeD_vs_Control-Group_DOWN	NA	191303	1301	1263	838	543311	475	1080709	906	1578	1505657	209	117563	1378	1730	135858	572511	1678	397864	816	207244	1654	239934
+bsdb:914/1/4_Celiac-disease:FDRs-of-patient-with-CeD_vs_Control-Group_DOWN	NA	201174	1239	186802	28890	1224	74201	200643	171549
+bsdb:914/1/5_Celiac-disease:FDRs-of-patient-with-CeD_vs_Control-Group_DOWN	NA	1253	1080709	1578	1505657	189330	572511	838	239934	724
+bsdb:914/1/6_Celiac-disease:FDRs-of-patient-with-CeD_vs_Control-Group_DOWN	NA	12381
 bsdb:917/1/1_HIV-infection:ART-Naïve_vs_Healthy-controls-(HC)._DOWN	NA	830	191303	12967
 bsdb:917/2/1_HIV-infection:ART-experienced_vs_Healthy-controls-(HC)._UP	NA	1506553	158846
 bsdb:917/2/2_HIV-infection:ART-experienced_vs_Healthy-controls-(HC)._DOWN	NA	830	191303	12967
@@ -4279,6 +4280,11 @@ bsdb:1063/5/1_Oral-lichen-planus:OLP-patients-without-erosive-lesions-(NE)_vs_He
 bsdb:1063/5/2_Oral-lichen-planus:OLP-patients-without-erosive-lesions-(NE)_vs_Healthy-control_DOWN	NA	46123	203692	186827	136
 bsdb:1063/7/1_Oral-lichen-planus:OLP-patients-with-erosive-lesions-(E)_vs_OLP-patients-without-erosive-lesions-(NE)_UP	NA	46123	203692	186827	136
 bsdb:1063/7/2_Oral-lichen-planus:OLP-patients-with-erosive-lesions-(E)_vs_OLP-patients-without-erosive-lesions-(NE)_DOWN	NA	482	724	265975
+bsdb:1065/1/1_Breast-cancer:pre-menopausal-BC-patients_vs_pre-menopausal-controls_UP	NA	1232426	745368	147206	204475	1678	1905344	1924093	1472762	84107	31953	1643826	2049	201174
+bsdb:1065/1/2_Breast-cancer:pre-menopausal-BC-patients_vs_pre-menopausal-controls_DOWN	NA	1348911
+bsdb:1065/2/1_Breast-cancer:post-menopausal-BC-patients_vs_post-menopausal-controls_UP	NA	147207	1628085	2048137	1892380	580024	508215	209879	1268
+bsdb:1065/2/2_Breast-cancer:post-menopausal-BC-patients_vs_post-menopausal-controls_DOWN	NA	1099853	818	823	40520	33025	1262777	487174	39486	1348911	375288	189330	572511	397864	816	2005519
+bsdb:1065/5/1_Breast-cancer:pre-menopausal-stage-3-BC-patients_vs_pre-menopausal-stage-0-2-BC_DOWN	NA	446660	394340	1263000
 bsdb:1066/1/1_Polycystic-ovary-syndrome:Polycystic-ovary-syndrome-(PCOS)-patients_vs_Healthy-Controls_UP	NA	4890	5352	5353	654128	4930	4932	4893	4892	4891
 bsdb:1066/1/2_Polycystic-ovary-syndrome:Polycystic-ovary-syndrome-(PCOS)-patients_vs_Healthy-Controls_DOWN	NA	5052	3072159	5042	28568	155616	5204
 bsdb:1067/1/1_Acquired-primary-ovarian-failure:POF_vs_healthy-controls_UP	NA	2701	838	816	168808	39948	165779
