@@ -1,4 +1,4 @@
-# BugSigDB 2024-04-08_18:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2024-04-08_19:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	91061	1236	1654	1716	1301	162289	189330	33024	40544	2037	2049	506	186826	1300	31977	91347	1653	57037	1386	186817
 bsdb:1/1/2_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	100883	1117
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	207244	57037
@@ -3572,10 +3572,10 @@ bsdb:877/3/1_Peri-Implantitis:Peri-implantitis-group-(case-samples)_vs_Healthy-g
 bsdb:877/4/1_Peri-Implantitis:Mucositis-group-(contralateral-site-samples)_vs_Healthy-group-(contralateral-site-samples)_DOWN	NA	1303
 bsdb:877/5/1_Peri-Implantitis:Peri-implantitis-group-(contralateral-site-samples)_vs_Healthy-group-(contralateral-site-samples)_DOWN	NA	29466
 bsdb:877/6/1_Peri-Implantitis:Peri-implantitis-and-mucositis-groups-(contralteral-samples)_vs_Healthy-group--(contralteral-samples)_UP	NA	28131
-bsdb:878/1/1_Colorectal-carcinoma:Tumor_vs_Normal_UP	NA	203492	851	1300	416916	732
-bsdb:878/1/2_Colorectal-carcinoma:Tumor_vs_Normal_DOWN	NA	550	547	470	469	472
-bsdb:878/2/1_Colorectal-carcinoma:Tumor_vs_Normal_UP	NA	203492	203491	848	203490
-bsdb:878/2/2_Colorectal-carcinoma:Tumor_vs_Normal_DOWN	NA	216851	816	815	216572	200643	171549	186802	186801	1239
+bsdb:878/1/1_Colorectal-carcinoma:Colon-Tumor_vs_Normal-colonic-tissue_UP	NA	203492	851	1300	416916	732
+bsdb:878/1/2_Colorectal-carcinoma:Colon-Tumor_vs_Normal-colonic-tissue_DOWN	NA	550	547	470	469	472
+bsdb:878/2/1_Colorectal-carcinoma:Colon-Tumor_vs_Normal-colonic-tissue_UP	NA	203492	203491	848	203490
+bsdb:878/2/2_Colorectal-carcinoma:Colon-Tumor_vs_Normal-colonic-tissue_DOWN	NA	216851	816	815	216572	200643	171549	186802	186801	1239
 bsdb:879/1/1_Oral-ulcer:Covid-19-with-oral-lesions_vs_Covid-19-patients-without-oral-lesions_UP	NA	1279
 bsdb:879/2/1_Illness-severity-status:Severe-COVID-patients_vs_Non-severe-COVID-patients_UP	NA	838
 bsdb:879/3/1_Antimicrobial-agent:Antibiotics-use_vs_No-antibiotics-use_UP	NA	1578	482	838	1279
@@ -3745,6 +3745,8 @@ bsdb:914/1/3_Celiac-disease:FDRs-of-patient-with-CeD_vs_Control-Group_DOWN	NA	19
 bsdb:914/1/4_Celiac-disease:FDRs-of-patient-with-CeD_vs_Control-Group_DOWN	NA	201174	1239	186802	28890	1224	74201	200643	171549
 bsdb:914/1/5_Celiac-disease:FDRs-of-patient-with-CeD_vs_Control-Group_DOWN	NA	1253	1080709	1578	1505657	189330	572511	838	239934	724
 bsdb:914/1/6_Celiac-disease:FDRs-of-patient-with-CeD_vs_Control-Group_DOWN	NA	12381
+bsdb:915/1/1_Breast-carcinoma:premenopausal-breast-cancer-patients-(Pre-BC)_vs_premenopausal-female-controls-(Pre-C)_UP	NA	724	848	40544	816	729	40518	40519	363265
+bsdb:915/1/2_Breast-carcinoma:premenopausal-breast-cancer-patients-(Pre-BC)_vs_premenopausal-female-controls-(Pre-C)_DOWN	NA	39948	1301	906	33042	375288	102106	1678	52225	239934	239759	1350	508215	846	547	74426	216816	1735	1680	239935	823	1681	626932	43675
 bsdb:917/1/1_HIV-infection:ART-Naïve_vs_Healthy-controls-(HC)._DOWN	NA	830	191303	12967
 bsdb:917/2/1_HIV-infection:ART-experienced_vs_Healthy-controls-(HC)._UP	NA	1506553	158846
 bsdb:917/2/2_HIV-infection:ART-experienced_vs_Healthy-controls-(HC)._DOWN	NA	830	191303	12967
@@ -4054,8 +4056,6 @@ bsdb:993/2/1_Gut-microbiome-measurement:12-months_vs_3-months_DOWN	NA	5480
 bsdb:993/2/2_Gut-microbiome-measurement:12-months_vs_3-months_UP	NA	4903	4932
 bsdb:995/1/1_Parkinson's-disease:MPTP-Group_vs_Control-Group_UP	NA	28216	80840	1729679	1702221	1892380	1849041	375288	577310	487175	1161942	995019	2005525
 bsdb:995/1/2_Parkinson's-disease:MPTP-Group_vs_Control-Group_DOWN	NA	31971	2749267
-bsdb:995/2/1_Parkinson's-disease:MPTP-+-Acu-Group_vs_MPTP-Group_UP	NA	239759	339861	384636	1506553	84032	171550	301302	1348611	2603322	2304693
-bsdb:995/2/2_Parkinson's-disease:MPTP-+-Acu-Group_vs_MPTP-Group_DOWN	NA	375288	2005525	995019	577310	487175	80840	28216	1702221	1729679	1161942	1849041	1892380
 bsdb:995/3/1_Parkinson's-disease:MPTP-+-Acu-Group_vs_Control-Group_UP	NA	239759	384636	1506553	84032	171550	301302	1348611	1348613	2603322	339861
 bsdb:995/3/2_Parkinson's-disease:MPTP-+-Acu-Group_vs_Control-Group_DOWN	NA	2749846	31971
 bsdb:996/1/1_Irritable-bowel-syndrome:IBS-D-patients-(Duodenal-mucosa-samples)_vs_Healthy-controls-(Duodenal-mucosa-samples)_UP	NA	1386	2747	528	1357	1269	1743	407	33882	44249	1716	80865	41275	1763
