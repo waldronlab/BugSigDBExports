@@ -1,4 +1,4 @@
-# BugSigDB 2024-04-08_12:59_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2024-04-08_13:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	57037
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	57037
 bsdb:1/6/1_Colorectal-adenoma:Non-advanced-conventional-adenoma-cases_vs_controls_UP	NA	57037
@@ -1625,6 +1625,7 @@ bsdb:932/3/1_Delivery-method:Elective-Cesarean-Section-(ECS)-at-Day-15_vs_Vagina
 bsdb:932/3/2_Delivery-method:Elective-Cesarean-Section-(ECS)-at-Day-15_vs_Vaginally-Delivered(VD)-at-Day-15_DOWN	NA	562	28026	630129	622	28113	545	1499973
 bsdb:932/4/1_Delivery-method:Elective-Cesarean-Section-(ECS)-at-Day-30_vs_Vaginally-Delivered(VD)-at-Day-30_UP	NA	550	571	2027919	1977566	1934254	57706	881260	69220	138072	617123
 bsdb:932/4/2_Delivery-method:Elective-Cesarean-Section-(ECS)-at-Day-30_vs_Vaginally-Delivered(VD)-at-Day-30_DOWN	NA	28026	28116	823	1717	2161821	2702
+bsdb:932/7/1_Cesarean-section:Elective-Cesarean-Section-(ECS)-at-Day-30-vs.-Day-0-and-Day-15_vs_Vaginally-Delivered(VD)-at-Day-30-vs.-Day-0-and-Day-15_UP	NA	818	1680	28026	1322	546	1502	33010	61645	550	2027919	158836	1977566	1351	1736	1134687	571	1463165	244366	54291	1335	1302	102684	28037	1304	1839799	1308	29466	248315	575	47715	2026240
 bsdb:935/1/1_Parkinson's-disease:Patients-with-Parkinson's-Disease_vs_Healthy-controls_UP	NA	2054177
 bsdb:935/2/1_Parkinson's-disease:Patients-with-Parkinson's-Disease_vs_Diseased-Controls_UP	NA	1547	1757166
 bsdb:935/2/2_Parkinson's-disease:Patients-with-Parkinson's-Disease_vs_Diseased-Controls_DOWN	NA	156456
@@ -1707,8 +1708,8 @@ bsdb:990/1/1_Colorectal-cancer:Living-bacteria-group-(LB)_vs_Tumor-control-group
 bsdb:990/3/1_Colorectal-cancer:Living-bacteria-group_vs_Inactivated-bacteria-group_DOWN	NA	2485925
 bsdb:992/1/1_Parkinson's-disease:Parkinson's-disease-patients-(PD)_vs_Healthy-controls-(HC)_UP	NA	1173061
 bsdb:992/1/2_Parkinson's-disease:Parkinson's-disease-patients-(PD)_vs_Healthy-controls-(HC)_DOWN	NA	983299	4006	1979800	5082	88167
-bsdb:993/1/1_Gut-microbiome-measurement:12-months_vs_3-months_UP	NA	239935	820	165179
-bsdb:993/1/2_Gut-microbiome-measurement:12-months_vs_3-months_DOWN	NA	47678	28116
+bsdb:993/1/1_Gut-microbiome-measurement:12-months_vs_3-months_UP	NA	239935	47678	820	165179
+bsdb:993/1/2_Gut-microbiome-measurement:12-months_vs_3-months_DOWN	NA	28116
 bsdb:993/2/1_Gut-microbiome-measurement:12-months_vs_3-months_DOWN	NA	5480
 bsdb:993/2/2_Gut-microbiome-measurement:12-months_vs_3-months_UP	NA	4903	4932
 bsdb:995/1/1_Parkinson's-disease:MPTP-Group_vs_Control-Group_UP	NA	1702221	1849041	487175	1161942
@@ -1759,8 +1760,8 @@ bsdb:1014/1/2_Response-to-diet:Prophylactic-oats-Day-5-Abx_vs_Always-Dextrose-Da
 bsdb:1022/3/1_Fungal-infectious-disease:Substrate-(Environmental-swaps)_vs_Batsskin-swaps_UP	NA	234266
 bsdb:1024/1/1_Alzheimer's-disease:Alzheimer's-disease_vs_Healthy-controls_UP	NA	33043	46507	471189	33038	501496	162156
 bsdb:1024/1/2_Alzheimer's-disease:Alzheimer's-disease_vs_Healthy-controls_DOWN	NA	105841	85831	292800	856	1898203	1235800	823	310297	1547	77133	57498	626947
-bsdb:1026/1/1_HIV-infection,SARS-coronavirus:PLWH-with-COVID-19-confirmed-by-SARS-CoV-2_vs_Healthy-Control_UP	NA	1849603	1940338
-bsdb:1026/1/2_HIV-infection,SARS-coronavirus:PLWH-with-COVID-19-confirmed-by-SARS-CoV-2_vs_Healthy-Control_DOWN	NA	1898207	42322	1904861
+bsdb:1026/1/1_HIV-infection,SARS-coronavirus:SARS-CoV-2-infected-PLWH_vs_Uninfected-People-living-with-HIV-(PLWH)_UP	NA	41978
+bsdb:1026/1/2_HIV-infection,SARS-coronavirus:SARS-CoV-2-infected-PLWH_vs_Uninfected-People-living-with-HIV-(PLWH)_DOWN	NA	42322	1904861
 bsdb:1027/2/2_Colorectal-carcinoma:hypoleukocytes_vs_normal-leukocytes_DOWN	NA	1940338	42322
 bsdb:1028/1/1_COVID-19:postmenopausal-women-group_vs_premenopausal-women-group_DOWN	NA	28132	425941
 bsdb:1028/2/1_COVID-19:adequate-oral-health-group_vs_poor-oral-health-group_DOWN	NA	194843	28132	1898207
@@ -1794,7 +1795,28 @@ bsdb:1049/24/2_Atopic-eczema:cAD-Treat_vs_Healthy-controls_DOWN	NA	1283
 bsdb:1049/25/1_Atopic-eczema:cAD-Post_vs_cADpre_UP	NA	1290
 bsdb:1049/26/2_Atopic-eczema:cAD-Pre_vs_Healthy-controls_DOWN	NA	283734
 bsdb:1049/27/1_Atopic-eczema:cAD-Treat_vs_Healthy-controls_UP	NA	246432
+bsdb:1049/28/1_Atopic-eczema:cAD-Post_vs_cADpre_UP	NA	74706	1295	1292
 bsdb:1049/29/1_Atopic-eczema:cAD-Pre_vs_Healthy-controls_DOWN	NA	283734
+bsdb:1049/30/1_Atopic-eczema:cADtreat-dogs_vs_Healthy-controls_UP	NA	74706	1283	1295
+bsdb:1049/31/1_Atopic-eczema:cADpost-dogs_vs_cADpre-dogs_UP	NA	29380	283734	1282	28035	1292
+bsdb:1049/31/2_Atopic-eczema:cADpost-dogs_vs_cADpre-dogs_DOWN	NA	1280
+bsdb:1049/32/1_Atopic-eczema:cADpre-dogs_vs_Healthy-dogs_DOWN	NA	283734
+bsdb:1049/33/1_Atopic-eczema:cADpost-dogs_vs_cADpre-dogs_UP	NA	246432
+bsdb:1049/34/1_Atopic-eczema:cADpre-dogs_vs_Healthy-dogs_UP	NA	246432	1292
+bsdb:1049/35/1_Atopic-eczema:cADtreat-dogs_vs_Healthy-dogs_UP	NA	246432	1295	1292
+bsdb:1049/36/1_Atopic-eczema:cADpost-dogs_vs_cADpre-dogs_DOWN	NA	1292
+bsdb:1049/37/1_Atopic-eczema:cADPre-dogs_vs_Healthy-dogs_UP	NA	1280	246432
+bsdb:1049/37/2_Atopic-eczema:cADPre-dogs_vs_Healthy-dogs_DOWN	NA	283734
+bsdb:1049/38/1_Atopic-eczema:cADtreat-dogs_vs_Healthy-dogs_UP	NA	246432	1292
+bsdb:1049/39/1_Atopic-eczema:cADpost-dogs_vs_cADpre-dogs_UP	NA	1290
+bsdb:1049/40/1_Atopic-eczema:cADpre-dogs_vs_Healthy-dogs_UP	NA	1296
+bsdb:1049/40/2_Atopic-eczema:cADpre-dogs_vs_Healthy-dogs_DOWN	NA	283734
+bsdb:1049/41/1_Atopic-eczema:cADpost-dogs_vs_cADpre-dogs_UP	NA	74706	283734	1295
+bsdb:1049/42/1_Atopic-eczema:cADpre-dogs_vs_Healthy-dogs_UP	NA	1292
+bsdb:1049/43/1_Atopic-eczema:cADpre-dogs_vs_Healthy-dogs_DOWN	NA	283734
+bsdb:1049/44/1_Atopic-eczema:cADtreat-dogs_vs_Healthy-dogs_UP	NA	246432
+bsdb:1049/44/2_Atopic-eczema:cADtreat-dogs_vs_Healthy-dogs_DOWN	NA	1282	1290
+bsdb:1049/45/1_Atopic-eczema:cADpost-dogs_vs_cADpre-dogs_DOWN	NA	1290
 bsdb:1051/1/1_Lung-cancer,Chronic-obstructive-pulmonary-disease:lung-cancer_vs_Benign-pulmonary-diseases_UP	NA	39488
 bsdb:1051/1/2_Lung-cancer,Chronic-obstructive-pulmonary-disease:lung-cancer_vs_Benign-pulmonary-diseases_DOWN	NA	438033
 bsdb:1051/4/1_Lung-cancer:moderate-pulmonary-dysfunction_vs_lung-cancer_UP	NA	142586

@@ -1,4 +1,4 @@
-# BugSigDB 2024-04-08_12:59_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2024-04-08_13:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	1654	1716	1301	162289	189330	33024	40544	2759736	1386
 bsdb:1/1/2_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	100883
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	207244	2759736
@@ -3379,6 +3379,8 @@ bsdb:932/3/1_Delivery-method:Elective-Cesarean-Section-(ECS)-at-Day-15_vs_Vagina
 bsdb:932/3/2_Delivery-method:Elective-Cesarean-Section-(ECS)-at-Day-15_vs_Vaginally-Delivered(VD)-at-Day-15_DOWN	NA	561	620	1678	816	544	906
 bsdb:932/4/1_Delivery-method:Elective-Cesarean-Section-(ECS)-at-Day-30_vs_Vaginally-Delivered(VD)-at-Day-30_UP	NA	547	570	544	1330545	568987	1164882
 bsdb:932/4/2_Delivery-method:Elective-Cesarean-Section-(ECS)-at-Day-30_vs_Vaginally-Delivered(VD)-at-Day-30_DOWN	NA	1678	816	375288	1716	39948	2701
+bsdb:932/5/1_Cesarean-section:Elective-Cesarean-Section-(ECS)-at-Day-0-vs.-Day-15-and-Day-30_vs_Vaginally-Delivered(VD)-at-Day-0-vs.-Day-15-and-Day-30_UP	NA	40323	286	2282523
+bsdb:932/7/1_Cesarean-section:Elective-Cesarean-Section-(ECS)-at-Day-30-vs.-Day-0-and-Day-15_vs_Vaginally-Delivered(VD)-at-Day-30-vs.-Day-0-and-Day-15_UP	NA	816	1678	572511	544	1485	1912216	547	1350	1730	724	570	1506553	160674	613	1301	29465	2759736
 bsdb:933/1/1_Cholestasis:Infantile--cholestasis-(IC)_vs_Healthy-Control-(CON)_UP	NA	156973	1506553	1301
 bsdb:933/1/2_Cholestasis:Infantile--cholestasis-(IC)_vs_Healthy-Control-(CON)_DOWN	NA	1501226	75	3025755	580880
 bsdb:935/1/1_Parkinson's-disease:Patients-with-Parkinson's-Disease_vs_Healthy-controls_UP	NA	816	239934	1905344	2172	1508657
@@ -3571,9 +3573,7 @@ bsdb:990/3/2_Colorectal-cancer:Living-bacteria-group_vs_Inactivated-bacteria-gro
 bsdb:991/1/1_Disease-staging:Melanoma-surface-of-pigs-with-Melanoma-progresssion_vs_Melanoma-surface-of-pigs-with-with-melanoma-regression_UP	NA	1654	816	194	44259	848	13075	31983	543311	162289	1257	836	1069494
 bsdb:991/1/2_Disease-staging:Melanoma-surface-of-pigs-with-Melanoma-progresssion_vs_Melanoma-surface-of-pigs-with-with-melanoma-regression_DOWN	NA	1578	497	1501226	191303	1350	1505652	227979	292480	66831	43668	37914	872	89092	841	1470540	216851	1269	572511	90243	46255	137460
 bsdb:993/1/1_Gut-microbiome-measurement:12-months_vs_3-months_UP	NA	239934	816	2974251
-bsdb:993/1/2_Gut-microbiome-measurement:12-months_vs_3-months_DOWN	NA	216851	724	375288	816
-bsdb:993/2/1_Gut-microbiome-measurement:12-months_vs_3-months_DOWN	NA	41254	1851509
-bsdb:993/2/2_Gut-microbiome-measurement:12-months_vs_3-months_UP	NA	5533
+bsdb:993/1/2_Gut-microbiome-measurement:12-months_vs_3-months_DOWN	NA	816
 bsdb:995/1/1_Parkinson's-disease:MPTP-Group_vs_Control-Group_UP	NA	1729679	1892380	375288	577310	1263
 bsdb:995/1/2_Parkinson's-disease:MPTP-Group_vs_Control-Group_DOWN	NA	2749846	2749267
 bsdb:995/2/1_Parkinson's-disease:MPTP-+-Acu-Group_vs_MPTP-Group_UP	NA	239759	1485	1649459	1506553	2304693	841	1348611
@@ -3680,8 +3680,8 @@ bsdb:1020/1/1_Esophageal-squamous-cell-carcinoma:EIESC_oral---Early-stage-intram
 bsdb:1020/1/2_Esophageal-squamous-cell-carcinoma:EIESC_oral---Early-stage-intramucosal-esophageal-squamous-carcinoma._vs_NC_oral---No-carcinoma._DOWN	NA	194	1485	68
 bsdb:1024/1/1_Alzheimer's-disease:Alzheimer's-disease_vs_Healthy-controls_UP	NA	244127	33042	644652	2316020	836	838	1266	292632	816
 bsdb:1024/1/2_Alzheimer's-disease:Alzheimer's-disease_vs_Healthy-controls_DOWN	NA	207244	816	572511	1298	946234	848	1506553	375288	909656	84108	1213720	3025755	662	1263	577310
-bsdb:1026/1/1_HIV-infection,SARS-coronavirus:PLWH-with-COVID-19-confirmed-by-SARS-CoV-2_vs_Healthy-Control_UP	NA	816	1331051	1716	1472649	84111	1164882	86331	162289	1263
-bsdb:1026/1/2_HIV-infection,SARS-coronavirus:PLWH-with-COVID-19-confirmed-by-SARS-CoV-2_vs_Healthy-Control_DOWN	NA	904	1766253	207244	580596	189330	1730	1407607	1506553	906	52225	841
+bsdb:1026/1/1_HIV-infection,SARS-coronavirus:SARS-CoV-2-infected-PLWH_vs_Uninfected-People-living-with-HIV-(PLWH)_UP	NA	84111	1263	239759	816
+bsdb:1026/1/2_HIV-infection,SARS-coronavirus:SARS-CoV-2-infected-PLWH_vs_Uninfected-People-living-with-HIV-(PLWH)_DOWN	NA	1766253	580596	189330	1730	1407607	906	52225
 bsdb:1027/1/1_Colorectal-carcinoma:Colorectal-cancer-(CRC)_vs_Healthy_UP	NA	469	1654	642	416916	239934	419014	156454	92793	1663	374	41275	574697	990721	1716	538	547	1350	33986	1434006	1378	117563	570	1506553	1578	158846	52225	86331	581	133925	375288	543311	1257	1743	113286	48736	160674	1827	196081	970	84108	123375	13687	1301
 bsdb:1027/2/1_Colorectal-carcinoma:hypoleukocytes_vs_normal-leukocytes_UP	NA	180162	84111	117563
 bsdb:1027/2/2_Colorectal-carcinoma:hypoleukocytes_vs_normal-leukocytes_DOWN	NA	990721	100883	1472762	1730	848	570	158846	459786	2729669	1849822	33024	1506577	1582879
@@ -3924,7 +3924,28 @@ bsdb:1049/24/2_Atopic-eczema:cAD-Treat_vs_Healthy-controls_DOWN	NA	1279
 bsdb:1049/25/1_Atopic-eczema:cAD-Post_vs_cADpre_UP	NA	1279
 bsdb:1049/26/2_Atopic-eczema:cAD-Pre_vs_Healthy-controls_DOWN	NA	1279
 bsdb:1049/27/1_Atopic-eczema:cAD-Treat_vs_Healthy-controls_UP	NA	1279
+bsdb:1049/28/1_Atopic-eczema:cAD-Post_vs_cADpre_UP	NA	1279
 bsdb:1049/29/1_Atopic-eczema:cAD-Pre_vs_Healthy-controls_DOWN	NA	1279
+bsdb:1049/30/1_Atopic-eczema:cADtreat-dogs_vs_Healthy-controls_UP	NA	1279
+bsdb:1049/31/1_Atopic-eczema:cADpost-dogs_vs_cADpre-dogs_UP	NA	1279
+bsdb:1049/31/2_Atopic-eczema:cADpost-dogs_vs_cADpre-dogs_DOWN	NA	1279
+bsdb:1049/32/1_Atopic-eczema:cADpre-dogs_vs_Healthy-dogs_DOWN	NA	1279
+bsdb:1049/33/1_Atopic-eczema:cADpost-dogs_vs_cADpre-dogs_UP	NA	1279
+bsdb:1049/34/1_Atopic-eczema:cADpre-dogs_vs_Healthy-dogs_UP	NA	1279
+bsdb:1049/35/1_Atopic-eczema:cADtreat-dogs_vs_Healthy-dogs_UP	NA	1279
+bsdb:1049/36/1_Atopic-eczema:cADpost-dogs_vs_cADpre-dogs_DOWN	NA	1279
+bsdb:1049/37/1_Atopic-eczema:cADPre-dogs_vs_Healthy-dogs_UP	NA	1279
+bsdb:1049/37/2_Atopic-eczema:cADPre-dogs_vs_Healthy-dogs_DOWN	NA	1279
+bsdb:1049/38/1_Atopic-eczema:cADtreat-dogs_vs_Healthy-dogs_UP	NA	1279
+bsdb:1049/39/1_Atopic-eczema:cADpost-dogs_vs_cADpre-dogs_UP	NA	1279
+bsdb:1049/40/1_Atopic-eczema:cADpre-dogs_vs_Healthy-dogs_UP	NA	2803850
+bsdb:1049/40/2_Atopic-eczema:cADpre-dogs_vs_Healthy-dogs_DOWN	NA	1279
+bsdb:1049/41/1_Atopic-eczema:cADpost-dogs_vs_cADpre-dogs_UP	NA	1279
+bsdb:1049/42/1_Atopic-eczema:cADpre-dogs_vs_Healthy-dogs_UP	NA	1279
+bsdb:1049/43/1_Atopic-eczema:cADpre-dogs_vs_Healthy-dogs_DOWN	NA	1279
+bsdb:1049/44/1_Atopic-eczema:cADtreat-dogs_vs_Healthy-dogs_UP	NA	1279
+bsdb:1049/44/2_Atopic-eczema:cADtreat-dogs_vs_Healthy-dogs_DOWN	NA	1279
+bsdb:1049/45/1_Atopic-eczema:cADpost-dogs_vs_cADpre-dogs_DOWN	NA	1279
 bsdb:1051/1/1_Lung-cancer,Chronic-obstructive-pulmonary-disease:lung-cancer_vs_Benign-pulmonary-diseases_UP	NA	2569097	1678	816
 bsdb:1051/1/2_Lung-cancer,Chronic-obstructive-pulmonary-disease:lung-cancer_vs_Benign-pulmonary-diseases_DOWN	NA	572511	292632	1164882	1649	1407607	2747	1743	33042	1263
 bsdb:1051/4/1_Lung-cancer:moderate-pulmonary-dysfunction_vs_lung-cancer_UP	NA	1730	1357	1926677	1501226	292632
