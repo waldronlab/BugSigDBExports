@@ -1,4 +1,4 @@
-# BugSigDB 2024-04-09_10:59_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2024-04-09_11:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	1654	1716	1301	162289	189330	33024	40544	1386
 bsdb:1/1/2_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	100883
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	207244
@@ -2772,6 +2772,7 @@ bsdb:925/3/1_Parkinson's-disease:Ropinirole-treatment-group-(R)_vs_Vehicle-group
 bsdb:925/4/1_Parkinson's-disease:Dopamine-treatment-group-(D)_vs_Vehicle-group-(VH)_UP	NA	1578	174708	459786
 bsdb:925/4/2_Parkinson's-disease:Dopamine-treatment-group-(D)_vs_Vehicle-group-(VH)_DOWN	NA	31980	239934	239759	872	580024	1918540	459786	577310	816	841
 bsdb:925/5/1_Parkinson's-disease:Pramipexole-treatment-group-(P)_vs_Vehicle-group-(VH)_UP	NA	174708	1578	1937007	1678	1506577	459786
+bsdb:925/5/2_Parkinson's-disease:Pramipexole-treatment-group-(P)_vs_Vehicle-group-(VH)_DOWN	NA	31980	239934	239759	872	580024	459786	28138
 bsdb:925/6/1_Parkinson's-disease:Ropinirole-treatment-group-(R)_vs_Vehicle-group-(VH)_UP	NA	1937007	174708	1578
 bsdb:925/6/2_Parkinson's-disease:Ropinirole-treatment-group-(R)_vs_Vehicle-group-(VH)_DOWN	NA	841
 bsdb:927/1/1_Behcet's-syndrome:Untreated-active-Behcet's-disease-(BD)-patients_vs_Healthy-Control_UP	NA	816
@@ -2804,6 +2805,7 @@ bsdb:935/1/2_Parkinson's-disease:Patients-with-Parkinson's-Disease_vs_Healthy-co
 bsdb:935/2/1_Parkinson's-disease:Patients-with-Parkinson's-Disease_vs_Diseased-Controls_UP	NA	447020	239934	239759	207244	191	1485	1407607	2039302	1501226	172900	2023266
 bsdb:935/2/2_Parkinson's-disease:Patients-with-Parkinson's-Disease_vs_Diseased-Controls_DOWN	NA	1654	1380	29521	574697	135858	102106	1348911	1940255	724	1573535	1578	133925	577309	838	146	1301	674963	1506577
 bsdb:936/1/1_Breast-carcinoma:Vulvovaginal-symptoms_vs_Non-vulvovaginal-symptoms-(control)_UP	NA	2701	168808	236752	419014	162289
+bsdb:937/1/1_Female-infertility:Non-pregnant-(FN)_vs_Clinical-pregnancy-(FP)_UP	NA	1578	841	434	48463	216851	204475	46255	724	848	33024
 bsdb:941/1/1_Abnormal-sperm-morphology:Asthenozoospermia_vs_Healthy-Control_UP	NA	416916	1283313	191	872	61170	1578	577310	33024
 bsdb:942/1/1_Stroke:Cerebral-ischemic-stroke-patients_vs_Healthy-individuals_UP	NA	459786	434	283168	102106	872	442430
 bsdb:942/1/2_Stroke:Cerebral-ischemic-stroke-patients_vs_Healthy-individuals_DOWN	NA	191
@@ -2941,10 +2943,10 @@ bsdb:977/5/1_COVID-19:viral-load(>7.5)_vs_viral-load(≤7.5	)_UP	NA	2147	816	836
 bsdb:977/5/2_COVID-19:viral-load(>7.5)_vs_viral-load(≤7.5	)_DOWN	NA	1350	1378	286
 bsdb:977/6/1_COVID-19:Hospitalized-patients_vs_local-controls_UP	NA	1654	1283313	1380	82202	2767887	2742598	906	838	123375	29465
 bsdb:977/6/2_COVID-19:Hospitalized-patients_vs_local-controls_DOWN	NA	713	194195	2060094	1386	816	1678	572511	43996	216851	150022	1378	724	47670	1847725	1840214	482	265975	1263	1279	1213720	195950	157
-bsdb:978/1/1_Digestive-System-Carcinoma:Non-responders-to-anti–PD-1/PD-L1-immunotherapy_vs_Responders-to-anti–PD-1/PD-L1-immunotherapy_UP	NA	39948	28050	375288
-bsdb:978/1/2_Digestive-System-Carcinoma:Non-responders-to-anti–PD-1/PD-L1-immunotherapy_vs_Responders-to-anti–PD-1/PD-L1-immunotherapy_DOWN	NA	816	135858	1649459
-bsdb:978/2/1_Colorectal-cancer:Non-responders-(colorectal-cancer---CRC)_vs_Responders-(colorectal-cancer---CRC)_UP	NA	816	39948	946234	1506553	28050	375288
-bsdb:978/2/2_Colorectal-cancer:Non-responders-(colorectal-cancer---CRC)_vs_Responders-(colorectal-cancer---CRC)_DOWN	NA	816	1678	1506553	283168	459786	375288	292632
+bsdb:978/1/1_Digestive-System-Carcinoma:Responders-to-anti–PD-1/PD-L1-immunotherapy_vs_Non-responders-to-anti–PD-1/PD-L1-immunotherapy_UP	NA	39948	28050	375288
+bsdb:978/1/2_Digestive-System-Carcinoma:Responders-to-anti–PD-1/PD-L1-immunotherapy_vs_Non-responders-to-anti–PD-1/PD-L1-immunotherapy_DOWN	NA	816	135858	1649459
+bsdb:978/2/1_Colorectal-cancer:Responders-(colorectal-cancer---CRC)_vs_Non-responders-(colorectal-cancer---CRC)_UP	NA	816	39948	946234	1506553	28050	375288
+bsdb:978/2/2_Colorectal-cancer:Responders-(colorectal-cancer---CRC)_vs_Non-responders-(colorectal-cancer---CRC)_DOWN	NA	816	1678	1506553	283168	459786	375288	292632
 bsdb:978/3/1_Esophageal-carcinoma:Non-responders-(esophageal-carcinoma)_vs_Responders-(esophageal-carcinoma)_UP	NA	816	39948	577309	577310	33024
 bsdb:978/3/2_Esophageal-carcinoma:Non-responders-(esophageal-carcinoma)_vs_Responders-(esophageal-carcinoma)_DOWN	NA	28050	816	248744	1649459	1578	1485
 bsdb:978/4/1_Gastric-cancer:Non-responders-(gastric-cancer)_vs_Responders-(gastric-cancer)_UP	NA	1678	28050	816	1766253
@@ -2976,6 +2978,8 @@ bsdb:991/2/1_Disease-staging:Melanoma-tissue-of-pigs-with-Melanoma-progression_v
 bsdb:991/2/2_Disease-staging:Melanoma-tissue-of-pigs-with-Melanoma-progression_vs_Melanoma-tissue-of-pigs-with-with-melanoma-regression_DOWN	NA	1350	469	1678	1578	1912216	102106	547	189330	1386	216851	572511	713	40323	68287	407	49082
 bsdb:991/3/1_Cutaneous-melanoma:melanoma-surface-from-black-pigs_vs_healthy-skin_UP	NA	469	137460	292480	572511	43668	1696	1716	37914	1350	66831	216851	89092	1470540	227979	57493	1649	1578	149698	90243	286	497	1501226	841	13687	1505652	191303	46255
 bsdb:991/3/2_Cutaneous-melanoma:melanoma-surface-from-black-pigs_vs_healthy-skin_DOWN	NA	848	31983	475	162289	1257	1279	1301
+bsdb:991/4/1_Cutaneous-melanoma:melanoma-tissue-from-black-pigs_vs_healthy-skin_UP	NA	469	137460	82373	292480	572511	43668	1696	37914	1350	66831	216851	237	89092	53457	1470540	227979	57493	1649	1578	149698	1269	475	90243	286	497	1501226	841	32207	13687	1505652	191303	46255	96492
+bsdb:991/4/2_Cutaneous-melanoma:melanoma-tissue-from-black-pigs_vs_healthy-skin_DOWN	NA	848	1279	1069494	1257	162289	543311	1678	816	1912216
 bsdb:993/1/2_Gut-microbiome-measurement:12-months_vs_3-months_DOWN	NA	816
 bsdb:995/1/1_Parkinson's-disease:MPTP-Group_vs_Control-Group_UP	NA	1729679	1892380	375288	577310
 bsdb:995/1/2_Parkinson's-disease:MPTP-Group_vs_Control-Group_DOWN	NA	2749267
