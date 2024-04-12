@@ -1,4 +1,4 @@
-# BugSigDB 2024-04-12_13:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2024-04-12_14:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	1654	1716	1301	162289	189330	33024	40544	2759736	1386
 bsdb:1/1/2_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	100883
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	207244	2759736
@@ -3142,6 +3142,8 @@ bsdb:863/1/2_Eczema,Urticaria:Atopic-dermatitis-(eczema)_vs_Chronic-urticaria-(h
 bsdb:863/2/1_Eczema,Allergic-rhinitis:Atopic-dermatitis-(eczema)_vs_Allergic-rhinitis_UP	NA	1501226	40544
 bsdb:863/2/2_Eczema,Allergic-rhinitis:Atopic-dermatitis-(eczema)_vs_Allergic-rhinitis_DOWN	NA	1380	1730
 bsdb:864/1/1_Diet:Post-fed-group-at-1230-h_vs_Pre-fed-group-at-1100-h_UP	NA	150247	28196	1386	180162	544	551	129337	47420	227979	1578	1357	1243	265	1257	657	838	583	497	67572	1279	1301	285105	270	2737	629	58050	623282	84406	1569	160795	12960	2800384	119541	165812
+bsdb:864/4/1_Diet:Post-fed-group-at-2000-h_vs_Pre-fed-group-at-1100-h_UP	NA	150247	28196	12960	1386	180162	544	551	129337	47420	227979	1578	1357	1243	58050	265	1257	657	838	583	2800384	623282	497	67572	119541	165812	1569	1279	285105	270	160795	2737	84406	629
+bsdb:864/4/2_Diet:Post-fed-group-at-2000-h_vs_Pre-fed-group-at-1100-h_DOWN	NA	1301
 bsdb:865/1/1_Colorectal-cancer-cell-line:azoxymethane/dextran-sodiumsulfate-(AOM/DSS)-group-at-week-10-(AD10-group)_vs_control-group-at-week-10-(C10-group)_DOWN	NA	239759	1485	872	283168
 bsdb:865/1/2_Colorectal-cancer-cell-line:azoxymethane/dextran-sodiumsulfate-(AOM/DSS)-group-at-week-10-(AD10-group)_vs_control-group-at-week-10-(C10-group)_UP	NA	816	1730	209	1392389	375288	1301
 bsdb:866/1/1_Intestinal-polyp:Patients-with-low-grade-colorectal-polyps-cohort_vs_Polyp-free-control-patients_UP	NA	904	239759	2039240	816	102106	2316020	375288	1263
@@ -3515,7 +3517,7 @@ bsdb:961/1/1_Parkinson's-disease:MPTP-(untreated-PD-mice)_vs_Control-(CON-groups
 bsdb:961/1/2_Parkinson's-disease:MPTP-(untreated-PD-mice)_vs_Control-(CON-groups)_DOWN	NA	1331051	209	283168	2129
 bsdb:961/2/1_Clinical-treatment:MPTP-(untreated-PD-mice)_vs_FGF21-+-MPTP-mice-(mice-treated-with-Fibroblast-growth-factor-21-(FGF21))_UP	NA	2803850	1279
 bsdb:961/2/2_Clinical-treatment:MPTP-(untreated-PD-mice)_vs_FGF21-+-MPTP-mice-(mice-treated-with-Fibroblast-growth-factor-21-(FGF21))_DOWN	NA	1331051	1508657
-bsdb:965/1/1_COVID-19:COVID-19-patients_vs_healthy-controls_UP	NA	1386	32008	1016	1350	1378	397456	724	32067	475	482	838	1279	1301	29465	233189	32207
+bsdb:965/1/1_COVID-19:COVID-19-patients_vs_healthy-controls_UP	NA	233189	1386	32008	1016	1350	1378	397456	724	32067	475	482	838	32207	1279	1301	29465
 bsdb:965/1/2_COVID-19:COVID-19-patients_vs_healthy-controls_DOWN	NA	1766253	239934	239759	816	1678	572511	216851	1918511	33024	1263	292632
 bsdb:965/2/1_COVID-19:COVID-19-patients_vs_NO-COVID-19-(Patients-with-diagnosis-different-from-COVID-19)_UP	NA	39948
 bsdb:965/2/2_COVID-19:COVID-19-patients_vs_NO-COVID-19-(Patients-with-diagnosis-different-from-COVID-19)_DOWN	NA	1283313	848	47670	265	13687
@@ -4105,10 +4107,12 @@ bsdb:1066/1/1_Polycystic-ovary-syndrome:Polycystic-ovary-syndrome-(PCOS)-patient
 bsdb:1066/1/2_Polycystic-ovary-syndrome:Polycystic-ovary-syndrome-(PCOS)-patients_vs_Healthy-Controls_DOWN	NA	5052
 bsdb:1067/1/1_Acquired-primary-ovarian-failure:POF_vs_healthy-controls_UP	NA	2701	838	816	168808	39948	165779
 bsdb:1067/1/2_Acquired-primary-ovarian-failure:POF_vs_healthy-controls_DOWN	NA	1578
-bsdb:1070/4/1_Hypertension:Hypertension-(HTN)_vs_no-Hypertension-(healthy-controls)_UP	NA	4910	113604	5340
-bsdb:1070/4/2_Hypertension:Hypertension-(HTN)_vs_no-Hypertension-(healthy-controls)_DOWN	NA	410829	5529	1047167	5260	148303
-bsdb:1070/5/1_Hypertension:Hypertension-(HTN)_vs_no-Hypertension-(healthy-controls)_UP	NA	1915381	229219	148959
-bsdb:1070/5/2_Hypertension:Hypertension-(HTN)_vs_no-Hypertension-(healthy-controls)_DOWN	NA	37840	5021	4943	766733	4948
+bsdb:1070/4/1_Hypertension:Hypertension-(HTN)_vs_no-Hypertension-(no-HTN)_UP	NA	4910	113604	5340
+bsdb:1070/4/2_Hypertension:Hypertension-(HTN)_vs_no-Hypertension-(no-HTN)_DOWN	NA	5260	5529	410829	1047167	148303
+bsdb:1070/5/1_Hypertension:Hypertension-(HTN)_vs_no-Hypertension-(no-HTN)_UP	NA	1915381	229219	148959
+bsdb:1070/5/2_Hypertension:Hypertension-(HTN)_vs_no-Hypertension-(no-HTN)_DOWN	NA	5021	37840	766733	4948	4943
+bsdb:1070/6/1_Hypertension:Hypertension-(HTN)_vs_no-Hypertension-(no-HTN)_UP	NA	5206	5455	4815	4948	460517
+bsdb:1070/6/2_Hypertension:Hypertension-(HTN)_vs_no-Hypertension-(no-HTN)_DOWN	NA	80635
 bsdb:1071/1/1_Psoriasis:Psoriasis_vs_Healthy-Control-(HC)_UP	NA	216851	204475	158846	638847	2753
 bsdb:1071/1/2_Psoriasis:Psoriasis_vs_Healthy-Control-(HC)_DOWN	NA	848	816
 bsdb:1071/2/1_Psoriasis:Psoriasis-Vulgaris_vs_Pustular-Psoriasis_DOWN	NA	118966	216851
