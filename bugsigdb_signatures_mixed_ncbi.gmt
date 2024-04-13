@@ -1,4 +1,4 @@
-# BugSigDB 2024-04-13_06:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2024-04-13_07:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	91061	1236	1654	1716	1301	162289	189330	33024	40544	2037	2049	506	186826	1300	31977	91347	1653	57037	1386	186817
 bsdb:1/1/2_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	100883	1117
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	207244	57037
@@ -3511,6 +3511,7 @@ bsdb:856/1/2_Dry-eye-syndrome:Diabetic-children-with-Dry-Eye-Disease-(DM-DE)_vs_
 bsdb:856/2/1_Dry-eye-syndrome:Diabetic-children-with-Dry-Eye-Disease-(DM-DE)_vs_Normal-healthy-(NDM)-children_UP	NA	201174	5794	4890	813	547	562	1403934	1769	36330	28901	662
 bsdb:856/2/2_Dry-eye-syndrome:Diabetic-children-with-Dry-Eye-Disease-(DM-DE)_vs_Normal-healthy-(NDM)-children_DOWN	NA	40214	1239	1351	1224	1280	1313
 bsdb:857/1/1_Parkinson's-disease:Parkinson's-disease_vs_Healthy-controls_UP	NA	904	1350	469	158846	906	583	1301	1940338
+bsdb:857/1/2_Parkinson's-disease:Parkinson's-disease_vs_Healthy-controls_DOWN	NA	572511	216851	1263
 bsdb:858/1/1_Social-anxiety-disorder:Patients-with-Social-Anxiety-Disorder-(SAD)_vs_Healthy-controls_UP	NA	1924093	1965604	644652
 bsdb:858/1/2_Social-anxiety-disorder:Patients-with-Social-Anxiety-Disorder-(SAD)_vs_Healthy-controls_DOWN	NA	577310	487175
 bsdb:859/1/1_Biliary-atresia:Post24-+-m_vs_Children-with-BA-before---[pre]_UP	NA	171549	200643	186801	84999	84998	28221	213115	526525	526524	186802
@@ -3610,10 +3611,6 @@ bsdb:883/3/1_SARS-CoV-2-related-disease:Delta-infected-patients_vs_Omicron-infec
 bsdb:883/3/2_SARS-CoV-2-related-disease:Delta-infected-patients_vs_Omicron-infected-patients_DOWN	NA	33053	42190	531813	28124	1583331	28132	287	306	43675	29380	1156431	1304	2588991	39777	2682456	1110546	1435069
 bsdb:884/1/1_Diabetic-nephropathy:Diabetic-nephropathy-(DN)_vs_healthy-controls-(CON)_UP	NA	1470347	46506	2033407	469591	1032506	1262979
 bsdb:884/2/1_Diabetes-mellitus:type-2-diabetes-mellitus-(T2DM)_vs_healthy-controls-(CON)_UP	NA	2763023	2162637	1262834	97478	2293114	1262936	39778
-bsdb:885/4/1_COVID-19:Mild/Moderate_vs_Pneumonia-control_UP	NA	209880	1485	33042	853	186803	1980693	1776391	1263
-bsdb:885/4/2_COVID-19:Mild/Moderate_vs_Pneumonia-control_DOWN	NA	239935	2039240	487174	208479	1350	261299	186803	1578	33025	1550024
-bsdb:885/5/1_COVID-19:Healthy-Control_vs_Covid-19-Patients_UP	NA	209880	1485	33042	853	186803	1980693	1776391	1263
-bsdb:885/5/2_COVID-19:Healthy-Control_vs_Covid-19-Patients_DOWN	NA	239935	2039240	487174	208479	1350	261299	186803	1578	33025	1550024
 bsdb:886/1/1_Ascariasis:Ascaris-suum-infected-piglets_vs_Uninfected-piglets_DOWN	NA	2037	201174	186827	1375	186817	1386	28216	186828	1485	1653	1716	51514	526524	832	218872	204430	65842	203490	32066	2590211	414999	375288	577309	112	171551	838	203692	1279	1300	1301	82802	74201	46255
 bsdb:886/1/2_Ascariasis:Ascaris-suum-infected-piglets_vs_Uninfected-piglets_UP	NA	33958	186826	1578	838	171552
 bsdb:886/2/1_Ascariasis:Ascaris-suum-infected-piglets_vs_Uninfected-piglets_DOWN	NA	544	186803	2093	2092	2085	841
@@ -3918,8 +3915,8 @@ bsdb:946/2/1_Parkinson's-disease:PD:-Individuals-with-Parkinson's-disease_vs_PC:
 bsdb:946/2/2_Parkinson's-disease:PD:-Individuals-with-Parkinson's-disease_vs_PC:-healthy-population-controls-without-Parkinson's-Disease_DOWN	NA	853	1262988	39485	216851	830
 bsdb:949/8/1_Ascariasis:Ascaris-suum-(Females)_vs_Ascaris-summ-(Males)_UP	NA	1506	187979	838	1505652
 bsdb:949/8/2_Ascariasis:Ascaris-suum-(Females)_vs_Ascaris-summ-(Males)_DOWN	NA	1283313	1506	39948	832	838	841	1263	292632	701526
-bsdb:949/9/1_Ascariasis:Ascaris-suum-(Parasite)-Microbiome_vs_Host-(Pig)-Microbiome_UP	NA	1766253	1283313	653683	1506	1940338	28050	1578	838	286	841	1263	1301
-bsdb:949/9/2_Ascariasis:Ascaris-suum-(Parasite)-Microbiome_vs_Host-(Pig)-Microbiome_DOWN	NA	1505660	1678	1506	1578	906	2740	838	1302778
+bsdb:949/9/1_Ascariasis:Parasite-(Ascaris-suum)-Microbiome_vs_Host-(Pig)-Microbiome_UP	NA	1766253	1283313	653683	1506	1940338	28050	1578	838	286	841	1263	1301
+bsdb:949/9/2_Ascariasis:Parasite-(Ascaris-suum)-Microbiome_vs_Host-(Pig)-Microbiome_DOWN	NA	1505660	1678	1506	1578	906	2740	838	1302778
 bsdb:950/1/1_Diarrhea:Acutely-diarrheic-American-Shorthair_vs_healthy-American-Shorthair_UP	NA	2005473	165179
 bsdb:950/1/2_Diarrhea:Acutely-diarrheic-American-Shorthair_vs_healthy-American-Shorthair_DOWN	NA	123375	135858	1506577	39948
 bsdb:950/2/1_Diarrhea:Acutely-diarrheic-British-shorthair_vs_healthy-British-Shorthair_UP	NA	165179

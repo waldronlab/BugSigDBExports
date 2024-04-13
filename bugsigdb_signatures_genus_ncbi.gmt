@@ -1,4 +1,4 @@
-# BugSigDB 2024-04-13_06:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2024-04-13_07:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	1654	1716	1301	162289	189330	33024	40544	2759736	1386
 bsdb:1/1/2_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	100883
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	207244	2759736
@@ -3130,6 +3130,7 @@ bsdb:856/1/2_Dry-eye-syndrome:Diabetic-children-with-Dry-Eye-Disease-(DM-DE)_vs_
 bsdb:856/2/1_Dry-eye-syndrome:Diabetic-children-with-Dry-Eye-Disease-(DM-DE)_vs_Normal-healthy-(NDM)-children_UP	NA	810	547	561	1243	1763	5820	590	662
 bsdb:856/2/2_Dry-eye-syndrome:Diabetic-children-with-Dry-Eye-Disease-(DM-DE)_vs_Normal-healthy-(NDM)-children_DOWN	NA	469	1350	1279	1301
 bsdb:857/1/1_Parkinson's-disease:Parkinson's-disease_vs_Healthy-controls_UP	NA	904	1350	469	158846	906	583	1301
+bsdb:857/1/2_Parkinson's-disease:Parkinson's-disease_vs_Healthy-controls_DOWN	NA	572511	216851	1263
 bsdb:858/1/1_Social-anxiety-disorder:Patients-with-Social-Anxiety-Disorder-(SAD)_vs_Healthy-controls_UP	NA	1924093	644652
 bsdb:858/1/2_Social-anxiety-disorder:Patients-with-Social-Anxiety-Disorder-(SAD)_vs_Healthy-controls_DOWN	NA	577310
 bsdb:862/1/1_Bronchiectasis:Severe-bronchiectasis_vs_Less-severe-bronchiectasis_UP	NA	286	40323
@@ -3216,10 +3217,6 @@ bsdb:883/3/1_SARS-CoV-2-related-disease:Delta-infected-patients_vs_Omicron-infec
 bsdb:883/3/2_SARS-CoV-2-related-disease:Delta-infected-patients_vs_Omicron-infected-patients_DOWN	NA	482	528	1082930	836	838	286	32207	1279	1301	29465	662
 bsdb:884/1/1_Diabetic-nephropathy:Diabetic-nephropathy-(DN)_vs_healthy-controls-(CON)_UP	NA	239759	816	397864	375288	838	195950
 bsdb:884/2/1_Diabetes-mellitus:type-2-diabetes-mellitus-(T2DM)_vs_healthy-controls-(CON)_UP	NA	816	1485	2742598	375288	838	29465
-bsdb:885/4/1_COVID-19:Mild/Moderate_vs_Pneumonia-control_UP	NA	209879	1485	33042	216851	1980693	1501226	1263
-bsdb:885/4/2_COVID-19:Mild/Moderate_vs_Pneumonia-control_DOWN	NA	239934	2039240	397864	2719313	1350	1505657	1578	33024	1905344
-bsdb:885/5/1_COVID-19:Healthy-Control_vs_Covid-19-Patients_UP	NA	209879	1485	33042	216851	1980693	1501226	1263
-bsdb:885/5/2_COVID-19:Healthy-Control_vs_Covid-19-Patients_DOWN	NA	239934	2039240	397864	2719313	1350	1505657	1578	33024	1905344
 bsdb:886/1/1_Ascariasis:Ascaris-suum-infected-piglets_vs_Uninfected-piglets_DOWN	NA	1375	1386	1485	1716	51514	832	375288	577309	838	1279	1301	82802	46255
 bsdb:886/1/2_Ascariasis:Ascaris-suum-infected-piglets_vs_Uninfected-piglets_UP	NA	1578	838
 bsdb:886/2/1_Ascariasis:Ascaris-suum-infected-piglets_vs_Uninfected-piglets_DOWN	NA	544	2093	841
@@ -3436,8 +3433,8 @@ bsdb:946/2/1_Parkinson's-disease:PD:-Individuals-with-Parkinson's-disease_vs_PC:
 bsdb:946/2/2_Parkinson's-disease:PD:-Individuals-with-Parkinson's-disease_vs_PC:-healthy-population-controls-without-Parkinson's-Disease_DOWN	NA	216851	28050	830
 bsdb:949/8/1_Ascariasis:Ascaris-suum-(Females)_vs_Ascaris-summ-(Males)_UP	NA	1485	52225	838	1505652
 bsdb:949/8/2_Ascariasis:Ascaris-suum-(Females)_vs_Ascaris-summ-(Males)_DOWN	NA	1283313	1485	39948	832	838	841	1263	292632	1301
-bsdb:949/9/1_Ascariasis:Ascaris-suum-(Parasite)-Microbiome_vs_Host-(Pig)-Microbiome_UP	NA	1766253	1283313	653683	1485	28050	1578	838	286	841	1263	1301
-bsdb:949/9/2_Ascariasis:Ascaris-suum-(Parasite)-Microbiome_vs_Host-(Pig)-Microbiome_DOWN	NA	1505660	1678	1485	1578	906	2740	838	1302778
+bsdb:949/9/1_Ascariasis:Parasite-(Ascaris-suum)-Microbiome_vs_Host-(Pig)-Microbiome_UP	NA	1766253	1283313	653683	1485	28050	1578	838	286	841	1263	1301
+bsdb:949/9/2_Ascariasis:Parasite-(Ascaris-suum)-Microbiome_vs_Host-(Pig)-Microbiome_DOWN	NA	1505660	1678	1485	1578	906	2740	838	1302778
 bsdb:950/1/1_Diarrhea:Acutely-diarrheic-American-Shorthair_vs_healthy-American-Shorthair_UP	NA	2974251
 bsdb:950/1/2_Diarrhea:Acutely-diarrheic-American-Shorthair_vs_healthy-American-Shorthair_DOWN	NA	123375	135858	1506577	39948
 bsdb:950/2/1_Diarrhea:Acutely-diarrheic-British-shorthair_vs_healthy-British-Shorthair_UP	NA	2974251
