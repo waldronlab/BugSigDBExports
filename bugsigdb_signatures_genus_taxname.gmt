@@ -1,4 +1,4 @@
-# BugSigDB 2024-04-16_14:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2024-04-16_15:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	Actinomyces	Corynebacterium	Streptococcus	Peptoniphilus	Dorea	Phascolarctobacterium	Sutterella	Lacticaseibacillus	Bacillus
 bsdb:1/1/2_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	Coprobacillus
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	Anaerostipes	Lacticaseibacillus
@@ -3625,9 +3625,10 @@ bsdb:985/1/2_Chronic-kidney-disease:Chronic-Kidney-Disease_vs_Healthy-Controls_D
 bsdb:987/1/1_Cesarean-section:Cesarean-Section-Diverticulum_vs_Healthy-Control_UP	NA	Bacteroides	Enterococcus	Gardnerella	Paraburkholderia	Prevotella	Ralstonia	Sphingomonas	Streptococcus
 bsdb:987/1/2_Cesarean-section:Cesarean-Section-Diverticulum_vs_Healthy-Control_DOWN	NA	Lactobacillus	Faecalibaculum
 bsdb:988/1/1_Mycobacterium-tuberculosis:Untreated-TB-Group-(UTG)_vs_Healthy-Control-Group-(HCG)_UP	NA	Pasteurella	Staphylococcus	Ralstonia
+bsdb:988/1/2_Mycobacterium-tuberculosis:Untreated-TB-Group-(UTG)_vs_Healthy-Control-Group-(HCG)_DOWN	NA	Ralstonia	Staphylococcus
 bsdb:988/2/1_Mycobacterium-tuberculosis:Untreated-TB-Group-(LCG)_vs_Lung-Cancer-Group-(LCG)_UP	NA	Pasteurella	Staphylococcus	Ralstonia
-bsdb:988/3/1_Mycobacterium-tuberculosis:Untreated-TB-Group-(UTG)_vs_Cured-TB-Group-(CTG)_UP	NA	Staphylococcus	Pasteurella
-bsdb:988/4/1_Mycobacterium-tuberculosis:Cured-pulmonary-TB-group-(CTG)_vs_Healthy-control-group-(HCG)_DOWN	NA	Klebsiella	Neisseria	Prevotella	Ralstonia
+bsdb:988/2/2_Mycobacterium-tuberculosis:Untreated-TB-Group-(LCG)_vs_Lung-Cancer-Group-(LCG)_DOWN	NA	Prevotella	Streptomyces
+bsdb:988/3/1_Mycobacterium-tuberculosis:Untreated-TB-Group-(UTG)_vs_Cured-TB-Group-(CTG)_UP	NA	Pasteurella	Staphylococcus
 bsdb:989/1/1_Colitis:DSS-+-BAC-Group_vs_DSS-Group_UP	NA	Bacteroides	Barnesiella	Bifidobacterium	Muribaculum	Ligilactobacillus
 bsdb:989/1/2_Colitis:DSS-+-BAC-Group_vs_DSS-Group_DOWN	NA	Alistipes	Bifidobacterium	Clostridioides	Enterocloster	Faecalibacterium	Faecalibaculum	Flavonifractor	Lachnoclostridium	Oscillibacter	Pseudoflavonifractor	Roseburia	Salmonella
 bsdb:990/1/1_Colorectal-cancer:Living-bacteria-group-(LB)_vs_Tumor-control-group-(CK)_UP	NA	Coprococcus	Enterobacter	Escherichia	Lactobacillus	Oscillospira	Prevotella	Roseburia	Turicibacter
@@ -3680,10 +3681,10 @@ bsdb:998/1/2_Parkinson's-disease:PD-patients_vs_Controls_DOWN	NA	Anaerostipes	Ba
 bsdb:998/2/1_Parkinson's-disease:PD-patients_vs_Controls_DOWN	NA	Blautia	Dorea	Meiothermus	Nesterenkonia
 bsdb:998/3/1_Parkinson's-disease:PD-patients_vs_Controls_UP	NA	Cronobacter	Nocardioides	Planctomyces	Rathayibacter	Syntrophobacter
 bsdb:998/3/2_Parkinson's-disease:PD-patients_vs_Controls_DOWN	NA	Bacteroides	Blautia	Elizabethkingia	Erythrobacter	Finegoldia	Halomonas	Pseudonocardia	Thermoanaerobacterium
-bsdb:999/1/1_Abnormality-of-iron-homeostasis:Ferrous-sulfate-(FS)-treated-pups-(PD-15)_vs_Vehicle-control-supplemented-(CON)-pups_UP	NA	Acetatifactor	Aerococcus	Anaeroplasma	Butyricicoccus	Dorea	Faecalibaculum	Flavonifractor	Harryflintia	Papillibacter	Ruminococcus	Tyzzerella	Ruminiclostridium
-bsdb:999/1/2_Abnormality-of-iron-homeostasis:Ferrous-sulfate-(FS)-treated-pups-(PD-15)_vs_Vehicle-control-supplemented-(CON)-pups_DOWN	NA	Adlercreutzia	Alistipes	Bifidobacterium	Brachybacterium	Brevibacterium	Butyrivibrio	Candidatus Soleaferrea	Enterococcus	Facklamia	Jeotgalicoccus	Lactobacillus	Marvinbryantia	Parasutterella	Staphylococcus	Streptococcus	Turicibacter	Yaniella	Massiliimalia
-bsdb:999/3/1_Abnormality-of-iron-homeostasis:Iron-treated-pups_vs_Vehicle-control-(CON)_DOWN	NA	Bifidobacterium	Lactobacillus	Turicibacter	Adlercreutzia	Parasutterella	Staphylococcus	Jeotgalicoccus	Facklamia	Brevibacterium	Brachybacterium	Yaniella	Streptococcus	Marvinbryantia	Enterococcus	Alistipes	Butyrivibrio
-bsdb:999/3/2_Abnormality-of-iron-homeostasis:Iron-treated-pups_vs_Vehicle-control-(CON)_UP	NA	Tyzzerella	Papillibacter
+bsdb:999/1/1_Abnormality-of-iron-homeostasis:Ferrous-sulfate-(FS)-treated-pups-(PD-15)_vs_Vehicle-control-supplemented-(CON)-pups_UP	NA	Acetatifactor	Aerococcus	Anaeroplasma	Butyricicoccus	Dorea	Faecalibaculum	Flavonifractor	Harryflintia	Papillibacter	Ruminiclostridium	Ruminococcus	Tyzzerella
+bsdb:999/1/2_Abnormality-of-iron-homeostasis:Ferrous-sulfate-(FS)-treated-pups-(PD-15)_vs_Vehicle-control-supplemented-(CON)-pups_DOWN	NA	Adlercreutzia	Alistipes	Bifidobacterium	Brachybacterium	Brevibacterium	Butyrivibrio	Candidatus Soleaferrea	Enterococcus	Facklamia	Jeotgalicoccus	Lactobacillus	Marvinbryantia	Massiliimalia	Parasutterella	Staphylococcus	Streptococcus	Turicibacter	Yaniella
+bsdb:999/3/1_Abnormality-of-iron-homeostasis:Ferrous-bis-glycinate-chelate-(FC)-treated-pups-(PD-15)_vs_Ferrous-sulfate-(FS)-treated-pups-(PD-15)_UP	NA	Allobaculum	Dubosiella	Streptococcus	Candidatus Soleaferrea
+bsdb:999/3/2_Abnormality-of-iron-homeostasis:Ferrous-bis-glycinate-chelate-(FC)-treated-pups-(PD-15)_vs_Ferrous-sulfate-(FS)-treated-pups-(PD-15)_UP	NA	Tyzzerella	Papillibacter
 bsdb:999/4/1_Abnormality-of-iron-homeostasis:Ferrous-bis-glycinate-chelate-(Ferrochel,-FC)_vs_Vehicle-control-(CON)_UP	NA	Brachybacterium	Brevibacterium	Caldicoprobacter	Facklamia	Papillibacter	Yaniella
 bsdb:999/4/2_Abnormality-of-iron-homeostasis:Ferrous-bis-glycinate-chelate-(Ferrochel,-FC)_vs_Vehicle-control-(CON)_DOWN	NA	Acetitomaculum	Adlercreutzia	Alistipes	Anaerostipes	Bacteroides	Bifidobacterium	Blautia	Butyricicoccus	Dorea	Eubacterium	Intestinimonas	Lachnoclostridium	Parasutterella	Roseburia	Barnesiella
 bsdb:999/5/1_Abnormality-of-iron-homeostasis:Ferrous-sulfate-(FS)_vs_Vehicle-control-(CON)_DOWN	NA	Anaerofustis	Enterococcus	Eubacterium	Lactobacillus	Merdimmobilis	Staphylococcus	Streptococcus	Turicibacter

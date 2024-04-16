@@ -1,4 +1,4 @@
-# BugSigDB 2024-04-16_14:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2024-04-16_15:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	91061	1236	1654	1716	1301	162289	189330	33024	40544	2037	2049	506	186826	1300	31977	91347	1653	57037	1386	186817
 bsdb:1/1/2_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	100883	1117
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	207244	57037
@@ -4119,9 +4119,10 @@ bsdb:985/1/2_Chronic-kidney-disease:Chronic-Kidney-Disease_vs_Healthy-Controls_D
 bsdb:987/1/1_Cesarean-section:Cesarean-Section-Diverticulum_vs_Healthy-Control_UP	NA	816	1350	1940338	2701	2005473	416943	838	48736	13687	1301
 bsdb:987/1/2_Cesarean-section:Cesarean-Section-Diverticulum_vs_Healthy-Control_DOWN	NA	1578	1729679
 bsdb:988/1/1_Mycobacterium-tuberculosis:Untreated-TB-Group-(UTG)_vs_Healthy-Control-Group-(HCG)_UP	NA	747	1280	305
+bsdb:988/1/2_Mycobacterium-tuberculosis:Untreated-TB-Group-(UTG)_vs_Healthy-Control-Group-(HCG)_DOWN	NA	329	1283
 bsdb:988/2/1_Mycobacterium-tuberculosis:Untreated-TB-Group-(LCG)_vs_Lung-Cancer-Group-(LCG)_UP	NA	747	1280	305
-bsdb:988/3/1_Mycobacterium-tuberculosis:Untreated-TB-Group-(UTG)_vs_Cured-TB-Group-(CTG)_UP	NA	1280	747
-bsdb:988/4/1_Mycobacterium-tuberculosis:Cured-pulmonary-TB-group-(CTG)_vs_Healthy-control-group-(HCG)_DOWN	NA	573	28449	28131	1177574	28132	329
+bsdb:988/2/2_Mycobacterium-tuberculosis:Untreated-TB-Group-(LCG)_vs_Lung-Cancer-Group-(LCG)_DOWN	NA	28131	2099584
+bsdb:988/3/1_Mycobacterium-tuberculosis:Untreated-TB-Group-(UTG)_vs_Cured-TB-Group-(CTG)_UP	NA	747	1280
 bsdb:989/1/1_Colitis:DSS-+-BAC-Group_vs_DSS-Group_UP	NA	91061	171549	28116	200643	976	397865	2005519	28025	186826	2005473	1796646	33958	1622
 bsdb:989/1/2_Colitis:DSS-+-BAC-Group_vs_DSS-Group_DOWN	NA	214856	328814	1239	28216	1694	1834205	186801	31979	2109688	1496	208479	128827	526525	526524	853	1702221	292800	1297617	1871021	186803	2109691	2109687	186804	1017280	1224	171550	301301	28901	186802	216572
 bsdb:990/1/1_Colorectal-cancer:Living-bacteria-group-(LB)_vs_Tumor-control-group-(CK)_UP	NA	135624	186817	1385	91061	1239	186801	267889	33042	547	91347	543	561	186802	1236	186803	33958	186826	1578	29	119852	838	841	191303	2810281	1729795
@@ -4180,10 +4181,10 @@ bsdb:998/1/2_Parkinson's-disease:PD-patients_vs_Controls_DOWN	NA	207244	816	5725
 bsdb:998/2/1_Parkinson's-disease:PD-patients_vs_Controls_DOWN	NA	572511	189330	65551	57494
 bsdb:998/3/1_Parkinson's-disease:PD-patients_vs_Controls_UP	NA	413496	1839	118	33886	29526
 bsdb:998/3/2_Parkinson's-disease:PD-patients_vs_Controls_DOWN	NA	816	572511	308865	1041	150022	2745	1847	28895
-bsdb:999/1/1_Abnormality-of-iron-homeostasis:Ferrous-sulfate-(FS)-treated-pups-(PD-15)_vs_Vehicle-control-supplemented-(CON)-pups_UP	NA	1427378	1375	2086	580596	189330	1729679	946234	1892380	544448	100175	1263	1506577	244328	155900	1508657
-bsdb:999/1/2_Abnormality-of-iron-homeostasis:Ferrous-sulfate-(FS)-treated-pups-(PD-15)_vs_Vehicle-control-supplemented-(CON)-pups_DOWN	NA	447020	239759	1678	43668	1696	830	1470353	1350	66831	227979	1578	248744	577310	1279	1301	191303	225447	77133	2895461	155900
-bsdb:999/3/1_Abnormality-of-iron-homeostasis:Iron-treated-pups_vs_Vehicle-control-(CON)_DOWN	NA	1678	1578	191303	447020	577310	77133	1279	227979	66831	1696	43668	225447	1301	248744	1350	239759	830
-bsdb:999/3/2_Abnormality-of-iron-homeostasis:Iron-treated-pups_vs_Vehicle-control-(CON)_UP	NA	1506577	100175
+bsdb:999/1/1_Abnormality-of-iron-homeostasis:Ferrous-sulfate-(FS)-treated-pups-(PD-15)_vs_Vehicle-control-supplemented-(CON)-pups_UP	NA	1427378	1375	2086	580596	189330	1729679	946234	1892380	544448	100175	1508657	1263	1506577	244328	155900
+bsdb:999/1/2_Abnormality-of-iron-homeostasis:Ferrous-sulfate-(FS)-treated-pups-(PD-15)_vs_Vehicle-control-supplemented-(CON)-pups_DOWN	NA	447020	239759	1678	43668	1696	830	1470353	1350	66831	227979	1578	248744	2895461	577310	1279	1301	191303	225447	77133	155900
+bsdb:999/3/1_Abnormality-of-iron-homeostasis:Ferrous-bis-glycinate-chelate-(FC)-treated-pups-(PD-15)_vs_Ferrous-sulfate-(FS)-treated-pups-(PD-15)_UP	NA	174708	1937008	1301	1470353
+bsdb:999/3/2_Abnormality-of-iron-homeostasis:Ferrous-bis-glycinate-chelate-(FC)-treated-pups-(PD-15)_vs_Ferrous-sulfate-(FS)-treated-pups-(PD-15)_UP	NA	1506577	100175
 bsdb:999/4/1_Abnormality-of-iron-homeostasis:Ferrous-bis-glycinate-chelate-(Ferrochel,-FC)_vs_Vehicle-control-(CON)_UP	NA	43668	1696	715222	1117	66831	100175	2	74201	225447	155900	136703	60675
 bsdb:999/4/2_Abnormality-of-iron-homeostasis:Ferrous-bis-glycinate-chelate-(Ferrochel,-FC)_vs_Vehicle-control-(CON)_DOWN	NA	31980	201174	447020	239759	207244	816	200643	1678	572511	580596	189330	42322	39496	39497	1392389	1506553	577310	841	194843	584861	297314	544448
 bsdb:999/5/1_Abnormality-of-iron-homeostasis:Ferrous-sulfate-(FS)_vs_Vehicle-control-(CON)_DOWN	NA	264995	1350	1730	1578	3028852	1279	1301	191303
