@@ -1,4 +1,4 @@
-# BugSigDB 2024-04-18_09:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2024-04-18_10:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	1654	1716	1301	162289	189330	33024	40544	1386
 bsdb:1/1/2_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	100883
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	207244
@@ -2755,6 +2755,10 @@ bsdb:912/2/2_Diet:January-Test-diet_vs_January-Reference-diet_DOWN	NA	160795
 bsdb:912/3/1_Diet:Fishes-fed-with-test-diet-in-April_vs_Fishes-fed-with-test-diet-in-January_UP	NA	657
 bsdb:912/4/1_Diet:Fishes-fed-with-test-diet-in-September_vs_Fishes-fed-with-test-diet-in-January_UP	NA	2093
 bsdb:912/4/2_Diet:Fishes-fed-with-test-diet-in-September_vs_Fishes-fed-with-test-diet-in-January_DOWN	NA	1243	1578	1357
+bsdb:912/5/1_Diet:April-Test-diet_vs_April-Reference-diet_UP	NA	46255	2745	2093	848	22
+bsdb:912/5/2_Diet:April-Test-diet_vs_April-Reference-diet_DOWN	NA	1578	1243	1357	1257	1386	160795	657	623282	1485
+bsdb:912/6/1_Diet:september-Test-diet_vs_september-Reference-diet_UP	NA	160795	657	1578	22	623282
+bsdb:912/6/2_Diet:september-Test-diet_vs_september-Reference-diet_DOWN	NA	2745	2093
 bsdb:913/1/1_Myopia:L-group----Ok-Lens-group_vs_N-group----Non-wearer-group_UP	NA	41275	469	583	1279	1716	1301	547	1350	572511	1912216
 bsdb:913/1/2_Myopia:L-group----Ok-Lens-group_vs_N-group----Non-wearer-group_DOWN	NA	1386
 bsdb:914/1/3_Celiac-disease:FDRs-of-patient-with-CeD_vs_Control-Group_DOWN	NA	191303	1301	1263	838	543311	475	1080709	906	1578	1505657	209	117563	1378	1730	135858	572511	1678	397864	816	207244	1654	239934
@@ -2764,12 +2768,12 @@ bsdb:915/1/2_Breast-carcinoma:premenopausal-breast-cancer-patients-(Pre-BC)_vs_p
 bsdb:915/2/1_Breast-carcinoma:postmenopausal-breast-cancer-patients-(Post-BC)_vs_postmenopausal-female-controls-(Post-C)_UP	NA	1654	52225	724	40544
 bsdb:915/2/2_Breast-carcinoma:postmenopausal-breast-cancer-patients-(Post-BC)_vs_postmenopausal-female-controls-(Post-C)_DOWN	NA	239934	33024	1301	1263	35832	239759	846	84111
 bsdb:916/1/1_Vaginitis:Recurrent-vaginitis-(RV)_vs_Healthy-women-(control)_UP	NA	2701	1578
-bsdb:917/1/1_HIV-infection:ART-Naïve_vs_Healthy-controls-(HC)._DOWN	NA	1485
+bsdb:917/1/1_Clinical-treatment:ART-Naïve_vs_Healthy-controls-(HC)._DOWN	NA	1485
 bsdb:917/2/2_HIV-infection:ART-Naïve_vs_Healthy-controls-(HC)._DOWN	NA	12967	830	191303	1485
-bsdb:917/3/1_HIV-infection:ART-experienced_vs_Healthy-controls-(HC)._UP	NA	158846	1506553
-bsdb:917/3/2_HIV-infection:ART-experienced_vs_Healthy-controls-(HC)._DOWN	NA	12967	830	191303	1485
-bsdb:917/4/1_HIV-infection:ART-experienced_vs_Healthy-controls-(HC)._UP	NA	158846	1506553	35832
-bsdb:917/4/2_HIV-infection:ART-experienced_vs_Healthy-controls-(HC)._DOWN	NA	12967	830	191303	1485
+bsdb:917/3/1_Clinical-treatment:ART-experienced_vs_Healthy-controls-(HC)._UP	NA	158846	1506553
+bsdb:917/3/2_Clinical-treatment:ART-experienced_vs_Healthy-controls-(HC)._DOWN	NA	12967	830	191303	1485
+bsdb:917/4/1_Clinical-treatment:ART-experienced_vs_Healthy-controls-(HC)._UP	NA	158846	1506553	35832
+bsdb:917/4/2_Clinical-treatment:ART-experienced_vs_Healthy-controls-(HC)._DOWN	NA	12967	830	191303	1485
 bsdb:918/1/1_Constipation,Parkinson's-disease:Parkinson's-disease-patients-(PD)-before-Fecal-microbiota-transplant-(FMT)_vs_Healthy-Control-group_UP	NA	816
 bsdb:918/2/2_Response-to-transplant:Parkinson's-disease-patients-after-fecal-microbiota-transplant-(FMT)_vs_Parkinson's-disease-patients-before-fecal-microbiota-transplant-(FMT)_UP	NA	572511	102106	189330	1501226
 bsdb:918/3/1_Response-to-transplant:Parkinson's-disease-patients-after-fecal-microbiota-transplant-(FMT)_vs_Parkinson's-disease-patients-before-fecal-microbiota-transplant-(FMT)_DOWN	NA	816
@@ -3353,6 +3357,8 @@ bsdb:1048/157/2_Microbiome:Unspiked-sewage-samples-(S1)-at-64-hours-(5°C)_vs_Un
 bsdb:1048/158/1_Microbiome:Unspiked-sewage-samples-(S1)-at-16-hours-(22°C)_vs_Unspiked-sewage-samples-(S1)-at-16-hours-(-80°C)_UP	NA	469	375288	838
 bsdb:1048/158/2_Microbiome:Unspiked-sewage-samples-(S1)-at-16-hours-(22°C)_vs_Unspiked-sewage-samples-(S1)-at-16-hours-(-80°C)_DOWN	NA	28196	642
 bsdb:1048/159/1_Microbiome:Unspiked-sewage-samples-(S1)-at-64-hours-(22°C)_vs_Unspiked-sewage-samples-(S1)-at-16-hours-(-80°C)_UP	NA	838	642
+bsdb:1048/207/1_Microbiome:Unspiked-sewage-samples-(S2)-at-16-hours-(5°C)_vs_Unspiked-sewage-samples-(S2)-at-64-hours-(-20°C)_UP	NA	375288
+bsdb:1048/207/2_Microbiome:Unspiked-sewage-samples-(S2)-at-16-hours-(5°C)_vs_Unspiked-sewage-samples-(S2)-at-64-hours-(-20°C)_DOWN	NA	28196	469	838	642
 bsdb:1049/1/1_Atopic-eczema:cADtreat-dogs_vs_Healthy-dogs_UP	NA	1663	1716	281915
 bsdb:1049/2/1_Atopic-eczema:cADpost-dogs_vs_cADpre-dogs_UP	NA	1663	1386	1298	286	204447
 bsdb:1049/2/2_Atopic-eczema:cADpost-dogs_vs_cADpre-dogs_DOWN	NA	1716	1912216	407	1839	265	125216	295418	13687	1279	1301
