@@ -1,4 +1,4 @@
-# BugSigDB 2024-04-24_13:03_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2024-04-24_13:59_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	1654	1716	1301	162289	189330	33024	40544	2759736	1386
 bsdb:1/1/2_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	100883
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	207244	2759736
@@ -3604,8 +3604,8 @@ bsdb:963/3/1_Tumor-size:Pre-Chemo-tumor-size->pT1_vs_Pre-Chemo-tumor-size-<pT1_U
 bsdb:963/3/2_Tumor-size:Pre-Chemo-tumor-size->pT1_vs_Pre-Chemo-tumor-size-<pT1_DOWN	NA	1924093	816	397864	574697	830	872	1432051	1434006	2172004	2172	1263	1635148
 bsdb:963/4/1_Tumor-size:Post-Chemo-tumor-size->pT1_vs_Post-Chemo-tumor-size-<pT1_UP	NA	816	1678	580596	1485	100883	2719313	561	1892380	1505657	375288	33024	838	28138	841	1769710	1301	3025755	29465
 bsdb:963/4/2_Tumor-size:Post-Chemo-tumor-size->pT1_vs_Post-Chemo-tumor-size-<pT1_DOWN	NA	2048137	239934	239759	1348911	33042	872	946234	724	283168	909656	841
-bsdb:963/5/1_Breast-cancer:SBR-Gr3-Post-Chemo_vs_SBR-Gr1/2-Post-Chemo_UP	NA	33042	2974251	1892380	574697	239759	872	1924093	1350	1485	946234	577309	816	1506553	2719313
-bsdb:963/5/2_Breast-cancer:SBR-Gr3-Post-Chemo_vs_SBR-Gr1/2-Post-Chemo_DOWN	NA	816	1432051	1649459	990721	1578	1506553	33024	841	1769710	375288	28050	1301	33042	644652	1678	946234	2719313
+bsdb:963/5/1_Tumor-grading:SBR-Gr3-Post-Chemo_vs_SBR-Gr1/2-Post-Chemo_UP	NA	33042	2974251	1892380	574697	239759	872	1924093	1350	1485	946234	577309	816	1506553	2719313
+bsdb:963/5/2_Tumor-grading:SBR-Gr3-Post-Chemo_vs_SBR-Gr1/2-Post-Chemo_DOWN	NA	816	1432051	1649459	990721	1578	1506553	33024	841	1769710	375288	28050	1301	33042	644652	1678	946234	2719313
 bsdb:963/6/1_Tumor-stage:pN+-pre-Chemo_vs_pN--pre-Chemo_UP	NA	459786	1348911	577310	1918598	2316020	816	33024	35832	568	1472649
 bsdb:963/6/2_Tumor-stage:pN+-pre-Chemo_vs_pN--pre-Chemo_DOWN	NA	816	1485	3025755	172900	572511	1654	544	1017280	570	158846	1263	838	846	1472762	830	102106	1506553	909656	29465	39948	1730	1769710	1924093	872
 bsdb:963/7/1_Tumor-stage:pN+-post-Chemo_vs_pN--post-Chemo_UP	NA	239759	2039240	572511	580596	1485	189330	84111	1432051	2719313	1350	1730	644652	1505657	375288	583	32207	1769710	1301	3025755	29465	1506577
@@ -3616,14 +3616,14 @@ bsdb:963/9/1_Tumor-stage:Neoadjuvant_pN+_vs_Neoadjuvant_pN-_UP	NA	816	946234	176
 bsdb:963/9/2_Tumor-stage:Neoadjuvant_pN+_vs_Neoadjuvant_pN-_DOWN	NA	572511	189330	1407607	841	909656
 bsdb:963/10/1_Tumor-stage:Neoadjuvant-stage-post-Chemo-(Stage-I/II)_vs_Neoadjuvant-stage-post-Chemo-(Stage-0)_UP	NA	2719313
 bsdb:963/10/2_Tumor-stage:Neoadjuvant-stage-post-Chemo-(Stage-I/II)_vs_Neoadjuvant-stage-post-Chemo-(Stage-0)_DOWN	NA	1378	1301	1730
-bsdb:963/11/1_Response-to-anthracycline-based-chemotherapy:Post-Chemotherapy_vs_Pre-Chemotherapy_UP	NA	1573535	2316020	189330	2172
-bsdb:963/11/2_Response-to-anthracycline-based-chemotherapy:Post-Chemotherapy_vs_Pre-Chemotherapy_DOWN	NA	84111	1348911	29465	1432051	816	2719313	909656	1730	841	2039240	644652	244127
+bsdb:963/11/1_Response-to-combination-chemotherapy:Post-Chemotherapy_vs_Pre-Chemotherapy_UP	NA	1573535	2316020	189330	2172
+bsdb:963/11/2_Response-to-combination-chemotherapy:Post-Chemotherapy_vs_Pre-Chemotherapy_DOWN	NA	84111	1348911	29465	1432051	816	2719313	909656	1730	841	2039240	644652	244127
 bsdb:963/12/1_Adverse-effect:Yes---increased-BMI-(Pre-Chemo)_vs_No---increased-BMI-(Pre-Chemo)_UP	NA	816	375288	1924093	1905344	1678	100883	1348911	838	909656	2974251	574697	572511	1263	447020	1485	1730	39948	244127	459786	3025755	52225	1472649	29465	946234	1918598	283168
 bsdb:963/12/2_Adverse-effect:Yes---increased-BMI-(Pre-Chemo)_vs_No---increased-BMI-(Pre-Chemo)_DOWN	NA	239759	816	508459	102106	33042	872	189330	561	33024	909656	1017280	841	1301	40544	1730	572511	1263	580596	29465	459786	1472762	830	375288	2719313	1578	1432051	2316020	28050	1378
 bsdb:963/13/1_Adverse-effect:Yes---increased-BMI-(Post-Chemo)_vs_No---increased-BMI-(Post-Chemo)_UP	NA	239759	244127	2316020	574697	946234	841	1350	3025755	1485	577310	207244	1506553	191303	1407607	1924093	28050	375288	1918598	1678	39948	816	990721	2172004	196081	2039240	283168	1348911	216851	2767881	1505657	1472649	1017280	577309	189330	838	1301	397864	84108	572511	904	1573535
 bsdb:963/13/2_Adverse-effect:Yes---increased-BMI-(Post-Chemo)_vs_No---increased-BMI-(Post-Chemo)_DOWN	NA	1263	52225	1301	32207	841	1485	1654	1378	2974265	838	1678	29465	209879	1432051	909656	816	28050	1649459	1766253	724	2719313
-bsdb:963/17/1_Neurotoxicity:With-neurotoxicity-(Post-Chemo)_vs_Without-neurotoxicity-(Post-Chemo)_UP	NA	816	946234	244127	1506553	84111	3025755	2719313	1905344	1472649	207244	1924093	1350
-bsdb:963/17/2_Neurotoxicity:With-neurotoxicity-(Post-Chemo)_vs_Without-neurotoxicity-(Post-Chemo)_DOWN	NA	40544	1485	29465	838	102106	33042	1301	32207	459786	577309	574697	1263	239759	2316020	830	397864	244127	724	2048137	2974265	872	816	33024	216851
+bsdb:963/17/1_Adverse-effect:With-neurotoxicity-(Post-Chemo)_vs_Without-neurotoxicity-(Post-Chemo)_UP	NA	816	946234	244127	1506553	84111	3025755	2719313	1905344	1472649	207244	1924093	1350
+bsdb:963/17/2_Adverse-effect:With-neurotoxicity-(Post-Chemo)_vs_Without-neurotoxicity-(Post-Chemo)_DOWN	NA	40544	1485	29465	838	102106	33042	1301	32207	459786	577309	574697	1263	239759	2316020	830	397864	244127	724	2048137	2974265	872	816	33024	216851
 bsdb:963/18/1_Breast-cancer:Breast-cancer-mice_vs_Heathy-mice_UP	NA	29465	1357	189330	2719313
 bsdb:963/18/2_Breast-cancer:Breast-cancer-mice_vs_Heathy-mice_DOWN	NA	239759	459786	1678	102106	2529408	133925
 bsdb:964/1/1_Polycystic-ovary-syndrome:PCOS-patients-at-Zeitgeber-(ZT)-0_vs_Healthy-control-at-Zeitgeber-(ZT)-0_UP	NA	848
