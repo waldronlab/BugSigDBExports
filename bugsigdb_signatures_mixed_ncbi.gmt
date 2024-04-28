@@ -1,4 +1,4 @@
-# BugSigDB 2024-04-28_10:59_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2024-04-28_11:59_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	91061	1236	1654	1716	1301	162289	189330	33024	40544	2037	2049	506	186826	1300	31977	91347	1653	57037	1386	186817
 bsdb:1/1/2_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	100883	1117
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	207244	57037
@@ -1576,10 +1576,6 @@ bsdb:403/1/1_Eczema:child-with-eczema_vs_healthy-control_UP	NA	841	551
 bsdb:403/1/2_Eczema:child-with-eczema_vs_healthy-control_DOWN	NA	1678	547
 bsdb:403/2/1_Eczema:child-with-eczema_vs_healthy-control_UP	NA	186801	186802	29466	137838
 bsdb:403/2/2_Eczema:child-with-eczema_vs_healthy-control_DOWN	NA	201174	1760	1678	85004	31953	1679	1224
-bsdb:403/3/1_Eczema:child-with-eczema_vs_healthy-control_UP	NA	551
-bsdb:403/3/2_Eczema:child-with-eczema_vs_healthy-control_DOWN	NA	216851	28050
-bsdb:403/4/1_Eczema:child-with-eczema_vs_healthy-control_UP	NA	29466	817
-bsdb:403/4/2_Eczema:child-with-eczema_vs_healthy-control_DOWN	NA	1681
 bsdb:404/1/1_Atopic-eczema:patient-with-atopic-dermatitis_vs_healthy-control_UP	NA	1263	375288	216851	292632	140625	158846	207244	239759
 bsdb:404/1/2_Atopic-eczema:patient-with-atopic-dermatitis_vs_healthy-control_DOWN	NA	561	620	543
 bsdb:404/2/1_Atopic-eczema:patient-with-atopic-dermatitis_vs_healthy-control_UP	NA	1263
@@ -3722,6 +3718,10 @@ bsdb:888/66/1_Microbiome-measurement:QIAStool+BB_vs_FastDNA_UP	NA	468	216572	481
 bsdb:888/66/2_Microbiome-measurement:QIAStool+BB_vs_FastDNA_DOWN	NA	72294	815	203557
 bsdb:888/67/1_Microbiome-measurement:QIAStool_vs_PowerSoil.HMP_UP	NA	468	72294	815	203557	134623
 bsdb:888/67/2_Microbiome-measurement:QIAStool_vs_PowerSoil.HMP_DOWN	NA	216572	481	186803
+bsdb:888/68/1_Microbiome-measurement:QIAStool+BB_vs_PowerSoil.HMP_UP	NA	468	72294	186803
+bsdb:888/68/2_Microbiome-measurement:QIAStool+BB_vs_PowerSoil.HMP_DOWN	NA	216572	815	481	203557	134623
+bsdb:888/69/1_Microbiome-measurement:QIAStool+BB_vs_QIAStool_UP	NA	186803
+bsdb:888/69/2_Microbiome-measurement:QIAStool+BB_vs_QIAStool_DOWN	NA	468	216572	815	72294	203557	134623	481
 bsdb:889/1/1_Cervix-erosion:Short-Cervix-Length_vs_Control_UP	NA	1653	85007	1224	1236	1279	90964	135621	286	72274	28211	41275	76892	204458	135614	32033	83618	1443919
 bsdb:890/1/1_Premature-birth:preterm-birth-(PTB)_vs_term-birth-(TB)_UP	NA	1654	2049	1283313	824	1016	43996	1716	1378	84135	724	726	727	1078480	1164882	467210	32067	109328	157687	487	1107316	836	2047	43675	1301	113107	45634	28037	257758	29465	1936062	508215	483
 bsdb:891/1/1_COVID-19-symptoms-measurement:moderate_vs_mild_DOWN	NA	1486246	52773
@@ -4090,7 +4090,7 @@ bsdb:962/2/2_Clinical-treatment:Therapeutic-Zinc-oxide-(Zn)-global-data-set_vs_N
 bsdb:962/3/1_Clinical-treatment:Therapeutic-Zinc-oxide-(Zn)-global-data-set_vs_Antibiotics-(AB)-global-data-set_UP	NA	53442	712710	28112	821	28116	28113	290053	818	28119	1496	817	2981780	1796613	292800	1291540	823	2025876	357276	376805
 bsdb:962/3/2_Clinical-treatment:Therapeutic-Zinc-oxide-(Zn)-global-data-set_vs_Antibiotics-(AB)-global-data-set_DOWN	NA	907	1598
 bsdb:962/7/1_Clinical-treatment:Diarrhoea_7dpw-CT(no-medication)-group_vs_Faecal_7dpw-CT(no-medication)-group_UP	NA	28216	80840	91347	543	561	562	1236	1224	2494234	995019
-bsdb:962/7/2_Clinical-treatment:Diarrhoea_7dpw-CT(no-medication)-group_vs_Faecal_7dpw-CT(no-medication)-group_DOWN	NA	288965	1677857	33952	239934	239935	1647988	461876	2507160	1805714	990719	755731	84032	1202464	1202465	61435	301297	28221	901	194924	213115	81852	1352	543313	1834198	114527	1852373	712411	186807	1570339	1224	1264	3062497	2992718	1300	1307	68295	543372	48461	74201	216572	1843490	252966	51515
+bsdb:962/7/2_Clinical-treatment:Diarrhoea_7dpw-CT(no-medication)-group_vs_Faecal_7dpw-CT(no-medication)-group_DOWN	NA	288965	1677857	33952	239934	239935	1647988	461876	2507160	1805714	990719	755731	84032	51515	1202464	1202465	61435	301297	28221	901	194924	213115	81852	1352	543313	1834198	252966	114527	1852373	712411	186807	1570339	1224	1264	3062497	2992718	1843490	1300	1307	68295	543372	48461	74201	216572
 bsdb:962/8/1_Clinical-treatment:Diarrhoea_7dpw-AB(antibiotics)-group_vs_Faecal_7dpw-AB(antibiotics)-group_UP	NA	91061	33958	186826	1598
 bsdb:962/8/2_Clinical-treatment:Diarrhoea_7dpw-AB(antibiotics)-group_vs_Faecal_7dpw-AB(antibiotics)-group_DOWN	NA	2161821	1598	1843491	909929	69823
 bsdb:962/9/1_Clinical-treatment:Diarrhoea_7dpw-Zn(Zinc-Oxide)-group_vs_Faecal_7dpw-Zn(Zinc-Oxide)-group_UP	NA	28116	1297617	186804	357276	821
