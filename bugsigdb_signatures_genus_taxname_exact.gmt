@@ -1,4 +1,4 @@
-# BugSigDB 2024-04-28_11:59_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2024-04-28_12:59_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	Actinomyces	Corynebacterium	Streptococcus	Peptoniphilus	Dorea	Phascolarctobacterium	Sutterella	Bacillus
 bsdb:1/1/2_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	Coprobacillus
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	Anaerostipes
@@ -1189,7 +1189,6 @@ bsdb:401/2/2_Allergic-rhinitis:allergic-rhinitis_vs_healthy-control_DOWN	NA	Buty
 bsdb:402/2/1_Atopic-eczema:Mothers-whose-infants-developed-IgE-associated-eczema_vs_mothers-whose-infants-remained-non-allergic_UP	NA	Streptococcus
 bsdb:403/1/1_Eczema:child-with-eczema_vs_healthy-control_UP	NA	Roseburia	Erwinia
 bsdb:403/1/2_Eczema:child-with-eczema_vs_healthy-control_DOWN	NA	Bifidobacterium	Enterobacter
-bsdb:403/2/2_Eczema:child-with-eczema_vs_healthy-control_DOWN	NA	Bifidobacterium
 bsdb:404/1/1_Atopic-eczema:patient-with-atopic-dermatitis_vs_healthy-control_UP	NA	Ruminococcus	Parabacteroides	Faecalibacterium	Subdoligranulum	Lachnobacterium	Megamonas	Anaerostipes	Alistipes
 bsdb:404/1/2_Atopic-eczema:patient-with-atopic-dermatitis_vs_healthy-control_DOWN	NA	Escherichia	Shigella
 bsdb:404/2/1_Atopic-eczema:patient-with-atopic-dermatitis_vs_healthy-control_UP	NA	Ruminococcus
@@ -2919,8 +2918,12 @@ bsdb:961/1/1_Parkinson's-disease:MPTP-(untreated-PD-mice)_vs_Control-(CON-groups
 bsdb:961/1/2_Parkinson's-disease:MPTP-(untreated-PD-mice)_vs_Control-(CON-groups)_DOWN	NA	Candidatus Saccharimonas	Odoribacter	Ureaplasma
 bsdb:961/2/1_Clinical-treatment:MPTP-(untreated-PD-mice)_vs_FGF21-+-MPTP-mice-(mice-treated-with-Fibroblast-growth-factor-21-(FGF21))_UP	NA	Staphylococcus
 bsdb:961/2/2_Clinical-treatment:MPTP-(untreated-PD-mice)_vs_FGF21-+-MPTP-mice-(mice-treated-with-Fibroblast-growth-factor-21-(FGF21))_DOWN	NA	Candidatus Saccharimonas
-bsdb:962/7/1_Clinical-treatment:Diarrhoea_7dpw-CT(no-medication)-group_vs_Faecal_7dpw-CT(no-medication)-group_UP	NA	Escherichia
-bsdb:962/7/2_Clinical-treatment:Diarrhoea_7dpw-CT(no-medication)-group_vs_Faecal_7dpw-CT(no-medication)-group_DOWN	NA	Akkermansia
+bsdb:962/1/1_Antimicrobial-agent:Antibiotic-(Ab)-global-data-set_vs_Non-medicated-control-(CT)-global-data-set_UP	NA	Megasphaera
+bsdb:962/1/2_Antimicrobial-agent:Antibiotic-(Ab)-global-data-set_vs_Non-medicated-control-(CT)-global-data-set_DOWN	NA	Escherichia
+bsdb:962/2/2_Antimicrobial-agent:Therapeutic-Zinc-oxide-(Zn)-global-data-set_vs_Non-medicated-control-(CT)-global-data-set_DOWN	NA	Escherichia
+bsdb:962/3/2_Antimicrobial-agent:Therapeutic-Zinc-oxide-(Zn)-global-data-set_vs_Antibiotics-(AB)-global-data-set_DOWN	NA	Megasphaera
+bsdb:962/7/1_Antimicrobial-agent:Diarrhoea_7dpw-CT(no-medication)-group_vs_Faecal_7dpw-CT(no-medication)-group_UP	NA	Escherichia
+bsdb:962/7/2_Antimicrobial-agent:Diarrhoea_7dpw-CT(no-medication)-group_vs_Faecal_7dpw-CT(no-medication)-group_DOWN	NA	Akkermansia
 bsdb:963/8/1_Breast-cancer:Breast-cancer-patients_vs_Healthy-volunteers_UP	NA	Bilophila	Ceduovirus	Megasphaera	Mitsuokella	Oscillibacter	Alistipes
 bsdb:963/8/2_Breast-cancer:Breast-cancer-patients_vs_Healthy-volunteers_DOWN	NA	Eggerthella	Methanobrevibacter
 bsdb:963/18/1_Breast-cancer:Breast-cancer-mice_vs_Heathy-mice_UP	NA	Dorea
