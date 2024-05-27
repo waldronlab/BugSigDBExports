@@ -1,4 +1,4 @@
-# BugSigDB 2024-05-27_13:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2024-05-27_14:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	91061	1236	1654	1716	1301	162289	189330	33024	40544	2037	2049	506	186826	1300	31977	91347	1653	57037	1386	186817
 bsdb:1/1/2_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	100883	1117
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	207244	57037
@@ -4111,6 +4111,8 @@ bsdb:975/1/1_Parkinson's-disease:Parkinson's-disease_vs_Healthy-controls_UP	NA	1
 bsdb:975/1/2_Parkinson's-disease:Parkinson's-disease_vs_Healthy-controls_DOWN	NA	84107	186803	102106	841	1407607	572511	216851	1898203
 bsdb:976/1/1_Response-to-antiviral-drug:HIV-Positive-Patients_vs_Healthy-Control_UP	NA	239934	102106	1730	848	906	52225	86331	1257	33024	838	83770
 bsdb:976/1/2_Response-to-antiviral-drug:HIV-Positive-Patients_vs_Healthy-Control_DOWN	NA	572511	1485	1263
+bsdb:976/2/1_Response-to-antiviral-drug:Colon-wash-samples-of-HIV-Positive-Patients_vs_Colon-wash-samples-of-Healthy-Control_UP	NA	83770	416916
+bsdb:976/3/1_Response-to-antiviral-drug:Colon-brush-samples-of-HIV-Positive-Patients_vs_Colon-brush-samples-of-Healthy-Control_UP	NA	906	84108
 bsdb:977/1/1_COVID-19:COVID-19-patients_vs_local-controls_UP	NA	1654	1283313	1380	906	838	123375	13687	29465	1486937
 bsdb:977/1/2_COVID-19:COVID-19-patients_vs_local-controls_DOWN	NA	713	194195	816	1678	572511	1016	43996	1940338	216851	44259	150022	1378	724	1357	47670	1847725	1840214	86331	482	265975	1263	195950	157
 bsdb:977/2/1_Abnormality-of-the-respiratory-system:Non-Covid-19-Patients_vs_local-controls_UP	NA	1654	1380	29393	2759736	1578	2767887	2742598	906	838	508215	29465	1486937
@@ -4353,9 +4355,6 @@ bsdb:1032/3/1_Hepatitis-virus-related-hepatocellular-carcinoma:non-hepatitis-B-,
 bsdb:1032/3/2_Hepatitis-virus-related-hepatocellular-carcinoma:non-hepatitis-B-,-non-hepatitis-C-related-Hepatocellular-carcinoma_vs_viral-related-Hepatocellular-carcinoma_DOWN	NA	3085636	186803	976	200643	171549	171552
 bsdb:1033/1/1_Papillary-thyroid-carcinoma:PTC-patients-with-advanced-lesions-(T3_4)_vs_PTC-patients-with-mild-lesions-(T1_2)_UP	NA	186826	135625	712	356	1300	1301	84999	117563	724
 bsdb:1033/1/2_Papillary-thyroid-carcinoma:PTC-patients-with-advanced-lesions-(T3_4)_vs_PTC-patients-with-mild-lesions-(T1_2)_DOWN	NA	135621	286	72274	85007	85025	1827	204457	41297	13687
-bsdb:1033/3/1_Papillary-thyroid-carcinoma:Patients-with-PTC-at-clinical-stage-T3_vs_Patients-with-PTC-at-clinical-stage-T1_DOWN	NA	286	1827	13687
-bsdb:1033/4/1_Papillary-thyroid-carcinoma:Patients-with-PTC-at-clinical-stage-T4_vs_Patients-with-PTC-at-clinical-stage-T1_DOWN	NA	286
-bsdb:1033/5/1_Papillary-thyroid-carcinoma:Patients-with-PTC-at-clinical-stage-T3_vs_Patients-with-PTC-at-clinical-stage-T2_DOWN	NA	286	13687
 bsdb:1034/1/1_Birth-measurement:High-vaginal-sialidase-activity_vs_Low-vaginal-sialidase-activity_UP	NA	201174	186827	1375	1872398	1380	171549	200643	31953	85004	186801	31979	1485	1506	84107	84999	84998	39948	1955814	186802	82135	2701	2049026	1378	1966354	539738	1613	906	2023260	543311	1944660	838	59823	171552	1737406	31977
 bsdb:1034/1/2_Birth-measurement:High-vaginal-sialidase-activity_vs_Low-vaginal-sialidase-activity_DOWN	NA	28211	91061	1239	28216	32008	36773	119060	80840	563835	80864	80865	1886637	963	1890675	186826	1578	47770	109790	1224	1007	1936988	504481	1917865	33958
 bsdb:1034/2/1_Birth-measurement:Leukocyte-high-(grades-III-IV)_vs_Leukocyte-low-(grades-I-II)_UP	NA	80840	28216	1971214	162289	119060	80865	1886637	36773	32008	1239	91061	186826	33958	1578	147802
@@ -4931,3 +4930,4 @@ bsdb:1083/4/2_Age:B-Group-(B25.4)_vs_B-Group-(B15.4)_DOWN	NA	216572
 bsdb:1083/5/1_Age:B-Group-(B45.4)_vs_B-Group-(B15.4)_UP	NA	186803	909930	506	80840	83763	135624	31969
 bsdb:1083/5/2_Age:B-Group-(B45.4)_vs_B-Group-(B15.4)_DOWN	NA	292628	292629	233189	33958	1300	186826	91061	186804	481	206351
 bsdb:1083/6/1_Age:B-Group-(B75.4)_vs_B-Group-(B15.4)_UP	NA	84107	84999	84998	809	51291	186803	909930	83763	135624	28256	135619	137	136
+bsdb:1083/6/2_Age:B-Group-(B75.4)_vs_B-Group-(B15.4)_DOWN	NA	481	206351	712	135625
