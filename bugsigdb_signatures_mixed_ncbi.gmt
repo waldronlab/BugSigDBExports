@@ -1,4 +1,4 @@
-# BugSigDB 2024-06-05_18:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2024-06-05_19:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/2_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	100883	1117
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	207244	57037
 bsdb:1/2/2_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_DOWN	NA	1236	100883	91347
@@ -2219,6 +2219,8 @@ bsdb:559/1/1_Diet:no-fiber-liquid-omnivore-diet_vs_regular-fiber-omnivore-diet_U
 bsdb:559/1/2_Diet:no-fiber-liquid-omnivore-diet_vs_regular-fiber-omnivore-diet_DOWN	NA	28116	853	46503	165179	1308	39491
 bsdb:560/1/1_Parkinson's-disease:Men-with-Parkinson's-Disease._vs_Healthy-men-without-Parkinsons's-Disease._UP	NA	239935	328814	84030	1239	2	142586	186801
 bsdb:560/1/2_Parkinson's-disease:Men-with-Parkinson's-Disease._vs_Healthy-men-without-Parkinsons's-Disease._DOWN	NA	1735	165179
+bsdb:561/1/1_Parkinson's-disease:Participants-with-early-stage-Parkinson's-Disease._vs_Healthy-age-sex-matched-controls-without-Parkinson's-disease._UP	NA	28025	1689	216816	5476	42374	28188	157920	28447	2702	581038	1590	1579	1623	1624	1613	1598	407	78258	1827	78259	1309	4950	234	5475	1678	1573	2701	1578	196082
+bsdb:561/1/2_Parkinson's-disease:Participants-with-early-stage-Parkinson's-Disease._vs_Healthy-age-sex-matched-controls-without-Parkinson's-disease._DOWN	NA	1404	32199	511434	511435	1721091	531844	402384	890041	1790137	827	1518147
 bsdb:562/1/1_Health-study-participation:healthy-adult-vagina-50%-up_vs_NA_NA	NA	1578
 bsdb:562/1/3_Health-study-participation:healthy-adult-vagina-50%-up_vs_NA_NA	NA	47770
 bsdb:562/2/1_Health-study-participation:healthy-adult-skin-50%-up_vs_none_NA	NA	1279	1912216	55196	1716	1301	1269	150022	475	32207
@@ -2632,8 +2634,14 @@ bsdb:672/22/1_Spontaneous-preterm-birth:Vaginal-delivery-(D10)_vs_Caesarean-sect
 bsdb:672/23/1_Spontaneous-preterm-birth:Twins-(4M)_vs_Singletons-(4M)_UP	NA	1508657
 bsdb:672/24/1_Spontaneous-preterm-birth:Twins-(4M)_vs_Singletons-(4M)_UP	NA	84112
 bsdb:672/25/1_Spontaneous-preterm-birth:Middlemore-Hospital-(4M)_vs_Auckland-city-hospital-(4M)_UP	NA	1280
+bsdb:673/1/1_Ethnic-group:Colombia-data_vs_USA-data_UP	NA	1239
+bsdb:673/1/2_Ethnic-group:Colombia-data_vs_USA-data_DOWN	NA	816
+bsdb:673/2/2_Ethnic-group:Europe-data_vs_USA-data_DOWN	NA	1239
+bsdb:673/3/2_Ethnic-group:South-Korea-data_vs_USA-data_DOWN	NA	1239
 bsdb:673/4/1_Ethnic-group:Japan-data_vs_USA-data_UP	NA	201174
 bsdb:673/4/2_Ethnic-group:Japan-data_vs_USA-data_DOWN	NA	1239
+bsdb:674/1/1_Socioeconomic-status:High-SES_vs_Low-SES_UP	NA	80865	171550	2005519	1485	128827	375288	283168	1263
+bsdb:674/1/2_Socioeconomic-status:High-SES_vs_Low-SES_DOWN	NA	135858	84107	118747	86331	838	1730	189330	447020
 bsdb:675/1/1_Socioeconomic-status:higher-monthly-household-income_vs_lower-monthly-household-income_UP	NA	84112	817	171550	61170	119852	31971
 bsdb:675/1/2_Socioeconomic-status:higher-monthly-household-income_vs_lower-monthly-household-income_DOWN	NA	171552	838	31977
 bsdb:676/1/1_Response-to-immunochemotherapy:Responders_vs_Non-responders_UP	NA	28117	216816	140625	186803	165179	620
@@ -4883,21 +4891,13 @@ bsdb:1060/23/1_Population:Twa_vs_Tjimba_UP	NA	568	158483	547	158876	158877	561	5
 bsdb:1060/24/1_Population:Tshwa_vs_Tjimba_UP	NA	568	547	158483	544	158876	561	590	599	42895	505	562	573	158877	545	158484	1896336	546	571	576	1639133	1873498
 bsdb:1060/24/2_Population:Tshwa_vs_Tjimba_UP	NA	55565
 bsdb:1060/25/1_Population:!Xun_vs_Tjimba_UP	NA	568	1873498	1743
-bsdb:1060/26/1_Population:Twa_vs_Kwisi_UP	NA	158484	1639133	42895	158877	1896336	545	571	158483	547	158876	544
-bsdb:1060/26/2_Population:Twa_vs_Kwisi_DOWN	NA	479	1017
 bsdb:1060/27/1_Population:Tshwa_vs_Kwisi_UP	NA	158483	158484	547	544	546	545	1639133	1896336	158877	42895	571	851	505	599	39498
-bsdb:1060/27/2_Population:Tshwa_vs_Kwisi_DOWN	NA	1017	479	504	72	71	475
-bsdb:1060/28/1_Population:!Xun_vs_Kwisi_UP	NA	1639133	1896336	1743
-bsdb:1060/28/2_Population:!Xun_vs_Kwisi_DOWN	NA	46123	76631	1386	1017	546	1870884	1496	1720	1350	561	562	1379	84135	735	35517	1409
-bsdb:1060/29/1_Socioeconomic-status:Foragers_vs_Pastoralists_UP	NA	133448	1685	31973	42895	1279384
 bsdb:1060/29/2_Socioeconomic-status:Foragers_vs_Pastoralists_DOWN	NA	46123	46125	76631	1386	158484	1885016	546	1870884	1496	1720	1350	35783	84135	2049028	43675	1304	1409	508215	52768
 bsdb:1060/30/1_Socioeconomic-status:Peripatetics_vs_Pastoralists_UP	NA	544	570	561	590	1873498	568	547	42895	158836	69218	286	306	1279384	31973	1013	200643	186804	583	229037	133448	546	1639133	571	573	576	562	599	1134687	157688	43768
 bsdb:1060/30/2_Socioeconomic-status:Peripatetics_vs_Pastoralists_DOWN	NA	123375	1164882	1578	577309
 bsdb:1060/31/1_Socioeconomic-status:Foragers_vs_Peripatetics_UP	NA	1743	1685
 bsdb:1060/31/2_Socioeconomic-status:Foragers_vs_Peripatetics_DOWN	NA	46123	46125	76631	1386	1409	158484	544	546	545	1870884	1496	1720	69218	158836	1350	35783	561	562	1379	84135	570	1134687	571	573	576	47670	47671	32207	43675	590	599	35517	52768	1885016
 bsdb:1061/1/1_Alzheimer's-disease:Patients-with-AD-dementia_vs_Cognitively-normal-people_UP	NA	39950	29466
-bsdb:1061/1/2_Alzheimer's-disease:Patients-with-AD-dementia_vs_Cognitively-normal-people_DOWN	NA	461393	40542	157692
-bsdb:1061/2/1_NA:Amnestic-mild-cognitive-impairment-(aMCI)_vs_Alzheimer’s-disease_UP	NA	461393	40542
 bsdb:1063/7/2_Oral-lichen-planus:OLP-patients-with-erosive-lesions-(E)_vs_OLP-patients-without-erosive-lesions-(NE)_DOWN	NA	482	724	265975
 bsdb:1071/1/1_Psoriasis:Psoriasis_vs_Healthy-Control-(HC)_UP	NA	216851	204475	158846	638847	649776	2753	649775	31977	3029088
 bsdb:1071/1/2_Psoriasis:Psoriasis_vs_Healthy-Control-(HC)_DOWN	NA	848	203492	815	816
