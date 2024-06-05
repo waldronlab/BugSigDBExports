@@ -1,4 +1,4 @@
-# BugSigDB 2024-06-05_20:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2024-06-05_21:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/2_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	100883	1117
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	207244	57037
 bsdb:1/2/2_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_DOWN	NA	1236	100883	91347
@@ -3228,6 +3228,7 @@ bsdb:795/5/1_Streptococcus-pneumoniae:Smokers_vs_Non--smokers_UP	NA	1386	1313	32
 bsdb:795/5/2_Streptococcus-pneumoniae:Smokers_vs_Non--smokers_DOWN	NA	482	735	76122	228603	204	195950	157	2490857
 bsdb:795/6/1_Streptococcus-pneumoniae:Contact-with-children_vs_No-Contact-with-Children_UP	NA	1313	735	851	43675	739	729	28132	29465	1501332
 bsdb:795/6/2_Streptococcus-pneumoniae:Contact-with-children_vs_No-Contact-with-Children_DOWN	NA	837	671218	838	28132	482
+bsdb:796/1/1_Aging:Group-4--oldest-age-group-(66-to-80-years-old.-elderly-people)_vs_Group-1--youngest-age-group-(18-to-35-years-old)_UP	NA	31979	194924	543	81852	570	1578	33958	561
 bsdb:796/1/2_Aging:Group-4--oldest-age-group-(66-to-80-years-old.-elderly-people)_vs_Group-1--youngest-age-group-(18-to-35-years-old)_DOWN	NA	2049	186828	128827	186803	1129771	468	577309	186804	171551	171552	135621	137	1737406	86331
 bsdb:796/2/1_Aging:Group-2,-3-and-4---older-age-groups-(36-to-50-years-old;-51-to-65-years-old-and-66-to-80-years-old.)_vs_Group-1--youngest-age-group-(18-to-35-years-old)_UP	NA	713	816	561	1578
 bsdb:796/2/2_Aging:Group-2,-3-and-4---older-age-groups-(36-to-50-years-old;-51-to-65-years-old-and-66-to-80-years-old.)_vs_Group-1--youngest-age-group-(18-to-35-years-old)_DOWN	NA	32033
@@ -3601,6 +3602,13 @@ bsdb:879/4/1_Oxygen:Oxygen-therapy_vs_No-oxygen-therapy_UP	NA	1578	29465
 bsdb:879/5/1_Illness-severity-status:ICU-patients_vs_Non-ICU-patients_UP	NA	1578	29465
 bsdb:879/5/2_Illness-severity-status:ICU-patients_vs_Non-ICU-patients_DOWN	NA	724
 bsdb:879/6/1_Diet:Covid-19-patients-on-enteral-diet_vs_Non-enteral-diet_UP	NA	2717	117563	724	1578	32067	836	32207	1301	29465
+bsdb:880/1/1_Urinary-tract-infection:Culture-Positive_vs_No-Growth_UP	NA	562	571	573
+bsdb:880/1/2_Urinary-tract-infection:Culture-Positive_vs_No-Growth_DOWN	NA	4890	1747
+bsdb:880/2/1_Urinary-tract-infection:Culture-Positive-Samples_vs_Insignificant-Samples_UP	NA	573
+bsdb:880/2/2_Urinary-tract-infection:Culture-Positive-Samples_vs_Insignificant-Samples_DOWN	NA	28116	33039
+bsdb:880/3/1_Urinary-tract-infection:Insignificant-Samples_vs_Asymptomatic_DOWN	NA	1280
+bsdb:880/4/1_Urinary-tract-infection:No-Growth_vs_Asymptomatic_UP	NA	1747
+bsdb:880/4/2_Urinary-tract-infection:No-Growth_vs_Asymptomatic_DOWN	NA	2053618
 bsdb:881/2/1_Clinical-treatment:Individuals-using-psychotropic-medication_vs_Individuals-not-using-psychotropic-medication_UP	NA	1239	976	1263
 bsdb:881/2/2_Clinical-treatment:Individuals-using-psychotropic-medication_vs_Individuals-not-using-psychotropic-medication_DOWN	NA	239934	74201
 bsdb:881/3/1_Major-depressive-disorder:Individuals-with-MDD-diagnoses_vs_Individuals-without-MDD-diagnoses_UP	NA	976
@@ -4881,14 +4889,6 @@ bsdb:1060/7/1_Population:!Xun_vs_Kuvale_UP	NA	133448	1279384	31973	1913599	1743	
 bsdb:1060/7/2_Population:!Xun_vs_Kuvale_DOWN	NA	46123	46125	1386	546	1870884	1496	1350	84135	736	76631
 bsdb:1060/8/1_Population:Himba_vs_Kwepe_DOWN	NA	158483	158484	546	573	576	186803	1898203	590	599	158876	158877
 bsdb:1060/8/2_Population:Himba_vs_Kwepe_UP	NA	1578	1591	1305	2801844	1750
-bsdb:1060/9/1_Population:Tjimba_vs_Kwepe_UP	NA	133448
-bsdb:1060/9/2_Population:Tjimba_vs_Kwepe_DOWN	NA	546	1873498	1639133	568	118747	158483	158876
-bsdb:1060/10/1_Population:Kwisi_vs_Kwepe_UP	NA	133448	479
-bsdb:1060/10/2_Population:Kwisi_vs_Kwepe_DOWN	NA	1654	29317	158484	1639133	1896336	186803	1898203	1318	158876	158877	158483
-bsdb:1060/11/1_Population:Twa_vs_Kwepe_UP	NA	544	547	286	561	42895	545	133448
-bsdb:1060/12/1_Population:Tshwa_vs_Kwepe_UP	NA	544	545	133448	547	42895	561	562	851	137732	505	571	306	590	599	1313	257758	39498
-bsdb:1060/12/2_Population:Tshwa_vs_Kwepe_DOWN	NA	1654	55565	29317	504	186803	1898203	906	1660
-bsdb:1060/13/1_Population:!Xun_vs_Kwepe_UP	NA	133448
 bsdb:1060/21/1_Population:!Xun_vs_Tshwa_UP	NA	71	1743	55565	504	72
 bsdb:1060/21/2_Population:!Xun_vs_Tshwa_DOWN	NA	546	35783	571	576	562	172042	573	545	1496	1720	84135	599	158877	1304	158484	1379	851	47671	505	42895	33033	613	1378	47670	1350	544	547	561	590	158876	158483	1870884
 bsdb:1060/27/1_Population:Tshwa_vs_Kwisi_UP	NA	158483	158484	547	544	546	545	1639133	1896336	158877	42895	571	851	505	599	39498

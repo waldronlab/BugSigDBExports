@@ -1,4 +1,4 @@
-# BugSigDB 2024-06-05_20:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2024-06-05_21:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/2_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	100883
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	207244	2759736
 bsdb:1/2/2_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_DOWN	NA	100883
@@ -2875,6 +2875,7 @@ bsdb:795/5/1_Streptococcus-pneumoniae:Smokers_vs_Non--smokers_UP	NA	1386	1301	32
 bsdb:795/5/2_Streptococcus-pneumoniae:Smokers_vs_Non--smokers_DOWN	NA	482	724	1283313	2974257	194	195950	157	47670
 bsdb:795/6/1_Streptococcus-pneumoniae:Contact-with-children_vs_No-Contact-with-Children_UP	NA	1301	724	848	32207	416916	838	29465	265975
 bsdb:795/6/2_Streptococcus-pneumoniae:Contact-with-children_vs_No-Contact-with-Children_DOWN	NA	836	1283313	838	482
+bsdb:796/1/1_Aging:Group-4--oldest-age-group-(66-to-80-years-old.-elderly-people)_vs_Group-1--youngest-age-group-(18-to-35-years-old)_UP	NA	570	1578	561
 bsdb:796/1/2_Aging:Group-4--oldest-age-group-(66-to-80-years-old.-elderly-people)_vs_Group-1--youngest-age-group-(18-to-35-years-old)_DOWN	NA	577309	86331
 bsdb:796/2/1_Aging:Group-2,-3-and-4---older-age-groups-(36-to-50-years-old;-51-to-65-years-old-and-66-to-80-years-old.)_vs_Group-1--youngest-age-group-(18-to-35-years-old)_UP	NA	713	816	561	1578
 bsdb:797/1/1_Smoking-status-measurement:Active-smokers_vs_Never-smokers_DOWN	NA	848	724	407	1301
@@ -3212,6 +3213,13 @@ bsdb:879/4/1_Oxygen:Oxygen-therapy_vs_No-oxygen-therapy_UP	NA	1578	29465
 bsdb:879/5/1_Illness-severity-status:ICU-patients_vs_Non-ICU-patients_UP	NA	1578	29465
 bsdb:879/5/2_Illness-severity-status:ICU-patients_vs_Non-ICU-patients_DOWN	NA	724
 bsdb:879/6/1_Diet:Covid-19-patients-on-enteral-diet_vs_Non-enteral-diet_UP	NA	2717	117563	724	1578	32067	836	32207	1301	29465
+bsdb:880/1/1_Urinary-tract-infection:Culture-Positive_vs_No-Growth_UP	NA	561	570
+bsdb:880/1/2_Urinary-tract-infection:Culture-Positive_vs_No-Growth_DOWN	NA	1912216
+bsdb:880/2/1_Urinary-tract-infection:Culture-Positive-Samples_vs_Insignificant-Samples_UP	NA	570
+bsdb:880/2/2_Urinary-tract-infection:Culture-Positive-Samples_vs_Insignificant-Samples_DOWN	NA	816	2316020
+bsdb:880/3/1_Urinary-tract-infection:Insignificant-Samples_vs_Asymptomatic_DOWN	NA	1279
+bsdb:880/4/1_Urinary-tract-infection:No-Growth_vs_Asymptomatic_UP	NA	1912216
+bsdb:880/4/2_Urinary-tract-infection:No-Growth_vs_Asymptomatic_DOWN	NA	292632
 bsdb:881/2/1_Clinical-treatment:Individuals-using-psychotropic-medication_vs_Individuals-not-using-psychotropic-medication_UP	NA	1263
 bsdb:881/2/2_Clinical-treatment:Individuals-using-psychotropic-medication_vs_Individuals-not-using-psychotropic-medication_DOWN	NA	239934
 bsdb:882/1/1_Chronic-inflammatory-demyelinating-polyradiculoneuropathy:CIDP-subjects_vs_non-CIDP-subjects_UP	NA	570	561	158846	33024
@@ -4304,14 +4312,6 @@ bsdb:1060/7/1_Population:!Xun_vs_Kuvale_UP	NA	544	1279384	1913599	1743	177971
 bsdb:1060/7/2_Population:!Xun_vs_Kuvale_DOWN	NA	46123	1386	544	1870884	1350	1378	724
 bsdb:1060/8/1_Population:Himba_vs_Kwepe_DOWN	NA	158483	544	570	590	158876
 bsdb:1060/8/2_Population:Himba_vs_Kwepe_UP	NA	1578	1301	2801844
-bsdb:1060/9/1_Population:Tjimba_vs_Kwepe_UP	NA	544
-bsdb:1060/9/2_Population:Tjimba_vs_Kwepe_DOWN	NA	544	568	118747	158483	158876
-bsdb:1060/10/1_Population:Kwisi_vs_Kwepe_UP	NA	544	475
-bsdb:1060/10/2_Population:Kwisi_vs_Kwepe_DOWN	NA	1654	158483	544	1301	158876
-bsdb:1060/11/1_Population:Twa_vs_Kwepe_UP	NA	544	547	286	561
-bsdb:1060/12/1_Population:Tshwa_vs_Kwepe_UP	NA	544	547	561	848	117563	32257	570	286	590	1301	1913599
-bsdb:1060/12/2_Population:Tshwa_vs_Kwepe_DOWN	NA	1654	32257	906	2529408
-bsdb:1060/13/1_Population:!Xun_vs_Kwepe_UP	NA	544
 bsdb:1060/21/1_Population:!Xun_vs_Tshwa_UP	NA	71	1743	1654	32257
 bsdb:1060/21/2_Population:!Xun_vs_Tshwa_DOWN	NA	544	1350	570	561	32207	1870884	1716	1378	590	158876	1301	158483	848	47670	32257	547	543311	613
 bsdb:1060/27/1_Population:Tshwa_vs_Kwisi_UP	NA	158483	547	544	158876	570	848	32257	590	1913599
