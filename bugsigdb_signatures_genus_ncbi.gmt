@@ -1,4 +1,4 @@
-# BugSigDB 2024-06-05_22:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2024-06-05_23:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/2_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	100883
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	207244	2759736
 bsdb:1/2/2_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_DOWN	NA	100883
@@ -3465,8 +3465,8 @@ bsdb:938/4/1_Gut-microbiome-measurement:Rumen-of-Tan-Sheep-(T_R)_vs_Rumen-of-Dor
 bsdb:938/5/1_Gut-microbiome-measurement:Duodenum-of-Tan-Sheep-(T_Du)_vs_Duodenum-of-Dorper-sheep-(D_Du)_UP	NA	1473205	1200657
 bsdb:938/7/1_Gut-microbiome-measurement:Colon-of-Tan-Sheep-(T_Co)_vs_Colon-of-Dorper-sheep-(D_Co)_UP	NA	172900
 bsdb:939/1/1_Irritable-bowel-syndrome:Irritable-Bowel-Syndrome-positive-(IBS+)_vs_Irritable-Bowel-Syndrome-negative-(IBS-)_DOWN	NA	816	838
-bsdb:940/1/1_COVID-19:Covid-19-group_vs_Control-group_UP	NA	1827388	1762950	2875642	63255	405928	1963373	673167	4930	292631	36048	1932873
-bsdb:940/1/2_COVID-19:Covid-19-group_vs_Control-group_DOWN	NA	308926	1323519	36922	5094	1666919	5159	45340	5402	5206	34372	241727
+bsdb:940/1/1_Microbiome-measurement:Covid-19-group_vs_Control-group_UP	NA	1827388	1762950	2875642	63255	405928	1963373	673167	4930	292631	36048	1932873
+bsdb:940/1/2_Microbiome-measurement:Covid-19-group_vs_Control-group_DOWN	NA	308926	1323519	36922	5094	1666919	5159	45340	5402	5206	34372	241727
 bsdb:940/2/1_Microbiome-measurement:Post-Covid-19-group_vs_Covid-19-group_UP	NA	64644	45132	5475	27314	27316	55193	4830	5533	42658
 bsdb:940/2/2_Microbiome-measurement:Post-Covid-19-group_vs_Covid-19-group_DOWN	NA	2875642	405928	1827388	673167	1932873	292631	4930	36048	1963373	63255	1762950
 bsdb:940/3/1_Microbiome-measurement:Post-Covid-19-group_vs_Control-group_UP	NA	64644	45132	5475	27314	27316	55193	4830	5533	42658
@@ -3740,6 +3740,7 @@ bsdb:990/1/1_Colorectal-cancer:Living-bacteria-group-(LB)_vs_Tumor-control-group
 bsdb:990/1/2_Colorectal-cancer:Living-bacteria-group-(LB)_vs_Tumor-control-group-(CK)_DOWN	NA	574697	13687
 bsdb:990/2/1_Colorectal-cancer:Inactivated-bacteria-group-(IB)_vs_Tumor-control-group-(CK)_UP	NA	33042
 bsdb:990/2/2_Colorectal-cancer:Inactivated-bacteria-group-(IB)_vs_Tumor-control-group-(CK)_DOWN	NA	816	838
+bsdb:990/3/2_Colorectal-cancer:Living-bacteria-group_vs_Inactivated-bacteria-group_UP	NA	561	1578
 bsdb:991/1/1_Disease-staging:Melanoma-surface-of-pigs-with-Melanoma-progression_vs_Melanoma-surface-of-pigs-with-with-melanoma-regression_UP	NA	1654	816	194	44259	848	13075	31983	543311	162289	1257	836	1069494
 bsdb:991/1/2_Disease-staging:Melanoma-surface-of-pigs-with-Melanoma-progression_vs_Melanoma-surface-of-pigs-with-with-melanoma-regression_DOWN	NA	137460	292480	572511	43668	872	37914	1350	66831	216851	89092	1470540	227979	1578	1269	90243	497	1501226	841	1505652	191303	46255	1263
 bsdb:991/2/1_Disease-staging:Melanoma-tissue-of-pigs-with-Melanoma-progression_vs_Melanoma-tissue-of-pigs-with-with-melanoma-regression_UP	NA	1716	848	31983	543311	162289	1257	836	508215	1069494
@@ -3930,6 +3931,17 @@ bsdb:1033/4/1_Papillary-thyroid-carcinoma:Patients-with-PTC-at-clinical-stage-T4
 bsdb:1033/5/1_Papillary-thyroid-carcinoma:Patients-with-PTC-at-clinical-stage-T3_vs_Patients-with-PTC-at-clinical-stage-T2_DOWN	NA	286	13687
 bsdb:1033/6/1_Papillary-thyroid-carcinoma:Patients-with-PTC-at-clinical-stage-T4_vs_Patients-with-PTC-at-clinical-stage-T2_DOWN	NA	286
 bsdb:1033/8/1_Papillary-thyroid-carcinoma:Female-Patients-with-PTC-(G2)_vs_Male-Patients-with-PTC-(G1)_UP	NA	1827	48736	59732	32008	1827195	1822464
+bsdb:1033/9/1_Hormone:Thyroid-Stimulating-Hormone-(TSH)_vs_NA_DOWN	NA	2747	838
+bsdb:1033/10/1_Hormone:Triiodothyronine-(T3)_vs_NA_DOWN	NA	117563
+bsdb:1033/11/1_Hormone:Thyroxine-(T4)_vs_NA_DOWN	NA	570
+bsdb:1033/12/1_Hormone:Free-Triiodothyronine-(FT3)_vs_NA_UP	NA	157
+bsdb:1033/13/1_Hormone:Free-Thyroxine-(FT4)_vs_NA_UP	NA	482
+bsdb:1033/13/2_Hormone:Free-Thyroxine-(FT4)_vs_NA_DOWN	NA	570
+bsdb:1033/14/1_Antibody:Anti-thyroid-stimulating-receptors-(Anti-TSHR)_vs_NA_DOWN	NA	570	32008	1827195	1822464
+bsdb:1033/15/1_Antibody:Anti-thyroid-peroxidase-(Anti-TPO)_vs_NA_DOWN	NA	1678	970	838	1301	543311	239934	816	724
+bsdb:1033/16/1_Antibody:Anti-thyroglobulin-(Anti-TG)_vs_NA_UP	NA	13687	1827	48736	41275
+bsdb:1033/16/2_Antibody:Anti-thyroglobulin-(Anti-TG)_vs_NA_DOWN	NA	165779	239934
+bsdb:1033/17/1_Hormone:Triiodothyronine-(T3)_vs_NA_DOWN	NA	117563
 bsdb:1033/18/1_Hormone:Free-Triiodothyronine-(FT3)_vs_NA_DOWN	NA	117563
 bsdb:1033/20/1_Antibody:Anti-thyroid-stimulating-receptors-(Anti-TSHR)_vs_NA_UP	NA	32067
 bsdb:1033/21/1_Antibody:Anti-thyroid-peroxidase-(Anti-TPO)_vs_NA_UP	NA	1678	724
@@ -3937,6 +3949,8 @@ bsdb:1034/1/1_Birth-measurement:High-vaginal-sialidase-activity_vs_Low-vaginal-s
 bsdb:1034/1/2_Birth-measurement:High-vaginal-sialidase-activity_vs_Low-vaginal-sialidase-activity_DOWN	NA	32008	80865	963	1578	1007	504481
 bsdb:1034/2/1_Birth-measurement:Leukocyte-high-(grades-III-IV)_vs_Leukocyte-low-(grades-I-II)_UP	NA	32008	80865	1578	162289
 bsdb:1034/2/2_Birth-measurement:Leukocyte-high-(grades-III-IV)_vs_Leukocyte-low-(grades-I-II)_DOWN	NA	165779	1301	40544
+bsdb:1035/1/1_Urinary-schistosomiasis:Infection-Only_vs_Healthy-Control_UP	NA	469	1375	59732	66831	570	286	22	1279
+bsdb:1035/1/2_Urinary-schistosomiasis:Infection-Only_vs_Healthy-Control_DOWN	NA	469	635	547	551	2701	568	131079	13159	29487	497	46255	1279
 bsdb:1035/2/1_Urinary-schistosomiasis:Advanced_vs_Healthy-Control_UP	NA	816	227979	838	848	29465	1375	117563	66831	1696	162289	75	1578	1279	469
 bsdb:1035/2/2_Urinary-schistosomiasis:Advanced_vs_Healthy-Control_DOWN	NA	547	635	46255	551	29487	568	286	1279	469
 bsdb:1035/3/1_Urinary-schistosomiasis:Infected_vs_Non-Infected_UP	NA	469	1375	816	1696	59732	1350	66831	848	117563	227979	1578	1357	33969	162289	838	1279	29465
@@ -3949,8 +3963,8 @@ bsdb:1035/6/1_Urinary-schistosomiasis:Infection-Only_vs_Pathology-Only_UP	NA	137
 bsdb:1035/6/2_Urinary-schistosomiasis:Infection-Only_vs_Pathology-Only_DOWN	NA	547	635	551	29487	75	1279	212791	59732	1386	29580	497	469
 bsdb:1035/7/1_Urinary-schistosomiasis:Infected_vs_Non-Infected_DOWN	NA	165779	1257	158851	46255	626
 bsdb:1035/7/2_Urinary-schistosomiasis:Infected_vs_Non-Infected_UP	NA	28453	40323
-bsdb:1036/1/1_Behcet's-syndrome:Behcet's-disease-recipient-mice_vs_Healthy-controls-recipient-mice_UP	NA	133925	1386	239934	1283313
-bsdb:1036/1/2_Behcet's-syndrome:Behcet's-disease-recipient-mice_vs_Healthy-controls-recipient-mice_DOWN	NA	1357	35832	33042	283	283168	580024	33024	42255	1432051	2129	149698	209879
+bsdb:1036/1/1_Behcet's-syndrome:Behcet's-disease-recipient-mice_vs_Healthy-controls-recipient-mice_UP	NA	1357	35832	561	33042	283	283168	580024	33024	42255	1432051	2129	149698	209879
+bsdb:1036/1/2_Behcet's-syndrome:Behcet's-disease-recipient-mice_vs_Healthy-controls-recipient-mice_DOWN	NA	133925	1386	239934	1283313
 bsdb:1037/1/1_Chronic-constipation:Constipated-women_vs_Healthy-women_UP	NA	816	909656	1407607	375288	544
 bsdb:1037/1/2_Chronic-constipation:Constipated-women_vs_Healthy-women_DOWN	NA	561	570	841
 bsdb:1038/1/1_Response-to-radiation:Premenopausal-Pre-treatment-group_vs_Premenopausal-healthy-controls-(HPV-Negative-women)_UP	NA	165779	1380	118747	194	39948	236752	1686313	848	1378	2050	437755	543311	2740	162289	1257	836	838	123375	1213720
@@ -4319,17 +4333,3 @@ bsdb:1060/4/1_Population:Kwisi_vs_Kuvale_UP	NA	544	1279384
 bsdb:1060/4/2_Population:Kwisi_vs_Kuvale_DOWN	NA	158483	544
 bsdb:1060/5/1_Population:Twa_vs_Kuvale_UP	NA	544	1279384	547	561	44259	570	2767353	836	286	590	613	158876
 bsdb:1060/5/2_Population:Twa_vs_Kuvale_DOWN	NA	848	1378	577309	836
-bsdb:1060/6/1_Population:Tshwa_vs_Kuvale_UP	NA	2717	43996	544	1716	1279384	547	1350	561	44259	848	568	43994	32257	570	1913599	286	590	158876
-bsdb:1060/6/2_Population:Tshwa_vs_Kuvale_DOWN	NA	1654	724	32257	1164882	577309	836	71
-bsdb:1060/7/1_Population:!Xun_vs_Kuvale_UP	NA	544	1279384	1913599	1743	177971
-bsdb:1060/7/2_Population:!Xun_vs_Kuvale_DOWN	NA	46123	1386	544	1870884	1350	1378	724
-bsdb:1072/1/1_Non-alcoholic-fatty-liver-disease:HIV+-MASLD+_vs_HIV--MASLD+_UP	NA	189330	1506577	86331	123375	1501226	1263	1485	2316020	2740	2172	248744	1573535	572511	1506553
-bsdb:1072/1/2_Non-alcoholic-fatty-liver-disease:HIV+-MASLD+_vs_HIV--MASLD+_DOWN	NA	1508657	1350	53335	1485	629	1578	1263	1301	1766253	2569097	841	239759	292632	46255	207244
-bsdb:1077/1/1_Gut-microbiome-measurement:JAX-CH-group_vs_JAX-group_UP	NA	2086	816	51514	1578	248038	375288
-bsdb:1077/1/2_Gut-microbiome-measurement:JAX-CH-group_vs_JAX-group_DOWN	NA	174708	1678
-bsdb:1077/2/1_Gut-microbiome-measurement:TAC-CH-group_vs_TAC-group_UP	NA	207244	244127	1485	119852	191303
-bsdb:1077/2/2_Gut-microbiome-measurement:TAC-CH-group_vs_TAC-group_DOWN	NA	447020	49082	189330	1279
-bsdb:1077/3/2_Gut-microbiome-measurement:JAX-CH-group_vs_TAC-CH-group_DOWN	NA	816
-bsdb:1077/4/1_Gut-microbiome-measurement:JAX-CH-group_vs_JAX-group_UP	NA	816	51514	1578	248038	375288
-bsdb:1077/4/2_Gut-microbiome-measurement:JAX-CH-group_vs_JAX-group_DOWN	NA	447020	174708	1678	119852	1263
-bsdb:1077/5/1_Gut-microbiome-measurement:TAC-CH-group_vs_TAC-group_UP	NA	33042
