@@ -1,4 +1,4 @@
-# BugSigDB 2024-07-03_05:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2024-07-03_06:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/2_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	100883	1117
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	207244	57037
 bsdb:1/2/2_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_DOWN	NA	1236	100883	91347
@@ -112,6 +112,10 @@ bsdb:34/6/1_Bipolar-disorder:Bipolar-patients-with-high-TBARS-level_vs_low-TBARS
 bsdb:34/7/1_Bipolar-disorder:Bipolar-patients-with-high-MDA-level_vs_low-MDA-level_DOWN	NA	216851
 bsdb:34/8/1_Bipolar-disorder:Bipolar-patients-with-high-BMI_vs_low-BMI_UP	NA	1578	33958	91061
 bsdb:34/9/1_Bipolar-disorder:Bipolar-patients-with-metabolic-syndrome_vs_no-metabolic-syndrome_UP	NA	33958	1578	84107
+bsdb:34/10/1_Bipolar-disorder:Bipolar-patients-with-depressive-syndrome_vs_healthier-bipolar-patients_UP	NA	543
+bsdb:34/10/2_Bipolar-disorder:Bipolar-patients-with-depressive-syndrome_vs_healthier-bipolar-patients_DOWN	NA	31979	841
+bsdb:34/11/1_Bipolar-disorder:Bipolar-disorder_vs_Controls_UP	NA	201174	84999	84107	84998
+bsdb:34/11/2_Bipolar-disorder:Bipolar-disorder_vs_Controls_DOWN	NA	541000	216851
 bsdb:35/1/1_Sjogren-syndrome:PSS_vs_Controls_UP	NA	29465	909929	31977	1236	1224
 bsdb:35/1/2_Sjogren-syndrome:PSS_vs_Controls_DOWN	NA	1654	724	482	32207	836	1257	28216	2049	712	481	206351	1268	171551	2037	203490	32066	203491	186801	186802	135625	201174
 bsdb:36/1/1_Obesity:obese-adolescent_vs_control-adult_UP	NA	1654	31979	74426	1747	853
@@ -849,6 +853,11 @@ bsdb:231/7/2_Diet:Renatta-canada-apple---at-10-hr_vs_Inulin_UP	NA	1678
 bsdb:231/8/1_Diet:Golden-delicious-apple---at-10-hr_vs_Inulin_DOWN	NA	86331	119852	186802
 bsdb:231/8/2_Diet:Golden-delicious-apple---at-10-hr_vs_Inulin_DOWN	NA	1678
 bsdb:231/9/1_Diet:Golden-delicious-apple---at-24-hr_vs_Inulin_UP	NA	216851
+bsdb:231/10/1_Diet:Pink-Lady-apple---at-10-hr_vs_Inulin_DOWN	NA	86331	119852	186802
+bsdb:231/11/1_Diet:Pink-Lady-apple---at-24-hr_vs_Inulin_DOWN	NA	216851
+bsdb:231/12/1_Diet:Cellulose---at-10hr_vs_Inulin_UP	NA	35832	186802	186803	119852	375288
+bsdb:231/13/1_Diet:Cellulose---at-24hr_vs_Inulin_DOWN	NA	216851
+bsdb:231/13/2_Diet:Cellulose---at-24hr_vs_Inulin_UP	NA	186802
 bsdb:232/1/1_HIV-infection:HIV-infected-cART-negative_vs_Healthy-controls_UP	NA	165779	32066	203492	203490	848	186804	1257	836
 bsdb:232/1/2_HIV-infection:HIV-infected-cART-negative_vs_Healthy-controls_DOWN	NA	239759	186801	33042	186802	1730	1239	28050	186803	541000	171550	841	1263
 bsdb:233/1/1_HIV-infection:HIV-infected-subjects_vs_uninfected-controls_UP	NA	469	118882	468	838	171552	1224	32033
@@ -985,6 +994,10 @@ bsdb:256/6/1_Gastric-cancer:late-stage-tumor_vs_late-stage-normal_UP	NA	1747	132
 bsdb:256/8/1_Gastric-cancer:late-stage-peritumor_vs_late-stage-normal_DOWN	NA	165179
 bsdb:256/9/1_Gastric-cancer:normal-HP+_vs_normal-HP-_UP	NA	80840	149698	75682	31953	1678	85004	1716	1653	2049	1654	407	119045	186803	204457	13687	41297	28211	1300	1301	72293	209	213849	29547	1224
 bsdb:256/9/2_Gastric-cancer:normal-HP+_vs_normal-HP-_DOWN	NA	909930	135622	28216	572511	186801	39948	186802	216851	1239	204475	28256	2745	135619	541000	33024	838	171552	841	1263	22	267890	186803
+bsdb:256/10/1_Gastric-cancer:peritumor-HP+_vs_peritumor-HP-_UP	NA	186817	1385	1386	213849	29547	1378	209	72293	1224	1300	1301	539003
+bsdb:256/10/2_Gastric-cancer:peritumor-HP+_vs_peritumor-HP-_DOWN	NA	186801	33024	909930	186802	841	216851	239759	171550	39948	541000	204475	158846	1386	186826	375288
+bsdb:256/11/1_Gastric-cancer:tumor-HP+_vs_tumor-HP-_UP	NA	90964	1279	815	816	204458	76892	41275	356	28211	572511	80840	149698	204457	84566	165696	72293	209	213849	29547
+bsdb:256/11/2_Gastric-cancer:tumor-HP+_vs_tumor-HP-_DOWN	NA	469	468	1263	286	351	72274	28216	118882	13687	85004	1678	31953	1224
 bsdb:257/1/1_Colorectal-cancer:colorectal-cancer_vs_healthy-control_UP	NA	239934	35832	574697	990721	990719	31979	1485	51514	194924	848	186803	283168	119852	541000	846	375288	1257	836	1263	970	128827	1730
 bsdb:257/1/2_Colorectal-cancer:colorectal-cancer_vs_healthy-control_DOWN	NA	158846	41294	52225
 bsdb:258/1/1_Colorectal-cancer:carcinoma_vs_Healthy-Controls_UP	NA	543	848	186803	836	1485	171551
@@ -1088,6 +1101,8 @@ bsdb:274/7/2_Cervical-glandular-intraepithelial-neoplasia:high-grade-dysplasia_v
 bsdb:274/8/1_Cervical-cancer:invasive-cervical-carcinoma_vs_HPV-_DOWN	NA	165779	1678	2701	1578	47770	437755	1465756	28125
 bsdb:274/9/1_Human-papilloma-virus-infection,Cervical-cancer:normal-pH_vs_abnormal-pH_UP	NA	1380	1678	1485	1350	851	2701	1378	906	2098	2052	437755	543311	1257	838	419005	28130	177971	168808	40543	1279	1301	1311	29465	187328
 bsdb:274/9/2_Human-papilloma-virus-infection,Cervical-cancer:normal-pH_vs_abnormal-pH_DOWN	NA	71655	1485	561	1578	1596	620
+bsdb:274/10/1_Human-papilloma-virus-infection:Hispanic_vs_non-Hispanic_UP	NA	1375	1380	1350	82135	2701	906	2052	437755	836	177971	168808	40543	1301	1328	29465	187328
+bsdb:274/10/2_Human-papilloma-virus-infection:Hispanic_vs_non-Hispanic_DOWN	NA	33037	28127	1578	1596
 bsdb:275/1/1_Acute-lymphoblastic-leukemia:adolescent-ALL-patient_vs_healthy-sibling-control_UP	NA	816
 bsdb:275/1/2_Acute-lymphoblastic-leukemia:adolescent-ALL-patient_vs_healthy-sibling-control_DOWN	NA	841	186803
 bsdb:276/1/1_Multiple-myeloma:Multiple-Myeloma-patient_vs_healthy-control_UP	NA	1224
@@ -1115,119 +1130,3 @@ bsdb:282/1/2_Graft-versus-host-disease:Grades-II-IV-(acute-graft-host-disease)_v
 bsdb:282/2/1_Graft-versus-host-disease:intensified-conditioning_vs_standard-conditioning_DOWN	NA	186803	541000
 bsdb:282/3/1_Graft-versus-host-disease:b-lactum-antibiotics_vs_no-b-lactum-antibiotics_DOWN	NA	186803
 bsdb:282/4/1_Graft-versus-host-disease:vancomycin-antibiotics_vs_no-vancomycin-antibiotics_UP	NA	543
-bsdb:283/1/1_Human-papilloma-virus-infection:HPV+_vs_HPV-_UP	NA	2702	84111	1378	1872650	31977	87541	1258	1633
-bsdb:283/1/2_Human-papilloma-virus-infection:HPV+_vs_HPV-_DOWN	NA	31953	82135	109790	47770
-bsdb:284/1/1_Chronic-kidney-disease:Chronic-kidney-disease_vs_healthy-controls_UP	NA	1654	59735	1716	32207	1301	1578
-bsdb:284/1/2_Chronic-kidney-disease:Chronic-kidney-disease_vs_healthy-controls_DOWN	NA	848	836
-bsdb:284/2/1_Chronic-kidney-disease:Chronic-kidney-disease_vs_healthy-controls_UP	NA	1655	200	44737	1624	1613	28037	1309	1310	56774
-bsdb:284/2/2_Chronic-kidney-disease:Chronic-kidney-disease_vs_healthy-controls_DOWN	NA	1151604	45243	726	43995	742463	936567	239138	28131	28132	425941	242668	157692
-bsdb:284/4/1_Chronic-kidney-disease:Chronic-kidney-disease_vs_healthy-controls_UP	NA	1309
-bsdb:285/1/1_Multiple-sclerosis:pediatric-multiple-sclerosis_vs_healthy-controls_UP	NA	35832	1678	186802	872	84107	165179	135858	990719	541000	33024
-bsdb:285/1/2_Multiple-sclerosis:pediatric-multiple-sclerosis_vs_healthy-controls_DOWN	NA	28050	541000	577309	186802	165179	816	119852	1261
-bsdb:285/2/1_Multiple-sclerosis:IMD-exposure-multiple-sclerosis-cases_vs_IMD-naive-cases_UP	NA	201174
-bsdb:285/2/2_Multiple-sclerosis:IMD-exposure-multiple-sclerosis-cases_vs_IMD-naive-cases_DOWN	NA	544448	1117
-bsdb:285/3/1_Multiple-sclerosis:IMD-naive-cases-multiple-sclerosis_vs_healthy-controls_UP	NA	904	239935	1380	47678	28116	1678	35832	33035	135858	990719	80864	33042	84107	872	189330	186802	1730	853	729	186803	158846	906	2172	119852	541000	823	33024	310297	165179	363265	113286	1263	40544	39778	33038
-bsdb:285/3/2_Multiple-sclerosis:IMD-naive-cases-multiple-sclerosis_vs_healthy-controls_DOWN	NA	541000	165179	1623	577309	186803	171550	816	1263	823	820	574697	52226	33042	1261	207244	239935	28111	40544	853	817	135858	39948	387090	28116	189330
-bsdb:286/1/1_Graves-ophthalmopathy:graves-orbitopathy_vs_Healthy-controls_UP	NA	976	165179	171552
-bsdb:286/1/2_Graves-ophthalmopathy:graves-orbitopathy_vs_Healthy-controls_DOWN	NA	328814	39488	207244	572511	574697	102106	39496	1239	1407607	1852369	204516	1263
-bsdb:286/2/1_Graves-ophthalmopathy:graves-orbitopathy_vs_healthy-controls_UP	NA	171549	976	200643	165179	171552
-bsdb:286/2/2_Graves-ophthalmopathy:graves-orbitopathy_vs_healthy-controls_UP	NA	186801	186802	1239	186803
-bsdb:287/1/1_Human-papilloma-virus-infection:Visit-1-HPV-(progression)_vs_HPV-(clearance)_UP	NA	87541	33034	1681	1679	1322	449520	827	191610	2702	242750	405	406	485	54005	33030	501496	28132	28137	52773	1660	68569	160	187328
-bsdb:287/1/2_Human-papilloma-virus-infection:Visit-1-HPV-(progression)_vs_HPV-(clearance)_DOWN	NA	185294	147802
-bsdb:287/2/1_Human-papilloma-virus-infection:Visit-2-HPV-(progression)_vs_HPV-(clearance)_UP	NA	419005	29524	33033	487173	33034	54005	1496	84136	250	33043
-bsdb:287/2/2_Human-papilloma-virus-infection:Visit-2-HPV-(progression)_vs_HPV-(clearance)_DOWN	NA	544581	1381	288965
-bsdb:288/1/1_Phenylketonuria:phenylketonuric-with-Phe-restricted-diet_vs_mild-hyperphenylalaninemic-with-unrestricted-diet_DOWN	NA	853	841	1578
-bsdb:289/1/1_Health-trait:suboptimal-health-status_vs_healthy-controls_UP	NA	59732	1117	119852	541000	186807	171550	841	1263	74201	1898207	203492
-bsdb:289/1/2_Health-trait:suboptimal-health-status_vs_healthy-controls_DOWN	NA	581	48736	28216	506	40544
-bsdb:290/1/1_Oral-mucositis:ulcerative-oral-mucositis_vs_no-ulcerative-oral-mucositis_UP	NA	29465	1350	1301	1279	848	838
-bsdb:290/1/2_Oral-mucositis:ulcerative-oral-mucositis_vs_no-ulcerative-oral-mucositis_DOWN	NA	1301	1654
-bsdb:290/2/1_Oral-mucositis:pre--and-three-month-after-auto-stem-cell-transplant_vs_one-and-two-weeks-after-stem-cell-transplant_UP	NA	39777	39778	29317	55565	838	32067	187326	1926307
-bsdb:290/2/2_Oral-mucositis:pre--and-three-month-after-auto-stem-cell-transplant_vs_one-and-two-weeks-after-stem-cell-transplant_DOWN	NA	1578	1613	230143
-bsdb:290/3/1_Oral-mucositis:pre--and-three-month-after-auto-stem-cell-transplant_vs_one-and-two-weeks-after-stem-cell-transplant_UP	NA	113107	1318	39777	39778	1654	55565	1379	29391	84135
-bsdb:290/3/2_Oral-mucositis:pre--and-three-month-after-auto-stem-cell-transplant_vs_one-and-two-weeks-after-stem-cell-transplant_DOWN	NA	1280	29380	1282	1292	230143	1351
-bsdb:290/4/1_Oral-mucositis:0.1%-or-higher-fungi-load_vs_low-or-no-fungi-load_UP	NA	196081	1279	1578
-bsdb:290/4/2_Oral-mucositis:0.1%-or-higher-fungi-load_vs_low-or-no-fungi-load_DOWN	NA	29465	1654	838	32067	906	1301
-bsdb:291/1/1_Graves-disease:graves-disease_vs_healthy-controls_UP	NA	171552	712	838	724	204	1926307	582
-bsdb:291/1/2_Graves-disease:graves-disease_vs_healthy-controls_DOWN	NA	239759	1872444	543	216851	1596	171550	31977	39948
-bsdb:292/1/2_Response-to-allogeneic-hematopoietic-stem-cell-transplant:allogeneic-hematopoietic-stem-cell-transplant_vs_community-dwelling-controls_DOWN	NA	1283313	724	32067	482	265975	838	1301
-bsdb:293/1/1_Human-papilloma-virus-infection:Baseline-HPV+_vs_Baseline-HPV-_UP	NA	31969	544448	2085	2092	2129
-bsdb:293/1/2_Human-papilloma-virus-infection:Baseline-HPV+_vs_Baseline-HPV-_DOWN	NA	118968	188787	1297	72276	1582879	216851	203492	848	186820	873565	203491
-bsdb:293/2/1_Human-papilloma-virus-infection:new-acquisition-of-HPV-within-a-year_vs_no-new-acquisition-of-HPV-within-a-year_DOWN	NA	1654
-bsdb:293/3/1_Human-papilloma-virus-infection:without-any-HPV-type-cleared_vs_with-at-least-one-HPV-type-cleared-in-a-year_DOWN	NA	31989	204455
-bsdb:293/4/1_Human-papilloma-virus-infection:HPV+_vs_HPV-_UP	NA	134821
-bsdb:293/4/2_Human-papilloma-virus-infection:HPV+_vs_HPV-_DOWN	NA	1852374	287
-bsdb:293/5/1_Human-papilloma-virus-infection:new-acquisition-of-HPV-within-a-year_vs_no-new-acquisition-of-HPV-within-a-year_UP	NA	76122	28133	28136	218538
-bsdb:293/6/1_Human-papilloma-virus-infection:without-any-HPV-type-cleared_vs_with-any-HPV-type-cleared-in-a-year_UP	NA	502393	419005	1391654	1763509
-bsdb:293/7/1_Human-papilloma-virus-infection:at-least-one-HPV-type-persisted_vs_no-HPV-type-persisted_UP	NA	386414	420324	218538	410072	1182571	1297424
-bsdb:293/7/2_Human-papilloma-virus-infection:at-least-one-HPV-type-persisted_vs_no-HPV-type-persisted_DOWN	NA	1584
-bsdb:294/1/1_Acute-lymphoblastic-leukemia:post-induction-therapy_vs_baseline_UP	NA	1239	31979	1300	81852	33958
-bsdb:294/1/2_Acute-lymphoblastic-leukemia:post-induction-therapy_vs_baseline_DOWN	NA	1971605	201174	74201
-bsdb:294/2/1_Acute-lymphoblastic-leukemia:post-consolidation-therapy_vs_baseline_UP	NA	1239	33958
-bsdb:294/2/2_Acute-lymphoblastic-leukemia:post-consolidation-therapy_vs_baseline_DOWN	NA	976	201174	74201
-bsdb:294/3/1_Acute-lymphoblastic-leukemia:post-re-induction-therapy_vs_baseline_UP	NA	1239	31979	81852	33958
-bsdb:294/3/2_Acute-lymphoblastic-leukemia:post-re-induction-therapy_vs_baseline_DOWN	NA	541000	1971605	201174	74201
-bsdb:294/4/1_Acute-lymphoblastic-leukemia:febrile-neutropenia_vs_non-febrile-neutropenia_UP	NA	1224
-bsdb:295/1/1_Human-papilloma-virus-infection:low-risk-HPV_vs_negative-control_UP	NA	1654	2049	239759	1678	35832	572511	119060	574697	186801	1485	80864	1348911	33042	39948	128827	526525	526524	186802	1407607	203491	203490	32066	204475	206349	119069	70774	186803	1129771	906	31969	544448	541000	745	712	135625	186804	1257	33024	171550	841	1263	1200657	168808	40544	995019
-bsdb:295/1/2_Human-papilloma-virus-infection:low-risk-HPV_vs_negative-control_DOWN	NA	135624	351	1236	209	72293	68	497726	1033997	1033996	651137	72274	83763	135621
-bsdb:296/1/1_Multiple-myeloma:multiple-myeloma-patients_vs_healthy-control_UP	NA	573	244366	1303	1302	550	1308	1318	1304	1689	546	74426	28037	548	839	589436	1328	28132	1297617	1313	54291	1680	732	61645	907	351091
-bsdb:296/1/2_Multiple-myeloma:multiple-myeloma-patients_vs_healthy-control_DOWN	NA	197614	66219	1561	169679	43305	1496	185008	246787	36745	1869337	28116	1679721	818	823	39485	47678	1686	1520	1505	1491	649756	158847	1492	630129	28026	856
-bsdb:296/2/1_Multiple-myeloma:multiple-myeloma-patients_vs_healthy-controls_UP	NA	546	550	548	573	244366	54291	1302	1303	1313	1304	28037
-bsdb:296/2/2_Multiple-myeloma:multiple-myeloma-patients_vs_healthy-controls_DOWN	NA	649756	84030	1492
-bsdb:297/1/1_Human-papilloma-virus-infection:non-pregnant-high-risk-HPV_vs_non-pregnant-no-HPV_UP	NA	1678	976	1385	186817	1386
-bsdb:297/1/2_Human-papilloma-virus-infection:non-pregnant-high-risk-HPV_vs_non-pregnant-no-HPV_DOWN	NA	1578	33958	186826
-bsdb:297/2/1_Human-papilloma-virus-infection:pregnant-high-risk-HPV_vs_pregnant-no-HPV_UP	NA	1224	28216	80864	80840	12916
-bsdb:297/2/2_Human-papilloma-virus-infection:pregnant-high-risk-HPV_vs_pregnant-no-HPV_DOWN	NA	91061	186803	186801	186802	1300	1301
-bsdb:298/2/1_Acute-myeloid-leukemia:infection_vs_no-infection_UP	NA	40323
-bsdb:298/2/2_Acute-myeloid-leukemia:infection_vs_no-infection_DOWN	NA	1301
-bsdb:298/3/1_Acute-myeloid-leukemia:infection_vs_no-infection_UP	NA	40323
-bsdb:299/1/1_Acute-lymphoblastic-leukemia:induction-chemotherapy_vs_baseline_UP	NA	35783
-bsdb:300/1/1_Response-to-antibiotic:Exposed-abx-mice_vs_H2O-mice_UP	NA	1117	1224	1239
-bsdb:300/1/2_Response-to-antibiotic:Exposed-abx-mice_vs_H2O-mice_DOWN	NA	201174	976	203490	544448	203494	95818
-bsdb:301/1/1_Human-papilloma-virus-infection:HPV+_vs_HPV-_UP	NA	39948	203492	203491	32066	906	168808	2776143	848
-bsdb:301/1/2_Human-papilloma-virus-infection:HPV+_vs_HPV-_DOWN	NA	1578	186826	33958
-bsdb:301/2/1_Human-papilloma-virus-infection:HPV+_vs_HPV-_UP	NA	168808	203492	203491
-bsdb:301/3/1_Human-papilloma-virus-infection:HR-HPV+_vs_HPV-_UP	NA	168808	203492	203491
-bsdb:301/3/2_Human-papilloma-virus-infection:HR-HPV+_vs_HPV-_DOWN	NA	186826
-bsdb:302/1/1_Asthma:exacerbated-asthma_vs_healthy-control_UP	NA	976	1224
-bsdb:302/2/1_Asthma:non-exacerbated-asthma_vs_healthy-control_UP	NA	976	1224
-bsdb:302/3/1_Asthma:exacerbated-asthma_vs_non-exacerbated-asthma_UP	NA	838	222991	2701
-bsdb:302/3/2_Asthma:exacerbated-asthma_vs_non-exacerbated-asthma_DOWN	NA	39948
-bsdb:302/4/1_Asthma:asthma_vs_healthy-control_UP	NA	28127	218538	2702	208968
-bsdb:302/5/1_Asthma:asthma_vs_healthy-control_UP	NA	28127	2702
-bsdb:303/1/1_Non-Hodgkins-lymphoma:post-chemotherapy_vs_pre-chemotherapy_UP	NA	186827	186828	544	543	81852	1350	375288	171551	1224	1380	570
-bsdb:303/1/2_Non-Hodgkins-lymphoma:post-chemotherapy_vs_pre-chemotherapy_DOWN	NA	201174	447020	165779	1380	31953	1678	572511	1485	102106	33042	84107	189330	543	1239	570	28050	186803	119852	541000	841	1263	1898207
-bsdb:304/1/1_Antimicrobial-agent:oral-intake-of-vancomycin-(directed-against-Gram-positive-bacteria)_vs_or-placebo-(microcrystalline-cellulose)_UP	NA	105841	109327	1380	1678	40520	102106	33043	39486	84112	853	140626	28052	29370	1590	100176	40518	29361	29343
-bsdb:305/1/1_Genital-neoplasm,-female:women-with-gynecological-cancer_vs_healthy-controls_UP	NA	165779	39948	1582879	848	2050	437755	2093	543311	162289	1257	836	838	168808	1129771
-bsdb:305/1/2_Genital-neoplasm,-female:women-with-gynecological-cancer_vs_healthy-controls_DOWN	NA	1678	1578	177971
-bsdb:307/1/1_Antimicrobial-agent:moxifloxacin-treated-group-(MXF)_vs_Negative-control-group-(CLT)_UP	NA	2157	572511
-bsdb:307/1/2_Antimicrobial-agent:moxifloxacin-treated-group-(MXF)_vs_Negative-control-group-(CLT)_DOWN	NA	239759	214856	328813	28117	328814	171549	487174	1680	28026	35833	572511	1955243	574697	544645	135858	1913682	1485	1506	100883	39486	186802	1730	216851	853	1239	729	261299	39485	186803	28118	459786	1945593	541000	823	487175	360807	40519	1318
-bsdb:307/2/1_Antimicrobial-agent:DAV132+moxifloxacin-treated-group-(MXF+DAV132)_vs_moxifloxacin-treated-group-(MXF)_UP	NA	823	35833	360807	28118	186803	1955243	1506	1239	853	40519	328814	239759	216851	487175	1913682	1680	328813	572511	459786	1945593	100883	214856	544645	541000	186802	1730	28117	574697	487174	39485	135858	39486	729	1288121
-bsdb:307/2/2_Antimicrobial-agent:DAV132+moxifloxacin-treated-group-(MXF+DAV132)_vs_moxifloxacin-treated-group-(MXF)_DOWN	NA	572511
-bsdb:307/3/1_Antimicrobial-agent:DAV132+moxifloxacin-treated-group-(MXF+DAV132)_vs_Negative-control-group-(CLT)_UP	NA	1239	186803
-bsdb:307/3/2_Antimicrobial-agent:DAV132+moxifloxacin-treated-group-(MXF+DAV132)_vs_Negative-control-group-(CLT)_DOWN	NA	35833	1680	261299	28026	135858	292800
-bsdb:308/1/1_Air-pollution:PM-2.5-air-exposed-group_vs_Filtered-air-group_UP	NA	171549	33958	1578	186826	815
-bsdb:308/1/2_Air-pollution:PM-2.5-air-exposed-group_vs_Filtered-air-group_DOWN	NA	1578	1279	186827
-bsdb:308/2/1_Air-pollution:PM-2.5-air-exposed-group_vs_Filtered-air-group_UP	NA	171549	186803	1124673	28050	815	816	2030927	2212467
-bsdb:308/2/2_Air-pollution:PM-2.5-air-exposed-group_vs_Filtered-air-group_DOWN	NA	816	1279	1578	191303
-bsdb:308/3/1_Air-pollution:PM-2.5-air-exposed-group_vs_Filtered-air-group_UP	NA	2030927	2049048
-bsdb:308/3/2_Air-pollution:PM-2.5-air-exposed-group_vs_Filtered-air-group_DOWN	NA	815	2212467	171549	2030927	816	119852	216572	1263	90964	1279	191303
-bsdb:308/4/1_Air-pollution:PM-2.5-air-exposed-group_vs_Filtered-air-group_UP	NA	33958	171549
-bsdb:308/4/2_Air-pollution:PM-2.5-air-exposed-group_vs_Filtered-air-group_DOWN	NA	1578
-bsdb:308/5/1_Air-pollution:PM-2.5-air-exposed-group_vs_Filtered-air-group_UP	NA	375288	1869337
-bsdb:308/5/2_Air-pollution:PM-2.5-air-exposed-group_vs_Filtered-air-group_DOWN	NA	2086	1485	191303	31979	186801	1898207
-bsdb:308/6/1_Air-pollution:PM-2.5-air-exposed-group_vs_Filtered-air-group_DOWN	NA	1578	1279	91061
-bsdb:308/6/2_Air-pollution:PM-2.5-air-exposed-group_vs_Filtered-air-group_UP	NA	33958	171550	171549
-bsdb:309/1/1_Cervical-glandular-intraepithelial-neoplasia:CIN2+_vs_CIN1_UP	NA	815	816	28111	574697	118968	31984	33958	1578	444	1598	375288	171551	330	59195
-bsdb:309/1/2_Cervical-glandular-intraepithelial-neoplasia:CIN2+_vs_CIN1_DOWN	NA	186802	541000
-bsdb:309/2/1_Cervical-glandular-intraepithelial-neoplasia:>38.8%-8-OHdG-positive-cervical-cells_vs_<=38.8%-8-OHdG-positive-cervical-cells_UP	NA	357	351	28216	80840	80864	356	665874	75682	20	286	82115
-bsdb:309/2/2_Cervical-glandular-intraepithelial-neoplasia:>38.8%-8-OHdG-positive-cervical-cells_vs_<=38.8%-8-OHdG-positive-cervical-cells_DOWN	NA	31979
-bsdb:309/3/1_Cervical-glandular-intraepithelial-neoplasia:CIN2+_vs_CIN1_UP	NA	239935	1598
-bsdb:309/3/2_Cervical-glandular-intraepithelial-neoplasia:CIN2+_vs_CIN1_DOWN	NA	239935	33035	1502	74426	28132	165179	1311
-bsdb:310/1/1_Non-Hodgkins-lymphoma:post-chemotherapy_vs_pre-chemotherapy_UP	NA	816	976	561	1224
-bsdb:310/1/2_Non-Hodgkins-lymphoma:post-chemotherapy_vs_pre-chemotherapy_DOWN	NA	1239	201174	572511	216851	841	1678
-bsdb:311/1/1_Graft-versus-host-disease:aGvHD-(acute-Graft-versus-host-disease)_vs_non-GvHD-(Graft-versus-host-disease)_DOWN	NA	200643
-bsdb:311/1/2_Graft-versus-host-disease:aGvHD-(acute-Graft-versus-host-disease)_vs_non-GvHD-(Graft-versus-host-disease)_UP	NA	1239
-bsdb:312/1/1_Antimicrobial-agent:Infants-born-by-mothers-positive-to-GBS-and-received-IAP_vs_infants-born-by-mothers-negative-to-GBS_DOWN	NA	31953	815
-bsdb:312/2/1_Antimicrobial-agent:Infants-born-by-mothers-positive-to-GBS-and-received-IAP_vs_infants-born-by-mothers-negative-to-GBS_DOWN	NA	1678
-bsdb:313/1/1_Non-Hodgkins-lymphoma:bloodstream-infection_vs_non-bloodstream-infection_UP	NA	29465	128827
-bsdb:313/1/2_Non-Hodgkins-lymphoma:bloodstream-infection_vs_non-bloodstream-infection_DOWN	NA	506	2005519	574697	51514	1202464	194924	216851	1853231	119852	75682	40544
