@@ -1,4 +1,4 @@
-# BugSigDB 2024-07-10_20:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2024-07-10_21:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	57037
 bsdb:1/6/1_Colorectal-adenoma:Non-advanced-conventional-adenoma-cases_vs_controls_UP	NA	57037
 bsdb:5/1/2_Chronic-obstructive-pulmonary-disease:Chronic-obstructive-pulmonary-disease_vs_controls_DOWN	NA	1470358
@@ -321,6 +321,8 @@ bsdb:244/1/2_Age:18-62-years_vs_2-12-years_DOWN	NA	1306
 bsdb:244/4/1_Age:18-62-years_vs_2-12-years_UP	NA	1747	1282	147802
 bsdb:244/5/1_Atopic-eczema:lesional-skin-in-young-children_vs_non-lesional-skin-in-young-children_UP	NA	1747	38303	29388	29380	28037	1303	1313	1305	45634
 bsdb:244/6/1_Atopic-eczema:lesional-skin_vs_non-lesional-skin_UP	NA	1280
+bsdb:244/7/1_Age:18-62-years_vs_2-12-years_UP	NA	1747	147802	1282
+bsdb:244/7/2_Age:18-62-years_vs_2-12-years_DOWN	NA	45634	43675
 bsdb:245/1/1_Urolithiasis,Nephrolithiasis:kidney-stone-group_vs_healthy-control_UP	NA	53254	562	287	33038	2212467
 bsdb:245/1/2_Urolithiasis,Nephrolithiasis:kidney-stone-group_vs_healthy-control_DOWN	NA	638849	1680	360807	328814	328813	310297
 bsdb:245/2/2_Urolithiasis,Nephrolithiasis:kidney-stone-group_vs_healthy-control_DOWN	NA	39488	42322
@@ -349,12 +351,15 @@ bsdb:256/4/1_Gastric-cancer:early-stage-tumor_vs_early-stage-normal_UP	NA	1747	1
 bsdb:256/4/2_Gastric-cancer:early-stage-tumor_vs_early-stage-normal_DOWN	NA	165179	172044
 bsdb:256/5/1_Gastric-cancer:early-stage-peritumor_vs_early-stage-normal_DOWN	NA	172044
 bsdb:256/6/1_Gastric-cancer:late-stage-tumor_vs_late-stage-normal_UP	NA	1747	1328
+bsdb:256/8/1_Gastric-cancer:late-stage-peritumor_vs_late-stage-normal_DOWN	NA	165179
+bsdb:256/11/2_Gastric-cancer:tumor-HP+_vs_tumor-HP-_DOWN	NA	351
 bsdb:259/1/1_Atopic-eczema:emollient-use_vs_no-emollient-use_UP	NA	1304
 bsdb:259/2/1_Atopic-eczema:emollient-use_vs_no-emollient-use_UP	NA	1304
 bsdb:259/2/2_Atopic-eczema:emollient-use_vs_no-emollient-use_UP	NA	1304
 bsdb:260/1/1_Food-allergy:Allergic-Estonian-children._vs_Nonallergic--Estonian-children._UP	NA	1280
 bsdb:260/2/1_Food-allergy:Allergic-Swedish-children_vs_Non-allergic-Swedish-children._UP	NA	1280
 bsdb:261/1/1_Chronic-pancreatitis:autoimmune-pancreatitis-type-1_vs_chronic-pancreatitis_DOWN	NA	28116	205328	460384	113107	1302	160404
+bsdb:262/7/1_Atopic-asthma:atopic-asthma-subjects_vs_healthy-controls_UP	NA	1282
 bsdb:264/1/1_Human-papilloma-virus-infection:HPV+/HIV-_vs_HPV-/HIV-_UP	NA	1872515	72409	309120	2023260	1258	1971214	1261	59823	2776143
 bsdb:264/1/2_Human-papilloma-virus-infection:HPV+/HIV-_vs_HPV-/HIV-_DOWN	NA	1879286	147802
 bsdb:265/1/1_Human-papilloma-virus-infection,Age:two-months_vs_at-birth_UP	NA	43675	39778	1872515
@@ -389,6 +394,13 @@ bsdb:274/5/1_Human-papilloma-virus-infection:HPV+_vs_HPV-_UP	NA	1261
 bsdb:274/5/2_Human-papilloma-virus-infection:HPV+_vs_HPV-_DOWN	NA	1287640	386414	1465756	28125
 bsdb:274/6/1_Cervical-glandular-intraepithelial-neoplasia:low-grade-dysplasia_vs_HPV-_UP	NA	33032	502393	28127	1596	147802	2052	1261	419005	28130	40543	29318
 bsdb:274/6/2_Cervical-glandular-intraepithelial-neoplasia:low-grade-dysplasia_vs_HPV-_DOWN	NA	47770	755172
+bsdb:274/7/1_Cervical-glandular-intraepithelial-neoplasia:high-grade-dysplasia_vs_HPV-_UP	NA	147802	419005	40543
+bsdb:274/7/2_Cervical-glandular-intraepithelial-neoplasia:high-grade-dysplasia_vs_HPV-_DOWN	NA	59505	33032	1287640	827	53374	46507	938288	28127	386414	755172	507750	1465756	33031	28125
+bsdb:274/8/1_Cervical-cancer:invasive-cervical-carcinoma_vs_HPV-_DOWN	NA	47770	1465756	28125
+bsdb:274/9/1_Human-papilloma-virus-infection,Cervical-cancer:normal-pH_vs_abnormal-pH_UP	NA	851	2098	2052	419005	28130	40543	1311	187328
+bsdb:274/9/2_Human-papilloma-virus-infection,Cervical-cancer:normal-pH_vs_abnormal-pH_DOWN	NA	1596
+bsdb:274/10/1_Human-papilloma-virus-infection:Hispanic_vs_non-Hispanic_UP	NA	82135	2052	40543	1328	187328
+bsdb:274/10/2_Human-papilloma-virus-infection:Hispanic_vs_non-Hispanic_DOWN	NA	33037	28127	1596
 bsdb:276/2/1_Multiple-myeloma:Multiple-Myeloma-patient_vs_healthy-control_UP	NA	28141
 bsdb:276/2/2_Multiple-myeloma:Multiple-Myeloma-patient_vs_healthy-control_DOWN	NA	39488
 bsdb:276/3/1_Multiple-myeloma:Multiple-Myeloma-patient_vs_healthy-control_UP	NA	4091
@@ -414,16 +426,3 @@ bsdb:287/2/1_Human-papilloma-virus-infection:Visit-2-HPV-(progression)_vs_HPV-(c
 bsdb:287/2/2_Human-papilloma-virus-infection:Visit-2-HPV-(progression)_vs_HPV-(clearance)_DOWN	NA	544581	1381	288965
 bsdb:288/1/1_Phenylketonuria:phenylketonuric-with-Phe-restricted-diet_vs_mild-hyperphenylalaninemic-with-unrestricted-diet_DOWN	NA	853
 bsdb:289/1/1_Health-trait:suboptimal-health-status_vs_healthy-controls_UP	NA	1898207
-bsdb:290/2/1_Oral-mucositis:pre--and-three-month-after-auto-stem-cell-transplant_vs_one-and-two-weeks-after-stem-cell-transplant_UP	NA	39777	39778	29317	55565	187326	1926307
-bsdb:290/2/2_Oral-mucositis:pre--and-three-month-after-auto-stem-cell-transplant_vs_one-and-two-weeks-after-stem-cell-transplant_DOWN	NA	1613	230143
-bsdb:290/3/1_Oral-mucositis:pre--and-three-month-after-auto-stem-cell-transplant_vs_one-and-two-weeks-after-stem-cell-transplant_UP	NA	113107	1318	39777	39778	55565	1379	29391	84135
-bsdb:290/3/2_Oral-mucositis:pre--and-three-month-after-auto-stem-cell-transplant_vs_one-and-two-weeks-after-stem-cell-transplant_DOWN	NA	1280	29380	1282	1292	230143	1351
-bsdb:291/1/1_Graves-disease:graves-disease_vs_healthy-controls_UP	NA	204	1926307	582
-bsdb:291/1/2_Graves-disease:graves-disease_vs_healthy-controls_DOWN	NA	1872444	1596
-bsdb:293/4/1_Human-papilloma-virus-infection:HPV+_vs_HPV-_UP	NA	134821
-bsdb:293/4/2_Human-papilloma-virus-infection:HPV+_vs_HPV-_DOWN	NA	1852374	287
-bsdb:293/5/1_Human-papilloma-virus-infection:new-acquisition-of-HPV-within-a-year_vs_no-new-acquisition-of-HPV-within-a-year_UP	NA	76122	28133	28136	218538
-bsdb:293/6/1_Human-papilloma-virus-infection:without-any-HPV-type-cleared_vs_with-any-HPV-type-cleared-in-a-year_UP	NA	502393	419005	1391654	1763509
-bsdb:294/1/2_Acute-lymphoblastic-leukemia:post-induction-therapy_vs_baseline_DOWN	NA	1971605
-bsdb:294/3/2_Acute-lymphoblastic-leukemia:post-re-induction-therapy_vs_baseline_DOWN	NA	1971605
-bsdb:295/1/2_Human-papilloma-virus-infection:low-risk-HPV_vs_negative-control_DOWN	NA	351
