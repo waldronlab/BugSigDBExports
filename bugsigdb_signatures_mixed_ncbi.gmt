@@ -1,4 +1,4 @@
-# BugSigDB 2024-08-04_22:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2024-08-04_23:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/2_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	100883	1117
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	207244	57037
 bsdb:1/2/2_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_DOWN	NA	1236	100883	91347
@@ -3186,3 +3186,117 @@ bsdb:780/1/1_Exercise:Meditation-group_vs_Control-group_UP	NA	216851	158846	838	
 bsdb:780/1/2_Exercise:Meditation-group_vs_Control-group_DOWN	NA	1678	95818	102106	39948	906	841	35493	31977	201174	1236
 bsdb:782/1/1_COVID-19:Pharyngeal-samples-from-COVID-19-patients_vs_samples-from-Healthy-patients_DOWN	NA	32008	194	561	848	724	1269	482	970	195950	157
 bsdb:782/1/2_COVID-19:Pharyngeal-samples-from-COVID-19-patients_vs_samples-from-Healthy-patients_UP	NA	1654	508215	1301
+bsdb:782/2/1_COVID-19:Sputum-samples-from-COVID-19-patients_vs_samples-from-Healthy-patients_UP	NA	1016	1301
+bsdb:782/2/2_COVID-19:Sputum-samples-from-COVID-19-patients_vs_samples-from-Healthy-patients_DOWN	NA	80865	724	482	836	195950	157
+bsdb:782/3/1_COVID-19:Feces-samples-from-COVID-19-patients_vs_samples-from-Healthy-patients_UP	NA	2745	286
+bsdb:782/3/2_COVID-19:Feces-samples-from-COVID-19-patients_vs_samples-from-Healthy-patients_DOWN	NA	207244	1678	84111	2719313	216851	946234	1506553	28050	375288	841
+bsdb:784/1/1_Gut-microbiome-measurement:Severe-COVID-19_vs_Moderate-COVID-19_UP	NA	1351
+bsdb:784/1/2_Gut-microbiome-measurement:Severe-COVID-19_vs_Moderate-COVID-19_DOWN	NA	544580	1203556	446660	394340	39491	1628085	39488	649756	1680	216816	28026	40520	418240	74426	147206	116085	410072	39486	88431	39490	39496	853	1262989	1262988	1150298	84135	745368	39485	1358	1981510	459786	301302	301301	166486	360807	43675	1160721	40518	1660	1302	28037	1303	1318	1304	1308	1535	39492	33039
+bsdb:785/1/1_Ulcerative-colitis:Ulcerative-colitis-patient_vs_Healthy-control-individual_UP	NA	1689	40520	1531	292800	729	39485	585	39778	375288
+bsdb:785/1/2_Ulcerative-colitis:Ulcerative-colitis-patient_vs_Healthy-control-individual_DOWN	NA	491921	28117	1694	40518	88431	46503	78344	74426	1735	214851	592978	1623	1473216	239935
+bsdb:785/2/1_Crohn's-disease:Crohn's-disease-patient_vs_Healthy-control-individual_UP	NA	1689	35833	1531	562	1912855	1596	1246	33038	907	296	315405	29466	39778
+bsdb:785/2/2_Crohn's-disease:Crohn's-disease-patient_vs_Healthy-control-individual_DOWN	NA	28117	1694	78344	74426	88431	853	1735	592978	46503	1776391	842	360807	40518	214851	39492
+bsdb:785/3/1_Ulcerative-colitis:Patients-with-moderate-to-severe-ulcerative-colitis_vs_Patients-with-mild-ulcerative-colitis_UP	NA	1496	1624
+bsdb:785/3/2_Ulcerative-colitis:Patients-with-moderate-to-severe-ulcerative-colitis_vs_Patients-with-mild-ulcerative-colitis_DOWN	NA	85831	47678	35833	404403	40519	1313	1522	239759
+bsdb:785/4/1_Ulcerative-colitis:Patients-with-moderate-to-severe-ulcerative-colitis_vs_Patients-with-remission-ulcerative-colitis-(symptoms-of-UC-are-reduced-or-inapparent)_UP	NA	1358	261299	1496	1583	649756	29348	1246	1365
+bsdb:785/4/2_Ulcerative-colitis:Patients-with-moderate-to-severe-ulcerative-colitis_vs_Patients-with-remission-ulcerative-colitis-(symptoms-of-UC-are-reduced-or-inapparent)_DOWN	NA	328813	28117	85831	47678	246787	35833	1472417	28118	823	40519	1305	239759	40544
+bsdb:785/5/1_Pancolitis,Distal-colitis:patients-with-left-sided-or-extensive-ulcerative-colitis_vs_patients-with-proctitis-ulcerative-colitis_UP	NA	1681	261299	292800	649756	1597	33038
+bsdb:785/5/2_Pancolitis,Distal-colitis:patients-with-left-sided-or-extensive-ulcerative-colitis_vs_patients-with-proctitis-ulcerative-colitis_DOWN	NA	2585118	1288121	404403	363265	1623	28118	46503	454154	487175	838	165179	1473216	572010	44748	1299998
+bsdb:785/6/1_Crohn's-disease:patients-with-active-Crohn's-disease_vs_patients-with-remission-Crohn's-disease_UP	NA	626940	1624	97478	28123	116085
+bsdb:785/6/2_Crohn's-disease:patients-with-active-Crohn's-disease_vs_patients-with-remission-Crohn's-disease_DOWN	NA	820	84112	1522	292800	1547	1532	88431	33038	310297	649756	823	1531	342942
+bsdb:785/7/1_Ileocolitis:patients-with-ileocolonic-Crohn's-disease_vs_patients-with-small-bowel-Crohn's-disease_UP	NA	1596	28116	1583
+bsdb:785/7/2_Ileocolitis:patients-with-ileocolonic-Crohn's-disease_vs_patients-with-small-bowel-Crohn's-disease_DOWN	NA	1532	35833	1531
+bsdb:786/1/1_Type-II-diabetes-mellitus:Pre-Type-2-Diabetes_vs_Healthy-controls---based-on-GA--map_UP	NA	189330	1224	91347	1940338
+bsdb:786/1/2_Type-II-diabetes-mellitus:Pre-Type-2-Diabetes_vs_Healthy-controls---based-on-GA--map_DOWN	NA	841	166486	853	218538	29465	40545
+bsdb:786/2/1_Type-II-diabetes-mellitus:Pre-Type-2-Diabetes_vs_Healthy-Controls---based-on-LUMI--Seq-data_UP	NA	91061	186826	1300	1301	1432051	1720294	1924105	1776382
+bsdb:786/2/2_Type-II-diabetes-mellitus:Pre-Type-2-Diabetes_vs_Healthy-Controls---based-on-LUMI--Seq-data_DOWN	NA	351091	310298
+bsdb:786/3/1_Type-II-diabetes-mellitus:Type-2-Diabetes---T2D_vs_Healthy-Controls---based-on-LUMI--Seq-data_UP	NA	189330	91347	39486	88431	526524	128827	191303	154288
+bsdb:786/3/2_Type-II-diabetes-mellitus:Type-2-Diabetes---T2D_vs_Healthy-Controls---based-on-LUMI--Seq-data_DOWN	NA	2039240
+bsdb:786/4/1_Type-II-diabetes-mellitus:Type-2-Diabetes---T2D-Patients_vs_Pre--Type-2-Diabetes-individuals_UP	NA	189330	39486	88431	128827	526524	191303	154288
+bsdb:786/4/2_Type-II-diabetes-mellitus:Type-2-Diabetes---T2D-Patients_vs_Pre--Type-2-Diabetes-individuals_DOWN	NA	91061	1432051	1720294	186826	1924105	1776382	1300	1301
+bsdb:787/1/1_Overactive-bladder:Moderate/Severe-Overactive-Bladder_vs_Mild-Overactive-Bladder_UP	NA	31953	119045	171552	90964
+bsdb:787/1/2_Overactive-bladder:Moderate/Severe-Overactive-Bladder_vs_Mild-Overactive-Bladder_DOWN	NA	33958	81852	1300	468	41297
+bsdb:788/1/1_Response-to-heat:Holstein-cows-under-heat-stress-condition_vs_Holstein-cows-under-normal-condition_UP	NA	204431	218872	204430	65842	56448
+bsdb:788/1/2_Response-to-heat:Holstein-cows-under-heat-stress-condition_vs_Holstein-cows-under-normal-condition_DOWN	NA	1200751
+bsdb:788/2/1_Ruminative-stress-response:Jersey-cows-under-heat-stress-condition_vs_Jersey-cows-under-normal-condition_UP	NA	1396	1386	143786	1643686	1485	1491	1117	3031852	117743	203490	31969	2085	544448	117747	1279	1737404	56448
+bsdb:788/2/2_Ruminative-stress-response:Jersey-cows-under-heat-stress-condition_vs_Jersey-cows-under-normal-condition_DOWN	NA	1760	201174	85004	84998	186802	85011	85008	286	85010	1883	118966	1945890
+bsdb:789/1/1_Breast-cancer:Prediagnostic-(PD)_vs_Healthy-(H)_UP	NA	196013	848	53335	1501226	13687	1279	1306
+bsdb:789/1/2_Breast-cancer:Prediagnostic-(PD)_vs_Healthy-(H)_DOWN	NA	1716
+bsdb:789/2/1_Breast-cancer:Adjacent-normal-(AN)_vs_Healthy-(H)_UP	NA	512	165779	1872652	1716	75654	35783	1890675	570	1871622	583	1494958	306	41274
+bsdb:789/2/2_Breast-cancer:Adjacent-normal-(AN)_vs_Healthy-(H)_DOWN	NA	472	1663	816	374	2755	48221	1720	1912216	1915058	1357	657	306	42255	1263	613	29387	2737
+bsdb:789/3/1_Breast-cancer:Tumor-(T)_vs_Healthy-(H)_UP	NA	165779	35783	1890675	1494958	306	1827	29387
+bsdb:789/3/2_Breast-cancer:Tumor-(T)_vs_Healthy-(H)_DOWN	NA	469	1663	816	35832	376	1993875	48221	1720	1915058	1357	1847725	2005473	657	306	295418	613	29387	270	2737
+bsdb:790/1/1_Inflammatory-bowel-disease:Inflammatory-bowel-disease-patients_vs_Healthy-controls_DOWN	NA	1683	1681	1686	216816	28026	626937	1535	29347	39485	39491	39496	1579	1597	2173	454154	166486	360807	301301	40518	1305	1308	214856	328814	328813	649756	47678	357276	487174	261299	239935
+bsdb:790/2/1_Inflammatory-bowel-disease:Non-inflammatory-bowel-disease-symptomatic-controls_vs_Healthy-children_DOWN	NA	1683	410072	39485	39492	40518	1308	328814	47678	357276
+bsdb:790/2/2_Inflammatory-bowel-disease:Non-inflammatory-bowel-disease-symptomatic-controls_vs_Healthy-children_UP	NA	1352	545
+bsdb:790/3/1_Inflammatory-bowel-disease:inflammatory-bowel-disease-patients_vs_non-inflammatory-bowel-disease-symptomatic-controls_DOWN	NA	454154	1680	1683	1681	626937	1535	901	39491	39492	39496	1579	1597	166486	360807	301301	40518	214856	310297	46506	239935
+bsdb:790/3/2_Inflammatory-bowel-disease:inflammatory-bowel-disease-patients_vs_non-inflammatory-bowel-disease-symptomatic-controls_UP	NA	729
+bsdb:790/4/1_Phenotype:Crohn's-Disease-patients-with-stricturing-and/or-penetrating-phenotypes_vs_Crohn's-Disease-patients-with-inflammatory-phenotypes_DOWN	NA	626937	29347	39485	301301
+bsdb:790/4/2_Phenotype:Crohn's-Disease-patients-with-stricturing-and/or-penetrating-phenotypes_vs_Crohn's-Disease-patients-with-inflammatory-phenotypes_UP	NA	562
+bsdb:790/5/1_Treatment:Inflammatory-bowel-disease-patients-treated-with-biological-therapy_vs_Inflammatory-bowel-disease-patients-treated-with-conventional-therapy_DOWN	NA	1680	1681	39491	301301	360807	40518	338188	329854	246787	454154
+bsdb:790/5/2_Treatment:Inflammatory-bowel-disease-patients-treated-with-biological-therapy_vs_Inflammatory-bowel-disease-patients-treated-with-conventional-therapy_UP	NA	33038	821
+bsdb:790/6/1_Increased-inflammatory-response:Inflammatory-bowel-disease-patients-with-fecal-calprotectin-levels->-1000-mg/kg_vs_Inflammatory-bowel-disease-patients-with-fecal-calprotectin-levels-<-1000-mg/kg_DOWN	NA	301301	360807	166486	214856	487174
+bsdb:790/7/1_Increased-inflammatory-response:Inflammatory-bowel-disease-patients-receiving-second-class-of-biologic-drug_vs_Inflammatory-bowel-disease-patients-receiving-one-biologic-or-conventional-therapy_DOWN	NA	1681	301301	371601
+bsdb:791/1/1_Spontaneous-preterm-birth:Preterm-Birth_vs_Full-term-Birth_UP	NA	87541	1588753	309120	82135	2914925	2702	1703337	386414	1898203	699192	419005	28125	470565	230143	40543	187101	1588751	1213720	1284775
+bsdb:791/1/2_Spontaneous-preterm-birth:Preterm-Birth_vs_Full-term-Birth_DOWN	NA	1685	47770	1596	33959
+bsdb:791/2/1_Spontaneous-preterm-birth:Risk-Group_vs_Low-risk-controls_UP	NA	1685
+bsdb:791/2/2_Spontaneous-preterm-birth:Risk-Group_vs_Low-risk-controls_DOWN	NA	908809	1834109	40324
+bsdb:791/3/1_Spontaneous-preterm-birth:Previous-Preterm-birth_vs_No-Previous-Preterm-birth_UP	NA	246787	908809	1834109	40324	47715	2024555	38815
+bsdb:791/3/2_Spontaneous-preterm-birth:Previous-Preterm-birth_vs_No-Previous-Preterm-birth_DOWN	NA	1685	1682
+bsdb:792/1/1_Root:Test-group-(Roots)_vs_Control-group-(Leaves)_UP	NA	149698	4855	164535
+bsdb:792/1/2_Root:Test-group-(Roots)_vs_Control-group-(Leaves)_DOWN	NA	29580	286	5598	253308	5498	40657
+bsdb:793/1/1_Cerebral-small-vessel-disease:High-burden-(Unhealthy)_vs_Lower-burden-(Healthy)_UP	NA	270497	1960653	358742	119852	119853	128827
+bsdb:793/1/2_Cerebral-small-vessel-disease:High-burden-(Unhealthy)_vs_Lower-burden-(Healthy)_DOWN	NA	265317	1485	2172	172900
+bsdb:793/2/1_Cerebral-small-vessel-disease:High-burden-(Unhealthy)_vs_Lower-burden-(Healthy)_UP	NA	990721	358742	1224
+bsdb:793/2/2_Cerebral-small-vessel-disease:High-burden-(Unhealthy)_vs_Lower-burden-(Healthy)_DOWN	NA	201174	151037	1239	200643	397864	487174	221216	135858	100886	1485	1960653	1763509	2172	119852	1263	46228	128827
+bsdb:793/3/1_Cerebral-small-vessel-disease:High-burden-(Unhealthy)_vs_Lower-burden-(Healthy)_UP	NA	135858	1960653	102106	74426	358742	460384
+bsdb:793/3/2_Cerebral-small-vessel-disease:High-burden-(Unhealthy)_vs_Lower-burden-(Healthy)_DOWN	NA	239759	1239	221216	2172	1263	46228
+bsdb:794/1/1_Colorectal-cancer:EOCRC-(Early-onset-Colorectal-cancer)-patients_vs_Healthy-controls_UP	NA	203492	203491	203490	32066	848	1840213	158846	543311	186804	1257	171551	836	1737404	33038
+bsdb:794/3/1_Colorectal-cancer:LOCRC-(Late-onset-colorectal-cancer)_vs_Healthy-controls_UP	NA	909930	239759	171549	200643	976	375288	33024	171552	171550	2005525	543	707003
+bsdb:795/1/1_Streptococcus-pneumoniae:Pneumococcal-carriers_vs_Pneumococcal-non-carriers._UP	NA	1313	257758	28037	727	851	33033
+bsdb:795/1/2_Streptococcus-pneumoniae:Pneumococcal-carriers_vs_Pneumococcal-non-carriers._DOWN	NA	735	490	165779	28035	28127
+bsdb:795/2/1_Streptococcus-pneumoniae:Smokers_vs_non--smokers_UP	NA	1386	28132	39777	32008	859
+bsdb:795/2/2_Streptococcus-pneumoniae:Smokers_vs_non--smokers_DOWN	NA	735	1078480	43769	1528099	230310	29394	851	33033	28127
+bsdb:795/3/1_Streptococcus-pneumoniae:Contact-with-children_vs_No-contact-with-children_UP	NA	1313	28037	480	727	851
+bsdb:795/3/2_Streptococcus-pneumoniae:Contact-with-children_vs_No-contact-with-children_DOWN	NA	28035	2219696	1274
+bsdb:795/4/1_Streptococcus-pneumoniae:Pneumococcal-carriers_vs_Pneumococcal-non-carriers._UP	NA	1313	1016	33033	204	45242	297314	1019	195950
+bsdb:795/4/2_Streptococcus-pneumoniae:Pneumococcal-carriers_vs_Pneumococcal-non-carriers._DOWN	NA	32067	76122	77133
+bsdb:795/5/1_Streptococcus-pneumoniae:Smokers_vs_Non--smokers_UP	NA	1386	1313	32008	69823	736
+bsdb:795/5/2_Streptococcus-pneumoniae:Smokers_vs_Non--smokers_DOWN	NA	482	735	76122	228603	204	195950	157	2490857
+bsdb:795/6/1_Streptococcus-pneumoniae:Contact-with-children_vs_No-Contact-with-Children_UP	NA	1313	735	851	43675	739	729	28132	29465	1501332
+bsdb:795/6/2_Streptococcus-pneumoniae:Contact-with-children_vs_No-Contact-with-Children_DOWN	NA	837	671218	838	28132	482
+bsdb:796/1/1_Aging:Group-4--oldest-age-group-(66-to-80-years-old.-elderly-people)_vs_Group-1--youngest-age-group-(18-to-35-years-old)_UP	NA	31979	194924	543	81852	570	1578	33958	561
+bsdb:796/1/2_Aging:Group-4--oldest-age-group-(66-to-80-years-old.-elderly-people)_vs_Group-1--youngest-age-group-(18-to-35-years-old)_DOWN	NA	2049	186828	128827	186803	1129771	468	577309	186804	171551	171552	135621	137	1737406	86331
+bsdb:796/2/1_Aging:Group-2,-3-and-4---older-age-groups-(36-to-50-years-old;-51-to-65-years-old-and-66-to-80-years-old.)_vs_Group-1--youngest-age-group-(18-to-35-years-old)_UP	NA	713	816	561	1578
+bsdb:796/2/2_Aging:Group-2,-3-and-4---older-age-groups-(36-to-50-years-old;-51-to-65-years-old-and-66-to-80-years-old.)_vs_Group-1--youngest-age-group-(18-to-35-years-old)_DOWN	NA	32033
+bsdb:797/1/1_Smoking-status-measurement:Active-smokers_vs_Never-smokers_DOWN	NA	848	724	407	1301
+bsdb:797/1/2_Smoking-status-measurement:Active-smokers_vs_Never-smokers_UP	NA	36773	1221567	335058	40323
+bsdb:797/2/1_Smoking-status-measurement:former-smokers_vs_Never-smokers_UP	NA	1221567
+bsdb:797/2/2_Smoking-status-measurement:former-smokers_vs_Never-smokers_UP	NA	47670	32067	59823
+bsdb:797/3/1_Smoking-status-measurement:active-smokers_vs_former-smokers_DOWN	NA	848	482
+bsdb:797/3/2_Smoking-status-measurement:active-smokers_vs_former-smokers_UP	NA	838	1213720
+bsdb:797/4/1_Smoking-status-measurement:Never-smokers_vs_Active-smokers-&-former-smokers_UP	NA	28211	1239	171549	200643	186806	1730	724	356	47670	906	119045	407	86331	909932	712	135625	838	171552	909929	29465	31977
+bsdb:797/5/1_Smoking-status-measurement:Active-smokers_vs_never-smokers-&-former-smokers_DOWN	NA	80865
+bsdb:797/6/1_Smoking-status-measurement:Never-smokers_vs_Active-smokers-&-former-smokers_UP	NA	59823
+bsdb:797/7/1_Smoking-status-measurement:never-smokers_vs_Active-smokers-&-former-smokers_UP	NA	59823
+bsdb:798/1/1_Urinary-tract-infection:Recurrent-Urinary-Tract-Infection-(RUTI)-patients_vs_Asymptomatic-controls_UP	NA	165779	28216	119060	80840	1716	39948	906	85007	836	838	28125	171552	1224	48736	1653174	162289	2037	2049	3031852	213849	72294	194	848	203492	212791	1653
+bsdb:798/1/2_Urinary-tract-infection:Recurrent-Urinary-Tract-Infection-(RUTI)-patients_vs_Asymptomatic-controls_DOWN	NA	469	239759	91061	1582879	2701	877420	33958	186826	1578	1596	1129771	33129	168808	1300	1301	1313	1239
+bsdb:799/1/1_Chronic-obstructive-pulmonary-disease:HIV-positive-individuals-diagnosed-with-COPD_vs_HIV-negative-individuals-with-COPD_UP	NA	201174	416916	2801844	1239	1386	2026720	2717	1716	1730	44259	848	1378	1840214	32067	2742598	475	543311	838	1743	1224	508215	970	203691	1301	508458	195950	1869227	179883	2722	142586
+bsdb:799/1/2_Chronic-obstructive-pulmonary-disease:HIV-positive-individuals-diagnosed-with-COPD_vs_HIV-negative-individuals-with-COPD_DOWN	NA	46123	2147	713	1654	1283313	156454	1380	976	59735	194	29547	1331051	1016	39948	142586	1434006	32066	117563	724	1164882	47670	482	265975	2	2740	1257	836	59823	909929	71	123375	1213720	34104	195950	157	29465	91061	171549	200643	363464	2093825	2093818	128827	1236	186803	171552	31977	244328	100235	2093824
+bsdb:799/2/1_Chronic-obstructive-pulmonary-disease:HIV-positive-individuals-(without-COPD)_vs_HIV-negative-individuals-(without-COPD)_UP	NA	713	1654	201174	1283313	2060094	1380	1386	976	830	194	29547	1331051	1016	43996	1716	1117	1730	203491	1378	117563	724	1164882	475	265975	2	1913599	836	59823	1743	1224	1843491	909929	970	123375	203691	1213720	34104	508458	157	29465	179883	100235	2093824
+bsdb:799/2/2_Chronic-obstructive-pulmonary-disease:HIV-positive-individuals-(without-COPD)_vs_HIV-negative-individuals-(without-COPD)_DOWN	NA	46123	416916	2801844	1239	2026720	44259	1434006	32066	848	47670	32067	482	543311	1257	838	508215	1301	142586
+bsdb:800/1/1_Health-study-participation:pandemic-group-with-covariates-controlled-for_vs_pre-pandemic-group-with-covariates-controlled-for_DOWN	NA	724	712
+bsdb:800/2/1_Health-study-participation:pandemic-group-without-covariates-controlled-for_vs_pre-pandemic-group-without-covariates-controlled-for_UP	NA	712
+bsdb:800/2/2_Health-study-participation:pandemic-group-without-covariates-controlled-for_vs_pre-pandemic-group-without-covariates-controlled-for_DOWN	NA	33958
+bsdb:800/3/1_Health-study-participation:pandemic-group-according-to-the-number-of-days_vs_pandemic-group-(without-covariates)_DOWN	NA	31953
+bsdb:801/1/1_Respiratory-system-disease:Diseased-individuals-(D)_vs_Non-diseased/-healthy-individuals-(ND)_UP	NA	2801844	1678	1716	561	724	570	44249	286	497	195950	43675
+bsdb:801/1/2_Respiratory-system-disease:Diseased-individuals-(D)_vs_Non-diseased/-healthy-individuals-(ND)_DOWN	NA	543311	2093	970	39948	32067	86331	1380	416916	123375	133925	43996	47670	76833	194	1164882	1257	1283313	1485	898	848	157	838
+bsdb:802/1/1_Cachexia:cachexia-induced-mice_vs_Healthy-controls_UP	NA	877428	248744	128827	49082	1301	1485	1926677
+bsdb:802/1/2_Cachexia:cachexia-induced-mice_vs_Healthy-controls_DOWN	NA	1501226	1357	191303	1678	1263	1980681
+bsdb:803/1/1_Colorectal-cancer:Egyptian-Samples-with-Colorectal-Cancer_vs_Normal-samples-free-from-Colorectal-Cancer_UP	NA	1817405	1694	161879	1747	186802	57493	1587	79681
+bsdb:803/1/2_Colorectal-cancer:Egyptian-Samples-with-Colorectal-Cancer_vs_Normal-samples-free-from-Colorectal-Cancer_DOWN	NA	2037	33986	71999	1269	482	33069	172042
+bsdb:803/2/1_Colorectal-cancer:African-American-Samples-with-Colorectal-Cancer_vs_Normal-samples-free-from-Colorectal-Cancer_UP	NA	1502	2701	117563	1060
+bsdb:803/2/2_Colorectal-cancer:African-American-Samples-with-Colorectal-Cancer_vs_Normal-samples-free-from-Colorectal-Cancer_DOWN	NA	374
+bsdb:803/3/1_Colorectal-cancer:European-American-Samples-with-Colorectal-Cancer_vs_Normal-samples-free-from-Colorectal-Cancer_UP	NA	149698
+bsdb:803/3/2_Colorectal-cancer:European-American-Samples-with-Colorectal-Cancer_vs_Normal-samples-free-from-Colorectal-Cancer_DOWN	NA	745368	28231	165179	33038
+bsdb:803/4/1_Population:Tumor-samples-of-European-American_vs_KeNyaN,-African-American-and-Egyptians-patients_UP	NA	2086	28116	1502	80864	84112	2353	2093	1301	147802
