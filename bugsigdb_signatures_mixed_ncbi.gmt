@@ -1,4 +1,4 @@
-# BugSigDB 2024-08-22_07:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2024-08-22_08:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/2_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	100883	1117
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	207244	57037
 bsdb:1/2/2_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_DOWN	NA	1236	100883	91347
@@ -807,3 +807,37 @@ bsdb:222/1/1_Gastric-cancer:high-gastric-cancer-risk-patients-(Tuquerres-residen
 bsdb:222/1/2_Gastric-cancer:high-gastric-cancer-risk-patients-(Tuquerres-residents)_vs_low-gastric-cancer-risk-patients-(Tumaco-residents)_DOWN	NA	29317	1017	49546	239	484	192066	171551	1924944	28135	1885016	41297	29387	1303	1310087
 bsdb:223/1/1_HIV-infection:HIV-infected-patients_vs_healthy-controls_UP	NA	91061	91347	543	81852	1350	1236	1506553	33958	186826	1578	33038	1224	1300	1301	1343
 bsdb:223/1/2_HIV-infection:HIV-infected-patients_vs_healthy-controls_DOWN	NA	909930	815	171549	816	200643	976	186801	39948	186802	216851	186803	158846	909932	541000	33024	821	838	171552	165179	909929	292632	31977
+bsdb:223/2/1_HIV-infection:HIV-infected-patients-who-are-homosexual_vs_healthy-controls_UP	NA	91061	81852	1350	1505663	1547	186826
+bsdb:223/2/2_HIV-infection:HIV-infected-patients-who-are-homosexual_vs_healthy-controls_DOWN	NA	909930	171549	976	200643	186801	39948	186802	216851	909932	541000	33024	838	165179	171552	909929
+bsdb:223/3/1_HIV-infection:Intravenous-drug-abuse-HIV-patients_vs_healthy-controls_UP	NA	91347	543	186803	33958	1578	1300	1301	33038
+bsdb:223/4/1_HIV-infection:homosexual-subjects-with-HIV_vs_heterosexual-subjects-with-HIV_DOWN	NA	1506553	375288	33024	838
+bsdb:223/5/1_HIV-infection:HAART-treated-HIV+-patients_vs_healthy-control_UP	NA	817	561	562	1506553	620	1300	1301	33038	1308
+bsdb:223/5/2_HIV-infection:HAART-treated-HIV+-patients_vs_healthy-control_DOWN	NA	909930	815	171549	816	976	200643	186801	39948	186802	216851	158846	909932	541000	33024	838	171552	909929	292632	31977
+bsdb:223/6/1_HIV-infection:HAART-untreated_vs_healthy-control_UP	NA	91061	91347	543	81852	1350	1236	33958	186826	1578	1224
+bsdb:224/1/1_Diet:barley-(WGB)_vs_baseline_UP	NA	572511	418240	1239	301302	166486	39491
+bsdb:224/1/2_Diet:barley-(WGB)_vs_baseline_DOWN	NA	976	283168	28118	171551	815	841	39948
+bsdb:224/2/1_Diet:brown-rice-(BR)_vs_baseline_UP	NA	1239
+bsdb:224/2/2_Diet:brown-rice-(BR)_vs_baseline_DOWN	NA	976
+bsdb:224/3/1_Diet:brown-rice-+-barley-(BR-+-WGB)_vs_baseline_UP	NA	572511	1239
+bsdb:224/3/2_Diet:brown-rice-+-barley-(BR-+-WGB)_vs_baseline_DOWN	NA	815	816	976
+bsdb:225/1/1_Atopic-eczema:infant-with-atopic-eczema_vs_healthy-infant_UP	NA	1350	186804
+bsdb:225/1/2_Atopic-eczema:infant-with-atopic-eczema_vs_healthy-infant_DOWN	NA	1224
+bsdb:225/2/1_Atopic-eczema:infant-with-atopic-eczema_vs_healthy-infant_DOWN	NA	976	816
+bsdb:226/1/1_HIV-infection:HIV-1-infected-patients_vs_healthy-controls_UP	NA	28216	80840	580596	135858	189330	547	81852	1350	128827	526525	526524	216851	1239	158846	577310	838	171552	1224	995019
+bsdb:226/1/2_HIV-infection:HIV-1-infected-patients_vs_healthy-controls_DOWN	NA	33042	397864	39948	815	816
+bsdb:226/2/1_HIV-infection:HAART-treated-HIV-1-patients_vs_HAART-naive-HIV-1-patients_UP	NA	1654	2049	2037	572511	81852	1350	1239	158846	909932	1224	909929	29465	31977
+bsdb:226/2/2_HIV-infection:HAART-treated-HIV-1-patients_vs_HAART-naive-HIV-1-patients_DOWN	NA	239759	171549	976	200643	397864	39948	216851	283168	459786	838	171552	638847	171550	649777	649776	649775	508458
+bsdb:227/1/1_Atopic-eczema:infant-with-transient-atopic-dermatitis_vs_healthy-control_UP	NA	201174
+bsdb:227/1/2_Atopic-eczema:infant-with-transient-atopic-dermatitis_vs_healthy-control_UP	NA	1678	239934
+bsdb:227/2/1_Atopic-eczema:infants-with-persistent-atopic-dermatitis_vs_healthy-controls_UP	NA	1301
+bsdb:227/2/2_Atopic-eczema:infants-with-persistent-atopic-dermatitis_vs_healthy-controls_DOWN	NA	1485
+bsdb:227/3/1_Atopic-eczema:infants-with-persistent-atopic-dermatitis_vs_transient-atopic-dermatitis_UP	NA	1301
+bsdb:227/3/2_Atopic-eczema:infants-with-persistent-atopic-dermatitis_vs_transient-atopic-dermatitis_DOWN	NA	239934
+bsdb:227/4/1_Atopic-eczema:infants-with-persistent-atopic-dermatitis_vs_healthy-controls_UP	NA	91061	1301	1300	186826	1505657	216851	171551	375288	1505652	1501226	117563	186827	100883
+bsdb:227/4/2_Atopic-eczema:infants-with-persistent-atopic-dermatitis_vs_healthy-controls_DOWN	NA	1654	2049	2037	544	100883	84111	547	1330547	1504576	160674	186801	31979	1898207	1485
+bsdb:227/5/1_Atopic-eczema:infants-with-persistent-atopic-dermatitis_vs_transient-atopic-dermatitis_UP	NA	1239	100883	189330	216851	468	541000	375288	171551	135621	72274	1501226	1300	1301	469
+bsdb:227/5/2_Atopic-eczema:infants-with-persistent-atopic-dermatitis_vs_transient-atopic-dermatitis_DOWN	NA	239934	547	1330547	160674	203494	48461	74201	2735
+bsdb:227/6/1_Atopic-eczema:infant-with-transient-atopic-dermatitis_vs_healthy-control_UP	NA	201174	31953	85004	1678
+bsdb:227/6/2_Atopic-eczema:infant-with-transient-atopic-dermatitis_vs_healthy-control_DOWN	NA	1268	32207	85006
+bsdb:228/1/1_Diet:day-3-of-PECTIN-spike-in_vs_day-6-of-PECTIN-spike-in_DOWN	NA	186803	841	816	44748	541000	853
+bsdb:228/2/1_Diet:day-3-of-INULIN-spike-in_vs_day-6-of-INULIN-spike-in_DOWN	NA	186803	820	853
