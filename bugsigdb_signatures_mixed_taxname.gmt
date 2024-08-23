@@ -1,4 +1,4 @@
-# BugSigDB 2024-08-23_18:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2024-08-23_19:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/2_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	Coprobacillus	Cyanobacteriota
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	Anaerostipes	Lacticaseibacillus zeae
 bsdb:1/2/2_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_DOWN	NA	Gammaproteobacteria	Coprobacillus	Enterobacterales
@@ -114,6 +114,8 @@ bsdb:34/8/1_Bipolar-disorder:Bipolar-patients-with-high-BMI_vs_low-BMI_UP	NA	Lac
 bsdb:34/9/1_Bipolar-disorder:Bipolar-patients-with-metabolic-syndrome_vs_no-metabolic-syndrome_UP	NA	Lactobacillaceae	Lactobacillus	Coriobacteriaceae
 bsdb:34/10/1_Bipolar-disorder:Bipolar-patients-with-depressive-syndrome_vs_healthier-bipolar-patients_UP	NA	Enterobacteriaceae
 bsdb:34/10/2_Bipolar-disorder:Bipolar-patients-with-depressive-syndrome_vs_healthier-bipolar-patients_DOWN	NA	Clostridiaceae	Roseburia
+bsdb:34/11/1_Bipolar-disorder:Bipolar-disorder_vs_Controls_UP	NA	Actinomycetota	Coriobacteriales	Coriobacteriaceae	Coriobacteriia
+bsdb:34/11/2_Bipolar-disorder:Bipolar-disorder_vs_Controls_DOWN	NA	Oscillospiraceae	Faecalibacterium
 bsdb:35/1/1_Sjogren-syndrome:PSS_vs_Controls_UP	NA	Veillonella	Selenomonadales	Veillonellaceae	Gammaproteobacteria	Pseudomonadota
 bsdb:35/1/2_Sjogren-syndrome:PSS_vs_Controls_DOWN	NA	Actinomyces	Haemophilus	Neisseria	Rothia	Porphyromonas	Peptostreptococcus	Betaproteobacteria	Actinomycetaceae	Pasteurellaceae	Neisseriaceae	Neisseriales	Micrococcaceae	Porphyromonadaceae	Actinomycetales	Fusobacteriia	Fusobacteriota	Fusobacteriales	Clostridia	Eubacteriales	Pasteurellales	Actinomycetota
 bsdb:36/1/1_Obesity:obese-adolescent_vs_control-adult_UP	NA	Actinomyces	Clostridiaceae	Collinsella aerofaciens	Cutibacterium acnes	Faecalibacterium prausnitzii
@@ -791,3 +793,94 @@ bsdb:217/4/1_Lactobacillus-rhamnosus-GG:children-supplemented-with-LGG-at-18-mon
 bsdb:217/4/2_Lactobacillus-rhamnosus-GG:children-supplemented-with-LGG-at-18-months_vs_placebo-group-at-18-months_DOWN	NA	Clostridioides difficile
 bsdb:218/1/1_Hepatocellular-carcinoma:non-HBV-non-HCV-related-HCC_vs_healthy-controls_UP	NA	Anaerotruncus
 bsdb:218/1/2_Hepatocellular-carcinoma:non-HBV-non-HCV-related-HCC_vs_healthy-controls_DOWN	NA	Eubacterium ventriosum	Lachnospira	Lachnospiraceae	Megamonas
+bsdb:218/2/1_Hepatocellular-carcinoma:HBV-related-HCC-patients_vs_healthy-controls_UP	NA	Anaerotruncus	Oscillospiraceae	Phascolarctobacterium	Prevotella
+bsdb:218/3/1_Hepatocellular-carcinoma:non-HBV-non-HCV-patients_vs_HBV-related-HCC-patients_DOWN	NA	Buchnera	Eubacterium ventriosum	Lachnospira	Phascolarctobacterium
+bsdb:219/1/1_Diet:lower-fiber-(cracker),-at-baseline_vs_higher-fiber-(almonds)---at-baseline_UP	NA	Bacteroides fragilis
+bsdb:219/2/1_Diet:lower-fiber-(cracker)---8-wk-after-intervention_vs_higher-fiber-(almonds)---8-wk-after-intervention_UP	NA	Lachnospira	Mollicutes
+bsdb:219/2/2_Diet:lower-fiber-(cracker)---8-wk-after-intervention_vs_higher-fiber-(almonds)---8-wk-after-intervention_DOWN	NA	Alistipes	Butyricimonas	Odoribacter	Muribaculaceae
+bsdb:219/3/1_Diet:lower-fiber-(cracker)_vs_higher-fiber-(almonds)_DOWN	NA	Sutterella
+bsdb:220/1/1_Age:older-age-European-women_vs_younger-age_UP	NA	Arthrobacter	Sneathia	Moraxellaceae	Pseudomonadales	Corynebacterium	Halomonadaceae	Halomonas	Oceanospirillales	Neisseriaceae	Neisseriales	Betaproteobacteria	Pseudomonadota
+bsdb:220/1/2_Age:older-age-European-women_vs_younger-age_DOWN	NA	Propionibacteriaceae	Propionibacterium	Propionibacteriales
+bsdb:221/1/1_Urinary-tract-infection:urinary-tract-infection_vs_healthy-controls_UP	NA	Enterobacter	Holdemania massiliensis	Priestia flexa	Enterocloster asparagiformis	Enterococcus dispar	Blautia glucerasea
+bsdb:221/1/2_Urinary-tract-infection:urinary-tract-infection_vs_healthy-controls_DOWN	NA	Clostridium tertium	Dialister	Finegoldia	Finegoldia magna	Haemophilus	Haemophilus parainfluenzae	Massilia	Oxalobacteraceae	Pasteurellaceae	Pasteurellales	Peptostreptococcaceae	Hoylesella timonensis	Massilia aurea	Romboutsia lituseburensis
+bsdb:222/1/1_Gastric-cancer:high-gastric-cancer-risk-patients-(Tuquerres-residents)_vs_low-gastric-cancer-risk-patients-(Tumaco-residents)_UP	NA	Leptotrichia wadei	Veillonella sp.
+bsdb:222/1/2_Gastric-cancer:high-gastric-cancer-risk-patients-(Tuquerres-residents)_vs_low-gastric-cancer-risk-patients-(Tumaco-residents)_DOWN	NA	Actinomyces sp.	Capnocytophaga gingivalis	Flavobacteriaceae	Flavobacterium sp.	Neisseria flavescens	Neisseria sp.	Porphyromonadaceae	Porphyromonas sp.	Segatella oris	Rothia sp. (in: high G+C Gram-positive bacteria)	Sphingomonadaceae	Staphylococcus sp.	Streptococcus oralis	uncultured Haematobacter sp.
+bsdb:223/1/1_HIV-infection:HIV-infected-patients_vs_healthy-controls_UP	NA	Bacilli	Enterobacterales	Enterobacteriaceae	Enterococcaceae	Enterococcus	Gammaproteobacteria	Lachnoclostridium	Lactobacillaceae	Lactobacillales	Lactobacillus	Mediterraneibacter gnavus	Pseudomonadota	Streptococcaceae	Streptococcus	Streptococcus vestibularis
+bsdb:223/1/2_HIV-infection:HIV-infected-patients_vs_healthy-controls_DOWN	NA	Acidaminococcaceae	Bacteroidaceae	Bacteroidales	Bacteroides	Bacteroidia	Bacteroidota	Clostridia	Dialister	Eubacteriales	Faecalibacterium	Lachnospiraceae	Megamonas	Negativicutes	Oscillospiraceae	Phascolarctobacterium	Phocaeicola vulgatus	Prevotella	Prevotellaceae	Segatella copri	Selenomonadales	Subdoligranulum	Veillonellaceae
+bsdb:223/2/1_HIV-infection:HIV-infected-patients-who-are-homosexual_vs_healthy-controls_UP	NA	Bacilli	Enterococcaceae	Enterococcus	Thomasclavelia	Thomasclavelia ramosa	Lactobacillales
+bsdb:223/2/2_HIV-infection:HIV-infected-patients-who-are-homosexual_vs_healthy-controls_DOWN	NA	Acidaminococcaceae	Bacteroidales	Bacteroidota	Bacteroidia	Clostridia	Dialister	Eubacteriales	Faecalibacterium	Negativicutes	Oscillospiraceae	Phascolarctobacterium	Prevotella	Segatella copri	Prevotellaceae	Selenomonadales
+bsdb:223/3/1_HIV-infection:Intravenous-drug-abuse-HIV-patients_vs_healthy-controls_UP	NA	Enterobacterales	Enterobacteriaceae	Lachnospiraceae	Lactobacillaceae	Lactobacillus	Streptococcaceae	Streptococcus	Mediterraneibacter gnavus
+bsdb:223/4/1_HIV-infection:homosexual-subjects-with-HIV_vs_heterosexual-subjects-with-HIV_DOWN	NA	Lachnoclostridium	Parabacteroides	Phascolarctobacterium	Prevotella
+bsdb:223/5/1_HIV-infection:HAART-treated-HIV+-patients_vs_healthy-control_UP	NA	Bacteroides fragilis	Escherichia	Escherichia coli	Lachnoclostridium	Shigella	Streptococcaceae	Streptococcus	Mediterraneibacter gnavus	Streptococcus thermophilus
+bsdb:223/5/2_HIV-infection:HAART-treated-HIV+-patients_vs_healthy-control_DOWN	NA	Acidaminococcaceae	Bacteroidaceae	Bacteroidales	Bacteroides	Bacteroidota	Bacteroidia	Clostridia	Dialister	Eubacteriales	Faecalibacterium	Megamonas	Negativicutes	Oscillospiraceae	Phascolarctobacterium	Prevotella	Prevotellaceae	Selenomonadales	Subdoligranulum	Veillonellaceae
+bsdb:223/6/1_HIV-infection:HAART-untreated_vs_healthy-control_UP	NA	Bacilli	Enterobacterales	Enterobacteriaceae	Enterococcaceae	Enterococcus	Gammaproteobacteria	Lactobacillaceae	Lactobacillales	Lactobacillus	Pseudomonadota
+bsdb:224/1/1_Diet:barley-(WGB)_vs_baseline_UP	NA	Blautia	Blautia wexlerae	Bacillota	Roseburia faecis	Roseburia intestinalis	Agathobacter rectalis
+bsdb:224/1/2_Diet:barley-(WGB)_vs_baseline_DOWN	NA	Bacteroidota	Odoribacter	Odoribacter splanchnicus	Porphyromonadaceae	Bacteroidaceae	Roseburia	Dialister
+bsdb:224/2/1_Diet:brown-rice-(BR)_vs_baseline_UP	NA	Bacillota
+bsdb:224/2/2_Diet:brown-rice-(BR)_vs_baseline_DOWN	NA	Bacteroidota
+bsdb:224/3/1_Diet:brown-rice-+-barley-(BR-+-WGB)_vs_baseline_UP	NA	Blautia	Bacillota
+bsdb:224/3/2_Diet:brown-rice-+-barley-(BR-+-WGB)_vs_baseline_DOWN	NA	Bacteroidaceae	Bacteroides	Bacteroidota
+bsdb:225/1/1_Atopic-eczema:infant-with-atopic-eczema_vs_healthy-infant_UP	NA	Enterococcus	Peptostreptococcaceae
+bsdb:225/1/2_Atopic-eczema:infant-with-atopic-eczema_vs_healthy-infant_DOWN	NA	Pseudomonadota
+bsdb:225/2/1_Atopic-eczema:infant-with-atopic-eczema_vs_healthy-infant_DOWN	NA	Bacteroidota	Bacteroides
+bsdb:226/1/1_HIV-infection:HIV-1-infected-patients_vs_healthy-controls_UP	NA	Betaproteobacteria	Burkholderiales	Butyricicoccus	Catenibacterium	Dorea	Enterobacter	Enterococcaceae	Enterococcus	Erysipelotrichaceae	Erysipelotrichales	Erysipelotrichia	Faecalibacterium	Bacillota	Megamonas	Parasutterella	Prevotella	Prevotellaceae	Pseudomonadota	Sutterellaceae
+bsdb:226/1/2_HIV-infection:HIV-1-infected-patients_vs_healthy-controls_DOWN	NA	Coprococcus	Barnesiella	Dialister	Bacteroidaceae	Bacteroides
+bsdb:226/2/1_HIV-infection:HAART-treated-HIV-1-patients_vs_HAART-naive-HIV-1-patients_UP	NA	Actinomyces	Actinomycetaceae	Actinomycetales	Blautia	Enterococcaceae	Enterococcus	Bacillota	Megamonas	Negativicutes	Pseudomonadota	Selenomonadales	Veillonella	Veillonellaceae
+bsdb:226/2/2_HIV-infection:HAART-treated-HIV-1-patients_vs_HAART-naive-HIV-1-patients_DOWN	NA	Alistipes	Bacteroidales	Bacteroidota	Bacteroidia	Barnesiella	Dialister	Faecalibacterium	Odoribacter	Oscillibacter	Prevotella	Prevotellaceae	Pyramidobacter	Rikenellaceae	Synergistaceae	Synergistales	Synergistia	Synergistota
+bsdb:227/1/1_Atopic-eczema:infant-with-transient-atopic-dermatitis_vs_healthy-control_UP	NA	Actinomycetota
+bsdb:227/1/2_Atopic-eczema:infant-with-transient-atopic-dermatitis_vs_healthy-control_UP	NA	Bifidobacterium	Akkermansia
+bsdb:227/2/1_Atopic-eczema:infants-with-persistent-atopic-dermatitis_vs_healthy-controls_UP	NA	Streptococcus
+bsdb:227/2/2_Atopic-eczema:infants-with-persistent-atopic-dermatitis_vs_healthy-controls_DOWN	NA	Clostridium
+bsdb:227/3/1_Atopic-eczema:infants-with-persistent-atopic-dermatitis_vs_transient-atopic-dermatitis_UP	NA	Streptococcus
+bsdb:227/3/2_Atopic-eczema:infants-with-persistent-atopic-dermatitis_vs_transient-atopic-dermatitis_DOWN	NA	Akkermansia
+bsdb:227/4/1_Atopic-eczema:infants-with-persistent-atopic-dermatitis_vs_healthy-controls_UP	NA	Bacilli	Streptococcus	Streptococcaceae	Lactobacillales	Intestinibacter	Faecalibacterium	Porphyromonadaceae	Parabacteroides	Terrisporobacter	Romboutsia	Granulicatella	Aerococcaceae	Coprobacillus
+bsdb:227/4/2_Atopic-eczema:infants-with-persistent-atopic-dermatitis_vs_healthy-controls_DOWN	NA	Actinomyces	Actinomycetaceae	Actinomycetales	Citrobacter	Coprobacillus	Eggerthella	Enterobacter	Kosakonia	Pseudocitrobacter	Raoultella	Clostridia	Clostridiaceae	Clostridiales bacterium	Clostridium
+bsdb:227/5/1_Atopic-eczema:infants-with-persistent-atopic-dermatitis_vs_transient-atopic-dermatitis_UP	NA	Bacillota	Coprobacillus	Dorea	Faecalibacterium	Moraxellaceae	Oscillospiraceae	Parabacteroides	Porphyromonadaceae	Pseudomonadaceae	Pseudomonadales	Romboutsia	Streptococcaceae	Streptococcus	Acinetobacter
+bsdb:227/5/2_Atopic-eczema:infants-with-persistent-atopic-dermatitis_vs_transient-atopic-dermatitis_DOWN	NA	Akkermansia	Enterobacter	Kosakonia	Raoultella	Verrucomicrobiia	Verrucomicrobiales	Verrucomicrobiota	Verrucomicrobium
+bsdb:227/6/1_Atopic-eczema:infant-with-transient-atopic-dermatitis_vs_healthy-control_UP	NA	Actinomycetota	Bifidobacteriaceae	Bifidobacteriales	Bifidobacterium
+bsdb:227/6/2_Atopic-eczema:infant-with-transient-atopic-dermatitis_vs_healthy-control_DOWN	NA	Micrococcaceae	Rothia	Micrococcales
+bsdb:228/1/1_Diet:day-3-of-PECTIN-spike-in_vs_day-6-of-PECTIN-spike-in_DOWN	NA	Lachnospiraceae	Roseburia	Bacteroides	Sporobacter	Oscillospiraceae	Faecalibacterium prausnitzii
+bsdb:228/2/1_Diet:day-3-of-INULIN-spike-in_vs_day-6-of-INULIN-spike-in_DOWN	NA	Lachnospiraceae	Bacteroides uniformis	Faecalibacterium prausnitzii
+bsdb:229/1/1_Diet:early-pectin-incubation-time_vs_late-pectin-incubation-time_UP	NA	Bifidobacterium	Coriobacteriaceae	Coprobacillus	Peptostreptococcaceae	Oxalobacter	Christensenellaceae	Clostridiaceae	Odoribacter	Coprococcus	Butyricimonas	Ruminococcus	Anaerostipes	Blautia	Parabacteroides	Phascolarctobacterium	Roseburia	Rikenellaceae	Bacteroides
+bsdb:229/1/2_Diet:early-pectin-incubation-time_vs_late-pectin-incubation-time_DOWN	NA	Lachnospira	Sutterella	Dorea	Clostridium	Burkholderiales	Bacteroidales
+bsdb:230/1/1_Food-allergy:infant-with-food-allergy_vs_non-allergy_DOWN	NA	Leuconostoc	Weissella	Veillonella
+bsdb:230/1/2_Food-allergy:infant-with-food-allergy_vs_non-allergy_UP	NA	Enterobacteriaceae	Clostridium
+bsdb:231/1/1_Diet:Renatta-canada-apple---at-10-hr_vs_Poorly-fermentable-fiber-(cellulose)_DOWN	NA	Bilophila	Eubacteriales	Lachnospiraceae	Oscillospira	Parabacteroides	Ruminococcus	Mogibacterium
+bsdb:231/1/2_Diet:Renatta-canada-apple---at-10-hr_vs_Poorly-fermentable-fiber-(cellulose)_UP	NA	Bifidobacterium
+bsdb:231/2/1_Diet:Golden-delicious-apple---at-10-hr_vs_Poorly-fermentable-fiber-(cellulose)_DOWN	NA	Eubacteriales	Mogibacterium	Oscillospira	Ruminococcus	Parabacteroides	Bilophila
+bsdb:231/2/2_Diet:Golden-delicious-apple---at-10-hr_vs_Poorly-fermentable-fiber-(cellulose)_UP	NA	Bifidobacterium
+bsdb:231/3/1_Diet:Pink-lady-apple---at-10-hr_vs_Poorly-fermentable-fiber-(cellulose)_DOWN	NA	Eubacteriales	Mogibacterium	Lachnospiraceae	Oscillospira	Ruminococcus	Parabacteroides	Bilophila
+bsdb:231/4/1_Diet:Renetta-Canada-apple--at-24-hr_vs_Poorly-fermentable-fiber-(cellulose)_DOWN	NA	Butyricimonas	Eubacteriales
+bsdb:231/4/2_Diet:Renetta-Canada-apple--at-24-hr_vs_Poorly-fermentable-fiber-(cellulose)_UP	NA	Faecalibacterium	Bifidobacterium
+bsdb:231/5/1_Diet:Golden-delicious-apple--at-24-hr_vs_Poorly-fermentable-fiber-(cellulose)_DOWN	NA	Butyricimonas	Eubacteriales
+bsdb:231/5/2_Diet:Golden-delicious-apple--at-24-hr_vs_Poorly-fermentable-fiber-(cellulose)_UP	NA	Bifidobacterium
+bsdb:231/6/1_Diet:Pink-lady-apple--at-24-hr_vs_Poorly-fermentable-fiber-(cellulose)_DOWN	NA	Eubacteriales	Butyricimonas
+bsdb:231/6/2_Diet:Pink-lady-apple--at-24-hr_vs_Poorly-fermentable-fiber-(cellulose)_UP	NA	Faecalibacterium
+bsdb:231/7/1_Diet:Renatta-canada-apple---at-10-hr_vs_Inulin_DOWN	NA	Eubacteriales	Oscillospira	Mogibacterium
+bsdb:231/7/2_Diet:Renatta-canada-apple---at-10-hr_vs_Inulin_UP	NA	Bifidobacterium
+bsdb:231/8/1_Diet:Golden-delicious-apple---at-10-hr_vs_Inulin_DOWN	NA	Mogibacterium	Oscillospira	Eubacteriales
+bsdb:231/8/2_Diet:Golden-delicious-apple---at-10-hr_vs_Inulin_DOWN	NA	Bifidobacterium
+bsdb:231/9/1_Diet:Golden-delicious-apple---at-24-hr_vs_Inulin_UP	NA	Faecalibacterium
+bsdb:231/10/1_Diet:Pink-Lady-apple---at-10-hr_vs_Inulin_DOWN	NA	Mogibacterium	Oscillospira	Eubacteriales
+bsdb:231/11/1_Diet:Pink-Lady-apple---at-24-hr_vs_Inulin_DOWN	NA	Faecalibacterium
+bsdb:231/12/1_Diet:Cellulose---at-10hr_vs_Inulin_UP	NA	Bilophila	Eubacteriales	Lachnospiraceae	Oscillospira	Parabacteroides
+bsdb:231/13/1_Diet:Cellulose---at-24hr_vs_Inulin_DOWN	NA	Faecalibacterium
+bsdb:231/13/2_Diet:Cellulose---at-24hr_vs_Inulin_UP	NA	Eubacteriales
+bsdb:232/1/1_HIV-infection:HIV-infected-cART-negative_vs_Healthy-controls_UP	NA	Anaerococcus	Fusobacteriota	Fusobacteriaceae	Fusobacteriia	Fusobacterium	Peptostreptococcaceae	Peptostreptococcus	Porphyromonas
+bsdb:232/1/2_HIV-infection:HIV-infected-cART-negative_vs_Healthy-controls_DOWN	NA	Alistipes	Clostridia	Coprococcus	Eubacteriales	Eubacterium	Bacillota	Lachnospira	Lachnospiraceae	Oscillospiraceae	Rikenellaceae	Roseburia	Ruminococcus
+bsdb:233/1/1_HIV-infection:HIV-infected-subjects_vs_uninfected-controls_UP	NA	Acinetobacter	Brucellaceae	Moraxellaceae	Prevotella	Prevotellaceae	Pseudomonadota	Lysobacteraceae
+bsdb:233/1/2_HIV-infection:HIV-infected-subjects_vs_uninfected-controls_DOWN	NA	Bacteroides	Blautia	Coprococcus	Bacillota	Porphyromonadaceae	Rikenellaceae
+bsdb:234/1/1_Atopic-eczema:adult-with-atopic-dermatitis_vs_healthy-control_UP	NA	Staphylococcus aureus
+bsdb:234/1/2_Atopic-eczema:adult-with-atopic-dermatitis_vs_healthy-control_DOWN	NA	Burkholderia sp.	Cutibacterium acnes	Finegoldia sp.	Lactobacillus sp.	Roseateles sp.	Staphylococcus sp.
+bsdb:234/2/1_Psoriasis:adult-with-psoriasis_vs_healthy-control_UP	NA	Anaerococcus sp.	Corynebacterium kroppenstedtii	Corynebacterium simulans	Finegoldia sp.	Neisseriaceae
+bsdb:234/2/2_Psoriasis:adult-with-psoriasis_vs_healthy-control_DOWN	NA	Burkholderia sp.	Lactobacillus sp.	Roseateles sp.
+bsdb:234/3/1_Atopic-eczema:adult-with-atopic-dermatitis_vs_healthy-control_UP	NA	Finegoldia sp.	Bradyrhizobium sp.	Anaerococcus sp.	Variovorax paradoxus	Lactobacillus sp.	Staphylococcus aureus
+bsdb:234/4/1_Atopic-eczema:adults-with-psoriasis_vs_healthy-control_UP	NA	Finegoldia sp.	Bradyrhizobium sp.	Corynebacterium sp.	Corynebacterium kroppenstedtii
+bsdb:235/1/1_Food-allergy:child-with-food-allergy_vs_healthy-control_UP	NA	Faecalibacterium sp.	Oscillibacter valericigenes
+bsdb:235/1/2_Food-allergy:child-with-food-allergy_vs_healthy-control_DOWN	NA	Blautia sp.	Haemophilus parainfluenzae
+bsdb:235/2/1_Food-allergy:child-with-food-allergy_vs_healthy-sibling_UP	NA	Oscillibacter valericigenes	Faecalibacterium sp.
+bsdb:235/2/2_Food-allergy:child-with-food-allergy_vs_healthy-sibling_DOWN	NA	Haemophilus parainfluenzae	Blautia sp.	Alistipes putredinis	Alistipes sp.
+bsdb:235/3/1_Food-allergy:healthy-sibling_vs_healthy-control_UP	NA	Oscillibacter valericigenes	Faecalibacterium sp.	Alistipes putredinis	Alistipes sp.
+bsdb:235/3/2_Food-allergy:healthy-sibling_vs_healthy-control_DOWN	NA	Blautia sp.	Haemophilus parainfluenzae
+bsdb:235/4/1_Age:7-18-years_vs_<7-years_UP	NA	Bacteroidota	Oscillibacter valericigenes
+bsdb:235/4/2_Age:7-18-years_vs_<7-years_DOWN	NA	Bacillota	Pseudomonadota	Erysipelotrichaceae	Lachnospiraceae	Peptostreptococcaceae
