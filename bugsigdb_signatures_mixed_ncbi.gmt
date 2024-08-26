@@ -1,4 +1,4 @@
-# BugSigDB 2024-08-25_22:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2024-08-25_23:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/2_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	100883	1117
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	207244	57037
 bsdb:1/2/2_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_DOWN	NA	1236	100883	91347
@@ -7,6 +7,8 @@ bsdb:1/4/1_Colorectal-adenoma:Proximal-conventional-adenoma-cases_vs_controls_UP
 bsdb:1/4/2_Colorectal-adenoma:Proximal-conventional-adenoma-cases_vs_controls_DOWN	NA	100883
 bsdb:1/5/1_Colorectal-adenoma:Distal-conventional-adenoma-cases_vs_controls_DOWN	NA	990719	186801	31979	1485	81852	1350	31969	508458
 bsdb:1/6/1_Colorectal-adenoma:Non-advanced-conventional-adenoma-cases_vs_controls_UP	NA	1654	283168	91061	186826	57037	1300	1301	189330	31977	40544	506	33024
+bsdb:1/7/1_Colorectal-adenoma:advanced-conventional-adenoma-cases_vs_controls_UP	NA	2037	2049	1654	1716	836	1737406	165779	150022	162289	135625	712	724	1653
+bsdb:1/7/2_Colorectal-adenoma:advanced-conventional-adenoma-cases_vs_controls_DOWN	NA	2005519	1117	990719	140625	28050	28211
 bsdb:2/1/1_Head-and-neck-squamous-cell-carcinoma:squamous-cell-carcinoma-tissues_vs_normal-adjacent-tissues_UP	NA	1737406	543311
 bsdb:2/1/2_Head-and-neck-squamous-cell-carcinoma:squamous-cell-carcinoma-tissues_vs_normal-adjacent-tissues_DOWN	NA	201174	1760	2037	2049	1654
 bsdb:2/2/1_Head-and-neck-squamous-cell-carcinoma:T3-T4-high-tumor-stages-patients_vs_T0-T2-low-tumor-stages-patients_UP	NA	543311
@@ -107,6 +109,13 @@ bsdb:34/3/1_Bipolar-disorder:Bipolar-patients-with-high-total-cholesterol_vs_low
 bsdb:34/4/1_Bipolar-disorder:Bipolar-patients-with-high-LDL_vs_low-LDL_DOWN	NA	171552	838
 bsdb:34/5/1_Bipolar-disorder:Bipolar-patients-with-high-TRP_vs_low-TRP_UP	NA	1578	33958	84107	31979
 bsdb:34/6/1_Bipolar-disorder:Bipolar-patients-with-high-TBARS-level_vs_low-TBARS-level_UP	NA	1730
+bsdb:34/7/1_Bipolar-disorder:Bipolar-patients-with-high-MDA-level_vs_low-MDA-level_DOWN	NA	216851
+bsdb:34/8/1_Bipolar-disorder:Bipolar-patients-with-high-BMI_vs_low-BMI_UP	NA	1578	33958	91061
+bsdb:34/9/1_Bipolar-disorder:Bipolar-patients-with-metabolic-syndrome_vs_no-metabolic-syndrome_UP	NA	33958	1578	84107
+bsdb:34/10/1_Bipolar-disorder:Bipolar-patients-with-depressive-syndrome_vs_healthier-bipolar-patients_UP	NA	543
+bsdb:34/10/2_Bipolar-disorder:Bipolar-patients-with-depressive-syndrome_vs_healthier-bipolar-patients_DOWN	NA	31979	841
+bsdb:34/11/1_Bipolar-disorder:Bipolar-disorder_vs_Controls_UP	NA	201174	84999	84107	84998
+bsdb:34/11/2_Bipolar-disorder:Bipolar-disorder_vs_Controls_DOWN	NA	541000	216851
 bsdb:35/1/1_Sjogren-syndrome:PSS_vs_Controls_UP	NA	29465	909929	31977	1236	1224
 bsdb:35/1/2_Sjogren-syndrome:PSS_vs_Controls_DOWN	NA	1654	724	482	32207	836	1257	28216	2049	712	481	206351	1268	171551	2037	203490	32066	203491	186801	186802	135625	201174
 bsdb:36/1/1_Obesity:obese-adolescent_vs_control-adult_UP	NA	1654	31979	74426	1747	853
@@ -216,6 +225,9 @@ bsdb:62/3/2_Parkinson's-disease:Mild-Cognitive-Impairment--PD-(PD-MCI)_vs_Contro
 bsdb:62/4/1_Parkinson's-disease:Cognitively-Unimpaired-PD-(PD-NC)_vs_Control-Subjects_UP	NA	1671661
 bsdb:62/4/2_Parkinson's-disease:Cognitively-Unimpaired-PD-(PD-NC)_vs_Control-Subjects_DOWN	NA	1766253	186803	3068309	1235800
 bsdb:62/5/1_Parkinson's-disease:Mild-Cognitive-Impairment-PD-(PD-MCI)_vs_Control-Subjects_DOWN	NA	3085642	186803
+bsdb:62/6/1_Parkinson's-disease:Cognitively-Unimpaired-PD-(PD-NC)_vs_Control-Subjects_UP	NA	596767	1946507	1806836	1671661	1649459	290054	244127
+bsdb:62/6/2_Parkinson's-disease:Cognitively-Unimpaired-PD-(PD-NC)_vs_Control-Subjects_DOWN	NA	1766253	1239	186801	31979	1485	186802	186803	216572	841	3068309	1235800
+bsdb:62/7/1_Parkinson's-disease:Mild-Cognitive-Impairment-PD-(PD-MCI)_vs_Control-Subjects_DOWN	NA	3085642	186803
 bsdb:63/1/1_Cesarean-section:C-section-delivery_vs_vaginal-delivery-after-7-days-of-delivery_DOWN	NA	1596
 bsdb:63/2/1_Cesarean-section:C-section-delivery_vs_vaginal-delivery-after-3-months-of-delivery_DOWN	NA	1578
 bsdb:63/3/1_Cesarean-section:C-section-delivery_vs_vaginal-delivery-after-6-months-of-delivery_DOWN	NA	1598
@@ -316,6 +328,8 @@ bsdb:86/3/1_Cesarean-section:c-section_vs_vaginal-delivery-at-day-28_DOWN	NA	976
 bsdb:86/4/1_Cesarean-section:c-section_vs_vaginal-delivery-at-day-150_DOWN	NA	976	816
 bsdb:86/5/1_Cesarean-section:c-section_vs_vaginal-delivery-at-day-365_DOWN	NA	976
 bsdb:86/6/1_Premature-birth:late-preterm-34-36-weeks_vs_full-term-delivery->39-weeks-at-day-3_DOWN	NA	976
+bsdb:86/7/1_Cesarean-section:overall-time-point-infants-samples-of-c-section_vs_vaginal-delivery_UP	NA	239934	207244	1485	39948	547	1350	946234	1378	724	1578	1743	32207	1279	1301	186803
+bsdb:86/7/2_Cesarean-section:overall-time-point-infants-samples-of-c-section_vs_vaginal-delivery_DOWN	NA	375288	816	239759
 bsdb:87/1/1_Type-I-diabetes-mellitus:Type-I-Diabetics_vs_maturity-onset-diabetes-of-the-young-2-(MODY2)-and-healthy-Controls_UP	NA	976	815	171550	543	572511	541000	31977	1300	816	29465	1263	1301	547	40544
 bsdb:87/1/2_Type-I-diabetes-mellitus:Type-I-Diabetics_vs_maturity-onset-diabetes-of-the-young-2-(MODY2)-and-healthy-Controls_DOWN	NA	1239	201174
 bsdb:87/2/1_Type-I-diabetes-mellitus:Type-I-Diabetics-and-maturity-onset-diabetes-of-the-young-2-(MODY2)_vs_healthy-Controls_DOWN	NA	28050	186803	841	207244	216851
@@ -459,6 +473,8 @@ bsdb:130/4/1_Diet:20-30-years-participants_vs_>20-years-participants_UP	NA	1224
 bsdb:130/5/1_Diet:>-30-years-participants_vs_20-30-years-participants_UP	NA	1578
 bsdb:130/6/1_Diet:BMI->25_vs_BMI-<-20_UP	NA	201174	976
 bsdb:130/6/2_Diet:BMI->25_vs_BMI-<-20_DOWN	NA	1678
+bsdb:130/7/1_Diet:BMI-20-25_vs_BMI-<20_DOWN	NA	1678
+bsdb:130/8/1_Diet:BMI->25_vs_BMI-20-25_UP	NA	201174
 bsdb:131/1/1_Diet:Time-7-days_vs_Time-0-days-controls_DOWN	NA	119852	171551
 bsdb:131/2/1_Diet:Time-7-days_vs_Time-0-days-Cara-Cara_UP	NA	1737406	186801	31977	1853231	31979
 bsdb:131/2/2_Diet:Time-7-days_vs_Time-0-days-Cara-Cara_DOWN	NA	283168
@@ -550,3 +566,102 @@ bsdb:153/1/1_Prostate-cancer:prostate-cancer_vs_non-prostate-cancer_UP	NA	2747	1
 bsdb:153/1/2_Prostate-cancer:prostate-cancer_vs_non-prostate-cancer_DOWN	NA	114627	413496	1350	44249
 bsdb:154/1/1_Colorectal-cancer:colorectal-cancer_vs_healthy-controls_UP	NA	45401	46913	356	28211	44249	186822	59732
 bsdb:154/1/2_Colorectal-cancer:colorectal-cancer_vs_healthy-controls_DOWN	NA	171552	838	31979	28221	213115	1730	570	32067	33024	86331	613
+bsdb:155/1/1_Esophageal-cancer:Esophageal-Adenocarcinoma-(EAC)_vs_controls_UP	NA	28112	181487	29465	970
+bsdb:155/1/2_Esophageal-cancer:Esophageal-Adenocarcinoma-(EAC)_vs_controls_DOWN	NA	1283313	265975	123375	482	61592	425941	1313	617123	1501329	102148	484	490	724
+bsdb:155/2/1_Esophageal-cancer:Esophageal-Squamous-cell-carcinoma-(ESCC)_vs_controls_UP	NA	425941	59735	28091	69710
+bsdb:155/2/2_Esophageal-cancer:Esophageal-Squamous-cell-carcinoma-(ESCC)_vs_controls_DOWN	NA	186803	838	732
+bsdb:156/1/1_Gastric-adenocarcinoma:Gastric-cancer_vs_healthy-controls_UP	NA	1236	91347	543	1224	171552	838	561	620	91061	186826	570	33958	1578	171551	1300	1301	171550	239759	1760	201174	29465	85004	31953	1678	990721	990719	375288
+bsdb:156/1/2_Gastric-adenocarcinoma:Gastric-cancer_vs_healthy-controls_DOWN	NA	186802	186801	1239	186803	216851	39491	541000	841	28050	1506553
+bsdb:156/2/1_Gastric-adenocarcinoma:Gastric-cancer_vs_healthy-controls_UP	NA	1729679	91347	543	1236	171552	838	561	620	91061	186826	570	1300	1301	1760	201174	1578	33958	171550	239759	85004	31953	1678	29465	990719
+bsdb:156/2/2_Gastric-adenocarcinoma:Gastric-cancer_vs_healthy-controls_DOWN	NA	80840	28216	186801	186802	186803	39491	841	28050	1506553
+bsdb:157/1/1_Esophageal-cancer:Esophageal-Squamous-cell-carcinoma-(ESCC)_vs_Dysplasia_UP	NA	44259	1578	836	838	1301	46123
+bsdb:157/1/2_Esophageal-cancer:Esophageal-Squamous-cell-carcinoma-(ESCC)_vs_Dysplasia_DOWN	NA	416916	1380	118747	194	43996	1716	44259	848	724	963	47670	32067	482	265975	2740	32207	29465	2717
+bsdb:157/2/1_Esophageal-cancer:Esophageal-Squamous-cell-carcinoma-(ESCC)_vs_Healthy-controls_UP	NA	816	1016	308865	836	838	1301	830
+bsdb:157/2/2_Esophageal-cancer:Esophageal-Squamous-cell-carcinoma-(ESCC)_vs_Healthy-controls_DOWN	NA	2147	1654	416916	1380	118747	830	194	2717	43996	1716	39948	44259	724	47670	906	482	265975	2740	1257	32207	970	157	29465	32067
+bsdb:158/1/1_Lung-cancer:lung-cancer-patients_vs_healthy-volunteers_UP	NA	976	32066	816	29465	848	33024
+bsdb:158/1/2_Lung-cancer:lung-cancer-patients_vs_healthy-volunteers_DOWN	NA	1239	579	216851	547	39948	561	620
+bsdb:158/2/1_Lung-cancer:lung-cancer-patients_vs_healthy-volunteers_UP	NA	171549	976	200643	32066	203492	203491	203490	848	570	310297	821	171552	815	816
+bsdb:158/2/2_Lung-cancer:lung-cancer-patients_vs_healthy-volunteers_DOWN	NA	186801	39948	547	91347	543	561	186802	216851	1239	1236	186803	541000	1224	620	1898207
+bsdb:159/1/1_Gingival-disease:1-month-after-the-placement-of-the-brackets_vs_before_UP	NA	713	1016
+bsdb:159/2/1_Gingival-disease:3-months-after-the-placement-of-the-brackets_vs_before_UP	NA	1016
+bsdb:159/2/2_Gingival-disease:3-months-after-the-placement-of-the-brackets_vs_before_DOWN	NA	117563	1077464
+bsdb:160/1/1_Head-and-neck-carcinoma:OCC-&-OPC_vs_High-risk-individuals_DOWN	NA	346096	1716	836	1654	713	1016	848	416916	47670
+bsdb:160/2/1_Head-and-neck-carcinoma:OCC-&-OPC_vs_Normal-Healthy-Controls_UP	NA	265975
+bsdb:160/2/2_Head-and-neck-carcinoma:OCC-&-OPC_vs_Normal-Healthy-Controls_DOWN	NA	32207	724	1716	346096	836	1016
+bsdb:161/1/1_Lung-cancer:NSCLC_vs_Healthy-controls_UP	NA	1224	28216	80840	91061	1300	1301	186826	119060	47670
+bsdb:161/1/2_Lung-cancer:NSCLC_vs_Healthy-controls_DOWN	NA	171551	838	28132	171552	976	200643	171549
+bsdb:162/1/1_Lung-cancer:lung-cancer-group_vs_healthy-control_DOWN	NA	186803
+bsdb:162/2/1_Lung-cancer:CEA-group_vs_controls-+-other-lung-cancer-groups_UP	NA	815	1300
+bsdb:162/3/1_Lung-cancer:NSE-group_vs_controls-+-other-lung-cancer-groups_UP	NA	543	203492	203557
+bsdb:162/4/1_Lung-cancer:CYF-group_vs_healthy-controls_UP	NA	543	203492	203557
+bsdb:162/5/1_Lung-cancer:CYF-group_vs_healthy-controls-+-other-lung-cancer-groups_UP	NA	171552	31977
+bsdb:163/1/1_Squamous-cell-carcinoma:Oropharyngeal-Squamous-Cell-Carcinoma_vs_Healthy-Controls_UP	NA	1654	1678	872	1129771	437755	55506	970	157
+bsdb:163/1/2_Squamous-cell-carcinoma:Oropharyngeal-Squamous-Cell-Carcinoma_vs_Healthy-Controls_DOWN	NA	43996	724	482	712	838	171552	1301	29465
+bsdb:163/2/1_Squamous-cell-carcinoma:Oropharyngeal-Squamous-Cell-Carcinoma_vs_Healthy-Controls_UP	NA	201174	135624	28211	171549	200643	976	85004	1653	28221	526525	526524	49546	200644	117743	909932	712	171552	1224	909929	200666	117747	146	137	136	203691	83763	29465	31977
+bsdb:163/2/2_Squamous-cell-carcinoma:Oropharyngeal-Squamous-Cell-Carcinoma_vs_Healthy-Controls_DOWN	NA	91061	1236	186804	1213720
+bsdb:164/1/1_Gastric-cancer:gastric-cancer_vs_controls_UP	NA	838	1301	29465	1654	32067	201174
+bsdb:164/1/2_Gastric-cancer:gastric-cancer_vs_controls_DOWN	NA	482	848	724	836	1224	1301
+bsdb:165/1/1_Chronic-kidney-disease:chronic-kidney-disease-patients_vs_healthy-controls_UP	NA	201174	2037	1760	1283313	31979	1485	84107	84999	872	119045	407	577309
+bsdb:165/1/2_Chronic-kidney-disease:chronic-kidney-disease-patients_vs_healthy-controls_DOWN	NA	239934	174708	91061	28216	80840	213849	191394	191393	68337	200930	580024	29547	186806	1730	209	72293	33958	186826	1578	1357	1243	1268	248038	133925	265975	577310	1427376	638847	32207	995019	649777	649776	2753	508458	649775	74201	203557	203494	48461
+bsdb:166/1/1_Chronic-kidney-disease:chronic-kidney-disease_vs_healthy-controls_UP	NA	815	171549	816	976	200643	84111	91347	543	1505663	561	946234	1236	81850	375288	171551	1508657	1769710	620	46255	33038	33039	1522
+bsdb:166/1/2_Chronic-kidney-disease:chronic-kidney-disease_vs_healthy-controls_DOWN	NA	186803	1506577	39488	541000	102106	580596	1501226	1263	186804	841	33042	290054	292632	28050	2747	39491	171552	39948	909929	909932	31977	186801	186802	1239
+bsdb:167/1/1_Squamous-cell-carcinoma:Stage-4_vs_healthy-controls_UP	NA	739	1872471	419015	156456	28113	824	205	82202	39950	539	562	143361	860	137732	727	104608	495	1107316	1969407	33033	186804	1924944	2053611	69823	76860
+bsdb:167/1/2_Squamous-cell-carcinoma:Stage-4_vs_healthy-controls_DOWN	NA	52769	46124	425941	28132	157692	52768
+bsdb:167/2/1_Squamous-cell-carcinoma:Stage-1_vs_healthy-controls_UP	NA	205	143361	860	137732	727	1107316	33033	1924944	76860
+bsdb:167/2/2_Squamous-cell-carcinoma:Stage-1_vs_healthy-controls_DOWN	NA	729	1583331	28132	1660	29466
+bsdb:167/3/1_Squamous-cell-carcinoma:Stage-2-&-3_vs_healthy-controls_UP	NA	739	156456	824	205	1730	143361	860	137732	727	33033	1924944	69823	76860
+bsdb:167/3/2_Squamous-cell-carcinoma:Stage-2-&-3_vs_healthy-controls_DOWN	NA	729	1583331	28132	1660	28037	29466	1226342
+bsdb:168/1/1_Chronic-hepatitis-B-virus-infection:chronic-hepatitis-B-yellow-tongue-coating-patients_vs_healthy-controls_UP	NA	119060	868	80864	283	47670	482	481	1224
+bsdb:168/1/2_Chronic-hepatitis-B-virus-infection:chronic-hepatitis-B-yellow-tongue-coating-patients_vs_healthy-controls_DOWN	NA	31953	194	72294	1331051	543311	1481960	196081
+bsdb:168/2/1_Chronic-hepatitis-B-virus-infection:chronic-hepatitis-B-yellow-tongue-coating-patients_vs_chronic-hepatitis-B-white-tongue-coating-patients_UP	NA	363464	2093	482	481	1224
+bsdb:168/2/2_Chronic-hepatitis-B-virus-infection:chronic-hepatitis-B-yellow-tongue-coating-patients_vs_chronic-hepatitis-B-white-tongue-coating-patients_DOWN	NA	976	43996	838
+bsdb:168/3/1_Chronic-hepatitis-B-virus-infection:chronic-hepatitis-B-white-tongue-coating-patients_vs_healthy-controls_UP	NA	59735	118747	82202	171551	836
+bsdb:168/3/2_Chronic-hepatitis-B-virus-infection:chronic-hepatitis-B-white-tongue-coating-patients_vs_healthy-controls_DOWN	NA	1654	2049	194195	868	2092	113286	196081
+bsdb:169/1/1_Gastric-cancer:white-thin-tongue-coating-GC-patient_vs_other-coatings_UP	NA	47670	327575	50729
+bsdb:169/1/2_Gastric-cancer:white-thin-tongue-coating-GC-patient_vs_other-coatings_DOWN	NA	1213720	187326	142586	231213	61235
+bsdb:169/2/1_Gastric-cancer:white-thick-tongue-coating-GC-patient_vs_other-coatings_UP	NA	95818	541000	187326	69823	439703	35518
+bsdb:169/2/2_Gastric-cancer:white-thick-tongue-coating-GC-patient_vs_other-coatings_DOWN	NA	108980	1624	5125
+bsdb:169/3/1_Gastric-cancer:yellow-thick-tongue-coating-GC-patient_vs_other-coatings_DOWN	NA	541000	47670	482	1257	84135	1019	729	479370	119060
+bsdb:169/4/1_Gastric-cancer:yellow-thin-coating-GC-patient_vs_other-coatings_DOWN	NA	1052096	5543
+bsdb:170/1/1_Lung-cancer:cancerous-site_vs_controls_UP	NA	85007	1300	1301
+bsdb:170/1/2_Lung-cancer:cancerous-site_vs_controls_DOWN	NA	468	90964	1279
+bsdb:170/2/1_Lung-cancer:paired-contralateral-non-cancerous-site-in-lung-cancer-patients_vs_controls_UP	NA	1016	49546	200644	237	724	186826	32067	1129771	482	481	206351	712	135625	970	1300	1301
+bsdb:170/2/2_Lung-cancer:paired-contralateral-non-cancerous-site-in-lung-cancer-patients_vs_controls_DOWN	NA	469	186803	468	72274
+bsdb:170/3/1_Sampling-site:cancerous-site-(T)_vs_paired-contralateral-non-cancerous-site-(TN)_UP	NA	1385	95818	39948
+bsdb:170/4/1_Lung-cancer:cancerous-site-with-no-antibiotics_vs_control-group-with-no-antibiotics_UP	NA	1016
+bsdb:170/4/2_Lung-cancer:cancerous-site-with-no-antibiotics_vs_control-group-with-no-antibiotics_DOWN	NA	80864	28221	468	29	265	31989	204455	90964	1279	72274	80840	28211	563835	186801	1898207	976	1004300
+bsdb:170/5/1_Lung-cancer:contralateral-non-cancerous-site-with-no-antibiotics-(TNo)_vs_control-group-with-no-antibiotics-(No)_UP	NA	91061	186826	482	481	206351	90964	1279
+bsdb:170/5/2_Lung-cancer:contralateral-non-cancerous-site-with-no-antibiotics-(TNo)_vs_control-group-with-no-antibiotics-(No)_DOWN	NA	77133	33042	469	76892	468	815	816	80840	72274	28211	1004300	186803	186801	1898207
+bsdb:170/6/1_Sampling-site:Cancerous-site-with-no-antibiotics-(To)_vs_contralateral-non-cancerous-site-with-no-antibiotics-(TNo)_UP	NA	1653	909930	33024
+bsdb:171/1/1_Digestive-system-cancer:digestive-tract-cancer-patients_vs_controls_UP	NA	1716	848	482	495	837	1660	1318	1305	1306	29465
+bsdb:171/1/2_Digestive-system-cancer:digestive-tract-cancer-patients_vs_controls_DOWN	NA	55565	836	1583331	1924944	838	28132	32207	2047	102148
+bsdb:171/2/1_Tongue-neoplasm:tongue/pharyngeal-cancer-patients_vs_controls_UP	NA	739	1716	32067	482	837	838	1318	1305
+bsdb:171/2/2_Tongue-neoplasm:tongue/pharyngeal-cancer-patients_vs_controls_DOWN	NA	28132	2047	1301	113107
+bsdb:171/3/1_Esophageal-cancer:esophageal-cancer-patients_vs_controls_UP	NA	739	1716	157688	104608	187326	837	1306
+bsdb:171/3/2_Esophageal-cancer:esophageal-cancer-patients_vs_controls_DOWN	NA	1654	28132	2047	1301	482	113107
+bsdb:171/4/1_Colorectal-cancer:colorectal-cancer-patients_vs_controls_UP	NA	1716	187326	482	237576	837	59823	1660	68251	1318
+bsdb:171/4/2_Colorectal-cancer:colorectal-cancer-patients_vs_controls_DOWN	NA	1583331	838	28132	59823	1301
+bsdb:171/5/1_Gastric-cancer:gastric-cancer-patients_vs_controls_UP	NA	860	84135	729	482	837	1301
+bsdb:171/5/2_Gastric-cancer:gastric-cancer-patients_vs_controls_DOWN	NA	186803	1924944	838	32207	1301
+bsdb:172/1/1_Cannabis-use:marijuana-usage-group_vs_controls-(lateral-border-of-tongue)_UP	NA	55565	85413	151416	80864	80865	80866	88	1268	86331	32207	43675	39777
+bsdb:172/1/2_Cannabis-use:marijuana-usage-group_vs_controls-(lateral-border-of-tongue)_DOWN	NA	976	59735	1962306	1016	49546	200644	117743	203492	203491	203490	32066	848	425941	171551	836
+bsdb:172/2/1_Cannabis-use:marijuana-usage-group_vs_controls-(oral-pharynx)_UP	NA	86331	909932	541000	1843491	909929	970	29465	31977	1843489
+bsdb:172/2/2_Cannabis-use:marijuana-usage-group_vs_controls-(oral-pharynx)_DOWN	NA	59735	186826	1300	1301
+bsdb:172/3/1_Cannabis-use:marijuana-usage-group_vs_controls-(lateral-border-of-tongue)_UP	NA	85413	80865	47670	88	286	32207
+bsdb:172/3/2_Cannabis-use:marijuana-usage-group_vs_controls-(lateral-border-of-tongue)_DOWN	NA	59735
+bsdb:172/4/1_Cannabis-use:marijuana-usage-group_vs_controls-(oral-pharynx)_UP	NA	86331	216572	838	29465
+bsdb:172/4/2_Cannabis-use:marijuana-usage-group_vs_controls-(oral-pharynx)_DOWN	NA	59735	400634
+bsdb:173/1/1_Pancreatic-carcinoma:pancreatic-cancer_vs_healthy-controls_UP	NA	904	416916	194	135858	82202	413496	547	52228	570	1578	32067	200903	838	970	29465
+bsdb:173/1/2_Pancreatic-carcinoma:pancreatic-cancer_vs_healthy-controls_DOWN	NA	239934	239759	207244	244127	1678	35832	572511	41275	580596	1485	33042	189330	84111	946234	204475	158846	906	86331	651554	577310	583	379	44748
+bsdb:173/2/1_Pancreatic-carcinoma:pancreatic-head-cancer-with-obstruction_vs_pancreatic-head-cancer-without-obstruction_UP	NA	283	117563	140625	32067	115543	46205	1200657	1301
+bsdb:173/2/2_Pancreatic-carcinoma:pancreatic-head-cancer-with-obstruction_vs_pancreatic-head-cancer-without-obstruction_DOWN	NA	118966	561	620
+bsdb:174/1/1_Gastric-cancer:cancer-tissue_vs_adjacent-normal-tissue_UP	NA	356	1497346	57723	970	838	28135	1164882	1301	909929	909932	31977	1257	186803	13687	201174	186804	28129	469	468	171552	470	186802	186801	186817	1386	171549	200643	91061	976	1385	287	1239
+bsdb:174/1/2_Gastric-cancer:cancer-tissue_vs_adjacent-normal-tissue_DOWN	NA	543	91347	613	210	72293	209	615	213849	29547	1543704	41295	204441	1580	1357	1358	135614
+bsdb:174/2/1_Gastric-cancer:H-pylori-sequencing-positive_vs_H-pylori-sequencing-negative_UP	NA	613	615	543	91347	213849	3031852	72293	209	210	425941	91061	186826	72275	1239	263960	56	69965	111142	55565	292480	135618	2093	81850	1578	207599	110932	1860	416916	1798710	1301	1655
+bsdb:174/2/2_Gastric-cancer:H-pylori-sequencing-positive_vs_H-pylori-sequencing-negative_DOWN	NA	28131	171552	287	1224	1236	286	135621	72274
+bsdb:174/3/1_Gastric-cancer:cancer-tissue_vs_adjacent-normal-tissue_UP	NA	469	1386	816	13687	1257	1301	848	59823
+bsdb:174/3/2_Gastric-cancer:cancer-tissue_vs_adjacent-normal-tissue_DOWN	NA	209	1578
+bsdb:175/1/1_Pancreatic-carcinoma:pancreatic-cancer-cases_vs_controls_UP	NA	1283313	976
+bsdb:175/1/2_Pancreatic-carcinoma:pancreatic-cancer-cases_vs_controls_DOWN	NA	32066	203491	203490	32067	1129771
+bsdb:175/2/1_Pancreatic-carcinoma:pancreatic-cancer-cases_vs_controls_DOWN	NA	1283313	32066	203491	203490	32067	1129771
+bsdb:175/3/1_Pancreatic-carcinoma:pancreatic-cancer-cases_vs_controls_DOWN	NA	32067	1129771
