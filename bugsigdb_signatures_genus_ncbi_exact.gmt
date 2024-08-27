@@ -1,4 +1,4 @@
-# BugSigDB 2024-08-26_23:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2024-08-27_01:23_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/2_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	100883
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	207244
 bsdb:1/2/2_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_DOWN	NA	100883
@@ -87,6 +87,10 @@ bsdb:34/4/1_Bipolar-disorder:Bipolar-patients-with-high-LDL_vs_low-LDL_DOWN	NA	8
 bsdb:34/5/1_Bipolar-disorder:Bipolar-patients-with-high-TRP_vs_low-TRP_UP	NA	1578
 bsdb:34/6/1_Bipolar-disorder:Bipolar-patients-with-high-TBARS-level_vs_low-TBARS-level_UP	NA	1730
 bsdb:34/7/1_Bipolar-disorder:Bipolar-patients-with-high-MDA-level_vs_low-MDA-level_DOWN	NA	216851
+bsdb:34/8/1_Bipolar-disorder:Bipolar-patients-with-high-BMI_vs_low-BMI_UP	NA	1578
+bsdb:34/9/1_Bipolar-disorder:Bipolar-patients-with-metabolic-syndrome_vs_no-metabolic-syndrome_UP	NA	1578
+bsdb:34/10/2_Bipolar-disorder:Bipolar-patients-with-depressive-syndrome_vs_healthier-bipolar-patients_DOWN	NA	841
+bsdb:34/11/2_Bipolar-disorder:Bipolar-disorder_vs_Controls_DOWN	NA	216851
 bsdb:35/1/1_Sjogren-syndrome:PSS_vs_Controls_UP	NA	29465
 bsdb:35/1/2_Sjogren-syndrome:PSS_vs_Controls_DOWN	NA	1654	724	482	32207	836	1257
 bsdb:36/1/1_Obesity:obese-adolescent_vs_control-adult_UP	NA	1654
@@ -679,7 +683,90 @@ bsdb:231/5/1_Diet:Golden-delicious-apple--at-24-hr_vs_Poorly-fermentable-fiber-(
 bsdb:231/5/2_Diet:Golden-delicious-apple--at-24-hr_vs_Poorly-fermentable-fiber-(cellulose)_UP	NA	1678
 bsdb:231/6/1_Diet:Pink-lady-apple--at-24-hr_vs_Poorly-fermentable-fiber-(cellulose)_DOWN	NA	574697
 bsdb:231/6/2_Diet:Pink-lady-apple--at-24-hr_vs_Poorly-fermentable-fiber-(cellulose)_UP	NA	216851
+bsdb:231/7/1_Diet:Renatta-canada-apple---at-10-hr_vs_Inulin_DOWN	NA	119852	86331
+bsdb:231/7/2_Diet:Renatta-canada-apple---at-10-hr_vs_Inulin_UP	NA	1678
+bsdb:231/8/1_Diet:Golden-delicious-apple---at-10-hr_vs_Inulin_DOWN	NA	86331	119852
+bsdb:231/8/2_Diet:Golden-delicious-apple---at-10-hr_vs_Inulin_DOWN	NA	1678
+bsdb:231/9/1_Diet:Golden-delicious-apple---at-24-hr_vs_Inulin_UP	NA	216851
+bsdb:231/10/1_Diet:Pink-Lady-apple---at-10-hr_vs_Inulin_DOWN	NA	86331	119852
+bsdb:231/11/1_Diet:Pink-Lady-apple---at-24-hr_vs_Inulin_DOWN	NA	216851
+bsdb:231/12/1_Diet:Cellulose---at-10hr_vs_Inulin_UP	NA	35832	119852	375288
+bsdb:231/13/1_Diet:Cellulose---at-24hr_vs_Inulin_DOWN	NA	216851
 bsdb:232/1/1_HIV-infection:HIV-infected-cART-negative_vs_Healthy-controls_UP	NA	165779	848	1257	836
 bsdb:232/1/2_HIV-infection:HIV-infected-cART-negative_vs_Healthy-controls_DOWN	NA	239759	33042	1730	28050	841	1263
 bsdb:233/1/1_HIV-infection:HIV-infected-subjects_vs_uninfected-controls_UP	NA	469	838
 bsdb:233/1/2_HIV-infection:HIV-infected-subjects_vs_uninfected-controls_DOWN	NA	816	572511	33042
+bsdb:236/1/1_Diet:before-walnut-diet_vs_after-walnut-diet_UP	NA	207244
+bsdb:236/1/2_Diet:before-walnut-diet_vs_after-walnut-diet_DOWN	NA	1678	572511
+bsdb:236/2/1_Diet:carbohydrate-replacement-(with-walnuts)_vs_replace-both_DOWN	NA	204475	1407607	816
+bsdb:236/3/1_Diet:replace-both_vs_fat-replacement-(with-walnuts)_UP	NA	204475	1407607	816
+bsdb:237/1/1_Chronic-hepatitis-C-virus-infection:cirrhosis-patients_vs_healthy-controls_UP	NA	239934	1283313	544	724	1578	1269	1253	1301	29465	46255	1485
+bsdb:237/1/2_Chronic-hepatitis-C-virus-infection:cirrhosis-patients_vs_healthy-controls_DOWN	NA	35829	35832	574697	52225	1017280	213484	172900
+bsdb:237/2/1_Chronic-hepatitis-C-virus-infection:cirrhosis-patients_vs_no-cirrhosis_UP	NA	1578	29465	1678	239934	724	1269	46255
+bsdb:237/2/2_Chronic-hepatitis-C-virus-infection:cirrhosis-patients_vs_no-cirrhosis_DOWN	NA	213484
+bsdb:237/3/1_Chronic-hepatitis-C-virus-infection:No-cirrhosis_vs_healthy-controls_DOWN	NA	52225	946234	906	35829
+bsdb:237/3/2_Chronic-hepatitis-C-virus-infection:No-cirrhosis_vs_healthy-controls_UP	NA	1283313	1578	1301	29465	1485
+bsdb:238/1/1_Cervical-cancer:cervical-cancer-patient_vs_healthy-controls_UP	NA	838	836	39948	1506553	40544	1505663	437755	946234	459786	1301
+bsdb:238/1/2_Cervical-cancer:cervical-cancer-patient_vs_healthy-controls_DOWN	NA	239759	207244	816	572511	547	561	1407607	1505657	375288	1501226	620	574697
+bsdb:238/2/1_Cervical-cancer:cervical-cancer-patient_vs_healthy-controls_UP	NA	838	836	39948	1506553	1505663	946234	437755
+bsdb:238/2/2_Cervical-cancer:cervical-cancer-patient_vs_healthy-controls_DOWN	NA	1501226	207244	572511	239759
+bsdb:238/3/1_Cervical-cancer:cervical-cancer-patient_vs_healthy-controls_UP	NA	838	836	39948	1506553	1301	1505663	437755
+bsdb:238/3/2_Cervical-cancer:cervical-cancer-patient_vs_healthy-controls_DOWN	NA	1505657	1501226	1407607	207244	547	239759
+bsdb:239/1/1_Egg-allergy:children-with-egg-allergy_vs_healthy-control_UP	NA	1263	1357
+bsdb:239/1/2_Egg-allergy:children-with-egg-allergy_vs_healthy-control_DOWN	NA	1243
+bsdb:239/2/1_Egg-allergy:children-with-egg-sensitization_vs_healthy-control_UP	NA	216851	841
+bsdb:241/1/2_Iron-deficiency-anemia:iron-deficiency-anemia_vs_healthy-control_DOWN	NA	39948
+bsdb:242/1/1_Iron-deficiency-anemia:iron-deficiency-anemia_vs_healthy-control_UP	NA	475	1357	286	1350	57493	1578
+bsdb:242/1/2_Iron-deficiency-anemia:iron-deficiency-anemia_vs_healthy-control_DOWN	NA	1716	482	416916	2717
+bsdb:242/2/1_Iron-deficiency-anemia:iron-deficiency-anemia_vs_healthy-control_UP	NA	1350	57493	1357	475	286
+bsdb:242/2/2_Iron-deficiency-anemia:iron-deficiency-anemia_vs_healthy-control_DOWN	NA	194	2717	32207	416916	215579	1016	482	1716
+bsdb:242/3/1_Iron-deficiency-anemia:iron-deficiency-anemia-severe_vs_iron-deficiency-anemia-moderate_UP	NA	57493	1111	1279	475	1350	286	1357
+bsdb:243/1/1_Gastric-cancer:current-H.pylori-infection_vs_non-current-H.pylori-infection_UP	NA	1378
+bsdb:243/1/2_Gastric-cancer:current-H.pylori-infection_vs_non-current-H.pylori-infection_DOWN	NA	12916	1827
+bsdb:243/2/1_Gastric-cancer:current-H.pylori-infection-patients_vs_past-H.pylori-infection_UP	NA	838	40544
+bsdb:243/3/1_Gastric-cancer:past-H.pylori-infection_vs_H.pylori-negative_DOWN	NA	375288
+bsdb:243/4/1_Gastric-cancer:gastritis-cases_vs_normal_UP	NA	244127	189330	561	216851	620	1301	191303
+bsdb:243/5/1_Gastric-cancer:subjects-with-metaplasia_vs_normal_UP	NA	39948	189330	1506553	1501226	191303
+bsdb:244/1/1_Age:18-62-years_vs_2-12-years_UP	NA	1743	1716	1279	1578	150022	165779
+bsdb:244/1/2_Age:18-62-years_vs_2-12-years_DOWN	NA	32207	1301	117563	1378	724
+bsdb:244/2/1_Atopic-eczema:lesional-skin_vs_non-lesional-skin_UP	NA	1279
+bsdb:244/2/2_Atopic-eczema:lesional-skin_vs_non-lesional-skin_DOWN	NA	1301	1743
+bsdb:244/3/1_Age:13-62-years_vs_2-12-years_UP	NA	1743	1716	1578
+bsdb:244/3/2_Age:13-62-years_vs_2-12-years_DOWN	NA	1301	117563	1378	482	724	32207	29465
+bsdb:245/1/1_Urolithiasis,Nephrolithiasis:kidney-stone-group_vs_healthy-control_UP	NA	469	1283313	85413	561	1730	1573534	1506553	158846	620
+bsdb:245/1/2_Urolithiasis,Nephrolithiasis:kidney-stone-group_vs_healthy-control_DOWN	NA	1508657	39948	61170	168934	638847	1678	841	577310	547
+bsdb:245/2/1_Urolithiasis,Nephrolithiasis:kidney-stone-group_vs_healthy-control_UP	NA	1283313	1505663	33024	158846	469	561	620	40544
+bsdb:245/2/2_Urolithiasis,Nephrolithiasis:kidney-stone-group_vs_healthy-control_DOWN	NA	189330	1508657	207244	1407607	292632	1573535	39948	1263	577310	35832
+bsdb:246/1/1_Asthma:maternal-asthma/male-caucasian-infants_vs_no-asthma_UP	NA	1654	1357	158846
+bsdb:246/1/2_Asthma:maternal-asthma/male-caucasian-infants_vs_no-asthma_DOWN	NA	158851	1578
+bsdb:246/2/1_Asthma:maternal-asthma_vs_no-asthma_UP	NA	816	286
+bsdb:246/2/2_Asthma:maternal-asthma_vs_no-asthma_DOWN	NA	906
+bsdb:246/4/1_Asthma:maternal-asthma/caucasian-infants_vs_no-asthma_DOWN	NA	1578
+bsdb:246/5/1_Asthma:maternal-asthma/female-infants_vs_no-asthma_UP	NA	816	189330
+bsdb:246/6/1_Asthma:maternal-asthma/caucasian-infants/allergies_vs_no-asthma_DOWN	NA	1578	906
+bsdb:246/7/1_Asthma:maternal-asthma/caucasian-infants/no-allergies_vs_no-asthma_UP	NA	239934
+bsdb:246/7/2_Asthma:maternal-asthma/caucasian-infants/no-allergies_vs_no-asthma_DOWN	NA	1654
+bsdb:246/8/1_Asthma:overweight-prenatal-asthma-caucasian-mothers_vs_no-asthma_DOWN	NA	1578	906
+bsdb:247/1/1_Diet:Placebo_vs_Prebiotic_UP	NA	33042	189330	119852
+bsdb:247/1/2_Diet:Placebo_vs_Prebiotic_DOWN	NA	1678
+bsdb:247/2/1_Diet:placebo_vs_prebiotic-(inulin-type-fructan)---in-participants-with-low-dietary-fiber_DOWN	NA	1678
+bsdb:247/3/1_Diet:placebo_vs_prebiotic-(inulin-type-fructan)---in-participants-with-high-dietary-fiber_UP	NA	572511	33042	189330
+bsdb:247/3/2_Diet:placebo_vs_prebiotic-(inulin-type-fructan)---in-participants-with-high-dietary-fiber_DOWN	NA	1678
+bsdb:247/4/1_Diet:High-dietary-fiber_vs_Low-dietary-fiber_UP	NA	216851
+bsdb:247/4/2_Diet:High-dietary-fiber_vs_Low-dietary-fiber_DOWN	NA	1578
+bsdb:248/1/1_Human-papilloma-virus-infection:high-risk-hpv_vs_low-risk-hpv_UP	NA	33870
+bsdb:248/1/2_Human-papilloma-virus-infection:high-risk-hpv_vs_low-risk-hpv_DOWN	NA	724	28100
+bsdb:248/2/1_Human-papilloma-virus-infection:HPV_vs_no-HPV_UP	NA	2701
+bsdb:248/2/2_Human-papilloma-virus-infection:HPV_vs_no-HPV_DOWN	NA	286	28100
+bsdb:249/1/1_Hepatitis,-Alcoholic:alcoholics_vs_NAC_UP	NA	374	33882	1843210	1716
+bsdb:249/1/2_Hepatitis,-Alcoholic:alcoholics_vs_NAC_DOWN	NA	2053	1839	53387	1678	816	397864	577309	838	239759	237	182709	94008	572511	1263	186650	265	780	114248	12916	47420	215579	29580	70774	642
+bsdb:249/2/1_Hepatitis,-Alcoholic:HDC_vs_NAC_UP	NA	469	165779	374	59732	57493	33882	482	20	1883	1060
+bsdb:249/2/2_Hepatitis,-Alcoholic:HDC_vs_NAC_DOWN	NA	2053	1839	1678	816	397864	838	237	1301	1485	114248	12916	70774
+bsdb:249/3/1_Hepatitis,-Alcoholic:MAH_vs_NAC_UP	NA	469	1654	165779	374	501783	1716	281915	117563	407
+bsdb:249/3/2_Hepatitis,-Alcoholic:MAH_vs_NAC_DOWN	NA	1839	53387	838	237	1386	1485	29580	70774
+bsdb:249/4/1_Hepatitis,-Alcoholic:SAH_vs_NAC_UP	NA	1654	1651	43668	1716	244698	33882
+bsdb:249/4/2_Hepatitis,-Alcoholic:SAH_vs_NAC_DOWN	NA	1839	1678	397864	239759	237
+bsdb:250/1/1_Severe-aplastic-anemia:hematopoietic-stem-cell-transplantation-engraftment_vs_baseline_UP	NA	482	1213720
+bsdb:250/2/1_Severe-aplastic-anemia:hematopoietic-stem-cell-transplantation-engraftment_vs_baseline_DOWN	NA	482
+bsdb:251/1/1_Milk-allergic-reaction:cow’s-milk-allergic-(CMA)-infants-colonized-mice_vs_healthy-Infants-colonised-mice_UP	NA	572511	100883	1350	375288	1263
+bsdb:251/1/2_Milk-allergic-reaction:cow’s-milk-allergic-(CMA)-infants-colonized-mice_vs_healthy-Infants-colonised-mice_DOWN	NA	590	1301
