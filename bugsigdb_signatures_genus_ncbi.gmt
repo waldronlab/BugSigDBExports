@@ -1,4 +1,4 @@
-# BugSigDB 2024-09-17_04:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2024-09-17_05:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	1654	1716	1301	162289	189330	33024	40544	2759736	1386
 bsdb:1/1/2_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	100883
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	207244	2759736
@@ -1168,3 +1168,102 @@ bsdb:322/5/2_Oral-mucositis:mucositis-lesions_vs_all-samples_DOWN	NA	713	416916	
 bsdb:323/1/1_Necrotizing-enterocolitis:NEC_vs_non-NEC_UP	NA	1485	1279
 bsdb:323/1/2_Necrotizing-enterocolitis:NEC_vs_non-NEC_DOWN	NA	28196	150022	29330	1654	286	59732	283	1301	1716
 bsdb:323/3/1_Necrotizing-enterocolitis:NEC_vs_non-NEC_UP	NA	1279
+bsdb:324/1/1_Thyroid-carcinoma:patients-with-thyroid-carcinoma_vs_healthy-controls_UP	NA	2569097	207244	33042	561	1730	1505657	570	1578	620	1301	292632	191303	1485	1357	239759
+bsdb:324/1/2_Thyroid-carcinoma:patients-with-thyroid-carcinoma_vs_healthy-controls_DOWN	NA	1283313	816	1506553	158846	33024	838	841	2316020
+bsdb:325/1/1_Psoriasis:psoriasis_vs_healthy-controls_UP	NA	572511	1263	216851	1678	33042	86331	189330	990721	1654	102106
+bsdb:325/1/2_Psoriasis:psoriasis_vs_healthy-controls_DOWN	NA	574697	35832	283168	375288	838	40544	28050	577309
+bsdb:326/1/1_Non-small-cell-lung-carcinoma,Renal-cell-carcinoma,Disease-progression-measurement:Responders-(partial-response-or-stable-disease)_vs_Non-Responders-(progression-or-death)_UP	NA	239934	239759	816	508459	1350	1730	1392389	838
+bsdb:326/1/2_Non-small-cell-lung-carcinoma,Renal-cell-carcinoma,Disease-progression-measurement:Responders-(partial-response-or-stable-disease)_vs_Non-Responders-(progression-or-death)_DOWN	NA	816	572511	1485	2719313	375288	838
+bsdb:326/2/1_Non-small-cell-lung-carcinoma,Renal-cell-carcinoma,Disease-progression-measurement:Progressive--Free--Survival-more-than-30-days_vs_Progressive--Free--Survival-more-less-than-30-days_UP	NA	239934	239759	816	572511	1485	1730	946234	1392389	1263
+bsdb:326/2/2_Non-small-cell-lung-carcinoma,Renal-cell-carcinoma,Disease-progression-measurement:Progressive--Free--Survival-more-than-30-days_vs_Progressive--Free--Survival-more-less-than-30-days_DOWN	NA	244127	375288
+bsdb:326/3/1_Non-small-cell-lung-carcinoma,Renal-cell-carcinoma,Disease-progression-measurement:Responders_vs_Non-Responders_DOWN	NA	1279	1716
+bsdb:327/1/1_Antimicrobial-agent:infants-who-received-short-term-or-long-term-antibiotic-treatment---week-1_vs_control-(no-treatment)---week-1_UP	NA	1578
+bsdb:327/1/2_Antimicrobial-agent:infants-who-received-short-term-or-long-term-antibiotic-treatment---week-1_vs_control-(no-treatment)---week-1_DOWN	NA	561	1301
+bsdb:327/2/1_Antimicrobial-agent:infants-received-long-term(>5days)-antibiotic-treatment---week-2_vs_control(no-treatment)---week-2_UP	NA	1350
+bsdb:327/3/1_Antimicrobial-agent:infants-received-long-term-(>5days)-antibiotic-treatment---week-1_vs_infants-received-short-term-(<3days)-antibiotic-treatment---week-1_DOWN	NA	1485
+bsdb:327/3/2_Antimicrobial-agent:infants-received-long-term-(>5days)-antibiotic-treatment---week-1_vs_infants-received-short-term-(<3days)-antibiotic-treatment---week-1_UP	NA	29465
+bsdb:328/1/1_Psoriatic-arthritis:psoriatic-arthiritis_vs_healthy-controls_DOWN	NA	239934	33042	46205	1263
+bsdb:328/2/1_Psoriatic-arthritis:skin-psoriasis_vs_healthy-controls_DOWN	NA	375288	100883	33042
+bsdb:328/3/1_Psoriatic-arthritis:psoriatic-arthiritis_vs_skin-psoriasis_UP	NA	100883
+bsdb:329/1/1_Antimicrobial-agent:Postnatal-antibiotic-group-(2-day-old-infant)_vs_control-group_UP	NA	1578
+bsdb:329/1/2_Antimicrobial-agent:Postnatal-antibiotic-group-(2-day-old-infant)_vs_control-group_DOWN	NA	816
+bsdb:329/2/1_Antimicrobial-agent:IAP-group-(4-day-old-infant)_vs_control-group_DOWN	NA	816
+bsdb:329/3/1_Antimicrobial-agent:IAP-group-(6-month-old-infant)_vs_control-group_UP	NA	1485
+bsdb:329/4/1_Antimicrobial-agent:IAP+postnatal-antibiotic-group-(2-day-old-infant)_vs_control-group_UP	NA	1578
+bsdb:329/4/2_Antimicrobial-agent:IAP+postnatal-antibiotic-group-(2-day-old-infant)_vs_control-group_DOWN	NA	816
+bsdb:329/5/1_Antimicrobial-agent:IAP+postnatal-antibiotic-group-(4-day-old-infant)_vs_control-group_DOWN	NA	816
+bsdb:329/6/1_Antimicrobial-agent:IAP+postnatal-antibiotic-group-(6-month-old-infant)_vs_control-group_UP	NA	1485
+bsdb:330/1/1_Human-papilloma-virus-infection:HPV+_vs_HPV-_UP	NA	1578	2129
+bsdb:330/2/1_Human-papilloma-virus-infection:HPV+_vs_HPV-_UP	NA	1578	2129
+bsdb:330/2/2_Human-papilloma-virus-infection:HPV+_vs_HPV-_DOWN	NA	724	1257
+bsdb:330/3/1_Human-papilloma-virus-infection:HPV+_vs_HPV-_UP	NA	150022
+bsdb:330/3/2_Human-papilloma-virus-infection:HPV+_vs_HPV-_DOWN	NA	724
+bsdb:331/1/1_Hashimoto's-thyroiditis:hashimoto's-thyroiditis-patients_vs_healthy-controls_UP	NA	2569097	207244	572511	580596	33042	189330	1730	1407607	724	1501226	841	1263	1301	292632	2316020	1485
+bsdb:331/1/2_Hashimoto's-thyroiditis:hashimoto's-thyroiditis-patients_vs_healthy-controls_DOWN	NA	816	216851	838	1283313	33024	1506553	375288	577309	1154586
+bsdb:332/1/1_Hashimoto's-thyroiditis:hashimoto's-thyroiditis-patients_vs_healthy-controls_UP	NA	1263
+bsdb:332/1/2_Hashimoto's-thyroiditis:hashimoto's-thyroiditis-patients_vs_healthy-controls_DOWN	NA	1578
+bsdb:333/1/1_Antimicrobial-agent:infants-with-(Abx)_vs_without-(non-Abx)-use-of-maternal-antimicrobial-agents-at-delivery_DOWN	NA	1678
+bsdb:334/1/1_Antimicrobial-agent:infants(14-d-old)-exposed-to-prenatal-antibiotic-therapy-(PAT-group)_vs_prenatal-antibiotic-free-group-(PAF-group)_UP	NA	1618113
+bsdb:334/1/2_Antimicrobial-agent:infants(14-d-old)-exposed-to-prenatal-antibiotic-therapy-(PAT-group)_vs_prenatal-antibiotic-free-group-(PAF-group)_DOWN	NA	1678
+bsdb:334/2/2_Antimicrobial-agent:infants-exposed-to-antibiotic->7day-(H-group)_vs_infants-exposed-to-antibiotic-<=7day-(L-group)_DOWN	NA	1678
+bsdb:335/2/1_Air-pollution:IL-10−/−--mice-fed-mouse-chow-with-PM10_vs_healthy-mice_UP	NA	1386
+bsdb:336/1/1_Antimicrobial-agent:combination-of-penicillin-and-moxalactam-group-(postnatal-day-3)_vs_Antibiotic-free-group-(postnatal-day-3)_UP	NA	816	1578	13687
+bsdb:336/1/2_Antimicrobial-agent:combination-of-penicillin-and-moxalactam-group-(postnatal-day-3)_vs_Antibiotic-free-group-(postnatal-day-3)_DOWN	NA	1485
+bsdb:336/4/1_Antimicrobial-agent:piperacillin-tazobactam-group-(postnatal-day-7)_vs_Antibiotic-free-group-(postnatal-day-7)_UP	NA	816	1350
+bsdb:336/4/2_Antimicrobial-agent:piperacillin-tazobactam-group-(postnatal-day-7)_vs_Antibiotic-free-group-(postnatal-day-7)_DOWN	NA	570
+bsdb:336/5/1_Antimicrobial-agent:combination-of-penicillin-and-moxalactam-group-(postnatal-day-3)_vs_piperacillin-tazobactam-group-(postnatal-day-3)_DOWN	NA	1350
+bsdb:336/6/1_Antimicrobial-agent:combination-of-penicillin-and-moxalactam-group-(postnatal-day-7)_vs_piperacillin-tazobactam-group-(postnatal-day-7)_DOWN	NA	1485
+bsdb:337/1/1_Antimicrobial-agent:3-month-old-infants-exposed-to-antibiotics-in-the-second-trimester_vs_3-month-old-infants-not-exposed-to-antibiotics-during-the-second-trimester_UP	NA	1407607	1350
+bsdb:337/1/2_Antimicrobial-agent:3-month-old-infants-exposed-to-antibiotics-in-the-second-trimester_vs_3-month-old-infants-not-exposed-to-antibiotics-during-the-second-trimester_DOWN	NA	239934	816	1485	2742598	2529408	1279	1301	29465
+bsdb:337/3/1_Antimicrobial-agent:12-month-old-infants-exposed-to-antibiotics-during-the-second-trimester_vs_12-month-old-infants-not-exposed-to-antibiotics-during-the-second-trimester_UP	NA	1485	29465
+bsdb:337/3/2_Antimicrobial-agent:12-month-old-infants-exposed-to-antibiotics-during-the-second-trimester_vs_12-month-old-infants-not-exposed-to-antibiotics-during-the-second-trimester_DOWN	NA	239934	239759	816	572511	1485	204475	1506553	29465
+bsdb:338/1/1_Obesity:obese-children_vs_normal-weight-children_UP	NA	216851	724	28050	158846	33024
+bsdb:338/1/2_Obesity:obese-children_vs_normal-weight-children_DOWN	NA	39948	119852
+bsdb:338/2/1_Obesity:obese-children_vs_normal-weight-children_UP	NA	31980	713	416916	194	1485	2749846	848	117563	724	28050	158846	33024	909656	2974251	32207	1301	40544	191303	29465	1506577	2316020
+bsdb:338/2/2_Obesity:obese-children_vs_normal-weight-children_DOWN	NA	447020	239759	244127	816	1678	35832	990721	1485	102106	1185408	872	1730	1769729	61170	119852	846	93681	838	59195	1263	44748	1301
+bsdb:340/1/1_Inflammatory-bowel-disease:Pouchitis_vs_Normal-pouch_UP	NA	469	239934	572511	10	1350	561	2316020	906	577310	1301	29465	629	100883	586	84108
+bsdb:340/1/2_Inflammatory-bowel-disease:Pouchitis_vs_Normal-pouch_DOWN	NA	1678	572511	189330	216851	724	909656	841	1263	123375	1213720	1301	29465	2316020	773	2745	1253
+bsdb:341/1/1_Smoking-behavior:patients-with-FD,-ID,or-CD-who-currently-smoked_vs_never-smoked_UP	NA	32207	1301	29465
+bsdb:341/2/1_Smoking-behavior:patients-with-FD,-ID,or-CD-who-currently-smokes_vs_never-smoked_DOWN	NA	482	838
+bsdb:342/1/1_Asthma:Children-who-experienced-exacerbation_vs_children-who-did-not-experience-asthma-exacerbation_DOWN	NA	724
+bsdb:342/2/1_Asthma:Samples-with-any-rhinovirus-infection_vs_Samples-with-no-rhinovirus-infection_UP	NA	1301
+bsdb:342/2/2_Asthma:Samples-with-any-rhinovirus-infection_vs_Samples-with-no-rhinovirus-infection_DOWN	NA	1279
+bsdb:342/3/1_Asthma:Samples-with-rhinovirus-A-(RV-A)_vs_Samples-that-were-RV-A-negative-_UP	NA	724	1301
+bsdb:342/3/2_Asthma:Samples-with-rhinovirus-A-(RV-A)_vs_Samples-that-were-RV-A-negative-_DOWN	NA	1279
+bsdb:342/5/1_Asthma:Children-who-experienced-exacerbation_vs_children-who-did-not-experience-exacerbation_UP	NA	475
+bsdb:342/5/2_Asthma:Children-who-experienced-exacerbation_vs_children-who-did-not-experience-exacerbation_DOWN	NA	1651	1716	724	1279
+bsdb:342/7/1_Asthma:samples-with-any-rhinovirus-infection_vs_samples-with-no-rhinovirus-infection_UP	NA	1301
+bsdb:342/7/2_Asthma:samples-with-any-rhinovirus-infection_vs_samples-with-no-rhinovirus-infection_DOWN	NA	1279
+bsdb:342/8/1_Asthma:Samples-with-rhinovirus-A_vs_Rhinovirus-negative-samples_UP	NA	724	1301
+bsdb:342/8/2_Asthma:Samples-with-rhinovirus-A_vs_Rhinovirus-negative-samples_DOWN	NA	1279
+bsdb:343/1/1_Leukemia:Acute-anti-leukemia-treatment_vs_Allogeneic-Hematopoetic-Stem-Cell-Transplant_UP	NA	816	239934	216851
+bsdb:343/1/2_Leukemia:Acute-anti-leukemia-treatment_vs_Allogeneic-Hematopoetic-Stem-Cell-Transplant_DOWN	NA	1485
+bsdb:344/1/1_Air-pollution:mice-exposed-to-Pm-2.5-suspension_vs_mice-exposed-suspension-from-extracts-of-“blank”-filter_UP	NA	946234	848	459786
+bsdb:344/1/2_Air-pollution:mice-exposed-to-Pm-2.5-suspension_vs_mice-exposed-suspension-from-extracts-of-“blank”-filter_DOWN	NA	1386	80865	173479	55968	248038	283168	286	970	13687	1301
+bsdb:345/1/1_Response-to-diet:Female-hamsters-Low-protein-diet-(LPD)-group_vs_Female-hamsters-Normal-protein-diet-(NPD)-group_UP	NA	2086	816	156973	690621
+bsdb:345/1/2_Response-to-diet:Female-hamsters-Low-protein-diet-(LPD)-group_vs_Female-hamsters-Normal-protein-diet-(NPD)-group_DOWN	NA	469	174708	1716	308865	204475	1159323	264147	248038	2093	217063	119852	146	577309
+bsdb:345/3/1_Response-to-diet:Offspring-hamsters-Low-protein-diet-(LPD)-group_vs_Offspring-hamsters-Normal-protein-diet-(NPD)-group_UP	NA	222991	2086	1663	1678	517	990721	1485	308865	1578	264147	248038	267929	133925	286	83618	577309
+bsdb:345/3/2_Response-to-diet:Offspring-hamsters-Low-protein-diet-(LPD)-group_vs_Offspring-hamsters-Normal-protein-diet-(NPD)-group_DOWN	NA	580596	189330	204475	28050	415014	1263	44748	872	209	29521	146	157
+bsdb:345/4/1_Response-to-diet:Offspring-hamsters-niacin--group_vs_Offspring-hamsters-naicin+-group_UP	NA	146	415014
+bsdb:345/4/2_Response-to-diet:Offspring-hamsters-niacin--group_vs_Offspring-hamsters-naicin+-group_DOWN	NA	222991	1663	241189	69965	248038	577309	1485
+bsdb:346/1/1_Unipolar-depression:severe-depression_vs_mild-depression_UP	NA	946234	1263
+bsdb:346/1/2_Unipolar-depression:severe-depression_vs_mild-depression_DOWN	NA	239759	1678	846
+bsdb:346/2/1_Unipolar-depression:moderate-depression_vs_mild-depression_UP	NA	33042	946234	1301	1506553
+bsdb:346/3/1_Anxiety-disorder:severe-anxiety_vs_mild-anxiety_UP	NA	1301
+bsdb:346/3/2_Anxiety-disorder:severe-anxiety_vs_mild-anxiety_DOWN	NA	1766253	239759	1678	33042	1730	1847725	841	1263
+bsdb:346/4/1_Anxiety-disorder:moderate-anxiety_vs_mild-anxiety_UP	NA	1357	84111
+bsdb:346/5/1_Remission:Yes_vs_No_UP	NA	1766253	816	102106	33042	189330	1730	216851	1506553	28050	577310	841	1263
+bsdb:346/5/2_Remission:Yes_vs_No_DOWN	NA	1263	1433999	286	572511	1505657	2316020	561
+bsdb:346/6/1_Remission:Yes_vs_No_UP	NA	1766253	33042	841	1263	292632
+bsdb:346/6/2_Remission:Yes_vs_No_DOWN	NA	816	572511	1505657	1301	561
+bsdb:347/1/1_Obesity:obese-children_vs_controls_UP	NA	209879	35832	158846	846	375288	577310	909656	2974265	1506553
+bsdb:347/1/2_Obesity:obese-children_vs_controls_DOWN	NA	239934	1283313	207244	816	572511	1350	3025755	216851	644652	420345	123375	1301	3115229
+bsdb:348/1/1_Obesity:obese-children_vs_lean-children_UP	NA	816	1578
+bsdb:348/1/2_Obesity:obese-children_vs_lean-children_DOWN	NA	1678
+bsdb:348/2/1_Obesity:overweight-children_vs_lean-children_UP	NA	816	1578
+bsdb:348/3/1_Obesity:obese-children_vs_lean-children_UP	NA	816
+bsdb:348/3/2_Obesity:obese-children_vs_lean-children_DOWN	NA	1678
+bsdb:348/4/1_Obesity:overweight-children_vs_lean-children_UP	NA	1578
+bsdb:349/1/1_Cervical-glandular-intraepithelial-neoplasia:LEEP-group-before-procedure_vs_normal_UP	NA	2701
+bsdb:349/2/1_Cervical-glandular-intraepithelial-neoplasia:LEEP-group-before-procedure_vs_normal_UP	NA	2701
+bsdb:349/3/1_Cervical-glandular-intraepithelial-neoplasia:LEEP-group-before-procedure-(age-<46)_vs_normal_UP	NA	2701
