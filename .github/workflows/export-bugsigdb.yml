@@ -8,7 +8,7 @@ name: Export BugSigDB
 jobs:
   export-bugsigdb:
     runs-on: ubuntu-latest
-    container: bioconductor/bioconductor_docker:RELEASE_3_17
+    container: bioconductor/bioconductor_docker:RELEASE_3_19
 
     steps:
 
