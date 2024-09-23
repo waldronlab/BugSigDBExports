@@ -37,7 +37,7 @@ jobs:
           TIMESTAMP="$(date -u '+%Y-%m-%d_%H:%M_UTC')"
           echo "BUGSIGDB_TIMESTAMP=$timestamp" >> "$GITHUB_ENV"
           echo $BUGSIGDB_TIMESTAMP
-          #Rscript $GITHUB_WORKSPACE/BugSigDBExports/inst/scripts/dump_release.R $BUGSIGDB_TIMESTAMP $GITHUB_WORKSPACE/BugSigDBExports
+          Rscript $GITHUB_WORKSPACE/BugSigDBExports/inst/scripts/dump_release.R $BUGSIGDB_TIMESTAMP $GITHUB_WORKSPACE/BugSigDBExports
         timeout-minutes: 10
 
       - name: Track file growth
@@ -49,7 +49,11 @@ jobs:
           for (a_file in files) {
               number_of_lines[a_file] <- countLines(a_file)[1]
           }
-          write.csv(number_of_lines, "file_size.csv", append = TRUE)
+          write.table(as.matrix(t(number_of_lines)),
+                      "file_size.csv",
+                      append = TRUE,
+                      col.names = FALSE,
+                      row.names = FALSE)
         shell: Rscript {0}
 
 
