@@ -37,7 +37,7 @@ jobs:
           TIMESTAMP="$(date -u '+%Y-%m-%d_%H:%M_UTC')"
           echo "BUGSIGDB_TIMESTAMP=$timestamp" >> "$GITHUB_ENV"
           echo $BUGSIGDB_TIMESTAMP
-          Rscript $GITHUB_WORKSPACE/BugSigDBExports/inst/scripts/dump_release.R $BUGSIGDB_TIMESTAMP $GITHUB_WORKSPACE/BugSigDBExports
+          #Rscript $GITHUB_WORKSPACE/BugSigDBExports/inst/scripts/dump_release.R $BUGSIGDB_TIMESTAMP $GITHUB_WORKSPACE/BugSigDBExports
         timeout-minutes: 10
 
       - name: Track file growth
