@@ -50,6 +50,8 @@ jobs:
               number_of_lines[a_file] <- countLines(a_file)[1]
           }
           write.csv(number_of_lines, "file_size.csv", append = TRUE)
+        shell: Rscript {0}
+
 
       - name: Commit Exports
         run: |
