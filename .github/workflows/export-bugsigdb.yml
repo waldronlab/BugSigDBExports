@@ -34,9 +34,10 @@ jobs:
 
       - name: Export BugSigDB
         run: |
-          timestamp="$(date -u '+%Y-%m-%d_%H:%M_UTC')"
+          TIMESTAMP="$(date -u '+%Y-%m-%d_%H:%M_UTC')"
           echo "{BUGSIGDB_TIMESTAMP}={$timestamp}" >> "$GITHUB_ENV"
-          Rscript $GITHUB_WORKSPACE/BugSigDBExports/inst/scripts/dump_release.R $BUGSIGDB_TIMESTAMP $GITHUB_WORKSPACE/BugSigDBExports
+          echo $BUGSIGDB_TIMESTAMP
+          #Rscript $GITHUB_WORKSPACE/BugSigDBExports/inst/scripts/dump_release.R $BUGSIGDB_TIMESTAMP $GITHUB_WORKSPACE/BugSigDBExports
         timeout-minutes: 10
 
       - name: Track file growth
