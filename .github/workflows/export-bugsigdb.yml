@@ -34,7 +34,7 @@ jobs:
 
       - name: Export BugSigDB
         run: |
-          timestamp=$(date -u '+%Y-%m-%d_%H:%M_UTC')
+          timestamp="$(date -u '+%Y-%m-%d_%H:%M_UTC')"
           echo "{BUGSIGDB_TIMESTAMP}={$timestamp}" >> "$GITHUB_ENV"
           Rscript $GITHUB_WORKSPACE/BugSigDBExports/inst/scripts/dump_release.R $BUGSIGDB_TIMESTAMP $GITHUB_WORKSPACE/BugSigDBExports
         timeout-minutes: 10
