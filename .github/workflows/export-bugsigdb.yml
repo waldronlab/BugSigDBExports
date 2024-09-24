@@ -20,7 +20,7 @@ jobs:
       - name: Install BugSigDBExports dependencies
         run: |
           cd $GITHUB_WORKSPACE/BugSigDBExports
-          Rscript -e "install.packages(c('rvest', 'readr', 'plyr', 'BiocFileCache'))"
+          Rscript -e "install.packages(c('rvest', 'readr', 'plyr', 'BiocFileCache', 'R.utils'))"
 
       - name: Install bugsigdbr 
         run: |
@@ -37,7 +37,7 @@ jobs:
           BUGSIGDB_TIMESTAMP="$(date -u +%Y-%m-%d_%H:%M_UTC)"
           echo "BUGSIGDB_TIMESTAMP=$BUGSIGDB_TIMESTAMP" >> $GITHUB_ENV
           echo $BUGSIGDB_TIMESTAMP
-          Rscript $GITHUB_WORKSPACE/BugSigDBExports/inst/scripts/dump_release.R $BUGSIGDB_TIMESTAMP $GITHUB_WORKSPACE/BugSigDBExports
+          #Rscript $GITHUB_WORKSPACE/BugSigDBExports/inst/scripts/dump_release.R $BUGSIGDB_TIMESTAMP $GITHUB_WORKSPACE/BugSigDBExports
         timeout-minutes: 10
 
       - name: Track file growth
@@ -59,6 +59,8 @@ jobs:
       - name: Commit Exports
         run: |
           cd $GITHUB_WORKSPACE/BugSigDBExports
+          cat file_size.csv
+          git add file_size.csv
           for export in `find . -type f -iname \*.gmt -o -iname \*.csv` 
           do
             export=$(echo $export | sed 's/\.\///g')
@@ -70,7 +72,6 @@ jobs:
                 git add $export
             fi
           done
-          git add file_size.csv
           echo "Check if any file contents have added to the index"
           has_updates=$(git diff --cached --shortstat)
           if [ -n "$has_updates" ]; then
