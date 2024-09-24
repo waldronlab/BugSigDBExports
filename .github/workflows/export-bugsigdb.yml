@@ -42,6 +42,7 @@ jobs:
 
       - name: Track file growth
         run: |
+          library(R.utils)
           github_workspace <- Sys.getenv("GITHUB_WORKSPACE")
           setwd(file.path(github_workspace, "BugSigDBExports"))
           bugsigdb_timestamp <- Sys.getenv("BUGSIGDB_TIMESTAMP")
