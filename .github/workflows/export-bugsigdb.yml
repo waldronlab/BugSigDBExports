@@ -68,7 +68,7 @@ jobs:
                 echo "No changes to commit for $export"
             else
                 echo "Add changes for $export"
-                git add $export
+                git add $export file_size.csv
             fi
           done
           echo "Check if any file contents have added to the index"
