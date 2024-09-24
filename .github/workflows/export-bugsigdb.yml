@@ -56,7 +56,6 @@ jobs:
                       row.names = FALSE)
         shell: Rscript {0}
 
-
       - name: Commit Exports
         run: |
           cd $GITHUB_WORKSPACE/BugSigDBExports
@@ -74,6 +73,7 @@ jobs:
           echo "Check if any file contents have added to the index"
           has_updates=$(git diff --cached --shortstat)
           if [ -n "$has_updates" ]; then
+            git add file_size.csv
             git commit -m "Hourly export update"
             git push origin devel
           else
