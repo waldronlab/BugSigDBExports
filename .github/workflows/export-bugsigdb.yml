@@ -19,7 +19,6 @@ jobs:
 
       - name: Install BugSigDBExports dependencies
         run: |
-          cd $GITHUB_WORKSPACE/BugSigDBExports
           Rscript -e "install.packages(c('rvest', 'readr', 'plyr', 'BiocFileCache', 'R.utils'))"
 
       - name: Install bugsigdbr 
@@ -34,6 +33,7 @@ jobs:
 
       - name: Export BugSigDB
         run: |
+          cd $GITHUB_WORKSPACE/BugSigDBExports
           BUGSIGDB_TIMESTAMP="$(date -u +%Y-%m-%d_%H:%M_UTC)"
           echo "BUGSIGDB_TIMESTAMP=$BUGSIGDB_TIMESTAMP" >> $GITHUB_ENV
           echo $BUGSIGDB_TIMESTAMP
