@@ -67,7 +67,9 @@ readFiles <- function(links, delay = 60)
     exps <- subset(exps, State == "Complete")
     sigs <- readr::read_csv("sig.csv")
     sigs <- subset(sigs, State == "Complete") 
-    file.remove(c("sig.csv", "exp.csv", "stud.csv"))
+    if (!exists("BUGSIGDB_TIMESTAMP", mode="environment")) {
+        file.remove(c("sig.csv", "exp.csv", "stud.csv"))
+    }
     print(gettextf("Successfully read csv files"))
 
     ind <- setdiff(colnames(studs), c("Reviewer", "State"))
