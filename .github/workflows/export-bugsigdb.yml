@@ -55,7 +55,7 @@ jobs:
           write.table(as.matrix(t(number_of_lines)),
                       "file_size.csv",
                       append = TRUE,
-                      col.names = FALSE,
+                      col.names = TRUE,
                       row.names = FALSE)
         shell: Rscript {0}
 
