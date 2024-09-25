@@ -79,7 +79,7 @@ jobs:
           has_updates=$(git diff --cached --shortstat)
           if [ -n "$has_updates" ]; then
             git commit -m "Hourly export update"
-            git push origin issue/34
+            git push origin devel
           else
             echo "No content changes to commit"
           fi
