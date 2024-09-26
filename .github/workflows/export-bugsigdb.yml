@@ -37,6 +37,7 @@ jobs:
           echo "BUGSIGDB_TIMESTAMP=$BUGSIGDB_TIMESTAMP" >> $GITHUB_ENV
           echo $BUGSIGDB_TIMESTAMP
           Rscript $GITHUB_WORKSPACE/BugSigDBExports/inst/scripts/dump_release.R $BUGSIGDB_TIMESTAMP $GITHUB_WORKSPACE/BugSigDBExports
+          mv *csv $GITHUB_WORKSPACE/BugSigDBExports
         timeout-minutes: 10
 
       - name: Track file growth
@@ -54,15 +55,13 @@ jobs:
           write.table(as.matrix(t(number_of_lines)),
                       "file_size.csv",
                       append = TRUE,
-                      col.names = TRUE,
+                      col.names = FALSE,
                       row.names = FALSE)
         shell: Rscript {0}
 
       - name: Commit Exports
         run: |
           cd $GITHUB_WORKSPACE/BugSigDBExports
-          cat file_size.csv
-          git add file_size.csv
           for export in `find . -type f -iname \*.gmt -o -iname \*.csv` 
           do
             export=$(echo $export | sed 's/\.\///g')
@@ -77,6 +76,7 @@ jobs:
           echo "Check if any file contents have added to the index"
           has_updates=$(git diff --cached --shortstat)
           if [ -n "$has_updates" ]; then
+            git add file_size.csv
             git commit -m "Hourly export update"
             git push origin devel
           else
