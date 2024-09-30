@@ -67,6 +67,7 @@ readFiles <- function(links, delay = 60)
     exps <- subset(exps, State == "Complete")
     sigs <- readr::read_csv("sig.csv")
     sigs <- subset(sigs, State == "Complete") 
+    # If not GitHub Action with BUGSIGDB_TIMESTAMP
     if (Sys.getenv("BUGSIGDB_TIMESTAMP") != "") {
         file.remove(c("sig.csv", "exp.csv", "stud.csv"))
     }
