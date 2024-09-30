@@ -8,7 +8,7 @@ name: Export BugSigDB
 jobs:
   export-bugsigdb:
     runs-on: ubuntu-latest
-    container: bioconductor/bioconductor_docker:RELEASE_3_17
+    container: bioconductor/bioconductor_docker:RELEASE_3_19
 
     steps:
 
@@ -19,8 +19,7 @@ jobs:
 
       - name: Install BugSigDBExports dependencies
         run: |
-          cd $GITHUB_WORKSPACE/BugSigDBExports
-          Rscript -e "install.packages(c('rvest', 'readr', 'plyr', 'BiocFileCache'))"
+          Rscript -e "install.packages(c('rvest', 'readr', 'plyr', 'BiocFileCache', 'R.utils'))"
 
       - name: Install bugsigdbr 
         run: |
@@ -34,9 +33,31 @@ jobs:
 
       - name: Export BugSigDB
         run: |
-          echo $(date)
-          Rscript $GITHUB_WORKSPACE/BugSigDBExports/inst/scripts/dump_release.R $(date -u '+%Y-%m-%d_%H:%M_UTC') $GITHUB_WORKSPACE/BugSigDBExports
+          BUGSIGDB_TIMESTAMP="$(date -u +%Y-%m-%d_%H:%M_UTC)"
+          echo "BUGSIGDB_TIMESTAMP=$BUGSIGDB_TIMESTAMP" >> $GITHUB_ENV
+          echo $BUGSIGDB_TIMESTAMP
+          Rscript $GITHUB_WORKSPACE/BugSigDBExports/inst/scripts/dump_release.R $BUGSIGDB_TIMESTAMP $GITHUB_WORKSPACE/BugSigDBExports
+          mv *csv $GITHUB_WORKSPACE/BugSigDBExports
         timeout-minutes: 10
+
+      - name: Track file growth
+        run: |
+          library(R.utils)
+          github_workspace <- Sys.getenv("GITHUB_WORKSPACE")
+          setwd(file.path(github_workspace, "BugSigDBExports"))
+          bugsigdb_timestamp <- Sys.getenv("BUGSIGDB_TIMESTAMP")
+          number_of_lines <- c("timestamp" = bugsigdb_timestamp)
+          files <- sort(list.files(pattern=".(csv|gmt)"))
+          files <- files[files != "file_size.csv"]
+          for (a_file in files) {
+              number_of_lines[a_file] <- countLines(a_file)[1]
+          }
+          write.table(as.matrix(t(number_of_lines)),
+                      "file_size.csv",
+                      append = TRUE,
+                      col.names = FALSE,
+                      row.names = FALSE)
+        shell: Rscript {0}
 
       - name: Commit Exports
         run: |
@@ -55,6 +76,7 @@ jobs:
           echo "Check if any file contents have added to the index"
           has_updates=$(git diff --cached --shortstat)
           if [ -n "$has_updates" ]; then
+            git add file_size.csv
             git commit -m "Hourly export update"
             git push origin devel
           else
