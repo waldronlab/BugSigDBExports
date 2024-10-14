@@ -1,4 +1,4 @@
-# BugSigDB 2024-10-14_15:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2024-10-14_16:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	91061	1236	1654	1716	1301	162289	189330	33024	40544	2037	2049	506	186826	1300	31977	91347	1653	57037	1386	186817
 bsdb:1/1/2_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	100883	1117
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	207244	57037
@@ -4474,12 +4474,12 @@ bsdb:1005/2/1_Vaginal-microbiome-measurement:Vaginal-metestrus-samples_vs_Vagina
 bsdb:1005/2/2_Vaginal-microbiome-measurement:Vaginal-metestrus-samples_vs_Vaginal-estrus-samples_DOWN	NA	1857532
 bsdb:1006/1/1_Parkinson's-disease:PD-patients-with--wearing-off_vs_PD-patients-with-dyskinesia_UP	NA	1578
 bsdb:1006/1/2_Parkinson's-disease:PD-patients-with--wearing-off_vs_PD-patients-with-dyskinesia_DOWN	NA	572511
-bsdb:1007/1/1_Ulcerative-colitis:Ulcerative-colitis-(UC)_vs_Healthy-controls-(HC)_UP	NA	218538	292800	904	816	216851	216572	375288	577310	459786
-bsdb:1007/1/2_Ulcerative-colitis:Ulcerative-colitis-(UC)_vs_Healthy-controls-(HC)_DOWN	NA	239759	33042	846	239935	816	186803	459786	186802	207244	216851	729	40544
-bsdb:1007/2/1_Ulcerative-colitis:Crohn’s-disease-(CD)_vs_Healthy-controls-(HC)_UP	NA	218538	292800	189330	216572	292632	561	459786	816	904
-bsdb:1007/2/2_Ulcerative-colitis:Crohn’s-disease-(CD)_vs_Healthy-controls-(HC)_DOWN	NA	239759	33042	846	239935	816	186803	459786	186802	207244	216851	729	40544
-bsdb:1007/3/1_Gut-microbiome-measurement:Ulcerative-colitis-(UC)_vs_Crohn's-disease-(CD)_UP	NA	375288	216851	577310
-bsdb:1007/3/2_Gut-microbiome-measurement:Ulcerative-colitis-(UC)_vs_Crohn's-disease-(CD)_DOWN	NA	189330	292632	561
+bsdb:1007/1/1_Inflammatory-bowel-disease:Ulcerative-colitis-(UC)_vs_Healthy-controls-(HC)_UP	NA	218538	292800	904	816	216851	216572	375288	577310	459786
+bsdb:1007/1/2_Inflammatory-bowel-disease:Ulcerative-colitis-(UC)_vs_Healthy-controls-(HC)_DOWN	NA	239759	33042	846	239935	816	186803	459786	186802	207244	216851	729	40544
+bsdb:1007/2/1_Inflammatory-bowel-disease:Crohn’s-disease-(CD)_vs_Healthy-controls-(HC)_UP	NA	218538	292800	189330	216572	292632	561	459786	816	904
+bsdb:1007/2/2_Inflammatory-bowel-disease:Crohn’s-disease-(CD)_vs_Healthy-controls-(HC)_DOWN	NA	239759	33042	846	239935	816	186803	459786	186802	207244	216851	729	40544
+bsdb:1007/3/1_Inflammatory-bowel-disease:Ulcerative-colitis-(UC)_vs_Crohn's-disease-(CD)_UP	NA	375288	216851	577310
+bsdb:1007/3/2_Inflammatory-bowel-disease:Ulcerative-colitis-(UC)_vs_Crohn's-disease-(CD)_DOWN	NA	189330	292632	561
 bsdb:1007/4/1_Smoking-behavior:Yes_vs_No_UP	NA	186803	816	216851	40544
 bsdb:1007/4/2_Smoking-behavior:Yes_vs_No_DOWN	NA	28116	357276	207244	816	35832	216851	216572	577310	544
 bsdb:1007/5/1_Smoking-behavior:Ex_vs_No_UP	NA	357276	186803	816	577310	216851
@@ -5327,9 +5327,12 @@ bsdb:1096/4/2_Gut-microbiome-measurement:Infants_vs_Grandmothers_DOWN	NA	201174	
 bsdb:1096/5/1_Gut-microbiome-measurement:Infants_vs_Mothers-and-Grandmothers_UP	NA	31953	85004	1678	33958	1578
 bsdb:1096/6/1_Gut-microbiome-measurement:Mothers_vs_Infants-and-Grandmothers_UP	NA	186801	186802	1239	572511	39948	61170	40544
 bsdb:1096/7/1_Gut-microbiome-measurement:Grandmothers_vs_Infants-and-Mothers_UP	NA	258514	239934	35832	33870	28221	1433996	194924	213115	133925	1427376	33024	171551	203557	48461	203494	74201
-bsdb:1099/1/1_Response-to-risperidone:Schizophrenia-(SCH)-patients-at-Baseline-(S0)_vs_Healthy-controls-(C)_DOWN	NA	1501226
+bsdb:1099/1/1_Response-to-risperidone:Schizophrenia-(SCH)-patients-at-Baseline-(S0)_vs_Healthy-controls-(C)_DOWN	NA	1501226	186802	239759	572511	1678	186803	848	207244	1301	189330	1407607	128827	1357	46255	1505652	724	1350	544
 bsdb:1099/1/2_Response-to-risperidone:Schizophrenia-(SCH)-patients-at-Baseline-(S0)_vs_Healthy-controls-(C)_UP	NA	1506553
 bsdb:1099/2/1_Response-to-risperidone:Schizophrenia-(SCH)-patients-at-Week-6-(S1))_vs_Healthy-controls-(C)_UP	NA	1506553
+bsdb:1099/2/2_Response-to-risperidone:Schizophrenia-(SCH)-patients-at-Week-6-(S1))_vs_Healthy-controls-(C)_DOWN	NA	1501226
+bsdb:1099/3/1_Response-to-risperidone:Schizophrenia-(SCH)-patients-at-Week-12-(S2))_vs_Healthy-controls-(C)_UP	NA	1506553
+bsdb:1099/3/2_Response-to-risperidone:Schizophrenia-(SCH)-patients-at-Week-12-(S2))_vs_Healthy-controls-(C)_DOWN	NA	1501226
 bsdb:1100/1/1_Autism-spectrum-disorder:Autistic_vs_Healthy-controls_UP	NA	815	816	39485	158846	310298	821	838	171552	301302	165179
 bsdb:1100/1/2_Autism-spectrum-disorder:Autistic_vs_Healthy-controls_DOWN	NA	239935	817	218538	562	292800	729	543	712	203557	1532	1432051
 bsdb:1102/1/1_Alzheimer's-disease:APP/PS1_vs_Wild-type-(WT)_UP	NA	543
@@ -5436,5 +5439,6 @@ bsdb:1151/1/1_Lactose-intolerance:Participants-with-Lactose-Intolerance_vs_Healt
 bsdb:1151/1/2_Lactose-intolerance:Participants-with-Lactose-Intolerance_vs_Health-Control_DOWN	NA	239759	830	1117	872	1730	31969	838	171550	83770	33958	216572	544448	186802
 bsdb:1151/1/3_Lactose-intolerance:Participants-with-Lactose-Intolerance_vs_Health-Control_DOWN	NA	239759	830	2137877	872	1730	2590211	31969	838	171552	171550	552398	1264	83770	544448	186802	1117
 bsdb:1151/1/4_Lactose-intolerance:Participants-with-Lactose-Intolerance_vs_Health-Control_UP	NA	817	80840	543	562	1236	28050	1243	375288	1262952	590	28901	620	547	570	1224	1263017	2293114	158836	2293146
+bsdb:1152/1/1_HIV-infection,Systemic-inflammatory-response-syndrome,Gut-microbiome-measurement:Chronic-HIV-infected-cases_vs_HIV-uninfected-controls_UP	NA	397864	128827	526524	526525	91347	543	1236
 bsdb:1158/1/1_Sleep-duration:Short-Sleepers_vs_Normal-Sleepers_UP	NA	39948	816
 bsdb:1158/1/2_Sleep-duration:Short-Sleepers_vs_Normal-Sleepers_DOWN	NA	838
