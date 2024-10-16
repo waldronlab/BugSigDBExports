@@ -1,4 +1,4 @@
-# BugSigDB 2024-10-16_04:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2024-10-16_05:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	91061	1236	1654	1716	1301	162289	189330	33024	40544	2037	2049	506	186826	1300	31977	91347	1653	57037	1386	186817
 bsdb:1/1/2_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	100883	1117
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	207244	57037
@@ -2664,6 +2664,12 @@ bsdb:672/14/1_Spontaneous-preterm-birth:Yes-Antibiotics_vs_No-Antibiotics_UP	NA	
 bsdb:672/16/1_Spontaneous-preterm-birth:Breast-Milk-(D10)_vs_Only-Formula-(D10)_UP	NA	1678
 bsdb:672/17/1_Spontaneous-preterm-birth:Breast-Milk-(4M)_vs_Mixed-Feeding-(4M)_UP	NA	35832
 bsdb:672/18/1_Spontaneous-preterm-birth:Only-Formula-(D10)_vs_Mixed-Feeding-(D10)_UP	NA	1678
+bsdb:672/19/1_Spontaneous-preterm-birth:Yes-Antibiotics-(4M)_vs_No-Antibiotics-(4M)_UP	NA	1506553	1505657
+bsdb:672/21/1_Spontaneous-preterm-birth:Yes-Infant-Antibiotics-(D10)_vs_No-Infant-Antibiotics-(D10)_UP	NA	1678
+bsdb:672/22/1_Spontaneous-preterm-birth:Vaginal-delivery-(D10)_vs_Caesarean-section-(D10)_UP	NA	816
+bsdb:672/23/1_Spontaneous-preterm-birth:Twins-(4M)_vs_Singletons-(4M)_UP	NA	1508657
+bsdb:672/24/1_Spontaneous-preterm-birth:Twins-(4M)_vs_Singletons-(4M)_UP	NA	84112
+bsdb:672/25/1_Spontaneous-preterm-birth:Middlemore-Hospital-(4M)_vs_Auckland-city-hospital-(4M)_UP	NA	1280
 bsdb:673/1/1_Ethnic-group:Colombia-data_vs_USA-data_UP	NA	1239
 bsdb:673/1/2_Ethnic-group:Colombia-data_vs_USA-data_DOWN	NA	816
 bsdb:673/2/2_Ethnic-group:Europe-data_vs_USA-data_DOWN	NA	1239
@@ -3723,6 +3729,96 @@ bsdb:888/17/1_Microbiome-measurement:QIAStool_vs_FastDNA_UP	NA	171552	31977	815	
 bsdb:888/17/2_Microbiome-measurement:QIAStool_vs_FastDNA_DOWN	NA	31953	203557
 bsdb:888/18/1_Microbiome-measurement:QIAStool+BB_vs_FastDNA_UP	NA	171552	31977	815	31953	171551	506	712
 bsdb:888/18/2_Microbiome-measurement:QIAStool+BB_vs_FastDNA_DOWN	NA	203557
+bsdb:888/19/1_Microbiome-measurement:QIAStool_vs_PowerSoil.HMP_UP	NA	171552	31977	203557
+bsdb:888/19/2_Microbiome-measurement:QIAStool_vs_PowerSoil.HMP_DOWN	NA	815	31953	171551	506	712
+bsdb:888/20/1_Microbiome-measurement:QIAStool+BB_vs_PowerSoil.HMP_UP	NA	31953
+bsdb:888/20/2_Microbiome-measurement:QIAStool+BB_vs_PowerSoil.HMP_DOWN	NA	171552	31977	815	203557	171551	506	712
+bsdb:888/21/1_Microbiome-measurement:QIAStool+BB_vs_QIAStool_UP	NA	31953
+bsdb:888/21/2_Microbiome-measurement:QIAStool+BB_vs_QIAStool_DOWN	NA	171552	31977	815	203557	171551	506	712
+bsdb:888/25/1_Microbiome-measurement:MagNAPure_vs_InnuPURE_UP	NA	171552	216572	31979	186803	31977	128827
+bsdb:888/25/2_Microbiome-measurement:MagNAPure_vs_InnuPURE_DOWN	NA	72294
+bsdb:888/26/1_Microbiome-measurement:Easy-DNA_vs_InnuPURE_UP	NA	171552	216572	186803
+bsdb:888/26/2_Microbiome-measurement:Easy-DNA_vs_InnuPURE_DOWN	NA	31979	72294	31977	128827
+bsdb:888/27/1_Microbiome-measurement:FastDNA_vs_InnuPURE_UP	NA	216572	31979	186803
+bsdb:888/27/2_Microbiome-measurement:FastDNA_vs_InnuPURE_DOWN	NA	171552	72294	31977	128827
+bsdb:888/28/1_Microbiome-measurement:PowerSoil.HMP_vs_InnuPURE_UP	NA	216572	186803	128827
+bsdb:888/28/2_Microbiome-measurement:PowerSoil.HMP_vs_InnuPURE_DOWN	NA	171552	31979	72294	31977
+bsdb:888/29/1_Microbiome-measurement:QIAStool_vs_InnuPURE_UP	NA	171552	216572	31979	31977	128827
+bsdb:888/29/2_Microbiome-measurement:QIAStool_vs_InnuPURE_DOWN	NA	186803	72294
+bsdb:888/30/1_Microbiome-measurement:QIAStool+BB_vs_InnuPURE_UP	NA	216572	31979	186803	128827
+bsdb:888/30/2_Microbiome-measurement:QIAStool+BB_vs_InnuPURE_DOWN	NA	171552	72294	31977
+bsdb:888/31/1_Microbiome-measurement:Easy-DNA_vs_MagNAPure_UP	NA	72294	171552
+bsdb:888/31/2_Microbiome-measurement:Easy-DNA_vs_MagNAPure_DOWN	NA	216572	31979	186803	31977	128827
+bsdb:888/32/1_Microbiome-measurement:FastDNA_vs_MagNAPure_UP	NA	216572	31979
+bsdb:888/32/2_Microbiome-measurement:FastDNA_vs_MagNAPure_DOWN	NA	171552	186803	72294	31977	128827
+bsdb:888/33/1_Microbiome-measurement:PowerSoil.HMP_vs_MagNAPure_UP	NA	216572	186803	72294	128827
+bsdb:888/33/2_Microbiome-measurement:PowerSoil.HMP_vs_MagNAPure_DOWN	NA	31979	171552	31977
+bsdb:888/34/1_Microbiome-measurement:QIAStool_vs_MagNAPure_UP	NA	171552	31979	72294	31977	128827
+bsdb:888/34/2_Microbiome-measurement:QIAStool_vs_MagNAPure_DOWN	NA	186803	216572
+bsdb:888/35/1_Microbiome-measurement:QIAStool+BB_vs_MagNAPure_UP	NA	72294	31979
+bsdb:888/35/2_Microbiome-measurement:QIAStool+BB_vs_MagNAPure_DOWN	NA	171552	216572	186803	31977	128827
+bsdb:888/36/1_Microbiome-measurement:FastDNA_vs_Easy-DNA_UP	NA	216572	31979	186803	31977
+bsdb:888/36/2_Microbiome-measurement:FastDNA_vs_Easy-DNA_DOWN	NA	171552	72294	128827
+bsdb:888/37/1_Microbiome-measurement:PowerSoil.HMP_vs_Easy-DNA_UP	NA	216572	31979	186803	72294	31977	128827
+bsdb:888/37/2_Microbiome-measurement:PowerSoil.HMP_vs_Easy-DNA_DOWN	NA	171552
+bsdb:888/38/1_Microbiome-measurement:QIAStool_vs_Easy-DNA_UP	NA	72294	128827	31977	31979
+bsdb:888/38/2_Microbiome-measurement:QIAStool_vs_Easy-DNA_DOWN	NA	171552	216572	186803
+bsdb:888/39/1_Microbiome-measurement:QIAStool+BB_vs_Easy-DNA_UP	NA	31979	72294	128827
+bsdb:888/39/2_Microbiome-measurement:QIAStool+BB_vs_Easy-DNA_DOWN	NA	171552	216572	186803	31977
+bsdb:888/40/1_Microbiome-measurement:PowerSoil.HMP_vs_FastDNA_UP	NA	216572	186803	72294	31977	128827
+bsdb:888/40/2_Microbiome-measurement:PowerSoil.HMP_vs_FastDNA_DOWN	NA	171552	31979
+bsdb:888/41/1_Microbiome-measurement:QIAStool_vs_FastDNA_UP	NA	171552	72294	31977	128827
+bsdb:888/41/2_Microbiome-measurement:QIAStool_vs_FastDNA_DOWN	NA	216572	31979	186803
+bsdb:888/42/1_Microbiome-measurement:QIAStool+BB_vs_FastDNA_UP	NA	72294	128827
+bsdb:888/42/2_Microbiome-measurement:QIAStool+BB_vs_FastDNA_DOWN	NA	171552	216572	31979	186803	31977
+bsdb:888/43/1_Microbiome-measurement:QIAStool_vs_PowerSoil.HMP_UP	NA	171552	31979	31977
+bsdb:888/43/2_Microbiome-measurement:QIAStool_vs_PowerSoil.HMP_DOWN	NA	216572	186803	72294	128827
+bsdb:888/44/1_Microbiome-measurement:QIAStool+BB_vs_PowerSoil.HMP_UP	NA	31979
+bsdb:888/44/2_Microbiome-measurement:QIAStool+BB_vs_PowerSoil.HMP_DOWN	NA	171552	216572	186803	72294	31977	128827
+bsdb:888/45/1_Microbiome-measurement:QIAStool+BB_vs_QIAStool_UP	NA	186803
+bsdb:888/45/2_Microbiome-measurement:QIAStool+BB_vs_QIAStool_DOWN	NA	171552	216572	31979	72294	31977	128827
+bsdb:888/49/1_Microbiome-measurement:MagNAPure_vs_InnuPURE_UP	NA	468	481	203557
+bsdb:888/49/2_Microbiome-measurement:MagNAPure_vs_InnuPURE_DOWN	NA	72294	216572	815	186803	134623
+bsdb:888/50/1_Microbiome-measurement:Easy-DNA_vs_InnuPURE_UP	NA	468	72294	216572	815	481	186803	203557
+bsdb:888/50/2_Microbiome-measurement:Easy-DNA_vs_InnuPURE_DOWN	NA	134623
+bsdb:888/51/1_Microbiome-measurement:FastDNA_vs_InnuPURE_UP	NA	468	481	203557	134623	815
+bsdb:888/51/2_Microbiome-measurement:FastDNA_vs_InnuPURE_DOWN	NA	72294	216572	186803
+bsdb:888/52/1_Microbiome-measurement:PowerSoil.HMP_vs_InnuPURE_UP	NA	216572	815	481	203557	134623
+bsdb:888/52/2_Microbiome-measurement:PowerSoil.HMP_vs_InnuPURE_DOWN	NA	468	72294	186803
+bsdb:888/53/1_Microbiome-measurement:QIAStool_vs_InnuPURE_UP	NA	468	72294	216572	815	481	203557	134623
+bsdb:888/53/2_Microbiome-measurement:QIAStool_vs_InnuPURE_DOWN	NA	186803
+bsdb:888/54/1_Microbiome-measurement:QIAStool+BB_vs_InnuPURE_UP	NA	468	216572	815	481	134623
+bsdb:888/54/2_Microbiome-measurement:QIAStool+BB_vs_InnuPURE_DOWN	NA	72294	186803	203557
+bsdb:888/55/1_Microbiome-measurement:Easy-DNA_vs_MagNA-Pure_UP	NA	468	72294	216572	815	186803
+bsdb:888/55/2_Microbiome-measurement:Easy-DNA_vs_MagNA-Pure_DOWN	NA	481	203557	134623
+bsdb:888/56/1_Microbiome-measurement:FastDNA_vs_MagNA-Pure_UP	NA	72294	815	186803	134623
+bsdb:888/56/2_Microbiome-measurement:FastDNA_vs_MagNA-Pure_DOWN	NA	468	216572	481	203557
+bsdb:888/57/1_Microbiome-measurement:PowerSoil.HMP_vs_MagNA-Pure_UP	NA	216572	815	186803	134623
+bsdb:888/57/2_Microbiome-measurement:PowerSoil.HMP_vs_MagNA-Pure_DOWN	NA	72294	468	481	203557
+bsdb:888/58/1_Microbiome-measurement:QIAStool_vs_MagNA-Pure_UP	NA	815	72294	134623	216572	203557	186803
+bsdb:888/58/2_Microbiome-measurement:QIAStool_vs_MagNA-Pure_DOWN	NA	468	481
+bsdb:888/59/1_Microbiome-measurement:QIAStool+BB_vs_MagNA-Pure_UP	NA	72294	216572	815	186803	134623
+bsdb:888/59/2_Microbiome-measurement:QIAStool+BB_vs_MagNA-Pure_DOWN	NA	468	481	203557
+bsdb:888/60/1_Microbiome-measurement:FastDNA_vs_Easy-DNA_UP	NA	203557	134623
+bsdb:888/60/2_Microbiome-measurement:FastDNA_vs_Easy-DNA_DOWN	NA	468	72294	216572	815	481	186803
+bsdb:888/61/1_Microbiome-measurement:PowerSoil.HMP_vs_Easy-DNA_UP	NA	481	203557	134623
+bsdb:888/61/2_Microbiome-measurement:PowerSoil.HMP_vs_Easy-DNA_DOWN	NA	468	72294	216572	815	186803
+bsdb:888/62/1_Microbiome-measurement:QIAStool_vs_Easy-DNA_UP	NA	481	203557	134623
+bsdb:888/62/2_Microbiome-measurement:QIAStool_vs_Easy-DNA_DOWN	NA	468	72294	216572	815	186803
+bsdb:888/63/1_Microbiome-measurement:QIAStool+BB_vs_Easy-DNA_UP	NA	481	134623
+bsdb:888/63/2_Microbiome-measurement:QIAStool+BB_vs_Easy-DNA_DOWN	NA	468	72294	216572	815	186803	203557
+bsdb:888/64/1_Microbiome-measurement:PowerSoil.HMP_vs_FastDNA_UP	NA	216572	815	481	186803	134623
+bsdb:888/64/2_Microbiome-measurement:PowerSoil.HMP_vs_FastDNA_DOWN	NA	468	72294	203557
+bsdb:888/65/1_Microbiome-measurement:QIAStool_vs_FastDNA_UP	NA	468	72294	216572	815	481	203557	134623
+bsdb:888/65/2_Microbiome-measurement:QIAStool_vs_FastDNA_DOWN	NA	186803
+bsdb:888/66/1_Microbiome-measurement:QIAStool+BB_vs_FastDNA_UP	NA	468	216572	481	186803	134623
+bsdb:888/66/2_Microbiome-measurement:QIAStool+BB_vs_FastDNA_DOWN	NA	72294	815	203557
+bsdb:888/67/1_Microbiome-measurement:QIAStool_vs_PowerSoil.HMP_UP	NA	468	72294	815	203557	134623
+bsdb:888/67/2_Microbiome-measurement:QIAStool_vs_PowerSoil.HMP_DOWN	NA	216572	481	186803
+bsdb:888/68/1_Microbiome-measurement:QIAStool+BB_vs_PowerSoil.HMP_UP	NA	468	72294	186803
+bsdb:888/68/2_Microbiome-measurement:QIAStool+BB_vs_PowerSoil.HMP_DOWN	NA	216572	815	481	203557	134623
+bsdb:888/69/1_Microbiome-measurement:QIAStool+BB_vs_QIAStool_UP	NA	186803
+bsdb:888/69/2_Microbiome-measurement:QIAStool+BB_vs_QIAStool_DOWN	NA	468	216572	815	72294	203557	134623	481
 bsdb:889/1/1_Cervix-erosion:Short-Cervix-Length_vs_Control_UP	NA	28211	41275	76892	204458	1653	1236	32033	135614	85007	135621	72274	1224	286	83618	90964	1279	1443919
 bsdb:889/1/2_Cervix-erosion:Short-Cervix-Length_vs_Control_DOWN	NA	31989	204455	2037	2049	186801	265	836	171551	85006	2050
 bsdb:890/1/1_Premature-birth:Preterm-birth-(PTB)_vs_Term-birth-(TB)_UP	NA	1016	29465	1936062
@@ -4523,6 +4619,8 @@ bsdb:1033/16/1_Antibody:Anti-thyroglobulin-(Anti-TG)_vs_NA_UP	NA	13687	1827	4873
 bsdb:1033/16/2_Antibody:Anti-thyroglobulin-(Anti-TG)_vs_NA_DOWN	NA	165779	239934
 bsdb:1033/17/1_Hormone:Triiodothyronine-(T3)_vs_NA_DOWN	NA	117563
 bsdb:1033/18/1_Hormone:Free-Triiodothyronine-(FT3)_vs_NA_DOWN	NA	117563
+bsdb:1033/20/1_Antibody:Anti-thyroid-stimulating-receptors-(Anti-TSHR)_vs_NA_UP	NA	32067
+bsdb:1033/21/1_Antibody:Anti-thyroid-peroxidase-(Anti-TPO)_vs_NA_UP	NA	1678	724
 bsdb:1034/1/1_Birth-measurement:High-vaginal-sialidase-activity_vs_Low-vaginal-sialidase-activity_UP	NA	201174	186827	1375	1872398	1380	171549	200643	31953	85004	186801	31979	1485	1506	84107	84999	84998	39948	1955814	186802	82135	2701	2049026	1378	1966354	539738	1613	906	2023260	543311	1944660	838	59823	171552	1737406	31977
 bsdb:1034/1/2_Birth-measurement:High-vaginal-sialidase-activity_vs_Low-vaginal-sialidase-activity_DOWN	NA	28211	91061	1239	28216	32008	36773	119060	80840	563835	80864	80865	1886637	963	1890675	33958	186826	1578	47770	109790	1224	1007	1936988	504481	1917865
 bsdb:1034/2/1_Birth-measurement:Leukocyte-high-(grades-III-IV)_vs_Leukocyte-low-(grades-I-II)_UP	NA	91061	1239	28216	32008	36773	119060	80840	80865	1886637	33958	186826	1578	147802	162289	1971214
@@ -4628,6 +4726,188 @@ bsdb:1047/8/2_Major-depressive-disorder:Control-+-FMT(CUMS)-group_vs_Control-gro
 bsdb:1047/9/1_Major-depressive-disorder:CUMS-+-FMT(XYS)-group_vs_Control-group_UP	NA	1578	239934
 bsdb:1047/10/1_Major-depressive-disorder:CUMS-+-FMT(XYS)-group_vs_CUMS-group_UP	NA	838	2
 bsdb:1047/10/2_Major-depressive-disorder:CUMS-+-FMT(XYS)-group_vs_CUMS-group_DOWN	NA	49082	39948	1263
+bsdb:1048/33/1_Microbiome:Unspiked-pig-feces(P1)-at-16-hours-(-80°C)_vs_Unspiked-pig-feces(P1)-at-0-hour_UP	NA	838	33024
+bsdb:1048/33/2_Microbiome:Unspiked-pig-feces(P1)-at-16-hours-(-80°C)_vs_Unspiked-pig-feces(P1)-at-0-hour_DOWN	NA	157	216851	841
+bsdb:1048/34/1_Microbiome:Unspiked-pig-feces(P1)-at-64-hours-(-80°C)_vs_Unspiked-pig-feces(P1)-at-0-hour_UP	NA	838	33024
+bsdb:1048/34/2_Microbiome:Unspiked-pig-feces(P1)-at-64-hours-(-80°C)_vs_Unspiked-pig-feces(P1)-at-0-hour_DOWN	NA	157	216851	841
+bsdb:1048/35/1_Microbiome:Unspiked-pig-feces(P1)-at-16-hours-(-20°C)_vs_Unspiked-pig-feces(P1)-at-0-hour_UP	NA	838	33024
+bsdb:1048/35/2_Microbiome:Unspiked-pig-feces(P1)-at-16-hours-(-20°C)_vs_Unspiked-pig-feces(P1)-at-0-hour_DOWN	NA	157	216851	841
+bsdb:1048/36/1_Microbiome:Unspiked-pig-feces(P1)-at-64-hours-(-20°C)_vs_Unspiked-pig-feces(P1)-at-0-hour_UP	NA	838	33024
+bsdb:1048/36/2_Microbiome:Unspiked-pig-feces(P1)-at-64-hours-(-20°C)_vs_Unspiked-pig-feces(P1)-at-0-hour_DOWN	NA	157	216851	841
+bsdb:1048/37/1_Microbiome:Unspiked-pig-feces(P1)-at-16-hours-(5°C)_vs_Unspiked-pig-feces(P1)-at-0-hour_UP	NA	838	33024
+bsdb:1048/37/2_Microbiome:Unspiked-pig-feces(P1)-at-16-hours-(5°C)_vs_Unspiked-pig-feces(P1)-at-0-hour_DOWN	NA	157	216851	841
+bsdb:1048/38/1_Microbiome:Unspiked-pig-feces(P1)-at-64-hours-(5°C)_vs_Unspiked-pig-feces(P1)-at-0-hour_UP	NA	838	33024
+bsdb:1048/38/2_Microbiome:Unspiked-pig-feces(P1)-at-64-hours-(5°C)_vs_Unspiked-pig-feces(P1)-at-0-hour_DOWN	NA	157	216851	841
+bsdb:1048/39/1_Microbiome:Unspiked-pig-feces(P1)-at-16-hours-(22°C)_vs_Unspiked-pig-feces(P1)-at-0-hour_DOWN	NA	838	157
+bsdb:1048/39/2_Microbiome:Unspiked-pig-feces(P1)-at-16-hours-(22°C)_vs_Unspiked-pig-feces(P1)-at-0-hour_UP	NA	216851	33024	841
+bsdb:1048/40/1_Microbiome:Unspiked-pig-feces(P1)-at-64-hours-(22°C)_vs_Unspiked-pig-feces(P1)-at-0-hour_UP	NA	216851	33024
+bsdb:1048/40/2_Microbiome:Unspiked-pig-feces(P1)-at-64-hours-(22°C)_vs_Unspiked-pig-feces(P1)-at-0-hour_DOWN	NA	838	157	841
+bsdb:1048/41/1_Microbiome:Unspiked-pig-feces(P1)-at-64-hours-(-80°C)_vs_Unspiked-pig-feces(P1)-at-16-hours-(-80°C)_UP	NA	157	216851
+bsdb:1048/41/2_Microbiome:Unspiked-pig-feces(P1)-at-64-hours-(-80°C)_vs_Unspiked-pig-feces(P1)-at-16-hours-(-80°C)_DOWN	NA	838	33024	841
+bsdb:1048/42/1_Microbiome:Unspiked-pig-feces(P1)-at-16-hours-(-20°C)_vs_Unspiked-pig-feces(P1)-at-16-hours-(-80°C)_UP	NA	33024	841	157	216851
+bsdb:1048/42/2_Microbiome:Unspiked-pig-feces(P1)-at-16-hours-(-20°C)_vs_Unspiked-pig-feces(P1)-at-16-hours-(-80°C)_DOWN	NA	838
+bsdb:1048/43/1_Microbiome:Unspiked-pig-feces(P1)-at-64-hours-(-20°C)_vs_Unspiked-pig-feces(P1)-at-16-hours-(-80°C)_UP	NA	33024
+bsdb:1048/43/2_Microbiome:Unspiked-pig-feces(P1)-at-64-hours-(-20°C)_vs_Unspiked-pig-feces(P1)-at-16-hours-(-80°C)_DOWN	NA	838	157	216851	841
+bsdb:1048/44/1_Microbiome:Unspiked-pig-feces(P1)-at-16-hours-(5°C)_vs_Unspiked-pig-feces(P1)-at-16-hours-(-80°C)_UP	NA	157	216851	841
+bsdb:1048/44/2_Microbiome:Unspiked-pig-feces(P1)-at-16-hours-(5°C)_vs_Unspiked-pig-feces(P1)-at-16-hours-(-80°C)_DOWN	NA	838	33024
+bsdb:1048/45/1_Microbiome:Unspiked-pig-feces(P1)-at-64-hours-(5°C)_vs_Unspiked-pig-feces(P1)-at-16-hours-(-80°C)_UP	NA	157	216851	33024	841
+bsdb:1048/45/2_Microbiome:Unspiked-pig-feces(P1)-at-64-hours-(5°C)_vs_Unspiked-pig-feces(P1)-at-16-hours-(-80°C)_DOWN	NA	838
+bsdb:1048/46/1_Microbiome:Unspiked-pig-feces(P1)-at-16-hours-(22°C)_vs_Unspiked-pig-feces(P1)-at-16-hours-(-80°C)_UP	NA	157	216851	841
+bsdb:1048/46/2_Microbiome:Unspiked-pig-feces(P1)-at-16-hours-(22°C)_vs_Unspiked-pig-feces(P1)-at-16-hours-(-80°C)_DOWN	NA	838	33024
+bsdb:1048/47/1_Microbiome:Unspiked-pig-feces(P1)-at-64-hours-(22°C)_vs_Unspiked-pig-feces(P1)-at-16-hours-(-80°C)_UP	NA	157	216851
+bsdb:1048/47/2_Microbiome:Unspiked-pig-feces(P1)-at-64-hours-(22°C)_vs_Unspiked-pig-feces(P1)-at-16-hours-(-80°C)_DOWN	NA	838
+bsdb:1048/48/1_Microbiome:Unspiked-pig-feces(P1)-at-16-hours-(-20°C)_vs_Unspiked-pig-feces(P1)-at-64-hours-(-80°C)_UP	NA	216851	841
+bsdb:1048/48/2_Microbiome:Unspiked-pig-feces(P1)-at-16-hours-(-20°C)_vs_Unspiked-pig-feces(P1)-at-64-hours-(-80°C)_DOWN	NA	838	157	33024
+bsdb:1048/49/1_Microbiome:Unspiked-pig-feces(P1)-at-64-hours-(-20°C)_vs_Unspiked-pig-feces(P1)-at-64-hours-(-80°C)_UP	NA	157	216851	841
+bsdb:1048/49/2_Microbiome:Unspiked-pig-feces(P1)-at-64-hours-(-20°C)_vs_Unspiked-pig-feces(P1)-at-64-hours-(-80°C)_DOWN	NA	838	33024
+bsdb:1048/50/1_Microbiome:Unspiked-pig-feces(P1)-at-16-hours-(5°C)_vs_Unspiked-pig-feces(P1)-at-64-hours-(-80°C)_UP	NA	157	216851	841
+bsdb:1048/50/2_Microbiome:Unspiked-pig-feces(P1)-at-16-hours-(5°C)_vs_Unspiked-pig-feces(P1)-at-64-hours-(-80°C)_DOWN	NA	838	33024
+bsdb:1048/51/1_Microbiome:Unspiked-pig-feces(P1)-at-64-hours-(5°C)_vs_Unspiked-pig-feces(P1)-at-64-hours-(-80°C)_UP	NA	216851	841
+bsdb:1048/51/2_Microbiome:Unspiked-pig-feces(P1)-at-64-hours-(5°C)_vs_Unspiked-pig-feces(P1)-at-64-hours-(-80°C)_DOWN	NA	838	157	33024
+bsdb:1048/52/1_Microbiome:Unspiked-pig-feces(P1)-at-16-hours-(22°C)_vs_Unspiked-pig-feces(P1)-at-64-hours-(-80°C)_UP	NA	157	216851	33024	841
+bsdb:1048/52/2_Microbiome:Unspiked-pig-feces(P1)-at-16-hours-(22°C)_vs_Unspiked-pig-feces(P1)-at-64-hours-(-80°C)_DOWN	NA	838
+bsdb:1048/53/1_Microbiome:Unspiked-pig-feces(P1)-at-64-hours-(22°C)_vs_Unspiked-pig-feces(P1)-at-64-hours-(-80°C)_UP	NA	157	216851	33024	841
+bsdb:1048/53/2_Microbiome:Unspiked-pig-feces(P1)-at-64-hours-(22°C)_vs_Unspiked-pig-feces(P1)-at-64-hours-(-80°C)_DOWN	NA	838
+bsdb:1048/54/1_Microbiome:Unspiked-pig-feces(P1)-at-64-hours-(-20°C)_vs_Unspiked-pig-feces(P1)-at-16-hours-(-20°C)_UP	NA	157
+bsdb:1048/54/2_Microbiome:Unspiked-pig-feces(P1)-at-64-hours-(-20°C)_vs_Unspiked-pig-feces(P1)-at-16-hours-(-20°C)_DOWN	NA	838	33024	216851	841
+bsdb:1048/55/1_Microbiome:Unspiked-pig-feces(P1)-at-16-hours-(5°C)_vs_Unspiked-pig-feces(P1)-at-16-hours-(-20°C)_UP	NA	157	216851	841
+bsdb:1048/55/2_Microbiome:Unspiked-pig-feces(P1)-at-16-hours-(5°C)_vs_Unspiked-pig-feces(P1)-at-16-hours-(-20°C)_DOWN	NA	838	33024
+bsdb:1048/56/1_Microbiome:Unspiked-pig-feces(P1)-at-64-hours-(5°C)_vs_Unspiked-pig-feces(P1)-at-16-hours-(-20°C)_UP	NA	157	216851	33024	841
+bsdb:1048/56/2_Microbiome:Unspiked-pig-feces(P1)-at-64-hours-(5°C)_vs_Unspiked-pig-feces(P1)-at-16-hours-(-20°C)_DOWN	NA	838
+bsdb:1048/57/1_Microbiome:Unspiked-pig-feces(P1)-at-16-hours-(22°C)_vs_Unspiked-pig-feces(P1)-at-16-hours-(-20°C)_UP	NA	157	216851	33024	841
+bsdb:1048/57/2_Microbiome:Unspiked-pig-feces(P1)-at-16-hours-(22°C)_vs_Unspiked-pig-feces(P1)-at-16-hours-(-20°C)_DOWN	NA	838
+bsdb:1048/58/1_Microbiome:Unspiked-pig-feces(P1)-at-64-hours-(22°C)_vs_Unspiked-pig-feces(P1)-at-16-hours-(-20°C)_UP	NA	157	216851	33024	841
+bsdb:1048/58/2_Microbiome:Unspiked-pig-feces(P1)-at-64-hours-(22°C)_vs_Unspiked-pig-feces(P1)-at-16-hours-(-20°C)_DOWN	NA	838
+bsdb:1048/62/1_Microbiome:Unspiked-pig-feces(P1)-at-16-hours-(5°C)_vs_Unspiked-pig-feces(P1)-at-64-hours-(-20°C)_UP	NA	157	216851
+bsdb:1048/62/2_Microbiome:Unspiked-pig-feces(P1)-at-16-hours-(5°C)_vs_Unspiked-pig-feces(P1)-at-64-hours-(-20°C)_DOWN	NA	838	33024	841
+bsdb:1048/64/1_Microbiome:Unspiked-pig-feces(P1)-at-64-hours-(5°C)_vs_Unspiked-pig-feces(P1)-at-64-hours-(-20°C)_UP	NA	216851	33024	841
+bsdb:1048/64/2_Microbiome:Unspiked-pig-feces(P1)-at-64-hours-(5°C)_vs_Unspiked-pig-feces(P1)-at-64-hours-(-20°C)_DOWN	NA	838	157
+bsdb:1048/65/1_Microbiome:Unspiked-pig-feces(P1)-at-16-hours-(22°C)_vs_Unspiked-pig-feces(P1)-at-64-hours-(-20°C)_UP	NA	157	216851	33024	841
+bsdb:1048/65/2_Microbiome:Unspiked-pig-feces(P1)-at-16-hours-(22°C)_vs_Unspiked-pig-feces(P1)-at-64-hours-(-20°C)_DOWN	NA	838
+bsdb:1048/66/1_Microbiome:Unspiked-pig-feces(P1)-at-64-hours-(22°C)_vs_Unspiked-pig-feces(P1)-at-64-hours-(-20°C)_UP	NA	157	33024	216851	841
+bsdb:1048/66/2_Microbiome:Unspiked-pig-feces(P1)-at-64-hours-(22°C)_vs_Unspiked-pig-feces(P1)-at-64-hours-(-20°C)_DOWN	NA	838
+bsdb:1048/67/1_Microbiome:Unspiked-pig-feces(P1)-at-64-hours-(5°C)_vs_Unspiked-pig-feces(P1)-at-16-hours-(5°C)_UP	NA	157	216851	841
+bsdb:1048/67/2_Microbiome:Unspiked-pig-feces(P1)-at-64-hours-(5°C)_vs_Unspiked-pig-feces(P1)-at-16-hours-(5°C)_DOWN	NA	838	33024
+bsdb:1048/68/1_Microbiome:Unspiked-pig-feces(P1)-at-16-hours-(22°C)_vs_Unspiked-pig-feces(P1)-at-16-hours-(5°C)_UP	NA	157	216851	33024	841
+bsdb:1048/68/2_Microbiome:Unspiked-pig-feces(P1)-at-16-hours-(22°C)_vs_Unspiked-pig-feces(P1)-at-16-hours-(5°C)_DOWN	NA	838
+bsdb:1048/69/1_Microbiome:Unspiked-pig-feces(P1)-at-64-hours-(22°C)_vs_Unspiked-pig-feces(P1)-at-16-hours-(5°C)_UP	NA	216851	33024	841
+bsdb:1048/69/2_Microbiome:Unspiked-pig-feces(P1)-at-64-hours-(22°C)_vs_Unspiked-pig-feces(P1)-at-16-hours-(5°C)_DOWN	NA	838	157
+bsdb:1048/70/1_Microbiome:Unspiked-pig-feces(P1)-at-16-hours-(22°C)_vs_Unspiked-pig-feces(P1)-at-64-hours-(5°C)_UP	NA	157	216851
+bsdb:1048/70/2_Microbiome:Unspiked-pig-feces(P1)-at-16-hours-(22°C)_vs_Unspiked-pig-feces(P1)-at-64-hours-(5°C)_DOWN	NA	838	33024	841
+bsdb:1048/71/1_Microbiome:Unspiked-pig-feces(P1)-at-64-hours-(22°C)_vs_Unspiked-pig-feces(P1)-at-64-hours-(5°C)_UP	NA	157	216851
+bsdb:1048/71/2_Microbiome:Unspiked-pig-feces(P1)-at-64-hours-(22°C)_vs_Unspiked-pig-feces(P1)-at-64-hours-(5°C)_DOWN	NA	838	33024	841
+bsdb:1048/72/1_Microbiome:Unspiked-pig-feces(P1)-at-64-hours-(22°C)_vs_Unspiked-pig-feces(P1)-at-16-hours-(22°C)_UP	NA	157	216851
+bsdb:1048/72/2_Microbiome:Unspiked-pig-feces(P1)-at-64-hours-(22°C)_vs_Unspiked-pig-feces(P1)-at-16-hours-(22°C)_DOWN	NA	838	33024	841
+bsdb:1048/109/1_Microbiome:Unspiked-pig-feces(P2)-at-16-hours-(-80°C)_vs_Unspiked-pig-feces(P2)-at-0-hour_UP	NA	33024	838	841
+bsdb:1048/109/2_Microbiome:Unspiked-pig-feces(P2)-at-16-hours-(-80°C)_vs_Unspiked-pig-feces(P2)-at-0-hour_DOWN	NA	216851	157
+bsdb:1048/110/1_Microbiome:Unspiked-pig-feces(P2)-at-64-hours-(-80°C)_vs_Unspiked-pig-feces(P2)-at-0-hour_UP	NA	838
+bsdb:1048/110/2_Microbiome:Unspiked-pig-feces(P2)-at-64-hours-(-80°C)_vs_Unspiked-pig-feces(P2)-at-0-hour_DOWN	NA	216851	33024	841	157
+bsdb:1048/111/1_Microbiome:Unspiked-pig-feces(P2)-at-16-hours-(-20°C)_vs_Unspiked-pig-feces(P2)-at-0-hour_UP	NA	838	33024	841
+bsdb:1048/111/2_Microbiome:Unspiked-pig-feces(P2)-at-16-hours-(-20°C)_vs_Unspiked-pig-feces(P2)-at-0-hour_DOWN	NA	157	216851
+bsdb:1048/112/1_Microbiome:Unspiked-pig-feces(P2)-at-64-hours-(-20°C)_vs_Unspiked-pig-feces(P2)-at-0-hour_UP	NA	838	33024
+bsdb:1048/112/2_Microbiome:Unspiked-pig-feces(P2)-at-64-hours-(-20°C)_vs_Unspiked-pig-feces(P2)-at-0-hour_DOWN	NA	157	216851	841
+bsdb:1048/113/1_Microbiome:Unspiked-pig-feces(P2)-at-16-hours-(5°C)_vs_Unspiked-pig-feces(P2)-at-0-hour_UP	NA	216851	33024	841
+bsdb:1048/113/2_Microbiome:Unspiked-pig-feces(P2)-at-16-hours-(5°C)_vs_Unspiked-pig-feces(P2)-at-0-hour_DOWN	NA	838	157
+bsdb:1048/114/1_Microbiome:Unspiked-pig-feces(P2)-at-64-hours-(5°C)_vs_Unspiked-pig-feces(P2)-at-0-hour_UP	NA	216851	33024	841
+bsdb:1048/114/2_Microbiome:Unspiked-pig-feces(P2)-at-64-hours-(5°C)_vs_Unspiked-pig-feces(P2)-at-0-hour_DOWN	NA	838	157
+bsdb:1048/115/1_Microbiome:Unspiked-pig-feces(P2)-at-16-hours-(22°C)_vs_Unspiked-pig-feces(P2)-at-0-hour_UP	NA	216851	33024	841
+bsdb:1048/115/2_Microbiome:Unspiked-pig-feces(P2)-at-16-hours-(22°C)_vs_Unspiked-pig-feces(P2)-at-0-hour_DOWN	NA	838	157
+bsdb:1048/116/1_Microbiome:Unspiked-pig-feces(P2)-at-64-hours-(22°C)_vs_Unspiked-pig-feces(P2)-at-0-hour_UP	NA	216851	33024	841
+bsdb:1048/116/2_Microbiome:Unspiked-pig-feces(P2)-at-64-hours-(22°C)_vs_Unspiked-pig-feces(P2)-at-0-hour_DOWN	NA	838	157
+bsdb:1048/117/1_Microbiome:Unspiked-pig-feces(P2)-at-64-hours-(80°C)_vs_Unspiked-pig-feces(P2)-at-16-hours-(-80°C)_UP	NA	216851
+bsdb:1048/117/2_Microbiome:Unspiked-pig-feces(P2)-at-64-hours-(80°C)_vs_Unspiked-pig-feces(P2)-at-16-hours-(-80°C)_DOWN	NA	838	157	33024	841
+bsdb:1048/118/1_Microbiome:Unspiked-pig-feces(P2)-at-16-hours-(-20°C)_vs_Unspiked-pig-feces(P2)-at-16-hours-(-80°C)_UP	NA	838	33024
+bsdb:1048/118/2_Microbiome:Unspiked-pig-feces(P2)-at-16-hours-(-20°C)_vs_Unspiked-pig-feces(P2)-at-16-hours-(-80°C)_DOWN	NA	157	216851	841
+bsdb:1048/119/1_Microbiome:Unspiked-pig-feces(P2)-at-64-hours-(-20°C)_vs_Unspiked-pig-feces(P2)-at-16-hours-(-80°C)_UP	NA	838	33024
+bsdb:1048/119/2_Microbiome:Unspiked-pig-feces(P2)-at-64-hours-(-20°C)_vs_Unspiked-pig-feces(P2)-at-16-hours-(-80°C)_DOWN	NA	157	216851	841
+bsdb:1048/120/1_Microbiome:Unspiked-pig-feces(P2)-at-16-hours-(5°C)_vs_Unspiked-pig-feces(P2)-at-16-hours-(-80°C)_UP	NA	157	216851	33024	841
+bsdb:1048/120/2_Microbiome:Unspiked-pig-feces(P2)-at-16-hours-(5°C)_vs_Unspiked-pig-feces(P2)-at-16-hours-(-80°C)_DOWN	NA	838
+bsdb:1048/121/1_Microbiome:Unspiked-pig-feces(P2)-at-64-hours-(5°C)_vs_Unspiked-pig-feces(P2)-at-16-hours-(-80°C)_UP	NA	157	216851	33024	841
+bsdb:1048/121/2_Microbiome:Unspiked-pig-feces(P2)-at-64-hours-(5°C)_vs_Unspiked-pig-feces(P2)-at-16-hours-(-80°C)_DOWN	NA	838
+bsdb:1048/122/1_Microbiome:Unspiked-pig-feces(P2)-at-16-hours-(22°C)_vs_Unspiked-pig-feces(P2)-at-16-hours-(-80°C)_UP	NA	157	216851	33024	841
+bsdb:1048/122/2_Microbiome:Unspiked-pig-feces(P2)-at-16-hours-(22°C)_vs_Unspiked-pig-feces(P2)-at-16-hours-(-80°C)_DOWN	NA	838
+bsdb:1048/123/1_Microbiome:Unspiked-pig-feces(P2)-at-64-hours-(22°C)_vs_Unspiked-pig-feces(P2)-at-16-hours-(-80°C)_UP	NA	157	216851	33024	841
+bsdb:1048/123/2_Microbiome:Unspiked-pig-feces(P2)-at-64-hours-(22°C)_vs_Unspiked-pig-feces(P2)-at-16-hours-(-80°C)_DOWN	NA	838
+bsdb:1048/124/1_Microbiome:Unspiked-pig-feces(P2)-at-16-hours-(-20°C)_vs_Unspiked-pig-feces(P2)-at-64-hours-(-80°C)_UP	NA	838	157	33024	841
+bsdb:1048/124/2_Microbiome:Unspiked-pig-feces(P2)-at-16-hours-(-20°C)_vs_Unspiked-pig-feces(P2)-at-64-hours-(-80°C)_DOWN	NA	216851
+bsdb:1048/125/1_Microbiome:Unspiked-pig-feces(P2)-at-64-hours-(-20°C)_vs_Unspiked-pig-feces(P2)-at-64-hours-(-80°C)_UP	NA	838	157	33024
+bsdb:1048/125/2_Microbiome:Unspiked-pig-feces(P2)-at-64-hours-(-20°C)_vs_Unspiked-pig-feces(P2)-at-64-hours-(-80°C)_DOWN	NA	216851	841
+bsdb:1048/126/1_Microbiome:Unspiked-pig-feces(P2)-at-16-hours-(5°C)_vs_Unspiked-pig-feces(P2)-at-64-hours-(-80°C)_UP	NA	157	216851	33024	841
+bsdb:1048/126/2_Microbiome:Unspiked-pig-feces(P2)-at-16-hours-(5°C)_vs_Unspiked-pig-feces(P2)-at-64-hours-(-80°C)_DOWN	NA	838
+bsdb:1048/127/1_Microbiome:Unspiked-pig-feces(P2)-at-64-hours-(5°C)_vs_Unspiked-pig-feces(P2)-at-64-hours-(-80°C)_UP	NA	216851	33024	841	157
+bsdb:1048/127/2_Microbiome:Unspiked-pig-feces(P2)-at-64-hours-(5°C)_vs_Unspiked-pig-feces(P2)-at-64-hours-(-80°C)_DOWN	NA	838
+bsdb:1048/128/1_Microbiome:Unspiked-pig-feces(P2)-at-16-hours-(22°C)_vs_Unspiked-pig-feces(P2)-at-64-hours-(-80°C)_UP	NA	157	216851	33024	841
+bsdb:1048/128/2_Microbiome:Unspiked-pig-feces(P2)-at-16-hours-(22°C)_vs_Unspiked-pig-feces(P2)-at-64-hours-(-80°C)_DOWN	NA	838
+bsdb:1048/129/1_Microbiome:Unspiked-pig-feces(P2)-at-64-hours-(22°C)_vs_Unspiked-pig-feces(P2)-at-64-hours-(-80°C)_UP	NA	216851	33024	157	841
+bsdb:1048/129/2_Microbiome:Unspiked-pig-feces(P2)-at-64-hours-(22°C)_vs_Unspiked-pig-feces(P2)-at-64-hours-(-80°C)_DOWN	NA	838
+bsdb:1048/130/1_Microbiome:Unspiked-pig-feces(P2)-at-64-hours-(-20°C)_vs_Unspiked-pig-feces(P2)-at-16-hours-(-20°C)_UP	NA	33024
+bsdb:1048/130/2_Microbiome:Unspiked-pig-feces(P2)-at-64-hours-(-20°C)_vs_Unspiked-pig-feces(P2)-at-16-hours-(-20°C)_DOWN	NA	838	157	216851	841
+bsdb:1048/131/1_Microbiome:Unspiked-pig-feces(P2)-at-16-hours-(5°C)_vs_Unspiked-pig-feces(P2)-at-16-hours-(-20°C)_UP	NA	157	216851	33024	841
+bsdb:1048/131/2_Microbiome:Unspiked-pig-feces(P2)-at-16-hours-(5°C)_vs_Unspiked-pig-feces(P2)-at-16-hours-(-20°C)_DOWN	NA	838
+bsdb:1048/132/1_Microbiome:Unspiked-pig-feces(P2)-at-64-hours-(5°C)_vs_Unspiked-pig-feces(P2)-at-16-hours-(-20°C)_UP	NA	157	216851	33024	841
+bsdb:1048/132/2_Microbiome:Unspiked-pig-feces(P2)-at-64-hours-(5°C)_vs_Unspiked-pig-feces(P2)-at-16-hours-(-20°C)_DOWN	NA	838
+bsdb:1048/133/1_Microbiome:Unspiked-pig-feces(P2)-at-16-hours-(22°C)_vs_Unspiked-pig-feces(P2)-at-16-hours-(-20°C)_UP	NA	157	216851	33024	841
+bsdb:1048/133/2_Microbiome:Unspiked-pig-feces(P2)-at-16-hours-(22°C)_vs_Unspiked-pig-feces(P2)-at-16-hours-(-20°C)_DOWN	NA	838
+bsdb:1048/134/1_Microbiome:Unspiked-pig-feces(P2)-at-64-hours-(22°C)_vs_Unspiked-pig-feces(P2)-at-16-hours-(-20°C)_UP	NA	157	216851	33024	841
+bsdb:1048/134/2_Microbiome:Unspiked-pig-feces(P2)-at-64-hours-(22°C)_vs_Unspiked-pig-feces(P2)-at-16-hours-(-20°C)_DOWN	NA	838
+bsdb:1048/135/1_Microbiome:Unspiked-pig-feces(P2)-at-16-hours-(5°C)_vs_Unspiked-pig-feces(P2)-at-64-hours-(-20°C)_UP	NA	157	216851	841
+bsdb:1048/135/2_Microbiome:Unspiked-pig-feces(P2)-at-16-hours-(5°C)_vs_Unspiked-pig-feces(P2)-at-64-hours-(-20°C)_DOWN	NA	838	33024
+bsdb:1048/136/1_Microbiome:Unspiked-pig-feces(P2)-at-64-hours-(5°C)_vs_Unspiked-pig-feces(P2)-at-64-hours-(-20°C)_UP	NA	157	216851	33024	841
+bsdb:1048/136/2_Microbiome:Unspiked-pig-feces(P2)-at-64-hours-(5°C)_vs_Unspiked-pig-feces(P2)-at-64-hours-(-20°C)_DOWN	NA	838
+bsdb:1048/137/1_Microbiome:Unspiked-pig-feces(P2)-at-16-hours-(22°C)_vs_Unspiked-pig-feces(P2)-at-64-hours-(-20°C)_UP	NA	216851	157	841	33024
+bsdb:1048/137/2_Microbiome:Unspiked-pig-feces(P2)-at-16-hours-(22°C)_vs_Unspiked-pig-feces(P2)-at-64-hours-(-20°C)_DOWN	NA	838
+bsdb:1048/138/1_Microbiome:Unspiked-pig-feces(P2)-at-64-hours-(22°C)_vs_Unspiked-pig-feces(P2)-at-64-hours-(-20°C)_UP	NA	157	216851	33024	841
+bsdb:1048/138/2_Microbiome:Unspiked-pig-feces(P2)-at-64-hours-(22°C)_vs_Unspiked-pig-feces(P2)-at-64-hours-(-20°C)_DOWN	NA	838
+bsdb:1048/139/1_Microbiome:Unspiked-pig-feces(P2)-at-64-hours-(5°C)_vs_Unspiked-pig-feces(P2)-at-16-hours-(5°C)_UP	NA	216851	33024	841
+bsdb:1048/139/2_Microbiome:Unspiked-pig-feces(P2)-at-64-hours-(5°C)_vs_Unspiked-pig-feces(P2)-at-16-hours-(5°C)_DOWN	NA	838	157
+bsdb:1048/140/1_Microbiome:Unspiked-pig-feces(P2)-at-16-hours-(22°C)_vs_Unspiked-pig-feces(P2)-at-16-hours-(5°C)_UP	NA	216851	33024	841
+bsdb:1048/140/2_Microbiome:Unspiked-pig-feces(P2)-at-16-hours-(22°C)_vs_Unspiked-pig-feces(P2)-at-16-hours-(5°C)_DOWN	NA	838	157
+bsdb:1048/141/1_Microbiome:Unspiked-pig-feces(P2)-at-64-hours-(22°C)_vs_Unspiked-pig-feces(P2)-at-16-hours-(5°C)_UP	NA	216851	33024	841
+bsdb:1048/141/2_Microbiome:Unspiked-pig-feces(P2)-at-64-hours-(22°C)_vs_Unspiked-pig-feces(P2)-at-16-hours-(5°C)_DOWN	NA	838	157
+bsdb:1048/142/1_Microbiome:Unspiked-pig-feces(P2)-at-16-hours-(22°C)_vs_Unspiked-pig-feces(P2)-at-64-hours-(5°C)_UP	NA	838	157
+bsdb:1048/142/2_Microbiome:Unspiked-pig-feces(P2)-at-16-hours-(22°C)_vs_Unspiked-pig-feces(P2)-at-64-hours-(5°C)_DOWN	NA	216851	33024	841
+bsdb:1048/143/1_Microbiome:Unspiked-pig-feces(P2)-at-64-hours-(22°C)_vs_Unspiked-pig-feces(P2)-at-64-hours-(5°C)_UP	NA	157	33024
+bsdb:1048/143/2_Microbiome:Unspiked-pig-feces(P2)-at-64-hours-(22°C)_vs_Unspiked-pig-feces(P2)-at-64-hours-(5°C)_DOWN	NA	838	216851	841
+bsdb:1048/144/1_Microbiome:Unspiked-pig-feces(P2)-at-64-hours-(22°C)_vs_Unspiked-pig-feces(P2)-at-16-hours-(22°C)_UP	NA	157	33024	841
+bsdb:1048/144/2_Microbiome:Unspiked-pig-feces(P2)-at-64-hours-(22°C)_vs_Unspiked-pig-feces(P2)-at-16-hours-(22°C)_DOWN	NA	216851	838
+bsdb:1048/145/1_Microbiome:Unspiked-sewage-samples-(S1)-at-16-hours-(-80°C)_vs_Unspiked-sewage-samples-(S1)-at-0-hours_UP	NA	28196	838	642
+bsdb:1048/145/2_Microbiome:Unspiked-sewage-samples-(S1)-at-16-hours-(-80°C)_vs_Unspiked-sewage-samples-(S1)-at-0-hours_DOWN	NA	469	375288
+bsdb:1048/146/1_Microbiome:Unspiked-sewage-samples-(S1)-at-64-hours-(-80°C)_vs_Unspiked-sewage-samples-(S1)-at-0-hours_UP	NA	28196	642
+bsdb:1048/146/2_Microbiome:Unspiked-sewage-samples-(S1)-at-64-hours-(-80°C)_vs_Unspiked-sewage-samples-(S1)-at-0-hours_DOWN	NA	469	375288	838
+bsdb:1048/147/1_Microbiome:Unspiked-sewage-samples-(S1)-at-16-hours-(-20°C)_vs_Unspiked-sewage-samples-(S1)-at-0-hours_UP	NA	28196	642
+bsdb:1048/147/2_Microbiome:Unspiked-sewage-samples-(S1)-at-16-hours-(-20°C)_vs_Unspiked-sewage-samples-(S1)-at-0-hours_DOWN	NA	469	375288	838
+bsdb:1048/148/1_Microbiome:Unspiked-sewage-samples-(S1)-at-64-hours-(-20°C)_vs_Unspiked-sewage-samples-(S1)-at-0-hours_UP	NA	28196	642	838
+bsdb:1048/148/2_Microbiome:Unspiked-sewage-samples-(S1)-at-64-hours-(-20°C)_vs_Unspiked-sewage-samples-(S1)-at-0-hours_DOWN	NA	375288	469
+bsdb:1048/149/1_Microbiome:Unspiked-sewage-samples-(S1)-at-16-hours-(5°C)_vs_Unspiked-sewage-samples-(S1)-at-0-hours_UP	NA	28196	838	642
+bsdb:1048/149/2_Microbiome:Unspiked-sewage-samples-(S1)-at-16-hours-(5°C)_vs_Unspiked-sewage-samples-(S1)-at-0-hours_DOWN	NA	469	375288
+bsdb:1048/150/1_Microbiome:Unspiked-sewage-samples-(S1)-at-64-hours-(5°C)_vs_Unspiked-sewage-samples-(S1)-at-0-hours_UP	NA	375288	838	642
+bsdb:1048/150/2_Microbiome:Unspiked-sewage-samples-(S1)-at-64-hours-(5°C)_vs_Unspiked-sewage-samples-(S1)-at-0-hours_DOWN	NA	28196	469
+bsdb:1048/151/1_Microbiome:Unspiked-sewage-samples-(S1)-at-16-hours-(22°C)_vs_Unspiked-sewage-samples-(S1)-at-0-hours_UP	NA	375288	838	642
+bsdb:1048/151/2_Microbiome:Unspiked-sewage-samples-(S1)-at-16-hours-(22°C)_vs_Unspiked-sewage-samples-(S1)-at-0-hours_DOWN	NA	28196	469
+bsdb:1048/152/1_Microbiome:Unspiked-sewage-samples-(S1)-at-64-hours-(22°C)_vs_Unspiked-sewage-samples-(S1)-at-0-hours_UP	NA	838	642
+bsdb:1048/152/2_Microbiome:Unspiked-sewage-samples-(S1)-at-64-hours-(22°C)_vs_Unspiked-sewage-samples-(S1)-at-0-hours_DOWN	NA	28196	469	375288
+bsdb:1048/153/1_Microbiome:Unspiked-sewage-samples-(S1)-at-64-hours-(-80°C)_vs_Unspiked-sewage-samples-(S1)-at-16-hours-(-80°C)_UP	NA	642
+bsdb:1048/153/2_Microbiome:Unspiked-sewage-samples-(S1)-at-64-hours-(-80°C)_vs_Unspiked-sewage-samples-(S1)-at-16-hours-(-80°C)_DOWN	NA	28196	469	375288	838
+bsdb:1048/154/1_Microbiome:Unspiked-sewage-samples-(S1)-at-16-hours-(-20°C)_vs_Unspiked-sewage-samples-(S1)-at-16-hours-(-80°C)_UP	NA	469
+bsdb:1048/154/2_Microbiome:Unspiked-sewage-samples-(S1)-at-16-hours-(-20°C)_vs_Unspiked-sewage-samples-(S1)-at-16-hours-(-80°C)_DOWN	NA	28196	375288	838	642
+bsdb:1048/155/1_Microbiome:Unspiked-sewage-samples-(S1)-at-64-hours-(-20°C)_vs_Unspiked-sewage-samples-(S1)-at-16-hours-(-80°C)_UP	NA	838
+bsdb:1048/155/2_Microbiome:Unspiked-sewage-samples-(S1)-at-64-hours-(-20°C)_vs_Unspiked-sewage-samples-(S1)-at-16-hours-(-80°C)_DOWN	NA	28196	469	375288	642
+bsdb:1048/156/1_Microbiome:Unspiked-sewage-samples-(S1)-at-16-hours-(5°C)_vs_Unspiked-sewage-samples-(S1)-at-16-hours-(-80°C)_UP	NA	375288	838
+bsdb:1048/156/2_Microbiome:Unspiked-sewage-samples-(S1)-at-16-hours-(5°C)_vs_Unspiked-sewage-samples-(S1)-at-16-hours-(-80°C)_DOWN	NA	28196	469	642
+bsdb:1048/157/1_Microbiome:Unspiked-sewage-samples-(S1)-at-64-hours-(5°C)_vs_Unspiked-sewage-samples-(S1)-at-16-hours-(-80°C)_UP	NA	375288
+bsdb:1048/157/2_Microbiome:Unspiked-sewage-samples-(S1)-at-64-hours-(5°C)_vs_Unspiked-sewage-samples-(S1)-at-16-hours-(-80°C)_DOWN	NA	28196	469	838	642
+bsdb:1048/158/1_Microbiome:Unspiked-sewage-samples-(S1)-at-16-hours-(22°C)_vs_Unspiked-sewage-samples-(S1)-at-16-hours-(-80°C)_UP	NA	469	375288	838
+bsdb:1048/158/2_Microbiome:Unspiked-sewage-samples-(S1)-at-16-hours-(22°C)_vs_Unspiked-sewage-samples-(S1)-at-16-hours-(-80°C)_DOWN	NA	28196	642
+bsdb:1048/159/1_Microbiome:Unspiked-sewage-samples-(S1)-at-64-hours-(22°C)_vs_Unspiked-sewage-samples-(S1)-at-16-hours-(-80°C)_UP	NA	838	642
+bsdb:1048/159/2_Microbiome:Unspiked-sewage-samples-(S1)-at-64-hours-(22°C)_vs_Unspiked-sewage-samples-(S1)-at-16-hours-(-80°C)_DOWN	NA	28196	469	375288
+bsdb:1048/160/1_Microbiome:Unspiked-sewage-samples-(S1)-at-16-hours-(-20°C)_vs_Unspiked-sewage-samples-(S1)-at-64-hours-(-80°C)_UP	NA	28196	469	375288	642
+bsdb:1048/160/2_Microbiome:Unspiked-sewage-samples-(S1)-at-16-hours-(-20°C)_vs_Unspiked-sewage-samples-(S1)-at-64-hours-(-80°C)_DOWN	NA	838
+bsdb:1048/161/1_Microbiome:Unspiked-sewage-samples-(S1)-at-64-hours-(-20°C)_vs_Unspiked-sewage-samples-(S1)-at-64-hours-(-80°C)_UP	NA	28196	469	375288	838
+bsdb:1048/161/2_Microbiome:Unspiked-sewage-samples-(S1)-at-64-hours-(-20°C)_vs_Unspiked-sewage-samples-(S1)-at-64-hours-(-80°C)_DOWN	NA	642
+bsdb:1048/162/1_Microbiome:Unspiked-sewage-samples-(S1)-at-16-hours-(5°C)_vs_Unspiked-sewage-samples-(S1)-at-64-hours-(-80°C)_UP	NA	28196	469	375288	838
+bsdb:1048/162/2_Microbiome:Unspiked-sewage-samples-(S1)-at-16-hours-(5°C)_vs_Unspiked-sewage-samples-(S1)-at-64-hours-(-80°C)_DOWN	NA	642
+bsdb:1048/207/1_Microbiome:Unspiked-sewage-samples-(S2)-at-16-hours-(5°C)_vs_Unspiked-sewage-samples-(S2)-at-64-hours-(-20°C)_UP	NA	375288
+bsdb:1048/207/2_Microbiome:Unspiked-sewage-samples-(S2)-at-16-hours-(5°C)_vs_Unspiked-sewage-samples-(S2)-at-64-hours-(-20°C)_DOWN	NA	28196	469	838	642
 bsdb:1049/1/1_Atopic-eczema:cADtreat-dogs_vs_Healthy-dogs_UP	NA	1663	1716	281915
 bsdb:1049/2/1_Atopic-eczema:cADpost-dogs_vs_cADpre-dogs_UP	NA	1663	1386	1298	286	204447
 bsdb:1049/2/2_Atopic-eczema:cADpost-dogs_vs_cADpre-dogs_DOWN	NA	1716	1912216	407	1839	265	125216	295418	13687	1279	1301
@@ -4660,6 +4940,39 @@ bsdb:1049/16/1_Atopic-eczema:cAD-post_vs_cAD-Pre_DOWN	NA	283734	74706	1295
 bsdb:1049/17/1_Atopic-eczema:cAD-Treat_vs_Healthy_DOWN	NA	246432
 bsdb:1049/17/2_Atopic-eczema:cAD-Treat_vs_Healthy_UP	NA	1282
 bsdb:1049/18/1_Atopic-eczema:cAD-Pre_vs_Healthy_UP	NA	283734
+bsdb:1049/19/1_Atopic-eczema:cAD-post_vs_cAD-Pre_UP	NA	246432
+bsdb:1049/19/2_Atopic-eczema:cAD-post_vs_cAD-Pre_DOWN	NA	1290
+bsdb:1049/20/1_Atopic-eczema:cADtreat-dogs_vs_Healthy-dogs_DOWN	NA	1282	1283
+bsdb:1049/21/1_Atopic-eczema:cADPre-dogs_vs_Healthy-dogs_DOWN	NA	283734
+bsdb:1049/22/1_Atopic-eczema:cADtreat-dogs_vs_Healthy-dogs_UP	NA	246432	1295
+bsdb:1049/23/2_Atopic-eczema:cAD-Pre_vs_Healthy-controls_DOWN	NA	283734
+bsdb:1049/24/1_Atopic-eczema:cAD-Treat_vs_Healthy-controls_UP	NA	74706	246432	1295
+bsdb:1049/24/2_Atopic-eczema:cAD-Treat_vs_Healthy-controls_DOWN	NA	1283
+bsdb:1049/25/1_Atopic-eczema:cAD-Post_vs_cADpre_UP	NA	1290
+bsdb:1049/26/2_Atopic-eczema:cAD-Pre_vs_Healthy-controls_DOWN	NA	283734
+bsdb:1049/27/1_Atopic-eczema:cAD-Treat_vs_Healthy-controls_UP	NA	246432
+bsdb:1049/28/1_Atopic-eczema:cAD-Post_vs_cADpre_UP	NA	74706	1295	1292
+bsdb:1049/29/1_Atopic-eczema:cAD-Pre_vs_Healthy-controls_DOWN	NA	283734
+bsdb:1049/30/1_Atopic-eczema:cADtreat-dogs_vs_Healthy-controls_UP	NA	74706	1283	1295
+bsdb:1049/31/1_Atopic-eczema:cADpost-dogs_vs_cADpre-dogs_UP	NA	29380	283734	1282	28035	1292
+bsdb:1049/31/2_Atopic-eczema:cADpost-dogs_vs_cADpre-dogs_DOWN	NA	1280
+bsdb:1049/32/1_Atopic-eczema:cADpre-dogs_vs_Healthy-dogs_DOWN	NA	283734
+bsdb:1049/33/1_Atopic-eczema:cADpost-dogs_vs_cADpre-dogs_UP	NA	246432
+bsdb:1049/34/1_Atopic-eczema:cADpre-dogs_vs_Healthy-dogs_UP	NA	246432	1292
+bsdb:1049/35/1_Atopic-eczema:cADtreat-dogs_vs_Healthy-dogs_UP	NA	246432	1295	1292
+bsdb:1049/36/1_Atopic-eczema:cADpost-dogs_vs_cADpre-dogs_DOWN	NA	1292
+bsdb:1049/37/1_Atopic-eczema:cADPre-dogs_vs_Healthy-dogs_UP	NA	1280	246432
+bsdb:1049/37/2_Atopic-eczema:cADPre-dogs_vs_Healthy-dogs_DOWN	NA	283734
+bsdb:1049/38/1_Atopic-eczema:cADtreat-dogs_vs_Healthy-dogs_UP	NA	246432	1292
+bsdb:1049/39/1_Atopic-eczema:cADpost-dogs_vs_cADpre-dogs_UP	NA	1290
+bsdb:1049/40/1_Atopic-eczema:cADpre-dogs_vs_Healthy-dogs_UP	NA	1296
+bsdb:1049/40/2_Atopic-eczema:cADpre-dogs_vs_Healthy-dogs_DOWN	NA	283734
+bsdb:1049/41/1_Atopic-eczema:cADpost-dogs_vs_cADpre-dogs_UP	NA	74706	283734	1295
+bsdb:1049/42/1_Atopic-eczema:cADpre-dogs_vs_Healthy-dogs_UP	NA	1292
+bsdb:1049/43/1_Atopic-eczema:cADpre-dogs_vs_Healthy-dogs_DOWN	NA	283734
+bsdb:1049/44/1_Atopic-eczema:cADtreat-dogs_vs_Healthy-dogs_UP	NA	246432
+bsdb:1049/44/2_Atopic-eczema:cADtreat-dogs_vs_Healthy-dogs_DOWN	NA	1282	1290
+bsdb:1049/45/1_Atopic-eczema:cADpost-dogs_vs_cADpre-dogs_DOWN	NA	1290
 bsdb:1050/1/1_Taxonomic-microbiome-measurement:Esophagus_vs_Oral-cavity_UP	NA	433	469	713	174708	28211	186817	1385	91061	1239	572511	374	118882	76892	204458	563835	59732	33042	212791	91347	543	1236	539738	356	85021	186826	32033	135614	119045	407	41294	165696	528	119852	216572	75682	712	135625	20	1743	135621	72274	286	48736	41295	204441	1007	1936988	504481	165695	41297	204457	13687	90964	1279	40323	1300	1301	2005473
 bsdb:1050/1/2_Taxonomic-microbiome-measurement:Esophagus_vs_Oral-cavity_DOWN	NA	1654	2049	2037	201174	171549	200643	976	28216	868	135615	2717	482	481	206351	346096	970	95818
 bsdb:1050/2/1_Taxonomic-microbiome-measurement:Supragingival-plaque_vs_Saliva-and-tongue-dorsum_UP	NA	976	3031852	117743	32066	203490	203692	203691
@@ -4734,6 +5047,29 @@ bsdb:1060/17/1_Population:Tshwa_vs_Himba_UP	NA	590	158483	547	544	158876	568	187
 bsdb:1060/17/2_Population:Tshwa_vs_Himba_DOWN	NA	55565	1750	1578	1591	2801844
 bsdb:1060/18/1_Population:!Xun_vs_Himba_UP	NA	590	194	1639133	1896336
 bsdb:1060/18/2_Population:!Xun_vs_Himba_DOWN	NA	46123	76631	1386	1017	546	1870884	1496	1720	1350	562	1379	84135	735	2801844	35517	1409
+bsdb:1060/19/1_Population:Tshwa_vs_Twa_UP	NA	851	39498
+bsdb:1060/19/2_Population:Tshwa_vs_Twa_DOWN	NA	72	55565	71	1654
+bsdb:1060/20/1_Population:!Xun_vs_Twa_DOWN	NA	158483	158484	544	546	545	1870884	1720	547	42895	1350	35783	561	571	573	576	286	508215	590	52768	613	616	158876	158877
+bsdb:1060/21/1_Population:!Xun_vs_Tshwa_UP	NA	71	1743	55565	504	72
+bsdb:1060/21/2_Population:!Xun_vs_Tshwa_DOWN	NA	546	35783	571	576	562	172042	573	545	1496	1720	84135	599	158877	1304	158484	1379	851	47671	505	42895	33033	613	1378	47670	1350	544	547	561	590	158876	158483	1870884
+bsdb:1060/22/1_Population:Kwisi_vs_Tjimba_UP	NA	546	1873498	568
+bsdb:1060/22/2_Population:Kwisi_vs_Tjimba_UP	NA	638847	638849
+bsdb:1060/23/1_Population:Twa_vs_Tjimba_UP	NA	568	158483	547	158876	158877	561	544	546	545	1639133	1896336	576	42895	571	158484	562	573
+bsdb:1060/24/1_Population:Tshwa_vs_Tjimba_UP	NA	568	547	158483	544	158876	561	590	599	42895	505	562	573	158877	545	158484	1896336	546	571	576	1639133	1873498
+bsdb:1060/24/2_Population:Tshwa_vs_Tjimba_UP	NA	55565
+bsdb:1060/25/1_Population:!Xun_vs_Tjimba_UP	NA	568	1873498	1743
+bsdb:1060/26/1_Population:Twa_vs_Kwisi_UP	NA	158484	1639133	42895	158877	1896336	545	571	158483	547	158876	544
+bsdb:1060/26/2_Population:Twa_vs_Kwisi_DOWN	NA	479	1017
+bsdb:1060/27/1_Population:Tshwa_vs_Kwisi_UP	NA	158483	158484	547	544	546	545	1639133	1896336	158877	42895	571	851	505	599	39498
+bsdb:1060/27/2_Population:Tshwa_vs_Kwisi_DOWN	NA	1017	479	504	72	71	475
+bsdb:1060/28/1_Population:!Xun_vs_Kwisi_UP	NA	1639133	1896336	1743
+bsdb:1060/28/2_Population:!Xun_vs_Kwisi_DOWN	NA	46123	76631	1386	1017	546	1870884	1496	1720	1350	561	562	1379	84135	735	35517	1409
+bsdb:1060/29/1_Socioeconomic-status:Foragers_vs_Pastoralists_UP	NA	133448	1685	31973	42895	1279384
+bsdb:1060/29/2_Socioeconomic-status:Foragers_vs_Pastoralists_DOWN	NA	46123	46125	76631	1386	158484	1885016	546	1870884	1496	1720	1350	35783	84135	2049028	43675	1304	1409	508215	52768
+bsdb:1060/30/1_Socioeconomic-status:Peripatetics_vs_Pastoralists_UP	NA	544	570	561	590	1873498	568	547	42895	158836	69218	286	306	1279384	31973	1013	200643	186804	583	229037	133448	546	1639133	571	573	576	562	599	1134687	157688	43768
+bsdb:1060/30/2_Socioeconomic-status:Peripatetics_vs_Pastoralists_DOWN	NA	123375	1164882	1578	577309
+bsdb:1060/31/1_Socioeconomic-status:Foragers_vs_Peripatetics_UP	NA	1743	1685
+bsdb:1060/31/2_Socioeconomic-status:Foragers_vs_Peripatetics_DOWN	NA	46123	46125	76631	1386	1409	158484	544	546	545	1870884	1496	1720	69218	158836	1350	35783	561	562	1379	84135	570	1134687	571	573	576	47670	47671	32207	43675	590	599	35517	52768	1885016
 bsdb:1061/1/1_Alzheimer's-disease:Alzheimer’s-Disease-(AD)_vs_Cognitively-normal-(CN)-and-amnestic-mild-cognitive-impairment-(aMCI)_UP	NA	1239	909932	838	1843489	31977	171552	29465	29466	203492	848	851	28129	286	72274	135621	28132	1309	824	1303	1033	156454	156456	1328	56981	28211	2282523	84999	84998	1643824	356	2117	2767358	906	187326	374	41294	28136	2767353	48296	1213720	796942	119045	1383	1382	59892	135080	33958	186806	1304	469322	2689614	1775403
 bsdb:1061/2/1_Alzheimer's-disease:Amnestic-mild-cognitive-impairment-(aMCI)_vs_Cognitively-normal-(CN)-and-Alzheimer’s-Disease-(AD)_UP	NA	28216	481	482	206351	495	2047	1268	32207	85006	1018	329	48736	1385	61592	502	43675	1318	726	76892	204458	75	88688
 bsdb:1061/3/1_Alzheimer's-disease:Alzheimer’s-Disease-(AD)-and-Amnestic-mild-cognitive-impairment-(aMCI)_vs_Cognitively-normal-(CN)_DOWN	NA	80840	712	135625	80864	562	561	28449	729	724	40542	1827	85009	31957	334542	2801844	85025	1305	1750	204	1019	1547448	2762318	59735	1913599	461393	1585976	43996	43997	43995	157692	2755140
@@ -4843,6 +5179,11 @@ bsdb:1077/12/2_Gut-microbiome-measurement:P1-JAX-group_vs_P1-TAC-group_DOWN	NA	3
 bsdb:1077/15/1_Gut-microbiome-measurement:F1-mJAX-group_vs_F1-mTAC-group_UP	NA	239934
 bsdb:1077/16/1_Gut-microbiome-measurement:P1-JAX-group_vs_P1-TAC-group_UP	NA	239934	1485	2086	1678	469	171550	2005473
 bsdb:1077/16/2_Gut-microbiome-measurement:P1-JAX-group_vs_P1-TAC-group_DOWN	NA	375288	816	49118	248038	51514	189330
+bsdb:1077/19/1_Gut-microbiome-measurement:F1-mJAX-group_vs_F1-mTAC-group_UP	NA	239934	2005473
+bsdb:1077/19/2_Gut-microbiome-measurement:F1-mJAX-group_vs_F1-mTAC-group_DOWN	NA	49118	51514
+bsdb:1077/20/1_Gut-microbiome-measurement:P1-JAX-group_vs_P1-TAC-group_UP	NA	239934	1485	447020	2086
+bsdb:1077/20/2_Gut-microbiome-measurement:P1-JAX-group_vs_P1-TAC-group_DOWN	NA	375288	816	49118	248038	51514
+bsdb:1077/23/1_Gut-microbiome-measurement:F1-mJAX-group_vs_F1-mTAC-group_UP	NA	239934
 bsdb:1078/1/1_High-fat-diet:Stachyose-treated-High-Fat-Diet-fed-Mice-(STA)_vs_High-Fat-Diet-fed-Mice-(HFD)_UP	NA	147206	2834459	2779519	2003188	604330
 bsdb:1078/1/2_High-fat-diet:Stachyose-treated-High-Fat-Diet-fed-Mice-(STA)_vs_High-Fat-Diet-fed-Mice-(HFD)_DOWN	NA	1499973
 bsdb:1079/1/1_Esophageal-adenocarcinoma:Cluster-2_vs_Cluster-1_UP	NA	91061	186826	836	838	1300	1301	1385
@@ -4878,6 +5219,18 @@ bsdb:1079/18/1_Gastroesophageal-reflux-disease:GERD(Gastroesophageal-reflux-dise
 bsdb:1079/18/2_Gastroesophageal-reflux-disease:GERD(Gastroesophageal-reflux-disease)-(Cluster-1)_vs_Normal-(Cluster-1)_DOWN	NA	1578	543	91347
 bsdb:1079/19/1_Gastroesophageal-reflux-disease:GERD(Gastroesophageal-reflux-disease)-(Cluster-2)_vs_Normal-(Cluster-2)_UP	NA	1716	2037	838	265975	44259	526524	526525	128827	123375	970	29465	1129771	28219	482	712	1239
 bsdb:1079/19/2_Gastroesophageal-reflux-disease:GERD(Gastroesophageal-reflux-disease)-(Cluster-2)_vs_Normal-(Cluster-2)_DOWN	NA	838	1236	135625	712
+bsdb:1079/20/1_Gastroesophageal-reflux-disease:GERD(Gastroesophageal-reflux-disease)-(Cluster-3)_vs_Normal-(Cluster-3)_UP	NA	838	117743	200644	49546	1016	135621	1239
+bsdb:1079/20/2_Gastroesophageal-reflux-disease:GERD(Gastroesophageal-reflux-disease)-(Cluster-3)_vs_Normal-(Cluster-3)_DOWN	NA	186804
+bsdb:1079/21/1_Gastroesophageal-reflux-disease:GERD(Gastroesophageal-reflux-disease)-(Cluster-1)_vs_Normal-(Cluster-1)_UP	NA	76122	1283313	186806	1730
+bsdb:1079/21/2_Gastroesophageal-reflux-disease:GERD(Gastroesophageal-reflux-disease)-(Cluster-1)_vs_Normal-(Cluster-1)_DOWN	NA	1283313
+bsdb:1079/22/1_Gastroesophageal-reflux-disease:GERD(Gastroesophageal-reflux-disease)-(Cluster-2)_vs_Normal-(Cluster-2)_UP	NA	2037	201174	2	543314	32067	157687	1129771	1268	28129	28133	43675	28135	1304	1343	56774	508215
+bsdb:1079/22/2_Gastroesophageal-reflux-disease:GERD(Gastroesophageal-reflux-disease)-(Cluster-2)_vs_Normal-(Cluster-2)_DOWN	NA	735
+bsdb:1079/23/1_Gastroesophageal-reflux-disease:GERD(Gastroesophageal-reflux-disease)-(Cluster-3)_vs_Normal-(Cluster-3)_UP	NA	1385	1236	1378	724	729	482	496	487	481	206351	135625	538998	1224	58231
+bsdb:1079/23/2_Gastroesophageal-reflux-disease:GERD(Gastroesophageal-reflux-disease)-(Cluster-3)_vs_Normal-(Cluster-3)_DOWN	NA	171552	171549	200643	1380	84107	838	84999	1382
+bsdb:1079/24/1_Esophageal-adenocarcinoma:Subjects-with-normal-esophagus-on-PPI-Yes_vs_Subjects-with-normal-esophagus-on-PPI-No_UP	NA	52227	1343
+bsdb:1079/24/2_Esophageal-adenocarcinoma:Subjects-with-normal-esophagus-on-PPI-Yes_vs_Subjects-with-normal-esophagus-on-PPI-No_DOWN	NA	1257	727	228604
+bsdb:1079/25/1_Esophageal-adenocarcinoma:Subjects-with-GERD-on-PPI-Yes_vs_Subjects-with-GERD-on-PPI-No_UP	NA	55565	32207	1283313	470565	60133	228604	29391	76860	186803	1213720	796942	909932	909929	31977	906	187326	29465
+bsdb:1079/25/2_Esophageal-adenocarcinoma:Subjects-with-GERD-on-PPI-Yes_vs_Subjects-with-GERD-on-PPI-No_DOWN	NA	487
 bsdb:1080/1/1_Lower-respiratory-tract-disease:Chronic-Otitis-Media-With-Effusion-(COME)-with-asthma-or-bronchiolitis_vs_Chronic-Otitis-Media-With-Effusion-(COME)-without-asthma-or-bronchiolitis_UP	NA	724	1279	475
 bsdb:1080/1/2_Lower-respiratory-tract-disease:Chronic-Otitis-Media-With-Effusion-(COME)-with-asthma-or-bronchiolitis_vs_Chronic-Otitis-Media-With-Effusion-(COME)-without-asthma-or-bronchiolitis_DOWN	NA	1652	29321
 bsdb:1081/1/1_Taxonomic-microbiome-measurement:Highly-attractive-group_vs_Poorly-attractive-group_UP	NA	73778	13687	1279
