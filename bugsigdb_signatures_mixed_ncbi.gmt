@@ -1,4 +1,4 @@
-# BugSigDB 2024-10-22_13:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2024-10-22_14:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	91061	1236	1654	1716	1301	162289	189330	33024	40544	2037	2049	506	186826	1300	31977	91347	1653	57037	1386	186817
 bsdb:1/1/2_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	100883	1117
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	207244	57037
@@ -4992,8 +4992,10 @@ bsdb:1055/1/1_Vesicle-membrane:Amniotic-fluid-derived-extracellular-vesicles-(AM
 bsdb:1055/1/2_Vesicle-membrane:Amniotic-fluid-derived-extracellular-vesicles-(AM-EVs)_vs_Amniotic-fluid-(AM)_DOWN	NA	1297
 bsdb:1055/2/1_Vesicle-membrane:Maternal-feces-(FE)_vs_Amniotic-fluid-(AM)_UP	NA	374	57495	216851	1279
 bsdb:1055/2/2_Vesicle-membrane:Maternal-feces-(FE)_vs_Amniotic-fluid-(AM)_DOWN	NA	976	1239
-bsdb:1055/5/1_Pregnancy:Feces-derived-extracellular-vesicles-(FE-EV)_vs_Amniotic-fluid-derived-extracellular-vesicles-(AM-EV)_UP	NA	816	150022	848
-bsdb:1055/6/1_Pregnancy:Feces-derived-extracellular-vesicles-(FE-EV)_vs_Maternal-feces-(FE)_UP	NA	239759	1283313	165779	816	397864	572511	1980681	1298	29393	171412	290054	1582879	216851	150022	1378	117563	1847725	1269	482	543311	162289	836	1279	1301	292632	29465	186803
+bsdb:1055/5/1_Vesicle-membrane:Feces-derived-extracellular-vesicles-(FE-EV)_vs_Amniotic-fluid-derived-extracellular-vesicles-(AM-EV)_UP	NA	32066
+bsdb:1055/5/2_Vesicle-membrane:Feces-derived-extracellular-vesicles-(FE-EV)_vs_Amniotic-fluid-derived-extracellular-vesicles-(AM-EV)_DOWN	NA	848	816	150022
+bsdb:1055/6/1_Vesicle-membrane:Feces-derived-extracellular-vesicles-(FE-EV)_vs_Maternal-feces-(FE)_UP	NA	239759	150022	1283313	165779	816	397864	572511	1980681	1298	29393	171412	290054	292632	1582879	29465	216851	1378	117563	186803	1847725	1269	482	543311	162289	836	1279	1301	459786	85043	707003
+bsdb:1055/6/2_Vesicle-membrane:Feces-derived-extracellular-vesicles-(FE-EV)_vs_Maternal-feces-(FE)_DOWN	NA	976	1297	32066	201174	3024418
 bsdb:1056/1/1_Microbiome-measurement:RNAlater---Day-4_vs_RNAlater---Day-0_UP	NA	201174	102106
 bsdb:1056/2/1_Microbiome-measurement:Fecal-occult-blood-test-[FOBT]-cards---Day-0_vs_RNAlater---Day-0_UP	NA	201174	1239	1678	102106	84111	580024	1473205	1972561	1578	1357	1301	1485	86331	2137877	207244	572511	189330	1407607	248744	39488	39496	39497	438033	33038	33039	186803	1505657	1501226	1505652	580596	216851	1980693	707003	1263	292632	290054	1573535	123375	906	52225
 bsdb:1056/2/2_Microbiome-measurement:Fecal-occult-blood-test-[FOBT]-cards---Day-0_vs_RNAlater---Day-0_DOWN	NA	976	1117	256845	1224	544448	816	397864	574697	283168	256318	749906	1283313	370804	239759	375288	1906119	830	28050	297314	39485	42322	1470353	459786	707003	186802	2152	172900	204441	35832	872	83770	577310	40544	119060	2975519	31969	415002
@@ -5413,6 +5415,8 @@ bsdb:1121/2/1_Helminthiasis,-animal:NbM-breastmilk-(Nippostrongylus-brasiliensis
 bsdb:1121/2/2_Helminthiasis,-animal:NbM-breastmilk-(Nippostrongylus-brasiliensis-Mothers)_vs_NvM-breastmilk-(Naive-Mothers)_DOWN	NA	186827	186817	1653	186818
 bsdb:1121/3/1_Helminthiasis,-animal:NbM-pups_vs_NvM-pups_UP	NA	128827	84107	1268	80864
 bsdb:1121/3/2_Helminthiasis,-animal:NbM-pups_vs_NvM-pups_DOWN	NA	31979	543	1653	186828
+bsdb:1121/4/1_Helminthiasis,-animal:NbMNvM-pups-(Nippostrongylus-brasiliensis-born,-Naive-nursed-pups)_vs_NvM-pups-(Naive-born,-Naive-nursed-pups)_UP	NA	128827	84107	1268
+bsdb:1121/4/2_Helminthiasis,-animal:NbMNvM-pups-(Nippostrongylus-brasiliensis-born,-Naive-nursed-pups)_vs_NvM-pups-(Naive-born,-Naive-nursed-pups)_DOWN	NA	31979	543
 bsdb:1124/1/1_Vaginal-microbiome-measurement:Main-group---CG,-Caucasian-German-women_vs_Combination-of-groups---AA,-AC,-AI-and-AK-women_UP	NA	1685	2702	1378	502393	419005	187328	200643
 bsdb:1124/2/1_Vaginal-microbiome-measurement:AK,-African-Kenyan-women_vs_Combination-of-groups---AA,-AC,-AI-and-CG-women_UP	NA	171551	836	598660
 bsdb:1124/3/1_Vaginal-microbiome-measurement:AI,-Asian-Indonesian-women_vs_Combination-of-groups---AA,-AC,-AK-and-CG-women_UP	NA	2	186801	1385	91061	90964	1279	1300	186826	165779	186804	1257	1582879	1596	1328	216816	1304
@@ -5478,6 +5482,7 @@ bsdb:1151/4/2_Lactose-intolerance:Participants-with-Lactose-intolerance-(LI)_vs_
 bsdb:1151/5/1_Lactose-intolerance:Participants-with-Lactose-Intolerance_vs_Healthy-Controls_UP	NA	561
 bsdb:1151/5/2_Lactose-intolerance:Participants-with-Lactose-Intolerance_vs_Healthy-Controls_DOWN	NA	1350	3025755	29465
 bsdb:1152/1/1_Response-to-antiviral-drug:Chronic-HIV-infected-cases_vs_HIV-uninfected-controls_UP	NA	397864	91347	543	128827	526525	526524	1236
+bsdb:1152/1/4_Response-to-antiviral-drug:Chronic-HIV-infected-cases_vs_HIV-uninfected-controls_DOWN	NA	239759	171550
 bsdb:1156/1/1_Age,Erythrocyte-indices,Growth-protocol,Hemoglobin-A2-measurement,Abnormal-result-of-function-studies:Exposed_vs_Unexposed_UP	NA	1409	976	838
 bsdb:1156/1/2_Age,Erythrocyte-indices,Growth-protocol,Hemoglobin-A2-measurement,Abnormal-result-of-function-studies:Exposed_vs_Unexposed_UP	NA	838	1409	976
 bsdb:1157/1/1_Stroke:Stroke-Associated-Pneumonia-(SAP)-Training-cohort_vs_Non-Stroke-Associated-Pneumonia-(non-SAP)-Training-cohort_UP	NA	91061	35832	91347	543	1350	551	1236	186826	375288	171551	1224	81852
@@ -5557,3 +5562,4 @@ bsdb:1178/3/2_Lactose-intolerance:lactose-intolerant_vs_healthy-control_DOWN	NA	
 bsdb:1180/1/1_HIV-1-infection:Follow-up_vs_Baseline_UP	NA	1912216	1279	119060	543
 bsdb:1180/1/2_HIV-1-infection:Follow-up_vs_Baseline_DOWN	NA	572511	1407607	438033	102106	135858	68
 bsdb:1182/1/1_Myostatin-related-muscle-hypertrophy:GEF(Gene-edited-female)_vs_WTF(Wild-type-female)_UP	NA	1239	186801	186802	1898207
+bsdb:1182/1/2_Myostatin-related-muscle-hypertrophy:GEF(Gene-edited-female)_vs_WTF(Wild-type-female)_DOWN	NA	976	200643	171549	171552
