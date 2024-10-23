@@ -1,4 +1,4 @@
-# BugSigDB 2024-10-23_09:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2024-10-23_10:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	91061	1236	1654	1716	1301	162289	189330	33024	40544	2037	2049	506	186826	1300	31977	91347	1653	57037	1386	186817
 bsdb:1/1/2_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	100883	1117
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	207244	57037
@@ -5316,6 +5316,7 @@ bsdb:1092/1/2_Cognitive-impairment:Cognitively-Impaired-Group_vs_Cognitively-Int
 bsdb:1092/2/1_Cognitive-impairment:Placebo-Group_vs_Baseline-Group_UP	NA	155900
 bsdb:1092/2/2_Cognitive-impairment:Placebo-Group_vs_Baseline-Group_DOWN	NA	2
 bsdb:1092/3/1_Cognitive-impairment:Probiotic-Group_vs_Baseline-Group_UP	NA	77133	1578	33958	32644	86331
+bsdb:1092/4/1_Cognitive-impairment:Probiotic-Group_vs_Placebo-Group_UP	NA	77133	1578	32644	86331
 bsdb:1093/1/1_Schizophrenia:SCZ:-individuals-with-a-psychiatric-diagnosis-of-schizophrenia_vs_HC:-individuals-without-a-psychiatric-diagnosis-of-schizophrenia_UP	NA	352152	40545	419015	246787	818	816	200448	1380	256318	459526	848	1283315	159272	408170	292800	278064	907	906	29465	239934
 bsdb:1093/1/2_Schizophrenia:SCZ:-individuals-with-a-psychiatric-diagnosis-of-schizophrenia_vs_HC:-individuals-without-a-psychiatric-diagnosis-of-schizophrenia_DOWN	NA	28117	816	28111	1516129	147206	290054	39496	84135	729	877420	28118	33024	204516	54291	3068309	3062497	1304	163602	175646	33039	397864	572511	95818	33042	39948	1407607	570	186803	407	1301	200446	286138	331630	316089	374604	1586779	297314	220137	707003	1757166	129703	165186
 bsdb:1094/1/1_Schizophrenia:SZ:-patients-with-schizophrenia_vs_NC:-normal-controls_UP	NA	904	225057	119977	135624	244127	1385	118747	135858	1485	102106	84999	33870	1716	872	213115	547	91347	1378	1578	52225	86331	189778	583	1266	970	83770	28033	179
@@ -5512,7 +5513,9 @@ bsdb:1160/7/1_Systemic-inflammatory-response-syndrome:MD-(cultured-model)_vs_ND-
 bsdb:1160/8/1_Systemic-inflammatory-response-syndrome:C4-(Compound-4)_vs_MD-(cultured-model)_UP	NA	976	1239
 bsdb:1160/9/1_Systemic-inflammatory-response-syndrome:C50-(Compound-50)_vs_MD-(cultured-model)_UP	NA	1239	976
 bsdb:1160/10/1_Systemic-inflammatory-response-syndrome:M_vs_N_UP	NA	816	583	574697	1940338	375288	35832	1350	1485	1505660	3025755
-bsdb:1160/10/2_Systemic-inflammatory-response-syndrome:M_vs_N_DOWN	NA	1508657	174708	191303	1331051	707003
+bsdb:1160/10/2_Systemic-inflammatory-response-syndrome:M_vs_N_DOWN	NA	174708	1331051	1508657	191303	707003
+bsdb:1160/11/1_Systemic-inflammatory-response-syndrome:MD_vs_ND_UP	NA	816	583	574697	1940338	375288	1485	35832	1350	1505660	3025755
+bsdb:1160/11/2_Systemic-inflammatory-response-syndrome:MD_vs_ND_DOWN	NA	1508657	174708	191303	1331051	707003
 bsdb:1161/1/1_Schistosomiasis:Schistosomiasis-positive_vs_Schistosomiasis-negative_UP	NA	469	1760	1283313	28221	872	194924	213115	39948	203491	203490	724	906	468	909932	133925	712	135625	186807	2740	838	171552	72274	1224	909929	31977	331632	31953
 bsdb:1161/1/2_Schistosomiasis:Schistosomiasis-positive_vs_Schistosomiasis-negative_DOWN	NA	1239	28216	1906119	1798710	186801	1117	186802	31969	544448	216572	375288	186804	171551	292632	331630	220137	658143	136703	1485
 bsdb:1162/1/1_Viral-encephalitis:Encephalitis-(ENC)_vs_healthy-controls-(CON)_UP	NA	91061	543	81852	128827	526525	1236	186826	171551	72274	171550	203557	48461	203494	1890499	1118	3028117	990719	526524
@@ -5560,6 +5563,7 @@ bsdb:1169/12/1_Gestational-diabetes:Previous-gestational-diabetes-mellitus-(GDM)
 bsdb:1169/12/2_Gestational-diabetes:Previous-gestational-diabetes-mellitus-(GDM)-pregnancy_vs_Previous-normoglycaemic--pregnancy_DOWN	NA	203492	848	72274
 bsdb:1170/1/1_Stroke:stroke-patients_vs_healthy-controls_UP	NA	858	1680	46506	203491	203490	848	203492	1578	29465	39778	1350	81852	158846	437897	561	186826	91061	543	1852375	91347
 bsdb:1170/1/2_Stroke:stroke-patients_vs_healthy-controls_DOWN	NA	28216	572511	89014	1737424	40520	418240	102106	74426	84107	128827	526525	526524	216851	853	1407607	1150298	745368	186803	310298	310297	186801	1239	482	206351	481	487	838	171552	165179	186804	28135	841	1263	360807	842	40518	292632	1898207
+bsdb:1170/2/1_Stroke:chronic-patients_vs_subacute_UP	NA	487174	397864	2005519	291644	630129	43305	1357	1363	583	584
 bsdb:1175/1/1_Polycystic-ovary-syndrome:Healthy-control_vs_A-combination-of-women-with-PCOS-with-insulin-resistant(PCOS-IR)-and-PCOS-with-no-insulin-resistance-(PCOS-NIR)_UP	NA	838
 bsdb:1175/2/1_Polycystic-ovary-syndrome:PCOS-IR_vs_A-combination-of-healthy-control-(HC)-and-PCOS-with-no-insulin-resistance-(PCOS-NIR)-women_UP	NA	2037	32207
 bsdb:1175/3/1_Polycystic-ovary-syndrome:PCOS-NIR_vs_A-combination-of-PCOS-insulin-resistant-(PCOS-IR)-and-healthy-control-(HC)-women._UP	NA	33958	1578

@@ -1,4 +1,4 @@
-# BugSigDB 2024-10-23_09:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2024-10-23_10:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	Actinomyces	Corynebacterium	Streptococcus	Peptoniphilus	Dorea	Phascolarctobacterium	Sutterella	Lacticaseibacillus	Bacillus
 bsdb:1/1/2_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	Coprobacillus
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	Anaerostipes	Lacticaseibacillus
@@ -4688,6 +4688,7 @@ bsdb:1091/5/1_Chronic-gastritis,Gastric-cancer:Non-intestinal-metaplasia_vs_Othe
 bsdb:1092/1/1_Cognitive-impairment:Cognitively-Impaired-Group_vs_Cognitively-Intact-Group_UP	NA	Phocaeicola	Prevotella
 bsdb:1092/1/2_Cognitive-impairment:Cognitively-Impaired-Group_vs_Cognitively-Intact-Group_DOWN	NA	Phocaeicola
 bsdb:1092/3/1_Cognitive-impairment:Probiotic-Group_vs_Baseline-Group_UP	NA	Lactobacillus	Mogibacterium
+bsdb:1092/4/1_Cognitive-impairment:Probiotic-Group_vs_Placebo-Group_UP	NA	Lactobacillus	Mogibacterium
 bsdb:1093/1/1_Schizophrenia:SCZ:-individuals-with-a-psychiatric-diagnosis-of-schizophrenia_vs_HC:-individuals-without-a-psychiatric-diagnosis-of-schizophrenia_UP	NA	Acidaminococcus	Sutterella	Alloscardovia	Bacteroides	Sarcina	Atopobium	Flavobacterium	Fusobacterium	Alloprevotella	Prevotella	Flavonifractor	Dialister	Megasphaera	Veillonella	Akkermansia
 bsdb:1093/1/2_Schizophrenia:SCZ:-individuals-with-a-psychiatric-diagnosis-of-schizophrenia_vs_HC:-individuals-without-a-psychiatric-diagnosis-of-schizophrenia_DOWN	NA	Alistipes	Bacteroides	Collinsella	Eubacterium	Gemella	Haemophilus	Odoribacter	Phascolarctobacterium	Phocaeicola	Raoultella	Ruminococcus	Streptococcus	Mediterraneibacter	Barnesiella	Blautia	Coprococcus	Dialister	Fusicatenibacter	Klebsiella	Methylobacterium	Citrobacter	Dorea	Granulicatella	Hafnia	Lachnoclostridium	Ruminiclostridium
 bsdb:1094/1/1_Schizophrenia:SZ:-patients-with-schizophrenia_vs_NC:-normal-controls_UP	NA	Acidaminococcus	Acidithiobacillus	Anaerotruncus	Bulleidia	Catenibacterium	Clostridium	Collinsella	Coriobacterium	Corynebacterium	Desulfovibrio	Enterobacter	Gemella	Lactobacillus	Mitsuokella	Mogibacterium	Proteus	Sarcina	Selenomonas	Succinivibrio	Sulfobacillus	Leptospirillum
@@ -4861,7 +4862,9 @@ bsdb:1158/3/2_Sleep-duration:Long-Sleepers_vs_Short-sleepers_DOWN	NA	Bacteroides
 bsdb:1160/3/1_Systemic-inflammatory-response-syndrome:FMT-HK-Group_vs_FMT-L-Group_UP	NA	Bacteroides
 bsdb:1160/4/1_Systemic-inflammatory-response-syndrome:FMT-HK-Group_vs_LPS-induced-SIRS-(systemic-inflammatory-response-syndrome)-group_UP	NA	Bacteroides
 bsdb:1160/10/1_Systemic-inflammatory-response-syndrome:M_vs_N_UP	NA	Bacteroides	Proteus	Butyricimonas	Parabacteroides	Bilophila	Enterococcus	Clostridium	Asaccharospora	Thomasclavelia
-bsdb:1160/10/2_Systemic-inflammatory-response-syndrome:M_vs_N_DOWN	NA	Ruminiclostridium	Allobaculum	Turicibacter	Candidatus Saccharimonas
+bsdb:1160/10/2_Systemic-inflammatory-response-syndrome:M_vs_N_DOWN	NA	Allobaculum	Candidatus Saccharimonas	Ruminiclostridium	Turicibacter
+bsdb:1160/11/1_Systemic-inflammatory-response-syndrome:MD_vs_ND_UP	NA	Bacteroides	Proteus	Butyricimonas	Parabacteroides	Clostridium	Bilophila	Enterococcus	Asaccharospora	Thomasclavelia
+bsdb:1160/11/2_Systemic-inflammatory-response-syndrome:MD_vs_ND_DOWN	NA	Ruminiclostridium	Allobaculum	Turicibacter	Candidatus Saccharimonas
 bsdb:1161/1/1_Schistosomiasis:Schistosomiasis-positive_vs_Schistosomiasis-negative_UP	NA	Acinetobacter	Alloprevotella	Desulfovibrio	Dialister	Haemophilus	Megasphaera	Olsenella	Peptococcus	Prevotella
 bsdb:1161/1/2_Schistosomiasis:Schistosomiasis-positive_vs_Schistosomiasis-negative_DOWN	NA	Parabacteroides	Subdoligranulum	Clostridium
 bsdb:1162/2/1_Viral-encephalitis:Encephalitis-(ENC)_vs_healthy-controls-(CON)_UP	NA	Akkermansia	Oscillospira	Parabacteroides
@@ -4907,6 +4910,7 @@ bsdb:1169/12/1_Gestational-diabetes:Previous-gestational-diabetes-mellitus-(GDM)
 bsdb:1169/12/2_Gestational-diabetes:Previous-gestational-diabetes-mellitus-(GDM)-pregnancy_vs_Previous-normoglycaemic--pregnancy_DOWN	NA	Fusobacterium
 bsdb:1170/1/1_Stroke:stroke-patients_vs_healthy-controls_UP	NA	Fusobacterium	Bifidobacterium	Bacteroides	Lactobacillus	Veillonella	Enterococcus	Megamonas	Escherichia	Acidaminococcus
 bsdb:1170/1/2_Stroke:stroke-patients_vs_healthy-controls_DOWN	NA	Blautia	Collinsella	Faecalibacterium	Fusicatenibacter	Phocaeicola	Neisseria	Prevotella	Segatella	Roseburia	Ruminococcus	Subdoligranulum
+bsdb:1170/2/1_Stroke:chronic-patients_vs_subacute_UP	NA	Barnesiella	Bacteroides	Bifidobacterium	Butyrivibrio	Lactococcus	Proteus
 bsdb:1175/1/1_Polycystic-ovary-syndrome:Healthy-control_vs_A-combination-of-women-with-PCOS-with-insulin-resistant(PCOS-IR)-and-PCOS-with-no-insulin-resistance-(PCOS-NIR)_UP	NA	Prevotella
 bsdb:1175/2/1_Polycystic-ovary-syndrome:PCOS-IR_vs_A-combination-of-healthy-control-(HC)-and-PCOS-with-no-insulin-resistance-(PCOS-NIR)-women_UP	NA	Rothia
 bsdb:1175/3/1_Polycystic-ovary-syndrome:PCOS-NIR_vs_A-combination-of-PCOS-insulin-resistant-(PCOS-IR)-and-healthy-control-(HC)-women._UP	NA	Lactobacillus
