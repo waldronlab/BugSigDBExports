@@ -1,4 +1,4 @@
-# BugSigDB 2024-10-27_17:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2024-10-27_19:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	91061	1236	1654	1716	1301	162289	189330	33024	40544	2037	2049	506	186826	1300	31977	91347	1653	57037	1386	186817
 bsdb:1/1/2_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	100883	1117
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	207244	57037
@@ -4936,10 +4936,10 @@ bsdb:1108/4/1_HIV-infection:HIV---infected_vs_HIV---uninfected_UP	NA	2039240	830
 bsdb:1108/4/2_HIV-infection:HIV---infected_vs_HIV---uninfected_DOWN	NA	1654	201174	1239	2810280	84107	84111	203492	1578	123375
 bsdb:1109/1/1_Autoimmune-type-1-diabetes:autoimmune-type-1-diabetes_vs_healthy-control_UP	NA	2005519	186803	171550	40518	165179
 bsdb:1110/1/1_Acute-pancreatitis:Acute-Pancreatitis-(AP)_vs_Control-group_UP	NA	1694	1834205
-bsdb:1110/2/1_Acute-pancreatitis:Caeurulein-group_vs_Control-group_UP	NA	47678	2715212	28116	818	5204	1834205	2093856	1930617	456828	118001	74152	142182	256845	2530390	1796646	357276	821	1224	74201	2606626
-bsdb:1110/2/2_Acute-pancreatitis:Caeurulein-group_vs_Control-group_DOWN	NA	200783	1239	67814	7711	68297	544448	651137	67799	301301	2610895	2086584	166486	1496	2109688	33035	1834196	853	1871021	2109691	292800	29347	208479
-bsdb:1110/3/1_Acute-pancreatitis:Caeurulein+LPS-group_vs_Control-group_UP	NA	1834205	2093856	1379697	2138240	68337	562	65842	2530390	1796646	823	821	74201
-bsdb:1110/3/2_Acute-pancreatitis:Caeurulein+LPS-group_vs_Control-group_DOWN	NA	67814	363464	95818	28889	2364787	328813	2585118	214856	2585119	2518971
+bsdb:1110/2/1_Acute-pancreatitis:Caeurulein-group_vs_Control-group_UP	NA	47678	818	142182	2606626	1834205	2093856	118001	2530390	1796646	357276	821	1224
+bsdb:1110/2/2_Acute-pancreatitis:Caeurulein-group_vs_Control-group_DOWN	NA	2109688	1496	68297	208479	853	292800	2610895	1871021	301301	1834196	2109691	2086584	544448	651137	166486	67799	29347
+bsdb:1110/3/1_Acute-pancreatitis:Caeurulein+LPS-group_vs_Control-group_UP	NA	1834205	2093856	562	1796646	823	821	2530390
+bsdb:1110/3/2_Acute-pancreatitis:Caeurulein+LPS-group_vs_Control-group_DOWN	NA	2585118	2585119	214856	2364787	328813	2518971
 bsdb:1110/4/1_Acute-pancreatitis:L-arginine-group_vs_Control-group_UP	NA	1239	1834205	1801631	1379697	65842	1596	33959	1622	1224
 bsdb:1110/4/2_Acute-pancreatitis:L-arginine-group_vs_Control-group_DOWN	NA	67814	28890	651137	1655434	1496	2109688	33035	2610895	853	1871021	2109691	292800	29347	214856	2585118	208479	2364787	328813	2585119	328814	2715212
 bsdb:1111/1/1_Relapsing-remitting-multiple-sclerosis:Caucasian-Americans-(CA)_vs_Healthy-Controls_UP	NA	48461	74201	203557	203494	1485	239934
@@ -5036,6 +5036,13 @@ bsdb:1146/1/2_Autism-spectrum-disorder:Children-with-Autism-Spectrum-Disorder-(A
 bsdb:1148/1/1_Eating-behaviour:High-feed-intake_vs_Low-feed-intake_UP	NA	816	1926659	201174	84998
 bsdb:1148/1/2_Eating-behaviour:High-feed-intake_vs_Low-feed-intake_DOWN	NA	35829	1854458	2132	128827	1236	31969	216572
 bsdb:1148/2/1_Eating-behaviour:High-feed-intake_vs_Low-feed-intake_UP	NA	47678	691816
+bsdb:1149/1/1_Aging:71-80-years-(Older-Age-Group)_vs_61-70-years-(Younger-Age-Group)_UP	NA	816	357276
+bsdb:1149/2/1_Aging:SG90_vs_SPMP_UP	NA	328813	328814	239759	371601	561	562	46503
+bsdb:1149/2/2_Aging:SG90_vs_SPMP_DOWN	NA	410072	35832	84111	88431	39485	39488	39491	853	158846	166486	360807	33038	40520	33039
+bsdb:1149/3/1_Aging:SG90_vs_T2D_UP	NA	626932	328813	1288121	328814	239759	2585118	371601	357276	573	561
+bsdb:1149/3/2_Aging:SG90_vs_T2D_DOWN	NA	28026	35832	410072	39486	88431	853	39491	39488	39485	39496	658081	658089	301301	360807	158846	166486	33038	40518	40519	46228	40520	33039	457412
+bsdb:1149/4/1_Aging:All-Cohorts-(Increased-age-group)_vs_All-Cohorts-(Decreased-age-group)_UP	NA	239759	2585118	626932	328813	1288121	328814	816	626929	371601	561	562	570	573	283168	46503	1224	909930	357276	200643
+bsdb:1149/4/2_Aging:All-Cohorts-(Increased-age-group)_vs_All-Cohorts-(Decreased-age-group)_DOWN	NA	39491	39488	1678	1680	28026	35832	572511	40520	102106	74426	100883	33042	116085	410072	189330	39486	88431	1730	39496	216851	853	848	39485	658081	658089	33038	158846	437897	387661	577309	577310	487175	841	301301	166486	360807	1263	40518	40519	457412	46228	33039	84111	203490	201174	1239
 bsdb:1151/1/1_Lactose-intolerance:Participants-with-Lactose-Intolerance(LI)_vs_Participants-without-Lactose-Intolerance(Non-LI)_UP	NA	506	28216	572511	80840	1485	102106	283	39948	724	186803	906	712	135625	171551	136	2202144	157	137
 bsdb:1151/1/2_Lactose-intolerance:Participants-with-Lactose-Intolerance(LI)_vs_Participants-without-Lactose-Intolerance(Non-LI)_DOWN	NA	239759	830	1117	872	1730	2590211	31969	216572	838	171552	171550	1263	83770	544448
 bsdb:1151/2/1_Lactose-intolerance:Participants-with-Lactose-Intolerance(LI)_vs_Healthy-controls-(HC)_UP	NA	817	80840	547	158836	91347	543	561	562	1263017	1236	28050	1243	2293114	1224	2293146	1262952	590	28901	620	570	375288
