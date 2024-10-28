@@ -1,4 +1,4 @@
-# BugSigDB 2024-10-28_16:59_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2024-10-28_17:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	91061	1236	1654	1716	1301	162289	189330	33024	40544	2037	2049	506	186826	1300	31977	91347	1653	57037	1386	186817
 bsdb:1/1/2_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	100883	1117
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	207244	57037
@@ -5017,12 +5017,14 @@ bsdb:1140/1/1_Ischemic-stroke:Acute-ischemic-stroke-(AIS)_vs_Healthy-control-gro
 bsdb:1140/2/1_Ischemic-stroke:Mild-acute-ischemic-stroke_vs_Healthy-control/moderate-AIS/-severe-AIS_UP	NA	191394	72293	81850	1268	41294
 bsdb:1140/3/1_Ischemic-stroke:Moderate-acute-ischemic-stroke_vs_Healthy-control/mild-AIS/-severe-AIS_UP	NA	543	81852	128827	2159	1653	186806
 bsdb:1140/4/1_Ischemic-stroke:Severe-acute-ischemic-stroke_vs_Healthy-control/mild-AIS/-moderate-AIS_UP	NA	171551	2092	69277	186828	90964
-bsdb:1140/5/1_Ischemic-stroke:Acute-ischemic-stroke-(AIS)_vs_Healthy-control-group-(HC)_UP	NA	239934	543	33958	171551
-bsdb:1140/5/2_Ischemic-stroke:Acute-ischemic-stroke-(AIS)_vs_Healthy-control-group-(HC)_DOWN	NA	841	816	186803	216851	572511	207244
-bsdb:1140/6/1_Ischemic-stroke:Mild--(AIS)_vs_Moderate-Acute-ischemic-stroke-(AIS)_UP	NA	841	816	216851	33958	171551
+bsdb:1140/5/1_Ischemic-stroke:Acute-ischemic-stroke-(AIS)_vs_Healthy-control-group-(HC)_UP	NA	239934	543	171551	33958
+bsdb:1140/5/2_Ischemic-stroke:Acute-ischemic-stroke-(AIS)_vs_Healthy-control-group-(HC)_DOWN	NA	207244	816	572511	216851	186803	841
+bsdb:1140/6/1_Ischemic-stroke:Mild--(AIS)_vs_Moderate-Acute-ischemic-stroke-(AIS)_UP	NA	816	216851	171551	841	33958
 bsdb:1140/6/2_Ischemic-stroke:Mild--(AIS)_vs_Moderate-Acute-ischemic-stroke-(AIS)_DOWN	NA	239934	207244	572511	543	186803
-bsdb:1140/7/1_Ischemic-stroke:Severe-AIS_vs_Mild-Acute-ischemic-stroke-(AIS)_UP	NA	207244	239934	543	171551
-bsdb:1140/7/2_Ischemic-stroke:Severe-AIS_vs_Mild-Acute-ischemic-stroke-(AIS)_DOWN	NA	841	816	186803	216851	572511	33958
+bsdb:1140/7/1_Ischemic-stroke:Severe-AIS_vs_Mild-Acute-ischemic-stroke-(AIS)_UP	NA	239934	207244	543	171551
+bsdb:1140/7/2_Ischemic-stroke:Severe-AIS_vs_Mild-Acute-ischemic-stroke-(AIS)_DOWN	NA	816	572511	216851	186803	841	33958
+bsdb:1140/8/1_Ischemic-stroke:Moderate-AIS_vs_Severe-Acute-ischemic-stroke-(AIS)_UP	NA	239934	207244	816	572511	543	186803	841	33958
+bsdb:1140/8/2_Ischemic-stroke:Moderate-AIS_vs_Severe-Acute-ischemic-stroke-(AIS)_DOWN	NA	216851	171551
 bsdb:1141/1/1_Postnatal-growth-retardation:Colostrum-deprived-mice_vs_Control_UP	NA	1331051	248744	171550	216572	2171986
 bsdb:1141/1/2_Postnatal-growth-retardation:Colostrum-deprived-mice_vs_Control_DOWN	NA	290055	1506577	204441
 bsdb:1143/1/1_Stroke:Post-Stroke-Patients_vs_Healthy-Control_UP	NA	194924	213115	3031449	186802	203492	203491	203490	216572	38145
@@ -5169,6 +5171,8 @@ bsdb:1174/2/1_Population:Adadle_vs_Central-African-Republic_UP	NA	2049	1647988	3
 bsdb:1174/2/2_Population:Adadle_vs_Central-African-Republic_DOWN	NA	2146	909930	815	2005519	72294	194924	72293	1573805	2005473	216572	75682	712	171552	171550	1843491	995019	2005525	31977
 bsdb:1174/3/1_Population:Adadle-Agropastoral-Lifestyle_vs_Industrial-Lifestyle_UP	NA	3030910	1643824	186817	2810280	84107	81852	128827	3085657	171552	1300	83763
 bsdb:1174/3/2_Population:Adadle-Agropastoral-Lifestyle_vs_Industrial-Lifestyle_DOWN	NA	1647988	815	2005519	31953	31979	1185407	194924	1573805	216572	712	186804	171551	171550	995019	2005525	31977
+bsdb:1174/4/1_Population:Adadle-Agropastoral-Lifestyle_vs_Traditional-Lifestyle_UP	NA	3030910	2810280	84107	1643826	543	128827	1300
+bsdb:1174/4/2_Population:Adadle-Agropastoral-Lifestyle_vs_Traditional-Lifestyle_DOWN	NA	2146	909930	815	72294	31979	194924	641876	2159	2005473	216572	75682	712	171552	171550	1843491	137	83763	995019	2005525	31977	256845
 bsdb:1175/1/1_Polycystic-ovary-syndrome:Healthy-control_vs_A-combination-of-women-with-PCOS-with-insulin-resistant(PCOS-IR)-and-PCOS-with-no-insulin-resistance-(PCOS-NIR)_UP	NA	838
 bsdb:1175/2/1_Polycystic-ovary-syndrome:PCOS-IR_vs_A-combination-of-healthy-control-(HC)-and-PCOS-with-no-insulin-resistance-(PCOS-NIR)-women_UP	NA	2037	32207
 bsdb:1175/3/1_Polycystic-ovary-syndrome:PCOS-NIR_vs_A-combination-of-PCOS-insulin-resistant-(PCOS-IR)-and-healthy-control-(HC)-women._UP	NA	33958	1578
