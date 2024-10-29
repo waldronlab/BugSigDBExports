@@ -1,4 +1,4 @@
-# BugSigDB 2024-10-29_16:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2024-10-29_21:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	Lacticaseibacillus zeae
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	Lacticaseibacillus zeae
 bsdb:1/6/1_Colorectal-adenoma:Non-advanced-conventional-adenoma-cases_vs_controls_UP	NA	Lacticaseibacillus zeae
@@ -2330,18 +2330,24 @@ bsdb:1185/2/2_Human-gut-metagenome:High-LPS-levels_vs_Low-LPS-levels_DOWN	NA	Bac
 bsdb:1185/3/1_IGA-glomerulonephritis:High-IgA-response_vs_Low-IgA-response_UP	NA	Escherichia coli	Klebsiella oxytoca	Shigella flexneri
 bsdb:1185/4/1_Eating-behaviour:High-HEI-group_vs_Low-HEI-group_UP	NA	Veillonella atypica
 bsdb:1185/5/2_Plasma-Cell-Count:High-Plasma-LBP-group_vs_Low-Plasma-LBP-group_DOWN	NA	Faecalibacterium prausnitzii
-bsdb:1188/1/1_Gestational-diabetes:Control_Indian-(non-GDM)_vs_Control_Malay-(non-GDM)_UP	NA	Lachnospiraceae bacterium NK4A136
-bsdb:1188/1/2_Gestational-diabetes:Control_Indian-(non-GDM)_vs_Control_Malay-(non-GDM)_DOWN	NA	Escherichia/Shigella sp.	Lachnospiraceae bacterium NK4A136
-bsdb:1188/2/1_Gestational-diabetes:Control_Chinese(non-GDM)_vs_Control_Malay-(non-GDM)_UP	NA	Escherichia/Shigella sp.	Lachnospiraceae bacterium NK4A136
-bsdb:1188/2/2_Gestational-diabetes:Control_Chinese(non-GDM)_vs_Control_Malay-(non-GDM)_DOWN	NA	Escherichia/Shigella sp.	Lachnospiraceae bacterium NK4A136
-bsdb:1188/3/1_Gestational-diabetes:Control_Chinese(non-GDM)_vs_Control_Indian-(non-GDM)_UP	NA	Escherichia/Shigella sp.	Lachnospiraceae bacterium NK4A136
-bsdb:1188/3/2_Gestational-diabetes:Control_Chinese(non-GDM)_vs_Control_Indian-(non-GDM)_DOWN	NA	Lachnospiraceae bacterium NK4A136
-bsdb:1188/4/2_Gestational-diabetes:GDM_Malay_vs_Control_Malay-(non-GDM)_DOWN	NA	Escherichia/Shigella sp.	Lachnospiraceae bacterium NK4A136
-bsdb:1188/5/2_Gestational-diabetes:GDM_Indian_vs_Control_Indian--(non-GDM)_DOWN	NA	Lachnospiraceae bacterium NK4A136
-bsdb:1188/6/2_Gestational-diabetes:GDM_Chinese_vs_Control_Chinese-(non-GDM)_DOWN	NA	Escherichia/Shigella sp.	Lachnospiraceae bacterium NK4A136
-bsdb:1188/7/2_Gestational-diabetes:GDM_Chinese_vs_Control_Malay--(non-GDM)_DOWN	NA	Escherichia/Shigella sp.	Lachnospiraceae bacterium NK4A136
-bsdb:1188/8/2_Gestational-diabetes:GDM_Indian_vs_Control_Malay--(non-GDM)_DOWN	NA	Escherichia/Shigella sp.	Lachnospiraceae bacterium NK4A136
-bsdb:1188/9/2_Gestational-diabetes:GDM_Malay_vs_Control_Indian--(non-GDM)_DOWN	NA	Lachnospiraceae bacterium NK4A136
+bsdb:1188/1/1_Gestational-diabetes:Control_Indian-(non-GDM)_vs_Control_Malay-(non-GDM)_UP	NA	Lachnospiraceae bacterium NK4A136	[Ruminococcus] torques
+bsdb:1188/1/2_Gestational-diabetes:Control_Indian-(non-GDM)_vs_Control_Malay-(non-GDM)_DOWN	NA	Escherichia/Shigella sp.	Lachnospiraceae bacterium NK4A136	[Clostridium] innocuum	Eubacterium ventriosum
+bsdb:1188/2/1_Gestational-diabetes:Control_Chinese(non-GDM)_vs_Control_Malay-(non-GDM)_UP	NA	Escherichia/Shigella sp.	Lachnospiraceae bacterium NK4A136	[Ruminococcus] torques	[Eubacterium] siraeum
+bsdb:1188/2/2_Gestational-diabetes:Control_Chinese(non-GDM)_vs_Control_Malay-(non-GDM)_DOWN	NA	Escherichia/Shigella sp.	Lachnospiraceae bacterium NK4A136	[Clostridium] innocuum	Eubacterium ventriosum
+bsdb:1188/3/1_Gestational-diabetes:Control_Chinese(non-GDM)_vs_Control_Indian-(non-GDM)_UP	NA	Escherichia/Shigella sp.	Lachnospiraceae bacterium NK4A136	[Ruminococcus] torques	[Eubacterium] siraeum
+bsdb:1188/3/2_Gestational-diabetes:Control_Chinese(non-GDM)_vs_Control_Indian-(non-GDM)_DOWN	NA	Lachnospiraceae bacterium NK4A136	[Ruminococcus] torques
+bsdb:1188/4/1_Gestational-diabetes:GDM_Malay_vs_Control_Malay-(non-GDM)_UP	NA	Anaerobutyricum hallii	[Eubacterium] brachy
+bsdb:1188/4/2_Gestational-diabetes:GDM_Malay_vs_Control_Malay-(non-GDM)_DOWN	NA	Escherichia/Shigella sp.	Lachnospiraceae bacterium NK4A136	[Clostridium] innocuum	Eubacterium ventriosum
+bsdb:1188/5/1_Gestational-diabetes:GDM_Indian_vs_Control_Indian--(non-GDM)_UP	NA	Anaerobutyricum hallii	[Ruminococcus] torques
+bsdb:1188/5/2_Gestational-diabetes:GDM_Indian_vs_Control_Indian--(non-GDM)_DOWN	NA	Lachnospiraceae bacterium NK4A136	[Ruminococcus] torques
+bsdb:1188/6/1_Gestational-diabetes:GDM_Chinese_vs_Control_Chinese-(non-GDM)_UP	NA	[Ruminococcus] torques	Mediterraneibacter gnavus	Lachnospira eligens	[Eubacterium] brachy	Anaerobutyricum hallii
+bsdb:1188/6/2_Gestational-diabetes:GDM_Chinese_vs_Control_Chinese-(non-GDM)_DOWN	NA	Escherichia/Shigella sp.	Lachnospiraceae bacterium NK4A136	[Eubacterium] siraeum	[Ruminococcus] torques
+bsdb:1188/7/1_Gestational-diabetes:GDM_Chinese_vs_Control_Malay--(non-GDM)_UP	NA	Lachnospira eligens	[Ruminococcus] torques	Anaerobutyricum hallii	Mediterraneibacter gnavus	[Eubacterium] brachy
+bsdb:1188/7/2_Gestational-diabetes:GDM_Chinese_vs_Control_Malay--(non-GDM)_DOWN	NA	Escherichia/Shigella sp.	Lachnospiraceae bacterium NK4A136	[Clostridium] innocuum	Eubacterium ventriosum
+bsdb:1188/8/1_Gestational-diabetes:GDM_Indian_vs_Control_Malay--(non-GDM)_UP	NA	[Ruminococcus] torques	Anaerobutyricum hallii
+bsdb:1188/8/2_Gestational-diabetes:GDM_Indian_vs_Control_Malay--(non-GDM)_DOWN	NA	Escherichia/Shigella sp.	Lachnospiraceae bacterium NK4A136	[Clostridium] innocuum	Eubacterium ventriosum
+bsdb:1188/9/1_Gestational-diabetes:GDM_Malay_vs_Control_Indian--(non-GDM)_UP	NA	[Eubacterium] brachy	Anaerobutyricum hallii
+bsdb:1188/9/2_Gestational-diabetes:GDM_Malay_vs_Control_Indian--(non-GDM)_DOWN	NA	Lachnospiraceae bacterium NK4A136	[Ruminococcus] torques
 bsdb:1188/10/2_Gestational-diabetes:GDM_Chinese_vs_Control_Indian---(non-GDM)_DOWN	NA	Lachnospiraceae bacterium NK4A136
 bsdb:1188/11/2_Gestational-diabetes:GDM_Malay_vs_Control_Chinese--(non-GDM)_DOWN	NA	Escherichia/Shigella sp.	Lachnospiraceae bacterium NK4A136
 bsdb:1188/12/2_Gestational-diabetes:GDM_Indian_vs_Control_Chinese-(non-GDM)_DOWN	NA	Escherichia/Shigella sp.	Lachnospiraceae bacterium NK4A136
