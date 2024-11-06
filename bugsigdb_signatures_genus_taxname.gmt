@@ -1,4 +1,4 @@
-# BugSigDB 2024-11-06_03:02_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2024-11-06_03:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	Actinomyces	Corynebacterium	Streptococcus	Peptoniphilus	Dorea	Phascolarctobacterium	Sutterella	Lacticaseibacillus	Bacillus
 bsdb:1/1/2_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	Coprobacillus
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	Anaerostipes	Lacticaseibacillus
@@ -4051,6 +4051,15 @@ bsdb:1046/4/1_Aging:Samples-PLWH-on-ART_vs_Samples-of-PLWOH_UP	NA	Agathobacter	A
 bsdb:1046/4/2_Aging:Samples-PLWH-on-ART_vs_Samples-of-PLWOH_DOWN	NA	Alistipes	Alloprevotella	Bacteroides	Fusobacterium	Lachnoclostridium	Mediterraneibacter	Parabacteroides	Sutterella
 bsdb:1046/5/1_Aging:Samples-of-PLWH-on-ART_vs_Samples-of-PLWOH_UP	NA	Agathobacter	Anaerobutyricum	Anaerostipes	Blautia	Catenibacterium	Collinsella	Dorea	Fusicatenibacter	Holdemanella	Romboutsia	Ruminococcus
 bsdb:1046/5/2_Aging:Samples-of-PLWH-on-ART_vs_Samples-of-PLWOH_DOWN	NA	Alistipes	Alloprevotella	Bacteroides	Fusobacterium	Lachnoclostridium	Mediterraneibacter	Parabacteroides	Sutterella
+bsdb:1047/1/1_Response-to-antidepressant:Control-Group_vs_CUMS,-(CUMS + XYS)-and-(CUMS + FLX)-groups_UP	NA	Staphylococcus
+bsdb:1047/2/1_Response-to-antidepressant:CUMS-group_vs_Control,-(CUMS + XYS)-and-(CUMS + FLX)-groups_UP	NA	Bacteroides	Klebsiella
+bsdb:1047/3/1_Response-to-antidepressant:CUMS + FLX-group_vs_Control,-CUMS,-and-(CUMS + XYS)-groups_UP	NA	Allobaculum
+bsdb:1047/4/1_Response-to-antidepressant:CUMS + XYS-group_vs_Control,-CUMS,-and-(CUMS + FLX)-groups_UP	NA	Lactobacillus
+bsdb:1047/5/1_Environmental-stress-treatment:CUMS-Group_vs_Control-group_UP	NA	Prevotella	Paraprevotella
+bsdb:1047/5/2_Environmental-stress-treatment:CUMS-Group_vs_Control-group_DOWN	NA	Faecalibacterium
+bsdb:1047/6/1_Response-to-transplant:Control + FMT(CUMS)-group_vs_Control-group_UP	NA	Prevotella	Paraprevotella	Parabacteroides	Allobaculum
+bsdb:1047/7/1_Response-to-transplant:CUMS-+-FMT(XYS)-group_vs_CUMS-group_UP	NA	Paraprevotella	Prevotella
+bsdb:1047/7/2_Response-to-transplant:CUMS-+-FMT(XYS)-group_vs_CUMS-group_DOWN	NA	Candidatus Arthromitus	Dialister	Ruminococcus
 bsdb:1048/33/1_Microbiome:Unspiked-pig-feces(P1)-at-16-hours-(-80°C)_vs_Unspiked-pig-feces(P1)-at-0-hour_UP	NA	Prevotella	Phascolarctobacterium
 bsdb:1048/33/2_Microbiome:Unspiked-pig-feces(P1)-at-16-hours-(-80°C)_vs_Unspiked-pig-feces(P1)-at-0-hour_DOWN	NA	Treponema	Faecalibacterium	Roseburia
 bsdb:1048/34/1_Microbiome:Unspiked-pig-feces(P1)-at-64-hours-(-80°C)_vs_Unspiked-pig-feces(P1)-at-0-hour_UP	NA	Prevotella	Phascolarctobacterium
@@ -4743,7 +4752,7 @@ bsdb:1152/1/1_Response-to-antiviral-drug:Chronic-HIV-infected-cases_vs_HIV-uninf
 bsdb:1152/1/4_Response-to-antiviral-drug:Chronic-HIV-infected-cases_vs_HIV-uninfected-controls_DOWN	NA	Alistipes
 bsdb:1152/2/1_Response-to-antiviral-drug:Chronic-HIV-infected-cases_vs_HIV-uninfected-controls_DOWN	NA	Alistipes
 bsdb:1152/2/2_Response-to-antiviral-drug:Chronic-HIV-infected-cases_vs_HIV-uninfected-controls_UP	NA	Barnesiella
-bsdb:1156/1/1_Gut-microbiome-measurement:Exposed_vs_Unexposed_UP	NA	Bacillus	Prevotella
+bsdb:1156/1/1_Gut-microbiome-measurement:Exposed_vs_Unexposed_UP	NA	Prevotella
 bsdb:1156/1/2_Gut-microbiome-measurement:Exposed_vs_Unexposed_UP	NA	Prevotella	Bacillus
 bsdb:1157/1/1_Stroke:Stroke-Associated-Pneumonia-(SAP)-Training-cohort_vs_Non-Stroke-Associated-Pneumonia-(non-SAP)-Training-cohort_UP	NA	Bilophila	Enterococcus	Erwinia	Parabacteroides
 bsdb:1157/1/2_Stroke:Stroke-Associated-Pneumonia-(SAP)-Training-cohort_vs_Non-Stroke-Associated-Pneumonia-(non-SAP)-Training-cohort_DOWN	NA	Roseburia
@@ -5048,14 +5057,16 @@ bsdb:1201/2/1_Human-papillomavirus:HR-HPV-infected-in-HIV-negative_vs_HR-HPV-uni
 bsdb:1201/4/1_Human-papillomavirus:Corynebacterium-dominated-penile-microbiota-(CST-1)_vs_Non-Corynebacterium-dominated-microbiota-(Diverse-penile-microbiota-(CSTs-2-5))_UP	NA	Anaerococcus	Bifidobacterium	Blautia	Brachybacterium	Brevibacterium	Clostridium	Corynebacterium	Delftia	Dermabacter	Enhydrobacter	Eremococcus	Exiguobacterium	Facklamia	Gemmiger	Jeotgalicoccus	Massilia	Methylobacterium	Neisseria	Propionibacterium	Pseudoclavibacter	Psychrobacter	Roseburia	Salinicoccus	Sphingomonas	Staphylococcus	Tessaracoccus	Nosocomiicoccus
 bsdb:1201/4/2_Human-papillomavirus:Corynebacterium-dominated-penile-microbiota-(CST-1)_vs_Non-Corynebacterium-dominated-microbiota-(Diverse-penile-microbiota-(CSTs-2-5))_DOWN	NA	Aeromonas	Arcanobacterium	Atopobium	Bacteroides	Brucella	Campylobacter	Citrobacter	Dialister	Finegoldia	Gardnerella	Granulicatella	Haemophilus	Hallella	Howardella	Kocuria	Micrococcus	Mobiluncus	Murdochiella	Mycoplasma	Negativicoccus	Olsenella	Parvimonas	Peptococcus	Porphyromonas	Prevotella	Pseudomonas	Pyramidobacter	Saccharofermentans	Sneathia	Streptococcus	Sutterella	Varibaculum
 bsdb:1202/1/1_Meibomian-cyst:Meibomian-gland-dysfunction-(MGD)_vs_Healthy-Control-(HCs)_UP	NA	Pseudomonas	Campylobacter	Escherichia	Ralstonia	Enterobacter	Stenotrophomonas	Comamonas	Serratia	Neisseria	Roseomonas
-bsdb:1203/1/2_Type-II-diabetes-mellitus:Prediabetes-(PD)---Danish-Cohort_vs_Normoglycemic-(NG)-controls---Danish-Cohort_DOWN	NA	Ochrobactrum	Bembecia	Miltoniopsis
+bsdb:1203/1/1_Type-II-diabetes-mellitus:Prediabetes-(PD)---Danish-Cohort_vs_Normoglycemic-(NG)-controls---Danish-Cohort_UP	NA	Pseudomonas	Vexillifera	Aphengium	Vibrio
+bsdb:1203/1/2_Type-II-diabetes-mellitus:Prediabetes-(PD)---Danish-Cohort_vs_Normoglycemic-(NG)-controls---Danish-Cohort_DOWN	NA	Bembecia	Miltoniopsis	Neoferdina	Ochrobactrum
 bsdb:1203/2/1_Type-II-diabetes-mellitus:Prediabetes-(PD)---Danish-Cohort_vs_Normoglycemic-(NG)-controls---Danish-Cohort_UP	NA	Rangaeris	Neogobius
 bsdb:1203/2/2_Type-II-diabetes-mellitus:Prediabetes-(PD)---Danish-Cohort_vs_Normoglycemic-(NG)-controls---Danish-Cohort_DOWN	NA	Thalassolituus	Zhongshania
 bsdb:1203/3/1_Type-II-diabetes-mellitus:Danish-Cohort-(DK)_vs_Indian-Cohort-(IN)_UP	NA	Christensenella
 bsdb:1203/4/1_Type-II-diabetes-mellitus:Prediabetes-(PD)---Indian-&-Danish-Cohorts_vs_Normoglycemic-(NG)-controls---Indian-&-Danish-Cohorts_UP	NA	Herodialges	Pseudomonas	Heliofungia	Warrenia	Wolbachia	Neogobius
 bsdb:1203/4/2_Type-II-diabetes-mellitus:Prediabetes-(PD)---Indian-&-Danish-Cohorts_vs_Normoglycemic-(NG)-controls---Indian-&-Danish-Cohorts_DOWN	NA	Marinobacter	Neoferdina	Bembecia	Cyclosorus
 bsdb:1203/5/1_Type-II-diabetes-mellitus:Prediabetes-(PD)---Indian-Cohort_vs_Normoglycemic-(NG)-controls---Indian-Cohort_UP	NA	Herodialges	Theileria	Heliofungia	Petagnaea
-bsdb:1203/6/1_Type-II-diabetes-mellitus:Prediabetes-(PD)---Indian-Cohort_vs_Normoglycemic-(NG)-controls---Indian-Cohort_UP	NA	Heliofungia	Herodialges	Pseudomonas	Theileria	Sibirasellus
+bsdb:1203/6/1_Type-II-diabetes-mellitus:Prediabetes-(PD)---Indian-Cohort_vs_Normoglycemic-(NG)-controls---Indian-Cohort_UP	NA	Heliofungia	Herodialges	Pseudomonas	Sibirasellus	Theileria	Agrobacterium	Pseudoalteromonas	Trilocha	Aphengium	Vexillifera	Cornuscoparia	Cyrtowithius	Encentrum	Chloracantha	Cronobacter	Burkholderia	Bradyrhizobium	Bertia	Marinobacterium	Massilia	Andrena	Spironucleus	Rhizobium	Hatiora	Sinorhizobium	Nebria	Spiroxya	Aphodius
+bsdb:1203/7/1_Type-II-diabetes-mellitus:Prediabetes-(PD)---Indian-&-Danish-Cohorts_vs_Normoglycemic-(NG)-controls---Indian-&-Danish-Cohorts_UP	NA	Lactobacillus	Blautia	Streptococcus	Lachnoclostridium	Vibrio	Pasteurella	Veillonella	Klebsiella	Rhodococcus	Intestinibacter	Achromobacter	Negativibacillus	Eisenbergiella	Enterococcus
 bsdb:1204/1/1_Growth-condition:Male-High-Feed-Efficiency-(H-FE)-groups_vs_Male-Low-Feed-Efficiency-(L-FE)-groups_UP	NA	Barnesiella
 bsdb:1204/1/2_Growth-condition:Male-High-Feed-Efficiency-(H-FE)-groups_vs_Male-Low-Feed-Efficiency-(L-FE)-groups_DOWN	NA	Helicobacter
 bsdb:1204/2/2_Growth-rate-measurement:Female-High-Feed-efficiency-(H-FE)-groups_vs_Female-Low-feed-efficiency-(L-FE)-groups_DOWN	NA	Butyricimonas	Bacteroides	Thomasclavelia	Collinsella	Faecalibacterium	Blautia
