@@ -1,4 +1,4 @@
-# BugSigDB 2024-11-07_15:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2024-11-07_16:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	1654	1716	1301	162289	189330	33024	40544	2759736	1386
 bsdb:1/1/2_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	100883
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	207244	2759736
@@ -4051,6 +4051,21 @@ bsdb:1046/4/1_Aging:Samples-PLWH-on-ART_vs_Samples-of-PLWOH_UP	NA	1766253	256909
 bsdb:1046/4/2_Aging:Samples-PLWH-on-ART_vs_Samples-of-PLWOH_DOWN	NA	239759	1283313	816	848	1506553	2316020	375288	40544
 bsdb:1046/5/1_Aging:Samples-of-PLWH-on-ART_vs_Samples-of-PLWOH_UP	NA	1766253	2569097	207244	572511	135858	102106	189330	1407607	1573535	1501226	1263
 bsdb:1046/5/2_Aging:Samples-of-PLWH-on-ART_vs_Samples-of-PLWOH_DOWN	NA	239759	1283313	816	848	1506553	2316020	375288	40544
+bsdb:1047/1/1_Response-to-antidepressant:Control-Group_vs_CUMS,-(CUMS + XYS)-and-(CUMS + FLX)-groups_UP	NA	1279
+bsdb:1047/2/1_Response-to-antidepressant:CUMS-group_vs_Control,-(CUMS + XYS)-and-(CUMS + FLX)-groups_UP	NA	816	570
+bsdb:1047/3/1_Response-to-antidepressant:CUMS + FLX-group_vs_Control,-CUMS,-and-(CUMS + XYS)-groups_UP	NA	174708
+bsdb:1047/4/1_Response-to-antidepressant:CUMS + XYS-group_vs_Control,-CUMS,-and-(CUMS + FLX)-groups_UP	NA	1578
+bsdb:1047/5/1_Environmental-stress-treatment:CUMS-Group_vs_Control-group_UP	NA	838	577309
+bsdb:1047/5/2_Environmental-stress-treatment:CUMS-Group_vs_Control-group_DOWN	NA	216851
+bsdb:1047/6/1_Response-to-transplant:Control + FMT(CUMS)-group_vs_Control-group_UP	NA	838	577309	375288	174708
+bsdb:1047/7/1_Response-to-transplant:CUMS-+-FMT(XYS)-group_vs_CUMS-group_UP	NA	577309	838
+bsdb:1047/7/2_Response-to-transplant:CUMS-+-FMT(XYS)-group_vs_CUMS-group_DOWN	NA	49082	39948	1263
+bsdb:1047/8/1_Response-to-transplant:Control + FMT(CUMS)-group_vs_Control-group_UP	NA	174708	838	375288	40544	816
+bsdb:1047/8/2_Response-to-transplant:Control + FMT(CUMS)-group_vs_Control-group_DOWN	NA	2701	1485	1279	841	49082	1578	33042	119852	1263	209	216851	572511	838	239934
+bsdb:1047/9/1_Response-to-transplant:CUMS-+-FMT(XYS)-group_vs_CUMS-group_UP	NA	239934	1578	40544	838	375288	816
+bsdb:1047/9/2_Response-to-transplant:CUMS-+-FMT(XYS)-group_vs_CUMS-group_DOWN	NA	216851	1485	2701	174708	841	209	33042	572511	1263	838	119852	49082	1279
+bsdb:1047/10/1_Environmental-stress-treatment:CUMS-Group_vs_Control-group_UP	NA	174708	119852	1485	838	2701	375288	209	239934
+bsdb:1047/10/2_Environmental-stress-treatment:CUMS-Group_vs_Control-group_DOWN	NA	49082	816	1578	1263	1279	33042	40544	841	216851	572511
 bsdb:1048/33/1_Microbiome:Unspiked-pig-feces(P1)-at-16-hours-(-80°C)_vs_Unspiked-pig-feces(P1)-at-0-hour_UP	NA	838	33024
 bsdb:1048/33/2_Microbiome:Unspiked-pig-feces(P1)-at-16-hours-(-80°C)_vs_Unspiked-pig-feces(P1)-at-0-hour_DOWN	NA	157	216851	841
 bsdb:1048/34/1_Microbiome:Unspiked-pig-feces(P1)-at-64-hours-(-80°C)_vs_Unspiked-pig-feces(P1)-at-0-hour_UP	NA	838	33024
@@ -5089,4 +5104,4 @@ bsdb:1206/1/2_Mucositis:BA10_vs_BA0_DOWN	NA	248038
 bsdb:1206/2/1_Mucositis:A100-FMT-(fecal-microbiota-transplantation)_vs_A10-FMT-(fecal-microbiota-transplantation)_UP	NA	46255
 bsdb:1206/2/2_Mucositis:A100-FMT-(fecal-microbiota-transplantation)_vs_A10-FMT-(fecal-microbiota-transplantation)_DOWN	NA	1485	2093
 bsdb:1210/1/1_Human-immunodeficiency-virus:CD4-T-cell-counts-<-200-(CD4-<-200)_vs_HIV---uninfected_DOWN	NA	222	642	190815	581782	32008	177217	84070	547	237	1111294	182491	114621	32	524725	1822464	518743	5820	838	286	572889	511378	22	166908	237444	662	270094	179	427977
-bsdb:1210/1/2_Human-immunodeficiency-virus:CD4-T-cell-counts-<-200-(CD4-<-200)_vs_HIV---uninfected_UP	NA	301655	7215	316892	590	237	53246	525474	354854	190523	535	662
+bsdb:1210/1/2_Human-immunodeficiency-virus:CD4-T-cell-counts-<-200-(CD4-<-200)_vs_HIV---uninfected_UP	NA	535	354854	5806	237	190523	316892	53246	525474	590	145881	662	301655	7215	286
