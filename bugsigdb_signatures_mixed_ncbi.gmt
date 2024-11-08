@@ -1,4 +1,4 @@
-# BugSigDB 2024-11-07_22:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2024-11-07_23:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	91061	1236	1654	1716	1301	162289	189330	33024	40544	2037	2049	506	186826	1300	31977	91347	1653	57037	1386	186817
 bsdb:1/1/2_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	100883	1117
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	207244	57037
@@ -5047,9 +5047,9 @@ bsdb:1090/1/2_Metabolic-syndrome:Schizophrenia-patients-without-MetS_vs_Schizoph
 bsdb:1091/1/1_Chronic-gastritis,Gastric-cancer:Gastric-Cancer_vs_Chronic-gastritis_UP	NA	47678	1689	33042	116085	32066	848	724	1578	1613	97478	459786	375288	823	33024	1328	40544	29465	995019
 bsdb:1091/1/2_Chronic-gastritis,Gastric-cancer:Gastric-Cancer_vs_Chronic-gastritis_DOWN	NA	469	201174	447020	1678	216816	102106	1350	1352	1730	1898203	581	286
 bsdb:1091/2/1_Chronic-gastritis,Gastric-cancer:Early-stage-gastric-cancer_vs_Other-sub-groups-(NIM,-IM-and-late-stage-gastric-cancer))_UP	NA	1350	283168	33024	29465	995019
-bsdb:1091/3/1_Chronic-gastritis,Gastric-cancer:Late-stage-gastric-cancer_vs_Other-sub-groups-(NIM,-IM-and-early-stage-gastric-cancer)_UP	NA	375288	459786	848	40544
-bsdb:1091/4/1_Chronic-gastritis,Gastric-cancer:Intestinal-metaplasia_vs_Other-sub-groups-(NIM,-early-stage-gastric-cancer-and-late-stage-gastric-cancer))_UP	NA	447020	39491	207244	1730
-bsdb:1091/5/1_Chronic-gastritis,Gastric-cancer:Non-intestinal-metaplasia_vs_Other-sub-groups-(IM,-early-stage-gastric-cancer-and-late-stage-gastric-cancer))_UP	NA	469	158846	286
+bsdb:1091/3/1_Chronic-gastritis,Gastric-cancer:Late-stage-gastric-cancer_vs_Other-sub-groups-(NIM,-IM-and-early-stage-gastric-cancer)_UP	NA	848	459786	375288	40544
+bsdb:1091/4/1_Chronic-gastritis,Gastric-cancer:Intestinal-metaplasia_vs_Other-sub-groups-(NIM,-early-stage-gastric-cancer-and-late-stage-gastric-cancer))_UP	NA	447020	39491	207244
+bsdb:1091/5/1_Chronic-gastritis,Gastric-cancer:Non-intestinal-metaplasia_vs_Other-sub-groups-(IM,-early-stage-gastric-cancer-and-late-stage-gastric-cancer))_UP	NA	469
 bsdb:1092/1/1_Cognitive-impairment:Cognitively-Impaired-Group_vs_Cognitively-Intact-Group_UP	NA	310298	204516	838	171552	74201	155900
 bsdb:1092/1/2_Cognitive-impairment:Cognitively-Impaired-Group_vs_Cognitively-Intact-Group_DOWN	NA	1224	821
 bsdb:1092/2/1_Cognitive-impairment:Placebo-Group_vs_Baseline-Group_UP	NA	155900
@@ -5542,6 +5542,10 @@ bsdb:1183/1/1_Sickle-cell-anemia:Sickle-Cell-Anaemia-cases_vs_Healthy-Siblings_U
 bsdb:1183/1/2_Sickle-cell-anemia:Sickle-Cell-Anaemia-cases_vs_Healthy-Siblings_DOWN	NA	213849	204441	52959	1647175	209	118966	194	3031852	41295	671218	118967	642589	470565	28135	28136	363265	28137	1898112	1265	72294
 bsdb:1183/2/1_Sickle-cell-disease-associated-with-an-other-hemoglobin-anomaly:Foetal-haemoglobin-level->-5%_vs_Foetal-haemoglobin-level-<-5%_UP	NA	1263
 bsdb:1183/2/2_Sickle-cell-disease-associated-with-an-other-hemoglobin-anomaly:Foetal-haemoglobin-level->-5%_vs_Foetal-haemoglobin-level-<-5%_DOWN	NA	1279388
+bsdb:1184/1/1_Pulmonary-tuberculosis:HIV-positive-(Tuberculosis-cohort)_vs_HIV-positive-control-cohort_UP	NA	222	469	2049	1760	816	31953	32008	119060	543	186803	1268	1763	481	1817	186804	171552	286	90964	40323	31977	1783272	1224
+bsdb:1184/1/2_Pulmonary-tuberculosis:HIV-positive-(Tuberculosis-cohort)_vs_HIV-positive-control-cohort_DOWN	NA	47670	44259	482	724	39948	1716
+bsdb:1184/2/1_Pulmonary-tuberculosis:HIV-positive-with-Pneumonia_vs_Control-cohort_UP	NA	1760	1783272	816	1224
+bsdb:1184/3/1_Pulmonary-tuberculosis:HIV-positive-(Tuberculosis-cohort)_vs_HIV-positive-with-Pneumonia_UP	NA	40324	40323
 bsdb:1185/1/1_Visceral-adipose-tissue-measurement,Gut-microbiome-measurement:High-VAT-group-(Case/Exposed-group)_vs_Low-VAT-group-(Control/Unexposed-group)._UP	NA	543	562	1224	547	570	590
 bsdb:1185/1/2_Visceral-adipose-tissue-measurement,Gut-microbiome-measurement:High-VAT-group-(Case/Exposed-group)_vs_Low-VAT-group-(Control/Unexposed-group)._DOWN	NA	1239	816	3023528	838	1485
 bsdb:1185/2/1_Human-gut-metagenome:High-LPS-levels_vs_Low-LPS-levels_UP	NA	621	590	573
@@ -5686,10 +5690,12 @@ bsdb:1196/3/1_Parkinson-disease,-mitochondrial:Parkinson’s-disease-patients-(P
 bsdb:1196/3/2_Parkinson-disease,-mitochondrial:Parkinson’s-disease-patients-(PD-patients)_vs_Healthy-Controls_UP	NA	712124	1739511	1309	1739381
 bsdb:1196/4/1_Parkinson-disease,-mitochondrial:Parkinson’s-disease-patients-(PD-patients)_vs_Healthy-Controls_UP	NA	712124	1581124	28129	1715104	1739511	671224	1309	1839799	1715176	1715051	1739381	1343
 bsdb:1196/4/2_Parkinson-disease,-mitochondrial:Parkinson’s-disease-patients-(PD-patients)_vs_Healthy-Controls_DOWN	NA	1739406	860	1725361	840	936595	1739328	1715148	1739282	1501329	1739431	1739283	102148	113107	1579348	1579343	1579341	1759399	1203590
-bsdb:1196/5/1_Parkinson-disease,-mitochondrial:Parkinson’s-disease-patients-(PD-patients)_vs_Healthy-Controls_UP	NA	52769	712124	1739402	1581124	28129	1715104	1739511	671224	135082	1309	1304	1839799	1715176	1715051	1739381	1343	1384081	1739496	1739483	1581133
-bsdb:1196/5/2_Parkinson-disease,-mitochondrial:Parkinson’s-disease-patients-(PD-patients)_vs_Healthy-Controls_DOWN	NA	1739406	860	1725361	1608898	840	425941	936595	712359	1715140	1739328	1715148	1739338	1715179	1739456	1739332	1739348	1739282	1715075	1581107	1501329	997829	1739431	1739423	1739283	1739484	102148	113107	68892	1579348	1579343	1579341	1759399	1739309	1739265	1739461	1739491	1203590	1608856	1715037	1715154	712118	1501332	68891
+bsdb:1196/5/1_Parkinson-disease,-mitochondrial:Parkinson’s-disease-patients-(PD-patients)_vs_Healthy-Controls_UP	NA	52769	1581133	712124	1739402	1581124	28129	1739496	1715104	1739511	671224	135082	1309	1304	1839799	1715176	1715051	1739381	1739483	1343	1384081	1579339	544581	272548	1305	435842	1656	450749	457416	135083	218538
+bsdb:1196/5/2_Parkinson-disease,-mitochondrial:Parkinson’s-disease-patients-(PD-patients)_vs_Healthy-Controls_DOWN	NA	1739406	712118	860	1725361	1608898	840	425941	936595	712359	1715140	1715154	1739328	1715037	1715148	1739338	1715179	1739456	1739332	1739348	1739282	1715075	1581107	1501332	1501329	997829	1739431	1739423	1739283	1739484	102148	113107	68892	68891	1579348	1579343	1579341	1759399	1739309	1739265	1739461	1739491	1608856	1203590	1739547	1739522	1739369	1739341	1739299	1715211	1715190	1715175	589437	1859695	143393	84135	28132	46124	39778
 bsdb:1196/6/1_Parkinson-disease,-mitochondrial:Parkinson’s-disease-patients-(PD-patients)_vs_Healthy-Controls_UP	NA	1680	469610	1689	552398	1739371	1739381	1715176
 bsdb:1196/6/2_Parkinson-disease,-mitochondrial:Parkinson’s-disease-patients-(PD-patients)_vs_Healthy-Controls_DOWN	NA	823
+bsdb:1196/7/1_Parkinson-disease,-mitochondrial:Parkinson’s-disease-patients-(PD-patients)_vs_Healthy-Controls_UP	NA	1680	469610	1535	1686	352071	1739371	1739381	1715176
+bsdb:1196/7/2_Parkinson-disease,-mitochondrial:Parkinson’s-disease-patients-(PD-patients)_vs_Healthy-Controls_DOWN	NA	821	357276	166486	469591	469593	246787	823	671267	574930	457389	1739298	1739517
 bsdb:1196/8/1_Parkinson-disease,-mitochondrial:Parkinson’s-disease-patients-(PD-patients)_vs_Healthy-Controls_UP	NA	1739381	552398	1689	469610
 bsdb:1196/8/2_Parkinson-disease,-mitochondrial:Parkinson’s-disease-patients-(PD-patients)_vs_Healthy-Controls_DOWN	NA	1776383	1739298	246787	457389	574930	671267	823	469591	166486
 bsdb:1197/1/1_Growth-rate-measurement:High-feed-efficiency-(HFE)_vs_Low-feed-efficiency-(LFE)_UP	NA	815	816
