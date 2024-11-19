@@ -1,4 +1,4 @@
-# BugSigDB 2024-11-19_11:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2024-11-19_13:06_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	Actinomyces	Corynebacterium	Streptococcus	Peptoniphilus	Dorea	Phascolarctobacterium	Sutterella	Lacticaseibacillus	Bacillus
 bsdb:1/1/2_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	Coprobacillus
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	Anaerostipes	Lacticaseibacillus
@@ -5289,12 +5289,16 @@ bsdb:1218/6/1_Cognitive-function-measurement:Upper-Social-Communication-Question
 bsdb:1218/6/2_Cognitive-function-measurement:Upper-Social-Communication-Questionnaire-(Upper-SCQ)-scale_vs_Lower-Social-Communication-Questionnaire-(Low-SCQ)-scale-scale_DOWN	NA	Alistipes	Bacteroides	Campylobacter	Capnocytophaga	Chryseobacterium	Desulfovibrio	Flavobacterium	Fusobacterium	Jonquetella	Metamycoplasma	Mycoplasmopsis	Phocaeicola	Porphyromonas	Prevotella	Segatella	Sphingobacterium	Ureaplasma	Tepidimonas	Hyalangium	Pseudomonas	Deinococcus
 bsdb:1218/7/1_Cognitive-function-measurement:High-Developmental-Coordination-Disorder-Questionnaires-(DCDQ)-scale_vs_Low-Developmental-Coordination-Disorder-Questionnaires-(DCDQ)-scale_UP	NA	Prevotella	Segatella	Fusobacterium	Leptotrichia	Campylobacter
 bsdb:1218/7/2_Cognitive-function-measurement:High-Developmental-Coordination-Disorder-Questionnaires-(DCDQ)-scale_vs_Low-Developmental-Coordination-Disorder-Questionnaires-(DCDQ)-scale_DOWN	NA	Leptotrichia	Capnocytophaga
-bsdb:1219/1/1_Colorectal-cancer:AOM/DSS-treated-group_vs_Control-group_UP	NA	Bacteroides	Oribacterium	Oscillospira	Parabacteroides
-bsdb:1219/2/2_Colitis,Cancer:Mice-with-dysplasia/cancer_vs_Mice-with-inflammation_UP	NA	Bacteroides
-bsdb:1219/3/1_Colorectal-cancer:AOM/DSS-Cycle-1-group_vs_control-mice_UP	NA	Lactococcus	Streptococcus	Parabacteroides
+bsdb:1219/1/1_Colorectal-cancer:AOM/DSS-treated-group_vs_Control-group_UP	NA	Bacteroides	Oscillospira
+bsdb:1219/1/2_Colorectal-cancer:AOM/DSS-treated-group_vs_Control-group_DOWN	NA	Oribacterium	Parabacteroides
+bsdb:1219/2/1_Colitis,Cancer:Mice-with-dysplasia/cancer_vs_Mice-with-inflammation_UP	NA	Prevotella
+bsdb:1219/3/1_Colorectal-cancer:AOM/DSS-Cycle-1-group_vs_control-mice_UP	NA	Lactococcus	Parabacteroides	Streptococcus
+bsdb:1219/3/3_Colorectal-cancer:AOM/DSS-Cycle-1-group_vs_control-mice_DOWN	NA	Rikenella
 bsdb:1219/4/1_Colorectal-cancer:AOM/DSS-Cycle-2-group_vs_Control-group_UP	NA	Streptococcus
 bsdb:1219/5/1_Colorectal-cancer:AOM/DSS-Cycle-3-group_vs_Control-Group_UP	NA	Lactococcus
+bsdb:1219/5/2_Colorectal-cancer:AOM/DSS-Cycle-3-group_vs_Control-Group_DOWN	NA	Lachnospira	Oxobacter
 bsdb:1219/6/1_Colorectal-cancer:AOM/DSS-Cycle-4-group_vs_Control-Group_UP	NA	Bacteroides	Oscillospira
+bsdb:1219/6/2_Colorectal-cancer:AOM/DSS-Cycle-4-group_vs_Control-Group_DOWN	NA	Anaerostipes	Helicobacter
 bsdb:1220/1/2_Vaginal-microbiome-measurement:COC-(combined-oral-contraceptives)-arm_vs_NET-En-(norethisterone-enanthate-)-arm_DOWN	NA	Hoylesella	Prevotella	Segatella	Tannerella	Treponema	Olsenella
 bsdb:1220/2/1_Vaginal-microbiome-measurement:COC-(combined-oral-contraceptives)-arm_vs_CCVR-(combined-contraceptive-vaginal-ring)-arm_UP	NA	Prevotella
 bsdb:1220/2/2_Vaginal-microbiome-measurement:COC-(combined-oral-contraceptives)-arm_vs_CCVR-(combined-contraceptive-vaginal-ring)-arm_DOWN	NA	Prevotella
@@ -5330,6 +5334,8 @@ bsdb:1225/10/2_Diet-measurement:Food-frequency-consumption(Everyday)_vs_Food-fre
 bsdb:1225/11/1_Socioeconomic-status:Subjects-from-the-wealthier-households_vs_Subjects-from-the-least-well-off-households_UP	NA	Akkermansia	Alistipes	Bacteroides	Barnesiella	Bilophila	Brachyspira	Candidatus Cibiobacter	Odoribacter	Parabacteroides	Paraprevotella	Phocaeicola	Prevotella	Segatella	Treponema	Leyella
 bsdb:1225/12/1_Self-reported-educational-attainment:Middle-(4–6),-and-Secondary-(>6)_vs_Primary-(1–3)_UP	NA	Phocaeicola	Parabacteroides	Bacteroides	Alistipes	Odoribacter	Bilophila
 bsdb:1225/12/2_Self-reported-educational-attainment:Middle-(4–6),-and-Secondary-(>6)_vs_Primary-(1–3)_DOWN	NA	Prevotella	Segatella
+bsdb:1225/13/1_Social-interaction-measurement:Subjects-from-the-wealthier-households-based-on-social-factors_vs_Subjects-from-the-least-well-off-households-based-on-social-factorsbased-on-social_UP	NA	Alistipes	Bacteroides	Parabacteroides	Phocaeicola
+bsdb:1225/13/2_Social-interaction-measurement:Subjects-from-the-wealthier-households-based-on-social-factors_vs_Subjects-from-the-least-well-off-households-based-on-social-factorsbased-on-social_DOWN	NA	Alistipes	Bacteroides	Brachyspira	Treponema
 bsdb:1227/1/1_Breast-cancer:Breast-cancer-(BC)_vs_Healthy-women-(Control)_UP	NA	Bacteroides	Finegoldia
 bsdb:1227/1/2_Breast-cancer:Breast-cancer-(BC)_vs_Healthy-women-(Control)_DOWN	NA	Anaerostipes	Coprococcus
 bsdb:1227/2/1_Breast-ductal-carcinoma-in-situ:Ductal-carcinoma-in-situ-(DCIS)_vs_Healthy-women-(Control)_UP	NA	Megamonas	Corynebacterium	Varibaculum	Dialister
