@@ -1,4 +1,4 @@
-# BugSigDB 2024-11-22_17:59_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2024-11-22_18:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	91061	1236	1654	1716	1301	162289	189330	33024	40544	2037	2049	506	186826	1300	31977	91347	1653	57037	1386	186817
 bsdb:1/1/2_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	100883	1117
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	207244	57037
@@ -3897,6 +3897,24 @@ bsdb:938/7/2_Gut-microbiome-measurement:Colon-of-Tan-Sheep-(T_Co)_vs_Colon-of-Do
 bsdb:938/8/1_Gut-microbiome-measurement:Cecum-of-Tan-Sheep-(T_C)_vs_Cecum-of-Dorper-sheep-(D_C)_UP	NA	1224	707003
 bsdb:938/8/2_Gut-microbiome-measurement:Cecum-of-Tan-Sheep-(T_C)_vs_Cecum-of-Dorper-sheep-(D_C)_DOWN	NA	201174
 bsdb:939/1/1_Irritable-bowel-syndrome:Irritable-Bowel-Syndrome-positive-(IBS+)_vs_Irritable-Bowel-Syndrome-negative-(IBS-)_DOWN	NA	816	838	171552
+bsdb:940/1/1_COVID-19:Healthy-Controls-Group_vs_Covid-19-and-Post-Covid-19-Groups_UP	NA	2040582	1323519	5206	181171	34372	308927	308926	241727	2682943	45340	483707	1664392	1666919	76775	2016221	5094	5402	278596	36922	5480	5054	5159
+bsdb:940/1/2_COVID-19:Healthy-Controls-Group_vs_Covid-19-and-Post-Covid-19-Groups_DOWN	NA	2040582	1664392	308926	1323519	36922	181171	278596	5094	1666919	5054	308927	2016221	5159	45340	2682943	5402	5206	34372	483707	76775	241727	5480
+bsdb:940/2/1_COVID-19:Covid-19-Group_vs_Healthy-Controls-and-Post-Covid-19-Groups_UP	NA	1827388	2571388	2175223	2745882	2875642	405928	2489165	4932	2599739	935215	292631	1762950	63255	756022	2698902	1925498	1932873	673167	1963373	104670	1963375	36048	4930
+bsdb:940/2/2_COVID-19:Covid-19-Group_vs_Healthy-Controls-and-Post-Covid-19-Groups_DOWN	NA	935215	756022	2875642	2599739	2175223	2745882	405928	104670	1827388	1925498	4932	673167	1932873	292631	2571388	4930	2489165	1963375	36048	2698902	1963373	63255	1762950
+bsdb:940/3/1_COVID-19:Post-Covid-19-Group_vs_Healthy-Controls-and-Covid-19-Groups_UP	NA	64644	64647	41959	46472	45132	5475	5476	27314	27316	1206149	1173061	55193	4830	36080	2021227	5533	5537	1400007	42658	42659	42661
+bsdb:940/4/1_COVID-19:Covid-19-N-group_vs_Control-group_UP	NA	1827388	5475	405928	45340	483707	2571388	2489165	5476
+bsdb:940/4/2_COVID-19:Covid-19-N-group_vs_Control-group_DOWN	NA	1323519	34372	5206	5498	55193	308926	2040582	181171	76775	308927	2016221
+bsdb:940/5/1_COVID-19:Covid-19-C-group_vs_Control-group_UP	NA	5476	5475	45340	405928	2489165
+bsdb:940/5/2_COVID-19:Covid-19-C-group_vs_Control-group_DOWN	NA	1323519	5206	308926	2040582	308927	181171
+bsdb:940/6/1_COVID-19:Covid-19-C-group_vs_Covid-19-N-group_UP	NA	34372
+bsdb:940/7/1_COVID-19:Covid-19-Group_vs_Healthy-controls_UP	NA	1827388	2571388	5475	5476	405928	292631	935215	1913638	4890
+bsdb:940/7/2_COVID-19:Covid-19-Group_vs_Healthy-controls_DOWN	NA	241727	2682943	5498	2016221	5206	308926	308927	483707	55193	76775	45340	181171	2040582	5204	1913637	1031332
+bsdb:940/8/1_COVID-19:Covid-19-Group_vs_Healthy-Controls_UP	NA	4890	4761	483707	5127	335854	45340	5506	1910789
+bsdb:940/8/2_COVID-19:Covid-19-Group_vs_Healthy-Controls_DOWN	NA	36922	5094	1666919	1323519	1116855	1664392	76775	2040582	5204	1913637	1031332
+bsdb:940/9/1_COVID-19:Post-Covid-19-Group_vs_Healthy-Controls_UP	NA	5506	114230	889755	1913637	5127	335854	36648	1220210
+bsdb:940/9/2_COVID-19:Post-Covid-19-Group_vs_Healthy-Controls_DOWN	NA	4890	36922	1116855	483707	1666919	45340	5094	1664392
+bsdb:940/10/1_COVID-19:Post-Covid-19-Group_vs_Covid-19-Group_UP	NA	4890	1666919	1664392	5094	483707	45340
+bsdb:940/10/2_COVID-19:Post-Covid-19-Group_vs_Covid-19-Group_DOWN	NA	1913637	1116855	76775
 bsdb:941/1/1_Abnormal-sperm-morphology:Asthenozoospermia_vs_Healthy-Control_UP	NA	909930	1843488	416916	1283313	191	817	216816	28026	80840	546	872	194924	213115	3031449	91347	543	128827	1940338	1236	61170	81850	1578	1624	2005473	577310	712	33024	33025	1224	28037	995019	200940
 bsdb:941/1/2_Abnormal-sperm-morphology:Asthenozoospermia_vs_Healthy-Control_DOWN	NA	57723	28211	1239	128827	356	85015	387090	59823	85009	1497346	74201	171552
 bsdb:942/1/1_Stroke:Cerebral-ischemic-stroke-patients_vs_Healthy-individuals_UP	NA	1262684	239935	1288121	328814	1262705	47678	626931	1262770	1262781	1262834	1262865	901	1262872	1736	363265	28118	1262911	1519439	419005	1262959	459786	2485925	28211	434	84107	283168	102106	872	414999	415002	415001	442430	712	135625
@@ -5278,6 +5296,19 @@ bsdb:1132/1/1_Type-II-diabetes-mellitus:T2DM-individuals-(subjects-with-Type-2-D
 bsdb:1132/1/2_Type-II-diabetes-mellitus:T2DM-individuals-(subjects-with-Type-2-Diabetes)_vs_Non-T2DM-controls-(healthy-individuals)_DOWN	NA	283168	1357
 bsdb:1132/2/1_Type-II-diabetes-mellitus:T2DM-individuals-(subjects-with-Type-2-Diabetes)_vs_Non-T2DM-controls-(healthy-individuals)_UP	NA	55194	237557
 bsdb:1132/2/3_Type-II-diabetes-mellitus:T2DM-individuals-(subjects-with-Type-2-Diabetes)_vs_Non-T2DM-controls-(healthy-individuals)_DOWN	NA	5204
+bsdb:1139/1/1_Diet:Prebiotic-group-(End-of-study)_vs_Placebo-group-(End-of-study)_UP	NA	1760	31953	85004	1678	201174
+bsdb:1139/1/2_Diet:Prebiotic-group-(End-of-study)_vs_Placebo-group-(End-of-study)_DOWN	NA	1239	186801	186802	3028852	2897707	976
+bsdb:1139/2/1_Diet:Prebiotic(change-between-baseline-and-study-end)_vs_Placebo-(change-between-baseline-and-study-end)_UP	NA	1678	31953	85004	1760
+bsdb:1139/2/2_Diet:Prebiotic(change-between-baseline-and-study-end)_vs_Placebo-(change-between-baseline-and-study-end)_DOWN	NA	1843488	1924093	171549	186801	28221	213115	186802	2293105	186826	3028852	2897707
+bsdb:1139/3/1_Diet:End-of-Study-Placebo_vs_Baseline-Placebo_UP	NA	55565
+bsdb:1139/4/1_Diet:End-of-study-Prebiotic_vs_Baseline-Prebiotic_UP	NA	55565	2049	2037	1760	201174	649756	31953	85004	1678	1689	216816	2093823	2093822	2093819	95818	2093818	543311	2529408	1660	1303	207244	2841532
+bsdb:1139/4/2_Diet:End-of-study-Prebiotic_vs_Baseline-Prebiotic_DOWN	NA	1924093	2683628	186801	28221	1730	3028852	2897707	183925	909932	1263	2815781	33039	2293011	28890	2293105
+bsdb:1139/5/1_Diet:End-of-study-prebiotics-and-placebo_vs_Baseline-prebiotics-and-placebo_UP	NA	55565	207244	649756	33033	39496
+bsdb:1139/5/2_Diet:End-of-study-prebiotics-and-placebo_vs_Baseline-prebiotics-and-placebo_DOWN	NA	33024	1232426	46228	2841523	35829	2293006	2585119	2763059	133925
+bsdb:1139/6/1_Diet:Prebiotic-(Correlated-with-Cognition-Factor)_vs_Placebo-(Correlated-with-Cognition-Factor)_UP	NA	31977	1843489	84999	201174
+bsdb:1139/6/2_Diet:Prebiotic-(Correlated-with-Cognition-Factor)_vs_Placebo-(Correlated-with-Cognition-Factor)_DOWN	NA	2719231
+bsdb:1139/7/1_Diet:Prebiotic-(Correlated-with-Chair-Rise-time)_vs_Placebo-(Correlated-with-Chair-Rise-time)_UP	NA	904	187327	1965604	1385	1720313	33035	546	2109688	1720194	100883	100884	2093857	2719313	358742	543314	2005359	1573534	39483	946234	292800	386414	154046	2764317	2764322	571	2767842	60520	1596	2742598	1613	33038	1653435	322095	28128	2070688	1905344	1550024	131111	1769710	1653434	123375	102148	1309	1308	1547	29348	1522	29347	1512	1232426	33039	2763013	2763667
+bsdb:1139/7/2_Diet:Prebiotic-(Correlated-with-Chair-Rise-time)_vs_Placebo-(Correlated-with-Chair-Rise-time)_DOWN	NA	35829	1628085	239934	2039240	2358141	536633	574697	3082768	33042	33043	39486	2292041	39490	2293105	216851	2005355	1912855	204475	745368	28050	459786	46503	909656	292632	48461	278082	172900	2292968	2293016	1851428	341225	2841532	2293143	2293054	2109334	2292308	2086273	2508948	2683202	2678885	2815781
 bsdb:1140/1/1_Ischemic-stroke:Acute-ischemic-stroke-(AIS)_vs_Healthy-control-group-(HC)_DOWN	NA	506	815	186803	468	712	171552
 bsdb:1140/2/1_Ischemic-stroke:Mild-acute-ischemic-stroke_vs_Healthy-control/moderate-AIS/-severe-AIS_UP	NA	191394	72293	81850	1268	41294
 bsdb:1140/3/1_Ischemic-stroke:Moderate-acute-ischemic-stroke_vs_Healthy-control/mild-AIS/-severe-AIS_UP	NA	543	81852	128827	2159	1653	186806
