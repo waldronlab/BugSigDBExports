@@ -1,4 +1,4 @@
-# BugSigDB 2024-12-10_10:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2024-12-10_11:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	1654	1716	1301	162289	189330	33024	40544	1386
 bsdb:1/1/2_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	100883
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	207244
@@ -2005,6 +2005,11 @@ bsdb:672/13/1_Spontaneous-preterm-birth:Yes-infant-probiotics_vs_No-infant-probi
 bsdb:672/14/1_Spontaneous-preterm-birth:Yes-Antibiotics_vs_No-Antibiotics_UP	NA	1485
 bsdb:672/16/1_Spontaneous-preterm-birth:Breast-Milk-(D10)_vs_Only-Formula-(D10)_UP	NA	1678
 bsdb:672/17/1_Spontaneous-preterm-birth:Breast-Milk-(4M)_vs_Mixed-Feeding-(4M)_UP	NA	35832
+bsdb:672/18/1_Spontaneous-preterm-birth:Only-Formula-(D10)_vs_Mixed-Feeding-(D10)_UP	NA	1678
+bsdb:672/19/1_Spontaneous-preterm-birth:Yes-Antibiotics-(4M)_vs_No-Antibiotics-(4M)_UP	NA	1506553	1505657
+bsdb:672/21/1_Spontaneous-preterm-birth:Yes-Infant-Antibiotics-(D10)_vs_No-Infant-Antibiotics-(D10)_UP	NA	1678
+bsdb:672/22/1_Spontaneous-preterm-birth:Vaginal-delivery-(D10)_vs_Caesarean-section-(D10)_UP	NA	816
+bsdb:672/23/1_Spontaneous-preterm-birth:Twins-(4M)_vs_Singletons-(4M)_UP	NA	1508657
 bsdb:673/1/2_Ethnic-group:Colombia-data_vs_USA-data_DOWN	NA	816
 bsdb:674/1/1_Socioeconomic-status:High-SES_vs_Low-SES_UP	NA	80865	1485	375288	283168	1263
 bsdb:674/1/2_Socioeconomic-status:High-SES_vs_Low-SES_DOWN	NA	135858	118747	86331	838	1730	189330	447020
@@ -2987,6 +2992,8 @@ bsdb:962/7/2_Abnormal-sample:Diarrhoea_7dpw-CT(no-medication)-group_vs_Faecal_7d
 bsdb:962/11/1_Abnormal-sample:Diarrhoea_14pw-CT(no-medication)-group_vs_Faecal_14dpw-CT(no-medication)-group_DOWN	NA	561	906
 bsdb:963/8/1_Breast-cancer:Breast-cancer-patients_vs_Healthy-volunteers_UP	NA	35832	186532	906	52225	459786	239759
 bsdb:963/8/2_Breast-cancer:Breast-cancer-patients_vs_Healthy-volunteers_DOWN	NA	84111	2172
+bsdb:963/18/1_Breast-cancer:Breast-cancer-mice_vs_Heathy-mice_UP	NA	189330
+bsdb:963/18/2_Breast-cancer:Breast-cancer-mice_vs_Heathy-mice_DOWN	NA	459786	133925
 bsdb:964/1/1_Polycystic-ovary-syndrome:PCOS-patients-at-Zeitgeber-(ZT)-0_vs_Healthy-control-at-Zeitgeber-(ZT)-0_UP	NA	848
 bsdb:964/1/2_Polycystic-ovary-syndrome:PCOS-patients-at-Zeitgeber-(ZT)-0_vs_Healthy-control-at-Zeitgeber-(ZT)-0_DOWN	NA	32067
 bsdb:964/2/1_Polycystic-ovary-syndrome:PCOS-patients-at-Zeitgeber-(ZT)-6_vs_Healthy-control-at-Zeitgeber-(ZT)-6_UP	NA	848
@@ -3269,6 +3276,9 @@ bsdb:1033/15/1_Antibody:Anti-thyroid-peroxidase-(Anti-TPO)_vs_NA_DOWN	NA	1678	97
 bsdb:1033/16/1_Antibody:Anti-thyroglobulin-(Anti-TG)_vs_NA_UP	NA	13687	1827	48736	41275
 bsdb:1033/16/2_Antibody:Anti-thyroglobulin-(Anti-TG)_vs_NA_DOWN	NA	165779	239934
 bsdb:1033/17/1_Hormone:Triiodothyronine-(T3)_vs_NA_DOWN	NA	117563
+bsdb:1033/18/1_Hormone:Free-Triiodothyronine-(FT3)_vs_NA_DOWN	NA	117563
+bsdb:1033/20/1_Antibody:Anti-thyroid-stimulating-receptors-(Anti-TSHR)_vs_NA_UP	NA	32067
+bsdb:1033/21/1_Antibody:Anti-thyroid-peroxidase-(Anti-TPO)_vs_NA_UP	NA	1678	724
 bsdb:1034/1/1_Birth-measurement:High-vaginal-sialidase-activity_vs_Low-vaginal-sialidase-activity_UP	NA	1375	1380	1485	39948	2701	1378	906	543311	838
 bsdb:1034/1/2_Birth-measurement:High-vaginal-sialidase-activity_vs_Low-vaginal-sialidase-activity_DOWN	NA	32008	80865	963	1578	1007	504481
 bsdb:1034/2/1_Birth-measurement:Leukocyte-high-(grades-III-IV)_vs_Leukocyte-low-(grades-I-II)_UP	NA	32008	80865	1578	162289
@@ -3367,6 +3377,78 @@ bsdb:1047/9/1_Response-to-transplant:CUMS-+-FMT(XYS)-group_vs_CUMS-group_UP	NA	2
 bsdb:1047/9/2_Response-to-transplant:CUMS-+-FMT(XYS)-group_vs_CUMS-group_DOWN	NA	216851	1485	2701	174708	841	209	33042	572511	1263	838	119852	49082	1279
 bsdb:1047/10/1_Environmental-stress-treatment:CUMS-Group_vs_Control-group_UP	NA	174708	119852	1485	838	2701	375288	209	239934
 bsdb:1047/10/2_Environmental-stress-treatment:CUMS-Group_vs_Control-group_DOWN	NA	49082	816	1578	1263	1279	33042	40544	841	216851	572511
+bsdb:1048/33/1_Microbiome:Unspiked-pig-feces(P1)-at-16-hours-(-80°C)_vs_Unspiked-pig-feces(P1)-at-0-hour_UP	NA	838	33024
+bsdb:1048/33/2_Microbiome:Unspiked-pig-feces(P1)-at-16-hours-(-80°C)_vs_Unspiked-pig-feces(P1)-at-0-hour_DOWN	NA	157	216851	841
+bsdb:1048/34/1_Microbiome:Unspiked-pig-feces(P1)-at-64-hours-(-80°C)_vs_Unspiked-pig-feces(P1)-at-0-hour_UP	NA	838	33024
+bsdb:1048/34/2_Microbiome:Unspiked-pig-feces(P1)-at-64-hours-(-80°C)_vs_Unspiked-pig-feces(P1)-at-0-hour_DOWN	NA	157	216851	841
+bsdb:1048/35/1_Microbiome:Unspiked-pig-feces(P1)-at-16-hours-(-20°C)_vs_Unspiked-pig-feces(P1)-at-0-hour_UP	NA	838	33024
+bsdb:1048/35/2_Microbiome:Unspiked-pig-feces(P1)-at-16-hours-(-20°C)_vs_Unspiked-pig-feces(P1)-at-0-hour_DOWN	NA	157	216851	841
+bsdb:1048/36/1_Microbiome:Unspiked-pig-feces(P1)-at-64-hours-(-20°C)_vs_Unspiked-pig-feces(P1)-at-0-hour_UP	NA	838	33024
+bsdb:1048/36/2_Microbiome:Unspiked-pig-feces(P1)-at-64-hours-(-20°C)_vs_Unspiked-pig-feces(P1)-at-0-hour_DOWN	NA	157	216851	841
+bsdb:1048/37/1_Microbiome:Unspiked-pig-feces(P1)-at-16-hours-(5°C)_vs_Unspiked-pig-feces(P1)-at-0-hour_UP	NA	838	33024
+bsdb:1048/37/2_Microbiome:Unspiked-pig-feces(P1)-at-16-hours-(5°C)_vs_Unspiked-pig-feces(P1)-at-0-hour_DOWN	NA	157	216851	841
+bsdb:1048/38/1_Microbiome:Unspiked-pig-feces(P1)-at-64-hours-(5°C)_vs_Unspiked-pig-feces(P1)-at-0-hour_UP	NA	838	33024
+bsdb:1048/38/2_Microbiome:Unspiked-pig-feces(P1)-at-64-hours-(5°C)_vs_Unspiked-pig-feces(P1)-at-0-hour_DOWN	NA	157	216851	841
+bsdb:1048/39/1_Microbiome:Unspiked-pig-feces(P1)-at-16-hours-(22°C)_vs_Unspiked-pig-feces(P1)-at-0-hour_DOWN	NA	838	157
+bsdb:1048/39/2_Microbiome:Unspiked-pig-feces(P1)-at-16-hours-(22°C)_vs_Unspiked-pig-feces(P1)-at-0-hour_UP	NA	216851	33024	841
+bsdb:1048/40/1_Microbiome:Unspiked-pig-feces(P1)-at-64-hours-(22°C)_vs_Unspiked-pig-feces(P1)-at-0-hour_UP	NA	216851	33024
+bsdb:1048/40/2_Microbiome:Unspiked-pig-feces(P1)-at-64-hours-(22°C)_vs_Unspiked-pig-feces(P1)-at-0-hour_DOWN	NA	838	157	841
+bsdb:1048/41/1_Microbiome:Unspiked-pig-feces(P1)-at-64-hours-(-80°C)_vs_Unspiked-pig-feces(P1)-at-16-hours-(-80°C)_UP	NA	157	216851
+bsdb:1048/41/2_Microbiome:Unspiked-pig-feces(P1)-at-64-hours-(-80°C)_vs_Unspiked-pig-feces(P1)-at-16-hours-(-80°C)_DOWN	NA	838	33024	841
+bsdb:1048/42/1_Microbiome:Unspiked-pig-feces(P1)-at-16-hours-(-20°C)_vs_Unspiked-pig-feces(P1)-at-16-hours-(-80°C)_UP	NA	33024	841	157	216851
+bsdb:1048/42/2_Microbiome:Unspiked-pig-feces(P1)-at-16-hours-(-20°C)_vs_Unspiked-pig-feces(P1)-at-16-hours-(-80°C)_DOWN	NA	838
+bsdb:1048/43/1_Microbiome:Unspiked-pig-feces(P1)-at-64-hours-(-20°C)_vs_Unspiked-pig-feces(P1)-at-16-hours-(-80°C)_UP	NA	33024
+bsdb:1048/43/2_Microbiome:Unspiked-pig-feces(P1)-at-64-hours-(-20°C)_vs_Unspiked-pig-feces(P1)-at-16-hours-(-80°C)_DOWN	NA	838	157	216851	841
+bsdb:1048/44/1_Microbiome:Unspiked-pig-feces(P1)-at-16-hours-(5°C)_vs_Unspiked-pig-feces(P1)-at-16-hours-(-80°C)_UP	NA	157	216851	841
+bsdb:1048/44/2_Microbiome:Unspiked-pig-feces(P1)-at-16-hours-(5°C)_vs_Unspiked-pig-feces(P1)-at-16-hours-(-80°C)_DOWN	NA	838	33024
+bsdb:1048/45/1_Microbiome:Unspiked-pig-feces(P1)-at-64-hours-(5°C)_vs_Unspiked-pig-feces(P1)-at-16-hours-(-80°C)_UP	NA	157	216851	33024	841
+bsdb:1048/45/2_Microbiome:Unspiked-pig-feces(P1)-at-64-hours-(5°C)_vs_Unspiked-pig-feces(P1)-at-16-hours-(-80°C)_DOWN	NA	838
+bsdb:1048/46/1_Microbiome:Unspiked-pig-feces(P1)-at-16-hours-(22°C)_vs_Unspiked-pig-feces(P1)-at-16-hours-(-80°C)_UP	NA	157	216851	841
+bsdb:1048/46/2_Microbiome:Unspiked-pig-feces(P1)-at-16-hours-(22°C)_vs_Unspiked-pig-feces(P1)-at-16-hours-(-80°C)_DOWN	NA	838	33024
+bsdb:1048/47/1_Microbiome:Unspiked-pig-feces(P1)-at-64-hours-(22°C)_vs_Unspiked-pig-feces(P1)-at-16-hours-(-80°C)_UP	NA	157	216851
+bsdb:1048/47/2_Microbiome:Unspiked-pig-feces(P1)-at-64-hours-(22°C)_vs_Unspiked-pig-feces(P1)-at-16-hours-(-80°C)_DOWN	NA	838
+bsdb:1048/48/1_Microbiome:Unspiked-pig-feces(P1)-at-16-hours-(-20°C)_vs_Unspiked-pig-feces(P1)-at-64-hours-(-80°C)_UP	NA	216851	841
+bsdb:1048/48/2_Microbiome:Unspiked-pig-feces(P1)-at-16-hours-(-20°C)_vs_Unspiked-pig-feces(P1)-at-64-hours-(-80°C)_DOWN	NA	838	157	33024
+bsdb:1048/49/1_Microbiome:Unspiked-pig-feces(P1)-at-64-hours-(-20°C)_vs_Unspiked-pig-feces(P1)-at-64-hours-(-80°C)_UP	NA	157	216851	841
+bsdb:1048/49/2_Microbiome:Unspiked-pig-feces(P1)-at-64-hours-(-20°C)_vs_Unspiked-pig-feces(P1)-at-64-hours-(-80°C)_DOWN	NA	838	33024
+bsdb:1048/50/1_Microbiome:Unspiked-pig-feces(P1)-at-16-hours-(5°C)_vs_Unspiked-pig-feces(P1)-at-64-hours-(-80°C)_UP	NA	157	216851	841
+bsdb:1048/50/2_Microbiome:Unspiked-pig-feces(P1)-at-16-hours-(5°C)_vs_Unspiked-pig-feces(P1)-at-64-hours-(-80°C)_DOWN	NA	838	33024
+bsdb:1048/51/1_Microbiome:Unspiked-pig-feces(P1)-at-64-hours-(5°C)_vs_Unspiked-pig-feces(P1)-at-64-hours-(-80°C)_UP	NA	216851	841
+bsdb:1048/51/2_Microbiome:Unspiked-pig-feces(P1)-at-64-hours-(5°C)_vs_Unspiked-pig-feces(P1)-at-64-hours-(-80°C)_DOWN	NA	838	157	33024
+bsdb:1048/52/1_Microbiome:Unspiked-pig-feces(P1)-at-16-hours-(22°C)_vs_Unspiked-pig-feces(P1)-at-64-hours-(-80°C)_UP	NA	157	216851	33024	841
+bsdb:1048/52/2_Microbiome:Unspiked-pig-feces(P1)-at-16-hours-(22°C)_vs_Unspiked-pig-feces(P1)-at-64-hours-(-80°C)_DOWN	NA	838
+bsdb:1048/53/1_Microbiome:Unspiked-pig-feces(P1)-at-64-hours-(22°C)_vs_Unspiked-pig-feces(P1)-at-64-hours-(-80°C)_UP	NA	157	216851	33024	841
+bsdb:1048/53/2_Microbiome:Unspiked-pig-feces(P1)-at-64-hours-(22°C)_vs_Unspiked-pig-feces(P1)-at-64-hours-(-80°C)_DOWN	NA	838
+bsdb:1048/54/1_Microbiome:Unspiked-pig-feces(P1)-at-64-hours-(-20°C)_vs_Unspiked-pig-feces(P1)-at-16-hours-(-20°C)_UP	NA	157
+bsdb:1048/54/2_Microbiome:Unspiked-pig-feces(P1)-at-64-hours-(-20°C)_vs_Unspiked-pig-feces(P1)-at-16-hours-(-20°C)_DOWN	NA	838	33024	216851	841
+bsdb:1048/55/1_Microbiome:Unspiked-pig-feces(P1)-at-16-hours-(5°C)_vs_Unspiked-pig-feces(P1)-at-16-hours-(-20°C)_UP	NA	157	216851	841
+bsdb:1048/55/2_Microbiome:Unspiked-pig-feces(P1)-at-16-hours-(5°C)_vs_Unspiked-pig-feces(P1)-at-16-hours-(-20°C)_DOWN	NA	838	33024
+bsdb:1048/56/1_Microbiome:Unspiked-pig-feces(P1)-at-64-hours-(5°C)_vs_Unspiked-pig-feces(P1)-at-16-hours-(-20°C)_UP	NA	157	216851	33024	841
+bsdb:1048/56/2_Microbiome:Unspiked-pig-feces(P1)-at-64-hours-(5°C)_vs_Unspiked-pig-feces(P1)-at-16-hours-(-20°C)_DOWN	NA	838
+bsdb:1048/57/1_Microbiome:Unspiked-pig-feces(P1)-at-16-hours-(22°C)_vs_Unspiked-pig-feces(P1)-at-16-hours-(-20°C)_UP	NA	157	216851	33024	841
+bsdb:1048/57/2_Microbiome:Unspiked-pig-feces(P1)-at-16-hours-(22°C)_vs_Unspiked-pig-feces(P1)-at-16-hours-(-20°C)_DOWN	NA	838
+bsdb:1048/58/1_Microbiome:Unspiked-pig-feces(P1)-at-64-hours-(22°C)_vs_Unspiked-pig-feces(P1)-at-16-hours-(-20°C)_UP	NA	157	216851	33024	841
+bsdb:1048/58/2_Microbiome:Unspiked-pig-feces(P1)-at-64-hours-(22°C)_vs_Unspiked-pig-feces(P1)-at-16-hours-(-20°C)_DOWN	NA	838
+bsdb:1048/62/1_Microbiome:Unspiked-pig-feces(P1)-at-16-hours-(5°C)_vs_Unspiked-pig-feces(P1)-at-64-hours-(-20°C)_UP	NA	157	216851
+bsdb:1048/62/2_Microbiome:Unspiked-pig-feces(P1)-at-16-hours-(5°C)_vs_Unspiked-pig-feces(P1)-at-64-hours-(-20°C)_DOWN	NA	838	33024	841
+bsdb:1048/64/1_Microbiome:Unspiked-pig-feces(P1)-at-64-hours-(5°C)_vs_Unspiked-pig-feces(P1)-at-64-hours-(-20°C)_UP	NA	216851	33024	841
+bsdb:1048/64/2_Microbiome:Unspiked-pig-feces(P1)-at-64-hours-(5°C)_vs_Unspiked-pig-feces(P1)-at-64-hours-(-20°C)_DOWN	NA	838	157
+bsdb:1048/65/1_Microbiome:Unspiked-pig-feces(P1)-at-16-hours-(22°C)_vs_Unspiked-pig-feces(P1)-at-64-hours-(-20°C)_UP	NA	157	216851	33024	841
+bsdb:1048/65/2_Microbiome:Unspiked-pig-feces(P1)-at-16-hours-(22°C)_vs_Unspiked-pig-feces(P1)-at-64-hours-(-20°C)_DOWN	NA	838
+bsdb:1048/66/1_Microbiome:Unspiked-pig-feces(P1)-at-64-hours-(22°C)_vs_Unspiked-pig-feces(P1)-at-64-hours-(-20°C)_UP	NA	157	33024	216851	841
+bsdb:1048/66/2_Microbiome:Unspiked-pig-feces(P1)-at-64-hours-(22°C)_vs_Unspiked-pig-feces(P1)-at-64-hours-(-20°C)_DOWN	NA	838
+bsdb:1048/67/1_Microbiome:Unspiked-pig-feces(P1)-at-64-hours-(5°C)_vs_Unspiked-pig-feces(P1)-at-16-hours-(5°C)_UP	NA	157	216851	841
+bsdb:1048/67/2_Microbiome:Unspiked-pig-feces(P1)-at-64-hours-(5°C)_vs_Unspiked-pig-feces(P1)-at-16-hours-(5°C)_DOWN	NA	838	33024
+bsdb:1048/68/1_Microbiome:Unspiked-pig-feces(P1)-at-16-hours-(22°C)_vs_Unspiked-pig-feces(P1)-at-16-hours-(5°C)_UP	NA	157	216851	33024	841
+bsdb:1048/68/2_Microbiome:Unspiked-pig-feces(P1)-at-16-hours-(22°C)_vs_Unspiked-pig-feces(P1)-at-16-hours-(5°C)_DOWN	NA	838
+bsdb:1048/69/1_Microbiome:Unspiked-pig-feces(P1)-at-64-hours-(22°C)_vs_Unspiked-pig-feces(P1)-at-16-hours-(5°C)_UP	NA	216851	33024	841
+bsdb:1048/69/2_Microbiome:Unspiked-pig-feces(P1)-at-64-hours-(22°C)_vs_Unspiked-pig-feces(P1)-at-16-hours-(5°C)_DOWN	NA	838	157
+bsdb:1048/70/1_Microbiome:Unspiked-pig-feces(P1)-at-16-hours-(22°C)_vs_Unspiked-pig-feces(P1)-at-64-hours-(5°C)_UP	NA	157	216851
+bsdb:1048/70/2_Microbiome:Unspiked-pig-feces(P1)-at-16-hours-(22°C)_vs_Unspiked-pig-feces(P1)-at-64-hours-(5°C)_DOWN	NA	838	33024	841
+bsdb:1048/71/1_Microbiome:Unspiked-pig-feces(P1)-at-64-hours-(22°C)_vs_Unspiked-pig-feces(P1)-at-64-hours-(5°C)_UP	NA	157	216851
+bsdb:1048/71/2_Microbiome:Unspiked-pig-feces(P1)-at-64-hours-(22°C)_vs_Unspiked-pig-feces(P1)-at-64-hours-(5°C)_DOWN	NA	838	33024	841
+bsdb:1048/72/1_Microbiome:Unspiked-pig-feces(P1)-at-64-hours-(22°C)_vs_Unspiked-pig-feces(P1)-at-16-hours-(22°C)_UP	NA	157	216851
+bsdb:1048/72/2_Microbiome:Unspiked-pig-feces(P1)-at-64-hours-(22°C)_vs_Unspiked-pig-feces(P1)-at-16-hours-(22°C)_DOWN	NA	838	33024	841
 bsdb:1049/1/1_Atopic-eczema:cADtreat-dogs_vs_Healthy-dogs_UP	NA	1663	1716	281915
 bsdb:1049/2/1_Atopic-eczema:cADpost-dogs_vs_cADpre-dogs_UP	NA	1663	1386	1298	286	204447
 bsdb:1049/2/2_Atopic-eczema:cADpost-dogs_vs_cADpre-dogs_DOWN	NA	1716	1912216	407	1839	265	125216	295418	13687	1279	1301
@@ -3455,6 +3537,28 @@ bsdb:1060/16/1_Population:Twa_vs_Himba_UP	NA	590	158483	547	158876	544	561	568	1
 bsdb:1060/16/2_Population:Twa_vs_Himba_DOWN	NA	577309
 bsdb:1060/17/1_Population:Tshwa_vs_Himba_UP	NA	590	158483	547	544	158876	568	561
 bsdb:1060/17/2_Population:Tshwa_vs_Himba_DOWN	NA	1578	2801844
+bsdb:1060/18/1_Population:!Xun_vs_Himba_UP	NA	590	194
+bsdb:1060/18/2_Population:!Xun_vs_Himba_DOWN	NA	46123	1386	1870884	1350	2801844
+bsdb:1060/19/2_Population:Tshwa_vs_Twa_DOWN	NA	71	1654
+bsdb:1060/20/1_Population:!Xun_vs_Twa_DOWN	NA	158483	544	1870884	547	1350	561	286	508215	590	613	158876
+bsdb:1060/21/1_Population:!Xun_vs_Tshwa_UP	NA	71	1743
+bsdb:1060/21/2_Population:!Xun_vs_Tshwa_DOWN	NA	613	1378	47670	1350	544	547	561	590	158876	158483	1870884
+bsdb:1060/22/1_Population:Kwisi_vs_Tjimba_UP	NA	568
+bsdb:1060/22/2_Population:Kwisi_vs_Tjimba_UP	NA	638847
+bsdb:1060/23/1_Population:Twa_vs_Tjimba_UP	NA	568	158483	547	158876	561	544
+bsdb:1060/24/1_Population:Tshwa_vs_Tjimba_UP	NA	568	547	158483	544	158876	561	590
+bsdb:1060/25/1_Population:!Xun_vs_Tjimba_UP	NA	568	1743
+bsdb:1060/26/1_Population:Twa_vs_Kwisi_UP	NA	158483	547	158876	544
+bsdb:1060/27/1_Population:Tshwa_vs_Kwisi_UP	NA	158483	547	544
+bsdb:1060/27/2_Population:Tshwa_vs_Kwisi_DOWN	NA	71	475
+bsdb:1060/28/1_Population:!Xun_vs_Kwisi_UP	NA	1743
+bsdb:1060/28/2_Population:!Xun_vs_Kwisi_DOWN	NA	46123	1386	1870884	1350	561
+bsdb:1060/29/1_Socioeconomic-status:Foragers_vs_Pastoralists_UP	NA	1279384
+bsdb:1060/29/2_Socioeconomic-status:Foragers_vs_Pastoralists_DOWN	NA	46123	1386	1870884	1350	508215
+bsdb:1060/30/1_Socioeconomic-status:Peripatetics_vs_Pastoralists_UP	NA	544	570	561	590	568	547	286	1279384	1013	583
+bsdb:1060/30/2_Socioeconomic-status:Peripatetics_vs_Pastoralists_DOWN	NA	123375	1164882	1578	577309
+bsdb:1060/31/1_Socioeconomic-status:Foragers_vs_Peripatetics_UP	NA	1743
+bsdb:1060/31/2_Socioeconomic-status:Foragers_vs_Peripatetics_DOWN	NA	46123	1386	544	1870884	1350	561	570	47670	32207	590
 bsdb:1061/1/1_Alzheimer's-disease:Alzheimer’s-Disease-(AD)_vs_Cognitively-normal-(CN)-and-amnestic-mild-cognitive-impairment-(aMCI)_UP	NA	838	29465	848	286	1033	156454	2282523	2767358	906	374	2767353	1213720	469322
 bsdb:1061/2/1_Alzheimer's-disease:Amnestic-mild-cognitive-impairment-(aMCI)_vs_Cognitively-normal-(CN)-and-Alzheimer’s-Disease-(AD)_UP	NA	482	32207	48736	75
 bsdb:1061/3/1_Alzheimer's-disease:Alzheimer’s-Disease-(AD)-and-Amnestic-mild-cognitive-impairment-(aMCI)_vs_Cognitively-normal-(CN)_DOWN	NA	561	724	1827	2801844	59735	1913599	43996	2755140
@@ -3527,6 +3631,11 @@ bsdb:1077/12/2_Gut-microbiome-measurement:P1-JAX-group_vs_P1-TAC-group_DOWN	NA	3
 bsdb:1077/15/1_Gut-microbiome-measurement:F1-mJAX-group_vs_F1-mTAC-group_UP	NA	239934
 bsdb:1077/16/1_Gut-microbiome-measurement:P1-JAX-group_vs_P1-TAC-group_UP	NA	239934	1485	2086	1678	469
 bsdb:1077/16/2_Gut-microbiome-measurement:P1-JAX-group_vs_P1-TAC-group_DOWN	NA	375288	816	248038	51514	189330
+bsdb:1077/19/1_Gut-microbiome-measurement:F1-mJAX-group_vs_F1-mTAC-group_UP	NA	239934
+bsdb:1077/19/2_Gut-microbiome-measurement:F1-mJAX-group_vs_F1-mTAC-group_DOWN	NA	51514
+bsdb:1077/20/1_Gut-microbiome-measurement:P1-JAX-group_vs_P1-TAC-group_UP	NA	239934	1485	447020	2086
+bsdb:1077/20/2_Gut-microbiome-measurement:P1-JAX-group_vs_P1-TAC-group_DOWN	NA	375288	816	248038	51514
+bsdb:1077/23/1_Gut-microbiome-measurement:F1-mJAX-group_vs_F1-mTAC-group_UP	NA	239934
 bsdb:1080/1/1_Lower-respiratory-tract-disease:Chronic-Otitis-Media-With-Effusion-(COME)-with-asthma-or-bronchiolitis_vs_Chronic-Otitis-Media-With-Effusion-(COME)-without-asthma-or-bronchiolitis_UP	NA	724	1279	475
 bsdb:1081/1/1_Taxonomic-microbiome-measurement:Highly-attractive-group_vs_Poorly-attractive-group_UP	NA	73778	13687	1279
 bsdb:1081/1/2_Taxonomic-microbiome-measurement:Highly-attractive-group_vs_Poorly-attractive-group_DOWN	NA	41275	1716	665874
@@ -3696,6 +3805,23 @@ bsdb:1114/14/2_Glucose-measurement:Upper-Tertile-(high-stimulated-2-h-plasma-glu
 bsdb:1114/15/1_Insulin-sensitivity-measurement:Upper-Tertile-(high-insulin-sensitivity-index)_vs_Lower-Tertile-(low-insulin-sensitivity-index)_UP	NA	1485	29465
 bsdb:1114/15/2_Insulin-sensitivity-measurement:Upper-Tertile-(high-insulin-sensitivity-index)_vs_Lower-Tertile-(low-insulin-sensitivity-index)_DOWN	NA	816	1504576	1279	1301	40544	29465
 bsdb:1114/16/1_Glucose-measurement:Upper-Tertile-(high-stimulated-2-h-plasma-glucose-level)_vs_Lower-Tertile-(low-stimulated-2-h-plasma-glucose-level)_DOWN	NA	1301
+bsdb:1114/17/1_Disposition-index-measurement:Upper-Tertile-(high-disposition-index)_vs_Lower-Tertile-(low-disposition-index)_UP	NA	713	102106	375288	577309	838	1501226	1301	29465
+bsdb:1114/17/2_Disposition-index-measurement:Upper-Tertile-(high-disposition-index)_vs_Lower-Tertile-(low-disposition-index)_DOWN	NA	239759	816	572511	189330	253238	216851	142587	1501226	841	191303
+bsdb:1114/18/1_Fasting-blood-glucose-measurement:Upper-Tertile-(high-fasting-plasma-glucose)_vs_Lower-Tertile-(low-fasting-plasma-glucose)_UP	NA	239759	216851	1578	1301
+bsdb:1114/18/2_Fasting-blood-glucose-measurement:Upper-Tertile-(high-fasting-plasma-glucose)_vs_Lower-Tertile-(low-fasting-plasma-glucose)_DOWN	NA	1654	207244	244127	1678	102106	33042	1350	906	577309	838	40544
+bsdb:1114/19/1_Glucose-measurement:Upper-Tertile-(high-stimulated-2-h-plasma-glucose-level)_vs_Lower-Tertile-(low-stimulated-2-h-plasma-glucose-level)_UP	NA	239759	1350	836
+bsdb:1114/19/2_Glucose-measurement:Upper-Tertile-(high-stimulated-2-h-plasma-glucose-level)_vs_Lower-Tertile-(low-stimulated-2-h-plasma-glucose-level)_DOWN	NA	1485	841	29465
+bsdb:1114/20/1_Insulin-sensitivity-measurement:Upper-Tertile-(high-insulin-sensitivity-index)_vs_Lower-Tertile-(low-insulin-sensitivity-index)_UP	NA	724	577309	838	1301	29465
+bsdb:1114/20/2_Insulin-sensitivity-measurement:Upper-Tertile-(high-insulin-sensitivity-index)_vs_Lower-Tertile-(low-insulin-sensitivity-index)_DOWN	NA	1485	1350	253238	570	29465
+bsdb:1114/21/1_Disposition-index-measurement:Upper-Tertile-(high-disposition-index)_vs_Lower-Tertile-(low-disposition-index)_UP	NA	816	1301	29465
+bsdb:1114/21/2_Disposition-index-measurement:Upper-Tertile-(high-disposition-index)_vs_Lower-Tertile-(low-disposition-index)_DOWN	NA	117563	1501226
+bsdb:1114/22/1_Fasting-blood-glucose-measurement:Upper-Tertile-(high-fasting-plasma-glucose)_vs_Lower-Tertile-(low-fasting-plasma-glucose)_DOWN	NA	33042
+bsdb:1114/23/1_Glucose-measurement:Upper-Tertile-(high-stimulated-2-h-plasma-glucose-level)_vs_Lower-Tertile-(low-stimulated-2-h-plasma-glucose-level)_UP	NA	1654	216851
+bsdb:1114/24/1_Insulin-sensitivity-measurement:Upper-Tertile-(high-insulin-sensitivity-index)_vs_Lower-Tertile-(low-insulin-sensitivity-index)_UP	NA	1301
+bsdb:1114/25/1_Gestational-weight-gain-measurement:Upper-Tertile-(high-gestational-weight-gain)_vs_Lower-Tertile-(low-gestational-weight-gain)_UP	NA	816	1678	39948	724	1279	29465
+bsdb:1114/25/2_Gestational-weight-gain-measurement:Upper-Tertile-(high-gestational-weight-gain)_vs_Lower-Tertile-(low-gestational-weight-gain)_DOWN	NA	816	1485	102106	1573535	570	482	841	40544
+bsdb:1114/26/1_Gestational-weight-gain-measurement:Upper-Tertile-(high-gestational-weight-gain)_vs_Lower-Tertile-(low-gestational-weight-gain)_UP	NA	724	838
+bsdb:1114/26/2_Gestational-weight-gain-measurement:Upper-Tertile-(high-gestational-weight-gain)_vs_Lower-Tertile-(low-gestational-weight-gain)_DOWN	NA	216851
 bsdb:1115/1/1_Ischemic-stroke:Patients-with-stroke-associated-pneumonia-(SAP)_vs_Patients-without-stroke-associated-pneumonia-(non-SAP)_UP	NA	830	1716
 bsdb:1115/1/2_Ischemic-stroke:Patients-with-stroke-associated-pneumonia-(SAP)_vs_Patients-without-stroke-associated-pneumonia-(non-SAP)_DOWN	NA	580596	1407607
 bsdb:1115/2/1_Ischemic-stroke:Patients-with-stroke-associated-Pnuemonia(SAP)_vs_Patients-without-stroke-associated-Pnuemonia(non-SAP)_UP	NA	816	580596	574697	33042	1407607
@@ -3791,6 +3917,10 @@ bsdb:1149/16/1_Aging:SG90+CPE-(Increased-age-group)_vs_SG90+CPE-(Decreasing-age-
 bsdb:1149/16/2_Aging:SG90+CPE-(Increased-age-group)_vs_SG90+CPE-(Decreasing-age-group)_DOWN	NA	35832	84111	158846
 bsdb:1149/17/1_Aging:SG90+CPE-(Increased-age-group)_vs_SG90+CPE-(Decreasing-age-group)_UP	NA	239759
 bsdb:1149/17/2_Aging:SG90+CPE-(Increased-age-group)_vs_SG90+CPE-(Decreasing-age-group)_DOWN	NA	35832	84111	158846
+bsdb:1149/18/1_Aging:SG90+CPE-(Increased-age-group)_vs_SG90+CPE-(Decreasing-age-group)_UP	NA	35832	239759
+bsdb:1149/18/2_Aging:SG90+CPE-(Increased-age-group)_vs_SG90+CPE-(Decreasing-age-group)_DOWN	NA	84111	35832
+bsdb:1149/19/1_Aging:SG90+CPE-(Increased-age-group)_vs_SG90+CPE-(Decreasing-age-group)_UP	NA	239759
+bsdb:1149/19/2_Aging:SG90+CPE-(Increased-age-group)_vs_SG90+CPE-(Decreasing-age-group)_DOWN	NA	158846	84111	35832
 bsdb:1151/1/1_Lactose-intolerance:Participants-with-Lactose-Intolerance(LI)_vs_Participants-without-Lactose-Intolerance(Non-LI)_UP	NA	572511	1485	102106	283	39948	724	906	157
 bsdb:1151/1/2_Lactose-intolerance:Participants-with-Lactose-Intolerance(LI)_vs_Participants-without-Lactose-Intolerance(Non-LI)_DOWN	NA	239759	830	872	1730	838	1263	83770
 bsdb:1151/2/1_Lactose-intolerance:Participants-with-Lactose-Intolerance(LI)_vs_Healthy-controls-(HC)_UP	NA	547	561	28050	1243	590	620	570	375288
@@ -3833,6 +3963,20 @@ bsdb:1160/14/2_Systemic-inflammatory-response-syndrome:B2.1-(gut-microbiome-remo
 bsdb:1160/15/1_Systemic-inflammatory-response-syndrome:PC1-(Patient-sample-1-treated-with-cocktail-c)_vs_PD1-(Patient-sample-1-with-DMSO)_DOWN	NA	547
 bsdb:1160/16/1_Systemic-inflammatory-response-syndrome:PC2-(Patient-sample-2-treated-with-cocktail-c)_vs_PD2-(Patient-sample-2-with-DMSO)_DOWN	NA	816	375288
 bsdb:1160/17/1_Systemic-inflammatory-response-syndrome:PC4-(Patient-sample-4-treated-with-cocktail-c)_vs_PD4-(Patient-sample-4-with-DMSO)_DOWN	NA	816	547
+bsdb:1160/19/1_Systemic-inflammatory-response-syndrome:PC6-(Patient-sample-6-treated-with-cocktail-c)_vs_PD6-(Patient-sample-6-with-DMSO)_DOWN	NA	375288
+bsdb:1160/20/2_Systemic-inflammatory-response-syndrome:PC8-(Patient-sample-8-treated-with-cocktail-c)_vs_PD8-(Patient-sample-8-with-DMSO)_UP	NA	1678
+bsdb:1160/21/1_Systemic-inflammatory-response-syndrome:P-(Patients-with-SIRS)_vs_H-(Healthy-Volunteers)_UP	NA	1350	1578	816	547	1506553	239934	286	48736	156973
+bsdb:1160/21/2_Systemic-inflammatory-response-syndrome:P-(Patients-with-SIRS)_vs_H-(Healthy-Volunteers)_DOWN	NA	1678	1301	572511	1407607	216851	189330	1766253	1501226
+bsdb:1160/22/2_Systemic-inflammatory-response-syndrome:B2.2-(gut-microbiome-remodeling-compound)_vs_MD-(cultured-model)_DOWN	NA	816
+bsdb:1160/23/2_Systemic-inflammatory-response-syndrome:C2.1-(gut-microbiome-remodeling-compound)_vs_MD-(cultured-model)_DOWN	NA	547	816
+bsdb:1160/24/1_Systemic-inflammatory-response-syndrome:C2.2-(gut-microbiome-remodeling-compound)_vs_MD-(cultured-model)_DOWN	NA	816	547
+bsdb:1160/24/2_Systemic-inflammatory-response-syndrome:C2.2-(gut-microbiome-remodeling-compound)_vs_MD-(cultured-model)_UP	NA	1350
+bsdb:1160/26/1_Systemic-inflammatory-response-syndrome:D2.2-(gut-microbiome-remodeling-compound)_vs_MD-(cultured-model)_UP	NA	1350
+bsdb:1160/26/2_Systemic-inflammatory-response-syndrome:D2.2-(gut-microbiome-remodeling-compound)_vs_MD-(cultured-model)_DOWN	NA	816
+bsdb:1160/27/2_Systemic-inflammatory-response-syndrome:E2.1-(gut-microbiome-remodeling-compound)_vs_MD-(cultured-model)_DOWN	NA	816	547
+bsdb:1160/28/1_Systemic-inflammatory-response-syndrome:E2.2-(gut-microbiome-remodeling-compound)_vs_MD-(cultured-model)_DOWN	NA	547	816
+bsdb:1160/29/1_Systemic-inflammatory-response-syndrome:F2.1-(gut-microbiome-remodeling-compound)_vs_MD-(cultured-model)_DOWN	NA	816	547
+bsdb:1160/30/1_Systemic-inflammatory-response-syndrome:F2.2-(gut-microbiome-remodeling-compound)_vs_MD-(cultured-model)_DOWN	NA	816
 bsdb:1161/1/1_Schistosomiasis:Schistosomiasis-positive_vs_Schistosomiasis-negative_UP	NA	469	1283313	872	39948	724	906	133925	2740	838
 bsdb:1161/1/2_Schistosomiasis:Schistosomiasis-positive_vs_Schistosomiasis-negative_DOWN	NA	375288	292632	1485
 bsdb:1162/2/1_Viral-encephalitis:Encephalitis-(ENC)_vs_healthy-controls-(CON)_UP	NA	239934	119852	375288
@@ -3861,6 +4005,24 @@ bsdb:1167/15/1_Waist-circumference:High-waist-circumference_vs_Low-waist-circumf
 bsdb:1167/15/2_Waist-circumference:High-waist-circumference_vs_Low-waist-circumference_DOWN	NA	572511
 bsdb:1167/16/1_Hypertriglyceridemia:Hypertriglyceridemia_vs_Non-hypertriglyceridemia_DOWN	NA	119852
 bsdb:1167/17/1_HDL-cholesterol:LOW-high-density-lipoprotein-(HDL)_vs_HIGH-high-density-lipoprotein-(HDL)_UP	NA	906
+bsdb:1167/18/1_Waist-circumference:High-waist-circumference_vs_Low-waist-circumference_UP	NA	838	1301	29465
+bsdb:1167/18/2_Waist-circumference:High-waist-circumference_vs_Low-waist-circumference_DOWN	NA	32207	838
+bsdb:1167/19/1_Waist-circumference:High-waist-circumference_vs_Low-waist-circumference_UP	NA	838	29465	1301
+bsdb:1167/19/2_Waist-circumference:High-waist-circumference_vs_Low-waist-circumference_DOWN	NA	482
+bsdb:1167/20/1_Waist-circumference:High-waist-circumference_vs_Low-waist-circumference_UP	NA	1301	29465	838
+bsdb:1167/20/2_Waist-circumference:High-waist-circumference_vs_Low-waist-circumference_DOWN	NA	32207
+bsdb:1167/21/1_Hypertension:Hypertension_vs_Non-hypertension_UP	NA	838	29465
+bsdb:1167/21/2_Hypertension:Hypertension_vs_Non-hypertension_DOWN	NA	838	32207
+bsdb:1167/22/1_Hypertension:Hypertension_vs_Non-hypertension_UP	NA	29465
+bsdb:1167/22/2_Hypertension:Hypertension_vs_Non-hypertension_DOWN	NA	482
+bsdb:1167/23/1_Hypertension:Hypertension_vs_Non-hypertension_UP	NA	838
+bsdb:1167/23/2_Hypertension:Hypertension_vs_Non-hypertension_DOWN	NA	32207
+bsdb:1167/24/1_Hypertriglyceridemia:Hypertriglyceridemia_vs_Non-Hypertriglyceridemia_UP	NA	29465
+bsdb:1167/24/2_Hypertriglyceridemia:Hypertriglyceridemia_vs_Non-Hypertriglyceridemia_DOWN	NA	482
+bsdb:1167/25/1_HDL-cholesterol:LOW-high-density-lipoprotein-(HDL)_vs_HIGH-high-density-lipoprotein-(HDL)_UP	NA	482	838
+bsdb:1167/26/1_Waist-circumference:High-waist-circumference_vs_Low-waist-circumference_UP	NA	1301	838	724	482
+bsdb:1167/26/2_Waist-circumference:High-waist-circumference_vs_Low-waist-circumference_DOWN	NA	836
+bsdb:1167/27/1_Hyperglycemia:Hyperglycemia_vs_Non-hyperglycemia_DOWN	NA	724
 bsdb:1168/1/1_HIV-infection:HIV--infected-Pregnant-women_vs_HIV-uninfected-Pregnant-women_UP	NA	1654	83770
 bsdb:1168/1/2_HIV-infection:HIV--infected-Pregnant-women_vs_HIV-uninfected-Pregnant-women_DOWN	NA	816	1678	1485	216851	119852	375288	1263	157	191303
 bsdb:1168/2/1_Birth-weight:Infants-with-Low-birthweight-<2500g_vs_Infants-with-High-birthweight->2500g_UP	NA	157
@@ -4237,5 +4399,31 @@ bsdb:1239/14/2_Treatment-outcome-measurement:Vancomycin-treated-mice-cohoused-wi
 bsdb:1239/15/1_Treatment-outcome-measurement:Vancomycin-treated-mice-cohoused-with-untreated-mice-(VancoCoho)---15-DPI_vs_Untreated-mice-cohoused-with-vancomycin-treated-mice-(ControlCoho)---15-DPI_UP	NA	259063	69825
 bsdb:1239/15/2_Treatment-outcome-measurement:Vancomycin-treated-mice-cohoused-with-untreated-mice-(VancoCoho)---15-DPI_vs_Untreated-mice-cohoused-with-vancomycin-treated-mice-(ControlCoho)---15-DPI_DOWN	NA	39486	208479	1531	1544	351091
 bsdb:1239/16/2_Treatment-outcome-measurement:Single-treatment-housed-vancomycin-mice---0-DPI_vs_Single-treatment-housed-control-mice---0-DPI_DOWN	NA	69825	115544
+bsdb:1239/18/1_Treatment-outcome-measurement:Single-treatment-housed-vancomycin-mice---8-DPI_vs_Single-treatment-housed-control-mice---8-DPI_DOWN	NA	169435	166486	39486	259063
+bsdb:1239/19/1_Treatment-outcome-measurement:Single-treatment-housed-vancomycin-mice---15-DPI_vs_Single-treatment-housed-control-mice---15-DPI_DOWN	NA	39486	879566	166486
+bsdb:1239/19/2_Treatment-outcome-measurement:Single-treatment-housed-vancomycin-mice---15-DPI_vs_Single-treatment-housed-control-mice---15-DPI_UP	NA	138595	36834	46867	36850	154288
+bsdb:1239/20/1_Multiple-sclerosis:Post-Experimental-Autoimmune-Encephalomyelitis-induction-latent-period(post-EAE-induction):-3-days-post-immunization(3-DPI)_vs_Pre-Experimental-Autoimmune-Encephalomyelitis-induction(pre-EAE-induction/Day-0):-0-day-post-immunization(0-DPI)_DOWN	NA	69825	508451	1596	1203033	33959
+bsdb:1239/21/1_Multiple-sclerosis:Post-Experimental-Autoimmune-Encephalomyelitis-induction-latent-period(post-EAE-induction):-8-days-post-immunization(8-DPI)_vs_Pre-Experimental-Autoimmune-Encephalomyelitis-induction(pre-EAE-induction/Day-0):-0-day-post-immunization(0-DPI)_DOWN	NA	29347
+bsdb:1239/22/1_Multiple-sclerosis:Post-Experimental-Autoimmune-Encephalomyelitis-induction-peak-disease(post-EAE-induction):-15-days-post-immunization(15-DPI)_vs_Pre-Experimental-Autoimmune-Encephalomyelitis-induction(pre-EAE-induction/Day-0):-0-day-post-immunization(0-DPI)_UP	NA	239935	29347	154288
+bsdb:1239/22/2_Multiple-sclerosis:Post-Experimental-Autoimmune-Encephalomyelitis-induction-peak-disease(post-EAE-induction):-15-days-post-immunization(15-DPI)_vs_Pre-Experimental-Autoimmune-Encephalomyelitis-induction(pre-EAE-induction/Day-0):-0-day-post-immunization(0-DPI)_DOWN	NA	69825	1596	1203033	508451	33959
+bsdb:1239/23/1_Treatment-outcome-measurement:Single-treatment-housed-vancomycin-mice---0-DPI_vs_Single-treatment-housed-control-mice---0-DPI_UP	NA	239935	154288	37734	1353	41997
+bsdb:1239/23/2_Treatment-outcome-measurement:Single-treatment-housed-vancomycin-mice---0-DPI_vs_Single-treatment-housed-control-mice---0-DPI_DOWN	NA	1596	1203033	33959	508451	169435	333367	460384	69825	259063
+bsdb:1239/24/1_Treatment-outcome-measurement:Vancomycin-treated-mice-cohoused-with-untreated-mice-(VancoCoho)---3-DPI_vs_Single-treatment-housed-control-mice---3-DPI_DOWN	NA	169435
+bsdb:1239/24/2_Treatment-outcome-measurement:Vancomycin-treated-mice-cohoused-with-untreated-mice-(VancoCoho)---3-DPI_vs_Single-treatment-housed-control-mice---3-DPI_UP	NA	239935	69824	154288	1353	37734	41997	29347
+bsdb:1239/25/1_Treatment-outcome-measurement:Single-treatment-housed-vancomycin-mice---8-DPI_vs_Single-treatment-housed-control-mice---8-DPI_DOWN	NA	169435
+bsdb:1239/25/2_Treatment-outcome-measurement:Single-treatment-housed-vancomycin-mice---8-DPI_vs_Single-treatment-housed-control-mice---8-DPI_UP	NA	239935	1596	1203033	33959	508451	69824	29347
+bsdb:1239/26/2_Treatment-outcome-measurement:Single-treatment-housed-vancomycin-mice---15-DPI_vs_Single-treatment-housed-control-mice---15-DPI_UP	NA	333367	460384	508451	1596	1203033	33959	154288	29347	69825	259063
+bsdb:1239/27/1_Treatment-outcome-measurement:Vancomycin-treated-mice-cohoused-with-untreated-mice-(VancoCoho)---0-DPI_vs_Single-treatment-housed-vancomycin-mice-(vancomycin)---0-DPI_DOWN	NA	239935
+bsdb:1239/27/2_Treatment-outcome-measurement:Vancomycin-treated-mice-cohoused-with-untreated-mice-(VancoCoho)---0-DPI_vs_Single-treatment-housed-vancomycin-mice-(vancomycin)---0-DPI_UP	NA	1596	1203033	33959	508451	69824
+bsdb:1239/28/1_Treatment-outcome-measurement:Vancomycin-treated-mice-cohoused-with-untreated-mice-(VancoCoho)---3-DPI_vs_Single-treatment-housed-vancomycin-mice-(vancomycin)---3-DPI_UP	NA	333367	460384	169435
+bsdb:1239/28/2_Treatment-outcome-measurement:Vancomycin-treated-mice-cohoused-with-untreated-mice-(VancoCoho)---3-DPI_vs_Single-treatment-housed-vancomycin-mice-(vancomycin)---3-DPI_DOWN	NA	239935	69824
+bsdb:1239/29/1_Treatment-outcome-measurement:Vancomycin-treated-mice-cohoused-with-untreated-mice-(VancoCoho)---8-DPI_vs_Single-treatment-housed-vancomycin-mice-(vancomycin)---8-DPI_UP	NA	169435
+bsdb:1239/29/2_Treatment-outcome-measurement:Vancomycin-treated-mice-cohoused-with-untreated-mice-(VancoCoho)---8-DPI_vs_Single-treatment-housed-vancomycin-mice-(vancomycin)---8-DPI_DOWN	NA	239935	1596	1203033	33959	508451	69824
+bsdb:1239/30/1_Treatment-outcome-measurement:Vancomycin-treated-mice-cohoused-with-untreated-mice-(VancoCoho)---15-DPI_vs_Single-treatment-housed-vancomycin-mice-(vancomycin)---15-DPI_UP	NA	169435
+bsdb:1239/30/2_Treatment-outcome-measurement:Vancomycin-treated-mice-cohoused-with-untreated-mice-(VancoCoho)---15-DPI_vs_Single-treatment-housed-vancomycin-mice-(vancomycin)---15-DPI_DOWN	NA	333367	460384
+bsdb:1239/31/1_Treatment-outcome-measurement:Vancomycin-treated-mice-cohoused-with-untreated-mice-(VancoCoho)---0-DPI_vs_Untreated-mice-cohoused-with-vancomycin-treated-mice-(ControlCoho)---0-DPI_UP	NA	100884	69824
+bsdb:1239/32/1_Treatment-outcome-measurement:Vancomycin-treated-mice-cohoused-with-untreated-mice-(VancoCoho)---3-DPI_vs_Untreated-mice-cohoused-with-vancomycin-treated-mice-(ControlCoho)---3-DPI_UP	NA	239935	100884	1544	69824
+bsdb:1239/33/1_Treatment-outcome-measurement:Vancomycin-treated-mice-cohoused-with-untreated-mice-(VancoCoho)---8-DPI_vs_Untreated-mice-cohoused-with-vancomycin-treated-mice-(ControlCoho)---8-DPI_UP	NA	239935
+bsdb:1239/34/1_Treatment-outcome-measurement:Vancomycin-treated-mice-cohoused-with-untreated-mice-(VancoCoho)---15-DPI_vs_Untreated-mice-cohoused-with-vancomycin-treated-mice-(ControlCoho)---15-DPI_UP	NA	69825	259063
 bsdb:1243/1/1_Spontaneous-preterm-birth:Preterm-birth-(PTB)_vs_Term-birth-(TB)_UP	NA	147802	306	82135	28128	40543
 bsdb:1243/1/2_Spontaneous-preterm-birth:Preterm-birth-(PTB)_vs_Term-birth-(TB)_DOWN	NA	47770	33959
