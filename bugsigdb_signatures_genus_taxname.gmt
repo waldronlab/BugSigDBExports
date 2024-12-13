@@ -1,4 +1,4 @@
-# BugSigDB 2024-12-13_07:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2024-12-13_09:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	Actinomyces	Corynebacterium	Streptococcus	Peptoniphilus	Dorea	Phascolarctobacterium	Sutterella	Lacticaseibacillus	Bacillus
 bsdb:1/1/2_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	Coprobacillus
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	Anaerostipes	Lacticaseibacillus
@@ -3892,6 +3892,15 @@ bsdb:1016/3/4_Microbiome-measurement:Post-chemoradiotherapy_vs_Pre-chemoradiothe
 bsdb:1016/4/1_Response-to-combination-chemotherapy:Non-Responders-at-baseline_vs_Responders-at-baseline_UP	NA	Anaeroglobus	Prevotella	Streptococcus
 bsdb:1016/4/2_Response-to-combination-chemotherapy:Non-Responders-at-baseline_vs_Responders-at-baseline_DOWN	NA	Abiotrophia	Actinomyces	Corynebacterium	Lautropia	Leptotrichia	Neisseria	Prevotella	Veillonella
 bsdb:1016/5/1_Response-to-combination-chemotherapy:Non-Responders-at-6-months_vs_Responders-at-6-months_DOWN	NA	Actinomyces	Atopobium	Gemella	Rothia	Streptococcus	Veillonella
+bsdb:1017/1/1_Exposure:ASVs-positively-correlated-with-microplastic-count_vs_ASVs-negatively-correlated-with-microplastic-count_UP	NA	Cetobacterium	Corynebacterium	Ligilactobacillus	Parvimonas
+bsdb:1017/1/2_Exposure:ASVs-positively-correlated-with-microplastic-count_vs_ASVs-negatively-correlated-with-microplastic-count_DOWN	NA	Enterococcus	Pseudoalteromonas	Psychrobacter	Staphylococcus	Catellicoccus
+bsdb:1017/2/1_Exposure:ASVs-positively-correlated-with-microplastic-mass_vs_ASVs-negatively-correlated-with-microplastic-mass_UP	NA	Fusobacterium	Edwardsiella	Pseudoalteromonas	Catellicoccus
+bsdb:1017/2/2_Exposure:ASVs-positively-correlated-with-microplastic-mass_vs_ASVs-negatively-correlated-with-microplastic-mass_DOWN	NA	Cetobacterium
+bsdb:1017/3/1_Exposure:Microplastic-count-and-the-Proventriculus_vs_Microplastic-count-and-the-Cloaca_UP	NA	Edwardsiella	Corynebacterium
+bsdb:1017/3/2_Exposure:Microplastic-count-and-the-Proventriculus_vs_Microplastic-count-and-the-Cloaca_DOWN	NA	Flaviflexus
+bsdb:1017/4/1_Exposure:Microplastic-mass-and-the-Proventriculus_vs_Microplastic-mass-and-the-Cloaca_UP	NA	Acinetobacter
+bsdb:1017/4/2_Exposure:Microplastic-mass-and-the-Proventriculus_vs_Microplastic-mass-and-the-Cloaca_DOWN	NA	Clostridium
+bsdb:1017/5/1_Exposure:Microplastic-count-and-Northern-fulmars(F.-glacialis)_vs_Microplastic-count-and-Cory’s-shearwaters-(C.-borealis)_DOWN	NA	Catellicoccus
 bsdb:1018/1/1_Strongylocentrotus-purpuratus:Diseased-sea-urchins_vs_Healthy-sea-urchins_UP	NA	Lutibacter	Pseudoteredinibacter
 bsdb:1018/2/1_Microbiome-measurement:Lesion-body-wall-samples-(LBW)_vs_Lesion-surface-samples-(LS)_UP	NA	Candidatus Photodesmus
 bsdb:1018/2/2_Microbiome-measurement:Lesion-body-wall-samples-(LBW)_vs_Lesion-surface-samples-(LS)_DOWN	NA	Pseudophaeobacter	Roseobacter
@@ -4240,30 +4249,6 @@ bsdb:1048/150/1_Microbiome:Unspiked-sewage-samples-(S1)-at-64-hours-(5°C)_vs_Un
 bsdb:1048/150/2_Microbiome:Unspiked-sewage-samples-(S1)-at-64-hours-(5°C)_vs_Unspiked-sewage-samples-(S1)-at-0-hours_DOWN	NA	Arcobacter	Acinetobacter
 bsdb:1048/151/1_Microbiome:Unspiked-sewage-samples-(S1)-at-16-hours-(22°C)_vs_Unspiked-sewage-samples-(S1)-at-0-hours_UP	NA	Parabacteroides	Prevotella	Aeromonas
 bsdb:1048/151/2_Microbiome:Unspiked-sewage-samples-(S1)-at-16-hours-(22°C)_vs_Unspiked-sewage-samples-(S1)-at-0-hours_DOWN	NA	Arcobacter	Acinetobacter
-bsdb:1048/152/1_Microbiome:Unspiked-sewage-samples-(S1)-at-64-hours-(22°C)_vs_Unspiked-sewage-samples-(S1)-at-0-hours_UP	NA	Prevotella	Aeromonas
-bsdb:1048/152/2_Microbiome:Unspiked-sewage-samples-(S1)-at-64-hours-(22°C)_vs_Unspiked-sewage-samples-(S1)-at-0-hours_DOWN	NA	Arcobacter	Acinetobacter	Parabacteroides
-bsdb:1048/153/1_Microbiome:Unspiked-sewage-samples-(S1)-at-64-hours-(-80°C)_vs_Unspiked-sewage-samples-(S1)-at-16-hours-(-80°C)_UP	NA	Aeromonas
-bsdb:1048/153/2_Microbiome:Unspiked-sewage-samples-(S1)-at-64-hours-(-80°C)_vs_Unspiked-sewage-samples-(S1)-at-16-hours-(-80°C)_DOWN	NA	Arcobacter	Acinetobacter	Parabacteroides	Prevotella
-bsdb:1048/154/1_Microbiome:Unspiked-sewage-samples-(S1)-at-16-hours-(-20°C)_vs_Unspiked-sewage-samples-(S1)-at-16-hours-(-80°C)_UP	NA	Acinetobacter
-bsdb:1048/154/2_Microbiome:Unspiked-sewage-samples-(S1)-at-16-hours-(-20°C)_vs_Unspiked-sewage-samples-(S1)-at-16-hours-(-80°C)_DOWN	NA	Arcobacter	Parabacteroides	Prevotella	Aeromonas
-bsdb:1048/155/1_Microbiome:Unspiked-sewage-samples-(S1)-at-64-hours-(-20°C)_vs_Unspiked-sewage-samples-(S1)-at-16-hours-(-80°C)_UP	NA	Prevotella
-bsdb:1048/155/2_Microbiome:Unspiked-sewage-samples-(S1)-at-64-hours-(-20°C)_vs_Unspiked-sewage-samples-(S1)-at-16-hours-(-80°C)_DOWN	NA	Arcobacter	Acinetobacter	Parabacteroides	Aeromonas
-bsdb:1048/156/1_Microbiome:Unspiked-sewage-samples-(S1)-at-16-hours-(5°C)_vs_Unspiked-sewage-samples-(S1)-at-16-hours-(-80°C)_UP	NA	Parabacteroides	Prevotella
-bsdb:1048/156/2_Microbiome:Unspiked-sewage-samples-(S1)-at-16-hours-(5°C)_vs_Unspiked-sewage-samples-(S1)-at-16-hours-(-80°C)_DOWN	NA	Arcobacter	Acinetobacter	Aeromonas
-bsdb:1048/157/1_Microbiome:Unspiked-sewage-samples-(S1)-at-64-hours-(5°C)_vs_Unspiked-sewage-samples-(S1)-at-16-hours-(-80°C)_UP	NA	Parabacteroides
-bsdb:1048/157/2_Microbiome:Unspiked-sewage-samples-(S1)-at-64-hours-(5°C)_vs_Unspiked-sewage-samples-(S1)-at-16-hours-(-80°C)_DOWN	NA	Arcobacter	Acinetobacter	Prevotella	Aeromonas
-bsdb:1048/158/1_Microbiome:Unspiked-sewage-samples-(S1)-at-16-hours-(22°C)_vs_Unspiked-sewage-samples-(S1)-at-16-hours-(-80°C)_UP	NA	Acinetobacter	Parabacteroides	Prevotella
-bsdb:1048/158/2_Microbiome:Unspiked-sewage-samples-(S1)-at-16-hours-(22°C)_vs_Unspiked-sewage-samples-(S1)-at-16-hours-(-80°C)_DOWN	NA	Arcobacter	Aeromonas
-bsdb:1048/159/1_Microbiome:Unspiked-sewage-samples-(S1)-at-64-hours-(22°C)_vs_Unspiked-sewage-samples-(S1)-at-16-hours-(-80°C)_UP	NA	Prevotella	Aeromonas
-bsdb:1048/159/2_Microbiome:Unspiked-sewage-samples-(S1)-at-64-hours-(22°C)_vs_Unspiked-sewage-samples-(S1)-at-16-hours-(-80°C)_DOWN	NA	Arcobacter	Acinetobacter	Parabacteroides
-bsdb:1048/160/1_Microbiome:Unspiked-sewage-samples-(S1)-at-16-hours-(-20°C)_vs_Unspiked-sewage-samples-(S1)-at-64-hours-(-80°C)_UP	NA	Arcobacter	Acinetobacter	Parabacteroides	Aeromonas
-bsdb:1048/160/2_Microbiome:Unspiked-sewage-samples-(S1)-at-16-hours-(-20°C)_vs_Unspiked-sewage-samples-(S1)-at-64-hours-(-80°C)_DOWN	NA	Prevotella
-bsdb:1048/161/1_Microbiome:Unspiked-sewage-samples-(S1)-at-64-hours-(-20°C)_vs_Unspiked-sewage-samples-(S1)-at-64-hours-(-80°C)_UP	NA	Arcobacter	Acinetobacter	Parabacteroides	Prevotella
-bsdb:1048/161/2_Microbiome:Unspiked-sewage-samples-(S1)-at-64-hours-(-20°C)_vs_Unspiked-sewage-samples-(S1)-at-64-hours-(-80°C)_DOWN	NA	Aeromonas
-bsdb:1048/162/1_Microbiome:Unspiked-sewage-samples-(S1)-at-16-hours-(5°C)_vs_Unspiked-sewage-samples-(S1)-at-64-hours-(-80°C)_UP	NA	Arcobacter	Acinetobacter	Parabacteroides	Prevotella
-bsdb:1048/162/2_Microbiome:Unspiked-sewage-samples-(S1)-at-16-hours-(5°C)_vs_Unspiked-sewage-samples-(S1)-at-64-hours-(-80°C)_DOWN	NA	Aeromonas
-bsdb:1048/207/1_Microbiome:Unspiked-sewage-samples-(S2)-at-16-hours-(5°C)_vs_Unspiked-sewage-samples-(S2)-at-64-hours-(-20°C)_UP	NA	Parabacteroides
-bsdb:1048/207/2_Microbiome:Unspiked-sewage-samples-(S2)-at-16-hours-(5°C)_vs_Unspiked-sewage-samples-(S2)-at-64-hours-(-20°C)_DOWN	NA	Arcobacter	Acinetobacter	Prevotella	Aeromonas
 bsdb:1049/1/1_Atopic-eczema:cADtreat-dogs_vs_Healthy-dogs_UP	NA	Arthrobacter	Corynebacterium	Curvibacter
 bsdb:1049/2/1_Atopic-eczema:cADpost-dogs_vs_cADpre-dogs_UP	NA	Arthrobacter	Bacillus	Deinococcus	Pseudomonas	Skermanella
 bsdb:1049/2/2_Atopic-eczema:cADpost-dogs_vs_cADpre-dogs_DOWN	NA	Corynebacterium	Cutibacterium	Methylobacterium	Nocardioides	Paracoccus	Roseomonas	Rubellimicrobium	Sphingomonas	Staphylococcus	Streptococcus
@@ -5217,7 +5202,7 @@ bsdb:1203/5/1_Type-II-diabetes-mellitus:Prediabetes-(PD)---Indian-Cohort_vs_Norm
 bsdb:1203/6/1_Type-II-diabetes-mellitus:Prediabetes-(PD)---Indian-Cohort_vs_Normoglycemic-(NG)-controls---Indian-Cohort_UP	NA	Heliofungia	Herodialges	Pseudomonas	Sibirasellus	Theileria	Agrobacterium	Pseudoalteromonas	Trilocha	Aphengium	Vexillifera	Cornuscoparia	Cyrtowithius	Encentrum	Chloracantha	Cronobacter	Burkholderia	Bradyrhizobium	Bertia	Marinobacterium	Massilia	Andrena	Spironucleus	Rhizobium	Hatiora	Sinorhizobium	Nebria	Spiroxya	Aphodius
 bsdb:1203/7/1_Type-II-diabetes-mellitus:Prediabetes-(PD)---Indian-&-Danish-Cohorts_vs_Normoglycemic-(NG)-controls---Indian-&-Danish-Cohorts_UP	NA	Lactobacillus	Blautia	Streptococcus	Lachnoclostridium	Vibrio	Pasteurella	Veillonella	Klebsiella	Rhodococcus	Intestinibacter	Achromobacter	Negativibacillus	Eisenbergiella	Enterococcus
 bsdb:1204/2/2_Growth-condition:Female-High-Feed-efficiency-(F-HFE)-groups_vs_Female-Low-feed-efficiency-(F-LFE)-groups_DOWN	NA	Blautia	Butyricimonas	Collinsella	Faecalibacterium	Thomasclavelia
-bsdb:1204/3/1_Growth-condition:Male-High-Feed-Efficiency-(M-HFE)-groups_vs_Male-Low-Feed-Efficiency-(M-LFE)-groups_UP	NA	Lachnoclostridium	Lactobacillus	Megamonas	Parabacteroides	Prevotella	Alistipes
+bsdb:1204/3/1_Growth-condition:Male-High-Feed-Efficiency-(M-HFE)-groups_vs_Male-Low-Feed-Efficiency-(M-LFE)-groups_UP	NA	Alistipes	Lachnoclostridium	Lactobacillus	Megamonas	Parabacteroides	Prevotella
 bsdb:1204/3/2_Growth-condition:Male-High-Feed-Efficiency-(M-HFE)-groups_vs_Male-Low-Feed-Efficiency-(M-LFE)-groups_DOWN	NA	Bacteroides	Blautia	Mediterranea	Muribaculum
 bsdb:1204/4/1_Growth-condition:Female-High-Feed-Efficiency-(F-HFE)-groups_vs_Female-Low-Feed-Efficiency-(F-LFE)-groups_UP	NA	Alistipes	Lactobacillus	Mediterranea
 bsdb:1204/4/2_Growth-condition:Female-High-Feed-Efficiency-(F-HFE)-groups_vs_Female-Low-Feed-Efficiency-(F-LFE)-groups_DOWN	NA	Bacteroides	Prevotella	Muribaculum	Megamonas	Blautia	Lachnoclostridium	Parabacteroides

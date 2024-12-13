@@ -1,4 +1,4 @@
-# BugSigDB 2024-12-13_07:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2024-12-13_09:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	1654	1716	1301	162289	189330	33024	40544	2759736	1386
 bsdb:1/1/2_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	100883
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	207244	2759736
@@ -3892,6 +3892,15 @@ bsdb:1016/3/4_Microbiome-measurement:Post-chemoradiotherapy_vs_Pre-chemoradiothe
 bsdb:1016/4/1_Response-to-combination-chemotherapy:Non-Responders-at-baseline_vs_Responders-at-baseline_UP	NA	156454	838	1301
 bsdb:1016/4/2_Response-to-combination-chemotherapy:Non-Responders-at-baseline_vs_Responders-at-baseline_DOWN	NA	46123	1654	1716	47670	32067	482	838	29465
 bsdb:1016/5/1_Response-to-combination-chemotherapy:Non-Responders-at-6-months_vs_Responders-at-6-months_DOWN	NA	1654	1380	1378	32207	1301	29465
+bsdb:1017/1/1_Exposure:ASVs-positively-correlated-with-microplastic-count_vs_ASVs-negatively-correlated-with-microplastic-count_UP	NA	180162	1716	2767887	543311
+bsdb:1017/1/2_Exposure:ASVs-positively-correlated-with-microplastic-count_vs_ASVs-negatively-correlated-with-microplastic-count_DOWN	NA	1350	53246	497	1279	300418
+bsdb:1017/2/1_Exposure:ASVs-positively-correlated-with-microplastic-mass_vs_ASVs-negatively-correlated-with-microplastic-mass_UP	NA	848	635	53246	300418
+bsdb:1017/2/2_Exposure:ASVs-positively-correlated-with-microplastic-mass_vs_ASVs-negatively-correlated-with-microplastic-mass_DOWN	NA	180162
+bsdb:1017/3/1_Exposure:Microplastic-count-and-the-Proventriculus_vs_Microplastic-count-and-the-Cloaca_UP	NA	635	1716
+bsdb:1017/3/2_Exposure:Microplastic-count-and-the-Proventriculus_vs_Microplastic-count-and-the-Cloaca_DOWN	NA	1522056
+bsdb:1017/4/1_Exposure:Microplastic-mass-and-the-Proventriculus_vs_Microplastic-mass-and-the-Cloaca_UP	NA	469
+bsdb:1017/4/2_Exposure:Microplastic-mass-and-the-Proventriculus_vs_Microplastic-mass-and-the-Cloaca_DOWN	NA	1485
+bsdb:1017/5/1_Exposure:Microplastic-count-and-Northern-fulmars(F.-glacialis)_vs_Microplastic-count-and-Cory’s-shearwaters-(C.-borealis)_DOWN	NA	300418
 bsdb:1018/1/1_Strongylocentrotus-purpuratus:Diseased-sea-urchins_vs_Healthy-sea-urchins_UP	NA	358023	1122284
 bsdb:1018/2/1_Microbiome-measurement:Lesion-body-wall-samples-(LBW)_vs_Lesion-surface-samples-(LS)_UP	NA	1076727
 bsdb:1018/2/2_Microbiome-measurement:Lesion-body-wall-samples-(LBW)_vs_Lesion-surface-samples-(LS)_DOWN	NA	1541822	2433
@@ -4240,30 +4249,6 @@ bsdb:1048/150/1_Microbiome:Unspiked-sewage-samples-(S1)-at-64-hours-(5°C)_vs_Un
 bsdb:1048/150/2_Microbiome:Unspiked-sewage-samples-(S1)-at-64-hours-(5°C)_vs_Unspiked-sewage-samples-(S1)-at-0-hours_DOWN	NA	28196	469
 bsdb:1048/151/1_Microbiome:Unspiked-sewage-samples-(S1)-at-16-hours-(22°C)_vs_Unspiked-sewage-samples-(S1)-at-0-hours_UP	NA	375288	838	642
 bsdb:1048/151/2_Microbiome:Unspiked-sewage-samples-(S1)-at-16-hours-(22°C)_vs_Unspiked-sewage-samples-(S1)-at-0-hours_DOWN	NA	28196	469
-bsdb:1048/152/1_Microbiome:Unspiked-sewage-samples-(S1)-at-64-hours-(22°C)_vs_Unspiked-sewage-samples-(S1)-at-0-hours_UP	NA	838	642
-bsdb:1048/152/2_Microbiome:Unspiked-sewage-samples-(S1)-at-64-hours-(22°C)_vs_Unspiked-sewage-samples-(S1)-at-0-hours_DOWN	NA	28196	469	375288
-bsdb:1048/153/1_Microbiome:Unspiked-sewage-samples-(S1)-at-64-hours-(-80°C)_vs_Unspiked-sewage-samples-(S1)-at-16-hours-(-80°C)_UP	NA	642
-bsdb:1048/153/2_Microbiome:Unspiked-sewage-samples-(S1)-at-64-hours-(-80°C)_vs_Unspiked-sewage-samples-(S1)-at-16-hours-(-80°C)_DOWN	NA	28196	469	375288	838
-bsdb:1048/154/1_Microbiome:Unspiked-sewage-samples-(S1)-at-16-hours-(-20°C)_vs_Unspiked-sewage-samples-(S1)-at-16-hours-(-80°C)_UP	NA	469
-bsdb:1048/154/2_Microbiome:Unspiked-sewage-samples-(S1)-at-16-hours-(-20°C)_vs_Unspiked-sewage-samples-(S1)-at-16-hours-(-80°C)_DOWN	NA	28196	375288	838	642
-bsdb:1048/155/1_Microbiome:Unspiked-sewage-samples-(S1)-at-64-hours-(-20°C)_vs_Unspiked-sewage-samples-(S1)-at-16-hours-(-80°C)_UP	NA	838
-bsdb:1048/155/2_Microbiome:Unspiked-sewage-samples-(S1)-at-64-hours-(-20°C)_vs_Unspiked-sewage-samples-(S1)-at-16-hours-(-80°C)_DOWN	NA	28196	469	375288	642
-bsdb:1048/156/1_Microbiome:Unspiked-sewage-samples-(S1)-at-16-hours-(5°C)_vs_Unspiked-sewage-samples-(S1)-at-16-hours-(-80°C)_UP	NA	375288	838
-bsdb:1048/156/2_Microbiome:Unspiked-sewage-samples-(S1)-at-16-hours-(5°C)_vs_Unspiked-sewage-samples-(S1)-at-16-hours-(-80°C)_DOWN	NA	28196	469	642
-bsdb:1048/157/1_Microbiome:Unspiked-sewage-samples-(S1)-at-64-hours-(5°C)_vs_Unspiked-sewage-samples-(S1)-at-16-hours-(-80°C)_UP	NA	375288
-bsdb:1048/157/2_Microbiome:Unspiked-sewage-samples-(S1)-at-64-hours-(5°C)_vs_Unspiked-sewage-samples-(S1)-at-16-hours-(-80°C)_DOWN	NA	28196	469	838	642
-bsdb:1048/158/1_Microbiome:Unspiked-sewage-samples-(S1)-at-16-hours-(22°C)_vs_Unspiked-sewage-samples-(S1)-at-16-hours-(-80°C)_UP	NA	469	375288	838
-bsdb:1048/158/2_Microbiome:Unspiked-sewage-samples-(S1)-at-16-hours-(22°C)_vs_Unspiked-sewage-samples-(S1)-at-16-hours-(-80°C)_DOWN	NA	28196	642
-bsdb:1048/159/1_Microbiome:Unspiked-sewage-samples-(S1)-at-64-hours-(22°C)_vs_Unspiked-sewage-samples-(S1)-at-16-hours-(-80°C)_UP	NA	838	642
-bsdb:1048/159/2_Microbiome:Unspiked-sewage-samples-(S1)-at-64-hours-(22°C)_vs_Unspiked-sewage-samples-(S1)-at-16-hours-(-80°C)_DOWN	NA	28196	469	375288
-bsdb:1048/160/1_Microbiome:Unspiked-sewage-samples-(S1)-at-16-hours-(-20°C)_vs_Unspiked-sewage-samples-(S1)-at-64-hours-(-80°C)_UP	NA	28196	469	375288	642
-bsdb:1048/160/2_Microbiome:Unspiked-sewage-samples-(S1)-at-16-hours-(-20°C)_vs_Unspiked-sewage-samples-(S1)-at-64-hours-(-80°C)_DOWN	NA	838
-bsdb:1048/161/1_Microbiome:Unspiked-sewage-samples-(S1)-at-64-hours-(-20°C)_vs_Unspiked-sewage-samples-(S1)-at-64-hours-(-80°C)_UP	NA	28196	469	375288	838
-bsdb:1048/161/2_Microbiome:Unspiked-sewage-samples-(S1)-at-64-hours-(-20°C)_vs_Unspiked-sewage-samples-(S1)-at-64-hours-(-80°C)_DOWN	NA	642
-bsdb:1048/162/1_Microbiome:Unspiked-sewage-samples-(S1)-at-16-hours-(5°C)_vs_Unspiked-sewage-samples-(S1)-at-64-hours-(-80°C)_UP	NA	28196	469	375288	838
-bsdb:1048/162/2_Microbiome:Unspiked-sewage-samples-(S1)-at-16-hours-(5°C)_vs_Unspiked-sewage-samples-(S1)-at-64-hours-(-80°C)_DOWN	NA	642
-bsdb:1048/207/1_Microbiome:Unspiked-sewage-samples-(S2)-at-16-hours-(5°C)_vs_Unspiked-sewage-samples-(S2)-at-64-hours-(-20°C)_UP	NA	375288
-bsdb:1048/207/2_Microbiome:Unspiked-sewage-samples-(S2)-at-16-hours-(5°C)_vs_Unspiked-sewage-samples-(S2)-at-64-hours-(-20°C)_DOWN	NA	28196	469	838	642
 bsdb:1049/1/1_Atopic-eczema:cADtreat-dogs_vs_Healthy-dogs_UP	NA	1663	1716	281915
 bsdb:1049/2/1_Atopic-eczema:cADpost-dogs_vs_cADpre-dogs_UP	NA	1663	1386	1298	286	204447
 bsdb:1049/2/2_Atopic-eczema:cADpost-dogs_vs_cADpre-dogs_DOWN	NA	1716	1912216	407	1839	265	125216	295418	13687	1279	1301
@@ -5217,7 +5202,7 @@ bsdb:1203/5/1_Type-II-diabetes-mellitus:Prediabetes-(PD)---Indian-Cohort_vs_Norm
 bsdb:1203/6/1_Type-II-diabetes-mellitus:Prediabetes-(PD)---Indian-Cohort_vs_Normoglycemic-(NG)-controls---Indian-Cohort_UP	NA	75302	1111294	286	525215	5873	357	53246	941096	518389	218659	583746	535159	360660	199501	413496	32008	374	306124	48075	149698	48720	39709	379	154427	28105	60834	281735	166307
 bsdb:1203/7/1_Type-II-diabetes-mellitus:Prediabetes-(PD)---Indian-&-Danish-Cohorts_vs_Normoglycemic-(NG)-controls---Indian-&-Danish-Cohorts_UP	NA	1578	572511	1301	1506553	662	745	29465	570	1827	1505657	222	1980693	1432051	1350
 bsdb:1204/2/2_Growth-condition:Female-High-Feed-efficiency-(F-HFE)-groups_vs_Female-Low-feed-efficiency-(F-LFE)-groups_DOWN	NA	572511	574697	102106	216851	3025755
-bsdb:1204/3/1_Growth-condition:Male-High-Feed-Efficiency-(M-HFE)-groups_vs_Male-Low-Feed-Efficiency-(M-LFE)-groups_UP	NA	1506553	1578	158846	375288	838	239759
+bsdb:1204/3/1_Growth-condition:Male-High-Feed-Efficiency-(M-HFE)-groups_vs_Male-Low-Feed-Efficiency-(M-LFE)-groups_UP	NA	239759	1506553	1578	158846	375288	838
 bsdb:1204/3/2_Growth-condition:Male-High-Feed-Efficiency-(M-HFE)-groups_vs_Male-Low-Feed-Efficiency-(M-LFE)-groups_DOWN	NA	816	572511	1926659	1918540
 bsdb:1204/4/1_Growth-condition:Female-High-Feed-Efficiency-(F-HFE)-groups_vs_Female-Low-Feed-Efficiency-(F-LFE)-groups_UP	NA	239759	1578	1926659
 bsdb:1204/4/2_Growth-condition:Female-High-Feed-Efficiency-(F-HFE)-groups_vs_Female-Low-Feed-Efficiency-(F-LFE)-groups_DOWN	NA	816	838	1918540	158846	572511	1506553	375288
