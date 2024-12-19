@@ -1,4 +1,4 @@
-# BugSigDB 2024-12-19_08:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2024-12-19_09:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	Bacilli	Gammaproteobacteria	Actinomyces	Corynebacterium	Streptococcus	Peptoniphilus	Dorea	Phascolarctobacterium	Sutterella	Actinomycetales	Actinomycetaceae	Alcaligenaceae	Lactobacillales	Streptococcaceae	Veillonellaceae	Enterobacterales	Corynebacteriaceae	Lacticaseibacillus zeae	Bacillus	Bacillaceae
 bsdb:1/1/2_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	Coprobacillus	Cyanobacteriota
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	Anaerostipes	Lacticaseibacillus zeae
@@ -5426,10 +5426,10 @@ bsdb:1157/2/2_Stroke:Stroke-Associated-Pneumonia-(SAP)-Validation-cohort_vs_Non-
 bsdb:1157/3/1_Stroke:Stroke-Associated-Pneumonia-(SAP)-subgroup-in-the-training-cohort_vs_Non-Stroke-Associated-Pneumonia-(non-SAP)-subgroup-in-the-training-cohort_UP	NA	Aeromonadales	Succinivibrio	Erwinia	Enterococcaceae	Enterococcus
 bsdb:1157/3/2_Stroke:Stroke-Associated-Pneumonia-(SAP)-subgroup-in-the-training-cohort_vs_Non-Stroke-Associated-Pneumonia-(non-SAP)-subgroup-in-the-training-cohort_DOWN	NA	Faecalibacterium	Dehalobacterium	Roseburia
 bsdb:1158/1/1_Sleep-duration:Short-Sleepers_vs_Normal-Sleepers_UP	NA	Dialister	Bacteroides
-bsdb:1158/1/2_Sleep-duration:Short-Sleepers_vs_Normal-Sleepers_DOWN	NA	Prevotella
-bsdb:1158/2/1_Sleep-duration:Long-Sleepers_vs_Normal-Sleepers_UP	NA	Dialister	Prevotella	Erysipelotrichaceae	Oscillospira	Oscillospiraceae	Catenibacterium
-bsdb:1158/3/1_Sleep-duration:Long-Sleepers_vs_Short-sleepers_UP	NA	Erysipelotrichaceae	Oscillospiraceae	Oscillospira	Catenibacterium
-bsdb:1158/3/2_Sleep-duration:Long-Sleepers_vs_Short-sleepers_DOWN	NA	Bacteroides
+bsdb:1158/1/2_Sleep-duration:Short-Sleepers_vs_Normal-Sleepers_DOWN	NA	Oscillospira
+bsdb:1158/2/1_Sleep-duration:Long-Sleepers_vs_Normal-Sleepers_UP	NA	Catenibacterium	Dialister	Erysipelotrichaceae	Oscillospiraceae	Prevotella
+bsdb:1158/3/1_Sleep-duration:Long-Sleepers_vs_Short-sleepers_UP	NA	Erysipelotrichaceae	Oscillospira	Oscillospiraceae	Dialister	Prevotella
+bsdb:1158/3/2_Sleep-duration:Long-Sleepers_vs_Short-sleepers_DOWN	NA	Bacteroides	Dialister
 bsdb:1159/1/1_Chronic-obstructive-pulmonary-disease:Samples-sequenced-by-targeted-metagenomics_vs_Samples-sequenced-by-IS-pro-method_UP	NA	Actinomyces	Granulicatella	Leptotrichia	Oleomonas	Veillonella
 bsdb:1159/1/2_Chronic-obstructive-pulmonary-disease:Samples-sequenced-by-targeted-metagenomics_vs_Samples-sequenced-by-IS-pro-method_DOWN	NA	Corynebacterium	Parvimonas	Serratia	Pseudomonas	Lactobacillus	Fusobacterium	Peptostreptococcus	Eikenella	Escherichia	Micrococcus	Proteus	Neisseria	Burkholderia
 bsdb:1160/2/1_Systemic-inflammatory-response-syndrome:FMT-L-Group_vs_LPS-induced-SIRS-(systemic-inflammatory-response-syndrome)-group_DOWN	NA	Oscillospiraceae
@@ -6348,7 +6348,7 @@ bsdb:1247/21/2_Exposure:Octanoic-Acid-(OA)_vs_Unsorted-cells_DOWN	NA	Hungatella 
 bsdb:1247/22/1_Exposure:Lauric-Acid-(LA)_vs_Ethanol-(EtOH)_UP	NA	Enterocloster bolteae	Enterocloster aldenensis	Eggerthella lenta
 bsdb:1247/22/2_Exposure:Lauric-Acid-(LA)_vs_Ethanol-(EtOH)_DOWN	NA	Peptostreptococcus anaerobius
 bsdb:1247/23/1_Exposure:Decanoic-Acid-(DA)_vs_Ethanol-(EtOH)_UP	NA	Enterocloster bolteae	Enterocloster aldenensis
-bsdb:1247/23/2_Exposure:Decanoic-Acid-(DA)_vs_Ethanol-(EtOH)_DOWN	NA	Peptostreptococcus anaerobius
+bsdb:1247/23/2_Exposure:Decanoic-Acid-(DA)_vs_Ethanol-(EtOH)_DOWN	NA	Peptostreptococcus anaerobius	[Clostridium] scindens
 bsdb:1247/24/1_Exposure:Octanoic-Acid-(OA)_vs_Ethanol-(EtOH)_UP	NA	Enterocloster bolteae	Enterocloster aldenensis
 bsdb:1247/24/2_Exposure:Octanoic-Acid-(OA)_vs_Ethanol-(EtOH)_DOWN	NA	Thomasclavelia ramosa	Hungatella hominis	Ruthenibacterium lactatiformans	Phocaeicola vulgatus	Peptostreptococcus anaerobius
 bsdb:1247/25/1_Exposure:Lauric-Acid-(LA)_vs_Unsorted-cells_UP	NA	Dialister invisus	Escherichia coli	Eubacterium	[Clostridium] scindens
@@ -6417,9 +6417,9 @@ bsdb:1260/4/2_Growth-delay:stunted-children_vs_non-stunted-children_DOWN	NA	Hold
 bsdb:1260/5/1_Nutritional-deficiency-disease:UR-Improved_vs_UR-original_UP	NA	Agathobacter
 bsdb:1260/6/1_Inflammation:Inflammation_vs_No-inflammation_UP	NA	Prevotella
 bsdb:1260/6/2_Inflammation:Inflammation_vs_No-inflammation_DOWN	NA	Agathobacter
-bsdb:1260/7/1_Parasitic-infection:Parasitic-infection_vs_No-parasitic-infection_UP	NA	Gemella
+bsdb:1260/7/1_Parasitic-infection:Parasitic-infection_vs_No-parasitic-infection_UP	NA	Gordonibacter	Kurthia
 bsdb:1260/8/1_Age:6-9-years-old_vs_10-14-years-old_UP	NA	Prevotella
-bsdb:1260/8/2_Age:6-9-years-old_vs_10-14-years-old_DOWN	NA	Lactobacillus
+bsdb:1260/8/2_Age:6-9-years-old_vs_10-14-years-old_DOWN	NA	Agathobacter	Lactobacillus	Butyricicoccus
 bsdb:1261/1/1_Alzheimer's-disease:Alzheimer's-Disease-(AD)-patients_vs_Cognitive-intact-subjects_UP	NA	Deinococcota
 bsdb:1261/1/2_Alzheimer's-disease:Alzheimer's-Disease-(AD)-patients_vs_Cognitive-intact-subjects_DOWN	NA	Fusobacteriia	Pseudomonadota
 bsdb:1261/2/1_Alzheimer's-disease:Alzheimer's-Disease-(AD)-patients_vs_Cognitive-intact-subjects_UP	NA	Prevotella denticola	Lactobacillus gasseri	Ligilactobacillus salivarius	Streptococcus gordonii	Lactobacillales	Bacilli	Stomatobaculum longum	Stomatobaculum	Lachnospiraceae	Eubacteriales	Clostridia	Megasphaera micronuciformis	Megasphaera	Veillonella dispar	Veillonella parvula	Veillonella	Veillonellaceae	Veillonellales	Negativicutes
@@ -6483,3 +6483,5 @@ bsdb:1268/1/2_Response-to-ketogenic-diet:KD4:1-group_vs_control-diet-group_DOWN	
 bsdb:1268/2/1_Response-to-ketogenic-diet:KD3:1-group_vs_control-diet-group_DOWN	NA	Actinomycetota
 bsdb:1268/2/2_Response-to-ketogenic-diet:KD3:1-group_vs_control-diet-group_UP	NA	Deferribacteres
 bsdb:1269/1/1_Parkinson's-disease:Patients-with-Parkinson's-disease_vs_healthy-spouses_UP	NA	Verrucomicrobiia
+bsdb:1269/1/3_Parkinson's-disease:Patients-with-Parkinson's-disease_vs_healthy-spouses_UP	NA	Verrucomicrobiota	Lentisphaeria	Bacilli	Lactobacillales	Victivallales	Verrucomicrobiales	Acidaminococcales	Akkermansiaceae	Lactobacillus
+bsdb:1269/1/4_Parkinson's-disease:Patients-with-Parkinson's-disease_vs_healthy-spouses_DOWN	NA	Lachnospirales	Fusicatenibacter

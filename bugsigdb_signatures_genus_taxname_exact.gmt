@@ -1,4 +1,4 @@
-# BugSigDB 2024-12-18_21:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2024-12-19_09:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	Actinomyces	Corynebacterium	Streptococcus	Peptoniphilus	Dorea	Phascolarctobacterium	Sutterella	Bacillus
 bsdb:1/1/2_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	Coprobacillus
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	Anaerostipes
@@ -4065,10 +4065,10 @@ bsdb:1157/2/2_Stroke:Stroke-Associated-Pneumonia-(SAP)-Validation-cohort_vs_Non-
 bsdb:1157/3/1_Stroke:Stroke-Associated-Pneumonia-(SAP)-subgroup-in-the-training-cohort_vs_Non-Stroke-Associated-Pneumonia-(non-SAP)-subgroup-in-the-training-cohort_UP	NA	Succinivibrio	Erwinia	Enterococcus
 bsdb:1157/3/2_Stroke:Stroke-Associated-Pneumonia-(SAP)-subgroup-in-the-training-cohort_vs_Non-Stroke-Associated-Pneumonia-(non-SAP)-subgroup-in-the-training-cohort_DOWN	NA	Faecalibacterium	Dehalobacterium	Roseburia
 bsdb:1158/1/1_Sleep-duration:Short-Sleepers_vs_Normal-Sleepers_UP	NA	Dialister	Bacteroides
-bsdb:1158/1/2_Sleep-duration:Short-Sleepers_vs_Normal-Sleepers_DOWN	NA	Prevotella
-bsdb:1158/2/1_Sleep-duration:Long-Sleepers_vs_Normal-Sleepers_UP	NA	Dialister	Prevotella	Oscillospira	Catenibacterium
-bsdb:1158/3/1_Sleep-duration:Long-Sleepers_vs_Short-sleepers_UP	NA	Oscillospira	Catenibacterium
-bsdb:1158/3/2_Sleep-duration:Long-Sleepers_vs_Short-sleepers_DOWN	NA	Bacteroides
+bsdb:1158/1/2_Sleep-duration:Short-Sleepers_vs_Normal-Sleepers_DOWN	NA	Oscillospira
+bsdb:1158/2/1_Sleep-duration:Long-Sleepers_vs_Normal-Sleepers_UP	NA	Catenibacterium	Dialister	Prevotella
+bsdb:1158/3/1_Sleep-duration:Long-Sleepers_vs_Short-sleepers_UP	NA	Oscillospira	Dialister	Prevotella
+bsdb:1158/3/2_Sleep-duration:Long-Sleepers_vs_Short-sleepers_DOWN	NA	Bacteroides	Dialister
 bsdb:1159/1/1_Chronic-obstructive-pulmonary-disease:Samples-sequenced-by-targeted-metagenomics_vs_Samples-sequenced-by-IS-pro-method_UP	NA	Actinomyces	Granulicatella	Leptotrichia	Oleomonas	Veillonella
 bsdb:1159/1/2_Chronic-obstructive-pulmonary-disease:Samples-sequenced-by-targeted-metagenomics_vs_Samples-sequenced-by-IS-pro-method_DOWN	NA	Corynebacterium	Parvimonas	Serratia	Pseudomonas	Lactobacillus	Fusobacterium	Peptostreptococcus	Eikenella	Escherichia	Micrococcus	Proteus	Neisseria	Burkholderia
 bsdb:1160/3/1_Systemic-inflammatory-response-syndrome:FMT-HK-Group_vs_FMT-L-Group_UP	NA	Bacteroides
@@ -4727,9 +4727,9 @@ bsdb:1260/4/2_Growth-delay:stunted-children_vs_non-stunted-children_DOWN	NA	Hold
 bsdb:1260/5/1_Nutritional-deficiency-disease:UR-Improved_vs_UR-original_UP	NA	Agathobacter
 bsdb:1260/6/1_Inflammation:Inflammation_vs_No-inflammation_UP	NA	Prevotella
 bsdb:1260/6/2_Inflammation:Inflammation_vs_No-inflammation_DOWN	NA	Agathobacter
-bsdb:1260/7/1_Parasitic-infection:Parasitic-infection_vs_No-parasitic-infection_UP	NA	Gemella
+bsdb:1260/7/1_Parasitic-infection:Parasitic-infection_vs_No-parasitic-infection_UP	NA	Gordonibacter	Kurthia
 bsdb:1260/8/1_Age:6-9-years-old_vs_10-14-years-old_UP	NA	Prevotella
-bsdb:1260/8/2_Age:6-9-years-old_vs_10-14-years-old_DOWN	NA	Lactobacillus
+bsdb:1260/8/2_Age:6-9-years-old_vs_10-14-years-old_DOWN	NA	Agathobacter	Lactobacillus	Butyricicoccus
 bsdb:1261/2/1_Alzheimer's-disease:Alzheimer's-Disease-(AD)-patients_vs_Cognitive-intact-subjects_UP	NA	Stomatobaculum	Megasphaera	Veillonella
 bsdb:1261/2/2_Alzheimer's-disease:Alzheimer's-Disease-(AD)-patients_vs_Cognitive-intact-subjects_DOWN	NA	Arachnia	Metaprevotella	Tannerella	Weissella	Fusobacterium	Leptotrichia	Lautropia	Cardiobacterium	Aggregatibacter	Haemophilus	Acholeplasma
 bsdb:1261/4/1_Alzheimer's-disease:Alzheimer's-Disease-(AD)-patients_vs_Cognitive-intact-subjects_UP	NA	Bifidobacterium	Atopobium	Olsenella	Oribacterium	Stomatobaculum	Veillonella
@@ -4760,3 +4760,5 @@ bsdb:1265/8/2_Alzheimer's-disease:Mild-Cognitive-Impairment-(MCI)_vs_Cognitively
 bsdb:1265/9/1_Alzheimer's-disease:Alzheimer's-Disease-(AD)-patients_vs_Cognitively-Normal-Healthy-(CNh)_UP	NA	Aminiphilus	Calothrix	Kocuria
 bsdb:1265/9/2_Alzheimer's-disease:Alzheimer's-Disease-(AD)-patients_vs_Cognitively-Normal-Healthy-(CNh)_DOWN	NA	Treponema
 bsdb:1266/1/2_Epilepsy:drug-responsive_vs_drug-resistant_DOWN	NA	Megamonas
+bsdb:1269/1/3_Parkinson's-disease:Patients-with-Parkinson's-disease_vs_healthy-spouses_UP	NA	Lactobacillus
+bsdb:1269/1/4_Parkinson's-disease:Patients-with-Parkinson's-disease_vs_healthy-spouses_DOWN	NA	Fusicatenibacter
