@@ -1,4 +1,4 @@
-# BugSigDB 2025-01-15_09:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2025-01-15_10:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	91061	1236	1654	1716	1301	162289	189330	33024	40544	2037	2049	506	186826	1300	31977	91347	1653	57037	1386	186817
 bsdb:1/1/2_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_DOWN	NA	100883	1117
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	207244	57037
@@ -3633,8 +3633,8 @@ bsdb:878/2/1_Colorectal-carcinoma:Colon-Tumor_vs_Adjacent-normal-colonic-tissue_
 bsdb:878/2/2_Colorectal-carcinoma:Colon-Tumor_vs_Adjacent-normal-colonic-tissue_DOWN	NA	216851	816	815	216572	200643	171549	186802	186801	1239
 bsdb:879/1/1_Oral-ulcer:Covid-19-with-oral-lesions_vs_Covid-19-patients-without-oral-lesions_UP	NA	1279
 bsdb:879/2/1_Illness-severity-status:Severe-COVID-patients_vs_Non-severe-COVID-patients_UP	NA	838
-bsdb:879/3/1_Antimicrobial-agent:Antibiotics-use_vs_No-antibiotics-use_UP	NA	1578	482	838	1279
-bsdb:879/4/1_Oxygen:Oxygen-therapy_vs_No-oxygen-therapy_UP	NA	1578	29465
+bsdb:879/3/1_Antimicrobial-agent:Antibiotics-use_vs_No-antibiotics-use_UP	NA	1578	482	838	1279	29465	848
+bsdb:879/4/1_Oxygen:Oxygen-therapy_vs_No-oxygen-therapy_UP	NA	1578	29465	1279
 bsdb:879/5/1_Illness-severity-status:ICU-patients_vs_Non-ICU-patients_UP	NA	1578	29465
 bsdb:879/5/2_Illness-severity-status:ICU-patients_vs_Non-ICU-patients_DOWN	NA	724
 bsdb:879/6/1_Diet:Covid-19-patients-on-enteral-diet_vs_Non-enteral-diet_UP	NA	2717	117563	724	1578	32067	836	32207	1301	29465
@@ -6197,7 +6197,7 @@ bsdb:1223/2/1_Autism-spectrum-disorder:Children-with-Autism-Spectrum-Disorder-(A
 bsdb:1224/1/1_Vitiligo:Vitiligo-Patients_vs_Healthy-Control_UP	NA	46503	838	165179
 bsdb:1224/1/2_Vitiligo:Vitiligo-Patients_vs_Healthy-Control_DOWN	NA	2569097	105843	118747	1980685	2093823	1016	10	1870884	1496	158836	1730	33986	237	1378	404402	404403	32257	1330547	28050	2161814	1849822	2847312	604330	122277	1905730	2739835	341694	286	1847	1929305	445219	1501226	1507512	1115758	547	1505
 bsdb:1225/1/1_Health-related-quality-of-life-measurement:Disease-associated(Chronically-diseased-individuals)_vs_Health-associated(Healthy)_DOWN	NA	1898203
-bsdb:1225/1/2_Health-related-quality-of-life-measurement:Disease-associated(Chronically-diseased-individuals)_vs_Health-associated(Healthy)_UP	NA	186801	33042	2053615
+bsdb:1225/1/2_Health-related-quality-of-life-measurement:Disease-associated(Chronically-diseased-individuals)_vs_Health-associated(Healthy)_UP	NA	33042	2053615	186801
 bsdb:1225/2/1_Health-related-quality-of-life-measurement:Unhealthy-individuals-based-on-Physiological-Variables_vs_Healthy-individuals_UP	NA	33025	2292206	2293024	40545	166486	1285585	1318	907	2292205	209880	1776391	2126740	52226	1304	729	1898203	2293011	33039	292800	253257	39491	360807	39486	853
 bsdb:1225/2/2_Health-related-quality-of-life-measurement:Unhealthy-individuals-based-on-Physiological-Variables_vs_Healthy-individuals_DOWN	NA	1628085	2030927	29522	2093856	2137880	2044939	1502	2478488	2049044	45851	2292272	2173	1519439	2485925	1871022	2049048	1161942	167	384638	39492	28211	91061	2763037	2292274	2293015	2564099	1921783	2293093	2086583	186329
 bsdb:1225/3/1_Health-related-quality-of-life-measurement:Unhealthy-individuals-based-on-acute-conditions_vs_Healthy-individuals_UP	NA	1318	1304	1898203
@@ -6671,3 +6671,4 @@ bsdb:1270/3/1_Polycystic-ovary-syndrome:Polycystic-ovary-syndrome-+-Semaglutide-
 bsdb:1270/3/2_Polycystic-ovary-syndrome:Polycystic-ovary-syndrome-+-Semaglutide-group-(PCOS-+-Semaglutide)_vs_Polycystic-ovary-syndrome-(PCOS)-group_DOWN	NA	2841523	239935	2585118	214856	1470347	1288121	1262693	2212467	2030927	85831	871325	338188	291645	28116	1262753	871324	820	371601	1796616	1891238	562	2498093	2489215	2486461	2486473	1796646	28118	823	328812	574930	454154	454155	487175	671267	821	1262921	2033406	584	1115758	165179	28112	1239	171549	816	91347	543	561	1236	375288	583	171550	191303	1465754	815	871327	2779358	1841864	1329522	3062493
 bsdb:1270/4/1_Polycystic-ovary-syndrome:Polycystic-ovary-syndrome-group-(PCOS)_vs_Healthy-control-group_UP	NA	2486461	976	2005473	815	816	3032870	3032807	85831
 bsdb:1270/4/2_Polycystic-ovary-syndrome:Polycystic-ovary-syndrome-group-(PCOS)_vs_Healthy-control-group_DOWN	NA	1239
+bsdb:1270/5/1_Polycystic-ovary-syndrome:Polycystic-ovary-syndrome-+-Liraglutide-group-(PCOS-+-Liraglutide)_vs_Polycystic-ovary-syndrome-(PCOS)-group_UP	NA	1239	1678	1937007	186803	216572
