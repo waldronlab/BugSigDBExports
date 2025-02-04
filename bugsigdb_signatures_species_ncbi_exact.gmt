@@ -1,4 +1,4 @@
-# BugSigDB 2025-02-04_19:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2025-02-04_20:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:1/1/1_Colorectal-adenoma:conventional-adenoma-cases_vs_controls_UP	NA	57037
 bsdb:1/2/1_Hyperplastic-Polyp:hyperplastic-polyp-cases_vs_controls_UP	NA	57037
 bsdb:1/6/1_Colorectal-adenoma:Non-advanced-conventional-adenoma-cases_vs_controls_UP	NA	57037
@@ -1024,6 +1024,8 @@ bsdb:669/1/2_Ethnic-group,Place-of-residence-measurement:Rural-African-Children-
 bsdb:670/1/2_Ethnic-group,Socioeconomic-status:Bangladesh-Children-(Household-income-<-$61)_vs_US-children_DOWN	NA	818	853
 bsdb:671/1/1_Seasonal-gut-microbiome-measurement:samples-taken-in-dry/cold-season_vs_samples-taken-in-dry/hot-or-rainy-season_UP	NA	1340	853	1898207
 bsdb:671/1/2_Seasonal-gut-microbiome-measurement:samples-taken-in-dry/cold-season_vs_samples-taken-in-dry/hot-or-rainy-season_DOWN	NA	39491	1898207	46124	817	818
+bsdb:672/24/1_Spontaneous-preterm-birth:Twins-(4M)_vs_Singletons-(4M)_UP	NA	84112
+bsdb:672/25/1_Spontaneous-preterm-birth:Middlemore-Hospital-(4M)_vs_Auckland-city-hospital-(4M)_UP	NA	1280
 bsdb:675/1/1_Socioeconomic-status:higher-monthly-household-income_vs_lower-monthly-household-income_UP	NA	84112	817	31971
 bsdb:676/1/1_Response-to-immunochemotherapy:Responders_vs_Non-responders_UP	NA	28117	216816	165179
 bsdb:677/1/1_Survival-time:Short-term-surviviors_vs_Long-term-survivors_UP	NA	1940338
@@ -1240,8 +1242,8 @@ bsdb:777/2/2_Crohn's-disease:Crohn's-disease-(CD)_vs_healthy-controls_UP	NA	2811
 bsdb:777/3/2_Crohn's-disease:Crohn's-disease-(CD)_vs_ulcerative-colitis-(UC)_DOWN	NA	2054177	290054	446043	77133
 bsdb:779/1/1_Post-COVID-19-disorder:long-COVID-19_vs_healthy-controls-and-mild-COVID-19-patients_DOWN	NA	729	28132	484	28037	1872471	28449	322095	712469	2663009	76122	28131	1303	1161412	60133	1313	1110546	2026720	68892	936548	997829
 bsdb:779/2/1_Post-COVID-19-disorder:long-COVID-19_vs_healthy-controls-and-mild-COVID-19-patients_UP	NA	1583331	28449	484	28132	423477	729	1110546	60133	47671	1304	1177574	43675	495	837
-bsdb:784/1/1_Gut-microbiome-measurement:Severe-COVID-19_vs_Moderate-COVID-19_UP	NA	1351
-bsdb:784/1/2_Gut-microbiome-measurement:Severe-COVID-19_vs_Moderate-COVID-19_DOWN	NA	544580	1203556	446660	394340	39491	1628085	39488	649756	1680	216816	28026	40520	418240	74426	147206	116085	410072	39486	88431	39490	39496	853	1262989	1262988	1150298	84135	745368	39485	1358	1981510	301302	301301	166486	360807	43675	1160721	40518	1660	1302	28037	1303	1318	1304	1308	1535	39492	33039
+bsdb:784/1/1_COVID-19:Severe-COVID-19_vs_Moderate-COVID-19_UP	NA	1351
+bsdb:784/1/2_COVID-19:Severe-COVID-19_vs_Moderate-COVID-19_DOWN	NA	544580	1203556	446660	394340	39491	1628085	39488	649756	1680	216816	28026	40520	418240	74426	147206	116085	410072	39486	88431	39490	39496	853	1262989	1262988	1150298	84135	745368	39485	1358	1981510	301302	301301	166486	360807	43675	1160721	40518	1660	1302	28037	1303	1318	1304	1308	1535	39492	33039
 bsdb:785/1/1_Ulcerative-colitis:Ulcerative-colitis-patient_vs_Healthy-control-individual_UP	NA	1689	40520	1531	292800	729	39485	585	39778
 bsdb:785/1/2_Ulcerative-colitis:Ulcerative-colitis-patient_vs_Healthy-control-individual_DOWN	NA	491921	28117	1694	40518	88431	46503	78344	74426	1735	214851	592978	1623	1473216	239935
 bsdb:785/2/1_Crohn's-disease:Crohn's-disease-patient_vs_Healthy-control-individual_UP	NA	1689	35833	1531	562	1912855	1596	1246	33038	907	296	315405	29466	39778
@@ -2053,6 +2055,35 @@ bsdb:1049/19/1_Atopic-eczema:cAD-post_vs_cAD-Pre_UP	NA	246432
 bsdb:1049/19/2_Atopic-eczema:cAD-post_vs_cAD-Pre_DOWN	NA	1290
 bsdb:1049/20/1_Atopic-eczema:cADtreat-dogs_vs_Healthy-dogs_UP	NA	1282	1283
 bsdb:1049/21/1_Atopic-eczema:cADPre-dogs_vs_Healthy-dogs_UP	NA	283734
+bsdb:1049/22/1_Atopic-eczema:cADtreat-dogs_vs_Healthy-dogs_DOWN	NA	246432	1295
+bsdb:1049/23/2_Atopic-eczema:cAD-Pre_vs_Healthy-controls_UP	NA	283734
+bsdb:1049/24/1_Atopic-eczema:cAD-Treat_vs_Healthy-controls_DOWN	NA	74706	246432	1295
+bsdb:1049/24/2_Atopic-eczema:cAD-Treat_vs_Healthy-controls_UP	NA	1283
+bsdb:1049/25/1_Atopic-eczema:cAD-Post_vs_cADpre_DOWN	NA	1290
+bsdb:1049/26/2_Atopic-eczema:cAD-Pre_vs_Healthy-controls_UP	NA	283734
+bsdb:1049/27/1_Atopic-eczema:cAD-Treat_vs_Healthy-controls_DOWN	NA	246432
+bsdb:1049/28/1_Atopic-eczema:cAD-Post_vs_cADpre_DOWN	NA	74706	1295	1292
+bsdb:1049/29/1_Atopic-eczema:cAD-Pre_vs_Healthy-controls_UP	NA	283734
+bsdb:1049/30/1_Atopic-eczema:cADtreat-dogs_vs_Healthy-controls_DOWN	NA	74706	1283	1295
+bsdb:1049/31/1_Atopic-eczema:cADpost-dogs_vs_cADpre-dogs_DOWN	NA	29380	1282	28035	283734	1292
+bsdb:1049/31/2_Atopic-eczema:cADpost-dogs_vs_cADpre-dogs_UP	NA	1280
+bsdb:1049/32/1_Atopic-eczema:cADpre-dogs_vs_Healthy-dogs_UP	NA	283734
+bsdb:1049/33/1_Atopic-eczema:cADpost-dogs_vs_cADpre-dogs_DOWN	NA	246432
+bsdb:1049/34/1_Atopic-eczema:cADpre-dogs_vs_Healthy-dogs_DOWN	NA	246432	1292
+bsdb:1049/35/1_Atopic-eczema:cADtreat-dogs_vs_Healthy-dogs_DOWN	NA	246432	1295	1292
+bsdb:1049/36/1_Atopic-eczema:cADpost-dogs_vs_cADpre-dogs_UP	NA	1292
+bsdb:1049/37/1_Atopic-eczema:cADPre-dogs_vs_Healthy-dogs_DOWN	NA	1280	246432
+bsdb:1049/37/2_Atopic-eczema:cADPre-dogs_vs_Healthy-dogs_UP	NA	283734
+bsdb:1049/38/1_Atopic-eczema:cADtreat-dogs_vs_Healthy-dogs_DOWN	NA	246432	1292
+bsdb:1049/39/1_Atopic-eczema:cADpost-dogs_vs_cADpre-dogs_DOWN	NA	1290
+bsdb:1049/40/1_Atopic-eczema:cADpre-dogs_vs_Healthy-dogs_DOWN	NA	1296
+bsdb:1049/40/2_Atopic-eczema:cADpre-dogs_vs_Healthy-dogs_UP	NA	283734
+bsdb:1049/41/1_Atopic-eczema:cADpost-dogs_vs_cADpre-dogs_DOWN	NA	74706	283734	1295
+bsdb:1049/42/1_Atopic-eczema:cADpre-dogs_vs_Healthy-dogs_DOWN	NA	1292
+bsdb:1049/43/1_Atopic-eczema:cADpre-dogs_vs_Healthy-dogs_UP	NA	283734
+bsdb:1049/44/1_Atopic-eczema:cADtreat-dogs_vs_Healthy-dogs_DOWN	NA	246432
+bsdb:1049/44/2_Atopic-eczema:cADtreat-dogs_vs_Healthy-dogs_UP	NA	1282	1290
+bsdb:1049/45/1_Atopic-eczema:cADpost-dogs_vs_cADpre-dogs_UP	NA	1290
 bsdb:1051/1/2_Lung-cancer:Lung-cancer-(L-group)_vs_Benign-pulmonary-diseases-(N-group)_DOWN	NA	438033
 bsdb:1052/1/1_Alzheimer's-disease:Alzheimer’s-Disease-(AD)_vs_Cognitively-normal-control-(NC)_UP	NA	39496	1410626
 bsdb:1054/1/1_Streptococcal-infection:GBS-culture-positive-pregnant-women_vs_GBS-culture-negative-pregnant-women_DOWN	NA	147802	181675
@@ -2107,6 +2138,23 @@ bsdb:1060/19/2_Population:Tshwa_vs_Twa_DOWN	NA	72	55565
 bsdb:1060/20/1_Population:!Xun_vs_Twa_DOWN	NA	158484	546	545	1720	42895	35783	571	573	576	52768	616	158877	562
 bsdb:1060/21/1_Population:!Xun_vs_Tshwa_UP	NA	55565	504	72
 bsdb:1060/21/2_Population:!Xun_vs_Tshwa_DOWN	NA	546	35783	571	576	562	172042	573	545	1496	1720	84135	599	158877	1304	158484	1379	851	47671	505	42895	33033
+bsdb:1060/22/1_Population:Kwisi_vs_Tjimba_UP	NA	546	1873498
+bsdb:1060/22/2_Population:Kwisi_vs_Tjimba_UP	NA	638849
+bsdb:1060/23/1_Population:Twa_vs_Tjimba_UP	NA	158484	546	545	1639133	1896336	42895	562	571	573	576	158877	1873498
+bsdb:1060/24/1_Population:Tshwa_vs_Tjimba_UP	NA	599	42895	505	562	573	158877	545	158484	1896336	546	571	576	1639133	1873498
+bsdb:1060/24/2_Population:Tshwa_vs_Tjimba_UP	NA	55565
+bsdb:1060/25/1_Population:!Xun_vs_Tjimba_UP	NA	1873498
+bsdb:1060/26/1_Population:Twa_vs_Kwisi_UP	NA	158484	1639133	42895	158877	1896336	545	571
+bsdb:1060/26/2_Population:Twa_vs_Kwisi_DOWN	NA	479	1017
+bsdb:1060/27/1_Population:Tshwa_vs_Kwisi_UP	NA	158484	546	545	1639133	1896336	42895	851	505	571	599	158877	39498
+bsdb:1060/27/2_Population:Tshwa_vs_Kwisi_DOWN	NA	1017	479	504	72
+bsdb:1060/28/1_Population:!Xun_vs_Kwisi_UP	NA	1639133	1896336
+bsdb:1060/28/2_Population:!Xun_vs_Kwisi_DOWN	NA	76631	1017	546	1496	1720	562	1379	84135	735	35517	1409
+bsdb:1060/29/1_Socioeconomic-status:Foragers_vs_Pastoralists_UP	NA	133448	1685	31973	42895
+bsdb:1060/29/2_Socioeconomic-status:Foragers_vs_Pastoralists_DOWN	NA	46125	76631	158484	1885016	546	1496	1720	35783	84135	2049028	43675	1304	1409	52768
+bsdb:1060/30/1_Socioeconomic-status:Peripatetics_vs_Pastoralists_UP	NA	1873498	42895	158836	69218	306	31973	229037	133448	546	1639133	571	573	576	562	599	1134687	157688	43768
+bsdb:1060/31/1_Socioeconomic-status:Foragers_vs_Peripatetics_UP	NA	1685
+bsdb:1060/31/2_Socioeconomic-status:Foragers_vs_Peripatetics_DOWN	NA	46125	76631	1409	158484	546	545	1496	1720	69218	158836	35783	562	1379	84135	1134687	571	573	576	47671	43675	599	35517	52768	1885016
 bsdb:1061/1/1_Alzheimer's-disease:Alzheimer’s-Disease-(AD)_vs_Cognitively-normal-(CN)-and-amnestic-mild-cognitive-impairment-(aMCI)_UP	NA	29466	851	28129	28132	1309	824	1303	156456	1328	56981	2117	187326	28136	48296	796942	1383	1382	59892	135080	1304
 bsdb:1061/2/1_Alzheimer's-disease:Amnestic-mild-cognitive-impairment-(aMCI)_vs_Cognitively-normal-(CN)-and-Alzheimer’s-Disease-(AD)_UP	NA	495	2047	1018	329	61592	502	43675	1318	726	88688
 bsdb:1061/3/1_Alzheimer's-disease:Alzheimer’s-Disease-(AD)-and-Amnestic-mild-cognitive-impairment-(aMCI)_vs_Cognitively-normal-(CN)_DOWN	NA	562	28449	729	40542	334542	1305	1750	204	1019	1547448	461393	1585976	43997	43995	157692
@@ -2157,6 +2205,12 @@ bsdb:1079/17/2_Esophageal-adenocarcinoma:Glandular-mucosa-(GM)_vs_GERD(Gastroeso
 bsdb:1079/21/1_Gastroesophageal-reflux-disease:GERD(Gastroesophageal-reflux-disease)-(Cluster-1)_vs_Normal-(Cluster-1)_UP	NA	76122
 bsdb:1079/22/1_Gastroesophageal-reflux-disease:GERD(Gastroesophageal-reflux-disease)-(Cluster-2)_vs_Normal-(Cluster-2)_UP	NA	157687	28129	28133	43675	28135	1304	1343	56774	2137877
 bsdb:1079/22/2_Gastroesophageal-reflux-disease:GERD(Gastroesophageal-reflux-disease)-(Cluster-2)_vs_Normal-(Cluster-2)_DOWN	NA	735
+bsdb:1079/23/1_Gastroesophageal-reflux-disease:GERD(Gastroesophageal-reflux-disease)-(Cluster-3)_vs_Normal-(Cluster-3)_UP	NA	729	496	487	58231
+bsdb:1079/23/2_Gastroesophageal-reflux-disease:GERD(Gastroesophageal-reflux-disease)-(Cluster-3)_vs_Normal-(Cluster-3)_DOWN	NA	1382
+bsdb:1079/24/1_Esophageal-adenocarcinoma:Subjects-with-normal-esophagus-on-PPI-Yes_vs_Subjects-with-normal-esophagus-on-PPI-No_UP	NA	52227	1343
+bsdb:1079/24/2_Esophageal-adenocarcinoma:Subjects-with-normal-esophagus-on-PPI-Yes_vs_Subjects-with-normal-esophagus-on-PPI-No_DOWN	NA	727	228604
+bsdb:1079/25/1_Esophageal-adenocarcinoma:Subjects-with-GERD-on-PPI-Yes_vs_Subjects-with-GERD-on-PPI-No_UP	NA	55565	29391	187326	470565	60133	228604	796942	76860
+bsdb:1079/25/2_Esophageal-adenocarcinoma:Subjects-with-GERD-on-PPI-Yes_vs_Subjects-with-GERD-on-PPI-No_DOWN	NA	487
 bsdb:1080/1/2_Lower-respiratory-tract-disease:Chronic-Otitis-Media-With-Effusion-(COME)-with-asthma-or-bronchiolitis_vs_Chronic-Otitis-Media-With-Effusion-(COME)-without-asthma-or-bronchiolitis_DOWN	NA	1652	29321
 bsdb:1083/2/2_Age:B-Group-(B45.2)_vs_B-Group-(B15.2))_DOWN	NA	47717
 bsdb:1084/1/1_Dermatitis:mild-atopic-dermatitis-(AD)_vs_healthy-controls_UP	NA	78448	36773	729	2738409	494023	363849	2485123	1943581	2606626	1280	1282	40324	1303	66371	46188	1633203	67322	29305	2546361	67312	990412	2683592	1204512	2814884	2528639	1785	626372	1969738	1654388	1926495
@@ -2390,6 +2444,14 @@ bsdb:1160/17/2_Systemic-inflammatory-response-syndrome:PC4-(Patient-sample-4-tre
 bsdb:1160/20/1_Systemic-inflammatory-response-syndrome:PC8-(Patient-sample-8-treated-with-cocktail-c)_vs_PD8-(Patient-sample-8-with-DMSO)_DOWN	NA	1940338
 bsdb:1160/21/1_Systemic-inflammatory-response-syndrome:P-(Patients-with-SIRS)_vs_H-(Healthy-Volunteers)_UP	NA	1940338
 bsdb:1160/22/2_Systemic-inflammatory-response-syndrome:B2.2-(gut-microbiome-remodeling-compound)_vs_MD-(cultured-model)_DOWN	NA	1940338
+bsdb:1160/23/2_Systemic-inflammatory-response-syndrome:C2.1-(gut-microbiome-remodeling-compound)_vs_MD-(cultured-model)_DOWN	NA	1940338
+bsdb:1160/24/1_Systemic-inflammatory-response-syndrome:C2.2-(gut-microbiome-remodeling-compound)_vs_MD-(cultured-model)_DOWN	NA	1940338
+bsdb:1160/25/2_Systemic-inflammatory-response-syndrome:D2.1-(gut-microbiome-remodeling-compound)_vs_MD-(cultured-model)_DOWN	NA	1940338
+bsdb:1160/26/2_Systemic-inflammatory-response-syndrome:D2.2-(gut-microbiome-remodeling-compound)_vs_MD-(cultured-model)_DOWN	NA	1940338
+bsdb:1160/27/2_Systemic-inflammatory-response-syndrome:E2.1-(gut-microbiome-remodeling-compound)_vs_MD-(cultured-model)_DOWN	NA	1940338
+bsdb:1160/28/1_Systemic-inflammatory-response-syndrome:E2.2-(gut-microbiome-remodeling-compound)_vs_MD-(cultured-model)_DOWN	NA	1940338
+bsdb:1160/29/1_Systemic-inflammatory-response-syndrome:F2.1-(gut-microbiome-remodeling-compound)_vs_MD-(cultured-model)_DOWN	NA	1940338
+bsdb:1160/30/1_Systemic-inflammatory-response-syndrome:F2.2-(gut-microbiome-remodeling-compound)_vs_MD-(cultured-model)_DOWN	NA	1940338
 bsdb:1161/1/1_Schistosomiasis:Schistosomiasis-positive_vs_Schistosomiasis-negative_UP	NA	331632
 bsdb:1161/1/2_Schistosomiasis:Schistosomiasis-positive_vs_Schistosomiasis-negative_DOWN	NA	331630	220137	658143	136703	77133
 bsdb:1163/6/2_HIV-infection:NRTIs+PIs_vs_non-infected-volunteers-(Control)_DOWN	NA	1288121	1409	105335	1003367	39485	853	360807	166486	1265
@@ -2516,6 +2578,16 @@ bsdb:1191/20/2_Obesity:Obese-American-women(UO)_vs_Lean-Ghanaian-women-(GL)_DOWN
 bsdb:1191/21/1_Obesity:Obese-Ghanaians(GO)-humanized-mice_vs_Lean-Ghanaians-(GL)-humanized-mice_UP	NA	85831	1623	823
 bsdb:1191/21/2_Obesity:Obese-Ghanaians(GO)-humanized-mice_vs_Lean-Ghanaians-(GL)-humanized-mice_DOWN	NA	47678
 bsdb:1191/22/2_Obesity:Obese-Americans-(UO)_vs_Obese-Ghanaians(GO)_DOWN	NA	879970
+bsdb:1191/23/1_Obesity:Lean-Americans-(UL)-humanized-mice_vs_Lean-Ghanaians(GL)-humanized-mice_UP	NA	85831	1623	823
+bsdb:1191/23/2_Obesity:Lean-Americans-(UL)-humanized-mice_vs_Lean-Ghanaians(GL)-humanized-mice_DOWN	NA	879970	33038
+bsdb:1191/24/1_Obesity:Obese-Americans(UO)-humanized-mice_vs_Lean-Ghana-(GL)-humanized-mice_UP	NA	85831	823	1623
+bsdb:1191/24/2_Obesity:Obese-Americans(UO)-humanized-mice_vs_Lean-Ghana-(GL)-humanized-mice_DOWN	NA	879970
+bsdb:1191/25/1_Obesity:American-Women-(UL-+-UO)-humanized-mice_vs_Ghana-Women-(GL-+-GO)-humanized-mice_UP	NA	85831	823	1623
+bsdb:1191/25/2_Obesity:American-Women-(UL-+-UO)-humanized-mice_vs_Ghana-Women-(GL-+-GO)-humanized-mice_DOWN	NA	33038	879970
+bsdb:1191/26/1_Obesity:Obese-Americans(UO)_vs_Lean-Americans-(UL)_UP	NA	33038
+bsdb:1191/27/1_Obesity:Lean-Ghanaians-(GL)-humanized-mice_vs_(Obese-Ghanaians(GO)-+-Obese-Americans(UO)-+-Lean-Americans(UL))-humanized-mice_UP	NA	47678	33038	879970
+bsdb:1191/27/2_Obesity:Lean-Ghanaians-(GL)-humanized-mice_vs_(Obese-Ghanaians(GO)-+-Obese-Americans(UO)-+-Lean-Americans(UL))-humanized-mice_DOWN	NA	85831	823	1623
+bsdb:1191/28/1_Obesity:All-Obese-Women-(UO-+-GO)-humanized-mice_vs_All-Lean-Women-(UL-+-GL)-humanized-mice_UP	NA	85831	823	1623
 bsdb:1192/1/1_Colorectal-cancer:CRC-Patients_vs_Healthy-Control_UP	NA	827	1261	147802	102148	371674	507843	39778	29466	28133	817
 bsdb:1192/1/2_Colorectal-cancer:CRC-Patients_vs_Healthy-Control_DOWN	NA	28111	74426	39486	853	729	1735	301302	165179	46228	209265
 bsdb:1192/2/1_Colorectal-cancer:CRC-Patients-over-40-years-of-age_vs_CRC-patients-under-40-years-of-age_UP	NA	28116	1547	1512
@@ -2736,6 +2808,23 @@ bsdb:1231/19/1_Ovarian-cancer:High-Grade-Tumor_vs_Low-Grade-Tumor_DOWN	NA	76731
 bsdb:1231/20/1_Ovarian-cancer:High-Grade-Tumor_vs_Low-Grade-Tumor_DOWN	NA	411577	2057799	1393034	309120	308994	938288	242750	386414	2051	507750	1261	501496	184870	278064	768570	159272
 bsdb:1231/21/1_Ovarian-cancer:High-Grade-Tumor_vs_Low-Grade-Tumor_DOWN	NA	39491	28117	105843	649756	28116	818	820	871665	1955243	418240	74426	1720	308994	562	853	1150298	851	242750	386414	592978	2051	507844	620903	1776381	507751	1261	1282	68892	1318	184870	33039	239730	162156	172733	297314	335458	254354	1940338	290054	39488	1321783
 bsdb:1231/22/1_Ovarian-cancer:Serous-ovarian-cancer_vs_Benign_UP	NA	1288120	38304	178214
+bsdb:1231/23/1_Ovarian-cancer:Serous-ovarian-cancer_vs_Benign_DOWN	NA	415217
+bsdb:1231/24/1_Ovarian-cancer:Serous-ovarian-cancer_vs_Benign_UP	NA	408
+bsdb:1231/25/1_Ovarian-cancer:Other-histologies_vs_Benign_UP	NA	156456	308994
+bsdb:1231/26/1_Ovarian-cancer:Other-histologies_vs_Benign_UP	NA	147802
+bsdb:1231/27/1_Ovarian-cancer:Other-histologies_vs_Benign_UP	NA	39491	1955243	161899	1720	853	1150298	592978	2051	131111	278064	33039
+bsdb:1231/28/1_Ovarian-cancer:Other-histologies_vs_Serous-ovarian-cancer_UP	NA	147802
+bsdb:1231/29/1_Ovarian-cancer:Other-histologies_vs_Serous-ovarian-cancer_UP	NA	1871018	39485	344338
+bsdb:1231/30/1_Ovarian-cancer:Other-histologies_vs_Serous-ovarian-cancer_UP	NA	411577	2057799	156456	308994	851	242750	28127	28124	159272
+bsdb:1231/31/1_Treatment-outcome-measurement:Other-tumor-responses-(refractory/resistant)_vs_Sensitive-(chemotherapy-sensitive-OCs)_UP	NA	33036
+bsdb:1231/32/1_Treatment-outcome-measurement:Patient-status-(Alive)---2-years-post-diagnosis_vs_No-event---2-years-post-diagnosis_UP	NA	33036	827	1596	31998	54005
+bsdb:1231/33/1_Treatment-outcome-measurement:Patient-status-(Alive)---2-years-post-diagnosis_vs_No-event---2-years-post-diagnosis_UP	NA	2583452	28116	1796616	218538	1965293	2028282	33038	487175	2682456	29466	152509	286138
+bsdb:1231/34/1_Treatment-outcome-measurement:Patient-status-(Dead)---2-years-post-diagnosis_vs_No-event---2-years-post-diagnosis_UP	NA	33037	131110
+bsdb:1231/35/1_Treatment-outcome-measurement:Patient-status-(Dead)---2-years-post-diagnosis_vs_No-event---2-years-post-diagnosis_UP	NA	1712515	1432052	1597	40545	184870	458253	77133
+bsdb:1231/36/1_Treatment-outcome-measurement:Patient-status-(Dead)---2-years-post-diagnosis_vs_Event---2-years_DOWN	NA	218538
+bsdb:1231/37/1_Treatment-outcome-measurement:Patient-status-(Alive)---4-years-post-diagnosis_vs_No-event---4-years-post-diagnosis_UP	NA	103621	446660	39491	1628085	39488	105843	54007	156456	28116	818	820	2509240	1955243	827	1230734	1720	218538	308994	2763044	39497	46507	853	938288	1150298	851	28127	386414	2028282	147802	28118	1776381	823	2741	2049038	507751	1673725	1261	501496	28124	76731	301302	360807	438033	184870	1535	239730	427146	278064	165185	278065	335458	254354	159272	1588754	434126
+bsdb:1231/38/1_Treatment-outcome-measurement:Patient-status-(Dead)---4-years-post-diagnosis_vs_No-event---4-years-post-diagnosis_DOWN	NA	28127
+bsdb:1231/39/1_Treatment-outcome-measurement:Patient-status-(Dead)---4-years-post-diagnosis_vs_Event---4-years-post-diagnosis_DOWN	NA	28127
 bsdb:1232/1/1_Aggressive-periodontitis:Grade-C-(previously-aggressive)-Periodontitis--Shallow-pocket_vs_Healthy-controls_UP	NA	550	712511	69218	294	28090	158836	28124	28112	307480	712107	158	1351	713068	712513	1889813	1069980	68334	712991	713018	712905	713056	51160	53418	569	712288	713020	713051	1366	176090	713052	138851	614	182337	28151
 bsdb:1232/1/2_Aggressive-periodontitis:Grade-C-(previously-aggressive)-Periodontitis--Shallow-pocket_vs_Healthy-controls_DOWN	NA	45243	43768	712633	84135	1750	68892	2047	539	652714	157688	1107316	712624	712363	204	61592	617123	46124	652706	45634	488	40324	301	484	712187	113107	2718	76857	1655	671213	1379	824	554406	157692	712632	505	712888	43675	1305	29466	1019	28037	46125	1302	172042	47671	729
 bsdb:1232/2/1_Aggressive-periodontitis:Grade-C(previously-aggressive)-Periodontitis--Deep-pocket_vs_Healthy-controls_UP	NA	712511	69218	550	158836	28124	713068	28112	158	53419	1889813	51160	712107	837	712905	713051	712900	712973	294	713052	138851	712912	671227	53418	133926	712991	712907	712911	712258	651822	80866	176090	713018	713069	181487	29442	203	712457	712459	68334	713067	712745	712456	28113	713066	712909	713056	84109	712875	569	712776	712724	712721	671234	671235	407975	189723
@@ -2810,6 +2899,24 @@ bsdb:1239/20/1_Multiple-sclerosis:Post-Experimental-Autoimmune-Encephalomyelitis
 bsdb:1239/21/1_Multiple-sclerosis:Post-Experimental-Autoimmune-Encephalomyelitis-induction-latent-period(post-EAE-induction):-8-days-post-immunization(8-DPI)_vs_Pre-Experimental-Autoimmune-Encephalomyelitis-induction(pre-EAE-induction/Day-0):-0-day-post-immunization(0-DPI)_DOWN	NA	29347
 bsdb:1239/22/1_Multiple-sclerosis:Post-Experimental-Autoimmune-Encephalomyelitis-induction-peak-disease(post-EAE-induction):-15-days-post-immunization(15-DPI)_vs_Pre-Experimental-Autoimmune-Encephalomyelitis-induction(pre-EAE-induction/Day-0):-0-day-post-immunization(0-DPI)_UP	NA	239935	29347
 bsdb:1239/22/2_Multiple-sclerosis:Post-Experimental-Autoimmune-Encephalomyelitis-induction-peak-disease(post-EAE-induction):-15-days-post-immunization(15-DPI)_vs_Pre-Experimental-Autoimmune-Encephalomyelitis-induction(pre-EAE-induction/Day-0):-0-day-post-immunization(0-DPI)_DOWN	NA	69825	154288
+bsdb:1239/23/1_Treatment-outcome-measurement:Single-treatment-housed-vancomycin-mice---0-DPI_vs_Single-treatment-housed-control-mice---0-DPI_UP	NA	239935	154288
+bsdb:1239/23/2_Treatment-outcome-measurement:Single-treatment-housed-vancomycin-mice---0-DPI_vs_Single-treatment-housed-control-mice---0-DPI_DOWN	NA	259063	169435	69825
+bsdb:1239/24/1_Treatment-outcome-measurement:Vancomycin-treated-mice-cohoused-with-untreated-mice-(VancoCoho)---3-DPI_vs_Single-treatment-housed-control-mice---3-DPI_DOWN	NA	169435
+bsdb:1239/24/2_Treatment-outcome-measurement:Vancomycin-treated-mice-cohoused-with-untreated-mice-(VancoCoho)---3-DPI_vs_Single-treatment-housed-control-mice---3-DPI_UP	NA	239935	69824	154288	29347
+bsdb:1239/25/1_Treatment-outcome-measurement:Single-treatment-housed-vancomycin-mice---8-DPI_vs_Single-treatment-housed-control-mice---8-DPI_DOWN	NA	169435
+bsdb:1239/25/2_Treatment-outcome-measurement:Single-treatment-housed-vancomycin-mice---8-DPI_vs_Single-treatment-housed-control-mice---8-DPI_UP	NA	239935	69824	29347
+bsdb:1239/26/2_Treatment-outcome-measurement:Single-treatment-housed-vancomycin-mice---15-DPI_vs_Single-treatment-housed-control-mice---15-DPI_UP	NA	259063	69825	154288	29347
+bsdb:1239/27/1_Treatment-outcome-measurement:Vancomycin-treated-mice-cohoused-with-untreated-mice-(VancoCoho)---0-DPI_vs_Single-treatment-housed-vancomycin-mice-(vancomycin)---0-DPI_DOWN	NA	239935
+bsdb:1239/27/2_Treatment-outcome-measurement:Vancomycin-treated-mice-cohoused-with-untreated-mice-(VancoCoho)---0-DPI_vs_Single-treatment-housed-vancomycin-mice-(vancomycin)---0-DPI_UP	NA	69824
+bsdb:1239/28/1_Treatment-outcome-measurement:Vancomycin-treated-mice-cohoused-with-untreated-mice-(VancoCoho)---3-DPI_vs_Single-treatment-housed-vancomycin-mice-(vancomycin)---3-DPI_UP	NA	169435
+bsdb:1239/28/2_Treatment-outcome-measurement:Vancomycin-treated-mice-cohoused-with-untreated-mice-(VancoCoho)---3-DPI_vs_Single-treatment-housed-vancomycin-mice-(vancomycin)---3-DPI_DOWN	NA	239935	69824
+bsdb:1239/29/1_Treatment-outcome-measurement:Vancomycin-treated-mice-cohoused-with-untreated-mice-(VancoCoho)---8-DPI_vs_Single-treatment-housed-vancomycin-mice-(vancomycin)---8-DPI_UP	NA	169435
+bsdb:1239/29/2_Treatment-outcome-measurement:Vancomycin-treated-mice-cohoused-with-untreated-mice-(VancoCoho)---8-DPI_vs_Single-treatment-housed-vancomycin-mice-(vancomycin)---8-DPI_DOWN	NA	239935	69824
+bsdb:1239/30/1_Treatment-outcome-measurement:Vancomycin-treated-mice-cohoused-with-untreated-mice-(VancoCoho)---15-DPI_vs_Single-treatment-housed-vancomycin-mice-(vancomycin)---15-DPI_UP	NA	169435
+bsdb:1239/31/1_Treatment-outcome-measurement:Vancomycin-treated-mice-cohoused-with-untreated-mice-(VancoCoho)---0-DPI_vs_Untreated-mice-cohoused-with-vancomycin-treated-mice-(ControlCoho)---0-DPI_UP	NA	100884	69824
+bsdb:1239/32/1_Treatment-outcome-measurement:Vancomycin-treated-mice-cohoused-with-untreated-mice-(VancoCoho)---3-DPI_vs_Untreated-mice-cohoused-with-vancomycin-treated-mice-(ControlCoho)---3-DPI_UP	NA	239935	100884	1544	69824
+bsdb:1239/33/1_Treatment-outcome-measurement:Vancomycin-treated-mice-cohoused-with-untreated-mice-(VancoCoho)---8-DPI_vs_Untreated-mice-cohoused-with-vancomycin-treated-mice-(ControlCoho)---8-DPI_UP	NA	239935
+bsdb:1239/34/1_Treatment-outcome-measurement:Vancomycin-treated-mice-cohoused-with-untreated-mice-(VancoCoho)---15-DPI_vs_Untreated-mice-cohoused-with-vancomycin-treated-mice-(ControlCoho)---15-DPI_UP	NA	69825	259063
 bsdb:1243/1/1_Spontaneous-preterm-birth:Preterm-birth-Trimester-one-(PTB-T1)_vs_Term-birth-Trimester-one-(TB-T1)_UP	NA	147802	306	82135	28128	40543
 bsdb:1243/1/2_Spontaneous-preterm-birth:Preterm-birth-Trimester-one-(PTB-T1)_vs_Term-birth-Trimester-one-(TB-T1)_DOWN	NA	47770	33959
 bsdb:1243/2/1_Spontaneous-preterm-birth:Preterm-birth-Trimester-one-(PTB-T1)_vs_Term-birth-Trimester-one-(TB-T1)_UP	NA	147802
@@ -2848,6 +2955,23 @@ bsdb:1247/21/1_Exposure:Octanoic-Acid-(OA)_vs_Unsorted-cells_UP	NA	358742	208479
 bsdb:1247/21/2_Exposure:Octanoic-Acid-(OA)_vs_Unsorted-cells_DOWN	NA	2763050	821	1550024	1547	29347
 bsdb:1247/22/1_Exposure:Lauric-Acid-(LA)_vs_Ethanol-(EtOH)_UP	NA	208479	358742	84112
 bsdb:1247/22/2_Exposure:Lauric-Acid-(LA)_vs_Ethanol-(EtOH)_DOWN	NA	1261
+bsdb:1247/23/1_Exposure:Decanoic-Acid-(DA)_vs_Ethanol-(EtOH)_UP	NA	208479	358742
+bsdb:1247/23/2_Exposure:Decanoic-Acid-(DA)_vs_Ethanol-(EtOH)_DOWN	NA	1261	29347
+bsdb:1247/24/1_Exposure:Octanoic-Acid-(OA)_vs_Ethanol-(EtOH)_UP	NA	208479	358742
+bsdb:1247/24/2_Exposure:Octanoic-Acid-(OA)_vs_Ethanol-(EtOH)_DOWN	NA	2763050	1261	1550024	1547
+bsdb:1247/25/1_Exposure:Lauric-Acid-(LA)_vs_Unsorted-cells_UP	NA	218538	562	29347
+bsdb:1247/25/2_Exposure:Lauric-Acid-(LA)_vs_Unsorted-cells_DOWN	NA	2885357
+bsdb:1247/26/1_Exposure:Decanoic-Acid-(DA)_vs_Unsorted-cells_UP	NA	562
+bsdb:1247/26/2_Exposure:Decanoic-Acid-(DA)_vs_Unsorted-cells_DOWN	NA	649756	2885357
+bsdb:1247/27/1_Exposure:Octanoic-Acid-(OA)_vs_Unsorted-cells_UP	NA	562	218538
+bsdb:1247/27/2_Exposure:Octanoic-Acid-(OA)_vs_Unsorted-cells_DOWN	NA	649756	2885357
+bsdb:1247/28/1_Exposure:Lauric-Acid-(LA)_vs_Ethanol-(EtOH)_UP	NA	29347
+bsdb:1247/29/1_Exposure:Decanoic-Acid-(DA)_vs_Ethanol-(EtOH)_UP	NA	562
+bsdb:1247/29/2_Exposure:Decanoic-Acid-(DA)_vs_Ethanol-(EtOH)_DOWN	NA	649756	2885357
+bsdb:1247/30/1_Exposure:Octanoic-Acid-(OA)_vs_Ethanol-(EtOH)_UP	NA	218538
+bsdb:1247/30/2_Exposure:Octanoic-Acid-(OA)_vs_Ethanol-(EtOH)_DOWN	NA	2885357
+bsdb:1247/31/1_Exposure:Ethanol-(EtOH)_vs_Unsorted-cells_UP	NA	562
+bsdb:1247/31/2_Exposure:Ethanol-(EtOH)_vs_Unsorted-cells_DOWN	NA	2885357
 bsdb:1251/1/1_Alzheimer's-disease:Alzheimer's-Disease-(AD)-patients_vs_Healthy-controls_UP	NA	1940338
 bsdb:1253/1/1_Response-to-ketogenic-diet:post-ketogenic-diet-responders-(R_Ep2)_vs_pre-ketogenic-diet-responders-(R_Ep1)_DOWN	NA	1685	1682	1679
 bsdb:1253/2/1_Response-to-ketogenic-diet:non-responders-post-ketogenic-diet_vs_non-responders-pre-ketogenic-diet_DOWN	NA	1679	1685
