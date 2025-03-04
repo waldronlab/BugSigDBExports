@@ -50,7 +50,10 @@ readFiles <- function(links, delay = 60)
     for (csv in csvs) {
         tryCatch({
                 destfile <- paste0(csv, ".csv")
-                download.file(unname(links[csv]), destfile = destfile)
+                download.file(unname(links[csv]),
+                              destfile = destfile,
+                              method = "curl",
+                              extra = "--limit-rate 50K")
             },
             error = function(e) {
                 print(e$message)
