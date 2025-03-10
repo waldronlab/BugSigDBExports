@@ -8,7 +8,7 @@ name: Export BugSigDB
 jobs:
   export-bugsigdb:
     runs-on: ubuntu-latest
-    container: bioconductor/bioconductor_docker:RELEASE_3_19
+    container: bioconductor/bioconductor_docker:devel
 
     steps:
 
@@ -19,7 +19,7 @@ jobs:
 
       - name: Install BugSigDBExports dependencies
         run: |
-          Rscript -e "install.packages(c('rvest', 'readr', 'plyr', 'BiocFileCache', 'R.utils'))"
+          Rscript -e "install.packages(c('rvest', 'readr', 'plyr', 'BiocFileCache', 'R.utils', 'testthat'))"
 
       - name: Install bugsigdbr 
         run: |
@@ -39,6 +39,17 @@ jobs:
           Rscript $GITHUB_WORKSPACE/BugSigDBExports/inst/scripts/dump_release.R $BUGSIGDB_TIMESTAMP $GITHUB_WORKSPACE/BugSigDBExports
           mv *csv $GITHUB_WORKSPACE/BugSigDBExports
         timeout-minutes: 10
+
+      - name: Test Study and Condition for NAs
+        run: |
+          library(R.utils)
+          library(testthat)
+          github_workspace <- Sys.getenv("GITHUB_WORKSPACE")
+          setwd(file.path(github_workspace, "BugSigDBExports"))
+          bsdb <- read.csv("full_dump.csv", skip = "1")
+          expect_true(all(!is.na(bsdb$Study)))
+          expect_true(all(!is.na(bsdb$Condition)))
+        shell: Rscript {0}
 
       - name: Track file growth
         run: |
