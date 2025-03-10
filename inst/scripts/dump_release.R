@@ -217,13 +217,13 @@ for(tl in tax.levels)
     {
         for(etl in exact.tax.levels)
         {
-            if(tl == "mixed" && etl) next
+            if(tl == "mixed" && !etl) next
             sigs <- bugsigdbr::getSignatures(bsdb, 
                                              tax.id.type = it,
                                              tax.level = tl,
                                              exact.tax.level = etl)
             gmt.file <- paste("bugsigdb", "signatures", tl, it, sep = "_")
-            if(etl) {
+            if(tl != "mixed" && etl) {
                 gmt.file <- paste(gmt.file, "exact", sep = "_") 
             }
             gmt.file <- paste(gmt.file, "gmt", sep = ".")
