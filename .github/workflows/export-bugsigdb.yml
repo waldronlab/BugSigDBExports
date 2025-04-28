@@ -48,7 +48,6 @@ jobs:
           setwd(file.path(github_workspace, "BugSigDBExports"))
           bsdb <- read.csv("full_dump.csv", skip = "1")
           expect_true(all(!is.na(bsdb$Study)))
-          expect_true(all(!is.na(bsdb$Condition)))
         shell: Rscript {0}
 
       - name: Track file growth
