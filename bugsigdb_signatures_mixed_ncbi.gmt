@@ -1,4 +1,4 @@
-# BugSigDB 2025-05-03_13:59_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2025-05-03_14:59_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:11/1/1_Cervical-glandular-intraepithelial-neoplasia:HIV-patients-with-lesion-at-12-months_vs_HIV-pateints-with-normal-tissue-at-6-months_DOWN	NA	2702
 bsdb:39/1/1_Body-odor-measurement:youth-underarm-after-exercise_vs_youth-underarm-before_UP	NA	1282
 bsdb:39/1/2_Body-odor-measurement:youth-underarm-after-exercise_vs_youth-underarm-before_DOWN	NA	265
@@ -4618,8 +4618,8 @@ bsdb:34592155/3/1_Aging:Group-4_vs_Group-1-(18–35-years-old)_UP	NA	713	816	157
 bsdb:34592155/3/2_Aging:Group-4_vs_Group-1-(18–35-years-old)_DOWN	NA	32033
 bsdb:34609073/1/1_Cancer:Cachectic-Cancer_vs_Healthy-Controls_UP	NA	1224	29465
 bsdb:34609073/1/2_Cancer:Cachectic-Cancer_vs_Healthy-Controls_DOWN	NA	158846	2740
-bsdb:34609073/2/1_Cancer:Non-Cachectic-Cancer_vs_Healthy-Controls_UP	NA	158846	1224
-bsdb:34609073/2/2_Cancer:Non-Cachectic-Cancer_vs_Healthy-Controls_DOWN	NA	2740	29465
+bsdb:34609073/2/1_Cancer:Cachetic-Cancer_vs_Non-Cachectic-Cancer_UP	NA	1224	29465
+bsdb:34609073/2/2_Cancer:Cachetic-Cancer_vs_Non-Cachectic-Cancer_DOWN	NA	158846	2740
 bsdb:34609073/3/1_Cancer:Cachectic-Cancer_vs_Non-Cachectic-Cancer_UP	NA	1224	29465
 bsdb:34609073/3/2_Cancer:Cachectic-Cancer_vs_Non-Cachectic-Cancer_DOWN	NA	158846	2740
 bsdb:34611216/1/1_Chronic-obstructive-pulmonary-disease:Exacerbated-state-chronic-obstructive-pulmonary-disease-(COPD)-patients_vs_Stable-state-chronic-obstructive-pulmonary-disease-(COPD)-patients_UP	NA	1654	482	1301	838	1578	29465	724	117563
@@ -5655,7 +5655,7 @@ bsdb:36744910/3/1_COVID-19:Severe/Critical-severity_vs_Moderate-severity_UP	NA	3
 bsdb:36744910/3/2_COVID-19:Severe/Critical-severity_vs_Moderate-severity_DOWN	NA	853	209880	3082771	1980693	1485	1776391	33042	40518	1263	186803
 bsdb:36760344/1/1_Exercise:Meditation-group_vs_Control-group_UP	NA	216851	158846	838	816	171549	995019	80840	28216
 bsdb:36760344/1/2_Exercise:Meditation-group_vs_Control-group_DOWN	NA	1678	95818	102106	39948	906	841	35493	31977	201174	1236
-bsdb:36774467/1/1_Irritable-bowel-syndrome:IBS-Patients-(Exposed-Group)_vs_Healthy-Controls_UP	NA	1239	84566	543	468
+bsdb:36774467/1/1_Irritable-bowel-syndrome:IBS-Patients-(Exposed-Group)_vs_Healthy-Controls_UP	NA	1239	543	468	84566	1386	28453	2719313	61170	1301	469
 bsdb:36774467/1/2_Irritable-bowel-syndrome:IBS-Patients-(Exposed-Group)_vs_Healthy-Controls_DOWN	NA	31953	1653	256845	28890	216572	171552
 bsdb:36790203/1/1_Chronic-obstructive-pulmonary-disease:HIV-positive-individuals-diagnosed-with-COPD_vs_HIV-negative-individuals-with-COPD_UP	NA	201174	416916	2801844	1239	1386	2026720	2717	1716	1730	44259	848	1378	1840214	32067	2742598	475	543311	838	1743	1224	508215	970	203691	1301	508458	195950	1869227	179883	2722	142586
 bsdb:36790203/1/2_Chronic-obstructive-pulmonary-disease:HIV-positive-individuals-diagnosed-with-COPD_vs_HIV-negative-individuals-with-COPD_DOWN	NA	46123	2147	713	1654	1283313	156454	1380	976	59735	194	29547	1331051	1016	39948	142586	1434006	32066	117563	724	1164882	47670	482	265975	2	2740	1257	836	59823	909929	71	123375	1213720	34104	195950	157	29465	91061	171549	200643	363464	2093825	2093818	128827	1236	186803	171552	31977	244328	100235	2093824
@@ -8247,6 +8247,10 @@ bsdb:40159147/25/1_Breastfeeding-duration:Colic:Wessel-Breastfed-adjusted-4-7-mo
 bsdb:40159147/25/2_Breastfeeding-duration:Colic:Wessel-Breastfed-adjusted-4-7-months_vs_Colic:Wessel-Breastfed-crude-4-7-months_DOWN	NA	1578
 bsdb:40159147/26/1_Constipation:Constipation->3d-adjusted-<3-months-(Full-cohort)_vs_Constipation->3d-crude-<3-months-(Full-cohort)_UP	NA	33038
 bsdb:40159147/26/2_Constipation:Constipation->3d-adjusted-<3-months-(Full-cohort)_vs_Constipation->3d-crude-<3-months-(Full-cohort)_DOWN	NA	1678	1279	1578
+bsdb:40159147/27/1_Treatment:Constipation->3d-No-Antibiotics-adjusted-<3-months_vs_Constipation->3d-No-Antibiotics-crude-<3-months_UP	NA	33038
+bsdb:40159147/27/2_Treatment:Constipation->3d-No-Antibiotics-adjusted-<3-months_vs_Constipation->3d-No-Antibiotics-crude-<3-months_DOWN	NA	1279	1578	1678
+bsdb:40159147/28/1_Breastfeeding-duration:Constipation->3d-Breastfed-adjusted-<3-months_vs_Constipation->3d-Breastfed-crude-<3-months_UP	NA	1578
+bsdb:40159147/28/2_Breastfeeding-duration:Constipation->3d-Breastfed-adjusted-<3-months_vs_Constipation->3d-Breastfed-crude-<3-months_DOWN	NA	33038	1279	1678
 bsdb:40159147/32/1_Breastfeeding-duration:High-Constipation-<3d-Breastfed->3months-(Crude)_vs_Low-Constipation-<3d-Breastfed->3months-(Crude)_DOWN	NA	1279
 bsdb:40159147/33/1_Breastfeeding-duration:High-Cramps-<3d-Breastfed->3months-(Crude)_vs_Low-Cramps-<3d-Breastfed->3months-(Crude)_DOWN	NA	543
 bsdb:40159147/34/1_Breastfeeding-duration:High-Colic:Wessel-Breastfed-4-7months-(Crude)_vs_Low-Colic:Wessel-Breastfed-4-7months-(Crude)_UP	NA	33038
