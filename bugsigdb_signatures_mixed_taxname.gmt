@@ -1,4 +1,4 @@
-# BugSigDB 2025-05-12_15:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2025-05-12_22:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:11/1/1_Cervical-glandular-intraepithelial-neoplasia:HIV-patients-with-lesion-at-12-months_vs_HIV-pateints-with-normal-tissue-at-6-months_DOWN	NA	Gardnerella vaginalis
 bsdb:39/1/1_Body-odor-measurement:youth-underarm-after-exercise_vs_youth-underarm-before_UP	NA	Staphylococcus epidermidis
 bsdb:39/1/2_Body-odor-measurement:youth-underarm-after-exercise_vs_youth-underarm-before_DOWN	NA	Paracoccus
@@ -4542,10 +4542,11 @@ bsdb:34264976/1/1_Treatment-outcome-measurement:Trial-group;-7d-(Feces)_vs_Contr
 bsdb:34264976/2/1_Treatment-outcome-measurement:Trial-group-21d-(Feces)_vs_Control_UP	NA	Streptococcus
 bsdb:34264976/4/1_Treatment-outcome-measurement:Trial-group;-35d-(Intestinal)_vs_Control-group_UP	NA	Bacteroides	Blautia
 bsdb:34264976/4/2_Treatment-outcome-measurement:Trial-group;-35d-(Intestinal)_vs_Control-group_DOWN	NA	Streptococcus	Romboutsia	Pseudomonadota
-bsdb:34264976/5/1_Treatment-outcome-measurement:Trial-group;-7d-(Feces)_vs_Control-group_UP	NA	Acetanaerobacterium	Bacteroidaceae	Bacteroidia
-bsdb:34264976/6/1_Treatment-outcome-measurement:Control-group;-21d-(Feces)_vs_Trial-group_UP	NA	Lactobacillaceae	Ruminococcaceae bacterium UCG-005	Lactobacillus	Ligilactobacillus murinus
-bsdb:34264976/7/1_Treatment-outcome-measurement:Control-group;-35d(Feces)_vs_Trial-group_UP	NA	Ruminococcaceae bacterium UCG-005
+bsdb:34264976/5/1_Treatment-outcome-measurement:Trial-group;-7d-(Feces)_vs_Control-group_UP	NA	Acetanaerobacterium	Bacteroidaceae	Bacteroides
+bsdb:34264976/6/1_Treatment-outcome-measurement:Trial-group_vs_Control-group;-21d-(Feces)_DOWN	NA	Lactobacillaceae	Lactobacillus	Ligilactobacillus murinus	Ruminococcaceae bacterium UCG-005
+bsdb:34264976/7/1_Treatment-outcome-measurement:Trial-group_vs_Control-group;-35d(Feces)_DOWN	NA	Ruminococcaceae bacterium UCG-005
 bsdb:34264976/8/1_Blind-loop-syndrome:Trial-group;-35d-(Intestinal)_vs_Control-group_UP	NA	Bacteroidaceae	Bacteroides	Blautia
+bsdb:34264976/8/2_Blind-loop-syndrome:Trial-group;-35d-(Intestinal)_vs_Control-group_DOWN	NA	Lachnospiraceae bacterium NK4A136
 bsdb:34268384/1/1_Endometriosis:Women-with-EM-associated-CPPS_vs_Women-without-CPPS-presenting-for-routine-examinations_DOWN	NA	Lactobacillus
 bsdb:34268384/2/1_Endometriosis:Women-with-EM-associated-CPPS_vs_Women-without-CPPS-presenting-for-routine-examinations_UP	NA	Alloscardovia	Stenotrophomonas	Veillonella
 bsdb:34268384/2/2_Endometriosis:Women-with-EM-associated-CPPS_vs_Women-without-CPPS-presenting-for-routine-examinations_DOWN	NA	Megasphaera	Shuttleworthella	Sneathia
@@ -5931,6 +5932,10 @@ bsdb:37150399/3/1_Parkinson's-disease:Parkinson’s-disease-patients-(PD)_vs_Hea
 bsdb:37150399/4/1_Parkinson's-disease:Parkinson’s-disease-patients-(PD)_vs_Healthy-older-(HO)_UP	NA	Pseudomonadota
 bsdb:37158877/1/1_COVID-19:RPs-(Recovered-Patients)_vs_HCs-(Healthy-Controls)_UP	NA	Arcobacter	Arcobacteraceae	Diaporthaceae	Diaporthales	Diaporthe	Lactobacillaceae	Paenibacillus	Sordariomycetes	Talaromyces	Thermaceae	Thermus	Weissella	Johnsonella	Oribacterium	Stomatobaculum	Lachnospiraceae	Bulleidia	Veillonella	Veillonellaceae	Fusobacterium	Fusobacteriaceae	Sneathia	Aquamicrobium	Liberibacter	Ochrobactrum	Rhizobiaceae	Vogesella	Chromobacteriaceae	Moraxella
 bsdb:37158877/1/2_COVID-19:RPs-(Recovered-Patients)_vs_HCs-(Healthy-Controls)_DOWN	NA	Candida	Arachnia	Propionibacteriaceae	Alloprevotella	Prevotella	Elizabethkingia	Empedobacter	Vagococcus	Caulobacteraceae	Methylobacterium	Mesorhizobium	Bradyrhizobium	Xanthobacteraceae	Wolbachia	Anaplasmataceae	Candidatus Profftella	Lautropia	Ralstonia	Burkholderiaceae	Aggregatibacter	Vibrio	Vibrionaceae
+bsdb:37179374/1/1_NA:FAT_vs_Control-+-HA_UP	NA	Achromobacter	Rhizobacter	Streptococcus
+bsdb:37179374/1/2_NA:FAT_vs_Control-+-HA_UP	NA	Achromobacter	Rhizobacter	Streptococcus
+bsdb:37179374/2/1_NA:HA_vs_Control-+-FAT_UP	NA	Clostridium	Romboutsia
+bsdb:37179374/3/1_NA:Control_vs_FAT-+-HA_UP	NA	Klebsiella	Enterobacter	Holdemanella biformis
 bsdb:37182146/1/1_Colorectal-adenoma:HRA-(high-risk-adenoma)_vs_Healthy-controls_DOWN	NA	Azospirillum sp. 47_25	Escherichia/Shigella sp.	Pseudomonadota
 bsdb:37182146/1/2_Colorectal-adenoma:HRA-(high-risk-adenoma)_vs_Healthy-controls_UP	NA	Bacillota
 bsdb:37182146/2/1_Colorectal-cancer:CRC-(participants-diagnosed-with-colorectal-cancer)_vs_Healthy-controls_UP	NA	Bacillota	Phascolarctobacterium
