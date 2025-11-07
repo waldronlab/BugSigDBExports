@@ -17,62 +17,43 @@ library(rvest)
 
 ## FUNCTIONS
 
-scrapeLinks <- function(url = "https://bugsigdb.org/Help:Export",
-                        delay = 60)
+downloadFiles <- function(links, delay = 60)
 {
-    destfile <- "bugsigdb_help_export.html"
-    tryCatch(
-        download.file(url, destfile = destfile),
-        error = function(e) {
-            print(e$message)
-            print(gettextf("Retrying in %s seconds", delay))
-            Sys.sleep(delay)
-            download.file(url, destfile = destfile)
-        }
-    )
-    stopifnot(file.exists(destfile))
-    dat <- rvest::read_html(destfile)
-    file.remove(destfile)
-    print(gettextf("Successfully read %s", url))
-    elems <- rvest::html_elements(dat, ".smw-csv-furtherresults")
-    elems <- rvest::html_elements(elems, "a")
-    attr <- rvest::html_attr(elems, "href")
-    names(attr) <- c("stud", "exp", "sig")
-    prefix <- dirname(url)
-    ind <- grepl(prefix, attr)
-    attr[!ind] <- paste0(prefix, attr[!ind]) 
-    return(attr)
-}
-
-readFiles <- function(links, delay = 60)
-{
-    csvs <- list("sig", "exp", "stud")
-    for (csv in csvs) {
+    destfiles <- names(links)
+    for (csv in destfiles) {
         tryCatch({
                 destfile <- paste0(csv, ".csv")
                 download.file(unname(links[csv]),
                               destfile = destfile,
                               method = "curl",
                               extra = "--limit-rate 50K")
+                stopifnot(file.size(destfile) != 0L)
             },
             error = function(e) {
                 print(e$message)
-                print(gettextf("Retrying in %s seconds", delay))
+                print(paste("Trying", links[csv], "again in",
+                            delay, "seconds"))
                 Sys.sleep(delay)
                 download.file(unname(links[csv]), destfile = destfile)
             }
         )
+        destfiles[csv] <- file.path(getwd(), destfile)
     }
-    stopifnot(file.exists(c("sig.csv", "exp.csv", "stud.csv")))
-    studs <- readr::read_csv("stud.csv")
+    return(destfiles)
+}
+
+readFiles <- function(files, delay = 60)
+{
+    stopifnot(file.exists(c(files["stud"], files["sig"], files["exp"])))
+    studs <- readr::read_csv(files["stud"])
     studs <- subset(studs, State == "Complete")
-    exps <- readr::read_csv("exp.csv")
+    exps <- readr::read_csv(files["exp"])
     exps <- subset(exps, State == "Complete")
-    sigs <- readr::read_csv("sig.csv")
+    sigs <- readr::read_csv(files["sig"])
     sigs <- subset(sigs, State == "Complete") 
     # If not GitHub Action with BUGSIGDB_TIMESTAMP
     if (Sys.getenv("BUGSIGDB_TIMESTAMP") != "") {
-        file.remove(c("sig.csv", "exp.csv", "stud.csv"))
+        file.remove(c(files["stud"], files["sig"], files["exp"]))
     }
     print(gettextf("Successfully read csv files"))
 
@@ -166,9 +147,12 @@ header <- paste0("# BugSigDB ", version,
                  ", License: Creative Commons Attribution 4.0 International",
                  ", URL: https://bugsigdb.org\n")
 
-# import 
-links <- scrapeLinks()
-bsdb <- readFiles(links)
+# import
+links <- c(stud = "https://bugsigdb.org/w/images/csv_reports/studies.csv",
+           exp = "https://bugsigdb.org/w/images/csv_reports/experiments.csv",
+           sig = "https://bugsigdb.org/w/images/csv_reports/signatures.csv")
+files <- downloadFiles(links)
+bsdb <- readFiles(files)
 abstr.col <- "Abstract"
 bsdb <- bsdb[,colnames(bsdb) != abstr.col]
 
