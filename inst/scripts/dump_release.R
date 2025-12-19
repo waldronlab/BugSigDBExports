@@ -180,9 +180,8 @@ header <- paste0("# BugSigDB ", version,
 links <- c(stud = "https://bugsigdb.org/w/images/csv_reports/studies.csv",
            exp = "https://bugsigdb.org/w/images/csv_reports/experiments.csv",
            sig = "https://bugsigdb.org/w/images/csv_reports/signatures.csv")
-#files <- downloadFiles(links)
+files <- downloadFiles(links)
 
-files <- c(stud = "stud.csv", sig = "sig.csv", exp = "exp.csv")
 bsdb <- readFiles(files)
 abstr.col <- "Abstract"
 bsdb <- bsdb[,colnames(bsdb) != abstr.col]
