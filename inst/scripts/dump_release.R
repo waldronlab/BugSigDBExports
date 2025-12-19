@@ -11,9 +11,38 @@
 ############################################################
 
 library(bugsigdbr)
+library(countries)
+library(lubridate)
 library(plyr)
+library(dplyr)
 library(readr)
 library(rvest)
+library(stringr)
+
+
+not_na_or_blank <- function(x) 
+    !is.na(x) | x != ""
+
+na_or_pos_int <- function(x)
+    is.na(x) | (is.numeric(x) %% 1 == 0 & x > 0)
+
+between_exclusive <- function(x, lower = 0, upper = 1)
+    as.numeric(x) > lower & as.numeric(x) < upper
+
+between_inclusive <- function(x, lower = 0, upper = 1)
+    as.numeric(x) >= lower & as.numeric(x) <= upper
+
+valid_year <- function(x) {
+    stringr::str_detect(x, "^[0-9]{4,4}$") & 
+        as.numeric(x) >= 1999 & as.numeric(x) <= lubridate::year(Sys.Date())
+}
+
+doi_url <- function(x)
+    stringr::str_detect(x, "^(http)?.*(doi.org){1}")
+
+valid_pmid <- function(x)
+    stringr::str_detect(x, "^[0-9]{8,8}$")
+
 
 ## FUNCTIONS
 
@@ -151,7 +180,9 @@ header <- paste0("# BugSigDB ", version,
 links <- c(stud = "https://bugsigdb.org/w/images/csv_reports/studies.csv",
            exp = "https://bugsigdb.org/w/images/csv_reports/experiments.csv",
            sig = "https://bugsigdb.org/w/images/csv_reports/signatures.csv")
-files <- downloadFiles(links)
+#files <- downloadFiles(links)
+
+files <- c(stud = "stud.csv", sig = "sig.csv", exp = "exp.csv")
 bsdb <- readFiles(files)
 abstr.col <- "Abstract"
 bsdb <- bsdb[,colnames(bsdb) != abstr.col]
@@ -163,10 +194,37 @@ bsdb <- resolveCase(bsdb, ncol = "Body site", icol = "UBERON ID")
 # add BSDB ID
 bsdb <- addID(bsdb)
 
+qc_bsdb <- bsdb |>
+    dplyr::filter(stringr::str_detect(`BSDB ID`, "bsdb:.*/[0-9]+/[0-9]+"),
+                  not_na_or_blank(Study),
+                  not_na_or_blank(`Study design`),
+                  valid_pmid(PMID) | is.na(PMID),
+                  !doi_url(DOI) | is.na(DOI),
+                  valid_year(Year) | is.na(Year),
+                  stringr::str_detect(Experiment, "Experiment [0-9]+"),
+                  countries::is_country(`Location of subjects`),
+                  !is.na(Condition),
+                  not_na_or_blank(`EFO ID`),
+                  not_na_or_blank(`Group 0 name`),
+                  not_na_or_blank(`Group 1 name`),
+                  not_na_or_blank(`Group 1 definition`),
+                  na_or_pos_int(`Group 0 sample size`),
+                  na_or_pos_int(`Group 1 sample size`),
+                  is.na(`Significance threshold`) | 
+                      between_exclusive(`Significance threshold`, 0, 1),
+                  is.na(`LDA Score above`) | between_inclusive(`LDA Score above`, 0, 20),
+                  stringr::str_detect(`Signature page name`, "Signature [0-9]+"),
+                  not_na_or_blank(Source),
+                  # Check if valid date but not format
+                  !is.na(as.Date(`Curated date`, format = "%d %B %Y")),
+                  `Abundance in Group 1` %in% c("increased", "decreased"),
+                  State == "Complete",
+                  !is.na(Reviewer))
+
 # write full dump
 csv.file <- file.path(out.dir, "full_dump.csv")
 cat(header, file = csv.file)
-readr::write_csv(bsdb, file = csv.file, append = TRUE, col_names = TRUE)
+readr::write_csv(qc_bsdb, file = csv.file, append = TRUE, col_names = TRUE)
 
 # helper function to add a header line to an already written GMT file
 addHeader <- function(header, out.file)
