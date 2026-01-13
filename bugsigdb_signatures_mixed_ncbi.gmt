@@ -1,4 +1,4 @@
-# BugSigDB 2026-01-13_06:01_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2026-01-13_08:01_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:11/1/1_NA:HIV-patients-with-lesion-at-12-months_vs_HIV-pateints-with-normal-tissue-at-6-months_DOWN	NA	2702
 bsdb:39/1/1_body-odor-measurement:youth-underarm-after-exercise_vs_youth-underarm-before_UP	NA	1282
 bsdb:39/1/2_body-odor-measurement:youth-underarm-after-exercise_vs_youth-underarm-before_DOWN	NA	265
@@ -443,6 +443,7 @@ bsdb:26230509/3/2_Obesity:high-triglycerides_vs_low-triglycerides_DOWN	NA	816
 bsdb:26230509/5/1_Obesity:high-HDL-C_vs_low-HDL-C_UP	NA	816
 bsdb:26230509/6/1_Obesity:high-senstive-C-reactive-protein_vs_low-sensetive-C-reactive-protein_UP	NA	838
 bsdb:26230509/6/2_Obesity:high-senstive-C-reactive-protein_vs_low-sensetive-C-reactive-protein_DOWN	NA	816	459786
+bsdb:26237371/1/1_Antimicrobial-agent:IAP-group-(@7-days)_vs_Control-group-(@7-days)_DOWN	NA	41200
 bsdb:26238090/1/1_Nutraceutical:PGT-group---colorectal-cancer-patients-perioperative-probiotics_vs_CGT-group---colorectal-cancer-patients-perioperative-placebo_UP	NA	1940338	82115	356	379	81852	1350	28211	171552
 bsdb:26238090/1/2_Nutraceutical:PGT-group---colorectal-cancer-patients-perioperative-probiotics_vs_CGT-group---colorectal-cancer-patients-perioperative-placebo_DOWN	NA	203492	848	1378	539003	1257	653683
 bsdb:26238090/2/1_Nutraceutical:PGT-group---colorectal-cancer-patients-perioperative-probiotics_vs_HGT-Group---Healthy-controls_UP	NA	1940338	379	82115	356	391	81852	1350	28211	171552
@@ -544,6 +545,10 @@ bsdb:26971496/1/1_Antimicrobial-agent:Infants-born-by-mothers-positive-to-GBS-an
 bsdb:26971496/2/1_Antimicrobial-agent:Infants-born-by-mothers-positive-to-GBS-and-received-IAP_vs_infants-born-by-mothers-negative-to-GBS_DOWN	NA	1678
 bsdb:26982745/1/1_Socioeconomic-status:Children-living-in-slum-(Low-SES)_vs_Private-school-children-(High-SES)_UP	NA	562	1730	1239	1591	2173	976
 bsdb:26982745/1/2_Socioeconomic-status:Children-living-in-slum-(Low-SES)_vs_Private-school-children-(High-SES)_DOWN	NA	1496	1502	599
+bsdb:26992426/1/1_Colorectal-cancer:colorectal-cancer-(CRC)_vs_healthy-controls_UP	NA	1654	239759	209879	816	976	1678	39948	1350	1940338	848	1378	117563	186803	86331	459786	543311	1257	33024	286	841	1263	1279	1301	172900	1485	186802	216572	75682	258514	194	1730	404402	836	838	171551
+bsdb:26992426/1/2_Colorectal-cancer:colorectal-cancer-(CRC)_vs_healthy-controls_DOWN	NA	118966	207244	816	572511	580596	33042	39948	189330	128827	216851	204475	61170	570	186803	841	1239	1485	216572
+bsdb:26992426/3/1_NA:Proximal-cancer_vs_Distal-(and-rectal)-cancer_UP	NA	572511	216851	29465	1485	186803
+bsdb:26992426/3/2_NA:Proximal-cancer_vs_Distal-(and-rectal)-cancer_DOWN	NA	2745	22
 bsdb:27001291/1/1_NA:meconium_vs_placenta_UP	NA	186817	1300
 bsdb:27001291/1/2_NA:meconium_vs_placenta_DOWN	NA	543
 bsdb:27001291/2/1_NA:colostrum_vs_placenta_UP	NA	186817	1300
@@ -1547,12 +1552,16 @@ bsdb:30459320/21/1_Obesity:Obese-Ghanaians(GO)-humanized-mice_vs_Lean-Ghanaians-
 bsdb:30459320/21/2_Obesity:Obese-Ghanaians(GO)-humanized-mice_vs_Lean-Ghanaians-(GL)-humanized-mice_DOWN	NA	47678
 bsdb:30459320/22/1_Obesity:Obese-Americans-(UO)_vs_Obese-Ghanaians(GO)_UP	NA	40544
 bsdb:30459320/22/2_Obesity:Obese-Americans-(UO)_vs_Obese-Ghanaians(GO)_DOWN	NA	879970
+bsdb:30459320/23/1_Obesity:Lean-Americans-(UL)-humanized-mice_vs_Lean-Ghanaians(GL)-humanized-mice_UP	NA	85831	186802	1623	823	171550	1263	40544	186803
+bsdb:30459320/23/2_Obesity:Lean-Americans-(UL)-humanized-mice_vs_Lean-Ghanaians(GL)-humanized-mice_DOWN	NA	879970	33038	186802
 bsdb:30459320/24/1_Obesity:Obese-Americans(UO)-humanized-mice_vs_Lean-Ghana-(GL)-humanized-mice_UP	NA	85831	823	375288	171550	40544	186802	186803	1263	1623
 bsdb:30459320/24/2_Obesity:Obese-Americans(UO)-humanized-mice_vs_Lean-Ghana-(GL)-humanized-mice_DOWN	NA	879970
 bsdb:30459320/25/1_Obesity:American-Women-(UL-+-UO)-humanized-mice_vs_Ghana-Women-(GL-+-GO)-humanized-mice_UP	NA	85831	823	40544	186802	186803	1623
 bsdb:30459320/25/2_Obesity:American-Women-(UL-+-UO)-humanized-mice_vs_Ghana-Women-(GL-+-GO)-humanized-mice_DOWN	NA	186802	33038	879970
 bsdb:30459320/26/1_Obesity:Obese-Americans(UO)_vs_Lean-Americans-(UL)_UP	NA	33038	375288	186802
 bsdb:30459320/26/2_Obesity:Obese-Americans(UO)_vs_Lean-Americans-(UL)_DOWN	NA	186802
+bsdb:30459320/27/1_Obesity:Lean-Ghanaians-(GL)-humanized-mice_vs_(Obese-Ghanaians(GO)-+-Obese-Americans(UO)-+-Lean-Americans(UL))-humanized-mice_UP	NA	47678	186802	33038	879970	119852
+bsdb:30459320/27/2_Obesity:Lean-Ghanaians-(GL)-humanized-mice_vs_(Obese-Ghanaians(GO)-+-Obese-Americans(UO)-+-Lean-Americans(UL))-humanized-mice_DOWN	NA	85831	823	375288	171550	40544	186802	186803	1263	1623
 bsdb:30459400/2/1_rheumatoid-arthritis,Osteoarthritis:rheumatoid-arthritis_vs_Osteoarthritis_UP	NA	735	713	416916	76122	848	29465	838	39778	724	729	28449	482
 bsdb:30459400/2/2_rheumatoid-arthritis,Osteoarthritis:rheumatoid-arthritis_vs_Osteoarthritis_DOWN	NA	1301	1654	47670	32207	117563	2047	1263	265975	33038	46123
 bsdb:30463989/1/1_NA:Baseline-HPV+_vs_Baseline-HPV-_UP	NA	31969	544448	2085	2092	2129
@@ -1773,8 +1782,8 @@ bsdb:30778376/13/1_Cerebrovascular-disorder,Stroke:High-Risk-(HR)_vs_Low-Risk-(L
 bsdb:30778376/13/2_Cerebrovascular-disorder,Stroke:High-Risk-(HR)_vs_Low-Risk-(LR)_DOWN	NA	841	186803	216572	216851
 bsdb:30778376/14/1_Cerebrovascular-disorder,Stroke:High-Risk-(HR)_vs_Low-Risk-(LR)_UP	NA	1224	91347	543	1236	31977	1653	1716	906	1300	1301	990721	407	80865	1243	702	207244
 bsdb:30778376/14/2_Cerebrovascular-disorder,Stroke:High-Risk-(HR)_vs_Low-Risk-(LR)_DOWN	NA	216572	216851	74201	48461	239934	203557	203494	1263	841	13687	140625
-bsdb:30778376/15/1_Cerebrovascular-disorder:Medium-Risk-(MR)_vs_Low-Risk-(LR)_UP	NA	31977
-bsdb:30778376/15/2_Cerebrovascular-disorder:Medium-Risk-(MR)_vs_Low-Risk-(LR)_DOWN	NA	841
+bsdb:30778376/15/1_Cerebrovascular-disorder,Stroke:Medium-Risk-(MR)_vs_Low-Risk-(LR)_UP	NA	31977
+bsdb:30778376/15/2_Cerebrovascular-disorder,Stroke:Medium-Risk-(MR)_vs_Low-Risk-(LR)_DOWN	NA	841
 bsdb:30782659/1/1_NA:high-grade-squamous-intraepithelial-lesions_vs_negative-for-intraepithelial-lesion-or-malignancy_UP	NA	351	1279	72274	544448	2085	90964
 bsdb:30782659/1/2_NA:high-grade-squamous-intraepithelial-lesions_vs_negative-for-intraepithelial-lesion-or-malignancy_DOWN	NA	1236	150022
 bsdb:30782659/2/1_NA:high-grade-squamous-intraepithelial-lesions_vs_negative-for-intraepithelial-lesion-or-malignancy_UP	NA	1301	543311	544448	31969	2085
@@ -1915,8 +1924,8 @@ bsdb:31067473/3/1_Phenotype:JAX-CH-group_vs_TAC-CH-group_UP	NA	3030910	2810281	2
 bsdb:31067473/3/2_Phenotype:JAX-CH-group_vs_TAC-CH-group_DOWN	NA	816
 bsdb:31067473/5/1_NA:TAC-CH-group_vs_TAC-group_UP	NA	33042
 bsdb:31067473/5/2_NA:TAC-CH-group_vs_TAC-group_DOWN	NA	31979	189330	186803
-bsdb:31067473/8/1_Phenotype:TAC-CH-group_vs_TAC-group_UP	NA	191303
-bsdb:31067473/8/2_Phenotype:TAC-CH-group_vs_TAC-group_DOWN	NA	1236
+bsdb:31067473/8/1_NA:TAC-CH-group_vs_TAC-group_UP	NA	191303
+bsdb:31067473/8/2_NA:TAC-CH-group_vs_TAC-group_DOWN	NA	1236
 bsdb:31067473/9/1_Phenotype:JAX-CH-group_vs_TAC-CH-group_UP	NA	216572	2810281	203557
 bsdb:31067473/15/1_Phenotype:F1-mJAX-group_vs_F1-mTAC-group_UP	NA	239934
 bsdb:31067473/16/1_NA:P1-JAX-group_vs_P1-TAC-group_UP	NA	239934	1485	2086	1678	469	171550	2005473
@@ -2752,6 +2761,8 @@ bsdb:32719372/11/2_Lifestyle-measurement:High-Amerindian-urbanization-group_vs_C
 bsdb:32719372/13/1_Lifestyle-measurement:Medium-Amerindian-urbanization-group_vs_Low-Amerindian-urbanization-group_DOWN	NA	147802	33033	40543	2130
 bsdb:32719372/14/1_Lifestyle-measurement:Mestizos_vs_Combination-of-Low-and-High-Amerindian-urbanization-group_UP	NA	2052
 bsdb:32719372/14/2_Lifestyle-measurement:Mestizos_vs_Combination-of-Low-and-High-Amerindian-urbanization-group_DOWN	NA	1703	33031
+bsdb:32719372/15/1_Lifestyle-measurement:Mestizos_vs_Medium-Amerindian-urbanization-group_UP	NA	33031	2052
+bsdb:32719372/15/2_Lifestyle-measurement:Mestizos_vs_Medium-Amerindian-urbanization-group_DOWN	NA	1703
 bsdb:32727366/1/1_Primary-ovarian-insufficiency:Primary-ovarian-failure-(POF)_vs_Healthy-controls_UP	NA	838	2701	1678	168808	836	1940338	816	39948	29465	194	162289	165779	1301	31983	586	1716	577310	1485	613	28196	182709	59732	1654	150022	404402	572511	83614	33976	2742	83770	1161127	2745	904	1378	909928	204475	32207	90243	1350	28263	1283313
 bsdb:32727366/1/2_Primary-ovarian-insufficiency:Primary-ovarian-failure-(POF)_vs_Healthy-controls_DOWN	NA	1578	41275	543311	841	528	1380	186803
 bsdb:32728075/1/1_Psoriasis:Chronic-plaque-psoriasis-patients_vs_Non-psoriasis-Controls_UP	NA	572511	186801	186802	216851	1239
@@ -3364,6 +3375,8 @@ bsdb:33921182/2/1_Alzheimer's-disease:Alzheimer's-Disease-(AD)-patients_vs_Contr
 bsdb:33921182/2/2_Alzheimer's-disease:Alzheimer's-Disease-(AD)-patients_vs_Controls_DOWN	NA	171551	203492	75787	206389	868	135615	2717	195950	1283313	848
 bsdb:33924396/2/1_NA:Knee-osteroarthritis-with-vit-D-deficiency_vs_Vitamin-D-deficiency_DOWN	NA	1283313	283168	265975	838
 bsdb:33924396/2/2_NA:Knee-osteroarthritis-with-vit-D-deficiency_vs_Vitamin-D-deficiency_UP	NA	574697	1331051	80865	644652	375288	33024	171551	84107	1898207
+bsdb:33925708/1/1_Endometriosis:Stage-3/4-endometriosis-patients_vs_Surgical-controls_DOWN	NA	201174	1654	2049	2037	31957	1743	32207	31977
+bsdb:33925708/1/2_Endometriosis:Stage-3/4-endometriosis-patients_vs_Surgical-controls_UP	NA	469	212791	135621	72274	286	1301
 bsdb:33949151/1/1_arthritis:Early-Rheumatoid-Arthritis_vs_healthy-control_DOWN	NA	1583331	860	29466	29465	425941	1283313	117563	484	28449	1458253	1303	68892	28037
 bsdb:33949151/1/2_arthritis:Early-Rheumatoid-Arthritis_vs_healthy-control_UP	NA	1304	1343	1305	228604	1301	43675	970	1317	1310
 bsdb:33957990/1/1_NA:Dehydroepiandrosterone-(DHEA)_vs_Phosphate-buffer-saline-(PBS)_DOWN	NA	84992	201174	264995	1485	128827	526525	526524	191303
@@ -3650,6 +3663,8 @@ bsdb:34668745/2/1_Insecticide:Resistant-mosquitoes-(2-to-3-days-old)_vs_Suscepti
 bsdb:34668745/3/1_Insecticide:Control-mosquitoes-(2-to-3-days-old)_vs_Susceptible-+-Resistant-mosquitoes-(2-to-3-days-old)_UP	NA	543	528	400634
 bsdb:34668745/5/1_Insecticide:Susceptible-mosquitoes-(2-to-3-days-old)_vs_Resistant-mosquitoes-(2-to-3-days-old)_UP	NA	40323	528	400634	28211	223184	144183	259957	32207	84992	469	80865	2747	543	1301	1279	1578	150022	1827	1912216	374	212791	13687
 bsdb:34668745/5/2_Insecticide:Susceptible-mosquitoes-(2-to-3-days-old)_vs_Resistant-mosquitoes-(2-to-3-days-old)_DOWN	NA	1386	613	1268	501783	642	91914	59732	1269	469	1940338	724	543	57493	1375
+bsdb:34690948/2/1_Constipation:aft-(post-Fecal-microbiota-transplantation)_vs_bef-(pre-Fecal-microbiota-transplantation)_UP	NA	909930	209879	186801	33042	186802	1407607	33958	577309	33024	46255
+bsdb:34690948/2/2_Constipation:aft-(post-Fecal-microbiota-transplantation)_vs_bef-(pre-Fecal-microbiota-transplantation)_DOWN	NA	52784	1164882	482
 bsdb:34690948/4/1_Bowel-dysfunction:High-CSBM-(Complete-spontaneous-bowel-movement)_vs_Low-CSBM-(Complete-spontaneous-bowel-movement)_UP	NA	1407607	577309	33024	909930	186801	186802
 bsdb:34690948/4/2_Bowel-dysfunction:High-CSBM-(Complete-spontaneous-bowel-movement)_vs_Low-CSBM-(Complete-spontaneous-bowel-movement)_DOWN	NA	1164882
 bsdb:34698096/1/1_Rheumatoid-arthritis:Rheumatoid-Arthritis_vs_Non-Rheumatoid-Arthritis_UP	NA	1301	32207	32067	1304	43675	135080
@@ -3900,6 +3915,8 @@ bsdb:35532243/6/1_Smoking-behavior:Smokers-(Yes)_vs_Ex-smokers-(Ex)_UP	NA	35832	
 bsdb:35532243/6/2_Smoking-behavior:Smokers-(Yes)_vs_Ex-smokers-(Ex)_DOWN	NA	28116	357276	207244	816	186803	216572	577310	544
 bsdb:35547149/2/1_NA:Elective-Cesarean-Section-(ECS)-at-Day-0_vs_Vaginally-Delivered(VD)-at-Day-0_UP	NA	544	546	186801	186802
 bsdb:35547149/2/2_NA:Elective-Cesarean-Section-(ECS)-at-Day-0_vs_Vaginally-Delivered(VD)-at-Day-0_DOWN	NA	2282523	223967
+bsdb:35547149/3/1_Delivery-method:Elective-Cesarean-Section-(ECS)-at-Day-15_vs_Vaginally-Delivered(VD)-at-Day-15_UP	NA	31979	1485	1689	544580	2081702	638619
+bsdb:35547149/3/2_Delivery-method:Elective-Cesarean-Section-(ECS)-at-Day-15_vs_Vaginally-Delivered(VD)-at-Day-15_DOWN	NA	91347	543	1224	1236	561	562	200643	171549	620	28026	630129	622	28113	545	906	1499973	1903410
 bsdb:35547149/4/1_NA:Elective-Cesarean-Section-(ECS)-at-Day-30_vs_Vaginally-Delivered(VD)-at-Day-30_UP	NA	550	571	2027919	1977566	1934254	57706	881260	69220	568987	138072	617123	1164882	1385
 bsdb:35547149/4/2_NA:Elective-Cesarean-Section-(ECS)-at-Day-30_vs_Vaginally-Delivered(VD)-at-Day-30_DOWN	NA	28026	28116	2005525	375288	823	200644	117743	49546	171551	1717	649777	649776	649775	508458	2161821	2702	2701
 bsdb:35547149/5/1_NA:An-experiment-for-group-1-(day-0)-vs.-group-0-(days-15-and-30)_vs_NA_UP	NA	80864	32033	135614	40323	135621	286	2282523
@@ -5166,6 +5183,8 @@ bsdb:37960154/2/1_Response-to-antibiotic:LOP-(loperamide)-group_vs_Combination-o
 bsdb:37960154/3/1_Response-to-antibiotic:RIF-(rifaximin)-group_vs_Combination-of-CTR-(control)-and-LOP-(loperamide)-group_UP	NA	239934	239935	1647988	572511	438033	48461	203494	74201	60681
 bsdb:37960154/5/1_Response-to-antibiotic:RIF-(rifaximin)-group_vs_LOP-(loperamide)-group_UP	NA	239934	239935	264995	214853	572511	374	29448	2810280	580024	1573534	13075	644652	1506553	1235793	1578	1622	732242	702	703	32207	1263	438033	3025755	74201	1522	128827	42322	35518
 bsdb:37960154/5/2_Response-to-antibiotic:RIF-(rifaximin)-group_vs_LOP-(loperamide)-group_DOWN	NA	222	201174	239759	1622071	174708	91061	1678	1694	363464	1331051	990721	626937	1816678	424536	186801	1485	84999	1654931	872	194924	1937008	1432051	290054	33986	360911	1729679	1702221	36862	28050	2039302	216572	577310	1253	1255	2740	1224	1929305	28138	1501226	1115758	1508657	995019	1535	35517	59620	172733
+bsdb:37960281/1/1_NA:Breast-cancer-patients_vs_Healthy-controls_UP	NA	904	1649459	1506577
+bsdb:37960281/1/2_NA:Breast-cancer-patients_vs_Healthy-controls_DOWN	NA	52784	2840511	990719	84999	39948	200644	1501226	3068309	877421	216572	877428
 bsdb:37975314/1/1_NA:patients-with-tuberculosis_vs_patients-with-Non-tuberculosis_UP	NA	180282	46188
 bsdb:37975314/1/2_NA:patients-with-tuberculosis_vs_patients-with-Non-tuberculosis_DOWN	NA	851	28132	190721	1283	223967
 bsdb:37978347/1/1_Colorectal-carcinoma:Colorectal-cancer-(CRC)_vs_Healthy_UP	NA	469	1654	642	416916	239934	419014	156454	92793	1663	374	41275	574697	990721	1716	538	547	1350	33986	1434006	1378	117563	570	1506553	1578	158846	52225	86331	581	133925	375288	543311	1257	1743	113286	48736	160674	1827	196081	970	84108	123375	13687	1301	80864	84999	543	186826
@@ -5614,6 +5633,8 @@ bsdb:38551926/3/1_NA:Stunted-Length-children-from-North-Kodi_vs_Normal-Length-ch
 bsdb:38551926/4/1_Short-stature:Stunted-Length-children_vs_Normal-Length-children_UP	NA	1117	976
 bsdb:38551926/6/1_NA:High-Height_vs_Low-Height_UP	NA	39488	572511	186828	189330	946234	1407607	216572	186804	292632	3025755
 bsdb:38551926/6/2_NA:High-Height_vs_Low-Height_DOWN	NA	39948	216851	1506553	83770	29465
+bsdb:38551926/7/1_Body-mass-index:High-Body-Mass-Index_vs_Low-Body-Mass-Index_UP	NA	1283313	1906119	1392389	1578	1266	83770	135858
+bsdb:38551926/7/2_Body-mass-index:High-Body-Mass-Index_vs_Low-Body-Mass-Index_DOWN	NA	239934	239759	39488	207244	816	1678	572511	186828	189330	39496	946234	1407607	1378	61170	33038	158846	283168	216572	375288	186804	292632
 bsdb:38582855/1/1_Parkinson's-disease:Cognitively-Unimpaired-PD-(PD-NC)_vs_Control-Subjects_UP	NA	244127	1678	1671661	91347	543	1940338	290054	28890	1946507	1649459	2613924	596767	573	2172	357276	1806836
 bsdb:38582855/1/2_Parkinson's-disease:Cognitively-Unimpaired-PD-(PD-NC)_vs_Control-Subjects_DOWN	NA	1239	3085642	186801	31979	1485	186802	186803	1235800	216572	838	1501226	841	3068309
 bsdb:38582855/2/1_NA:Mild-Cognitive-Impairment-PD_vs_Cognitively-Unimpaired-PD-(PD-NC)_UP	NA	186826	1300	1301
@@ -5893,11 +5914,11 @@ bsdb:38968070/16/2_NA:Phenotypes-with-strain-phylogenetic-information_vs_Phenoty
 bsdb:38977240/1/1_NA:Young-Children_vs_Infants_UP	NA	1239
 bsdb:38977240/1/2_NA:Young-Children_vs_Infants_DOWN	NA	201174
 bsdb:38977240/2/2_Environmental-exposure-measurement:Infants-in-households-with-High-free-chlorine-residue-(FCR.)_vs_Infants-in-households-with-undetectable-free-chlorine-residue-(FCR.)_DOWN	NA	1300
-bsdb:38980075/1/1_Mucositis:Peri-implant-mucositis-(PM)_vs_Healthy-Implant-(HI)_UP	NA	292628	292625	292629	1643824	171549	200643	203	200795	186801	84999	84998	213118	213121	893	1986146	39948	39950	186802	44259	143361	1434006	651822	203492	848	851	76123	186803	133925	133926	543311	33033	1570339	186804	171551	836	28124	837	838	52227	28129	589436	28131	28132	282402	28133	171552	181487	28135	136	203692	203691	1311	76860	33040	649777	649776	649775	508458	195950	28112	2005525	1737405	1737404	157	158	58231	138851	53419	69710	2845253	712411	120682
-bsdb:38980075/1/2_Mucositis:Peri-implant-mucositis-(PM)_vs_Healthy-Implant-(HI)_DOWN	NA	119060	724	32257	47670	482	1305	47671	505	267212	495	496	488	729
+bsdb:38980075/1/1_Mucositis:Peri-implant-mucositis-(PM)_vs_Healthy-Implant-(HI)_UP	NA	292628	1889813	292625	292629	1643824	171549	200643	203	200795	186801	84999	84998	213118	213121	893	1986146	39948	39950	186802	44259	143361	1434006	651822	203492	848	851	76123	186803	712991	133925	712411	133926	543311	33033	1570339	186804	171551	836	28124	837	838	52227	28129	589436	28131	28132	282402	28133	171552	181487	28135	136	203692	203691	1311	76860	33040	649777	649776	649775	508458	195950	28112	2005525	1737405	1737404	157	158	58231	138851	53419	1659192	120682	2563662	69710	2845253	76124	543314	28050	2753	2763068	713059	233189
+bsdb:38980075/1/2_Mucositis:Peri-implant-mucositis-(PM)_vs_Healthy-Implant-(HI)_DOWN	NA	119060	724	729	32257	505	47670	47671	482	267212	495	496	488	1305
 bsdb:38980075/2/1_Mucositis:Peri-implant-mucositis-(PM)_vs_Gingivitis_UP	NA	292628	292625	292629	1643824	171549	200643	976	200795	186801	84999	84998	39948	186802	44259	1434006	203492	203491	203490	32066	848	76123	186803	133925	133926	543311	1570339	186804	171551	836	28124	837	838	52227	589436	28132	171552	181487	1843491	909929	970	136	203692	203691	649777	649776	649775	508458	195950	2005525	1737405	1737404	157	2845253	28133	28112	1328	76860	33040	86331	143361	69823	39950	33033	1583098	851	109328	203	158	58231	138851	53419	69710	651822
 bsdb:38980075/3/1_Mucositis:Sulcus-bleeding-index-(SBI)-in-patients-with-Peri-implant-mucositis-(PM)_vs_Sulcus-bleeding-index-(SBI)-in-Healthy-implant-(HI)-patients_UP	NA	838
-bsdb:38980075/3/2_Mucositis:Sulcus-bleeding-index-(SBI)-in-patients-with-Peri-implant-mucositis-(PM)_vs_Sulcus-bleeding-index-(SBI)-in-Healthy-implant-(HI)-patients_DOWN	NA	482	47670	724
+bsdb:38980075/3/2_Mucositis:Sulcus-bleeding-index-(SBI)-in-patients-with-Peri-implant-mucositis-(PM)_vs_Sulcus-bleeding-index-(SBI)-in-Healthy-implant-(HI)-patients_DOWN	NA	724	47670	482
 bsdb:38990031/2/1_Polycystic-ovary-syndrome:Polycystic-ovary-syndrome-group-(PCOS)_vs_Healthy-control-group_UP	NA	201174	84992	1678	31953	85004	186826	418640
 bsdb:38990031/2/2_Polycystic-ovary-syndrome:Polycystic-ovary-syndrome-group-(PCOS)_vs_Healthy-control-group_DOWN	NA	239759	1239	815	171549	816	200643	976	990719	3082768	186801	39948	186802	290054	186803	3085636	216572	171552	171550	841	1263	162156
 bsdb:39020289/1/1_Endometriosis:Endometriosis-Cases_vs_Control_UP	NA	1262690	1262795	1896987	1262819	1897001	1263017	1262901	310514	1505	1262926	2024228	1776391	1262953	5722	1144522	1768113
@@ -6300,8 +6321,8 @@ bsdb:39538341/4/1_NA:T3Social(effect-of-moving-from-single-to-pairwise-living)_v
 bsdb:39538341/4/2_NA:T3Social(effect-of-moving-from-single-to-pairwise-living)_vs_T2Single-(effect-of-moving-from-single-to-pairwise-living)_DOWN	NA	31979
 bsdb:39549509/1/1_Pulmonary-tuberculosis:Pulmonary-tuberculosis-patients_vs_Healthy-controls_UP	NA	128827	526525	526524	171552	2049047	153152
 bsdb:39549509/1/2_Pulmonary-tuberculosis:Pulmonary-tuberculosis-patients_vs_Healthy-controls_DOWN	NA	186803	841	28050	39948	301302	512314	31979	1485	74426	165188	906	59620
-bsdb:39569373/1/1_NA:Preterm-birth-Trimester-one-(PTB-T1)_vs_Term-birth-Trimester-one-(TB-T1)_UP	NA	147802	306	82135	28128	40543
-bsdb:39569373/1/2_NA:Preterm-birth-Trimester-one-(PTB-T1)_vs_Term-birth-Trimester-one-(TB-T1)_DOWN	NA	47770	33959
+bsdb:39569373/1/1_Spontaneous-preterm-birth:Preterm-birth-Trimester-one-(PTB-T1)_vs_Term-birth-Trimester-one-(TB-T1)_UP	NA	147802	306	82135	28128	40543
+bsdb:39569373/1/2_Spontaneous-preterm-birth:Preterm-birth-Trimester-one-(PTB-T1)_vs_Term-birth-Trimester-one-(TB-T1)_DOWN	NA	47770	33959
 bsdb:39569373/2/1_NA:Preterm-birth-Trimester-one-(PTB-T1)_vs_Term-birth-Trimester-one-(TB-T1)_UP	NA	147802
 bsdb:39569373/2/2_NA:Preterm-birth-Trimester-one-(PTB-T1)_vs_Term-birth-Trimester-one-(TB-T1)_DOWN	NA	47770
 bsdb:39572530/1/1_Schizophrenia:Schizophrenia-patients-(SZ)_vs_Healthy-controls-(Con)_UP	NA	1131492	5052	5204	34372	33196	4970	1905116	34371	5120	5042	147545	29832	5178	147548	55193	742845	162474	1538075	40463	103393	97971	1898439	92860	452342	4930	4893	34365	28983	5552	1759442	1851469
@@ -6969,8 +6990,8 @@ bsdb:40629292/5/1_Stress-related-disorder:high-stress_vs_low-stress_DOWN	NA	1262
 bsdb:40629292/5/2_Stress-related-disorder:high-stress_vs_low-stress_UP	NA	1686
 bsdb:40629292/6/1_Stress-related-disorder:low-stress_vs_medium-stress-+-high-stress_UP	NA	1283313	872	194924	213115	3031449	186802	216851	186803	877420	200940	512296
 bsdb:40629292/7/1_Stress-related-disorder:medium-stress_vs_low-stress-+-high-stress_UP	NA	904	239934	1647988	328814	815	171549	816	817	28116	200643	976	1099853	424712	1686313	1505657	1864757	2005473	1852385	216572	171551	836	1263	995019	48461	203494	74201	165186
-bsdb:40629292/8/1_NA:medium-stress_vs_low-stress_DOWN	NA	216851	1263	200940	200795	186803
-bsdb:40629292/8/2_NA:medium-stress_vs_low-stress_UP	NA	976	74201	816	239934
+bsdb:40629292/8/1_Stress-related-disorder:medium-stress_vs_low-stress_DOWN	NA	216851	1263	200940	200795	186803
+bsdb:40629292/8/2_Stress-related-disorder:medium-stress_vs_low-stress_UP	NA	976	74201	816	239934
 bsdb:40629292/9/1_Stress-related-disorder:high-stress_vs_medium-stress_DOWN	NA	239934	816	976	1263	74201	216851	186803	200940
 bsdb:40629292/9/2_Stress-related-disorder:high-stress_vs_medium-stress_UP	NA	200795
 bsdb:40708214/1/1_Urinary-retention:Week-6-(reusable-catheter---reusable-group)_vs_Week-0-(single-use-catheter---reusable-group)_UP	NA	29465	150022
@@ -6981,6 +7002,10 @@ bsdb:40751224/1/1_Pregnancy:Pregnant-Ewe-Global-model-(All)-herds_vs_Non-pregnan
 bsdb:40751224/2/1_Pregnancy:Pregnant-Ewe-Manchega-RN-(MRN)-herds_vs_Non-pregnant-Ewe-Manchega-RN-(MRN)-herds_DOWN	NA	848
 bsdb:40751224/3/1_Pregnancy:Pregnant-Ewe-Manchega-VL-(MVL)-herds_vs_Non-pregnant-Ewe-Manchega-VL-(MVL)-herds_DOWN	NA	1654	2767358	544448
 bsdb:40751224/4/1_NA:Pregnant-Ewe-Rasa-Aragonesa-(R)-herds_vs_Non-pregnant-Ewe-Rasa-Aragonesa-(R)-herds_DOWN	NA	32066	214906	816	34104	1069494	1792239
+bsdb:40753175/1/1_Lifestyle-measurement:Indian-cohort_vs_Euro-Canadians-+-Euro-Immigrants-+-Indo-Canadians-+-Indo-Immigrants_UP	NA	904	171549	91347	543	561	906	52225	909656	1843491	909929	31977	1843489	2582419	562	187327	1285585	310297
+bsdb:40753175/4/1_NA:Euro-Canadians_vs_Indian-+-Indo-Immigrants-+-Indo-Canadians-+-Euro-Immigrants_UP	NA	239759	815	816	31979	1485	186802	216851	216572	1898203	871665	821	2293011
+bsdb:40753175/5/1_NA:Euro-Immigrants_vs_Indian-+-Indo-Immigrants-+-Indo-Canadians-+-Euro-Canadians_UP	NA	33042	1407607	2719231	186801	186803	40520	2044939	1150298	29354
+bsdb:40753175/14/1_NA:Euro-Canadian_vs_Indian-+-Indo-Immigrant-+-Indo-Canadian-+-Euro-Immigrant_UP	NA	216851	2005473	2518497	186802	216572
 bsdb:40766067/1/1_NA:IBS-D_vs_non-IBS-controls_DOWN	NA	216851
 bsdb:40766067/1/2_NA:IBS-D_vs_non-IBS-controls_UP	NA	33042
 bsdb:40766067/1/3_NA:IBS-D_vs_non-IBS-controls_DOWN	NA	1578	1263
@@ -7085,7 +7110,7 @@ bsdb:40827923/8/1_Benign-prostatic-hyperplasia,Periodontitis:Periodontitis-combi
 bsdb:40827923/8/2_Benign-prostatic-hyperplasia,Periodontitis:Periodontitis-combined-with-Benign-prostatic-hyperplasia-(P-BPH)-group_vs_Benign-prostatic-hyperplasia-(BPH)-group_DOWN	NA	47885
 bsdb:40827923/9/1_Benign-prostatic-hyperplasia,Periodontitis:Periodontitis-combined-with-Benign-prostatic-hyperplasia-(P-BPH)-group_vs_Benign-prostatic-hyperplasia-(BPH)-and-Healthy-group_UP	NA	194	2762557	72294	213849	29547	28221	213118	213121	893	1909699	44259	143361	1434006	651822	31969	544448	186804	171551	836	837	136	203692	203691	649777	649776	649775	508458	28112	157	158	58231	2845253	3031852
 bsdb:40827923/10/1_Benign-prostatic-hyperplasia:Benign-prostatic-hyperplasia-(BPH)-group_vs_Periodontitis-combined-with-Benign-prostatic-hyperplasia-(P-BPH)-and-Healthy-group_UP	NA	1016	45242	49546
-bsdb:40827923/11/1_Periodontitis:Healthy-group_vs_Periodontitis-combined-with-Benign-prostatic-hyperplasia-(P-BPH)-and-Benign-prostatic-hyperplasia-(BPH)-group_UP	NA	186818	240411	240412	1499392	335929	204457	13687	93064	2820280	160795	118246	57739	2592656
+bsdb:40827923/11/1_Periodontitis,Benign-prostatic-hyperplasia:Healthy-group_vs_Periodontitis-combined-with-Benign-prostatic-hyperplasia-(P-BPH)-and-Benign-prostatic-hyperplasia-(BPH)-group_UP	NA	186818	240411	240412	1499392	335929	204457	13687	93064	2820280	160795	118246	57739	2592656
 bsdb:40849619/1/1_NA:Malignant-mass_vs_Benign-mass_UP	NA	40520	39486	861	248744	875803	529385	765821	1763549
 bsdb:40849619/1/2_NA:Malignant-mass_vs_Benign-mass_DOWN	NA	286138
 bsdb:40849619/2/1_Lung-carcinoma:Malignant-mass_vs_Benign-mass_UP	NA	2301481
@@ -7181,8 +7206,8 @@ bsdb:40981487/2/1_NA:High-Alcohol-Consumption_vs_Low-Alcohol-Consumption_UP	NA	8
 bsdb:40981487/2/2_NA:High-Alcohol-Consumption_vs_Low-Alcohol-Consumption_DOWN	NA	1678	39496	39497	1301	292632
 bsdb:40981487/3/1_NA:High-Body-mass-index_vs_Low-Body-mass-index_UP	NA	209879	158846	1766253	102106	46255
 bsdb:40981487/3/2_NA:High-Body-mass-index_vs_Low-Body-mass-index_DOWN	NA	239759	816	574697	946234	724	1649459	33038	283168	459786	375288	838	3025755	191303
-bsdb:40981487/4/1_NA:High-Cigarette-consumption_vs_Low-Cigarette-consumption_UP	NA	1654	35832	33038
-bsdb:40981487/4/2_NA:High-Cigarette-consumption_vs_Low-Cigarette-consumption_DOWN	NA	724
+bsdb:40981487/4/1_Smoking-status-measurement:High-Cigarette-consumption_vs_Low-Cigarette-consumption_UP	NA	1654	35832	33038
+bsdb:40981487/4/2_Smoking-status-measurement:High-Cigarette-consumption_vs_Low-Cigarette-consumption_DOWN	NA	724
 bsdb:40981487/5/1_NA:High-Alcohol-Consumption-(Japanese-cohort)_vs_Low-Alcohol-Consumption-(Japanese-cohort)_UP	NA	209879	158846	906	2847314	848	1928820
 bsdb:40981487/5/2_NA:High-Alcohol-Consumption-(Japanese-cohort)_vs_Low-Alcohol-Consumption-(Japanese-cohort)_DOWN	NA	39948	216851	1678
 bsdb:40981487/6/1_NA:High-Body-mass-index-(Japanese-cohort)_vs_Low-Body-mass-index-(Japanese-cohort)_UP	NA	904	209879	848	1485	117563
