@@ -1,4 +1,4 @@
-# BugSigDB 2026-01-13_17:05_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2026-01-13_18:02_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:11/1/1_NA:HIV-patients-with-lesion-at-12-months_vs_HIV-pateints-with-normal-tissue-at-6-months_DOWN	NA	2702
 bsdb:39/1/1_body-odor-measurement:youth-underarm-after-exercise_vs_youth-underarm-before_UP	NA	1282
 bsdb:39/1/2_body-odor-measurement:youth-underarm-after-exercise_vs_youth-underarm-before_DOWN	NA	265
@@ -208,6 +208,7 @@ bsdb:23613868/1/1_NA:periodontitis_vs_No-Periodontitis-within-negative-diabetic-
 bsdb:23613868/1/2_NA:periodontitis_vs_No-Periodontitis-within-negative-diabetic-background-only_DOWN	NA	416916	1019	2718	194702	43768	840	32067	1129771	484	1924944	31957	135083
 bsdb:23613868/2/1_NA:Diabetic_vs_Non-diabetic-within-negative-periodontitis_UP	NA	2037	80840	206351	28112
 bsdb:23613868/2/2_NA:Diabetic_vs_Non-diabetic-within-negative-periodontitis_DOWN	NA	1018	194702	43768	840	484
+bsdb:23613868/3/1_Type-II-diabetes-mellitus:Diabetic_vs_Non-diabetic-within-positive-periodontitis_UP	NA	1019	31957
 bsdb:23613868/4/1_Periodontitis:periodontitis_vs_No-Periodontitis-within-positive-diabetic-background-only_UP	NA	171549	143361	32067	28124	837	649777	28112	58231
 bsdb:23613868/4/2_Periodontitis:periodontitis_vs_No-Periodontitis-within-positive-diabetic-background-only_DOWN	NA	729	482	495	2047	29465
 bsdb:23613868/5/1_NA:periodontitis_vs_No-Periodontitis-within-both-positive-and-negative-diabetic-background_UP	NA	28131	171552	158
@@ -1195,7 +1196,7 @@ bsdb:29520144/2/2_unipolar-depression:depressed-male_vs_Healthy-Controls_DOWN	NA
 bsdb:29525681/1/1_Henoch-Schoenlein-purpura:Henoch-Schönlein-Purpura_vs_controls_UP	NA	29465	203490	32066	203491	1350	81852	31977	158846	171551	375288
 bsdb:29525681/1/2_Henoch-Schoenlein-purpura:Henoch-Schönlein-Purpura_vs_controls_DOWN	NA	506	28216	80840	990719	186801	39948	186802	1239	724	570	28050	39485	186803	577310	712	135625	841	1508657	1263	1300	1301	39491
 bsdb:29538354/1/1_cesarean-section:C-section_vs_vaginal-delivery_DOWN	NA	1279
-bsdb:29538354/2/1_NA:Antimicrobials-use-during-delivery-(yes)_vs_Antimicrobials-use-during-delivery-(no)_UP	NA	1678
+bsdb:29538354/2/1_cesarean-section:Antimicrobials-use-during-delivery-(yes)_vs_Antimicrobials-use-during-delivery-(no)_UP	NA	1678
 bsdb:29538354/3/1_cesarean-section:Maternal-consumption-of-probiotics-(YES)_vs_Maternal-consumption-of-probiotics-(NO)_UP	NA	1578
 bsdb:29538354/4/1_cesarean-section:Furry-pets-at-home-(YES)_vs_Furry-pets-at-home-(NO)_UP	NA	976	216851
 bsdb:29538354/4/2_cesarean-section:Furry-pets-at-home-(YES)_vs_Furry-pets-at-home-(NO)_DOWN	NA	1239	1279
@@ -2759,10 +2760,12 @@ bsdb:32544691/7/1_air-pollution:ICR-female-mice-exposed-to-PM-2.5_vs_mice-dams-e
 bsdb:32544691/7/2_air-pollution:ICR-female-mice-exposed-to-PM-2.5_vs_mice-dams-exposed-to-filtered-blanks-PND-35_DOWN	NA	186804	1485
 bsdb:32552447/1/1_NA:Mycobacterium-tuberculosis-(MTB+)_vs_Mycobacterium-tuberculosis-(MTB−)_UP	NA	1773
 bsdb:32552447/1/2_NA:Mycobacterium-tuberculosis-(MTB+)_vs_Mycobacterium-tuberculosis-(MTB−)_DOWN	NA	1301	838	482	970	1678
+bsdb:32557853/1/1_Parkinson's-disease:Parkinson's-disease-patients_vs_Healthy-controls_UP	NA	239934	1647988	239759	543314	990719	459786	171550	216572
+bsdb:32557853/1/2_Parkinson's-disease:Parkinson's-disease-patients_vs_Healthy-controls_DOWN	NA	28050	1766253	1407607	580596	216851	841	572511	186803
 bsdb:32565704/1/1_Rheumatoid-arthritis:rheumatoid-arthritis-patients_vs_healthy-controls_UP	NA	200643	137	136	203692	157	836	838
 bsdb:32565704/1/2_Rheumatoid-arthritis:rheumatoid-arthritis-patients_vs_healthy-controls_DOWN	NA	1301	195950
-bsdb:32565704/2/1_NA:periodontal-disease-patients_vs_rheumatoid-arthritis-patients_UP	NA	1301
-bsdb:32565704/2/2_NA:periodontal-disease-patients_vs_rheumatoid-arthritis-patients_DOWN	NA	838	157	195950	836
+bsdb:32565704/2/1_Periodontitis:periodontal-disease-patients_vs_rheumatoid-arthritis-patients_UP	NA	1301
+bsdb:32565704/2/2_Periodontitis:periodontal-disease-patients_vs_rheumatoid-arthritis-patients_DOWN	NA	838	157	195950	836
 bsdb:32566740/1/1_Parkinson's-disease:Participants-with-Parkinson's-Disease_vs_Healthy-controls-free-of-neurological-disease_UP	NA	1678	1716	1578	836	838
 bsdb:32566740/1/2_Parkinson's-disease:Participants-with-Parkinson's-Disease_vs_Healthy-controls-free-of-neurological-disease_DOWN	NA	1766253	572511	580596	216851	1407607	28050	186803	119852	841
 bsdb:32566740/2/1_Parkinson's-disease:Participants-with-Parkinson's-Disease_vs_Healthy-control-free-of-neurological-disease._UP	NA	836	838	1716	572511	186803	1678	1578
@@ -3123,8 +3126,8 @@ bsdb:33194786/17/1_NA:Upper-Tertile-(high-disposition-index)_vs_Lower-Tertile-(l
 bsdb:33194786/17/2_NA:Upper-Tertile-(high-disposition-index)_vs_Lower-Tertile-(low-disposition-index)_DOWN	NA	239759	816	572511	189330	1940338	253238	216851	142587	1501226	841	191303
 bsdb:33194786/18/1_Fasting-blood-glucose-measurement:Upper-Tertile-(high-fasting-plasma-glucose)_vs_Lower-Tertile-(low-fasting-plasma-glucose)_UP	NA	239759	216851	1578	1301
 bsdb:33194786/18/2_Fasting-blood-glucose-measurement:Upper-Tertile-(high-fasting-plasma-glucose)_vs_Lower-Tertile-(low-fasting-plasma-glucose)_DOWN	NA	1654	207244	244127	1678	102106	33042	1350	906	577309	838	40544
-bsdb:33194786/19/1_NA:Upper-Tertile-(high-stimulated-2-h-plasma-glucose-level)_vs_Lower-Tertile-(low-stimulated-2-h-plasma-glucose-level)_UP	NA	239759	1350	836
-bsdb:33194786/19/2_NA:Upper-Tertile-(high-stimulated-2-h-plasma-glucose-level)_vs_Lower-Tertile-(low-stimulated-2-h-plasma-glucose-level)_DOWN	NA	1485	841	29465
+bsdb:33194786/19/1_Glucose-measurement:Upper-Tertile-(high-stimulated-2-h-plasma-glucose-level)_vs_Lower-Tertile-(low-stimulated-2-h-plasma-glucose-level)_UP	NA	239759	1350	836
+bsdb:33194786/19/2_Glucose-measurement:Upper-Tertile-(high-stimulated-2-h-plasma-glucose-level)_vs_Lower-Tertile-(low-stimulated-2-h-plasma-glucose-level)_DOWN	NA	1485	841	29465
 bsdb:33194786/20/1_Insulin-sensitivity-measurement:Upper-Tertile-(high-insulin-sensitivity-index)_vs_Lower-Tertile-(low-insulin-sensitivity-index)_UP	NA	724	577309	838	1301	29465
 bsdb:33194786/20/2_Insulin-sensitivity-measurement:Upper-Tertile-(high-insulin-sensitivity-index)_vs_Lower-Tertile-(low-insulin-sensitivity-index)_DOWN	NA	1485	1350	1940338	253238	570	29465
 bsdb:33194786/21/1_Disposition-index-measurement:Upper-Tertile-(high-disposition-index)_vs_Lower-Tertile-(low-disposition-index)_UP	NA	816	1301	29465
@@ -3339,6 +3342,8 @@ bsdb:33658065/5/1_Type-II-diabetes-mellitus:Prediabetes-(PD)---Indian-Cohort_vs_
 bsdb:33658065/5/2_Type-II-diabetes-mellitus:Prediabetes-(PD)---Indian-Cohort_vs_Normoglycemic-(NG)-controls---Indian-Cohort_DOWN	NA	216851	1283313	1766253	2005473
 bsdb:33658065/6/1_Type-II-diabetes-mellitus:Prediabetes-(PD)---Indian-Cohort_vs_Normoglycemic-(NG)-controls---Indian-Cohort_UP	NA	841	1766253	572511	292632	1150298	39486	88431	871665	248744	102106	84108	301302	74426	1263	186803	1623	1110546	1584	29466	418240	626940	39777	39778	1283313	29465	257820
 bsdb:33658065/6/2_Type-II-diabetes-mellitus:Prediabetes-(PD)---Indian-Cohort_vs_Normoglycemic-(NG)-controls---Indian-Cohort_DOWN	NA	1766253	1283313	1559	216851	3068309
+bsdb:33658065/7/1_Type-II-diabetes-mellitus:Prediabetes-(PD)---Indian-&-Danish-Cohorts_vs_Normoglycemic-(NG)-controls---Indian-&-Danish-Cohorts_UP	NA	222	201174	572511	119060	1432051	74152	543	81852	1350	32066	1505657	570	1506553	1578	1980693	85025	745	1224	1827	1300	1301	29465	662	641	1940338
+bsdb:33658065/7/2_Type-II-diabetes-mellitus:Prediabetes-(PD)---Indian-&-Danish-Cohorts_vs_Normoglycemic-(NG)-controls---Indian-&-Danish-Cohorts_DOWN	NA	1239	976	544448	74201	1117	203691	256845	508458
 bsdb:33659220/1/1_NA:COVID-19-positive-patients_vs_COVID-19-negative-controls_DOWN	NA	203492	203491	32066	848	1236	724	32067	1129771	712	135625
 bsdb:33660232/2/1_NA:Endometriosis-patients_vs_Healthy-controls-taken-from-a-larger-cohort-study_DOWN	NA	171549
 bsdb:33660232/2/2_NA:Endometriosis-patients_vs_Healthy-controls-taken-from-a-larger-cohort-study_UP	NA	28050	119852
@@ -5351,6 +5356,8 @@ bsdb:37936242/3/1_Response-to-surgery:Young+Surgery_vs_Young,-Aged+surgery-and-A
 bsdb:37936242/4/1_Response-to-surgery:Aged+surgery_vs_Young+Surgery,-Young-and-Aged_UP	NA	1236	1357	1300
 bsdb:37936242/5/1_Response-to-surgery:Young+surgery-mice_vs_Young-mice_DOWN	NA	239934
 bsdb:37936242/6/1_Response-to-surgery:Aged+surgery-mice_vs_Aged-mice_UP	NA	816
+bsdb:37936242/7/1_Response-to-transplant:Aged+surgery+agedFecal-Microbiota-Transplantation-mice_vs_Aged+surgery+youngFecal-Microbiota-Transplantation-mice_UP	NA	1117	107058	3031852	209265	213849	72293	209
+bsdb:37936242/7/2_Response-to-transplant:Aged+surgery+agedFecal-Microbiota-Transplantation-mice_vs_Aged+surgery+youngFecal-Microbiota-Transplantation-mice_DOWN	NA	239934	79328	563835	186804	1936988	1937959	203557	48461	203494	74201
 bsdb:37936242/8/1_Response-to-surgery:Young_vs_Aged,-Young+surgery-before,-Young+surgery-after,-Aged+surgery-before-and-Aged+surgery-after_UP	NA	577309	838	171552	35493	1890426	1890424	1129
 bsdb:37936242/9/1_Response-to-surgery:Aged_vs_Young,-Young+surgery-before,-Young+surgery-after,-Aged+surgery-before-and-Aged+surgery-after_UP	NA	2037	186827	507	186817	1385	31953	85004	1678	35832	1653	1716	66831	227979	1268	497	1569	90964	1279	225447	84992
 bsdb:37936242/10/1_Exploratory-behavior:Young+surgery-before_vs_Aged,-Young,-Young+surgery-after,-Aged+surgery-before-and-Aged+surgery-after_UP	NA	171549	200643	976	2005473	838	423432
@@ -5586,6 +5593,7 @@ bsdb:38243297/4/1_Abnormality-of-the-cardiovascular-system:Women-with-coronary-h
 bsdb:38243297/4/2_Abnormality-of-the-cardiovascular-system:Women-with-coronary-heart-disease-(CHD)_vs_Women-without-cardiovascular-disease_DOWN	NA	171549	200643	976	572511	80840	574697	526525	1573805	283168	577310	3082720	1263	995019	1737405	39492
 bsdb:38245675/1/1_Menopause:Postmenopausal-women-group_vs_Premenopausal-women-group_UP	NA	1283313	724	425941	482	28132
 bsdb:38245675/1/2_Menopause:Postmenopausal-women-group_vs_Premenopausal-women-group_DOWN	NA	482
+bsdb:38245675/3/1_Viral-load:High-SARS-CoV-2-viral-load-group_vs_Moderate-SARS-CoV-2-viral-load-group_UP	NA	1283313	724	425941	32067	482	28124	28132	152509
 bsdb:38262927/1/1_NA:female_vs_male_UP	NA	216572
 bsdb:38262927/1/2_NA:female_vs_male_DOWN	NA	168470	432330
 bsdb:38262927/2/1_Infectious-meningitis:NH:-infected-individuals_vs_H:-uninfected-individuals_UP	NA	375288
@@ -5711,7 +5719,7 @@ bsdb:38384431/5/2_Diet-measurement:HPect-(HF-intake-group)_vs_Base-(HF-intake-gr
 bsdb:38384431/6/1_Diet-measurement:LPect-(HF-intake-group)_vs_Base-(HF-intake-group)_UP	NA	35832	459786	577309
 bsdb:38384431/6/2_Diet-measurement:LPect-(HF-intake-group)_vs_Base-(HF-intake-group)_DOWN	NA	1766253	39496	1263
 bsdb:38384431/7/1_Diet-measurement:HPect-(Group-2)_vs_WO-LPect-(Wash-out-low-pectin-smoothie)-(Group-2)_DOWN	NA	33042	33039
-bsdb:38384431/10/1_NA:WO-HPect-(Group-1)_vs_HPect-(Group-1)_DOWN	NA	28050
+bsdb:38384431/10/1_Diet-measurement:WO-HPect-(Group-1)_vs_HPect-(Group-1)_DOWN	NA	28050
 bsdb:38385646/1/1_Lung-transplantation:Lung-transplant-event-free-group-(EF)_vs_No-lung-transplant-group-(NT)_UP	NA	91061	1386	31979	91347	543	81852	1350	186802	570	33958	186826	33038	1263	1300	1301	3025755	2810280
 bsdb:38385646/1/2_Lung-transplantation:Lung-transplant-event-free-group-(EF)_vs_No-lung-transplant-group-(NT)_DOWN	NA	1766253	815	171549	816	200643	976	2383	186802	216851	203492	203491	203490	32066	363265	909932	216572	310298	357276	310297	838	171552
 bsdb:38385646/2/1_Lung-transplantation:Lung-transplant-chronic-rejection-group-(CR)_vs_No-lung-transplant-group-(NT)_UP	NA	91061	1386	81852	1350	2759736	186826	1301	1300	543	33958
@@ -6213,8 +6221,8 @@ bsdb:39217395/4/1_NA:Obese-Polycystic-Ovary-Syndrome-patients-(FDA)-after-inulin
 bsdb:39217395/4/2_NA:Obese-Polycystic-Ovary-Syndrome-patients-(FDA)-after-inulin-intervention_vs_Obese-control-group-(NFD)_DOWN	NA	909930	246787	990719	906	3062497	33039	28111
 bsdb:39223134/1/1_Diarrheal-disease:Diarrhea_vs_healthy-controls_UP	NA	1884818	729	1623	39778	194	543	1301
 bsdb:39223134/1/2_Diarrheal-disease:Diarrhea_vs_healthy-controls_DOWN	NA	817	487173	853	745368	1623	165179	83771	84107	186803	1578	52225	171552
-bsdb:39223134/2/1_Diarrheal-disease:Acute-Diarrhea_vs_Healthy-Controls_UP	NA	1884818	729	39778	1678	194	1301	1623
-bsdb:39223134/2/2_Diarrheal-disease:Acute-Diarrhea_vs_Healthy-Controls_DOWN	NA	817	487173	853	745368	165179	83771	84107	186803	1578	52225
+bsdb:39223134/2/1_Diarrhea:Acute-Diarrhea_vs_Healthy-Controls_UP	NA	1884818	729	39778	1678	194	1301	1623
+bsdb:39223134/2/2_Diarrhea:Acute-Diarrhea_vs_Healthy-Controls_DOWN	NA	817	487173	853	745368	165179	83771	84107	186803	1578	52225
 bsdb:39223134/3/1_Diarrheal-disease:Prolonged-or-Persistent-Diarrhea_vs_Healthy-Controls_UP	NA	1884818	97478	39778	194	1301	33038
 bsdb:39223134/3/2_Diarrheal-disease:Prolonged-or-Persistent-Diarrhea_vs_Healthy-Controls_DOWN	NA	649756	817	487173	853	745368	363265	360807	816	84107	52225	1485
 bsdb:39223134/4/1_Diarrheal-disease:Prolonged-or-Persistent-Diarrhea_vs_Acute-Diarrhea_UP	NA	1578
@@ -6282,8 +6290,8 @@ bsdb:39237540/15/1_Aging:All-cohorts-(Increased-age-group)_vs_All-Cohorts-(Decre
 bsdb:39237540/15/2_Aging:All-cohorts-(Increased-age-group)_vs_All-Cohorts-(Decreasing-age-group)_DOWN	NA	39496	658081	658089	40518	40519	457412	46228	33039	40520	360807	166486	301301	487175	437897	158846	853	39488	39485	39491	88431	39486	116085	410072	35832	28026
 bsdb:39237540/16/1_Aging:SG90+CPE-(Increased-age-group)_vs_SG90+CPE-(Decreasing-age-group)_UP	NA	626932	328814	371601	46503	357276	239759
 bsdb:39237540/16/2_Aging:SG90+CPE-(Increased-age-group)_vs_SG90+CPE-(Decreasing-age-group)_DOWN	NA	39491	39488	371601	28026	40520	410072	39486	88431	853	33038	360807	40518	35832	84111	158846
-bsdb:39237540/17/1_NA:SG90+CPE-(Increased-age-group)_vs_SG90+CPE-(Decreasing-age-group)_UP	NA	371601	46503	328814	626932	239759	357276
-bsdb:39237540/17/2_NA:SG90+CPE-(Increased-age-group)_vs_SG90+CPE-(Decreasing-age-group)_DOWN	NA	39491	39488	371601	28026	40520	410072	39486	88431	853	360807	40518	35832	84111	158846	33038
+bsdb:39237540/17/1_Aging:SG90+CPE-(Increased-age-group)_vs_SG90+CPE-(Decreasing-age-group)_UP	NA	371601	46503	328814	626932	239759	357276
+bsdb:39237540/17/2_Aging:SG90+CPE-(Increased-age-group)_vs_SG90+CPE-(Decreasing-age-group)_DOWN	NA	39491	39488	371601	28026	40520	410072	39486	88431	853	360807	40518	35832	84111	158846	33038
 bsdb:39237540/18/1_Aging:SG90+CPE-(Increased-age-group)_vs_SG90+CPE-(Decreasing-age-group)_UP	NA	35832	573	371601	2585118	239759	328814	1288121	328813	626932
 bsdb:39237540/18/2_Aging:SG90+CPE-(Increased-age-group)_vs_SG90+CPE-(Decreasing-age-group)_DOWN	NA	33039	40520	33038	39488	84111	39486	88431	28026	35832
 bsdb:39237540/19/1_Aging:SG90+CPE-(Increased-age-group)_vs_SG90+CPE-(Decreasing-age-group)_UP	NA	626932	328814	239759	371601	357276	46503
@@ -6554,6 +6562,7 @@ bsdb:39538341/1/1_Diet:Controlled-diet-(T2-single)_vs_Uncontrolled-diet-(T1-sing
 bsdb:39538341/1/2_Diet:Controlled-diet-(T2-single)_vs_Uncontrolled-diet-(T1-single)_DOWN	NA	31977	171552	33958	838	2742598	1578	1407607	216851	33042	1485	572511	2569097	1766253	2048137	265975
 bsdb:39538341/4/1_NA:T3Social(effect-of-moving-from-single-to-pairwise-living)_vs_T2Single-(effect-of-moving-from-single-to-pairwise-living)_UP	NA	33958
 bsdb:39538341/4/2_NA:T3Social(effect-of-moving-from-single-to-pairwise-living)_vs_T2Single-(effect-of-moving-from-single-to-pairwise-living)_DOWN	NA	31979
+bsdb:39538341/5/1_Social-interaction-measurement:T4Social(effect-of-moving-from-single-to-pairwise-living)_vs_T2Single-(effect-of-moving-from-single-to-pairwise-living)_UP	NA	33958
 bsdb:39549509/1/1_Pulmonary-tuberculosis:Pulmonary-tuberculosis-patients_vs_Healthy-controls_UP	NA	128827	526525	526524	171552	2049047	153152
 bsdb:39549509/1/2_Pulmonary-tuberculosis:Pulmonary-tuberculosis-patients_vs_Healthy-controls_DOWN	NA	186803	841	28050	39948	301302	512314	31979	1485	74426	165188	906	59620
 bsdb:39569373/1/1_Spontaneous-preterm-birth:Preterm-birth-Trimester-one-(PTB-T1)_vs_Term-birth-Trimester-one-(TB-T1)_UP	NA	147802	306	82135	28128	40543
@@ -7561,6 +7570,8 @@ bsdb:41108012/1/1_Timepoint:Increased-in-wave-2_vs_Decreased-in-wave-2_UP	NA	816
 bsdb:41108012/1/2_Timepoint:Increased-in-wave-2_vs_Decreased-in-wave-2_DOWN	NA	816	1678	102106	49082	1730	186803	186804	209	29521
 bsdb:41108012/2/1_Abnormal-eating-behavior:High-Coprophagic-score_vs_Low-Coprophagia-score_UP	NA	816	375288	31979	1283313	1678	2740	186803	191303	128827
 bsdb:41108012/2/2_Abnormal-eating-behavior:High-Coprophagic-score_vs_Low-Coprophagia-score_DOWN	NA	375288	1678	102106	1940338	1350
+bsdb:41108012/3/1_Diarrhea:Increased-in-diarrhea-within-4-weeks_vs_Decreased-in-diarrhea-within-4-weeks_DOWN	NA	191303	877420	438033	216851	375288	816	572511	1578
+bsdb:41108012/3/2_Diarrhea:Increased-in-diarrhea-within-4-weeks_vs_Decreased-in-diarrhea-within-4-weeks_UP	NA	1940338	1350	570	583	209	40544	577310
 bsdb:41118383/1/1_Clonorchiasis:Clonorchis-sinensis-infected-alcoholic-cirrhosis-patients-(Cs)_vs_Non-infected-alcoholic-cirrhosis-patients-(Non)_UP	NA	1239	102106	2810280	33042	84107	84999	84998	189330	158846	171552	841	1843491
 bsdb:41118383/1/2_Clonorchiasis:Clonorchis-sinensis-infected-alcoholic-cirrhosis-patients-(Cs)_vs_Non-infected-alcoholic-cirrhosis-patients-(Non)_DOWN	NA	57723	91347	543	1236	724	1224	1940338
 bsdb:41126356/1/1_Abnormality-of-the-gastrointestinal-tract,Abnormal-intestine-morphology:Li05-modulated(eNF,-eLF)_vs_C(NF,-LF)_UP	NA	239935	85831	820	1702221	877420	33959	823	214856	1796646	671218
