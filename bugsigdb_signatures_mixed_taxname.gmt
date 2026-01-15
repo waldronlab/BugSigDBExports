@@ -1,4 +1,4 @@
-# BugSigDB 2026-01-15_16:05_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2026-01-15_17:08_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:11/1/1_NA:HIV-patients-with-lesion-at-12-months_vs_HIV-pateints-with-normal-tissue-at-6-months_DOWN	NA	Gardnerella vaginalis
 bsdb:39/1/1_body-odor-measurement:youth-underarm-after-exercise_vs_youth-underarm-before_UP	NA	Staphylococcus epidermidis
 bsdb:39/1/2_body-odor-measurement:youth-underarm-after-exercise_vs_youth-underarm-before_DOWN	NA	Paracoccus
@@ -999,6 +999,8 @@ bsdb:28620208/2/2_Substance-related-disorder:Substance-use-disorder-patients_vs_
 bsdb:28624933/1/1_NA:high-Southern-European-Atlantic-Diet_vs_low-Southern-European-Atlantic-Diet_UP	NA	Bifidobacterium
 bsdb:28624933/2/1_Diet:intermediate-Southern-European-Atlantic-Diet_vs_low-Southern-European-Atlantic-Diet_UP	NA	Bifidobacterium
 bsdb:28624933/4/1_Diet:20-30-years-participants_vs_>20-years-participants_UP	NA	Pseudomonadota
+bsdb:28624933/6/1_Diet:BMI->25_vs_BMI-<-20_UP	NA	Actinomycetota	Bacteroidota
+bsdb:28624933/6/2_Diet:BMI->25_vs_BMI-<-20_DOWN	NA	Bifidobacterium
 bsdb:28624933/7/1_Diet:BMI-20-25_vs_BMI-<20_DOWN	NA	Bifidobacterium
 bsdb:28628112/1/1_Obesity:obese_vs_controls_UP	NA	Blautia obeum	Collinsella aerofaciens	Allocoprococcus comes	Dorea formicigenerans	Dorea longicatena	Fusobacterium ulcerans	Fusobacterium varium	Lachnospiraceae	Megasphaera elsdenii	Mediterraneibacter gnavus	[Ruminococcus] torques	Anaerobutyricum hallii
 bsdb:28628112/1/2_Obesity:obese_vs_controls_DOWN	NA	Bacteroides ovatus	Bacteroides xylanisolvens	Bacteroides uniformis	Bacteroides thetaiotaomicron	Bacteroides intestinalis	Alistipes shahii	Akkermansia muciniphila	Alistipes putredinis	Odoribacter splanchnicus	Bacteroides eggerthii	Klebsiella pneumoniae	Klebsiella oxytoca	Haemophilus parainfluenzae	Faecalibacterium prausnitzii	Bacteroides	Alistipes
@@ -4607,6 +4609,8 @@ bsdb:35798742/3/1_Parkinson's-disease-symptom-measurement:Patients-with-severe-P
 bsdb:35798742/3/2_Parkinson's-disease-symptom-measurement:Patients-with-severe-Parkinson's-disease-(severe-PD)_vs_Patients-with-mild-Parkinson's-disease--(mild-PD)_DOWN	NA	Anaerostipes	Anaerotignum	Blautia	Eubacterium	Lachnospira
 bsdb:35798742/4/1_Parkinson's-disease:Patients-with-Parkinson's-Disease-(PD)_vs_Healthy-controls-(HC)_UP	NA	Alistipes	Bifidobacterium	Collinsella	Escherichia	Hungatella	Lactobacillus	Mogibacterium	Odoribacter	Oscillibacter	Parabacteroides	Sporobacter
 bsdb:35798742/4/2_Parkinson's-disease:Patients-with-Parkinson's-Disease-(PD)_vs_Healthy-controls-(HC)_DOWN	NA	Agathobacter	Coprococcus	Enterococcus	Haemophilus	Prevotella	Roseburia	Ruminococcus
+bsdb:35798742/5/1_Parkinson's-disease:Patients-with-Parkinson's-Disease-(PD)_vs_Healthy-controls-(HC)_UP	NA	Alistipes onderdonkii	Bacteroides cellulosilyticus	Bacteroides eggerthii	Bacteroides thetaiotaomicron	Barnesiella intestinihominis	Bilophila wadsworthia	Butyricimonas virosa	Eshraghiella crossota	Dysosmobacter welbionis	Parabacteroides distasonis	Parabacteroides merdae	Phascolarctobacterium faecium	Phocaeicola dorei
+bsdb:35798742/5/2_Parkinson's-disease:Patients-with-Parkinson's-Disease-(PD)_vs_Healthy-controls-(HC)_DOWN	NA	Faecalibacterium prausnitzii	Fusicatenibacter saccharivorans	Gemmiger formicilis	Roseburia faecis	Ruminococcus callidus	Segatella copri
 bsdb:35847083/1/1_Polycystic-ovary-syndrome:PCOS-(Polycystic-Ovary-Syndrome)_vs_Healthy-Control_UP	NA	Citrobacter	Dorea	Gammaproteobacteria	Intestinibacter	Klebsiella	Muribaculaceae	Peptostreptococcaceae	Weissella	Enterobacteriaceae
 bsdb:35847083/1/2_Polycystic-ovary-syndrome:PCOS-(Polycystic-Ovary-Syndrome)_vs_Healthy-Control_DOWN	NA	Howardella
 bsdb:35847083/2/1_Polycystic-ovary-syndrome:PCOSF-(PCOS-patients-with-BMI≥24kg/m²)_vs_PCOST-(PCOS-patients-with-BMI<24-kg/m²)_UP	NA	Abiotrophia	Aerococcaceae	Bacilli	Carnobacteriaceae	Clostridium	Granulicatella	Lactobacillales	Peptostreptococcaceae	Slackia	Sutterella	Veillonellaceae
@@ -6041,8 +6045,8 @@ bsdb:38049420/24/1_Population:Adadle-Agropastoral-Lifestyle_vs_Transitional-Life
 bsdb:38049420/24/2_Population:Adadle-Agropastoral-Lifestyle_vs_Transitional-Lifestyle_DOWN	NA	Bifidobacteriaceae
 bsdb:38049420/25/1_Population:Traditional-Lifestyle_vs_Industrial-Lifestyle_UP	NA	Prevotellaceae	Succinivibrionaceae	Lactobacillaceae
 bsdb:38049420/25/2_Population:Traditional-Lifestyle_vs_Industrial-Lifestyle_DOWN	NA	Bacteroidaceae	Bifidobacteriaceae	Akkermansiaceae
-bsdb:38049420/26/1_NA:Transitional-Lifestyle_vs_Industrial-Lifestyle_UP	NA	Bifidobacteriaceae	Prevotellaceae	Streptococcaceae	Coprobacillaceae	Lactobacillaceae
-bsdb:38049420/26/2_NA:Transitional-Lifestyle_vs_Industrial-Lifestyle_DOWN	NA	Akkermansiaceae	Bacteroidaceae	Succinivibrionaceae
+bsdb:38049420/26/1_Population:Transitional-Lifestyle_vs_Industrial-Lifestyle_UP	NA	Bifidobacteriaceae	Prevotellaceae	Streptococcaceae	Coprobacillaceae	Lactobacillaceae
+bsdb:38049420/26/2_Population:Transitional-Lifestyle_vs_Industrial-Lifestyle_DOWN	NA	Akkermansiaceae	Bacteroidaceae	Succinivibrionaceae
 bsdb:38049420/27/1_Population:Transitional-Lifestyle_vs_Traditional-Lifestyle_UP	NA	Coprobacillaceae	Lactobacillaceae	Bifidobacteriaceae	Streptococcaceae
 bsdb:38049420/27/2_Population:Transitional-Lifestyle_vs_Traditional-Lifestyle_DOWN	NA	Prevotellaceae	Bacteroidaceae	Succinivibrionaceae
 bsdb:38057705/1/1_Response-to-transplant:Fa-(Patients-After-FMT---Fecal-microbiota-transplantation)_vs_Fb-(Patients-before-FMT---Fecal-microbiota-transplantation)_UP	NA	Enterococcus hermanniensis
@@ -6935,6 +6939,7 @@ bsdb:39287377/4/1_Hypertrophy:Tonsillar-Hypertrophy-(TH)_vs_Control-group_UP	NA	
 bsdb:39287377/5/1_Hypertrophy:Tonsillar-hypertrophy-(TH)_vs_Adenotonsillar-hypertrophy-(ATH)_UP	NA	Bacillus	Bifidobacterium	Filifactor	Gemella	Parvimonas	Treponema
 bsdb:39287377/5/2_Hypertrophy:Tonsillar-hypertrophy-(TH)_vs_Adenotonsillar-hypertrophy-(ATH)_DOWN	NA	Veillonella	Prevotella	Megasphaera
 bsdb:39287377/6/1_Hypertrophy:Tonsillar-hypertrophy-(TH)_vs_Adenoid-hypertrophy-(AH)_UP	NA	Bifidobacterium	Dialister	Gemella	Bacillus
+bsdb:39287377/7/1_Hypertrophy:Adenoid-hypertrophy-(AH)_vs_Control-group_UP	NA	Haemophilus
 bsdb:39287377/8/1_Hypertrophy:Adenotonsillar-hypertrophy-(ATH)_vs_Control-group_UP	NA	Haemophilus
 bsdb:39300532/1/1_NA:BG-+-DSS-group_vs_DSS-group_UP	NA	Bacilli	Bacteroides uniformis	Lactobacillaceae	Lactobacillales	Lactobacillus	Porphyromonadaceae
 bsdb:39300532/1/2_NA:BG-+-DSS-group_vs_DSS-group_DOWN	NA	Clostridia	Coriobacteriaceae	Coriobacteriales	Coriobacteriia	Lachnospiraceae	Actinomycetota
@@ -7967,6 +7972,10 @@ bsdb:40708214/1/1_Urinary-retention:Week-6-(reusable-catheter---reusable-group)_
 bsdb:40708214/1/2_Urinary-retention:Week-6-(reusable-catheter---reusable-group)_vs_Week-0-(single-use-catheter---reusable-group)_DOWN	NA	Aerococcus	Escherichia/Shigella sp.
 bsdb:40713506/1/1_Streptococcal-infection:GBSpos-(group-B-Streptococcus-culture-positive)-pregnant-women_vs_GBSneg-(group-B-Streptococcus-culture-negative)-pregnant-women_UP	NA	Acidimicrobiia	Actinomycetota	Bifidobacteriaceae	Bifidobacteriales	Streptococcaceae	Streptococcus	Streptococcus agalactiae
 bsdb:40713506/1/2_Streptococcal-infection:GBSpos-(group-B-Streptococcus-culture-positive)-pregnant-women_vs_GBSneg-(group-B-Streptococcus-culture-negative)-pregnant-women_DOWN	NA	Bacilli	Bacillota	Lactobacillaceae	Lactobacillales	Lactobacillus	Lactobacillus crispatus	Lactobacillus iners
+bsdb:40739184/1/1_NA:0mg/L-exposed-group_vs_1mg/L-+-10mg/L-+-100mg/L-exposed-group_UP	NA	Beijerinckiaceae	Chitinophagaceae	Erysipelotrichaceae	Gemmataceae	Hyphomicrobiales	Intrasporangiaceae	Mesorhizobium	Nostocoides	Pirellulaceae	Pseudobutyrivibrio	Rhodobacter	Rhodopseudomonas	Roseomonas	Succinivibrionaceae	Xanthobacteraceae	Lentisphaerota
+bsdb:40739184/2/1_Nitrite-measurement:1mg/L-exposed-group_vs_0mg/L-+-10mg/L-+-100mg/L-exposed-group_UP	NA	Alsobacter	Anaerovibrio	Candidatus Altimarinota	Dermatophilaceae	Isosphaeraceae	Kaistia	Kaistiaceae	Lachnospiraceae bacterium FD2005	Paenarthrobacter	Paludisphaera	Peptostreptococcaceae	Polynucleobacter	Rikenellaceae	Romboutsia	Schwartzia	Singulisphaera	Terrisporobacter	Thauera	Candidatus Altimarinus
+bsdb:40739184/3/1_Nitrite-measurement:10mg/L-exposed-group_vs_0mg/L-+-1mg/L-+-100mg/L-exposed-group_DOWN	NA	Flectobacillus	Sediminibacterium	Veillonella
+bsdb:40739184/4/1_Nitrite-measurement:100mg/L-exposed-group_vs_0mg/L-+-1mg/L-+-10mg/L-exposed-group_UP	NA	Burkholderiaceae	Fluviicola	Nevskia	Nevskiaceae	Parachlamydiaceae	Crocinitomicaceae
 bsdb:40739603/1/1_Opioid-use-measurement:Heroin-Users-(Nasal-skin)_vs_Non-Users-/-Healthy-control-(Nasal-skin)_DOWN	NA	Aliidiomarina
 bsdb:40739603/2/1_NA:Heroin-Users-(Oral-epithelial-skin)_vs_Non-Users-/-Healthy-control-(Oral-epithelial-skin)_DOWN	NA	Actinomyces	Arachnia	Bergeyella	Clostridium	Lautropia	Lentimicrobium	Pedobacter	Wolinella	Peptostreptococcaceae
 bsdb:40739603/3/1_Opioid-use-measurement:Heroin-Users-(Palm-skin)_vs_Non-Users-/-Healthy-control-(Palm-skin)_UP	NA	Enhydrobacter
@@ -8308,6 +8317,8 @@ bsdb:41077329/9/2_NA:Patients-with-acute-GI-GVHD-grade->-2_vs_Patients-with-acut
 bsdb:41077329/10/1_Graft-versus-host-disease:Patients-with-GI-GVHD_vs_Patients-without-GI-GVHD_DOWN	NA	Blautia
 bsdb:41089933/1/1_Pneumonia:AIDS-group-(CD4+≥200cells/μl)_vs_HIV-group-(CD4+-<200cells/μl)_UP	NA	Alphaproteobacteria	Asteroleplasma	Bacteroidaceae	Bacteroides	Comamonadaceae	Coprobacillaceae	Deinococcaceae	Delftia	Eubacteriales	Prevotella dentalis	Propionibacteriales	Rickettsiales	Ruminococcus	Leptotrichiaceae	Deinococcus
 bsdb:41089933/1/2_Pneumonia:AIDS-group-(CD4+≥200cells/μl)_vs_HIV-group-(CD4+-<200cells/μl)_DOWN	NA	Chloroflexota	Cutibacterium	Marinilabiliaceae	Propionibacteriaceae	Ralstonia	Chthoniobacter
+bsdb:41102296/1/1_Chronic-kidney-disease:Chronic-Kidney-Disease-patients-(CKD)_vs_Healthy-Controls_UP	NA	Lachnoclostridium
+bsdb:41102296/1/2_Chronic-kidney-disease:Chronic-Kidney-Disease-patients-(CKD)_vs_Healthy-Controls_DOWN	NA	Bifidobacterium	Coprococcus	Faecalibacterium	Paraprevotella	Ruminococcus	Subdoligranulum	Sutterella
 bsdb:41108012/1/1_Timepoint:Increased-in-wave-2_vs_Decreased-in-wave-2_UP	NA	Bacteroides	Blautia	Faecalibacterium	Lachnospiraceae	Oscillospiraceae
 bsdb:41108012/1/2_Timepoint:Increased-in-wave-2_vs_Decreased-in-wave-2_DOWN	NA	Bacteroides	Bifidobacterium	Collinsella	Candidatus Neoarthromitus	Eubacterium	Lachnospiraceae	Peptostreptococcaceae	Helicobacter	Brachyspira
 bsdb:41108012/2/1_Abnormal-eating-behavior:High-Coprophagia-score_vs_Low-Coprophagia-score_UP	NA	Bacteroides	Parabacteroides	Clostridiaceae	Alloprevotella	Bifidobacterium	Peptococcus	Lachnospiraceae	Turicibacter	Erysipelotrichaceae
