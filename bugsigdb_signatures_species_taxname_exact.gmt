@@ -1,4 +1,4 @@
-# BugSigDB 2026-01-15_19:07_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2026-01-15_20:01_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:11/1/1_NA:HIV-patients-with-lesion-at-12-months_vs_HIV-pateints-with-normal-tissue-at-6-months_DOWN	NA	Gardnerella vaginalis
 bsdb:39/1/1_body-odor-measurement:youth-underarm-after-exercise_vs_youth-underarm-before_UP	NA	Staphylococcus epidermidis
 bsdb:39/2/1_body-odor-measurement:youth-Neck-before_vs_after-excercise_DOWN	NA	Cutibacterium granulosum	Acinetobacter schindleri
@@ -167,6 +167,8 @@ bsdb:25710027/1/1_Obesity:Laparoscopic-sleeve-gastrectomy-baseline_vs_Laparoscop
 bsdb:25710027/2/1_Obesity:Very-low-calorie-diet-baseline_vs_very-low-calorie-diet-after-3-months-and-6-months_DOWN	NA	Blautia hydrogenotrophica	Clostridium sp. D5	Clostridium sp. M62/1	Enterococcus faecium	Eubacterium limosum	Lacrimispora saccharolytica	[Clostridium] symbiosum	Coprobacillus cateniformis
 bsdb:25758642/1/1_colorectal-adenoma:Advanced-Colorectal-Adenoma_vs_Healthy-Controls_UP	NA	Paraprevotella clara	Phocaeicola dorei	Phocaeicola massiliensis
 bsdb:25758642/1/2_colorectal-adenoma:Advanced-Colorectal-Adenoma_vs_Healthy-Controls_DOWN	NA	Bifidobacterium animalis	Streptococcus mutans
+bsdb:25758642/2/1_Colorectal-cancer:Colorectal-Cancer_vs_Healthy-Controls_DOWN	NA	Actinomyces viscosus	Clostridium sp.	Streptococcus mutans	Streptococcus thermophilus	Bifidobacterium animalis
+bsdb:25758642/2/2_Colorectal-cancer:Colorectal-Cancer_vs_Healthy-Controls_UP	NA	Phocaeicola dorei	Bacteroides sp.	Bacteroides eggerthii	Parabacteroides merdae	Phocaeicola massiliensis	Parabacteroides distasonis	Bacteroides xylanisolvens	Phocaeicola vulgatus	Alistipes putredinis	Odoribacter splanchnicus	Bilophila wadsworthia	Lachnospiraceae bacterium	[Clostridium] symbiosum	Alistipes finegoldii	Bacteroides caccae	Paraprevotella clara	Burkholderiales bacterium	Sutterella wadsworthensis	Escherichia coli	Acidaminococcus intestini	Veillonella atypica
 bsdb:25758642/3/1_Colorectal-cancer:Colorectal-Cancer_vs_Advanced-Colorectal-Adenoma_DOWN	NA	Clostridium sp.	Streptococcus thermophilus	Bifidobacterium animalis	Actinomyces viscosus
 bsdb:25758642/3/2_Colorectal-cancer:Colorectal-Cancer_vs_Advanced-Colorectal-Adenoma_UP	NA	Bacteroides xylanisolvens	Phocaeicola massiliensis	Parabacteroides distasonis	Bacteroides ovatus	Bacteroides sp.	Odoribacter splanchnicus	Bilophila wadsworthia	Parabacteroides merdae	Alistipes putredinis	Burkholderiales bacterium	Lachnospiraceae bacterium	[Clostridium] symbiosum	Acidaminococcus intestini	Escherichia coli	Alistipes finegoldii	Bacteroides caccae	Bacteroides eggerthii	Sutterella wadsworthensis	Veillonella atypica
 bsdb:25784074/1/1_Irritable-bowel-syndrome:IBS_vs_Healthy-Control_UP	NA	Blautia producta	Pseudomonas aeruginosa
@@ -398,7 +400,7 @@ bsdb:29302014/2/1_Response-to-immunochemotherapy:Responders_vs_Non-responders_UP
 bsdb:29302014/2/2_Response-to-immunochemotherapy:Responders_vs_Non-responders_DOWN	NA	Blautia obeum	Roseburia intestinalis
 bsdb:29302014/3/1_Response-to-immunochemotherapy:Responders,-group-A_vs_Non-responders,-group-B_UP	NA	Collinsella aerofaciens	Bifidobacterium longum	Lactobacillus sp.	Klebsiella pneumoniae	Parabacteroides merdae
 bsdb:29302014/3/2_Response-to-immunochemotherapy:Responders,-group-A_vs_Non-responders,-group-B_DOWN	NA	Roseburia intestinalis
-bsdb:29313867/2/1_Chlamydophila-infectious-disease:patient-with-chlamydia-infection_vs_HPV-positive-women_UP	NA	Chlamydia trachomatis
+bsdb:29313867/2/1_Chlamydophila-infectious-disease,Human-papilloma-virus-infection:patient-with-chlamydia-infection_vs_HPV-positive-women_UP	NA	Chlamydia trachomatis
 bsdb:29320965/1/1_Hashimoto's-thyroiditis:hashimoto's-thyroiditis-patients_vs_healthy-controls_UP	NA	Anaerobutyricum hallii	Eubacterium ruminantium	Ruminococcus gauvreauii	[Ruminococcus] torques
 bsdb:29327043/1/2_NA:HNSCC_vs_controls_DOWN	NA	Capnocytophaga leadbetteri	Hoylesella nanceiensis	Selenomonas sputigena
 bsdb:29327043/4/2_squamous-cell-carcinoma:Oral-cavity-cancer-cases_vs_controls_DOWN	NA	Neisseria sicca	Parvimonas micra
@@ -819,8 +821,8 @@ bsdb:31226994/1/2_Antimicrobial-agent:3-month-old-infants-exposed-to-antibiotics
 bsdb:31226994/3/2_Antimicrobial-agent:12-month-old-infants-exposed-to-antibiotics-during-the-second-trimester_vs_12-month-old-infants-not-exposed-to-antibiotics-during-the-second-trimester_DOWN	NA	Veillonella rogosae
 bsdb:31231345/1/1_Stomach-neoplasm:cancer-tissue_vs_adjacent-normal-tissue_UP	NA	Segatella oris	Prevotella denticola	Acinetobacter baumannii	Pseudomonas aeruginosa
 bsdb:31231345/1/2_Stomach-neoplasm:cancer-tissue_vs_adjacent-normal-tissue_DOWN	NA	Helicobacter pylori	Serratia marcescens	Levilactobacillus brevis	Lactococcus lactis
-bsdb:31231345/2/1_Stomach-neoplasm:H-pylori-sequencing-positive_vs_H-pylori-sequencing-negative_UP	NA	Actinomyces graevenitzii	Actinomyces naeslundii
-bsdb:31231345/2/2_Stomach-neoplasm:H-pylori-sequencing-positive_vs_H-pylori-sequencing-negative_DOWN	NA	Prevotella intermedia	Pseudomonas aeruginosa
+bsdb:31231345/2/1_Gastric-cancer:H-pylori-sequencing-positive_vs_H-pylori-sequencing-negative_UP	NA	Actinomyces graevenitzii	Actinomyces naeslundii
+bsdb:31231345/2/2_Gastric-cancer:H-pylori-sequencing-positive_vs_H-pylori-sequencing-negative_DOWN	NA	Prevotella intermedia	Pseudomonas aeruginosa
 bsdb:31231345/3/1_Gastric-cancer:cancer-tissue_vs_adjacent-normal-tissue_UP	NA	Prevotella sp.
 bsdb:31247001/1/1_Parkinson's-disease:Participants-with-early-stage-Parkinson's-Disease._vs_Healthy-age-sex-matched-controls-without-Parkinson's-disease._UP	NA	Bifidobacterium animalis	Bifidobacterium dentium	Bifidobacterium longum	Candida albicans	Candida dubliniensis	Capnocytophaga canimorsus	Clavibacter michiganensis	Gardnerella vaginalis	Gerres decacanthus	Lactiplantibacillus plantarum	Lactobacillus acidophilus	Ligilactobacillus ruminis	Ligilactobacillus salivarius	Limosilactobacillus fermentum	Limosilactobacillus reuteri	Parascardovia denticolens	Scardovia inopinata	Streptococcus mutans	Torulaspora delbrueckii
 bsdb:31247001/1/2_Parkinson's-disease:Participants-with-early-stage-Parkinson's-Disease._vs_Healthy-age-sex-matched-controls-without-Parkinson's-disease._DOWN	NA	Priestia megaterium	Candidatus Azobacteroides pseudotrichonymphae	Chryseobacterium sp. IHB B 17019	Flavobacteriaceae bacterium 3519-10	Halobacillus mangrovi	Streptococcus phage PhiSpn_200	Wenyingzhuangia fucanilytica	Campylobacter ureolyticus
@@ -3442,6 +3444,7 @@ bsdb:39940045/3/1_Diet:Age-Strata-after-Fresh-Sauerkraut-Intervention:-Age-≥�
 bsdb:39940045/6/1_NA:BMI-Strata-after-Fresh-Sauerkraut-Intervention:-BMI-≤- 25-(18-25)_vs_BMI-Strata-before-Fresh-Sauerkraut-Intervention:-BMI-≤-25-(18-25)_UP	NA	Lacticaseibacillus paracasei
 bsdb:39940045/8/1_Diet:Fiber-intake-Strata-after-fresh-Sauerkraut-Intervention:-Fiber-≤-30g-(8-30g)_vs_Fiber-intake-Strata-before-fresh-Sauerkraut-Intervention:-Fiber-≤-30g-(8-30g)_UP	NA	Lacticaseibacillus paracasei
 bsdb:39940045/9/1_Diet:Fiber-intake-Strata-after-fresh-Sauerkraut-Intervention:-Fiber-≥-30g-(30-58g)_vs_Fiber-intake-Strata-before-fresh-Sauerkraut-Intervention:-Fiber-≥-30g-(30-58g)_UP	NA	Lacticaseibacillus paracasei
+bsdb:39940045/10/1_Diet:Male-Strata-after-fresh-Sauerkraut-Intervention_vs_Male-Strata-before-fresh-Sauerkraut-Intervention_UP	NA	Lacticaseibacillus paracasei
 bsdb:39940045/11/1_Diet:Female-Strata-after-fresh-Sauerkraut-Intervention_vs_Female-Strata-before-fresh-Sauerkraut-Intervention_UP	NA	Lacticaseibacillus paracasei
 bsdb:39940045/13/1_Diet:Age-Strata-after-pasteurized-Sauerkraut-Intervention:-Age-<-50-(21-49)_vs_Age-Strata-before-pasteurized-Sauerkraut-Intervention:-Age-<-50-(21-49)_UP	NA	Anaerostipes hadrus
 bsdb:39940045/15/1_Diet:BMI-Strata-after-pasteurized-Sauerkraut-Intervention:-BMI-≤- 25-(18-25)_vs_BMI-Strata-before-pasteurized-Sauerkraut-Intervention:-BMI-≤-25-(18-25)_UP	NA	Anaerostipes hadrus
