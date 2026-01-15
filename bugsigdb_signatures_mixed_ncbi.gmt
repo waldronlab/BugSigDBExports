@@ -1,4 +1,4 @@
-# BugSigDB 2026-01-15_03:28_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2026-01-15_04:16_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:11/1/1_NA:HIV-patients-with-lesion-at-12-months_vs_HIV-pateints-with-normal-tissue-at-6-months_DOWN	NA	2702
 bsdb:39/1/1_body-odor-measurement:youth-underarm-after-exercise_vs_youth-underarm-before_UP	NA	1282
 bsdb:39/1/2_body-odor-measurement:youth-underarm-after-exercise_vs_youth-underarm-before_DOWN	NA	265
@@ -154,6 +154,7 @@ bsdb:22713265/2/2_Irritable-bowel-syndrome:IBS-C_vs_Healthy-Control_DOWN	NA	816	
 bsdb:22713265/3/1_Irritable-bowel-syndrome:IBS-D_vs_Healthy-Control_UP	NA	79880	1396	31953	1680	1685	216816	1496	543	1352	33958	1624	186804	39491
 bsdb:22713265/3/2_Irritable-bowel-syndrome:IBS-D_vs_Healthy-Control_DOWN	NA	816	838
 bsdb:22728514/1/1_Response-to-transplant:Allogenic-(6-weeks-samples)_vs_Allogenic-(Baseline-samples)_UP	NA	39486	33038	29370	1512	100884	1547	55079	46228	29361	169435	39492	44749	847	40519	40518	2763066
+bsdb:22728514/3/1_Response-to-transplant:Allogenic-(6-weeks-samples)_vs_Autologous-(6-weeks-samples)_UP	NA	39486	29370	100884	46228	29361	847
 bsdb:22728514/4/1_NA:Allogenic-(6-weeks-samples)_vs_Autologous-(6-weeks-samples)_UP	NA	562	1720	511
 bsdb:22761885/1/1_Colorectal-cancer:CRC-patients-(swp)_vs_Healthy-volunteers-(swc)_DOWN	NA	207244	135858	216851	572511	2701	1678	28050
 bsdb:22761885/1/2_Colorectal-cancer:CRC-patients-(swp)_vs_Healthy-volunteers-(swc)_UP	NA	43996	848	1378	570	86331	1257	836	970	44259
@@ -204,6 +205,7 @@ bsdb:23349750/1/1_Ethnic-group,Socioeconomic-status:Bangladesh-Children-(Househo
 bsdb:23349750/1/2_Ethnic-group,Socioeconomic-status:Bangladesh-Children-(Household-income-<-$61)_vs_US-children_DOWN	NA	818	853
 bsdb:23433344/1/1_NA:children-with-type-1-diabetes_vs_healthy-controls_UP	NA	976	1485	816	29465
 bsdb:23433344/1/2_NA:children-with-type-1-diabetes_vs_healthy-controls_DOWN	NA	201174	1239	838	1532	39491	1678	1578
+bsdb:23459324/1/1_Obesity:obese-subjects_vs_anorexic,-lean,-and-overweight-subjects_DOWN	NA	976
 bsdb:23459324/2/1_Obesity:obese-and-overweight-subjects_vs_lean-and-anorexic-subjects_DOWN	NA	2173
 bsdb:23459324/3/1_Obesity:obese-subjects_vs_lean-subjects_DOWN	NA	28025
 bsdb:23459324/3/2_Obesity:obese-subjects_vs_lean-subjects_UP	NA	1598
@@ -1817,6 +1819,7 @@ bsdb:30459320/26/1_Obesity:Obese-Americans(UO)_vs_Lean-Americans-(UL)_UP	NA	3303
 bsdb:30459320/26/2_Obesity:Obese-Americans(UO)_vs_Lean-Americans-(UL)_DOWN	NA	186802
 bsdb:30459320/27/1_Obesity:Lean-Ghanaians-(GL)-humanized-mice_vs_(Obese-Ghanaians(GO)-+-Obese-Americans(UO)-+-Lean-Americans(UL))-humanized-mice_UP	NA	47678	186802	33038	879970	119852
 bsdb:30459320/27/2_Obesity:Lean-Ghanaians-(GL)-humanized-mice_vs_(Obese-Ghanaians(GO)-+-Obese-Americans(UO)-+-Lean-Americans(UL))-humanized-mice_DOWN	NA	85831	823	375288	171550	40544	186802	186803	1263	1623
+bsdb:30459320/28/1_Obesity:All-Obese-Women-(UO-+-GO)-humanized-mice_vs_All-Lean-Women-(UL-+-GL)-humanized-mice_UP	NA	85831	823	375288	186802	186803	1263	1623
 bsdb:30459400/2/1_rheumatoid-arthritis,Osteoarthritis:rheumatoid-arthritis_vs_Osteoarthritis_UP	NA	735	713	416916	76122	848	29465	838	39778	724	729	28449	482
 bsdb:30459400/2/2_rheumatoid-arthritis,Osteoarthritis:rheumatoid-arthritis_vs_Osteoarthritis_DOWN	NA	1301	1654	47670	32207	117563	2047	1263	265975	33038	46123
 bsdb:30463989/1/1_NA:Baseline-HPV+_vs_Baseline-HPV-_UP	NA	31969	544448	2085	2092	2129
@@ -1907,8 +1910,8 @@ bsdb:30558669/3/1_NA:Cluster-1_vs_Cluster-2-and-Cluster-3_UP	NA	838
 bsdb:30558669/4/1_NA:Cluster-2_vs_Cluster-1-and-Cluster-3_UP	NA	91061	1239
 bsdb:30558669/5/1_NA:Cluster-3_vs_Cluster-1-and-Cluster-2_UP	NA	171549	200643	909932	470565	60133	28137	909929	29465	31977	976
 bsdb:30558669/6/1_Esophageal-adenocarcinoma:Cluster-1_vs_Cluster-2-and-Cluster-3_UP	NA	84992	2037	201174	1016	49546	200644	117743	1236	724	729	1268	712	135625	1224	43675	117563	32207
-bsdb:30558669/7/1_NA:GERD-(Gastroesophageal-reflux-disease)_vs_Normal-(Normal-esophagus)_UP	NA	186831	194	44259	49546
-bsdb:30558669/7/2_NA:GERD-(Gastroesophageal-reflux-disease)_vs_Normal-(Normal-esophagus)_DOWN	NA	91347	543	1940338	1578
+bsdb:30558669/7/1_Gastroesophageal-reflux-disease:GERD-(Gastroesophageal-reflux-disease)_vs_Normal-(Normal-esophagus)_UP	NA	186831	194	44259	49546
+bsdb:30558669/7/2_Gastroesophageal-reflux-disease:GERD-(Gastroesophageal-reflux-disease)_vs_Normal-(Normal-esophagus)_DOWN	NA	91347	543	1940338	1578
 bsdb:30558669/8/1_Gastroesophageal-reflux-disease:Gastroesophageal-reflux-disease-GERD(within-subjects-classified-as-PPI-NO)_vs_Normal_UP	NA	186831	194	2717	44259	32067	481	206351	838	1224	508215	1301	29465	186802	49546	712
 bsdb:30558669/8/2_Gastroesophageal-reflux-disease:Gastroesophageal-reflux-disease-GERD(within-subjects-classified-as-PPI-NO)_vs_Normal_DOWN	NA	82202	91347	543	1940338	1578	906	265975	838	84108	1301	29465	171549	31977
 bsdb:30558669/9/1_Barrett's-esophagus:Barrett’s-Esophagus-(BE)_vs_Normal_UP	NA	1016	32067
@@ -3414,8 +3417,8 @@ bsdb:33207260/1/2_NA:HPV+-persistence_vs_HPV--controls-and-HPV+-transient-patien
 bsdb:33207260/2/1_Human-papilloma-virus-infection:HPV+-transient_vs_HPV--controls-and-HPV+-persistent-patients_UP	NA	147802
 bsdb:33207260/3/1_NA:HPV+-persistent_vs_HPV+-transient_UP	NA	171552	119060	1236	68569	13687	41297	204457	28100	171549	82115	186801	186802	200643	201174	28211	1224
 bsdb:33207260/3/2_NA:HPV+-persistent_vs_HPV+-transient_DOWN	NA	91061	1239	81850	186826	1578	147802
-bsdb:33207260/4/1_NA:HPV+-persistence_vs_HPV--controls_UP	NA	40543	28228	267889	246874	283168	39948	171552	119060	1236	838	203491	203490	543	91347	165779	1117	68569	41297	200666	13687	186802	28100	82115	356	171549	200643	31977	909929	909932	201174	28211	1224
-bsdb:33207260/4/2_NA:HPV+-persistence_vs_HPV--controls_DOWN	NA	33958	186826	1578	1386	1239	147802
+bsdb:33207260/4/1_Human-papilloma-virus-infection:HPV+-persistence_vs_HPV--controls_UP	NA	40543	28228	267889	246874	283168	39948	171552	119060	1236	838	203491	203490	543	91347	165779	1117	68569	41297	200666	13687	186802	28100	82115	356	171549	200643	31977	909929	909932	201174	28211	1224
+bsdb:33207260/4/2_Human-papilloma-virus-infection:HPV+-persistence_vs_HPV--controls_DOWN	NA	33958	186826	1578	1386	1239	147802
 bsdb:33208159/1/1_NA:Low-dose-group-(DI)_vs_Functional-constipation-(FC)-model-(control)-group_UP	NA	976
 bsdb:33208159/1/2_NA:Low-dose-group-(DI)_vs_Functional-constipation-(FC)-model-(control)-group_DOWN	NA	1239
 bsdb:33208159/2/1_Traditional-Chinese-medicine-type:Functional-constipation-(FC)-model-group_vs_Blank-control-(KO)-group_UP	NA	1239
@@ -6421,6 +6424,8 @@ bsdb:38668545/5/1_Strain:Anopheles-funestus-(FUMOZ-R)_vs_Anopheles-funestus-(FAN
 bsdb:38668545/5/2_Strain:Anopheles-funestus-(FUMOZ-R)_vs_Anopheles-funestus-(FANG)_DOWN	NA	629	642	570
 bsdb:38668545/6/1_Strain:Anopheles-funestus-(FUMOZ-R)_vs_Anopheles-funestus-(FUMOZ)_UP	NA	33877	191	158483	570	629	34037
 bsdb:38668545/6/2_Strain:Anopheles-funestus-(FUMOZ-R)_vs_Anopheles-funestus-(FUMOZ)_DOWN	NA	286	642	629	570
+bsdb:38669829/3/1_Response-to-diet:Placebo+high-fat/high-fructose-(HF/HFr)-diet_vs_Letrozole-induced-polycystic-ovary-syndrome-(LET)_UP	NA	84992	201174	1283313	31953	85004	1678	31979	1485	128827	526525	290054	1918540	186804	171552	28138	1501226	191303	39492	186802
+bsdb:38669829/3/2_Response-to-diet:Placebo+high-fat/high-fructose-(HF/HFr)-diet_vs_Letrozole-induced-polycystic-ovary-syndrome-(LET)_DOWN	NA	1578	580596	33958	186826
 bsdb:38669829/4/1_Response-to-diet:Placebo+high-fat/high-fructose-(HF/HFr)-diet_vs_Letrozole-induced-polycystic-ovary-syndrome-(LET)+high-fat/high-fructose-(HF/HFr)-diet_UP	NA	201174	84992	526525	186802	85004	128827	31979	31953	1918540	1501226	191303	1485	1678	39492
 bsdb:38669829/5/1_Response-to-diet:Placebo_vs_Letrozole-induced-polycystic-ovary-syndrome-(LET)+high-fat/high-fructose-(HF/HFr)-&-Placebo+high-fat/high-fructose-(HF/HFr)-&-Letrozole-induced-polycystic-ovary-syndrome-(LET)_UP	NA	3085636	68337	200930	191393	191394	248038	239759	186803	186826	33958	1578
 bsdb:38669829/6/1_NA:Letrozole-induced-polycystic-ovary-syndrome-(LET)_vs_Letrozole-induced-polycystic-ovary-syndrome-(LET)+high-fat/high-fructose-(HF/HFr)-&-Placebo+high-fat/high-fructose-(HF/HFr)-&-Placebo_UP	NA	580596
@@ -6505,6 +6510,8 @@ bsdb:38745393/13/1_Phenylketonuria:Phenylketonuria-Adults-Subgingival-plaque-(PK
 bsdb:38745393/13/2_Phenylketonuria:Phenylketonuria-Adults-Subgingival-plaque-(PKU-Adults-SP)_vs_Phenylketonuria-Adults-Saliva-(PKU-Adults-S)_DOWN	NA	1654	2801844	194	1016	2717	1716	848	133925	970	195950
 bsdb:38745393/14/1_Phenylketonuria:Phenylketonuria-Children-subgingival-plaque-(PKU-Ch-SP)-patients_vs_Phenylketonuria-Children-Saliva-(PKU-Ch-S)-patients_UP	NA	1283313	1380	1378	724	1164882	482	265975	836	838	508215	1301	29465
 bsdb:38745393/14/2_Phenylketonuria:Phenylketonuria-Children-subgingival-plaque-(PKU-Ch-SP)-patients_vs_Phenylketonuria-Children-Saliva-(PKU-Ch-S)-patients_DOWN	NA	1654	2801844	194	1016	2717	1716	1434006	848	32257	133925	970	195950
+bsdb:38745393/18/1_Phenylketonuria:PKU-Rel-S-(Phenylketonuria-related-saliva)-patients_vs_CtrlRel-S-(control-related-saliva)_UP	NA	29547	203691
+bsdb:38745393/18/2_Phenylketonuria:PKU-Rel-S-(Phenylketonuria-related-saliva)-patients_vs_CtrlRel-S-(control-related-saliva)_DOWN	NA	201174
 bsdb:38745393/19/1_Phenylketonuria:PKU-Rel-SP-(Phenylketonuria-related-subgingival-plaque)-patients_vs_CtrlRel-SP-(control-related-subgingival-plaque)-patients_UP	NA	201174
 bsdb:38745393/19/2_Phenylketonuria:PKU-Rel-SP-(Phenylketonuria-related-subgingival-plaque)-patients_vs_CtrlRel-SP-(control-related-subgingival-plaque)-patients_DOWN	NA	976	32066
 bsdb:38760705/1/1_Polycystic-ovary-syndrome:Polycystic-ovary-syndrome-(PCOS)_vs_Control_UP	NA	469	108980	239759	1283313	207244	1239	815	171549	816	28111	338188	46506	200643	976	572511	871665	40520	3085642	580596	186801	102106	283	33042	116085	84107	84999	84998	189330	547	186802	216851	1263031	946234	1407607	162290	1505657	1506553	28050	186803	2109691	3085636	158846	437897	468	909932	216572	577310	310298	310297	171552	841	360807	995019
