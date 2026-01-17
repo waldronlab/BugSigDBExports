@@ -1,4 +1,4 @@
-# BugSigDB 2026-01-17_09:01_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2026-01-17_11:01_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:11/1/1_NA:HIV-patients-with-lesion-at-12-months_vs_HIV-pateints-with-normal-tissue-at-6-months_DOWN	NA	2702
 bsdb:39/1/1_body-odor-measurement:youth-underarm-after-exercise_vs_youth-underarm-before_UP	NA	1282
 bsdb:39/2/1_body-odor-measurement:youth-Neck-before_vs_after-excercise_DOWN	NA	33011	108981
@@ -234,8 +234,8 @@ bsdb:26919743/3/1_Obesity:24-months_vs_6-months-participants_UP	NA	984
 bsdb:26919743/3/2_Obesity:24-months_vs_6-months-participants_DOWN	NA	239935	562	74426
 bsdb:26935422/1/1_Cervical-glandular-intraepithelial-neoplasia:CIN2+_vs_CIN1_UP	NA	28111	1598	330
 bsdb:26935422/2/1_Cervical-glandular-intraepithelial-neoplasia:>38.8%-8-OHdG-positive-cervical-cells_vs_<=38.8%-8-OHdG-positive-cervical-cells_UP	NA	351
-bsdb:26935422/3/1_NA:CIN2+_vs_CIN1_UP	NA	239935	1598
-bsdb:26935422/3/2_NA:CIN2+_vs_CIN1_DOWN	NA	239935	33035	1502	74426	28132	165179	1311
+bsdb:26935422/3/1_Cervical-glandular-intraepithelial-neoplasia:CIN2+_vs_CIN1_UP	NA	239935	1598
+bsdb:26935422/3/2_Cervical-glandular-intraepithelial-neoplasia:CIN2+_vs_CIN1_DOWN	NA	239935	33035	1502	74426	28132	165179	1311
 bsdb:26962942/1/1_Human-immunodeficiency-virus:CD4-T-cell-counts-<-200-(CD4-<-200)_vs_HIV---uninfected_UP	NA	40518	209265	165179	1265
 bsdb:26962942/1/2_Human-immunodeficiency-virus:CD4-T-cell-counts-<-200-(CD4-<-200)_vs_HIV---uninfected_DOWN	NA	820	39778	550	29466	729	817	97478	553	735	615	1363	102148	1328	43675	413497	28111	853	562	1623	28116	165179
 bsdb:26962942/3/1_Human-immunodeficiency-virus:CD4-T-cell-counts-<-200-(CD4-<-200)_vs_CD4-T-cell-counts->200-(CD4->-200)_UP	NA	47678	1735	119853	1265	209265	60675
@@ -1553,6 +1553,8 @@ bsdb:34354176/2/1_Age:Group-B-(>1-to-2-age)_vs_Group-A-(0-1-age)_UP	NA	877420
 bsdb:34354176/2/2_Age:Group-B-(>1-to-2-age)_vs_Group-A-(0-1-age)_DOWN	NA	1522
 bsdb:34354176/3/2_Age:Group-C-(> 2-to < 5-age)_vs_Group-B-(> 1-to-2-age)_DOWN	NA	33038
 bsdb:34376634/6/1_Response-to-risperidone:Schizophrenia-(SCH)-patients-at-Week-24-(S3)_vs_Schizophrenia-(SCH)-patients-at-Baseline-(S0)_UP	NA	2683682	1897037	1519439
+bsdb:34382150/1/1_COVID-19:Recovered-COVID-19-patients_vs_Healthy-controls_UP	NA	358742	208479	261299	1547	292800	1686	501571
+bsdb:34382150/1/2_COVID-19:Recovered-COVID-19-patients_vs_Healthy-controls_DOWN	NA	35833	871665	40520	218538	88431	853	1150298	1297617	1368474	360807	40518
 bsdb:34401412/1/1_Response-to-antibiotic:Control-mice_vs_Antibiotics-(Abx)-mice-and-Recolonized-mice-(Abx-+-R)_UP	NA	397291	1496	397287	1351	1235835	1235797	1378168	1235800	97253	1531
 bsdb:34401412/2/1_Response-to-antibiotic:Recolonized-mice-(Abx-+-R)_vs_Control-mice-and-Antibiotics-(Abx)-mice_UP	NA	671266	39491	119219	1590	1598	823	387090
 bsdb:34401412/4/1_Response-to-stress:Recolonized-mice-(Abx-+-R)_vs_Control-mice_UP	NA	671266	39491	85831	119219	1590	823	387090
@@ -1851,8 +1853,8 @@ bsdb:35863004/2/1_Type-II-diabetes-mellitus:type-2-diabetes-mellitus-(T2DM)_vs_h
 bsdb:35865814/1/1_Prostate-carcinoma:Prostate-Cancer-(PCa),--Cohort-1-(Discovery-Cohort)_vs_Benign-prostatic-hyperplasia-(BPH),--Cohort-1-(Discovery-Cohort)_UP	NA	495	83655	88688	68895	515489	40215	484	1325724	410	164546
 bsdb:35865814/1/2_Prostate-carcinoma:Prostate-Cancer-(PCa),--Cohort-1-(Discovery-Cohort)_vs_Benign-prostatic-hyperplasia-(BPH),--Cohort-1-(Discovery-Cohort)_UP	NA	71999	39650	316	1290	38304	173362	29378	29382	54007
 bsdb:35888992/1/1_Inflammation-of-the-large-intestine,Inflammatory-bowel-disease:Inflammatory-bowel-disease-patients_vs_Healthy-controls_DOWN	NA	1683	1681	1686	216816	28026	626937	1535	29347	39485	39491	39496	1579	1597	2173	454154	166486	360807	301301	40518	1305	1308	214856	328814	328813	649756	47678	357276	487174	261299	239935
-bsdb:35888992/2/1_Inflammation-of-the-large-intestine:Non-inflammatory-bowel-disease-symptomatic-controls_vs_Healthy-children_DOWN	NA	1683	410072	39485	39492	40518	1308	328814	47678	357276
-bsdb:35888992/2/2_Inflammation-of-the-large-intestine:Non-inflammatory-bowel-disease-symptomatic-controls_vs_Healthy-children_UP	NA	1352	545
+bsdb:35888992/2/1_Inflammation-of-the-large-intestine,Inflammatory-bowel-disease:Non-inflammatory-bowel-disease-symptomatic-controls_vs_Healthy-children_DOWN	NA	1683	410072	39485	39492	40518	1308	328814	47678	357276
+bsdb:35888992/2/2_Inflammation-of-the-large-intestine,Inflammatory-bowel-disease:Non-inflammatory-bowel-disease-symptomatic-controls_vs_Healthy-children_UP	NA	1352	545
 bsdb:35888992/3/1_Inflammation-of-the-large-intestine,Inflammatory-bowel-disease:inflammatory-bowel-disease-patients_vs_non-inflammatory-bowel-disease-symptomatic-controls_DOWN	NA	454154	1680	1683	1681	626937	1535	901	39491	39492	39496	1579	1597	166486	360807	301301	40518	214856	310297	46506	239935
 bsdb:35888992/3/2_Inflammation-of-the-large-intestine,Inflammatory-bowel-disease:inflammatory-bowel-disease-patients_vs_non-inflammatory-bowel-disease-symptomatic-controls_UP	NA	729
 bsdb:35888992/4/1_Phenotype:Crohn's-Disease-patients-with-stricturing-and/or-penetrating-phenotypes_vs_Crohn's-Disease-patients-with-inflammatory-phenotypes_DOWN	NA	626937	29347	39485	301301

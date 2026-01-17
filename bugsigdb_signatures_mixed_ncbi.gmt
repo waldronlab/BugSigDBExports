@@ -1,4 +1,4 @@
-# BugSigDB 2026-01-17_09:01_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2026-01-17_11:01_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:11/1/1_NA:HIV-patients-with-lesion-at-12-months_vs_HIV-pateints-with-normal-tissue-at-6-months_DOWN	NA	2702
 bsdb:39/1/1_body-odor-measurement:youth-underarm-after-exercise_vs_youth-underarm-before_UP	NA	1282
 bsdb:39/1/2_body-odor-measurement:youth-underarm-after-exercise_vs_youth-underarm-before_DOWN	NA	265
@@ -651,8 +651,8 @@ bsdb:26935422/1/1_Cervical-glandular-intraepithelial-neoplasia:CIN2+_vs_CIN1_UP	
 bsdb:26935422/1/2_Cervical-glandular-intraepithelial-neoplasia:CIN2+_vs_CIN1_DOWN	NA	186802	541000
 bsdb:26935422/2/1_Cervical-glandular-intraepithelial-neoplasia:>38.8%-8-OHdG-positive-cervical-cells_vs_<=38.8%-8-OHdG-positive-cervical-cells_UP	NA	357	351	28216	80840	80864	356	665874	75682	20	286	82115
 bsdb:26935422/2/2_Cervical-glandular-intraepithelial-neoplasia:>38.8%-8-OHdG-positive-cervical-cells_vs_<=38.8%-8-OHdG-positive-cervical-cells_DOWN	NA	31979
-bsdb:26935422/3/1_NA:CIN2+_vs_CIN1_UP	NA	239935	1598
-bsdb:26935422/3/2_NA:CIN2+_vs_CIN1_DOWN	NA	239935	33035	1502	74426	28132	165179	1311
+bsdb:26935422/3/1_Cervical-glandular-intraepithelial-neoplasia:CIN2+_vs_CIN1_UP	NA	239935	1598
+bsdb:26935422/3/2_Cervical-glandular-intraepithelial-neoplasia:CIN2+_vs_CIN1_DOWN	NA	239935	33035	1502	74426	28132	165179	1311
 bsdb:26937623/1/1_NA:non-inflamed-crohn's-disease_vs_non-inflammatory-bowel-disease-who-were-undergoing-colonoscopy-either-for-screening-or-for-other-gastrointestinal-complaints-unrelated-to-IBD_DOWN	NA	33042	459786
 bsdb:26937623/2/1_Ulcerative-colitis:non-inflamed-ulcerative-colitis_vs_non-inflammatory-bowel-disease-patients-who-were-undergoing-colonoscopy-either-for-screening-or-for-other-gastrointestinal-complaints-unrelated-to-IBD_UP	NA	1654	1239	2742	1224	286
 bsdb:26937623/2/2_Ulcerative-colitis:non-inflamed-ulcerative-colitis_vs_non-inflammatory-bowel-disease-patients-who-were-undergoing-colonoscopy-either-for-screening-or-for-other-gastrointestinal-complaints-unrelated-to-IBD_DOWN	NA	239759	816	976	189330	459786	375288	33024	838
@@ -1113,6 +1113,8 @@ bsdb:28789705/2/1_Antimicrobial-agent:Breast-fed-Infants-to-mothers-received-IAP
 bsdb:28789705/2/2_Antimicrobial-agent:Breast-fed-Infants-to-mothers-received-IAP_vs_breast-fed-Infants-to-mothers-didn't-receive-IAP_DOWN	NA	201174	976
 bsdb:28793309/1/1_Urinary-schistosomiasis:Infection-Only_vs_Healthy-Control_UP	NA	469	1375	59732	66831	570	286	22	1279	186828	186818	135621
 bsdb:28793309/1/2_Urinary-schistosomiasis:Infection-Only_vs_Healthy-Control_DOWN	NA	469	635	547	551	2701	568	131079	13159	29487	497	46255	135624	31953	543	468	135621	1279
+bsdb:28793309/2/1_Urinary-schistosomiasis:Advanced_vs_Healthy-Control_UP	NA	816	227979	838	848	29465	1375	117563	66831	1696	162289	75	1578	1279	469	135615
+bsdb:28793309/2/2_Urinary-schistosomiasis:Advanced_vs_Healthy-Control_DOWN	NA	81852	31953	267888	543	468	135624	547	635	46255	551	29487	568	286	1279	469
 bsdb:28793309/3/1_Urinary-schistosomiasis:Infected_vs_Non-Infected_UP	NA	469	186827	1375	815	816	85019	1696	186828	59732	81852	1350	66831	203492	848	117563	227979	81850	1578	1357	33969	468	162289	838	171552	90964	1279	1300	1737406	29465	31977	2762318	135615
 bsdb:28793309/3/2_Urinary-schistosomiasis:Infected_vs_Non-Infected_DOWN	NA	469	186817	1386	31953	76892	59732	635	212791	547	543	551	2701	568	29580	131079	468	13159	75682	29487	267888	497	90964	1279	2762318	46255	135624	33958	80864
 bsdb:28793309/4/1_Urinary-schistosomiasis:Advanced_vs_Pathology-only_UP	NA	469	1375	816	1696	283	66831	848	117563	227979	1578	162289	838	28453	29465	343873	1013	135615	135621	232523
@@ -2980,6 +2982,7 @@ bsdb:32280686/1/1_Colorectal-cancer:colorectal-cancer-patients_vs_healthy-contro
 bsdb:32280686/1/2_Colorectal-cancer:colorectal-cancer-patients_vs_healthy-controls_DOWN	NA	1591	41200	1506
 bsdb:32295867/1/2_Acute-myeloid-leukemia:High-Intensity-Chemotherapy_vs_Low-Intensity-Chemotherapy_DOWN	NA	55193
 bsdb:32295867/2/1_Acute-myeloid-leukemia:Patients-with-bacterial-infections-at-T3_vs_Patients-without-bacterial-infections-at-T3_UP	NA	1535326	766764	4892	4891
+bsdb:32295867/3/1_Acute-myeloid-leukemia:Patients-with-bacterial-infections-at-T6_vs_Patients-with-no-bacterial-infections-at-T6_DOWN	NA	5506	110618	147550	5125	4751
 bsdb:32295867/4/1_Antimicrobial-agent:Patients-who-received-Amphotericin-B_vs_Patients-who-did-not-receive-Amphotericin-B_UP	NA	5506
 bsdb:32299442/1/1_Endometriosis:Endometriosis-patients_vs_Controls-Subject-undergoing-laparoscopic-surgery-for-benign-tumors_UP	NA	147802	2737	1663	33069	165695	80864	80865	156973	135621	128827	76892	265	22	306	1268	469	1350	55968	44249	286	1737406	81
 bsdb:32299442/1/2_Endometriosis:Endometriosis-patients_vs_Controls-Subject-undergoing-laparoscopic-surgery-for-benign-tumors_UP	NA	1375	1578	838	1591	1129771	2050	84107	1775411	39948	33038	906	28128	543311	186802	37734	356	119852	69966	135621	28454	1663	543	469	953	33877	40544
@@ -4105,6 +4108,8 @@ bsdb:34376634/6/1_Response-to-risperidone:Schizophrenia-(SCH)-patients-at-Week-2
 bsdb:34376634/6/2_Response-to-risperidone:Schizophrenia-(SCH)-patients-at-Week-24-(S3)_vs_Schizophrenia-(SCH)-patients-at-Baseline-(S0)_DOWN	NA	1506553
 bsdb:34378948/1/1_HIV-infection:HIV-Patients_vs_Healthy-controls_UP	NA	201174	265975	123375	1578	33958	1926663	133925	580024	86331	135624	2082587	83763	83770	906	2049	2037	1473205	84108	1643824	1573535	102106	84107	128827	909930	1843488	135858	1643826	838	526525	171552	158846	1843491	39948	91061	84998	84999	31977	1843489	909929	909932
 bsdb:34378948/1/2_HIV-infection:HIV-Patients_vs_Healthy-controls_DOWN	NA	186801	816	815	543	207244	2039302	239759	1407607	171550	547	186828	117563	712	724	216572
+bsdb:34382150/1/1_COVID-19:Recovered-COVID-19-patients_vs_Healthy-controls_UP	NA	201174	358742	208479	561	946234	1505657	261299	1547	292800	1686	501571
+bsdb:34382150/1/2_COVID-19:Recovered-COVID-19-patients_vs_Healthy-controls_DOWN	NA	35832	35833	871665	40520	580596	194924	218538	189330	88431	216851	853	1407607	1150298	1392389	1297617	186803	1501226	1368474	841	360807	1263	40518
 bsdb:34394853/1/1_NA:Glaucoma_vs_Control-subjects_UP	NA	572511	114185	216851	186803	1075398	53425	213484	1462427
 bsdb:34394853/1/2_NA:Glaucoma_vs_Control-subjects_DOWN	NA	286729	151037	653683	150247	136491	1380	1184606	697279	84756	198251	810	36739	82800	1434000	129337	1236988	117563	1425377	556178	223785	142587	1470540	1164882	633405	1357	745364	568214	906	33969	1221209	947525	581	909928	265975	82345	985001	838	497	552808	120376	349742	123375	1213720	51668	29465	151038	81463
 bsdb:34394853/2/1_Open-angle-glaucoma:POAG-(Primary-open-angle-glaucoma)_vs_Control-subjects_UP	NA	216851	186803	572511	375288	53425
@@ -4679,8 +4684,8 @@ bsdb:35863004/2/1_Type-II-diabetes-mellitus:type-2-diabetes-mellitus-(T2DM)_vs_h
 bsdb:35865814/1/1_Prostate-carcinoma:Prostate-Cancer-(PCa),--Cohort-1-(Discovery-Cohort)_vs_Benign-prostatic-hyperplasia-(BPH),--Cohort-1-(Discovery-Cohort)_UP	NA	374	495	83655	88688	68895	515489	40215	484	1325724	410	164546
 bsdb:35865814/1/2_Prostate-carcinoma:Prostate-Cancer-(PCa),--Cohort-1-(Discovery-Cohort)_vs_Benign-prostatic-hyperplasia-(BPH),--Cohort-1-(Discovery-Cohort)_UP	NA	2040	165779	43668	1696	10	59732	283	1716	59734	57493	68	186650	265	286	83618	1060	265976	1279	40323	71999	39650	316	1290	38304	173362	29378	29382	54007
 bsdb:35888992/1/1_Inflammation-of-the-large-intestine,Inflammatory-bowel-disease:Inflammatory-bowel-disease-patients_vs_Healthy-controls_DOWN	NA	1683	1681	1686	216816	28026	626937	1535	29347	39485	39491	39496	1579	1597	2173	454154	166486	360807	301301	40518	1305	1308	214856	328814	328813	649756	47678	357276	487174	261299	239935
-bsdb:35888992/2/1_Inflammation-of-the-large-intestine:Non-inflammatory-bowel-disease-symptomatic-controls_vs_Healthy-children_DOWN	NA	1683	410072	39485	39492	40518	1308	328814	47678	357276
-bsdb:35888992/2/2_Inflammation-of-the-large-intestine:Non-inflammatory-bowel-disease-symptomatic-controls_vs_Healthy-children_UP	NA	1352	545
+bsdb:35888992/2/1_Inflammation-of-the-large-intestine,Inflammatory-bowel-disease:Non-inflammatory-bowel-disease-symptomatic-controls_vs_Healthy-children_DOWN	NA	1683	410072	39485	39492	40518	1308	328814	47678	357276
+bsdb:35888992/2/2_Inflammation-of-the-large-intestine,Inflammatory-bowel-disease:Non-inflammatory-bowel-disease-symptomatic-controls_vs_Healthy-children_UP	NA	1352	545
 bsdb:35888992/3/1_Inflammation-of-the-large-intestine,Inflammatory-bowel-disease:inflammatory-bowel-disease-patients_vs_non-inflammatory-bowel-disease-symptomatic-controls_DOWN	NA	454154	1680	1683	1681	626937	1535	901	39491	39492	39496	1579	1597	166486	360807	301301	40518	214856	310297	46506	239935
 bsdb:35888992/3/2_Inflammation-of-the-large-intestine,Inflammatory-bowel-disease:inflammatory-bowel-disease-patients_vs_non-inflammatory-bowel-disease-symptomatic-controls_UP	NA	729
 bsdb:35888992/4/1_Phenotype:Crohn's-Disease-patients-with-stricturing-and/or-penetrating-phenotypes_vs_Crohn's-Disease-patients-with-inflammatory-phenotypes_DOWN	NA	626937	29347	39485	301301
@@ -5896,8 +5901,8 @@ bsdb:37864204/59/1_NA:Mitochondrial-haplogroups-C_vs_Mitochondrial-haplogroups-A
 bsdb:37864204/60/1_Atopic-eczema:Mitochondrial-haplogroups-C_vs_Mitochondrial-haplogroups-A_DOWN	NA	201174	1663	816
 bsdb:37864204/61/1_Atopic-eczema:Mitochondrial-haplogroups-C_vs_Mitochondrial-haplogroups-A_UP	NA	976
 bsdb:37864204/61/2_Atopic-eczema:Mitochondrial-haplogroups-C_vs_Mitochondrial-haplogroups-A_DOWN	NA	295418	724
-bsdb:37864204/62/1_NA:Mitochondrial-haplogroups-C_vs_Mitochondrial-haplogroups-A_UP	NA	32207	195950	40323
-bsdb:37864204/62/2_NA:Mitochondrial-haplogroups-C_vs_Mitochondrial-haplogroups-A_DOWN	NA	201174	237	745
+bsdb:37864204/62/1_Atopic-eczema:Mitochondrial-haplogroups-C_vs_Mitochondrial-haplogroups-A_UP	NA	32207	195950	40323
+bsdb:37864204/62/2_Atopic-eczema:Mitochondrial-haplogroups-C_vs_Mitochondrial-haplogroups-A_DOWN	NA	201174	237	745
 bsdb:37864204/63/1_Atopic-eczema:Mitochondrial-haplogroups-C_vs_Mitochondrial-haplogroups-A_DOWN	NA	841
 bsdb:37864204/64/1_Atopic-eczema:Mitochondrial-haplogroups-C_vs_Mitochondrial-haplogroups-A_UP	NA	724
 bsdb:37864204/64/2_Atopic-eczema:Mitochondrial-haplogroups-C_vs_Mitochondrial-haplogroups-A_DOWN	NA	816	1016	482
@@ -6208,8 +6213,8 @@ bsdb:38245675/1/2_Menopause:Postmenopausal-women-group_vs_Premenopausal-women-gr
 bsdb:38245675/3/1_Viral-load:High-SARS-CoV-2-viral-load-group_vs_Moderate-SARS-CoV-2-viral-load-group_UP	NA	1283313	724	425941	32067	482	28124	28132	152509
 bsdb:38262927/1/1_NA:female_vs_male_UP	NA	216572
 bsdb:38262927/1/2_NA:female_vs_male_DOWN	NA	168470	432330
-bsdb:38262927/2/1_Infectious-meningitis:NH:-infected-individuals_vs_H:-uninfected-individuals_UP	NA	375288
-bsdb:38262927/2/2_Infectious-meningitis:NH:-infected-individuals_vs_H:-uninfected-individuals_DOWN	NA	239934	283168
+bsdb:38262927/2/1_NA:NH:-infected-individuals_vs_H:-uninfected-individuals_UP	NA	375288
+bsdb:38262927/2/2_NA:NH:-infected-individuals_vs_H:-uninfected-individuals_DOWN	NA	239934	283168
 bsdb:38274754/1/1_Chronic-constipation:Functional-constipation-(FC)-group_vs_Healthy-Controls_UP	NA	816	397864	1980681	1348911	290054	42322	946234	1505657	570	39485	877420	33038	459786	375288
 bsdb:38274754/1/2_Chronic-constipation:Functional-constipation-(FC)-group_vs_Healthy-Controls_DOWN	NA	158846	102106
 bsdb:38274754/2/1_Chronic-constipation:Functional-constipation-(FC)-group_vs_Healthy-Controls_UP	NA	815	816	46506	91347	543	1940338	186802	290054	1236	28050	877420	216572	375288	310298	357276	821	1224	292632	2005525
