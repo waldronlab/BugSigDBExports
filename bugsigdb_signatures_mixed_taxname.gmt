@@ -1,4 +1,4 @@
-# BugSigDB 2026-01-27_00:01_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2026-01-27_01:28_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:11/1/1_NA:HIV-patients-with-lesion-at-12-months_vs_HIV-pateints-with-normal-tissue-at-6-months_DOWN	NA	Gardnerella vaginalis
 bsdb:39/1/1_body-odor-measurement:youth-underarm-after-exercise_vs_youth-underarm-before_UP	NA	Staphylococcus epidermidis
 bsdb:39/1/2_body-odor-measurement:youth-underarm-after-exercise_vs_youth-underarm-before_DOWN	NA	Paracoccus
@@ -102,7 +102,7 @@ bsdb:20679230/2/1_Ethnic-group,Place-of-residence-measurement:Rural-African-Chil
 bsdb:20844065/1/1_Obesity:infants-of-overweight-mothers_vs_infants-of-normal-weight-mother-at-age-1-month_DOWN	NA	Bacteroides	Prevotella
 bsdb:20844065/2/1_Obesity:infants-of-overweight-mothers_vs_infants-of-normal-weight-mother-at-age-6-month_UP	NA	Hathewaya histolytica	Bifidobacterium catenulatum
 bsdb:20844065/3/1_Obesity:infants-of-excessive-maternal-weight-gain-mothers_vs_infants-of-normal-maternal-weight-gain-mothers-at-age-1-month_DOWN	NA	Bacteroides	Prevotella
-bsdb:20844065/4/1_NA:infants-of-excessive-maternal-weight-gain-mothers_vs_infants-of-normal-maternal-weight-gain-mothers-at-age-6-months_UP	NA	Hathewaya histolytica
+bsdb:20844065/4/1_Obesity:infants-of-excessive-maternal-weight-gain-mothers_vs_infants-of-normal-maternal-weight-gain-mothers-at-age-6-months_UP	NA	Hathewaya histolytica
 bsdb:21188149/1/1_Smoking-behavior:right-oropharynx-of-smokers_vs_right-oropharynx-of-nonsmokers_UP	NA	Capnocytophaga	Peptostreptococcus	Fusobacterium	Acidovorax	Haemophilus	Neisseria
 bsdb:21188149/1/2_Smoking-behavior:right-oropharynx-of-smokers_vs_right-oropharynx-of-nonsmokers_DOWN	NA	Megasphaera	Veillonella	Hallella	Streptococcus	Oscillospiraceae
 bsdb:21188149/2/1_Smoking-behavior:left-oropharynx-of-smokers_vs_left-oropharynx-of-nonsmokers_UP	NA	Capnocytophaga	Fusobacterium	Neisseria	Aggregatibacter
@@ -651,6 +651,8 @@ bsdb:26641451/2/1_esophageal-cancer:Esophageal-Squamous-cell-carcinoma-(ESCC)_vs
 bsdb:26641451/2/2_esophageal-cancer:Esophageal-Squamous-cell-carcinoma-(ESCC)_vs_Healthy-controls_DOWN	NA	Acholeplasma	Actinomyces	Aggregatibacter	Atopobium	Bulleidia	Butyrivibrio	Campylobacter	Cardiobacterium	Catonella	Corynebacterium	Dialister	Filifactor	Haemophilus	Lautropia	Leptotrichia	Megasphaera	Neisseria	Oribacterium	Peptococcus	Peptostreptococcus	Rothia	Selenomonas	Treponema	Veillonella	Bacillaceae
 bsdb:26663491/1/1_Food-allergy:children-with-food-sensitization_vs_healthy-controls_UP	NA	Akkermansia	Bifidobacterium	Collinsella	Enterococcus	Faecalibacterium	Lactobacillus	Roseburia	Ruminococcus	Sphingomonas	Subdoligranulum	Sutterella	Oscillospiraceae	uncultured Clostridium sp.
 bsdb:26663491/1/2_Food-allergy:children-with-food-sensitization_vs_healthy-controls_DOWN	NA	Alistipes	Bacteroides	Parabacteroides	Prevotella	Streptococcus	Veillonella
+bsdb:26663491/2/1_Food-allergy:children-with-food-sensitization_vs_healthy-controls_UP	NA	Alphaproteobacteria	Bacillota	Clostridia	Eubacteriales	Subdoligranulum	Oscillospiraceae
+bsdb:26663491/2/2_Food-allergy:children-with-food-sensitization_vs_healthy-controls_DOWN	NA	Bacteroidaceae	Bacteroidales	Bacteroides	Bacteroidia	Bacteroidota	Veillonella
 bsdb:26682545/1/1_anorexia-nervosa:anorexia-nervosa-patients_vs_healthy-controls_DOWN	NA	Bacteroides fragilis	Lactiplantibacillus plantarum	Streptococcus	Blautia producta	[Clostridium] leptum
 bsdb:26729566/1/1_Gastric-cancer:high-gastric-cancer-risk-patients-(Tuquerres-residents)_vs_low-gastric-cancer-risk-patients-(Tumaco-residents)_UP	NA	Leptotrichia wadei	Veillonella sp.
 bsdb:26729566/1/2_Gastric-cancer:high-gastric-cancer-risk-patients-(Tuquerres-residents)_vs_low-gastric-cancer-risk-patients-(Tumaco-residents)_DOWN	NA	Actinomyces sp.	Capnocytophaga gingivalis	Flavobacteriaceae	Flavobacterium sp.	Neisseria flavescens	Neisseria sp.	Porphyromonadaceae	Porphyromonas sp.	Segatella oris	Rothia sp. (in: high G+C Gram-positive bacteria)	Sphingomonadaceae	Staphylococcus sp.	Streptococcus oralis	uncultured Haematobacter sp.
@@ -1756,10 +1758,15 @@ bsdb:29971220/4/1_Stomach-neoplasm:gastritis-cases_vs_normal_UP	NA	Anaerotruncus
 bsdb:29971220/4/2_Stomach-neoplasm:gastritis-cases_vs_normal_DOWN	NA	Bacteroidales	Bacteroidota	Bacteroidia
 bsdb:29971220/5/1_Stomach-neoplasm:subjects-with-metaplasia_vs_normal_UP	NA	Bacillota	Clostridia	Dialister	Dorea	Enterobacterales	Enterobacteriaceae	Erysipelotrichaceae	Erysipelotrichales	Erysipelotrichia	Eubacteriales	Eubacterium coprostanoligenes	Lachnoclostridium	Gammaproteobacteria	Lachnospiraceae	Peptostreptococcaceae	Pseudomonadota	Romboutsia	Turicibacter	Clostridiaceae	Clostridiales bacterium
 bsdb:29971220/5/2_Stomach-neoplasm:subjects-with-metaplasia_vs_normal_DOWN	NA	Bacteroidales	Bacteroidota	Bacteroidia
+bsdb:29971220/6/1_Gastric-cancer:subjects-with-metaplasia_vs_subjects-with-gastritis_UP	NA	Enterobacterales	Enterobacteriaceae	Gammaproteobacteria	Pseudomonadota
+bsdb:29971220/6/2_Gastric-cancer:subjects-with-metaplasia_vs_subjects-with-gastritis_DOWN	NA	Clostridia	Clostridiaceae	Clostridiales bacterium
 bsdb:29988340/1/1_Sex-design:female_vs_male_UP	NA	Ruminococcus
 bsdb:29988340/2/1_Obesity:female-obese_vs_female-normal-weight_DOWN	NA	Phascolarctobacterium
+bsdb:29988340/3/1_Obesity:male-obese_vs_male-normal-weight_UP	NA	Butyricimonas	Fusobacterium
 bsdb:30001426/1/1_Attention-deficit-hyperactivity-disorder:ADHD-males_vs_controls_UP	NA	Neisseriaceae	Neisseria	Bacteroides
 bsdb:30001426/1/2_Attention-deficit-hyperactivity-disorder:ADHD-males_vs_controls_DOWN	NA	Prevotellaceae	Christensenellaceae	Porphyromonadaceae	Prevotella	Parabacteroides
+bsdb:30006660/1/1_Urinary-tract-infection:urinary-tract-infection_vs_healthy-controls_UP	NA	Enterobacter	Holdemania massiliensis	Priestia flexa	Enterocloster asparagiformis	Enterococcus dispar	Blautia glucerasea
+bsdb:30006660/1/2_Urinary-tract-infection:urinary-tract-infection_vs_healthy-controls_DOWN	NA	Clostridium tertium	Dialister	Finegoldia	Finegoldia magna	Haemophilus	Haemophilus parainfluenzae	Massilia	Oxalobacteraceae	Pasteurellaceae	Pasteurellales	Peptostreptococcaceae	Hoylesella timonensis	Massilia aurea	Romboutsia lituseburensis
 bsdb:30007242/1/1_Response-to-ketogenic-diet:post-ketogenic-diet_vs_pre-ketogenic-diet_UP	NA	Bacteroidaceae	Bacteroidales	Bacteroides	Bacteroidia	Bacteroidota
 bsdb:30007242/1/2_Response-to-ketogenic-diet:post-ketogenic-diet_vs_pre-ketogenic-diet_DOWN	NA	Acinetobacter	Actinomycetales	Actinomycetes	Actinomycetota	Bacillota	Burkholderiaceae	Clostridia	Coprobacter	Eubacteriales	Faecalibacterium	Lachnospiraceae	Leucobacter	Microbacteriaceae	Moraxellaceae	Oscillospiraceae	Pseudomonadaceae	Pseudomonadales	Pseudomonas
 bsdb:30007242/2/1_Response-to-ketogenic-diet:post-ketogenic-diet-nonresponders_vs_post-ketogenic-diet-responders_UP	NA	Actinomycetes	Actinomycetota	Alistipes	Anaerotruncus	Blautia	Clostridia	Coriobacteriaceae	Coriobacteriales	Dorea	Eggerthella	Eubacteriales	Fusicatenibacter	Gordonibacter	Helicobacter	Helicobacteraceae	Lachnospiraceae	Oscillibacter	Oscillospiraceae	Rikenellaceae	Streptococcaceae	Streptococcus
@@ -2247,7 +2254,7 @@ bsdb:30778376/4/1_Stroke:High-Risk-(HR)-Without-Medication-use_vs_Low-Risk-(LR)-
 bsdb:30778376/5/1_Cerebrovascular-disorder,Stroke:Medium-Risk-(MR)-Without-Medication-use_vs_Low-Risk-(LR)-and-High-Risk-(HR)-Without-Medication-use_UP	NA	Mitsuokella	Plesiomonas	Veillonella
 bsdb:30778376/6/1_Cerebrovascular-disorder:Low-Risk-(LR)-Without-Medication-use_vs_High-Risk-(HR)-and-Medium-Risk-(MR)-Without-Medication-use_UP	NA	Faecalibacterium	Peptostreptococcaceae
 bsdb:30778376/9/1_Cerebrovascular-disorder:Low-Risk-(LR)-With-Medication-use_vs_High-Risk-(HR)-and-Medium-Risk-(MR)-With-Medication-use_UP	NA	Aggregatibacter	Blautia	Hylemonella	Lachnospira	Lachnospiraceae	Lysinibacillus	Oscillospiraceae	Roseburia	Vagococcus	Streptococcaceae bacterium RF32
-bsdb:30778376/10/1_Cerebrovascular-disorder,Stroke:High-Risk-(HR)_vs_Low-Risk-(LR)-and-Medium-Risk-(MR)_UP	NA	Escherichia	Veillonella	Lactobacillaceae	Lactobacillus	Cetobacterium	Serratia
+bsdb:30778376/10/1_Stroke:High-Risk-(HR)_vs_Low-Risk-(LR)-and-Medium-Risk-(MR)_UP	NA	Escherichia	Veillonella	Lactobacillaceae	Lactobacillus	Cetobacterium	Serratia
 bsdb:30778376/11/1_Cerebrovascular-disorder:Medium-Risk-(MR)_vs_Low-Risk-(LR)-and-High-Risk-(HR)_UP	NA	Plesiomonas
 bsdb:30778376/13/1_Cerebrovascular-disorder,Stroke:High-Risk-(HR)_vs_Low-Risk-(LR)_UP	NA	Pseudomonadota
 bsdb:30778376/13/2_Cerebrovascular-disorder,Stroke:High-Risk-(HR)_vs_Low-Risk-(LR)_DOWN	NA	Roseburia	Lachnospiraceae	Oscillospiraceae	Faecalibacterium

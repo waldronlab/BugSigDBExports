@@ -1,4 +1,4 @@
-# BugSigDB 2026-01-26_22:01_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2026-01-27_01:28_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:39/1/2_body-odor-measurement:youth-underarm-after-exercise_vs_youth-underarm-before_DOWN	NA	Paracoccus
 bsdb:39/2/1_body-odor-measurement:youth-Neck-before_vs_after-excercise_DOWN	NA	Acinetobacter
 bsdb:39/3/1_body-odor-measurement:Children-underarm-before_vs_after-excercise_DOWN	NA	Paracoccus
@@ -461,6 +461,8 @@ bsdb:26641451/2/1_esophageal-cancer:Esophageal-Squamous-cell-carcinoma-(ESCC)_vs
 bsdb:26641451/2/2_esophageal-cancer:Esophageal-Squamous-cell-carcinoma-(ESCC)_vs_Healthy-controls_DOWN	NA	Acholeplasma	Actinomyces	Aggregatibacter	Atopobium	Bulleidia	Butyrivibrio	Campylobacter	Cardiobacterium	Catonella	Corynebacterium	Dialister	Filifactor	Haemophilus	Lautropia	Leptotrichia	Megasphaera	Neisseria	Oribacterium	Peptococcus	Peptostreptococcus	Rothia	Selenomonas	Treponema	Veillonella
 bsdb:26663491/1/1_Food-allergy:children-with-food-sensitization_vs_healthy-controls_UP	NA	Akkermansia	Bifidobacterium	Collinsella	Enterococcus	Faecalibacterium	Lactobacillus	Roseburia	Ruminococcus	Sphingomonas	Subdoligranulum	Sutterella
 bsdb:26663491/1/2_Food-allergy:children-with-food-sensitization_vs_healthy-controls_DOWN	NA	Alistipes	Bacteroides	Parabacteroides	Prevotella	Streptococcus	Veillonella
+bsdb:26663491/2/1_Food-allergy:children-with-food-sensitization_vs_healthy-controls_UP	NA	Subdoligranulum
+bsdb:26663491/2/2_Food-allergy:children-with-food-sensitization_vs_healthy-controls_DOWN	NA	Bacteroides	Veillonella
 bsdb:26682545/1/1_anorexia-nervosa:anorexia-nervosa-patients_vs_healthy-controls_DOWN	NA	Streptococcus
 bsdb:26731268/1/1_Polycystic-ovary-syndrome:Letrozole-treated_vs_Placebo-treated_UP	NA	Allobaculum	Blautia	Coprococcus	Roseburia
 bsdb:26731268/1/2_Polycystic-ovary-syndrome:Letrozole-treated_vs_Placebo-treated_DOWN	NA	Alistipes	Dehalobacterium
@@ -1347,8 +1349,11 @@ bsdb:29971220/4/1_Stomach-neoplasm:gastritis-cases_vs_normal_UP	NA	Anaerotruncus
 bsdb:29971220/5/1_Stomach-neoplasm:subjects-with-metaplasia_vs_normal_UP	NA	Dialister	Dorea	Lachnoclostridium	Romboutsia	Turicibacter
 bsdb:29988340/1/1_Sex-design:female_vs_male_UP	NA	Ruminococcus
 bsdb:29988340/2/1_Obesity:female-obese_vs_female-normal-weight_DOWN	NA	Phascolarctobacterium
+bsdb:29988340/3/1_Obesity:male-obese_vs_male-normal-weight_UP	NA	Butyricimonas	Fusobacterium
 bsdb:30001426/1/1_Attention-deficit-hyperactivity-disorder:ADHD-males_vs_controls_UP	NA	Neisseria	Bacteroides
 bsdb:30001426/1/2_Attention-deficit-hyperactivity-disorder:ADHD-males_vs_controls_DOWN	NA	Prevotella	Parabacteroides
+bsdb:30006660/1/1_Urinary-tract-infection:urinary-tract-infection_vs_healthy-controls_UP	NA	Enterobacter
+bsdb:30006660/1/2_Urinary-tract-infection:urinary-tract-infection_vs_healthy-controls_DOWN	NA	Dialister	Finegoldia	Haemophilus	Massilia
 bsdb:30007242/1/1_Response-to-ketogenic-diet:post-ketogenic-diet_vs_pre-ketogenic-diet_UP	NA	Bacteroides
 bsdb:30007242/1/2_Response-to-ketogenic-diet:post-ketogenic-diet_vs_pre-ketogenic-diet_DOWN	NA	Acinetobacter	Coprobacter	Faecalibacterium	Leucobacter	Pseudomonas
 bsdb:30007242/2/1_Response-to-ketogenic-diet:post-ketogenic-diet-nonresponders_vs_post-ketogenic-diet-responders_UP	NA	Alistipes	Anaerotruncus	Blautia	Dorea	Eggerthella	Fusicatenibacter	Gordonibacter	Helicobacter	Oscillibacter	Streptococcus
@@ -1733,7 +1738,7 @@ bsdb:30778376/4/1_Stroke:High-Risk-(HR)-Without-Medication-use_vs_Low-Risk-(LR)-
 bsdb:30778376/5/1_Cerebrovascular-disorder,Stroke:Medium-Risk-(MR)-Without-Medication-use_vs_Low-Risk-(LR)-and-High-Risk-(HR)-Without-Medication-use_UP	NA	Mitsuokella	Plesiomonas	Veillonella
 bsdb:30778376/6/1_Cerebrovascular-disorder:Low-Risk-(LR)-Without-Medication-use_vs_High-Risk-(HR)-and-Medium-Risk-(MR)-Without-Medication-use_UP	NA	Faecalibacterium
 bsdb:30778376/9/1_Cerebrovascular-disorder:Low-Risk-(LR)-With-Medication-use_vs_High-Risk-(HR)-and-Medium-Risk-(MR)-With-Medication-use_UP	NA	Aggregatibacter	Blautia	Hylemonella	Lachnospira	Lysinibacillus	Roseburia	Vagococcus
-bsdb:30778376/10/1_Cerebrovascular-disorder,Stroke:High-Risk-(HR)_vs_Low-Risk-(LR)-and-Medium-Risk-(MR)_UP	NA	Escherichia	Veillonella	Lactobacillus	Cetobacterium	Serratia
+bsdb:30778376/10/1_Stroke:High-Risk-(HR)_vs_Low-Risk-(LR)-and-Medium-Risk-(MR)_UP	NA	Escherichia	Veillonella	Lactobacillus	Cetobacterium	Serratia
 bsdb:30778376/11/1_Cerebrovascular-disorder:Medium-Risk-(MR)_vs_Low-Risk-(LR)-and-High-Risk-(HR)_UP	NA	Plesiomonas
 bsdb:30778376/13/2_Cerebrovascular-disorder,Stroke:High-Risk-(HR)_vs_Low-Risk-(LR)_DOWN	NA	Roseburia	Faecalibacterium
 bsdb:30778376/14/1_Cerebrovascular-disorder,Stroke:High-Risk-(HR)_vs_Low-Risk-(LR)_UP	NA	Corynebacterium	Megasphaera	Streptococcus	Christensenella	Methylobacterium	Delftia	Leuconostoc	Plesiomonas	Anaerostipes
