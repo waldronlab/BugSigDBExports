@@ -1,4 +1,4 @@
-# BugSigDB 2026-01-28_03:29_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2026-01-28_04:18_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:11/1/1_Cervical-glandular-intraepithelial-neoplasia:HIV-patients-with-lesion-at-12-months_vs_HIV-pateints-with-normal-tissue-at-6-months_DOWN	NA	2702
 bsdb:39/1/1_body-odor-measurement:youth-underarm-after-exercise_vs_youth-underarm-before_UP	NA	1282
 bsdb:39/2/1_body-odor-measurement:youth-Neck-before_vs_after-excercise_DOWN	NA	33011	108981
@@ -314,7 +314,7 @@ bsdb:27838347/2/1_Atopic-asthma:atopic-no-asthma_vs_healthy-control_UP	NA	739	72
 bsdb:27838347/2/2_Atopic-asthma:atopic-no-asthma_vs_healthy-control_DOWN	NA	57037
 bsdb:27838347/3/1_Allergic-asthma:atopic-asthma_vs_atopic-no-asthma_UP	NA	28449	28131
 bsdb:27838347/3/2_Allergic-asthma:atopic-asthma_vs_atopic-no-asthma_DOWN	NA	739	817	1018	996	727	729	57037	165179	425941	117207	59892	33038
-bsdb:27838347/4/2_Allergic-asthma:inhaled-corticosteroid-responder_vs_nonresponder_DOWN	NA	351
+bsdb:27838347/4/2_Atopic-asthma:inhaled-corticosteroid-responder_vs_nonresponder_DOWN	NA	351
 bsdb:27884202/1/2_Sampling-site:Colonic-Lavage-Sample_vs_Colonic-Biopsy-sample_DOWN	NA	1955243
 bsdb:28018325/1/1_Cesarean-section:C-section-delivery_vs_vaginal-delivery-after-7-days-of-delivery_DOWN	NA	1596
 bsdb:28018325/3/1_Cesarean-section:C-section-delivery_vs_vaginal-delivery-after-6-months-of-delivery_DOWN	NA	1598
@@ -421,8 +421,8 @@ bsdb:29097494/3/1_Non-small-cell-lung-carcinoma,Renal-cell-carcinoma,Disease-pro
 bsdb:29102920/1/1_gastric-carcinoma:gastric-carcinoma_vs_chronic-gastritis_UP	NA	134375	1871047	1896336	1506	1871046	306	1831
 bsdb:29102920/1/2_gastric-carcinoma:gastric-carcinoma_vs_chronic-gastritis_DOWN	NA	218	192066	59823	1306	1966354
 bsdb:29152146/3/1_Menopause:Peri/postmenopausal-women_vs_Premenopausal-women_UP	NA	1898207	239775
-bsdb:29167295/2/1_NA:maternal-asthma_vs_no-asthma_UP	NA	817
-bsdb:29167295/2/2_NA:maternal-asthma_vs_no-asthma_DOWN	NA	1506
+bsdb:29167295/2/1_Asthma:maternal-asthma_vs_no-asthma_UP	NA	817
+bsdb:29167295/2/2_Asthma:maternal-asthma_vs_no-asthma_DOWN	NA	1506
 bsdb:29172724/1/1_Type-II-diabetes-mellitus:diabetic_vs_healthy-controls_UP	NA	342873
 bsdb:29180991/1/1_Chronic-hepatitis-B-virus-infection:chronic-hepatitis-B-patients_vs_healthy-controls_UP	NA	1506
 bsdb:29180991/1/2_Chronic-hepatitis-B-virus-infection:chronic-hepatitis-B-patients_vs_healthy-controls_DOWN	NA	1898207	1940338
@@ -448,9 +448,9 @@ bsdb:29302014/3/2_Response-to-immunochemotherapy:Responders,-group-A_vs_Non-resp
 bsdb:29313867/2/1_Chlamydophila-infectious-disease,Human-papilloma-virus-infection:patient-with-chlamydia-infection_vs_HPV-positive-women_UP	NA	813
 bsdb:29317709/1/1_Gastric-cancer:patients-diagnosed-with-gastric-cancer_vs_patients-diagnosed-with-gastritis_UP	NA	179628	285729	851	1596	1598	187326	28131	28135	1302	1318
 bsdb:29320965/1/1_Hashimoto's-thyroiditis:hashimoto's-thyroiditis-patients_vs_healthy-controls_UP	NA	39488	42322	438033	33039
-bsdb:29327043/1/2_NA:HNSCC_vs_controls_DOWN	NA	327575	425941	69823
+bsdb:29327043/1/2_Head-and-neck-squamous-cell-carcinoma:HNSCC_vs_controls_DOWN	NA	327575	425941	69823
 bsdb:29327043/3/1_Squamous-cell-carcinoma:Pharynx-cancer-cases_vs_controls_DOWN	NA	544580	419208
-bsdb:29327043/4/2_squamous-cell-carcinoma:Oral-cavity-cancer-cases_vs_controls_DOWN	NA	490	33033
+bsdb:29327043/4/2_Squamous-cell-carcinoma:Oral-cavity-cancer-cases_vs_controls_DOWN	NA	490	33033
 bsdb:29353409/1/1_Urolithiasis,Nephrolithiasis:kidney-stone-group_vs_healthy-control_UP	NA	53254	562	287	33038	2212467
 bsdb:29353409/1/2_Urolithiasis,Nephrolithiasis:kidney-stone-group_vs_healthy-control_DOWN	NA	638849	1680	360807	328814	328813	310297
 bsdb:29353409/2/2_Nephrolithiasis,Urolithiasis:kidney-stone-group_vs_healthy-control_DOWN	NA	39488	42322
@@ -983,6 +983,7 @@ bsdb:31534227/10/2_Breastfeeding-duration:Breastfeeding_status-on-day-4_vs_No-Br
 bsdb:31534227/11/1_Delivery-measurement:Vaginal-deliveries-on-day-4_vs_Deliveries-by-caesarean-section-on-day-4_UP	NA	817	820	1680	74426	823	357276	821	1681	562
 bsdb:31534227/11/2_Delivery-measurement:Vaginal-deliveries-on-day-4_vs_Deliveries-by-caesarean-section-on-day-4_DOWN	NA	1502	550	1351	729	1282	1318	39778	29466	43675
 bsdb:31534227/12/1_Place-of-residence-measurement:The-University-Hospitals-Leicester-NHS-Trust-(LEI)-on-day-4_vs_The-Barking,-Havering-and-Redbridge-University-Hospitals-NHS-Trust-and-the-University-College-London-Hospitals-NHS-Foundation-Trust-(BHR-+-UCLH)-on-day-4_DOWN	NA	1351	1379
+bsdb:31534227/13/1_Response-to-antibiotic:Abx_mother_labour_IAP-on-day-7-for-vaginal-delivery;-[where-Abx-is-antibiotics,-and-IAP-is-Intrapartum-antibiotic-prophylaxis]_vs_No-Abx_mother_labour_IAP-on-day-7-for-vaginal-delivery[where-Abx-is-antibiotics,-and-IAP-is-Intrapartum-antibiotic-prophylaxis]_DOWN	NA	216816
 bsdb:31534227/14/1_Breastfeeding-duration:Breastfeeding_status-on-day-7_vs_No-Breastfeeding_status-on-day-7_UP	NA	1379	729	1303	1282
 bsdb:31534227/14/2_Breastfeeding-duration:Breastfeeding_status-on-day-7_vs_No-Breastfeeding_status-on-day-7_DOWN	NA	571	1318	1343	1308
 bsdb:31534227/15/1_Delivery-measurement:Vaginal-deliveries-on-day-7_vs_Deliveries-by-caesarean-section-on-day-7_UP	NA	1685	562	1290	823	74426	820	821	357276	1681	216816
@@ -1160,6 +1161,7 @@ bsdb:32280686/1/1_Colorectal-cancer:colorectal-cancer-patients_vs_healthy-contro
 bsdb:32280686/1/2_Colorectal-cancer:colorectal-cancer-patients_vs_healthy-controls_DOWN	NA	1591	41200	1506
 bsdb:32299442/1/1_Endometriosis:Endometriosis-patients_vs_Controls-Subject-undergoing-laparoscopic-surgery-for-benign-tumors_UP	NA	147802	33069	306
 bsdb:32299442/1/2_Endometriosis:Endometriosis-patients_vs_Controls-Subject-undergoing-laparoscopic-surgery-for-benign-tumors_UP	NA	1591	33038	28128	37734	69966	28454
+bsdb:32312186/1/1_Autism-spectrum-disorder:Children-with-Autism-Spectrum-Disorder-(ASD)_vs_Typically-developing-individuals_UP	NA	1940338
 bsdb:32312186/2/1_Autism-spectrum-disorder:Children-with-constipated-Autism-Spectrum-Disorder-(C-ASD)_vs_Typically-developing-individuals_DOWN	NA	671218	76122	1396	1633203	85831	47678	626929	871325	626930	290053	291644	1262736	1262739	1262740	1262743	1262744	1262747	1262752	1739517	46506	1470345	397865	824	1491	263511	901	1736	996	242750	425941	407975	397290	363265	574930	1262913	454155	363849	626940	376804	387090	310297	376805	36874	837	419005	28129	589436	470565	60133	1262918	1262921	1262924	1262935	1262937	1032506	712461	46206	287	439703	228604	971	1307	437898	1676614	162156
 bsdb:32312186/3/1_Autism-spectrum-disorder:Children-with-Autism-Spectrum-Disorder-(ASD)_vs_Typically-developing-individuals_UP	NA	39497	39496
 bsdb:32312186/3/2_Autism-spectrum-disorder:Children-with-Autism-Spectrum-Disorder-(ASD)_vs_Typically-developing-individuals_DOWN	NA	39485	33039
@@ -1406,6 +1408,8 @@ bsdb:33219095/1/1_COVID-19:COVID-19-cases_vs_COVID-19-negative-controls_DOWN	NA	
 bsdb:33220709/1/1_Vaginal-inflammation:High-Genital-Inflammation_vs_Low-Genital-Inflammation_UP	NA	1588753	82135	2702	1000569	419005	1284775	456999	245174	165186	230139
 bsdb:33220709/1/2_Vaginal-inflammation:High-Genital-Inflammation_vs_Low-Genital-Inflammation_DOWN	NA	47770	96565	1587	109790	33959	267818	4897	1584
 bsdb:33224990/1/2_Diabetes-mellitus:Individuals-diagnosed-with-Type-2-Diabetes-Mellitus_vs_Healthy-controls_UP	NA	1940338
+bsdb:33234057/2/1_Graves-disease,Hashimoto's-thyroiditis:Hashimoto's-positive_vs_Hashimoto's-negative_UP	NA	877420
+bsdb:33234057/2/2_Graves-disease,Hashimoto's-thyroiditis:Hashimoto's-positive_vs_Hashimoto's-negative_DOWN	NA	39491
 bsdb:33241010/2/1_Cervical-glandular-intraepithelial-neoplasia:transient-HPV+-with-HSIL_vs_transient-HPV+-with-LSIL_DOWN	NA	1522
 bsdb:33241010/3/1_Cervical-glandular-intraepithelial-neoplasia:transient-HPV+-with-LSIL_vs_HPV-_DOWN	NA	1522
 bsdb:33241010/5/1_NA:persistent-HPV+-with-HSIL_vs_persistent-HPV+-with-LSIL_UP	NA	1311
@@ -1756,7 +1760,7 @@ bsdb:34445764/4/2_Breast-cancer:HR+-BC-patients_vs_HR--BC-patients_DOWN	NA	1404	
 bsdb:34445764/5/1_NA:HER2+-BC-patients_vs_HER2--BC-patients_UP	NA	210	69223	2654547	134537	945844
 bsdb:34445764/6/1_Breast-cancer:Ki67->-20%-BC-patients_vs_Ki67-<-20%-BC-patients_UP	NA	412963	1850250	78587
 bsdb:34445764/6/2_Breast-cancer:Ki67->-20%-BC-patients_vs_Ki67-<-20%-BC-patients_DOWN	NA	2306583	34062	1396	1280	2702	1513	544580	147802
-bsdb:34568329/1/1_NA:Behcet's-disease-recipient-mice_vs_Healthy-controls-recipient-mice_UP	NA	562
+bsdb:34568329/1/1_Behcet's-syndrome:Behcet's-disease-recipient-mice_vs_Healthy-controls-recipient-mice_UP	NA	562
 bsdb:34584098/2/1_Colorectal-cancer:Patients-with-early-CRC_vs_Healthy-Individuals_UP	NA	851	29391	341694
 bsdb:34584098/3/1_Colorectal-cancer:Patients-with-advanced-CRC_vs_Healthy-Individuals_UP	NA	76122	39950	851	29391	33033	1261	341694	28123	837	28131	102148
 bsdb:34617511/1/2_Ethnic-group:East-Asian-(EA)_vs_White-(W)_DOWN	NA	1883427
@@ -1970,8 +1974,8 @@ bsdb:35196800/3/1_Lung-cancer:Lung-cancer-patient-group-(LCG)_vs_Healthy-Control
 bsdb:35196800/4/1_Mycobacterium-tuberculosis:Untreated-pulmonary-TB-group-(UTG)_vs_Treated-pulmonary-TB-group-(TTG)-and-cured-pulmonary-TB-group-(CTG)_UP	NA	747	1280
 bsdb:35211481/1/1_Chronic-constipation:Slow-transit-constipation-(STC)-group_vs_Healthy-controls_UP	NA	239935	457421	84112	333367	358743	658657	457422	471189	154046	658086	658087	328812	46503	40518	1535	1512
 bsdb:35211481/1/2_Chronic-constipation:Slow-transit-constipation-(STC)-group_vs_Healthy-controls_DOWN	NA	658085	166486	665956	29347	100884
-bsdb:35216552/1/1_NA:Melanoma-surface-of-pigs-with-Melanoma-progression_vs_Melanoma-surface-of-pigs-with-with-melanoma-regression_UP	NA	1151637
-bsdb:35216552/1/2_NA:Melanoma-surface-of-pigs-with-Melanoma-progression_vs_Melanoma-surface-of-pigs-with-with-melanoma-regression_DOWN	NA	3068309	438033
+bsdb:35216552/1/1_Disease-staging:Melanoma-surface-of-pigs-with-Melanoma-progression_vs_Melanoma-surface-of-pigs-with-with-melanoma-regression_UP	NA	1151637
+bsdb:35216552/1/2_Disease-staging:Melanoma-surface-of-pigs-with-Melanoma-progression_vs_Melanoma-surface-of-pigs-with-with-melanoma-regression_DOWN	NA	3068309	438033
 bsdb:35216552/2/1_Disease-staging:Melanoma-tissue-of-pigs-with-Melanoma-progression_vs_Melanoma-tissue-of-pigs-with-with-melanoma-regression_UP	NA	1588753	1230734
 bsdb:35216552/2/2_Disease-staging:Melanoma-tissue-of-pigs-with-Melanoma-progression_vs_Melanoma-tissue-of-pigs-with-with-melanoma-regression_DOWN	NA	604273
 bsdb:35216552/3/1_NA:melanoma-surface-from-black-pigs_vs_healthy-skin_UP	NA	3068309	438033
@@ -1992,6 +1996,8 @@ bsdb:35276770/2/2_Iron-biomarker-measurement:Ferrous-bis-glycinate-chelate-(FC)-
 bsdb:35276770/3/2_NA:Ferrous-bis-glycinate-chelate-(FC)-treated-pups-(PD-15)_vs_Ferrous-sulfate-(FS)-treated-pups-(PD-15)_DOWN	NA	39497	1946507	877420	194843	584861	244328	77133	155900	32644
 bsdb:35276770/4/1_Iron-biomarker-measurement:Ferrous-sulfate-(FS)-treated-young-Adult--(YA)-rats-(PD-58-+/--4)_vs_Vehicle-control-supplemented-(CON)-young-Adult-(YA)-rats_UP	NA	344338	77133	32644	59620
 bsdb:35276770/4/2_Iron-biomarker-measurement:Ferrous-sulfate-(FS)-treated-young-Adult--(YA)-rats-(PD-58-+/--4)_vs_Vehicle-control-supplemented-(CON)-young-Adult-(YA)-rats_DOWN	NA	1940338	290055	77133	32644
+bsdb:35276770/5/1_Iron-biomarker-measurement:Ferrous-bis-glycinate-chelate-(FC)-treated-young-Adult--(YA)-rats-(PD-58-+/--4)_vs_Vehicle-control-supplemented-(CON)-young-Adult-rats_UP	NA	396504	155900	136703	60675
+bsdb:35276770/5/2_Iron-biomarker-measurement:Ferrous-bis-glycinate-chelate-(FC)-treated-young-Adult--(YA)-rats-(PD-58-+/--4)_vs_Vehicle-control-supplemented-(CON)-young-Adult-rats_DOWN	NA	1940338	42322	39496	39497	194843	584861	59620	297314	77133	32644
 bsdb:35276770/6/1_Iron-biomarker-measurement:Ferrous-bis-glycinate-chelate-(FC)-treated-young-Adult--(YA)-rats-(PD-58-+/--4)_vs_Ferrous-sulfate-(FS)-treated-young-Adult--(YA)-rats-(PD-58-+/--4)_UP	NA	290054	290055	1410626	396504	3068309	438033	35518	155900	136703	32644	60675
 bsdb:35276770/6/2_Iron-biomarker-measurement:Ferrous-bis-glycinate-chelate-(FC)-treated-young-Adult--(YA)-rats-(PD-58-+/--4)_vs_Ferrous-sulfate-(FS)-treated-young-Adult--(YA)-rats-(PD-58-+/--4)_DOWN	NA	1141839	42322	39496	39497	344338	194843	584861	220137	77133	136703	32644	297314
 bsdb:35291914/2/1_Meningioma:Benign-meningioma-group(M)_vs_Healthy-group-(H)-+-malignant-glioma-group(G)_UP	NA	1940338
@@ -2009,8 +2015,8 @@ bsdb:35440670/1/2_Ulcerative-colitis:Patients-with-ulcerative-colitis_vs_Healthy
 bsdb:35459771/1/1_Bacterial-vaginosis:Bacterial-Vaginosis-(BV)-Infected-Women_vs_Normal-Healthy-Women-&-High‑risk-human-papillomavirus(HR-HPV)-Infected-Women-(HPV)_UP	NA	386414
 bsdb:35476894/1/1_NA:Dim-light-at-night-(dLAN)---Control-group_vs_Normal-light‐dark-cycle-(LD)---Control-group_UP	NA	423410
 bsdb:35476894/3/2_Light:Dim-light-at-night-(dLAN)---DTA-group_vs_Normal-light‐dark-cycle-(LD)---DTA-group_DOWN	NA	209265	1729795	423410	1932694	163601
-bsdb:35532243/1/1_Inflammation-of-the-large-intestine,Inflammatory-bowel-disease:Ulcerative-colitis-(UC)_vs_Healthy-controls-(HC)_UP	NA	218538	292800
-bsdb:35532243/1/2_Inflammation-of-the-large-intestine,Inflammatory-bowel-disease:Ulcerative-colitis-(UC)_vs_Healthy-controls-(HC)_DOWN	NA	239935	729
+bsdb:35532243/1/1_Inflammatory-bowel-disease:Ulcerative-colitis-(UC)_vs_Healthy-controls-(HC)_UP	NA	218538	292800
+bsdb:35532243/1/2_Inflammatory-bowel-disease:Ulcerative-colitis-(UC)_vs_Healthy-controls-(HC)_DOWN	NA	239935	729
 bsdb:35532243/2/1_Inflammatory-bowel-disease:Crohn’s-disease-(CD)_vs_Healthy-controls-(HC)_UP	NA	218538	292800
 bsdb:35532243/2/2_Inflammatory-bowel-disease:Crohn’s-disease-(CD)_vs_Healthy-controls-(HC)_DOWN	NA	239935	729
 bsdb:35532243/4/2_Smoking-behavior:Smokers-(Yes)_vs_Non-Smokers-(No)_DOWN	NA	28116	357276
@@ -2113,7 +2119,7 @@ bsdb:35928983/4/2_Endometrial-cancer:High-Grade_vs_Low-Grade_DOWN	NA	202789	2931
 bsdb:35928983/5/1_Endometrial-carcinoma,Uterine-corpus-cancer:Serous_vs_Benign_UP	NA	861
 bsdb:35928983/5/2_Endometrial-carcinoma,Uterine-corpus-cancer:Serous_vs_Benign_DOWN	NA	2130	28112	28037	1343	1280	1282	28129	28136	419005	242750	59823	33031	2052	2051	157688	1632	147802	1596	1613	143361	178214	1351	39486	76517	216816	1685	72409	33036	1376	131111	33007	55565	66228	59505
 bsdb:35928983/6/1_Endometrial-cancer:Endometroid_vs_Benign_UP	NA	1596
-bsdb:35928983/7/1_Endometrial-carcinoma,Uterine-corpus-cancer:Serous_vs_Endometroid_DOWN	NA	66228	55565	131111	1376	33029	33032	33034	33036	1685	216816	76517	43765	169292	39791	38289	38303	43770	39486	1352	1351	178214	143361	88132	1260	1613	1596	1587	1632	147802	157692	157688	1969407	2051	2052	507750	54005	33031	322095	242750	28136	28129	59823	33012	1280	1334	1335	361101	28112	162	2130	134821	103892
+bsdb:35928983/7/1_Endometrial-cancer:Serous_vs_Endometroid_DOWN	NA	66228	55565	131111	1376	33029	33032	33034	33036	1685	216816	76517	43765	169292	39791	38289	38303	43770	39486	1352	1351	178214	143361	88132	1260	1613	1596	1587	1632	147802	157692	157688	1969407	2051	2052	507750	54005	33031	322095	242750	28136	28129	59823	33012	1280	1334	1335	361101	28112	162	2130	134821	103892
 bsdb:35985814/1/2_Chronic-kidney-disease:Chronic-Kidney-Disease-(CKD-G3-G4)_vs_Healthy-controls-(HC)_DOWN	NA	33039
 bsdb:35985814/4/1_Clinical-treatment:Hemodialysis-(HD)_vs_Chronic-Kidney-Disease-(CKD)_UP	NA	1940338
 bsdb:35985814/4/2_Clinical-treatment:Hemodialysis-(HD)_vs_Chronic-Kidney-Disease-(CKD)_DOWN	NA	290054
@@ -2603,6 +2609,16 @@ bsdb:37119437/9/1_COVID-19:Post-Covid-19-Group_vs_Healthy-Controls_UP	NA	5127	33
 bsdb:37119437/9/2_COVID-19:Post-Covid-19-Group_vs_Healthy-Controls_DOWN	NA	1116855	483707	1664392
 bsdb:37119437/10/1_COVID-19:Post-Covid-19-Group_vs_Covid-19-Group_UP	NA	1664392	483707
 bsdb:37119437/10/2_COVID-19:Post-Covid-19-Group_vs_Covid-19-Group_DOWN	NA	1116855	76775
+bsdb:37131718/2/1_HIV-infection:Pregnant-women-≥-18-years-of-age-with-Human-immunodeficiency-virus-(HIV)-at-Postpartum-(PPt)-visit._vs_Pregnant-women-≥-18-years-of-age-without-Human-immunodeficiency-virus-(HIV)-at-Postpartum-(PPt)-visit_UP	NA	82135	2098
+bsdb:37131718/2/2_HIV-infection:Pregnant-women-≥-18-years-of-age-with-Human-immunodeficiency-virus-(HIV)-at-Postpartum-(PPt)-visit._vs_Pregnant-women-≥-18-years-of-age-without-Human-immunodeficiency-virus-(HIV)-at-Postpartum-(PPt)-visit_DOWN	NA	28128	242750
+bsdb:37131718/3/1_Sexually-transmitted-disease:Pregnant-women-≥-18-years-of-age-with-any-sexually-transmitted-infection-(STI)-at-Visit-A_vs_Pregnant-women-≥-18-years-of-age-without-any-sexually-transmitted-infection-(STI)-at-Visit-A_UP	NA	1703337	28127	2098	419005	28125	187101	2049049
+bsdb:37131718/4/1_Sexually-transmitted-disease:Pregnant-women-≥-18-years-of-age-with-any-sexually-transmitted-infection-(STI)-at-Visit-B_vs_Pregnant-women-≥-18-years-of-age-without-any-sexually-transmitted-infection-(STI)-at-Visit-B_UP	NA	28127
+bsdb:37131718/5/1_Sexually-transmitted-disease:Pregnant-women-≥-18-years-of-age-with-any-sexually-transmitted-infection-(STI)-at-Postpartum-(PPt)-visit._vs_Pregnant-women-≥-18-years-of-age-without-any-sexually-transmitted-infection-(STI)-at-Postpartum-(PPt)-visit_UP	NA	59823
+bsdb:37131718/6/1_Chlamydia-trachomatis-infectious-disease:Pregnant-women-≥-18-years-of-age-with-Chlamydia-trachomatis-(CT)-infection-at-Visit-A_vs_Pregnant-women-≥-18-years-of-age-without-Chlamydia-trachomatis-(CT)-infection-at-Visit-A_UP	NA	1703337	28127	419005	187101	2049049	165188	297314
+bsdb:37131718/7/1_Chlamydia-trachomatis-infectious-disease:Pregnant-women-≥-18-years-of-age-with-Chlamydia-trachomatis-(CT)-infection-at-Visit-B_vs_Pregnant-women-≥-18-years-of-age-without-Chlamydia-trachomatis-(CT)-infection-at-Visit-B_UP	NA	165188	28127
+bsdb:37131718/9/1_Gonorrhea:Pregnant-women-≥-18-years-of-age-with-Neisseria-gonorrhoea-(NG)-infection-at-postpartum-(PPt)-visit_vs_Pregnant-women-≥-18-years-of-age-without-Neisseria-gonorrhoea-(NG)-infection-at-postpartum-(PPt)-visit._DOWN	NA	242750
+bsdb:37131718/10/1_Trichomonas-vaginitis:Pregnant-women-≥-18-years-of-age-with-Trichomonas-vaginalis-(TV)-infection-at-Visit-A_vs_Pregnant-women-≥-18-years-of-age-without-Trichomonas-vaginalis-(TV)-infection-at-Visit-A_UP	NA	2098
+bsdb:37131718/11/1_Trichomonas-vaginitis:Pregnant-women-≥-18-years-of-age-with-Trichomonas-vaginalis-(TV)-infection-at-postpartum-(PPt)-visit_vs_Pregnant-women-≥-18-years-of-age-without-Trichomonas-vaginalis-(TV)-infection-at-postpartum-(PPt)-visit._DOWN	NA	40543
 bsdb:37150399/1/1_Parkinson's-disease:Healthy-older-(HO)_vs_Healthy-younger-(HY)_DOWN	NA	1681
 bsdb:37150399/2/1_Parkinson's-disease:Healthy-older-(HO)_vs_Healthy-younger-(HY)_DOWN	NA	1681
 bsdb:37180435/1/2_Heart-failure:Doxorubicin-A-(Dox-A)-group_vs_Control-(Con-J)-group_DOWN	NA	691816	1622
@@ -2795,8 +2811,8 @@ bsdb:37596536/19/2_Population:Tshwa_vs_Twa_DOWN	NA	72	55565
 bsdb:37596536/20/1_Population:!Xun_vs_Twa_DOWN	NA	158484	546	545	1720	42895	35783	571	573	576	52768	616	158877	562
 bsdb:37596536/21/1_Population:!Xun_vs_Tshwa_UP	NA	55565	504	72
 bsdb:37596536/21/2_Population:!Xun_vs_Tshwa_DOWN	NA	546	35783	571	576	562	172042	573	545	1496	1720	84135	599	158877	1304	158484	1379	851	47671	505	42895	33033
-bsdb:37596536/22/1_NA:Kwisi_vs_Tjimba_UP	NA	546	1873498
-bsdb:37596536/22/2_NA:Kwisi_vs_Tjimba_UP	NA	638849
+bsdb:37596536/22/1_Population:Kwisi_vs_Tjimba_UP	NA	546	1873498
+bsdb:37596536/22/2_Population:Kwisi_vs_Tjimba_UP	NA	638849
 bsdb:37596536/23/1_Population:Twa_vs_Tjimba_UP	NA	158484	546	545	1639133	1896336	42895	562	571	573	576	158877	1873498
 bsdb:37596536/25/1_Population:!Xun_vs_Tjimba_UP	NA	1873498
 bsdb:37596536/26/1_Population:Twa_vs_Kwisi_UP	NA	158484	1639133	42895	158877	1896336	545	571
@@ -2940,8 +2956,8 @@ bsdb:37894412/1/1_Intestinal-polyp:Patients-with-low-grade-colorectal-polyps-coh
 bsdb:37894412/1/2_Intestinal-polyp:Patients-with-low-grade-colorectal-polyps-cohort_vs_Polyp-free-control-patients_DOWN	NA	649756	820	853	592978	40545
 bsdb:37894412/2/1_Intestinal-polyp:Patients-with-low-grade-colorectal-polyps-cohort_vs_Polyp-free-control-patients_UP	NA	33038	216816	40545	33025
 bsdb:37894412/2/2_Intestinal-polyp:Patients-with-low-grade-colorectal-polyps-cohort_vs_Polyp-free-control-patients_DOWN	NA	46503	2682456
-bsdb:37905804/1/1_NA:COVID-19-patients_vs_Healthy-Controls_UP	NA	40324	1190813	1703256	42190	69392	306	29380	2703963	1435069	1871047	2609667	531813	287
-bsdb:37905804/1/2_NA:COVID-19-patients_vs_Healthy-Controls_DOWN	NA	216816	2663009	729	33053	28132	2588991	2682456	1110546	41114	38284	60442	2819619	423477	28449	157687	39777
+bsdb:37905804/1/1_SARS-CoV-2-related-disease:COVID-19-patients_vs_Healthy-Controls_UP	NA	40324	1190813	1703256	42190	69392	306	29380	2703963	1435069	1871047	2609667	531813	287
+bsdb:37905804/1/2_SARS-CoV-2-related-disease:COVID-19-patients_vs_Healthy-Controls_DOWN	NA	216816	2663009	729	33053	28132	2588991	2682456	1110546	41114	38284	60442	2819619	423477	28449	157687	39777
 bsdb:37905804/2/1_SARS-CoV-2-related-disease:Delta-and-Omicron-infected-patients_vs_Healthy-Controls_DOWN	NA	729	33053	2663009	28449	423477	2682456
 bsdb:37905804/3/1_SARS-CoV-2-related-disease:Delta-infected-patients_vs_Omicron-infected-patients_UP	NA	470	1871047	208224	539813	2529382	573	1463165	244366	69392	2819619
 bsdb:37905804/3/2_SARS-CoV-2-related-disease:Delta-infected-patients_vs_Omicron-infected-patients_DOWN	NA	33053	42190	531813	28124	1583331	28132	287	306	43675	29380	1156431	1304	2588991	39777	2682456	1110546	1435069
@@ -2967,8 +2983,8 @@ bsdb:37936242/12/1_Exploratory-behavior:Aged+surgery-before_vs_Young,-Aged,-Youn
 bsdb:37936242/14/1_Response-to-surgery:Aged_vs_Aged+surgery-and-Aged+surgery+dexamethasone_UP	NA	423410
 bsdb:37936242/15/1_Cognitive-disorder:Aged+surgery_vs_Aged-and-Aged+surgery+dexamethasone_UP	NA	1729795
 bsdb:37936242/16/1_Cognitive-disorder:Aged+surgery+dexamethasone_vs_Aged-and-Aged+surgery_UP	NA	209265	107058
-bsdb:37951857/1/1_NA:Crohn’s-disease-(CD)-patients_vs_Healthy-controls-(HC)_UP	NA	544580	1852377	712122	708131	756828	56426	85701	1685	6973	1912897	1660073	1495769	309868	234827	1705394	2751	1496	1492	1502	1747	53345	1351	1352	160453	53346	2049044	208962	562	564	1499973	29391	708126	548	571	33959	1382	1671721	2051552	65123	1254	584	28901	1292	1328	113107	45634	1334	1302	1338	1825069	1303	197614	82348	2021971	1305	1759399	712633	585425	1834196	2304606	1224749	67827
-bsdb:37951857/1/2_NA:Crohn’s-disease-(CD)-patients_vs_Healthy-controls-(HC)_DOWN	NA	214856	328814
+bsdb:37951857/1/1_Crohn's-disease:Crohn’s-disease-(CD)-patients_vs_Healthy-controls-(HC)_UP	NA	544580	1852377	712122	708131	756828	56426	85701	1685	6973	1912897	1660073	1495769	309868	234827	1705394	2751	1496	1492	1502	1747	53345	1351	1352	160453	53346	2049044	208962	562	564	1499973	29391	708126	548	571	33959	1382	1671721	2051552	65123	1254	584	28901	1292	1328	113107	45634	1334	1302	1338	1825069	1303	197614	82348	2021971	1305	1759399	712633	585425	1834196	2304606	1224749	67827
+bsdb:37951857/1/2_Crohn's-disease:Crohn’s-disease-(CD)-patients_vs_Healthy-controls-(HC)_DOWN	NA	214856	328814
 bsdb:37951857/2/1_Ulcerative-colitis:Ulcerative-colitis-(UC)-patients_vs_Healthy-controls-(HC)_UP	NA	43675	1852377	1302	45634	1305	712633	2021971	1685	1747	113107	1759399	69220	1304	29466	1318	1254
 bsdb:37951857/2/2_Ulcerative-colitis:Ulcerative-colitis-(UC)-patients_vs_Healthy-controls-(HC)_DOWN	NA	328814	631220	2094242	28118	114615	239935
 bsdb:37951857/3/1_Inflammatory-bowel-disease:Crohn's-disease-(CD)-patients_vs_Ulcerative-colitis-(UC)-patients_UP	NA	67827	208962	562	564	1499973	28901	622	623	693444
@@ -2987,6 +3003,8 @@ bsdb:37953319/6/1_Vesicle-membrane:Feces-derived-extracellular-vesicles-(FE-EV)_
 bsdb:37960154/1/1_Response-to-antibiotic:CTR-(control)-group_vs_Combination-of-LOP-(loperamide)-and-RIF-(rifaximin)-group_UP	NA	151781	1622
 bsdb:37960154/2/1_Response-to-antibiotic:LOP-(loperamide)-group_vs_Combination-of-CTR-(control)-and-RIF-(rifaximin)-group_UP	NA	1694	1702221	1187017
 bsdb:37960154/3/1_Response-to-antibiotic:RIF-(rifaximin)-group_vs_Combination-of-CTR-(control)-and-LOP-(loperamide)-group_UP	NA	239935	438033	60681
+bsdb:37960154/4/1_Response-to-antibiotic:LOP-(loperamide)-group_vs_CTR-(control)-group_UP	NA	1694	1702221
+bsdb:37960154/4/2_Response-to-antibiotic:LOP-(loperamide)-group_vs_CTR-(control)-group_DOWN	NA	1622
 bsdb:37960154/5/1_Response-to-antibiotic:RIF-(rifaximin)-group_vs_LOP-(loperamide)-group_UP	NA	239935	214853	29448	1235793	1622	732242	703	438033	1522	42322	35518
 bsdb:37960154/5/2_Response-to-antibiotic:RIF-(rifaximin)-group_vs_LOP-(loperamide)-group_DOWN	NA	1622071	1694	626937	1816678	290054	360911	1702221	1255	1115758	1535	35517	59620	172733
 bsdb:37960281/1/2_Breast-cancer:Breast-cancer-patients_vs_Healthy-controls_DOWN	NA	3068309	877421	877428
@@ -3070,6 +3088,7 @@ bsdb:38245675/1/1_Menopause:Postmenopausal-women-group_vs_Premenopausal-women-gr
 bsdb:38245675/2/1_Health-trait:Poor-oral-health-group_vs_Adequate-oral-health-group_UP	NA	33053
 bsdb:38245675/2/2_Health-trait:Poor-oral-health-group_vs_Adequate-oral-health-group_DOWN	NA	1898207	28132	152509
 bsdb:38245675/3/1_Viral-load:High-SARS-CoV-2-viral-load-group_vs_Moderate-SARS-CoV-2-viral-load-group_UP	NA	425941	28124	28132	152509
+bsdb:38271852/1/2_Schizophrenia:Schizophrenia-patients-(SZ)_vs_Normal-controls-(NC)_DOWN	NA	3068309
 bsdb:38274754/1/1_Chronic-constipation:Functional-constipation-(FC)-group_vs_Healthy-Controls_UP	NA	290054	42322	39485	877420	33038
 bsdb:38274754/2/1_Chronic-constipation:Functional-constipation-(FC)-group_vs_Healthy-Controls_UP	NA	46506	1940338	290054	877420	310298	357276	821
 bsdb:38274754/2/2_Chronic-constipation:Functional-constipation-(FC)-group_vs_Healthy-Controls_DOWN	NA	2049047	437897
@@ -3197,7 +3216,7 @@ bsdb:38424099/5/1_Diet:End-of-study-prebiotics-and-placebo_vs_Baseline-prebiotic
 bsdb:38424099/5/2_Diet:End-of-study-prebiotics-and-placebo_vs_Baseline-prebiotics-and-placebo_DOWN	NA	1232426	46228	2841523	2293006	2585119	2763059
 bsdb:38424099/7/1_Diet:Prebiotic-(Correlated-with-Chair-Rise-time)_vs_Placebo-(Correlated-with-Chair-Rise-time)_UP	NA	187327	1965604	1720313	33035	546	2109688	1720194	100884	2093857	358742	39483	292800	386414	154046	2764322	571	60520	1596	1613	33038	1653435	322095	28128	2070688	1550024	131111	1653434	102148	1309	1308	1547	29348	1522	29347	1512	1232426	33039	2763013	2763667
 bsdb:38424099/7/2_Diet:Prebiotic-(Correlated-with-Chair-Rise-time)_vs_Placebo-(Correlated-with-Chair-Rise-time)_DOWN	NA	1628085	2358141	536633	33043	39486	2292041	39490	2293105	1912855	745368	46503	2292968	2293016	1851428	341225	2841532	2293143	2293054	2109334	2292308	2086273
-bsdb:38431030/1/1_NA:Newly-diagnosed,-treatment‑naive-pulmonary-TB-patients_vs_Healthy-controls_UP	NA	43675
+bsdb:38431030/1/1_Pulmonary-tuberculosis:Newly-diagnosed,-treatment‑naive-pulmonary-TB-patients_vs_Healthy-controls_UP	NA	43675
 bsdb:38436093/1/1_Smoking-behaviour-measurement:Early-infants-(3-months)-with-maternal-history-of--'YES'-'smoking_vs_Early-infants-(3-months)-with-maternal-history-of--'NO'-'smoking_UP	NA	33038	33039
 bsdb:38436093/2/1_Smoking-behaviour-measurement:Late-infants-(12months)-with-maternal-history-of--'YES'-'smoking_vs_Late-infants-(12months)-with-maternal-history-of--'NO'-'smoking_UP	NA	33039	297314
 bsdb:38440790/1/1_Pulmonary-tuberculosis:Treatment‑naïve-tuberculosis-(TB)-patients_vs_healthy-controls-(HCs)_UP	NA	357276	562	239935	418240	437897
@@ -3207,8 +3226,8 @@ bsdb:38468206/1/1_Multiple-chemical-sensitivity:Multiple-Chemical-Sensitivity-(M
 bsdb:38468206/1/2_Multiple-chemical-sensitivity:Multiple-Chemical-Sensitivity-(MCS)_vs_Healthy-Control-(HC)_DOWN	NA	1262757	1262774	1262775	1262870	411483	154046	158847	491921	301301	1232457	52226	626940
 bsdb:38477534/1/1_Colitis:Kit-wsh/wsh-mice_vs_Wild-Type-(WT)-Mice_UP	NA	239935	1235793	60246	85831	151781	671267	32025	1159215	457412	157940
 bsdb:38477534/1/2_Colitis:Kit-wsh/wsh-mice_vs_Wild-Type-(WT)-Mice_DOWN	NA	1003352	1605	248039	328812	580026	397291
-bsdb:38477534/3/1_NA:Kit-wsh/wsh-mice-(No-DSS)_vs_Wild-Type-(WT)-Mice-(No-DSS)_UP	NA	239935
-bsdb:38477534/3/2_NA:Kit-wsh/wsh-mice-(No-DSS)_vs_Wild-Type-(WT)-Mice-(No-DSS)_DOWN	NA	33959	1605
+bsdb:38477534/3/1_Colitis:Kit-wsh/wsh-mice-(No-DSS)_vs_Wild-Type-(WT)-Mice-(No-DSS)_UP	NA	239935
+bsdb:38477534/3/2_Colitis:Kit-wsh/wsh-mice-(No-DSS)_vs_Wild-Type-(WT)-Mice-(No-DSS)_DOWN	NA	33959	1605
 bsdb:38477534/4/1_Response-to-transplant:Chronic-Constipation---Fecal-Microbiota-Transplantation-(CC-FMT)_vs_Healthy-controls---Fecal-Microbiota-Transplantation-(HC-FMT)_UP	NA	239935
 bsdb:38477534/5/1_Treatment:Kit-wsh/wsh-mice-(DSS)_vs_Wild-Type-(WT)-Mice-(DSS)_UP	NA	239935
 bsdb:38477534/5/2_Treatment:Kit-wsh/wsh-mice-(DSS)_vs_Wild-Type-(WT)-Mice-(DSS)_DOWN	NA	1605	33959
@@ -3226,10 +3245,11 @@ bsdb:38479397/4/1_Insulin-sensitivity-measurement:Insulin-Resistant-(IR)-Individ
 bsdb:38479397/4/2_Insulin-sensitivity-measurement:Insulin-Resistant-(IR)-Individuals_vs_Insulin-Sensitive-(IS)-Individuals_DOWN	NA	143361	237576	157692
 bsdb:38481313/2/2_Diabetic-ketoacidosis:Diabetic-ketoacidosis_vs_Controls_DOWN	NA	290054	3068309
 bsdb:38481313/4/2_Diabetic-retinopathy:Diabetic-Retinopathy_vs_Controls_DOWN	NA	290054
+bsdb:38481313/5/1_Diabetic-neuropathy:Diabetic-Neuropathy_vs_Controls_UP	NA	35518
 bsdb:38481313/6/1_NA:Charcot-foot_vs_Controls_UP	NA	39491
 bsdb:38517896/1/2_NA:ChAT+-(Choline-acetyltransferase)--activated-mice_vs_Control-mice_DOWN	NA	2137877
-bsdb:38517896/3/1_NA:ChAT+-(Choline-acetyltransferase)--activated-mice-on-day-10_vs_Contol-mice-on-day-10_UP	NA	239935	29348	386414	1694	105841
-bsdb:38517896/3/2_NA:ChAT+-(Choline-acetyltransferase)--activated-mice-on-day-10_vs_Contol-mice-on-day-10_DOWN	NA	39484	2585118	214856	28117	1288121	1650663	160404	1235835	817	397865	1322	40520	1226324	544644	544645	411489	1042156	410072	33043	1235798	1432052	1351	97253	1235790	39482	1378168	292800	28127	1673721	397288	397290	168384	2897707	1235797	351091	301301	438033	1550024	214851	84026	29361	1512	1658109	1235800	1408323	1235792	397287
+bsdb:38517896/3/1_Peripheral-neuron:ChAT+-(Choline-acetyltransferase)--activated-mice-on-day-10_vs_Contol-mice-on-day-10_UP	NA	239935	29348	386414	1694	105841
+bsdb:38517896/3/2_Peripheral-neuron:ChAT+-(Choline-acetyltransferase)--activated-mice-on-day-10_vs_Contol-mice-on-day-10_DOWN	NA	39484	2585118	214856	28117	1288121	1650663	160404	1235835	817	397865	1322	40520	1226324	544644	544645	411489	1042156	410072	33043	1235798	1432052	1351	97253	1235790	39482	1378168	292800	28127	1673721	397288	397290	168384	2897707	1235797	351091	301301	438033	1550024	214851	84026	29361	1512	1658109	1235800	1408323	1235792	397287
 bsdb:38517896/4/1_NA:TH+-(Tyrosine-hydroxylase)--activated-mice-on-day-10_vs_Control-mice-on-day-10_UP	NA	901	29348	1226323	33038	1297617	328812	626933	2585118	1465754	1288121	820	821	46506	291644	310300	818	52227	76123
 bsdb:38517896/4/2_NA:TH+-(Tyrosine-hydroxylase)--activated-mice-on-day-10_vs_Control-mice-on-day-10_DOWN	NA	671266	580026	397290	1235793	1720300	397287	742723
 bsdb:38528960/1/1_Periodontitis:Periodontitis-group-(P)_vs_Healthy-controls-(HC)_UP	NA	56142	33033	713049	713051	713056	713057	28112
@@ -3803,6 +3823,12 @@ bsdb:39748236/2/1_Oxidative-Stress:Probiotic_vs_Baseline_UP	NA	39491	28117	21681
 bsdb:39748236/2/2_Oxidative-Stress:Probiotic_vs_Baseline_DOWN	NA	40520	410072	88431	626940	33039
 bsdb:39748884/1/1_Pulmonary-tuberculosis:pediatric-pulmonary-tuberculosis-(PTB-group)_vs_pediatric-pneumonia-patients-(NTB-group)_UP	NA	84595	1773	1805933
 bsdb:39748884/1/2_Pulmonary-tuberculosis:pediatric-pulmonary-tuberculosis-(PTB-group)_vs_pediatric-pneumonia-patients-(NTB-group)_DOWN	NA	303	480	37919
+bsdb:39762435/1/1_Diet:Vegetarian_vs_Omnivore_UP	NA	2582419	341225	216816	1898203
+bsdb:39762435/1/2_Diet:Vegetarian_vs_Omnivore_DOWN	NA	28117	1965604	35833	1472417	2044939	1898204	410072	1965560	2897707	1871035	28118	2485925	33039	2720821	2721144
+bsdb:39762435/2/1_Diet:Vegan_vs_Omnivores_UP	NA	1903720	2292205	2292304	1898203	301301	2292295
+bsdb:39762435/2/2_Diet:Vegan_vs_Omnivores_DOWN	NA	28117	1965604	2721144	2044939	410072	2049044	2897707	28118	2485925	1550024	2720821	35833	33039	2108523	1308	1898204
+bsdb:39762435/3/1_NA:Vegan_vs_Vegetarian_UP	NA	1898203	2292069	2742763
+bsdb:39762435/3/2_NA:Vegan_vs_Vegetarian_DOWN	NA	1852384	328812	35833	2049044	1852366	2508949	1898203	1898204	1579	1358	2211183	1597	1584	2108523	33039	1550024	2044939	47715	2485925	1308
 bsdb:39772703/2/1_Diet:Group2-Visit2-(g2_vB)_vs_Group2-Visit1-(g2_vA)_DOWN	NA	290054
 bsdb:39773949/1/1_Malnutrition:MAM-(Moderate-Acute-Malnutrition)-infants_vs_Well-nourished-infants_UP	NA	43675	1304
 bsdb:39773949/1/2_Malnutrition:MAM-(Moderate-Acute-Malnutrition)-infants_vs_Well-nourished-infants_DOWN	NA	817
@@ -3874,6 +3900,8 @@ bsdb:39854172/11/2_Fat-intake-measurement:High-Saturated-Fat-Intake_vs_Low-Satur
 bsdb:39854172/13/1_Diet-measurement:High-Fiber-Intake_vs_Low-Fiber-Intake_DOWN	NA	28117
 bsdb:39856212/6/1_Attention-deficit-hyperactivity-disorder:Unmedicated-Attention-deficit-hyperactivity-disorder-(ADHD)_vs_Healthy-controls_UP	NA	32644
 bsdb:39856212/6/2_Attention-deficit-hyperactivity-disorder:Unmedicated-Attention-deficit-hyperactivity-disorder-(ADHD)_vs_Healthy-controls_DOWN	NA	39488	1671661	1262798	1588753	33039
+bsdb:39856736/2/1_NA:IIK-(Karakul-sheep-in-Stage-2)_vs_IIH-(Hu-sheep-in-Stage-2)_UP	NA	1768115
+bsdb:39856736/2/2_NA:IIK-(Karakul-sheep-in-Stage-2)_vs_IIH-(Hu-sheep-in-Stage-2)_DOWN	NA	136703
 bsdb:39865153/1/1_Respiratory-tract-infectious-disease:Outpatients_vs_Inpatients_UP	NA	529	1287736	470868	85698	303	208224	1353889
 bsdb:39865153/2/1_Respiratory-tract-infectious-disease:Outpatients_vs_Inpatients_UP	NA	208224	470868	303	529	1287736	85698	217204	1353889	2583453
 bsdb:39865153/3/1_Fatigue:Fatigue_vs_Non-fatigue_UP	NA	480	41976	1358
@@ -3902,6 +3930,8 @@ bsdb:39880958/1/1_HIV-infection:People-Living-With-HIV-on-Antiretroviral-therapy
 bsdb:39880958/1/2_HIV-infection:People-Living-With-HIV-on-Antiretroviral-therapy-(ART+-PLWH)_vs_HIV-_DOWN	NA	1680	78346	2720834	2054177	2044939	2996910	1898207	1262771	1262781	1262797	1262806	1262808	1099853	1851428	853	1262898	1263002	1263003	1263011	1898203	1262905	1945593	2485925	1262957	2518605
 bsdb:39898646/2/1_Response-to-immune-checkpoint-inhibitor:Cutaneous-squamous-cell-carcinoma-Responders-(CSCC-R)_vs_Cutaneous-squamous-cell-carcinoma-Non-responders-(CSCC-NR)_UP	NA	264463	47678	329854	291645	818	487174	474960	252966	351091	119853	847	1264	40518	1265	69824	29371	47246	328812
 bsdb:39898646/2/2_Response-to-immune-checkpoint-inhibitor:Cutaneous-squamous-cell-carcinoma-Responders-(CSCC-R)_vs_Cutaneous-squamous-cell-carcinoma-Non-responders-(CSCC-NR)_DOWN	NA	35833	46506
+bsdb:39920128/1/1_Gestational-diabetes:Pregnant-women-with-higher-postprandial-glycemic-response-(PPGR)-incremental-area-under-the-glycemic-curve(iAUC120)_vs_Pregnant-women-with-lower-postprandial-glycemic-response-(PPGR)-incremental-area-under-the-glycemic-curve(iAUC120)_UP	NA	39488	410072	1926283	33039
+bsdb:39920128/1/2_Gestational-diabetes:Pregnant-women-with-higher-postprandial-glycemic-response-(PPGR)-incremental-area-under-the-glycemic-curve(iAUC120)_vs_Pregnant-women-with-lower-postprandial-glycemic-response-(PPGR)-incremental-area-under-the-glycemic-curve(iAUC120)_DOWN	NA	35833	1432052	290054	823	1161942
 bsdb:39920128/2/1_Gestational-diabetes:Pregnant-women-with-higher-peak-glycemic-levels-(GLUmax)_vs_Pregnant-women-with-lower-peak-glycemic-levels-(GLUmax)_UP	NA	290054	423410
 bsdb:39920128/2/2_Gestational-diabetes:Pregnant-women-with-higher-peak-glycemic-levels-(GLUmax)_vs_Pregnant-women-with-lower-peak-glycemic-levels-(GLUmax)_DOWN	NA	1712515	261299	39485	1432052
 bsdb:39920804/2/1_Clinical-treatment:FMT-EC-challenge-group-(FMT + EC)_vs_Enterotoxigenic-Escherichia-coli-(ETEC)-challenge-control-group-(EC)_UP	NA	1940338
@@ -4246,6 +4276,10 @@ bsdb:40792492/2/1_Delivery-method:Gut-microbiota-of-14-day-old-vaginally-deliver
 bsdb:40792492/2/2_Delivery-method:Gut-microbiota-of-14-day-old-vaginally-delivered-infants-(VIF2)._vs_Meconium-microbiota-of-vaginally-delivered-infants-(VIF1)._DOWN	NA	329
 bsdb:40792492/3/1_Delivery-method:Gut-microbiota-of-14-day-old-infants-delivered-by-cesarean-section-(C1F2)._vs_Meconium-microbiota-of-cesarean-section-infants-(C1F1)._UP	NA	216816	39777	1689
 bsdb:40792492/3/2_Delivery-method:Gut-microbiota-of-14-day-old-infants-delivered-by-cesarean-section-(C1F2)._vs_Meconium-microbiota-of-cesarean-section-infants-(C1F1)._DOWN	NA	329	47878
+bsdb:40803752/5/1_Response-to-liver-transplant:Increased-Acute-Rejection-(AR)-correlation-levels_vs_Decreased-Acute-Rejection-(AR)-correlation-levels_UP	NA	671278	368811	1402	2751	57171	390842	288426	1366	190721	252130	47951
+bsdb:40803752/5/2_Response-to-liver-transplant:Increased-Acute-Rejection-(AR)-correlation-levels_vs_Decreased-Acute-Rejection-(AR)-correlation-levels_DOWN	NA	43769	37637	297
+bsdb:40803752/6/1_Response-to-liver-transplant:Increased-non-survival-correlation-levels_vs_Decreased-non-survival-correlation-levels_UP	NA	411577	1402	38302	1888168	847	28128	1660	1276936
+bsdb:40803752/6/2_Response-to-liver-transplant:Increased-non-survival-correlation-levels_vs_Decreased-non-survival-correlation-levels_DOWN	NA	368811	2751	43769	390842	70863	1335	252130
 bsdb:40813371/1/1_Treatment-outcome-measurement:Probiotic-Supplemented(Overall)_vs_Non-Probiotic-Supplemented(Overall)_UP	NA	1681	1685	216816
 bsdb:40813371/2/2_Treatment-outcome-measurement:Probiotic-Supplemented(Week-1)_vs_Non-Probiotic-Supplemented(Week-1)_DOWN	NA	216816
 bsdb:40813371/3/1_NA:Probiotic-Supplemented(Week-2)_vs_Non-Probiotic-Supplemented(Week-2)_UP	NA	1681
@@ -4261,6 +4295,8 @@ bsdb:40825855/10/1_Diet:48-hrs-fermentation_vs_0-hrs-fermentation_UP	NA	5476	273
 bsdb:40825855/10/2_Diet:48-hrs-fermentation_vs_0-hrs-fermentation_DOWN	NA	746128	80884	5127	76775	5141	1047171	5270	122368	40559	2587410	5507	117187	5518	101028	56646
 bsdb:40825855/11/1_NA:72-hrs-fermentation_vs_0-hrs-fermentation_UP	NA	746128	5207	796027	4952	4909	4932	33169
 bsdb:40825855/11/2_NA:72-hrs-fermentation_vs_0-hrs-fermentation_DOWN	NA	4959	122368	5127	117187	101028
+bsdb:40825855/12/1_Diet:96-hrs-fermentation_vs_0-hrs-fermentation_UP	NA	746128	5207	796027	4952	4932
+bsdb:40825855/12/2_Diet:96-hrs-fermentation_vs_0-hrs-fermentation_DOWN	NA	4924	101028	117187	56646
 bsdb:40827923/1/1_Benign-prostatic-hyperplasia:Benign-prostatic-hyperplasia-(BPH)-group_vs_Healthy-group_UP	NA	45242	327575	1018	495	135082	69823
 bsdb:40827923/1/2_Benign-prostatic-hyperplasia:Benign-prostatic-hyperplasia-(BPH)-group_vs_Healthy-group_DOWN	NA	51160	1795832	34062	2570352	304	240412	74313	93064	1276	34003	506594	43669
 bsdb:40827923/2/1_Periodontitis:Periodontitis-group_vs_Healthy-group_UP	NA	199	824	2762557	45242	1795832	651822	851	43995	40542	157688	1870999	796937	341694	41976	837	28113	55507	135079	796942	76860	59892	53419
@@ -4358,8 +4394,8 @@ bsdb:41052039/5/2_NA:Akha-ethnic-group-residing-in-Chiang-Rai-province-(AkhaCR)-
 bsdb:41052039/7/1_Population,Ethnic-group:Lahu-ethnic-group-residing-in-Chiang-Mai-province-(LahuCM)_vs_Akha-ethnic-group-residing-in-Chiang-Mai-Province-(AkhaCM) _UP	NA	33035	2173	853	626937	239935
 bsdb:41052039/7/2_Population,Ethnic-group:Lahu-ethnic-group-residing-in-Chiang-Mai-province-(LahuCM)_vs_Akha-ethnic-group-residing-in-Chiang-Mai-Province-(AkhaCM) _DOWN	NA	817
 bsdb:41052039/8/1_Population:Akha-ethnic-group-residing-in-Chiang-Rai-Province-(AkhaCR) _vs_Lisu-ethnic-group-residing-in-Chiang-Rai-Province-(LisuCR)_UP	NA	626937
-bsdb:41052039/10/1_Population:Akha-ethnic-group-residing-in-Chiang-Rai-Province-(AkhaCR)_vs_ Akha-ethnic-group-residing-in-Chiang-Mai-Province-(AkhaCM)_UP	NA	239935	33035	626937	853	2173
-bsdb:41052039/10/2_Population:Akha-ethnic-group-residing-in-Chiang-Rai-Province-(AkhaCR)_vs_ Akha-ethnic-group-residing-in-Chiang-Mai-Province-(AkhaCM)_DOWN	NA	817
+bsdb:41052039/10/1_Population,Ethnic-group:Akha-ethnic-group-residing-in-Chiang-Rai-Province-(AkhaCR)_vs_ Akha-ethnic-group-residing-in-Chiang-Mai-Province-(AkhaCM)_UP	NA	239935	33035	626937	853	2173
+bsdb:41052039/10/2_Population,Ethnic-group:Akha-ethnic-group-residing-in-Chiang-Rai-Province-(AkhaCR)_vs_ Akha-ethnic-group-residing-in-Chiang-Mai-Province-(AkhaCM)_DOWN	NA	817
 bsdb:41052039/11/1_Population:Lahu-ethnic-group-residing-in-Chiang-Rai-Province-(LahuCR)_vs_ Lahu-ethnic-group-residing-in-Chiang-Mai-Province-(LahuCM)_UP	NA	817	33035	626937	239935	853	2173
 bsdb:41052039/12/1_Population:Lahu-ethnic-group-residing-in-Chiang-Rai-Province-(LahuCR)_vs_ Akha-ethnic-group-and-Lisu-ethnic-group-residing-in-Chiang-Rai-Province-(AkhaCR-&-LisuCR)_UP	NA	239935	817	33035	626937	853
 bsdb:41052039/12/2_Population:Lahu-ethnic-group-residing-in-Chiang-Rai-Province-(LahuCR)_vs_ Akha-ethnic-group-and-Lisu-ethnic-group-residing-in-Chiang-Rai-Province-(AkhaCR-&-LisuCR)_DOWN	NA	2173
@@ -4369,8 +4405,8 @@ bsdb:41052039/16/2_Population,Diet:Akha-ethnic-group-residing-in-Chiang-Mai-Prov
 bsdb:41053825/1/1_Parkinson's-disease:Metagenomic-taxonomic-composition-(taxMG)-in-Parkinson-disease-patients_vs_Metagenomic-taxonomic-composition-(taxMG)-In-Healthy-Controls_UP	NA	2585118
 bsdb:41053825/2/1_REM-sleep-behavior-disorder:Metagenomic-taxonomic-composition-(taxMG)-in-idiopathic-REM-sleep-behavior-disorder-(iRBD)-patients_vs_Metagenomic-taxonomic-composition-(taxMG)-In-Healthy-Controls_UP	NA	2585118
 bsdb:41056245/1/1_Ischemic-stroke:Stroke-patient-groups_vs_Healthy-control_UP	NA	68892
-bsdb:41056245/2/1_Stroke:Stroke-patient-groups_vs_Healthy-control_UP	NA	1383	28124	28133	2047	1328
-bsdb:41056245/2/2_Stroke:Stroke-patient-groups_vs_Healthy-control_DOWN	NA	729	28449	28132	29466
+bsdb:41056245/2/1_Ischemic-stroke:Stroke-patient-groups_vs_Healthy-control_UP	NA	1383	28124	28133	2047	1328
+bsdb:41056245/2/2_Ischemic-stroke:Stroke-patient-groups_vs_Healthy-control_DOWN	NA	729	28449	28132	29466
 bsdb:41056270/1/1_White-matter-volume-measurement:Higher-white-matter-volume-(WMV)_vs_Lower-white-matter-volume-(WMV)_UP	NA	46506	155900
 bsdb:41056270/1/2_White-matter-volume-measurement:Higher-white-matter-volume-(WMV)_vs_Lower-white-matter-volume-(WMV)_DOWN	NA	820	1304	818
 bsdb:41056270/2/1_Grey-matter-volume-measurement:Higher-grey-matter-volume-(GMV)_vs_Lower-grey-matter-volume-(GMV)_UP	NA	155900
@@ -4399,6 +4435,7 @@ bsdb:41126356/1/1_Abnormality-of-the-gastrointestinal-tract,Abnormal-intestine-m
 bsdb:41126356/1/2_Abnormality-of-the-gastrointestinal-tract,Abnormal-intestine-morphology:Li05-modulated(eNF,-eLF)_vs_C(NF,-LF)_DOWN	NA	876	1351	32025	154288	1940338
 bsdb:41126356/1/3_Abnormality-of-the-gastrointestinal-tract,Abnormal-intestine-morphology:Li05-modulated(eNF,-eLF)_vs_C(NF,-LF)_DOWN	NA	1940338	1502
 bsdb:41137177/2/2_Response-to-antibiotic:Swine-Prdouction-Chain-2(SPC2)T2-42-days-of-life_vs_Swine-Production-Chain-1(SPC1)T2-42-days-of-life_UP	NA	242643	3068309
+bsdb:41137177/3/2_Response-to-antibiotic:Swine-Prdouction-Chain-2(SPC2)T3-80-days-of-life_vs_Swine-Production-Chain-1(SPC1)T3-80-days-of-life_UP	NA	242643
 bsdb:41137177/8/1_Response-to-antibiotic:Swine-Prdouction-Chain-2(SCP2)T4-98days-of-life_vs_Swine-Production-Chain-1(SCP1)T4--98days-of-life_NA	NA	1945634	33959	1598	1261637	116085
 bsdb:41137177/8/2_Response-to-antibiotic:Swine-Prdouction-Chain-2(SCP2)T4-98days-of-life_vs_Swine-Production-Chain-1(SCP1)T4--98days-of-life_UP	NA	907	100886	626940	74426	905
 bsdb:41220770/1/1_Esophageal-squamous-cell-carcinoma:Age-<65-in-esophageal-squamous-cell-carcinoma-patients-(ESCC)_vs_Age-<65-control-group_DOWN	NA	729	68892
