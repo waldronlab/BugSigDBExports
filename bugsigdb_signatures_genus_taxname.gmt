@@ -1,4 +1,4 @@
-# BugSigDB 2026-01-28_13:18_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2026-01-28_14:08_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:39/1/2_Body-odor-measurement:youth-underarm-after-exercise_vs_youth-underarm-before_DOWN	NA	Paracoccus
 bsdb:39/2/1_body-odor-measurement:youth-Neck-before_vs_after-excercise_DOWN	NA	Acinetobacter
 bsdb:39/3/1_Body-odor-measurement:Children-underarm-before_vs_after-excercise_DOWN	NA	Paracoccus
@@ -23,7 +23,7 @@ bsdb:817/1/2_Granulomatosis-with-Polyangiitis:Kidneys-with-calcification_vs_Heal
 bsdb:817/2/2_Granulomatosis-with-Polyangiitis:Sick-with-Kidney-calcification_vs_Systemic-Granulomatosis-(SG)-affected_DOWN	NA	Paracoccus	Pyrinomonas
 bsdb:817/3/2_Granulomatosis-with-Polyangiitis:Sick_vs_Healthy/Healthy-with-no-visible-granuloma_DOWN	NA	Bacillus	Coraliomargarita	Meiothermus	Paracoccus	Streptococcus
 bsdb:879/1/1_Oral-ulcer:Covid-19-with-oral-lesions_vs_Covid-19-patients-without-oral-lesions_UP	NA	Staphylococcus
-bsdb:879/2/1_NA:Severe-COVID-patients_vs_Non-severe-COVID-patients_UP	NA	Prevotella
+bsdb:879/2/1_Illness-severity-status:Severe-COVID-patients_vs_Non-severe-COVID-patients_UP	NA	Prevotella
 bsdb:879/3/1_Antimicrobial-agent:Antibiotics-use_vs_No-antibiotics-use_UP	NA	Lactobacillus	Neisseria	Prevotella	Staphylococcus	Veillonella	Fusobacterium
 bsdb:879/4/1_Oxygen:Oxygen-therapy_vs_No-oxygen-therapy_UP	NA	Lactobacillus	Veillonella	Staphylococcus
 bsdb:879/5/1_Illness-severity-status:ICU-patients_vs_Non-ICU-patients_UP	NA	Lactobacillus	Veillonella
@@ -436,7 +436,7 @@ bsdb:26258571/2/1_HIV-infection:Probiotic-intervention-group-(after-8-weeks)_vs_
 bsdb:26279179/1/1_Type-II-diabetes-mellitus:Women-with-gestational-DM_vs_normoglycemic-controls_UP	NA	Prevotella	Ruminococcus
 bsdb:26279179/1/2_Type-II-diabetes-mellitus:Women-with-gestational-DM_vs_normoglycemic-controls_DOWN	NA	Blautia	Alistipes
 bsdb:26288821/1/1_Colorectal-adenoma:Colorectal-Adenoma-Patients_vs_Normal-Participants_UP	NA	Serratia	Shigella	Salmonella	Pantoea	Morganella	Trabulsiella	Escherichia
-bsdb:26290472/2/2_NA:Orang-Asli-Children-(low-SES,-household-income<RM500)_vs_Chinese-Children-(High-SES,-household-income->RM500)_DOWN	NA	Alistipes
+bsdb:26290472/2/2_Socioeconomic-status:Orang-Asli-Children-(low-SES,-household-income<RM500)_vs_Chinese-Children-(High-SES,-household-income->RM500)_DOWN	NA	Alistipes
 bsdb:26367776/1/2_Multiple-sclerosis:Multiple-sclerosis-(MS),_vs_Healthy-subjects-(controls)_DOWN	NA	Anaerostipes	Faecalibacterium	Prevotella
 bsdb:26394008/1/1_Milk-allergic-reaction:IgE-mediated-cow's-milk-allergy_vs_healthy-controls_UP	NA	Faecalibacterium	Ruminococcus
 bsdb:26394008/1/2_Milk-allergic-reaction:IgE-mediated-cow's-milk-allergy_vs_healthy-controls_DOWN	NA	Bifidobacterium	Escherichia
@@ -468,8 +468,8 @@ bsdb:26600078/1/1_Non-alcoholic-fatty-liver-disease:NASH_vs_Non-NASH_UP	NA	Bacte
 bsdb:26600078/1/2_Non-alcoholic-fatty-liver-disease:NASH_vs_Non-NASH_DOWN	NA	Prevotella
 bsdb:26600078/2/1_Non-alcoholic-fatty-liver-disease:significant-fibrosis-(F>2)_vs_mild-fibrosis-(F-0-1)_UP	NA	Ruminococcus	Bacteroides
 bsdb:26600078/2/2_Non-alcoholic-fatty-liver-disease:significant-fibrosis-(F>2)_vs_mild-fibrosis-(F-0-1)_DOWN	NA	Prevotella
-bsdb:26606973/1/1_chronic-hepatitis-B-virus-infection:chronic-hepatitis-B_vs_healthy-controls_UP	NA	Yersinia	Filifactor
-bsdb:26606973/1/2_chronic-hepatitis-B-virus-infection:chronic-hepatitis-B_vs_healthy-controls_DOWN	NA	Leptotrichia	Capnocytophaga
+bsdb:26606973/1/1_Chronic-hepatitis-B-virus-infection:chronic-hepatitis-B_vs_healthy-controls_UP	NA	Yersinia	Filifactor
+bsdb:26606973/1/2_Chronic-hepatitis-B-virus-infection:chronic-hepatitis-B_vs_healthy-controls_DOWN	NA	Leptotrichia	Capnocytophaga
 bsdb:26606973/2/1_Chronic-hepatitis-B-virus-infection:chronic-hepatitis-B_vs_liver-cirrhosis_UP	NA	Filifactor	Treponema
 bsdb:26606973/2/2_Chronic-hepatitis-B-virus-infection:chronic-hepatitis-B_vs_liver-cirrhosis_DOWN	NA	Neisseria
 bsdb:26641451/1/1_Esophageal-cancer:Esophageal-Squamous-cell-carcinoma-(ESCC)_vs_Dysplasia_UP	NA	Filifactor	Lactobacillus	Porphyromonas	Prevotella	Streptococcus	Abiotrophia
@@ -800,7 +800,7 @@ bsdb:28620208/1/1_Substance-related-disorder:Substance-use-disorder-patients_vs_
 bsdb:28620208/1/2_Substance-related-disorder:Substance-use-disorder-patients_vs_Healthy-controls_DOWN	NA	Bilophila	Dorea	Parabacteroides	Streptococcus	Anaerostipes	Megasphaera	Fusicatenibacter	Alistipes	Gemmiger	Bacteroides	Ruminococcus
 bsdb:28620208/2/1_Substance-related-disorder:Substance-use-disorder-patients_vs_adjusted-Healthy-controls_UP	NA	Thauera	Paracoccus	Prevotella
 bsdb:28620208/2/2_Substance-related-disorder:Substance-use-disorder-patients_vs_adjusted-Healthy-controls_DOWN	NA	Anaerostipes	Parabacteroides	Gemmiger	Bilophila	Streptococcus	Megasphaera	Fusicatenibacter
-bsdb:28624933/1/1_NA:high-Southern-European-Atlantic-Diet_vs_low-Southern-European-Atlantic-Diet_UP	NA	Bifidobacterium
+bsdb:28624933/1/1_Diet:high-Southern-European-Atlantic-Diet_vs_low-Southern-European-Atlantic-Diet_UP	NA	Bifidobacterium
 bsdb:28624933/2/1_Diet:intermediate-Southern-European-Atlantic-Diet_vs_low-Southern-European-Atlantic-Diet_UP	NA	Bifidobacterium
 bsdb:28624933/5/1_Diet:>-30-years-participants_vs_20-30-years-participants_UP	NA	Lactobacillus
 bsdb:28624933/6/2_Diet:BMI->25_vs_BMI-<-20_DOWN	NA	Bifidobacterium
@@ -879,7 +879,7 @@ bsdb:28725009/1/1_Squamous-cell-carcinoma:Oropharyngeal-Squamous-Cell-Carcinoma_
 bsdb:28725009/1/2_Squamous-cell-carcinoma:Oropharyngeal-Squamous-Cell-Carcinoma_vs_Healthy-Controls_DOWN	NA	Catonella	Haemophilus	Neisseria	Prevotella	Streptococcus	Veillonella
 bsdb:28725009/2/1_Squamous-cell-carcinoma:Oropharyngeal-Squamous-Cell-Carcinoma_vs_Healthy-Controls_UP	NA	Spirochaeta	Veillonella
 bsdb:28725009/2/2_Squamous-cell-carcinoma:Oropharyngeal-Squamous-Cell-Carcinoma_vs_Healthy-Controls_DOWN	NA	Stomatobaculum
-bsdb:28733895/2/1_graft-versus-host-disease:acute-graft-versus-host-disease_vs_non-acute-graft-versus-host-disease_UP	NA	Faecalibacterium	Eubacterium
+bsdb:28733895/2/1_Graft-versus-host-disease:acute-graft-versus-host-disease_vs_non-acute-graft-versus-host-disease_UP	NA	Faecalibacterium	Eubacterium
 bsdb:28743816/1/1_HIV-infection:HIV-seroconverted_vs_HIV-seronegative_UP	NA	Dialister	Mobiluncus	Murdochiella	Peptostreptococcus	Prevotella
 bsdb:28750650/1/1_Ankylosing-spondylitis:Ankylosing-spondylitis-patients_vs_Healthy-controls_UP	NA	Actinomyces	Bifidobacterium	Collinsella	Corynebacterium	Eggerthella	Faecalibacterium	Megamonas	Megasphaera	Neisseria	Prevotella	Rothia	Sutterella
 bsdb:28750650/1/2_Ankylosing-spondylitis:Ankylosing-spondylitis-patients_vs_Healthy-controls_DOWN	NA	Butyrivibrio	Citrobacter	Clostridium	Enterobacter	Eubacterium	Fusobacterium	Klebsiella	Odoribacter	Parabacteroides	Roseburia	Campylobacter	Enterococcus
@@ -947,8 +947,8 @@ bsdb:28870194/3/1_Chronic-constipation:Placebo-Total-cohort-V3(Visit-3)_vs_Place
 bsdb:28870194/3/2_Chronic-constipation:Placebo-Total-cohort-V3(Visit-3)_vs_Placebo-Total-cohort-V1(Visit-1)_DOWN	NA	Faecalibacterium
 bsdb:28870194/4/1_NA:EpiCor-Total-cohort-V2(Visit-2)_vs_EpiCor-Total-cohort-V1(Visit-1)_UP	NA	Anaerostipes	Prevotella
 bsdb:28870194/4/2_NA:EpiCor-Total-cohort-V2(Visit-2)_vs_EpiCor-Total-cohort-V1(Visit-1)_DOWN	NA	Alistipes
-bsdb:28870194/5/1_NA:EpiCor-Total-cohort-V3(Visit-3)_vs_EpiCor-Total-cohort-V1(Visit-1)_UP	NA	Anaerostipes	Bacteroides
-bsdb:28870194/5/2_NA:EpiCor-Total-cohort-V3(Visit-3)_vs_EpiCor-Total-cohort-V1(Visit-1)_DOWN	NA	Coprococcus	Faecalibacterium
+bsdb:28870194/5/1_Chronic-constipation:EpiCor-Total-cohort-V3(Visit-3)_vs_EpiCor-Total-cohort-V1(Visit-1)_UP	NA	Anaerostipes	Bacteroides
+bsdb:28870194/5/2_Chronic-constipation:EpiCor-Total-cohort-V3(Visit-3)_vs_EpiCor-Total-cohort-V1(Visit-1)_DOWN	NA	Coprococcus	Faecalibacterium
 bsdb:28870194/6/1_NA:Placebo-Severe-subgroup-V2(Visit-2)_vs_Placebo-Severe-subgroup-V1(Visit-1)_UP	NA	Blautia	Dialister
 bsdb:28870194/6/2_NA:Placebo-Severe-subgroup-V2(Visit-2)_vs_Placebo-Severe-subgroup-V1(Visit-1)_DOWN	NA	Bacteroides	Bifidobacterium	Faecalibacterium
 bsdb:28870194/7/1_Chronic-constipation:Placebo-Severe-subgroup-V3(Visit-3)_vs_Placebo-Severe-subgroup-V1(Visit-1)_UP	NA	Acidaminococcus	Blautia	Ruminococcus	Dialister
@@ -978,7 +978,7 @@ bsdb:28944067/3/1_Colorectal-cancer:colon-cancer-patients-(fecal-samples)_vs_con
 bsdb:28944067/3/2_Colorectal-cancer:colon-cancer-patients-(fecal-samples)_vs_control-group_DOWN	NA	Roseburia
 bsdb:28968427/1/1_Cesarean-section:two-day-aged-babies-c-section_vs_vaginal-delivery_UP	NA	Klebsiella	Sarcina
 bsdb:28968427/3/1_Cesarean-section:seven-day-aged-babies-c-section_vs_vaginal-delivery_UP	NA	Klebsiella	Sarcina
-bsdb:28968427/4/1_cesarean-section:seven-day-aged-babies-c-section_vs_vaginal-delivery_DOWN	NA	Bacteroides	Collinsella
+bsdb:28968427/4/1_Cesarean-section:seven-day-aged-babies-c-section_vs_vaginal-delivery_DOWN	NA	Bacteroides	Collinsella
 bsdb:28970732/1/1_Ketogenic-diet:post-ketogenic-diet-(P2)_vs_healthy-controls_UP	NA	Acinetobacter	Bacillus	Butyricicoccus	Cronobacter	Eggerthella	Enterococcus	Gemella	Klebsiella	Lactococcus	Lactonifactor	Odoribacter	Peptoclostridium	Pseudomonas	Ruminiclostridium	Thomasclavelia
 bsdb:28970732/1/2_Ketogenic-diet:post-ketogenic-diet-(P2)_vs_healthy-controls_DOWN	NA	Actinomyces	Bifidobacterium	Bilophila	Clostridium	Escherichia	Faecalibacterium	Granulicatella	Haemophilus	Lachnoclostridium
 bsdb:28970732/2/1_Epilepsy:pre-ketogenic-diet-(P1)_vs_healthy-controls_UP	NA	Acinetobacter	Bacillus	Butyricicoccus	Cronobacter	Dysgonomonas	Eggerthella	Enterococcus	Gemella	Klebsiella	Lactococcus	Lactonifactor	Mogibacterium	Odoribacter	Peptoclostridium	Porphyromonas	Pseudomonas	Psychrobacter	Ralstonia	Streptococcus	Thomasclavelia
@@ -1101,8 +1101,8 @@ bsdb:29321519/1/1_Asthma:child-with-asthma-at-5-years-old_vs_no-asthma-at-5-year
 bsdb:29321519/1/2_Asthma:child-with-asthma-at-5-years-old_vs_no-asthma-at-5-years-old_DOWN	NA	Roseburia	Alistipes	Flavonifractor	Faecalibacterium	Bifidobacterium	Blautia	Parabacteroides	Anaerostipes	Ruminococcus	Dialister	Prevotella
 bsdb:29321519/2/1_Asthma:child-with-asthma-at-5-years-old-among-mothers-with-asthma_vs_no-asthma-at-5-years-old_UP	NA	Veillonella
 bsdb:29321519/2/2_Asthma:child-with-asthma-at-5-years-old-among-mothers-with-asthma_vs_no-asthma-at-5-years-old_DOWN	NA	Alistipes	Bifidobacterium	Dialister	Faecalibacterium	Roseburia	Ruminococcus	Blautia	Parabacteroides	Streptococcus	Prevotella	Flavonifractor	Akkermansia
-bsdb:29321519/3/1_NA:child-with-asthma-at-5-years-old-among-mothers-without-asthma_vs_no-asthma-at-5-years-old_UP	NA	Veillonella	Prevotella	Streptococcus	Ruminococcus	Akkermansia
-bsdb:29321519/3/2_NA:child-with-asthma-at-5-years-old-among-mothers-without-asthma_vs_no-asthma-at-5-years-old_DOWN	NA	Faecalibacterium	Bifidobacterium	Blautia	Anaerostipes	Alistipes	Flavonifractor
+bsdb:29321519/3/1_Asthma:child-with-asthma-at-5-years-old-among-mothers-without-asthma_vs_no-asthma-at-5-years-old_UP	NA	Veillonella	Prevotella	Streptococcus	Ruminococcus	Akkermansia
+bsdb:29321519/3/2_Asthma:child-with-asthma-at-5-years-old-among-mothers-without-asthma_vs_no-asthma-at-5-years-old_DOWN	NA	Faecalibacterium	Bifidobacterium	Blautia	Anaerostipes	Alistipes	Flavonifractor
 bsdb:29327043/1/2_Head-and-neck-squamous-cell-carcinoma:HNSCC_vs_controls_DOWN	NA	Corynebacterium	Kingella
 bsdb:29327043/3/1_Squamous-cell-carcinoma:Pharynx-cancer-cases_vs_controls_DOWN	NA	Corynebacterium	Kingella
 bsdb:29327043/4/1_Squamous-cell-carcinoma:Oral-cavity-cancer-cases_vs_controls_UP	NA	Actinomyces
@@ -1203,10 +1203,10 @@ bsdb:29625474/3/1_Anterior-uveitis,Ankylosing-spondylitis:AAU+-AS+-(Acute-Anteri
 bsdb:29625474/3/2_Anterior-uveitis,Ankylosing-spondylitis:AAU+-AS+-(Acute-Anterior-Uveitis-Patients-with-Ankylosing-Spondylitis)_vs_Healthy-Controls_DOWN	NA	Odoribacter	Dorea
 bsdb:29625474/4/1_Anterior-uveitis:AAU+-AS--(Acute-Anterior-Uveitis-Patients-without-Ankylosing-Spondylitis)_vs_Healthy-Controls_DOWN	NA	Roseburia	Clostridium	Blautia	Barnesiella
 bsdb:29625474/5/1_Anterior-uveitis:HLA-B27+-(Human-Leukocyte-Antigen-B27-positive)-patients_vs_HLA-B27--(Human-Leukocyte-Antigen-B27-negative)-patients_DOWN	NA	Bifidobacterium	Blautia	Collinsella
-bsdb:29632427/1/1_NA:Patients-with-Crohn's-disease_vs_Healthy-controls_UP	NA	Abiotrophia	Escherichia	Pseudoramibacter
-bsdb:29632427/1/2_NA:Patients-with-Crohn's-disease_vs_Healthy-controls_DOWN	NA	Butyricicoccus	Mitsuokella	Haemophilus	Victivallis
-bsdb:29632427/2/1_NA:Patients-with-ulcerative-colitis_vs_Healthy-controls_UP	NA	Granulicatella	Peptostreptococcus	Schwartzia	Capnocytophaga	Escherichia	Janthinobacterium	Campylobacter	Actinomyces	Eggerthella	Corynebacterium
-bsdb:29632427/2/2_NA:Patients-with-ulcerative-colitis_vs_Healthy-controls_DOWN	NA	Alistipes	Butyricimonas	Desulfovibrio	Holdemania	Lachnobacterium	Megamonas	Mitsuokella	Oxalobacter	Prevotella	Pyramidobacter	Synergistes	Victivallis
+bsdb:29632427/1/1_Crohn's-disease:Patients-with-Crohn's-disease_vs_Healthy-controls_UP	NA	Abiotrophia	Escherichia	Pseudoramibacter
+bsdb:29632427/1/2_Crohn's-disease:Patients-with-Crohn's-disease_vs_Healthy-controls_DOWN	NA	Butyricicoccus	Mitsuokella	Haemophilus	Victivallis
+bsdb:29632427/2/1_Ulcerative-colitis:Patients-with-ulcerative-colitis_vs_Healthy-controls_UP	NA	Granulicatella	Peptostreptococcus	Schwartzia	Capnocytophaga	Escherichia	Janthinobacterium	Campylobacter	Actinomyces	Eggerthella	Corynebacterium
+bsdb:29632427/2/2_Ulcerative-colitis:Patients-with-ulcerative-colitis_vs_Healthy-controls_DOWN	NA	Alistipes	Butyricimonas	Desulfovibrio	Holdemania	Lachnobacterium	Megamonas	Mitsuokella	Oxalobacter	Prevotella	Pyramidobacter	Synergistes	Victivallis
 bsdb:29632427/3/1_Crohn's-disease:Patients-with-Crohn's-disease_vs_Patients-with-ulcerative-colitis_UP	NA	Desulfovibrio	Pseudoramibacter	Slackia
 bsdb:29632427/3/2_Crohn's-disease:Patients-with-Crohn's-disease_vs_Patients-with-ulcerative-colitis_DOWN	NA	Butyricicoccus	Moryella	Staphylococcus	Capnocytophaga	Haemophilus	Janthinobacterium	Cardiobacterium	Lautropia	Shewanella	Corynebacterium
 bsdb:29659737/2/1_HIV-mother-to-child-transmission:Exclusively-breastfed-(EBF)-infants-at-14-weeks._vs_Non-exclusively-breastfed-(NEBF)-infants-at-14-weeks._UP	NA	Actinomyces	Atopobium
@@ -1293,8 +1293,8 @@ bsdb:29793531/2/1_Obesity:foster-mother-wild-type-post-HFD_vs_foster-mother-fat1
 bsdb:29793531/2/2_Obesity:foster-mother-wild-type-post-HFD_vs_foster-mother-fat1-post-HFD_DOWN	NA	Helicobacter	Bacteroides	Odoribacter	Candidatus Saccharimonas
 bsdb:29804833/1/1_Response-to-ketogenic-diet:ketogenic-diet-(KD)-group-day-14_vs_control-diet-(CD)-group-day-14_UP	NA	Sutterella
 bsdb:29804833/1/2_Response-to-ketogenic-diet:ketogenic-diet-(KD)-group-day-14_vs_control-diet-(CD)-group-day-14_DOWN	NA	Allobaculum	Bifidobacterium	Desulfovibrio
-bsdb:29804833/2/1_NA:ketogenic-diet-(KD)-group-day-8_vs_control-diet-(CD)-group-day-8_UP	NA	Parabacteroides
-bsdb:29804833/2/2_NA:ketogenic-diet-(KD)-group-day-8_vs_control-diet-(CD)-group-day-8_DOWN	NA	Allobaculum	Bifidobacterium	Desulfovibrio
+bsdb:29804833/2/1_Response-to-ketogenic-diet:ketogenic-diet-(KD)-group-day-8_vs_control-diet-(CD)-group-day-8_UP	NA	Parabacteroides
+bsdb:29804833/2/2_Response-to-ketogenic-diet:ketogenic-diet-(KD)-group-day-8_vs_control-diet-(CD)-group-day-8_DOWN	NA	Allobaculum	Bifidobacterium	Desulfovibrio
 bsdb:29804833/3/1_Response-to-ketogenic-diet:ketogenic-diet-(KD)-group-day-4_vs_control-diet-(CD)-group-day-4_UP	NA	Parabacteroides
 bsdb:29804833/3/2_Response-to-ketogenic-diet:ketogenic-diet-(KD)-group-day-4_vs_control-diet-(CD)-group-day-4_DOWN	NA	Desulfovibrio
 bsdb:29804833/4/1_Response-to-ketogenic-diet:Kcna1−/−-ketogenic-diet-(KD)-group_vs_Kcna1−/−-control-diet-(CD)-group_UP	NA	Parabacteroides
@@ -1454,8 +1454,8 @@ bsdb:30122883/2/2_Chronic-hepatitis-B-virus-infection:chronic-hepatitis-B-yellow
 bsdb:30122883/3/1_chronic-hepatitis-B-virus-infection:chronic-hepatitis-B-white-tongue-coating-patients_vs_healthy-controls_UP	NA	Bergeyella	Bulleidia	Centipeda	Porphyromonas
 bsdb:30122883/3/2_chronic-hepatitis-B-virus-infection:chronic-hepatitis-B-white-tongue-coating-patients_vs_healthy-controls_DOWN	NA	Actinomyces	Alysiella	Pseudoramibacter	Scardovia
 bsdb:30123780/1/1_Head-and-neck-carcinoma:OCC-&-OPC_vs_High-risk-individuals_DOWN	NA	Paludibacter	Corynebacterium	Porphyromonas	Actinomyces	Actinobacillus	Capnocytophaga	Fusobacterium	Aggregatibacter	Lautropia
-bsdb:30123780/2/1_NA:OCC-&-OPC_vs_Normal-Healthy-Controls_UP	NA	Oribacterium
-bsdb:30123780/2/2_NA:OCC-&-OPC_vs_Normal-Healthy-Controls_DOWN	NA	Rothia	Haemophilus	Corynebacterium	Paludibacter	Porphyromonas	Capnocytophaga
+bsdb:30123780/2/1_Head-and-neck-carcinoma:OCC-&-OPC_vs_Normal-Healthy-Controls_UP	NA	Oribacterium
+bsdb:30123780/2/2_Head-and-neck-carcinoma:OCC-&-OPC_vs_Normal-Healthy-Controls_DOWN	NA	Rothia	Haemophilus	Corynebacterium	Paludibacter	Porphyromonas	Capnocytophaga
 bsdb:30131575/1/1_Milk-allergic-reaction:non-IgE-mediated-cow's-milk-allergy_vs_healthy-controls_UP	NA	Alistipes	Bacteroides	Sarcina
 bsdb:30131575/2/1_Milk-allergic-reaction:infant-with-non-IgE-mediated-cow's-milk-allergy-treated-with-EHCF_vs_infant-with-non-IgE-mediated-cow's-milk-allergy-at-diagnosis_DOWN	NA	Bacteroides	Alistipes
 bsdb:30131575/3/1_Milk-allergic-reaction:infant-with-non-IgE-mediated-cow's-milk-allergy-treated-with-EHCF+LGG_vs_infant-with-non-IgE-mediated-cow's-milk-allergy-at-diagnosis_DOWN	NA	Alistipes	Bacteroides
@@ -1803,8 +1803,8 @@ bsdb:30778376/9/1_Stroke:Low-Risk-(LR)-With-Medication-use_vs_High-Risk-(HR)-and
 bsdb:30778376/10/1_Stroke:High-Risk-(HR)_vs_Low-Risk-(LR)-and-Medium-Risk-(MR)_UP	NA	Escherichia	Veillonella	Lactobacillus	Cetobacterium	Serratia
 bsdb:30778376/11/1_Stroke:Medium-Risk-(MR)_vs_Low-Risk-(LR)-and-High-Risk-(HR)_UP	NA	Plesiomonas
 bsdb:30778376/13/2_Stroke:High-Risk-(HR)_vs_Low-Risk-(LR)_DOWN	NA	Roseburia	Faecalibacterium
-bsdb:30778376/14/1_Cerebrovascular-disorder,Stroke:High-Risk-(HR)_vs_Low-Risk-(LR)_UP	NA	Corynebacterium	Megasphaera	Streptococcus	Christensenella	Methylobacterium	Delftia	Leuconostoc	Plesiomonas	Anaerostipes
-bsdb:30778376/14/2_Cerebrovascular-disorder,Stroke:High-Risk-(HR)_vs_Low-Risk-(LR)_DOWN	NA	Faecalibacterium	Akkermansia	Ruminococcus	Roseburia	Sphingomonas	Lachnobacterium
+bsdb:30778376/14/1_Stroke:High-Risk-(HR)_vs_Low-Risk-(LR)_UP	NA	Corynebacterium	Megasphaera	Streptococcus	Christensenella	Methylobacterium	Delftia	Leuconostoc	Plesiomonas	Anaerostipes
+bsdb:30778376/14/2_Stroke:High-Risk-(HR)_vs_Low-Risk-(LR)_DOWN	NA	Faecalibacterium	Akkermansia	Ruminococcus	Roseburia	Sphingomonas	Lachnobacterium
 bsdb:30778376/15/2_Stroke:Medium-Risk-(MR)_vs_Low-Risk-(LR)_DOWN	NA	Roseburia
 bsdb:30782659/1/1_Human-papilloma-virus-infection:high-grade-squamous-intraepithelial-lesions_vs_negative-for-intraepithelial-lesion-or-malignancy_UP	NA	Staphylococcus
 bsdb:30782659/1/2_Human-papilloma-virus-infection:high-grade-squamous-intraepithelial-lesions_vs_negative-for-intraepithelial-lesion-or-malignancy_DOWN	NA	Finegoldia
@@ -3659,8 +3659,8 @@ bsdb:34620922/15/1_Species-design:Cecum-of-Grey-red-backed-vole_vs_Rectum-of-Gre
 bsdb:34620922/15/2_Species-design:Cecum-of-Grey-red-backed-vole_vs_Rectum-of-Grey-red-backed-vole_DOWN	NA	Pygmaiobacter
 bsdb:34620922/18/1_Species-design:Large-Japanese-field-mouse(Apodemus-speciosus):-Small-intestine_vs_Small-Japanese-field-mouse-(Apodemus-argenteus)-:-Small-intestine_UP	NA	Fusobacterium	Mucispirillum	Ureaplasma	Bergeyella	Turicibacter	Serratia	Bacteroides	Muribaculum	Parasutterella	Odoribacter	Rikenella
 bsdb:34620922/18/2_Species-design:Large-Japanese-field-mouse(Apodemus-speciosus):-Small-intestine_vs_Small-Japanese-field-mouse-(Apodemus-argenteus)-:-Small-intestine_DOWN	NA	Aquicella	Bifidobacterium	Brachyspira	Bradyrhizobium	Campylobacter	Chryseobacterium	Coxiella	Gemella	Gemmatimonas	Haliangium	Ilumatobacter	Lactobacillus	Leptotrichia	Methylobacterium	Minicystis	Mycoplasma	Paludibacter	Pelosinus	Phaselicystis	Phyllobacterium	Providencia	Rodentibacter	Sandaracinus	Sphingomonas	Streptococcus	Streptomyces	Variovorax
-bsdb:34620922/19/1_NA:Grey-red-backed-vole-(Myodes-rufocanus)-:-Small-intestine_vs_Large-Japanese-field-mouse-(Apodemus-speciosus)-:-Small-intestine_UP	NA	Allofournierella	Candidatus Cardinium	Candidatus Saccharimonas	Coxiella	Desulfovibrio	Lactobacillus	Millionella	Peptococcus	Rickettsia	Roseburia	Ruminiclostridium	Ureaplasma
-bsdb:34620922/19/2_NA:Grey-red-backed-vole-(Myodes-rufocanus)-:-Small-intestine_vs_Large-Japanese-field-mouse-(Apodemus-speciosus)-:-Small-intestine_DOWN	NA	Acinetobacter	Anaerobacillus	Bacteroides	Bergeyella	Delftia	Faecalibaculum	Fusobacterium	Gemella	Leptotrichia	Mucispirillum	Muribaculum	Odoribacter	Parasutterella	Porphyromonas	Rikenella	Serratia	Streptococcus	Turicibacter
+bsdb:34620922/19/1_Species-design:Grey-red-backed-vole-(Myodes-rufocanus)-:-Small-intestine_vs_Large-Japanese-field-mouse-(Apodemus-speciosus)-:-Small-intestine_UP	NA	Allofournierella	Candidatus Cardinium	Candidatus Saccharimonas	Coxiella	Desulfovibrio	Lactobacillus	Millionella	Peptococcus	Rickettsia	Roseburia	Ruminiclostridium	Ureaplasma
+bsdb:34620922/19/2_Species-design:Grey-red-backed-vole-(Myodes-rufocanus)-:-Small-intestine_vs_Large-Japanese-field-mouse-(Apodemus-speciosus)-:-Small-intestine_DOWN	NA	Acinetobacter	Anaerobacillus	Bacteroides	Bergeyella	Delftia	Faecalibaculum	Fusobacterium	Gemella	Leptotrichia	Mucispirillum	Muribaculum	Odoribacter	Parasutterella	Porphyromonas	Rikenella	Serratia	Streptococcus	Turicibacter
 bsdb:34620922/21/1_Species-design:Large-Japanese-field-mouse-(Apodemus-speciosus)-:-Cecum_vs_Small-Japanese-field-mouse-(Apodemus-argenteus)-:-Cecum_UP	NA	Bacteroides	Bilophila	Butyricicoccus	Helicobacter	Mucispirillum	Muribaculum	Oscillibacter	Ruminiclostridium	Ureaplasma
 bsdb:34620922/21/2_Species-design:Large-Japanese-field-mouse-(Apodemus-speciosus)-:-Cecum_vs_Small-Japanese-field-mouse-(Apodemus-argenteus)-:-Cecum_DOWN	NA	Alistipes	Brachyspira	Campylobacter	Oxalobacter	Parasutterella	Rickettsia	Rikenella	Streptococcus	Turicibacter
 bsdb:34620922/22/1_Species-design:Grey-red-backed-vole-(Myodes-rufocanus)-:-Cecum_vs_Large-Japanese-field-mouse-(Apodemus-speciosus)-:-Cecum_UP	NA	Allofournierella	Anaerostipes	Brachyspira	Candidatus Saccharimonas	Candidatus Soleaferrea	Desulfovibrio	Harryflintia	Millionella	Oxalobacter	Peptococcus	Pygmaiobacter	Quinella	Ruminiclostridium
@@ -3968,7 +3968,7 @@ bsdb:35558553/2/1_Response-to-diet:HFB-(Hyperlipid-feeding-combined-with-binding
 bsdb:35558553/2/2_Response-to-diet:HFB-(Hyperlipid-feeding-combined-with-binding)_vs_NC-(Normal-Control)_DOWN	NA	Akkermansia	Bifidobacterium	Gemmiger	Parvibacter	Ruminococcus
 bsdb:35573767/2/1_Constipation:BL03-1(B.-animalis-subsp.-lactis-BL03-group))_vs_control-group+BI63-2(B.-longum-subsp.-infantis)+BAL005-3(B.-animalis-subsp.-lactis)+BI63-3(B.-longum-subsp.-infantis)+BLL-2-1(B.-longum)+BLL2-2(B.-longum)+BL03-3(B.-animalis-subsp.-lactis)+BI20-3(B.-longum-subsp.-infantis)+model-group(positive-control)+BI63-1(B.-longum-subsp.-infantis)+BLL11-2(B.-longum)_UP	NA	Eisenbergiella	Faecalibaculum	Subdoligranulum	Terrisporobacter	Allofournierella
 bsdb:35573767/3/1_Constipation:BI63-2(B.-infantis-BI63-2-group-)_vs_control-group+BL03-1(B.-animalis-subsp.-lactis)+BAL005-3(B.-animalis-subsp.-lactis)+BI63-3(B.-longum-subsp.-infantis)+BLL-2-1(B.-longum)+BLL2-2(B.-longum)+BL03-3(B.-animalis-subsp.-lactis)+BI20-3(B.-longum-subsp.-infantis)+model-group(positive-control)+BI63-1(B.-longum-subsp.-infantis)+BLL11-2(B.-longum)_UP	NA	Candidatus Saccharimonas
-bsdb:35573767/4/1_Constipation-disorder:BAL005-3(B.-animalis-subsp.-lactis)_vs_control-group+BL03-1(B.-animalis-subsp.-lactis)+BI63-2(B.-longum-subsp.-infantis)+BI63-3(B.-longum-subsp.-infantis)+BLL-2-1(B.-longum)+BLL2-2(B.-longum)+BL03-3(B.-animalis-subsp.-lactis)+BI20-3(B.-longum-subsp.-infantis)+model-group(positive-control)+BI63-1(B.-longum-subsp.-infantis)+BLL11-2(B.-longum)_UP	NA	Allobaculum	Bacteroides	Barnesiella	Eggerthella	Gemmobacter	Veillonella
+bsdb:35573767/4/1_Constipation:BAL005-3(B.-animalis-subsp.-lactis)_vs_control-group+BL03-1(B.-animalis-subsp.-lactis)+BI63-2(B.-longum-subsp.-infantis)+BI63-3(B.-longum-subsp.-infantis)+BLL-2-1(B.-longum)+BLL2-2(B.-longum)+BL03-3(B.-animalis-subsp.-lactis)+BI20-3(B.-longum-subsp.-infantis)+model-group(positive-control)+BI63-1(B.-longum-subsp.-infantis)+BLL11-2(B.-longum)_UP	NA	Allobaculum	Bacteroides	Barnesiella	Eggerthella	Gemmobacter	Veillonella
 bsdb:35573767/6/1_Constipation:BLL2-1-(B.-longum-BLL2-group)_vs_Control-+-Constipation-model-+-BL03-1-(B.-animalis-subsp.-lactis-BL03-group)-+-BL03-3-(B.-animalis-subsp.-lactis-BL03-group)-+-BI63-1-(B.-infantis-BI63-group)-+-BI63-2-(B.-infantis-BI63-group)-+-BI63-3-(B.-infantis-BI63-group)-+-BLL2-2-(B.-longum-BLL2-group)-+-BLL11-2-(B.-longum-BLL2-group)-+-BAL005-3-(Bifidobacteria-treated-group)-+-BI20-3-(B.-infantis-BI20-group)_UP	NA	Bifidobacterium
 bsdb:35573767/7/1_Constipation:BLL2-2-(B.-longum-BLL2-group)_vs_Control-+-Constipation-model-+-BL03-1-(B.-animalis-subsp.-lactis-BL03-group)-+-BL03-3-(B.-animalis-subsp.-lactis-BL03-group)-+-BI63-1-(B.-infantis-BI63-group)-+-BI63-2-(B.-infantis-BI63-group)-+-BI63-3-(B.-infantis-BI63-group)-+-BLL2-1-(B.-longum-BLL2-group)--+-BLL11-2-(B.-longum-BLL2-group)-+-BAL005-3-(Bifidobacteria-treated-group)-+-BI20-3-(B.-infantis-BI20-group)_UP	NA	Adlercreutzia
 bsdb:35573767/9/1_Constipation:BI20-3-(B.-infantis-BI20-group)_vs_Control-+-Constipation-model-+-BL03-1-(B.-animalis-subsp.-lactis-BL03-group)-+-BL03-3-(B.-animalis-subsp.-lactis-BL03-group)-+-BI63-1-(B.-infantis-BI63-group)-+-BI63-2-(B.-infantis-BI63-group)-+-BI63-3-(B.-infantis-BI63-group)-+-BLL2-1-(B.-longum-BLL2-group)-+-BLL2-2-(B.-longum-BLL2-group)-+-BLL11-2-(B.-longum-BLL2-group)-+-BAL005-3-(Bifidobacteria-treated-group)_UP	NA	Fusobacterium	Megamonas	Megasphaera	Dialister	Phascolarctobacterium
@@ -4114,8 +4114,8 @@ bsdb:35985814/6/1_Clinical-treatment:Hemodialysis-(HD)_vs_Kidney-transplantation
 bsdb:35985814/6/2_Clinical-treatment:Hemodialysis-(HD)_vs_Kidney-transplantation-(KT)_DOWN	NA	Subdoligranulum	Ruminococcus	Ruminiclostridium
 bsdb:35990344/1/1_Response-to-diet:Post-ancient-wheat-diet-(AD)_vs_Pre-ancient-wheat-diet-(AD)_UP	NA	Thomasclavelia
 bsdb:35990344/1/2_Response-to-diet:Post-ancient-wheat-diet-(AD)_vs_Pre-ancient-wheat-diet-(AD)_DOWN	NA	Holdemanella
-bsdb:35990344/2/1_NA:Post-Modern-Wheat-Diet-(Post-CD)_vs_Pre-Modern-Wheat-Diet-(Pre-CD)_UP	NA	Akkermansia	Hungatella
-bsdb:35990344/2/2_NA:Post-Modern-Wheat-Diet-(Post-CD)_vs_Pre-Modern-Wheat-Diet-(Pre-CD)_DOWN	NA	Frisingicoccus	Megasphaera	Synergistes	Tyzzerella
+bsdb:35990344/2/1_Response-to-diet:Post-Modern-Wheat-Diet-(Post-CD)_vs_Pre-Modern-Wheat-Diet-(Pre-CD)_UP	NA	Akkermansia	Hungatella
+bsdb:35990344/2/2_Response-to-diet:Post-Modern-Wheat-Diet-(Post-CD)_vs_Pre-Modern-Wheat-Diet-(Pre-CD)_DOWN	NA	Frisingicoccus	Megasphaera	Synergistes	Tyzzerella
 bsdb:36002642/1/1_Papillary-thyroid-carcinoma:PTC-patients-with-advanced-lesions-(T3_4)_vs_PTC-patients-with-mild-lesions-(T1_2)_UP	NA	Granulicatella	Haemophilus	Streptococcus
 bsdb:36002642/1/2_Papillary-thyroid-carcinoma:PTC-patients-with-advanced-lesions-(T3_4)_vs_PTC-patients-with-mild-lesions-(T1_2)_DOWN	NA	Pseudomonas	Rhodococcus	Sphingomonas
 bsdb:36002642/2/1_Papillary-thyroid-carcinoma:Patients-with-PTC-at-clinical-stage-T2_vs_Patients-with-PTC-at-clinical-stage-T1_DOWN	NA	Aliicoccus	Allofournierella	Alloprevotella	Asticcacaulis	Atopobium	Bergeyella	Bradyrhizobium	Candidatus Soleaferrea	Catonella	Crossiella	Eubacterium	Facklamia	Haemophilus	Halomonas	Johnsonella	Lachnoanaerobaculum	Monoglobus	Oribacterium	Proteus	Pseudomonas	Pyramidobacter	Rhodococcus	Ruegeria	Sandaracinobacter	Shewanella	Solirubrobacter	Solobacterium	Spirochaeta	Stomatobaculum	Streptobacillus	Streptococcus	Sulfurisoma	Sulfuritalea
@@ -5069,7 +5069,7 @@ bsdb:37936242/17/1_Response-to-transplant:Young+Surgery+youngFMT_vs_Young+Surger
 bsdb:37936242/18/1_Response-to-transplant:Young+Surgery+agedFMT_vs_Young+Surgery+youngFMT,-Aged+surgery+youngFMT-and-Aged+surgery+agedFMT._UP	NA	Allobaculum
 bsdb:37936242/19/1_Response-to-transplant:Aged+surgery+youngFMT_vs_Young+Surgery+youngFMT,-Young+surgery+agedFMT-and-Aged+surgery+agedFMT._UP	NA	Aerococcus	Turicibacter
 bsdb:37936242/20/1_Response-to-transplant:Aged+surgery+agedFMT_vs_Young+Surgery+youngFMT,-Young+surgery+agedFMT-and-Aged+surgery+youngFMT._UP	NA	Bifidobacterium	Clostridium	Coprobacillus	Lactococcus	Mucispirillum
-bsdb:37953319/1/1_NA:Amniotic-fluid-derived-extracellular-vesicles-(AM-EVs)_vs_Amniotic-fluid-(AM)_UP	NA	Alistipes	Alloprevotella	Bacteroides	Bradyrhizobium	Deinococcus	Dermacoccus	Dolosigranulum	Gemella	Granulicatella	Lawsonella	Neisseria	Peptoniphilus	Porphyromonas	Prevotella	Staphylococcus	Streptococcus	Veillonella	Vibrionimonas	Williamsia
+bsdb:37953319/1/1_Vesicle-membrane:Amniotic-fluid-derived-extracellular-vesicles-(AM-EVs)_vs_Amniotic-fluid-(AM)_UP	NA	Alistipes	Alloprevotella	Bacteroides	Bradyrhizobium	Deinococcus	Dermacoccus	Dolosigranulum	Gemella	Granulicatella	Lawsonella	Neisseria	Peptoniphilus	Porphyromonas	Prevotella	Staphylococcus	Streptococcus	Veillonella	Vibrionimonas	Williamsia
 bsdb:37953319/2/1_Vesicle-membrane:Maternal-feces-(FE)_vs_Amniotic-fluid-(AM)_UP	NA	Bradyrhizobium	Dermacoccus	Faecalibacterium	Staphylococcus
 bsdb:37953319/5/2_Vesicle-membrane:Feces-derived-extracellular-vesicles-(FE-EV)_vs_Amniotic-fluid-derived-extracellular-vesicles-(AM-EV)_DOWN	NA	Fusobacterium	Bacteroides	Finegoldia
 bsdb:37953319/6/1_Vesicle-membrane:Feces-derived-extracellular-vesicles-(FE-EV)_vs_Maternal-feces-(FE)_UP	NA	Alistipes	Alloprevotella	Anaerococcus	Bacteroides	Barnesiella	Blautia	Colidextribacter	Deinococcus	Dolosigranulum	Eremococcus	Ezakiella	Faecalibacterium	Finegoldia	Gemella	Granulicatella	Lawsonella	Micrococcus	Neisseria	Oscillibacter	Parvimonas	Peptoniphilus	Porphyromonas	Staphylococcus	Streptococcus	Subdoligranulum	Veillonella	Williamsia
@@ -5295,8 +5295,8 @@ bsdb:38344423/5/1_Major-depressive-disorder:Lower-total-distance-traveled_vs_Hig
 bsdb:38344423/5/2_Major-depressive-disorder:Lower-total-distance-traveled_vs_Higher-total-distance-traveled_DOWN	NA	Rothia	Facklamia	Vibrio	Enterococcus	Streptococcus
 bsdb:38344423/6/1_Major-depressive-disorder:Lower-mean-speed_vs_Higher-mean-speed_UP	NA	Psychrobacter	Aerococcus
 bsdb:38344423/6/2_Major-depressive-disorder:Lower-mean-speed_vs_Higher-mean-speed_DOWN	NA	Rothia	Facklamia	Vibrio	Enterococcus	Streptococcus
-bsdb:38344423/7/1_NA:Lower-number-of-rearing-events_vs_Higher-number-of-rearing-events_UP	NA	Psychrobacter	Aerococcus
-bsdb:38344423/7/2_NA:Lower-number-of-rearing-events_vs_Higher-number-of-rearing-events_DOWN	NA	Rothia	Facklamia	Vibrio	Enterococcus	Streptococcus
+bsdb:38344423/7/1_Major-depressive-disorder:Lower-number-of-rearing-events_vs_Higher-number-of-rearing-events_UP	NA	Psychrobacter	Aerococcus
+bsdb:38344423/7/2_Major-depressive-disorder:Lower-number-of-rearing-events_vs_Higher-number-of-rearing-events_DOWN	NA	Rothia	Facklamia	Vibrio	Enterococcus	Streptococcus
 bsdb:38366600/1/1_Male-homosexuality:Men-with->3-sexual-partners_vs_Men-with-0-3-sexual-partners_DOWN	NA	Oscillibacter
 bsdb:38366600/9/1_Male-homosexuality:MSM_vs_Non-MSM_UP	NA	Prevotella
 bsdb:38366600/10/1_Male-homosexuality:MSM_vs_Non-MSM_UP	NA	Prevotella
@@ -6197,7 +6197,7 @@ bsdb:39819634/3/1_Common-variable-immunodeficiency:Common-Variable-Immunodeficie
 bsdb:39819634/4/1_Common-variable-immunodeficiency:Common-Variable-Immunodeficiency-with-immune-dysregulation-without-medication-(CVIDid-med)_vs_Common-Variable-Immunodeficiency-with-infections-only-without-medication-(CVIDio-med)_UP	NA	Enterococcus	Anaerotruncus	Veillonella	Haemophilus
 bsdb:39819634/5/1_Common-variable-immunodeficiency:Common-Variable-Immunodeficiency-with-Immunoglobulin-A-<-0.1g/L-(CVID-IgA)_vs_Common-Variable-Immunodeficiency-with-Immunoglobulin-A->-0.1g/L-(CVID+IgA)_UP	NA	Enterococcus
 bsdb:39819634/6/1_Common-variable-immunodeficiency:Common-Variable-Immunodeficiency-with-Immunoglobulin-A-<-0.1g/L-without-medication-use-(CVID-IgA-med)_vs_Common-Variable-Immunodeficiency-with-Immunoglobulin-A->-0.1g/L-without-medication-use-(CVID+IgA-med)_UP	NA	Veillonella	Haemophilus	Enterococcus
-bsdb:39819634/7/2_NA:Common-Variable-Immunodeficiency-(CVID)--Age-confounder_vs_Healthy-Control-(HC)---Age-confounder_DOWN	NA	Bifidobacterium	Romboutsia
+bsdb:39819634/7/2_Common-variable-immunodeficiency:Common-Variable-Immunodeficiency-(CVID)--Age-confounder_vs_Healthy-Control-(HC)---Age-confounder_DOWN	NA	Bifidobacterium	Romboutsia
 bsdb:39819634/8/1_NA:Common-Variable-Immunodeficiency-(CVID)--Age-confounder_vs_Healthy-Control-(HC)---Age-confounder_UP	NA	Caproiciproducens
 bsdb:39824829/1/2_Phenotype:Indian-Individuals_vs_European-Individuals_DOWN	NA	Bifidobacterium
 bsdb:39824829/2/1_Phenotype:Groups-B-(consumed-both-Hawaijar-and-Dahi),-C-(consumed-Hawaijar,-not-Dahi),-and-D-(consumed-Dahi,-not-Hawaijar)_vs_Group-A-(-never-consumed-Hawaijar-and-Dahi-)_UP	NA	Tannerella
@@ -6924,8 +6924,8 @@ bsdb:41029180/2/1_Environmental-factor:Baseline-Donor-pair-2-(dp2)-United-States
 bsdb:41029180/2/2_Environmental-factor:Baseline-Donor-pair-2-(dp2)-United-States-(US)-colonized-mice_vs_Baseline-Donor-pair-2-(dp2)-Thailand-(Thai)-colonized-mice_DOWN	NA	Bacteroides	Blautia	Desulfovibrio	Dielma	Enterococcus	Fusobacterium	Hungatella	Lachnoclostridium	Lactobacillus	Parabacteroides	Pluralibacter	Terrisporobacter
 bsdb:41029180/7/1_Diet:Order-A;-Thailand-(Thai)-colonized-intervention-mice-fed-with-NNS-&-HFCS-(non-nutritive-sweeteners-(NNS)-and-high-fructose-corn-syrup-(HFCS))_vs_Order-A;-Baseline-Thailand-(Thai)-pre-intervention-mice_DOWN	NA	Paraclostridium
 bsdb:41029180/8/1_Diet:Order-A;Thailand-(Thai)-colonized-intervention-mice-fed-with-ADDITIVES_vs_Order-A;-Baseline-Thailand-(Thai)-pre-intervention-mice_DOWN	NA	Morganella	Paraclostridium	Peptoniphilus	Streptococcus
-bsdb:41029180/9/1_NA:Order-A;-United-States-(US)-colonized-intervention-mice-fed-with-MEAT_vs_Order-A;-Baseline-United-States-(US)-pre-intervention-mice_UP	NA	Collinsella	Harryflintia	Faecalitalea
-bsdb:41029180/9/2_NA:Order-A;-United-States-(US)-colonized-intervention-mice-fed-with-MEAT_vs_Order-A;-Baseline-United-States-(US)-pre-intervention-mice_DOWN	NA	Alistipes
+bsdb:41029180/9/1_Diet:Order-A;-United-States-(US)-colonized-intervention-mice-fed-with-MEAT_vs_Order-A;-Baseline-United-States-(US)-pre-intervention-mice_UP	NA	Collinsella	Harryflintia	Faecalitalea
+bsdb:41029180/9/2_Diet:Order-A;-United-States-(US)-colonized-intervention-mice-fed-with-MEAT_vs_Order-A;-Baseline-United-States-(US)-pre-intervention-mice_DOWN	NA	Alistipes
 bsdb:41029180/10/1_Diet:Order-A;-United-States-(US)-colonized-intervention-mice-fed-with-FLUORIDE-(F)_vs_Order-A;-Baseline-United-States-(US)-pre-intervention-mice_UP	NA	Collinsella	Harryflintia	Parasutterella	Sutterella
 bsdb:41029180/10/2_Diet:Order-A;-United-States-(US)-colonized-intervention-mice-fed-with-FLUORIDE-(F)_vs_Order-A;-Baseline-United-States-(US)-pre-intervention-mice_DOWN	NA	Lachnoclostridium
 bsdb:41029180/11/1_Diet:Order-A;-United-States-(US)-colonized-intervention-mice-fed-with-NNS-&-HFCS-(non-nutritive-sweeteners-(NNS)-and-high-fructose-corn-syrup-(HFCS))_vs_Order-A;-Baseline-United-States-(US)-pre-intervention-mice_UP	NA	Candidatus Stoquefichus	Citrobacter	Collinsella	Parasutterella	Marvinbryantia	Harryflintia	Faecalitalea
@@ -6956,8 +6956,8 @@ bsdb:41052039/10/1_Population,Ethnic-group:Akha-ethnic-group-residing-in-Chiang-
 bsdb:41052039/10/2_Population,Ethnic-group:Akha-ethnic-group-residing-in-Chiang-Rai-Province-(AkhaCR)_vs_ Akha-ethnic-group-residing-in-Chiang-Mai-Province-(AkhaCM)_DOWN	NA	Staphylococcus	Enterococcus
 bsdb:41052039/11/1_Population,Ethnic-group:Lahu-ethnic-group-residing-in-Chiang-Rai-Province-(LahuCR)_vs_ Lahu-ethnic-group-residing-in-Chiang-Mai-Province-(LahuCM)_UP	NA	Bacteroides	Lactobacillus	Prevotella	Actinomyces	Bifidobacterium	Roseburia	Ruminococcus	Coprococcus
 bsdb:41052039/11/2_Population,Ethnic-group:Lahu-ethnic-group-residing-in-Chiang-Rai-Province-(LahuCR)_vs_ Lahu-ethnic-group-residing-in-Chiang-Mai-Province-(LahuCM)_DOWN	NA	Staphylococcus	Enterococcus	Fusobacterium	Streptococcus
-bsdb:41052039/12/1_Population:Lahu-ethnic-group-residing-in-Chiang-Rai-Province-(LahuCR)_vs_ Akha-ethnic-group-and-Lisu-ethnic-group-residing-in-Chiang-Rai-Province-(AkhaCR-&-LisuCR)_UP	NA	Actinomyces	Bacteroides	Coprococcus	Enterococcus	Fusobacterium	Lactobacillus	Prevotella	Roseburia	Ruminococcus	Streptococcus
-bsdb:41052039/12/2_Population:Lahu-ethnic-group-residing-in-Chiang-Rai-Province-(LahuCR)_vs_ Akha-ethnic-group-and-Lisu-ethnic-group-residing-in-Chiang-Rai-Province-(AkhaCR-&-LisuCR)_DOWN	NA	Staphylococcus	Bifidobacterium
+bsdb:41052039/12/1_Population,Ethnic-group:Lahu-ethnic-group-residing-in-Chiang-Rai-Province-(LahuCR)_vs_ Akha-ethnic-group-and-Lisu-ethnic-group-residing-in-Chiang-Rai-Province-(AkhaCR-&-LisuCR)_UP	NA	Actinomyces	Bacteroides	Coprococcus	Enterococcus	Fusobacterium	Lactobacillus	Prevotella	Roseburia	Ruminococcus	Streptococcus
+bsdb:41052039/12/2_Population,Ethnic-group:Lahu-ethnic-group-residing-in-Chiang-Rai-Province-(LahuCR)_vs_ Akha-ethnic-group-and-Lisu-ethnic-group-residing-in-Chiang-Rai-Province-(AkhaCR-&-LisuCR)_DOWN	NA	Staphylococcus	Bifidobacterium
 bsdb:41052039/13/1_Population,Ethnic-group:Akha-ethnic-group-residing-in-Chiang-Rai-Province-(AkhaCR)_vs_Lisu-and-Lahu-ethnic-group-residing-in-Chiang-Rai-Province-(LisuCR-&-LahuCR)_UP	NA	Bacteroides	Fusobacterium	Roseburia	Ruminococcus	Actinomyces	Lactobacillus	Streptococcus	Coprococcus	Enterococcus	Prevotella
 bsdb:41052039/15/1_Population,Diet:Akha-ethnic-group-residing-in-Chiang-Mai-Province-(AkhaCM)-(Processed-food)_vs_ Lahu-ethnic-group-residing-in-Chiang-Mai-province-(LahuCM)-(Processed-food)_UP	NA	Actinomyces	Bifidobacterium	Enterococcus	Roseburia	Streptococcus
 bsdb:41052039/15/2_Population,Diet:Akha-ethnic-group-residing-in-Chiang-Mai-Province-(AkhaCM)-(Processed-food)_vs_ Lahu-ethnic-group-residing-in-Chiang-Mai-province-(LahuCM)-(Processed-food)_DOWN	NA	Bacteroides	Fusobacterium	Staphylococcus
@@ -7046,6 +7046,10 @@ bsdb:41194195/8/1_Zika-virus-infectious-disease:Infected-Rio-Grande-Valley-(RGV)
 bsdb:41194195/8/2_Zika-virus-infectious-disease:Infected-Rio-Grande-Valley-(RGV)-Aedes-aegypti-lab-line-mosquitoes_vs_Unexposed-Rio-Grande-Valley-(RGV)-Aedes-aegypti-lab-line-mosquitoes_DOWN	NA	Citrobacter
 bsdb:41205569/1/1_Pesticide-exposure-measurement:Acetamiprid_vs_Field_DOWN	NA	Apilactobacillus
 bsdb:41205569/2/1_Pesticide-exposure-measurement:Laboratory-Control_vs_Field_DOWN	NA	Apilactobacillus
+bsdb:41209719/1/1_Gut-microbiome-measurement:Kingfisher_vs_Wader_UP	NA	Eggerthella	Eisenbergiella	Pygmaiobacter
+bsdb:41209719/1/2_Gut-microbiome-measurement:Kingfisher_vs_Wader_DOWN	NA	Lactobacillus
+bsdb:41209719/2/1_Gut-microbiome-measurement:Coraciiformes_vs_Gruiformes_UP	NA	Eggerthella	Eisenbergiella	Pygmaiobacter
+bsdb:41209719/2/2_Gut-microbiome-measurement:Coraciiformes_vs_Gruiformes_DOWN	NA	Marinilactibacillus	Murdochiella	Actinomyces
 bsdb:41210299/1/1_Schizophrenia:Schizophrenia-group-(SCZ)_vs_Healthy-controls-(HC)_UP	NA	Bifidobacterium
 bsdb:41220770/3/1_Esophageal-squamous-cell-carcinoma:Current-or-past-smoking-esophageal-squamous-cell-carcinoma-patients(CSP)_vs_Never-smoking-patients-(NSP)_DOWN	NA	Filifactor
 bsdb:41220770/6/1_Esophageal-squamous-cell-carcinoma:Triglyceride-(TG)-levels-<150-mg/dL-in-esophageal-squamous-cell-carcinoma-patients-(ESCC)_vs_Triglyceride(TG)-levels-≥150-mg/dL-in-control_UP	NA	Campylobacter	Corynebacterium	Leptotrichia
@@ -7076,15 +7080,11 @@ bsdb:41404876/1/2_Lactobacillus-kimchii:Kimjang-group-made-kimchi_vs_Individuall
 bsdb:41404876/2/1_Lactobacillus-kimchii:Kimchi-microbiome_vs_Hand-skin_UP	NA	Leuconostoc	Latilactobacillus	Enterobacter
 bsdb:41404876/2/2_Lactobacillus-kimchii:Kimchi-microbiome_vs_Hand-skin_DOWN	NA	Enhydrobacter	Pseudomonas	Staphylococcus
 bsdb:PMC7827153/1/1_Irritable-bowel-syndrome:IBS_vs_Healthy-controls_UP	NA	Oscillospira
-bsdb:Exploring Microbiome Shifts across Taxonomic and Ecological groups of Birds at a Key Stopover Site in Punjab, Pakistan/1/1_Gut-microbiome-measurement:Kingfisher_vs_Wader_UP	NA	Eggerthella	Eisenbergiella	Pygmaiobacter
 bsdb:on the diversity and difference of intratumoral flora in patients with triple negative breast cancer/1/1_Triple-negative-breast-cancer:TNBC-tumor-tissues_vs_adjacent-non-cancerous-tissues_UP	NA	Flavobacterium	Renibacterium
 bsdb:10.108029933935.2025.2481442/1/1_Metabolic-toxicity:High-lead-exposure_vs_Low-lead-exposure_UP	NA	Clostridium	Romboutsia	Ruminococcus	Subdoligranulum
 bsdb:PMC7827153/1/2_Irritable-bowel-syndrome:IBS_vs_Healthy-controls_DOWN	NA	Faecalibacterium	Bifidobacterium	Prevotella
-bsdb:Exploring Microbiome Shifts across Taxonomic and Ecological groups of Birds at a Key Stopover Site in Punjab, Pakistan/1/2_Gut-microbiome-measurement:Kingfisher_vs_Wader_DOWN	NA	Lactobacillus
 bsdb:on the diversity and difference of intratumoral flora in patients with triple negative breast cancer/1/2_Triple-negative-breast-cancer:TNBC-tumor-tissues_vs_adjacent-non-cancerous-tissues_DOWN	NA	Comamonas	Bacillus	Caulobacter	Afipia	Aerococcus	Roseomonas
-bsdb:Exploring Microbiome Shifts across Taxonomic and Ecological groups of Birds at a Key Stopover Site in Punjab, Pakistan/2/1_Gut-microbiome-measurement:Coraciiformes_vs_Gruiformes_UP	NA	Eggerthella	Eisenbergiella	Pygmaiobacter
 bsdb:10.108029933935.2025.2481442/2/1_Metabolic-toxicity:High-arsenic-exposure_vs_Low-arsenic-exposure_UP	NA	Alloprevotella	Clostridium
-bsdb:Exploring Microbiome Shifts across Taxonomic and Ecological groups of Birds at a Key Stopover Site in Punjab, Pakistan/2/2_Gut-microbiome-measurement:Coraciiformes_vs_Gruiformes_DOWN	NA	Marinilactibacillus	Murdochiella	Actinomyces
 bsdb:10.108029933935.2025.2481442/2/2_Metabolic-toxicity:High-arsenic-exposure_vs_Low-arsenic-exposure_DOWN	NA	Anaerostipes	Fusicatenibacter
 bsdb:10.108029933935.2025.2481442/3/1_Metabolic-toxicity:High-Mercury-exposure_vs_Low-Mercury-exposure_DOWN	NA	Anaerostipes
 bsdb:10.108029933935.2025.2481442/4/1_Metabolic-toxicity:Diabetic-(high-lead-exposure)_vs_Non-diabetic-(high-lead-exposure)_UP	NA	Clostridium	Haemophilus	Neisseria	Paraprevotella	Pediococcus	Rothia	Streptococcus
