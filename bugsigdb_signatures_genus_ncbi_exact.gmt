@@ -1,4 +1,4 @@
-# BugSigDB 2026-03-30_21:12_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2026-03-30_22:10_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:39/1/2_Body-odor-measurement:youth-underarm-after-exercise_vs_youth-underarm-before_DOWN	NA	265
 bsdb:39/2/1_Body-odor-measurement:youth-Neck-before_vs_after-excercise_DOWN	NA	469
 bsdb:39/3/1_Body-odor-measurement:Children-underarm-before_vs_after-excercise_DOWN	NA	265
@@ -2665,8 +2665,8 @@ bsdb:32312186/4/1_Autism-spectrum-disorder:Children-with-non-constipated-Autism-
 bsdb:32312186/4/2_Autism-spectrum-disorder:Children-with-non-constipated-Autism-Spectrum-Disorder-(NC-ASD)_vs_Typically-developing-individuals_DOWN	NA	375288	1283313	28050	33024	270	283168	872	239759	39948	2745	577309	158846	574697	577310	1392389	1769710	841	119852	150247	1506577	84108	1738645	596767	40323	156454	162289	838
 bsdb:32320621/1/1_Respiratory-system-disease:Diseased-individuals-(D)_vs_Non-diseased/-healthy-individuals-(ND)_UP	NA	2801844	1678	1716	561	724	570	44249	286	497	195950
 bsdb:32320621/1/2_Respiratory-system-disease:Diseased-individuals-(D)_vs_Non-diseased/-healthy-individuals-(ND)_DOWN	NA	543311	2093	970	39948	32067	86331	1380	416916	123375	133925	43996	47670	76833	194	1164882	1257	1283313	1485	898	848	157	838
-bsdb:32322440/1/1_Intestinal-disease:post-weaning-forest-musk-deer_vs_pre-weaning-forest-musk-deer_UP	NA	838
-bsdb:32322440/1/2_Intestinal-disease:post-weaning-forest-musk-deer_vs_pre-weaning-forest-musk-deer_DOWN	NA	1766253
+bsdb:32322440/1/1_Intestinal-disease,Timepoint:Post-weaning-forest-musk-deer_vs_Pre-weaning-forest-musk-deer_UP	NA	838
+bsdb:32322440/1/2_Intestinal-disease,Timepoint:Post-weaning-forest-musk-deer_vs_Pre-weaning-forest-musk-deer_DOWN	NA	1766253
 bsdb:32332850/1/1_Cervical-glandular-intraepithelial-neoplasia:CIN-non-regression_vs_CIN-regression_UP	NA	1380	168808	906	543311	838
 bsdb:32332850/1/2_Cervical-glandular-intraepithelial-neoplasia:CIN-non-regression_vs_CIN-regression_DOWN	NA	1578
 bsdb:32334937/1/1_Schizophrenia:schizophrenia_vs_healthy-controls_UP	NA	1301
@@ -4054,9 +4054,9 @@ bsdb:35093093/1/1_Chronic-obstructive-pulmonary-disease:Chronic-obstructive-pulm
 bsdb:35093093/1/2_Chronic-obstructive-pulmonary-disease:Chronic-obstructive-pulmonary-disease-patients_vs_Healthy-controls_DOWN	NA	1257	838	157
 bsdb:35093093/2/1_Chronic-obstructive-pulmonary-disease:Cluster-I-(more-severe-Chronic-obstructive-pulmonary-disease-patients)_vs_Cluster-II-(less-severe-Chronic-obstructive-pulmonary-disease-patients)_UP	NA	1301
 bsdb:35093093/2/2_Chronic-obstructive-pulmonary-disease:Cluster-I-(more-severe-Chronic-obstructive-pulmonary-disease-patients)_vs_Cluster-II-(less-severe-Chronic-obstructive-pulmonary-disease-patients)_DOWN	NA	1283313	838	39948
-bsdb:35093093/3/1_Chronic-obstructive-pulmonary-disease:Cluster-I-(more-severe-Chronic-obstructive-pulmonary-disease-patients)_vs_Cluster-II-(less-severe-Chronic-obstructive-pulmonary-disease-patients)_UP	NA	117563	724	1164882
-bsdb:35093093/3/2_Chronic-obstructive-pulmonary-disease:Cluster-I-(more-severe-Chronic-obstructive-pulmonary-disease-patients)_vs_Cluster-II-(less-severe-Chronic-obstructive-pulmonary-disease-patients)_UP	NA	117563	724	1164882
-bsdb:35093093/3/3_Chronic-obstructive-pulmonary-disease:Cluster-I-(more-severe-Chronic-obstructive-pulmonary-disease-patients)_vs_Cluster-II-(less-severe-Chronic-obstructive-pulmonary-disease-patients)_UP	NA	724	117563	1164882
+bsdb:35093093/3/1_Chronic-obstructive-pulmonary-disease:Chronic-obstructive-pulmonary-disease-patients_vs_Healthy-controls_UP	NA	117563	724	1164882	209
+bsdb:35093093/3/2_Chronic-obstructive-pulmonary-disease:Chronic-obstructive-pulmonary-disease-patients_vs_Healthy-controls_UP	NA	117563	724	1164882
+bsdb:35093093/3/3_Chronic-obstructive-pulmonary-disease:Chronic-obstructive-pulmonary-disease-patients_vs_Healthy-controls_UP	NA	724	117563	1164882
 bsdb:35096637/1/1_Food-allergy:food-allergy-(FA)-group_vs_non-allergy-(NA)-group_UP	NA	469	286	1696
 bsdb:35096637/1/2_Food-allergy:food-allergy-(FA)-group_vs_non-allergy-(NA)-group_DOWN	NA	239934	239759	1283313	1678	1485	158846	33024	838	1501226	841	1263	29465	204475	572511	459786	1380	848	397864	577309	191303	66831	499551	336260	1017280	580596	43773	53457	423604	906	580024	1184396	283168	2172	2740	1860
 bsdb:35107058/1/1_Type-2-diabetes-nephropathy:Combined-Moderate-Intensity-Continous-Training_vs_Combined-High-Intensity-Interval-Training_UP	NA	1678	561
@@ -5074,10 +5074,11 @@ bsdb:37314752/1/2_Hepatocellular-carcinoma,Non-alcoholic-fatty-liver-disease:Hep
 bsdb:37314752/2/1_Hepatocellular-carcinoma,Non-alcoholic-fatty-liver-disease:Hepatocellular-carcinoma_vs_Non-alcoholic-fatty-liver-disease_UP	NA	816
 bsdb:37314752/2/2_Hepatocellular-carcinoma,Non-alcoholic-fatty-liver-disease:Hepatocellular-carcinoma_vs_Non-alcoholic-fatty-liver-disease_DOWN	NA	237
 bsdb:37314752/3/1_Hepatocellular-carcinoma,Non-alcoholic-fatty-liver-disease:Hepatocellular-carcinoma_vs_Non-alcoholic-fatty-liver-disease_UP	NA	816
-bsdb:37314752/4/1_Non-alcoholic-fatty-liver-disease,Hepatitis-C-induced-liver-cirrhosis,Alcoholic-liver-cirrhosis:Compensated-liver-cirrhosis_vs_Non-alcoholic-fatty-liver-disease_UP	NA	561
 bsdb:37314752/4/2_Non-alcoholic-fatty-liver-disease,Hepatitis-C-induced-liver-cirrhosis,Alcoholic-liver-cirrhosis:Compensated-liver-cirrhosis_vs_Non-alcoholic-fatty-liver-disease_DOWN	NA	572511	1766253
 bsdb:37314752/5/1_Non-alcoholic-fatty-liver-disease,Hepatitis-C-induced-liver-cirrhosis,Alcoholic-liver-cirrhosis:Compensated-liver-cirrhosis_vs_Non-alcoholic-fatty-liver-disease_UP	NA	816
 bsdb:37314752/5/2_Non-alcoholic-fatty-liver-disease,Hepatitis-C-induced-liver-cirrhosis,Alcoholic-liver-cirrhosis:Compensated-liver-cirrhosis_vs_Non-alcoholic-fatty-liver-disease_DOWN	NA	237
+bsdb:37314752/6/1_Non-alcoholic-fatty-liver-disease,Hepatitis-C-induced-liver-cirrhosis,Alcoholic-liver-cirrhosis:Compensated-liver-cirrhosis_vs_Non-alcoholic-fatty-liver-disease_UP	NA	572511	1766253	816
+bsdb:37314752/8/2_Hepatocellular-carcinoma,Hepatitis-C-induced-liver-cirrhosis,Alcoholic-liver-cirrhosis:Hepatocellular-carcinoma_vs_Compensated-liver-cirrhosis_DOWN	NA	286
 bsdb:37334756/1/1_Parkinson's-disease:MPTP-(untreated-PD-mice)_vs_Control-(CON-groups)_UP	NA	816	1283313	375288
 bsdb:37334756/1/2_Parkinson's-disease:MPTP-(untreated-PD-mice)_vs_Control-(CON-groups)_DOWN	NA	1331051	283168	2129
 bsdb:37334756/2/1_Clinical-treatment:MPTP-(untreated-PD-mice)_vs_FGF21-+-MPTP-mice-(mice-treated-with-Fibroblast-growth-factor-21-(FGF21))_UP	NA	1279
@@ -7812,7 +7813,6 @@ bsdb:41773858/3/1_COVID-19,Tuberculosis:Control_vs_Control_UP	NA	1763
 bsdb:41802809/1/1_Acne:Patients-with-truncal-acne_vs_Healthy-controls_UP	NA	55193
 bsdb:41802809/1/2_Acne:Patients-with-truncal-acne_vs_Healthy-controls_DOWN	NA	55193
 bsdb:41802809/2/1_Doxycycline:Truncal-acne-patients-after-doxycycline-treatment_vs_Truncal-acne-patients-before-doxycycline-treatment_UP	NA	5052
-bsdb:41810937/1/1_Periodontitis:Periodontitis-(Stages-II/III)_vs_Healthy-controls_UP	NA	1654	1016	848	1378	724	482	836	838	948104	29465
 bsdb:41824441/1/1_Spinal-cord-injury:Disabled-dogs_vs_Healthy-dogs_UP	NA	838	1301
 bsdb:41824441/1/2_Spinal-cord-injury:Disabled-dogs_vs_Healthy-dogs_DOWN	NA	1481960
 bsdb:41836788/1/1_Dementia:Dementia_vs_Healthy-control_UP	NA	2767353
