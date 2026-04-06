@@ -1,4 +1,4 @@
-# BugSigDB 2026-04-06_17:14_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2026-04-06_19:22_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:11/1/1_Cervical-glandular-intraepithelial-neoplasia:HIV-patients-with-lesion-at-12-months_vs_HIV-pateints-with-normal-tissue-at-6-months_DOWN	NA	2702
 bsdb:39/1/1_Body-odor-measurement:youth-underarm-after-exercise_vs_youth-underarm-before_UP	NA	1282
 bsdb:39/1/2_Body-odor-measurement:youth-underarm-after-exercise_vs_youth-underarm-before_DOWN	NA	265
@@ -6796,6 +6796,8 @@ bsdb:36810115/2/1_Metabolite:FMT-HF+DI-(Fecal-microbiome-transplantation-High-fa
 bsdb:36810115/2/2_Metabolite:FMT-HF+DI-(Fecal-microbiome-transplantation-High-fat-and-Dimethyl-Itaconate-treated-mice)_vs_FMT-HF+Veh-(Fecal-microbiome-transplantation-High-fat-and-Vehicle-treated-mice)_DOWN	NA	354349	356	82115	1937007	1239	91061	1937008	128827	526525
 bsdb:36835017/1/1_Gastroenteritis:Acute-Gastroenteritis-cases_vs_Healthy-group_UP	NA	46123	469	1654	165779	1380	1678	118747	1716	29393	84111	1350	150022	848	117563	1164882	1357	86331	162289	1257	508215	1279	1301
 bsdb:36835017/1/2_Gastroenteritis:Acute-Gastroenteritis-cases_vs_Healthy-group_DOWN	NA	239934	239759	207244	816	35832	572511	580596	574697	1485	33042	872	39948	189330	216851	204475	724	140625	28050	906	283168	119852	375288	33024	838	841	1263	40544	191303
+bsdb:36835017/2/1_Gastroenteritis:Acute-Gastroenteritis-cases_vs_Acute-Gastroenteritis-cases_UP	NA	46123	469	1654	165779	1380	580596	1716	29393	1350	150022	848	849	1164882	1357	1243	86331	162289	1257	508215	1279	1301
+bsdb:36835017/2/2_Gastroenteritis:Acute-Gastroenteritis-cases_vs_Acute-Gastroenteritis-cases_DOWN	NA	40544	1263	841	838	375288	119852	283168	28050	102106	724	204475	216851	189330	39948	33042	1485	574697	572511	35832	816	207244	239759	239934	906	872	113287
 bsdb:36864380/1/1_Response-to-irinotecan:Colon-cancer-and-Irinotecan-treated-patients_vs_Healthy-individuals_DOWN	NA	1678	31953	85004	204475	1263	33024	872	194924	213115	2005473
 bsdb:36864380/2/1_Response-to-irinotecan:Irinotecan-treated-patients_vs_Healthy-individuals-and-colon-cancer-(CRC)-patients_UP	NA	1578	33958	186826	580596	29465
 bsdb:36864380/3/1_Response-to-irinotecan:Colon-cancer-patients_vs_Healthy-individuals-and-Irinotecan-treated-patients_UP	NA	39948	543	91347
@@ -9608,10 +9610,12 @@ bsdb:39572788/9/1_Response-to-drug:Entacapone-High-Concentration(ENT-High)-after
 bsdb:39572788/9/2_Response-to-drug:Entacapone-High-Concentration(ENT-High)-after-24-hrs-of-incubation---Donor-2_vs_No-drug---Dimethyl-sulfoxide-only-(DMSO-only)_DOWN	NA	239759	207244	816	572511	574697	1980681	33042	423410	216851	1407607	459786	375288	84108	40544	3025755	33039	186803	297314	707003	877420
 bsdb:39572788/10/1_Response-to-drug:Entacapone-High-Concentration(ENT-High)-after-24-hrs-of-incubation---Donor-3_vs_No-drug---Dimethyl-sulfoxide-only-(DMSO-only)_UP	NA	904	1654	1766253	397864	1678	572511	580596	544	102106	1940338	216851	117563	28050	39485	2759736	248744	906	86331	216572	1926677	1505652	29465	543	186803	61170
 bsdb:39572788/10/2_Response-to-drug:Entacapone-High-Concentration(ENT-High)-after-24-hrs-of-incubation---Donor-3_vs_No-drug---Dimethyl-sulfoxide-only-(DMSO-only)_DOWN	NA	239759	207244	816	572511	574697	1980681	33042	216851	1407607	459786	375288	40544	3025755	33039	186803	297314	707003	877420	84108	201174	423410
-bsdb:39587999/1/1_Environmental-exposure-measurement:Natural-sound-(NS)_vs_Instrumental-music-(IMS)-+-Mixed-road-sound-(MRS)_UP	NA	1239	186801	186802	216851
-bsdb:39587999/2/1_Noise-exposure-measurement:Instrumental-music-(IMS)_vs_Natural-sound-(NS)-+-Mixed-road-sound-(MRS)_UP	NA	171552	1578	33958	91061	186826
-bsdb:39587999/3/1_Noise-exposure-measurement:Mixed-road-sound-(MRS)_vs_Natural-sound-(NS)-+-Instrumental-music-(IMS)_UP	NA	976	171549	200643	816	815	171551	375288
+bsdb:39587999/1/1_Exposure:Natural-sound-(NS)_vs_Instrumental-music-(IMS)-+-Mixed-road-sound-(MRS)_UP	NA	1239	186801	186802	216851
+bsdb:39587999/2/1_Exposure:Instrumental-music-(IMS)_vs_Natural-sound-(NS)-+-Mixed-road-sound-(MRS)_UP	NA	171552	1578	33958	91061	186826
+bsdb:39587999/3/1_Exposure:Mixed-road-sound-(MRS)_vs_Natural-sound-(NS)-+-Instrumental-music-(IMS)_UP	NA	976	171549	200643	816	815	171551	375288
 bsdb:39587999/4/1_Population:Low-density-(LD)_vs_Medium-density-(MD)-+-High-density-(HD)_UP	NA	216851	158846
+bsdb:39587999/5/1_Population:Medium-density-(MD)_vs_Low-density-(LD)-+-High-density-(HD)_UP	NA	283168
+bsdb:39587999/6/1_Population:High-density-(HD)_vs_Low-density-(LD)-+-Medium-density-(MD)_UP	NA	171550	3068309	41295	204441
 bsdb:39588509/2/1_Constipation:Maintenance-Hemodialysis-with-Constipation-(MHDCG)_vs_Healthy-Control-Group-(HCG)_UP	NA	239934	361177	1937008	84111	1350	119044	303379	97050	74201	1262798
 bsdb:39588509/2/2_Constipation:Maintenance-Hemodialysis-with-Constipation-(MHDCG)_vs_Healthy-Control-Group-(HCG)_DOWN	NA	1766253	35832	580596	1348911	39948	547	724	2163168	570	1243	577310	1501226	200940	331630
 bsdb:39588509/3/1_Clinical-treatment:Maintenance-Hemodialysis-without-Constipation-(MHDNCG)_vs_Healthy-Control-Group-(HCG)_UP	NA	239934	1262798	482	186803	74201
@@ -11570,6 +11574,10 @@ bsdb:41723572/1/2_Sepsis:Aged-septic-patients_vs_Young-septic-patients_DOWN	NA	3
 bsdb:41723572/1/3_Sepsis:Aged-septic-patients_vs_Young-septic-patients_UP	NA	548
 bsdb:41723572/2/1_Sepsis:Aged-septic-mice_vs_Young-septic-mice_UP	NA	91061	81852	1350	1351	570	548	186826
 bsdb:41723572/2/2_Sepsis:Aged-septic-mice_vs_Young-septic-mice_DOWN	NA	28211	1777752	1573805	582	204455
+bsdb:41754197/1/1_Sign-or-symptom-concerning-food-and-fluid-intake:Food-insecure-individuals_vs_Food-secure-individuals_UP	NA	3118680	1906119	1117	3022868	80840	40544	995019
+bsdb:41754197/1/2_Sign-or-symptom-concerning-food-and-fluid-intake:Food-insecure-individuals_vs_Food-secure-individuals_DOWN	NA	186802	1239	990719	3082768
+bsdb:41754197/2/1_Sign-or-symptom-concerning-food-and-fluid-intake:Low-food-variety_vs_High-food-variety_UP	NA	80840	171552	40544	995019
+bsdb:41754197/2/2_Sign-or-symptom-concerning-food-and-fluid-intake:Low-food-variety_vs_High-food-variety_DOWN	NA	543314	1239	3082768	186801	186802	248744	3085657	3085656	2039302	216572
 bsdb:41773858/1/1_Tuberculosis:Tuberculosis_vs_Control_UP	NA	187326	836	419015
 bsdb:41773858/1/2_Tuberculosis:Tuberculosis_vs_Control_DOWN	NA	1107316
 bsdb:41773858/2/1_COVID-19:COVID-19_vs_Control_UP	NA	28132	419015
