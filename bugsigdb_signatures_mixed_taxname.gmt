@@ -1,4 +1,4 @@
-# BugSigDB 2026-04-09_15:27_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2026-04-09_16:26_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:11/1/1_Cervical-glandular-intraepithelial-neoplasia:HIV-patients-with-lesion-at-12-months_vs_HIV-pateints-with-normal-tissue-at-6-months_DOWN	NA	Gardnerella vaginalis
 bsdb:39/1/1_Body-odor-measurement:youth-underarm-after-exercise_vs_youth-underarm-before_UP	NA	Staphylococcus epidermidis
 bsdb:39/1/2_Body-odor-measurement:youth-underarm-after-exercise_vs_youth-underarm-before_DOWN	NA	Paracoccus
@@ -625,10 +625,10 @@ bsdb:26238090/2/1_Nutraceutical:PGT-group---colorectal-cancer-patients-periopera
 bsdb:26238090/2/2_Nutraceutical:PGT-group---colorectal-cancer-patients-perioperative-probiotics_vs_HGT-Group---Healthy-controls_DOWN	NA	Fusobacteriaceae	Fusobacterium	Gemella	Bacillales Family X. Incertae Sedis	Peptostreptococcus	Anaerosporobacter
 bsdb:26238090/3/1_Nutraceutical:CGT--colorectal-cancer-patients-that-received-perioperative-placebo_vs_HGT--Healthy-controls_UP	NA	Fusobacteriaceae	Fusobacterium	Gemella	Bacillales Family X. Incertae Sedis	Peptostreptococcus	Anaerosporobacter
 bsdb:26238090/3/2_Nutraceutical:CGT--colorectal-cancer-patients-that-received-perioperative-placebo_vs_HGT--Healthy-controls_DOWN	NA	Pseudomonadales	Pseudomonadota	Gammaproteobacteria	Pseudomonas	Pseudomonadaceae	Flavobacteriales	Flavobacteriaceae	Moraxellaceae
-bsdb:26239401/1/1_Irritable-bowel-syndrome:IBS_vs_Healthy-Control_DOWN	NA	Erysipelotrichaceae
-bsdb:26239401/1/2_Irritable-bowel-syndrome:IBS_vs_Healthy-Control_DOWN	NA	Erysipelotrichaceae
+bsdb:26239401/1/1_Irritable-bowel-syndrome:IBS_vs_Healthy-Control_DOWN	NA	Erysipelotrichaceae	Mycoplasmatota	Oscillospiraceae
+bsdb:26239401/1/2_Irritable-bowel-syndrome:IBS_vs_Healthy-Control_DOWN	NA	Erysipelotrichaceae	Oscillospiraceae	Clostridia
 bsdb:26239401/1/3_Irritable-bowel-syndrome:IBS_vs_Healthy-Control_DOWN	NA	Erysipelotrichaceae
-bsdb:26239401/1/4_Irritable-bowel-syndrome:IBS_vs_Healthy-Control_DOWN	NA	Akkermansia	Methanobrevibacter
+bsdb:26239401/1/4_Irritable-bowel-syndrome:IBS_vs_Healthy-Control_DOWN	NA	Akkermansia	Methanobrevibacter	Oscillospiraceae	Christensenellaceae
 bsdb:26258571/1/1_HIV-infection:Probiotic-group-after-8-weeks-of-intervention_vs_baseline-probiotic-group_UP	NA	Actinomycetes	Bacillota	Bifidobacterium	Oscillospiraceae
 bsdb:26258571/1/2_HIV-infection:Probiotic-group-after-8-weeks-of-intervention_vs_baseline-probiotic-group_DOWN	NA	Bacteroides	Bacteroidota
 bsdb:26258571/2/1_HIV-infection:Probiotic-intervention-group-(after-8-weeks)_vs_Non-probiotic-intervention-group-(after-8-weeks)_UP	NA	Lactobacillus
@@ -4055,6 +4055,8 @@ bsdb:32903276/8/1_Type-I-diabetes-mellitus:Type-I-diabetic-with-no-blood-glucose
 bsdb:32903276/8/2_Type-I-diabetes-mellitus:Type-I-diabetic-with-no-blood-glucose-control-and-no-disease_vs_Type-I-diabetic-with-controlled-blood-glucose_DOWN	NA	Alistipes
 bsdb:32903276/9/1_Type-I-diabetes-mellitus:Type-I-diabetic-with-no-blood-glucose-control-and-disease_vs_Type-I-diabetic-with-no-blood-glucose-control-and-no-disease_UP	NA	Lactobacillus
 bsdb:32903276/9/2_Type-I-diabetes-mellitus:Type-I-diabetic-with-no-blood-glucose-control-and-disease_vs_Type-I-diabetic-with-no-blood-glucose-control-and-no-disease_DOWN	NA	Granulicatella	Gemella	Howardella
+bsdb:32903276/10/1_Type-II-diabetes-mellitus:Type-II-diabetic-with-no-blood-glucose-control-and-disease_vs_Type-II-diabetic-with-controlled-blood-glucose_UP	NA	Subdoligranulum	Fusicatenibacter	Lachnospira
+bsdb:32903276/10/2_Type-II-diabetes-mellitus:Type-II-diabetic-with-no-blood-glucose-control-and-disease_vs_Type-II-diabetic-with-controlled-blood-glucose_DOWN	NA	Acidaminococcus	Enterorhabdus
 bsdb:32912596/1/1_Autism-spectrum-disorder:Children-with-Autism-Spectrum-Disorder-(ASD)_vs_Healthy-children_UP	NA	Collinsella	Coriobacteriaceae	Dorea	Enterobacteriaceae	Lachnoclostridium	Erysipelotrichaceae	Eubacteriales	Lachnospiraceae	Coriobacteriia	Coriobacteriales
 bsdb:32912596/1/2_Autism-spectrum-disorder:Children-with-Autism-Spectrum-Disorder-(ASD)_vs_Healthy-children_DOWN	NA	Bacteroidaceae	Burkholderiaceae	Bacteroides	Faecalibacterium	Parasutterella	Paraprevotella	Gammaproteobacteria
 bsdb:32925716/1/1_Response-to-immunochemotherapy:Responders_vs_Non-responders_UP	NA	Clostridia	Faecalibacterium	Faecalibacterium prausnitzii	Bacillota	Micrococcaceae	Mollicutes	Oscillospiraceae	Peptoniphilus	Phascolarctobacterium	Phascolarctobacterium faecium	Porphyromonas pasteri	Rothia	Ruminiclostridium hungatei	Ruminococcus	Ruminococcus bromii	Veillonellaceae	Eubacteriales
@@ -8784,6 +8786,7 @@ bsdb:38762736/1/1_Cystic-fibrosis:cystic-fibrosis_vs_healthy_DOWN	NA	Bacteroidia
 bsdb:38762736/1/2_Cystic-fibrosis:cystic-fibrosis_vs_healthy_UP	NA	Pseudomonas aeruginosa	Pseudomonas	Burkholderia cenocepacia	Burkholderia multivorans	Burkholderia ambifaria	Burkholderia lata	Burkholderia cepacia	Burkholderia	Paraburkholderia	Staphylococcus aureus	Burkholderiaceae	Burkholderiales
 bsdb:38762736/2/1_Bronchiectasis:non-cystic-fibrosis-bronchiectasis_vs_healthy_DOWN	NA	Alloprevotella	Alloprevotella rava	Alloprevotella tannerae	Bacteroidia bacterium	Dialister	Moraxella	Olsenella	Peptoniphilaceae	Selenomonas	Spirochaetales	Treponema denticola	Treponema socranskii
 bsdb:38762736/2/2_Bronchiectasis:non-cystic-fibrosis-bronchiectasis_vs_healthy_UP	NA	Pseudomonas aeruginosa	Pseudomonas
+bsdb:38762736/3/1_Bronchiectasis,Cystic-fibrosis:cystic-fibrosis_vs_non-cystic-fibrosis-bronchiectasis_UP	NA	Burkholderia	Paraburkholderia	Burkholderia stabilis	Burkholderia cepacia	Burkholderia cenocepacia	Staphylococcus aureus	Burkholderiales	Burkholderiaceae	Staphylococcaceae	Betaproteobacteria	Burkholderia multivorans
 bsdb:38763328/2/1_Stimulus-or-stress-design:Chronic-restraint-stress-(CRS)_vs_Control_UP	NA	Muribacter	Pasteurellaceae	Pseudomonas
 bsdb:38763328/2/2_Stimulus-or-stress-design:Chronic-restraint-stress-(CRS)_vs_Control_DOWN	NA	Streptococcus
 bsdb:38763328/3/1_Stimulus-or-stress-design:Chronic-restraint-stress-(CRS)_vs_Control_UP	NA	Candidatus Saccharimonas	Muribaculaceae	Parabacteroides
@@ -11339,6 +11342,7 @@ bsdb:41000236/1/1_Periapical-Periodontitis:Trauma_vs_Caries_UP	NA	Campylobactero
 bsdb:41000236/1/2_Periapical-Periodontitis:Trauma_vs_Caries_DOWN	NA	Filifactor	Filifactor villosus	Oribacterium	Prevotella	Segatella oris
 bsdb:41000236/2/1_Periapical-Periodontitis:Trauma_vs_Caries_UP	NA	Campylobacteraceae	Campylobacterales	Campylobacterota	Epsilonproteobacteria
 bsdb:41000236/2/2_Periapical-Periodontitis:Trauma_vs_Caries_DOWN	NA	Megasphaera	Megasphaera geminata	Filifactor	Filifactor villosus	Lachnospirales	Oribacterium	Prevotella	Segatella baroniae	Segatella oris	Selenomonas sputigena	Streptomyces abikoensis
+bsdb:41010476/1/1_Population:Italian-individuals-(II)_vs_African-individuals-in-Anyama-(AA)-and-African-individuals-in-Rome(AI)_UP	NA	Alistipes	Bacteroides	Barnesiella	Bilophila	Odoribacter	Oscillibacter	Parabacteroides	Paraprevotella	Sutterella
 bsdb:41011244/1/1_Autism-spectrum-disorder:Autism-Spectrum-Disorder-(ASD)_vs_Typically-Developing-(TD)_UP	NA	Clostridioides	Thomasclavelia	Alistipes	Hungatella	Coprococcus	Sarcina	Monoglobus
 bsdb:41011244/2/1_Autism-spectrum-disorder:Autism-Spectrum-Disorder-(No-FGIDs)_vs_Typically-Developing-(No-FGIDs)_UP	NA	Alistipes	Parabacteroides
 bsdb:41011244/3/1_Therapeutic-Procedure:Autism-Spectrum-Disorder-Diet-POST-intervention_vs_Autism-Spectrum-Disorder-Diet-PRE-intervention_UP	NA	Adlercreutzia	Altererythrobacter	Eubacterium	Moraxella	Novisyntrophococcus	Sellimonas
@@ -11813,6 +11817,10 @@ bsdb:41914743/5/1_Maternal-milk:Formula-fed-mini-piglets-supplemented-with-SynCo
 bsdb:41914743/5/2_Maternal-milk:Formula-fed-mini-piglets-supplemented-with-SynComs-AI_vs_Dairy-based-infant-formula-fed-mini-piglets-without-supplementation_DOWN	NA	Bifidobacterium breve	Staphylococcus haemolyticus	Winkia neuii
 bsdb:41914743/6/1_Maternal-milk:Formula-fed-mini-piglets-supplemented-with-SynComs-HI_vs_Dairy-based-infant-formula-fed-mini-piglets-without-supplementation_UP	NA	Bifidobacterium breve	Staphylococcus capitis	Staphylococcus epidermidis	Micrococcus luteus	Lactobacillus jensenii	Streptococcus
 bsdb:41914743/6/2_Maternal-milk:Formula-fed-mini-piglets-supplemented-with-SynComs-HI_vs_Dairy-based-infant-formula-fed-mini-piglets-without-supplementation_DOWN	NA	Bifidobacterium breve	Staphylococcus capitis	Staphylococcus epidermidis	Micrococcus luteus	Lactobacillus jensenii	Streptococcus
+bsdb:41914743/10/1_Maternal-milk:Formula-supplemented-with-SynComs-AI-fed-neonatal-mini-piglets-at-post-natal-day-24_vs_Formula-fed-neonatal-mini-piglets-without-supplementation-at-post-natal-day-24_UP	NA	Cutibacterium	Veillonella	Streptococcus infantis
+bsdb:41914743/10/2_Maternal-milk:Formula-supplemented-with-SynComs-AI-fed-neonatal-mini-piglets-at-post-natal-day-24_vs_Formula-fed-neonatal-mini-piglets-without-supplementation-at-post-natal-day-24_DOWN	NA	Cutibacterium	Veillonella	Streptococcus infantis
+bsdb:41914743/11/1_Maternal-milk:Formula-supplemented-with-SynComs-HI-fed-neonatal-mini-piglets-at-post-natal-day-24_vs_Formula-fed-neonatal-mini-piglets-without-supplementation-at-post-natal-day-24_UP	NA	Cutibacterium	Veillonella	Streptococcus infantis
+bsdb:41914743/11/2_Maternal-milk:Formula-supplemented-with-SynComs-HI-fed-neonatal-mini-piglets-at-post-natal-day-24_vs_Formula-fed-neonatal-mini-piglets-without-supplementation-at-post-natal-day-24_DOWN	NA	Cutibacterium	Veillonella	Streptococcus infantis
 bsdb:10.5603.mrj.99890/1/1_Vulvovaginal-candidiasis:Vulvovaginal-candidiasis-group_vs_Healthy-Controls_UP	NA	Candida albicans	Candida tropicalis	Candida parapsilosis
 bsdb:34853945839458/1/1_healthy:case_vs_control_UP	NA	Levilactobacillus brevis	Lactobacillus acidophilus
 bsdb:10.53388.2025825001/1/1_Triple-negative-breast-cancer:TNBC-tumor-tissues_vs_adjacent-non-cancerous-tissues_UP	NA	Flavobacterium	Flavobacteriaceae	Renibacterium
