@@ -1,4 +1,4 @@
-# BugSigDB 2026-04-15_11:20_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2026-04-15_13:28_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:11/1/1_Cervical-glandular-intraepithelial-neoplasia:HIV-patients-with-lesion-at-12-months_vs_HIV-pateints-with-normal-tissue-at-6-months_DOWN	NA	2702
 bsdb:39/1/1_Body-odor-measurement:youth-underarm-after-exercise_vs_youth-underarm-before_UP	NA	1282
 bsdb:39/1/2_Body-odor-measurement:youth-underarm-after-exercise_vs_youth-underarm-before_DOWN	NA	265
@@ -93,6 +93,7 @@ bsdb:1284/3/1_Sampling-site:Biopsy-samples_vs_Stool-samples_UP	NA	1224	201174	32
 bsdb:1284/3/2_Sampling-site:Biopsy-samples_vs_Stool-samples_DOWN	NA	135624	1239	171549	200643	976	186801	526524	186802	186803	216572	171552	83763
 bsdb:1284/4/1_Sampling-site:Biopsy-samples_vs_Stool-samples_UP	NA	1224	201174	32066	84992	28211	91061	3031852	203490	1236	909932	135625	909929	72274	186826	91347	85006	119060	712	31977	135621	186828	481
 bsdb:1284/4/2_Sampling-site:Biopsy-samples_vs_Stool-samples_DOWN	NA	976	1239	200643	186801	526524	171549	135624	186802	171552	83763	186803	216572
+bsdb:3739187/1/1_Hypertension:Hypertension_vs_Healthy-controls_DOWN	NA	137591
 bsdb:10202341/1/1_Food-allergy:Allergic-Estonian-children._vs_Nonallergic--Estonian-children._UP	NA	1280
 bsdb:10202341/1/2_Food-allergy:Allergic-Estonian-children._vs_Nonallergic--Estonian-children._DOWN	NA	1678	1578
 bsdb:10202341/2/1_Food-allergy:Allergic-Swedish-children_vs_Non-allergic-Swedish-children._UP	NA	1280
@@ -1784,6 +1785,8 @@ bsdb:29486796/17/2_Helminthiasis:Still-Infected_vs_Self-cleared_DOWN	NA	2740	468
 bsdb:29489859/1/1_Atopic-eczema:emollient-use_vs_no-emollient-use_UP	NA	1304
 bsdb:29489859/2/1_Atopic-eczema:emollient-use_vs_no-emollient-use_UP	NA	1304
 bsdb:29489859/2/2_Atopic-eczema:emollient-use_vs_no-emollient-use_UP	NA	1304
+bsdb:29497601/1/1_Pregnancy:Pregnant-women_vs_Non-pregnant-women_UP	NA	129337	186817	85015	236052	164984	283	188786	270	68933	59732	343873	53457	501783	85021	2762318	68298	862	203692	136	137	157	836	171551	481	206351	482	28216
+bsdb:29497601/1/2_Pregnancy:Pregnant-women_vs_Non-pregnant-women_DOWN	NA	1239	1300	1301	186826	91061	29465	906	437755	213118	893	213121	538
 bsdb:29501802/1/1_Parkinson's-disease:Participants-with-Parkinson's-Disease_vs_Healthy-controls_UP	NA	469	239759	92793	580596	563835	1485	872	128827	526524	1239	570	468	1033997	577309	82115	171550	200666	117747	41297	204457	13687	651137	32033	135614	80840	1033996	497726	186803	72274
 bsdb:29501802/1/2_Parkinson's-disease:Participants-with-Parkinson's-Disease_vs_Healthy-controls_DOWN	NA	2037	81850	1578	200644	117743	504481
 bsdb:29502926/1/1_Phenylketonuria:phenylketonuric-with-Phe-restricted-diet_vs_mild-hyperphenylalaninemic-with-unrestricted-diet_DOWN	NA	853	841	1578
@@ -5396,6 +5399,14 @@ bsdb:34664294/13/2_Gingivitis,Mucositis:Follow-up-1_vs_Baseline_DOWN	NA	970	3206
 bsdb:34664294/14/1_Gingivitis,Mucositis:Follow-up-2_vs_Follow-up-1_UP	NA	2049	2717	1164882
 bsdb:34664294/15/1_Gingivitis,Mucositis:Dental-surfaces_vs_Implant-surfaces_UP	NA	1654	2049	32257	47670	32067	482	481	133925	439703	970	1301	29465	31977
 bsdb:34664294/15/2_Gingivitis,Mucositis:Dental-surfaces_vs_Implant-surfaces_DOWN	NA	194	970	162289	481	543311	286	838	118747	374
+bsdb:34664294/16/1_Gingivitis:Delmopinol_vs_Placebo_UP	NA	201174	43994	32067	508215
+bsdb:34664294/16/2_Gingivitis:Delmopinol_vs_Placebo_DOWN	NA	1654	2049	416916	95818	1016	1716	1164882	32067	482	481	838	1301	195950
+bsdb:34664294/17/1_Gingivitis:Chlorhexidine_vs_Placebo_UP	NA	1654	1016	283	1578	1301
+bsdb:34664294/17/2_Gingivitis:Chlorhexidine_vs_Placebo_DOWN	NA	1716	32067	1309	970	2049	2717	416916	194	95818	29465	1654	508215	1016	1164882	195950	838	216572
+bsdb:34664294/18/1_Mucositis:Delmopinol_vs_Placebo_UP	NA	508215	374
+bsdb:34664294/18/2_Mucositis:Delmopinol_vs_Placebo_DOWN	NA	1716	32067	1016	482	416916	838	481	95818	1654	1380	31953
+bsdb:34664294/19/1_Mucositis:Chlorhexidine_vs_Placebo_UP	NA	482	1654	32067
+bsdb:34664294/19/2_Mucositis:Chlorhexidine_vs_Placebo_DOWN	NA	1380	1654	194	1164882	838	1378	32067	836	970	416916	2717	1716	481	1309
 bsdb:34668745/1/1_Insecticide:Susceptible-mosquitoes-(2-to-3-days-old)_vs_Resistant-+-Control-mosquitoes-(2-to-3-days-old)_UP	NA	613	91914
 bsdb:34668745/2/1_Insecticide:Resistant-mosquitoes-(2-to-3-days-old)_vs_Susceptible-+-Control-mosquitoes-(2-to-3-days-old)_UP	NA	543	528	400634
 bsdb:34668745/3/1_Insecticide:Control-mosquitoes-(2-to-3-days-old)_vs_Susceptible-+-Resistant-mosquitoes-(2-to-3-days-old)_UP	NA	543	528	400634
@@ -5675,6 +5686,8 @@ bsdb:35107058/1/2_Response-to-exercise:C-HIIT_vs_C-MICT_DOWN	NA	2048137	239935	1
 bsdb:35107058/1/3_Response-to-exercise:C-HIIT_vs_C-MICT_UP	NA	135858	39483	2173	1980693	40518	2053632	358743	1673721	1897011
 bsdb:35107058/2/1_Response-to-exercise:High-energy-baseline_vs_Low-energy-baseline_UP	NA	1924094
 bsdb:35107058/2/2_Response-to-exercise:High-energy-baseline_vs_Low-energy-baseline_DOWN	NA	2173
+bsdb:35107058/3/1_Energy-intake:High-energy-intake_vs_Low-energy-intake_UP	NA	2173
+bsdb:35107058/3/2_Energy-intake:High-energy-intake_vs_Low-energy-intake_DOWN	NA	1924094
 bsdb:35114943/1/1_Beverage-consumption-measurement:Yoghurt-eaters_vs_Non-yoghurt-eaters_UP	NA	2086	1678	1262798	570	248744	1301	707003	3068309
 bsdb:35114943/1/2_Beverage-consumption-measurement:Yoghurt-eaters_vs_Non-yoghurt-eaters_DOWN	NA	580596	946234	1506553	3025755
 bsdb:35114943/2/1_Beverage-consumption-measurement:Yoghurt-eaters_vs_Non-yoghurt-eaters_UP	NA	1308	28025	161879	29465	214856	328813	204516	1579	116085	39485	1358	2585118	186532	218538	1625
@@ -5738,6 +5751,7 @@ bsdb:35196800/4/1_Mycobacterium-tuberculosis:Untreated-pulmonary-TB-group-(UTG)_
 bsdb:35196821/1/1_Mastitis:Subacute-ruminal-acidosis-(SARA)-cows_vs_Control-cows_UP	NA	1224	40323	83770
 bsdb:35196821/2/1_Mastitis:Subacute-ruminal-acidosis-(SARA)-cows_vs_Control-cows_UP	NA	1224	13687	40323
 bsdb:35196821/2/2_Mastitis:Subacute-ruminal-acidosis-(SARA)-cows_vs_Control-cows_DOWN	NA	544448	203691
+bsdb:35196821/3/1_Mastitis:Subacute-ruminal-acidosis-(SARA)-cows_vs_Control-cows_UP	NA	1224	40323	83770	841	31980	459786	248744
 bsdb:35211481/1/1_Chronic-constipation:Slow-transit-constipation-(STC)-group_vs_Healthy-controls_UP	NA	201174	239934	239935	239759	244127	1239	1678	457421	1485	84111	84112	333367	358743	658657	457422	946234	644652	471189	61170	154046	658086	658087	283168	459786	375288	328812	46503	40518	292632	74201	1535	1512	186802	186803
 bsdb:35211481/1/2_Chronic-constipation:Slow-transit-constipation-(STC)-group_vs_Healthy-controls_DOWN	NA	976	547	32066	658085	158846	28890	846	166486	665956	508458	29347	216572	100884
 bsdb:35216552/1/1_Disease-staging:Melanoma-surface-of-pigs-with-Melanoma-progression_vs_Melanoma-surface-of-pigs-with-with-melanoma-regression_UP	NA	1654	816	194	44259	848	13075	31983	543311	162289	1257	836	1069494	1151637
@@ -6139,6 +6153,7 @@ bsdb:35909623/1/2_Prediabetes-syndrome:Prediabetes_vs_Normoglycemia_DOWN	NA	2399
 bsdb:35927569/1/1_COVID-19:SARS-CoV-2-positive-pregnant-women_vs_SARS-CoV-2-negative-pregnant-women_UP	NA	1766253	216851	1578	32067	33024	48736	29465	375288
 bsdb:35927569/1/2_COVID-19:SARS-CoV-2-positive-pregnant-women_vs_SARS-CoV-2-negative-pregnant-women_DOWN	NA	323921	816
 bsdb:35927569/2/1_COVID-19:SARS-CoV-2-positive-pregnant-women_vs_SARS-CoV-2-negative-pregnant-women_UP	NA	976	102106	313588	209879	216851	544448	375288	33024
+bsdb:35927569/3/2_COVID-19:Active-SARS-CoV-2-infection-(positive-RT-PCR-and-positive-antibodies)_vs_Past-SARS-CoV-2-infection-(negative-RT-PCR,-positive-antibodies)_DOWN	NA	201174
 bsdb:35928983/1/1_Endometrial-cancer:Tumor-(Low-Grade-+-High-Grade)_vs_Benign_UP	NA	1506	281920
 bsdb:35928983/1/2_Endometrial-cancer:Tumor-(Low-Grade-+-High-Grade)_vs_Benign_DOWN	NA	1282	1311	33007
 bsdb:35928983/2/1_Endometrial-cancer:High-Grade_vs_Benign_UP	NA	861
@@ -6643,6 +6658,8 @@ bsdb:36467550/2/1_Curcumin:CUR-M_vs_MPTP_UP	NA	85831	28216	119060	1643826	580024
 bsdb:36467550/2/2_Curcumin:CUR-M_vs_MPTP_DOWN	NA	1427378	1872090	186806	1730	1588	1598	165185
 bsdb:36467550/3/1_Curcumin:CUR-H_vs_MPTP_UP	NA	201174	174708	1239	84999	84998	1643826	580024	1392389	215530	31969	544448	2518497	2094151	135621	72274	286	1231603	1187017	1757166
 bsdb:36467550/3/2_Curcumin:CUR-H_vs_MPTP_DOWN	NA	2093825	2093818	1331051	186806	1730	290054	61170	1468449	1588	1598	35518	162156	165185
+bsdb:36467732/1/1_Pregnancy:pregnancy-(first-trimester)_vs_non-pregnant_UP	NA	28112	482
+bsdb:36467732/2/1_Pregnancy:pregnancy-(second-trimester)_vs_non-pregnant_UP	NA	32067	482
 bsdb:36475759/4/1_Hypertension:Hypertension-(HTN)_vs_no-Hypertension-(no-HTN)_UP	NA	5339	5340	5341	1209926	91928	4910	4944	113604	209285
 bsdb:36475759/4/2_Hypertension:Hypertension-(HTN)_vs_no-Hypertension-(no-HTN)_DOWN	NA	109264	5260	203908	5259	5529	410829	796027	410830	1047167	1047171	147550	148303
 bsdb:36475759/5/1_Hypertension:Hypertension-(HTN)_vs_no-Hypertension-(no-HTN)_UP	NA	34384	229219	1681229	453459	1915381	63402	33183	452342	398673	27337	148959	1708541	431959	431958	431957
@@ -6892,6 +6909,11 @@ bsdb:36691982/1/1_Parkinson's-disease:PD:-individuals-with-Parkinson's-disease_v
 bsdb:36691982/1/2_Parkinson's-disease:PD:-individuals-with-Parkinson's-disease_vs_HC:-household-controls_DOWN	NA	841
 bsdb:36691982/2/1_Parkinson's-disease:PD:-Individuals-with-Parkinson's-disease_vs_PC:-healthy-population-controls-without-Parkinson's-Disease_UP	NA	201174	1432051	1432052	1905344	1550024
 bsdb:36691982/2/2_Parkinson's-disease:PD:-Individuals-with-Parkinson's-disease_vs_PC:-healthy-population-controls-without-Parkinson's-Disease_DOWN	NA	853	1262988	39485	216851	830
+bsdb:36704106/1/1_Adenomatous-colon-polyp:Faeces-(polyp-group)_vs_Colorectal-polyp-tissue_DOWN	NA	1378	32067	47670	416916	29465	2717	1257	482	117563	1301	848	724	1940338
+bsdb:36704106/1/2_Adenomatous-colon-polyp:Faeces-(polyp-group)_vs_Colorectal-polyp-tissue_UP	NA	1766253	816	1678	572511	28050	877420	906	375288
+bsdb:36704106/2/1_Adenomatous-colon-polyp:Faeces-(polyp-group)_vs_Normal-mucosa-(polyp-group)_DOWN	NA	1940338	724	1301	848	117563	1257	482	1378	29465	416916	32067	86331	1716	713	32207	838	836	538	1654	35517	543311	1213720	265975	46123	123375	638847	43996	35518	43994
+bsdb:36704106/3/1_Adenomatous-colon-polyp:Faeces-(control-group)_vs_Normal-mucosa-(control-group)_DOWN	NA	713	1654	416916	29393	1940338	848	1378	117563	724	32067	482	1257	32207	1279	1301	29465
+bsdb:36704106/3/2_Adenomatous-colon-polyp:Faeces-(control-group)_vs_Normal-mucosa-(control-group)_UP	NA	3028852	375288	61170	1766253	816
 bsdb:36710264/1/1_Obesity-due-to-congenital-leptin-deficiency:Obese/obese-(ob/ob)-mice_vs_Wild-type-(WT)mice_UP	NA	290425	233189	55079	10	111830	1562	1729679	237	162027	83614	482	1839	28453	33057	662
 bsdb:36710264/1/2_Obesity-due-to-congenital-leptin-deficiency:Obese/obese-(ob/ob)-mice_vs_Wild-type-(WT)mice_DOWN	NA	31980	239934	239759	872	459786	28138	3025755	707003
 bsdb:36710264/2/1_Obesity-due-to-congenital-leptin-deficiency:Obese/obese-(ob/ob)-mice_vs_Wild-type-(WT)mice_UP	NA	237
@@ -9715,7 +9737,7 @@ bsdb:39461337/30/1_Exposure:Octanoic-Acid-(OA)_vs_Ethanol-(EtOH)_UP	NA	218538
 bsdb:39461337/30/2_Exposure:Octanoic-Acid-(OA)_vs_Ethanol-(EtOH)_DOWN	NA	2885357
 bsdb:39461337/31/1_Exposure:Ethanol-(EtOH)_vs_Unsorted-cells_UP	NA	562
 bsdb:39461337/31/2_Exposure:Ethanol-(EtOH)_vs_Unsorted-cells_DOWN	NA	2885357
-bsdb:39466432/1/1_Diabetes-mellitus:Diabetes-mellitus-(DM)-group_vs_Diabetic-retinopathy-(DR)-group_UP	NA	239934	544	117563	724	1357	248744	482	2740	1508657	123375	46255	570	580596
+bsdb:39466432/1/1_Diabetes-mellitus:Diabetes-mellitus-(DM)-group_vs_Diabetic-retinopathy-(DR)-group_UP	NA	239934	580596	544	117563	724	570	1357	248744	482	2740	1508657	123375	46255	1301	1378
 bsdb:39466432/1/2_Diabetes-mellitus:Diabetes-mellitus-(DM)-group_vs_Diabetic-retinopathy-(DR)-group_DOWN	NA	580596	1378
 bsdb:39466432/2/1_Diabetes-mellitus:Baseline-Diabetes-mellitus-(DM)-group_vs_Baseline-Diabetic-retinopathy-(DR)-group_UP	NA	207244	189330	216851	1573534	2740	40544	1262930	544	990721	570
 bsdb:39466432/2/2_Diabetes-mellitus:Baseline-Diabetes-mellitus-(DM)-group_vs_Baseline-Diabetic-retinopathy-(DR)-group_DOWN	NA	239934	580596	544	189330	848	570
@@ -10147,6 +10169,7 @@ bsdb:39856736/3/1_Diet:IIIK-(Karakul-sheep-in-Stage-3)_vs_IIIH-(Hu-sheep-in-Stag
 bsdb:39856736/3/2_Diet:IIIK-(Karakul-sheep-in-Stage-3)_vs_IIIH-(Hu-sheep-in-Stage-3)_DOWN	NA	136703
 bsdb:39861457/1/1_Alcoholic-liver-disease:Probiotic-group_vs_Placebo-group_UP	NA	207244	186817	1386	1385	1154586	1154585	1154584	1330547	2005473	1918540	1839	135621	286	3060226	1300	1301	186814	68295	1562571	1497346
 bsdb:39861457/1/2_Alcoholic-liver-disease:Probiotic-group_vs_Placebo-group_DOWN	NA	57723	153265	84642	642	2171986	2093818	283	1937007	581
+bsdb:39861457/2/1_Interleukin-10-measurement:Increased-Interleukin-10-(IL-10)-levels_vs_Decreased-Interleukin-10-(IL-10)-levels_UP	NA	1330547	2005473	1301
 bsdb:39865153/1/1_Respiratory-tract-infectious-disease:Outpatients_vs_Inpatients_UP	NA	118882	234	529	506	222	80840	1287736	470868	85698	303	543	547	91347	208224	1353889
 bsdb:39865153/2/1_Respiratory-tract-infectious-disease:Outpatients_vs_Inpatients_UP	NA	208224	470868	303	529	1287736	85698	217204	1353889	2583453
 bsdb:39865153/3/1_Fatigue:Fatigue_vs_Non-fatigue_UP	NA	480	41976	1357	1358
@@ -10571,6 +10594,10 @@ bsdb:40059170/13/2_Waist-hip-ratio:High-WHR(Waist-hip-ratio)-(Lanxi-cohort)_vs_L
 bsdb:40059170/14/1_Body-fat-distribution:High-Android-(Lanxi-cohort)_vs_Low-Android-(Lanxi-cohort)_DOWN	NA	724	877420
 bsdb:40059170/15/1_Body-fat-distribution:High-Gynoid-(Lanxi-cohort)_vs_Low-Gynoid-(Lanxi-cohort)_UP	NA	724	877420
 bsdb:40059170/16/1_Body-fat-distribution:High-AOI(Android-gynoid-fat-ratio)-(Lanxi-cohort)_vs_Low-AOI(Android-gynoid-fat-ratio)-(Lanxi-cohort)_DOWN	NA	724	877420
+bsdb:40062725/1/1_Peri-Implantitis:60-months-dental-plaque-microbiome_vs_1-month-dental-plaque-microbiome_UP	NA	836	195950	837	28112
+bsdb:40062725/1/2_Peri-Implantitis:60-months-dental-plaque-microbiome_vs_1-month-dental-plaque-microbiome_DOWN	NA	970	199	1017	2663009	1660	712528
+bsdb:40062725/2/1_Peri-Implantitis:12-month-dental-plaque-microbiome_vs_1-month-dental-plaque-microbiome_UP	NA	195950	28112
+bsdb:40062725/2/2_Peri-Implantitis:12-month-dental-plaque-microbiome_vs_1-month-dental-plaque-microbiome_DOWN	NA	1660
 bsdb:40084872/1/1_Pulmonary-tuberculosis,Diabetes-mellitus:pulmonary-tuberculosis-(PTB)-patients_vs_Combination-of-healthy-volunteers-(Health)-and-pulmonary-tuberculosis-patients-with-diabetes-mellitus-(PTB-DM)_UP	NA	216851	572511	189330	207244	35832	577309	165186	259315
 bsdb:40084872/2/1_Pulmonary-tuberculosis,Diabetes-mellitus:pulmonary-tuberculosis-(PTB)-patients_vs_Combination-of-pulmonary-tuberculosis-(PTB)-and-pulmonary-tuberculosis-patients-with-diabetes-mellitus-(PTB-DM)-group_UP	NA	580596	186801	31979	626935	39496	39497	28050	204441	841	166486	186803	512314
 bsdb:40084872/3/1_Pulmonary-tuberculosis,Diabetes-mellitus:pulmonary-tuberculosis-and-diabetes-mellitus-(PTB–DM)_vs_Combination-of-healthy-volunteers-(Health)-and-pulmonary-tuberculosis-(PTB)-group_UP	NA	186826	91061	203491	203492	848	850	216851
@@ -10668,6 +10695,7 @@ bsdb:40214782/1/1_Alcohol-consumption-measurement:High-alcohol-intake_vs_Low-alc
 bsdb:40214782/1/2_Alcohol-consumption-measurement:High-alcohol-intake_vs_Low-alcohol-intake_DOWN	NA	40214	1681
 bsdb:40232948/3/1_Type-II-diabetes-mellitus:Type-2-diabetes-mellitus-(T2DM)_vs_Normoglycaemic-controls._UP	NA	1016	1017	327575	49546	495
 bsdb:40232948/4/1_Type-II-diabetes-mellitus:Type-2-diabetes-mellitus-(T2DM)_vs_Normoglycaemic-controls._DOWN	NA	724	712	135625	1224
+bsdb:40232948/5/1_Type-II-diabetes-mellitus:Type-2-diabetes-mellitus-(T2DM)_vs_Normoglycaemic-controls._DOWN	NA	724	712	135625	1224
 bsdb:40234709/1/1_Periodontal-Pocket:Shallow-and-Deep-Periodontal-pocket-(Shallow_d)_vs_Shallow-Periodontal-pocket-(Shallow_s)_UP	NA	272548	1659	544580	714	732	671218	76122	976	1689	118748	2171989	2093824	2819369	45242	43997	82203	84163	1986146	218538	39950	31973	539	2528037	2766967	1795832	143361	651822	76859	1583098	851	155615	76123	189722	28134	407975	633701	43995	979627	1383	40542	157691	1852379	156456	187326	2124	114527	35519	133926	33033	796937	341694	555313	28124	837	340486	28129	2800387	28131	2490854	189723	28133	60133	28137	113287	230143	28126	439703	28135	28136	228604	135080	135082	135083	69823	177972	84109	102148	203691	76860	28112	712710	35517	76124	35518	39498
 bsdb:40234709/1/2_Periodontal-Pocket:Shallow-and-Deep-Periodontal-pocket-(Shallow_d)_vs_Shallow-Periodontal-pocket-(Shallow_s)_DOWN	NA	106649	40214	52769	544581	461393	1655	544580	201174	1547448	2572088	1017	45243	2718	61592	43768	1747	76857	29391	84135	46124	2582921	425941	2490857	47671	157688	554406	109328	267212	495	178339	1583331	157692	172042	2047	52768	671224	1302	1338	1309	1305	39777	339	2220000
 bsdb:40247863/1/1_Sleep-Disorder:Catathrenia-group_vs_Healthy-control-group_UP	NA	222	84992	469	1654	201174	28211	2801844	35823	85413	41275	32008	119060	80840	76892	204458	563835	1853229	1853228	80864	1117	80865	29393	1210116	356	47670	88	32033	135614	85023	33882	85006	475	468	41294	1892254	1150	3028117	84567	31957	85009	48736	177971	84566	200666	117747	41297	204457	13687	40323
@@ -10796,10 +10824,10 @@ bsdb:40308807/5/1_Chronic-hepatitis-B-virus-infection:F4_vs_F1_UP	NA	203691
 bsdb:40308807/6/1_Chronic-hepatitis-B-virus-infection:F4_vs_F3_UP	NA	203691
 bsdb:40308807/6/2_Chronic-hepatitis-B-virus-infection:F4_vs_F3_DOWN	NA	239934	33986	1375
 bsdb:40308807/7/1_Chronic-hepatitis-B-virus-infection:F1_vs_F2-+-F3-+-F4_UP	NA	189330	43994
-bsdb:40308807/8/1_Chronic-hepatitis-B-virus-infection:F2-+-F4_vs_F1_UP	NA	1263	312063	43994	1301	80865
-bsdb:40308807/8/2_Chronic-hepatitis-B-virus-infection:F2-+-F4_vs_F1_DOWN	NA	189330
-bsdb:40308807/9/1_Chronic-hepatitis-B-virus-infection:F1-+-F4_vs_F2_UP	NA	312063	43994	1301	80865	189330
-bsdb:40308807/9/2_Chronic-hepatitis-B-virus-infection:F1-+-F4_vs_F2_DOWN	NA	1263
+bsdb:40308807/8/1_Chronic-hepatitis-B-virus-infection:F2_vs_F1-+-F3-+-F4_UP	NA	1263	189330
+bsdb:40308807/8/2_Chronic-hepatitis-B-virus-infection:F2_vs_F1-+-F3-+-F4_DOWN	NA	189330
+bsdb:40308807/9/1_Chronic-hepatitis-B-virus-infection:F3_vs_F1-+-F2-+-F4_UP	NA	1853231
+bsdb:40308807/9/2_Chronic-hepatitis-B-virus-infection:F3_vs_F1-+-F2-+-F4_DOWN	NA	1263
 bsdb:40308807/10/1_Chronic-hepatitis-B-virus-infection:F1+F2_vs_F4_UP	NA	189330	1263
 bsdb:40308807/10/2_Chronic-hepatitis-B-virus-infection:F1+F2_vs_F4_DOWN	NA	312063	43994	1883	80865
 bsdb:40308807/11/1_Chronic-hepatitis-B-virus-infection:F2-+-F3-+-F4_vs_F1_UP	NA	80865	201174	388447	3440664	1569	189330	320772	43994	1263	312063
@@ -11967,6 +11995,8 @@ bsdb:41587982/4/1_Osteoporosis:Ovariectomized-mice-treated-orally-with-salivary-
 bsdb:41587982/4/2_Osteoporosis:Ovariectomized-mice-treated-orally-with-salivary-microbiota-from-periodontitis-patients-(OVXP)_vs_Ovariectomized-mice-treated-orally-with-salivary-microbiota-from-healthy-group-(OVXH)_DOWN	NA	841	459786	283168	1918540	239759
 bsdb:41587982/5/1_Osteoporosis:Antibiotic-treated-ovariectomized-mice-receiving-fecal-microbiota-transplantation-(FMT)-from-ovariectomized-mice-orally-administered-salivary-microbiota-from-periodontitis-patients-(t-OVXP)_vs_Antibiotic-treated-ovariectomized-mice-receiving-fecal-microbiota-transplantation-(FMT)-from-ovariectomized-mice-orally-administered-salivary-microbiota-from-healthy-group-(t-OVXH)_UP	NA	174708
 bsdb:41587982/5/2_Osteoporosis:Antibiotic-treated-ovariectomized-mice-receiving-fecal-microbiota-transplantation-(FMT)-from-ovariectomized-mice-orally-administered-salivary-microbiota-from-periodontitis-patients-(t-OVXP)_vs_Antibiotic-treated-ovariectomized-mice-receiving-fecal-microbiota-transplantation-(FMT)-from-ovariectomized-mice-orally-administered-salivary-microbiota-from-healthy-group-(t-OVXH)_DOWN	NA	841	459786
+bsdb:41635177/1/1_Treatment:Probiotic-group-day-180-(Int-Aft)_vs_Probiotic-group-baseline-(Int-Bef)_UP	NA	1655	447020	446660	91061	1685	871665	40520	1962910	332160	194	72294	213849	1485	102106	74426	84107	84999	84998	39486	547	81852	1350	1353	71452	3031852	1940338	1582879	173479	1742989	644652	471189	1735	1505657	261299	570	573	2767842	33958	186826	1357	2767885	85023	1981510	85025	186804	286	1827	196081	84108	1505652	191303	154288	46255
+bsdb:41635177/1/2_Treatment:Probiotic-group-day-180-(Int-Aft)_vs_Probiotic-group-baseline-(Int-Bef)_DOWN	NA	904	1033	239934	239935	511	239759	28117	105841	1612198	816	817	28116	818	820	1681	630129	1689	871664	374	2093824	156973	722737	216851	853	946234	292800	2767882	386414	1649459	154046	1506553	1926283	28050	28052	68287	71433	1156568	1763	375288	46503	33024	33025	821	841	166486	360807	40518	1769710	1653434	1473205	45634	684066	29465	1649511	1762	31957	815	2005520	171550	2005525	171549	563835	1853229	200643	3028117	3085642	216572	290054	186802	909930	1843488	31977	909932
 bsdb:41649265/1/1_Bronchopulmonary-dysplasia:Bronchopulmonary-dysplasia-1-(BPD1)_vs_Non-Bronchopulmonary-dysplasia-1(NBPD1)_UP	NA	28211	41275	76892	204458	135621	72274	286	3120442
 bsdb:41649265/1/2_Bronchopulmonary-dysplasia:Bronchopulmonary-dysplasia-1-(BPD1)_vs_Non-Bronchopulmonary-dysplasia-1(NBPD1)_DOWN	NA	909932	48736	1073	29465	31977
 bsdb:41649265/2/1_Spontaneous-preterm-birth:Early-preterm-(S1)_vs_Middle-preterm-&-Late-preterm-(S2-&-S3)_UP	NA	200930	68337	191393	1762	815	171552	2038695	191394	1763	816	248038
