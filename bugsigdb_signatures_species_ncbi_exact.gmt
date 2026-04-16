@@ -1,4 +1,4 @@
-# BugSigDB 2026-04-16_16:28_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2026-04-16_18:21_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:11/1/1_Cervical-glandular-intraepithelial-neoplasia:HIV-patients-with-lesion-at-12-months_vs_HIV-pateints-with-normal-tissue-at-6-months_DOWN	NA	2702
 bsdb:39/1/1_Body-odor-measurement:youth-underarm-after-exercise_vs_youth-underarm-before_UP	NA	1282
 bsdb:39/2/1_Body-odor-measurement:youth-Neck-before_vs_after-excercise_DOWN	NA	33011	108981
@@ -2884,8 +2884,8 @@ bsdb:36790203/2/2_Chronic-obstructive-pulmonary-disease:HIV-positive-individuals
 bsdb:36795141/2/1_Parkinson's-disease:Parkinson's-Disease-Patients_vs_Healthy-controls_UP	NA	216816
 bsdb:36803646/1/1_Spinal-cord-injury:SCI-(spinal-cord-injury)_vs_healthy-control-(without-SCI)_DOWN	NA	1898207	1940338	39497	1898203	39492
 bsdb:36803646/2/1_Spinal-cord-injury:SCI-(spinal-cord-injury)_vs_healthy-control-(without-SCI)_DOWN	NA	1940338
-bsdb:36835017/2/1_Gastroenteritis:Acute-Gastroenteritis-cases_vs_Acute-Gastroenteritis-cases_UP	NA	849
-bsdb:36835017/2/2_Gastroenteritis:Acute-Gastroenteritis-cases_vs_Acute-Gastroenteritis-cases_DOWN	NA	113287
+bsdb:36835017/2/1_Gastroenteritis:Acute-Gastroenteritis-cases_vs_Healthy-group_UP	NA	849
+bsdb:36835017/2/2_Gastroenteritis:Acute-Gastroenteritis-cases_vs_Healthy-group_DOWN	NA	113287
 bsdb:36870237/1/2_Diet-measurement:Adult-Systemic-Sclerosis-patients-on-a-non-low-fermentable-oligosaccharides,-disaccharides,-monosaccharides,-and-polyols-(FODMAP)-diet._vs_Adult-Systemic-Sclerosis-patients-on-a-low-fermentable-oligosaccharides,-disaccharides,-monosaccharides,-and-polyols-(FODMAP)-diet._DOWN	NA	2049024	1946507	2053632	297314
 bsdb:36870237/2/1_Systemic-scleroderma:Systemic-Sclerosis-patients-with-increased-GIT-2.0-score_vs_Not-Applicable_UP	NA	1946507
 bsdb:36870237/2/2_Systemic-scleroderma:Systemic-Sclerosis-patients-with-increased-GIT-2.0-score_vs_Not-Applicable_DOWN	NA	1898207	1671661	1262798	2049024	2053618	3428501	2065077	331630	404784	707003
@@ -5363,13 +5363,13 @@ bsdb:41723572/2/1_Sepsis:Aged-septic-mice_vs_Young-septic-mice_UP	NA	1351	548
 bsdb:41723572/2/2_Sepsis:Aged-septic-mice_vs_Young-septic-mice_DOWN	NA	582
 bsdb:41754197/2/2_Diet:Individuals-with-low-food-variety_vs_Individuals-with-high-food-variety_DOWN	NA	76631
 bsdb:41773858/1/1_Tuberculosis:Tuberculosis_vs_Control_UP	NA	671218	419015	187326	1773	28132	189723	60133	28135
-bsdb:41773858/1/2_Tuberculosis:Tuberculosis_vs_Control_DOWN	NA	52769	1750	1017	2718	562	47671	495	157692	102148	28134	56774	51288	237258
+bsdb:41773858/1/2_Tuberculosis:Tuberculosis_vs_Control_DOWN	NA	52769	1750	1017	2718	237258	562	28134	51288	47671	495	157692	102148	56774
 bsdb:41773858/2/1_COVID-19:COVID-19_vs_Control_UP	NA	419015
 bsdb:41773858/2/2_COVID-19:COVID-19_vs_Control_DOWN	NA	1750	1107316	1501332	2124
 bsdb:41773858/3/1_COVID-19:Tuberculosis-and-COVID-(TBCOVID)_vs_Control_UP	NA	39950	156456	1773	28132
-bsdb:41773858/3/2_COVID-19:Tuberculosis-and-COVID-(TBCOVID)_vs_Control_DOWN	NA	1750	2718	173054
+bsdb:41773858/3/2_COVID-19:Tuberculosis-and-COVID-(TBCOVID)_vs_Control_DOWN	NA	1750	2718	713054
 bsdb:41773858/4/1_COVID-19:Tuberculosis-and-COVID-(TBCOVID)_vs_Tuberculosis_UP	NA	1017	562	28132
-bsdb:41773858/4/2_COVID-19:Tuberculosis-and-COVID-(TBCOVID)_vs_Tuberculosis_DOWN	NA	1382	60133	43675	796942	713053	713054	29466
+bsdb:41773858/4/2_COVID-19:Tuberculosis-and-COVID-(TBCOVID)_vs_Tuberculosis_DOWN	NA	1382	60133	43675	796942	713053	29466
 bsdb:41773858/5/1_COVID-19:COVID_vs_Control_UP	NA	28132	156456
 bsdb:41773858/5/2_COVID-19:COVID_vs_Control_DOWN	NA	1107316	156456
 bsdb:41773858/6/1_Tuberculosis:Tuberculosis_vs_Control_UP	NA	28135	1773
@@ -5399,8 +5399,7 @@ bsdb:41847367/1/1_Insomnia:Insomnia_vs_Control_UP	NA	47678	33038	821
 bsdb:41847367/1/2_Insomnia:Insomnia_vs_Control_DOWN	NA	40519
 bsdb:41872600/1/1_Diet:Positive-correlation-with-natural-yoghurt_vs_Negative-correlation-with-natural-yoghurt_UP	NA	820	216816	562	1308	1304
 bsdb:41901079/2/1_Treatment-outcome-measurement:Intervention-group-at-T3-(post-treatment-follow-up)._vs_Control-group-at-T3-(post-treatment-follow-up)._UP	NA	649739
-bsdb:41909890/1/2_Blood-disease:Case-(NCt)-group_vs_Control-(Ct)-group_UP	NA	1351
-bsdb:41909890/1/3_Blood-disease:Case-(NCt)-group_vs_Control-(Ct)-group_DOWN	NA	541003
+bsdb:41909890/1/2_Blood-disease:Case-(NCt)-group_vs_Control-(Ct)-group_UP	NA	1940338
 bsdb:41914628/1/1_Antiphospholipid-syndrome:Antiphospholipid-Syndrome-(APS)-Patients_vs_Healthy-Control-(HC)-Patients_UP	NA	1689	827	1351	1584
 bsdb:41914628/1/2_Antiphospholipid-syndrome:Antiphospholipid-Syndrome-(APS)-Patients_vs_Healthy-Control-(HC)-Patients_DOWN	NA	82135	2702	33959
 bsdb:41914628/2/1_Antiphospholipid-syndrome:Antiphospholipid-Syndrome-(APS)-patients_vs_Healthy-Control-(HC)-patients_UP	NA	1689	29373	1351	564	181675	304	1282
