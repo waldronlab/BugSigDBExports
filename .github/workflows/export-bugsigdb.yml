@@ -2,6 +2,19 @@ on:
   schedule:
     - cron: "55 * * * *" # UTC Time
   workflow_dispatch:
+    inputs:
+      validate:
+        description: "Validate and filter"
+        required: false
+        default: "false"
+        type: choice
+        options:
+          - "false"
+          - "true"
+      branch:
+        description: "Create a branch"
+        required: false
+        type: string
 
 name: Export BugSigDB
 
@@ -21,7 +34,7 @@ jobs:
         run: |
           Rscript -e "install.packages(c('rvest', 'readr', 'plyr', 'BiocFileCache', 'R.utils', 'testthat'))"
 
-      - name: Install bugsigdbr 
+      - name: Install bugsigdbr
         run: |
           Rscript -e "BiocManager::install('bugsigdbr')"
 
@@ -36,7 +49,7 @@ jobs:
           BUGSIGDB_TIMESTAMP="$(date -u +%Y-%m-%d_%H:%M_UTC)"
           echo "BUGSIGDB_TIMESTAMP=$BUGSIGDB_TIMESTAMP" >> $GITHUB_ENV
           echo $BUGSIGDB_TIMESTAMP
-          Rscript $GITHUB_WORKSPACE/BugSigDBExports/inst/scripts/dump_release.R $BUGSIGDB_TIMESTAMP $GITHUB_WORKSPACE/BugSigDBExports
+          Rscript $GITHUB_WORKSPACE/BugSigDBExports/inst/scripts/dump_release.R $BUGSIGDB_TIMESTAMP $GITHUB_WORKSPACE/BugSigDBExports ${{ github.event.inputs.validate }}
           mv *csv $GITHUB_WORKSPACE/BugSigDBExports
         timeout-minutes: 10
 
@@ -46,7 +59,7 @@ jobs:
           library(testthat)
           github_workspace <- Sys.getenv("GITHUB_WORKSPACE")
           setwd(file.path(github_workspace, "BugSigDBExports"))
-          bsdb <- read.csv("full_dump.csv", skip = "1")
+          bsdb <- read.csv("full_dump.csv", skip = 1)
           expect_true(all(!is.na(bsdb$Study)))
         shell: Rscript {0}
 
@@ -69,10 +82,25 @@ jobs:
                       row.names = FALSE)
         shell: Rscript {0}
 
-      - name: Commit Exports
+      - name: Check if branch was set and does not exist
+        id: create_branch
+        if: ${{ github.event.inputs.branch  != "" && github.event.inputs.validate == "true" }}
         run: |
           cd $GITHUB_WORKSPACE/BugSigDBExports
-          for export in `find . -type f -iname \*.gmt -o -iname \*.csv` 
+          if git ls-remote --exit-code --heads origin "${{ github.event.inputs.branch }}"; then
+            echo "Branch already exists"
+            exit 1
+          else
+            echo "Create and switch to new branch"
+            git switch -c ${{ github.event.inputs.branch }}
+            echo "make_pr=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit Exports
+        id: commit_exports
+        run: |
+          cd $GITHUB_WORKSPACE/BugSigDBExports
+          for export in `find . -type f -iname \*.gmt -o -iname \*.csv`
           do
             export=$(echo $export | sed 's/\.\///g')
             git_diff=$(git diff --numstat $export | sed -e 's/\t//g')
@@ -88,7 +116,24 @@ jobs:
           if [ -n "$has_updates" ]; then
             git add file_size.csv
             git commit -m "Hourly export update"
-            git push origin devel
+            git push -u origin HEAD
+            echo "pushed=true" >> $GITHUB_OUTPUT
           else
             echo "No content changes to commit"
+            echo "pushed=false" >> $GITHUB_OUTPUT
           fi
+
+      - name: Make PR
+        if: ${{ steps.create_branch.outputs.make_pr == 'true' && steps.commit_exports.outputs.pushed == 'true' }}
+        run: |
+          curl -X POST \
+            -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+            -H "Accept: application/vnd.github.v3+json" \
+            https://api.github.com/repos/${{ github.repository }}/pulls \
+            -d '{
+              "title": "Release candidate",
+              "head": "${{ github.event.inputs.branch }}",
+              "base": "devel",
+              "body": ""
+            }'
+          echo "PR opened"
