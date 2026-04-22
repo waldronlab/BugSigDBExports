@@ -33,7 +33,8 @@ jobs:
       - name: Install BugSigDBExports dependencies
         run: |
           pkgs <- c('rvest', 'readr', 'plyr', 'BiocFileCache', 'R.utils', 'testthat', 'stringr', 'lubridate', 'dplyr')
-          Rscript -e "install.packages(pkgs)"
+          BiocManager::install(pkgs)
+        shell: Rscript {0}
 
       - name: Install bugsigdbr
         run: |
