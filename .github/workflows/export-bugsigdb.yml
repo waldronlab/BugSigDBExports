@@ -6,11 +6,11 @@ on:
       validate:
         description: "Validate and filter"
         required: false
-        default: "false"
+        default: 'false'
         type: choice
         options:
-          - "false"
-          - "true"
+          - 'false'
+          - 'true'
       branch:
         description: "Create a branch"
         required: false
