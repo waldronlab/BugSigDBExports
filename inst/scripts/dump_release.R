@@ -196,6 +196,7 @@ bsdb <- addID(bsdb)
 
 # Perform additional validations to prepare for release
 if (isTRUE(validate)) {
+    message("Validating data for the release")
     bsdb <- bsdb |>
         dplyr::filter(stringr::str_detect(`BSDB ID`, "bsdb:.*/[0-9]+/[0-9]+|NA"),
                       !na_and_blank(Study),
