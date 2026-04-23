@@ -148,9 +148,9 @@ header <- paste0("# BugSigDB ", version,
                  ", URL: https://bugsigdb.org\n")
 
 # import
-links <- c(stud = "https://bugsigdb.org/w/images/csv_reports/studies.csv",
-           exp = "https://bugsigdb.org/w/images/csv_reports/experiments.csv",
-           sig = "https://bugsigdb.org/w/images/csv_reports/signatures.csv")
+links <- c(stud = "https://bugsigdb-images.s3.us-east-va.perf.cloud.ovh.us/csv_reports/studies.csv",
+           exp = "https://bugsigdb-images.s3.us-east-va.perf.cloud.ovh.us/csv_reports/experiments.csv",
+           sig = "https://bugsigdb-images.s3.us-east-va.perf.cloud.ovh.us/csv_reports/signatures.csv")
 files <- downloadFiles(links)
 bsdb <- readFiles(files)
 abstr.col <- "Abstract"
