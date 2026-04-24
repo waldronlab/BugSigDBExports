@@ -1,19 +1,48 @@
 ###########################################################
-# 
+#
 # author: Ludwig Geistlinger
 # date: 2021-07-13 19:49:35
-# 
+#
 # descr: dump all files associated with a BugSigDB release
 #        into a specified folder
 #
-# call: Rscript dump_release.R <version> <output.directory> 
+# call: Rscript dump_release.R <version> <output.directory> <validate>
 #
 ############################################################
 
 library(bugsigdbr)
+library(lubridate)
 library(plyr)
+library(dplyr)
 library(readr)
 library(rvest)
+library(stringr)
+
+
+# Validation
+na_and_blank <- function(x)
+    is.na(x) & nzchar(trimws(x))
+
+na_or_pos_int <- function(x)
+    is.na(x) | (is.numeric(x) %% 1 == 0 & x > 0)
+
+between_exclusive <- function(x, lower = 0, upper = 1)
+    as.numeric(x) > lower & as.numeric(x) < upper
+
+between_inclusive <- function(x, lower = 0, upper = 1)
+    as.numeric(x) >= lower & as.numeric(x) <= upper
+
+valid_year <- function(x) {
+    stringr::str_detect(x, "^[0-9]{4,4}$") &
+        as.numeric(x) >= 1999 & as.numeric(x) <= lubridate::year(Sys.Date())
+}
+
+doi_url <- function(x)
+    stringr::str_detect(x, "^(http)?.*(doi.org){1}")
+
+valid_pmid <- function(x)
+    stringr::str_detect(x, "^[0-9]{8,8}$")
+
 
 ## FUNCTIONS
 
@@ -50,7 +79,7 @@ readFiles <- function(files, delay = 60)
     exps <- readr::read_csv(files["exp"])
     exps <- subset(exps, State == "Complete")
     sigs <- readr::read_csv(files["sig"])
-    sigs <- subset(sigs, State == "Complete") 
+    sigs <- subset(sigs, State == "Complete")
     # If not GitHub Action with BUGSIGDB_TIMESTAMP
     if (Sys.getenv("BUGSIGDB_TIMESTAMP") != "") {
         file.remove(c(files["stud"], files["sig"], files["exp"]))
@@ -68,10 +97,10 @@ readFiles <- function(files, delay = 60)
     colnames(exps)[ind] <- "Experiment"
 
     # sync studies and experiments
-    ind <- exps$Study %in% studs$Study 
+    ind <- exps$Study %in% studs$Study
     exps <- exps[ind,]
     ind <- match(exps$Study, studs$Study)
-    stud.exp <- studs[ind,] 
+    stud.exp <- studs[ind,]
     ind <- colnames(exps) != "Study"
     exps <- cbind(stud.exp, exps[,ind])
 
@@ -85,7 +114,7 @@ readFiles <- function(files, delay = 60)
     exp.sig <- exps[ind,]
     ind <- setdiff(colnames(sigs), c("Study", "Experiment"))
     sigs <- cbind(exp.sig, sigs[,ind])
-    
+
     # add NA fields for experiments without signatures
     ind <- es %in% ses
     fill.na <- exps[!ind,]
@@ -113,8 +142,8 @@ resolveCase <- function(bsdb, ncol = "Condition", icol = "EFO ID")
     incons <- lapply(incons, unique)
     incons <- incons[lengths(incons) == 1]
     for(n in names(incons))
-    { 
-        ind  <- which(bsdb[,"EFO ID"] == n)   
+    {
+        ind  <- which(bsdb[,"EFO ID"] == n)
         bsdb[ind,"Condition"] <- incons[[n]]
     }
     return(bsdb)
@@ -136,14 +165,15 @@ addID <- function(df)
 
 # command line arguments
 cmd.args <- commandArgs(trailingOnly = TRUE)
-if(length(cmd.args) != 2) 
-    stop("Usage: Rscript dump_release.R <version> <output.directory>")
+if(length(cmd.args) < 2 || length(cmd.args) > 3)
+    stop("Usage: Rscript dump_release.R <version> <output.directory> <validate>")
 version <- cmd.args[1]
 out.dir <- cmd.args[2]
 stopifnot(file.exists(out.dir))
+validate <- ifelse(length(cmd.args) == 3, cmd.args[3] == 'true', FALSE)
 
 # header line for output files
-header <- paste0("# BugSigDB ", version, 
+header <- paste0("# BugSigDB ", version,
                  ", License: Creative Commons Attribution 4.0 International",
                  ", URL: https://bugsigdb.org\n")
 
@@ -152,6 +182,7 @@ links <- c(stud = "https://bugsigdb-images.s3.us-east-va.perf.cloud.ovh.us/csv_r
            exp = "https://bugsigdb-images.s3.us-east-va.perf.cloud.ovh.us/csv_reports/experiments.csv",
            sig = "https://bugsigdb-images.s3.us-east-va.perf.cloud.ovh.us/csv_reports/signatures.csv")
 files <- downloadFiles(links)
+
 bsdb <- readFiles(files)
 abstr.col <- "Abstract"
 bsdb <- bsdb[,colnames(bsdb) != abstr.col]
@@ -162,6 +193,36 @@ bsdb <- resolveCase(bsdb, ncol = "Body site", icol = "UBERON ID")
 
 # add BSDB ID
 bsdb <- addID(bsdb)
+
+# Perform additional validations to prepare for release
+if (isTRUE(validate)) {
+    print("Validating data for the release")
+    bsdb <- bsdb |>
+        dplyr::filter(stringr::str_detect(`BSDB ID`, "bsdb:.*/[0-9]+/[0-9]+|NA"),
+                      !na_and_blank(Study),
+                      !na_and_blank(`Study design`),
+                      valid_pmid(PMID) | is.na(PMID),
+                      !doi_url(DOI) | is.na(DOI),
+                      valid_year(Year) | is.na(Year),
+                      stringr::str_detect(Experiment, "Experiment [0-9]+"),
+                      !is.na(Condition),
+                      !na_and_blank(`EFO ID`),
+                      !na_and_blank(`Group 0 name`),
+                      !na_and_blank(`Group 1 name`),
+                      !na_and_blank(`Group 1 definition`),
+                      na_or_pos_int(`Group 0 sample size`),
+                      na_or_pos_int(`Group 1 sample size`),
+                      is.na(`Significance threshold`) |
+                          between_exclusive(`Significance threshold`, 0, 1),
+                      is.na(`LDA Score above`) | between_inclusive(`LDA Score above`, 0, 20),
+                      stringr::str_detect(`Signature page name`, "Signature [0-9]+"),
+                      !na_and_blank(Source),
+                      # Check if valid date but not format
+                      !is.na(as.Date(`Curated date`, format = "%d %B %Y")),
+                      `Abundance in Group 1` %in% c("increased", "decreased"),
+                      State == "Complete",
+                      !is.na(Reviewer))
+}
 
 # write full dump
 csv.file <- file.path(out.dir, "full_dump.csv")
@@ -176,7 +237,7 @@ addHeader <- function(header, out.file)
     header <- sub("\n$", "", header)
     writeLines(c(header, lines), con = fconn)
     close(fconn)
-} 
+}
 
 # write GMT files for all combinations of ID type and taxonomic level
 bsdb[["MetaPhlAn taxon names"]] <- strsplit(bsdb[["MetaPhlAn taxon names"]], ",")
@@ -202,19 +263,19 @@ for(tl in tax.levels)
         for(etl in exact.tax.levels)
         {
             if(tl == "mixed" && !etl) next
-            sigs <- bugsigdbr::getSignatures(bsdb, 
+            sigs <- bugsigdbr::getSignatures(bsdb,
                                              tax.id.type = it,
                                              tax.level = tl,
                                              exact.tax.level = etl)
             gmt.file <- paste("bugsigdb", "signatures", tl, it, sep = "_")
             if(tl != "mixed" && etl) {
-                gmt.file <- paste(gmt.file, "exact", sep = "_") 
+                gmt.file <- paste(gmt.file, "exact", sep = "_")
             }
             gmt.file <- paste(gmt.file, "gmt", sep = ".")
             gmt.file <- file.path(out.dir, gmt.file)
-            bugsigdbr::writeGMT(sigs, gmt.file = gmt.file) 
+            bugsigdbr::writeGMT(sigs, gmt.file = gmt.file)
             addHeader(header, gmt.file)
         }
     }
-}        
+}
 
