@@ -3,16 +3,28 @@ on:
     - cron: "55 * * * *" # UTC Time
   workflow_dispatch:
     inputs:
-      validate:
-        description: "Validate and filter"
+      release:
+        description: "Create a new release"
         required: false
         default: 'false'
         type: choice
         options:
           - 'false'
           - 'true'
-      branch:
-        description: "Create a branch"
+      dryrun:
+        description: "Dry run"
+        required: false
+        default: 'true'
+        type: choice
+        options:
+          - 'false'
+          - 'true'
+      version:
+        description: "Specify version tag"
+        required: false
+        type: string
+      news:
+        description: "Enter NEWS file updates"
         required: false
         type: string
 
@@ -25,10 +37,30 @@ jobs:
 
     steps:
 
+      - name: Validate version format
+        id: validate_version
+        if: ${{ github.event.inputs.release == 'true' }}
+        run: |
+          if [ -z "${{ github.event.inputs.version }}" ]; then
+            echo "Version is required when release is true"
+            exit 1
+          fi
+          TAG="${{ github.event.inputs.version }}"
+          if [[ ! "$TAG" =~ ^v[0-9]+\.[0-9]+\.[0-9]+$ ]]; then
+            echo "Invalid tag format. Must be v[major].[minor].[patch] e.g. v1.3.1"
+            exit 1
+          fi
+          if git ls-remote --tags origin "$TAG" | grep -q "$TAG"; then
+            echo "Tag $TAG already exists"
+            exit 1
+          fi
+          echo "VERSION=$TAG" >> $GITHUB_ENV
+
       - name: Checkout BugSigDBExports
         uses: actions/checkout@v3
         with:
           path: BugSigDBExports
+          fetch-depth: 1
 
       - name: Install BugSigDBExports dependencies
         run: |
@@ -47,11 +79,12 @@ jobs:
           git config user.email "actions@github.com"
 
       - name: Export BugSigDB
+        id: export
         run: |
           BUGSIGDB_TIMESTAMP="$(date -u +%Y-%m-%d_%H:%M_UTC)"
           echo "BUGSIGDB_TIMESTAMP=$BUGSIGDB_TIMESTAMP" >> $GITHUB_ENV
           echo $BUGSIGDB_TIMESTAMP
-          Rscript $GITHUB_WORKSPACE/BugSigDBExports/inst/scripts/dump_release.R $BUGSIGDB_TIMESTAMP $GITHUB_WORKSPACE/BugSigDBExports ${{ github.event.inputs.validate }}
+          Rscript $GITHUB_WORKSPACE/BugSigDBExports/inst/scripts/dump_release.R $BUGSIGDB_TIMESTAMP $GITHUB_WORKSPACE/BugSigDBExports ${{ github.event.inputs.release }}
           mv *csv $GITHUB_WORKSPACE/BugSigDBExports
         timeout-minutes: 10
 
@@ -84,25 +117,47 @@ jobs:
                       row.names = FALSE)
         shell: Rscript {0}
 
-      - name: Check if branch was set and exists and if data must be validated
-        id: create_branch
-        if: ${{ github.event.inputs.branch != '' && github.event.inputs.validate == 'true' }}
+      - name: Create release
+        id: create_release
+        if: ${{ github.event.inputs.release == 'true' }}
         run: |
           cd $GITHUB_WORKSPACE/BugSigDBExports
-          if git ls-remote --exit-code --heads origin "${{ github.event.inputs.branch }}"; then
-            echo "Branch already exists"
-            exit 1
-          else
-            echo "Create and switch to new branch"
-            git switch -c ${{ github.event.inputs.branch }}
-            echo "make_pr=true" >> $GITHUB_OUTPUT
+          echo "Switch to the release branch"
+          git switch release
+
+      - name: Count new rows
+        if: ${{ github.event.inputs.release == 'true' }}
+        run: |
+          cd $GITHUB_WORKSPACE/BugSigDBExports
+          ROW_COUNTS=""
+          for file in full_dump.csv *.gmt; do
+            OLD_ROWS=$(git show origin/release:$file | tail -n +2 | wc -l)
+            NEW_ROWS=$(tail -n +2 $file | wc -l)
+            DIFF=$((NEW_ROWS - OLD_ROWS))
+            echo "$file: $OLD_ROWS -> $NEW_ROWS (+$DIFF)"
+            ROW_COUNTS="$ROW_COUNTS\n    o $file: $NEW_ROWS rows ($DIFF new)"
+          done
+          echo "ROW_COUNTS<<EOF" >> $GITHUB_ENV
+          echo -e "$ROW_COUNTS" >> $GITHUB_ENV
+          echo "EOF" >> $GITHUB_ENV
+
+      - name: Update NEWS
+        if: ${{ github.event.inputs.release == 'true' }}
+        run: |
+          cd $GITHUB_WORKSPACE/BugSigDBExports
+          NEWS_CONTENT="CHANGES IN VERSION ${{ github.event.inputs.version }}\n------------------------\n\nNEW DATA\n\n${{ env.ROW_COUNTS }}\n"
+          if [ -n "${{ github.event.inputs.news }}" ]; then
+            NEWS_CONTENT="$NEWS_CONTENT\n${{ github.event.inputs.news }}\n"
           fi
+          NEWS_CONTENT="$NEWS_CONTENT\n"
+          printf "$NEWS_CONTENT" | cat - NEWS > NEWS.tmp && mv NEWS.tmp NEWS
 
       - name: Commit Exports
         id: commit_exports
+        if: ${{ github.event.inputs.dryrun != 'true' }}
         run: |
           cd $GITHUB_WORKSPACE/BugSigDBExports
-          for export in `find . -type f -iname \*.gmt -o -iname \*.csv`
+          for export in `find . -type f -iname \*.gmt -o -iname \*.csv -o -iname NEWS`
           do
             export=$(echo $export | sed 's/\.\///g')
             git_diff=$(git diff --numstat $export | sed -e 's/\t//g')
@@ -117,7 +172,11 @@ jobs:
           has_updates=$(git diff --cached --shortstat)
           if [ -n "$has_updates" ]; then
             git add file_size.csv
-            git commit -m "Hourly export update"
+            COMMIT_MSG="Hourly export update"
+            if [ "${{ github.event.inputs.release }}" == "true" ]; then
+              COMMIT_MSG="Release ${{ github.event.inputs.version }}"
+            fi
+            git commit -m "$COMMIT_MSG"
             git push -u origin HEAD
             echo "pushed=true" >> $GITHUB_OUTPUT
           else
@@ -125,18 +184,28 @@ jobs:
             echo "pushed=false" >> $GITHUB_OUTPUT
           fi
 
-      - name: Make PR
-        if: ${{ steps.create_branch.outputs.make_pr == 'true' && steps.commit_exports.outputs.pushed == 'true' }}
+      - name: Tag release
+        if: ${{ github.event.inputs.release == 'true' && github.event.inputs.dryrun == 'false' && github.event.inputs.version != '' }}
         run: |
-          curl -X POST \
-            -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
-            -H "Accept: application/vnd.github.v3+json" \
-            https://api.github.com/repos/${{ github.repository }}/pulls \
-            -d '{
-              "title": "Release candidate",
-              "head": "${{ github.event.inputs.branch }}",
-              "base": "devel",
-              "body": "Please review the release candidate and close. (Do not merge.)",
-              "draft": true
-            }'
-          echo "PR opened for review"
+          cd $GITHUB_WORKSPACE/BugSigDBExports
+          git tag ${{ github.event.inputs.version }}
+          git push origin ${{ github.event.inputs.version }}
+
+      - name: Upload release candidate artifacts
+        if: ${{ github.event.inputs.dryrun == 'true' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: candidate
+          path: |
+            ${{ github.workspace }}/BugSigDBExports/*.csv
+            ${{ github.workspace }}/BugSigDBExports/*.gmt
+            ${{ github.workspace }}/BugSigDBExports/NEWS
+          retention-days: 90
+
+      - name: Post run summary
+        if: ${{ github.event.inputs.release == 'true' && github.event.inputs.dryrun == 'true' }}
+        run: |
+          echo "## Release candidate ${{ github.event.inputs.version }}" >> $GITHUB_STEP_SUMMARY
+          echo "Artifacts are available for download on this run's page." >> $GITHUB_STEP_SUMMARY
+          echo "If the data looks good, trigger the workflow again with \`release\` set to \`true\`, \`dryrun\` set to \`false\` and the same tag \`${{ github.event.inputs.version }}\`." >> $GITHUB_STEP_SUMMARY
+          echo "Add content to NEWS with \`news\`." >> $GITHUB_STEP_SUMMARY
