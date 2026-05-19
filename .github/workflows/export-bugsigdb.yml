@@ -123,6 +123,7 @@ jobs:
         run: |
           cd $GITHUB_WORKSPACE/BugSigDBExports
           echo "Switch to the release branch"
+          git fetch origin release
           git switch release
 
       - name: Count new rows
