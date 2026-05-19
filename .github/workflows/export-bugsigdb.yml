@@ -62,6 +62,14 @@ jobs:
           path: BugSigDBExports
           fetch-depth: 1
 
+      - name: Checkout BugSigDBExports release branch
+        if: ${{ github.event.inputs.release == 'true' }}
+        uses: actions/checkout@v3
+        with:
+          ref: release
+          path: BugSigDBExports-release
+          fetch-depth: 1
+
       - name: Install BugSigDBExports dependencies
         run: |
           pkgs <- c('rvest', 'readr', 'plyr', 'BiocFileCache', 'R.utils', 'testthat', 'stringr', 'lubridate', 'dplyr')
@@ -74,7 +82,14 @@ jobs:
 
       - name: Setup git config
         run: |
-          cd $GITHUB_WORKSPACE/BugSigDBExports # Because we need to be in a repository
+          cd $GITHUB_WORKSPACE/BugSigDBExports
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
+
+      - name: Setup git config for release
+        if: ${{ github.event.inputs.release == 'true' }}
+        run: |
+          cd $GITHUB_WORKSPACE/BugSigDBExports-release
           git config user.name "GitHub Actions Bot"
           git config user.email "actions@github.com"
 
@@ -107,7 +122,7 @@ jobs:
                       row.names = FALSE)
         shell: Rscript {0}
 
-      - name: Check for dramatic row count drop and truncate
+      - name: Check for dramatic row count drop
         run: |
           cd $GITHUB_WORKSPACE/BugSigDBExports
           Rscript -e "
@@ -136,25 +151,19 @@ jobs:
               \"body\": \"The full_dump.csv row count dropped by ${{ env.DROP_PCT }}% in the latest export. This may indicate a network issue during download. Please check the [latest run](https://github.com/${{ github.repository }}/actions).\"
             }"
 
-      - name: Create release
-        id: create_release
+      - name: Copy exports to release
         if: ${{ github.event.inputs.release == 'true' }}
         run: |
-          cd $GITHUB_WORKSPACE/BugSigDBExports
-          echo "Switch to the release branch"
-          git fetch origin release
-          git stash
-          git switch release
-          git stash pop
+          cp $GITHUB_WORKSPACE/BugSigDBExports/*.csv $GITHUB_WORKSPACE/BugSigDBExports-release/
+          cp $GITHUB_WORKSPACE/BugSigDBExports/*.gmt $GITHUB_WORKSPACE/BugSigDBExports-release/
 
       - name: Count new rows
         if: ${{ github.event.inputs.release == 'true' }}
         run: |
-          cd $GITHUB_WORKSPACE/BugSigDBExports
           ROW_COUNTS=""
           for file in full_dump.csv *.gmt; do
-            OLD_ROWS=$(git show origin/release:$file | tail -n +2 | wc -l)
-            NEW_ROWS=$(tail -n +2 $file | wc -l)
+            OLD_ROWS=$(tail -n +2 $GITHUB_WORKSPACE/BugSigDBExports-release/$file | wc -l)
+            NEW_ROWS=$(tail -n +2 $GITHUB_WORKSPACE/BugSigDBExports/$file | wc -l)
             DIFF=$((NEW_ROWS - OLD_ROWS))
             echo "$file: $OLD_ROWS -> $NEW_ROWS (+$DIFF)"
             ROW_COUNTS="$ROW_COUNTS\n    o $file: $NEW_ROWS rows ($DIFF new)"
@@ -166,7 +175,7 @@ jobs:
       - name: Update NEWS
         if: ${{ github.event.inputs.release == 'true' }}
         run: |
-          cd $GITHUB_WORKSPACE/BugSigDBExports
+          cd $GITHUB_WORKSPACE/BugSigDBExports-release
           NEWS_CONTENT="CHANGES IN VERSION ${{ github.event.inputs.version }}\n------------------------\n\nNEW DATA\n\n${{ env.ROW_COUNTS }}\n"
           if [ -n "${{ github.event.inputs.news }}" ]; then
             NEWS_CONTENT="$NEWS_CONTENT\n${{ github.event.inputs.news }}\n"
@@ -178,7 +187,11 @@ jobs:
         id: commit_exports
         if: ${{ github.event.inputs.dryrun != 'true' }}
         run: |
-          cd $GITHUB_WORKSPACE/BugSigDBExports
+          WORK_DIR=$GITHUB_WORKSPACE/BugSigDBExports
+          if [ "${{ github.event.inputs.release }}" == "true" ]; then
+            WORK_DIR=$GITHUB_WORKSPACE/BugSigDBExports-release
+          fi
+          cd $WORK_DIR
           for export in `find . -type f -iname \*.gmt -o -iname \*.csv -o -iname NEWS`
           do
             export=$(echo $export | sed 's/\.\///g')
@@ -209,7 +222,7 @@ jobs:
       - name: Tag release
         if: ${{ github.event.inputs.release == 'true' && github.event.inputs.dryrun == 'false' && github.event.inputs.version != '' }}
         run: |
-          cd $GITHUB_WORKSPACE/BugSigDBExports
+          cd $GITHUB_WORKSPACE/BugSigDBExports-release
           git tag ${{ github.event.inputs.version }}
           git push origin ${{ github.event.inputs.version }}
 
