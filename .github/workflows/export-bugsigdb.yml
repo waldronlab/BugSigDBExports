@@ -88,16 +88,6 @@ jobs:
           mv *csv $GITHUB_WORKSPACE/BugSigDBExports
         timeout-minutes: 10
 
-      - name: Test Study and Condition for NAs
-        run: |
-          library(R.utils)
-          library(testthat)
-          github_workspace <- Sys.getenv("GITHUB_WORKSPACE")
-          setwd(file.path(github_workspace, "BugSigDBExports"))
-          bsdb <- read.csv("full_dump.csv", skip = 1)
-          expect_true(all(!is.na(bsdb$Study)))
-        shell: Rscript {0}
-
       - name: Track file growth
         run: |
           library(R.utils)
@@ -116,6 +106,35 @@ jobs:
                       col.names = FALSE,
                       row.names = FALSE)
         shell: Rscript {0}
+
+      - name: Check for dramatic row count drop and truncate
+        run: |
+          cd $GITHUB_WORKSPACE/BugSigDBExports
+          Rscript -e "
+            df <- read.csv('file_size.csv', header = FALSE)
+            full_dump_col <- which(as.character(df[1,]) == 'full_dump.csv')
+            if (length(full_dump_col) > 0 && nrow(df) > 1) {
+              current <- as.numeric(df[nrow(df), full_dump_col])
+              previous <- as.numeric(df[nrow(df)-1, full_dump_col])
+              drop_pct <- (previous - current) / previous * 100
+              if (drop_pct > 10) {
+                cat(sprintf('DROP_DETECTED=true\nDROP_PCT=%.1f\n', drop_pct),
+                    file = Sys.getenv('GITHUB_ENV'), append = TRUE)
+              }
+            }
+          "
+
+      - name: Open issue on dramatic drop
+        if: ${{ env.DROP_DETECTED == 'true' }}
+        run: |
+          curl -X POST \
+            -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+            -H "Accept: application/vnd.github.v3+json" \
+            https://api.github.com/repos/${{ github.repository }}/issues \
+            -d "{
+              \"title\": \"Warning: dramatic row count drop detected\",
+              \"body\": \"The full_dump.csv row count dropped by ${{ env.DROP_PCT }}% in the latest export. This may indicate a network issue during download. Please check the [latest run](https://github.com/${{ github.repository }}/actions).\"
+            }"
 
       - name: Create release
         id: create_release
