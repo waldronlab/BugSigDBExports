@@ -143,7 +143,9 @@ jobs:
           cd $GITHUB_WORKSPACE/BugSigDBExports
           echo "Switch to the release branch"
           git fetch origin release
+          git stash
           git switch release
+          git stash pop
 
       - name: Count new rows
         if: ${{ github.event.inputs.release == 'true' }}
