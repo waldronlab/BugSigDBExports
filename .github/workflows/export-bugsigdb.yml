@@ -160,16 +160,23 @@ jobs:
       - name: Count new rows
         if: ${{ github.event.inputs.release == 'true' }}
         run: |
+          cd $GITHUB_WORKSPACE/BugSigDBExports
           ROW_COUNTS=""
           for file in full_dump.csv *.gmt; do
             OLD_ROWS=$(tail -n +2 $GITHUB_WORKSPACE/BugSigDBExports-release/$file | wc -l)
             NEW_ROWS=$(tail -n +2 $GITHUB_WORKSPACE/BugSigDBExports/$file | wc -l)
             DIFF=$((NEW_ROWS - OLD_ROWS))
-            echo "$file: $OLD_ROWS -> $NEW_ROWS (+$DIFF)"
-            ROW_COUNTS="$ROW_COUNTS\n    o $file: $NEW_ROWS rows ($DIFF new)"
+            if [ $DIFF -ge 0 ]; then
+              DIFF_STR="+$DIFF"
+            else
+              DIFF_STR="$DIFF"
+            fi
+            echo "$file: $OLD_ROWS -> $NEW_ROWS ($DIFF_STR)"
+            ROW_COUNTS="$ROW_COUNTS\n    o $file: $NEW_ROWS rows ($DIFF_STR)"
           done
           echo "ROW_COUNTS<<EOF" >> $GITHUB_ENV
-          echo -e "$ROW_COUNTS" >> $GITHUB_ENV
+          printf "$ROW_COUNTS" >> $GITHUB_ENV
+          echo "" >> $GITHUB_ENV
           echo "EOF" >> $GITHUB_ENV
 
       - name: Update NEWS
