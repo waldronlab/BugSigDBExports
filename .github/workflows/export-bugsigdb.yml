@@ -233,6 +233,14 @@ jobs:
           git tag ${{ github.event.inputs.version }}
           git push origin ${{ github.event.inputs.version }}
 
+      - name: Stage artifacts
+        if: ${{ github.event.inputs.dryrun == 'true' }}
+        run: |
+          mkdir -p /tmp/artifacts
+          cp $GITHUB_WORKSPACE/BugSigDBExports/full_dump.csv /tmp/artifacts/
+          cp $GITHUB_WORKSPACE/BugSigDBExports/*.gmt /tmp/artifacts/
+          cp $GITHUB_WORKSPACE/BugSigDBExports-release/NEWS /tmp/artifacts/
+
       - name: Upload release candidate artifacts
         if: ${{ github.event.inputs.dryrun == 'true' }}
         uses: actions/upload-artifact@v4
@@ -248,6 +256,6 @@ jobs:
         if: ${{ github.event.inputs.release == 'true' && github.event.inputs.dryrun == 'true' }}
         run: |
           echo "## Release candidate ${{ github.event.inputs.version }}" >> $GITHUB_STEP_SUMMARY
-          echo "Artifacts are available for download on this run's page." >> $GITHUB_STEP_SUMMARY
-          echo "If the data looks good, trigger the workflow again with \`release\` set to \`true\`, \`dryrun\` set to \`false\` and the same tag \`${{ github.event.inputs.version }}\`." >> $GITHUB_STEP_SUMMARY
-          echo "Add content to NEWS with \`news\`." >> $GITHUB_STEP_SUMMARY
+          echo "* Artifacts are available for download on this run's page." >> $GITHUB_STEP_SUMMARY
+          echo "* If the data looks good, trigger the workflow again with \`release\` set to \`true\`, \`dryrun\` set to \`false\` and the same tag \`${{ github.event.inputs.version }}\`." >> $GITHUB_STEP_SUMMARY
+          echo "* Add content to NEWS with \`news\`." >> $GITHUB_STEP_SUMMARY
