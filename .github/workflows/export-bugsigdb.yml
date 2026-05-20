@@ -12,7 +12,7 @@ on:
           - 'false'
           - 'true'
       dryrun:
-        description: "Dry run"
+        description: "Dry run (only applies when release is true)"
         required: false
         default: 'true'
         type: choice
@@ -151,18 +151,12 @@ jobs:
               \"body\": \"The full_dump.csv row count dropped by ${{ env.DROP_PCT }}% in the latest export. This may indicate a network issue during download. Please check the [latest run](https://github.com/${{ github.repository }}/actions).\"
             }"
 
-      - name: Copy exports to release
-        if: ${{ github.event.inputs.release == 'true' }}
-        run: |
-          cp $GITHUB_WORKSPACE/BugSigDBExports/*.csv $GITHUB_WORKSPACE/BugSigDBExports-release/
-          cp $GITHUB_WORKSPACE/BugSigDBExports/*.gmt $GITHUB_WORKSPACE/BugSigDBExports-release/
-
       - name: Count new rows
         if: ${{ github.event.inputs.release == 'true' }}
         run: |
           cd $GITHUB_WORKSPACE/BugSigDBExports
           ROW_COUNTS=""
-          for file in full_dump.csv *.gmt; do
+          for file in full_dump.csv bugsigdb_signatures_*.gmt; do
             OLD_ROWS=$(tail -n +2 $GITHUB_WORKSPACE/BugSigDBExports-release/$file | wc -l)
             NEW_ROWS=$(tail -n +2 $GITHUB_WORKSPACE/BugSigDBExports/$file | wc -l)
             DIFF=$((NEW_ROWS - OLD_ROWS))
@@ -178,6 +172,13 @@ jobs:
           printf "$ROW_COUNTS" >> $GITHUB_ENV
           echo "" >> $GITHUB_ENV
           echo "EOF" >> $GITHUB_ENV
+
+      - name: Copy exports to release
+        if: ${{ github.event.inputs.release == 'true' }}
+        run: |
+          cp $GITHUB_WORKSPACE/BugSigDBExports/full_dump.csv $GITHUB_WORKSPACE/BugSigDBExports-release/
+          cp $GITHUB_WORKSPACE/BugSigDBExports/*.gmt $GITHUB_WORKSPACE/BugSigDBExports-release/
+          cp $GITHUB_WORKSPACE/BugSigDBExports/file_size.csv $GITHUB_WORKSPACE/BugSigDBExports-release/
 
       - name: Update NEWS
         if: ${{ github.event.inputs.release == 'true' }}
@@ -195,7 +196,7 @@ jobs:
         if: ${{ github.event.inputs.dryrun != 'true' }}
         run: |
           WORK_DIR=$GITHUB_WORKSPACE/BugSigDBExports
-          if [ "${{ github.event.inputs.release }}" == "true" ]; then
+          if [ "${{ github.event.inputs.release }}" = "true" ]; then
             WORK_DIR=$GITHUB_WORKSPACE/BugSigDBExports-release
           fi
           cd $WORK_DIR
@@ -234,22 +235,20 @@ jobs:
           git push origin ${{ github.event.inputs.version }}
 
       - name: Stage artifacts
-        if: ${{ github.event.inputs.dryrun == 'true' }}
+        if: ${{ github.event.inputs.release == 'true' && github.event.inputs.dryrun == 'true' }}
         run: |
           mkdir -p /tmp/artifacts
-          cp $GITHUB_WORKSPACE/BugSigDBExports/full_dump.csv /tmp/artifacts/
-          cp $GITHUB_WORKSPACE/BugSigDBExports/*.gmt /tmp/artifacts/
+          cp $GITHUB_WORKSPACE/BugSigDBExports-release/full_dump.csv /tmp/artifacts/
+          cp $GITHUB_WORKSPACE/BugSigDBExports-release/bugsigdb_signatures_*.gmt /tmp/artifacts/
           cp $GITHUB_WORKSPACE/BugSigDBExports-release/NEWS /tmp/artifacts/
+          ls /tmp/artifacts/
 
       - name: Upload release candidate artifacts
-        if: ${{ github.event.inputs.dryrun == 'true' }}
+        if: ${{ github.event.inputs.release == 'true' && github.event.inputs.dryrun == 'true' }}
         uses: actions/upload-artifact@v4
         with:
           name: candidate
-          path: |
-            ${{ github.workspace }}/BugSigDBExports/*.csv
-            ${{ github.workspace }}/BugSigDBExports/*.gmt
-            ${{ github.workspace }}/BugSigDBExports/NEWS
+          path: /tmp/artifacts/
           retention-days: 90
 
       - name: Post run summary
@@ -259,3 +258,4 @@ jobs:
           echo "* Artifacts are available for download on this run's page." >> $GITHUB_STEP_SUMMARY
           echo "* If the data looks good, trigger the workflow again with \`release\` set to \`true\`, \`dryrun\` set to \`false\` and the same tag \`${{ github.event.inputs.version }}\`." >> $GITHUB_STEP_SUMMARY
           echo "* Add content to NEWS with \`news\`." >> $GITHUB_STEP_SUMMARY
+
