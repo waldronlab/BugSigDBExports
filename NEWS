@@ -1,0 +1,34 @@
+CHANGES IN VERSION v1.3.1
+------------------------
+
+NEW DATA
+
+    o full_dump.csv: 8153 rows (734 removed by QC)
+    o bugsigdb_signatures_genus_metaphlan_exact.gmt: 5282 rows (194 removed by QC)
+    o bugsigdb_signatures_genus_metaphlan.gmt: 5283 rows (1408 removed by QC)
+    o bugsigdb_signatures_genus_ncbi_exact.gmt: 5282 rows (194 removed by QC)
+    o bugsigdb_signatures_genus_ncbi.gmt: 5283 rows (1408 removed by QC)
+    o bugsigdb_signatures_genus_taxname_exact.gmt: 5282 rows (194 removed by QC)
+    o bugsigdb_signatures_genus_taxname.gmt: 5283 rows (1408 removed by QC)
+    o bugsigdb_signatures_mixed_metaphlan.gmt: 7365 rows (545 removed by QC)
+    o bugsigdb_signatures_mixed_ncbi.gmt: 7365 rows (545 removed by QC)
+    o bugsigdb_signatures_mixed_taxname.gmt: 7365 rows (545 removed by QC)
+    o bugsigdb_signatures_species_metaphlan_exact.gmt: 3348 rows (265 removed by QC)
+    o bugsigdb_signatures_species_metaphlan.gmt: 3348 rows (265 removed by QC)
+    o bugsigdb_signatures_species_ncbi_exact.gmt: 3348 rows (265 removed by QC)
+    o bugsigdb_signatures_species_ncbi.gmt: 3348 rows (265 removed by QC)
+    o bugsigdb_signatures_species_taxname_exact.gmt: 3348 rows (265 removed by QC)
+    o bugsigdb_signatures_species_taxname.gmt: 3348 rows (265 removed by QC)
+
+QUALITY CONTROL
+
+    o Removed signatures with invalid or missing BSDB ID, experiment,
+      signature, or curated date
+    o Removed signatures with missing study, study design, condition,
+      reviewer, group names, group 0 name, group 1 definition, EFO ID or source
+    o Removed signatures with invalid PMID, DOI URL, year, or group sample sizes
+    o Removed signatures with invalid significance threshold (must be
+      between 0 and 1) or LDA score (must be between 0 and 20)
+    o Removed signatures where abundance in Group 1 is not "increased" or
+      "decreased"
+    o Removed signatures with incomplete state
