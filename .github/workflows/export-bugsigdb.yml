@@ -120,6 +120,12 @@ jobs:
                       append = TRUE,
                       col.names = FALSE,
                       row.names = FALSE)
+          # Keep only last 30 days
+          df <- read.csv("file_size.csv", header=FALSE)
+          df$date <- as.Date(df[,1], format="%Y-%m-%d")
+          df <- df[df$date >= Sys.Date() - 30, ]
+          df$date <- NULL
+          write.table(df, "file_size.csv", col.names=FALSE, row.names=FALSE)
         shell: Rscript {0}
 
       - name: Check for dramatic row count drop
@@ -184,7 +190,7 @@ jobs:
         if: ${{ github.event.inputs.release == 'true' }}
         run: |
           cd $GITHUB_WORKSPACE/BugSigDBExports-release
-          NEWS_CONTENT="CHANGES IN VERSION ${{ github.event.inputs.version }}\n------------------------\n\nNEW DATA\n\n${{ env.ROW_COUNTS }}\n"
+          NEWS_CONTENT="CHANGES IN VERSION ${{ github.event.inputs.version }}\n------------------------\nNEW DATA\n\n${{ env.ROW_COUNTS }}\n"
           if [ -n "${{ github.event.inputs.news }}" ]; then
             NEWS_CONTENT="$NEWS_CONTENT\n${{ github.event.inputs.news }}\n"
           fi
@@ -216,7 +222,7 @@ jobs:
           if [ -n "$has_updates" ]; then
             git add file_size.csv
             COMMIT_MSG="Hourly export update"
-            if [ "${{ github.event.inputs.release }}" == "true" ]; then
+            if [ "${{ github.event.inputs.release }}" = "true" ]; then
               COMMIT_MSG="Release ${{ github.event.inputs.version }}"
             fi
             git commit -m "$COMMIT_MSG"
@@ -233,6 +239,22 @@ jobs:
           cd $GITHUB_WORKSPACE/BugSigDBExports-release
           git tag ${{ github.event.inputs.version }}
           git push origin ${{ github.event.inputs.version }}
+
+      - name: Create GitHub Release
+        if: ${{ github.event.inputs.release == 'true' && github.event.inputs.dryrun == 'false' && github.event.inputs.version != '' }}
+        run: |
+          NEWS_BODY=$(sed -n "/^CHANGES IN VERSION ${{ github.event.inputs.version }}/,/^CHANGES IN VERSION/{ /^CHANGES IN VERSION ${{ github.event.inputs.version }}/d; /^CHANGES IN VERSION/d; p }" $GITHUB_WORKSPACE/BugSigDBExports-release/NEWS)
+          curl -X POST \
+            -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+            -H "Accept: application/vnd.github.v3+json" \
+            https://api.github.com/repos/${{ github.repository }}/releases \
+            -d "{
+              \"tag_name\": \"${{ github.event.inputs.version }}\",
+              \"name\": \"${{ github.event.inputs.version }}\",
+              \"body\": $(echo "$NEWS_BODY" | python3 -c 'import json,sys; print(json.dumps(sys.stdin.read()))'),
+              \"draft\": false,
+              \"prerelease\": false
+            }"
 
       - name: Stage artifacts
         if: ${{ github.event.inputs.release == 'true' && github.event.inputs.dryrun == 'true' }}
@@ -258,4 +280,3 @@ jobs:
           echo "* Artifacts are available for download on this run's page." >> $GITHUB_STEP_SUMMARY
           echo "* If the data looks good, trigger the workflow again with \`release\` set to \`true\`, \`dryrun\` set to \`false\` and the same tag \`${{ github.event.inputs.version }}\`." >> $GITHUB_STEP_SUMMARY
           echo "* Add content to NEWS with \`news\`." >> $GITHUB_STEP_SUMMARY
-
