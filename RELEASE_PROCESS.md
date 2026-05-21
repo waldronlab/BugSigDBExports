@@ -23,9 +23,8 @@ Before making a release:
 
 ## Quality Control
 
-QC filtering is applied automatically when `release=true` is set in the
-workflow. Filters are defined in `inst/scripts/dump_release.R` and remove
-incomplete signatures.
+QC filtering is applied automatically when creating a release. Filters are
+defined in `inst/scripts/dump_release.R` and remove incomplete signatures.
 
 Row count reductions between releases are expected and intentional when
 QC filters remove invalid signatures.
@@ -34,9 +33,8 @@ QC filters remove invalid signatures.
 
 ### Step 1 — Dry Run (inspect before committing)
 
-1. Go to **Actions** → **Export BugSigDB** → **Run workflow**
+1. Go to **Actions** → **Release BugSigDB** → **Run workflow**
 2. Set the following inputs:
-   - `release`: `true`
    - `dryrun`: `true`
    - `version`: your version tag e.g. `v1.3.2`
    - `news`: optional additional NEWS content in Bioconductor plain text
@@ -56,7 +54,6 @@ the issue on `devel` and repeat step 1 when ready.
 
 1. Go to **Actions** → **Export BugSigDB** → **Run workflow**
 2. Set the following inputs:
-   - `release`: `true`
    - `dryrun`: `false`
    - `version`: the same tag as step 1
    - `news`: the same content as step 1
