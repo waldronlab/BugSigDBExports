@@ -62,23 +62,27 @@ jobs:
                       col.names = FALSE,
                       row.names = FALSE)
           # Keep only last 30 days
-          df <- read.csv("file_size.csv", header=FALSE)
+          df <- read.table("file_size.csv", header=TRUE)
           df$date <- as.Date(df[,1], format="%Y-%m-%d")
           df <- df[df$date >= Sys.Date() - 30, ]
           df$date <- NULL
-          write.table(df, "file_size.csv", col.names=FALSE, row.names=FALSE)
+          write.table(df, "file_size.csv", col.names=TRUE, row.names=FALSE)
         shell: Rscript {0}
 
       - name: Check for dramatic row count drop
         run: |
-          cd $GITHUB_WORKSPACE/BugSigDBExports
           Rscript -e "
-            df <- read.csv('file_size.csv', header = FALSE)
-            full_dump_col <- which(as.character(df[1,]) == 'full_dump.csv')
+            path <- file.path(Sys.getenv('GITHUB_WORKSPACE'), 'BugSigDBExports', 'file_size.csv')
+            df <- read.table(path, header = TRUE)
+            print(head(df, 2))
+            full_dump_col <- which(colnames(df) == 'full_dump.csv')
+            print(paste('full_dump_col:', full_dump_col))
+            print(paste('nrow:', nrow(df)))
             if (length(full_dump_col) > 0 && nrow(df) > 1) {
               current <- as.numeric(df[nrow(df), full_dump_col])
               previous <- as.numeric(df[nrow(df)-1, full_dump_col])
               drop_pct <- (previous - current) / previous * 100
+              print(paste('drop_pct:', drop_pct))
               if (drop_pct > 10) {
                 cat(sprintf('DROP_DETECTED=true\nDROP_PCT=%.1f\n', drop_pct),
                     file = Sys.getenv('GITHUB_ENV'), append = TRUE)
