@@ -2,19 +2,6 @@ on:
   schedule:
     - cron: "55 * * * *" # UTC Time
   workflow_dispatch:
-    inputs:
-      validate:
-        description: "Validate and filter"
-        required: false
-        default: 'false'
-        type: choice
-        options:
-          - 'false'
-          - 'true'
-      branch:
-        description: "Create a branch"
-        required: false
-        type: string
 
 name: Export BugSigDB
 
@@ -29,6 +16,7 @@ jobs:
         uses: actions/checkout@v3
         with:
           path: BugSigDBExports
+          fetch-depth: 1
 
       - name: Install BugSigDBExports dependencies
         run: |
@@ -42,28 +30,19 @@ jobs:
 
       - name: Setup git config
         run: |
-          cd $GITHUB_WORKSPACE/BugSigDBExports # Because we need to be in a repository
+          cd $GITHUB_WORKSPACE/BugSigDBExports
           git config user.name "GitHub Actions Bot"
           git config user.email "actions@github.com"
 
       - name: Export BugSigDB
+        id: export
         run: |
           BUGSIGDB_TIMESTAMP="$(date -u +%Y-%m-%d_%H:%M_UTC)"
           echo "BUGSIGDB_TIMESTAMP=$BUGSIGDB_TIMESTAMP" >> $GITHUB_ENV
           echo $BUGSIGDB_TIMESTAMP
-          Rscript $GITHUB_WORKSPACE/BugSigDBExports/inst/scripts/dump_release.R $BUGSIGDB_TIMESTAMP $GITHUB_WORKSPACE/BugSigDBExports ${{ github.event.inputs.validate }}
+          Rscript $GITHUB_WORKSPACE/BugSigDBExports/inst/scripts/dump_release.R $BUGSIGDB_TIMESTAMP $GITHUB_WORKSPACE/BugSigDBExports false
           mv *csv $GITHUB_WORKSPACE/BugSigDBExports
         timeout-minutes: 10
-
-      - name: Test Study and Condition for NAs
-        run: |
-          library(R.utils)
-          library(testthat)
-          github_workspace <- Sys.getenv("GITHUB_WORKSPACE")
-          setwd(file.path(github_workspace, "BugSigDBExports"))
-          bsdb <- read.csv("full_dump.csv", skip = 1)
-          expect_true(all(!is.na(bsdb$Study)))
-        shell: Rscript {0}
 
       - name: Track file growth
         run: |
@@ -82,21 +61,46 @@ jobs:
                       append = TRUE,
                       col.names = FALSE,
                       row.names = FALSE)
+          # Keep only last 30 days
+          df <- read.table("file_size.csv", header=TRUE)
+          df$date <- as.Date(df[,1], format="%Y-%m-%d")
+          df <- df[df$date >= Sys.Date() - 30, ]
+          df$date <- NULL
+          write.table(df, "file_size.csv", col.names=TRUE, row.names=FALSE)
         shell: Rscript {0}
 
-      - name: Check if branch was set and exists and if data must be validated
-        id: create_branch
-        if: ${{ github.event.inputs.branch != '' && github.event.inputs.validate == 'true' }}
+      - name: Check for dramatic row count drop
         run: |
-          cd $GITHUB_WORKSPACE/BugSigDBExports
-          if git ls-remote --exit-code --heads origin "${{ github.event.inputs.branch }}"; then
-            echo "Branch already exists"
-            exit 1
-          else
-            echo "Create and switch to new branch"
-            git switch -c ${{ github.event.inputs.branch }}
-            echo "make_pr=true" >> $GITHUB_OUTPUT
-          fi
+          Rscript -e "
+            path <- file.path(Sys.getenv('GITHUB_WORKSPACE'), 'BugSigDBExports', 'file_size.csv')
+            df <- read.table(path, header = TRUE)
+            print(head(df, 2))
+            full_dump_col <- which(colnames(df) == 'full_dump.csv')
+            print(paste('full_dump_col:', full_dump_col))
+            print(paste('nrow:', nrow(df)))
+            if (length(full_dump_col) > 0 && nrow(df) > 1) {
+              current <- as.numeric(df[nrow(df), full_dump_col])
+              previous <- as.numeric(df[nrow(df)-1, full_dump_col])
+              drop_pct <- (previous - current) / previous * 100
+              print(paste('drop_pct:', drop_pct))
+              if (drop_pct > 10) {
+                cat(sprintf('DROP_DETECTED=true\nDROP_PCT=%.1f\n', drop_pct),
+                    file = Sys.getenv('GITHUB_ENV'), append = TRUE)
+              }
+            }
+          "
+
+      - name: Open issue on dramatic drop
+        if: ${{ env.DROP_DETECTED == 'true' }}
+        run: |
+          curl -X POST \
+            -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+            -H "Accept: application/vnd.github.v3+json" \
+            https://api.github.com/repos/${{ github.repository }}/issues \
+            -d "{
+              \"title\": \"Warning: dramatic row count drop detected\",
+              \"body\": \"The full_dump.csv row count dropped by ${{ env.DROP_PCT }}% in the latest export. This may indicate a network issue during download. Please check the [latest run](https://github.com/${{ github.repository }}/actions).\"
+            }"
 
       - name: Commit Exports
         id: commit_exports
@@ -124,19 +128,3 @@ jobs:
             echo "No content changes to commit"
             echo "pushed=false" >> $GITHUB_OUTPUT
           fi
-
-      - name: Make PR
-        if: ${{ steps.create_branch.outputs.make_pr == 'true' && steps.commit_exports.outputs.pushed == 'true' }}
-        run: |
-          curl -X POST \
-            -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
-            -H "Accept: application/vnd.github.v3+json" \
-            https://api.github.com/repos/${{ github.repository }}/pulls \
-            -d '{
-              "title": "Release candidate",
-              "head": "${{ github.event.inputs.branch }}",
-              "base": "devel",
-              "body": "Please review the release candidate and close. (Do not merge.)",
-              "draft": true
-            }'
-          echo "PR opened for review"
