@@ -123,7 +123,7 @@ jobs:
         if: ${{ steps.check_new_data.outputs.has_new_data == 'true' }}
         run: |
           cd $GITHUB_WORKSPACE/BugSigDBExports-release
-          NEWS_CONTENT="CHANGES IN VERSION ${{ github.event.inputs.version }}\n------------------------\nNEW DATA\n\n${{ env.ROW_COUNTS }}\n"
+          NEWS_CONTENT="CHANGES IN VERSION ${{ github.event.inputs.version }}\n------------------------\nNEW DATA\n${{ env.ROW_COUNTS }}\n"
           if [ -n "${{ github.event.inputs.news }}" ]; then
             NEWS_CONTENT="$NEWS_CONTENT\n${{ github.event.inputs.news }}\n"
           fi
@@ -205,25 +205,6 @@ jobs:
               \"prerelease\": false
             }" | python3 -c 'import json,sys; print(json.load(sys.stdin)["id"])')
           echo "RELEASE_ID=$RELEASE_ID" >> $GITHUB_ENV
-
-      - name: Upload release assets
-        if: ${{ steps.check_new_data.outputs.has_new_data == 'true' && github.event.inputs.dryrun == 'false' }}
-        run: |
-          for file in $GITHUB_WORKSPACE/BugSigDBExports-release/full_dump.csv \
-                      $GITHUB_WORKSPACE/BugSigDBExports-release/bugsigdb_signatures_*.gmt \
-                      $GITHUB_WORKSPACE/BugSigDBExports-release/NEWS; do
-            filename=$(basename $file)
-            echo "Uploading $filename..."
-            if ! curl --fail -X POST \
-              -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
-              -H "Content-Type: application/octet-stream" \
-              "https://uploads.github.com/repos/${{ github.repository }}/releases/${{ env.RELEASE_ID }}/assets?name=$filename" \
-              --data-binary @$file; then
-              echo "Failed to upload $filename"
-              exit 1
-            fi
-            echo "Successfully uploaded $filename"
-          done
 
       - name: Publish GitHub Release
         if: ${{ steps.check_new_data.outputs.has_new_data == 'true' && github.event.inputs.dryrun == 'false' }}
