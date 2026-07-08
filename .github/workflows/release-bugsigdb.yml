@@ -28,13 +28,13 @@ jobs:
     steps:
 
       - name: Checkout BugSigDBExports devel
-        uses: actions/checkout@v3
+        uses: actions/checkout@v7
         with:
           path: BugSigDBExports
           fetch-depth: 1
 
       - name: Checkout BugSigDBExports release branch
-        uses: actions/checkout@v3
+        uses: actions/checkout@v7
         with:
           ref: release
           path: BugSigDBExports-release
