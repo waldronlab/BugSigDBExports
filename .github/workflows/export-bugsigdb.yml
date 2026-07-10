@@ -42,7 +42,7 @@ jobs:
           echo $BUGSIGDB_TIMESTAMP
           Rscript $GITHUB_WORKSPACE/BugSigDBExports/inst/scripts/dump_release.R $BUGSIGDB_TIMESTAMP $GITHUB_WORKSPACE/BugSigDBExports false
           mv *csv $GITHUB_WORKSPACE/BugSigDBExports
-        timeout-minutes: 10
+        timeout-minutes: 15
 
       - name: Track file growth
         run: |
