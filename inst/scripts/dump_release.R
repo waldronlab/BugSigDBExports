@@ -48,6 +48,25 @@ valid_pmid <- function(x)
 
 downloadFiles <- function(links, delay = 60, max.attempts = 3)
 {
+    file_preview <- function(path, n.lines = 3, max.chars = 500)
+    {
+        if (!file.exists(path)) {
+            return("<file does not exist>")
+        }
+        lines <- tryCatch(
+            readLines(path, n = n.lines, warn = FALSE),
+            error = function(e) paste0("<unable to read file: ", e$message, ">")
+        )
+        if (!length(lines)) {
+            return("<file is empty>")
+        }
+        preview <- paste(lines, collapse = "\\n")
+        if (nchar(preview) > max.chars) {
+            preview <- paste0(substr(preview, 1, max.chars), "...")
+        }
+        preview
+    }
+
     is_valid_csv <- function(path)
     {
         if (!file.exists(path) || file.size(path) == 0L) {
@@ -60,25 +79,49 @@ downloadFiles <- function(links, delay = 60, max.attempts = 3)
         "State" %in% cols
     }
 
+    download_diagnostics <- function(csv, url, destfile)
+    {
+        size <- if (file.exists(destfile)) file.size(destfile) else NA_integer_
+        cols <- tryCatch(
+            colnames(readr::read_csv(destfile, n_max = 0, show_col_types = FALSE)),
+            error = function(e) "<unavailable>"
+        )
+        if (length(cols) > 1) {
+            cols <- paste(cols, collapse = ", ")
+        }
+        paste0(
+            "file_key=", csv,
+            "; url=", url,
+            "; destfile=", normalizePath(destfile, mustWork = FALSE),
+            "; size_bytes=", size,
+            "; header_columns=", cols,
+            "; file_head=", shQuote(file_preview(destfile))
+        )
+    }
+
     destfiles <- setNames(rep(NA_character_, length(links)), names(links))
     for (csv in names(links)) {
+        url <- unname(links[csv])
         destfile <- paste0(csv, ".csv")
         success <- FALSE
+        last.error <- NULL
         for (attempt in seq_len(max.attempts)) {
             tryCatch({
-                download.file(unname(links[csv]),
+                download.file(url,
                               destfile = destfile,
                               method = "curl",
                               extra = "--limit-rate 50K")
                 if (!is_valid_csv(destfile)) {
-                    stop("Downloaded file is not a valid BugSigDB CSV")
+                    stop(paste("Downloaded file is not a valid BugSigDB CSV:",
+                               download_diagnostics(csv, url, destfile)))
                 }
                 success <- TRUE
             },
             error = function(e) {
-                print(e$message)
+                last.error <<- e$message
+                print(last.error)
                 if (attempt < max.attempts) {
-                    print(paste("Trying", links[csv], "again in",
+                    print(paste("Trying", url, "again in",
                                 delay, "seconds"))
                     Sys.sleep(delay)
                 }
@@ -89,7 +132,9 @@ downloadFiles <- function(links, delay = 60, max.attempts = 3)
             }
         }
         if (!success) {
-            stop(paste("Failed to download a valid CSV for", csv))
+            stop(paste("Failed to download a valid CSV after", max.attempts,
+                       "attempts:", download_diagnostics(csv, url, destfile),
+                       "; last_error=", ifelse(is.null(last.error), "unknown", last.error)))
         }
         destfiles[csv] <- file.path(getwd(), destfile)
     }
