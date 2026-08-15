@@ -46,26 +46,52 @@ valid_pmid <- function(x)
 
 ## FUNCTIONS
 
-downloadFiles <- function(links, delay = 60)
+downloadFiles <- function(links, delay = 60, max.attempts = 3)
 {
+    is_valid_csv <- function(path)
+    {
+        if (!file.exists(path) || file.size(path) == 0L) {
+            return(FALSE)
+        }
+        cols <- tryCatch(
+            colnames(readr::read_csv(path, n_max = 0, show_col_types = FALSE)),
+            error = function(e) NULL
+        )
+        "State" %in% cols
+    }
+
     destfiles <- names(links)
     for (csv in destfiles) {
-        tryCatch({
+        destfile <- paste0(csv, ".csv")
+        success <- FALSE
+        for (attempt in seq_len(max.attempts)) {
+            tryCatch({
                 destfile <- paste0(csv, ".csv")
                 download.file(unname(links[csv]),
                               destfile = destfile,
                               method = "curl",
                               extra = "--limit-rate 50K")
-                stopifnot(file.size(destfile) != 0L)
+                if (!is_valid_csv(destfile)) {
+                    stop("Downloaded file is not a valid BugSigDB CSV")
+                }
+                success <- TRUE
             },
             error = function(e) {
                 print(e$message)
-                print(paste("Trying", links[csv], "again in",
-                            delay, "seconds"))
-                Sys.sleep(delay)
-                download.file(unname(links[csv]), destfile = destfile)
+                if (attempt < max.attempts) {
+                    print(paste("Trying", links[csv], "again in",
+                                delay, "seconds"))
+                    Sys.sleep(delay)
+                }
             }
-        )
+            )
+            if (success) {
+                break
+            }
+        }
+        if (!success) {
+            stop(paste("Failed to download a valid CSV for", csv))
+        }
         destfiles[csv] <- file.path(getwd(), destfile)
     }
     return(destfiles)
@@ -278,4 +304,3 @@ for(tl in tax.levels)
         }
     }
 }
-
