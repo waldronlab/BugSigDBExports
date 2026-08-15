@@ -66,7 +66,6 @@ downloadFiles <- function(links, delay = 60, max.attempts = 3)
         success <- FALSE
         for (attempt in seq_len(max.attempts)) {
             tryCatch({
-                destfile <- paste0(csv, ".csv")
                 download.file(unname(links[csv]),
                               destfile = destfile,
                               method = "curl",
