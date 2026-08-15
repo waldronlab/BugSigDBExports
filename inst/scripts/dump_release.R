@@ -60,7 +60,7 @@ downloadFiles <- function(links, delay = 60, max.attempts = 3)
         if (!length(lines)) {
             return("<file is empty>")
         }
-        preview <- paste(lines, collapse = "\\n")
+        preview <- paste(lines, collapse = "\n")
         if (nchar(preview) > max.chars) {
             preview <- paste0(substr(preview, 1, max.chars), "...")
         }
@@ -86,9 +86,7 @@ downloadFiles <- function(links, delay = 60, max.attempts = 3)
             colnames(readr::read_csv(destfile, n_max = 0, show_col_types = FALSE)),
             error = function(e) "<unavailable>"
         )
-        if (length(cols) > 1) {
-            cols <- paste(cols, collapse = ", ")
-        }
+        cols <- paste(cols, collapse = ", ")
         paste0(
             "file_key=", csv,
             "; url=", url,
