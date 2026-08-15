@@ -46,26 +46,102 @@ valid_pmid <- function(x)
 
 ## FUNCTIONS
 
-downloadFiles <- function(links, delay = 60)
+downloadFiles <- function(links, delay = 60, max.attempts = 3)
 {
-    destfiles <- names(links)
-    for (csv in destfiles) {
-        tryCatch({
-                destfile <- paste0(csv, ".csv")
-                download.file(unname(links[csv]),
+    # Required in all expected BugSigDB CSV exports; used as validation sentinel.
+    required.column <- "State"
+
+    file_preview <- function(path, n.lines = 3, max.chars = 500)
+    {
+        if (!file.exists(path)) {
+            return("<file does not exist>")
+        }
+        lines <- tryCatch(
+            readLines(path, n = n.lines, warn = FALSE),
+            error = function(e) paste0("<unable to read file: ", e$message, ">")
+        )
+        if (!length(lines)) {
+            return("<file is empty>")
+        }
+        preview <- paste(lines, collapse = "\n")
+        if (nchar(preview) > max.chars) {
+            preview <- paste0(substr(preview, 1, max.chars), "...")
+        }
+        preview
+    }
+
+    is_valid_csv <- function(path)
+    {
+        if (!file.exists(path) || file.size(path) == 0L) {
+            return(FALSE)
+        }
+        cols <- tryCatch(
+            colnames(readr::read_csv(path, n_max = 0, show_col_types = FALSE)),
+            error = function(e) NULL
+        )
+        required.column %in% cols
+    }
+
+    download_diagnostics <- function(csv, url, destfile)
+    {
+        size <- if (file.exists(destfile)) file.size(destfile) else NA_real_
+        cols <- if (file.exists(destfile)) {
+            tryCatch(
+                colnames(readr::read_csv(destfile, n_max = 0, show_col_types = FALSE)),
+                error = function(e) "<unavailable>"
+            )
+        } else {
+            "<file does not exist>"
+        }
+        cols <- paste(cols, collapse = ", ")
+        paste0(
+            "file_key=", csv,
+            "; url=", url,
+            "; destfile=", normalizePath(destfile, mustWork = FALSE),
+            "; size_bytes=", size,
+            "; header_columns=", cols,
+            "; file_head=", shQuote(file_preview(destfile))
+        )
+    }
+
+    destfiles <- setNames(rep(NA_character_, length(links)), names(links))
+    for (csv in names(links)) {
+        url <- links[[csv]]
+        destfile <- paste0(csv, ".csv")
+        success <- FALSE
+        last.error <- NULL
+        for (attempt in seq_len(max.attempts)) {
+            tryCatch({
+                download.file(url,
                               destfile = destfile,
                               method = "curl",
                               extra = "--limit-rate 50K")
-                stopifnot(file.size(destfile) != 0L)
+                if (!is_valid_csv(destfile)) {
+                    stop(paste("Downloaded file is not a valid BugSigDB CSV:",
+                               download_diagnostics(csv, url, destfile)))
+                }
+                success <- TRUE
             },
             error = function(e) {
-                print(e$message)
-                print(paste("Trying", links[csv], "again in",
-                            delay, "seconds"))
-                Sys.sleep(delay)
-                download.file(unname(links[csv]), destfile = destfile)
+                last.error <<- e$message
+                print(last.error)
+                if (attempt < max.attempts) {
+                    print(paste("Trying", url, "again in",
+                                delay, "seconds"))
+                    Sys.sleep(delay)
+                }
             }
-        )
+            )
+            if (success) {
+                break
+            }
+        }
+        if (!success) {
+            stop(paste0("Failed to download a valid CSV after ", max.attempts,
+                        " attempts: ", download_diagnostics(csv, url, destfile),
+                        "; last_error=",
+                        ifelse(is.null(last.error), "unknown", last.error)))
+        }
         destfiles[csv] <- file.path(getwd(), destfile)
     }
     return(destfiles)
@@ -278,4 +354,3 @@ for(tl in tax.levels)
         }
     }
 }
-
