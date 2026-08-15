@@ -48,6 +48,8 @@ valid_pmid <- function(x)
 
 downloadFiles <- function(links, delay = 60, max.attempts = 3)
 {
+    required.column <- "State"
+
     file_preview <- function(path, n.lines = 3, max.chars = 500)
     {
         if (!file.exists(path)) {
@@ -76,7 +78,7 @@ downloadFiles <- function(links, delay = 60, max.attempts = 3)
             colnames(readr::read_csv(path, n_max = 0, show_col_types = FALSE)),
             error = function(e) NULL
         )
-        "State" %in% cols
+        required.column %in% cols
     }
 
     download_diagnostics <- function(csv, url, destfile)
