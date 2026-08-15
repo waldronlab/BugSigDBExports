@@ -99,7 +99,7 @@ downloadFiles <- function(links, delay = 60, max.attempts = 3)
 
     destfiles <- setNames(rep(NA_character_, length(links)), names(links))
     for (csv in names(links)) {
-        url <- unname(links[csv])
+        url <- links[[csv]]
         destfile <- paste0(csv, ".csv")
         success <- FALSE
         last.error <- NULL
@@ -130,9 +130,10 @@ downloadFiles <- function(links, delay = 60, max.attempts = 3)
             }
         }
         if (!success) {
-            stop(paste("Failed to download a valid CSV after", max.attempts,
-                       "attempts:", download_diagnostics(csv, url, destfile),
-                       "; last_error=", ifelse(is.null(last.error), "unknown", last.error)))
+            stop(paste0("Failed to download a valid CSV after ", max.attempts,
+                        " attempts: ", download_diagnostics(csv, url, destfile),
+                        "; last_error=",
+                        ifelse(is.null(last.error), "unknown", last.error)))
         }
         destfiles[csv] <- file.path(getwd(), destfile)
     }
