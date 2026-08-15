@@ -48,6 +48,7 @@ valid_pmid <- function(x)
 
 downloadFiles <- function(links, delay = 60, max.attempts = 3)
 {
+    # Required in all expected BugSigDB CSV exports; used as validation sentinel.
     required.column <- "State"
 
     file_preview <- function(path, n.lines = 3, max.chars = 500)
