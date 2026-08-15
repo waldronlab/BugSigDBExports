@@ -82,10 +82,14 @@ downloadFiles <- function(links, delay = 60, max.attempts = 3)
     download_diagnostics <- function(csv, url, destfile)
     {
         size <- if (file.exists(destfile)) file.size(destfile) else NA_real_
-        cols <- tryCatch(
-            colnames(readr::read_csv(destfile, n_max = 0, show_col_types = FALSE)),
-            error = function(e) "<unavailable>"
-        )
+        cols <- if (file.exists(destfile)) {
+            tryCatch(
+                colnames(readr::read_csv(destfile, n_max = 0, show_col_types = FALSE)),
+                error = function(e) "<unavailable>"
+            )
+        } else {
+            "<file does not exist>"
+        }
         cols <- paste(cols, collapse = ", ")
         paste0(
             "file_key=", csv,
