@@ -60,8 +60,8 @@ downloadFiles <- function(links, delay = 60, max.attempts = 3)
         "State" %in% cols
     }
 
-    destfiles <- names(links)
-    for (csv in destfiles) {
+    destfiles <- setNames(rep(NA_character_, length(links)), names(links))
+    for (csv in names(links)) {
         destfile <- paste0(csv, ".csv")
         success <- FALSE
         for (attempt in seq_len(max.attempts)) {
