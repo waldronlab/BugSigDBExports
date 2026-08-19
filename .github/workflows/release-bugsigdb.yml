@@ -56,7 +56,7 @@ jobs:
 
       - name: Install BugSigDBExports dependencies
         run: |
-          pkgs <- c('rvest', 'readr', 'plyr', 'BiocFileCache', 'R.utils', 'testthat', 'stringr', 'lubridate', 'dplyr')
+          pkgs <- c('httr2', 'rvest', 'readr', 'plyr', 'BiocFileCache', 'R.utils', 'testthat', 'stringr', 'lubridate', 'dplyr')
           BiocManager::install(pkgs)
         shell: Rscript {0}
 

@@ -11,6 +11,7 @@
 ############################################################
 
 library(bugsigdbr)
+library(httr2)
 library(lubridate)
 library(plyr)
 library(dplyr)
@@ -45,6 +46,32 @@ valid_pmid <- function(x)
 
 
 ## FUNCTIONS
+
+getBugSigDBExportURLs <- function(help_url = "https://bugsigdb.org/Help:Export")
+{
+    req <- tryCatch(
+        httr2::request(help_url) |> httr2::req_perform(),
+        error = function(e) stop(sprintf(
+            "Failed to reach export page '%s': %s", help_url, e$message))
+    )
+    html <- httr2::resp_body_html(req)
+    links <- html |> rvest::html_elements("a") |> rvest::html_attr("href")
+
+    extract_url <- function(pattern) {
+        target <- grep(pattern, links, value = TRUE)
+        if (length(target) == 0L)
+            stop(sprintf(
+                "Failed to resolve export URL matching pattern '%s' from %s",
+                pattern, help_url))
+        target[1L]
+    }
+
+    list(
+        stud = extract_url("studies\\.csv$"),
+        exp  = extract_url("experiments\\.csv$"),
+        sig  = extract_url("signatures\\.csv$")
+    )
+}
 
 downloadFiles <- function(links, delay = 60, max.attempts = 3)
 {
@@ -254,9 +281,7 @@ header <- paste0("# BugSigDB ", version,
                  ", URL: https://bugsigdb.org\n")
 
 # import
-links <- c(stud = "https://bugsigdb-csv.s3.us-east-va.perf.cloud.ovh.us/studies.csv",
-           exp = "https://bugsigdb-csv.s3.us-east-va.perf.cloud.ovh.us/experiments.csv",
-           sig = "https://bugsigdb-csv.s3.us-east-va.perf.cloud.ovh.us/signatures.csv")
+links <- getBugSigDBExportURLs()
 files <- downloadFiles(links)
 
 bsdb <- readFiles(files)
