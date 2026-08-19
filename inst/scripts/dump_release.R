@@ -45,13 +45,17 @@ valid_pmid <- function(x)
     stringr::str_detect(x, "^[0-9]{8,8}$")
 
 
+## CONSTANTS
+
+DEFAULT_USER_AGENT <- "BugSigDBExports/1.0 (https://github.com/waldronlab/BugSigDBExports)"
+
+
 ## FUNCTIONS
 
 getBugSigDBExportURLs <- function(api_url = "https://bugsigdb.org/w/api.php",
-                                  help_url = "https://bugsigdb.org/Help:Export")
+                                  help_url = "https://bugsigdb.org/Help:Export",
+                                  user_agent = DEFAULT_USER_AGENT)
 {
-    user_agent <- "BugSigDBExports/1.0 (https://github.com/waldronlab/BugSigDBExports)"
-
     # 1. Primary approach: MediaWiki API prop=extlinks with informative User-Agent
     urls <- tryCatch({
         req <- httr2::request(api_url) |>
@@ -70,9 +74,9 @@ getBugSigDBExportURLs <- function(api_url = "https://bugsigdb.org/w/api.php",
         extlinks <- unlist(lapply(pages[[1]][["extlinks"]], function(x) x[[1]]))
 
         list(
-            stud = grep("studies.csv", extlinks, value = TRUE, fixed = TRUE)[1L],
-            exp  = grep("experiments.csv", extlinks, value = TRUE, fixed = TRUE)[1L],
-            sig  = grep("signatures.csv", extlinks, value = TRUE, fixed = TRUE)[1L]
+            stud = grep("studies\\.csv(?:$|\\?)", extlinks, value = TRUE)[1L],
+            exp  = grep("experiments\\.csv(?:$|\\?)", extlinks, value = TRUE)[1L],
+            sig  = grep("signatures\\.csv(?:$|\\?)", extlinks, value = TRUE)[1L]
         )
     }, error = function(e) {
         warning(sprintf(
@@ -98,7 +102,7 @@ getBugSigDBExportURLs <- function(api_url = "https://bugsigdb.org/w/api.php",
     links <- html |> rvest::html_elements("a") |> rvest::html_attr("href")
 
     extract_url <- function(pattern) {
-        target <- grep(pattern, links, value = TRUE, fixed = TRUE)
+        target <- grep(pattern, links, value = TRUE)
         if (length(target) == 0L)
             stop(sprintf(
                 "Failed to resolve export URL matching pattern '%s' from %s",
@@ -107,13 +111,13 @@ getBugSigDBExportURLs <- function(api_url = "https://bugsigdb.org/w/api.php",
     }
 
     list(
-        stud = extract_url("studies.csv"),
-        exp  = extract_url("experiments.csv"),
-        sig  = extract_url("signatures.csv")
+        stud = extract_url("studies\\.csv(?:$|\\?)"),
+        exp  = extract_url("experiments\\.csv(?:$|\\?)"),
+        sig  = extract_url("signatures\\.csv(?:$|\\?)")
     )
 }
 
-downloadFiles <- function(links, delay = 60, max.attempts = 3)
+downloadFiles <- function(links, delay = 60, max.attempts = 3, user_agent = DEFAULT_USER_AGENT)
 {
     # Required in all expected BugSigDB CSV exports; used as validation sentinel.
     required.column <- "State"
@@ -182,7 +186,7 @@ downloadFiles <- function(links, delay = 60, max.attempts = 3)
                 download.file(url,
                               destfile = destfile,
                               method = "curl",
-                              extra = '--limit-rate 50K -A "BugSigDBExports/1.0 (https://github.com/waldronlab/BugSigDBExports)"')
+                              extra = sprintf('--limit-rate 50K -A "%s"', user_agent))
                 if (!is_valid_csv(destfile)) {
                     stop(paste("Downloaded file is not a valid BugSigDB CSV:",
                                download_diagnostics(csv, url, destfile)))
