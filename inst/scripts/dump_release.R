@@ -47,10 +47,50 @@ valid_pmid <- function(x)
 
 ## FUNCTIONS
 
-getBugSigDBExportURLs <- function(help_url = "https://bugsigdb.org/Help:Export")
+getBugSigDBExportURLs <- function(api_url = "https://bugsigdb.org/w/api.php",
+                                  help_url = "https://bugsigdb.org/Help:Export")
 {
+    user_agent <- "BugSigDBExports/1.0 (https://github.com/waldronlab/BugSigDBExports)"
+
+    # 1. Primary approach: MediaWiki API prop=extlinks with informative User-Agent
+    urls <- tryCatch({
+        req <- httr2::request(api_url) |>
+            httr2::req_url_query(
+                action = "query",
+                titles = "Help:Export",
+                prop = "extlinks",
+                format = "json"
+            ) |>
+            httr2::req_user_agent(user_agent) |>
+            httr2::req_retry(max_tries = 3, backoff = ~ 5)
+
+        resp <- httr2::req_perform(req)
+        data <- httr2::resp_body_json(resp)
+        pages <- data[["query"]][["pages"]]
+        extlinks <- unlist(lapply(pages[[1]][["extlinks"]], function(x) x[[1]]))
+
+        list(
+            stud = grep("studies.csv", extlinks, value = TRUE, fixed = TRUE)[1L],
+            exp  = grep("experiments.csv", extlinks, value = TRUE, fixed = TRUE)[1L],
+            sig  = grep("signatures.csv", extlinks, value = TRUE, fixed = TRUE)[1L]
+        )
+    }, error = function(e) {
+        warning(sprintf(
+            "MediaWiki API query failed: %s. Falling back to HTML scraping.",
+            e$message))
+        NULL
+    })
+
+    if (!is.null(urls) && !is.na(urls$stud) && !is.na(urls$exp) && !is.na(urls$sig)) {
+        return(urls)
+    }
+
+    # 2. Fallback: HTML scraping of Help:Export
     req <- tryCatch(
-        httr2::request(help_url) |> httr2::req_perform(),
+        httr2::request(help_url) |>
+            httr2::req_user_agent(user_agent) |>
+            httr2::req_retry(max_tries = 3, backoff = ~ 5) |>
+            httr2::req_perform(),
         error = function(e) stop(sprintf(
             "Failed to reach export page '%s': %s", help_url, e$message))
     )
@@ -58,7 +98,7 @@ getBugSigDBExportURLs <- function(help_url = "https://bugsigdb.org/Help:Export")
     links <- html |> rvest::html_elements("a") |> rvest::html_attr("href")
 
     extract_url <- function(pattern) {
-        target <- grep(pattern, links, value = TRUE)
+        target <- grep(pattern, links, value = TRUE, fixed = TRUE)
         if (length(target) == 0L)
             stop(sprintf(
                 "Failed to resolve export URL matching pattern '%s' from %s",
@@ -67,9 +107,9 @@ getBugSigDBExportURLs <- function(help_url = "https://bugsigdb.org/Help:Export")
     }
 
     list(
-        stud = extract_url("studies\\.csv$"),
-        exp  = extract_url("experiments\\.csv$"),
-        sig  = extract_url("signatures\\.csv$")
+        stud = extract_url("studies.csv"),
+        exp  = extract_url("experiments.csv"),
+        sig  = extract_url("signatures.csv")
     )
 }
 
@@ -142,7 +182,7 @@ downloadFiles <- function(links, delay = 60, max.attempts = 3)
                 download.file(url,
                               destfile = destfile,
                               method = "curl",
-                              extra = "--limit-rate 50K")
+                              extra = '--limit-rate 50K -A "BugSigDBExports/1.0 (https://github.com/waldronlab/BugSigDBExports)"')
                 if (!is_valid_csv(destfile)) {
                     stop(paste("Downloaded file is not a valid BugSigDB CSV:",
                                download_diagnostics(csv, url, destfile)))
