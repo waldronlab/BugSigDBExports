@@ -81,7 +81,7 @@ DEFAULT_EXPORT_URLS <- list(
 #' @param api_url Character. URL for MediaWiki API endpoint.
 #' @param help_url Character. URL for Help:Export wiki page.
 #' @param user_agent Character. HTTP User-Agent string.
-#' @param default_urls List. Named list of canonical fallback URLs.
+#' @param default_urls List. Named list of canonical export URLs.
 #' @return A named list of URLs for studies, experiments, and signatures CSVs.
 getBugSigDBExportURLs <- function(dynamic = FALSE,
                                   api_url = "https://bugsigdb.org/w/api.php",
@@ -225,7 +225,9 @@ downloadFiles <- function(links = getBugSigDBExportURLs(dynamic = FALSE),
         destfile <- paste0(csv, ".csv")
         success <- FALSE
         last.error <- NULL
+        total.attempts <- 0L
         for (attempt in seq_len(max.attempts)) {
+            total.attempts <- total.attempts + 1L
             tryCatch({
                 download.file(url,
                               destfile = destfile,
@@ -270,6 +272,7 @@ downloadFiles <- function(links = getBugSigDBExportURLs(dynamic = FALSE),
                 url <- dynamic_links[[csv]]
                 print(paste("Retrying download for", csv, "using dynamically resolved URL:", url))
                 for (attempt in seq_len(max.attempts)) {
+                    total.attempts <- total.attempts + 1L
                     tryCatch({
                         download.file(url,
                                       destfile = destfile,
@@ -297,7 +300,7 @@ downloadFiles <- function(links = getBugSigDBExportURLs(dynamic = FALSE),
             }
         }
         if (!success) {
-            stop(paste0("Failed to download a valid CSV after ", max.attempts,
+            stop(paste0("Failed to download a valid CSV after ", total.attempts,
                         " attempts: ", download_diagnostics(csv, url, destfile),
                         "; last_error=",
                         ifelse(is.null(last.error), "unknown", last.error),
