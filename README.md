@@ -24,7 +24,7 @@ At the core of the repo is the
 [dump_release.R](https://github.com/waldronlab/BugSigDBExports/blob/main/inst/scripts/dump_release.R) 
 script which
 
-1. obtains and merges the exported study, experiment, and signature tables from https://bugsigdb.org/Help:Export,
+1. obtains and merges the exported study, experiment, and signature tables (Plan A: canonical S3 export URLs; Plan B fallback: dynamic URL resolution via https://bugsigdb.org/w/api.php and https://bugsigdb.org/Help:Export, which requires Cloudflare's "Bot Fight Mode" to be off),
 2. filters incomplete records,
 3. adds signature IDs,
 4. writes the full dump to csv, and

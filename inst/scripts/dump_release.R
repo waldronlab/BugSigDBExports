@@ -49,14 +49,52 @@ valid_pmid <- function(x)
 
 DEFAULT_USER_AGENT <- "BugSigDBExports/1.0 (https://github.com/waldronlab/BugSigDBExports)"
 
+# Plan A: Canonical hardcoded export URLs (OVH S3 storage)
+DEFAULT_EXPORT_URLS <- list(
+    stud = "https://bugsigdb-csv.s3.us-east-va.perf.cloud.ovh.us/studies.csv",
+    exp  = "https://bugsigdb-csv.s3.us-east-va.perf.cloud.ovh.us/experiments.csv",
+    sig  = "https://bugsigdb-csv.s3.us-east-va.perf.cloud.ovh.us/signatures.csv"
+)
+
 
 ## FUNCTIONS
 
-getBugSigDBExportURLs <- function(api_url = "https://bugsigdb.org/w/api.php",
+#' Get BugSigDB Export URLs
+#'
+#' Plan A (default, dynamic = FALSE): Returns hardcoded canonical S3 URLs.
+#' This avoids querying bugsigdb.org directly and prevents Cloudflare
+#' Bot Fight Mode from blocking GitHub Actions runner requests.
+#'
+#' Plan B (fallback, dynamic = TRUE): Dynamically resolves export URLs by
+#' querying the MediaWiki API (prop=extlinks) or scraping the Help:Export page.
+#'
+#' @section Cloudflare Bot Fight Mode:
+#' Note: Plan B (dynamic URL resolution) will NOT work when Cloudflare's
+#' "Bot Fight Mode" is enabled on bugsigdb.org, because Cloudflare challenges
+#' all automated non-browser requests from datacenter/cloud IP ranges (like
+#' GitHub Actions) with a JavaScript challenge before WAF custom rules run.
+#' Plan A (hardcoded S3 URLs) is therefore used as the primary download method.
+#'
+#' @param dynamic Logical. If FALSE (default, Plan A), returns the hardcoded
+#'   canonical S3 export URLs. If TRUE (Plan B), dynamically queries
+#'   bugsigdb.org for export URLs.
+#' @param api_url Character. URL for MediaWiki API endpoint.
+#' @param help_url Character. URL for Help:Export wiki page.
+#' @param user_agent Character. HTTP User-Agent string.
+#' @param default_urls List. Named list of canonical fallback URLs.
+#' @return A named list of URLs for studies, experiments, and signatures CSVs.
+getBugSigDBExportURLs <- function(dynamic = FALSE,
+                                  api_url = "https://bugsigdb.org/w/api.php",
                                   help_url = "https://bugsigdb.org/Help:Export",
-                                  user_agent = DEFAULT_USER_AGENT)
+                                  user_agent = DEFAULT_USER_AGENT,
+                                  default_urls = DEFAULT_EXPORT_URLS)
 {
-    # 1. Primary approach: MediaWiki API prop=extlinks with informative User-Agent
+    if (!dynamic) {
+        return(default_urls)
+    }
+
+    # Plan B: Dynamic URL resolution
+    # 1. Primary dynamic approach: MediaWiki API prop=extlinks with User-Agent
     urls <- tryCatch({
         req <- httr2::request(api_url) |>
             httr2::req_url_query(
@@ -89,14 +127,15 @@ getBugSigDBExportURLs <- function(api_url = "https://bugsigdb.org/w/api.php",
         return(urls)
     }
 
-    # 2. Fallback: HTML scraping of Help:Export
+    # 2. Fallback dynamic approach: HTML scraping of Help:Export
     req <- tryCatch(
         httr2::request(help_url) |>
             httr2::req_user_agent(user_agent) |>
             httr2::req_retry(max_tries = 3, backoff = ~ 5) |>
             httr2::req_perform(),
         error = function(e) stop(sprintf(
-            "Failed to reach export page '%s': %s", help_url, e$message))
+            "Failed to reach export page '%s': %s (Note: Dynamic resolution fails if Cloudflare Bot Fight Mode is enabled).",
+            help_url, e$message))
     )
     html <- httr2::resp_body_html(req)
     links <- html |> rvest::html_elements("a") |> rvest::html_attr("href")
@@ -117,7 +156,12 @@ getBugSigDBExportURLs <- function(api_url = "https://bugsigdb.org/w/api.php",
     )
 }
 
-downloadFiles <- function(links, delay = 60, max.attempts = 3, user_agent = DEFAULT_USER_AGENT)
+downloadFiles <- function(links = getBugSigDBExportURLs(dynamic = FALSE),
+                          delay = 60,
+                          max.attempts = 3,
+                          user_agent = DEFAULT_USER_AGENT,
+                          api_url = "https://bugsigdb.org/w/api.php",
+                          help_url = "https://bugsigdb.org/Help:Export")
 {
     # Required in all expected BugSigDB CSV exports; used as validation sentinel.
     required.column <- "State"
@@ -208,10 +252,56 @@ downloadFiles <- function(links, delay = 60, max.attempts = 3, user_agent = DEFA
             }
         }
         if (!success) {
+            # Attempt Plan B: dynamic resolution fallback
+            warning(sprintf(
+                "Plan A download for '%s' from %s failed. Attempting Plan B: dynamic URL resolution...",
+                csv, url))
+            dynamic_links <- tryCatch(
+                getBugSigDBExportURLs(dynamic = TRUE, api_url = api_url,
+                                      help_url = help_url, user_agent = user_agent),
+                error = function(e) {
+                    warning(sprintf(
+                        "Plan B dynamic URL resolution failed: %s. (Note: dynamic resolution fails if Cloudflare's 'Bot Fight Mode' is enabled on bugsigdb.org).",
+                        e$message))
+                    NULL
+                }
+            )
+            if (!is.null(dynamic_links) && !is.na(dynamic_links[[csv]]) && dynamic_links[[csv]] != url) {
+                url <- dynamic_links[[csv]]
+                print(paste("Retrying download for", csv, "using dynamically resolved URL:", url))
+                for (attempt in seq_len(max.attempts)) {
+                    tryCatch({
+                        download.file(url,
+                                      destfile = destfile,
+                                      method = "curl",
+                                      extra = sprintf('--limit-rate 50K -A "%s"', user_agent))
+                        if (!is_valid_csv(destfile)) {
+                            stop(paste("Downloaded file is not a valid BugSigDB CSV:",
+                                       download_diagnostics(csv, url, destfile)))
+                        }
+                        success <- TRUE
+                    },
+                    error = function(e) {
+                        last.error <<- e$message
+                        print(last.error)
+                        if (attempt < max.attempts) {
+                            print(paste("Trying", url, "again in",
+                                        delay, "seconds"))
+                            Sys.sleep(delay)
+                        }
+                    })
+                    if (success) {
+                        break
+                    }
+                }
+            }
+        }
+        if (!success) {
             stop(paste0("Failed to download a valid CSV after ", max.attempts,
                         " attempts: ", download_diagnostics(csv, url, destfile),
                         "; last_error=",
-                        ifelse(is.null(last.error), "unknown", last.error)))
+                        ifelse(is.null(last.error), "unknown", last.error),
+                        "\nNote: If dynamic URL resolution was attempted, it will fail if Cloudflare's 'Bot Fight Mode' is enabled on bugsigdb.org."))
         }
         destfiles[csv] <- file.path(getwd(), destfile)
     }
