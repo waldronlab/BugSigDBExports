@@ -1,4 +1,4 @@
-# BugSigDB 2026-10-13_12:00_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2026-10-13_13:09_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:11/1/1_Cervical-glandular-intraepithelial-neoplasia:HIV-patients-with-lesion-at-12-months_vs_HIV-pateints-with-normal-tissue-at-6-months_DOWN	NA	Gardnerella vaginalis
 bsdb:39/1/1_Body-odor-measurement:youth-underarm-after-exercise_vs_youth-underarm-before_UP	NA	Staphylococcus epidermidis
 bsdb:39/2/1_Body-odor-measurement:youth-Neck-before_vs_after-excercise_DOWN	NA	Cutibacterium granulosum	Acinetobacter schindleri
@@ -1132,7 +1132,7 @@ bsdb:31573753/3/1_Spontaneous-abortion:complete/incomplete-miscarriage_vs_missed
 bsdb:31575935/3/2_Bacterial-vaginosis:bacterial-vaginosis_vs_Healthy-Controls_UP	NA	Rebutia arenacea
 bsdb:31577818/1/1_HIV-infection:HIV-infected-(HIV-+)-with-antiretroviral-therapy-exposure-(ART-+)_vs_HIV-uninfected-(HIV---)_UP	NA	Fannyhessea vaginae
 bsdb:31577818/1/2_HIV-infection:HIV-infected-(HIV-+)-with-antiretroviral-therapy-exposure-(ART-+)_vs_HIV-uninfected-(HIV---)_DOWN	NA	Lactobacillus crispatus
-bsdb:31577818/2/1_HIV-infection:HIV-infected-(HIV-+)-without-antiretroviral-therapy-exposure-(ART--)_vs_HIV-uninfected-(HIV---)_UP	NA	Fannyhessea vaginae
+bsdb:31577818/2/1_HIV-infection:HIV-infected-(HIV-+)-without-antiretroviral-therapy-exposure-(ART--)_vs_HIV-uninfected-(HIV---)_UP	NA	Fannyhessea vaginae	Gardnerella vaginalis
 bsdb:31577818/2/2_HIV-infection:HIV-infected-(HIV-+)-without-antiretroviral-therapy-exposure-(ART--)_vs_HIV-uninfected-(HIV---)_DOWN	NA	Lactobacillus crispatus	Lactobacillus iners
 bsdb:31609493/1/1_Colorectal-cancer:Invasive-cancer-group_vs_Early-cancer-group_UP	NA	Fusobacterium vincentii	Fusobacterium sp.
 bsdb:31609493/1/2_Colorectal-cancer:Invasive-cancer-group_vs_Early-cancer-group_DOWN	NA	Oribacterium parvum	Clostridiales bacterium
@@ -6737,6 +6737,25 @@ bsdb:42768105/8/2_Type-I-diabetes-mellitus:Late-Matured-(days-100–200)_vs_Earl
 bsdb:42768105/9/1_Type-I-diabetes-mellitus:Late-Matured-(days-200–300)_vs_Early-Matured-(days-200–300)_UP	NA	Bifidobacterium bifidum	Bifidobacterium breve
 bsdb:42768105/9/2_Type-I-diabetes-mellitus:Late-Matured-(days-200–300)_vs_Early-Matured-(days-200–300)_DOWN	NA	Mediterraneibacter torques	Mediterraneibacter gnavus	Bacteroides thetaiotaomicron	Bacteroides fragilis	Streptococcus thermophilus	Klebsiella oxytoca	Lachnospiraceae bacterium 2_1_58FAA	Hungatella hathewayi
 bsdb:42768105/10/1_Type-I-diabetes-mellitus:Late-Matured-(days-300–400)_vs_Early-Matured-(days-300–400)_UP	NA	Agathobacter rectalis	Bifidobacterium bifidum
+bsdb:42768105/10/2_Type-I-diabetes-mellitus:Late-Matured-(days-300–400)_vs_Early-Matured-(days-300–400)_DOWN	NA	Mediterraneibacter torques	Bacteroides thetaiotaomicron	Mediterraneibacter gnavus	Alistipes onderdonkii	Parabacteroides distasonis
+bsdb:42768105/11/1_Type-I-diabetes-mellitus:Late-Matured-(days-400–500)_vs_Early-Matured-(days-400–500)_UP	NA	Dorea longicatena
+bsdb:42768105/11/2_Type-I-diabetes-mellitus:Late-Matured-(days-400–500)_vs_Early-Matured-(days-400–500)_DOWN	NA	Megasphaera micronuciformis
+bsdb:42768105/12/1_Type-I-diabetes-mellitus:Early-Plateaued-(days-100–200)_vs_Early-Matured-(days-100–200)_UP	NA	Lacticaseibacillus rhamnosus	Bifidobacterium breve
+bsdb:42768105/12/2_Type-I-diabetes-mellitus:Early-Plateaued-(days-100–200)_vs_Early-Matured-(days-100–200)_DOWN	NA	Mediterraneibacter torques	Intestinibacter bartlettii	Mediterraneibacter gnavus	Klebsiella oxytoca	Hungatella hathewayi	Faecalimonas nexilis	Veillonella parvula	Klebsiella pneumoniae	Bacteroides fragilis	Bacteroides xylanisolvens	[Clostridium] symbiosum	Bacteroides ovatus	Enterococcus faecium	Lachnospiraceae bacterium 5_1_63FAA	Bacteroides thetaiotaomicron
+bsdb:42768105/13/1_Type-I-diabetes-mellitus:Early-Plateaued-(days-200–300)_vs_Early-Matured-(days-200–300)_UP	NA	Lacticaseibacillus rhamnosus
+bsdb:42768105/13/2_Type-I-diabetes-mellitus:Early-Plateaued-(days-200–300)_vs_Early-Matured-(days-200–300)_DOWN	NA	Mediterraneibacter torques	Klebsiella oxytoca	[Clostridium] symbiosum	Mediterraneibacter gnavus	Bacteroides thetaiotaomicron	Bacteroides fragilis
+bsdb:42768105/14/1_Type-I-diabetes-mellitus:Early-Plateaued-(days-300–400)_vs_Early-Matured-(days-300–400)_UP	NA	Bifidobacterium bifidum	Phocaeicola dorei	Lacticaseibacillus rhamnosus	Bifidobacterium breve	Roseburia hominis
+bsdb:42768105/14/2_Type-I-diabetes-mellitus:Early-Plateaued-(days-300–400)_vs_Early-Matured-(days-300–400)_DOWN	NA	Faecalimonas nexilis	Hungatella hathewayi	Escherichia coli	Mediterraneibacter torques	Bacteroides xylanisolvens	Streptococcus thermophilus	Alistipes onderdonkii	[Clostridium] symbiosum	Akkermansia muciniphila	[Ruminococcus] lactaris
+bsdb:42768105/15/1_Type-I-diabetes-mellitus:Early-Plateaued-(days-400–500)_vs_Early-Matured-(days-400–500)_UP	NA	Bifidobacterium bifidum	Streptococcus salivarius	Haemophilus parainfluenzae
+bsdb:42768105/16/1_Type-I-diabetes-mellitus:Early-Plateaued-(days-500–600)_vs_Early-Matured-(days-500–600)_UP	NA	Ruminococcus sp. 5_1_39BFAA	Bifidobacterium pseudocatenulatum
+bsdb:42768105/16/2_Type-I-diabetes-mellitus:Early-Plateaued-(days-500–600)_vs_Early-Matured-(days-500–600)_DOWN	NA	[Clostridium] symbiosum	Hungatella hathewayi	Intestinibacter bartlettii	Veillonella atypica
+bsdb:42768105/17/1_Type-I-diabetes-mellitus:Early-Plateaued-(days-600–700)_vs_Early-Matured-(days-600–700)_UP	NA	Dorea longicatena	Lachnospiraceae bacterium 1_1_57FAA
+bsdb:42768105/18/1_Type-I-diabetes-mellitus:Early-Plateaued-(days-700–800)_vs_Early-Matured-(days-700–800)_UP	NA	Dorea longicatena
+bsdb:42768105/18/2_Type-I-diabetes-mellitus:Early-Plateaued-(days-700–800)_vs_Early-Matured-(days-700–800)_DOWN	NA	Faecalimonas nexilis
+bsdb:42768105/19/1_Type-I-diabetes-mellitus:Early-Plateaued-(days-100–200)_vs_Late-Matured-(days-100–200)_UP	NA	Lacticaseibacillus rhamnosus
+bsdb:42768105/19/2_Type-I-diabetes-mellitus:Early-Plateaued-(days-100–200)_vs_Late-Matured-(days-100–200)_DOWN	NA	Intestinibacter bartlettii	Blautia obeum	Faecalibacterium prausnitzii	Mediterraneibacter torques
+bsdb:42768105/20/1_Type-I-diabetes-mellitus:Early-Plateaued-(days-200–300)_vs_Late-Matured-(days-200–300)_UP	NA	Lacticaseibacillus rhamnosus
+bsdb:42768105/21/1_Type-I-diabetes-mellitus:Early-Plateaued-(days-300–400)_vs_Late-Matured-(days-300–400)_UP	NA	Phocaeicola dorei	Roseburia hominis	Parabacteroides distasonis
 bsdb:10.1038 s41522-026-01144-y/1/1_Premature-rupture-of-membranes:Term-delivery-with-premature-rupture-of-membranes-(TPROM)---Group-B_vs_Full-term-delivery-without-a-history-of-preterm-labor-or-premature-rupture-of-membranes---Group-A-(Control)_DOWN	NA	Staphylococcus aureus	Lactobacillus paragasseri
 bsdb:10.5603.mrj.99890/1/1_Vulvovaginal-candidiasis:Vulvovaginal-candidiasis-group_vs_Healthy-Controls_UP	NA	Candida albicans	Candida tropicalis	Lodderomyces parapsilosis
 bsdb:S40168-026-02522-6/1/1_Farm-exposure-measurement:Pig-farm-worker-(farmer)_vs_Non-farming-resident_UP	NA	Romboutsia ilealis	Turicibacter sp. H121	Citrobacter freundii	Longibaculum sp. KGMB06250	Mediterraneibacter gnavus	Blautia argi
