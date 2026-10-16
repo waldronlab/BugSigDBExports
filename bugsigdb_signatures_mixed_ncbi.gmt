@@ -1,4 +1,4 @@
-# BugSigDB 2026-10-15_10:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2026-10-16_13:01_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:11/1/1_Cervical-glandular-intraepithelial-neoplasia:HIV-patients-with-lesion-at-12-months_vs_HIV-pateints-with-normal-tissue-at-6-months_DOWN	NA	2702
 bsdb:39/1/1_Body-odor-measurement:youth-underarm-after-exercise_vs_youth-underarm-before_UP	NA	1282
 bsdb:39/1/2_Body-odor-measurement:youth-underarm-after-exercise_vs_youth-underarm-before_DOWN	NA	265
@@ -3724,14 +3724,17 @@ bsdb:32169076/7/2_Coffee-consumption:Coffee-drinkers_vs_Non-coffee-drinkers_DOWN
 bsdb:32169076/8/1_Tea-consumption-measurement:Tea-drinkers_vs_Non-tea-drinkers_DOWN	NA	1016
 bsdb:32170216/1/1_Neurodevelopmental-disorder:MIA-(juvenile-vehicle)_vs_Mock-(juvenile-vehicle)_UP	NA	128827	186333	186806	186827	216572	95818
 bsdb:32170216/1/2_Neurodevelopmental-disorder:MIA-(juvenile-vehicle)_vs_Mock-(juvenile-vehicle)_DOWN	NA	33958	186807	649777	84107	200667
-bsdb:32170216/2/1_Neurodevelopmental-disorder:Mock-(juvenile-antibiotic)_vs_Mock-(juvenile-vehicle)_UP	NA	31984	128827	186806	186333
-bsdb:32170216/2/2_Neurodevelopmental-disorder:Mock-(juvenile-antibiotic)_vs_Mock-(juvenile-vehicle)_DOWN	NA	186807	200667
-bsdb:32170216/3/1_Neurodevelopmental-disorder:MIA-(juvenile-antibiotic)_vs_Mock-(juvenile-vehicle)_UP	NA	128827	186333	543314
-bsdb:32170216/3/2_Neurodevelopmental-disorder:MIA-(juvenile-antibiotic)_vs_Mock-(juvenile-vehicle)_DOWN	NA	81850	49546	1268	200667	246874	31984	558415
-bsdb:32170216/4/1_Neurodevelopmental-disorder:MIA-(juvenile-antibiotic)_vs_MIA-(juvenile-vehicle)_UP	NA	186803
-bsdb:32170216/4/2_Neurodevelopmental-disorder:MIA-(juvenile-antibiotic)_vs_MIA-(juvenile-vehicle)_DOWN	NA	135616	171551	558415	128827	186806
+bsdb:32170216/2/1_Response-to-antibiotic:Mock-(juvenile-antibiotic)_vs_Mock-(juvenile-vehicle)_UP	NA	31984	128827	186806	186333
+bsdb:32170216/2/2_Response-to-antibiotic:Mock-(juvenile-antibiotic)_vs_Mock-(juvenile-vehicle)_DOWN	NA	186807	200667
+bsdb:32170216/3/1_Neurodevelopmental-disorder,Response-to-antibiotic:MIA-(juvenile-antibiotic)_vs_Mock-(juvenile-vehicle)_UP	NA	128827	186333	543314
+bsdb:32170216/3/2_Neurodevelopmental-disorder,Response-to-antibiotic:MIA-(juvenile-antibiotic)_vs_Mock-(juvenile-vehicle)_DOWN	NA	81850	49546	1268	200667	246874	31984	558415
+bsdb:32170216/4/1_Response-to-antibiotic:MIA-(juvenile-antibiotic)_vs_MIA-(juvenile-vehicle)_UP	NA	186803
+bsdb:32170216/4/2_Response-to-antibiotic:MIA-(juvenile-antibiotic)_vs_MIA-(juvenile-vehicle)_DOWN	NA	135616	171551	558415	128827	186806
 bsdb:32170216/5/1_Neurodevelopmental-disorder:MIA-(juvenile-vehicle)_vs_Mock-(juvenile-vehicle)_UP	NA	216572	171551	186827	128827	95818
 bsdb:32170216/5/2_Neurodevelopmental-disorder:MIA-(juvenile-vehicle)_vs_Mock-(juvenile-vehicle)_DOWN	NA	33958	186807	84107
+bsdb:32170216/6/1_Response-to-antibiotic:Mock-(juvenile-antibiotic)_vs_Mock-(juvenile-vehicle)_UP	NA	128827
+bsdb:32170216/7/1_Neurodevelopmental-disorder,Response-to-antibiotic:MIA-(juvenile-antibiotic)_vs_Mock-(juvenile-vehicle)_DOWN	NA	81850
+bsdb:32170216/8/1_Neurodevelopmental-disorder:MIA-(juvenile-antibiotic)_vs_Mock-(juvenile-antibiotic)_UP	NA	95818	186807
 bsdb:32192080/1/1_Endometriosis:Vaginal-Fluid_vs_Control-group_UP	NA	1378	1301
 bsdb:32192080/1/2_Endometriosis:Vaginal-Fluid_vs_Control-group_DOWN	NA	1375	1380
 bsdb:32192080/2/1_Endometriosis:Eutopic-Endometrium-Samples_vs_Control-group_UP	NA	1678
@@ -4711,7 +4714,7 @@ bsdb:33504116/4/2_Diet:Those-who-do-not-follow-World-Cancer-Research-Fund-Intern
 bsdb:33504116/5/1_Tumor-stage:Colorectal-cancer-patients-with-pathological-tumor-(pT-3-4)_vs_Colorectal-cancer-patients-with-pathological-tumor-(pT-1-2)_UP	NA	818	33033	1485	1508657	239935	213115	28211	2173	543311
 bsdb:33504116/5/2_Tumor-stage:Colorectal-cancer-patients-with-pathological-tumor-(pT-3-4)_vs_Colorectal-cancer-patients-with-pathological-tumor-(pT-1-2)_DOWN	NA	1236	3062497	166486	1407607	1150298	1433506	38284	89014	579	1653	500331	571960	96565	664438	907
 bsdb:33504116/6/1_Tumor-stage:Colorectal-cancer-patients-with-lymph-node-(Yes)_vs_Colorectal-cancer-patients-without-lymph-node-(No)_UP	NA	28216	80840
-bsdb:33504116/6/2_Tumor-stage:Colorectal-cancer-patients-with-lymph-node-(Yes)_vs_Colorectal-cancer-patients-without-lymph-node-(No)_DOWN	NA	3062497	204475	745368	1653	85007	1737425	1716	360807	1505652	36841
+bsdb:33504116/6/2_Tumor-stage:Colorectal-cancer-patients-with-lymph-node-(Yes)_vs_Colorectal-cancer-patients-without-lymph-node-(No)_DOWN	NA	3062497	204475	745368	1653	85007	1716	360807	1505652	36841
 bsdb:33504116/7/1_Disease-recurrence:Colorectal-cancer-(CRC)-with-early-recurrence_vs_Controls-and-colorectal-cancer-(CRC)_UP	NA	851	543311	1737404
 bsdb:33504666/1/1_Spontaneous-preterm-birth:Preterm-delivery_vs_Term-delivery_UP	NA	2049	2037	201174	186827	1375	87541	1643824	1380	171549	200643	976	31953	85004	84999	84998	39948	91347	543	82135	236752	2701	2702	2098	2050	31969	2093	2092	2085	544448	216572	543311	1944660	186804	1257	1261	838	28125	59823	171552	1678
 bsdb:33504666/1/2_Spontaneous-preterm-birth:Preterm-delivery_vs_Term-delivery_DOWN	NA	91061	1239	33958	186826	1578
@@ -5218,6 +5221,8 @@ bsdb:34026662/2/1_Graves-disease:Graves’-disease-(GD)_vs_Healthy-Controls_UP	N
 bsdb:34026662/2/2_Graves-disease:Graves’-disease-(GD)_vs_Healthy-Controls_DOWN	NA	1239	186803
 bsdb:34031391/1/1_Colorectal-adenoma:Colorectal-adenoma_vs_Healthy-control_UP	NA	508215	2047	433296
 bsdb:34031391/1/2_Colorectal-adenoma:Colorectal-adenoma_vs_Healthy-control_DOWN	NA	290054	42322	29465	29466
+bsdb:34031391/2/1_Colorectal-cancer:Colorectal-cancer_vs_Colorectal-adenoma_UP	NA	1506553	1955243	543311	33033	1649459
+bsdb:34031391/2/2_Colorectal-cancer:Colorectal-cancer_vs_Colorectal-adenoma_DOWN	NA	1935200	1871030	301301	166486	1301	1308
 bsdb:34031657/1/1_COVID-19:COVID-19-positive-patients_vs_COVID-19-negative-controls-and-healthcare-workers_UP	NA	469	1269	475	286	32207
 bsdb:34031657/2/1_COVID-19:COVID-19-positive-patients_vs_COVID-19-negative-controls_UP	NA	150247	469	286	287
 bsdb:34031657/3/1_COVID-19:COVID-19-positive-patients_vs_COVID-19-negative-healthcare-workers-(controls)_UP	NA	150247	287
@@ -5776,8 +5781,8 @@ bsdb:34795317/1/1_Parkinson's-disease:Parkinson's-disease-patients-(PD)_vs_Healt
 bsdb:34795317/1/2_Parkinson's-disease:Parkinson's-disease-patients-(PD)_vs_Healthy-controls-(HC)_DOWN	NA	983299	4006	1979800	5082	88167
 bsdb:34799562/1/1_Colorectal-cancer:Young-onset-colorectal-cancer-(yCRC)-patients_vs_Healthy-controls-(yControl)_UP	NA	1654	946234	848	283168	29465
 bsdb:34799562/1/2_Colorectal-cancer:Young-onset-colorectal-cancer-(yCRC)-patients_vs_Healthy-controls-(yControl)_DOWN	NA	1766253	207244	572511	580596	1485	39948	724	570	158846	577310	1501226	1940338
-bsdb:34799562/2/1_Colorectal-cancer:oCRC_vs_oControls_DOWN	NA	1766253	207244	35832	572511	1955243	580596	990719	1485	1492	102106	33042	128827	290054	39496	216851	853	1407607	28050	39485	186803	2039302	577310	33024	1501226	841	301301	166486	1263	1160721	1161942	292632	39491
-bsdb:34799562/2/2_Colorectal-cancer:oCRC_vs_oControls_UP	NA	41275	84111	84112	208479	1505663	561	1946507	848	1378	724	1649459	1506553	2086584	543311	1257	620	1301	29347
+bsdb:34799562/2/1_Colorectal-cancer:Old-onset-colorectal-cancer-(oCRC)-patients_vs_Healthy-controls-(oControl)_UP	NA	1940338	1301	848	543311	1378	1257	3025755	1506553	1649459	724	84111	41275
+bsdb:34799562/2/2_Colorectal-cancer:Old-onset-colorectal-cancer-(oCRC)-patients_vs_Healthy-controls-(oControl)_DOWN	NA	216851	1766253	292632	1263	33024	28050	1501226	102106	841	2039302	572511	1407607	580596	33042	207244	1485	577310	35832
 bsdb:34809575/1/1_Sample-treatment-protocol:RNAlater---Day-4_vs_RNAlater---Day-0_UP	NA	201174	102106
 bsdb:34809575/2/1_Sample-treatment-protocol:Fecal-occult-blood-test-[FOBT]-cards---Day-0_vs_RNAlater---Day-0_UP	NA	201174	1239	1678	102106	84111	580024	1473205	1972561	1578	1357	1301	1485	86331	2137877	207244	572511	189330	1407607	248744	39488	39496	39497	438033	33038	33039	186803	1505657	1501226	1505652	580596	216851	1980693	707003	1263	292632	290054	1573535	123375	906	52225
 bsdb:34809575/2/2_Sample-treatment-protocol:Fecal-occult-blood-test-[FOBT]-cards---Day-0_vs_RNAlater---Day-0_DOWN	NA	976	1117	256845	1224	544448	816	397864	574697	283168	256318	749906	1283313	370804	239759	375288	1906119	830	28050	297314	39485	42322	1470353	459786	707003	186802	2152	172900	204441	35832	872	83770	577310	40544	119060	2975519	31969	415002
@@ -6236,7 +6241,8 @@ bsdb:35387878/2/1_Smoking-behavior:Smoke-exposed-group-intraperitoneally-injecte
 bsdb:35387878/2/2_Smoking-behavior:Smoke-exposed-group-intraperitoneally-injected-with-carcinogen,-AOM-(AOM-+-Smoking)_vs_Smoke-free-control-group-intraperitoneally-injected-with-carcinogen-azoxymethane-(AOM)-(10-mg/kg)_DOWN	NA	246787	2109688	2109692	1598	823	2025876	357276	821	1307
 bsdb:35392807/1/1_Obesity:Rats-after-the-sibutramine-treatment-(Day--42)_vs_Rats-before-sibutramine-treatment-(Day-−3)_UP	NA	47678	1796613	246787	817	290053	28116	818	28119	357276	376805	821	28113	1598	1623
 bsdb:35392807/1/2_Obesity:Rats-after-the-sibutramine-treatment-(Day--42)_vs_Rats-before-sibutramine-treatment-(Day-−3)_DOWN	NA	28025	1686	1689	1694	158787
-bsdb:35392848/1/1_Fetal-growth-restriction:Fetal-growth-restriction-(FGR)---Case_vs_Normal-controls---Control_UP	NA	216572	186802	186801	1239	186803	816	815	39643	712	135625
+bsdb:35392848/1/1_Fetal-growth-restriction:Fetal-growth-restriction-(FGR)---Case_vs_Normal-controls---Control_UP	NA	216572	186802	186801	1239	186803	816	815	39643	712	135625	216851	28050	408170
+bsdb:35392848/1/2_Fetal-growth-restriction:Fetal-growth-restriction-(FGR)---Case_vs_Normal-controls---Control_DOWN	NA	200795	54313	1253	651660	292625	2806304	171552	332160	84108	201174	2092	2085	286	135621	52002	263370	28231	213422	69541	203683	77133	219687	219686	142182	219685	1892254	724	32644
 bsdb:35399186/1/2_Colorectal-cancer:Newly-diagnosed-colorectal-cancer-(CRC)-patients_vs_Non-Colorectal-Cancer--(Non-CRC)-Patients_DOWN	NA	207244	1348911	189330	841
 bsdb:35399186/2/1_Colorectal-cancer:Post-Surgical-Resection-Colorectal-Cancer-(Post-Op)-Patients_vs_Non-Colorectal-Cancer--(Non-CRC)-Patients_UP	NA	574697	1378	117563	724
 bsdb:35399186/3/2_Colorectal-cancer:Newly-Diagnosed-Colorectal-Cancer-(CRC)-Patients_vs_Post-Surgical-Resection-Colorectal-Cancer-(Post-Op)-Patients_DOWN	NA	207244	1348911	189330	841
@@ -6295,9 +6301,9 @@ bsdb:35467373/10/1_Helicobacter-pylori:Higher-pH-(H)-group_vs_Lower-pH-(L)-group
 bsdb:35467373/10/2_Helicobacter-pylori:Higher-pH-(H)-group_vs_Lower-pH-(L)-group_DOWN	NA	286	469	963	1813
 bsdb:35467373/11/1_Helicobacter-pylori:H.-pylori-positive-(P)-group_vs_H.-pylori-negative-(N)-group_UP	NA	32207
 bsdb:35467373/11/2_Helicobacter-pylori:H.-pylori-positive-(P)-group_vs_H.-pylori-negative-(N)-group_DOWN	NA	286	469
-bsdb:35474343/1/1_Pregnancy:In-vitro-fertilization-(IVF)-pregnancy_vs_Spontaneous-pregnancy_UP	NA	2701	482	838	1279
-bsdb:35474343/2/1_Pregnancy:In-vitro-fertilization-(IVF)-pregnancy_vs_Spontaneous-pregnancy_UP	NA	147802
-bsdb:35474343/2/2_Pregnancy:In-vitro-fertilization-(IVF)-pregnancy_vs_Spontaneous-pregnancy_DOWN	NA	1596
+bsdb:35474343/1/1_Female-fertility:In-vitro-fertilization-(IVF)-pregnancy_vs_Spontaneous-pregnancy_UP	NA	2701	482	838	1279
+bsdb:35474343/2/1_Female-fertility:In-vitro-fertilization-(IVF)-pregnancy_vs_Spontaneous-pregnancy_UP	NA	147802
+bsdb:35474343/2/2_Female-fertility:In-vitro-fertilization-(IVF)-pregnancy_vs_Spontaneous-pregnancy_DOWN	NA	1596
 bsdb:35476894/1/1_Light:Dim-light-at-night-(dLAN)---Control-group_vs_Normal-light‐dark-cycle-(LD)---Control-group_UP	NA	2005473	577309	1578	33958	423410
 bsdb:35476894/1/2_Light:Dim-light-at-night-(dLAN)---Control-group_vs_Normal-light‐dark-cycle-(LD)---Control-group_DOWN	NA	28138	283168	1853231
 bsdb:35476894/3/1_Light:Dim-light-at-night-(dLAN)---DTA-group_vs_Normal-light‐dark-cycle-(LD)---DTA-group_UP	NA	31979	174708	128827	526525	239934	203557	48461
@@ -7883,11 +7889,9 @@ bsdb:37033494/6/2_Vitamin-D-measurement:High-vitamin-D-in-chronic-kidney-disease
 bsdb:37033494/7/1_Uric-acid-measurement:High-uric-acid-in-end-stage-renal-disease_vs_Low-uric-acid-in-end-stage-renal-disease_UP	NA	1485
 bsdb:37033494/8/1_Natriuretic-peptides-B-measurement:High-B-type-natriuretic-peptides-in-End-stage-renal-disease_vs_Low-B-type-natriuretic-peptides-in-End-stage-renal-disease_DOWN	NA	239759	33024	841	292632	1940338
 bsdb:37033494/9/1_Vitamin-D-measurement:High-vitamin-D-in-End-stage-renal-disease_vs_Low-vitamin-D-in-End-stage-renal-disease_DOWN	NA	570	1578
-bsdb:37039875/1/1_Blood-coagulation-disease:COVID-related-coagulopathies-(CRC)_vs_Non--COVID-related-coagulopathies-(CRC)_UP	NA	1308	1352	1639133	203491	85006	81852	203492	1268	1350	1678	841	848	1357	544	573	1304	856	43675	244366	1358	1463165	133448
-bsdb:37039875/1/2_Blood-coagulation-disease:COVID-related-coagulopathies-(CRC)_vs_Non--COVID-related-coagulopathies-(CRC)_DOWN	NA	1236	91347	543	171552	561	1407607	562	246787	1301
-bsdb:37039875/2/1_COVID-19:Covid-Controls-(CC0_vs_Non-Covid-Controls-(Non-CC)_UP	NA	1407607	135625	712	724	1150298	729
-bsdb:37039875/3/1_COVID-19:Non-COVID-controls-(NC)_vs_COVID-19-patients-(CRC-+-CC)_UP	NA	1236	91347	543	1305	1911679	68892	113107
-bsdb:37039875/3/2_COVID-19:Non-COVID-controls-(NC)_vs_COVID-19-patients-(CRC-+-CC)_DOWN	NA	150055	1308	1352	28026	626932	1301
+bsdb:37039875/1/1_Blood-coagulation-disease,COVID-19:COVID-related-coagulopathies-(CRC)_vs_COVID-19-controls-(CC)-+-Non-COVID-19-controls-(NC)_UP	NA	1308	1352	1639133	203491	85006	81852	203492	1268	1350	1678	841	848	1357	544	573	1304	856	43675	244366	1358	1463165	133448
+bsdb:37039875/2/1_COVID-19:COVID-Controls-(CC)_vs_COVID-related-coagulopathies-(CRC)-+-Non-COVID-Controls-(NC)_UP	NA	1407607	135625	712	724	1150298	729	230143
+bsdb:37039875/3/1_COVID-19:Non-COVID-controls-(NC)_vs_COVID-related-coagulopathies-(CRC)-+-COVID-19-controls-(CC)_UP	NA	1236	91347	543	1305	1911679	68892	113107
 bsdb:37047557/1/1_Constipation:10M2-Free-(Free-Bifidobacterium-longum-strain-FJSWXJ10M2)_vs_Combination-of-10M2-M-(Medium-dose-Bifidobacterium-longum-strain-FJSWXJ10M2),-Control,-S3-Free-(Free-Bifidobacterium-longum-strain-FSDJN6M3),-S3-L-(Low-dose-Bifidobacterium-longum-strain-FSDJN6M3),-10M2-H-(High-dose-Bifidobacterium-longum-strain-FJSWXJ10M2),-6M4-L-(Low-dose-Bifidobacterium-longum-strain-FGSZY6M4),-Model,-S3-H-(High-dose-Bifidobacterium-longum-strain-FSDJN6M3),-S3-M-(Medium-dose-Bifidobacterium-longum-strain-FSDJN6M3),-10M2-L-(Low-dose-Bifidobacterium-longum-strain-FJSWXJ10M2)-and-6M4-M-(Medium-dose-Bifidobacterium-longum-strain-FGSZY6M4)_UP	NA	81852	1350	207244
 bsdb:37047557/2/1_Constipation:10M2-Medium-(Medium-Bifidobacterium-longum-strain-FJSWXJ10M2)_vs_Combination-of-10M2-Free-(Free-Bifidobacterium-longum-strain-FJSWXJ10M2),-Model,-Control-,-S3-Free-(Free-Bifidobacterium-longum-strain-FSDJN6M3),-S3-L-(Low-dose-Bifidobacterium-longum-strain-FSDJN6M3),-10M2-H-(High-dose-Bifidobacterium-longum-strain-FJSWXJ10M2),-6M4-L-(Low-dose-Bifidobacterium-longum-strain-FGSZY6M4),-S3-H-(High-dose-Bifidobacterium-longum-strain-FSDJN6M3),-S3-M-(Medium-dose-Bifidobacterium-longum-strain-FSDJN6M3),-10M2-L-(Low-dose-Bifidobacterium-longum-strain-FJSWXJ10M2)-and-6M4-M-(Medium-dose-Bifidobacterium-longum-strain-FGSZY6M4)_UP	NA	1573534	577310
 bsdb:37047557/3/1_Constipation:Control_vs_Combination-of-10M2-Free-(Free-Bifidobacterium-longum-strain-FJSWXJ10M2),-10M2-M-(Medium-dose-Bifidobacterium-longum-strain-FJSWXJ10M2),-S3-Free-(Free-Bifidobacterium-longum-strain-FSDJN6M3),-S3-L-(Low-dose-Bifidobacterium-longum-strain-FSDJN6M3),-10M2-H-(High-dose-Bifidobacterium-longum-strain-FJSWXJ10M2),-6M4-L-(Low-dose-Bifidobacterium-longum-strain-FGSZY6M4),-Model,-S3-H-(High-dose-Bifidobacterium-longum-strain-FSDJN6M3),-S3-M-(Medium-dose-Bifidobacterium-longum-strain-FSDJN6M3),-10M2-L-(Low-dose-Bifidobacterium-longum-strain-FJSWXJ10M2)-and-6M4-M-(Medium-dose-Bifidobacterium-longum-strain-FGSZY6M4)_UP	NA	1385	1283313	189330	186827	227979	1375	1506577	31980
@@ -9805,10 +9809,6 @@ bsdb:38551926/6/1_Body-height:High-Height_vs_Low-Height_UP	NA	39488	572511	18682
 bsdb:38551926/6/2_Body-height:High-Height_vs_Low-Height_DOWN	NA	39948	216851	1506553	83770	29465
 bsdb:38551926/7/1_Body-mass-index:High-Body-Mass-Index_vs_Low-Body-Mass-Index_UP	NA	1283313	1906119	1392389	1578	1266	83770	135858
 bsdb:38551926/7/2_Body-mass-index:High-Body-Mass-Index_vs_Low-Body-Mass-Index_DOWN	NA	239934	239759	39488	207244	816	1678	572511	186828	189330	39496	946234	1407607	1378	61170	33038	158846	283168	216572	375288	186804	292632
-bsdb:38581738/1/1_Non-alcoholic-fatty-liver-disease:MAFLD-patients-with-CVD-risk-(MAFLD-risk)_vs_simple-MAFLD-patients-(MAFLD-null)_UP	NA	848
-bsdb:38581738/1/2_Non-alcoholic-fatty-liver-disease:MAFLD-patients-with-CVD-risk-(MAFLD-risk)_vs_simple-MAFLD-patients-(MAFLD-null)_DOWN	NA	1263	204475	838	186803
-bsdb:38581738/2/1_Carotid-artery-disease:MAFLD-patients-with-CAD-(MAFLD-CAD)_vs_simple-MAFLD-patients-(MAFLD-null)_UP	NA	291645	561	84135	46124	43675	1303	1304	39778	1224
-bsdb:38581738/2/2_Carotid-artery-disease:MAFLD-patients-with-CAD-(MAFLD-CAD)_vs_simple-MAFLD-patients-(MAFLD-null)_DOWN	NA	47678	976	46503	310297
 bsdb:38582855/1/1_Parkinson's-disease:Cognitively-Unimpaired-PD-(PD-NC)_vs_Control-Subjects_UP	NA	244127	1678	1671661	91347	543	1940338	290054	28890	1946507	1649459	2613924	596767	573	2172	357276	1806836
 bsdb:38582855/1/2_Parkinson's-disease:Cognitively-Unimpaired-PD-(PD-NC)_vs_Control-Subjects_DOWN	NA	1239	3085642	186801	31979	1485	186802	186803	1235800	216572	838	1501226	841	3068309
 bsdb:38582855/2/1_Cognitive-impairment:Mild-Cognitive-Impairment-PD_vs_Cognitively-Unimpaired-PD-(PD-NC)_UP	NA	186826	1300	1301
@@ -9861,6 +9861,7 @@ bsdb:38596264/2/1_Metastatic-colorectal-cancer:Liver-metastasis-(LM)_vs_No-liver
 bsdb:38596264/2/2_Metastatic-colorectal-cancer:Liver-metastasis-(LM)_vs_No-liver-metastasis-(NLM)_DOWN	NA	57723	201174	1297	544448	40117	836	1224
 bsdb:38596264/3/1_Metastatic-colorectal-cancer:Liver-metastasis-(LM)_vs_No-liver-metastasis-(NLM)_UP	NA	239759	207244	1239	118747	1090	200795	990719	102106	33042	118968	3028117	28221	872	3029088	46913	189330	641853	641876	641854	74152	332102	203492	203491	203490	32066	848	539738	219685	204475	47420	1763524	140625	256845	32011	2005473	32003	119852	577309	543311	1257	33024	203682	838	171552	43676	83618	638847	1068	171550	1263	203691	292632	1890426	1890424	1129	649776	649775	508458	72273	1737406	31977	976
 bsdb:38596264/3/2_Metastatic-colorectal-cancer:Liver-metastasis-(LM)_vs_No-liver-metastasis-(NLM)_DOWN	NA	1853231	836	74201	95818	544448	40117	201174	1297	1224	1117	57723
+bsdb:38614956/1/1_Mood-disorder:Women-with-mood-disorders-(polycystic-ovary-syndrome-(PCOS)-and-non-PCOS-combined)_vs_Women-without-mood-disorders-(polycystic-ovary-syndrome-(PCOS)-and-non-PCOS-combined)_UP	NA	416916	649739
 bsdb:38627869/1/1_Response-to-antibiotic:Antibiotic-(Ab)-treatment---Global-data-set_vs_Therapeutic-zinc-oxide-(Zn)-treatment-+-non-medicated-control-diet-(Ct-diet)---Global-data-set_UP	NA	1598	907
 bsdb:38627869/2/2_Response-to-antibiotic:Therapeutic-Zinc-oxide-(Zn)-global-data-set_vs_CT-diet-+-Ab-treatment-global-data-set_DOWN	NA	2161821	562	158847	1675036	2144175	28118	971	1884263	69823
 bsdb:38627869/3/1_Response-to-antibiotic:Ct-diet-global-data-set_vs_Antibiotics-(Ab)-global-data-set-+-Zn-global-data-set_UP	NA	1796613	2981780	817	290053	28113	28116	818	28119	1496	53442	292800	1291540	823	2025876	357276	376805	821	28112	712710
@@ -10726,6 +10727,8 @@ bsdb:39300532/2/2_Colitis:24-h-fermented-samples_vs_0-h-fermented-samples_DOWN	N
 bsdb:39315776/1/1_Eating-behaviour:High-feed-intake_vs_Low-feed-intake_UP	NA	816	1926659	201174	84998
 bsdb:39315776/1/2_Eating-behaviour:High-feed-intake_vs_Low-feed-intake_DOWN	NA	35829	1854458	2132	128827	1236	31969	216572
 bsdb:39315776/2/1_Eating-behaviour:High-feed-intake_vs_Low-feed-intake_UP	NA	47678	691816
+bsdb:39317706/1/1_Cervical-cancer:Human-papillomavirus-(HPV)16/18_vs_Other-Human-papillomavirus-(HPV)-types_UP	NA	80884	5476
+bsdb:39317706/1/2_Cervical-cancer:Human-papillomavirus-(HPV)16/18_vs_Other-Human-papillomavirus-(HPV)-types_DOWN	NA	2306583	1005962
 bsdb:39320101/1/1_Lactose-intolerance:Participants-with-Lactose-Intolerance(LI)_vs_Participants-without-Lactose-Intolerance(Non-LI)_UP	NA	506	28216	572511	80840	1485	102106	283	39948	724	186803	906	712	135625	171551	137	136	2202144	157
 bsdb:39320101/1/2_Lactose-intolerance:Participants-with-Lactose-Intolerance(LI)_vs_Participants-without-Lactose-Intolerance(Non-LI)_DOWN	NA	239759	830	1117	872	1730	2590211	31969	544448	216572	838	171552	171550	1263	83770	423410
 bsdb:39320101/2/1_Lactose-intolerance:Participants-with-Lactose-Intolerance(LI)_vs_Healthy-controls-(HC)_UP	NA	817	80840	547	158836	91347	543	561	562	1263017	1236	28050	1243	2293114	1224	2293146	1262952	590	28901	620	570	375288
@@ -14642,9 +14645,9 @@ bsdb:42768105/23/1_Type-I-diabetes-mellitus:Early-Plateaued-(days-600–700)_vs_
 bsdb:42768105/24/1_Type-I-diabetes-mellitus:Early-Plateaued-(days-700–800)_vs_Late-Matured-(days-700–800)_UP	NA	88431
 bsdb:42787891/1/1_Obesity,Body-mass-index:Higher-BMI-(Obesity)_vs_Lower-Body-Mass-Index-(BMI)_UP	NA	187327	301302	39491	487173
 bsdb:42787891/3/1_Obesity,Body-mass-index:Higher-Body-Mass-Index-(Obesity)_vs_Lower-Body-Mass-Index-(Lean)_UP	NA	292800	487173
-bsdb:42838993/1/1_Aging:Older-Pan-oaniscus-(bonobos)_vs_Younger-Pan-paniscus-(bonobos)_UP	NA	2742598	189330
-bsdb:42838993/1/2_Aging:Older-Pan-oaniscus-(bonobos)_vs_Younger-Pan-paniscus-(bonobos)_DOWN	NA	838	1283313
-bsdb:42838993/2/1_Aging:Older-zoo-housed-Pan-paniscus-(bonobo)_vs_Younger-zoo-hounsed-Pan-paniscus-(bonobo)_UP	NA	2742598	189330	1485	1578	135858	577310
+bsdb:42838993/1/1_Aging:Older-Pan-paniscus-(bonobos)_vs_Younger-Pan-paniscus-(bonobos)_UP	NA	2742598	189330	2815786	1263
+bsdb:42838993/1/2_Aging:Older-Pan-paniscus-(bonobos)_vs_Younger-Pan-paniscus-(bonobos)_DOWN	NA	838	1283313
+bsdb:42838993/2/1_Aging:Older-zoo-housed-Pan-paniscus-(bonobo)_vs_Younger-zoo-hounsed-Pan-paniscus-(bonobo)_UP	NA	2742598	189330	1485	1578	135858	577310	2815786	906	1263
 bsdb:42838993/2/2_Aging:Older-zoo-housed-Pan-paniscus-(bonobo)_vs_Younger-zoo-hounsed-Pan-paniscus-(bonobo)_DOWN	NA	838	1283313	1263
 bsdb:42838993/3/1_Aging:Older-wild-Pan-paniscus-(bonobo)_vs_Younger-wild-Pan-paniscus-(bonobo)_UP	NA	2742598	189330	2944152
 bsdb:42838993/3/2_Aging:Older-wild-Pan-paniscus-(bonobo)_vs_Younger-wild-Pan-paniscus-(bonobo)_DOWN	NA	838	1283313
@@ -14677,6 +14680,6 @@ bsdb:10.1038 s41522-026-01144-y/5/1_Microbiome:Community-state-type-III-(CST-III
 bsdb:10.1038 s41522-026-01144-y/5/2_Microbiome:Community-state-type-III-(CST-III)_vs_Community-state-type-I-(CST-I)_DOWN	NA	47770	1596	109790	33959
 bsdb:10.1038 s41522-026-01144-y/6/1_Microbiome:Community-state-type-IV-(CST-IV)_vs_Community-state-type-I-(CST-I)_UP	NA	147802	2702	2792977	87541	28125	1393034
 bsdb:10.1038 s41522-026-01144-y/6/2_Microbiome:Community-state-type-IV-(CST-IV)_vs_Community-state-type-I-(CST-I)_DOWN	NA	47770	1596	109790	33959
-bsdb:10.1038 s41522-026-01144-y/7/1_Microbiome:Community-state-type-V-(CST-V)_vs_Community-state-type-I-(CST-I)_UP	NA	147802	109790	2702	2792977	1393034
+bsdb:10.1038 s41522-026-01144-y/7/1_Microbiome:Community-state-type-V-(CST-V)_vs_Community-state-type-I-(CST-I)_UP	NA	147802	109790	2702	2792977	87541	1393034
 bsdb:10.1038 s41522-026-01144-y/7/2_Microbiome:Community-state-type-V-(CST-V)_vs_Community-state-type-I-(CST-I)_DOWN	NA	47770
 bsdb:10.1038 s41522-026-01144-y/7/3_Microbiome:Community-state-type-V-(CST-V)_vs_Community-state-type-I-(CST-I)_DOWN	NA	47770
