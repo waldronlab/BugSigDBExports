@@ -1,4 +1,4 @@
-# BugSigDB 2026-10-21_13:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2026-10-21_14:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:11/1/1_Cervical-glandular-intraepithelial-neoplasia:HIV-patients-with-lesion-at-12-months_vs_HIV-pateints-with-normal-tissue-at-6-months_DOWN	NA	2702
 bsdb:39/1/1_Body-odor-measurement:youth-underarm-after-exercise_vs_youth-underarm-before_UP	NA	1282
 bsdb:39/1/2_Body-odor-measurement:youth-underarm-after-exercise_vs_youth-underarm-before_DOWN	NA	265
@@ -724,6 +724,7 @@ bsdb:26749064/8/1_Diarrheal-disease:High-group-(moderate-to-severe-symptoms)-in-
 bsdb:26749064/9/1_Constipation:High-group-(moderate-to-severe-symptoms)-in-constipation_vs_Low-group-(none-to-mild-symptoms)-in-constipation_DOWN	NA	713
 bsdb:26749064/10/1_Gastrointestinal-disease:High-group-(moderate-to-severe-symptoms)-in-total-score_vs_Low-group-(none-to-mild-symptoms)-in-total-score_UP	NA	817
 bsdb:26749064/10/2_Gastrointestinal-disease:High-group-(moderate-to-severe-symptoms)-in-total-score_vs_Low-group-(none-to-mild-symptoms)-in-total-score_DOWN	NA	848
+bsdb:26752321/3/1_Gut-microbiome-measurement:Combination-fed-infants_vs_Breast-fed-infants_UP	NA	1301	1485	1350	572511	1372
 bsdb:26756039/1/1_Prediabetes-syndrome:Prediabetes-(PreDM)_vs_Non-diabetic-(NonDM)_UP	NA	2070
 bsdb:26756039/2/1_Type-II-diabetes-mellitus:Type-2-diabetes-mellitus-(T2DM)_vs_Non-diabetic-(NonDM)_UP	NA	102106
 bsdb:26756039/2/2_Type-II-diabetes-mellitus:Type-2-diabetes-mellitus-(T2DM)_vs_Non-diabetic-(NonDM)_UP	NA	543
@@ -2541,12 +2542,12 @@ bsdb:30565661/1/1_Thyroid-carcinoma:patients-with-thyroid-carcinoma_vs_healthy-c
 bsdb:30565661/1/2_Thyroid-carcinoma:patients-with-thyroid-carcinoma_vs_healthy-controls_DOWN	NA	909930	1283313	815	816	976	1506553	158846	33024	838	171552	841	33038	186803
 bsdb:30568265/1/1_Obesity:overweight/obese-babies_vs_control-babies-at-the-age-of-3_UP	NA	189330	841
 bsdb:30568265/1/2_Obesity:overweight/obese-babies_vs_control-babies-at-the-age-of-3_DOWN	NA	375288
-bsdb:30574320/1/1_Non-alcoholic-steatohepatitis:NASH-patients,--NAFLD-patients-with-F≥2-fibrosis_vs_Healthy-controls-(HCs)_NA	NA	9606
-bsdb:30574320/1/2_Non-alcoholic-steatohepatitis:NASH-patients,--NAFLD-patients-with-F≥2-fibrosis_vs_Healthy-controls-(HCs)_DOWN	NA	1853231
-bsdb:30574320/2/1_Non-alcoholic-fatty-liver-disease:NAFLD-patients-(NAFL-and-NASH)_vs_Healthy-controls-(HC)_UP	NA	904
-bsdb:30574320/2/2_Non-alcoholic-fatty-liver-disease:NAFLD-patients-(NAFL-and-NASH)_vs_Healthy-controls-(HC)_DOWN	NA	283168	28050
-bsdb:30574320/3/1_Non-alcoholic-fatty-liver-disease:NASH-patients,--NAFLD-patients-with-F≥2-fibrosis_vs_NAFL-patients_UP	NA	712973
-bsdb:30574320/3/2_Non-alcoholic-fatty-liver-disease:NASH-patients,--NAFLD-patients-with-F≥2-fibrosis_vs_NAFL-patients_UP	NA	848
+bsdb:30574320/1/1_Non-alcoholic-steatohepatitis:Non-alcoholic-steatohepatitis-(NASH)_vs_Healthy-Controls-(HCs)_UP	NA	203492	904	848
+bsdb:30574320/1/2_Non-alcoholic-steatohepatitis:Non-alcoholic-steatohepatitis-(NASH)_vs_Healthy-Controls-(HCs)_DOWN	NA	1853231	28050	283168	375288
+bsdb:30574320/2/1_Non-alcoholic-fatty-liver-disease:Nonalcoholic-fatty-liver-(NAFL)_vs_Healthy-controls-(HC)_UP	NA	904
+bsdb:30574320/2/2_Non-alcoholic-fatty-liver-disease:Nonalcoholic-fatty-liver-(NAFL)_vs_Healthy-controls-(HC)_DOWN	NA	283168	1239
+bsdb:30574320/3/1_Non-alcoholic-fatty-liver-disease:Non-alcoholic-steatohepatitis-(NASH)_vs_Nonalcoholic-fatty-liver-(NAFL)_UP	NA	712973
+bsdb:30574320/3/2_Non-alcoholic-fatty-liver-disease:Non-alcoholic-steatohepatitis-(NASH)_vs_Nonalcoholic-fatty-liver-(NAFL)_UP	NA	848
 bsdb:30576008/1/1_Parkinson's-disease:patients-with-idiopathic-parkinson's-disease_vs_healthy-controls-without-any-form-of-Parkinson's-Disease_UP	NA	239934	31953	1678	424536	543	1224	203557	1239	47201	171551	561
 bsdb:30576008/1/2_Parkinson's-disease:patients-with-idiopathic-parkinson's-disease_vs_healthy-controls-without-any-form-of-Parkinson's-Disease_DOWN	NA	186803	841	216572	1239	216851
 bsdb:30576008/2/1_Parkinson's-disease:the-trend-over-Parkinson's-disease-progression_vs_healthy-controls-without-any-form-of-Parkinson's-Disease_UP	NA	239934	81850	1578	74201	203557
@@ -4306,6 +4307,8 @@ bsdb:32903276/15/1_Diabetes-mellitus:Type-II-diabetic-with-controlled-blood-gluc
 bsdb:32903276/15/2_Diabetes-mellitus:Type-II-diabetic-with-controlled-blood-glucose_vs_Type-I-diabetic-with-controlled-blood-glucose_DOWN	NA	29465	117563	1301	1378
 bsdb:32912596/1/1_Autism-spectrum-disorder:Children-with-Autism-Spectrum-Disorder-(ASD)_vs_Healthy-children_UP	NA	102106	84107	189330	543	1506553	128827	186802	186803	84998	84999
 bsdb:32912596/1/2_Autism-spectrum-disorder:Children-with-Autism-Spectrum-Disorder-(ASD)_vs_Healthy-children_DOWN	NA	815	119060	816	216851	577310	577309	1236
+bsdb:32917644/6/1_Tumor-mass:No-antibiotics-(NoAB)-mice-with-tumor-growth-group_vs_No-antibiotics-(NoAB)-mice-without-tumor-growth-group_UP	NA	1224	201174	41297	13687	112	203683	137	203692	200666	45401	46913	136	768507	768503	118
+bsdb:32917644/7/1_Tumor-mass:Antibiotics-(AB)-mice-with-tumor-growth-group_vs_Antibiotics-(AB)-mice-without-tumor-growth-group_UP	NA	84999	84998	459786
 bsdb:32925716/1/1_Response-to-immunochemotherapy:Responders_vs_Non-responders_UP	NA	186801	216851	853	1239	1268	31969	216572	162289	33024	33025	1583331	32207	48256	1263	40518	31977	186802
 bsdb:32925716/1/2_Response-to-immunochemotherapy:Responders_vs_Non-responders_DOWN	NA	171549	976	200643	147206	1841856	58180	470565	2702	2701
 bsdb:32931909/1/1_Asthma:Male_vs_Female_DOWN	NA	201174	1239	1304
@@ -7445,6 +7448,8 @@ bsdb:36518275/2/1_Ethnic-group:African-Kenyan-(AK)-women_vs_Combination-of-group
 bsdb:36518275/3/1_Ethnic-group:Asian-Indonesian-(AI)-women_vs_Combination-of-groups---African-American-(AA),-Afro-Caribbean-(AC),-Caucasian-German-(CG)-and-African-Kenyan-(AK)-women_UP	NA	165779	1385	91061	216816	186801	1582879	186826	1596	186804	1257	90964	1279	1300	1328	1304	1239	186802	1723384
 bsdb:36518275/4/1_Ethnic-group:Afro-Caribbean-(AC)-women_vs_Combination-of-groups---African-American-(AA),-Caucasian-German-(CG),-Asian-Indonesian-(AI)-and-African-Kenyan-(AK)-women_UP	NA	33037	171549	200643	976	28127	162289	33031	838	28125	171552
 bsdb:36518275/5/1_Ethnic-group:African-American-(AA)-women_vs_Combination-of-groups---Caucasian-German-(CG),-Afro-Caribbean-(AC),-Asian-Indonesian-(AI)-and-African-Kenyan-(AK)-women_UP	NA	47770
+bsdb:36519342/1/1_Chronic-hepatitis-B-virus-infection:HBV-CLD-patients_vs_Healthy-controls_UP	NA	40323
+bsdb:36519342/2/1_HPV-associated-cervical-carcinoma:HBV-CLD-patients_vs_CON_UP	NA	20	1613
 bsdb:36523636/1/1_Hypercholesterolemia:hypercholesterolemic-(cases)_vs_normocholesterolemic-individuals-(controls)_DOWN	NA	216851	970	172900
 bsdb:36523636/1/2_Hypercholesterolemia:hypercholesterolemic-(cases)_vs_normocholesterolemic-individuals-(controls)_UP	NA	186817	135613	84107	186802	2316	508215
 bsdb:36527132/8/1_Biological-sex:Ascaris-suum-(Females)_vs_Ascaris-summ-(Males)_UP	NA	1485	187979	1505652	838
@@ -10059,9 +10064,9 @@ bsdb:38650014/1/1_Maternal-milk:Milk-samples-day-8_vs_Colostrum-samples-day-1_UP
 bsdb:38650928/1/1_Tuberculosis:healthy-controls-(jk-group)_vs_Combination-of-TB-patients-(cz-group)-and-retreated-patients-(fz-group)_UP	NA	33042	841	186804	31979	189330	171550	186803	1485	102106	239759	423410	31969	40544	1253	990719	28050	140625	397864	574697
 bsdb:38650928/2/1_Tuberculosis:TB-patients-(cz-group)_vs_Combination-of-retreated-patients-(fz-group)-and-healthy-controls-(jk-group)_UP	NA	186803	204475	1730	2049	1654	118747	283	118968	2201268	118969	1154586
 bsdb:38650928/3/1_Tuberculosis:retreated-patients-(fz-group)_vs_Combination-of-TB-patients-(cz-group)-and-healthy-controls-(jk-group)_UP	NA	1236	543	91347	128827	100883	904
-bsdb:38653239/1/1_Non-alcoholic-fatty-liver-disease:3-succinylated-cholic-acid-(3-sucCA)-treated_vs_Phosphate-buffered-saline-(PBS)-control_UP	NA	239934	48461	203494	74201	95818	203557
-bsdb:38653239/1/2_Non-alcoholic-fatty-liver-disease:3-succinylated-cholic-acid-(3-sucCA)-treated_vs_Phosphate-buffered-saline-(PBS)-control_DOWN	NA	1224	1236	1385	40544	53335	110932	119045	85029	37914	379	227979	72274	135621	506	1357	286	191303	1279
-bsdb:38653239/2/1_Non-alcoholic-fatty-liver-disease:metabolic-dysfunction-associated-fatty-liver-disease-(MAFLD)_vs_Controls_DOWN	NA	820	239935
+bsdb:38653239/1/1_Cholic-acid:3-succinylated-cholic-acid-(3-sucCA)-treated_vs_Phosphate-buffered-saline-(PBS)-control_UP	NA	239934	48461	203494	74201	95818	203557
+bsdb:38653239/1/2_Cholic-acid:3-succinylated-cholic-acid-(3-sucCA)-treated_vs_Phosphate-buffered-saline-(PBS)-control_DOWN	NA	1224	1236	1385	40544	53335	110932	119045	85029	37914	379	227979	72274	135621	506	1357	286	191303	1279
+bsdb:38653239/2/1_Cholic-acid:3-succinylated-cholic-acid-(3-sucCA)-treated_vs_Phosphate-buffered-saline-(PBS)-control_DOWN	NA	820	239935
 bsdb:38658829/1/1_Pulmonary-tuberculosis:Tuberculosis-(TB)-patients_vs_Healthy-controls_UP	NA	838	4930	816
 bsdb:38658829/1/2_Pulmonary-tuberculosis:Tuberculosis-(TB)-patients_vs_Healthy-controls_DOWN	NA	572511	1678	1501226	189330	292632	1407607	570	4890	5052
 bsdb:38658841/1/1_Gastric-cancer:Gastric-Cancer_vs_Chronic-gastritis_UP	NA	33042	848	724	459786	375288	33024	40544	29465	995019
@@ -10951,10 +10956,10 @@ bsdb:39345253/1/1_Vitamin-supplement-exposure-measurement:Used-prenatal-vitamin-
 bsdb:39345253/1/2_Vitamin-supplement-exposure-measurement:Used-prenatal-vitamin-C-supplements_vs_Never-used-prenatal-vitamin-C-supplements_DOWN	NA	150022
 bsdb:39345253/2/1_Fish-oil-supplement-exposure-measurement:Used-prenatal-fish-oil-supplements_vs_Never-used-prenatal-fish-oil-supplements_UP	NA	1301
 bsdb:39345253/3/1_Number-of-children-ever-born-measurement:Multiparous-mothers_vs_Primiparous-mothers_UP	NA	117563
-bsdb:39345253/4/1_Body-mass-index:Mothers-with-pre-pregnancy-overweight-or-obesity_vs_Mothers-with-normal-pre-pregnancy-BMI_UP	NA	165779	150022	543
+bsdb:39345253/4/1_Body-mass-index:Mothers-with-pre-pregnancy-overweight-or-obesity_vs_Mothers-with-normal-pre-pregnancy-BMI_UP	NA	165779	150022
 bsdb:39345253/4/2_Body-mass-index:Mothers-with-pre-pregnancy-overweight-or-obesity_vs_Mothers-with-normal-pre-pregnancy-BMI_DOWN	NA	1654	1301	76892
-bsdb:39345253/5/1_NA:Partial-breastfeeding_vs_Exclusive-breastfeeding_UP	NA	1654	117563	838
-bsdb:39345253/5/2_NA:Partial-breastfeeding_vs_Exclusive-breastfeeding_DOWN	NA	76892	165695	1301	1378
+bsdb:39345253/5/1_Breastfeeding-duration:Partial-breastfeeding_vs_Exclusive-breastfeeding_UP	NA	1654	117563	838
+bsdb:39345253/5/2_Breastfeeding-duration:Partial-breastfeeding_vs_Exclusive-breastfeeding_DOWN	NA	76892	165695	1301	1378
 bsdb:39345253/6/1_Breast-milk-collection:All-direct-breast-milk-feeding_vs_Some-pumped-breast-milk-feeding_UP	NA	1654	1678	1378	117563	724	838	1301	29465	32207
 bsdb:39345253/6/2_Breast-milk-collection:All-direct-breast-milk-feeding_vs_Some-pumped-breast-milk-feeding_DOWN	NA	469	41275	59732	1350	286	83618	165695	40323	543	82115
 bsdb:39355268/1/1_Gastric-cancer:Gastric-cancer-(GC)-group._vs_Combination-of-Benign-and-Normal-group_UP	NA	1651	150247	1663	212791	117563	1578	528	543311	1257	991903	1743	168694	1301	270	2060	29465	1268	31957	85028	2037	84992	539738	186827	186828	33958	1300	186826	91061	186804	1737406	76892	204458	118882	45401	356	28211	119060	188786	68933	188787
@@ -14673,6 +14678,7 @@ bsdb:42057198/7/1_COVID-19:Pandemic-samples-at-14-months-of-age_vs_Pre-pandemic-
 bsdb:42057198/7/2_COVID-19:Pandemic-samples-at-14-months-of-age_vs_Pre-pandemic-samples-at-14-months-of-age_DOWN	NA	936548	1660	1284680	43675	1512
 bsdb:42057198/8/1_COVID-19:Pandemic-samples-with-a-high-exposure-index-(EI)-at-9-months-of-age_vs_Pandemic-samples-with-a-low-exposure-index-(EI)-at-9-months-of-age_DOWN	NA	471189	40520	386414
 bsdb:42057198/9/1_COVID-19:Pandemic-samples-with-a-high-exposure-index-(EI)-at-14-months-of-age_vs_Pandemic-samples-with-a-low-exposure-index-(EI)-at-14-months-of-age_DOWN	NA	471189
+bsdb:42059388/1/1_Rheumatoid-arthritis:Rheumatoid-arthritis-(RA)_vs_Healthy-controls_UP	NA	162289
 bsdb:42059388/1/2_Rheumatoid-arthritis:Rheumatoid-arthritis-(RA)_vs_Healthy-controls_UP	NA	162289
 bsdb:42059388/2/1_Rheumatoid-arthritis:Rheumatoid-arthritis-(RA)_vs_Healthy-controls_UP	NA	162289	150022	838	1378
 bsdb:42059388/3/1_Rheumatoid-arthritis:Rheumatoid-arthritis-(RA)_vs_Healthy-controls_UP	NA	162289	150022	1378	838	848	2692118	2129
