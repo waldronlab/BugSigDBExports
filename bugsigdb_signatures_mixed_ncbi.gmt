@@ -1,4 +1,4 @@
-# BugSigDB 2026-10-21_14:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2026-10-21_15:59_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:11/1/1_Cervical-glandular-intraepithelial-neoplasia:HIV-patients-with-lesion-at-12-months_vs_HIV-pateints-with-normal-tissue-at-6-months_DOWN	NA	2702
 bsdb:39/1/1_Body-odor-measurement:youth-underarm-after-exercise_vs_youth-underarm-before_UP	NA	1282
 bsdb:39/1/2_Body-odor-measurement:youth-underarm-after-exercise_vs_youth-underarm-before_DOWN	NA	265
@@ -2542,12 +2542,10 @@ bsdb:30565661/1/1_Thyroid-carcinoma:patients-with-thyroid-carcinoma_vs_healthy-c
 bsdb:30565661/1/2_Thyroid-carcinoma:patients-with-thyroid-carcinoma_vs_healthy-controls_DOWN	NA	909930	1283313	815	816	976	1506553	158846	33024	838	171552	841	33038	186803
 bsdb:30568265/1/1_Obesity:overweight/obese-babies_vs_control-babies-at-the-age-of-3_UP	NA	189330	841
 bsdb:30568265/1/2_Obesity:overweight/obese-babies_vs_control-babies-at-the-age-of-3_DOWN	NA	375288
-bsdb:30574320/1/1_Non-alcoholic-steatohepatitis:Non-alcoholic-steatohepatitis-(NASH)_vs_Healthy-Controls-(HCs)_UP	NA	203492	904	848
+bsdb:30574320/1/1_Non-alcoholic-steatohepatitis:Non-alcoholic-steatohepatitis-(NASH)_vs_Healthy-Controls-(HCs)_UP	NA	203492	904	848	1735	906	33039
 bsdb:30574320/1/2_Non-alcoholic-steatohepatitis:Non-alcoholic-steatohepatitis-(NASH)_vs_Healthy-Controls-(HCs)_DOWN	NA	1853231	28050	283168	375288
-bsdb:30574320/2/1_Non-alcoholic-fatty-liver-disease:Nonalcoholic-fatty-liver-(NAFL)_vs_Healthy-controls-(HC)_UP	NA	904
+bsdb:30574320/2/1_Non-alcoholic-fatty-liver-disease:Nonalcoholic-fatty-liver-(NAFL)_vs_Healthy-controls-(HC)_UP	NA	904	165179
 bsdb:30574320/2/2_Non-alcoholic-fatty-liver-disease:Nonalcoholic-fatty-liver-(NAFL)_vs_Healthy-controls-(HC)_DOWN	NA	283168	1239
-bsdb:30574320/3/1_Non-alcoholic-fatty-liver-disease:Non-alcoholic-steatohepatitis-(NASH)_vs_Nonalcoholic-fatty-liver-(NAFL)_UP	NA	712973
-bsdb:30574320/3/2_Non-alcoholic-fatty-liver-disease:Non-alcoholic-steatohepatitis-(NASH)_vs_Nonalcoholic-fatty-liver-(NAFL)_UP	NA	848
 bsdb:30576008/1/1_Parkinson's-disease:patients-with-idiopathic-parkinson's-disease_vs_healthy-controls-without-any-form-of-Parkinson's-Disease_UP	NA	239934	31953	1678	424536	543	1224	203557	1239	47201	171551	561
 bsdb:30576008/1/2_Parkinson's-disease:patients-with-idiopathic-parkinson's-disease_vs_healthy-controls-without-any-form-of-Parkinson's-Disease_DOWN	NA	186803	841	216572	1239	216851
 bsdb:30576008/2/1_Parkinson's-disease:the-trend-over-Parkinson's-disease-progression_vs_healthy-controls-without-any-form-of-Parkinson's-Disease_UP	NA	239934	81850	1578	74201	203557
@@ -4309,6 +4307,8 @@ bsdb:32912596/1/1_Autism-spectrum-disorder:Children-with-Autism-Spectrum-Disorde
 bsdb:32912596/1/2_Autism-spectrum-disorder:Children-with-Autism-Spectrum-Disorder-(ASD)_vs_Healthy-children_DOWN	NA	815	119060	816	216851	577310	577309	1236
 bsdb:32917644/6/1_Tumor-mass:No-antibiotics-(NoAB)-mice-with-tumor-growth-group_vs_No-antibiotics-(NoAB)-mice-without-tumor-growth-group_UP	NA	1224	201174	41297	13687	112	203683	137	203692	200666	45401	46913	136	768507	768503	118
 bsdb:32917644/7/1_Tumor-mass:Antibiotics-(AB)-mice-with-tumor-growth-group_vs_Antibiotics-(AB)-mice-without-tumor-growth-group_UP	NA	84999	84998	459786
+bsdb:32917644/8/1_Response-to-antibiotic:Antibiotic-(AB)-mice---Validation-cohort_vs_No-antibiotic-(NoAB)-mice---Validation-cohort_UP	NA	1508657	526524	526525	128827	213115	841	572511	194924	1649459	544448	31969	990719	1505657	31980	872	84108	186803	216572	1239	186802	186801
+bsdb:32917644/8/2_Response-to-antibiotic:Antibiotic-(AB)-mice---Validation-cohort_vs_No-antibiotic-(NoAB)-mice---Validation-cohort_DOWN	NA	91061	200903
 bsdb:32925716/1/1_Response-to-immunochemotherapy:Responders_vs_Non-responders_UP	NA	186801	216851	853	1239	1268	31969	216572	162289	33024	33025	1583331	32207	48256	1263	40518	31977	186802
 bsdb:32925716/1/2_Response-to-immunochemotherapy:Responders_vs_Non-responders_DOWN	NA	171549	976	200643	147206	1841856	58180	470565	2702	2701
 bsdb:32931909/1/1_Asthma:Male_vs_Female_DOWN	NA	201174	1239	1304
@@ -7832,7 +7832,8 @@ bsdb:36774467/9/2_Irritable-bowel-syndrome:IBS-Patients-(Irritable-Bowel-Syndrom
 bsdb:36777525/1/1_Environmental-exposure-measurement:Higher-molar-sum-of-per--and-polyfluoroalkyl-substances-(ΣPFAS)-exposure_vs_Lower-molar-sum-of-per--and-polyfluoroalkyl-substances-(ΣPFAS)-exposure_UP	NA	28052
 bsdb:36777525/1/2_Environmental-exposure-measurement:Higher-molar-sum-of-per--and-polyfluoroalkyl-substances-(ΣPFAS)-exposure_vs_Lower-molar-sum-of-per--and-polyfluoroalkyl-substances-(ΣPFAS)-exposure_DOWN	NA	821
 bsdb:36777525/2/1_Environmental-exposure-measurement:Higher-perfluorooctane-sulfonic-acid-(PFOS)-exposure_vs_Lower-perfluorooctane-sulfonic-acid-(PFOS)-exposure_UP	NA	28052
-bsdb:36779606/1/1_Breastfeeding-duration:breastfed-at-6-months_vs_not-breastfed-at-6-months_DOWN	NA	1760	171552	29465
+bsdb:36779606/1/1_Breastfeeding-duration:breastfed-at-6-months_vs_not-breastfed-at-6-months_DOWN	NA	1760	171552	29465	165779	186804	292800	1129771	43675	31977	186826	1283313
+bsdb:36779606/2/1_Breastfeeding-duration:breastfed-at-6-months_vs_not-breastfed-at-6-months_UP	NA	1678	32207	1653	31989	41297	1279	165779	1681
 bsdb:36782154/1/1_Gestational-weight-gain-measurement:Overweight/obese-pre-pregnancy-normal-pregnancy-weight-gain-group-(O-NG)---Maternal-group_vs_Normal-pregnancy-weight-excessive-pregnancy-weight-gain-group-(N-EG)---Maternal-group_UP	NA	33958	1578	2005473	580024	1283313	126	203683	112	1729679	28138	85007	80865
 bsdb:36782154/1/2_Gestational-weight-gain-measurement:Overweight/obese-pre-pregnancy-normal-pregnancy-weight-gain-group-(O-NG)---Maternal-group_vs_Normal-pregnancy-weight-excessive-pregnancy-weight-gain-group-(N-EG)---Maternal-group_DOWN	NA	171550	239759
 bsdb:36782154/2/1_Gestational-weight-gain-measurement:Normal-pregnancy-weight-excessive-pregnancy-weight-gain-group-(N-EG)---Neonatal-group_vs_Normal-pre-pregnancy-weight-normal-pregnancy-weight-gain-group-(N-NG)-+-Overweight/obese-pre-pregnancy-normal-pregnancy-weight-gain-group-(O-NG)-+-Overweight/obese-pre-pregnancy-excessive-pregnancy-weight-gain-group-(O-EG)---Neonatal-group_UP	NA	642	84642	135624	28100	171550	157932	75682	13687	80864	128827	526524	526525	135619	2745	28256	41297	204457	1082930	45401	68287	33958	1578	2005473	186803	216572	610116	171549	200643	1279	90964	286	135621	1385	72274	69277	186801	186802	48736	119060	91061	356	80840	28216	1239
@@ -10066,7 +10067,7 @@ bsdb:38650928/2/1_Tuberculosis:TB-patients-(cz-group)_vs_Combination-of-retreate
 bsdb:38650928/3/1_Tuberculosis:retreated-patients-(fz-group)_vs_Combination-of-TB-patients-(cz-group)-and-healthy-controls-(jk-group)_UP	NA	1236	543	91347	128827	100883	904
 bsdb:38653239/1/1_Cholic-acid:3-succinylated-cholic-acid-(3-sucCA)-treated_vs_Phosphate-buffered-saline-(PBS)-control_UP	NA	239934	48461	203494	74201	95818	203557
 bsdb:38653239/1/2_Cholic-acid:3-succinylated-cholic-acid-(3-sucCA)-treated_vs_Phosphate-buffered-saline-(PBS)-control_DOWN	NA	1224	1236	1385	40544	53335	110932	119045	85029	37914	379	227979	72274	135621	506	1357	286	191303	1279
-bsdb:38653239/2/1_Cholic-acid:3-succinylated-cholic-acid-(3-sucCA)-treated_vs_Phosphate-buffered-saline-(PBS)-control_DOWN	NA	820	239935
+bsdb:38653239/2/1_Cholic-acid:3-succinylated-cholic-acid-(3-sucCA)-treated_vs_Phosphate-buffered-saline-(PBS)-control_DOWN	NA	239934
 bsdb:38658829/1/1_Pulmonary-tuberculosis:Tuberculosis-(TB)-patients_vs_Healthy-controls_UP	NA	838	4930	816
 bsdb:38658829/1/2_Pulmonary-tuberculosis:Tuberculosis-(TB)-patients_vs_Healthy-controls_DOWN	NA	572511	1678	1501226	189330	292632	1407607	570	4890	5052
 bsdb:38658841/1/1_Gastric-cancer:Gastric-Cancer_vs_Chronic-gastritis_UP	NA	33042	848	724	459786	375288	33024	40544	29465	995019
@@ -11387,6 +11388,7 @@ bsdb:39575247/2/2_Pancreatic-ductal-adenocarcinoma:PDAC-stage-I/II_vs_Chronic-pa
 bsdb:39575247/2/3_Pancreatic-ductal-adenocarcinoma:PDAC-stage-I/II_vs_Chronic-pancreatitis-(CP)_UP	NA	28124	133926	837	55507	158
 bsdb:39575247/2/4_Pancreatic-ductal-adenocarcinoma:PDAC-stage-I/II_vs_Chronic-pancreatitis-(CP)_UP	NA	286	28129	76123	556499	1280	143361	1318	59892
 bsdb:39575247/2/7_Pancreatic-ductal-adenocarcinoma:PDAC-stage-I/II_vs_Chronic-pancreatitis-(CP)_DOWN	NA	2767889	715222	270	332102	445	93217	10	469	2767842	102106	207599	958	1610	850	40214	1685	93220	39650	165179	304	1590	74426
+bsdb:39575247/3/1_Pancreatic-ductal-adenocarcinoma:PDAC-stage-I/II_vs_Chronic-pancreatitis-(CP)_UP	NA	2745	40544	2801844	963	2767353	482	133925	44259	157692	837	1318	555313	59892	133926	28127	156456	2047	28124	1382	1547448	189722
 bsdb:39587999/1/1_Stimulus-or-stress-design:Natural-sound-(NS)_vs_Instrumental-music-(IMS)-+-Mixed-road-sound-(MRS)_UP	NA	1239	186801	186802	216851
 bsdb:39587999/2/1_Stimulus-or-stress-design:Instrumental-music-(IMS)_vs_Natural-sound-(NS)-+-Mixed-road-sound-(MRS)_UP	NA	171552	1578	33958	91061	186826
 bsdb:39587999/3/1_Stimulus-or-stress-design:Mixed-road-sound-(MRS)_vs_Natural-sound-(NS)-+-Instrumental-music-(IMS)_UP	NA	976	171549	200643	816	815	171551	375288
