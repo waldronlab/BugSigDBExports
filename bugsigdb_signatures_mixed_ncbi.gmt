@@ -1,4 +1,4 @@
-# BugSigDB 2026-10-25_04:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2026-10-25_05:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:11/1/1_Cervical-glandular-intraepithelial-neoplasia:HIV-patients-with-lesion-at-12-months_vs_HIV-pateints-with-normal-tissue-at-6-months_DOWN	NA	2702
 bsdb:39/1/1_Body-odor-measurement:youth-underarm-after-exercise_vs_youth-underarm-before_UP	NA	1282
 bsdb:39/1/2_Body-odor-measurement:youth-underarm-after-exercise_vs_youth-underarm-before_DOWN	NA	265
@@ -6030,9 +6030,13 @@ bsdb:34852831/2/1_Response-to-transplant:Post-fecal-microbiota-transplant-patien
 bsdb:34852831/2/2_Response-to-transplant:Post-fecal-microbiota-transplant-patients-(B3)_vs_Fecal-microbiota-transplant-patients-at-baseline-(B1)_DOWN	NA	13159	171552	207244	186803
 bsdb:34852831/3/1_Response-to-transplant:Post-fecal-microbiota-transplant-patients-(B4)_vs_Fecal-microbiota-transplant-patients-at-baseline-(B1)_UP	NA	12916	135622	264995	82373	10	990719	33958	186826	1578	216572	1932694	72275
 bsdb:34852831/3/2_Response-to-transplant:Post-fecal-microbiota-transplant-patients-(B4)_vs_Fecal-microbiota-transplant-patients-at-baseline-(B1)_DOWN	NA	48736	84993	84992	76892	204458	134550	13159	13687	33024
-bsdb:34857640/1/1_Neonatal-hypoglycemia:Caesarean-section_vs_Vaginal-delivery_UP	NA	375288	1678	35832	102106	40544	33024	84111	561	620	816
-bsdb:34857640/1/5_Neonatal-hypoglycemia:Caesarean-section_vs_Vaginal-delivery_DOWN	NA	816
-bsdb:34857640/2/1_Neonatal-hypoglycemia:Formula-+/--breastmilk_vs_Breastmilk-only_UP	NA	1279	29465	724	1378
+bsdb:34857640/1/1_Cesarean-section:Caesarean-section_vs_Vaginal-delivery_UP	NA	816	375288	1678	35832	102106	1940338	40544	33024	84111
+bsdb:34857640/1/2_Cesarean-section:Caesarean-section_vs_Vaginal-delivery_DOWN	NA	29465	1350	724	579	1485
+bsdb:34857640/1/5_Cesarean-section:Caesarean-section_vs_Vaginal-delivery_DOWN	NA	816
+bsdb:34857640/2/1_Response-to-diet:Formula-+/--breastmilk_vs_Breastmilk-only_UP	NA	29465
+bsdb:34857640/2/2_Response-to-diet:Formula-+/--breastmilk_vs_Breastmilk-only_DOWN	NA	1279	1378	724
+bsdb:34857640/3/1_Ethnic-group:Indian_vs_Other-Ethnicities_UP	NA	1350	29465
+bsdb:34857640/3/2_Ethnic-group:Indian_vs_Other-Ethnicities_UP	NA	1350	29465
 bsdb:34879874/1/1_Primary-ovarian-insufficiency:Primary-ovarian-insufficiency-(POI)_vs_Healthy-subjects_UP	NA	1301
 bsdb:34879874/1/2_Primary-ovarian-insufficiency:Primary-ovarian-insufficiency-(POI)_vs_Healthy-subjects_DOWN	NA	1578	41275	283168
 bsdb:34880258/1/1_Parkinson's-disease:PD-(Parkinson's-Disease)_vs_rHC-(Random-non-household-healthy-controls)_UP	NA	33029	43769	180282	566027	480	129817	75612	190721	1282	475	40222	36739	80865	48736	37817	469
@@ -14282,6 +14286,10 @@ bsdb:41332906/2/2_Anxiety-measurement,Depressive-symptom-measurement:Positive-co
 bsdb:41332906/3/1_Rosacea:Positive-correlation-with-Skindex-16-score_vs_Negative-correlation-with-Skindex-16-score_UP	NA	1965549
 bsdb:41332906/4/1_Acne:Positive-correlation-with-Echelle-de-Cotation-des-Lésions-d’acné-(ECLA)-score_vs_Negative-correlation-with-Echelle-de-Cotation-des-Lésions-d’acné-(ECLA)-score_UP	NA	1262792
 bsdb:41332906/4/2_Acne:Positive-correlation-with-Echelle-de-Cotation-des-Lésions-d’acné-(ECLA)-score_vs_Negative-correlation-with-Echelle-de-Cotation-des-Lésions-d’acné-(ECLA)-score_DOWN	NA	1965549
+bsdb:41348443/1/1_Pelvic-Inflammatory-Disease:Pelvic-inflammatory-disease-(PID)-cases_vs_Healthy-controls_UP	NA	2702	82135	134821	2701	838	2767327	2129
+bsdb:41348443/1/2_Pelvic-Inflammatory-Disease:Pelvic-inflammatory-disease-(PID)-cases_vs_Healthy-controls_DOWN	NA	47770
+bsdb:41348443/2/1_Pelvic-Inflammatory-Disease:Pelvic-inflammatory-disease-(PID)-cases_vs_Healthy-controls_UP	NA	838
+bsdb:41348443/2/2_Pelvic-Inflammatory-Disease:Pelvic-inflammatory-disease-(PID)-cases_vs_Healthy-controls_DOWN	NA	47770	82135
 bsdb:41356476/1/1_Colorectal-cancer:Common-colorectal-polyps-(Polyp)_vs_Healthy-controls-(HC)_UP	NA	165179	1685	33959	674529	1596	376805	28132
 bsdb:41356476/1/2_Colorectal-cancer:Common-colorectal-polyps-(Polyp)_vs_Healthy-controls-(HC)_DOWN	NA	544580	28025	1759399	1234680	1686	113107	1653434	216816
 bsdb:41356476/2/1_Colorectal-adenoma:Small-colorectal-adenomas-(SCRA)_vs_Healthy-controls-(HC)_UP	NA	33039	821	165179	46506	1982626	46228	387090	674529	376805	328812	291645	1217282	1042156	2779518
