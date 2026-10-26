@@ -229,10 +229,12 @@ downloadFiles <- function(links = getBugSigDBExportURLs(dynamic = FALSE),
         for (attempt in seq_len(max.attempts)) {
             total.attempts <- total.attempts + 1L
             tryCatch({
+                # No rate limit here: Plan A downloads come from S3, not
+                # bugsigdb.org, so the WikiWorks limit (#37) does not apply.
                 download.file(url,
                               destfile = destfile,
                               method = "curl",
-                              extra = sprintf('--limit-rate 50K -A "%s"', user_agent))
+                              extra = sprintf('-A "%s"', user_agent))
                 if (!is_valid_csv(destfile)) {
                     stop(paste("Downloaded file is not a valid BugSigDB CSV:",
                                download_diagnostics(csv, url, destfile)))
