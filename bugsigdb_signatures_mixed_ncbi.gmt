@@ -1,4 +1,4 @@
-# BugSigDB 2026-10-26_09:06_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2026-10-26_10:04_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:11/1/1_Cervical-glandular-intraepithelial-neoplasia:HIV-patients-with-lesion-at-12-months_vs_HIV-pateints-with-normal-tissue-at-6-months_DOWN	NA	2702
 bsdb:39/1/1_Body-odor-measurement:youth-underarm-after-exercise_vs_youth-underarm-before_UP	NA	1282
 bsdb:39/1/2_Body-odor-measurement:youth-underarm-after-exercise_vs_youth-underarm-before_DOWN	NA	265
@@ -2041,6 +2041,10 @@ bsdb:29868719/6/1_Overweight-body-mass-index-status:Exclusive-breastfeeding-at-3
 bsdb:29868719/6/2_Overweight-body-mass-index-status:Exclusive-breastfeeding-at-3-4-months_vs_Exclusive-breastfeeding-after-hospital-discharge_UP	NA	201174	31953
 bsdb:29868719/12/1_Breastfeeding-duration:Breastfed->12-months_vs_Never-breastfed_UP	NA	201174	31953	81852	31977	1224	543
 bsdb:29868719/12/2_Breastfeeding-duration:Breastfed->12-months_vs_Never-breastfed_DOWN	NA	171551	171550	128827	216572
+bsdb:29868719/13/1_Breastfeeding-duration:Breastfed->12-months_vs_Breastfed-<6-months_UP	NA	201174	31953	81852	31977	1224
+bsdb:29868719/13/2_Breastfeeding-duration:Breastfed->12-months_vs_Breastfed-<6-months_DOWN	NA	171550	128827
+bsdb:29868719/14/1_Breastfeeding-duration:Breastfed->12-months_vs_Breastfed-6-12-months_UP	NA	201174	31953	81852	31977	1224	543
+bsdb:29868719/14/2_Breastfeeding-duration:Breastfed->12-months_vs_Breastfed-6-12-months_DOWN	NA	171551	171550	128827	216572
 bsdb:29874201/1/1_HIV-infection:combination-antiretroviral-therapy-treated-individuals-after-taking-LGG-probiotic-for-8-weeks_vs_baseline_UP	NA	1508657	186803
 bsdb:29874201/1/2_HIV-infection:combination-antiretroviral-therapy-treated-individuals-after-taking-LGG-probiotic-for-8-weeks_vs_baseline_DOWN	NA	543	128827
 bsdb:29874201/3/1_HIV-infection:individuals-with-decreased-F-2-fluoro-2-deoxy-D-glucose-(F-FDG)-uptake-on-positron-emission-tomography-(PET)/magnetic-resonance-imaging-(MRI)_vs_individuals-with-no-change-in-uptake_DOWN	NA	543
@@ -13726,15 +13730,16 @@ bsdb:40899693/35/1_Response-to-transplant:Panda-FMT(S)-(Fecal-Microbiota-Transpl
 bsdb:40899693/36/1_Response-to-transplant:Control_vs_Panda-FMT(S)-+-Brown-FMT(S)-+-Black-FMT(S)-+-Polar-FMT(S)_UP	NA	1283313	1779134	547	1578	2005473	914	1567	157	32003	1331051
 bsdb:40904740/1/1_Behcet's-syndrome:Behçet-Disease-group-(BD)_vs_Healthy-Control-group-(HC)_UP	NA	1889813	1380	194	200	824	1540872	95818	200795	84162	84163	39948	218538	39950	1279384	31973	1434006	651822	32066	848	851	52228	52229	76123	1578	906	156456	187326	86331	544448	133925	138595	712411	133926	652706	543311	713008	28129	2490854	189723	638847	638849	305719	28126	439703	135080	69823	177971	177972	84108	84109	123375	102148	203691	1328	508458	28112	157	53419	56774	292628
 bsdb:40904740/1/2_Behcet's-syndrome:Behçet-Disease-group-(BD)_vs_Healthy-Control-group-(HC)_DOWN	NA	221235	482	544580	495	68892	1540874	425941	936594	114527	1379	1234680
-bsdb:40905340/1/2_HIV-mother-to-child-transmission:HEU-pre-(mother-diagnosed-with-HIV-before-pregnancy)_vs_HEU-new-(mother-diagnosed-with-HIV-during-the-current-pregnancy)_UP	NA	848
-bsdb:40905340/2/1_HIV-mother-to-child-transmission:Axillary-skin-swab_vs_Rectal-swab_UP	NA	1716	1279	1282	1283
-bsdb:40905340/2/2_HIV-mother-to-child-transmission:Axillary-skin-swab_vs_Rectal-swab_DOWN	NA	543	286	573
+bsdb:40905340/1/2_HIV-mother-to-child-transmission:HEU-new-(mother-diagnosed-with-HIV-during-the-current-pregnancy)_vs_HEU-pre-(mother-diagnosed-with-HIV-before-pregnancy)_UP	NA	848
+bsdb:40905340/2/1_HIV-mother-to-child-transmission:Axillary-skin-swab_vs_Nasal-and-Rectal-swab_UP	NA	1716	1279	1282	1283
+bsdb:40905340/2/2_HIV-mother-to-child-transmission:Axillary-skin-swab_vs_Nasal-and-Rectal-swab_DOWN	NA	543	286	573
 bsdb:40905340/3/1_HIV-mother-to-child-transmission:Axillary-skin-swab_vs_Nasal-swab_UP	NA	1716	1282	1283
 bsdb:40905340/3/2_HIV-mother-to-child-transmission:Axillary-skin-swab_vs_Nasal-swab_DOWN	NA	1385
 bsdb:40905340/3/3_HIV-mother-to-child-transmission:Axillary-skin-swab_vs_Nasal-swab_UP	NA	1716	1279	1282	1283
 bsdb:40905340/3/4_HIV-mother-to-child-transmission:Axillary-skin-swab_vs_Nasal-swab_DOWN	NA	1385
 bsdb:40905340/4/2_HIV-mother-to-child-transmission:Nasal-swab_vs_Rectal-swab_UP	NA	1282	1304	470	1283	1385
 bsdb:40905340/4/3_HIV-mother-to-child-transmission:Nasal-swab_vs_Rectal-swab_DOWN	NA	286	543	573
+bsdb:40905340/5/1_HIV-mother-to-child-transmission:HEU-new_vs_HU-and-HEU-pre_UP	NA	848
 bsdb:40909338/1/1_HIV-associated-neurocognitive-disorder:Higher-neuropsychological-test-score-covering-6-cognitive-domains-(NPZ-6)_vs_Lower-neuropsychological-test-score-covering-6-cognitive-domains-(NPZ-6)_UP	NA	291644	40520	2317	387661	577309	658082
 bsdb:40909338/1/2_HIV-associated-neurocognitive-disorder:Higher-neuropsychological-test-score-covering-6-cognitive-domains-(NPZ-6)_vs_Lower-neuropsychological-test-score-covering-6-cognitive-domains-(NPZ-6)_DOWN	NA	876	40545	1308	2860053
 bsdb:40909338/2/1_HIV-associated-neurocognitive-disorder:Positive-correlation-with-neuropsychological-test-score-covering-6-cognitive-domains-(NPZ-6)--at-baseline-(Higher-NPZ-6)_vs_Negative-correlation-with-neuropsychological-test-score-covering-6-cognitive-domains-(NPZ-6)-at-baseline--(Lower-NPZ-6)_DOWN	NA	2860053	876	40545
