@@ -1,4 +1,4 @@
-# BugSigDB 2026-10-27_05:59_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2026-10-27_07:09_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:11/1/1_Cervical-glandular-intraepithelial-neoplasia:HIV-patients-with-lesion-at-12-months_vs_HIV-pateints-with-normal-tissue-at-6-months_DOWN	NA	Gardnerella vaginalis
 bsdb:39/1/1_Body-odor-measurement:youth-underarm-after-exercise_vs_youth-underarm-before_UP	NA	Staphylococcus epidermidis
 bsdb:39/1/2_Body-odor-measurement:youth-underarm-after-exercise_vs_youth-underarm-before_DOWN	NA	Paracoccus
@@ -2046,7 +2046,7 @@ bsdb:29868719/5/2_Overweight-body-mass-index-status:Exclusive-breastfeeding-at-3
 bsdb:29868719/6/1_Overweight-body-mass-index-status:Exclusive-breastfeeding-at-3-4-months_vs_Exclusive-breastfeeding-after-hospital-discharge_DOWN	NA	Enterococcaceae
 bsdb:29868719/6/2_Overweight-body-mass-index-status:Exclusive-breastfeeding-at-3-4-months_vs_Exclusive-breastfeeding-after-hospital-discharge_UP	NA	Actinomycetota	Bifidobacteriaceae
 bsdb:29868719/7/1_Overweight-body-mass-index-status:Partial-Breastfeeding-with-Formula-at-6-months_vs_No-Breastfeeding-at-6-months_UP	NA	Veillonellaceae	Pasteurellaceae
-bsdb:29868719/8/1_Overweight-body-mass-index-status:Partial-Breastfeeding-without-Formula-at-6-months_vs_No-Breastfeeding-at-6-months_UP	NA	Actinomycetota	Aeriscardovia	Veillonellaceae	Acidithiobacillia	Alcaligenaceae	Pasteurellaceae
+bsdb:29868719/8/1_Overweight-body-mass-index-status:Partial-Breastfeeding-without-Formula-at-6-months_vs_No-Breastfeeding-at-6-months_UP	NA	Actinomycetota	Veillonellaceae	Pasteurellaceae	Bifidobacteriaceae	Pseudomonadota
 bsdb:29868719/8/2_Overweight-body-mass-index-status:Partial-Breastfeeding-without-Formula-at-6-months_vs_No-Breastfeeding-at-6-months_DOWN	NA	Bacteroidota	Porphyromonadaceae
 bsdb:29868719/9/1_Overweight-body-mass-index-status:Exclusive-breastfeeding-at-6-months_vs_No-Breastfeeding-at-6-months_UP	NA	Actinomycetota	Bifidobacteriaceae	Veillonellaceae	Pseudomonadota	Alcaligenaceae	Pasteurellaceae
 bsdb:29868719/9/2_Overweight-body-mass-index-status:Exclusive-breastfeeding-at-6-months_vs_No-Breastfeeding-at-6-months_DOWN	NA	Bacteroidota	Porphyromonadaceae	Erysipelotrichaceae
@@ -2292,7 +2292,7 @@ bsdb:30173873/12/1_Response-to-diet:Exclusively-breastfed-infants-of-African-Ame
 bsdb:30173873/12/2_Response-to-diet:Exclusively-breastfed-infants-of-African-American-race_vs_Exclusively-formula-fed-infants-of-African-American-race_DOWN	NA	Eubacteriales	Erysipelotrichaceae
 bsdb:30173873/13/1_Response-to-diet:Exclusively-breastfed-infants-of-Hispanic-race_vs_Exclusively-formula-fed-infants-of-Hispanic-race_UP	NA	Staphylococcus
 bsdb:30173873/13/2_Response-to-diet:Exclusively-breastfed-infants-of-Hispanic-race_vs_Exclusively-formula-fed-infants-of-Hispanic-race_DOWN	NA	Lachnospiraceae	Blautia	Peptostreptococcaceae	Oscillospiraceae
-bsdb:30173873/14/1_Response-to-diet:Exclusively-breastfed-infants-of-White-race_vs_Exclusively-formula-fed-infants-of-White-race_DOWN	NA	Eubacterium	Eubacteriales
+bsdb:30173873/14/1_Response-to-diet:Exclusively-breastfed-infants-of-White-race_vs_Exclusively-formula-fed-infants-of-White-race_DOWN	NA	Eubacterium
 bsdb:30188331/1/1_Diet:Equol-NON-producer-("unhealthier"-diet)_vs_Equol-producer-("healhtier"-diet)_UP	NA	Pseudomonadota
 bsdb:30188331/2/1_Diet:Equol-NON-producer-("unhealthier"-diet)_vs_Equol-producer-("healhtier"-diet)_DOWN	NA	Bacillota
 bsdb:30204780/1/1_Chronic-fatigue-syndrome:Chronic-Fatigue-patients_vs_Healthy-controls_UP	NA	Alkalibacillus	Bacteroidaceae	Bacteroides	Campylobacter	Campylobacteraceae	Campylobacterales	Campylobacterota	Fusobacteriota	Fusobacteriaceae	Fusobacteriales	Fusobacteriia	Fusobacterium	Gemella
@@ -4095,6 +4095,8 @@ bsdb:32497191/4/1_COVID-19:COVID-19-cases_vs_Healthy-controls_UP	NA	Streptococca
 bsdb:32507008/1/1_Systemic-lupus-erythematosus:SLE-G_vs_Healthy-Control-(HC)_UP	NA	Bacteroides	Coprococcus	Prevotella	Parabacteroides	Succinivibrio	Bilophila
 bsdb:32507008/1/2_Systemic-lupus-erythematosus:SLE-G_vs_Healthy-Control-(HC)_DOWN	NA	Gemmiger	Dialister
 bsdb:32507008/2/1_Systemic-lupus-erythematosus:SLE-G_vs_SLE+G_UP	NA	Bacteroides	Oscillospira	Phascolarctobacterium	Succinivibrio	Prevotella	Bilophila
+bsdb:32507008/3/1_Systemic-lupus-erythematosus:SLE-G_vs_SLE+G_UP	NA	Bilophila	Bacteroidaceae	Bacteroides	Bacteroidia	Bacteroidales	Bacteroides fragilis
+bsdb:32507008/3/2_Systemic-lupus-erythematosus:SLE-G_vs_SLE+G_DOWN	NA	Bifidobacterium	Bifidobacteriales	Enterobacteriaceae	Enterobacterales	Bifidobacteriaceae	Streptococcus
 bsdb:32517799/1/1_Parkinson's-disease:Participants-with-typical-PD_vs_Healthy-controls_UP	NA	Akkermansia	Akkermansia muciniphila	Anaerotruncus	Anaerotruncus colihominis	Bilophila	Christensenella	Christensenella minuta	Lactobacillus	Ruminococcus bromii	Streptococcus	Mediterraneibacter torques	Acidaminococcus
 bsdb:32517799/1/2_Parkinson's-disease:Participants-with-typical-PD_vs_Healthy-controls_DOWN	NA	Roseburia intestinalis	Turicibacter	Turicibacter sanguinis
 bsdb:32527048/1/1_Bacterial-vaginosis:Bacterial-vaginosis-(BV)-positive-women-(Group-2,-Day-1)_vs_Healthy-(Group-1)_UP	NA	Adlercreutzia	Gardnerella vaginalis	Porphyromonas	Aerococcus	Anaerococcus	Clostridium	Parvimonas	Peptoniphilus	Sneathia	Bacteroidales	Hoylesella timonensis	Fannyhessea vaginae	Dialister	Megasphaera
@@ -6052,19 +6054,19 @@ bsdb:34790583/2/2_Autism-spectrum-disorder:Children-with-Autism-Spectrum-Disorde
 bsdb:34795317/1/1_Parkinson's-disease:Parkinson's-disease-patients-(PD)_vs_Healthy-controls-(HC)_UP	NA	Geotrichum candidum
 bsdb:34795317/1/2_Parkinson's-disease:Parkinson's-disease-patients-(PD)_vs_Healthy-controls-(HC)_DOWN	NA	Sandona heptamutans	Linum usitatissimum	Paracercomonas sp.	Penicillium roqueforti	Poterioochromonas malhamensis
 bsdb:34795472/1/1_Breast-carcinoma:Malignant-breast-carcinoma_vs_Benign-breast-tumors_UP	NA	Citrobacter
-bsdb:34795472/1/2_Breast-carcinoma:Malignant-breast-carcinoma_vs_Benign-breast-tumors_DOWN	NA	Clostridium	Faecalibacterium	Lachnospira	Romboutsia	Fusicatenibacter	Arcanobacterium	Xylophilus	Mobiluncus	bacterium LF-3
+bsdb:34795472/1/2_Breast-carcinoma:Malignant-breast-carcinoma_vs_Benign-breast-tumors_DOWN	NA	Clostridium	Faecalibacterium	Lachnospira	Romboutsia	Fusicatenibacter	Arcanobacterium	Xylophilus	Mobiluncus	bacterium LF-3	Eubacteriales
 bsdb:34795472/2/1_Breast-carcinoma:PR-posititive_vs_PR-negative_UP	NA	Prevotellaceae	Tyzzerella
 bsdb:34795472/2/2_Breast-carcinoma:PR-posititive_vs_PR-negative_DOWN	NA	Barnesiellaceae	Lactobacillus	Acinetobacter	Hydrogenophilus	Cloacibacillus	Hydrogenophilaceae	Lactobacillaceae	Paracoccaceae
-bsdb:34795472/3/1_Breast-carcinoma:ER-Positive_vs_ER-negative_UP	NA	Prevotellaceae	Roseburia
-bsdb:34795472/3/2_Breast-carcinoma:ER-Positive_vs_ER-negative_DOWN	NA	Bacteroides	Bacteroidaceae	Puniceicoccaceae	Opitutales	Hydrogenophilus	Hydrogenophilaceae	Lactobacillaceae	Lactobacillus	Harryflintia	Moraxellaceae	Acinetobacter
-bsdb:34795472/4/1_Breast-carcinoma:Her2-positive_vs_Her2-negative_UP	NA	Barnesiellaceae	Moraxellaceae	Acinetobacter	Flavonifractor	Pseudomonadales	Eubacterium
+bsdb:34795472/3/1_Breast-carcinoma:ER-Positive_vs_ER-negative_UP	NA	Prevotellaceae	Roseburia	Bacteriovorax stolpii
+bsdb:34795472/3/2_Breast-carcinoma:ER-Positive_vs_ER-negative_DOWN	NA	Bacteroides	Bacteroidaceae	Puniceicoccaceae	Opitutales	Hydrogenophilus	Hydrogenophilaceae	Lactobacillaceae	Lactobacillus	Harryflintia	Moraxellaceae	Acinetobacter	Morganella	Shuttleworthella
+bsdb:34795472/4/1_Breast-carcinoma:Her2-positive_vs_Her2-negative_UP	NA	Barnesiellaceae	Moraxellaceae	Acinetobacter	Flavonifractor	Pseudomonadales	Eubacterium	Burkholderiaceae	Megasphaera
 bsdb:34795472/4/2_Breast-carcinoma:Her2-positive_vs_Her2-negative_DOWN	NA	Olsenella	Enterococcus	Enterococcaceae	Peptostreptococcaceae
-bsdb:34795472/5/1_Menopause:Postmenopausal_vs_Premenopausal_UP	NA	Herbinix
+bsdb:34795472/5/1_Menopause:Postmenopausal_vs_Premenopausal_UP	NA	Herbinix	Candidatus Epulonipiscium	uncultured Oscillospiraceae bacterium
 bsdb:34795472/5/2_Menopause:Postmenopausal_vs_Premenopausal_DOWN	NA	Enterobacter	Romboutsia	Anaerostipes	Granulicatella	Carnobacteriaceae	bacterium LF-3
-bsdb:34795472/6/1_Breast-carcinoma:High-Ki-67-(≥30%)_vs_Low-Ki-67-(<30%)_UP	NA	Mollicutes	Sporobacter	Syntrophomonadaceae
-bsdb:34795472/6/2_Breast-carcinoma:High-Ki-67-(≥30%)_vs_Low-Ki-67-(<30%)_DOWN	NA	Lactobacillus	Burkholderiaceae
-bsdb:34795472/7/1_Breast-carcinoma:Grade-I_vs_Grades-II-and-III_UP	NA	Verrucomicrobiales	Akkermansiaceae	Akkermansia	Eisenbergiella	Slackia	Enhydrobacter	Paenibacillus	Paenibacillaceae	Victivallaceae	Victivallis	Anaerocolumna	Actinomycetota	Verrucomicrobiota
-bsdb:34795472/8/1_Breast-carcinoma:Grade-II_vs_Grades-I-and-III_UP	NA	Lentisphaeria	Victivallales
+bsdb:34795472/6/1_Breast-carcinoma:High-Ki-67-(≥30%)_vs_Low-Ki-67-(<30%)_UP	NA	Mollicutes	Sporobacter	Syntrophomonadaceae	Mycoplasmatota	Candidatus Izemoplasmatales
+bsdb:34795472/6/2_Breast-carcinoma:High-Ki-67-(≥30%)_vs_Low-Ki-67-(<30%)_DOWN	NA	Lactobacillus	Burkholderiaceae	Proteus	Lactobacillaceae	Clostridium	Candidatus Izemoplasmatales	Megasphaera	Betaproteobacteria
+bsdb:34795472/7/1_Breast-carcinoma:Grade-I_vs_Grades-II-and-III_UP	NA	Verrucomicrobiales	Akkermansiaceae	Akkermansia	Eisenbergiella	Slackia	Enhydrobacter	Paenibacillus	Paenibacillaceae	Victivallaceae	Victivallis	Anaerocolumna	Actinomycetota	Verrucomicrobiota	Verrucomicrobiia	uncultured Clostridium sp.
+bsdb:34795472/8/1_Breast-carcinoma:Grade-II_vs_Grades-I-and-III_UP	NA	Lentisphaeria	Victivallales	Lentisphaerota
 bsdb:34795472/9/1_Breast-carcinoma:Grade-III_vs_Grades-I-and-II_UP	NA	Coriobacteriia	Coriobacteriales	Coriobacteriaceae	Collinsella	Faecalitalea
 bsdb:34799562/1/1_Colorectal-cancer:Young-onset-colorectal-cancer-(yCRC)-patients_vs_Young-healthy-controls-(yControl)_UP	NA	Actinomyces	Flavonifractor	Fusobacterium	Odoribacter	Veillonella
 bsdb:34799562/1/2_Colorectal-cancer:Young-onset-colorectal-cancer-(yCRC)-patients_vs_Young-healthy-controls-(yControl)_DOWN	NA	Agathobacter	Anaerostipes	Blautia	Butyricicoccus	Clostridium	Dialister	Haemophilus	Klebsiella	Megamonas	Parasutterella	Romboutsia	Escherichia/Shigella sp.
@@ -8452,6 +8454,13 @@ bsdb:37199608/3/1_Iron:Ferrous-bisglycinate-group---12-weeks-treatment_vs_Ferrou
 bsdb:37199608/3/2_Iron:Ferrous-bisglycinate-group---12-weeks-treatment_vs_Ferrous-bisglycinate-group---0-week-treatment-(Baseline)_DOWN	NA	Enterococcus	Weissella
 bsdb:37199635/1/1_Fetal-growth-restriction:Fetal-growth-restriction-(FGR)_vs_Normal-pregnacy-(NP)_UP	NA	Lactobacillus	Catenibacterium
 bsdb:37199635/1/2_Fetal-growth-restriction:Fetal-growth-restriction-(FGR)_vs_Normal-pregnacy-(NP)_DOWN	NA	Bacteroides uniformis	Alistipes onderdonkii	Ruminococcus	Oscillospiraceae	unidentified rumen bacterium RF39
+bsdb:37199635/2/1_Oligohydramnios:High-amniotic-fluid-volume-(AFV)_vs_Low-amniotic-fluid-volume-(AFV)_UP	NA	Dorea longicatena
+bsdb:37199635/3/1_Birth-weight:High-neonatal-weight_vs_Low-neonatal-weight_UP	NA	Erysipelotrichaceae	Ruminococcus	Lachnospiraceae
+bsdb:37199635/3/2_Birth-weight:High-neonatal-weight_vs_Low-neonatal-weight_DOWN	NA	Catenibacterium
+bsdb:37199635/4/1_Fetal-growth-restriction:High-biparietal-diameter_vs_Low-biparietal-diameter_UP	NA	Bacteroides uniformis	Alistipes putredinis	Lachnospiraceae
+bsdb:37199635/4/2_Fetal-growth-restriction:High-biparietal-diameter_vs_Low-biparietal-diameter_DOWN	NA	Catenibacterium
+bsdb:37199635/5/1_Waist-circumference:High-abdomen-circumference_vs_Low-abdomen-circumference_UP	NA	Lachnospiraceae
+bsdb:37199635/5/2_Waist-circumference:High-abdomen-circumference_vs_Low-abdomen-circumference_DOWN	NA	Catenibacterium
 bsdb:37208728/1/1_Parkinson's-disease:Parkinson's-Disease-(PD)-patients_vs_Healthy_UP	NA	Adlercreutzia	Adlercreutzia equolifaciens	Akkermansia	Akkermansia muciniphila	Alistipes shahii	Bacteroidales bacterium	Verrucomicrobiaceae	Verrucomicrobiia	Verrucomicrobiales	Verrucomicrobiota	Bacteroidales
 bsdb:37208728/1/2_Parkinson's-disease:Parkinson's-Disease-(PD)-patients_vs_Healthy_DOWN	NA	Acidaminococcaceae	Actinomycetales	Bacilli	Catenibacterium mitsuokai	Erysipelotrichaceae	Erysipelotrichales	Erysipelotrichia	Gammaproteobacteria	Holdemanella biformis	Lachnospiraceae	Lactobacillales	Leyella stercorea	Negativicutes	Paraprevotella	Phascolarctobacterium	Phascolarctobacterium succinatutens	Prevotella	Prevotellaceae	Segatella copri	Selenomonadales	Streptococcaceae	Streptococcus	Streptococcus thermophilus	Veillonella atypica	[Clostridium] leptum	Catenibacterium	Escherichia	Coprococcus sp. ART55_1
 bsdb:37210496/1/1_Constipation:Functional-Constipation(FC)_vs_Healthy-Controls_UP	NA	Eubacterium	Intestinimonas	Klebsiella	Ruminococcaceae bacterium UCG-005	Eubacterium xylanophilum	Faecalicatena fissicatena
@@ -10355,9 +10364,8 @@ bsdb:38650928/3/1_Tuberculosis:retreated-patients-(fz-group)_vs_Combination-of-T
 bsdb:38653239/1/1_Cholic-acid:3-succinylated-cholic-acid-(3-sucCA)-treated_vs_Phosphate-buffered-saline-(PBS)-control_UP	NA	Akkermansia	Verrucomicrobiales	Verrucomicrobiia	Verrucomicrobiota	Candidatus Saccharimonadota	Verrucomicrobiaceae
 bsdb:38653239/1/2_Cholic-acid:3-succinylated-cholic-acid-(3-sucCA)-treated_vs_Phosphate-buffered-saline-(PBS)-control_DOWN	NA	Pseudomonadota	Gammaproteobacteria	Caryophanales	Sutterella	Pantoea	Leifsonia	Methylobacteriaceae	Dietziaceae	Dietzia	Rhizobium	Jeotgalicoccus	Pseudomonadales	Pseudomonadaceae	Alcaligenaceae	Lactococcus	Pseudomonas	Turicibacter	Staphylococcus
 bsdb:38653239/2/1_Cholic-acid:3-succinylated-cholic-acid-(3-sucCA)-treated_vs_Phosphate-buffered-saline-(PBS)-control_UP	NA	Akkermansia
-bsdb:38657605/1/1_Post-COVID-19-disorder:Subjects-with-post-acute-COVID-19-syndrome-(PACS)_vs_non-PACS-subjects_UP	NA	Flavonifractor plautii
 bsdb:38657605/1/2_Post-COVID-19-disorder:Subjects-with-post-acute-COVID-19-syndrome-(PACS)_vs_non-PACS-subjects_UP	NA	Flavonifractor plautii
-bsdb:38657605/1/3_Post-COVID-19-disorder:Subjects-with-post-acute-COVID-19-syndrome-(PACS)_vs_non-PACS-subjects_UP	NA	Flavonifractor plautii
+bsdb:38657605/1/3_Post-COVID-19-disorder:Subjects-with-post-acute-COVID-19-syndrome-(PACS)_vs_non-PACS-subjects_DOWN	NA	Bifidobacterium adolescentis	Roseburia hominis
 bsdb:38658829/1/1_Pulmonary-tuberculosis:Tuberculosis-(TB)-patients_vs_Healthy-controls_UP	NA	Prevotella	Saccharomyces	Bacteroides
 bsdb:38658829/1/2_Pulmonary-tuberculosis:Tuberculosis-(TB)-patients_vs_Healthy-controls_DOWN	NA	Blautia	Bifidobacterium	Romboutsia	Dorea	Subdoligranulum	Fusicatenibacter	Klebsiella	Ascomycota	Aspergillus
 bsdb:38658841/1/1_Gastric-cancer:Gastric-Cancer_vs_Chronic-gastritis_UP	NA	Coprococcus	Fusobacterium	Haemophilus	Oscillibacter	Parabacteroides	Phascolarctobacterium	Sutterella	Veillonella	Sutterellaceae
@@ -13960,7 +13968,7 @@ bsdb:40995218/9/2_Periodontal-measurement:Increased-periodontal-pocket-depth-(PP
 bsdb:40995218/10/1_Periodontal-measurement:Increased-plaque-index-(PI)_vs_Decreased-plaque-index-(PI)_UP	NA	Veillonella
 bsdb:40995218/10/2_Periodontal-measurement:Increased-plaque-index-(PI)_vs_Decreased-plaque-index-(PI)_DOWN	NA	Cyanobacteriota
 bsdb:40995227/1/1_Obesity:Overweight/obese_vs_Normal-weight_DOWN	NA	Adlercreutzia	Bacteroides caccae	Bythopirellula polymerisocia	Deinococcus	Desulfosporosinus	Duncaniella	Duncaniella dubosii	Muribaculum	Muribaculum gordoncarteri	Nitrosomonas	Rhodopseudomonas	Rhodopseudomonas palustris	Turicibacter bilis	Yokenella	Yokenella regensburgei
-bsdb:40995227/1/2_Obesity:Overweight/obese_vs_Normal-weight_UP	NA	Bradyrhizobium	Bradyrhizobium australiense	Campylobacter concisus	Capnocytophaga	Collinsella	Haemophilus	Haemophilus parainfluenzae	Neisseria	Prevotella	Prevotella melaninogenica	Rothia	Rothia mucilaginosa	Segatella	Streptococcus rubneri	Veillonella	Veillonella atypica	Neisseria perflava	Collinsella aerofaciens	Streptococcus salivarius
+bsdb:40995227/1/2_Obesity:Overweight/obese_vs_Normal-weight_UP	NA	Bradyrhizobium	Bradyrhizobium australiense	Campylobacter concisus	Capnocytophaga	Collinsella	Haemophilus	Parahaemophilus parainfluenzae	Neisseria	Prevotella	Prevotella melaninogenica	Rothia	Rothia mucilaginosa	Segatella	Streptococcus rubneri	Veillonella	Veillonella atypica	Neisseria perflava	Collinsella aerofaciens	Streptococcus salivarius
 bsdb:40995227/2/1_Obesity:Normal-weight_vs_Overweight/obese_UP	NA	Acidimicrobiales	Acidimicrobiia	Bacteroides caccae	Erysipelotrichia	Lamiaceae	Muribaculaceae	Muribaculum	Muribaculum gordoncarteri	Rhodopseudomonas	Rhodospirillum	Yokenella	Yokenella regensburgei	Erysipelotrichales
 bsdb:40995227/3/1_Obesity:Obese_vs_Normal/Overweight_UP	NA	Negativicutes	Coriobacteriales	Segatella	Ruminococcus gauvreauii	Marinilabiliaceae	Marinilabiliales	[Clostridium] innocuum
 bsdb:40995227/4/1_Obesity:Overweight_vs_Normal/Obese_UP	NA	Haemophilus	Pasteurellales	Pasteurellaceae	Prevotellaceae	Parahaemophilus parainfluenzae	Prevotella	Neisseriales	Neisseriaceae	Neisseria	Veillonellales	Veillonellaceae	Neisseria perflava	Parahaemophilus pittmaniae
@@ -14098,7 +14106,7 @@ bsdb:41055348/5/1_Urinary-tract-infection:Female-asymptomatic-with-IBC_vs_Female
 bsdb:41055348/5/2_Urinary-tract-infection:Female-asymptomatic-with-IBC_vs_Female-asymptomatic-without-IBC_DOWN	NA	Bacilli
 bsdb:41056245/1/1_Ischemic-stroke:Stroke-patient-groups_vs_Healthy-control_UP	NA	Streptococcus infantis
 bsdb:41056245/2/1_Ischemic-stroke:Stroke-patient-groups_vs_Healthy-control_UP	NA	Caryophanales	Bacilli	Bacillota	Eubacteriales	Filifactor	Fusobacteriales	Granulicatella	Lactobacillales	Lactobacillus	Lancefieldella rimae	Leptotrichiaceae	Paludibacter	Porphyromonas endodontalis	Prevotella nigrescens	Rothia dentocariosa	Streptococcus anginosus	Treponema
-bsdb:41056245/2/2_Ischemic-stroke:Stroke-patient-groups_vs_Healthy-control_DOWN	NA	Haemophilus parainfluenzae	Neisseria subflava	Prevotella melaninogenica	Veillonella parvula
+bsdb:41056245/2/2_Ischemic-stroke:Stroke-patient-groups_vs_Healthy-control_DOWN	NA	Parahaemophilus parainfluenzae	Neisseria subflava	Prevotella melaninogenica	Veillonella parvula
 bsdb:41056270/1/1_White-matter-volume-measurement:Higher-white-matter-volume-(WMV)_vs_Lower-white-matter-volume-(WMV)_UP	NA	Anaerostipes	Bacteroides stercoris	Blautia	Lachnospirales	Fusicatenibacter	uncultured organism	Lachnoclostridium	Lachnospiraceae	Bacteroides
 bsdb:41056270/1/2_White-matter-volume-measurement:Higher-white-matter-volume-(WMV)_vs_Lower-white-matter-volume-(WMV)_DOWN	NA	Alistipes	Bacilli	Bacteroides uniformis	Intestinibacter	Lactobacillales	Peptostreptococcaceae	Rikenellaceae	Streptococcaceae	Streptococcus	Streptococcus salivarius	Bacteroides thetaiotaomicron	Oscillospiraceae
 bsdb:41056270/2/1_Grey-matter-volume-measurement:Higher-grey-matter-volume-(GMV)_vs_Lower-grey-matter-volume-(GMV)_UP	NA	Agathobacter	Bifidobacterium	Blautia	Butyricicoccaceae	Butyricicoccus	Clostridia	Collinsella	Coriobacteriaceae	Coriobacteriales	Coriobacteriia	Dorea	Fusicatenibacter	Lachnoclostridium	Lachnospiraceae	Lachnospirales	uncultured organism	Actinomycetota
