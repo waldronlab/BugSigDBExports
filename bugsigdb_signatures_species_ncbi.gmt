@@ -1,4 +1,4 @@
-# BugSigDB 2026-10-27_04:00_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2026-10-27_04:59_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:11/1/1_Cervical-glandular-intraepithelial-neoplasia:HIV-patients-with-lesion-at-12-months_vs_HIV-pateints-with-normal-tissue-at-6-months_DOWN	NA	2702
 bsdb:39/1/1_Body-odor-measurement:youth-underarm-after-exercise_vs_youth-underarm-before_UP	NA	1282
 bsdb:39/2/1_Body-odor-measurement:youth-Neck-before_vs_after-excercise_DOWN	NA	33011	108981
@@ -1823,11 +1823,15 @@ bsdb:33658300/4/2_Colorectal-cancer:Colorectal-cancer-(CRC)_vs_Adenoma_DOWN	NA	3
 bsdb:33658300/5/1_Adenoma:Adenoma_vs_Colonoscopy-normal_UP	NA	1504823	33039	39496	438033
 bsdb:33658300/5/2_Adenoma:Adenoma_vs_Colonoscopy-normal_DOWN	NA	1522	33038
 bsdb:33658300/6/1_Adenoma:Adenoma_vs_Blood-negative_UP	NA	1940338	33039	33038
-bsdb:33658300/6/2_Adenoma:Adenoma_vs_Blood-negative_DOWN	NA	39496	39497	39485	42322
-bsdb:33658300/7/1_Colorectal-cancer:Colorectal-cancer-(CRC)_vs_Non-neoplastic_UP	NA	290054	39497
+bsdb:33658300/6/2_Adenoma:Adenoma_vs_Blood-negative_DOWN	NA	39496	39497	39485	42322	707003
+bsdb:33658300/7/1_Colorectal-cancer:Colorectal-cancer-(CRC)_vs_Non-neoplastic_UP	NA	290054	39497	1504823	707003
+bsdb:33658300/7/2_Colorectal-cancer:Colorectal-cancer-(CRC)_vs_Non-neoplastic_DOWN	NA	1940338
+bsdb:33658300/8/1_Adenoma:Adenoma_vs_Non-neoplastic_UP	NA	1504823
 bsdb:33658300/8/2_Adenoma:Adenoma_vs_Non-neoplastic_DOWN	NA	1940338
 bsdb:33658300/9/1_Normal:Colonoscopy-normal_vs_Non-neoplastic_UP	NA	33038
-bsdb:33658300/9/2_Normal:Colonoscopy-normal_vs_Non-neoplastic_DOWN	NA	438033	39496
+bsdb:33658300/9/2_Normal:Colonoscopy-normal_vs_Non-neoplastic_DOWN	NA	438033	39496	1504823
+bsdb:33658300/10/1_Adenoma:Non-neoplastic_vs_Blood-negative_UP	NA	1940338	33038	33039	1504823
+bsdb:33658300/10/2_Adenoma:Non-neoplastic_vs_Blood-negative_DOWN	NA	39496	39485	39497	42322	707003
 bsdb:33663411/1/1_Irritable-bowel-syndrome:IBS-D_vs_Healthy-Control_UP	NA	28026	1898207	1852370	310297
 bsdb:33663411/1/2_Irritable-bowel-syndrome:IBS-D_vs_Healthy-Control_DOWN	NA	817	562
 bsdb:33665172/1/1_Polycystic-ovary-syndrome:PCOS-patients-at-Zeitgeber-(ZT)-0_vs_Healthy-control-at-Zeitgeber-(ZT)-0_UP	NA	860	1226342	1540874
@@ -2003,6 +2007,8 @@ bsdb:34130619/5/1_Urinary-tract-infection:Day-5-(end-of-dosing-or-post-dose)_vs_
 bsdb:34130619/5/2_Urinary-tract-infection:Day-5-(end-of-dosing-or-post-dose)_vs_Day-1-(pre-dose)_DOWN	NA	1940338	59823	33039	256318
 bsdb:34130619/6/1_Urinary-tract-infection:Follow-up-(visit-around-Day-28 ± 3 days)._vs_Day-1-(pre-dose)_UP	NA	39496
 bsdb:34130619/6/2_Urinary-tract-infection:Follow-up-(visit-around-Day-28 ± 3 days)._vs_Day-1-(pre-dose)_DOWN	NA	290054	33039	256318
+bsdb:34145455/4/1_Polycystic-ovary-syndrome:Healthy-Controls-(controls)-and-Letrozole-Induced-Polycystic-Ovary-Syndrome-(PCOS)-with-Antibiotic-Treatment-[Control-+-(LET-+-ABX)]-model_vs_Letrozole-Induced-Polycystic-Ovary-Syndrome-(PCOS)-model-(LET)_UP	NA	107058	209265
+bsdb:34145455/5/1_Polycystic-ovary-syndrome:Healthy-Controls-and-Letrozole-Induced-Polycystic-Ovary-Syndrome-(PCOS)-(Control-+-LET)-model_vs_Letrozole-Induced-Polycystic-Ovary-Syndrome-(PCOS)-with-Antibiotic-Treatment-(LET-+-ABX)-model_UP	NA	107058	209265
 bsdb:34151035/1/1_COVID-19:COVID-19-patients_vs_Non-COVID-19-controls_DOWN	NA	1379	824	157688	29391	40324
 bsdb:34168484/2/1_COVID-19:COVID-19-patients-with-fever_vs_COVID-19-patients-without-fever_UP	NA	208479	4932	729	546	1896336	1351
 bsdb:34168484/2/2_COVID-19:COVID-19-patients-with-fever_vs_COVID-19-patients-without-fever_DOWN	NA	328814	658087	469614	818	817	246787	371601	658086	39490	487175	821	649756	469610	658089	658082
@@ -6305,6 +6311,14 @@ bsdb:41000236/2/2_Periapical-Periodontitis:Trauma_vs_Caries_DOWN	NA	156456	29374
 bsdb:41010476/4/1_Population:African-individuals-in-Anyama-(AA)_vs_African-individuals-in-Rome(AI)_UP	NA	1940338
 bsdb:41010476/5/2_Population:African-individuals-in-Anyama-(AA)_vs_Italian-individuals-(II)_DOWN	NA	877420
 bsdb:41010476/6/2_Population:African-individuals-in-Rome-(AI)_vs_Italian-individuals-(II)_DOWN	NA	1940338	877420
+bsdb:41011452/1/1_HIV-infection:C_HIV-(Confirmed-HIV-viral-suppression)_vs_HP-(HIV-Negative-Patients)_UP	NA	837	287	638849	2047	76123
+bsdb:41011452/1/2_HIV-infection:C_HIV-(Confirmed-HIV-viral-suppression)_vs_HP-(HIV-Negative-Patients)_DOWN	NA	386414	28130	256466	1343	59892
+bsdb:41011452/2/1_HIV-infection:ND_HIV-(HIV-positive-newly-diagnosed-without-antiretroviral-treatment)_vs_HP-(HIV-Negative-Patients)_UP	NA	51665	86332	28130	2047
+bsdb:41011452/2/2_HIV-infection:ND_HIV-(HIV-positive-newly-diagnosed-without-antiretroviral-treatment)_vs_HP-(HIV-Negative-Patients)_DOWN	NA	55565	44742	386414	256466	638849	1343	59892
+bsdb:41011452/3/1_HIV-infection,Oral-candidiasis:Candida_HIV-(HIV-Positive-patients-with-oral-candidiasis)_vs_HP-(HIV-Negative-Patients)_UP	NA	1584	86332	2047	1303	76123
+bsdb:41011452/3/2_HIV-infection,Oral-candidiasis:Candida_HIV-(HIV-Positive-patients-with-oral-candidiasis)_vs_HP-(HIV-Negative-Patients)_DOWN	NA	1655	386414	28124	28130	28131	256466	638849	176090	1343	59892
+bsdb:41011452/4/1_HIV-infection,Human-papilloma-virus-infection:HPV_HIV-(HIV-Positive-patients-with-human-papillomavirus-oral-lesions)_vs_HP-(HIV-Negative-Patients)_UP	NA	55565	1655	51665	1584	189723	157692	113287	2047	72	409322
+bsdb:41011452/4/2_HIV-infection,Human-papilloma-virus-infection:HPV_HIV-(HIV-Positive-patients-with-human-papillomavirus-oral-lesions)_vs_HP-(HIV-Negative-Patients)_DOWN	NA	386414	59892	256466	1343
 bsdb:41029180/1/2_Environmental-factor:Baseline-Donor-pair-1-(dp1)-United-States-(US)-colonized-mice_vs_Baseline-Donor-pair-1-(dp1)-Thailand-(Thai)-colonized-mice_DOWN	NA	1940338
 bsdb:41039266/1/1_Pancreatic-carcinoma:Pancreatic-cancer-patients_vs_Healthy-control-group_UP	NA	851
 bsdb:41039266/1/2_Pancreatic-carcinoma:Pancreatic-cancer-patients_vs_Healthy-control-group_DOWN	NA	1681	166486
