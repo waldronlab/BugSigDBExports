@@ -1,4 +1,4 @@
-# BugSigDB 2026-11-05_21:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
+# BugSigDB 2026-11-05_22:58_UTC, License: Creative Commons Attribution 4.0 International, URL: https://bugsigdb.org
 bsdb:11/1/1_Cervical-glandular-intraepithelial-neoplasia:HIV-patients-with-lesion-at-12-months_vs_HIV-pateints-with-normal-tissue-at-6-months_DOWN	NA	2702
 bsdb:39/1/1_Body-odor-measurement:youth-underarm-after-exercise_vs_youth-underarm-before_UP	NA	1282
 bsdb:39/1/2_Body-odor-measurement:youth-underarm-after-exercise_vs_youth-underarm-before_DOWN	NA	265
@@ -5011,6 +5011,7 @@ bsdb:33449409/5/1_Cryptoxanthin-measurement:High-cryptoxanthin-(CR)_vs_Low-crypt
 bsdb:33449409/6/1_Zeaxanthin-measurement,Lutein-measurement:High-zeaxanthin-and-lutein-(ZL)_vs_Low-zeaxanthin-and-lutein-(ZL)_UP	NA	239934	33024
 bsdb:33456723/1/1_Down-syndrome:Down-syndrome-(DS)-(YES)_vs_Healthy-controls-(NO)_UP	NA	32257	1378	2717	1279	508215	713
 bsdb:33456723/1/2_Down-syndrome:Down-syndrome-(DS)-(YES)_vs_Healthy-controls-(NO)_DOWN	NA	1283313	1380	1331051	976
+bsdb:33456723/2/1_Down-syndrome:Down-syndrome-(DS)-(YES)_vs_Healthy-controls-(NO)_UP	NA	5480
 bsdb:33481211/1/1_Graves-disease:Hyperthyroidism-group-(HG)_vs_Control-group-(CG)_UP	NA	29465	1578	33958
 bsdb:33481211/1/2_Graves-disease:Hyperthyroidism-group-(HG)_vs_Control-group-(CG)_DOWN	NA	191303	2753	508459	1654	2049	841	207244	31979	186804	86331	33024	33042	186803
 bsdb:33481211/2/1_Graves-disease:Treatment-group-(TG)_vs_Hyperthyroidism-group-(HG)_UP	NA	33024	28050
@@ -14327,23 +14328,31 @@ bsdb:40912695/1/1_Acute-pancreatitis:Moderate-severe-or-severe-acute-pancreatiti
 bsdb:40912695/1/2_Acute-pancreatitis:Moderate-severe-or-severe-acute-pancreatitis-(MSAP/SAP)_vs_Mild-acute-pancreatitis-(MAP)_DOWN	NA	904	1653174	1766253	1283313	419014	28263	572511	574697	135858	508459	100883	189330	66831	216851	1378	724	1573535	428711	1506553	28050	88	248744	149698	158846	407	283168	577309	577310	1253	186804	33024	255204	1742991	638847	171550	1279	40840	2753	1505652	1506577	184869	697331	1906119	581	570	613	1331051
 bsdb:40912695/2/1_Acute-pancreatitis:Moderate-severe-or-severe-acute-pancreatitis-(MSAP/SAP)_vs_Mild-acute-pancreatitis-(MAP)_UP	NA	133925	1481960
 bsdb:40912695/2/2_Acute-pancreatitis:Moderate-severe-or-severe-acute-pancreatitis-(MSAP/SAP)_vs_Mild-acute-pancreatitis-(MAP)_DOWN	NA	1766253	572511	189330	216851	33024	841	216572
-bsdb:40912695/3/1_Acute-pancreatitis:Acute-necrotizing-pancreatitis-(ANP)_vs_Acute-oedematous-pancreatitis-(AOP)_UP	NA	2005519	1578	133925	1300	2093825	177971
-bsdb:40912695/3/2_Acute-pancreatitis:Acute-necrotizing-pancreatitis-(ANP)_vs_Acute-oedematous-pancreatitis-(AOP)_DOWN	NA	1696	149698	1766253	572511	189330	216851	28050	33024	1653174
+bsdb:40912695/3/1_Acute-pancreatitis:Acute-necrotizing-pancreatitis-(ANP)_vs_Acute-oedematous-pancreatitis-(AOP)_UP	NA	2005519	1578	1300	2093825	177971	906	1930830	213849	544	186802	413496	1472649	1643826	1350	128827	946234	203492	186826	1357	909928	133925	1481960	171551	1504576	29465	31977
+bsdb:40912695/3/2_Acute-pancreatitis:Acute-necrotizing-pancreatitis-(ANP)_vs_Acute-oedematous-pancreatitis-(AOP)_DOWN	NA	904	1653174	1766253	419014	28263	572511	85019	1696	574697	135858	508459	100883	189330	66831	216851	1378	724	1505657	428711	1506553	28050	88	248744	149698	158846	1980693	283168	577309	577310	1253	33024	255204	1742991	171550	1279	40840	1505652	1506577	184869	1906119	1331051	697331	570	613	581
 bsdb:40912695/4/1_Acute-pancreatitis:Acute-necrotizing-pancreatitis-(ANP)_vs_Acute-oedematous-pancreatitis-(AOP)_UP	NA	133925	1300
-bsdb:40912695/4/2_Acute-pancreatitis:Acute-necrotizing-pancreatitis-(ANP)_vs_Acute-oedematous-pancreatitis-(AOP)_UP	NA	1766253	572511	189330	216851	28050	33024
+bsdb:40912695/4/2_Acute-pancreatitis:Acute-necrotizing-pancreatitis-(ANP)_vs_Acute-oedematous-pancreatitis-(AOP)_DOWN	NA	1766253	572511	189330	216851	28050	33024	216572
 bsdb:40912695/4/3_Acute-pancreatitis:Acute-necrotizing-pancreatitis-(ANP)_vs_Acute-oedematous-pancreatitis-(AOP)_DOWN	NA	544	117563	724	29465
-bsdb:40912695/5/1_Acute-pancreatitis:Persistent-organ-failure-or-drainage-of-infected-necrotizing-pancreatitis-(POF/dIPN)_vs_Remaining-cohort-(Rest)_UP	NA	419014	150022	906
+bsdb:40912695/5/1_Acute-pancreatitis:Persistent-organ-failure-or-drainage-of-infected-necrotizing-pancreatitis-(POF/dIPN)_vs_Remaining-cohort-(Rest)_UP	NA	2005519	1847725	171551	29465
 bsdb:40912695/5/2_Acute-pancreatitis:Persistent-organ-failure-or-drainage-of-infected-necrotizing-pancreatitis-(POF/dIPN)_vs_Remaining-cohort-(Rest)_DOWN	NA	203492	29465	117563	724	544
-bsdb:40912695/6/1_Acute-pancreatitis:Persistent-organ-failure-or-drainage-of-infected-necrotizing-pancreatitis-(POF/dIPN)_vs_Remaining-cohort-(Rest)_UP	NA	2005519	86331	1481960	171551	29465
-bsdb:40912695/6/2_Acute-pancreatitis:Persistent-organ-failure-or-drainage-of-infected-necrotizing-pancreatitis-(POF/dIPN)_vs_Remaining-cohort-(Rest)_DOWN	NA	33024	841
+bsdb:40912695/6/1_Acute-pancreatitis:Persistent-organ-failure-or-drainage-of-infected-necrotizing-pancreatitis-(POF/dIPN)_vs_Remaining-cohort-(Rest)_UP	NA	2005519	86331	1481960	171551	29465	830	213849	909928
+bsdb:40912695/6/2_Acute-pancreatitis:Persistent-organ-failure-or-drainage-of-infected-necrotizing-pancreatitis-(POF/dIPN)_vs_Remaining-cohort-(Rest)_DOWN	NA	904	1654	1653174	1375	1766253	239759	1283313	207244	397864	35832	1696	544	102106	872	189330	1432051	547	1350	946234	2701	1378	117563	724	1573535	1649459	1505657	428711	1506553	28050	149698	158846	52225	1980693	459786	375288	2740	33024	1504576	204441	1501226	841	123375	1505652	1485	570	581
 bsdb:40912695/7/1_Acute-pancreatitis:Persistent-organ-failure-or-drainage-of-infected-necrotizing-pancreatitis-(POF/dIPN)_vs_Remaining-cohort-(Rest)_UP	NA	165779	2005519	1847725	86331	1481960	162289	171551
 bsdb:40912695/7/2_Acute-pancreatitis:Persistent-organ-failure-or-drainage-of-infected-necrotizing-pancreatitis-(POF/dIPN)_vs_Remaining-cohort-(Rest)_DOWN	NA	33024
-bsdb:40912695/8/1_Acute-pancreatitis:Moderate-severe-and-severe-acute-pancreatitis-(MSAP/SAP)_vs_Mild-acute-pancreatitis-(MAP)_UP	NA	419014	91061	501783	150022	1847725	110932	168808	1279	2762318	177971	570
-bsdb:40912695/8/2_Acute-pancreatitis:Moderate-severe-and-severe-acute-pancreatitis-(MSAP/SAP)_vs_Mild-acute-pancreatitis-(MAP)_DOWN	NA	544
+bsdb:40912695/8/1_Acute-pancreatitis:Moderate-severe-and-severe-acute-pancreatitis-(MSAP/SAP)_vs_Mild-acute-pancreatitis-(MAP)_UP	NA	419014	91061	501783	150022	1847725	110932	168808	1279	2762318	177971	570	46123	906	1386	2717	39948	212791	32257	204455	2005473	149698	86331	133925	162289	186804	1257	2093825	31989
+bsdb:40912695/8/2_Acute-pancreatitis:Moderate-severe-and-severe-acute-pancreatitis-(MSAP/SAP)_vs_Mild-acute-pancreatitis-(MAP)_DOWN	NA	544	2147	713	44259	2701	88	1243	437755	1824856	265	338	570	59735	363464
 bsdb:40912695/9/1_Acute-pancreatitis:Moderate-severe-and-severe-acute-pancreatitis-(MSAP/SAP)_vs_Mild-acute-pancreatitis-(MAP)_UP	NA	91061	1578	838	1279	1760
 bsdb:40912695/9/2_Acute-pancreatitis:Moderate-severe-and-severe-acute-pancreatitis-(MSAP/SAP)_vs_Mild-acute-pancreatitis-(MAP)_DOWN	NA	117563	724	29465
 bsdb:40912695/10/1_Acute-pancreatitis:Acute-necrotizing-pancreatitis-(ANP)_vs_Acute-oedematous-pancreatitis-(AOP)_UP	NA	1386	501783	212791	1847725	110932	168808	2762318	91061	150022	838	1279
 bsdb:40912695/10/2_Acute-pancreatitis:Acute-necrotizing-pancreatitis-(ANP)_vs_Acute-oedematous-pancreatitis-(AOP)_DOWN	NA	2147	713	59735	544	44259	2701	88	1243	437755	1824856	265	338
+bsdb:40912695/11/1_Acute-pancreatitis:Acute-necrotizing-pancreatitis-(ANP)_vs_Acute-oedematous-pancreatitis-(AOP)_UP	NA	201174	91061	150022	1578	838	1279
+bsdb:40912695/11/2_Acute-pancreatitis:Acute-necrotizing-pancreatitis-(ANP)_vs_Acute-oedematous-pancreatitis-(AOP)_DOWN	NA	117563	724	29465	203492
+bsdb:40912695/12/1_Acute-pancreatitis:Persistent-organ-failure-or-drainage-of-infected-necrotizing-pancreatitis-(POF/dIPN)_vs_Remaining-cohort-(Rest)_UP	NA	419014	150022	906
+bsdb:40912695/13/1_Acute-pancreatitis:Persistent-organ-failure-or-drainage-of-infected-necrotizing-pancreatitis-(POF/dIPN)_vs_Remaining-cohort-(Rest)_UP	NA	906	150022
+bsdb:40912695/14/1_Acute-pancreatitis:Persistent-organ-failure-or-drainage-of-infected-necrotizing-pancreatitis-(POF/dIPN)_vs_Remaining-cohort-(Rest)_UP	NA	419014	150022	1357	149698	86331	1279	906	39948
+bsdb:40912695/14/2_Acute-pancreatitis:Persistent-organ-failure-or-drainage-of-infected-necrotizing-pancreatitis-(POF/dIPN)_vs_Remaining-cohort-(Rest)_DOWN	NA	713	59735	544	44259	2701	47670	1824856	265	168808	570	334108	1331051	2093825	1385
+bsdb:40912695/15/1_Acute-pancreatitis:Persistent-organ-failure-or-drainage-of-infected-necrotizing-pancreatitis-(POF/dIPN)_vs_Remaining-cohort-(Rest)_UP	NA	906	150022	1279
+bsdb:40912695/15/2_Acute-pancreatitis:Persistent-organ-failure-or-drainage-of-infected-necrotizing-pancreatitis-(POF/dIPN)_vs_Remaining-cohort-(Rest)_DOWN	NA	2171986
 bsdb:40913049/1/1_Parkinson's-disease:Parkinson’s-disease-mice-colonized-with-Streptococcus-mutans_vs_Healthy-control-mice-colonized-with-Streptococcus-mutans_UP	NA	328814	1697793	116085	39486	2093857	487175	2049048
 bsdb:40913049/1/2_Parkinson's-disease:Parkinson’s-disease-mice-colonized-with-Streptococcus-mutans_vs_Healthy-control-mice-colonized-with-Streptococcus-mutans_DOWN	NA	820	1912897	89014	40520	2500537	44742	2049045	292800	745368	1796635	342942	1519439	1547	2714355	39492
 bsdb:40913049/3/1_Parkinson's-disease:Parkinson’s-disease-mice-colonized-with-Streptococcus-mutans_vs_Healthy-control-mice-colonized-with-Streptococcus-mutans_UP	NA	239935	328814	105841	1697793	116085	39486	2093857	1531	487175	2049048	1653434
@@ -15978,6 +15987,8 @@ bsdb:42624114/8/1_Colorectal-cancer:Colorectal-cancer-(CRC)_vs_Healthy-controls-
 bsdb:42624114/8/2_Colorectal-cancer:Colorectal-cancer-(CRC)_vs_Healthy-controls-(HC)_DOWN	NA	868	135621	2005523	186803	1268	237576	2718	796942
 bsdb:42624114/9/1_Colorectal-cancer:Colorectal-cancer-(CRC)-group_vs_Healthy-control-(HC)-group_UP	NA	2895623	33958
 bsdb:42624114/9/2_Colorectal-cancer:Colorectal-cancer-(CRC)-group_vs_Healthy-control-(HC)-group_DOWN	NA	237576	2718	1268	868
+bsdb:42624114/10/1_Colorectal-cancer:Colorectal-cancer-(CRC)_vs_Gastric-cancer-(GC)_UP	NA	1570339	1647988	1643826	539738	341694	33033	29391	39950
+bsdb:42624114/10/2_Colorectal-cancer:Colorectal-cancer-(CRC)_vs_Gastric-cancer-(GC)_DOWN	NA	712
 bsdb:42624114/11/1_Colorectal-cancer:Mouth-feces-(MF)index:-level-4_vs_Mouth-feces-(MF)-index:-level-1_UP	NA	1177574	228604	470565	1318	1343
 bsdb:42624114/11/2_Colorectal-cancer:Mouth-feces-(MF)index:-level-4_vs_Mouth-feces-(MF)-index:-level-1_DOWN	NA	1019	28449
 bsdb:42624114/13/1_Gastric-cancer:Early-stage-(0-2)---Gastric-cancer-(GC)_vs_Healthy-control-(HC)-group_UP	NA	1318	39777	1343	1305	1328
@@ -16150,7 +16161,7 @@ bsdb:Wang2026 Study/19/1_Anti-citrullinated-protein-antibody-seropositivity:Posi
 bsdb:Wang2026 Study/19/2_Anti-citrullinated-protein-antibody-seropositivity:Positive-Association-with-Anti-Citrullinated-Protein-Antibodies_vs_Negative-Association-with-Anti-Citrullinated-Protein-Antibodies_DOWN	NA	32067
 bsdb:Wang2026 Study/20/1_C-reactive-protein-measurement:Positive-Association-with-C-Reactive-Protein_vs_Negative-Association-with-C-Reactive-Protein_UP	NA	157	195950	836	44259
 bsdb:Wang2026 Study/21/1_Elevated-erythrocyte-sedimentation-rate:Positive-Association-with-Erythrocyte-Sedimentation-Rate_vs_Negative-Association-with-Erythrocyte-Sedimentation-Rate_UP	NA	836
-bsdb:Wang2026 Study/22/1_Gingivitis:Positive-Association-with-Plaque-Index_vs_Negative-Association-with-Plaque-Index_UP	NA	239759
+bsdb:Wang2026 Study/22/1_Gingivitis:Positive-Association-with-Plaque-Index_vs_Negative-Association-with-Plaque-Index_DOWN	NA	239759
 bsdb:Wang2026 Study/23/1_Ulcerative-colitis:Positive--Association-with-Bleeding-Index_vs_Negative-Association-with-Bleeding-Index_DOWN	NA	239759
 bsdb:Wang2026 Study/24/1_Ulcerative-colitis:Positive-Association-with-Bleeding-on-Probing_vs_Negative-Association-with-Bleeding-on-Probing_DOWN	NA	239759
 bsdb:Wang2026 Study/25/1_Ulcerative-colitis:Positive-Association-with-Probing-Depth->=-4mm_vs_Negative-Association-with-Probing-Depth->=-4mm_DOWN	NA	186803	239759
