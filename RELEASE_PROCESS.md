@@ -52,7 +52,8 @@ and link existing or new curation issues next to the studies they cover.
 Post the report from the commit run, since that run downloads the data
 again and its list can differ from the dry run's. GitHub limits an issue
 to 65,536 characters, so a long report is split into `dropped-2.md`,
-`dropped-3.md`, ...; post those as comments, in order.
+`dropped-3.md`, ...; post those as comments, in order. Close the previous
+release's meta-issue when posting the new one.
 
 ### Overrides
 
