@@ -47,7 +47,7 @@ counts(bugsigdbr::importBugSigDB(version = "<new DOI>", cache = FALSE))
 - [ ] Commit run with the same tag. Pass new fields, QC changes and anything else users should know in the `news` input, in Bioconductor NEWS format
 - [ ] GitHub release and tag checked; Zenodo record published and its metadata checked
 - [ ] `importBugSigDB(version = "<new DOI>")` works and returns any new columns
-- [ ] Check the commit run's `dropped.md` by hand and post it as a meta-issue on waldronlab/BugSigDBcuration (`dropped-2.md` and on as comments), linking existing and new curation issues next to the studies they cover
+- [ ] Check the commit run's `dropped.md` by hand and post it as a meta-issue on waldronlab/BugSigDBcuration (`dropped-2.md` and on as comments), linking existing and new curation issues next to the studies they cover; close the previous release's meta-issue
 
 ### bugsigdbr, after the DOI exists, pushed by the day before the build and check deadline
 
