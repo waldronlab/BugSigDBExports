@@ -100,6 +100,18 @@ CHECK_NOTES <- c(
 # reviewed when they have a Reviewer.
 releaseChecks <- function(bsdb)
 {
+    # columns that come from bugsigdb.org's export; stop with a clear message
+    # if one is renamed or dropped there
+    needed <- c("BSDB ID", "Study", "Study design", "PMID", "DOI", "Year",
+                "Experiment", "Condition", "EFO ID", "Group 0 name", "Group 1 name",
+                "Group 1 definition", "Group 0 sample size", "Group 1 sample size",
+                "Significance threshold", "LDA Score above", "Signature page name",
+                "Source", "Curated date", "Abundance in Group 1", "Reviewer",
+                "NCBI Taxonomy IDs", "Quality control tag", "Review state")
+    missing <- setdiff(needed, names(bsdb))
+    if (length(missing))
+        stop("Release QC needs columns missing from the BugSigDB export: ",
+             paste(missing, collapse = ", "))
     has.sig <- !is.na(bsdb[["Signature page name"]])
     fail <- function(pass, sig.level = FALSE)
     {
