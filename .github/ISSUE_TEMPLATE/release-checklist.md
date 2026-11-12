@@ -21,7 +21,7 @@ The last release is vX.Y.Z ([<DOI>](https://doi.org/<DOI>)): <S0> signatures fro
 There are two NEWS files: `NEWS` on the `release` branch of this repo, written by the Release BugSigDB workflow from its `news` input, and `NEWS.md` in bugsigdbr. Signature and study counts:
 
 ```r
-# rows without a signature are experiments recording a negative taxonomic result
+# rows without a signature are experiments recording a negative taxonomic result and alpha diversity
 counts <- function(bsdb)
     c(signatures = sum(!is.na(bsdb$`Signature page name`)),
       studies = length(unique(bsdb$Study)))
@@ -54,10 +54,10 @@ counts(bugsigdbr::importBugSigDB(version = "<new DOI>", cache = FALSE))
 - [ ] New DOI as the `importBugSigDB()` default; add vX.Y.Z to the release list in the roxygen and regenerate `man/`
 - [ ] Document new columns in `importBugSigDB()`
 - [ ] R CMD check against the new release
-- [ ] Version bump and `NEWS.md` entry; check it parses with `utils::news()` so it reaches the release announcement:
+- [ ] Version bump in `DESCRIPTION` (devel stays odd, e.g. 1.19.1), and a `NEWS.md` entry headed with the upcoming release version (even, e.g. 1.20.0); check it parses with `utils::news()` so it reaches the release announcement:
 
   ```
-  ## Changes in version x.y.z
+  ## Changes in version <release version, e.g. 1.20.0>
 
   * `importBugSigDB()` defaults to BugSigDB release vX.Y.Z
     (<new DOI>): <S> signatures from <T> studies, up from <S0>
