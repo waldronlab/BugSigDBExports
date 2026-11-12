@@ -1,4 +1,4 @@
-# 0003. Experiments without signatures are released when their study is reviewed
+# 0004. Experiments without signatures are released when their study is reviewed
 
 - **Status:** Proposed
 - **Date:** 2026-11-12
@@ -11,7 +11,7 @@ An experiment with no signatures can record a negative taxonomic result, with di
 ## Decision
 
 1. An experiment without signatures is released when its study's `Review state` is "Reviewed".
-2. Otherwise it is dropped as unreviewed, which can't be overridden (ADR 0002).
+2. Otherwise it is dropped as unreviewed, which can't be overridden (ADR 0003).
 3. The other release checks that apply to experiments and studies still apply (ADR 0001).
 4. These experiments appear in `full_dump.csv` with empty signature columns, and not in the GMT files.
 
@@ -26,4 +26,4 @@ An experiment with no signatures can record a negative taxonomic result, with di
 - `full_dump.csv` rows no longer all have a signature. Counts of signatures should count rows with a `Signature page name`; `bugsigdbr::getSignatures()` already skips the other rows.
 - Experiments in unreviewed studies wait for the study's review.
 
-References: #67, ADR 0001, ADR 0002.
+References: #67, ADR 0001, ADR 0003.

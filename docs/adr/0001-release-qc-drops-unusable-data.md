@@ -15,7 +15,7 @@ The hourly devel export is unfiltered. Stable releases, the default for `bugsigd
    - retracted studies (`Quality control tag` contains "Retracted paper");
    - studies whose `Review state` is "Incorrect";
    - studies with neither a valid PMID nor a valid DOI;
-   - unreviewed data: signatures without a Reviewer, and experiments without signatures whose study isn't reviewed (ADR 0003);
+   - unreviewed data: signatures without a Reviewer, and experiments without signatures whose study isn't reviewed (ADR 0004);
    - signatures with no taxa resolved to an NCBI Taxonomy ID;
    - rows failing the existing completeness and format checks.
 3. Other QC tags, such as "Contamination issues suspected" and "Results are suspect", don't drop data. They stay as columns for users to filter.
@@ -34,4 +34,4 @@ The hourly devel export is unfiltered. Stable releases, the default for `bugsigd
 - The release QC report is the curators' list of what to fix (ADR 0002).
 - Released DOIs can differ in format from those on bugsigdb.org.
 
-References: #47, #59, #67, waldronlab/BugSigDB#302, waldronlab/BugSigDB#335.
+References: #47, #59, #67, waldronlab/BugSigDB#302, waldronlab/BugSigDB#335, ADR 0002.
