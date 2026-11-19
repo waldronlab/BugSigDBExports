@@ -173,6 +173,8 @@ Zenodo, which the next run reuses; a version already on Zenodo with
 `full_dump.csv` is not uploaded again. To see what would be uploaded without
 a token:
 `python3 inst/scripts/zenodo_release.py --version vX.Y.Z --dir <checkout of the tag> --plan`.
+Its tests, which don't call Zenodo, run before each upload:
+`python3 -m unittest discover -s inst/tests -p 'test_*.py'`.
 
 After publishing:
 

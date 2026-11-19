@@ -63,6 +63,11 @@ jobs:
           path: release
           fetch-depth: 1
 
+      - name: Test the upload script
+        run: |
+          cd $GITHUB_WORKSPACE/BugSigDBExports
+          python3 -m unittest discover -s inst/tests -p 'test_*.py' -v
+
       - name: Upload to Zenodo
         id: upload
         env:
