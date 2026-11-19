@@ -313,6 +313,10 @@ readFiles <- function(files, delay = 60)
     studs <- studs[,ind]
     ind <- colnames(studs) == "Study page name"
     colnames(studs)[ind] <- "Study"
+    # the export splits page names at "/", so experiments and signatures of
+    # studies named e.g. by a DOI can't be matched to them below
+    unexported <- setdiff(grep("/", studs$Study, fixed = TRUE, value = TRUE),
+                          exps$Study)
 
     ind <- setdiff(colnames(exps), c("Reviewer", "State"))
     exps <- exps[,ind]
@@ -353,6 +357,7 @@ readFiles <- function(files, delay = 60)
     mode(odf) <- "integer"
     ind <- do.call(order, as.data.frame(odf))
     bugsigdb <- sigs[ind,]
+    attr(bugsigdb, "unexported") <- unexported
     return(bugsigdb)
 }
 
@@ -405,6 +410,10 @@ links <- getBugSigDBExportURLs()
 files <- downloadFiles(links)
 
 bsdb <- readFiles(files)
+unexported <- attr(bsdb, "unexported")
+if (length(unexported))
+    warning("Studies missing from the export because their page name contains '/': ",
+            paste(unexported, collapse = ", "))
 abstr.col <- "Abstract"
 bsdb <- bsdb[,colnames(bsdb) != abstr.col]
 
@@ -427,7 +436,9 @@ if (isTRUE(validate)) {
     dir.create(qc.dir)
     writeDroppedReport(bsdb, qc$failed, qc$cleared, qc$stale, version,
                        md.file = file.path(qc.dir, "dropped.md"),
-                       csv.file = file.path(qc.dir, "dropped.csv"))
+                       csv.file = file.path(qc.dir, "dropped.csv"),
+                       kept = keptProblems(bsdb[rowSums(qc$failed) == 0, ]),
+                       unexported = unexported)
     bsdb <- bsdb[rowSums(qc$failed) == 0, ]
 }
 

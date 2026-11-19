@@ -14,7 +14,7 @@ on:
         required: true
         type: string
       news:
-        description: "Enter NEWS file updates (optional)"
+        description: "NEWS content (optional); \\n for line breaks, or real newlines via gh workflow run"
         required: false
         type: string
 
@@ -64,6 +64,11 @@ jobs:
         run: |
           Rscript -e "BiocManager::install('bugsigdbr')"
 
+      - name: Test release QC
+        run: |
+          cd $GITHUB_WORKSPACE/BugSigDBExports
+          Rscript -e 'testthat::test_dir("inst/tests", stop_on_failure = TRUE)'
+
       - name: Setup git config for release
         run: |
           cd $GITHUB_WORKSPACE/BugSigDBExports-release
@@ -80,33 +85,35 @@ jobs:
           mv *csv $GITHUB_WORKSPACE/BugSigDBExports
         timeout-minutes: 10
 
+      # NEW DATA section of NEWS: a SUMMARY computed in R from full_dump.csv
+      # (its line count includes line breaks inside Description fields), then
+      # the row counts of the GMT files, one signature per line
       - name: Count new rows
         run: |
           cd $GITHUB_WORKSPACE/BugSigDBExports
-          ROW_COUNTS=""
-          for file in full_dump.csv bugsigdb_signatures_*.gmt; do
-            OLD_ROWS=$(tail -n +2 $GITHUB_WORKSPACE/BugSigDBExports-release/$file | wc -l)
-            NEW_ROWS=$(tail -n +2 $GITHUB_WORKSPACE/BugSigDBExports/$file | wc -l)
+          RELEASE_DIR=$GITHUB_WORKSPACE/BugSigDBExports-release
+          NEW_DATA=$GITHUB_WORKSPACE/new_data.txt
+          Rscript inst/scripts/release_summary.R full_dump.csv $RELEASE_DIR/full_dump.csv $RELEASE_DIR/NEWS > $NEW_DATA
+          for file in bugsigdb_signatures_*.gmt; do
+            OLD_ROWS=$(tail -n +2 $RELEASE_DIR/$file | wc -l)
+            NEW_ROWS=$(tail -n +2 $file | wc -l)
             DIFF=$((NEW_ROWS - OLD_ROWS))
             if [ $DIFF -ge 0 ]; then
               DIFF_STR="+$DIFF"
             else
               DIFF_STR="$DIFF"
             fi
-            echo "$file: $OLD_ROWS -> $NEW_ROWS ($DIFF_STR)"
-            ROW_COUNTS="$ROW_COUNTS\n    o $file: $NEW_ROWS rows ($DIFF_STR)"
+            echo "    o $file: $NEW_ROWS rows ($DIFF_STR)" >> $NEW_DATA
           done
-          echo "ROW_COUNTS<<EOF" >> $GITHUB_ENV
-          printf "$ROW_COUNTS" >> $GITHUB_ENV
-          echo "" >> $GITHUB_ENV
-          echo "EOF" >> $GITHUB_ENV
+          cat $NEW_DATA
 
       - name: Check for new data
         id: check_new_data
+        shell: bash
         run: |
-          OLD_ROWS=$(tail -n +2 $GITHUB_WORKSPACE/BugSigDBExports-release/full_dump.csv | wc -l)
-          NEW_ROWS=$(tail -n +2 $GITHUB_WORKSPACE/BugSigDBExports/full_dump.csv | wc -l)
-          if [ "$OLD_ROWS" = "$NEW_ROWS" ]; then
+          # compare contents without the header line, which has the timestamp
+          if cmp -s <(tail -n +2 $GITHUB_WORKSPACE/BugSigDBExports-release/full_dump.csv) \
+                    <(tail -n +2 $GITHUB_WORKSPACE/BugSigDBExports/full_dump.csv); then
             echo "No changes to full_dump.csv since last release."
             echo "has_new_data=false" >> $GITHUB_OUTPUT
           else
@@ -119,16 +126,31 @@ jobs:
           cp $GITHUB_WORKSPACE/BugSigDBExports/full_dump.csv $GITHUB_WORKSPACE/BugSigDBExports-release/
           cp $GITHUB_WORKSPACE/BugSigDBExports/*.gmt $GITHUB_WORKSPACE/BugSigDBExports-release/
 
+      # The news input goes through an environment variable, so that quotes,
+      # parentheses, % and newlines in it reach NEWS as written
       - name: Update NEWS
         if: ${{ steps.check_new_data.outputs.has_new_data == 'true' }}
+        env:
+          NEWS_INPUT: ${{ github.event.inputs.news }}
+        shell: bash
         run: |
+          # the web form takes one line, so expand a literal \n there
+          NEWS_INPUT="${NEWS_INPUT//\\n/$'\n'}"
           cd $GITHUB_WORKSPACE/BugSigDBExports-release
-          NEWS_CONTENT="CHANGES IN VERSION ${{ github.event.inputs.version }}\n------------------------\nNEW DATA\n${{ env.ROW_COUNTS }}\n"
-          if [ -n "${{ github.event.inputs.news }}" ]; then
-            NEWS_CONTENT="$NEWS_CONTENT\n${{ github.event.inputs.news }}\n"
-          fi
-          NEWS_CONTENT="$NEWS_CONTENT\n"
-          printf "$NEWS_CONTENT" | cat - NEWS > NEWS.tmp && mv NEWS.tmp NEWS
+          {
+            echo "CHANGES IN VERSION $VERSION"
+            echo "------------------------"
+            echo ""
+            echo "NEW DATA"
+            echo ""
+            cat $GITHUB_WORKSPACE/new_data.txt
+            if [ -n "$NEWS_INPUT" ]; then
+              echo ""
+              printf '%s\n' "$NEWS_INPUT"
+            fi
+            echo ""
+            cat NEWS
+          } > NEWS.tmp && mv NEWS.tmp NEWS
 
       - name: Stage artifacts
         if: ${{ steps.check_new_data.outputs.has_new_data == 'true' && github.event.inputs.dryrun == 'true' }}
@@ -166,6 +188,10 @@ jobs:
           echo "* Artifacts are available for download on this run's page." >> $GITHUB_STEP_SUMMARY
           echo "* If the data looks good, trigger the workflow again with \`dryrun\` set to \`false\` and the same tag \`${{ github.event.inputs.version }}\`." >> $GITHUB_STEP_SUMMARY
           echo "* Add content to NEWS with \`news\`." >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
+          cat $GITHUB_WORKSPACE/new_data.txt >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           QC_DIR="$GITHUB_WORKSPACE/BugSigDBExports/release_qc"
           if [ -f "$QC_DIR/dropped.md" ]; then

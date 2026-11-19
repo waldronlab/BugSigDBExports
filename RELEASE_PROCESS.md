@@ -55,6 +55,19 @@ to 65,536 characters, so a long report is split into `dropped-2.md`,
 `dropped-3.md`, ...; post those as comments, in order. Close the previous
 release's meta-issue when posting the new one.
 
+The report ends with a "Kept, needs fixing" part, also in
+`release_qc/kept.csv`: problems in released data that don't justify
+dropping it, such as a taxon in both the increased and decreased signature
+of an experiment, identical signatures, a taxon listed twice, equal group
+names, groups of size 1, and missing or shared DOIs. Each study has a Fixed
+on bugsigdb.org box only. It also lists Complete studies missing from every
+export because their page name contains `/`, which the BugSigDB CSV export
+splits on.
+
+Tests for the checks, the report helpers and the NEWS SUMMARY are in
+`inst/tests`; run them with `Rscript -e 'testthat::test_dir("inst/tests")'`.
+The release workflow runs them before exporting.
+
 ### Overrides
 
 Each study in the meta-issue has two boxes. Curators tick **Fixed on
@@ -89,12 +102,14 @@ overrides that match nothing under "Stale overrides", for removal.
    - `dryrun`: `true`
    - `version`: your version tag e.g. `v1.3.2`
    - `news`: optional additional NEWS content in Bioconductor plain text
-     format e.g. `NEW FEATURES\n\n    o Added new filter`
+     format. The web form takes a single line, so for multi-line content
+     use the gh CLI from a file:
+     `gh workflow run release-bugsigdb.yml -f dryrun=true -f version=v1.3.2 -f news="$(cat news.txt)"`
 3. Wait for the workflow to complete
 4. Download the artifact from the Actions run page (available for 90 days)
 5. Inspect the files:
    - Check that `full_dump.csv` and the GMT files look correct
-   - Check that `NEWS` has the correct row counts and any notes you provided
+   - Check the SUMMARY and row counts in `NEWS`, and any notes you provided
    - Verify row count changes are as expected
 6. Review the run summary posted at the bottom of the Actions run page
 
@@ -143,7 +158,8 @@ CHANGES IN VERSION v1.3.2
 
 NEW DATA
 
-    o full_dump.csv: 8421 rows (+8)
+    o SUMMARY: 7,433 signatures and 0 experiments without signatures
+      from 1,250 studies (v1.3.1: 7,425, 0 and 1,246)
     o bugsigdb_signatures_genus_metaphlan.gmt: 5298 rows (+15)
     ...
 
@@ -152,5 +168,8 @@ OPTIONAL USER-PROVIDED SECTION
     o Additional notes here
 ```
 
-Row counts show `+N` for additions and `-N` for removals relative to the
-previous release. Counts exclude the header row.
+The SUMMARY is computed by `inst/scripts/release_summary.R` from
+`full_dump.csv`, whose line count would include line breaks inside
+Description fields. GMT row counts, one signature per row, show `+N` for
+additions and `-N` for removals relative to the previous release. Counts
+exclude the header row.

@@ -37,13 +37,19 @@ valid_pmid <- function(x)
 valid_doi <- function(x)
     stringr::str_detect(x, "^10\\.[0-9]{4,9}/\\S+$")
 
-# Strip "doi:" and doi.org URL prefixes and a trailing period, so that
-# e.g. "doi: 10.1186/s40168-024-01758-4." becomes "10.1186/s40168-024-01758-4"
+# Strip "doi:" and doi.org URL prefixes, a trailing period and whitespace,
+# and decode URL-encoded slashes, so that e.g.
+# "doi: 10.1186/s40168-024-01758-4." becomes "10.1186/s40168-024-01758-4"
+# and "10.3389%2Ffmicb.2022.875101" becomes "10.3389/fmicb.2022.875101"
 normalize_doi <- function(x)
 {
     x <- trimws(x)
     x <- sub("^(?i)[\\s:]*(doi:\\s*|(https?://)?(dx\\.)?doi\\.org[/_])?", "", x, perl = TRUE)
-    sub("\\.$", "", x)
+    x <- gsub("%2F", "/", x, ignore.case = TRUE)
+    x <- gsub("\\s+", "", x)
+    x <- sub("\\.$", "", x)
+    x[!is.na(x) & !nzchar(x)] <- NA
+    x
 }
 
 
@@ -154,6 +160,146 @@ releaseChecks <- function(bsdb)
 }
 
 
+## Kept, needs fixing
+
+# Problems in released data that don't justify dropping it, listed in
+# dropped.md for curators. Labels are the headings of dropped.md.
+KEPT_LABELS <- c(
+    both_directions = "Taxon in both the increased and decreased signature",
+    identical_signatures = "Identical signatures in one experiment",
+    duplicate_taxa = "Same taxon listed twice in a signature",
+    same_group_names = "Group 0 name equal to Group 1 name",
+    group_size_one = "Group of size 1",
+    shared_doi = "Same DOI as another study",
+    malformed_doi = "DOI that normalization can't fix",
+    empty_ncbi_id = "Empty entry in the NCBI Taxonomy ID list"
+)
+
+KEPT_NOTES <- c(
+    both_directions = paste(
+        "Within one experiment, the same taxon is in a signature with increased",
+        "abundance and in one with decreased abundance. Shown as the number of",
+        "such taxa, with the number at species level, and the first few names."),
+    duplicate_taxa = paste(
+        "Usually two names that NCBI Taxonomy treats as synonyms; keep one."),
+    empty_ncbi_id = paste(
+        "Not for curators: these signatures list a taxon whose NCBI ID has no",
+        "ranked lineage, such as 2 (Bacteria), which the BugSigDB export writes",
+        "as an empty entry. Listed for the BugSigDB export to fix.")
+)
+
+# Checks listed without checkboxes, because curators can't fix them
+KEPT_NO_CHECKBOX <- "empty_ncbi_id"
+
+# Last element of MetaPhlAn names, without its rank prefix
+taxonLeaf <- function(x) sub("^.*\\|?[a-z]__", "", x)
+
+# One row per flagged experiment or signature (or study, for DOI problems):
+# check key, Study, item ("2" for Experiment 2, "2/1" for its Signature 1,
+# or "" for the study) and a short detail.
+keptProblems <- function(bsdb)
+{
+    out <- list()
+    add <- function(check, study, item, detail = "")
+        if (length(study))
+            out[[length(out) + 1]] <<- data.frame(check = check, Study = study,
+                                                 item = item, detail = detail)
+    expNum <- function(e) sub("^Experiment ", "", e)
+    sigNum <- function(s) sub("^Signature ", "", s)
+
+    sigs <- bsdb[!is.na(bsdb$`Signature page name`), ]
+    noNA <- function(x) { x <- as.character(x); x[is.na(x)] <- ""; x }
+    raw.ids <- noNA(sigs$`NCBI Taxonomy IDs`)
+    ids <- strsplit(raw.ids, ";")
+    mp <- strsplit(noNA(sigs$`MetaPhlAn taxon names`), ",")
+    aligned <- lengths(ids) == lengths(mp)
+    dir <- sigs$`Abundance in Group 1`
+
+    # signature level
+    dup <- vapply(ids, function(x) anyDuplicated(x[x != ""]) > 0, logical(1))
+    dup.names <- vapply(which(dup), function(i) {
+        x <- ids[[i]]
+        d <- unique(x[x != "" & duplicated(x)])
+        if (aligned[i]) paste(unique(taxonLeaf(mp[[i]][x %in% d])), collapse = ", ")
+        else paste(d, collapse = ", ")
+    }, character(1))
+    add("duplicate_taxa", sigs$Study[dup],
+        paste(expNum(sigs$Experiment[dup]), sigNum(sigs$`Signature page name`[dup]), sep = "/"),
+        dup.names)
+    # an empty entry anywhere, including a leading or trailing ";"
+    emp <- nzchar(raw.ids) & grepl("(^|;)(;|$)", raw.ids)
+    add("empty_ncbi_id", sigs$Study[emp],
+        paste(expNum(sigs$Experiment[emp]), sigNum(sigs$`Signature page name`[emp]), sep = "/"))
+
+    # experiment level, over signatures
+    by.exp <- split(seq_len(nrow(sigs)), factor(paste(sigs$Study, sigs$Experiment, sep = "\r"),
+                                                 levels = unique(paste(sigs$Study, sigs$Experiment, sep = "\r"))))
+    for (r in by.exp) {
+        study <- sigs$Study[r[1]]
+        exp <- expNum(sigs$Experiment[r[1]])
+        inc <- r[dir[r] %in% "increased"]
+        dec <- r[dir[r] %in% "decreased"]
+        both <- setdiff(intersect(unlist(ids[inc]), unlist(ids[dec])), "")
+        if (length(both)) {
+            names.r <- r[aligned[r]]
+            lookup <- setNames(as.character(unlist(mp[names.r])),
+                               as.character(unlist(ids[names.r])))
+            nm <- unname(lookup[both])
+            nm[is.na(nm)] <- both[is.na(nm)]
+            nspec <- sum(grepl("s__[^|]*$", nm))
+            first <- paste(head(taxonLeaf(nm), 3), collapse = ", ")
+            add("both_directions", study, exp,
+                sprintf("%d %s, %d species: %s%s", length(both),
+                        if (length(both) == 1) "taxon" else "taxa", nspec, first,
+                        if (length(both) > 3) ", ..." else ""))
+        }
+        key <- vapply(ids[r], function(x) paste(sort(unique(x[x != ""])), collapse = ";"), character(1))
+        key[!nzchar(key)] <- NA
+        d <- !is.na(key) & (duplicated(key) | duplicated(key, fromLast = TRUE))
+        if (any(d)) {
+            sets <- split(sigNum(sigs$`Signature page name`[r][d]), key[d])
+            add("identical_signatures", study, exp,
+                paste(vapply(sets, function(s) paste("Signatures", paste(s, collapse = " and ")),
+                             character(1)), collapse = "; "))
+        }
+    }
+
+    # experiment level, over experiments
+    exps <- bsdb[!duplicated(bsdb[, c("Study", "Experiment")]), ]
+    same <- !is.na(exps$`Group 0 name`) & !is.na(exps$`Group 1 name`) &
+        trimws(tolower(exps$`Group 0 name`)) == trimws(tolower(exps$`Group 1 name`))
+    add("same_group_names", exps$Study[same], expNum(exps$Experiment[same]),
+        exps$`Group 1 name`[same])
+    n0 <- suppressWarnings(as.numeric(exps$`Group 0 sample size`))
+    n1 <- suppressWarnings(as.numeric(exps$`Group 1 sample size`))
+    one <- n0 %in% 1 | n1 %in% 1
+    add("group_size_one", exps$Study[one], expNum(exps$Experiment[one]),
+        sprintf("Group 0: %s, Group 1: %s", n0[one], n1[one]))
+
+    # study level
+    studs <- bsdb[!duplicated(bsdb$Study), c("Study", "DOI")]
+    studs <- studs[!is.na(studs$DOI), ]
+    doi <- tolower(studs$DOI)
+    shared <- doi %in% doi[duplicated(doi)]
+    add("shared_doi", studs$Study[shared], "",
+        vapply(which(shared), function(i)
+            paste("same as", paste(setdiff(studs$Study[doi == doi[i]], studs$Study[i]),
+                                   collapse = ", ")), character(1)))
+    bad <- !valid_doi(studs$DOI)
+    add("malformed_doi", studs$Study[bad], "", studs$DOI[bad])
+
+    if (!length(out))
+        return(data.frame(check = character(), Study = character(),
+                          item = character(), detail = character()))
+    kept <- do.call(rbind, out)
+    kept$check <- factor(kept$check, levels = names(KEPT_LABELS))
+    kept <- kept[order(kept$check), ]
+    kept$check <- as.character(kept$check)
+    rownames(kept) <- NULL
+    kept
+}
+
+
 ## Overrides
 
 OVERRIDE_COLUMNS <- c("check", "bsdb_id", "reason", "issue")
@@ -255,8 +401,14 @@ parseOverrideMarkers <- function(lines)
 
 # Markdown list of dropped data, grouped by check and study, for a human to
 # review and post as a meta-issue on waldronlab/BugSigDBcuration
+#
+# kept: data frame from keptProblems() on the released rows, listed in a
+# "Kept, needs fixing" part; kept.csv is written next to csv.file.
+# unexported: Complete studies whose experiments and signatures can't be
+# matched to them in the BugSigDB export (page names containing "/").
 writeDroppedReport <- function(bsdb, failed, cleared, stale, version,
-                               md.file, csv.file, max.ids = 10)
+                               md.file, csv.file, max.ids = 10,
+                               kept = NULL, unexported = character())
 {
     dropped <- rowSums(failed) > 0
     reasons <- apply(failed[dropped, , drop = FALSE], 1,
@@ -352,6 +504,50 @@ writeDroppedReport <- function(bsdb, failed, cleared, stale, version,
             "These overrides match nothing in this export; remove them from the overrides file.", "",
             sprintf("- %s: %s", stale$check, stale$bsdb_id))))
     }
+    if (length(unexported)) {
+        sections <- c(sections, list(c("", "### Study page name contains a slash", "",
+            paste("These Complete studies are missing from every export, because the",
+                  "BugSigDB CSV export splits page names at `/`, so their experiments and",
+                  "signatures can't be matched to them. Studies named by a URL should be",
+                  "renamed to their PMID or DOI."), "",
+            sprintf("- [ ] [%s](%s)", unexported, page(unexported)))))
+    }
+
+    if (!is.null(kept) && nrow(kept)) {
+        readr::write_csv(kept, file.path(dirname(csv.file), "kept.csv"))
+        kcounts <- table(factor(kept$check, levels = names(KEPT_LABELS)))
+        kstud <- tapply(kept$Study, factor(kept$check, levels = names(KEPT_LABELS)),
+                        function(s) length(unique(s)))
+        has <- names(kcounts)[kcounts > 0]
+        sections <- c(sections, list(c("", "## Kept, needs fixing", "",
+            paste("Problems in released data that don't justify dropping it. Tick the box",
+                  "after fixing the study on bugsigdb.org. Items are experiments (`2`),",
+                  "signatures (`2/1`) or the whole study."), "",
+            "| Problem | Items | Studies |", "|---|---|---|",
+            sprintf("| %s | %d | %d |", KEPT_LABELS[has], kcounts[has], kstud[has]))))
+        for (k in has) {
+            kk <- kept[kept$check == k, ]
+            sec <- c("", paste("###", KEPT_LABELS[[k]]), "")
+            if (k %in% names(KEPT_NOTES)) sec <- c(sec, KEPT_NOTES[[k]], "")
+            by.study <- split(seq_len(nrow(kk)), factor(kk$Study, levels = unique(kk$Study)))
+            lines <- vapply(names(by.study), function(s) {
+                i <- by.study[[s]]
+                if (k == "malformed_doi") kk$detail[i] <- sprintf("`%s`", kk$detail[i])
+                it <- ifelse(nzchar(kk$item[i]),
+                             ifelse(nzchar(kk$detail[i]), sprintf("%s (%s)", kk$item[i], kk$detail[i]),
+                                    kk$item[i]),
+                             kk$detail[i])
+                more <- if (length(it) > max.ids) sprintf(" and %d more", length(it) - max.ids) else ""
+                sprintf("[%s](%s): %s%s", s, page(s), paste(head(it, max.ids), collapse = "; "), more)
+            }, character(1))
+            if (k %in% KEPT_NO_CHECKBOX)
+                sec <- c(sec, sprintf("<details><summary>%d studies</summary>", length(lines)), "",
+                         paste0("- ", lines), "", "</details>")
+            else
+                sec <- c(sec, paste0("- [ ] ", lines))
+            sections <- c(sections, list(sec))
+        }
+    }
     writeReportParts(out, sections, md.file)
 }
 
@@ -371,7 +567,7 @@ writeReportParts <- function(header, sections, md.file, limit = 60000)
     }
     files <- md.file
     if (length(parts) > 1) {
-        files <- c(md.file, sub("\\.md$", paste0("-", seq_along(parts)[-1], ".md"), md.file))
+        files <- c(md.file, paste0(sub("\\.md$", "", md.file), "-", seq_along(parts)[-1], ".md"))
         parts[[1]] <- c(parts[[1]], "",
             sprintf("Continued in the next %s, posted from `%s`.",
                     ifelse(length(parts) == 2, "comment", paste(length(parts) - 1, "comments")),
