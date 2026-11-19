@@ -1,3 +1,50 @@
+CHANGES IN VERSION v1.4.0
+------------------------
+
+NEW DATA
+
+    o SUMMARY: 11,939 signatures and 147 experiments without signatures
+      from 1,847 studies (v1.3.1: 7,425, 0 and 1,246)
+    o bugsigdb_signatures_genus_metaphlan.gmt: 8444 rows (+3161)
+    o bugsigdb_signatures_genus_metaphlan_exact.gmt: 8438 rows (+3156)
+    o bugsigdb_signatures_genus_ncbi.gmt: 8444 rows (+3161)
+    o bugsigdb_signatures_genus_ncbi_exact.gmt: 8438 rows (+3156)
+    o bugsigdb_signatures_genus_taxname.gmt: 8444 rows (+3161)
+    o bugsigdb_signatures_genus_taxname_exact.gmt: 8438 rows (+3156)
+    o bugsigdb_signatures_mixed_metaphlan.gmt: 11939 rows (+4574)
+    o bugsigdb_signatures_mixed_ncbi.gmt: 11939 rows (+4574)
+    o bugsigdb_signatures_mixed_taxname.gmt: 11939 rows (+4574)
+    o bugsigdb_signatures_species_metaphlan.gmt: 5417 rows (+2069)
+    o bugsigdb_signatures_species_metaphlan_exact.gmt: 5417 rows (+2069)
+    o bugsigdb_signatures_species_ncbi.gmt: 5417 rows (+2069)
+    o bugsigdb_signatures_species_ncbi_exact.gmt: 5417 rows (+2069)
+    o bugsigdb_signatures_species_taxname.gmt: 5417 rows (+2069)
+    o bugsigdb_signatures_species_taxname_exact.gmt: 5417 rows (+2069)
+
+NEW FIELDS
+
+    o Study columns Curation method (Manual or Machine), Curation
+      protocol (methods page for machine-curated studies),
+      submittedBy and submissionDate (first revision of the Study
+      page), Review state and Quality control tag
+
+QUALITY CONTROL
+
+    o Removed studies tagged "Retracted paper"
+    o Removed studies whose Review state is "Incorrect"
+    o Removed studies with neither a valid PMID nor a valid DOI
+    o Removed signatures with no taxa resolved to an NCBI Taxonomy ID
+    o Added experiments without signatures, which record a negative
+      taxonomic result and alpha diversity, from reviewed studies. They
+      have empty signature columns in full_dump.csv
+    o DOIs normalized to the 10.xxxx/... form. Studies whose DOI was
+      a doi.org URL were previously removed; they are now included
+
+TAXONOMY
+
+    o NCBI taxonomy from ncbi-taxon-db 2026.11.1 (NCBI taxdump of
+      1 November 2026)
+
 CHANGES IN VERSION v1.3.1
 ------------------------
 
