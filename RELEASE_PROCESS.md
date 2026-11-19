@@ -148,26 +148,30 @@ After the workflow completes:
 The commit run ends by calling **Upload BugSigDB release to Zenodo**
 (`.github/workflows/zenodo-bugsigdb.yml`, `inst/scripts/zenodo_release.py`).
 It publishes a new version of the BugSigDB record,
-[10.5281/zenodo.5606165](https://doi.org/10.5281/zenodo.5606165), with
+[10.5281/zenodo.19740649](https://doi.org/10.5281/zenodo.19740649), with
 `README.md`, `full_dump.csv` and the 15 GMT files from the release tag as
-individual files. It keeps the previous version's metadata (creators,
-license, keywords) and sets the title, version, date, a link to the tag, and
-the release's NEWS entry as the description. Before publishing it checks
-that the draft has exactly these files, with matching MD5 checksums. `bugsigdbr::importBugSigDB()` downloads
-`full_dump.csv` from that record, so it can't use the zip of the repository
-that the Zenodo GitHub integration archives. The integration files those zips
-under a separate record, 10.5281/zenodo.19740649 (v1.3.1, v1.4.0); turn it
-off for this repository in Zenodo's GitHub settings so that each release
-gets one DOI.
+individual files. Title, creators, keywords and license come from
+`.zenodo.json` on the tag; the description is the release's NEWS entry.
+Before publishing, it checks that the new version has exactly these files,
+with matching MD5 checksums.
+
+`bugsigdbr::importBugSigDB()` downloads `full_dump.csv` from the record, so
+it can't use the zip of the repository that the Zenodo GitHub integration
+archives. The integration is turned off for this repository; the workflow
+replaces it. Releases up to v1.3.1 were uploaded by hand under
+[10.5281/zenodo.5606165](https://doi.org/10.5281/zenodo.5606165); v1.4.0
+(10.5281/zenodo.24379934) was archived by the integration, and its files
+were added afterwards.
 
 It needs the `ZENODO_TOKEN` repository secret: a Zenodo personal access token
-with the `deposit:write` and `deposit:actions` scopes, from an account that
-can edit the BugSigDB record.
+with the `deposit:write` and `deposit:actions` scopes, from the account that
+owns the record.
 
 To retry, or to upload a tag released without it, run the workflow by hand
 with the tag. With `publish` set to `false` it leaves a draft to check on
-Zenodo, which the next run reuses; a version already on Zenodo is not
-uploaded again. To see what would be uploaded without a token:
+Zenodo, which the next run reuses; a version already on Zenodo with
+`full_dump.csv` is not uploaded again. To see what would be uploaded without
+a token:
 `python3 inst/scripts/zenodo_release.py --version vX.Y.Z --dir <checkout of the tag> --plan`.
 
 After publishing:

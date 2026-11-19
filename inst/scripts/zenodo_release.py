@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
 """Publish a BugSigDB release on Zenodo as a new version of the BugSigDB
-record (concept 10.5281/zenodo.5606165), with full_dump.csv, the GMT files
-and README.md as individual files, which bugsigdbr::importBugSigDB() reads.
+record (concept 10.5281/zenodo.19740649, from v1.4.0 on), with
+full_dump.csv, the GMT files and README.md as individual files, which
+bugsigdbr::importBugSigDB() reads. Title, creators, keywords and license
+come from .zenodo.json in the release.
 
-The Zenodo GitHub integration archives only a zip of the repository, which
-importBugSigDB() can't read (#31, #69).
+This replaces the Zenodo GitHub integration, which archives only a zip of
+the repository that importBugSigDB() can't read (#31, #69).
 
 Usage:
   ZENODO_TOKEN=... python3 zenodo_release.py --version v1.4.0 --dir <release checkout> [--publish]
@@ -30,7 +32,8 @@ import sys
 import urllib.error
 import urllib.request
 
-CONCEPT = "5606165"
+# Releases up to v1.3.1 are also under 10.5281/zenodo.5606165, uploaded by hand
+CONCEPT = "19740649"
 INTRO = ('<p>This repository contains data files exported from&nbsp;'
          '<a href="https://bugsigdb.org/">BugSigDB</a>, a manually curated '
          'database of published microbial signatures.</p>')
@@ -87,10 +90,13 @@ def news_entry(directory, version):
     return "\n".join(entry).strip("\n")
 
 
-def metadata(base, version, news, repo):
+def metadata(base, version, news, repo, zenodo_json=None):
     """Metadata of the new version: the previous version's (as carried over to
-    the draft), with the release-specific fields replaced."""
+    the draft), with the release-specific fields and .zenodo.json applied."""
     md = {k: v for k, v in base.items() if k not in ("doi", "prereserve_doi", "version", "publication_date")}
+    for k in ("title", "creators", "keywords", "license"):
+        if zenodo_json and k in zenodo_json:
+            md[k] = zenodo_json[k]
     description = INTRO + f"\n<p>Release {version}</p>"
     if news:
         description += "\n<pre>" + html.escape(news) + "</pre>"
@@ -98,15 +104,16 @@ def metadata(base, version, news, repo):
     related = [r for r in md.get("related_identifiers", []) if not r.get("identifier", "").startswith(tree)]
     related.append({"identifier": tree + version, "relation": "isSupplementTo", "scheme": "url"})
     md.update({
-        "title": f"waldronlab/BugSigDBExports: Release {version}",
         "description": description,
         "version": version,
         "publication_date": datetime.date.today().isoformat(),
         "related_identifiers": related,
     })
-    md.setdefault("upload_type", "dataset")
+    md["upload_type"] = "dataset"  # the GitHub integration typed v1.4.0 as software
+    md.pop("resource_type", None)
     md.setdefault("access_right", "open")
-    md.setdefault("license", "cc-by-4.0")
+    lic = md.get("license") or "cc-by-4.0"
+    md["license"] = (lic.get("id", "cc-by-4.0") if isinstance(lic, dict) else lic).lower()
     return md
 
 
@@ -149,6 +156,8 @@ def main():
     files = release_files(a.dir)
     checksums = {name: md5(os.path.join(a.dir, name)) for name in files}
     news = news_entry(a.dir, a.version)
+    zj = os.path.join(a.dir, ".zenodo.json")
+    zenodo_json = json.load(open(zj, encoding="utf-8")) if os.path.isfile(zj) else None
 
     # the latest published version; the new version starts from its metadata.
     # size=25 is the most an anonymous request may list: enough to find a
@@ -167,7 +176,7 @@ def main():
     print(f"New version {a.version} with {len(files)} files: {', '.join(files)}")
 
     if a.plan:
-        print(json.dumps(metadata(latest["metadata"], a.version, news, a.repo), indent=1))
+        print(json.dumps(metadata(latest["metadata"], a.version, news, a.repo, zenodo_json), indent=1))
         return
     token = os.environ.get("ZENODO_TOKEN") or os.environ.get("ZENODO_PAT")
     if not token:
@@ -205,7 +214,7 @@ def main():
             request("PUT", f"{bucket}/{name}", token, f.read(), "application/octet-stream")
         print(f"Uploaded {name}")
     draft = request("PUT", draft["links"]["self"], token,
-                    {"metadata": metadata(draft["metadata"], a.version, news, a.repo)})
+                    {"metadata": metadata(draft["metadata"], a.version, news, a.repo, zenodo_json)})
 
     # the draft must have exactly the release files, with matching checksums
     uploaded = {f["filename"]: f["checksum"].split(":")[-1]
