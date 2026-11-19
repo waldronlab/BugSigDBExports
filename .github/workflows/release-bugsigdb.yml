@@ -139,6 +139,18 @@ jobs:
           cp $GITHUB_WORKSPACE/BugSigDBExports-release/NEWS /tmp/artifacts/
           ls /tmp/artifacts/
 
+      # dropped.md lists the data that release QC removed, for a human to
+      # check and post as a meta-issue on waldronlab/BugSigDBcuration.
+      # Uploaded by the commit run too, since it re-exports from bugsigdb.org.
+      - name: Upload release QC report
+        if: ${{ steps.check_new_data.outputs.has_new_data == 'true' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: release-qc-${{ github.event.inputs.dryrun == 'true' && 'dryrun' || 'release' }}
+          path: BugSigDBExports/release_qc/
+          if-no-files-found: error
+          retention-days: 90
+
       - name: Upload release candidate artifacts
         if: ${{ steps.check_new_data.outputs.has_new_data == 'true' && github.event.inputs.dryrun == 'true' }}
         uses: actions/upload-artifact@v4
@@ -154,6 +166,17 @@ jobs:
           echo "* Artifacts are available for download on this run's page." >> $GITHUB_STEP_SUMMARY
           echo "* If the data looks good, trigger the workflow again with \`dryrun\` set to \`false\` and the same tag \`${{ github.event.inputs.version }}\`." >> $GITHUB_STEP_SUMMARY
           echo "* Add content to NEWS with \`news\`." >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          QC_DIR="$GITHUB_WORKSPACE/BugSigDBExports/release_qc"
+          if [ -f "$QC_DIR/dropped.md" ]; then
+            # dropped.md first: the glob sorts dropped-2.md before it
+            cat "$QC_DIR/dropped.md" >> $GITHUB_STEP_SUMMARY
+            for f in "$QC_DIR"/dropped-*.md; do
+              [ -f "$f" ] && cat "$f" >> $GITHUB_STEP_SUMMARY
+            done
+          else
+            echo "No release QC report was written." >> $GITHUB_STEP_SUMMARY
+          fi
 
       - name: Commit Exports
         id: commit_exports

@@ -20,29 +20,10 @@ library(rvest)
 library(stringr)
 
 
-# Validation
-na_and_blank <- function(x)
-    is.na(x) & nzchar(trimws(x))
-
-na_or_pos_int <- function(x)
-    is.na(x) | (is.numeric(x) %% 1 == 0 & x > 0)
-
-between_exclusive <- function(x, lower = 0, upper = 1)
-    as.numeric(x) > lower & as.numeric(x) < upper
-
-between_inclusive <- function(x, lower = 0, upper = 1)
-    as.numeric(x) >= lower & as.numeric(x) <= upper
-
-valid_year <- function(x) {
-    stringr::str_detect(x, "^[0-9]{4,4}$") &
-        as.numeric(x) >= 1999 & as.numeric(x) <= lubridate::year(Sys.Date())
-}
-
-doi_url <- function(x)
-    stringr::str_detect(x, "^(http)?.*(doi.org){1}")
-
-valid_pmid <- function(x)
-    stringr::str_detect(x, "^[0-9]{8,8}$")
+# Release QC checks, overrides and report
+script.dir <- dirname(normalizePath(sub("^--file=", "",
+    grep("^--file=", commandArgs(trailingOnly = FALSE), value = TRUE))))
+source(file.path(script.dir, "release_qc.R"))
 
 
 ## CONSTANTS
@@ -437,31 +418,17 @@ bsdb <- addID(bsdb)
 # Perform additional validations to prepare for release
 if (isTRUE(validate)) {
     print("Validating data for the release")
-    bsdb <- bsdb |>
-        dplyr::filter(stringr::str_detect(`BSDB ID`, "bsdb:.*/[0-9]+/[0-9]+|NA"),
-                      !na_and_blank(Study),
-                      !na_and_blank(`Study design`),
-                      valid_pmid(PMID) | is.na(PMID),
-                      !doi_url(DOI) | is.na(DOI),
-                      valid_year(Year) | is.na(Year),
-                      stringr::str_detect(Experiment, "Experiment [0-9]+"),
-                      !is.na(Condition),
-                      !na_and_blank(`EFO ID`),
-                      !na_and_blank(`Group 0 name`),
-                      !na_and_blank(`Group 1 name`),
-                      !na_and_blank(`Group 1 definition`),
-                      na_or_pos_int(`Group 0 sample size`),
-                      na_or_pos_int(`Group 1 sample size`),
-                      is.na(`Significance threshold`) |
-                          between_exclusive(`Significance threshold`, 0, 1),
-                      is.na(`LDA Score above`) | between_inclusive(`LDA Score above`, 0, 20),
-                      stringr::str_detect(`Signature page name`, "Signature [0-9]+"),
-                      !na_and_blank(Source),
-                      # Check if valid date but not format
-                      !is.na(as.Date(`Curated date`, format = "%d %B %Y")),
-                      `Abundance in Group 1` %in% c("increased", "decreased"),
-                      State == "Complete",
-                      !is.na(Reviewer))
+    bsdb$DOI <- normalize_doi(bsdb$DOI)
+    overrides <- readOverrides(file.path(script.dir, "..", "extdata",
+                                         "release_qc_overrides.tsv"))
+    qc <- applyOverrides(bsdb, releaseChecks(bsdb), overrides)
+    qc.dir <- file.path(out.dir, "release_qc")
+    unlink(qc.dir, recursive = TRUE)
+    dir.create(qc.dir)
+    writeDroppedReport(bsdb, qc$failed, qc$cleared, qc$stale, version,
+                       md.file = file.path(qc.dir, "dropped.md"),
+                       csv.file = file.path(qc.dir, "dropped.csv"))
+    bsdb <- bsdb[rowSums(qc$failed) == 0, ]
 }
 
 # write full dump
