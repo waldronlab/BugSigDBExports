@@ -32,6 +32,13 @@ script which
 
 This script is invoked automatically every hour via a cron job.
 
+## Making a release
+
+Stable releases go with each Bioconductor release. Track each one in an
+issue created from the
+[release checklist template](https://github.com/waldronlab/BugSigDBExports/issues/new?template=release-checklist.md),
+and see [RELEASE_PROCESS.md](RELEASE_PROCESS.md) for how each step works.
+
 # bugsigdb-related links
 
 * [bugsigdb.org](https://bugsigdb.org): A Comprehensive Database of Published Microbial Signatures
