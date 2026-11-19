@@ -242,7 +242,8 @@ keptProblems <- function(bsdb)
         both <- setdiff(intersect(unlist(ids[inc]), unlist(ids[dec])), "")
         if (length(both)) {
             names.r <- r[aligned[r]]
-            lookup <- setNames(unlist(mp[names.r]), unlist(ids[names.r]))
+            lookup <- setNames(as.character(unlist(mp[names.r])),
+                               as.character(unlist(ids[names.r])))
             nm <- unname(lookup[both])
             nm[is.na(nm)] <- both[is.na(nm)]
             nspec <- sum(grepl("s__[^|]*$", nm))

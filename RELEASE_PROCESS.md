@@ -64,6 +64,10 @@ on bugsigdb.org box only. It also lists Complete studies missing from every
 export because their page name contains `/`, which the BugSigDB CSV export
 splits on.
 
+Tests for the checks, the report helpers and the NEWS SUMMARY are in
+`inst/tests`; run them with `Rscript -e 'testthat::test_dir("inst/tests")'`.
+The release workflow runs them before exporting.
+
 ### Overrides
 
 Each study in the meta-issue has two boxes. Curators tick **Fixed on

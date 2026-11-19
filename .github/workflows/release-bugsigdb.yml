@@ -64,6 +64,11 @@ jobs:
         run: |
           Rscript -e "BiocManager::install('bugsigdbr')"
 
+      - name: Test release QC
+        run: |
+          cd $GITHUB_WORKSPACE/BugSigDBExports
+          Rscript -e 'testthat::test_dir("inst/tests", stop_on_failure = TRUE)'
+
       - name: Setup git config for release
         run: |
           cd $GITHUB_WORKSPACE/BugSigDBExports-release
