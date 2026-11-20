@@ -1,242 +1,104 @@
 # Release Process
 
-This document describes how to create a new release of BugSigDBExports.
+How to make a BugSigDB data release. Track each release in an issue from the
+**Release checklist** template,
+[`.github/ISSUE_TEMPLATE/release-checklist.md`](.github/ISSUE_TEMPLATE/release-checklist.md)
+(**Issues** → **New issue** → **Release checklist**), which also covers the
+bugsigdbr update.
 
-## Overview
+## How it works
 
-BugSigDBExports has two long-lived branches:
+- **`devel`** has the code and the unfiltered export, updated hourly.
+- **`release`** has the quality-controlled files, one commit per release,
+  tagged `vX.Y.Z`. The release workflow commits to it, so don't delete it.
 
-- **`devel`**: unfiltered files, updated hourly by the **Export BugSigDB**
-  workflow, and the scripts and workflows
-- **`release`**: quality-control-filtered files, updated only on release.
-  The release workflow checks it out and commits to it, so don't delete it
-  when cleaning up branches
+A release runs on GitHub Actions: it downloads the current export from
+bugsigdb.org, drops data that fails release QC, writes the files and `NEWS`,
+and on the commit run tags the release and publishes it on GitHub and on
+Zenodo, as a new version of
+[10.5281/zenodo.19740649](https://doi.org/10.5281/zenodo.19740649). Locally,
+you review its output, approve exceptions to QC, and post the QC report for
+curators.
 
-Each release is also tagged (e.g. `v1.3.2`) for permanent, citable access.
-Tags point to a specific commit on `release` and never change.
+| File | Role |
+|---|---|
+| `.github/workflows/release-bugsigdb.yml` (**Release BugSigDB**) | Dry run: builds the release and uploads it as artifacts. Commit run: commits it to `release`, tags it, creates the GitHub release, and calls the Zenodo workflow |
+| `inst/scripts/dump_release.R` | Downloads the export and writes `full_dump.csv` and the GMT files |
+| `inst/scripts/release_qc.R` | Release QC checks, and the report of dropped data (`release_qc/dropped.md`) |
+| `inst/extdata/release_qc_overrides.tsv` | Approved exceptions to release QC |
+| `inst/scripts/scan_qc_issue.R` | Run locally: adds the ticked "Release anyway" boxes of a QC report issue to the overrides |
+| `inst/scripts/release_summary.R` | The SUMMARY line in `NEWS` |
+| `.github/workflows/zenodo-bugsigdb.yml`, `inst/scripts/zenodo_release.py` | **Upload BugSigDB release to Zenodo**: publishes the release files on Zenodo |
+| `inst/tests/` | Tests, run by the release workflow before it exports and by the Zenodo workflow before it uploads |
+| `docs/adr/` | Why release QC works as it does |
 
-## Prerequisites
+## Before you start
 
-Before making a release:
+- You need write access to the repository, and the `ZENODO_TOKEN` repository
+  secret must be set: a Zenodo token with the `deposit:write` and
+  `deposit:actions` scopes, from the account that owns the Zenodo record.
+- Add the overrides approved in the previous release's QC report issue:
+  `Rscript inst/scripts/scan_qc_issue.R <issue URL>`, fill in the `reason`
+  column, and merge the change as a pull request.
+- Write the release notes for `NEWS` in a file, e.g. `news.txt`, in
+  Bioconductor NEWS format (see [NEWS](#news)).
 
-- Open a tracking issue from the **Release checklist** issue template
-- Confirm you have write access to the repository, and that the
-  `ZENODO_TOKEN` repository secret is set (see [Zenodo](#zenodo))
-- Decide on a version tag in the format `vMAJOR.MINOR.PATCH` (e.g. `v1.3.2`)
-- Prepare any additional NEWS content you want to include beyond the
-  automatically generated SUMMARY and row counts (optional)
+## Steps
 
-## Quality Control
+1. **Dry run.**
 
-QC filtering is applied automatically when creating a release. The checks
-are defined in `releaseChecks()` in `inst/scripts/release_qc.R`, which
-`inst/scripts/dump_release.R` sources. A release leaves out:
+   ```sh
+   gh workflow run release-bugsigdb.yml -f dryrun=true -f version=vX.Y.Z -f news="$(cat news.txt)"
+   ```
 
-- signatures without a Reviewer, and experiments without signatures whose
-  study's Review state isn't "Reviewed"
-- studies tagged "Retracted paper", or whose Review state is "Incorrect"
-- studies with neither a valid PMID nor a valid DOI
-- signatures with no taxa that resolved to an NCBI Taxonomy ID
-- rows with missing or malformed required fields: BSDB ID, study design,
-  PMID, year, experiment and signature names, condition, EFO ID, group
-  names, Group 1 definition, sample sizes, significance threshold, LDA
-  score, source, curated date, and an Abundance in Group 1 other than
-  increased or decreased
+   Or use **Actions** → **Release BugSigDB** → **Run workflow**, where `\n`
+   in `news` starts a new line.
 
-Studies, experiments and signatures that are not Complete are left out of
-every export. Row count reductions between releases are expected when
-QC filters remove invalid signatures.
+2. **Check the dry run.** Its artifacts are `candidate`, with the files and
+   `NEWS`, and `release-qc-dryrun`, with `dropped.md`, which the run summary
+   also shows. Check the SUMMARY in `NEWS` and read `dropped.md`. For data
+   that is right as it is but fails a check, add an override to
+   `release_qc_overrides.tsv` by pull request and repeat the dry run.
+   Unreviewed signatures, retracted studies and studies whose Review state
+   is Incorrect can't be overridden; fix those on bugsigdb.org.
 
-Experiments without signatures, which record a negative result or only
-alpha diversity, are released when their study's Review state is
-"Reviewed". They appear in `full_dump.csv` with empty signature columns,
-and not in the GMT files.
+3. **Commit run.** The same command with `-f dryrun=false`. It downloads the
+   export again, so it can include curation done since the dry run. If the
+   export hasn't changed since the last release, it releases nothing.
 
-DOIs are normalized before the checks, so `doi: 10.1186/...` and
-`https://doi.org/10.1186/...` both become `10.1186/...`.
+4. **Check the release.** The GitHub release has the `NEWS` entry, and the
+   Zenodo DOI is in the summary of the **Upload BugSigDB release to Zenodo**
+   job, with `full_dump.csv` and the GMT files as separate files. If that
+   job failed, run the workflow by hand with the tag; `publish=false` leaves
+   a draft to check first.
 
-### Release QC report
+5. **Post the QC report.** Post `dropped.md` from the commit run's
+   `release-qc-release` artifact as an issue on
+   [BugSigDBcuration](https://github.com/waldronlab/BugSigDBcuration/issues),
+   and `dropped-2.md`, `dropped-3.md`, ... as comments, in order. Link open
+   curation issues next to the studies they cover, and close the previous
+   release's QC report issue.
 
-With validation on, `dump_release.R` writes `release_qc/dropped.md` and
-`release_qc/dropped.csv`, listing every row that release QC removed and
-why. The checks, overrides and report are in `inst/scripts/release_qc.R`.
-Both runs of the workflow upload the report as an artifact
-(`release-qc-dryrun` or `release-qc-release`), and the dry run also shows
-it in its run summary.
+6. **Update bugsigdbr** to use the new DOI, as listed in the release
+   checklist.
 
-Check `dropped.md` by hand before posting it as a meta-issue on
-[BugSigDBcuration](https://github.com/waldronlab/BugSigDBcuration/issues),
-and link existing or new curation issues next to the studies they cover.
-Post the report from the commit run, since that run downloads the data
-again and its list can differ from the dry run's. GitHub limits an issue
-to 65,536 characters, so a long report is split into `dropped-2.md`,
-`dropped-3.md`, ...; post those as comments, in order. Close the previous
-release's meta-issue when posting the new one.
+## NEWS
 
-The report ends with a "Kept, needs fixing" part, also in
-`release_qc/kept.csv`: problems in released data that don't justify
-dropping it, such as a taxon in both the increased and decreased signature
-of an experiment, identical signatures, a taxon listed twice, equal group
-names, groups of size 1, and missing or shared DOIs. Each study has a Fixed
-on bugsigdb.org box only. It also lists Complete studies missing from every
-export because their page name contains `/`, which the BugSigDB CSV export
-splits on.
-
-Tests for the checks, the report helpers and the NEWS SUMMARY are in
-`inst/tests`; run them with `Rscript -e 'testthat::test_dir("inst/tests")'`.
-The release workflow runs them before exporting.
-
-### Overrides
-
-Each study in the meta-issue has two boxes. Curators tick **Fixed on
-bugsigdb.org** after correcting a study; the fix shows up in the next export
-and the study drops out of the next report. **Release anyway** is for data
-that fails a check but is right as it is, e.g. Study 562, whose signatures
-describe body sites rather than contrast two groups, so Abundance in Group 1
-is neither increased nor decreased. To approve such an exception:
-
-1. Tick its Release anyway box in the meta-issue.
-2. Run `Rscript inst/scripts/scan_qc_issue.R <issue URL>` (needs the gh
-   CLI). It adds the ticked signatures to
-   `inst/extdata/release_qc_overrides.tsv`, one row per check and BSDB ID.
-   It skips entries with both boxes ticked, and lists overrides whose boxes
-   were unticked.
-3. Fill in the `reason` column and merge the change as a pull request.
-
-An override covers one check for the listed signatures only, so a
-signature failing several checks needs each of them approved, and new
-signatures in the same study are checked as usual. The unreviewed check
-can't be overridden, nor can retracted studies or studies whose review
-state is Incorrect. The next report
-lists approved overrides, ticked, under "Released by override", and
-overrides that match nothing under "Stale overrides", for removal.
-
-## Two-Step Release Process
-
-### Step 1: Dry run (inspect before committing)
-
-1. Go to **Actions** → **Release BugSigDB** → **Run workflow**
-2. Set the following inputs:
-   - `dryrun`: `true`
-   - `version`: your version tag e.g. `v1.3.2`
-   - `news`: optional additional NEWS content in Bioconductor plain text
-     format. The web form takes a single line, where `\n` starts a new
-     line; for multi-line content, use the gh CLI from a file:
-     `gh workflow run release-bugsigdb.yml -f dryrun=true -f version=v1.3.2 -f news="$(cat news.txt)"`
-3. Wait for the workflow to complete. It runs the tests in `inst/tests`
-   before exporting
-4. Download the artifacts from the Actions run page (available for 90
-   days): `candidate` with the release files and `NEWS`, and
-   `release-qc-dryrun` with the [release QC report](#release-qc-report)
-5. Inspect the files:
-   - Check that `full_dump.csv` and the GMT files look correct
-   - Check the SUMMARY and row counts in `NEWS`, and any notes you provided
-   - Verify row count changes are as expected
-   - Read `dropped.md`, and add overrides for data that failed a check but
-     should be released anyway (see [Overrides](#overrides)). Unreviewed
-     signatures, retracted studies and studies whose Review state is
-     Incorrect can't be overridden; fix those on bugsigdb.org instead
-6. Review the run summary posted at the bottom of the Actions run page
-
-If `full_dump.csv` is identical to the previous release's, apart from its
-header line, the workflow reports no new data and releases nothing.
-
-If the data does not look correct, do not proceed to step 2. Investigate
-the issue on `devel` and repeat step 1 when ready.
-
-### Step 2: Commit
-
-1. Go to **Actions** → **Release BugSigDB** → **Run workflow**
-2. Set the following inputs:
-   - `dryrun`: `false`
-   - `version`: the same tag as step 1
-   - `news`: the same content as step 1
-3. Wait for the workflow to complete
-4. The workflow will automatically:
-   - Export and QC-filter data from bugsigdb.org, again, so it can include
-     curation done since the dry run
-   - Compute the SUMMARY and the GMT row count differences from the
-     previous release
-   - Write the NEWS entry with these and your notes
-   - Commit filtered files and NEWS to the `release` branch
-   - Create and push the version tag
-   - Create the GitHub release
-   - Publish the release on Zenodo (the **Upload BugSigDB release to Zenodo**
-     workflow, below)
-
-## Finalizing the Release
-
-After the workflow completes, check the GitHub release and the Zenodo
-version, post the commit run's `dropped.md` as the curation meta-issue (see
-[Release QC report](#release-qc-report)), and update bugsigdbr (see the
-release checklist issue template).
-
-### GitHub Release
-
-1. Go to **Releases**
-2. Confirm the release was published with NEWS, version and appropriate tag
-
-### Zenodo
-
-The commit run ends by calling **Upload BugSigDB release to Zenodo**
-(`.github/workflows/zenodo-bugsigdb.yml`, `inst/scripts/zenodo_release.py`).
-It publishes a new version of the BugSigDB record,
-[10.5281/zenodo.19740649](https://doi.org/10.5281/zenodo.19740649), with
-`README.md`, `full_dump.csv` and the 15 GMT files from the release tag as
-individual files. Title, creators, keywords and license come from
-`.zenodo.json` on the tag; the description is the release's NEWS entry.
-Before publishing, it checks that the new version has exactly these files,
-with matching MD5 checksums.
-
-`bugsigdbr::importBugSigDB()` downloads `full_dump.csv` from the record, so
-it can't use the zip of the repository that the Zenodo GitHub integration
-archives. The integration is turned off for this repository; the workflow
-replaces it. Releases up to v1.3.1 were uploaded by hand under
-[10.5281/zenodo.5606165](https://doi.org/10.5281/zenodo.5606165); v1.4.0
-(10.5281/zenodo.24379934) was archived by the integration, and its files
-were added afterwards.
-
-It needs the `ZENODO_TOKEN` repository secret: a Zenodo personal access token
-with the `deposit:write` and `deposit:actions` scopes, from the account that
-owns the record.
-
-To retry, or to upload a tag released without it, run the workflow by hand
-with the tag. With `publish` set to `false` it leaves a draft to check on
-Zenodo, which the next run reuses; a version already on Zenodo with
-`full_dump.csv` is not uploaded again. To see what would be uploaded without
-a token:
-`python3 inst/scripts/zenodo_release.py --version vX.Y.Z --dir <checkout of the tag> --plan`.
-Its tests, which don't call Zenodo, run before each upload:
-`python3 -m unittest discover -s inst/tests -p 'test_*.py'`.
-
-After publishing:
-
-1. Open the DOI in the workflow summary and check the files and metadata
-2. Use the DOI as the `importBugSigDB()` default in bugsigdbr
-
-## NEWS File Format
-
-The NEWS file follows Bioconductor plain text format. The workflow
-automatically prepends a new entry on each release:
+The workflow adds an entry to `NEWS` on `release`, with a SUMMARY and the
+GMT row counts, followed by the `news` input:
 
 ```
-CHANGES IN VERSION v1.3.2
+CHANGES IN VERSION vX.Y.Z
 ------------------------
 
 NEW DATA
 
-    o SUMMARY: 7,433 signatures and 0 experiments without signatures
-      from 1,250 studies (v1.3.1: 7,425, 0 and 1,246)
-    o bugsigdb_signatures_genus_metaphlan.gmt: 5298 rows (+15)
+    o SUMMARY: 11,939 signatures and 147 experiments without signatures
+      from 1,847 studies (v1.3.1: 7,425, 0 and 1,246)
+    o bugsigdb_signatures_genus_metaphlan.gmt: 8444 rows (+3161)
     ...
 
-OPTIONAL USER-PROVIDED SECTION
+QUALITY CONTROL
 
-    o Additional notes here
+    o Release notes from the news input
 ```
-
-The SUMMARY is computed by `inst/scripts/release_summary.R` from
-`full_dump.csv`, whose line count would include line breaks inside
-Description fields. GMT row counts, one signature per row, show `+N` for
-additions and `-N` for removals relative to the previous release. Counts
-exclude the header row.
