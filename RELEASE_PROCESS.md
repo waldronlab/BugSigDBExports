@@ -6,8 +6,11 @@ This document describes how to create a new release of BugSigDBExports.
 
 BugSigDBExports has two long-lived branches:
 
-- **`devel`** — unfiltered files, updated hourly by a GitHub Action workflow
-- **`release`** — quailty-control-filtered files, updated only on release
+- **`devel`**: unfiltered files, updated hourly by the **Export BugSigDB**
+  workflow, and the scripts and workflows
+- **`release`**: quality-control-filtered files, updated only on release.
+  The release workflow checks it out and commits to it, so don't delete it
+  when cleaning up branches
 
 Each release is also tagged (e.g. `v1.3.2`) for permanent, citable access.
 Tags point to a specific commit on `release` and never change.
@@ -16,17 +19,32 @@ Tags point to a specific commit on `release` and never change.
 
 Before making a release:
 
-- Confirm you have write access to the repository
+- Open a tracking issue from the **Release checklist** issue template
+- Confirm you have write access to the repository, and that the
+  `ZENODO_TOKEN` repository secret is set (see [Zenodo](#zenodo))
 - Decide on a version tag in the format `vMAJOR.MINOR.PATCH` (e.g. `v1.3.2`)
 - Prepare any additional NEWS content you want to include beyond the
-  automatically generated row counts (optional)
+  automatically generated SUMMARY and row counts (optional)
 
 ## Quality Control
 
-QC filtering is applied automatically when creating a release. Filters are
-defined in `inst/scripts/dump_release.R` and remove incomplete signatures.
+QC filtering is applied automatically when creating a release. The checks
+are defined in `releaseChecks()` in `inst/scripts/release_qc.R`, which
+`inst/scripts/dump_release.R` sources. A release leaves out:
 
-Row count reductions between releases are expected and intentional when
+- signatures without a Reviewer, and experiments without signatures whose
+  study's Review state isn't "Reviewed"
+- studies tagged "Retracted paper", or whose Review state is "Incorrect"
+- studies with neither a valid PMID nor a valid DOI
+- signatures with no taxa that resolved to an NCBI Taxonomy ID
+- rows with missing or malformed required fields: BSDB ID, study design,
+  PMID, year, experiment and signature names, condition, EFO ID, group
+  names, Group 1 definition, sample sizes, significance threshold, LDA
+  score, source, curated date, and an Abundance in Group 1 other than
+  increased or decreased
+
+Studies, experiments and signatures that are not Complete are left out of
+every export. Row count reductions between releases are expected when
 QC filters remove invalid signatures.
 
 Experiments without signatures, which record a negative result or only
@@ -95,28 +113,36 @@ overrides that match nothing under "Stale overrides", for removal.
 
 ## Two-Step Release Process
 
-### Step 1 — Dry Run (inspect before committing)
+### Step 1: Dry run (inspect before committing)
 
 1. Go to **Actions** → **Release BugSigDB** → **Run workflow**
 2. Set the following inputs:
    - `dryrun`: `true`
    - `version`: your version tag e.g. `v1.3.2`
    - `news`: optional additional NEWS content in Bioconductor plain text
-     format. The web form takes a single line, so for multi-line content
-     use the gh CLI from a file:
+     format. The web form takes a single line, where `\n` starts a new
+     line; for multi-line content, use the gh CLI from a file:
      `gh workflow run release-bugsigdb.yml -f dryrun=true -f version=v1.3.2 -f news="$(cat news.txt)"`
-3. Wait for the workflow to complete
-4. Download the artifact from the Actions run page (available for 90 days)
+3. Wait for the workflow to complete. It runs the tests in `inst/tests`
+   before exporting
+4. Download the artifacts from the Actions run page (available for 90
+   days): `candidate` with the release files and `NEWS`, and
+   `release-qc-dryrun` with the [release QC report](#release-qc-report)
 5. Inspect the files:
    - Check that `full_dump.csv` and the GMT files look correct
    - Check the SUMMARY and row counts in `NEWS`, and any notes you provided
    - Verify row count changes are as expected
+   - Read `dropped.md`, and add overrides for data that should be released
+     anyway (see [Overrides](#overrides))
 6. Review the run summary posted at the bottom of the Actions run page
+
+If `full_dump.csv` is identical to the previous release's, apart from its
+header line, the workflow reports no new data and releases nothing.
 
 If the data does not look correct, do not proceed to step 2. Investigate
 the issue on `devel` and repeat step 1 when ready.
 
-### Step 2 — Commit
+### Step 2: Commit
 
 1. Go to **Actions** → **Release BugSigDB** → **Run workflow**
 2. Set the following inputs:
@@ -125,9 +151,11 @@ the issue on `devel` and repeat step 1 when ready.
    - `news`: the same content as step 1
 3. Wait for the workflow to complete
 4. The workflow will automatically:
-   - Export and QC-filter data from `devel`
-   - Count row differences vs the previous release
-   - Write the NEWS entry with row counts and your notes
+   - Export and QC-filter data from bugsigdb.org, again, so it can include
+     curation done since the dry run
+   - Compute the SUMMARY and the GMT row count differences from the
+     previous release
+   - Write the NEWS entry with these and your notes
    - Commit filtered files and NEWS to the `release` branch
    - Create and push the version tag
    - Create the GitHub release
@@ -136,7 +164,10 @@ the issue on `devel` and repeat step 1 when ready.
 
 ## Finalizing the Release
 
-After the workflow completes:
+After the workflow completes, check the GitHub release and the Zenodo
+version, post the commit run's `dropped.md` as the curation meta-issue (see
+[Release QC report](#release-qc-report)), and update bugsigdbr (see the
+release checklist issue template).
 
 ### GitHub Release
 
