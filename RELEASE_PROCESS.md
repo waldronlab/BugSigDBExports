@@ -132,8 +132,10 @@ overrides that match nothing under "Stale overrides", for removal.
    - Check that `full_dump.csv` and the GMT files look correct
    - Check the SUMMARY and row counts in `NEWS`, and any notes you provided
    - Verify row count changes are as expected
-   - Read `dropped.md`, and add overrides for data that should be released
-     anyway (see [Overrides](#overrides))
+   - Read `dropped.md`, and add overrides for data that failed a check but
+     should be released anyway (see [Overrides](#overrides)). Unreviewed
+     signatures, retracted studies and studies whose Review state is
+     Incorrect can't be overridden; fix those on bugsigdb.org instead
 6. Review the run summary posted at the bottom of the Actions run page
 
 If `full_dump.csv` is identical to the previous release's, apart from its
