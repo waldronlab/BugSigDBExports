@@ -7,6 +7,14 @@
 #        dropped.csv) for posting as a meta-issue on
 #        waldronlab/BugSigDBcuration.
 #
+#        The report ends with "Kept, needs fixing" (also kept.csv):
+#        problems in released data that don't justify dropping it, such as
+#        a taxon in both the increased and decreased signature of an
+#        experiment. It also lists Complete studies missing from every
+#        export because their page name contains "/", which the BugSigDB
+#        CSV export splits on. GitHub limits an issue or comment to 65,536
+#        characters, so a long report is split into dropped-2.md, ...
+#
 ############################################################
 
 ## Validation helpers

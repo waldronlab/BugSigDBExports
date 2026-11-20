@@ -45,7 +45,7 @@ counts(bugsigdbr::importBugSigDB(version = "<new DOI>", cache = FALSE))
 
 - [ ] Dry run of **Release BugSigDB** as vX.Y.Z; check `NEWS` in the artifact and read `release_qc/dropped.md`
 - [ ] Commit run with the same tag. Pass new fields, QC changes and anything else users should know in the `news` input, in Bioconductor NEWS format
-- [ ] GitHub release and tag checked; Zenodo record published and its metadata checked
+- [ ] GitHub release and tag checked; Zenodo version published by the workflow (DOI in its run summary), with `full_dump.csv` and the GMT files as separate files and the metadata checked
 - [ ] `importBugSigDB(version = "<new DOI>")` works and returns any new columns
 - [ ] Check the commit run's `dropped.md` by hand and post it as a meta-issue on waldronlab/BugSigDBcuration (`dropped-2.md` and on as comments), linking existing and new curation issues next to the studies they cover; close the previous release's meta-issue
 
