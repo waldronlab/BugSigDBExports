@@ -41,7 +41,8 @@ curators.
   `Rscript inst/scripts/scan_qc_issue.R <issue URL>`, fill in the `reason`
   column, and merge the change as a pull request.
 - Write the release notes for `NEWS` in a file, e.g. `news.txt`, in
-  Bioconductor NEWS format (see [NEWS](#news)).
+  Bioconductor NEWS format, with their own section headings (see
+  [NEWS](#news)).
 
 ## Steps
 
@@ -56,15 +57,16 @@ curators.
 
 2. **Check the dry run.** Its artifacts are `candidate`, with the files and
    `NEWS`, and `release-qc-dryrun`, with `dropped.md`, which the run summary
-   also shows. Check the SUMMARY in `NEWS` and read `dropped.md`. For data
-   that is right as it is but fails a check, add an override to
-   `release_qc_overrides.tsv` by pull request and repeat the dry run.
+   also shows. If the export hasn't changed since the last release, the run
+   says there is no new data and there is nothing to release. Check the
+   SUMMARY in `NEWS` and read `dropped.md`. For data in this run's
+   `dropped.md` that is right as it is but fails a check, add an override
+   to `release_qc_overrides.tsv` by pull request and repeat the dry run.
    Unreviewed signatures, retracted studies and studies whose Review state
    is Incorrect can't be overridden; fix those on bugsigdb.org.
 
 3. **Commit run.** The same command with `-f dryrun=false`. It downloads the
-   export again, so it can include curation done since the dry run. If the
-   export hasn't changed since the last release, it releases nothing.
+   export again, so it can include curation done since the dry run.
 
 4. **Check the release.** The GitHub release has the `NEWS` entry, and the
    Zenodo DOI is in the summary of the **Upload BugSigDB release to Zenodo**
@@ -84,11 +86,12 @@ curators.
 
 ## NEWS
 
-The workflow adds an entry to `NEWS` on `release`, with a SUMMARY and the
-GMT row counts, followed by the `news` input:
+The workflow adds an entry to `NEWS` on `release`: the NEW DATA section,
+with a SUMMARY and the GMT row counts, followed by the `news` input as
+written, so the input needs its own headings. For v1.4.0:
 
 ```
-CHANGES IN VERSION vX.Y.Z
+CHANGES IN VERSION v1.4.0
 ------------------------
 
 NEW DATA
@@ -98,7 +101,13 @@ NEW DATA
     o bugsigdb_signatures_genus_metaphlan.gmt: 8444 rows (+3161)
     ...
 
+NEW FIELDS                            <- from here on, the news input
+
+    o Study columns Curation method (Manual or Machine), Curation
+    ...
+
 QUALITY CONTROL
 
-    o Release notes from the news input
+    o Removed studies tagged "Retracted paper"
+    ...
 ```
