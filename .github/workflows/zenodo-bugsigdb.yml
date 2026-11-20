@@ -1,0 +1,81 @@
+# Publishes a tagged release on Zenodo as a new version of the BugSigDB
+# record (concept 10.5281/zenodo.5606165), with full_dump.csv, the GMT files
+# and README.md as individual files, which bugsigdbr::importBugSigDB() reads.
+# Called by Release BugSigDB after a commit run; run it by hand to retry or
+# to upload an earlier tag. Needs the ZENODO_TOKEN repository secret.
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "Release tag to upload, e.g. v1.4.0"
+        required: true
+        type: string
+      publish:
+        description: "Publish; 'false' leaves a draft to check on Zenodo, reused by the next run"
+        required: false
+        default: 'false'
+        type: choice
+        options:
+          - 'false'
+          - 'true'
+  workflow_call:
+    inputs:
+      version:
+        required: true
+        type: string
+      publish:
+        required: false
+        default: 'true'
+        type: string
+    secrets:
+      ZENODO_TOKEN:
+        required: true
+    outputs:
+      doi:
+        description: "DOI of the published Zenodo version"
+        value: ${{ jobs.zenodo.outputs.doi }}
+
+name: Upload BugSigDB release to Zenodo
+
+# one upload at a time, so a manual retry can't race the release workflow
+concurrency:
+  group: zenodo-bugsigdb
+  cancel-in-progress: false
+
+jobs:
+  zenodo:
+    runs-on: ubuntu-latest
+    outputs:
+      doi: ${{ steps.upload.outputs.doi }}
+    steps:
+      - name: Checkout BugSigDBExports devel
+        uses: actions/checkout@v7
+        with:
+          ref: devel
+          path: BugSigDBExports
+          fetch-depth: 1
+
+      - name: Checkout release tag
+        uses: actions/checkout@v7
+        with:
+          ref: refs/tags/${{ inputs.version }}
+          path: release
+          fetch-depth: 1
+
+      - name: Test the upload script
+        run: |
+          cd $GITHUB_WORKSPACE/BugSigDBExports
+          python3 -m unittest discover -s inst/tests -p 'test_*.py' -v
+
+      - name: Upload to Zenodo
+        id: upload
+        env:
+          ZENODO_TOKEN: ${{ secrets.ZENODO_TOKEN }}
+          VERSION: ${{ inputs.version }}
+          PUBLISH: ${{ inputs.publish }}
+        run: |
+          ARGS=(--version "$VERSION" --dir "$GITHUB_WORKSPACE/release")
+          if [ "$PUBLISH" = "true" ]; then ARGS+=(--publish); fi
+          python3 "$GITHUB_WORKSPACE/BugSigDBExports/inst/scripts/zenodo_release.py" "${ARGS[@]}"
+        timeout-minutes: 30

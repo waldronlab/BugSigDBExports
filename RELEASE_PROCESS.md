@@ -130,7 +130,9 @@ the issue on `devel` and repeat step 1 when ready.
    - Write the NEWS entry with row counts and your notes
    - Commit filtered files and NEWS to the `release` branch
    - Create and push the version tag
-   - Create the release, which should automatically create the Zenodo entry
+   - Create the GitHub release
+   - Publish the release on Zenodo (the **Upload BugSigDB release to Zenodo**
+     workflow, below)
 
 ## Finalizing the Release
 
@@ -143,9 +145,41 @@ After the workflow completes:
 
 ### Zenodo
 
-1. Go to [zenodo.org](https://zenodo.org) and find the new record
-2. Verify the metadata (authors, description, keywords) is accurate
-3. Edit if necessary and save
+The commit run ends by calling **Upload BugSigDB release to Zenodo**
+(`.github/workflows/zenodo-bugsigdb.yml`, `inst/scripts/zenodo_release.py`).
+It publishes a new version of the BugSigDB record,
+[10.5281/zenodo.19740649](https://doi.org/10.5281/zenodo.19740649), with
+`README.md`, `full_dump.csv` and the 15 GMT files from the release tag as
+individual files. Title, creators, keywords and license come from
+`.zenodo.json` on the tag; the description is the release's NEWS entry.
+Before publishing, it checks that the new version has exactly these files,
+with matching MD5 checksums.
+
+`bugsigdbr::importBugSigDB()` downloads `full_dump.csv` from the record, so
+it can't use the zip of the repository that the Zenodo GitHub integration
+archives. The integration is turned off for this repository; the workflow
+replaces it. Releases up to v1.3.1 were uploaded by hand under
+[10.5281/zenodo.5606165](https://doi.org/10.5281/zenodo.5606165); v1.4.0
+(10.5281/zenodo.24379934) was archived by the integration, and its files
+were added afterwards.
+
+It needs the `ZENODO_TOKEN` repository secret: a Zenodo personal access token
+with the `deposit:write` and `deposit:actions` scopes, from the account that
+owns the record.
+
+To retry, or to upload a tag released without it, run the workflow by hand
+with the tag. With `publish` set to `false` it leaves a draft to check on
+Zenodo, which the next run reuses; a version already on Zenodo with
+`full_dump.csv` is not uploaded again. To see what would be uploaded without
+a token:
+`python3 inst/scripts/zenodo_release.py --version vX.Y.Z --dir <checkout of the tag> --plan`.
+Its tests, which don't call Zenodo, run before each upload:
+`python3 -m unittest discover -s inst/tests -p 'test_*.py'`.
+
+After publishing:
+
+1. Open the DOI in the workflow summary and check the files and metadata
+2. Use the DOI as the `importBugSigDB()` default in bugsigdbr
 
 ## NEWS File Format
 
