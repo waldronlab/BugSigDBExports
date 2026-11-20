@@ -518,7 +518,7 @@ writeDroppedReport <- function(bsdb, failed, cleared, stale, version,
                   "BugSigDB CSV export splits page names at `/`, so their experiments and",
                   "signatures can't be matched to them. Studies named by a URL should be",
                   "renamed to their PMID or DOI."), "",
-            sprintf("- [ ] [%s](%s)", unexported, page(unexported)))))
+            fixedBoxes(sprintf("[%s](%s)", unexported, page(unexported))))))
     }
 
     if (!is.null(kept) && nrow(kept)) {
@@ -528,9 +528,9 @@ writeDroppedReport <- function(bsdb, failed, cleared, stale, version,
                         function(s) length(unique(s)))
         has <- names(kcounts)[kcounts > 0]
         sections <- c(sections, list(c("", "## Kept, needs fixing", "",
-            paste("Problems in released data that don't justify dropping it. Tick the box",
-                  "after fixing the study on bugsigdb.org. Items are experiments (`2`),",
-                  "signatures (`2/1`) or the whole study."), "",
+            paste("Problems in released data that don't justify dropping it. Tick",
+                  "**Fixed on bugsigdb.org** after correcting the study. Items are",
+                  "experiments (`2`), signatures (`2/1`) or the whole study."), "",
             "| Problem | Items | Studies |", "|---|---|---|",
             sprintf("| %s | %d | %d |", KEPT_LABELS[has], kcounts[has], kstud[has]))))
         for (k in has) {
@@ -552,16 +552,28 @@ writeDroppedReport <- function(bsdb, failed, cleared, stale, version,
                 sec <- c(sec, sprintf("<details><summary>%d studies</summary>", length(lines)), "",
                          paste0("- ", lines), "", "</details>")
             else
-                sec <- c(sec, paste0("- [ ] ", lines))
+                sec <- c(sec, fixedBoxes(lines))
+            # shown where a comment starts inside this part
+            attr(sec, "continued") <- KEPT_CONTINUED
             sections <- c(sections, list(sec))
         }
     }
     writeReportParts(out, sections, md.file)
 }
 
+# One study per line, each with a labelled Fixed on bugsigdb.org box, as in
+# the dropped sections
+fixedBoxes <- function(lines)
+    as.vector(rbind(paste0("- ", lines), "  - [ ] Fixed on bugsigdb.org"))
+
+KEPT_CONTINUED <- paste("**Kept, needs fixing (continued)**: released data with problems",
+                        "to fix on bugsigdb.org. Tick **Fixed on bugsigdb.org** after",
+                        "correcting the study.")
+
 # GitHub limits an issue body or comment to 65,536 characters. Pack the
 # sections into dropped.md (the issue body) and, if needed, dropped-2.md,
-# dropped-3.md, ... (one comment each), keeping each section whole.
+# dropped-3.md, ... (one comment each), keeping each section whole. A
+# section's "continued" attribute is shown when it starts a new part.
 writeReportParts <- function(header, sections, md.file, limit = 60000)
 {
     size <- function(x) sum(nchar(x, type = "bytes")) + length(x)
@@ -569,7 +581,9 @@ writeReportParts <- function(header, sections, md.file, limit = 60000)
     for (sec in sections) {
         n <- length(parts)
         if (size(parts[[n]]) + size(sec) > limit)
-            parts[[n + 1]] <- sec[-1]
+            parts[[n + 1]] <- c(if (!is.null(attr(sec, "continued")))
+                                    c(attr(sec, "continued"), ""),
+                                sec[-1])
         else
             parts[[n]] <- c(parts[[n]], sec)
     }

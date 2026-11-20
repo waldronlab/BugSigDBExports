@@ -108,3 +108,19 @@ test_that("release_summary.R counts signatures, experiments and studies", {
                    stdout = TRUE)
     expect_match(paste(out, collapse = " "), "the previous release: 0, 0 and 0", fixed = TRUE)
 })
+
+test_that("kept items get a labelled Fixed box, and continued parts a reminder", {
+    expect_equal(fixedBoxes(c("[1](u1): 2", "[3](u3): 4")),
+                 c("- [1](u1): 2", "  - [ ] Fixed on bugsigdb.org",
+                   "- [3](u3): 4", "  - [ ] Fixed on bugsigdb.org"))
+    kept <- c("", "### Kept section", "", strrep("x", 50))
+    attr(kept, "continued") <- KEPT_CONTINUED
+    dropped <- c("", "### Dropped section", "", strrep("y", 50))
+    md <- tempfile(fileext = ".md")
+    capture.output(writeReportParts("header", list(dropped, kept, kept, dropped), md, limit = 100))
+    parts <- lapply(c(md, paste0(sub("\\.md$", "", md), c("-2.md", "-3.md", "-4.md"))), readLines)
+    expect_equal(parts[[1]][3], "### Dropped section")
+    expect_equal(parts[[2]][1], KEPT_CONTINUED)
+    expect_equal(parts[[3]][1], KEPT_CONTINUED)
+    expect_equal(parts[[4]][1], "### Dropped section")
+})
