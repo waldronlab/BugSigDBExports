@@ -554,7 +554,7 @@ writeDroppedReport <- function(bsdb, failed, cleared, stale, version,
             else
                 sec <- c(sec, fixedBoxes(lines))
             # shown where a comment starts inside this part
-            attr(sec, "continued") <- KEPT_CONTINUED
+            attr(sec, "continued") <- keptContinued(!(k %in% KEPT_NO_CHECKBOX))
             sections <- c(sections, list(sec))
         }
     }
@@ -566,9 +566,10 @@ writeDroppedReport <- function(bsdb, failed, cleared, stale, version,
 fixedBoxes <- function(lines)
     as.vector(rbind(paste0("- ", lines), "  - [ ] Fixed on bugsigdb.org"))
 
-KEPT_CONTINUED <- paste("**Kept, needs fixing (continued)**: released data with problems",
-                        "to fix on bugsigdb.org. Tick **Fixed on bugsigdb.org** after",
-                        "correcting the study.")
+keptContinued <- function(boxes = TRUE)
+    paste("**Kept, needs fixing (continued)**: released data with problems to fix",
+          if (boxes) "on bugsigdb.org. Tick **Fixed on bugsigdb.org** after correcting the study."
+          else "on bugsigdb.org.")
 
 # GitHub limits an issue body or comment to 65,536 characters. Pack the
 # sections into dropped.md (the issue body) and, if needed, dropped-2.md,
